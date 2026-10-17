@@ -1,0 +1,51 @@
+{
+  "article_id": "5000558373",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558373-email-forwarders",
+  "title": "Email Forwarders",
+  "category": "Emails",
+  "folder": "Email Accounts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email Accounts",
+    "Email Forwarders"
+  ],
+  "content": "## Email Forwarders\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000558373\n\n\n## Email Forwarders Not Supported\n\n\nIMPORTANT: The Email Forwarders functionality has been removed from our implementation of cPanel as of June, 2024.\n\nDue to the way this functionality works in cPanel, it caused several issues for users. Some of these issue included:\n\n- Not all emails being forwarded properly based on the domain settings of the email sender and the receiver of the forwarded email\n\n- Sendgrid blocking emails from being sent to accounts hosted in cPanel, preventing the Admins of sites from getting notification emails\n\n- The domain reputation and reputation of the server being harmed when SPAM emails are forwarded through this system\n\nWhile email forwarders can no longer be added or modified, any existing email forwarders will remain in place.  If an email forwarder needs to be removed from a site, please submit a ticket to our Support Team for assistance.\n\n\n## Recommendations to Replace Email Forwarders\n\n\nThe recommended alternative for using email forwarders is to use an email app that can send and receive emails from multiple email accounts in one place:\n\n\n### Gmail\n\n\nPaid Google Workspace email accounts can connect to 3rd party email accounts to send and receive emails.  For this, the MX record would need to be pointed to Google workspace, for more information: How To Change Email MX Records\n\n\n### Thunderbird\n\n\nThis is a free desktop email application from Mozilla, the makers of the FireFox browser. Thunderbird offers an app for Windows, MacOS, and Linux operating systems.\n\n\n### Apple Mail\n\n\nApple includes a free email client that can connect to 3rd party email accounts for all of their devices and operating systems.\n\n\n### Microsoft\n\n\nWindows Mail and Microsoft Outlook - Microsoft includes the Windows Mail and Outlook for Windows applications for free on devices using Windows 10 or newer. Both of these applications can connect to 3rd party email accounts.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000558373",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558373"
+    },
+    {
+      "text": "Gmail",
+      "url": "https://gmail.com"
+    },
+    {
+      "text": "Google Workspace",
+      "url": "https://workspace.google.com/"
+    },
+    {
+      "text": "How To Change Email MX Records",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000034035-how-to-change-email-mx-records"
+    },
+    {
+      "text": "Thunderbird",
+      "url": "https://www.thunderbird.net/"
+    },
+    {
+      "text": "Apple Mail",
+      "url": "https://support.apple.com/mail"
+    },
+    {
+      "text": "Windows Mail",
+      "url": "https://apps.microsoft.com/detail/9wzdncrfhvqm"
+    },
+    {
+      "text": "Microsoft Outlook",
+      "url": "https://apps.microsoft.com/detail/9nrx63209r7b"
+    }
+  ],
+  "lastmod": "2026-06-18T01:10:33+05:30",
+  "scraped_at": "2026-10-17T11:46:42.454496"
+}
