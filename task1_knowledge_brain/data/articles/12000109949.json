@@ -1,0 +1,43 @@
+{
+  "article_id": "12000109949",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109949-account-dashboard-change-password",
+  "title": "Account Dashboard » Change Password",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Account Dashboard » Change Password"
+  ],
+  "content": "## Account Dashboard » Change Password\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109949\n\nThe Change Password page in the Account Dashboard sets a new password for the signed-in admin account. Changing the password here also signs the account out of every session, on every browser and device, so anyone still signed in with the old password loses access.\n\n\n## Before Starting\n\n\n- Sign in to the Account Dashboard .\n\n- The current password is required. If it is not known, use the forgot password link on the admin sign-in page instead.\n\n- Have the new password ready before continuing: the current browser is signed out as soon as the password changes.\n\n\n## How to Open Change Password\n\n\n- In the Account Dashboard, click the admin name at the top right.\n\n- Select Login Settings (or any other account page).\n\n- In the Account menu on the left, click Change Password .\n\n\n## Change the Password\n\n\n- Enter the Current password .\n\n- Enter the New password .\n\n- Check the requirements under the field. Each one is marked as it is met: At least 10 characters A letter and a number, or 16+ characters Different from your current password Both new password fields match\n\n- At least 10 characters\n\n- A letter and a number, or 16+ characters\n\n- Different from your current password\n\n- Both new password fields match\n\n- Enter the same password again in Confirm new password .\n\n- Click Change password . The button becomes available once every requirement is met.\n\nThe new password is also refused if it is one of the most commonly guessed passwords, matches the admin's name or email address, was used before on this account, is longer than 72 characters, or starts or ends with a space. The page shows a message explaining which rule was not met.\n\n\n## After the Password Changes\n\n\n- The message Your password has been changed. Signing you out so you can sign in with it. appears, and the sign-in page opens with Please sign in with your new password.\n\n- Every session for the account is signed out, including the current one. Other browsers and devices must sign in again with the new password.\n\n- Any reset your password links sent to the account earlier stop working.\n\n- A confirmation email is sent to the account's sign-in email, so an unexpected change is noticed straight away.\n\nToo many incorrect attempts. After several incorrect current passwords, the page stops accepting attempts for 15 minutes. Wait, then try again, or use the forgot password link on the sign-in page.\n\n\n## Related Articles\n\n\n- Account Dashboard » Login Settings\n\n- Admin Sessions",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185979023/original/b5sECTWgt9SE852JgfXNl59p4Uc_z9_RfA.png?1790709157",
+      "alt": "Change Password page with its fields numbered",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109949",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109949"
+    },
+    {
+      "text": "Account Dashboard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476"
+    },
+    {
+      "text": "Account Dashboard » Login Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947"
+    },
+    {
+      "text": "Admin Sessions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079598"
+    }
+  ],
+  "lastmod": "2026-09-30T10:00:00Z",
+  "scraped_at": "2026-10-17T13:48:49.446473"
+}
