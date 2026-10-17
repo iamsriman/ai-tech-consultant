@@ -62,9 +62,18 @@ class BDQueryEngine:
         self,
         retriever: Optional[KnowledgeRetriever] = None,
         ticket_manager: Optional[TicketManager] = None,
+        vector_store: Optional["BDVectorStore"] = None,
         model_name: str = "claude-3-5-haiku-20241022",
         min_confidence_threshold: float = 0.35,
     ):
+        # Backward compatibility: tests may pass vector_store directly
+        if vector_store is not None and retriever is None:
+            retriever = KnowledgeRetriever(vector_store)
+        self.retriever = retriever or KnowledgeRetriever()
+        self.ticket_manager = ticket_manager or TicketManager()
+        self.model_name = model_name
+        self.min_confidence_threshold = min_confidence_threshold
+        self.api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
         self.retriever = retriever or KnowledgeRetriever()
         self.ticket_manager = ticket_manager or TicketManager()
         self.model_name = model_name

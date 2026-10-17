@@ -1,0 +1,50 @@
+{
+  "article_id": "5000558363",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts",
+  "title": "Emails » Email Accounts",
+  "category": "Emails",
+  "folder": "Email Accounts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email Accounts",
+    "Emails » Email Accounts"
+  ],
+  "content": "## Emails » Email Accounts\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000558363\n\nEmail accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly.\n\n\n## Before starting\n\n\n- Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own.\n\n- Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them.\n\n\n## Open the email accounts\n\n\n- In the admin, open Emails .\n\n- Click Email Accounts .\n\n- Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered.\n\nEmail Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2).\n\n\n## Create and manage mailboxes\n\n\nOn the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings » Domain Manager » Mailboxes and Email Routing .\n\nGeneric addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice.\n\n\n## When the previous Email Accounts page appears\n\n\nThe previous Manage Email Accounts page still opens in two cases:\n\n- The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website .\n\n- The administrator's role does not include access to the Domain Manager's Mailboxes tab.\n\nOn a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1).\n\n\n## Additional notes\n\n\n- Email replies do not have a separate reply-to address. Responses go to the address that sent the original message.\n\n- To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588",
+      "alt": "Admin Emails menu with Email Accounts highlighted (1) and Domain Manager opening on its Mailboxes tab (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600",
+      "alt": "Manage Email Accounts message saying a live domain must be connected first, with the Connect Live Domain button highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363"
+    },
+    {
+      "text": "Settings » Domain Manager » Mailboxes and Email Routing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760"
+    },
+    {
+      "text": "How to Connect a Domain to a Brilliant Directories Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    },
+    {
+      "text": "How To Access Webmail Through the Admin Area",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000559800"
+    }
+  ],
+  "lastmod": "2026-06-18T20:33:08+05:30",
+  "scraped_at": "2026-10-17T23:02:15.661888"
+}

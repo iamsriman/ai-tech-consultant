@@ -1,0 +1,123 @@
+{
+  "article_id": "5000657865",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000657865-predictive-keyword-search",
+  "title": "Predictive Keyword Search",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Predictive Keyword Search"
+  ],
+  "content": "## Predictive Keyword Search\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000657865\n\nSearch functionality is a key element of any directory website… It’s how the users are able to find the information they need.\n\nThe Predictive Keyword Search add-on can help users find information on the website even faster. With this add-on, as a user begins typing their search term into the website’s search field they will instantly be presented with potential search results.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Predictive Keyword Search Add-On\n```\n\n\n## Enabling the Add-On\n\n\nTo customize the auto-suggest on the website please follow these steps:\n\n- Go to Developers Tools:\n\n- Click on Autosuggest Settings:\n\nAuto-Suggest Settings\n\nRule Variable: This is the variable that will be linked to the search box the admin would like to apply the auto-suggest rule to.\n\nThe admin can locate the current variable being used by hovering the mouse over the search box and inspecting the element. Here is a quick video that shows how to complete this.\n\nThese are the default options that we provide: When any of the default options is being edited or created, they all have the same setting options:\n\nUse a Class or ID: It is always recommend to select \"Class\".\n\nEnable Auto-Suggest After How Many Characters: This is the number of characters a website visitor needs to enter before the auto-suggest starts to show options. Maximum Auto-Suggest Limit: The total number allowed to be shown. If there area total of 25 possible results, but the limit is 10, only ten lines will show(1 header and 9 results), respected the order that it was set in the \"Select the features the admin would like to be searched in the autosuggest rule\" section. Keep in mind that the number set here includes the heading of each section. Example: If the maximum Autosuggest limit is set to 2 It will show the Header and just one listing. Auto-Suggest Rule Settings Enable Listings: This decides whether or not listings will appear in the auto-suggest. The same setting is available for all features and categories as well. Limit: The amount of listings that will display so long as the max limit has not already been reached. Photo: This allows the admin to decide whether or not a photo will display in the auto-suggest. We suggest turning this on for Listings and all features. Link: Turning this on will automatically take the visitor to the next page. Turning this off will auto-fill the box with that entry, but still allow the visitor to add a location. We suggest setting categories to \"no\" and the rest \"yes\". Show Header: The \"Header\" is the main title for that section. The following image shows three features that have \"Show Header\" as \"Yes\". Location: If \"Yes\" is selected, the location for that member or data post will show in the auto-suggest. In the image above, \"Listings\" have this set to \"yes\". Details : This will add a second line of information in the auto-suggest. The details vary on the item selected: Listing Details = The top-level category Sub-Categories Details = The top-level category. If it is a sub-sub, it will show the parent category (sub-level) All Feature Details = They will show the name of the Feature. Some customers prefer to use this instead of the \"Show Header\" option. Editing The Order\n\nThe auto-suggest also allows the admin to easily change the order of items being shown in the auto-suggest.\n\nThe highlighted modules are the ones active on the rule that's being edited:\n\nIn order to restore the settings back to default, click on the Restore Button:\n\nThis tool will reset all the settings to their default version and delete any updates the admin have completed so far.\n\nTo learn more about this add-on, please read this article: How To Edit Keyword Search Autosuggest Settings For Member Searches",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097447705/original/MO8UE9DMqNGpwPTxPv8dkNZFpJk0G2PQLA.png?1630107474",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097447698/original/XMwffWbkT0Xvo432CfqzoKzjXazkabyUOQ.png?1630107427",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5033775196/original/blob1440439599892.gif?1440439611",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097447732/original/bF9iJ6eZ4D05RwuPrj6_edS7Yfjs3W2-zg.png?1630107528",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12118956367/original/CUjAROnYyA7KyAp4ZQuTGUGcgo3K3IiMCA.png?1671733677",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119086796/original/5vl4aYAaUQPLKu8LNaGZHXl0W_WOenZBsg.png?1672168400",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119087135/original/x7M723z0wlml-JNdQmoPDxLeUCpHRMIeyA.png?1672168781",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086685851/original/xoFeXeZl7NF5oAFIn53s-JHs5P6GYN_3VA.png?1608734906",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097447784/original/--FhxQfia9JAahVz2ug664v1yzZdGLv_-A.png?1630107934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075252347/original/ylWjmcI79liIL7FiexS-0UPUdchDT4_S2A.gif?1584457149",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075252142/original/Sv_4CP7qAeFT8Kv1yy94Jt8fdXOYp-dC-w.png?1584456928",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097447789/original/3H4ZnzpcTByfTgvm-ZLImGevpBGK41Qg3g.png?1630107990",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000657865",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000657865"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Predictive Keyword Search Add-On",
+      "url": "https://www.brilliantdirectories.com/predictive-keyword-search-add-on"
+    },
+    {
+      "text": "How To Edit Keyword Search Autosuggest Settings For Member Searches",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000004676"
+    }
+  ],
+  "lastmod": "2026-08-28T22:06:45+05:30",
+  "scraped_at": "2026-10-17T23:06:01.601106"
+}

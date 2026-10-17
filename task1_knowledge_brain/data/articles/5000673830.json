@@ -1,0 +1,104 @@
+{
+  "article_id": "5000673830",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830-finance-payment-settings-setting-up-a-payment-gateway",
+  "title": "Finance » Payment Settings - Setting Up A Payment Gateway",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Finance » Payment Settings - Setting Up A Payment Gateway"
+  ],
+  "content": "## Finance » Payment Settings - Setting Up A Payment Gateway\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000673830\n\nSee the steps below for connecting a payment gateway (Stripe, PayPal Standard, 2Checkout, PayPal Payments Pro, Authorize.net...).\n\n\n## 1. Set Up An Account\n\n\nIf the website does not already have an account with a supported payment gateway, set one up.\n\nTo see a list of all supported payment gateways, refer to this documentation.: Supported Payment Gateways\n\n\n## 2. Add New Payment Gateway\n\n\nAfter selecting a payment gateway, create an account with the chosen payment gateway if one does not already exist. Navigate to Finance » Payment Settings, where a list of available gateways is displayed. Click the \"Add New Payment Gateway\" drop-down and select the desired gateway.\n\nNOTE: Stripe and PayPal are the most commonly used payment gateways. However, before selecting either option, review this article \"Stripe or PayPal Standard?\"\n\n\n## 3. Account Credentials\n\n\nEach gateway requires different credentials to connect it to Brilliant Directories.\n\nKeep in mind that the payment gateway will use the Website Currency selected under Settings » General Settings » Localization .\n\nImportant Note: When adding credentials for the Stripe gateway, there will be additional validation on each key field as the valid credentials should be between 25 and 255 characters, and the key cannot include dots (ex: ....).\n\nIn the \"Secret or Restricted Key\" field, it is possible to enter either a standard Secret Key (beginning with sk_) or a Restricted Key (beginning with rk_).\n\nStripe Credentials - How To Roll Key\n\n\n## 4. Verify \" Active \" Status\n\n\nComplete a test transaction by signing up as a new member on the front-end of the website.\n\n\n## Updating a Payment Gateway\n\n\nWhen adding an additional payment gateway, a notification will show indicating that making the new gateway active will not migrate active subscriptions to the new gateway and that the other gateways need to be deleted for the migration to occur:\n\nNote that if the previous payment gateway was an on-site payment gateway and the update is to another on-site gateway (Authorize.net, or PayPal Website Payments Pro or PayPal PayFlow pro) the billing database will keep the member's billing information on file and if there are any past due invoices the system will still attempt to bill the card on file using the new payment gateway.\n\nThis does not apply when the payment gateway update is from an off-site payment gateway to an on-site or another off-site, from Stripe to another on-site, from Stripe to another off-site gateway, or any other payment gateway to Stripe. The table below describes this information in detail:\n\nCurrent Payment Gateway New Payment Gateway Billing Information on File  Automatically Transferred Authorize.net, or PayPal Website Payments Pro or PayPal PayFlow pro Stripe No Authorize.net, or PayPal Website Payments Pro or PayPal PayFlow pro Authorize.net, or PayPal Website Payments Pro or PayPal PayFlow pro Yes Stripe Authorize.net, or PayPal Website Payments Pro or PayPal PayFlow pro No Stripe PayPal Express / Standard, PayFast, Verifone No Authorize.net, or PayPal Website Payments Pro or PayPal PayFlow pro PayPal Express / Standard, PayFast, Verifone No PayPal Express / Standard, PayFast, Verifone, Razorpay PayPal Express / Standard, PayFast, Verifone No PayPal Express / Standard, PayFast, Verifone, Razorpay Authorize.net,  PayPal Website Payments Pro, PayPal PayFlow pro, Stripe, Eway No\n\nFor more details on which payment gateways are on-site or off-site, refer to this article: Supported Payment Gateways\n\nImportant Note :\n\nStripe Customer ID's can be imported during the member import process . This is helpful when migrating from another platform and needing to associate existing Stripe customers with imported members, allowing subscriptions and payment records to remain linked.\n\nTo import the Stripe Customer ID, use the following variable name in the import file: stripe_customer_id\n\nThe accepted value must match the following format:\n\ncus_ followed by alphanumeric characters only (eg: cus_ABC123xyz789)\n\n\n## Deleting a Payment Gateway\n\n\nIf a payment gateway needs to be deleted, make sure to set up a new one and then make it \" Active \". After that, try to delete the old one. Trying to delete the active one will make this message appear:\n\nWhen there is more than one payment gateway, the one that is not active can be deleted:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159945105/original/bFrhPSZcRKGsJXG8FDL-Y4No-Zk7myrhLg.png?1744725847",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160605908/original/p9GdBmMEh-cb6ZoAKpZAlKu1bL9TmeZ91A.png?1745948869",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160605958/original/xh7aAjBGxIP60qlVW0UjZaob4biooqwGrw.png?1745948915",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100659351/original/-zLf9Vo_OSNIzCBnsgzaLqT8Zzz9qdUUxA.png?1636383524",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124215885/original/aYpeYrgwqAT8aGS8KML0oHnYZZog2dNVXA.png?1681820894",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087649731/original/076Pne3PE0tmYWBNlcbLQOkD_Q1kV_owNQ.png?1611065625",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087649756/original/OwGd5eEZM4Du2Y_b3OPJT5WP6NTxeGQTwA.png?1611065662",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12081936076/original/_pPq628fqDI17pChIBx2pSacf1eYgwqewA.png?1599098813",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830"
+    },
+    {
+      "text": "Supported Payment Gateways",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843"
+    },
+    {
+      "text": "\"Stripe or PayPal Standard?\"",
+      "url": "https://support.brilliantdirectories.com/solution/articles/12000043160"
+    },
+    {
+      "text": "Settings » General Settings » Localization",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042159-settings-general-settings-localization#section-currency"
+    },
+    {
+      "text": "Stripe Credentials - How To Roll Key",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083229"
+    },
+    {
+      "text": "Supported Payment Gateways",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000006843"
+    },
+    {
+      "text": "member import process",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000558475"
+    }
+  ],
+  "lastmod": "2026-07-15T21:46:59+05:30",
+  "scraped_at": "2026-10-17T23:06:05.450237"
+}

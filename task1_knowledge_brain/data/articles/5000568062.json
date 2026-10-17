@@ -1,0 +1,27 @@
+{
+  "article_id": "5000568062",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000568062-mandatory-fields-for-member-imports",
+  "title": "Mandatory Fields For Member Imports",
+  "category": "My Members",
+  "folder": "Import Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Import Members",
+    "Mandatory Fields For Member Imports"
+  ],
+  "content": "## Mandatory Fields For Member Imports\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000568062\n\nIf there are any issues during the import process, it may be caused by one of the following mandatory fields missing.\n\n\n## Name or Company (name, company)\n\n\nField Variable: name, company\n\nInclude either the \"name\" or \"company\" fields. It is also possible to include both.\n\nName: Combines the first and last name.\n\nCompany: Company name\n\n\n## Listing Type (listing_type)\n\n\nField Variable: listing_type\n\nCompany: Will display the company name in search results\n\nIndividual: Displays the individual's name in search results (commonly used for medical or professional directories).\n\n\n## Country Code (country_code)\n\n\nField Variable: country_code\n\nTwo-letter country codes are assigned to each listing. Although only the country_code is strictly required, omitting the zip_code and city fields prevents accurate geo-coding, resulting in an incomplete user experience.\n\n\n## Profession Name (profession_name)\n\n\nField Variable: profession_name\n\nTop-level categories associated with each member. This is the minimum required to have members import and display properly.\n\n\n## Subscription & Billing Fields\n\n\nThe following fields are optional for standard member imports. However, when importing existing subscription information, both fields must be provided together.\n\nIMPORTANT: Subscription and billing fields are optional and are not required for standard member imports. However, if importing subscription information, both subscription_start_date and billing_cycle must be included together.\n\n\n### Subscription Start Date\n\n\nField Variable: subscription_start_date\n\nDefines the subscription start date for an imported member on a paid membership plan. This field must be provided together with billing_cycle .\n\nAccepted date formats:\n\n- YYYY-MM-DD (example: 2024-06-15)\n\n- YYYYMMDD (example: 20240615)\n\n- The website's configured date format (e.g. MM/DD/YYYY or DD/MM/YYYY)\n\nThe subscription start date cannot be more than one billing cycle in the past or more than 10 years in the future.\n\n\n### Billing Cycle\n\n\nField Variable: billing_cycle\n\nDefines the billing cycle for the imported member's subscription. This field must be provided together with subscription_start_date . The corresponding billing amount configured in the selected Membership Plan must be greater than 0.\n\nAvailable billing cycles depend on the billing options and prices configured for the selected Membership Plan. The corresponding billing amount for the selected cycle must be greater than 0. For example, if the billing cycle is Monthly, the plan's monthly amount must be greater than 0.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000568062",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000568062"
+    },
+    {
+      "text": "country codes",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000001204"
+    }
+  ],
+  "lastmod": "2026-08-18T06:22:57+05:30",
+  "scraped_at": "2026-10-17T23:05:56.970018"
+}

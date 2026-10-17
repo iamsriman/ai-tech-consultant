@@ -1,0 +1,166 @@
+{
+  "article_id": "5000619186",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000619186-member-profile-analytics",
+  "title": "Member Profile Analytics",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Member Profile Analytics"
+  ],
+  "content": "## Member Profile Analytics\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000619186\n\nThe Member Profile Analytics add-on is a click tracking tool, provides insights for admins and members with valuable data such as profile views, clicks to their website, visits to their social media profiles and member posts – all broken down by day, month and year.\n\nUse these statistics to show the members how they are analytically benefiting from the website.\n\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Member Profile Analytics Add-On\n\n\n## Enabling the Add-On\n\n\nSelect which membership plan is allowed to view Profile Stats in Finance > Membership Plans :\n\nClick Edit to enable the statistics inside the plan settings:\n\nOpen the Member's Dashboard tab: Scroll down to the option for \"Enable Profile Statistics\" and select the option that the admin wishes to have: Enable Only For Admin Enable For Member And Admin Disabled Tracked Links Here is a list of the links that the website tracks in the Profile Analytics for members. Member Profile Clicks Profile Visit Phone Number Member Website URL Member Social Media Links Contact Form (Send Message): counted once per submission, whichever option the form uses under What Happens After Form Submitted (Display Success Pop-Up Message, Display Success Alert Message or Redirect to Another Page). Private Chat Messages (first interaction) The option that decides what happens after a contact form is submitted is set per form in Toolbox > Form Manager, by clicking Edit Form Settings on the form. Contact Form submissions are counted with any of the three options in the What Happens After Form Submitted dropdown: Multi-Image Post Clicks Photo Albums Products + External Link (Web URL that will link visitors to more details) Digital Products Properties + External Link (Web URL that will link visitors to more details) Classifieds + External Link (Web URL that will link visitors to more details) Single Image Post Clicks Videos Articles Jobs + External Link (Web URL that will link visitors to more details) Events + External Link (Web URL that will link visitors to more details) Coupons + External Link (Web URL that will link visitors to more details) Audios Discussions Tracking Custom Links A custom link or button added to a member’s listing, such as a booking button that opens an outside booking service, can be tracked too. Its clicks are counted in Profile Analytics under a name chosen for the link. A tracked custom link needs two things in its HTML: the weblink class and a data-click-type attribute holding the name that should appear in the statistics: Copy <a class=\"weblink\" data-click-type=\"Book a Visit\" href=\"https://example.com/book\" target=\"_blank\">Book a Visit</a> To add a tracked link to a member’s listing: Go to My Members >> Search Members and open the member. Click Edit Status to open the Quick Edit window, then open the Advanced Options tab (1). Paste the link HTML into Listing Custom FOOTER Code (2), changing the name, address and button text as needed. Click Save Changes . Once the link has been clicked at least once, its name appears as its own column on the member’s Profile Analytics tab (1, 2): Rules for tracked custom links: The link must be saved on the member’s own record , for example in Listing Custom FOOTER Code . A click is only counted when a link with the same data-click-type name is stored on that member. Links added another way, such as through site-wide header or footer code or a widget, are not counted. Names can use letters in any language, numbers, spaces, hyphens and underscores, up to 64 characters. Upper and lower case are treated as the same name. Names containing combining marks (some vowel signs in scripts such as Hindi or Thai) are not accepted. Built-in statistic names cannot be used , such as Website , Phone , Profile Views , Contact Form , Facebook or Instagram , so a custom link never adds to a built-in count. The link address can be anything , including an outside website. A link that is not a full web address (such as #book or /contact-us ) still counts; the click is stored with the address of the profile page it came from. A link without data-click-type is not counted when it points somewhere other than the member’s own website or social media profile fields. Adding the weblink class alone is not enough. Test while logged out. As with profile views, clicks made by the website admin or by the member while logged in are not counted. Notes All page loads are counted. However, views generated by the profile owner while logged in, as well as views by the website admin, are excluded. Clicks won't be tracked if the page content is set to Members-Only Content , or if the member is inactive. Viewing Profile Analytics Admins can monitor profile analytics from the Admin Dashboard and Member Dashboard , including search result views, daily and monthly profile visits, and recorded clicks on social media and website links. Detailed insights are available when profile statistics are enabled for a membership plan. Admin Dashboard The admins will be able to see the amount of views in the member search results, as well as in the member's Profile Analytics tab (opened from Actions » Account Details) if the profile statistics are enabled for the membership plan : Top Views Dashboard Modules The admin dashboard shows three modules for this: Most Viewed Profiles (1), Most Viewed Posts (2) and Visitor Activity (3), each with its own date range. Admin Dashboard Modules Member Dashboard Also the admin can login as any member in that specific Membership Level, on the left sidebar look for Profile Statistics click on it and the profile views per month will be shown: Click on the month to check more detailed stats, it will display the views per day:\n\nSocial media clicks and website link clicks will also be recorded and added to the report. They will not show up if no clicks have been registered. The Visual Chart can be placed anywhere in the Member Dashboard. For example, adding [widget=Bootstrap Theme - Account - Listing Statistics Chart] per Membership Plan under Member's Dashboard » Custom Dashboard Content » Dashboard Header Content : set the dropdown to Use Text Editor (1), paste the shortcode into the editor (2) and save the plan: Post Views Posts will display how many views they have received in total: Notes Currently, there is no Download Report functionality for this tool; the content is viewable only. Adding Stats to Emails Email variables make it possible to display the Stat numbers inside outgoing emails. This article outlines the format, shows the default variables available in the editor toolbar, lists all supported date options, and explains how to create custom variables. User Stats: Displaying Profile Statistics in Emails Using Variables Search Members Sorting Options Having this add-on active will show additional sorting options in the Search Members section in the admin dashboard. Members can be sorted by Most and Least views:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368588/original/OFRFxy9hvIIdcIBhMYvryHZBAdZkn9O7RQ.png?1791331910",
+      "alt": "Membership Plans list in the admin with Finance (1) expanded in the left menu and Membership Plans (2) highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368589/original/U5BNdJoZX0gS7ICBxptBnGqbIIXhJS8HLg.png?1791331912",
+      "alt": "Membership Plans table with the Edit button (1) highlighted on the Featured plan row.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368590/original/qHn5Zys5UPRBxRUAFnmGdD91Vxw5lt3nSQ.png?1791331914",
+      "alt": "Edit Membership Plan page for the Premium plan with the Member's Dashboard tab (1) highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368591/original/kq8Mz-w_hmKlxk17S3lVie40c3zhAoPv2Q.png?1791331915",
+      "alt": "Enable Profile Statistics dropdown (1) set to Enable For Member And Admin, with the options Disabled, Enable For Member And Admin and Enable Only For Admin listed.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368592/original/4howPusp_4szzMla-CaOwk3TgcYpaHBgaw.png?1791331916",
+      "alt": "Edit Form Editor for the Listing - Page - Send Message form with the What Happens After Form Submitted dropdown (1) highlighted on the Submission Settings tab.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186357158/original/r6HH170Mot-pf7sLMudsNBQUunlfMxb9xw.png?1791317390",
+      "alt": "Quick Edit window on the Advanced Options tab with a Book a Visit link pasted into the Listing Custom FOOTER Code field.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186357157/original/6yqnuU0XfZTBPbY5vaT6APKUzcTrhZcb8w.png?1791317388",
+      "alt": "Member's Profile Analytics tab with a new Book a Visit column showing a count of 1 next to Profile Views.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368593/original/onBhMyX2Oz_jaRT1BZ7d5wL3T43Fud5taQ.png?1791331917",
+      "alt": "Members list with the Profile Views count (1) highlighted for Johnny Cook and the Account Details option (2) highlighted in the Actions menu for Thomas Gregory.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368601/original/rvGagtt4gZxs6m-dL_-1GelidOCw2s3CIA.png?1791331919",
+      "alt": "Member account page for Thomas Gregory with the Profile Analytics tab (1) highlighted and the per Month columns Profile Views, View Single Post and Facebook Click (2) highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415550/original/9nxre-xQkqLIOdOO_aAgeKF0hvrWHDMyVg.png?1791392574",
+      "alt": "Dashboard widgets Most Viewed Profiles (1), Most Viewed Posts (2) and Visitor Activity (3), each with a Last Month filter highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368603/original/bJj-3XKgNL7aj8gwb-L81hBGX39NRZgSpA.png?1791331922",
+      "alt": "A member's My Dashboard with the Profile Statistics link (1) highlighted in the left menu.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368604/original/SmrgwoxtWyGuvuRFhXXZBGGp8xKGo1upcg.png?1791331923",
+      "alt": "Profile Statistics page with the year tabs from 2015 to 2026 (1) highlighted and the October row (2) labeled Click a month for daily views.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415552/original/9_8SENqqdq98onkukcHMuTa2pjCzAa45VA.png?1791392575",
+      "alt": "Profile Statistics daily view for October 2026 with the Daily chart (1) and the daily Posts Views table (2) highlighted.",
+      "caption": "Social media clicks and website link clicks will also be recorded and added to the report.They will not show up if no clicks have been registered.The Visual Chart can be placed anywhere in the Member Dashboard. For example, adding[widget=Bootstrap Theme - Account - Listing Statistics Chart]per Membe",
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368618/original/rdIXkFxzpQk5V0fT1Xt9-1KCC8okwD094A.png?1791331926",
+      "alt": "Membership plan Custom Dashboard Content section with the Dashboard Header Content dropdown set to Use Text Editor (1) and the Listing Statistics Chart widget shortcode pasted into the editor (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370611/original/G4K-v3YxGrZO-UFwAyeVbFk_WJf3nuhFug.png?1791335120",
+      "alt": "A member's My Dashboard with the Listing Statistics Chart (1) shown in the dashboard header.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368619/original/DFlbGMKUroQAGNnhYbMb0jO2nUvJU2qOaQ.png?1791331928",
+      "alt": "Job Openings list with the Views counters (1 and 2) highlighted on the Professional Barista and Pizza Specialist posts.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368620/original/o6HySby8dwjYKkunethrqbl7v-VbTd9Y8Q.png?1791331929",
+      "alt": "Members list with the Sort Most Views dropdown (1) highlighted and the Profile Views counts for John Smith (2) and Henry Barnes (3) highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000619186",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000619186"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Member Profile Analytics Add-On",
+      "url": "https://www.brilliantdirectories.com/member-profile-analytics-add-on"
+    },
+    {
+      "text": "Members-Only Content",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682638"
+    },
+    {
+      "text": "Admin Dashboard Modules",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049125"
+    },
+    {
+      "text": "User Stats: Displaying Profile Statistics in Emails Using Variables",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000105792"
+    }
+  ],
+  "lastmod": "2026-09-23T00:03:08+05:30",
+  "scraped_at": "2026-10-17T23:05:58.213601"
+}
