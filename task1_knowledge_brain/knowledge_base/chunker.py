@@ -46,7 +46,7 @@ class HierarchyAwareChunker:
     and multimodal screenshot descriptions.
     """
 
-    def __init__(self, target_chunk_size: int = 600, overlap: int = 60):
+    def __init__(self, target_chunk_size: int = 600, overlap: int = 100):
         # target_chunk_size in approximate words/tokens (~4 chars per word)
         self.target_tokens = target_chunk_size
         self.overlap_tokens = overlap

@@ -46,10 +46,15 @@ def query_knowledge_base(request: QueryRequest):
     Answers with source citations and screenshot links.
     Automatically creates a human expert ticket if evidence is insufficient.
     """
+    # Clean Swagger default placeholder 'string' or empty values
+    category = request.category_filter
+    if category and category.strip().lower() in ("string", "none", "null", ""):
+        category = None
+
     res = query_engine.query(
         question=request.query,
         top_k=request.top_k,
-        category_filter=request.category_filter,
+        category_filter=category,
     )
     citations = [
         CitationItem(

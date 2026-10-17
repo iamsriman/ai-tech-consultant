@@ -26,18 +26,72 @@
     "expert_name": null,
     "category": "string"
   },
-  "tkt_6c44ef1b": {
-    "ticket_id": "tkt_6c44ef1b",
-    "query": "How do I install custom Python microservices inside BD core kernel?",
+  "tkt_763d4f42": {
+    "ticket_id": "tkt_763d4f42",
+    "query": "How do I create and manage email accounts in Brilliant Directories?",
+    "reason": "no_relevant_documentation_found",
+    "status": "pending",
+    "created_at": "2026-10-17T18:57:58.677218",
+    "context_attempted": [],
+    "resolved_at": null,
+    "expert_answer": null,
+    "expert_name": null,
+    "category": "string"
+  },
+  "tkt_a62f2e63": {
+    "ticket_id": "tkt_a62f2e63",
+    "query": "what is bootstrap?",
+    "reason": "no_relevant_documentation_found",
+    "status": "pending",
+    "created_at": "2026-10-17T18:59:45.284971",
+    "context_attempted": [],
+    "resolved_at": null,
+    "expert_answer": null,
+    "expert_name": null,
+    "category": "string"
+  },
+  "tkt_21844ac8": {
+    "ticket_id": "tkt_21844ac8",
+    "query": "How do I create and manage email accounts in Brilliant Directories?",
+    "reason": "no_relevant_documentation_found",
+    "status": "pending",
+    "created_at": "2026-10-17T19:00:53.154334",
+    "context_attempted": [],
+    "resolved_at": null,
+    "expert_answer": null,
+    "expert_name": null,
+    "category": "string"
+  },
+  "tkt_e77f96bb": {
+    "ticket_id": "tkt_e77f96bb",
+    "query": "How do I change my account password?",
     "reason": "model_stated_unknown",
     "status": "resolved",
-    "created_at": "2026-10-17T18:55:19.214273",
+    "created_at": "2026-10-17T19:26:58.256261",
     "context_attempted": [
-      "Expert Answer: How do I launch a satellite into Mars orbit using Brilliant Directories?",
+      "Emails » Email Accounts",
       "Can I Send A Mass Email Campaign Using Brilliant Directories?",
-      "Emails » Email Accounts"
+      "Expert Answer: How do I install custom Python microservices inside BD core kernel?",
+      "Expert Answer: How do I launch a satellite into Mars orbit using Brilliant Directories?"
     ],
-    "resolved_at": "2026-10-17T18:55:19.234424",
+    "resolved_at": "2026-10-17T20:11:35.879997",
+    "expert_answer": "Brilliant Directories hosted environment does not permit internal kernel modification. Use Zapier or external API webhooks.",
+    "expert_name": "Senior Solutions Architect",
+    "category": null
+  },
+  "tkt_1f9d9528": {
+    "ticket_id": "tkt_1f9d9528",
+    "query": "How do I change my account password?",
+    "reason": "model_stated_unknown",
+    "status": "resolved",
+    "created_at": "2026-10-17T19:29:17.206206",
+    "context_attempted": [
+      "Emails » Email Accounts",
+      "Can I Send A Mass Email Campaign Using Brilliant Directories?",
+      "Expert Answer: How do I install custom Python microservices inside BD core kernel?",
+      "Expert Answer: How do I launch a satellite into Mars orbit using Brilliant Directories?"
+    ],
+    "resolved_at": "2026-10-17T20:08:59.944400",
     "expert_answer": "Brilliant Directories hosted environment does not permit internal kernel modification. Use Zapier or external API webhooks.",
     "expert_name": "Senior Solutions Architect",
     "category": null

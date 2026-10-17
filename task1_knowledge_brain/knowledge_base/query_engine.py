@@ -146,6 +146,10 @@ class BDQueryEngine:
         Queries the knowledge base, answers grounded in documentation,
         and logs a ticket if confidence is insufficient.
         """
+        # Sanitize category filter
+        if category_filter and category_filter.strip().lower() in ("string", "none", "null", ""):
+            category_filter = None
+
         # 1. Retrieve candidate chunks
         docs = self.retriever.retrieve(
             query=question,
