@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108131",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108131-api-reference-api-keys",
+  "title": "API Reference - API Keys",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - API Keys"
+  ],
+  "content": "## API Reference - API Keys\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108131\n\n← Back to API Reference | Getting Started API Keys API Keys are the credentials used to authenticate requests to the Brilliant Directories API. Each key has a name (for identification), a token (the secret value sent in the X-Api-Key header), and an active/inactive status. API keys can be created and managed from your admin panel under API Settings. Model name in URL: bd_api_keys — DB table: bd_api_keys The API Key Object Field Type Description api_key_id integer Unique API key ID (primary key, read-only) api_name string Descriptive nickname for this API key (EG Zapier Integration , Mobile App ); max 500 characters required on create api_token string The secret token value sent in the X-Api-Key request header; max 500 characters required on create api_status integer Whether this key is active; 1 = active, 0 = inactive. Inactive keys are rejected by the API added_by integer Foreign key referencing the administrator who created this key required on create created datetime Datetime when this API key was created List API Keys GET /api/v2/bd_api_keys/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/bd_api_keys/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"api_key_id\": \"3\",\n      \"api_name\": \"Zapier\",\n      \"api_token\": \"f6fa665b2a5fe8dfbebf5d5eba3c3821\",\n      \"api_status\": \"1\",\n      \"added_by\": \"27\",\n      \"created\": \"2023-07-13 09:57:45\"\n    },\n    {\n      \"api_key_id\": \"8\",\n      \"api_name\": \"Mobile App\",\n      \"api_token\": \"b417400ae864ba5413f0d063e5027591\",\n      \"api_status\": \"1\",\n      \"added_by\": \"27\",\n      \"created\": \"2023-10-26 08:23:43\"\n    }\n  ],\n  \"total\": \"7\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Retrieve an API Key GET /api/v2/bd_api_keys/get/{api_key_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/bd_api_keys/get/3\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"api_key_id\": \"3\",\n      \"api_name\": \"Zapier\",\n      \"api_token\": \"f6fa665b2a5fe8dfbebf5d5eba3c3821\",\n      \"api_status\": \"1\",\n      \"added_by\": \"27\",\n      \"created\": \"2023-07-13 09:57:45\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create an API Key POST /api/v2/bd_api_keys/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/bd_api_keys/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"api_name=New+Integration\" \\\n  -d \"api_token=a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6\" \\\n  -d \"api_status=1\" \\\n  -d \"added_by=27\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"api_key_id\": \"14\",\n    \"api_name\": \"New Integration\",\n    \"api_token\": \"a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6\",\n    \"api_status\": \"1\",\n    \"added_by\": \"27\",\n    \"created\": null\n  }\n} Update an API Key PUT /api/v2/bd_api_keys/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/bd_api_keys/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"api_key_id=14\" \\\n  -d \"api_name=Updated+Integration\" \\\n  -d \"api_status=0\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"api_key_id\": \"14\",\n    \"api_name\": \"Updated Integration\",\n    \"api_token\": \"a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6\",\n    \"api_status\": \"0\",\n    \"added_by\": \"27\",\n    \"created\": \"0000-00-00 00:00:00\"\n  }\n} Delete an API Key DELETE /api/v2/bd_api_keys/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/bd_api_keys/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"api_key_id=14\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"bd_api_keys record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108131",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108131"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:02:18+05:30",
+  "scraped_at": "2026-10-18T13:58:35.726595"
+}

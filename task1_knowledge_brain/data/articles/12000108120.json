@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108120",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108120-api-reference-countries",
+  "title": "API Reference - Countries",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Countries"
+  ],
+  "content": "## API Reference - Countries\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108120\n\n← Back to API Reference | Getting Started Countries The Countries table is a global reference list of country codes and names used throughout the platform for member location fields, search filtering, and geographic data validation. This is a read-only reference table; while CRUD endpoints are available, typical usage is GET operations only to look up valid country codes and names. Model name in URL: list_countries — DB table: list_countries The Country Object Field Type Description country_id integer Unique country ID (primary key, read-only) country_code string ISO 3166-1 alpha-2 country code (EG US , CA , GB ); 2 characters country_name string Full country name (EG United States ); max 255 characters active integer Whether this country is active in the platform; 1 = active, 0 = inactive List Countries GET /api/v2/list_countries/get Returns a paginated list of country records. Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/list_countries/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"country_id\": \"1\",\n      \"country_code\": \"AF\",\n      \"country_name\": \"Afghanistan\",\n      \"active\": \"1\"\n    },\n    {\n      \"country_id\": \"236\",\n      \"country_code\": \"US\",\n      \"country_name\": \"United States\",\n      \"active\": \"1\"\n    }\n  ],\n  \"total\": \"250\",\n  \"current_page\": 1,\n  \"total_pages\": 10,\n  \"next_page\": \"MipfKjI=\"\n} Retrieve a Country Record GET /api/v2/list_countries/get/{country_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/list_countries/get/236\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"country_id\": \"236\",\n      \"country_code\": \"US\",\n      \"country_name\": \"United States\",\n      \"active\": \"1\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Country Record POST /api/v2/list_countries/create Creates a new country record. This endpoint is available but not typically needed as the platform ships with a complete country list. Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/list_countries/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"country_code=XX\" \\\n  -d \"country_name=Example Country\" \\\n  -d \"active=1\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"country_id\": \"251\",\n    \"country_code\": \"XX\",\n    \"country_name\": \"Example Country\",\n    \"active\": \"1\"\n  }\n} Update a Country Record PUT /api/v2/list_countries/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/list_countries/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"country_id=251\" \\\n  -d \"active=0\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"country_id\": \"251\",\n    \"country_code\": \"XX\",\n    \"country_name\": \"Example Country\",\n    \"active\": \"0\"\n  }\n} Delete a Country Record DELETE /api/v2/list_countries/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/list_countries/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"country_id=251\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"list_countries record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108120",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108120"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:02:09+05:30",
+  "scraped_at": "2026-10-18T13:58:25.762177"
+}

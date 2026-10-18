@@ -1,0 +1,23 @@
+{
+  "article_id": "12000036117",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036117-10-06-17-software-updates",
+  "title": "10/06/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/06/17 - Software Updates"
+  ],
+  "content": "## 10/06/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000036117\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue that was affecting the ability of members to select Sub Level Categories in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We fixed an issue that was affecting the display of Top Level Categories on the homepage in the Safari browser. Widget Involved: Bootstrap Theme - Display - Top Categories\n\n- We fixed an issue that was causing a javascript console error when a page loads the Events Calendar widget. Widget Involved: Bootstrap Theme - Display - Events Calendar\n\n- We fixed an issue that was affecting the Froala Editor when we used the Create Table Feature in the Edit Web Page section of the Admin.\n\n- We made an improvement in the Member Cancellation Request Module: now Admins can see cancellation requests submitted by members in the Form Inquiry Module (where other contact form submissions display in the Admin). Also, in the Search Members page, all members who have requested to cancel will be highlighted in red.\n\n- We fixed an issue that was affecting the display of the Blog Post Articles Add-On. Widget Involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider\n\n- We fixed an issue that was affecting the Click-To-Call Members Add-On when the default phone call application is Skype.\n\n- Now the Reviews Information and the member distance will be included on the Insta-Load Search Results. Also we fixed an issue that was affecting the Insta-Load Add- On on the Reviews Page.\n\n- We fixed some minor issues that were affecting the behavior of the Insta-Load Search Results Add-On on Member Profile Pages. Widget Involved: Bootstrap - Search - Lazy Loader tabs\n\n- We released a Update for the Add-On Module which improves the speed of loading of Add-Ons and reduces server load.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000036117",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036117"
+    }
+  ],
+  "lastmod": "2017-10-07T01:52:15+05:30",
+  "scraped_at": "2026-10-18T13:41:51.637509"
+}

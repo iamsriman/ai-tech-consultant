@@ -1,0 +1,23 @@
+{
+  "article_id": "12000064821",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064821-11-15-19-software-updates",
+  "title": "11/15/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/15/19 - Software Updates"
+  ],
+  "content": "## 11/15/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000064821\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented a patch in order to make the \"Member Profile Analytics\" Add-On work even if the Member Profile widget has been customized and is out of date.\n\n- We updated the Google Maps integration in the Admin to pass the language of the website as part of all Google Maps queries in order to make sure the results that are returned are as consistent as possible.\n\n- We fixed an issue with setting the sort order of Posts to \"Random\" returning duplicate results in some cases. Widgets Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We updated the description of the \"Delete Sub Accounts on Master Deletion\" Product setting to better describe its functionality.\n\n- We updated the \"Digital Products\" Add-On to better protect the web page users see after making a purchase.  Now the system will double-check to make sure that only users that have purchased the product will be able to view the page.  Setting: Admin >> Content >> Edit Web Pages >> Edit >> Limit to Digital Product Buyers Only setting. Widgets Involved: Bootstrap Theme - HEAD Bootstrap Theme - Static Web Page\n\n- We updated the error handling for the \"Add Credit Card\" modal in the Member Dashboard in order to retrieve the error messages when entering invalid credit card information when using Stripe as the Payment Gateway.\n\n- We added the Image Caption feature to all Froala instances in the Admin and Front-End of sites. Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue which was causing the system to show only 10 results when using the \"Filter by Form\" search field on the Form Inquiries page in the Admin.\n\n- We added the ability to sort member search results pages by Member ID. In order to use this new feature, navigate to the Admin >> Content >> Edit Post Settings  >> Listing >> Search Results Design tab >> Additional Settings Widget Involved: Search - Member - Search Query\n\n- We updated the layout of the Activity tab on the Member Account Details page in the Admin.\n\n- We updated the description of the payment intent sent to Stripe when Stripe is the Payment Gateway of a site. the description will have the following format: Website Name - Invoice + $invoiceID.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000064821",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064821"
+    }
+  ],
+  "lastmod": "2019-11-19T01:20:54+05:30",
+  "scraped_at": "2026-10-18T13:45:43.681992"
+}

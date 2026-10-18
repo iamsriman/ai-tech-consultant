@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101085",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101085-08-02-2024-software-update",
+  "title": "08/02/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/02/2024 - Software Update"
+  ],
+  "content": "## 08/02/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101085\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue that was preventing the \"Visit My Website\" menu link from working properly on mobile devices in the Admin.\n\n- We updated the One-Click Facebook Login Add-On to include the first_name, last_name and middle_name as part of the data returned by Facebook after successfully completing a member signup.\n\n- The \"Follow Comments\" button text on the Community Comments Add-On is now compatible with Text Labels.\n\n- We added new button styles to the Froala WYSYWYG button feature in the Admin: circular style, outline style, extra large style.\n\n- We fixed an issue which was causing the Froala Ordered and Unordered List feature from displaying properly on the frontend of sites. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the Homepage Background Slider Add-On from working properly on mobile devices after selecting the Pure CSS Slideshow Loading Method in some cases. Widget Involved: Bootstrap Theme Framework\n\n- We updated the frontend of sites to return a 404 http status code when visiting the page to submit a message to a specific member when the \"Show 'Send Message' Buttons & Forms\" Membership Plan Setting is set to \"No\". Widget Involved: Bootstrap Theme - Member Profile - Contact Page\n\n- We fixed an issue which was affecting the ability to claim a member profile on the frontend in some cases.\n\n- We fixed an issue which was causing the system to display a blank page after a member changed their Membership Plan from the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Form - Membership Payment Options\n\n- We added the ability to re-import business data records that had been imported previously and subsequently deleted. This can be done from the Import Business Data page in the Admin.\n\n- We fixed an issue which was preventing the Date Picker fields powered by the Form Manager from correctly validating dates using the YYYY/MM/DD date format in some cases.\n\n- We integrated a new icon stock images library into the Froala WYSIWYGs used in the Admin area and the Media Manager in the Admin area.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101085",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101085"
+    }
+  ],
+  "lastmod": "2024-08-21T02:28:51+05:30",
+  "scraped_at": "2026-10-18T13:54:41.457595"
+}

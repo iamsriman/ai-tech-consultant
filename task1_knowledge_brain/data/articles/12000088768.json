@@ -1,0 +1,175 @@
+{
+  "article_id": "12000088768",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088768-developer-hub-generate-and-manage-api-keys",
+  "title": "Developer Hub » Generate and Manage API Keys",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "Developer Hub » Generate and Manage API Keys"
+  ],
+  "content": "## Developer Hub » Generate and Manage API Keys\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088768\n\nThis article explains how to generate and manage API keys for authenticating requests to the Brilliant Directories API.\n\nThe API allows external applications to communicate securely with a Brilliant Directories website by sending requests to supported API endpoints. Each request must include a valid API key to authenticate the connection.\n\n\n## Important Notes\n\n\n- The API currently supports creating, retrieving, updating, and deleting member records.\n\n- Creating a member requires, at a minimum, an email address, a password (minimum of six characters), and a valid subscription_id (Membership Plan ID).\n\n- When a member is created through the API, the assigned Membership Plan settings are applied automatically, including any pre-selected top-level category and listing type, unless those values are overridden in the request.\n\n- The website's member limit is enforced for API requests, including sites using the 100,000 Member Boost.\n\n- If the allow_duplicate_member_emails Advanced Setting is disabled, duplicate member email addresses cannot be created through the API.\n\n- API requests are limited to 100 requests per minute .\n\n\n## How to Access the Tool\n\n\n- Go to Developer Hub .\n\n- On the Manage API Keys card, click Manage API Keys .\n\n- Generate API Key : creates a new key.\n\n- Any status and Search : show only enabled or disabled keys, and find keys by name or ID.\n\n- Last used / Created and Date range : show only keys last used, or created, within a date range.\n\n- The Status switch enables or disables the key (see below).\n\n- Actions : Permissions , View Logs and Delete API Key .\n\nThe table also shows when each key was created, when it was last used, and which admin created it. Clicking a row opens that key's Permissions.\n\n\n## Generate an API Key\n\n\n- Click Generate API Key .\n\n- Enter an API Key nickname that describes what the key is for.\n\n- Click Generate API Key . The Save Your API Key window shows the new key.\n\n- Copy the key with the copy button and store it in a secure location. It cannot be viewed again after the window is closed.\n\n- Click Configure Permissions to choose what the key can access straight away, or Done to close the window.\n\n- API Key nickname : required.\n\n- Generate API Key creates the key.\n\n- The copy button copies the whole key. The key is blurred in this example.\n\n- Configure Permissions opens the new key's permissions.\n\nAfter generating the API key, refer to Zapier API Actions: Create New User (Google Sheets Example) or API Reference - Getting Started for examples of connecting an external application.\n\n\n## Configure API Key Permissions\n\n\nEach API key can be configured with specific permissions to control which endpoints it can access. Open them from the key's Actions menu with Permissions , or by clicking the key's row.\n\nThe Permissions window groups the endpoints into three tabs:\n\n- Standard Endpoints\n\n- Advanced Endpoints\n\n- Sensitive Data\n\nDefault permissions follow least privilege. A newly created API key starts with all Standard Endpoints enabled and all Advanced Endpoints disabled. A key that has never had permissions explicitly saved (including keys created before the permissions system existed) is treated the same way: Standard Endpoints are allowed and Advanced Endpoints are denied until an admin explicitly enables them. Keys with explicitly saved permissions are unaffected by these defaults.\n\nThe Standard Endpoints tab covers the core resources: Album Photos, Authentication, Leads, Multi Image Posts, Post Types, Single Image Posts, Unsubscribed, Users, Users Clicked Link, Users Reviews and Widgets. Everything else (EG Admin Roles, API Keys, Email Templates, Forms, Webhooks and other administrative resources) is on the Advanced Endpoints tab and requires explicit opt-in per key.\n\n- The three tabs.\n\n- All On and All Off : switch every endpoint on the open tab on or off.\n\n- Search : finds a resource by its name or endpoint.\n\n- One checkbox per resource (with its database table beneath the name) turns all of that resource's endpoints on or off. A partly filled checkbox means only some are on.\n\n- The GET , POST , PUT and DEL columns turn one kind of request on or off for a resource. Clicking a column heading toggles that column for every resource on the tab.\n\n- The arrow beside a resource expands it to show each endpoint address, with a button to copy its full URL.\n\n- Close and Save .\n\nSensitive Data permissions (EG returning a member's login token) are always off by default. The Sensitive Data tab carries a warning that these features expose credentials and security secrets; turn one on only when the integration needs it.\n\n- The warning shown on the Sensitive Data tab.\n\n- Include User Token : allows GET /api/v2/user/get/{user_id}?include_user_token=1 to return the member's login token.\n\nEnable only the permissions required for the intended integration, then click Save . Closing the window with unsaved changes asks before discarding them.\n\n\n## Disable or Delete an API Key\n\n\nAPI keys are enabled when created. To temporarily stop an API key from working, turn off its Status switch; the change takes effect at once. To disable or enable several keys together, tick their checkboxes and choose Enable or Disable from Select Action in the bar above the table, then click Apply .\n\nIf an API key is no longer needed, choose Delete API Key from its Actions menu and confirm. The key and its permissions are deleted, and this cannot be undone. Several keys can be deleted together with Delete in the same bulk action bar.\n\n\n## Viewing the API Key Log\n\n\nThe API Key Log records every request made using an API key, making it easier to review activity and troubleshoot API requests. To open it, choose View Logs from the key's Actions menu.\n\n- Any status (or OK / Error ) and Search : show only successful or failed requests, and find requests by text.\n\n- Date range : show only requests made on one day or within a range of days.\n\n- The Status of each request: 200 OK , or the error code followed by ERR (EG 403 ERR when the key does not have permission for that endpoint).\n\nEach request also shows the IP address it came from (blurred in these examples) and the time it was made, with copy buttons for the request URL and the IP address.\n\n\n### Picking a Date Range\n\n\n- Presets: Today , Yesterday , Last 7 Days , Last 30 Days , This Month , Last Month and Year to Date .\n\n- Two months side by side. Double-click a day to pick just that day, or click a start day and an end day (in either order, and across months) to pick a range. The month and year menus jump to another month.\n\n- Apply filters the log. Clear removes the date range and Cancel closes the calendar.\n\nThe same date range picker is used on the other pages built in the new admin design, such as the Date range filter on the API keys list.\n\n\n### Request Details\n\n\nClick a request to see its details.\n\n- All Requests returns to the list.\n\n- The request URL, with a copy button, and its status.\n\n- Request : the time, IP address, host and, when sent, the user agent.\n\n- Message Not Logged : by default the full content of each message is not stored, to keep the website fast. Save Full API Responses opens the setting that stores it.\n\n- Request Body and Response Body : what was sent, and what came back when it was stored, with a copy button.\n\n\n## Common Error Responses\n\n\nThe API may return different HTTP status codes when a request cannot be completed. In the request details below, the Response Body shows the full error message because Save Full API Responses was turned on; by default it reads Not Logged.\n\n\n### 429 – Too Many Requests\n\n\nReturned when the API request limit of 100 requests per minute has been exceeded.\n\n\n### 400 – Bad Request\n\n\nReturned when the request contains invalid or incomplete data, such as a create request missing a required field, or an attempt to create a member after the website's maximum member limit has been reached.\n\n\n### 405 – Method Not Allowed\n\n\nReturned when an unsupported HTTP request method is used for the selected endpoint.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186364986/original/U9Vb3fnXIcA_On1zHOL6l8L8gibJWoe_Hg.png?1791325240",
+      "alt": "Manage API Keys page with Generate API Key (1), search and status filter (2), date range (3), status switch (4) and Actions menu (5).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): Manage API Keys page with Generate API Key (1), search and status filter (2), date range (3), status switch (4) and Actions menu (5).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186364987/original/xRw_qu7_16ZND2oEUY4XqjtZKM7SBvHPCg.png?1791325241",
+      "alt": "Generate API Key window with the API Key nickname field (1) and the Generate API Key button (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): Generate API Key window with the API Key nickname field (1) and the Generate API Key button (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186364988/original/KbFLoFRnMxRIn7GCodWZVD6DaICdFUT5Ew.png?1791325242",
+      "alt": "Save Your API Key window with the copy button beside the blurred key (1) and the Configure Permissions button (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): Save Your API Key window with the copy button beside the blurred key (1) and the Configure Permissions button (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186364992/original/Ir33Mhsza_drm7btmEXnqtvPMus3pVc_Ng.png?1791325243",
+      "alt": "Actions menu open on an API key row, listing Permissions, View Logs and Delete API Key.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): Actions menu open on an API key row, listing Permissions, View Logs and Delete API Key.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186364993/original/Y07Sd5M6usBxkXQzHnbNl9_CfZMwmPF48Q.png?1791325244",
+      "alt": "Permissions window with the endpoint tabs (1), All On and All Off (2), search (3), a resource (4), method columns (5), its URLs (6) and Save (7).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): Permissions window with the endpoint tabs (1), All On and All Off (2), search (3), a resource (4), method columns (5), its URLs (6) and Save (7).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186364997/original/G7JON789BA5bVoinVPiHApYvRU7MlsaE0A.png?1791325248",
+      "alt": "Sensitive Data tab with a warning that these features expose credentials (1) and the unchecked Include User Token row (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): Sensitive Data tab with a warning that these features expose credentials (1) and the unchecked Include User Token row (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186364994/original/gdZ1_vOyp2flMUiAuvDVW_yPld-bFaKeSA.png?1791325245",
+      "alt": "API key log with the status filter and search (1), date range (2) and request rows showing 200 OK and 403 ERR statuses (3).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): API key log with the status filter and search (1), date range (2) and request rows showing 200 OK and 403 ERR statuses (3).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415516/original/3s1eN4v1-3T5YX40JjuciBwRhbPixKbZLQ.png?1791392546",
+      "alt": "Date range calendar with quick ranges such as Today and Last 7 Days (1), two month calendars (2) and the Apply button (3).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): Date range calendar with quick ranges such as Today and Last 7 Days (1), two month calendars (2) and the Apply button (3).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186364995/original/JEhoO8nL3MBTjk7FGHUyAOfa9OQxxS8k4w.png?1791325246",
+      "alt": "Request detail view with the request path and 403 status, request info, a Message Not Logged notice and the JSON request body.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): Request detail view with the request path and 403 status, request info, a Message Not Logged notice and the JSON request body.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368235/original/omY2j7dckTAjYX_libWCqiw8ODZtkDh67w.png?1791331436",
+      "alt": "The Logs window for an API key with a request that returned 429 ERR highlighted; the IP column is blurred.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): The Logs window for an API key with a request that returned 429 ERR highlighted; the IP column is blurred.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371875/original/TyCFiAQh9g4UNLr0R_GS99XIGQO7cKWQrg.png?1791337598",
+      "alt": "API log request details for /api/v2/user/fields with 429 ERR (1) and the Response Body Too many API requests per minute (2); the IP is blurred.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): API log request details for /api/v2/user/fields with 429 ERR (1) and the Response Body Too many API requests per minute (2); the IP is blurred.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368203/original/m5TZ2utvOfZgsfHben5efPzP5vM8SeuBqQ.png?1791331434",
+      "alt": "The Logs window for an API key with a request that returned 400 ERR highlighted; the IP column is blurred.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): The Logs window for an API key with a request that returned 400 ERR highlighted; the IP column is blurred.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371873/original/7r9P9uOrQEyLCqf30IzrrfzoE3ssf2_9ng.png?1791337596",
+      "alt": "API log request details for /api/v2/user/create with 400 ERR (1) and the Response Body saying the email, password and subscription ID are required (2); the IP is blurred.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): API log request details for /api/v2/user/create with 400 ERR (1) and the Response Body saying the email, password and subscription ID are required (2); the IP is blurred.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368216/original/SIynCaa96FC5tfOM6nc97To8FMvjz3_wjQ.png?1791331435",
+      "alt": "The Logs window for an API key with a request that returned 405 ERR highlighted; the IP column is blurred.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): The Logs window for an API key with a request that returned 405 ERR highlighted; the IP column is blurred.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371874/original/YFxoJT7UCibmtW-wGluA2k-hKYVu9XSH1Q.png?1791337597",
+      "alt": "API log request details for /api/v2/user/fields with 405 ERR (1) and the Response Body Invalid Request Method (2); the IP is blurred.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Generate and Manage API Keys' (Developer Hub > Generate API Key - API Documentation): API log request details for /api/v2/user/fields with 405 ERR (1) and the Response Body Invalid Request Method (2); the IP is blurred.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088768",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088768"
+    },
+    {
+      "text": "100,000 Member Boost.",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080323"
+    },
+    {
+      "text": "Advanced Setting",
+      "url": "https://support.brilliantdirectories.com/support/solutions/folders/12000005721"
+    },
+    {
+      "text": "Zapier API Actions: Create New User (Google Sheets Example)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088716"
+    },
+    {
+      "text": "API Reference - Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:20+05:30",
+  "scraped_at": "2026-10-18T13:50:02.194922"
+}

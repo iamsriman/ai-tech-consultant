@@ -1,0 +1,79 @@
+{
+  "article_id": "12000103985",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103985-understanding-and-editing-schema-markup-in-brilliant-directories",
+  "title": "Understanding and Editing Schema Markup in Brilliant Directories",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Understanding and Editing Schema Markup in Brilliant Directories"
+  ],
+  "content": "## Understanding and Editing Schema Markup in Brilliant Directories\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103985\n\n\n## What is Schema Markup?\n\n\nSchema markup is a type of structured data that helps search engines understand the content of a webpage more effectively. Implementing schema correctly can improve search visibility and enhance rich snippets in search results.\n\n\n## Does Brilliant Directories Automatically Add Schema?\n\n\nBrilliant Directories includes some schema markup by default in various parts of the website, but users can also add or modify schema based on their needs. Additionally, schema can be added anywhere on the website where structured data is needed, providing full flexibility for customization.\n\nWhen a member profile has approved reviews, aggregateRating and review are added to that profile's LocalBusiness schema automatically — no widget change or custom markup is required.  All search results pages automatically include ItemList Schema.\n\n\n## Where Can Schema Be Edited in Brilliant Directories?\n\n\nIf customization or additions to schema markup are required for a Brilliant Directories website, the following are the main areas where schema can be edited:\n\n\n### Widgets\n\n\nSchema markup is included in several system widgets that control how information is displayed on different pages:\n\n- Bootstrap Theme - Member Profile - Display Member Address\n\n- Bootstrap Theme - Function - Display Breadcrumbs\n\n- Bootstrap Theme - Social Media Links\n\n- Bootstrap Theme - Global Website - Schema Markup\n\n- Bootstrap Theme - Footer - Scripts\n\n- Bootstrap Theme - Detail Page - Schema Markup - Community Article\n\n- Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article\n\n- Bootstrap Theme - Detail Page - Schema Markup - Event Post Type\n\n- Bootstrap Theme - Detail Page - Schema Markup - Jobs Post Type\n\n- Bootstrap Theme - Detail Page - Schema Markup - Video Post Type\n\n- Bootstrap Theme - Detail Page - Schema Markup - Property Listing Post Type\n\n- Bootstrap Theme - Detail Page - Schema Markup - Product Post Type\n\n- Add-On - Bootstrap Theme - Global Search - Sitesearch HEAD Schema\n\n- Add-On - Bootstrap Theme - Posts - Comments UI\n\n- Bootstrap Theme - Single Post Page\n\n\n### Post Types\n\n\nThe search results pages of these post types have the schema markup directly in the post type code by default:\n\n- Member Article\n\n- Website Blog Article\n\n- Videos\n\n- Jobs\n\n- Events\n\n- Coupons\n\n- Soundcloud\n\n- Discussions\n\n- Properties\n\n- Products\n\n- Photo Albums\n\n- Classified\n\n- Digital Products\n\nThis can be seen directly in the edit post setting section in the search results tab. Below the example for the Member Articles:\n\nNote: This part of the post type default code. If the code marked below is not showing, it will be required to restore the Default code following the guide below:\n\nHow to Reset to Default Post Types Code\n\nReviews Post Type Code: This can be edited in the Profile Page Design tab .\n\n\n### SEO & Static Pages\n\n\nSchema markup can be added to all SEO pages and static pages within Brilliant Directories.\n\n\n### Quick Edit Section\n\n\nUnique schema can be added per member in the head section via the Quick Edit feature.\n\n\n### How to Add or Modify Schema Markup\n\n\nTo add or modify schema markup, consider the following methods:\n\n- Editing the relevant widget within the Widget Manager.\n\n- Adding schema directly into the SEO Templates for specific page types.\n\n- Utilizing the Quick Edit option to add schema per member profile.\n\n- Adding schema manually into the head section of pages where necessary.\n\nImplementing schema markup correctly can improve search rankings and provide search engines with better-structured data. Leveraging the available options in Brilliant Directories ensures the website is optimized for better visibility and user experience.\n\nNote:\n\nBy default, Website & Organization Schema are now included in footer for all BD sites in the widget Bootstrap Theme - Footer - Scripts . This can be viewed by using a tool like Schema Validator ( https://validator.schema.org )\n\n\n## Structured Data Testing Guide\n\n\nAfter adding or editing schema markup in your Brilliant Directories website, it's essential to test and validate the structured data to ensure it's correctly implemented and eligible for rich results in Google Search.\n\nBelow are step-by-step instructions to test your schema using Google's Rich Results Test and how to apply these tools to member profile pages or post pages.\n\n\n### Using Google's Rich Results Test\n\n\nThis tool checks whether your page supports rich results (like star ratings, events, or FAQs) in Google Search.\n\n- Go to Google’s Rich Results Test .\n\n- In the “Test your URL” field, enter the full link to a member profile or post on your BD website (e.g., https://yourdomain.com/jane-doe ).\n\n- Click \"Test URL\" .\n\n- Wait a few seconds while the page is analyzed.\n\n- Review the results: If your page is eligible for rich results, you'll see a success message and the types detected. If there are errors or warnings, they will be displayed with guidance for fixing them.\n\n- If your page is eligible for rich results, you'll see a success message and the types detected.\n\n- If there are errors or warnings, they will be displayed with guidance for fixing them.\n\nPro Tip: Use this tool to verify that common schemas like LocalBusiness , Article , or Event are working as expected.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168990482/original/qgng-tq80n2ml3CXX3Sp-h3POZ0kaCiJOQ.png?1760473539",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Understanding and Editing Schema Markup in Brilliant Directories' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168989360/original/bflCo0EjbYDQiHn6fN1brZWR0EyVfO4xpQ.png?1760472601",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Understanding and Editing Schema Markup in Brilliant Directories' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163448500/original/562omeVE2BRGpleV9_fom7Q5a6ZlGEvQow.png?1750970617",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Understanding and Editing Schema Markup in Brilliant Directories' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103985",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103985"
+    },
+    {
+      "text": "How to Reset to Default Post Types Code",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000016280-how-to-reset-to-default-post-types-code"
+    },
+    {
+      "text": "Profile Page Design tab",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000080220-how-to-customize-the-default-post-types-code#section-reviews-post-type"
+    },
+    {
+      "text": "SEO pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682654-content-seo-templates"
+    },
+    {
+      "text": "static pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047125-how-to-create-a-new-static-page"
+    },
+    {
+      "text": "Quick Edit",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046940-quick-edit-module-for-members"
+    },
+    {
+      "text": "https://validator.schema.org",
+      "url": "https://validator.schema.org"
+    },
+    {
+      "text": "Google’s Rich Results Test",
+      "url": "https://search.google.com/test/rich-results"
+    }
+  ],
+  "lastmod": "2026-09-11T05:14:13+05:30",
+  "scraped_at": "2026-10-18T13:55:55.125178"
+}

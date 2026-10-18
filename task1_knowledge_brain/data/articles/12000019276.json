@@ -1,0 +1,111 @@
+{
+  "article_id": "12000019276",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019276-developer-hub-image-settings-member-post-types-single-photo",
+  "title": "Developer Hub » Image Settings » Member Post Types - Single Photo",
+  "category": "Developer Hub",
+  "folder": "Image Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Image Settings",
+    "Developer Hub » Image Settings » Member Post Types - Single Photo"
+  ],
+  "content": "## Developer Hub » Image Settings » Member Post Types - Single Photo\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000019276\n\nIMPORTANT NOTE: Unless doing heavy customizations to the underlying code of a website's design, there is no need to touch these settings as they will already be optimized for use on a Brilliant Directories website. This article will cover the image settings for the following: Single Photo Post - Thumbnail Single Photo Post - Large On the Image Settings page, these settings are in the Single Photo Posts section, listed under Image Sizes in the side menu. Changes on the Image Settings page take effect only after Save is clicked in the save bar at the top of the page. 1 — Single Photo Posts in the side menu. 2 — the Single Photo Post - Thumbnail and Single Photo Post - Large settings. We also have the following articles available that cover the other sections: Image Settings - Profile Photos & Logos Image Settings - Member Post Types - Multiple Photos Default Member Post Types That These Settings Apply To These settings apply to all member post types where one photo can be added to a single post.  These post types include: Member Article Blog Article Event Coupon Jobs Single Photo Post - Thumbnail Settings This setting determines the maximum dimensions that single-photo member post type will have when viewed in most locations around the website (homepage streaming widgets, member profile pages, and search results).  The only place this setting does not apply is the Details page of the post (the single page devoted to the full post) .  The setting for the size of the photo on the Details page of the post is set by the \" Single Photo Post - Large\" setting (see section below). The recommended default settings are a free (open) ratio, a width of 272, and a height of 160. The ratio of the Single Photo Post - Thumbnail will always be \"Open\" so members are not forced to upload an image that is a certain shape - it can be square, wider than it is tall, or taller than it is wide. Since the ratio is always \"Open\", the \"Width\" and \"Height\" numbers serve as limits for the maximum width and height of the image.  For example, if both the Width and Height are set to 200px, and a member uploads an image that is 2000px wide x 2000px tall, the final image will be resized to be 200px wide x 200px tall, maintaining the same aspect ratio of the original image, but downsizing it to be no more than the 200px x 200px limit. This helps ensure that the website loads these images as quickly and efficiently as possible, thus reducing the overall time to load all of the website's pages as much as possible. As another example, if both the Width and height are set to 200px, and a member uploads an image that is 2000px wide x 1000px tall, the image will be resized so that it fits within the limits of 200px x 200px, without changing the aspect ratio.  In this example, the final uploaded image would be 200px wide x 100px tall so it fits within the 200px x 200px limit without changing its aspect ratio or stretching / distorting the image. If the \"Single Photo Post - Thumbnail\" width is set to less than 160px, a Warning message appears and the width is reset to 160px: ** This is done to make sure that large images are resized to dimensions that will look relatively uniform in the various areas of the website where single photo member post type thumbnails are used. Even though images can be set to be smaller than the default settings, we do not recommend doing so unless customizing the underlying code of the website's design to accommodate these smaller images. The Width and Height settings can be set as high as needed, but please note doing this will not cause the images to DISPLAY larger around the site,  The image itself will be saved at a larger size, but will be shrunk down to fit into the space available for it when displayed on the website.  In other words, all of the images will take longer and use more bandwidth to load, and will not display any larger on the website.  Making these images larger will only be useful if  heavily customizing the underlying code of the website's design to accommodate these larger images. Single Photo Post - Large Settings This setting determines the maximum dimensions that single-photo member posts type will have when viewed on the Details page of the post (the single page devoted to the full post). The recommended default settings are a free (open) ratio, a width of 375, and a height of 375.  This is also the image used when sharing the Details page of the post on social media. A single image post will have the Image Upload field directly on the form: Recommended Size : 750 by 400 pixels The recommended size text is a text label. System Variable : recommended_size_single_photo The articles below will explain how to upload these types of posts: » How to Post an Event » How to Post a Coupon » How to Post a Community Article » How to Post a Job Offer",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415514/original/aPajtRBW16D0MTcqfrizGBVu9u6uCLlF-g.png?1791392545",
+      "alt": "Image Settings with Single Photo Posts selected in the side menu (1) and its thumbnail and large size settings shown (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Member Post Types - Single Photo' (Developer Hub > Image Settings): Image Settings with Single Photo Posts selected in the side menu (1) and its thumbnail and large size settings shown (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358642/original/S3DONVrWfHA7P8fgLARGZN5xMeLFnrH24g.png?1791318638",
+      "alt": "Single Photo Posts section with the Single Photo Post Thumbnail width and height settings highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Member Post Types - Single Photo' (Developer Hub > Image Settings): Single Photo Posts section with the Single Photo Post Thumbnail width and height settings highlighted.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358644/original/S8xcYARiz9eCqre3xqTUW-k9W0WHZmTHYA.png?1791318640",
+      "alt": "Warning popup saying the minimum size for the width setting is 160 pixels, with an Unsaved changes bar above.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Member Post Types - Single Photo' (Developer Hub > Image Settings): Warning popup saying the minimum size for the width setting is 160 pixels, with an Unsaved changes bar above.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368263/original/Qjr1z6xe0TZCvAWwDFPxqpJmZ5dTWC4jww.png?1791331438",
+      "alt": "Settings > Text Labels filtered to recommended_size_single_photo: the label text (1) and its System Variable (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Member Post Types - Single Photo' (Developer Hub > Image Settings): Settings > Text Labels filtered to recommended_size_single_photo: the label text (1) and its System Variable (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358643/original/IiTRiYaaHlc4lT2tEOGwiJXjdCUSpF-JEQ.png?1791318639",
+      "alt": "Single Photo Posts section with the Single Photo Post Large width and height settings highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Member Post Types - Single Photo' (Developer Hub > Image Settings): Single Photo Posts section with the Single Photo Post Large width and height settings highlighted.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371914/original/GqGCo3dhKGZH4vJWmIjABqrYoMtj-1C20Q.png?1791337615",
+      "alt": "Member dashboard New Event form with the image field marked (1): Add An Image, Upload Image, Stock Photos and Recommended Size: 750 by 400 pixels.",
+      "caption": "Context: Recommended Size: 750 by 400 pixels",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Member Post Types - Single Photo' (Developer Hub > Image Settings): Member dashboard New Event form with the image field marked (1): Add An Image, Upload Image, Stock Photos and Recommended Size: 750 by 400 pixels. Context: Context: Recommended Size: 750 by 400 pixels",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368263/original/Qjr1z6xe0TZCvAWwDFPxqpJmZ5dTWC4jww.png?1791331438",
+      "alt": "Settings > Text Labels filtered to recommended_size_single_photo: the label text (1) and its System Variable (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Member Post Types - Single Photo' (Developer Hub > Image Settings): Settings > Text Labels filtered to recommended_size_single_photo: the label text (1) and its System Variable (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000019276",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019276"
+    },
+    {
+      "text": "Image Settings - Profile Photos & Logos",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019275"
+    },
+    {
+      "text": "Image Settings - Member Post Types - Multiple Photos",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019277"
+    },
+    {
+      "text": "How to Post an Event",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002335"
+    },
+    {
+      "text": "How to Post a Coupon",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002341"
+    },
+    {
+      "text": "How to Post a Community Article",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001670"
+    },
+    {
+      "text": "How to Post a Job Offer",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002337"
+    }
+  ],
+  "lastmod": "2026-10-14T03:16:57+05:30",
+  "scraped_at": "2026-10-18T13:40:33.891819"
+}

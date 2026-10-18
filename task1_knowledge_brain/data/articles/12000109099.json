@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109099",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109099-clean-unused-data-from-users-clicks-dashboard-installer",
+  "title": "Clean Unused Data from users_clicks - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Clean Unused Data from users_clicks - Dashboard Installer"
+  ],
+  "content": "## Clean Unused Data from users_clicks - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109099\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Clean Unused Data from users_clicks Does\n\n\nThis installer is a database cleanup task. The users_clicks table stores click and view tracking records tied to member listings. Over time it can hold rows for members who no longer exist, and this installer removes those orphaned rows.\n\nSpecifically, it deletes every row from users_clicks whose user_id has no matching row in the users_data table (the main member listing table). In plain terms, it clears out click tracking for members that have been deleted. Click records that still belong to existing members are left in place.\n\n\n## Why It Appears\n\n\nThe installer runs a check that joins users_clicks against users_data and looks for click rows with no matching member. If it finds one or more of these orphaned rows, the installer is offered. If every click row still maps to a real member, it reports that the table contains no unused data and does not appear.\n\n\n## Why It Matters\n\n\nOrphaned click rows are dead weight. They reference members that are gone, so they cannot be used for anything, and clearing them keeps the users_clicks table smaller and cleaner. Nothing on the live website depends on them, so removing them has no visible effect.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has orphaned click rows, Clean Unused Data from users_clicks appears in the list. Click Install .\n\n- After it completes, click Check For Updates again to confirm the entry is gone.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The click rows for deleted members are removed, and tracking for the site's current members is preserved. Because the installer re-checks for orphaned rows every time it runs, it is safe to run again; if none remain, there is simply nothing to remove.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109099",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109099"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:22+05:30",
+  "scraped_at": "2026-10-18T13:59:47.174442"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000060527",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060527-08-16-19-software-updates",
+  "title": "08/16/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/16/19 - Software Updates"
+  ],
+  "content": "## 08/16/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000060527\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the \"delete options\" functionality on the Product page in the Admin in order to unify the logic used here with the logic used to bulk delete / update members on the Search Members page in the Admin.\n\n- We fixed an issue which was causing the Stripe payment gateway to not use the website's currency set in the General Settings when Stripe payment gateway credentials were saved.\n\n- We released the Profile Cover Photo Add-On. Click here for more information. Widgets Involved: Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Member Profile - Header\n\n- We fixed an issue which was causing the system to get stuck when saving changes to a menu on the Menu Manager page in the Admin in some cases.\n\n- We fixed an issue which was causing the \"website logo\" to be displayed instead of the \"email template logo\" when previewing an email template in the Admin.\n\n- We applied a security update to the Login page of the Admin in order to remove a set of unnecessary browser cookies.\n\n- We fixed an issue which was causing the system to display the \"manage leads\" link in the Member Dashboard on mobile devices when the \"Hide Send Message Links on Listing\" Product setting was set to \"yes\". Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We updated the autosuggest UI to not display an area for an image when it is set to not display an image in the Autosuggest Settings in the Admin.\n\n- We fixed an issue which was affecting the display of the \"Upload CV\" buttons in the Member Dashboard when a file has been uploaded and the \"Form Layout View\" was set \"Bootstrap Vertical\" for the form in the Form Manager in the Admin.\n\n- We fixed an issue which was preventing the \"CC Lead Emails to\" field on the \"Quick Edit\" menu for members on the Search Members page in the Admin from working properly. Widget Involved: System - SaveForm\n\n- We updated the \"learn more\" link under the Private Member Chat Message setting in the General Settings >> Integrations tab in the Admin.\n\n- We fixed an issue which was causing the text labels used on the \"Member Profile Analytics\" page in the Member Dashboard to create additional columns instead of updating the text of the existing columns as expected.\n\n- We removed the \"Update Payment Method\" text from the Member Dashboard when a member's account status is set to \"On Hold\" and the \"Account Type\" for the member's Product is set to \"free\". Widget Involved: Bootstrap Theme Framework\n\n- We fixed an issue which was preventing the \"Members Only Message\" from displaying when a Single Web Page was set to be \"Members-Only\" in some cases. Widget Involved: Bootstrap Theme - Static Web Page",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000060527",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060527"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/profile-cover-photo-add-on"
+    }
+  ],
+  "lastmod": "2019-08-17T03:33:31+05:30",
+  "scraped_at": "2026-10-18T13:45:25.024055"
+}

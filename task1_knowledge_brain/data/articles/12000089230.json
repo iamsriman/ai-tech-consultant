@@ -1,0 +1,141 @@
+{
+  "article_id": "12000089230",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089230-how-to-export-import-text-labels-via-database",
+  "title": "How to Export/Import Text Labels via Database",
+  "category": "Settings",
+  "folder": "Text Labels",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Text Labels",
+    "How to Export/Import Text Labels via Database"
+  ],
+  "content": "## How to Export/Import Text Labels via Database\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089230\n\nThis article covers how to import and export text labels from one site to another using the database. This can be a good workaround for site owners with multiple sites in different languages, where all translated text labels can be transferred from one site to another.\n\n\n## 1) How to Export Text Labels\n\n\nTo accomplish this, navigate to Developer Hub >> MySQL Database :\n\nClick on the _directory database:\n\nSearch for the table website_labels and click on it:\n\nClick on the Export navigation link:\n\nChoose the Custom option:\n\nName the file and choose the gzipped Compression option:\n\nSelect the Add Drop Table / Trigger statement option:\n\nClicking on Go downloads the file:\n\n\n## 2) How to Import Text Labels\n\n\nNow that the export file is ready and downloaded, the next step is to navigate to a different site where these text labels will be imported.\n\nTo accomplish this, navigate to Developer Hub >> MySQL Database :\n\nClick on the _directory database:\n\nClick on the Import navigation link:\n\nChoose the correct exported file and click on Go :\n\nThere will be an indication that the queries were executed correctly:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184814442/original/d-FO7idgMu_nQxcobg5iwoZCQzaEoqxSLQ.png?1788804440",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184814478/original/WJyDBuTjlTDJ5OwO__WD4yv_EY2h1ZnbFQ.png?1788804477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112838030/original/mqxi2oi8DH0x1SW_XPwSzJO2i5vctpX_Hg.png?1660050459",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112838073/original/HSXVfeXmBbDNHnjYPL4MMe5aFnRXRMve8w.png?1660050502",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112838121/original/exU0GFpduHj93lQr3G-nzRUhPLUHHXtuyA.png?1660050536",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112838224/original/RoCnIReRLitKvwxatTnByg5FJgEdlhqbAQ.png?1660050599",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112838283/original/bc5mnbnuRVNDKICGeUpMDMdUjL0RVm_HDw.png?1660050646",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112838296/original/1zUAxJF7epkLa6lq1JTtQAdXDoQRiNP94Q.png?1660050680",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112838977/original/lkFRM4ip0QHiCuCehUQteMDOuSnCRsJ2Uw.png?1660051271",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112839015/original/1urpoCb5ZoHfQgAiSJj2UkMz-ha2ikXa8A.png?1660051298",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112839063/original/a43lYOr9o8d89GiYQMMDE5sP9yOq8gXZDw.png?1660051349",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112839122/original/RwVlApRGYuHGYRh0wJgrNWEwkFp06wRgkg.png?1660051395",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112839187/original/Eg_LfMM8Ks9Dm4Z2xcHCQf9dsCB2nR2MjQ.png?1660051443",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Export/Import Text Labels via Database' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089230",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089230"
+    }
+  ],
+  "lastmod": "2026-09-07T23:44:46+05:30",
+  "scraped_at": "2026-10-18T13:50:06.720137"
+}

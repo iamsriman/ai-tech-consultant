@@ -1,0 +1,27 @@
+{
+  "article_id": "12000100173",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100173-05-31-2024-software-update",
+  "title": "05/31/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/31/2024 - Software Update"
+  ],
+  "content": "## 05/31/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100173\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We made several small bug fixes and improvements to the new Send Newsletter functionality in the Admin.\n\n- We fixed an issue which was preventing the \"Only Show Members with Photo\" Homepage Section Design Setting from working properly in some cases. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We implemented a set of small fixes to the Sell Digital Products & Services Add-On.\n\n- We made an update to improve the page load and search results speed of the Activity Tracker in the Admin.\n\n- We updated the Community Comments Add-On to add the ability to \"follow\" comment threads and receive email notifications when new comments or replies are posted to followed threads. Click here for more information. Widget Involved: Bootstrap Theme - Function - Comment Handling Email Template Involved: post-comment-reply-notification\n\n- We updated the \"Recommended Size\" text for the Default Member Cover image on the General Settings page in the Admin to display the values selected in the Image Settings.\n\n- We created a new page in the Admin called Email Outbox. This page will log all emails sent by the system.\n\n- We fixed an issue which was preventing the system from displaying the pagination links on the Search Members page in the Admin after performing a search using the \"Find Duplicates\" filter in some cases.\n\n- We fixed an issue which was preventing some video post thumbnail from displaying on the Manage Posts page in the Admin.\n\n- We fixed an issue which was preventing the system from showing the correct lead status in the success message after performing a bulk update action on the Member Leads page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100173",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100173"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000075521-community-comments"
+    }
+  ],
+  "lastmod": "2024-06-04T02:11:33+05:30",
+  "scraped_at": "2026-10-18T13:54:08.407251"
+}

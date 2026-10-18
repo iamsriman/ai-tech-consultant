@@ -1,0 +1,119 @@
+{
+  "article_id": "12000105171",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105171-cookie-consent-tool-cookiepal",
+  "title": "Cookie Consent Tool - CookiePal",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Cookie Consent Tool – CookiePal"
+  ],
+  "content": "## Cookie Consent Tool – CookiePal\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105171\n\n\n## Integrating Third-Party Cookie Consent\n\n\nCookiePal offers an affordable third-party cookie consent solution that can be embedded on a Brilliant Directories website. The steps below outline how to integrate CookiePal to meet cookie compliance requirements.\n\n\n### Step 1: Create a CookiePal Account\n\n\n- Navigate to https://cookiepal.io/pricing .\n\n- Select the preferred pricing plan (a free option is available).\n\n- Complete the sign-up process, including the website domain.\n\n\n### Step 2: Configure the Cookie Banner\n\n\n- Choose between the Fast or Advanced setup. In this example we will choose the Fast Setup :\n\n- CookiePal offers an already preconfigured the banner. Customise the layout, colors, position, and content text to align with branding and legal requirements using the side bar on the left.\n\n- Once the colors, layout and alignment have been selected, click \"Next\" to proceed.\n\n\n### Step 3: Copy the Installation Script\n\n\n- Once the configuration is complete, choose the preferred option for installation: COPY & PASTE THE CODE\n\n- Copy the code to integrate the banner into the website.\n\n- Click on Finish to go to the CookiePal dashboard.\n\n\n### Step 4: Insert the Script into the Website\n\n\n- Log into the Brilliant Directories Admin Dashboard.\n\n- Navigate to Toolbox > Widget Manager .\n\n- Search for the widget titled Bootstrap Theme - Cookie Consent Code .\n\n- Paste the CookiePal script into the HTML editor.\n\n- Click Save Changes .\n\n- Load the website to see the cookie consent:\n\n\n### Step 5: Check the Cookies\n\n\n- Return to the CookiePal dashboard.\n\n- Navigate to Cookie Manager .\n\n- Check the cookies that have been gathered: Necessary, Analytics, Performance, etc.\n\n- CookiePal auto-classifies most cookies; remaining cookies can be classified manually.\n\n\n### Step 6: Troubleshooting and Testing\n\n\nIf the cookie banner does not display as expected:\n\n- Clear the browser cache and cookies.\n\n- Open the website in a private/incognito browser window.\n\n- Verify that the script is correctly placed in the widget and saved.\n\n\n## Additional Infomration and Support from CookiePal\n\n\n- CookiePal Introduction Video\n\n- CookiePal Help Guide\n\n- CookiePal Support\n\n\n## Related Articles\n\n\n- How to Add Cookie Consent\n\n- Cookie Consent Tool – Osano",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163671622/original/17xUcrTwEY9WmamSl01N_bnHZTyQM_EziA.png?1751393027",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool - CookiePal' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163671878/original/P37yr61juDOTMR2QMXtvZnF-uoF0wzZW7A.png?1751393324",
+      "alt": null,
+      "caption": "Choose between the Fast or Advanced setup. In this example we will choose theFast Setup:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool - CookiePal' in section 'My Content' / 'Web Page Builder'. Context: Choose between the Fast or Advanced setup. In this example we will choose theFast Setup:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163672062/original/qfD3LLfpM82ZXXjRC2P6BNoZivmSvVdU7w.png?1751393483",
+      "alt": null,
+      "caption": "CookiePal offers an already preconfigured the banner. Customise thelayout, colors, position, and content text to align with branding and legal requirementsusing the side bar on the left.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool - CookiePal' in section 'My Content' / 'Web Page Builder'. Context: CookiePal offers an already preconfigured the banner. Customise thelayout, colors, position, and content text to align with branding and legal requirementsusing the side bar on the left.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163672197/original/5peqyxLwR5yfSPtmJBobYWCEe_lSBXMI7A.png?1751393656",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool - CookiePal' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164697236/original/JqHVnJEkfkslK_cR_IlNwKY-wYYFVOC3GA.gif?1753203500",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool - CookiePal' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163673521/original/cUxrT_rQpEiXpXfxM387FO8S2SEXcN1aoQ.png?1751394817",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool - CookiePal' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163673681/original/u0TX_s3-Jd1cG-XHnZ6oSSDkjNqfz8fGoA.png?1751394953",
+      "alt": null,
+      "caption": "CookiePal auto-classifies most cookies; remaining cookies can be classified manually.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool - CookiePal' in section 'My Content' / 'Web Page Builder'. Context: CookiePal auto-classifies most cookies; remaining cookies can be classified manually.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105171",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105171"
+    },
+    {
+      "text": "https://cookiepal.io/pricing",
+      "url": "https://cookiepal.io/pricing"
+    },
+    {
+      "text": "",
+      "url": "https://cookiepal.io/help-guide"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/watch?v=bfRxch7N5Pw"
+    },
+    {
+      "text": "CookiePal Introduction Video",
+      "url": "https://www.youtube.com/watch?v=bfRxch7N5Pw"
+    },
+    {
+      "text": "CookiePal Help Guide",
+      "url": "https://cookiepal.io/help-guide"
+    },
+    {
+      "text": "CookiePal Support",
+      "url": "https://cookiepal.io/support"
+    },
+    {
+      "text": "How to Add Cookie Consent",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000102536-how-to-add-cookie-consent"
+    },
+    {
+      "text": "Cookie Consent Tool – Osano",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000061838-cookie-consent-tool-osano"
+    }
+  ],
+  "lastmod": "2025-07-22T22:28:29+05:30",
+  "scraped_at": "2026-10-18T13:56:19.089946"
+}

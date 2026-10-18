@@ -1,0 +1,140 @@
+{
+  "article_id": "12000051938",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051938-rss-feed-for-posts",
+  "title": "RSS Feed for Posts",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "RSS Feed for Posts"
+  ],
+  "content": "## RSS Feed for Posts\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000051938\n\nThe RSS Feed for Posts add-on will automatically generate and dynamically update RSS feeds for all post types on the website.\n\nPosts types (articles, classifieds, events, properties, etc.) will have their own RSS feeds that will always be kept up to date in real-time as content is published to the website. This add-on will also have an all-inclusive RSS feed which aggregates all published posts.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: RSS Feed For Posts Add-On\n```\n\n\n## Using the Add-On\n\n\nTo see ALL of the website posts in an RSS feed add /rss to the end of the website URL:\n\ne.g., yourdomain123.com/rss\n\nThe RSS feed for a specific post type, is done by adding /rss at the end of the post type link:\n\ne.g., yourdomain123.com/articles/rss\n\nThe admin can grab the URL directly by going to My Content - Edit Post Settings and copying the URL from here:\n\nThe admin can also get as specific as possible with the RSS feed as long as that result is available within the website for that post type. If the admin wanted to show all the articles with the word \"sample\" in the title, add the URL like this:\n\ne.g., yourdomain123.com/articles/rss?q=Sample\n\nOr for the articles that belong in a certain category:\n\ne.g., yourdomain123.com/articles/rss?q=&category[]=Category+1\n\nThe admin can simply go into the website, do a quick search within the feature and grab the URL that is given, simply copy from the ?q and add it to the end of the /rss to make it more detailed.\n\nTo learn more about this, please read this great third party article: https://www.w3schools.com/xml/xml_rss.asp\n\nBy default, this RSS feed will show 10 posts , to increase the limit add this parameter at the end of the URL.\n\ne.g., yourdomain123.com/articles/rss?limit=50\n\nThe ?limit= will tell the RSS feed how many posts to show at a time.\n\n\n## RSS Feed Title\n\n\nThe title of the RSS Feed will render the text from the RSS Feed Title text label :\n\n- RSS Feed Title System Variable: rss_feed\n\nHowever, if this label is empty the RSS Feed will render the Website Name from the General Settings :\n\n\n## RSS Images\n\n\nThe post images from our default RSS feeds are not included by default because they are not compatible with some readers.\n\nAs a solution to this, we created an alternate RSS feed URL\n\n/rss-image\n\nThe includes the post image in the feed data. This way website owners who rely on the feed to also fetch the post image will have a method to do this.\n\nThere are 2 feed URLS:\n\n- Default : without post image data /rss domain.com/rss domain.com/post/rss\n\n- Images : with post image data /rss-image domain.com/rss-image domain.com/post/rss-image\n\nOnce this add-on is installed the Meta Tag for the RSS feed will add this automatically, letting Google know that the site has an RSS.\n\n```\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"My New Website RSS Feed\" href=\"http://www.YOURDOMAIN123.com/rss\" />\n```\n\nThe admin can change the Title of the RSS by editing the text label rss_field as shown below, by default the title will be 'RSS Feed':\n\n\n## RSS Excluded Content\n\n\n- The RSS Feed will include the same posts that appear in the search results. This means that only the Published posts will be added, Unpublished posts will not be included.\n\n- Posts that are publicly accesible and not restricted by the Members-Only Content functionality will appear in the RSS Feed. P rotected posts will not be included.\n\n\n## XML File Tags\n\n\n- < title > (post tite-le)\n\n- < description > the tag is stripped at 250 characters (post snippet)\n\n- < content > (full post)\n\n- < media > (repeats the post image URL data)\n\n\n## Post RSS Notes\n\n\nThe RSS feed follows specific rules based on the functionality of different post types. These rules are designed to ensure that each post type displays information as expected when included in the feed.\n\n\n### Events\n\n\nThe start date/time is included for Event posts.\n\n[Date in Website's Date format], [Time in website's time format], [UTC Timezone] -- [Rest of the post content]\n\n\n### Blog Post\n\n\nWhen the RSS feed is created for blog posts it will use the published date. In the system, that is the form variable: post_start_date",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113857982/original/tbwb-jSB-_s_y6s5R3cL5bJzoeLZIfQQmQ.png?1661994577",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153796700/original/nGT8ulPia96lwMiSnkLF4mD-uJRQ9U_CZg.png?1733849211",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153796704/original/6lzQDBi_4kSYfHKnp9_bjIOngS5XSnL4HA.png?1733849217",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153796848/original/GU7Nqm1VXkDWRS8I7MczX1EysZ6eJFJNJg.png?1733849291",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153796851/original/ewUde60J_dMYwV_Iq3kF2AaNpCjn3qBoKA.png?1733849295",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113476220/original/J5Pyjya0AjVIsia43T5-8A9Ix15slyFhNQ.png?1661289729",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125565362/original/PRF50gCAZQYCwA_D7Q0ohzGatDKQEcxpVQ.png?1684290595",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126541895/original/R2ceg48tW0D_vW-0-t8EGz-cL_ToChRPkg.png?1686104878",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152904632/original/Gz2Pu4_yFuFmsenKjEpTtjRiBGNAeoK3nQ.png?1732207826",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'RSS Feed for Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000051938",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051938"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "RSS Feed For Posts Add-On",
+      "url": "https://www.brilliantdirectories.com/rss-feed-for-posts"
+    },
+    {
+      "text": "https://www.w3schools.com/xml/xml_rss.asp",
+      "url": "https://www.w3schools.com/xml/xml_rss.asp"
+    },
+    {
+      "text": "domain.com/rss",
+      "url": "https://domain.com/rss"
+    },
+    {
+      "text": "domain.com/post/rss",
+      "url": "https://domain.com/post/rss"
+    },
+    {
+      "text": "domain.com/rss-image",
+      "url": "https://domain.com/rss-image"
+    },
+    {
+      "text": "domain.com/post/rss-image",
+      "url": "https://domain.com/post/rss-image"
+    },
+    {
+      "text": "Members-Only Content",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682638"
+    }
+  ],
+  "lastmod": "2026-08-28T22:08:17+05:30",
+  "scraped_at": "2026-10-18T13:44:10.467277"
+}

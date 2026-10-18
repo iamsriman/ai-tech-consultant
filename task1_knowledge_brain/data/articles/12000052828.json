@@ -1,0 +1,162 @@
+{
+  "article_id": "12000052828",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052828-how-to-display-custom-social-media-icons-on-member-profiles",
+  "title": "How To Display Custom Social Media Icons On Member Profiles",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How To Display Custom Social Media Icons On Member Profiles"
+  ],
+  "content": "## How To Display Custom Social Media Icons On Member Profiles\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000052828\n\nEvery Brilliant Directories website includes a default contact details form where members can add social media links and display them on their profiles.\n\nWhen these fields are completed, the social media icons display on the member profile.\n\nThis article explains how to create additional social media fields for members and display them on their profiles.\n\n\n## Adding a New Field to the Form\n\n\nIdentify the contact form that needs to be edited.\n\nGo to Toolbox → Form Manager , then click Customize for the preferred form.\n\nIn the edit view, click New Field and complete the required field settings as shown below.\n\nMake sure the new social media field uses the same Display Options as the default social media fields.\n\nThe Field Label Name and Database Variable Name can be changed as needed. In this example, Snapchat is used.\n\nThe Field Type must be set to Website URL for the field to work like the default social media fields.\n\nThis is the Font Awesome icon code used in this example:\n\nCopy <i class = \"fa fa-snapchat-ghost\" ></i>\n\nThe full list of available Font Awesome 4.7 icons can be found here:\n\nhttps://fontawesome.com/v4.7.0/icons/\n\nFor display purposes, drag the new field below the Instagram option.\n\nClick Save Changes .\n\nThe custom form can now be selected in the Membership Plan settings.\n\nFor more information about creating a new form and assigning it to Membership Plans, please refer to this article:\n\nHow To Assign Different Member Forms To Various Membership Levels\n\nThe new field will now display properly on the member form inside the Member Dashboard.\n\n\n## Displaying the New Field on Member Profiles\n\n\nTo display the new social media field on member profiles, the new variable must be added to the widget that controls the social media icons.\n\nFirst, identify which widget is being used to display the existing social media icons.\n\nFor more information about locating widgets from the front end using the Admin Bar, please refer to this article:\n\nhttps://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051553\n\nClicking the widget name will open the Widget Manager. Click Customize to view the widget code.\n\nIn the code view, scroll down to the area between the last closing anchor tag and the opening PHP tag.\n\nAdd the following code, then click Save :\n\nCopy <?php } if ( $user [ 'snapchat' ] != \"\" && $subscription [ 'social_link' ] == 1 ) { ?> <a class = \"network-icon blog weblink\" style = \" background-color:#bcbc0c;\" <?php if ( $subscription [ 'nofollow_links' ] == 1 ){ ?> rel = \"nofollow\" <?php } ?> href = \" <?php echo $user [ 'snapchat' ] ?> \" target = \"_blank\" title = \"Snapchat\" ><i class = \"fa fa-snapchat-ghost\" ></i></a>\n\nOnce the widget has been customized and the new link has been added to the contact details form, the custom social media icon will display on the member profile.\n\n[Keep existing screenshot]",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12045069180/original/ErsmTsjK6e0lGEJpMpZ1td0pgbDdRNvXog?1546273645",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12045067869/original/eSRVvpMij1grc05tMlUsZnS9_SAF_1qtgg?1546270198",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086346998/original/tzBOjAYwy9Bv78YMEZHvYEnURRTFdqZbKA.png?1608048328",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181111069/original/f8zPbreHBttkKgS16NykZX3q7X0iW7dLgQ.png?1782513779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181111090/original/P3wIh4FvZLvJh1c_kmigrwbgzNMKDafu_A.png?1782513930",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181111118/original/YVs71zPnDrF4WpS20FC-1QLMN6wt_8cUtg.png?1782513970",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086347631/original/cfWjITWozrFsOhrXvIFae0iDL71e_ghXTw.png?1608048887",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12045111909/original/HqOX7rLzr1RLj0x3dB98uhk0qC_xnoh_Qg?1546434367",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12045112075/original/nsLVVShrb5pGiM0ZFbgkWs7thWwrFKPi3Q?1546434630",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12045112252/original/DUqy1vf2kyA6nmE-qukdmoMvpQA1-QKnCQ?1546434955",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086347756/original/alUz67AqJG2pbP4xllUc1TQ8NSQ_J59ApA.png?1608049007",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12045113053/original/GC1OfSGAoSGeKfm7WEkC7BuviPfAPC-aKw?1546436059",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12045113186/original/qSs6q2xVIILqtjLdhQDUSQzBwy8iPCnNFA?1546436236",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12045113238/original/3apJdzSkINB_73yTEEC67tSgsGCH2ssSSA?1546436282",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Social Media Icons On Member Profiles' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000052828",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052828"
+    },
+    {
+      "text": "https://fontawesome.com/v4.7.0/icons/",
+      "url": "https://fontawesome.com/v4.7.0/icons/"
+    },
+    {
+      "text": "How To Assign Different Member Forms To Various Membership Levels",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000006663"
+    },
+    {
+      "text": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051553",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051553"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:18+05:30",
+  "scraped_at": "2026-10-18T13:44:22.203414"
+}

@@ -1,0 +1,291 @@
+{
+  "article_id": "12000094140",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094140-import-member-posts-with-zapier",
+  "title": "Import Member Posts with Zapier",
+  "category": "Developer Hub",
+  "folder": "No-Code API Workflows (Zapier, Pabbly & Others)",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "No-Code API Workflows (Zapier, Pabbly & Others)",
+    "Import Member Posts with Zapier"
+  ],
+  "content": "## Import Member Posts with Zapier\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000094140\n\nThis article shows an example on how to import member posts using Zapier.\n\nIt is also possible to import posts via CSV and API .\n\nIn this instance, we have an example file in CSV format. To enable Zapier to retrieve the data, the file needs to be uploaded to Google Sheets.\n\nTo understand the formatting of the CSV file please see: How To Import Posts Via CSV File\n\nNote : When adding images to the file for upload, the image(s) can be added with the entire URL that includes the https protocols and website domain or just the relative URL.\n\ne.g.: https://www.domain.com/images/image.jpg or /images/image.jpg\n\nThe image URL must also have a compatible extension: jpg, jpeg, png, gif, webp.\n\nThe image must be publicly accessible (the host cannot block the image importer).\n\nOnce the data is on a Google Sheet file it is time to login to Zapier and create a Zap.\n\nAs a trigger select Google Sheets:\n\nUnder \"Event\" select New Spreadsheet Row:\n\nChoose the Account.\n\nSelect the Spreadsheet.\n\nSelect the Worksheet.\n\nClick on Test trigger.\n\nClick on Continue.\n\nFor the Action Select Brilliant Directories Latest .\n\nSelect \"Create Post\".\n\nSign in to the account.\n\nEnter the website URL and the Brilliant Directories API, to generate a new one please see:\n\nDeveloper Hub » Generate API Key Overview\n\nClick on Continue.\n\nSelect the Post Type, in this example it is Website Blog Article.\n\nSelect the \"Post Author ID\".\n\nSelect the \"Post Title\".\n\nSelect the \"Post Feature Image\".\n\nSelect Yes on Auto-Import Images. If Yes is selected, the system will import post images and save them to your website. Processing may take several minutes after import.\n\nSelect \"Post Category\".\n\nSelect \"Post Tags\".\n\nSelect \"Post Location\".\n\nSelect Yes to Use Google Maps To Geocode Post Location.\n\nAllow Google to geocode posts. Requires \" Pretty URLs with Google Maps \".\n\nClick Continue.\n\nClick Test Action.\n\nClick Publish.\n\nOnce the Zap is published, go to My Content >> Manage Posts .\n\nLook for the post type that should be imported on the dropdown and see the post imported.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168384/original/F3U5hvHssaO_ZDkkMb4HjghxeXCuYT8Rig.png?1685464278",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126163123/original/0r9wdXW0ZXxoPEoY3R1ebpq9KjPLyuCozg.png?1685459912",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166417/original/DfKKY6YMM9o2Gul8dGUy_qPkPBKLOg5woQ.png?1685462578",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166455/original/kP5eZX6lKDxiRWHXMoO2nZr1eNxCX4zVnA.png?1685462625",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166510/original/l1_1wM1MMa-2cixeZ4axIs3gncgg7zmjvA.png?1685462659",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166644/original/0DJnb-wut06cg2trPkEbTw0HRwUzdKyQeg.png?1685462742",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166689/original/wN2W1mfRVfj9OILtz2xJep0jnUrTnjtcjw.png?1685462785",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166727/original/bewisvgeBYDxLWx0FVodp2gKaAJlxBiVng.png?1685462818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166782/original/ZecpAtQd9KQDb9m9V3MtfdgEaOkiXC51BQ.png?1685462867",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168760/original/nEBvzYzsTPZQvLURrz8cIfJJ5TMmoUTvsA.png?1685464590",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166922/original/bONTJa1jBFHoc1y1GL0GuwTV4nEfhCPIMw.png?1685462946",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126166954/original/KyabKPQVHoJ9T6qiJ5hjsBCCHskJcZ654A.png?1685462994",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167152/original/k14039Y3hZKxujr2Ek2AfLyWQizohCNvpA.png?1685463178",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167208/original/LNY7Wm3C_t2Z_XTWqBjc727F7H4E_VIFbQ.png?1685463232",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167956/original/wSu0GHOo-YxEoMBAIqZZbC1grgMDy0gecw.png?1685463916",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167978/original/i25awiyZlPh_IUjGJVHkFDftf5DMsqjppA.png?1685463934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167985/original/eyBIa_gzsHQmyiope9qOiztNsHft1BUJRg.png?1685463951",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168142/original/RZUWeLfS08Gooab8ufVNHne1Yyq4p_mj5g.png?1685464024",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168170/original/IcRCoxQX_XBUxflaKqbodyVatdWUOFkMWw.png?1685464056",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168177/original/DS0CYXjb4MlgHjJYnGIAqdoz6ghWmbYOcQ.png?1685464067",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168194/original/37HlRcFKKk2nw1Cj8LexMvPssfwYpWYFNA.png?1685464078",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168205/original/qANDm2-EFK79lg_P4HOh2IFob2KWThZEtQ.png?1685464094",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168212/original/EMT2Cun3-xAVcfHT1SaxS-FqmeQn1lM6-Q.png?1685464109",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168216/original/tBGdY9XfzkvqIxtW9L96x8k5RiUwunOSHg.png?1685464120",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168222/original/hFlhyDX4gdXabwVWjXjgm3qLcBE_5sZACg.png?1685464129",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168260/original/JKM5a7OEkqwRA8uWO_M3geNkB4lldYmrAg.png?1685464183",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168285/original/rg-JZdheMEKfAnre6s6U3E1YNmZYUEVfZA.png?1685464201",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Import Member Posts with Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000094140",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094140"
+    },
+    {
+      "text": "via CSV",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000091681"
+    },
+    {
+      "text": "API",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000093239"
+    },
+    {
+      "text": "How To Import Posts Via CSV File",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000091681"
+    },
+    {
+      "text": "Developer Hub » Generate API Key Overview",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768"
+    },
+    {
+      "text": "Pretty URLs with Google Maps",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000086439"
+    },
+    {
+      "text": "My Content >> Manage Posts",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000035550"
+    }
+  ],
+  "lastmod": "2024-06-04T03:41:59+05:30",
+  "scraped_at": "2026-10-18T13:52:20.281022"
+}

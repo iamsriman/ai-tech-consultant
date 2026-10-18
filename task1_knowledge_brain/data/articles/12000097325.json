@@ -1,0 +1,23 @@
+{
+  "article_id": "12000097325",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097325-11-24-2023-software-updates",
+  "title": "11/24/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/24/2023 - Software Updates"
+  ],
+  "content": "## 11/24/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097325\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was affecting the ability to manually collect on Past Due Invoices in the Admin when using the Stripe Payment Gateway in some cases.\n\n- We fixed an issue which was preventing the Embedly feature from working properly in Admin Froala Editors in some cases .\n\n- We fixed an issue which was causing the system to set the Year Established (experience) field to \"0\" after performing a successful signup from the frontend.\n\n- We updated how the \"Chained Search No Results\" Text Label displays on the frontend to respect the capitalization of letters as it is saved in the Text Label. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We updated the Media Manager in the Admin to give integrate the Pixabay Free Stock Photo library in addition to the existing Pexels integration.\n\n- We created a new Design Setting called \"Profile Page Tabs Behavior\". This setting controls the display of the tabs on member profile pages. To use this new feature navigate to the Admin >> Settings >> Design Settings >> General tab >> Member Profile Pages Widgets Involved: Bootstrap Theme - Member Profile - Member Tabs lazyLoad Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Member Profile - Member Tabs\n\n- We updated the \"Actions\" dropdown when viewing the invoice details for Digital Products purchases from the Member Dashboard in order to include \"View Product Page\", \"Confirmation Page\" and \"Confirmation Email\" links when they are available. Widget Involved: Default Email Template\n\n- We fixed an issue which was preventing the system from validating the \"Default FROM Email Address\" setting properly on the General Settings page in the Admin.\n\n- We updated the Activity Tracker to save the details of what was changed for each field when a member saves their profile information in the Member Dashboard.\n\n- We updated the Leads API in order to respect the \"Maximum Accepted Matches\" lead setting when automatically matching leads to members.\n\n- We updated the Admin View on the frontend of sites to highlight custom Text Labels on the page in a different color than the default Text Labels.\n\n- We updated the workflow when a member changes their Membership Plan from the Member Dashboard to not apply the \"Prorated Plan Changes\" logic when the member has past due invoice.\n\n- We fixed an issue which was preventing the Google Sitemap Generator Add-On from creating the sitemap files when the \"Apply No Index, No Follow\" setting is active in some cases.\n\n- We updated the logic of the Embedly Froala feature in order to display an error message if the URL provided is not supported.\n\n- We created a new Billing Email Reminder setting called \"Copy Admin\".  When enabled, the Admin Notification Email Address will be copied on billing reminder emails sent to members. We also created a new Advanced Setting called \"Do not Send Empty Daily Reminder Report\". When enabled, the Admin will not receive a notification email when there is no billing activity to report for the day.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097325",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097325"
+    }
+  ],
+  "lastmod": "2023-11-28T00:09:44+05:30",
+  "scraped_at": "2026-10-18T13:53:09.304871"
+}

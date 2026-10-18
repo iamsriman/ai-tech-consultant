@@ -1,0 +1,27 @@
+{
+  "article_id": "12000038407",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000038407-12-07-17-software-updates",
+  "title": "12/07/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/07/17 - Software Updates"
+  ],
+  "content": "## 12/07/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000038407\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The Promo Code Add-On is now fully based on the New Add-On Manager. Widget Involved: Bootstrap Theme - Form - Membership Payment Options\n\n- We created a new Advanced Setting called not_receive_email_after_cancellation. W hen set to 0 (default), the Default Website Email Address will receive an email notification when a member requests to cancel their account.  When set to 1, no notification email will be sent when a member requests to cancel their account.\n\n- Now the Recent Members, Featured Members, and Recent Reviews homepage widgets will display members (and reviews of members) based on the Member Search Visibility Options set on the Product Settings Page.  In other words, if a member is logged into an account that should not be able to view certain other members in search results, they will not be visible in these homepage widgets either. Widgets Involved: Bootstrap Theme - Display - Homepage Featured Members Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Reviews\n\n- Now Admins can see the default version of a widget on the Widget Library Page, even when there is already a customized version of that widget on the site.  This will be useful for cases when a customization in a widget needs to be reconciled with the current code in the default version of the same widget.\n\n- We added a new function that will make it easier to retrieve and display the Sub and Sub-sub categories of a member on the Search Results and Profile pages of a site. For more information see the documentation for this new function here . Widgets Involved: Bootstrap Theme - HEAD\n\n- We refactored several core files the make the loading of all frontend pages of websites faster.\n\n- Members that are added using the Multi-Member Manager Add-On will now record a \"Join Date\".",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000038407",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000038407"
+    },
+    {
+      "text": "here",
+      "url": "http://developers.brilliantdirectories.com/support/solutions/articles/12000038355-displaying-member-sub-level-categories-getmembersubcategory-function-"
+    }
+  ],
+  "lastmod": "2017-12-08T05:02:33+05:30",
+  "scraped_at": "2026-10-18T13:42:06.377522"
+}

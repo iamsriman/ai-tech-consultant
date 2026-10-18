@@ -1,0 +1,23 @@
+{
+  "article_id": "12000087473",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087473-05-27-22-software-updates",
+  "title": "05/27/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/27/22 - Software Updates"
+  ],
+  "content": "## 05/27/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087473\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to display the \"Install Form Spam Security\" update in the \"Install New Updates\" module on the Admin Dashboard after running the installer in some cases.\n\n- We fixed an issue which was preventing members from saving descriptions for images in multi-image Post Types after the Post URL Structure was updated for the Post Type in some cases. Widget Involved: Bootstrap Theme - Account - Photo Albums datatable\n\n- We cleaned up the formatting of the data sent through the \"One-Time Purchase\" and \"Member Plan Cancelled\" webhooks.\n\n- We updated the Account Dashboard in the Admin to display all tickets submitted by the Site Admin (it was previously limited to the 30 most recent tickets).\n\n- The images displayed in the album slider on Post Details pages for multi-image Post Types are now compatible with the \"Front-End Optimization: Use Content Delivery Network (CDN) for Images\" Advanced Setting.\n\n- We created a new Website Setting called \"Time Format\". Admins can use this setting to choose between a 12H or 24H Time Format to be used on the frontend of the website. To use this new setting, navigate to the Admin >> Settings >> General Settings >> Localization tab. Widgets Involved: Bootstrap Theme - Form - Lead Prefer Reply Time Bootstrap Theme - Footer - Scripts - DateTime Scripts Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- The Froala WYSIWYG now allows backslashes \"\\\" to be included in their content.\n\n- We fixed a Javascript error which was appearing when the \"Express Sign Up Membership Plan\" setting was active and the \"Member - Login Form\" was customized on a site.\n\n- We updated the Admin Dashboard to check the Admin's IP when they log in and whitelist it in the website's server firewall if it was blocked.\n\n- We fixed an issue which was preventing Admins from changing the Field Type of an existing field in the Form Manager to \"File Upload Field\" in some cases.\n\n- We fixed an issue with the \"Order Results By\" setting for Events which was causing the \"Start Date\" options to work backwards when the Auto-Recurring Events Add-On is active on the site.\n\n- We updated the logic of the Export Member Data Add-On in order to support special characters in custom fields when exporting files.\n\n- We fixed an issue which was preventing members from cloning posts from the Member Dashboard when their post limit was reached and they had the ability to purchase an additional post using the Pay Per Post Add-On. Widget Involved: Bootstrap Theme - Account - Photo Albums datatable",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087473",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087473"
+    }
+  ],
+  "lastmod": "2022-05-30T21:36:59+05:30",
+  "scraped_at": "2026-10-18T13:49:49.110247"
+}

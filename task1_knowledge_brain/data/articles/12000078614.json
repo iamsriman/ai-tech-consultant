@@ -1,0 +1,99 @@
+{
+  "article_id": "12000078614",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078614-how-to-add-members-manually-via-the-admin",
+  "title": "How To Add Members Manually Via The Admin",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "How To Add Members Manually Via The Admin"
+  ],
+  "content": "## How To Add Members Manually Via The Admin\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078614\n\nThe Add New Member form allows administrators to manually create a member account directly from within the admin dashboard without requiring the member to self-register through the front end of the site. Step 1 — Access the Add New Member Form Navigate to My Members » Search Members in the admin dashboard. Click the \"Add New Member\" button located in the Search Members toolbar. The Add New Member form will open.\n\n\n## Step 2 — Complete the Add New Member Form\n\n\nThe Add New Member form contains fields for core account setup and optional profile information. Not all fields are required to create the account.\n\n\n### Required Fields\n\n\nThe following four fields are the minimum required to create a member account. The form cannot be submitted until all four are populated:\n\n# Field Notes 1 Account Status Determines whether the account is immediately active or held. See status definitions in the Quick Edit Module reference . 2 Membership Plan Assigns the member to a configured plan under Finance » Membership Plans . 3 Email Address Also serves as the member's login username. Must be unique in the system. 4 Create Login Password Sets the initial password for the member account.\n\n⚠ CRITICAL CAUTION — Email Is the Login Username: The email address entered in this field is the credential the member will use to log in to the site. If this email address is changed after account creation, the member's login credentials will change accordingly. The affected member should be informed of any post-creation email address updates. ⚠ CRITICAL CAUTION — Billing Is Not Created by This Form: Creating a member account manually via this form does NOT create a billing subscription for that member. If the member requires a paid subscription, it must be created separately after the account is saved. The account will exist in the system without any associated payment record until a subscription is added.\n\n\n### Optional Fields\n\n\nAll fields in the form beyond the four required fields are optional. Submitting the form with only the required fields will create a valid member account, but the resulting profile will display minimal public information.\n\n⚠ NOTE — Minimal Profile Appearance: A member account created with only the four required fields will produce a sparse public-facing profile. No name, address, phone, or profile image will be displayed. It is recommended to populate as many additional fields as possible at the time of creation, or to prompt the member to complete their profile via the member dashboard after account creation.\n\n\n## Step 3 — Submit the Form and Select a Next Action\n\n\nAfter the form is submitted successfully, the system displays a confirmation message and presents two action options.\n\n\n### Option A — Login As Member\n\n\nSelecting Login As Member redirects the administrator session to the member's front-end dashboard, logged in as the newly created member. This allows the administrator to verify the member dashboard view or complete additional profile setup on behalf of the member.\n\n\n### Option B — Close Window\n\n\nSelecting Close Window dismisses the confirmation modal and returns the administrator to the Search Members section of the admin dashboard. The newly created member record will be visible in the member list.\n\n\n## Post-Creation Requirements\n\n\nTwo important tasks cannot be completed within the Add New Member form itself and must be handled after the account is created:\n\n\n### 1-  Location Data and Geocoding\n\n\nLocation data cannot be assigned to a member account from within the Add New Member form. Member location must be added through one of the following methods after the account is created:\n\n- The member can enter their own location information via the member dashboard on the front end of the site.\n\n- The administrator can assign and geocode the member's location via My Members » Search Members using the geocode tools.\n\n⚠ CRITICAL CAUTION — Members Without Location Data Are Not Searchable by Location: A manually created member account that has not been geocoded will not appear in location-based search results on the site. Location data must be added and geocoded for the member to be discoverable through location filters.\n\nReference: How To Geocode Members\n\n\n### 2 - Subscription / Billing Setup\n\n\nAs noted above, the manual account creation form does not generate a subscription or billing record. If the member is on a paid plan, a subscription must be created independently after the account is saved.\n\nReference: How To Manually Bill A Member / Create A Subscription For A Member",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181026653/original/qQVrRefp2ZojE3A-qI1yizW7gff62bdRcQ.png?1782399277",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add Members Manually Via The Admin' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090380823/original/oeJzRxNWnhCtWO6bhjEboaDPKeXXGZCn3A.png?1616517560",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add Members Manually Via The Admin' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090380850/original/qGYQMiYAg3DVIJ75DLOMNIr-KQug6mvqng.png?1616517622",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add Members Manually Via The Admin' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143239345/original/6_E0ySQlzieokZslXdpCMvaKLyFaSVhiTg.png?1715699648",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add Members Manually Via The Admin' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090381028/original/7Z11ypz3LWS-a24NzGLTK4A1_JGyvT_OSQ.png?1616517829",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add Members Manually Via The Admin' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090381339/original/88g7NmllVUgtsWjLilydHm4Z-kyUdSC3Yw.png?1616517918",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add Members Manually Via The Admin' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164973719/original/mPSg6eUvKgd6Duta8dCOJ8KW5JFFXSpGvQ.png?1753712353",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add Members Manually Via The Admin' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078614",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078614"
+    },
+    {
+      "text": "Quick Edit Module reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "How To Geocode Members",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044148"
+    },
+    {
+      "text": "How To Manually Bill A Member / Create A Subscription For A Member",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000008873"
+    }
+  ],
+  "lastmod": "2026-06-25T20:24:43+05:30",
+  "scraped_at": "2026-10-18T13:48:09.678986"
+}

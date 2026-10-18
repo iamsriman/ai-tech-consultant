@@ -1,0 +1,54 @@
+{
+  "article_id": "12000040190",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000040190-how-to-add-an-ads-txt-file",
+  "title": "How To Add An ads.txt File",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "How To Add An ads.txt File"
+  ],
+  "content": "## How To Add An ads.txt File\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000040190\n\n\n## What is an ads.txt file?\n\n\nThe use of ads.txt files is an initiative from the Interactive Advertising Bureau Tech Lab (IAB) to improve transparency in advertising.  This initiative has been adopted by many of the large advertisement platforms, including Google Adsense. Installing an ads.txt file is as simple as uploading a file named ads.txt to the root of the website containing information provided by the banner / advertisement platform of choice (EG: Google Adsense).\n\nFor more detailed information about the ads.txt specification, please see this page on the IAB website: https://iabtechlab.com/ads-txt/\n\n\n## How to add an ads.txt file\n\n\n- Navigate to Settings » Design Settings » Banner Ads »\n\n- Enter Ads.txt content :\n\nAdd the required ads.txt content for this field and please allow up to 24 hours for Google and other networks to reflect this change. Once the update has been propagated the content will now be accessible at http://www.YourDomain.com/ads.txt",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174858/original/vj3sVFTPu9slJ94U1-fWk3rXYT72XgYZog.png?1629661049",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add An ads.txt File' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174862/original/_Mq2GhYzjo5_Vejy7PDApVErq-8XYeV6kA.png?1629661057",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add An ads.txt File' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000040190",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000040190"
+    },
+    {
+      "text": "https://iabtechlab.com/ads-txt/",
+      "url": "https://iabtechlab.com/ads-txt/"
+    },
+    {
+      "text": "",
+      "url": "http://www.robotstxt.org/"
+    },
+    {
+      "text": "http://www.YourDomain.com/ads.txt",
+      "url": "http://www.YourDomain.com/ads.txt"
+    }
+  ],
+  "lastmod": "2021-08-23T01:08:04+05:30",
+  "scraped_at": "2026-10-18T13:42:14.145316"
+}

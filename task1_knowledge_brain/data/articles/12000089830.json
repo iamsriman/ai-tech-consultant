@@ -1,0 +1,23 @@
+{
+  "article_id": "12000089830",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089830-09-09-22-software-updates",
+  "title": "09/09/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/09/22 - Software Updates"
+  ],
+  "content": "## 09/09/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089830\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented a set of security updates across the platform.\n\n- We updated the Subscription tab on the Member Account Details page in the Admin to show the most recent date each subscription has been canceled as subscriptions can be re-started and canceled multiple times.\n\n- We fixed an issue which was causing the system to add the Google Search Assist URL parameter when visiting member profile pages in some cases. Widget Involved: Bootstrap Theme - Post Results - No Results Bootstrap Theme - Footer - Scripts - DateTimePicker Scripts\n\n- We created a new Advanced Setting called \"Front-End Optimization: Load Latest Javascript Files on Frontend of Website\". When this setting is enabled, the frontend will load updated jQuery and Bootstrap JS resources. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue with the member login logic which was preventing the system from redirecting the user properly after they signed up in some cases. Widget Involved: Bootstrap Theme - Success Page - Free Member Sign Up\n\n- We fixed an issue which was preventing form fields from being set as \"Admin Only\" after adding a new field to the form in some cases.\n\n- We updated the Member Category dropdowns on the frontend of sites to not display the \"Select From List\" option when the value of the text label has been deleted on the site. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We created a new Design Setting for the Sub Level Categories homepage streaming widget called \"Under Which Category\". This setting allows an Admin to choose only show categories under a specific Top or Sub Level category. Widget Involved: Bootstrap Theme - Display - Sub Level Categories\n\n- We improved the Search Members page in the Admin to reduce the number of SQL queries and improve the page load time.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089830",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089830"
+    }
+  ],
+  "lastmod": "2022-09-12T22:49:05+05:30",
+  "scraped_at": "2026-10-18T13:50:14.504009"
+}

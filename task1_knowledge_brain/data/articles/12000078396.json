@@ -1,0 +1,23 @@
+{
+  "article_id": "12000078396",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078396-03-12-21-software-updates",
+  "title": "03/12/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/12/21 - Software Updates"
+  ],
+  "content": "## 03/12/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078396\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Website - Lead Form - Get Matched form from displaying the custom text label for validation errors below form fields in some cases. Widget Involved: Bootstrap - Contact Member Lead Map\n\n- We updated the design of the Edit Post Settings page in the Admin.\n\n- We created a new Design Setting called \"Grid View Layout\" in order to change the layout of the Grid View Search Results Add-On on search results pages. To use this new setting, navigate to the Admin >> Settings >> Design Settings >> General Tab >> Additional Design Settings >> Search Results pages.\n\n- We removed the \"Select Recommended\" text from the \"Available Upgrade Options\" feature when editing Membership Plans in the Admin.\n\n- We fixed an issue which was preventing the system from deleting Replies to Reviews from the Member Dashboard in some cases.\n\n- We updated the \"Homepage Featured Member Order\" Quick Edit Member setting to make it a dropdown field that shows the display order already selected for other Members as well.\n\n- We fixed an issue which was affecting the ability to purchase leads when using the Payfast payment gateway in some cases.\n\n- We updated the Help Alert Box field type on forms in order to improve its compatibility with bootstrap .\n\n- We updated the member import logic to identify and remove the parent_id value from a member when the system detects that the parent_id set for an imported member is the user_id of a member who is already a sub-account.\n\n- We updated the design of the Posted by Author Snapshot widget. Widget Involved: Bootstrap Theme - Module - Posted by Author Snapshot\n\n- We updated the layout of the Display Settings fields when editing Forms in the Admin.\n\n- We implemented a security update that gives site owners the ability to view which Admins are currently logged in to their site and log them out if desired. To use this new feature, navigate to the Admin >> Settings >> Admin Accounts >> Actions >> Show Active Sessions / Logout Sessions options .\n\n- We created a new Membership Plan setting called \"Free Trial Additional Options\" in order to determinate whether or not a credit card is required for Free Trial signups. To use this new setting, navigate to the Admin >>Finance >> Membership Plans >> Edit >> Signups & Upgrade tab .\n\n- We fixed an issue which was preventing the RSS Feed Add-On from formatting the description content properly in some cases.\n\n- We fixed an issue which was affecting the ability to use the \"Move Members\" feature on the Membership Plans page when the parent_id column is not present in the users_data table in the site's database.\n\n- We fixed an issue which was preventing links with special characters on the /locations page of sites from being formatted correctly in some cases. Widget Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- We fixed an issue which was causing the system to erroneously trim the GET parameters of URLs added to the post_video field when a member makes a post in some cases. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We released the Discussions Post Type.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078396",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078396"
+    }
+  ],
+  "lastmod": "2021-03-15T19:30:55+05:30",
+  "scraped_at": "2026-10-18T13:48:03.222855"
+}

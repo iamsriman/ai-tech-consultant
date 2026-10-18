@@ -1,0 +1,23 @@
+{
+  "article_id": "12000077938",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077938-02-19-21-software-updates",
+  "title": "02/19/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/19/21 - Software Updates"
+  ],
+  "content": "## 02/19/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077938\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the \"Admin Email Address\" field when editing the form settings in order to support up to 5 comma-separated email address.\n\n- We added the \"Saving Changes\" alert when saving Forms in the Admin.\n\n- We added the \"Saving Changes\" alert when saving Web Pages in the Admin.\n\n- We fixed an issue which was preventing the system from displaying results on the first page of the Events Search Results page in some cases. Widget Involved: Search - Post - Search Query\n\n- We updated the layout of the General and Homepage tabs on the Design Settings page in the Admin.\n\n- The Media Manager tool in the Admin now supports uploading files with the .doc, .docx, .ppt, or pptx file extensions.\n\n- We fixed an issue which was preventing the Predictive Keyword Search Add-On from displaying autosuggestion results for custom Post Types in some cases.\n\n- We updated the logic of the Simple Events Calendar Add-On in order to support the display of multiple events when using the \"Day\" view mode.\n\n- We implemented a security update in order to prevent code injections on Post Search Results pages on the frontend of sites.\n\n- We added the ability for members to downgrade from a Paid Membership plan to a Free Membership Plan from the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Upgrade Page 1\n\n- We updated the Form Manager to include \"Validation Options\" for each field when editing forms in the Admin.\n\n- We added support for URL special characters in Email Templates.\n\n- We fixed an issue which was preventing the system from displaying the the content of reviews on the Manage Reviews page in the Admin in some cases.\n\n- We added the ability to edit the \"Custom Homepage Content\" from the \"Select Content to Display\" section of the Design Settings page in the Admin.\n\n- We fixed an issue which was affecting the ability to match member categories when searching by keyword when the \"Strict Keyword Search\" option is selected as \"Search Method\" for the site in some cases. Search - Member - Search Query\n\n- We added a Subscription Plan setting to control in which order the upgrade options display on the Upgrade page in the Admin.  We also added a Subscription Plan setting to control which of the upgrade options should be pre-selected. In order to use these new settings, navigate to the Admin >> Finance >> Membership Plans >> Edit >>Sign Ups & Upgrades tab >> Available Upgrade Options section. Widget Involved: Bootstrap Theme - Account - Upgrade Page 1\n\n- We updated the \"Profile Page Tab Order\" Post Type setting in order to make it a dropdown field and show the display order that has been selected for other Post Types as well.\n\n- We updated the width of the validation text when creating/editing Posts on the Member Dashboard.\n\n- We updated the layout of the Category Info data on the Member Categories page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077938",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077938"
+    }
+  ],
+  "lastmod": "2024-05-09T11:50:58+05:30",
+  "scraped_at": "2026-10-18T13:47:51.247812"
+}

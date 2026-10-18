@@ -1,0 +1,23 @@
+{
+  "article_id": "12000065531",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065531-12-06-19-software-updates",
+  "title": "12/06/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/06/19 - Software Updates"
+  ],
+  "content": "## 12/06/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065531\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the \"X\" button from displaying in location search fields when the \"Detect Visitor Locations\" Add-On was activate on a Site. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We updated the \"Private Member Chat\" Add-On in order to make the name of the member shown in the chat linked to their profile page.\n\n- We updated the \"Reviews\" Post Type in order to make it compatible with the \"Members-Only Content\" Add-On. Widgets Involved: Bootstrap Theme - Member Profile - Submit Review Bootstrap Theme - Single Post Page\n\n- We added the ability to sort members by Revenue on the Search Members page in the Admin.\n\n- We updated the \"View Toggle Icons\" shown on the top of search results pages.  Now they will be hidden if the icon label is blank.\n\n- We fixed an issue which was preventing members from adding a few specific zip / post codes as additional locations when using the \"Multi-Location Listings\" Add-On. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue with the \"Export Member Data\" Add-On which was causing export member files to be limited to 1.000 members in some cases.\n\n- We enhanced the logic of the Domain Manager feature in order to update all places where the old domain of the site was entered into static pages, menus, etc with the new domain of the site.\n\n- We fixed an issue which was preventing events to display on the Events Calendar in some cases. Widget Involved: Bootstrap Theme - Function - Events Calendar JSON Array\n\n- We added the ability to change the top level category, update the listing type, and the member verified status using the bulk actions on the Search Members page in the Admin.\n\n- We implemented a set of minor updates for the \"Admin Roles\" feature in the Admin.\n\n- A Membership Plan being cloned or deleted will now be logged in the Activity Tracker in the Admin.\n\n- We created a new Advanced Setting to disable the drag and drop functionality for the Google Maps field on the Contact Details tab in the Member Dashboard. New Advanced Setting: disable_drag_drop_member_map. Widget Involved: Bootstrap Theme - Form - Member Google Location",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065531",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065531"
+    }
+  ],
+  "lastmod": "2019-12-11T05:04:59+05:30",
+  "scraped_at": "2026-10-18T13:45:48.643061"
+}

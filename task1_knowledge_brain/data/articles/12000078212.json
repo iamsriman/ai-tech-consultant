@@ -1,0 +1,23 @@
+{
+  "article_id": "12000078212",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078212-03-05-21-software-updates",
+  "title": "03/05/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/05/21 - Software Updates"
+  ],
+  "content": "## 03/05/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078212\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We created a new Advanced Setting called \"Save Billing Address as Member Address\". Wen enabled, the system will save the Billing Address entered during paid member signup as the member's profile address as well.\n\n- We fixed an issue which was preventing the system from displaying the member reviews rating on member search results pages when using the Insta-Load Search Results Add-On in some cases.\n\n- We fixed an issue which was preventing the system from displaying the full \"State / Province\" Related Searches links on the Member Profiles pages in some cases. Widget Involved: Bootstrap Theme - Module - Member Related Searches\n\n- We fixed an issue which was affecting the ability to display the Breadcrumbs on member profile pages when a member has \"III\" as part of their name.\n\n- We updated the Post Categories field validation logic in order to support dashes \"-\" when editing Post Types in the Admin.\n\n- We updated the Assign Membership Plan field to a Select2 Dropdown when importing members in the Admin.\n\n- We updated the layout of the Multi-Photo Post Types detail pages in order to add the \"Play\" icon for videos in photo album thumbnails.\n\n- We updated the Express Member Registration Add-On in order to be shown when calling the Member Login form on a site's homepage. Widget Involved: Bootstrap Theme - Homepage Search - Member Login Form\n\n- We updated the logic of the Form Inquiries Export Module to separate each piece of data into separate columns in the export file.\n\n- We updated the button color modal to blue and red when using the \"Copy Details From Master Account\" feature when creating a Sub-Account from the Member Dashboard.\n\n- We fixed an issue which was preventing the system from displaying the sub-categories of site when using the \"Sub-Category Groups Member Categories\" widget in some cases. Widget Involved: Bootstrap Theme - Sub Category Groups - Member Categories\n\n- The Bootstrap \"nav-pill\" classes will now be controlled by the \"Button Colors\" Design Settings. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was causing the Google Website Translator to hide the Main Menu and Member Menu icon on mobile devices in some cases.\n\n- We added the ability to use periods \".\" as part of the URL of pages created in the Web Page Builder in the Admin.\n\n- We updated the logic of the \"Can Unregistered Visitors View These Members\" Membership Plan setting in order to override the Members-Only Access settings of the Member Listing Post Type. Widget Involved: Bootstrap Theme - Member Profile - Contact Page Bootstrap Theme - Member Profile - Submit Review Bootstrap Theme - Member Profile\n\n- We fixed an issue which was causing the system to reset the \"Title Color\" setting for Blog Articles in the Design Settings after reloading the Design Setting page in the Admin.\n\n- We deprecated the Side by Side, Vertical, Inline and Search options from the Form Layout View setting when using the Edit Form Settings modal in the Admin.\n\n- We fixed an issue which was causing the Featured Blog Article Slider Add-On to display an additional space between the photos and the titles of the Blog Articles in some cases. Widget Involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider\n\n- We updated the layout of the Color Picker fields in the Admin area.\n\n- We fixed an issue with searching for members by location in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078212",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078212"
+    }
+  ],
+  "lastmod": "2021-03-06T05:14:39+05:30",
+  "scraped_at": "2026-10-18T13:47:56.748231"
+}

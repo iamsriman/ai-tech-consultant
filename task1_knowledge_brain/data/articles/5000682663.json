@@ -1,0 +1,63 @@
+{
+  "article_id": "5000682663",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682663-how-to-add-3rd-party-commenting-tools",
+  "title": "How to Add 3rd-Party Commenting Tools",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How to Add 3rd-Party Commenting Tools"
+  ],
+  "content": "## How to Add 3rd-Party Commenting Tools\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682663\n\nMembers of the site will undoubtedly post high-quality content that demands to be commented on.  Luckily it is effortless to add the ability for users of the site to publish comments on any kind of member post on the site - events, classifieds, photo albums, coupons, job postings, videos, articles, etc.\n\n\n## BD Native Commenting System\n\n\nAdd native comment functionality to the membership website. Logged-in members will be able to leave comments on the website’s content and reply to other members’ comments. This website add-on eliminates the need to use a third-party solution, such as Disqus, and provides a seamless user experience.\n\nThere is a free add-on available, enabled on all websites. All websites automatically have this add-on available: Community Comments Add-On\n\n3rd Party Commenting Tool To add comments to a specific member post, first sign up for a commenting platform. Disqus is a popular option and used in this article. Once an account has been created, a code will be provided to paste on the site wherever the admin would like the option to comment to appear. See the Disqus Knowledge Base for more information about this code. Add Disqus Once the code has been copied to the clipboard, log in to the Admin area of the site, and follow these steps: Navigate to My Content - Edit Post Settings Locate the post type to add comments to in the \"Edit Post Settings\" section and click on the \"Edit\" button for this feature On the Detail Page Design tab, find the \"Comments Code\" area and paste the code from the commenting solution here: Now when navigating to a single post in a Membership Post (a single Video, single Article, single Photo Album, etc), the comments section will become visible and appear at the bottom of the page where users can now post comments.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127610478/original/tK0fsP3YZa_F8sat4q0cuwbay7LRhUKH8A.png?1687985671",
+      "alt": null,
+      "caption": "Context: Once the code has been copied to the clipboard, log in to the Admin area of the site, and follow these steps:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add 3rd-Party Commenting Tools' in section 'My Content' / 'Edit Post Settings'. Context: Context: Once the code has been copied to the clipboard, log in to the Admin area of the site, and follow these steps:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094088085/original/jFt7zE69OyO3rKvgVYtbrXqHDw8pcR_Hvw.png?1623756557",
+      "alt": null,
+      "caption": "Context: Once the code has been copied to the clipboard, log in to the Admin area of the site, and follow these steps:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add 3rd-Party Commenting Tools' in section 'My Content' / 'Edit Post Settings'. Context: Context: Once the code has been copied to the clipboard, log in to the Admin area of the site, and follow these steps:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12167889072/original/gdG83HTnYOpPqa_DZQ8m843Adn1a1d8Pcw.png?1758593092",
+      "alt": null,
+      "caption": "Context: Once the code has been copied to the clipboard, log in to the Admin area of the site, and follow these steps:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add 3rd-Party Commenting Tools' in section 'My Content' / 'Edit Post Settings'. Context: Context: Once the code has been copied to the clipboard, log in to the Admin area of the site, and follow these steps:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682663",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682663"
+    },
+    {
+      "text": "Community Comments Add-On",
+      "url": "https://www.brilliantdirectories.com/member-post-commenting"
+    },
+    {
+      "text": "Disqus",
+      "url": "https://disqus.com/"
+    },
+    {
+      "text": "Disqus Knowledge Base",
+      "url": "https://help.disqus.com/"
+    }
+  ],
+  "lastmod": "2026-07-15T03:16:51+05:30",
+  "scraped_at": "2026-10-18T13:39:10.296693"
+}

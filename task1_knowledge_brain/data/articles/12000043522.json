@@ -1,0 +1,23 @@
+{
+  "article_id": "12000043522",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043522-04-20-18-software-updates",
+  "title": "04/20/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/20/18 - Software Updates"
+  ],
+  "content": "## 04/20/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000043522\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We created a new Advanced Setting in order to allow members to select past days on the Date / Time Picker fields of the Blog Articles, Jobs and Events features.  Choosing dates in the past is enabled by default, but can be disabled by setting the \"allow_past_date_in_posts\" Advanced Setting to 0. Widgets Involved: Bootstrap Theme - Footer - Scripts Advanced Setting allow_past_date_in_posts\n\n- Now the clone button in the Edit Post Pages in the Member Dashboard take into consideration the Limit Post Setting that was set in the Product Settings associated with the member. Widget Involved: Bootstrap Theme - Account - Feature Edit\n\n- We fixed an issue which was affecting the Search Members functionality in the Admin area.\n\n- We added a new Product Setting in order to Show/Hide the Specialties tab on live Member Profile pages. Widgets Involved: Bootstrap Theme - Member Profile - Member Tabs Bootstrap Theme - Member Profile - Member Tabs lazyLoad\n\n- Now the Google Sitemap Generator will exclude the URLs of member profile pages that have set the \"Hide Listing from Search Engines\" setting to \"Yes\" in their associated Product's settings.\n\n- We fixed an issue that was affecting the normal behavior of the Multi-Location Listings Add-On when the state of New York is selected.\n\n- Now Site Administrators can easily add and edit the ads.txt code of a site in the Design Settings area of the Admin. In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Banner Ad Design Settings Tab.\n\n- We fixed an issue that was causing compatibility problems when the Lead Form and the Homepage slider were enabled together on the homepage of a site. Widgets Involved: Bootstrap Theme - Display - Background Slideshow Bootstrap Theme - HEAD System - SaveForm Bootstrap - Contact Member Lead Map\n\n- Now the Member Export Data Add-On will export the names of all Top and Sub categories selected by each member.\n\n- We created a new widget called Bootstrap Theme - Module - Posted by Author Snapshot.  This widget can be used on \"Post Single Page\" sidebars and will show a \"snapshot summary\" of the profile information of the Member who published the post. Widget Involved: Bootstrap Theme - Module - Posted by Author Snapshot",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000043522",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043522"
+    }
+  ],
+  "lastmod": "2018-04-21T02:52:30+05:30",
+  "scraped_at": "2026-10-18T13:42:33.887610"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108778",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108778-05-29-2026-software-updates",
+  "title": "05/29/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/29/2026 - Software Updates"
+  ],
+  "content": "## 05/29/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108778\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Added the option to sort Member Categories by the number of members in each category on the Member Categories page in the Admin.\n\n- Improved the AI Logo Generator to let it use an existing logo along with up to three additional reference images as context when generating a logo. Also added a \"Generate\" button to the To-Do section of the Admin Dashboard for new sites.\n\n- Improved the Widget Manager in the Admin to prevent duplicate custom copies of the same widget from being created.\n\n- Improved how form fields are loaded across the checkout, account, and upgrade forms so they now use a dynamic configuration instead of a fixed path. Widget Involved: Bootstrap Theme - Function - Form\n\n- Fixed an issue that prevented the sub and sub-sub category dropdowns from displaying in the Get Matched Form when the \"Show Categories with No Members\" Setting was set to \"No\", and members were assigned to \"all\" categories in their Membership Plan settings. Widget Involved: Bootstrap Theme - Display - Get Matched Form\n\n- Fixed an issue that caused some scripts to stop working on event detail pages when both \" Add to Calendar\" widgets were displayed at the same time. Widgets Involved: Bootstrap Theme - Display - Add to Calendar Bootstrap Theme - Display - Add to Calendar Dropdown\n\n- Fixed an issue that caused some uploaded images to appear incorrectly rotated in some cases, affecting images added through the content editor, member account image uploads, and the stock image import. Widget Involved: Bootstrap Theme - Form - Froala Editor Actions",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108778",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108778"
+    }
+  ],
+  "lastmod": "2026-06-09T00:21:59+05:30",
+  "scraped_at": "2026-10-18T13:59:03.308702"
+}

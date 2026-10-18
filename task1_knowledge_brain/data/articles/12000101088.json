@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101088",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101088-08-09-2024-software-update",
+  "title": "08/09/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/09/2024 - Software Update"
+  ],
+  "content": "## 08/09/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101088\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was affecting the ability to create pre-styled buttons using the Froala WYSIWYG in some cases.\n\n- We fixed an issue which was causing the counter that displays next to the Manage Posts sidebar menu item in the Admin to incorrectly calculate the number of posts that were pending approval in some cases.\n\n- We implemented a security update to the Bookmark My Favorites and Community Comments Add-Ons. Widgets Involved: Bootstrap Theme - Function - Add to Favorites Button Bootstrap Theme - Function - Comment Handling\n\n- We fixed an issue which was preventing the Google Maps Location logic from being triggered after performing a frontend location search on mobile devices in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest Bootstrap Theme - Search Results Map",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101088",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101088"
+    }
+  ],
+  "lastmod": "2024-08-21T03:44:45+05:30",
+  "scraped_at": "2026-10-18T13:54:42.443972"
+}

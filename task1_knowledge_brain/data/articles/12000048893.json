@@ -1,0 +1,112 @@
+{
+  "article_id": "12000048893",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048893-finance-membership-plans-post-publishing",
+  "title": "Finance » Membership Plans - Post Publishing",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Finance » Membership Plans - Post Publishing"
+  ],
+  "content": "## Finance » Membership Plans - Post Publishing\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048893\n\nThis article covers the available settings found in the \"Post Publishing\" tab when editing a membership plan. In general, this section allows selection of which membership plans can publish certain types of posts.\n\nNavigate to Finance » Membership Plans:\n\nFrom here, go to \" Post Publishing \":\n\n\n## Configuring Post Publishing Rules for Each Post Type\n\n\nThese settings allow the definition of publishing rules and restrictions for each membership plan.\n\n1. CAN POST: If this option is checked, members of this plan will have the ability to publish these types of posts. If this option is not checked, members in this membership plan will not be able to publish these types of posts.\n\nAdmin-Only Alert: Some post types display the message “ ALERT: Only assign to website admin. ” This alert indicates that these posts are restricted and have certain settings that should only be managed by the site administrator. For example, digital products are configured so payments are received by the site admin rather than individual users., making it important that only the admin manages these settings.\n\n2. CAN VIEW: If the Members-Only Content Add-on is active and a post type is restricted to members, ensure that under Content » Edit Post Settings, it is set to an option other than ' Keep Public for All Visitors .'\n\nIf the post type is set to \" Keep Public for All Visitors, \" then the \"Can View\" checkbox will not display, and instead there will be a badge that says \"Public For All\". It cannot be changed because the posts are public for everyone.\n\n3. Post Moderation setting will overwrite the \"Post Approval\" option selected under Content » Edit Post Settings, if an option other than \"Use Rule from Post Settings (Default)\" is selected.\n\nThe options are:\n\n- Use Rule from Post Settings (Default): This option won't overwrite the settings selected under Content » Edit Post Settings.\n\n- Member Controls Publish Status\n\n- Admin Moderates all Posts\n\n- Auto-Publish All Posts\n\n4. The Add-On \" Limit Posts per Member \" can determine the maximum number of posts a member can have published at any given time.\n\nLimit Posts per Membe r allows the admin set how many articles, albums, classifieds, properties, etc. a member can publish.\n\nAllowing members to contribute content to the website provides them with valuable visibility. Reward paying members by allowing them to publish more posts than lower-tier members.\n\n5. The \" Pay Per Post \" Add-on sets a price per post type.\n\nThese are the three options:\n\n- Only Free Posts. No Paid Posts.\n\n- Only Paid Posts. No Free Posts.\n\n- Free and Paid Posts.\n\nNote: If the \"Only Free Posts. No Paid Posts\" option is set, the system won't let the admin select how many free posts can be published.\n\n6. Max Free Posts: Set this value to 0 to allow unlimited free posts.\n\nIf the maximum number of free articles is set to \"1\", members in this membership plan will only be able to publish one article for free. If they want to add a second article, they need to pay for it.\n\n7. Price per Extra Post: The minimum value must be 1.\n\nHere, the admin can add the price members will pay per post.\n\nThe Pay Per Post add-on allows the owner of the site to charge members a set price each time they publish a piece of content to the website. Pay-per-post prices can be set per membership level.\n\nThe Pay Per Post add-on can help generate revenue while encouraging community contributions. The admin can offer free memberships while still generating revenue each time free members publish content.\n\nNote : Keep in mind that if a post type was previously enabled for members and is later disabled within these plan settings, the published posts of the now disabled post type will not show up on the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168273978/original/i_ITUWNoC0r9DWgYxcOVLFE6SZAFc5a-Zw.png?1759241712",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Post Publishing' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168274015/original/DUSD46I06S6zhGLwWrDQi9oKW7MvSoyNog.png?1759241756",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Post Publishing' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168274083/original/TguOj34pAGzX6vIW07KrVk0yv5xelNHdew.png?1759241786",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Post Publishing' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168408548/original/goVXaJ3Bgf6aiJCeDN3JRvxce90teqGy2w.png?1759412175",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Post Publishing' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091798871/original/YZx-Er0QVg7ycmKeE4jBkXgoAdoXhNNDfQ.png?1619416181",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Post Publishing' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168274143/original/A332taGBn2Y9QhmBvtfOVxwJ6P8uwTodvw.png?1759241854",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Post Publishing' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168274303/original/mhDljobP0Am8qGdEzDePoEA5QvIMHvakfg.png?1759241983",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Post Publishing' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168274279/original/u17IoFdrENOcTPeYwlrsYr3tS0KaykNlQw.png?1759241964",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Post Publishing' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048893",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048893"
+    },
+    {
+      "text": "Limit Posts per Member",
+      "url": "https://www.brilliantdirectories.com/limit-posts-per-member-add-on"
+    },
+    {
+      "text": "Limit Posts per Membe",
+      "url": "https://www.brilliantdirectories.com/limit-posts-per-member-add-on"
+    },
+    {
+      "text": "Pay Per Post",
+      "url": "https://www.brilliantdirectories.com/pay-per-post-add-on"
+    },
+    {
+      "text": "Pay Per Post add-on",
+      "url": "https://www.brilliantdirectories.com/pay-per-post-add-on"
+    }
+  ],
+  "lastmod": "2026-06-29T18:41:51+05:30",
+  "scraped_at": "2026-10-18T13:43:40.906769"
+}

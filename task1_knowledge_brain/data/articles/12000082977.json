@@ -1,0 +1,242 @@
+{
+  "article_id": "12000082977",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082977-connecting-webhook-events-with-zapier",
+  "title": "Connecting Webhook Events with Zapier",
+  "category": "Developer Hub",
+  "folder": "Webhooks",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Webhooks",
+    "Connecting Webhook Events with Zapier"
+  ],
+  "content": "## Connecting Webhook Events with Zapier\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082977\n\n\n## Overview\n\n\nWebhooks are one of a few ways web applications can communicate with each other. It allows to send real-time data from one application to another whenever a given event occurs.\n\nAvailable Webhook Events:\n\n- Member Review Submitted\n\n- Contact Us Form Submitted\n\n- Newsletter Signup\n\n- Lead Submitted\n\n- Paid Members Signup\n\n- Free Members Signup\n\n- Members Imported / Added Via Admin\n\n- Post - Standard\n\n- Post - Photo Album\n\n- Sub Account Form Submitted\n\n- Contact Details Form Submitted\n\n- Additional Details Form Submitted\n\n- About Me Form Submitted\n\n- Profile Photos Form Submitted\n\n- Member Plan Changed\n\n- Member Plan Cancelled\n\n- One-Time Purchase\n\n- Post Comment Submitted\n\n- Smart Lists *\n\n- Unsubscribed Form Submitted\n\n- Chat Message Actions\n\n- + Custom Forms\n\n* NOTE : The process to create a SmartList Webhook and connect it to Zapier is a bit different see: How To Create Smart List Webhooks\n\n\n## Connect a Webhook Events with Zapier\n\n\nThe Zap created on this article is an example of how Webhooks work, the Zap will send an email every time a visitor submits the Getmatched form. The same method applies for other Webhooks events and apps available on Zapier.\n\nTo access this section, please go to Developer Hub >> Webhooks .\n\nOn a separate browser tab log in to Zapier , click on \"Create Zap\".\n\nNext, name the Zap and click on \" Webhook \".\n\nNow is time to \"Choose an Event\", select \"Catch Hook\".\n\nHit \"Continue\".\n\nCopy the \"Custom Webhook URL\".\n\nGo into the Webhook settings on the Admin Dashboard and paste it in, click on \"Save Webhook Settings\".\n\nNow go back to Zapier and hit \"Continue\".\n\nDon't click on \"Test trigger\" just yet, there has to be submission of the form being used on the directory website, please see the next step below.\n\nTo test the trigger submit the form connected to this Zap in this case the getmatched form, add content to all of the fields that are appearing on the form and click on \"Send Message\".\n\nThen go back in to the Zappier browser tab and Click on Test Trigger.\n\nIf this is successful, Zappier will print all of the data that is sent to the database when the form gets submitted, click on \"Continue\".\n\nNext, it's time to create the Event, for this example select \"Gmail\".\n\nFor the Action Event select Send Email and hit \"Continue\".\n\nSelect the email account and hit \"Continue\".\n\nFor the Set up Action add the following fields: To, From, Enter Subject and Body Content.\n\nTo :\n\nFrom:\n\nEnter Subject:\n\nBody Content:\n\nNote : All of the data that is sent to the database when this form is submitted is added here, select only what is necessary for this action.\n\nNow that the fields are added make sure to arrange them so these appear formatted properly on the email:\n\nLastly, click on \"Continue\".\n\nNow click on \"Test & Continue\".\n\nCheckout the email that was added to receive the Zap, it should contain all of the fields that were selected.\n\nReady to Turn the Zap on? Click on \"Turn on Zap\".",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099551091/original/1-A3VEy-8IWRjFQfsbqZu-5pO6y8ffnskg.png?1634221020",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109077601/original/5etKvgbaFoRCvKoM07hc1qNjjICYS1qtBQ.png?1652793782",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109077689/original/xGQuStH32FC_S7d4m9lN9RdzDrd7GOybZw.png?1652793850",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099552328/original/w4Yj6NgJmp8Swranax5qlWQMH_ATmWlBSg.png?1634222178",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099552368/original/GtwfnKGKbWhppw3lGfA8P-OOYFXTZpUpHg.png?1634222202",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099552461/original/Pkc3xa3ZyfTEOArRS0_KS5Ux7RJXmw2rZQ.png?1634222274",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12101667679/original/QeKS6bBjlxSis1nvHPLuNAncF6uR4AFaNg.png?1638290067",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099552690/original/EEFllmkNYeF0k9abxcSqFw56iqJk_AoaEw.png?1634222509",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099552717/original/F2HDQdGmpeMRqHWaUT0S0zWg49cv2mG-Ww.png?1634222555",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099553829/original/8xxxxTcjR_sqyHS6Ry1Y08HpdrYzchiZMQ.png?1634223510",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099553810/original/Z6I4Aprer2AqN9ACsJGBcWevEIv1zIQbmg.png?1634223482",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099553971/original/JLi_vQPZHOQFDEgfC2-9kpnmOmtRZ0pL8A.png?1634223616",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099554035/original/lCh-qJ5b2ci_2e3MMyXSP12rI9yqc5rnVA.png?1634223664",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099554138/original/vKxW5FjBK40i5V-jK29uqZSDi9ss7kny8w.png?1634223731",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099554304/original/OZQYTCSfS5dl90GpO8gPOEb6lmVQAKg9Ow.png?1634223870",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099554339/original/lo7hAAGWvbmIrElMtXPimtGA58LVgosoMQ.png?1634223913",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099554383/original/_t0Vd5hQG0jEmxlzORcV7y5JunZWrHd7aw.png?1634223982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099554727/original/QydWANLOtwKVhxe_GJSsAhGdZ_Bcm4hJPA.png?1634224354",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099555703/original/6V7KhHtrogVubUpidb5NbsW3im5ZywZVCQ.png?1634225428",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099555542/original/pJ3IAFK6-L7DEdZuDL9g_oZQdAGDLckNHg.png?1634225233",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099555865/original/60p-aE0bXVJ9vOCcC8V_b3XtnAkBg6As-A.png?1634225582",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099555900/original/bU6Y9-bsSUfnyAnGc9Z1H-voULccyTIUVg.png?1634225634",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connecting Webhook Events with Zapier' in section 'Developer Hub' / 'Webhooks'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082977",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082977"
+    },
+    {
+      "text": "",
+      "url": "https://zapier.com/blog/what-are-webhooks/"
+    },
+    {
+      "text": "Webhooks",
+      "url": "https://zapier.com/blog/what-are-webhooks/"
+    },
+    {
+      "text": "Smart Lists *",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000096184"
+    },
+    {
+      "text": "How To Create Smart List Webhooks",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000096184"
+    },
+    {
+      "text": "Zapier",
+      "url": "https://zapier.com/"
+    }
+  ],
+  "lastmod": "2023-10-07T04:25:17+05:30",
+  "scraped_at": "2026-10-18T13:49:03.935806"
+}

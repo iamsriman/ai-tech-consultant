@@ -1,0 +1,23 @@
+{
+  "article_id": "12000084488",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084488-12-10-21-software-updates",
+  "title": "12/10/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/10/21 - Software Updates"
+  ],
+  "content": "## 12/10/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084488\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the name of the \"URL for the Sign up Page\" Membership Plan setting to \"Member Signup Page URL\".\n\n- We fixed an issue which was preventing the Admin Bar from displaying on member search result pages in some cases. Widget Involved: Bootstrap Theme - Search Module - Sub_Location\n\n- We updated the way images are uploaded to Froala WYSIWYG editors so images are set to their native width and height by default. Widget Involved: Form - Froala Editor Javascript\n\n- We created a new Advanced Setting called \"Hide Top-Level Category on Member Profile Page\". When this setting is enabled, the Top Level Category that displays in the header of member profile pages will be hidden. Widget Involved: Bootstrap Theme - Member Profile - Header\n\n- We added a documentation link to the Webhooks page in the Admin.\n\n- We updated the Recent Events homepage widget to add additional debugging information when viewing the widget as an Admin / developer. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We fixed an issue which was causing the system to change the homepage search module after saving the Design Settings in the Admin in some cases.\n\n- We updated the logic of the Recaptcha Checkbox to render the captcha box after either clicking on any element in the form OR entering text into one of the form input fields. Widget Involved: Bootstrap Theme - Function - Google ReCaptcha on Sign up Page\n\n- We updated the way review dates are displayed to conform with our default date format options in the Localization tab of the General Settings in the Admin. Post Type Involved: Member Review\n\n- We created a new Advanced Setting called \"Text Direction\" to specify whether the text on the website should be read from the right to left or left to right. Widget Involved: Bootstrap Theme - HEAD",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084488",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084488"
+    }
+  ],
+  "lastmod": "2021-12-13T23:04:32+05:30",
+  "scraped_at": "2026-10-18T13:49:15.284535"
+}

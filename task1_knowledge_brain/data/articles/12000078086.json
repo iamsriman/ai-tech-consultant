@@ -1,0 +1,330 @@
+{
+  "article_id": "12000078086",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078086-design-settings-select-content-to-display-stream-content-on-the-homepage-",
+  "title": "Design Settings » Select Content to Display (Stream Content On The Homepage)",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Select Content to Display (Stream Content On The Homepage)"
+  ],
+  "content": "## Design Settings » Select Content to Display (Stream Content On The Homepage)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078086\n\nBrilliant Directories makes it easy to stream content on the homepage. It's currently possible to stream the following content on the homepage:\n\nMember Streaming Widgets Post Type Streaming Widgets Homepage Hero Divider About Website / Join Offer Custom Content 1 Custom Content 2 Custom Content 3 Custom Content 4 Custom Content 5 Streaming Members Streaming Featured Members Streaming Top Categories Streaming Sub Level Categories Events Calendar Streaming Featured Blog Article Slider Streaming Member Articles Streaming Member Articles with Sidebar Streaming Audios Streaming Blog Articles Streaming Blog Articles with Sidebar Streaming Classifieds Streaming Coupons Streaming Digital Products Streaming Events Streaming Jobs Streaming Photo Albums Streaming Products Streaming Property Listings Streaming Reviews Streaming Videos\n\n\n## Select Content to Display\n\n\nGo to Settings >> Design Settings >> Homepage Tab >> Select Content to Display :\n\nLearn how to edit the design of the Streaming Widgets : Design Settings » Section Settings & Section Title Font\n\nThis controls the order of the streaming widgets that appear on the homepage. To add or edit which type of content to display, click on on the down arrow and select the streaming widget:\n\nThe modules include 3 setting to select a different Background Color and Top / Bottom Spacing :\n\nBy default the section will come with \" Default \" as the Top / Bottom Spacing option. An unchecked \" Black \" background color will be pre-selected but not applied, since the checkbox is unmarked.\n\nTop Spacing Bottom Spacing Background\n\nFront-End Use\n\nThis example uses the Streaming Members:\n\n- Default Top / Bottom Spacing and no Background Color:\n\n- Top / Bottom Spacing set to \" 0px \" and a Background Color applied:\n\n\n## Edit Settings - How To Customize Streaming Content\n\n\nBrilliant Directories provides some default options to customize the streaming content on the homepage.\n\nGo to SETTINGS >> DESIGN SETTINGS >> HOMEPAGE >> Select Content to Display >> Find the Streaming widget and click on Edit Settings .\n\nThere are five primary sections editable. These settings apply to all Streaming Widgets:\n\n\n### Title\n\n\nThe title is what is displayed on top of the streaming content.\n\n\n### Title Color\n\n\nPick the color of the Title.\n\n\n### Amount Of Posts To Be Displayed On The Homepage\n\n\nControl how many posts will display on the homepage and how many rows.\n\n\n### Only Show Members / Posts with Photo\n\n\nWhile it is our recommendation to force members to add an image in order for that piece of content to stream on the homepage, there is also the option to allow members / posts without an image to show as well:\n\nHide On Mobile?\n\nWhen this is set to \"Yes\" it will hide the streaming content module on mobile devices/displays.\n\nHide Sidebar On Mobile?\n\nThis setting applies to two streaming widgets:\n\n- Streaming Member Articles with Sidebar\n\n- Streaming Blog Articles with Sidebar\n\nIt will hide the sidebar when viewing the section on a mobile device:\n\n\n### Category Levels to Show\n\n\nThis setting is only available for the Streaming Sub Level Categories module where the preferred category tier can be displayed on the module.\n\n* Enable Carousel Slider will only appear if the add-on is active on the site:\n\n» Streaming Post Carousel Slider Add-On\n\n\n### Under Which Category?\n\n\nThis setting is only available for the Streaming Sub Level Categories module where the preferred Top Level Category and Sub Level Category can be specified to display:\n\nImportant Note: The \" Select Sub Level Category \" option will only display if the Sub-Sub Level Category option has been selected for the Category Levels to Show setting.\n\n\n## Additional Settings\n\n\nThere are additional settings for the following Post Types:\n\n- Streaming Blog Articles\n\n- Streaming Blog Articles with Sidebar\n\n- Streaming Classifieds\n\n- Streaming Coupons\n\n- Streaming Events\n\n- Streaming Jobs\n\n- Streaming Member Articles\n\n- Streaming Member Articles with Sidebar\n\n- Streaming Photo Albums\n\n- Streaming Products\n\n- Streaming Properties\n\n- Streaming Reviews\n\n- Streaming Videos\n\n\n### Linked Post Type\n\n\nOn this setting select the post type with the streaming widget, only if necessary, this is already set up automatically. This setting gives the option to select any post type, i ncluding custom post types.\n\n\n### Hide If No Posts Exist\n\n\nHide the entire Streaming Widget Section if no post exist.\n\n\n### Only Include Posts from Active Members\n\n\nIf there is an account inactive and don't want those posts to show by activating this setting those posts are not going to display.\n\n\n### Include Posts from Non-Searchable Members\n\n\nIf set to Yes shows the post of a non-searchable member, this will make the post viewable but not the member itself.\n\n\n### Display Order\n\n\nSelect the order of the posts, find these 3 options:\n\n- Newest First\n\n- Oldest First\n\n- Random\n\nImportant Note: On the Streaming Events widget, there will be additional Display Order options\n\n\n### Include Posts from Members in These Plans\n\n\nThis setting applies only to Streaming Members. Select what Membership Plan is going to display on the Homepage.\n\n\n### Limit One Post per Member?\n\n\nUse this setting to display only one post per member.\n\n\n### Display Additional Information\n\n\nThis setting is only for Featured Members and Streaming Members.\n\nThe options available are:\n\n- Display About Snippet\n\n- Display Top Level Category\n\n- Display Sub Level Category\n\n- Display Sub-Sub Level Category\n\n- Display Short Description\n\n- Do Not Display Additional Information\n\n\n### Display Location\n\n\nThe setting applies only to Featured and Streaming Members widgets.\n\n\n### Display View Profile Button\n\n\nEnable or disable the View Profile Button.\n\nThis setting is only for Featured Members and Streaming Members.\n\nTo change the order of the streaming content, drag and drop the Sections to fit the order desired:\n\nLastly, to add an extra Streaming widget, click on \" + Add New Section \":",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098494635/original/mecviOPd7nrbV51Hi1fomUOd-gv7Ao4OJg.png?1632233183",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098494736/original/We4mr9MRlYC0iP65mix3rvQSWeonauyhbA.png?1632233267",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098494780/original/cVpA-gRPVdZg0E_wRMc3GbfWEu327NZkSw.png?1632233296",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098494995/original/fHe1iw_4vh25qVbm8ta7Tb5LvCJURwYACg.png?1632233508",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098495003/original/0Fht-w7EuP_N2fgg8UJiOfcyDTvGJmkJrg.png?1632233513",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098495033/original/ycwqNqvGkHv1frRzjupTZn9FvttB7_2edw.png?1632233549",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098500886/original/4mW2jRveqXGpdCzLB6pleTveBAnBrR_DPw.png?1632239008",
+      "alt": null,
+      "caption": "Context: This example uses the Streaming Members:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'. Context: Context: This example uses the Streaming Members:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098500952/original/2Aa5PzOjawZnbnUQ-BeGRUExgP2NaoO-NQ.png?1632239088",
+      "alt": null,
+      "caption": "Context: This example uses the Streaming Members:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'. Context: Context: This example uses the Streaming Members:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098501044/original/htZp7VN3phiLr72ChG168IaTb6k7EchhCw.png?1632239187",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098502355/original/TiNAlbYHd0ncIswFkpToWoBBbZeErQyHiQ.png?1632240322",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098502394/original/MNiUMcVb_2A678yXNE8HEGWjinLmAARe0Q.png?1632240385",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098502401/original/zuyShnwo-RGN4nZgTa9GaTOSIUqhKl84Tw.png?1632240390",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098502418/original/iplDSE0Kx_dh6eE8u_z5wMWsg0Q05E_TPg.png?1632240399",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107577605/original/n6d63VtOBvOcPCNFDeH3P2aUMn1A8K9Y5w.png?1649780024",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128670488/original/b9BHXFRszEA7c9zLDiU4w8W2ndv4HsQ0_A.png?1689868413",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112899246/original/-8wXLHy_Pm3Y1WMdaGyx1DJsMT4bsB3DAQ.png?1660137779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114535860/original/JQPgLBdQIUFd8gpkfa2UvxMhWrBY-rB2Qw.png?1663260627",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096209/original/IU1d0YILj2gVHEKxPnmkDxo93H1GiqnI-w.png?1623764690",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096243/original/S98nCFT6K83rWYWMwKLKKiqOVnPlHJmSVw.png?1623764733",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096260/original/t7d-kKNpE1cX6yVvXVraqgVM7CAHvrZFRw.png?1623764759",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096278/original/9QCqsQabgrndGOaZ7ubLTCzFC6bGfQIvLA.png?1623764781",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096337/original/5yIB5IJX6EnX5NcYj6wDu0Ih0gu1WKocTg.png?1623764826",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113502464/original/-f4mwSQECR2C7RT94mITyOlfHy0LpHw8SA.png?1661339396",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096391/original/S5nWiamQ7AepyET7Mayk-E-BC6ESG2koYw.png?1623764863",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096452/original/fM1JSHuTrtOzd7zJbFNpfCoSZ2Ci3YmYbA.png?1623764925",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104090966/original/aZR1LX1f_hDOg8e1ULZ2_5RDlpstwdP35g.png?1643065398",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096651/original/ms2VGLJ273aLummTQ--jGm-5tAFC_oct9Q.png?1623765087",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094096702/original/vox8Ior7ahiGC3WZXNCJcupgjlcOnuvTDg.png?1623765129",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098504152/original/-mWy6KU5NBUcfr54NTs0OLTJfzS_SBiAww.gif?1632241774",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098504143/original/ya6f1cvxnaBDZoY5kGL5M--8K4edVuttQA.png?1632241756",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Select Content to Display (Stream Content On The Homepage)' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078086",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078086"
+    },
+    {
+      "text": "Homepage Hero Divider",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000027114"
+    },
+    {
+      "text": "About Website / Join Offer",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046838"
+    },
+    {
+      "text": "Custom Content 1",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049030"
+    },
+    {
+      "text": "Custom Content 2",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049030"
+    },
+    {
+      "text": "Custom Content 3",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049030"
+    },
+    {
+      "text": "Custom Content 4",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049030"
+    },
+    {
+      "text": "Custom Content 5",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049030"
+    },
+    {
+      "text": "Design Settings » Section Settings & Section Title Font",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078956"
+    },
+    {
+      "text": "Streaming Post Carousel Slider Add-On",
+      "url": "https://www.brilliantdirectories.com/streaming-post-carousel-slider-add-on"
+    }
+  ],
+  "lastmod": "2023-07-20T21:35:30+05:30",
+  "scraped_at": "2026-10-18T13:47:55.953908"
+}

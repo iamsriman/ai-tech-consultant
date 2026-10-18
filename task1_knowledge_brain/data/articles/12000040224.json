@@ -1,0 +1,190 @@
+{
+  "article_id": "12000040224",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000040224-how-to-send-sms-notifications-to-members-when-they-receive-a-lead",
+  "title": "How To Send SMS Notifications To Members When They Receive a Lead",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "How To Send SMS Notifications To Members When They Receive a Lead"
+  ],
+  "content": "## How To Send SMS Notifications To Members When They Receive a Lead\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000040224\n\n\n## Overview\n\n\nBy default, members receive an email notification when they are matched with a lead. For directories that require faster response times, SMS notifications can also be sent to members using a third-party Email-to-SMS service.\n\n\n## To Get Started\n\n\nBefore configuring SMS notifications, make sure you have:\n\n- The Automatic Lead Matching Add-On enabled on your website.\n\n- An active account with an Email-to-SMS provider such as TextMagic.\n\nWe recommend TextMagic.com and will use this platform as an example in this tutorial.\n\n\n## Email-To-SMS Settings\n\n\n\n### Allowed Email\n\n\nAdd the Website's Default Website Email of the Brilliant Directories website is listed as an \" Allowed Email \" in Text Magic.  This authorizes your website to send messages through the Email-to-SMS\n\nRegister the email address on this page and start texting by sending emails to countrycodemobilenumber@textmagic.com (e.g. 18123123456@textmagic.com for +18123123456).\n\nTextMagic Support : https://support.textmagic.com/\n\n\n### Email Address Format\n\n\nNext, note the Email to SMS phone number format used for the Email-To-SMS platform.  Email-to-SMS providers use a special email address format that determines which phone number will receive the text message. The email address format for Text Magic is: countrycodemobilenumber@textmagic.com\n\nFor example, if I wanted to send the message \"This is a test\" to the phone number 1-333-555-7777, then I would send an email to 1333555777@textmagic.com with \"This is a test\" as the body of the email (the subject of the email generally doesn't matter). Before continuing, send a test email to your own mobile number to verify that the Email-to-SMS service is correctly converting emails into SMS messages.\n\n\n## Brilliant Directories Lead Settings\n\n\nGo to the Lead Settings: Leads » Lead Settings » Additional Notifications Settings\n\nEach Lead Action that should send SMS notifications must be configured individually. Repeat the following steps for every Lead Action that requires SMS delivery.\n\nClick on the Action that will receive SMS notifications:\n\nNavigate to Additional Notifications » Third Party / SMS:\n\nScroll down to the \"3rd Party Lead Matched Notifications (SMS)\" section and choose the following settings:\n\n- 3rd Party Lead Matched Notifications Set to Yes to enable SMS notification emails.\n\n- 3rd Party Lead Matched Template Select the email template that will be converted into an SMS message. The recommended template is: \"member-lead-sms-notifications\"\n\n- 3rd Party Email Addresses Enter a comma-separated list of email addresses the email template should be sent to. For the purposes of this tutorial, we only want an email sent to the Email-To-SMS platform email address, including the member's phone number that the SMS should be sent to. Following our example, the correct format for this is: %%%sms_member_phone%%%@textmagic.com The %%%sms_member_phone%%% variable used here will insert the member's phone number, stripped of all non-numeric characters (parenthesis, dashes, etc). So if the phone number of the member who receives the lead is 1-333-777-9999, entering the above email address will result in an email being sent to: 13335557777@textmagic.com\n\n- Copy Admin On This Email Generally, it is not very useful for the Admin to receive a copy of this email as it is just for SMS notification purposes, so we recommend leaving this set to \"No\".\n\nOnce all of the settings have been chosen, click on \" Save \" to save the changes.  Repeat the steps above for any other Actions that should send SMS notifications as well.\n\n\n## Setting Up a Unique Mobile Number to Receive SMS Messages\n\n\nIn some cases, members may have a Phone Number they want displayed on their profile or treated as their main contact number, but have a separate mobile number they would like to receive SMS notifications to. In this case, edit the \" Listing - Contact Details - Member\" or \" Listing - Additional Details - Member\" forms (the forms filled out by members when they login to their account) to include a separate field for this purpose. » How To Customize a Form Add a new field with the Variable Name sms_member_phone and this number will be used to send SMS messages rather than the number entered into the default phone_number field found in the Contact Details form.\n\nHere's an example of the field being added below the phone_number field in the Listing - Contact Details - Member form:\n\n\n### Disable Lead Matched Notifications (SMS) Fallback\n\n\nThis setting controls whether the system should send an SMS to the main phone number if an SMS-specific phone number is not provided. So, if the SMS phone number is missing, the system will use the main phone number as a backup to ensure the notification is still delivered. It can be found under Settings >> Advanced Settings >> Disable Lead Matched Notifications (SMS) Fallback:\n\nWhen the setting is OFF (default), the system will use the main phone number as a fallback if the member does not have an SMS phone number saved.\n\nWhen the setting is ON , notifications will only be sent to the SMS phone number and will not fall back to the main phone number.\n\n\n## How to Verify if it was Set Up Properly?\n\n\n- First, make sure to follow the Text Magic Tutorial:\n\n- Make sure the allowed email was correctly added inside TextMagic, it should match the Default Website Email :\n\n- Double-check that \"Yes\" was selected for the 3rd Party Email Addresses setting.\n\n- The email variable \" %%%sms_member_phone%%%@textmagic.com \" was added the field, 3rd Party Lead Matched Notifications: ** Select the email template: member-lead-sms-notification **\n\n- Make sure that you are adding the proper input and settings here:\n\n- On the member Contact Details form, check that Country Code + Area Code ( if applicable ) + Phone Number are being added:\n\n- Send a message to test this functionality:\n\n- Finally, access Text Magic History Tab : https://my.textmagic.com/online/messages/sent\n\n- If the Lead Message appears under \" Message \" it is because the system sent the SMS notification properly:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089976944/original/qeWIwEkiW2DcK3_7BkdZPZa_PcJpPrQwDg.png?1615732289",
+      "alt": null,
+      "caption": "Context: We recommendTextMagic.comand will use this platform as an example in this tutorial.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'. Context: Context: We recommendTextMagic.comand will use this platform as an example in this tutorial.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284412/original/9FcMq_LPsdgZijxU4DFOytsnJhZjTr56qA.jpeg?1687410542",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092439242/original/Ugs0ZcV33p78h6v7hSqmpXqEPnpTSoyezw.png?1620669020",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092439225/original/1P65umecX8b2TOr8KxdEZ4oPBqFz5Ach8g.png?1620668993",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089977408/original/WEt2kxoNk6KdxsslGM-bNvrk0rsfnaFniw.png?1615734067",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180225815/original/DFx557UVdwkWlB32elJyrUISWG3JClB-cg.png?1781124278",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152408686/original/gUS34ZOaQBnpFdj2-AAbyX99kOaqRIU93Q.png?1731429801",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089977297/original/mtTsPWfmkw7U8b5kR0YPpcldXBzE76sNng.png?1615733621",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092439256/original/Q_ZIFYryfS7ZIaQ5wlKsZv96MlXAafWOPw.png?1620669044",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089977826/original/DIn2gpzCA2pkW-N8rftvGGSVlSO_AeKWFQ.png?1615736009",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180225913/original/3wtxq9fnL6u7LRxM3h-bdjowiKGtb4bSOA.png?1781124487",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089977931/original/Y0DlKt5xSeIJbbIefIFw9ZDCw85cB1niYA.png?1615736471",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089977944/original/RAAQFatz7JbqDvU6VaYZVWlvRaxoR_sSfg.png?1615736549",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089978159/original/1wZ9ro8Rh1S7XFyCRpgammDskgK9i5Wfdg.png?1615737685",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Send SMS Notifications To Members When They Receive a Lead' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000040224",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000040224"
+    },
+    {
+      "text": "TextMagic.com",
+      "url": "https://my.textmagic.com/"
+    },
+    {
+      "text": "Default Website Email",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000042195"
+    },
+    {
+      "text": "Allowed Email",
+      "url": "https://support.textmagic.com/article/set-up-email-to-sms/"
+    },
+    {
+      "text": "https://support.textmagic.com/",
+      "url": "https://support.textmagic.com/"
+    },
+    {
+      "text": "email address format for Text Magic",
+      "url": "https://support.textmagic.com/faq/email-to-sms-number-format/"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000067996"
+    },
+    {
+      "text": "Leads » Lead Settings » Additional Notifications Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000067996"
+    },
+    {
+      "text": "» How To Customize a Form",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078290"
+    },
+    {
+      "text": "",
+      "url": "https://my.textmagic.com/online/messages/sent"
+    },
+    {
+      "text": "https://my.textmagic.com/online/messages/sent",
+      "url": "https://my.textmagic.com/online/messages/sent"
+    }
+  ],
+  "lastmod": "2026-06-11T02:30:01+05:30",
+  "scraped_at": "2026-10-18T13:42:14.990338"
+}

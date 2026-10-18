@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091944",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091944-02-03-2023-software-updates",
+  "title": "02/03/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/03/2023 - Software Updates"
+  ],
+  "content": "## 02/03/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091944\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added Webhook support to the form for creating new Sub Accounts. Widget Involved: website_users_data_type_save_form\n\n- We removed the \"New Category\" dropdown option from the photos uploaded section when uploading photos to a Multi-Photo Post Type in the member dashboard. Widget Involved: Bootstrap Theme - Account - Edit Uploaded Photos\n\n- We added a default set of French language Text Labels.  Site Admins can now choose to apply and edit English, Spanish, and French Text Labels separately.\n\n- We created a new search filter on the Search Subscriptions page to filter Subscriptions by \"Date Ended\".\n\n- We fixed an issue which was preventing post images from displaying on member profile pages after clicking on \"Load more results\" when using the Insta-Load Search Results Add-On. Widget Involved: Bootstrap - Search - Lazy Loader tabs\n\n- We updated the comment icon link on Post search results pages to point to on the comments section on the post details page on the frontend of sites.\n\n- We updated the \"Max. Sub-Level Categories Member Can Select\" Membership Plan setting to not allow members to select sub-categories when the field has been saved as empty.  This field being left blank will be treated as allowing \"0\" categories to be selected. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We fixed an issue which was preventing the system from automatically selecting the searched sub and sub-sub categories in sidebar search modules on the search results page in some cases. Widgets Involved: Bootstrap Theme - Search Module - Sub + Sub-Sub Bootstrap Theme - Search Module - Keyword_Sub_Sub-Sub_Location\n\n- We fixed an issue which was preventing the system from displaying the correct error message when trying to complete a paid member upgrade using a 3D secure payment method in some cases.\n\n- We fixed an issue which was preventing the \"Filter Post Type by Keyword\" field in post comment sections from working properly.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091944",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091944"
+    }
+  ],
+  "lastmod": "2023-02-07T03:38:07+05:30",
+  "scraped_at": "2026-10-18T13:50:43.737288"
+}

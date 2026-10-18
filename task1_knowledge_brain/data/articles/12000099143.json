@@ -1,0 +1,23 @@
+{
+  "article_id": "12000099143",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099143-04-05-2024-software-updates",
+  "title": "04/05/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/05/2024 - Software Updates"
+  ],
+  "content": "## 04/05/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099143\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the description text of the \"Emails Sent\" metric in the \"Website Resources\" section of the Admin Dashboard.\n\n- We updated the CSV Member Import and CSV Post Import tools in the Admin to allow custom column names in CSV files to be mapped to variables that were previously reserved and not able to be mapped to. Mapping custom column names to these default variables is now allowed: services, profession_name, service_id, state_name, address, profile_photo, logo, country_name, top_category, service_name, country_name, name, cover_photo, post_image, data_id, data_type, post_promo.\n\n- We updated the Cover Photo Add-On to support WEBP image files.\n\n- We fixed an issue which was preventing the Reviews Search Results page from returning accurate results in some cases.\n\n- The Upload Reviews with Photos button when creating reviews are now compatible with the Color Sets in the Design Settings. Widget Involved: Bootstrap Theme - Reviews - Upload Images\n\n- We implemented a security update to the Froala WYSIWYG in the Admin.\n\n- We fixed an issue which preventing the Member Search Results layout from displaying properly when using Safari as web browser in some cases. Widget Involved: Bootstrap Theme - Member Results\n\n- We added documentation for the Data Categories API to the API documentation in the Admin.\n\n- We fixed an issue which was causing duplicate members to be created when importing members using the CSV Member Import tool in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099143",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099143"
+    }
+  ],
+  "lastmod": "2024-04-08T20:43:03+05:30",
+  "scraped_at": "2026-10-18T13:53:48.923905"
+}

@@ -1,0 +1,37 @@
+{
+  "article_id": "12000109762",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109762-settings-domain-manager-speed-tests",
+  "title": "Settings » Domain Manager » Speed Tests",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Settings » Domain Manager » Speed Tests"
+  ],
+  "content": "## Settings » Domain Manager » Speed Tests\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109762\n\nThe Speed tab in Settings > Domain Manager runs Google PageSpeed Insights tests for the website homepage and keeps previous results for comparison.\n\n\n## Before starting\n\n\nThe website must have a successfully detected HTTPS certificate, and the administrator must have permission to view website resources. If the tab is missing, check SSL and the administrator's access permissions first.\n\n\n## Run a performance test\n\n\n- Open Settings > Domain Manager > Speed .\n\n- Find PageSpeed Insights .\n\n- Click Run the test .\n\n- Keep the page open while the mobile and desktop tests complete.\n\n- Review both sets of results.\n\nA run normally takes around half a minute, but the testing service can take longer. The panel allows one combined mobile-and-desktop run every 24 hours per website. If a recent result is already available, use it and the saved history instead of repeatedly starting another run.\n\n\n## Read the results\n\n\nCompare the mobile and desktop scores separately. Review the metrics, flagged issues, and suggested improvements below the scores. Scores describe the test conditions at that time; they are not a guarantee of every visitor's experience or a promised search ranking. Alongside performance, the results show Google's Accessibility , Best practices , SEO , and Agentic browsing scores.\n\nUse the history to compare measurements after a website change. If a test fails, confirm that the homepage loads over HTTPS and review the error before retrying when permitted.\n\nExample test results. A comparison graph becomes available after a second saved test.\n\n\n## Improve and measure again\n\n\nStart with the specific large files, loading delays, or other issues identified in the result. Retest after the change when the next test is available. See bandwidth optimization for related advice on resource use.\n\nThe Speed tab uses Google PageSpeed Insights to test the website’s performance and track results over time. If you need help investigating an issue, the Brilliant Directories support team may use additional diagnostic tools to take a closer look.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668543/original/pws_cE31A0OSeOyupdm51PTxXBF0jYZgVA.png?1790182298",
+      "alt": "Google PageSpeed results with the score row marked, and a saved history row",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Speed Tests' (Settings > Domain Manager): Google PageSpeed results with the score row marked, and a saved history row",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109762",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109762"
+    },
+    {
+      "text": "bandwidth optimization",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101331"
+    }
+  ],
+  "lastmod": "2026-09-28T22:07:59+05:30",
+  "scraped_at": "2026-10-18T14:00:09.999055"
+}

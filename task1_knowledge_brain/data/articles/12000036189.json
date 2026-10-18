@@ -1,0 +1,122 @@
+{
+  "article_id": "12000036189",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036189-how-to-login-as-member",
+  "title": "How to Login As Member",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "How to Login As Member"
+  ],
+  "content": "## How to Login As Member\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000036189\n\nThe admin dashboard provides multiple entry points from which an administrator can log in as a specific member. This is used for troubleshooting member-facing issues, verifying member dashboard visibility, or completing actions on behalf of a member.\n\n\n## Method 1 — /login Page\n\n\nEvery Brilliant Directories website includes a default /login page accessible by appending /login to the site's root domain (e.g., yourdomain.com/login ). This page presents the standard front-end login form used by all site members.\n\nTo log in as a member using this method:\n\n- Navigate to the site's /login page.\n\n- Enter the member's Email Address in the email field.\n\n- Enter the member's Password in the password field.\n\n- Complete the Google reCaptcha verification.\n\n- Click the login button to access the member's account.\n\n⚠ NOTE — Google reCaptcha Must Be Configured: The /login page requires Google reCaptcha verification to be completed before login can proceed. If reCaptcha has not been configured on the site, the login form on this page will not function correctly. Reference: Google reCaptcha Setup\n\n⚠ NOTE — Credential Requirement: This method requires the administrator to know the member's email address and password. This method is most appropriate when the member has shared their credentials or when the administrator has recently set the member's password via the Change Password action in the Actions dropdown.\n\n\n## Method 2 — My Members » Search Members » Actions Dropdown\n\n\nThe most direct admin-side method for logging in as a member is through the Search Members results table.\n\nTo log in as a member using this method:\n\n- Navigate to My Members » Search Members in the admin dashboard.\n\n- Locate the target member in the results table.\n\n- Click the Actions dropdown for that member's record.\n\n- Select Login As Member from the dropdown options.\n\n\n## Method 3 — My Members » Search Members » Account Details\n\n\nFrom within the Account Details section of a specific member record, a dedicated login button is available that provides direct access to that member's account.\n\nTo log in as a member using this method:\n\n- Navigate to My Members » Search Members in the admin dashboard.\n\n- Locate the target member in the results table.\n\n- Click Actions » Account Details for that member's record.\n\n- Within the Account Details section, click the Login As Member button displayed in the member's account header area.\n\n\n## Method 4 — My Content » Manage Posts » Actions Dropdown\n\n\nAdministrators can log in as the member who created a specific post directly from the Manage Posts section. This method is most useful when troubleshooting a post-related issue while viewing that post's record.\n\nTo log in as a member using this method:\n\n- Navigate to My Content » Manage Posts in the admin dashboard.\n\n- Locate the target post in the results table.\n\n- Click the Actions dropdown for that post's record.\n\n- Select Member Login from the dropdown options.\n\n\n## Method 5 — Interactions » Post Comments » Actions Dropdown\n\n\nAdministrators can log in as the member who submitted a specific comment directly from the Post Comments section.\n\nTo log in as a member using this method:\n\n- Navigate to Interactions » Post Comments in the admin dashboard.\n\n- Locate the target comment in the results table.\n\n- Click the Actions dropdown for that comment's record.\n\n- Select Login As Member from the dropdown options.\n\n\n## Method 6 — Interactions » Member Reviews » Actions Dropdown\n\n\nAdministrators can log in as the member who received a specific review directly from the Member Reviews section.\n\nTo log in as a member using this method:\n\n- Navigate to Interactions » Member Reviews in the admin dashboard.\n\n- Locate the target review in the results table.\n\n- Click the Actions dropdown for that review's record.\n\n- Select Member Login from the dropdown options.\n\n\n## Method 7 — Interactions » Member Leads » Match Lead\n\n\nAdministrators can log in as the member matched to a specific lead directly from the Match Lead screen within the Member Leads section.\n\nTo log in as a member using this method:\n\n- Navigate to Interactions » Member Leads in the admin dashboard.\n\n- Locate the target lead record.\n\n- Open the Match Lead screen for that lead.\n\n- Click the Login As Member button displayed within the Match Lead interface.\n\n\n## Method 8 — Finance » Transaction History » Actions Dropdown\n\n\nAdministrators can log in as the member associated with a specific transaction directly from the Transaction History section.\n\nTo log in as a member using this method:\n\n- Navigate to Finance » Transaction History in the admin dashboard.\n\n- Locate the target transaction record in the results table.\n\n- Click the Actions dropdown for that transaction's record.\n\n- Select Login As Member from the dropdown options.\n\n\n## Additional Notes\n\n\nSingle Sign-On (SSO)\n\nSSO integration allows members of an external platform to log in to the Brilliant Directories site without maintaining a separate set of credentials. This requires a custom development engagement to connect the external platform's authentication system with the Brilliant Directories login system.\n\n⚠ NOTE — SSO Requires Custom Development: SSO is not a built-in out-of-the-box feature. It cannot be configured through the admin dashboard. Implementation requires a custom developer engagement to establish the authentication bridge between the external platform and the Brilliant Directories site. For custom development assistance, visit the Brilliant Directories Marketplace .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12172843866/original/bpwi5qIyV2-oe6BPJiulLMK0ryUbQkRTAA.png?1767717133",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12172844172/original/VwVA20cOOvlpZVgNl50ULUGYdERBaHxhiw.png?1767717329",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181026728/original/IgR5PgQ8taCFApQLfgKrGfGI8jqxAqnSFg.png?1782399362",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126474987/original/aS4tta0ZIiUICeb3O0buu2PCzdZt8p9Cug.png?1686016916",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126475014/original/stYwvC5vIz2-31qxWcUykMJ6X2LbcuL-jA.png?1686016953",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126475021/original/4qRXvZaW08cOMA_cfL-0ZlNNuyfO-siXpQ.png?1686016973",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126474990/original/cNKLh6KwlwQ6-CA8-lHP2evZGx8FgW57EA.png?1686016935",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126475044/original/ux3aCgEyUgq6UJx4w04c6Rj73Xv_S5xdXg.png?1686017004",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091357406/original/nmvO-fcac6mNMt3d5AF6Jn5TKAQXgrIxRw.png?1618444497",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126475046/original/gOkDYDH42Zyj5hEd4xRvbKL875pGVAiTPg.png?1686017017",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Login As Member' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000036189",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036189"
+    },
+    {
+      "text": "Google reCaptcha Setup",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000019817"
+    },
+    {
+      "text": "Brilliant Directories Marketplace",
+      "url": "https://marketplace.brilliantdirectories.com"
+    }
+  ],
+  "lastmod": "2026-06-25T20:26:09+05:30",
+  "scraped_at": "2026-10-18T13:41:52.411714"
+}

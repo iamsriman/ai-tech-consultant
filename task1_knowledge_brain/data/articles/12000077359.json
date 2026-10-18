@@ -1,0 +1,130 @@
+{
+  "article_id": "12000077359",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077359-how-to-manually-edit-the-url-filename-of-posts",
+  "title": "How to Manually Edit the URL / Filename of Posts",
+  "category": "My Content",
+  "folder": "Manage Posts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Manage Posts",
+    "How to Manually Edit the URL / Filename of Posts"
+  ],
+  "content": "## How to Manually Edit the URL / Filename of Posts\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077359\n\nIt is possible to edit the Filename URL of a post. You can find this functionality in the \" Actions \" dropdown for each post on the Manage Posts page, labeled \" Customize Post URL \".\n\n\n## How to Customize the Post URL\n\n\nClick on \"Customize URL\" :\n\n\n### Choose a URL Type\n\n\nA popup will appear allowing the admin to choose between the following options:\n\nUse Default Post URL – The URL automatically updates based on the post’s title.\n\nCustom URL – Set a custom, static URL for this post.\n\n\n### Using the Default Post URL\n\n\nIf you select Default Post URL , the system will not allow the URL to be edited.\n\n\n### Using a Custom URL\n\n\nIf you select Custom URL , the admin can enter a new custom URL for the post. The system will validate the URL to ensure it is unique and not already in use by other posts, members, locations, web pages, or categories .\n\nThe system will also verify that the URL does not start with http , a domain name , or a / .\n\n\n### Invalid URL Errors\n\n\nIf the URL is invalid, the system will display the error \" Invalid URL \" and will not allow the changes to be saved.\n\nThe new URL will take effect immediately, and the system will automatically create the necessary 301 redirects for any changes made.\n\n\n## Allow Members to Customize Post URLs Using a Form Field\n\n\nIn addition to customizing the post URL from the Manage Posts page, there is now a way to allow users to modify the URL directly from the post submission form.\n\nThis is done by adding a custom variable called custom_filename to the form of the post type.\n\nWhen this variable is present in the form, users can enter a custom filename, which will be used to generate the post’s URL automatically.\n\n\n### Example: Adding the Custom Filename Field to the Products Form\n\n\nBelow is an example of how to add the custom_filename field to the Products feature form so members can set their own product URLs.\n\n- Go to Admin Dashboard → Toolbox → Form Manager . Look for the Feature - Products form, click on Actions , hit Customize .\n\n- Click Add New Field + .\n\n- Set the field type to Text - Single Line .\n\n- Configure the field settings as follows: Label: Custom URL (or similar) Variable Name: custom_filename Field Help Text: (Optional) Enter a custom URL for this product. Do not include spaces, slashes, or special characters. Enable only Input View for the user to enter the new URL.\n\n- Save the form field and ensure it is enabled on the Products submission form. Here is how the field will appear for the member:\n\nThe default URL is automatically generated using the post title. For example:\n\nhttps://contentdocumentation.directoryup.com/products/ninja-master-prep-26\n\nWhen a custom URL is used, the filename portion of the URL changes, like this:\n\nhttps://contentdocumentation.directoryup.com/products/ninja-master-prep-best\n\nIn this example, /products is the post type URL and cannot be removed. While it can be modified, doing so would change the URL for the entire post type, not just an individual post. To rename or update the post type URL itself, refer to the following article: How To Change The Name, Tab Title & URL Of A Post Type\n\n\n### How the Custom Filename Works\n\n\nWhen a value is entered into the custom_filename field:\n\n- The system validates the filename to ensure it is unique.\n\n- If valid, the post URL will be generated using the custom filename.\n\n- If the URL is changed later, the system will automatically create the required 301 redirect .\n\nIf the entered value is invalid, the system will display an Invalid URL error and prevent the post from being saved.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173511888/original/PU1lqNZHC4Tcb912_CwnQiClQeIbe8A0wQ.png?1768923200",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173511894/original/_VWl3NtJ9k10aEphVHq--G-6mP0up74_bQ.png?1768923210",
+      "alt": null,
+      "caption": "Click on \"Customize URL\":",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'. Context: Click on \"Customize URL\":",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173512036/original/gNYfYM4MG_p8HMyueXEUIqBjUvJ9uTOYdw.png?1768923281",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173512212/original/WOxeDMZUjwOzc_Yx-GtPFvzKcbC6aHByJw.png?1768923417",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173512380/original/pMuyjNjeFugYg4IdeQYa7foXGVG1qNYCHg.png?1768923532",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173512452/original/ZSguiNWKeN9k2uHhLLS0vLSZei6GgkLdUA.png?1768923572",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173512489/original/GVJUpcVvoQlXc6t596yvNvpll2jDwe-4_g.png?1768923621",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173512540/original/7Ev_2NhHYCvDEuyLKBRV35viyR9E-70uEg.png?1768923664",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173513673/original/hJz1fZn-n0RZwOlygKVUfc_LJtcEyOanUQ.png?1768924619",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173514104/original/wJQqX61MDwqgXHfb6pEWXn4IcDIksmiAYg.png?1768924873",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Manually Edit the URL / Filename of Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077359",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077359"
+    },
+    {
+      "text": "Form Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046441"
+    },
+    {
+      "text": "https://contentdocumentation.directoryup.com/products/ninja-master-prep-26",
+      "url": "https://contentdocumentation.directoryup.com/products/ninja-master-prep-26"
+    },
+    {
+      "text": "https://contentdocumentation.directoryup.com/products/ninja-master-prep-best",
+      "url": "https://contentdocumentation.directoryup.com/products/ninja-master-prep-best"
+    },
+    {
+      "text": "How To Change The Name, Tab Title & URL Of A Post Type",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028489-"
+    }
+  ],
+  "lastmod": "2026-01-20T22:48:08+05:30",
+  "scraped_at": "2026-10-18T13:47:47.307513"
+}

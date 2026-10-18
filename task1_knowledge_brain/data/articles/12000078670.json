@@ -1,0 +1,128 @@
+{
+  "article_id": "12000078670",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670-adding-google-tag-manager-and-google-tags",
+  "title": "Adding Google Tag Manager and Google Tags",
+  "category": "Toolbox",
+  "folder": "Widget Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Widget Manager",
+    "Adding Google Tag Manager and Google Tags"
+  ],
+  "content": "## Adding Google Tag Manager and Google Tags\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078670\n\nGoogle Tag Manager is a tag management system (TMS) that can be used to quickly and easily update measurement codes and related code fragments, collectively known as tags, on a website or mobile app. It is not a tracking system itself. To set up data tracking, first Install Google Analytics 4.\n\nTo learn more please refer to the following Google document: Tag Manager overview\n\nTo get started with Google Tag Manager: https://developers.google.com/tag-manager/quickstart\n\nNOTE: This setup needs a GTM (Google Tag Manager) ID, which can be created by following these instructions: Set up and install Tag Manager\n\n\n## Creating the Container\n\n\nIn Tag Manager, click on the body to create a container:\n\nName the container, select the Web option, and click Create :\n\nThis displays the two sections of code that need to be added to the website:\n\n\n## Step 1: Add the Script Code to the HEAD Section\n\n\nThe first part of the code goes in the HEAD section. To add it, go to:\n\nSettings > Design Settings > Custom CSS/HEAD > Additional HEAD Code:\n\nThe code looks like this (replace GTM-XXXXXX with the container ID):\n\n<!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= ' https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f) ; })(window,document,'script','dataLayer','GTM-XXXXXX');</script> <!-- End Google Tag Manager -->\n\n\n## Step 2: Add the Noscript Code to the Tag Manager Widget\n\n\nThe second part of the code is added through a widget called Bootstrap Theme - Google Tag Manager Code . To edit this widget and add the code, go to:\n\nToolbox >> Widget Manager >> search for \"Bootstrap Theme - Google Tag Manager Code\" >> Edit:\n\nThe code has the following format (replace GTM-XXXXXX with the container ID):\n\n<!-- Google Tag Manager (noscript) --> <noscript><iframe src=\" https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX \" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->\n\n\n## Publishing the Container\n\n\nAfter placing the code, click Submit in Tag Manager:\n\nAnd click on Publish after it:\n\n\n## Troubleshooting\n\n\nIf Google Tag Manager is not working as expected after following these instructions, use Google Tag Assistant to check for errors with the Tag Manager code added to the site and review possible solutions.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119159829/original/xuFYY3c8tOX9NmCaBoy541ee6TJ9OAe2Tw.png?1672322038",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Google Tag Manager and Google Tags' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119159858/original/Yo0Le0ZL3AFCCnG1yvJyvUOLnlsC66YPdg.png?1672322063",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Google Tag Manager and Google Tags' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119159934/original/_DcCSH5QHIIZfWxq81eArLEQ4dK6lBrfag.png?1672322124",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Google Tag Manager and Google Tags' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095773824/original/spw1dir6RZazRNlmiH-V2Cdd_a1vQlTxBg.png?1626820721",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Google Tag Manager and Google Tags' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090916465/original/lNWsMB_TwE-xR0NpgR6vI7PW2cisq-Gdmw.png?1617667487",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Google Tag Manager and Google Tags' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119160051/original/HpQZmUZpGDKmx4P-yGzUEjHRm4iC8hdcBQ.png?1672322310",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Google Tag Manager and Google Tags' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119160066/original/En5FgGXieGxCydmLtSvjuaWjgcT6V6j62Q.png?1672322330",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Google Tag Manager and Google Tags' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119160076/original/m7Ty9pNXF6Wl8CYND9DhC9cNvCiLU6FKHw.png?1672322355",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Google Tag Manager and Google Tags' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "Install Google Analytics 4.",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000093352"
+    },
+    {
+      "text": "Tag Manager overview",
+      "url": "https://support.google.com/tagmanager/answer/6102821?hl=en"
+    },
+    {
+      "text": "https://developers.google.com/tag-manager/quickstart",
+      "url": "https://developers.google.com/tag-manager/quickstart"
+    },
+    {
+      "text": "Set up and install Tag Manager",
+      "url": "https://support.google.com/tagmanager/answer/6103696?hl=en"
+    },
+    {
+      "text": "https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)",
+      "url": "https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)"
+    },
+    {
+      "text": "",
+      "url": "https://ww2.managemydirectory.com/admin/formViewWidgets.php?newsite=22406&select_1%5B%5D=1631&form_name=widgets&method=edit&customize=1"
+    },
+    {
+      "text": "https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX",
+      "url": "https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX"
+    },
+    {
+      "text": "Google Tag Assistant",
+      "url": "https://tagassistant.google.com/"
+    }
+  ],
+  "lastmod": "2026-06-13T01:20:01+05:30",
+  "scraped_at": "2026-10-18T13:48:11.398829"
+}

@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108048",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108048-api-reference-users-clicked-link",
+  "title": "API Reference - Users Clicked Link",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Users Clicked Link"
+  ],
+  "content": "## API Reference - Users Clicked Link\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108048\n\n← Back to API Reference | Getting Started Users Clicked Links Tracks link clicks and interactions on member profiles and listings. Each record represents a single click event. Model name in URL: users_clicks — DB table: users_clicks The Users Clicked Link Object Field Type Description click_id integer Unique click ID (primary key, read-only) user_id integer ID of the member profile that was clicked click_type string Type of click (e.g. link , phone , email ) click_name string Name/label of the clicked element click_from string Page where the click originated (e.g. profile_page , search_results ) click_url text Full URL that was clicked click_ip string Visitor's IP address visitor_token string Unique token identifying the visitor session click_token string Unique token for this click event date_clicked string Click timestamp (format: YYYYMMDDHHmmss ) post_id integer Related post ID if click was on a listing or post is_single_post integer 1 if post_id is a single post; 0 if an album group List Users Clicked Links GET /api/v2/users_clicks/get Copy curl -X GET \"https://www.yourdomain.com/api/v2/users_clicks/get?property=user_id&property_value=42\" \\\n  -H \"X-Api-Key: your-api-key-here\" Retrieve a Click Record GET /api/v2/users_clicks/get/{click_id} Copy curl -X GET \"https://www.yourdomain.com/api/v2/users_clicks/get/1005\" \\\n  -H \"X-Api-Key: your-api-key-here\" Create a Click Record POST /api/v2/users_clicks/create Copy curl -X POST \"https://www.yourdomain.com/api/v2/users_clicks/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"user_id=42\" \\\n  -d \"click_type=link\" \\\n  -d \"click_name=Website\" \\\n  -d \"click_from=profile_page\" \\\n  -d \"click_url=https%3A%2F%2Fwww.example.com\" Update a Click Record PUT /api/v2/users_clicks/update Copy curl -X PUT \"https://www.yourdomain.com/api/v2/users_clicks/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"click_id=1005\" \\\n  -d \"click_name=Updated+Name\" Delete a Click Record DELETE /api/v2/users_clicks/delete Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/users_clicks/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"click_id=1005\" Search Click Records POST /api/v2/users_clicks/search The search endpoint is not currently available for this model.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108048",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108048"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:18+05:30",
+  "scraped_at": "2026-10-18T13:57:28.827597"
+}

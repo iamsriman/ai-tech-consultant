@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104252",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104252-04-25-2025-software-updates",
+  "title": "04/25/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/25/2025 - Software Updates"
+  ],
+  "content": "## 04/25/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104252\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Improved the default prompt used by the ChatGPT Content Creator Add-On.\n\n- Fixed an issue that prevented the Stripe Payment Gateway from working properly when using Stripe Restricted Keys in some cases.\n\n- Updated the Froala emoji integration on the frontend of sites to use emoji characters rather than images.\n\n- Fixed an issue preventing members from selecting a location in Contact Details form in the Member Dashboard when the \"New Google Maps Places API\" was enabled. Widget Involved: Bootstrap Theme - Form - Member Google Location\n\n- Fixed an issue with location searches on some iPhone devices using Safari in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that caused a large icon to appear below the Froala WYSIWYG editor when creating or editing Web Pages in the Admin in some cases.\n\n- Fixed an issue that prevented the \"canonical\", \"prev\", and \"next\" meta URLs from generating properly on member review pages on the frontend of sites. Widget Involved: Bootstrap Theme - HEAD\n\n- Fixed an issue that prevented members from performing location searches for Nebraska, USA on the frontend of sites in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Updated the CSS in the Admin to fix some small display issues.\n\n- Fixed an issue that was preventing the \"Block Traffic By Country\" Add-On from blocking traffic from the selected locations in some cases.\n\n- Fixed an issue that caused Google Map navigation icons to be partially hidden on member profile pages in some cases.\n\n- Added a version history system to the Edit Post Settings page in the Admin, allowing Admins to roll back changes to the 10 previous saves.\n\n- Updated the CSS of the Predictive Keyword Search Add-On in the frontend to fix minor display issues.\n\n- Fixed an issue preventing the \"Helpful Links\" section in the Domain Manager from working properly in some cases.\n\n- Updated the Background Image Slider Design Settings to display the \"Show Slideshow Arrows\" Setting only when the \"Slideshow Loading Method\" Settings is set to \"JavaScript.\"\n\n- Implemented missing Text Labels in the Credit History table in the Member Dashboard.\n\n- Fixed an issue when setting the Image Upload field as \"required\" for single-image Post Type forms (Articles, Events, etc) in some cases.\n\n- Fixed an issue with member sign up forms not redirecting properly on sites using Off-Site Payment Gateways without an SSL certificate.\n\n- Fixed an issue creating Smart Lists for search results using the \"Transaction Types\" filter in some cases.\n\n- Added the member's first_name to the $conversion_tracking array used in the \"Bootstrap Theme - Conversion Tracking Codes\" widget.\n\n- Optimized the Hero Divider widget used on the frontend of sites. Widget Involved: Bootstrap Theme - Homepage - Hero Divider\n\n- Created a new Membership Plan setting called \"Only assign credits when referred by another member.\" When enabled, members will receive credits only if referred by another member.\n\n- Improved the image optimization when uploading member profile pictures in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- Fixed an issue with member location searches on the frontend of sites in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104252",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104252"
+    }
+  ],
+  "lastmod": "2025-04-28T22:37:31+05:30",
+  "scraped_at": "2026-10-18T13:56:01.298849"
+}

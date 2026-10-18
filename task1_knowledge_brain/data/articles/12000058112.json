@@ -1,0 +1,68 @@
+{
+  "article_id": "12000058112",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058112-affiliate-program-integrations",
+  "title": "Affiliate Program Integrations",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Affiliate Program Integrations"
+  ],
+  "content": "## Affiliate Program Integrations\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000058112\n\nBy default, Brilliant Directories can be integrated with PostAffiliatePro integration.\n\nNOTE: Other affiliate solutions can be integrated using a different method. Please check: Adding Affiliate Tracking & Conversion Codes\n\n1. Go to Settings, General Settings and click on the Integrations :\n\n2. Search for the keyword \" affiliate \" which will show the PostAffiliatePro options:\n\nThere was previously an integration with ShareASale; however, it is no longer supported, as the platform is expected to be deprecated.\n\nIf ShareASale credentials were configured prior to this change, they may still appear and continue to function temporarily. However, if no credentials were previously added, the integration options will no longer be available.\n\nThese integrations can track any of the following T ransaction Types :\n\n- Member Sign Ups\n\n- Member Upgrades\n\n- Member Lead Purchases\n\n- Digital Product Purchases\n\n- Pay-Per-Post Purchases\n\nIf the site is using Post-Affiliate-Pro the code would look similar to this:\n\nThese codes will include information about the purchase such as:\n\n1. Tracking code\n\n2. Total Cost\n\n3. Order ID, or Invoice ID\n\n4. Product ID",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097234363/original/WljYRnVgl_aKUqnkzGVnmToyFZUw2yaEBw.png?1629762186",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Affiliate Program Integrations' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176416652/original/hXYWr5zLBbkIVpwY490rkEGmZzXZFwrxOA.png?1774325463",
+      "alt": null,
+      "caption": "2. Search for the keyword \"affiliate\" which will show the PostAffiliatePro options:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Affiliate Program Integrations' in section 'Settings' / 'General Settings'. Context: 2. Search for the keyword \"affiliate\" which will show the PostAffiliatePro options:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176453652/original/xq2nPywQBRAOMjLXqsPSKNaKX1NP51YaeA.png?1774375230",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Affiliate Program Integrations' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054578262/original/W-nKBafvUCc4VseiJVf_UclbOSAEzbXvOQ.png?1564619042",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Affiliate Program Integrations' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000058112",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058112"
+    },
+    {
+      "text": "PostAffiliatePro",
+      "url": "https://www.postaffiliatepro.com/"
+    },
+    {
+      "text": "Adding Affiliate Tracking & Conversion Codes",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000009295"
+    }
+  ],
+  "lastmod": "2026-03-24T23:31:15+05:30",
+  "scraped_at": "2026-10-18T13:45:02.127574"
+}

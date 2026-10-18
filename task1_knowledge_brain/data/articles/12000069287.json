@@ -1,0 +1,113 @@
+{
+  "article_id": "12000069287",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069287-using-google-login",
+  "title": "Using Google Login",
+  "category": "Add-On Documentation",
+  "folder": "One-Click Google Login",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "One-Click Google Login",
+    "Using Google Login"
+  ],
+  "content": "## Using Google Login\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069287\n\nGoogle Login allows members to create a membership or sign in with a linked Google account. The add-on must be activated and enabled for the applicable membership plan before use.\n\nIf Google login credentials haven't been set up yet, please follow this article:\n\nActivating Google Login Add-On\n\n1. Once the set up has been completed, the admin will need to go to Finance - Membership Plans and edit the levels they  wish to grant this to.\n\n2. Go to the Member's Dashboard tab, and make sure this is set to YES.\n\n3. Make sure to Save Product Details, even if it's already set to Yes.\n\nAfter setup, the Google login option appears throughout the website:\n\nMembers can use the signup option to create a membership with a Google account:\n\nExisting members can sign in using a linked Google account:\n\nGoogle login works when the member signed up with that Google account or synced it from an existing member dashboard. A matching email address alone does not establish this link:\n\nMembers with a password can remove the Google connection by selecting Unsync. Accounts without a password must set one first, as explained below:\n\n\n## Recovering Access When the Account Is Not Linked\n\n\nIf the selected Google account is not linked to a member profile, a message titled Google Account No Longer Linked provides a password recovery link. Using the same email address for both accounts does not automatically link them. This message alone does not confirm whether a membership exists for that email address.\n\n- Open the password recovery link in the message.\n\n- Enter or confirm the email address associated with the existing membership.\n\n- Submit the password reset request.\n\n- For an existing account, follow the instructions in the password reset email to set a password.\n\n- Sign in with the membership email address and password.\n\n- Sync the Google account again from the member dashboard.\n\nOnce the account is synced, Google login can access that member profile again. The signup option is for creating a new membership, not for recovering an existing one.\n\n\n## Setting a Password Before Unsyncing\n\n\nA member account must have a password before its Google connection can be removed. If no password has been set, clicking Unsync displays Set a Password First and leaves the social account linked.\n\n- Open the password link in the message. This logs the member out and opens password recovery with the member email address filled in.\n\n- Submit the password reset request.\n\n- Use the emailed link to set a password.\n\n- Sign in with the membership email address and the new password.\n\n- Return to the member dashboard and click Unsync for Google.\n\nAfter unsyncing, the member can continue to sign in with the membership email address and password.\n\nFor additional login scenarios, see Common Mistakes with Google and Facebook Login .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076027554/original/cbuW_2xfayEA7r-XknqpJD0Dks-45oTbjw.png?1586274503",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Google Login' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076027636/original/6HmT4M7MEl8ILN5iNqElY_6s7VPEq-WFqg.png?1586274619",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Google Login' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076027708/original/9_I7VoqkM1GTxM9I_lNh74xPUTzOcr8zWw.png?1586274693",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Google Login' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076027738/original/1KwzHquukL3M6AapS7QCusz8X7PLt_d3Mw.png?1586274730",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Google Login' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076027750/original/Q6EHE4N7R1Tb8HGaiWTFbkoiqVHBt-jgfQ.png?1586274752",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Google Login' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076027993/original/xX-w2VwsH0r-thRqYtoc8CloLUJY-LttWg.png?1586275077",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Google Login' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076028044/original/LDyCwd6Kdt6iRVqGL7TxEsqh2IMIIlWhpQ.png?1586275168",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Google Login' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185238317/original/RNTyalRlHv-BUVVrs4v9ArSPAzs1f2N68Q.png?1789496482",
+      "alt": "Google account not linked message with password recovery link",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Using Google Login' (Add-On Documentation > One-Click Google Login): Google account not linked message with password recovery link",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185238332/original/oDIsGA5A0ft6r78qX3WvigncBkW3EjhHTA.png?1789496509",
+      "alt": "Google message requiring a password before unsyncing",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Using Google Login' (Add-On Documentation > One-Click Google Login): Google message requiring a password before unsyncing",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069287",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069287"
+    },
+    {
+      "text": "Activating Google Login Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000036962-activating-google-login-add-on"
+    },
+    {
+      "text": "Common Mistakes with Google and Facebook Login",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068966"
+    }
+  ],
+  "lastmod": "2026-09-15T23:53:36+05:30",
+  "scraped_at": "2026-10-18T13:46:22.534437"
+}

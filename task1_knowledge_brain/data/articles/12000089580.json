@@ -1,0 +1,78 @@
+{
+  "article_id": "12000089580",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089580-how-to-preselect-a-top-level-category-homepage-search-box",
+  "title": "How to Preselect a Top Level Category - Homepage Search Box",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How to Preselect a Top Level Category - Homepage Search Box"
+  ],
+  "content": "## How to Preselect a Top Level Category - Homepage Search Box\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089580\n\nWhen using a homepage search module that allows visitors to select a Top-Level Category, the category field is empty by default and displays the placeholder text \"Select an option.\"\n\nDepending on the website, automatically selecting a default Top-Level Category can improve the user experience by highlighting the most commonly used category.\n\nThis can be accomplished with the following JavaScript.\n\n\n## Step 1: Add the JavaScript\n\n\nAdd the following code:\n\nCopy $ ( document ) . ready( function () { select2OnFormClick (); setTimeout ( function () { var setId = 2 ; $ ( \"#sid\" ) . val( setId ); $ ( \"#sid\" ) . trigger( \"change\" );\n    }, 1000 );\n});\n\nReplace the value 2 with the ID of the Top-Level Category that should be selected by default.\n\n\n## Step 2: Add the Code to the Homepage\n\n\nPaste the JavaScript into the Footer JavaScript field for the Homepage.\n\n\n## Step 3: Specify the Category ID\n\n\nUpdate the following line in the code:\n\nCopy var setId = 2 ;\n\nReplace 2 with the ID of the desired Top-Level Category.\n\nThe Category ID can be found on the Member Categories page.\n\n\n## Step 4: Save the Changes\n\n\nSave the Homepage settings.\n\nSave the change:\n\nThe homepage search box will now automatically preselect the specified Top-Level Category.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113771995/original/05xB7RGDTybUuo6WvXB35P6mtqXFdO-9cQ.png?1661873855",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Preselect a Top Level Category - Homepage Search Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113772813/original/zzbBqlm0LypRH9ZYWZV_rbhkB_K4Pr8EWg.png?1661874586",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Preselect a Top Level Category - Homepage Search Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113772900/original/pKjdhehpfB2q7hf2UnQd_KoEuE71J0C-tA.png?1661874683",
+      "alt": null,
+      "caption": "The Category ID can be found on theMember Categoriespage.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Preselect a Top Level Category - Homepage Search Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'. Context: The Category ID can be found on theMember Categoriespage.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113773157/original/ISBBjuaOKP9cLiTNEEHR1OCxTw2rvcnWrg.png?1661874880",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Preselect a Top Level Category - Homepage Search Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113773227/original/6FdUCLCGypU2wIJaNy798BqFNw1V8r7zEg.png?1661874966",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Preselect a Top Level Category - Homepage Search Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113773299/original/oZWtuybX0H8Z2qgH40DOBaNwu0r_hvy8xw.png?1661875057",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Preselect a Top Level Category - Homepage Search Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089580",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089580"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:20+05:30",
+  "scraped_at": "2026-10-18T13:50:11.054148"
+}

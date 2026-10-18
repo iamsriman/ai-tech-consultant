@@ -1,0 +1,23 @@
+{
+  "article_id": "12000100817",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100817-07-26-2024-software-update",
+  "title": "07/26/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/26/2024 - Software Update"
+  ],
+  "content": "## 07/26/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100817\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented a security update to prevent any additional code from running in SVG images uploaded to sites.\n\n- We updated the Multi-Locations Listing Add-On (Service Areas) to save the city and zip code information for all locations added to the service_areas table when it is available. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We updated the ChatGTP Content Creator Add-On to use the newest model available ( ChatGTP 4o).\n\n- We fixed an issue that was preventing the Profile Photo tab from working properly on the Member Dashboard after changing the Website Default Language to French in some cases. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was preventing the \"Hide Entire Section On Mobile?\" Design Setting from working properly on the Recent Articles and Recent Blog Articles with Sidebar widgets in some cases. Widgets Involved: Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles with Sidebar\n\n- We removed the profile_filename email template variable which was no longer being used.\n\n- We fixed an issue which was affecting the ability to save the Keyword Autosuggest Setting rules in the Admin in some cases.\n\n- All dates and times shown related to the \"Send Newsletter\" statistics are now based on the \"Website Time Zone\" setting of the site.\n\n- We fixed an issue which was preventing the Event Search Result pages from loading properly when event posts were imported with invalid date formats.\n\n- We made several small bug fixes and improvements to the Email Outbox page in the Admin.\n\n- We updated the text logged in the Activity Tracker when creating, updating and deleting web pages using the Web Page Builder page in the Admin.\n\n- We released the Two-Factor Authentication security feature for Admin accounts. The 2FA feature will be rolled out gradually for all Admin over the coming weeks.\n\n- We fixed an issue which was causing the \"Menu Behavior\" Design Setting from working properly when the \"Stick to Top When Scrolling\" option is selected in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100817",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100817"
+    }
+  ],
+  "lastmod": "2024-07-29T22:37:17+05:30",
+  "scraped_at": "2026-10-18T13:54:40.632927"
+}

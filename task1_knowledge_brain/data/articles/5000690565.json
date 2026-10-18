@@ -1,0 +1,27 @@
+{
+  "article_id": "5000690565",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000690565-developer-hub-cpanel-dashboard-zone-editor-a-records-cname-txt-and-more-",
+  "title": "Developer Hub » cPanel Dashboard » Zone Editor (A Records, CNAME, TXT and More)",
+  "category": "Developer Hub",
+  "folder": "cPanel Dashboard",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "cPanel Dashboard",
+    "Developer Hub » cPanel Dashboard » Zone Editor (A Records, CNAME, TXT and More)"
+  ],
+  "content": "## Developer Hub » cPanel Dashboard » Zone Editor (A Records, CNAME, TXT and More)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000690565\n\n\n## Developer Hub » cPanel Dashboard » Zone Editor\n\n\nThe cPanel Zone Editor manages DNS records for domains whose live DNS is hosted through the website's cPanel account. If the domain uses Cloudflare or another provider's nameservers, records must be changed at that provider instead.\n\n\n### Access the Zone Editor\n\n\n- Open Developer Hub > cPanel Dashboard .\n\n- Search for DNS and open Zone Editor .\n\n- Select Manage beside the correct domain.\n\nUse Add Record to create an MX, TXT, CNAME, or other supported record. Use Edit beside an existing record to change it.\n\n\n### CNAME Records\n\n\nWhen a Brilliant Directories address is connected manually, follow the exact record shown during Settings > Domain Manager stages Check It and Point Domain . See How to Connect a Domain to a Brilliant Directories Website .\n\n\n### Email and Sender Authentication Records\n\n\nOpen Settings > Domain Manager > Emails , then review Sender Authentication . Copy each website-specific DNS record exactly as displayed. Do not copy sample values from another website or screenshot.\n\nMX records used for mailbox routing can be reviewed under Mailboxes or supplied by an external mail provider. Changing an MX record can redirect all new incoming mail for the domain.\n\nDNS changes can interrupt service. An incorrect website, MX, or authentication record can cause downtime or mail failures. Confirm the authoritative DNS provider and the purpose of each record before saving.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000690565",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000690565"
+    },
+    {
+      "text": "How to Connect a Domain to a Brilliant Directories Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    }
+  ],
+  "lastmod": "2026-09-23T22:32:10+05:30",
+  "scraped_at": "2026-10-18T13:39:18.929406"
+}

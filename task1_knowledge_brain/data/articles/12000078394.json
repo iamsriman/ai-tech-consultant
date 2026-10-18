@@ -1,0 +1,100 @@
+{
+  "article_id": "12000078394",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078394-create-html-css-js-php-txt-etc-file-extensions-using-webpage-builder-ftp-alternative-",
+  "title": "Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)"
+  ],
+  "content": "## Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078394\n\nBrilliant Directories allows users to create and save .HTML, .CSS, .JS, .PHP, .TXT etc file extensions using the Webpage builder. The best approach towards this setup will be to first create the document as a widget and then save the page with the Page Type Custom Widget as Webpage.\n\nTo get started navigate to Toolbox - Widget Manager and create a new widget with the file content. For this example we will create a CSS file to be used to set the style of the page:\n\nClick on Create New Widget\n\nWe recommend adding the file type to the corresponding tab, since in this case we are adding a CSS file, the content is added to the CSS tab:\n\nOnce the content has been added, save the widget.\n\nThe next step will be to create the static page, we recommend setting up the page type for these pages that have different extensions, as Custom Widget as Webpage\n\nOnce the page type has been selected, and the widget created, the option to select the new custom widget will show up in the dropdown:\n\nAdvanced Tip For Developers:\n\nThe Select Content Type setting will allow users to specify the content type\n\nThis should only be selected if the content type needed is known, otherwise can be left as default. If the content type is not listed, the header at the top of the custom widget can be customized with the content type of choice.\n\nThe next step will be to save the static page with the correct file extension. In this example, we will save the file as \" newstyle.css \"\n\nOnce the webpage has been saved, it can be referenced or linked to using the full URL path.\n\nImportant Note:\n\nThese pages can be excluded from the Sitemap if needed by checking the Exclude from Sitemap option under Page Options.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733438/original/2qZo5q3PzFDwDl02mhqiv3Wp5vUfzaW9Kg.png?1783557217",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733445/original/Kw4pxHch7DXwL25SfdDUn4xJtqBVT-g32A.png?1783557262",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733630/original/bxOndXpWCldjQpv2TJG26zk9czZOCh3pyw.png?1783557750",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733647/original/u6XU416IaCIyax2-jKCWVU2UPW2I0ho9Fw.png?1783557839",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733667/original/iu_V322WEClEoiG3y2AEXBYINywLDh5bKQ.png?1783557869",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733678/original/1fnC4tNme5NFkAwXc5lxhHjwC9jZXuP7bw.png?1783557904",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733690/original/LNF61MYw4FA4MemkildiPu9_aREPpgGslw.png?1783557926",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733697/original/VT8wwltau7L5b7tpNyCyUR-tFrT75WbZDQ.png?1783557949",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create .HTML, .CSS, .JS, .PHP, .TXT, etc File Extensions Using Webpage Builder (FTP Alternative)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078394",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078394"
+    },
+    {
+      "text": "Sitemap",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682659"
+    }
+  ],
+  "lastmod": "2026-07-09T06:15:55+05:30",
+  "scraped_at": "2026-10-18T13:48:02.428258"
+}

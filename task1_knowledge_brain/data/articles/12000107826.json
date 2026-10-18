@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107826",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107826-03-06-2026-software-updates",
+  "title": "03/06/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/06/2026 - Software Updates"
+  ],
+  "content": "## 03/06/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107826\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- The action of deleting a member’s profile photo, logo, or cover photo image is now logged in the Activity Tracker. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- Updated the Billing History page in the Admin to display the text “Test – Transaction” next to the billing cycle of each transaction when it was processed using the system's test Stripe credentials as the Payment Gateway.\n\n- Released BD Butler , an AI assistant integrated directly into the Admin to help create and edit widgets, landing pages, and email templates.\n\n- Updated the Email Templates page in the Admin to display the Email Template ID for each template and allow searching by this ID.\n\n- The actions of publishing, updating, or deleting a post comment are now logged in the Activity Tracker. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- Fixed an issue that prevented the system from saving the content of email templates in the Admin in some cases.\n\n- Added a Revision History to the Widget Manager page in the Admin. Users can now roll back custom widgets to the 10 previous saves.\n\n- Fixed an issue that prevented the system from sending email notifications when manually matching members with leads using the users_to_match parameter with the Create Leads endpoint of the Brilliant Directories API.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107826",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107826"
+    }
+  ],
+  "lastmod": "2026-03-09T22:34:14+05:30",
+  "scraped_at": "2026-10-18T13:57:22.098716"
+}

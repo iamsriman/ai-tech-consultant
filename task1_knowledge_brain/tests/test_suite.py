@@ -14,6 +14,8 @@ from task1_knowledge_brain.knowledge_base.vector_store import BDVectorStore
 from task1_knowledge_brain.knowledge_base.retriever import KnowledgeRetriever
 from task1_knowledge_brain.knowledge_base.query_engine import BDQueryEngine
 from task1_knowledge_brain.syncer.daily_sync import DailySitemapSyncer
+from task1_knowledge_brain.scraper.sitemap_parser import SitemapEntry
+from task1_knowledge_brain.human_loop.ticket_manager import TicketManager
 
 @pytest.fixture(scope="module")
 def crawler():
@@ -42,10 +44,8 @@ def all_chunks(chunker, articles):
     return chunks
 
 @pytest.fixture(scope="module")
-def vector_store(all_chunks):
-    store = BDVectorStore()
-    # Reset to a clean state for repeatable testing
-    store.reset()
+def vector_store(all_chunks, tmp_path_factory):
+    store = BDVectorStore(tmp_path_factory.mktemp("kb-store") / "chroma")
     added = store.add_chunks(all_chunks)
     assert added == len(all_chunks), "All chunks should be upserted"
     return store
@@ -71,8 +71,8 @@ def test_retriever_basic(vector_store):
     assert top.title
     assert top.url.startswith("http")
 
-def test_query_engine_answer(vector_store):
-    engine = BDQueryEngine(vector_store=vector_store)
+def test_query_engine_answer(vector_store, tmp_path):
+    engine = BDQueryEngine(vector_store=vector_store, ticket_manager=TicketManager(tmp_path / "tickets.json"))
     answer = engine.query("How do I create an email account?", top_k=4)
     assert hasattr(answer, "answer")
     assert hasattr(answer, "has_answer")
@@ -81,20 +81,23 @@ def test_query_engine_answer(vector_store):
     else:
         assert len(answer.citations) > 0
 
-def test_daily_sync_runs_successfully():
-    syncer = DailySitemapSyncer()
-    report = syncer.sync(max_updates=5)
-    assert report.status == "success", f"Sync failed: {report.message}"
+def test_daily_sync_runs_safely_with_mocked_sitemap(tmp_path):
+    class Parser:
+        def parse(self):
+            return [SitemapEntry(loc=f"https://support.brilliantdirectories.com/support/solutions/articles/{i}-x", lastmod=None,
+                                 changefreq=None, priority=None, is_article=True, is_category_or_folder=False,
+                                 article_id=str(i), slug="x") for i in range(100)]
+        @staticmethod
+        def get_articles_only(entries):
+            return entries
+    class Crawler:
+        articles_dir = tmp_path / "articles"
+        def load_all_saved_articles(self): return []
+        def crawl_article(self, entry): return None
+    syncer = DailySitemapSyncer(sitemap_parser=Parser(), crawler=Crawler(), vector_store=BDVectorStore(tmp_path / "sync_chroma"))
+    report = syncer.sync(max_updates=1)
+    assert report.status == "partial", f"Failed article should keep snapshot uncommitted: {report.message}"
     assert isinstance(report.added_articles, list)
     assert isinstance(report.updated_articles, list)
     assert isinstance(report.removed_articles, list)
-
-@pytest.fixture(autouse=True, scope="module")
-def cleanup():
-    yield
-    tickets_path = Path("task1_knowledge_brain/data/tickets.json")
-    if tickets_path.exists():
-        try:
-            tickets_path.unlink()
-        except Exception:
-            pass
+    assert report.failed_articles == ["0"]

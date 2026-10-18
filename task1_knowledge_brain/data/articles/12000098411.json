@@ -1,0 +1,27 @@
+{
+  "article_id": "12000098411",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098411-02-16-2024-software-updates",
+  "title": "02/16/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/16/2024 - Software Updates"
+  ],
+  "content": "## 02/16/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098411\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to display the wrong Membership Plan information in the member's account sidebar on mobile devices when visiting another member profile page in some cases. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We improved the \" Random Order\" option in the the \" Order Results By\" Post Type Setting in order to regenerate the randomized order whenever starting a new search or visiting the search results page again for the first time. Widgets Involved: Search - Member - Search Query Search - Post - Search Query Search - Group - Search Query\n\n- We fixed an issue which was causing the member's name on the Member Account Details page in the Admin to overflow out of its intended display area in some cases.\n\n- We released the Block Traffic by Country Add-On. In order to use this new feature, navigate to the Admin >> Settings >> General Settings  >> Localization Tab. Click here for more information.\n\n- The Global Website Search results are now compatible with the \"Order Results By\" Post Type Setting.\n\n- We updated the HTML used for the \"Embeddable Member Badge\" in the Member Dashboard to use a \"border\" style rather than a \"border\" attribute. Widget Involved: Bootstrap Theme - Account - Member Dashboard\n\n- We updated the \"Post URL Structure\" Advanced Setting to add an option to include the post's category in the post's URL.\n\n- The \"Listing - Password Retrieval\" form is now editable on the Form Manage page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098411",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098411"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/block-website-traffic-by-country"
+    }
+  ],
+  "lastmod": "2024-02-20T20:05:09+05:30",
+  "scraped_at": "2026-10-18T13:53:34.648063"
+}

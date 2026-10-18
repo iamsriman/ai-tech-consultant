@@ -1,0 +1,23 @@
+{
+  "article_id": "12000080065",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080065-06-04-21-software-updates",
+  "title": "06/04/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/04/21 - Software Updates"
+  ],
+  "content": "## 06/04/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080065\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added the ability to display the total count for Post Views, Bookmarks / Favorites, and Comments for each post on the Manage Posts page in the Admin.\n\n- We added Hungarian as an option in the Default Website Language setting.\n\n- We fixed an issue which was preventing members from publishing posts from the Member Dashboard in some cases.\n\n- We fixed an issue which was preventing the system from displaying the facebook share button on the front-end of sites in some cases. Widget Involved: Bootstrap Theme - Module - Social Share\n\n- We fixed an issue with the automatic cancelation of member billing subscriptions when changing the status of members to \"Cancelled\" as part of a bulk action on the Search Members page in the Admin.\n\n- We updated the \"Select Content to Display\" section of the Homepage Design Settings in the Admin in order to make the sections draggable blocks.\n\n- We updated the modal design when exporting Smart List results from the Smart Lists page in the Admin.\n\n- We updated the Froala WYSIWYG on the Design Settings and Membership Plan settings pages in the Admin in order to make it compatible with the draggable \"Pre-Made Elements\" module available in the Web Page Builder.\n\n- We updated the widget name validation logic in order to allow periods \".\" as part of a widget's name.\n\n- We optimized the ORDER portion of the SQL query used in the Recent Members homepage widget to make the widget display faster. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We removed the Edit Form Settings button when initially customizing a form on the Form Manager page in the Admin.\n\n- We fixed an issue which was causing the system to display a post count link for the Member Listing post type on the Edit Post Settings page in the Admin.\n\n- We are now hiding the Database Variable form field setting after changing the Type of Field to \"Section Title\", \"Submit Form Button\" or \"Help Alert Box\" when editing forms in the Form Manager.\n\n- We fixed an issue which was preventing the system from displaying the member subcategories after clicking on the \"View All\" text on the Match Leads page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080065",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080065"
+    }
+  ],
+  "lastmod": "2021-06-07T23:03:48+05:30",
+  "scraped_at": "2026-10-18T13:48:37.675739"
+}

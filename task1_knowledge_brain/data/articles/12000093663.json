@@ -1,0 +1,35 @@
+{
+  "article_id": "12000093663",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093663-changelog-march-2017",
+  "title": "Changelog - March 2017",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - March 2017"
+  ],
+  "content": "## Changelog - March 2017\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093663\n\nNew Features: The Get Matched Form is now available to be displayed in the top section of the Homepage (AKA the \"Hero\" section of the page), replacing the typical search functionality that is found there.  To utilize this feature, navigate to Settings >> Design Settings >> Homepage Layout >> Homepage Search Settings and choose \"Show Lead Form\" in the \"Search Type\" setting. The hero divider has been enhanced and now you can add a URL which will create a link for each of the 3 hero divider elements. To use this new feature navigate to Settings >> Design Settings >> Homepage Layout >> Homepage Divider Settings. Here you can enter text for the \"Link Name\" and a URL into the \"Link URL\" field.  This will add a button with the \"Link Name\" text that links to the \"Link URL\". A new lazy load feature has been released for posts listed on member profile pages and pagination and search functionality has been added to the Member Dashboard for editing posts. N ewly launched websites will have this feature installed as a default functionality. To activate these new features on an existing website, navigate to Settings >> Advanced Settings and search for the setting named enable_lazy_load and set it to 1. You can find more information about this update here . We added the ability to add a \"Hero Image\" with text and a link rather than a search widget (which is the default). To use this new functionality, navigate to Settings >> Design Settings >> Homepage Layout >> Search Type and choose \"Hero Message With Link\". We added the ability to display the Member login form on the Homepage in the \"Hero\" section of the page. An Admin can control this functionality through the Website Design Settings. When the user is already logged into their on the site, the system will display the Search Module instead of the Member Login Form. To use this new feature navigate to Settings >> Design Settings >> Homepage Layout >> Homepage Search Settings >> Require Login Form and select \"Yes\".  This will require a visitor to login to an account before the search feature in the \"Hero\" section of the homepage is displayed. We released a major update for the Lead Automatching Engine and the Member Search Query. When searching for a member using the location and category search features on the front end of a website and auto-matching leads based on location and category (available with the Automatic Lead-Matching Add-On ), the results will always be exactly the same.  The Member Search Query has also been completely refactored for faster and more robust results.  Please see the complete documentation of this major update here . Enhancements / Fixes: Bug fixes to the New Leads Module, New Reviews Module, Google Location System, Add-on Manager System, and Member System. In all, more than 30+ bugs were fixed ranging from Backend, Admin Panel, Frontend and more.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093663",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093663"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000027113-lazy-load-for-member-profile-tabs-coupons-classifieds-etc-"
+    },
+    {
+      "text": "Automatic Lead-Matching Add-On",
+      "url": "http://www.brilliantdirectories.com/advanced-leads-module-with-auto-matching"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000027557-major-update-for-lead-matching-member-search-systems-march-29-2017"
+    }
+  ],
+  "lastmod": "2023-05-09T04:10:07+05:30",
+  "scraped_at": "2026-10-18T13:51:14.999930"
+}

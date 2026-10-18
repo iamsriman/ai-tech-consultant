@@ -1,0 +1,23 @@
+{
+  "article_id": "12000049502",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049502-09-21-18-software-updates",
+  "title": "09/21/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/21/18 - Software Updates"
+  ],
+  "content": "## 09/21/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000049502\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The U.S Virgin Islands and British Virgin Islands are now available to select on the Country Settings page in the Admin Area.\n\n- We added the ability to select an \"Upgrade Email Template\" when a Site Member upgrades his listing. In order to use this new feature navigates to the Admin >> Finance >> Manage Products >> Edit >> General Tab.\n\n- We updated the Finance Menu Link in the Admin Area in order to link to the updated page.\n\n- We updated the Error Message in the Member Retrieve Password form if multiple members share the same email. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We fixed an issue which was affecting the ability to add Top Categories with apostrophes in their name.\n\n- We hid the \"Listing\" item in the \"Post Publishing Abilities\" Column since this feature is mandatory for every Product.\n\n- We added Code Difference Checker functionality to custom widgets. This new feature is available as a new Tab in the Edit Widget page if the system recognizes a difference between the code of the Custom WIdget and the corresponding Default Widget.\n\n- We added the Recaptcha Security field to the Password Retrieval Form. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We updated the Transactions Tab on the Member Account Details page in the Admin Area to use the latest UI updates used on the Transaction History page of the Admin.\n\n- We added the HTML \"lang\" attribute to the HTML tag. The \"lang\" attribute will be based on the language selected on the General Settings page in the Admin Area. Widgets Involved: Bootstrap Theme - HEAD Bootstrap Theme - Module - 404 Page Content\n\n- We fixed an issue which was causing the 2Checkout Payment Gateway to incorrectly display the name of the product being purchased in some cases.\n\n- We fixed an issue which was preventing special characters in the name or company name of the member from being URL-encoded properly.\n\n- We made an aesthetic update to the Recent and Featured Member widgets. Widgets Involved: Bootstrap Theme - Display - Homepage Featured Members Bootstrap Theme - Display - Recent Members\n\n- We fixed an issue which was affecting the ability to edit some large custom Widgets in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000049502",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049502"
+    }
+  ],
+  "lastmod": "2018-09-22T04:25:52+05:30",
+  "scraped_at": "2026-10-18T13:43:48.945898"
+}

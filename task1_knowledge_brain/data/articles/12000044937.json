@@ -1,0 +1,131 @@
+{
+  "article_id": "12000044937",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044937-user-consent-tools-gdpr-compliance-",
+  "title": "User Consent Tools (GDPR Compliance)",
+  "category": "Add-On Documentation",
+  "folder": "Europe's General Data Protection Regulation (GDPR) Compliance",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Europe's General Data Protection Regulation (GDPR) Compliance",
+    "User Consent Tools (GDPR Compliance)"
+  ],
+  "content": "## User Consent Tools (GDPR Compliance)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000044937\n\nIMPORTANT NOTE: The information below is not legal advice.  Please consult with an attorney that specializes in the GDPR regulation and all other regulations applicable to your website to make sure the processes of your website are in full compliance.  Brilliant Directories is not liable for any violations of the GDPR or any other regulations that apply to your website.\n\nOn May 25, 2018, the European Union began enforcing the General Data Protection Regulation (GDPR) , requiring additional requirements for websites that store and process the personal information of European Union citizens.\n\nWe added a User Consent Tool to make it easier for websites using the Brilliant Directories platform to collect consent from a user before they submit potential personal data in forms and to collect and record the specific items that users of the website consent to when submitting their personal information to the site.\n\nWhen installed and activated, this tool will display additional checkboxes on forms that could potentially receive personal information from users of the website.  These checkboxes must be checked in order for the form to be submitted, and a record of the consent will be kept along with that user's information for future reference.\n\nCollecting consent to store and process personal information is one of the listed ways to establish Lawful Basis for Processing , one of the requirements of the GDPR.  In addition, this can be useful information to track for any website owner that would like to keep records of what users of the website consented to when creating their account.\n\n```\nThis is a Free Add-On and Enabled on All Websites\n```\n\n\n## Installation and Activation\n\n\nThe User Consent Tools can be installed and activated by navigating to the Settings » General Settings » General tab in the Admin area of the site.  If this website was created before this tool was launched, you will see an Install button here:\n\nClick on \" Install \" to install the feature.\n\nIf the website was created after this tool was made available, or after installation, there will be a field here to activate the tool.  Select \" Yes \" and click on \" Save Changes \" to activate the tool:\n\n\n## Functionality\n\n\nOnce this feature is enabled, consent checkboxes will automatically be added to the following places:\n\n\n### Signup Forms (both free and paid):\n\n\n\n### Upgrade Form:\n\n\n\n### Update Credit Card Form:\n\n\n\n### Review Form:\n\n\n\n## Managing the Consent Items\n\n\nConsent items can easily be edited, removed, or added (up to 5 items total per form) through the Text Labels functionality of the website.  To edit the Text Labels, navigate to the Admin >> Settings >> Text Labels.\n\nOnce here, enter \"consent\" in the search field to display all of the Text Labels related to this tool.\n\nThere are different sets of text labels for different purposes.\n\nMember Consent Items\n\nUsed when members will submit data to the website (when members sign up, update their credit card, or upgrade):\n\n- member_consent_1\n\n- member_consent_2\n\n- member_consent_3\n\n- member_consent_4\n\n- member_consent_5\n\nReview Consent Items\n\nWhen a visitor to the website submits a review for a member:\n\n- review_consent_1\n\n- review_consent_2\n\n- review_consent_3\n\n- review_consent_4\n\n- review_consent_5\n\nContact Us Consent Items\n\nWhen a visitor to the website submits a lead:\n\n- contact_us_consent_1\n\n- contact_us_consent_2\n\nLead Consent Items\n\nWhen a visitor to the website submits a lead:\n\n- lead_form_consent_1\n\n- lead_form_consent_2\n\nNewsletter Consent Items\n\nWhen a visitor to the website submits a lead:\n\n- newsletter_consent_1\n\n- newsletter_consent_2\n\nThe number of the text label relates to the order it will appear in the form.  For example, the text in the \"member_consent_1\" Text Label will be the text of the first consent checkbox related to members, \"member_consent_2\", will be the second consent item, etc.\n\n\n### Editing a Consent Item\n\n\nTo edit the text of one of the existing consent items, simply search for the consent item Text Label you would like to change the content of, and edit the text directly.\n\n\n### Adding a Consent Item\n\n\nTo add an additional consent item, simply enter text into one of the blank consent Text Labels.  For example, if member_consent_1, 2, and 3 all have text already, enter new text into member_consent_4, and it will automatically appear as a 4th checkbox for members.\n\n\n### Removing a Consent Item\n\n\nTo remove a consent item, simply delete the content of the Text Label, and it will no longer appear.\n\n\n## Storing and Exporting Consent History\n\n\nWhen a user submits a form that has consent items, the name, email, date and time, and the full text of each item that was consented to will be stored in your website's database along with the user's information in JSON format.\n\nMember consent items will be stored in the users_data table in the user_consent field.\n\nReview consent items will be stored in the users_reviews table in the user_consent field.\n\nLead consent items will be stored in the leads table in the user_consent field.\n\nAll of this data can be exported at any time in SQL or CSV format by logging into the website's database and using the export tools found there.\n\n\n## Requiring New Consent for Each Action\n\n\nBy default, once a user has clicked on the consent checkboxes once, they will not be prompted for future actions.  For example, if a member signed up and consented at that time, they will not have to consent again when upgrading or updating their credit card.\n\nHowever, in some use cases, a website will have the need to frequently update the consent items and store a complete history of a user's consent to those changing items over time.\n\nBy setting the Advanced Setting \"require_new_consent\" to 1, every time a member upgrades or updates their credit card information, they will be required to consent again.  This additional consent will be stored in the same field in the users_data table, added as an additional item to the JSON file.  In other words, the new consent will not overwrite any existing consent, instead, it will be added to any existing consent.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12081980617/original/N63j19u_-IqmPL61Blci6LS4ddbpfYL-8Q.png?1599163077",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089945750/original/KzU_JZq-EkQWkGlVllopzMngJCldfy7LMw.png?1615584722",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12034569547/original/NLd7z8-TObLErLzTbX-0CRKXHefIycTkwg?1527201844",
+      "alt": null,
+      "caption": "Context: Signup Forms (both free and paid):",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'. Context: Context: Signup Forms (both free and paid):",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12034569609/original/h0zXNLwu5o4meeDIIR025H1nmq8_aKu1dQ?1527202043",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12034569635/original/mMosCwy6jAQ_TQjpalsrxRy2pk7jyd3IhA?1527202114",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12034569650/original/ZtYQI3VFCDLy1IfMC0MM62nF2BJWdscPZA?1527202226",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12057533363/original/faA_F3in8YHVMPq92iog0LfxXqwIscdE2g.png?1569941532",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087046831/original/V5EFaz9f7bysTqBtcR8Cw7Xeub4X3Dm4-g.png?1609865549",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087046887/original/C_d6lF8DD4A-e8imGrRXr87Q_QNT1RK-8Q.png?1609865617",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087046947/original/lbx5fEyP41tSKsWUuhG-hLpZLCY8kjBwdw.png?1609865711",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087046998/original/L8CQbOOif3WJKnaiqUZvuC-c38u8x1Pjkg.png?1609865764",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Consent Tools (GDPR Compliance)' in section 'Add-On Documentation' / 'Europe's General Data Protection Regulation (GDPR) Compliance'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000044937",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044937"
+    },
+    {
+      "text": "General Data Protection Regulation (GDPR)",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000042446-europe-s-general-data-protection-regulation-gdpr-compliance"
+    },
+    {
+      "text": "Lawful Basis for Processing",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000042446-europe-s-general-data-protection-regulation-gdpr-compliance#lawful-basis"
+    }
+  ],
+  "lastmod": "2026-08-28T21:53:22+05:30",
+  "scraped_at": "2026-10-18T13:42:42.710355"
+}

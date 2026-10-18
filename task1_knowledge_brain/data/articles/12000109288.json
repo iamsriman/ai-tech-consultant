@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109288",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109288-07-24-2026-software-updates",
+  "title": "07/24/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/24/2026 - Software Updates"
+  ],
+  "content": "## 07/24/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109288\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a new Membership Plan Setting called \"Sign Up Form\" , allowing Admins to assign a different signup form to each Membership Plan.\n\n- Released a new alert in the Admin that notifies Admins when the website's Google Maps API key is experiencing errors.\n\n- Released a new \" Skip Duplicate Business Names\" setting for the Business Data Import tool in the Admin, allowing Admins to avoid importing duplicate listings.\n\n- Improved website load speed by caching the website's custom menus .\n\n- Improved the loading performance of the Recent Members widget on websites with large member databases. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- Updated the website transfer process so websites now remain fully live during server transfers, with no downtime.\n\n- Updated the system to automatically update a member's account status when a recurring payment fails, without waiting for the member to log in. This runs during the daily billing cron job, processing one day at a time, when the \"Suspend Past Due Member Accounts\" Advanced Setting is active.\n\n- Updated the Breadcrumbs field on individual web pages to support custom links using the \"Label|URL\" format. Widgets Involved: Website - Page Breadcrumbs Bootstrap Theme - Function - Display Breadcrumbs\n\n- Updated the Chat Message API endpoints to support sending email notifications when a message thread is created or a reply is received.\n\n- Fixed an issue that caused the Change Password form in the Member Dashboard to remain stuck on \"Processing Request...\" even though the new password was saved successfully. Widget Involved: Bootstrap Theme - Function - Form\n\n- Fixed an issue that caused search results pages to stop displaying when a search engine SEO template was saved with an empty template type in the Admin.\n\n- Fixed an issue that caused the State dropdown on checkout pages and the Member Dashboard to remain stuck on \"Loading...\" when selecting a country with one or no regions. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- Fixed an issue that caused the website logo to be hidden on mobile devices when the \"Hide Main Menu\" option was enabled on a web page. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Updated the Email Outbox in the Admin to show which email addresses were added as CC and BCC recipients of an email.\n\n- Fixed an issue that caused the Name/Company search field on the Match Leads page in the Admin to be ignored when searching for members. Widget Involved: Search - Member - Search Query\n\n- Fixed an issue that prevented static page content from displaying on certain search results page URLs.\n\n- Fixed an issue that caused the articles column to overlap the sidebar on mobile devices when the \"Left Sidebar\" layout Design Setting was selected for the Recent Blog and Recent Articles with Sidebar widgets in some cases. Widgets Involved: Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles with Sidebar",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109288",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109288"
+    }
+  ],
+  "lastmod": "2026-07-27T22:02:02+05:30",
+  "scraped_at": "2026-10-18T13:59:53.039004"
+}

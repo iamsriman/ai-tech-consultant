@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091741",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091741-01-20-23-software-updates",
+  "title": "01/20/23 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/20/23 - Software Updates"
+  ],
+  "content": "## 01/20/23 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091741\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We created the manage_label_leads text label. This is used for the \"Manage My Leads\" link inthe Member Dashboard Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We added additional validation to the Text Labels area in the Admin to prevent saving HTML elements in certain text labels that will not support HTML on the frontend of sites. Text Labels Involved: referral dashboard_custom_h1 name_label member_location lead_date_matched lead_status_label\n\n- We fixed an issue which preventing Admins from deleting post comments from the Admin in some cases.\n\n- We created a new Web Page Builder setting called \"Click-Enlarge Images\". When this setting is enabled, the system will enlarge images added to the body of a Web Page when the images are clicked. To use this new setting, navigate to the Admin >> My Content >> Web Page Builder >> Edit >> Page Options tab >> Display Settings. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We added a search filter module to filter the locations on the \"/locations\" page on the frontend of sites. Widget Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- The Sub-Account form is now compatible with Webhooks. Widget Involved: website_users_data_type_save_form\n\n- The Media Manager tool in the Admin now supports uploading files with the .vcf file extension.\n\n- We updated the Member Plan Changed webhook to include the the company, first_name and last_name variables when sending data to the webhook URL.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091741",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091741"
+    }
+  ],
+  "lastmod": "2023-01-24T02:45:46+05:30",
+  "scraped_at": "2026-10-18T13:50:41.223815"
+}

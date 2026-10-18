@@ -1,0 +1,63 @@
+{
+  "article_id": "12000105792",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105792-user-stats-displaying-profile-statistics-in-emails-using-variables",
+  "title": "User Stats: Displaying Profile Statistics in Emails Using Variables",
+  "category": "Add-On Documentation",
+  "folder": "Member Profile Analytics",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Member Profile Analytics",
+    "User Stats: Displaying Profile Statistics in Emails Using Variables"
+  ],
+  "content": "## User Stats: Displaying Profile Statistics in Emails Using Variables\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105792\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Member Profile Analytics Add-On\n```\n\nThe Member Profile Analytics add-on tracks how visitors (non-logged-in) interact with member profiles — including views, website clicks, social link visits, post views, and more — by day, month, and year.\n\nEmail variables make it possible to display these numbers inside outgoing emails. This article outlines the format, shows the default variables available in the editor toolbar, lists all supported date options, and explains how to create custom variables.\n\nNote: If a member has no data for a variable, the email variable will display a value of 0 . This ensures the emails always show a number instead of leaving the field blank.\n\n\n## Variable Format\n\n\nUse this structure when inserting a stat into an email:\n\n%stat_Stat_Type_Name__date[parameter]%\n\n- Two underscores are required between the stat type name and the date: __\n\n- Stat type names are not case sensitive (Profile, profile, PROFILE all work).\n\n- Stat type names can include spaces or underscores (Facebook Click or Facebook_Click).\n\n- If a date is not include , the stat shows the all-time total. Example: %stat_profile%\n\nOptionally, a parameter can be appended to target a specific post or group when displaying statistics in an email:\n\n- [post_id=X]\n\n- [group_id=X]\n\nReplace X with the ID of the post or group.\n\nExamples:\n\n```\n%stat_view_post[post_id=123]%\n%stat_view_post__current_month[post_id=123]%\n%stat_view_post[group_id=456]%\n%stat_view_post__current_month[group_id=456]%\n```\n\nNote: These parameters are supported only in Email Templates. They are not supported in widgets or web pages.\n\n\n## Default Variables in the Email Editor Toolbar\n\n\nThese are ready to insert from the toolbar. Click to add them, or copy/paste the variable exactly as shown.\n\nLabel in Toolbar Variable to Insert What it shows Profile Views Current Month %stat_profile__current_month% Profile views in the current calendar month Profile Views Last Month %stat_profile__last_month% Profile views in the previous calendar month Phone Number Current Month %stat_phone_number__current_month% Clicks on the phone number this month Phone Number Last Month %stat_phone_number__last_month% Clicks on the phone number last month Post Views Current Month %stat_view_post__current_month% Views of the member’s posts this month Post Views Last Month %stat_view_post__last_month% Views of the member’s posts last month Contact Form Last Month %stat_contact_form__last_month% Contact form submissions last month Facebook Click Last Month %stat_facebook_click__last_month% Visits to the Facebook profile last month X Click Last Month %stat_x_click__last_month% Visits to the X (Twitter) profile last month Tiktok Click Last Month %stat_tiktok_click__last_month% Visits to the TikTok profile last month Whatsapp Click Last Month %stat_whatsapp_click__last_month% Clicks to WhatsApp last month Blog Click Last Month %stat_blog_click__last_month% Clicks to the member’s blog last month Linkedin Click Last Month %stat_linkedin_click__last_month% Visits to the LinkedIn profile last month Youtube Click Last Month %stat_youtube_click__last_month% Visits to the YouTube channel last month Pinterest Click Last Month %stat_pinterest_click__last_month% Visits to the Pinterest profile last month Snapchat Click Last Month %stat_snapchat_click__last_month% Visits to the Snapchat profile last month Website Last Month %stat_website__last_month% Clicks to the member’s website last month Post Views (Specific Post) %stat_view_post[post_id=X]% Total views for the specified Post ID Post Views Current Month (Specific Post) %stat_view_post__current_month[post_id=X]% Current month's views for the specified Post ID Post Views (Specific Group) %stat_view_post[group_id=X]% Total views for the specified Group ID Post Views Current Month (Specific Group) %stat_view_post__current_month[group_id=X]% Current month's views for the specified Group ID\n\n\n## Supported Date Options\n\n\nAdd one of these after the two underscores to set the time period. If omitted, the stat is all time.\n\nDate option Meaning Example current_month Current calendar month %stat_profile__current_month% last_month Previous calendar month %stat_profile__last_month% current_year Current calendar year %stat_profile__current_year% last_year Previous calendar year %stat_profile__last_year% 2023 Specific year %stat_profile__2023% december_2024 Month name + year %stat_profile__december_2024% 02_2025 Numeric month + year (MM_YYYY) %stat_profile__02_2025% today Today’s date %stat_profile__today% yesterday Yesterday’s date %stat_profile__yesterday% (no date) All time %stat_profile% YYYYMMDD Specific date %stat_profile__20250115% YYYYMMDD_YYYYMMDD Date range (start to end) %stat_profile__20250101_20250131%\n\n\n## How to Build a Custom Variable\n\n\n- Decide which stat to show (for example: Profile, Website, Facebook Click, Instagram Click, View Post, Phone Number).\n\n- Start with %stat_ and then type the stat name. Use spaces or underscores. Examples: %stat_Facebook Click% %stat_Facebook_Click%\n\n- %stat_Facebook Click%\n\n- %stat_Facebook_Click%\n\n- Optionally add a date by typing two underscores and a supported date option: %stat_Facebook_Click__current_month% %stat_view_post__2024% %stat_profile__20240601_20240630%\n\n- %stat_Facebook_Click__current_month%\n\n- %stat_view_post__2024%\n\n- %stat_profile__20240601_20240630%\n\n- Optionally, append a post or group parameter before the closing % to retrieve statistics for a specific piece of content. Examples: %stat_view_post[post_id=123]%\n%stat_view_post__last_month[post_id=123]%\n%stat_view_post[group_id=456]%\n\n- Close with a percent sign at the end of the variable.\n\n\n### Copy-and-paste examples\n\n\n- %stat_profile% — profile views (all time)\n\n- %stat_profile__current_month% — profile views this month\n\n- %stat_website__last_month% — website clicks last month\n\n- %stat_Facebook Click__current_year% — Facebook visits this year (with a space)\n\n- %stat_Facebook_Click__current_year% — Facebook visits this year (with an underscore)\n\n- %stat_view_post__2023% — post views in 2023\n\n- %stat_profile__20240615% — profile views on 2024-06-15\n\n- %stat_profile__20240601_20240630% — profile views from 2024-06-01 to 2024-06-30\n\n- %stat_view_post[post_id=123]% — total views for Post ID 123\n\n- %stat_view_post__current_month[post_id=123]% — views this month for Post ID 123\n\n- %stat_view_post[group_id=456]% — total views for Group ID 456\n\n- %stat_view_post__last_month[group_id=456]% — views last month for Group ID 456\n\n\n## Tips and Troubleshooting\n\n\n- Variables will only work when the email is being sent to the member who created the post.\n\n- Always include exactly two underscores before the date section.\n\n- Stat names are flexible: spaces or underscores both work; capitalization does not matter.\n\n- No date shows the all-time total.\n\n- If there is a blank or zero: Confirm the stat type exists on the site and has data. Check that the date format matches one of the supported options above. Only non-logged-in visitor activity is tracked by the add-on.\n\n- Confirm the stat type exists on the site and has data.\n\n- Check that the date format matches one of the supported options above.\n\n- Only non-logged-in visitor activity is tracked by the add-on.\n\n\n## Newsletter Example\n\n\nThis is how the same email would look in the inbox:\n\nThis is how the same email would look in the inbox:\n\n\n## About the Member Profile Analytics Add-On\n\n\nThe Member Profile Analytics add-on is a click-tracking tool for profiles and member content. It provides day, month, and year breakdowns of views and clicks. Use these email variables to show members how the website is delivering measurable results. Only non-logged-in visitor activity is counted.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166179071/original/UCVXcZOHioxE_7c2LSaOh13bYEU6I4QNYQ.png?1755717823",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Stats: Displaying Profile Statistics in Emails Using Variables' in section 'Add-On Documentation' / 'Member Profile Analytics'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182572531/original/4xImQI_ZCTlF6AF1msGlwYAMmkZkku2eiA.png?1784904126",
+      "alt": null,
+      "caption": "Context: This is how the same email would look in the inbox:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Stats: Displaying Profile Statistics in Emails Using Variables' in section 'Add-On Documentation' / 'Member Profile Analytics'. Context: Context: This is how the same email would look in the inbox:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182572538/original/acVjZIsECKYtE4-QosHpLWx5vdr-FCkqwA.png?1784904134",
+      "alt": null,
+      "caption": "Context: This is how the same email would look in the inbox:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Stats: Displaying Profile Statistics in Emails Using Variables' in section 'Add-On Documentation' / 'Member Profile Analytics'. Context: Context: This is how the same email would look in the inbox:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105792",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105792"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Member Profile Analytics Add-On",
+      "url": "https://www.brilliantdirectories.com/member-profile-analytics-add-on"
+    }
+  ],
+  "lastmod": "2026-07-24T20:14:05+05:30",
+  "scraped_at": "2026-10-18T13:56:34.294142"
+}

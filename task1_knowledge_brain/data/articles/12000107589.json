@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107589",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107589-02-06-2026-software-updates",
+  "title": "02/06/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/06/2026 - Software Updates"
+  ],
+  "content": "## 02/06/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107589\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the dynamic category search checkbox options from working properly on search results pages when the Dynamic Category Filtering Add-On was active in some cases.\n\n- Fixed an issue that prevented the /user/update API endpoint from updating member images when submitted in some cases.\n\n- Updated the Most Viewed Profiles , Most Viewed Posts , and Visitor Activity Last Month date filters to use the calendar month instead of calculating the previous 30 days on the Admin Dashboard.\n\n- Updated the Activity Tracker to log the specific settings that were changed when saving the General Settings page in the Admin.\n\n- Fixed an issue that prevented the system from canceling previous subscriptions when a member upgraded to a paid plan in some cases.\n\n- Fixed an issue that affected the ability to display Post Categories in the Brilliant Directories app on Zapier in some cases.\n\n- Fixed an issue that caused the system to always display the Enter Credit Card modal during a member upgrade, even when using a 100% off coupon code that does not require credit card information was applied on sites using Stripe as the payment gateway.\n\n- Updated the alert message when publishing or un-publishing paid posts when the Pay Per Post Add-On is active on a website.\n\n- Fixed an issue that affected the ability to export data from the Transaction History page in the Admin in some cases.\n\n- Fixed an issue that caused the system to display inaccurate results when visiting an individual member’s /reviews page while the “Enable Search Results Cache” Post Type setting was active in some cases.\n\n- Released a new UI for the Account Dashboard page in the Admin.\n\n- Updated the UI of the Search Business Data tab on the Business Data page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107589",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107589"
+    }
+  ],
+  "lastmod": "2026-02-10T03:03:41+05:30",
+  "scraped_at": "2026-10-18T13:57:14.122565"
+}

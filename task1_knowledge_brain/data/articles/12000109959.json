@@ -1,0 +1,141 @@
+{
+  "article_id": "12000109959",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109959-how-to-capture-a-har-file-and-console-screenshot-for-support",
+  "title": "How to Capture a HAR File and Console Screenshot for Support",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "How to Capture a HAR File and Console Screenshot for Support"
+  ],
+  "content": "## How to Capture a HAR File and Console Screenshot for Support\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109959\n\nSome problems only happen on one computer or in one browser: a button that does nothing when clicked, a save that seems to work but does not keep the changes, a form that will not submit, or a page that keeps loading. When the support team cannot make the problem happen on its own computers, a recording from the browser where it does happen shows exactly what went wrong.\n\nThis article explains how to make that recording and send it to support. It takes about five minutes and does not change anything on the website.\n\n\n## What Support Needs\n\n\n- The browser name and version , EG Chrome 154 on Windows 11. See How to Find the Browser Version at the end of this article.\n\n- A HAR file. This is a log of everything the browser sent and received while the problem happened. The file name ends in .har .\n\n- A screenshot of the Console tab , taken right after the problem happens. Error messages from the page show up here in red.\n\n- A list of active browser extensions or assistant tools , EG Grammarly, ad blockers, password managers, translation tools, or AI assistants and sidebars. These tools can change how a page behaves.\n\n- The page address and the steps that cause the problem , EG \"Settings > General Settings, change the Website Name, click Save Changes\".\n\nKeep the HAR file private. A HAR file can contain anything typed into forms on the page, and in some browsers the admin login session. Attach it only to the support ticket, never to a public post or a group email. Sign out of the Admin Area after sending it, which ends the login session recorded in the file.\n\n\n## Google Chrome and Microsoft Edge\n\n\nChrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.\n\n- Open the page where the problem happens.\n\n- Press F12 (on a Mac, Option + Command + I ), or right-click anywhere on the page and choose Inspect . The developer tools open on one side of the window.\n\n- Click the Network tab. If it is not visible, click the » arrows next to the tab names to find it.\n\n- Tick Keep log so the list is not cleared when the page reloads or moves to another page. Older versions of Chrome call this option Preserve log .\n\n- Repeat the steps that cause the problem, EG click the button or submit the form. New lines appear in the list while the browser works. Wait until the problem has happened.\n\n- Click the Export HAR button (the downward arrow in the Network toolbar), choose where to save the file, and click Save .\n\n- Click the Console tab and take a screenshot of it, including any lines shown in red. On Windows, press Windows + Shift + S . On a Mac, press Command + Shift + 4 .\n\nSanitized HAR files: Chrome saves a sanitized HAR file by default. It leaves out the browser's login cookies but keeps everything support needs to investigate. If a menu appears with two choices, choose Export HAR (sanitized) . In older versions of Chrome, the same file can also be saved by right-clicking the list of requests and choosing Save all as HAR with content .\n\n\n## Mozilla Firefox\n\n\n- Open the page where the problem happens.\n\n- Press F12 (on a Mac, Option + Command + I ), or right-click anywhere on the page and choose Inspect .\n\n- Click the Network tab.\n\n- Click the gear icon at the right end of the Network toolbar and select Persist Logs , so a check mark appears next to it.\n\n- Repeat the steps that cause the problem and wait until it has happened.\n\n- Click the gear icon again and choose Save All As HAR , then save the file. The same option appears when right-clicking the list of requests.\n\n- Click the Console tab and take a screenshot of it.\n\nFirefox has no sanitized option, so its HAR files include the login cookies. Signing out of the Admin Area after sending the file ends that session.\n\n\n## Safari (Mac)\n\n\nSafari hides its developer tools until they are turned on. This only needs to be done once.\n\n- Choose Safari > Settings , click Advanced , and tick Show features for web developers . A Develop menu appears in the menu bar.\n\n- Open the page where the problem happens, then choose Develop > Show Web Inspector (or press Option + Command + I ).\n\n- Click the Network tab. Click the round filter icon next to All and choose Preserve Requests , so the list is not cleared when the page reloads.\n\n- Repeat the steps that cause the problem and wait until it has happened.\n\n- Click Export at the right end of the Network toolbar and save the file.\n\n- Click the Console tab and take a screenshot of it.\n\n\n## How to Send the Files\n\n\n- Attach the .har file and the Console screenshot to the support ticket, either by replying to the ticket email or through the support portal. If the HAR file is too large to attach, compress it into a .zip file first.\n\n- In the same reply, include the browser name and version, the list of active extensions or assistant tools, the page address, and the steps that cause the problem.\n\n- Sign out of the Admin Area, then sign back in.\n\n\n## How to Find the Browser Version\n\n\n- Chrome: open the three-dot menu and choose Help > About Google Chrome .\n\n- Edge: open the three-dot menu and choose Help and feedback > About Microsoft Edge .\n\n- Firefox: open the menu (three lines) and choose Help > About Firefox .\n\n- Safari: choose Safari > About Safari .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058088/original/d4QuNZuSS9rkurHfGJfowCrJKV6ml7UYwA.png?1790812587",
+      "alt": "Chrome developer tools open on an admin page with the Network tab highlighted",
+      "caption": "Context: Chrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): Chrome developer tools open on an admin page with the Network tab highlighted Context: Context: Chrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058089/original/iCOHJBoxNN40agnOEjI6m6NB2EOx9lSBrg.png?1790812593",
+      "alt": "The Keep log checkbox ticked in the Chrome Network toolbar",
+      "caption": "Context: Chrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Keep log checkbox ticked in the Chrome Network toolbar Context: Context: Chrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058090/original/CwsvYnDYuQPzrlEdTKz-lIw2jimOh8PMDw.png?1790812598",
+      "alt": "The Export HAR button in the Chrome Network toolbar, with the recorded requests listed below",
+      "caption": "Context: Chrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Export HAR button in the Chrome Network toolbar, with the recorded requests listed below Context: Context: Chrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058091/original/3pNFiwYeVpmWJL42gkWHEXD1wRsIEOqIwg.png?1790812602",
+      "alt": "The Chrome Console tab showing the messages logged by the page",
+      "caption": "Context: Chrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Chrome Console tab showing the messages logged by the page Context: Context: Chrome and Edge use the same developer tools, so the steps are the same. Button names can differ slightly between versions.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058094/original/gNioXOcGb4KMGrFTnZOQjzQeExGH5kUXNA.png?1790812604",
+      "alt": "Firefox developer tools open on an admin page with the Network tab highlighted",
+      "caption": "Context: Mozilla Firefox",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): Firefox developer tools open on an admin page with the Network tab highlighted Context: Context: Mozilla Firefox",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058095/original/LJGxEA4rJxEXfJOSvK9EdL_6YUIMBFFd3A.png?1790812606",
+      "alt": "The Firefox Network settings menu with Persist Logs checked",
+      "caption": "Context: Mozilla Firefox",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Firefox Network settings menu with Persist Logs checked Context: Context: Mozilla Firefox",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058096/original/742HCOvPinUiv2T-peyCYzG_08qc52gNeA.png?1790812609",
+      "alt": "The Save All As HAR option in the Firefox Network settings menu",
+      "caption": "Context: Mozilla Firefox",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Save All As HAR option in the Firefox Network settings menu Context: Context: Mozilla Firefox",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058097/original/nZU4ySlYkwEcSVKb9PAIW9WvxJAuxgGDbg.png?1790812611",
+      "alt": "The Firefox Console tab showing the messages logged by the page",
+      "caption": "Context: Mozilla Firefox",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Firefox Console tab showing the messages logged by the page Context: Context: Mozilla Firefox",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058099/original/HRFGsnVQK2PgOHQA0aQvpb2ejDO9-GpIrg.png?1790812612",
+      "alt": "Safari Settings, Advanced tab, with Show features for web developers ticked",
+      "caption": "Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): Safari Settings, Advanced tab, with Show features for web developers ticked Context: Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058101/original/voMMp9W-T88YSLmzIeyutt0tfzV5Je0bQg.png?1790812614",
+      "alt": "The Safari Develop menu with Show Web Inspector highlighted",
+      "caption": "Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Safari Develop menu with Show Web Inspector highlighted Context: Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058102/original/PjArsFu7RgGuX9i_Hi6XxUG6qkXvMA9Kqw.png?1790812617",
+      "alt": "The Safari Network tab filter menu with Preserve Requests highlighted",
+      "caption": "Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Safari Network tab filter menu with Preserve Requests highlighted Context: Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058103/original/f2JoyOiT7cFfU-gNzWk7LvF0j64u9nCLag.png?1790812618",
+      "alt": "The Export button in the Safari Network toolbar",
+      "caption": "Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Export button in the Safari Network toolbar Context: Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186058104/original/YTvQ944j3zOjsjliF4mCe_gxOSrwTIkJWA.png?1790812622",
+      "alt": "The Safari Console tab showing the messages logged by the page",
+      "caption": "Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Capture a HAR File and Console Screenshot for Support' (Get Started Here > Common Questions & Troubleshooting): The Safari Console tab showing the messages logged by the page Context: Context: Safari hides its developer tools until they are turned on. This only needs to be done once.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109959",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109959"
+    }
+  ],
+  "lastmod": "2026-10-01T05:40:36+05:30",
+  "scraped_at": "2026-10-18T14:00:15.283226"
+}

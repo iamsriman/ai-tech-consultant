@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091371",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091371-12-16-22-software-updates",
+  "title": "12/16/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/16/22 - Software Updates"
+  ],
+  "content": "## 12/16/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091371\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was affecting the ability to complete one-time payments (leads, digital products, etc) when the \"Enable HTTP Security Headers (CSP)\" Advanced Setting was active and the site was using an Off-Site Payment Gateway like PayPal. Widget Involved: Bootstrap Theme - Function - CSP Headers\n\n- We updated the \"Grid View Search Results\" Add-On in order to make it compatible with the \"Enable Lazy Load Images\" Advanced Setting.\n\n- We fixed an issue which was causing the calendar not to display when a \"Calendar - Date Picker\" form field was clicked in some cases.\n\n- We fixed an issue which was preventing the system from respecting the \"Add \"NOFOLLOW\" to Member Web Links?\" Membership Plan setting for custom \"Website Link\" form fields on member profile page in some cases.\n\n- We added the \"Refer a Friend\" button on the \"My Websites\" page in the Admin.\n\n- We fixed an issue with the Google Website Translator Add-On which was causing the translate module to overlap with the content of the page on mobile devices in some cases.\n\n- We fixed an issue which was preventing the Form Manager in the Admin from displaying the \"+ Add Option\" button after adding a Dropdown, Checkbox or Multiple Choice Radio form field to a form in some cases.\n\n- We updated the \"Facebook Page ID\" General Setting validation to only support numbers.\n\n- We fixed an issue which was causing the system to display inaccurate pagination links when filtering Sub and Sub Sub Categories on the Member Categories page in the Admin.\n\n- We updated the Homepage Recent Member widget in order to improve the MySQL query when the \"Require Complete Profiles\" Advanced Setting is active on the site. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We updated the Dropdown, Checkbox and Multiple Choice Radio form fields validation to only accept the options which are specified for the field in the Form Manager. Widget Involved: System - SaveForm\n\n- We fixed an issue with the paid signup process which was causing the system to create new member accounts even when the system returns an error message when using Stripe as payment gateway in some cases.\n\n- We updated the \"Homepage Background Slider\" Add-On in order to load the JS files after the page loads. This will help reduce page load times and increase scores in 3rd party tools like Google Pagespeed.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091371",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091371"
+    }
+  ],
+  "lastmod": "2022-12-19T23:29:00+05:30",
+  "scraped_at": "2026-10-18T13:50:33.748961"
+}

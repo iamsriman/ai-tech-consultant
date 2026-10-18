@@ -1,0 +1,60 @@
+{
+  "article_id": "12000072584",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000072584-free-trial-payment-intents-stripe",
+  "title": "Free Trial Payment Intents - Stripe",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Free Trial Payment Intents - Stripe"
+  ],
+  "content": "## Free Trial Payment Intents - Stripe\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000072584\n\nWhen viewing Stripe, some payment intents may appear with a \"Cancelled\" status. Understanding Cancelled Payment Intents in Stripe When viewing Stripe, some payment intents may appear with a \"Cancelled\" status. This is part of the system process used to securely store a credit card on file and attempt a payment authorization for the amount that will be charged after a free trial period ends. The credit card authorization process verifies that the card is valid and has sufficient funds available. This helps increase the likelihood that the payment can be successfully collected when the free trial period expires. Why Multiple Cancelled Payment Intents May Appear The system creates a payment intent when storing the credit card information and creates another payment intent when the member confirms the order. As a result, multiple payment intents with a \"Cancelled\" status may appear in Stripe. Although these payment intents appear as cancelled in the transaction list, Stripe provides additional details about each transaction. Viewing Payment Intent Details in Stripe The best way to review these payment intents is by navigating to the Payments section in Stripe. The description will automatically indicate that the payment intent was created for a free trial and will include the number of trial days. Selecting the \"Cancelled\" status will display additional information about the member and the transaction. Payment Intent Information The payment intent details include important information such as: Payment amount Transaction date Customer email address Payment method The payment method confirms that the card is valid and can be charged automatically when the free trial period ends. The payment intent description will also be displayed within the transaction details. Stripe Metadata Information When scrolling down within the payment intent details, Stripe displays additional metadata. This section includes information such as: Member ID Signup URL Member email address Website URL Free trial period Pending Charges During Free Trial Authorization Because the system performs a payment authorization for the amount that will be charged after the free trial period, some customers may temporarily see the charge listed as \"Pending\" on their credit card statement. No action is required from the website owner. Depending on the card provider and the time of day, any pending authorization will automatically disappear within 24 hours.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079943261/original/HX28E-lX60wfimfQdaqY_LedXw81JY5oeA.png?1594743803",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Payment Intents - Stripe' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079943280/original/4jYCHtXxGz6K--PkghUfLKnFICpDtIuKxQ.png?1594743837",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Payment Intents - Stripe' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079943373/original/mGjITp2uthtCdDprPInmh9GQFvphyXxvYQ.png?1594743957",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Payment Intents - Stripe' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079943454/original/0YgvDriTqJxvAaSmVMlZ9sCzQ6gMPeIeNQ.png?1594744085",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Payment Intents - Stripe' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000072584",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000072584"
+    }
+  ],
+  "lastmod": "2026-07-11T06:47:00+05:30",
+  "scraped_at": "2026-10-18T13:46:52.558036"
+}

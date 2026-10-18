@@ -1,0 +1,41 @@
+{
+  "article_id": "12000065940",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+  "title": "Guide 1. How to Connect a Live Domain Name",
+  "category": "Get Started Here",
+  "folder": "Quick Setup Guides",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Quick Setup Guides",
+    "Guide 1. How to Connect a Live Domain Name"
+  ],
+  "content": "## Guide 1. How to Connect a Live Domain Name\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065940\n\n\n## Connect a Live Domain Name\n\n\nA Brilliant Directories website begins on a free directoryup.com address. A domain owned by the website operator can be connected whenever the site is ready to use its public address.\n\nThe current Domain Manager guides the entire connection through up to four stages: Choose An Address , Check It , Point Domain , and Switch Over . It checks the address before any change is made and displays the DNS record required for the selected domain.\n\nExample on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available.\n\n\n### Connection Choices\n\n\n- Use a domain from my Cloudflare account — when this option is available, select a domain from the connected Cloudflare account and follow the guided setup.\n\n- A domain name I own — connect a domain or true subdomain by adding the record shown by Domain Manager.\n\n- A free address from us — choose a new directoryup.com address.\n\nFor the complete connection instructions, DNS requirements, and post-change checks, see How to Connect a Domain to a Brilliant Directories Website . A root domain such as example.com is always connected as www.example.com , and the record for the root itself depends on the company that runs the domain's DNS; see Point the root domain .\n\nBefore switching: Confirm where email and DNS are hosted. Changing nameservers or mail records can interrupt existing email service.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+      "alt": "Domain Manager on a free directoryup.com address, with Connect my domain name marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 1. How to Connect a Live Domain Name' (Get Started Here > Quick Setup Guides): Domain Manager on a free directoryup.com address, with Connect my domain name marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940"
+    },
+    {
+      "text": "How to Connect a Domain to a Brilliant Directories Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    },
+    {
+      "text": "Point the root domain",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271#section-cname-exception"
+    }
+  ],
+  "lastmod": "2026-09-28T22:54:08+05:30",
+  "scraped_at": "2026-10-18T13:45:55.083883"
+}

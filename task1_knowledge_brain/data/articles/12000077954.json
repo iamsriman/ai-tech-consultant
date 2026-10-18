@@ -1,0 +1,69 @@
+{
+  "article_id": "12000077954",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077954-how-to-enable-emoji-option-in-the-froala-wysiwyg-editor",
+  "title": "How To Enable Emoji Option In The Froala WYSIWYG Editor",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Enable Emoji Option In The Froala WYSIWYG Editor"
+  ],
+  "content": "## How To Enable Emoji Option In The Froala WYSIWYG Editor\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077954\n\nEmojis can be added to text in the website's Froala WYSIWYG editors in two ways. The admin content and email editors have a built-in emoji picker with a search box. The other Froala editors on the website use Froala's standard emoji button, which is turned on with the Froala Emojis advanced setting.\n\n\n## Emoji Picker in the Admin Editors\n\n\nThe Emojis button in the admin editors opens BD's emoji picker. The picker is available by default and does not require the Froala Emojis advanced setting. It appears in these editors:\n\n- The Page Content editor in My Content >> Web Page Builder\n\n- The message editor for templates in Emails >> Email Templates\n\n- The message editor in Emails >> Compose Email\n\nTo add an emoji:\n\n- Open one of the editors listed above and click in the text where the emoji should go.\n\n- Click the Emojis button (smiley face) in the editor toolbar. The emoji picker opens.\n\n- Optional: type a word in the Search emojis box, such as \"heart\" or \"christmas\". The list narrows to emojis whose name contains the word, and capital letters do not matter.\n\n- Click an emoji. It is inserted at the cursor and the picker closes.\n\nEmojis that were picked recently are listed at the top of the picker under Recently Used , most recent first, so they can be reused without searching. This list is remembered by the web browser being used, so it does not carry over to a different browser or computer.\n\n\n## Froala Emojis Setting\n\n\nThe Froala Emojis advanced setting is separate from the admin emoji picker above. It adds Froala's standard emoji button to the other Froala editors on the website, such as the post forms members use on the front end. To turn it on, navigate to Settings >> Advanced Settings and search for:\n\nFroala Emojis\n\nSystem Variable: froala_emojis\n\nBy default this setting is turned off, when this option is enabled, the Froala WYSIWYG Editor option will show on the toolbar to add the emojis as desired.\n\nEnabling the froala_emojis advanced setting extends emoji support beyond Froala Editors to all text areas within the admin panel.\n\nNote : The only potential issue with adding emojis is in membership plan names. While they can be added, they won’t render when the membership plan name appears on the generated invoice.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185972647/original/jNCo49-twl49lvYHJqz22SrpR9muUHlQCQ.png?1790704152",
+      "alt": "The Emojis button in the email template editor toolbar and the emoji picker with the Search emojis box and Recently Used section",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Enable Emoji Option In The Froala WYSIWYG Editor' (Settings > Advanced Settings): The Emojis button in the email template editor toolbar and the emoji picker with the Search emojis box and Recently Used section",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647475/original/rr4b0phz94XjtLgVYbIutSv0nacv4Xp7mw.png?1753161540",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Enable Emoji Option In The Froala WYSIWYG Editor' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12118842404/original/hGK8UFbsQyCsQSiYADPEb5d6CaXoPd8MPg.png?1671554070",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Enable Emoji Option In The Froala WYSIWYG Editor' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12157840245/original/QWX1N50lqfZiwpdqFcgfxxClmZ0hwZl30g.png?1741101926",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Enable Emoji Option In The Froala WYSIWYG Editor' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12157840254/original/FYOliugEdgs550OJScrZ54LO0aRj_EKFgQ.png?1741101939",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Enable Emoji Option In The Froala WYSIWYG Editor' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077954",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077954"
+    }
+  ],
+  "lastmod": "2026-09-29T23:19:53+05:30",
+  "scraped_at": "2026-10-18T13:47:52.028481"
+}

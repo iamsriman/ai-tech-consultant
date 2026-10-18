@@ -1,0 +1,23 @@
+{
+  "article_id": "12000096411",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096411-10-20-2023-software-updates",
+  "title": "10/20/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/20/2023 - Software Updates"
+  ],
+  "content": "## 10/20/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096411\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We released a new version of the Brilliant Directories API documentation which includes the updated API table schemas.\n\n- We fixed an issue which was preventing Admins from editing custom URLs for posts from the Manage Post page in the Admin.\n\n- We fixed an issue which was preventing the Member Export Data Add-On from working properly when trying to export members from the Admin in some cases.\n\n- We updated the logic of the Brilliant Directories API in order to automatically prepend the site's domain when a relative path is used for the post_image field.\n\n- We updated the Domain Manager page in the Admin to improve validations in several places.\n\n- We added a new Advanced Setting called \" Default Edit Photos Data for Multi-Photo Post Type Page URL \". This allows an Admin to edit the portion of URL used in the Member Dashboard during the editing of image title and descriptions that were not previously editable.\n\n- We added the ability to auto-import Post images when importing Posts via CSV file in the Admin. To use this new feature, navigate to the Admin >> My Content >> Manage Post >> List Actions >> Import Posts via CSV File >> Advanced Options.\n\n- We fixed an issue which was preventing the system from matching members with leads based on member Service Areas in some scenarios. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was preventing custom form field data from being sent to webhook endpoints.\n\n- We updated the Froala WYSIWYGs used in the Admin area of sites to give Admins access to images from the Pexel Free Stock Photo library.\n\n- We fixed an issue which was causing the Smart List Schedule selection checkbox to appear as \"checked\" for all Smart Lists of the same type, when not all of them had a schedule selected.\n\n- Creating, updating and deleting a Webhook in the Admin are now being logged in the Activity Tracker.\n\n- We created a new Image Setting called \"Froala Text Editor Images\". This setting will set the default width of images inserted into the Froala WYSIWYG editor on the website's frontend.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096411",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096411"
+    }
+  ],
+  "lastmod": "2023-10-23T22:18:47+05:30",
+  "scraped_at": "2026-10-18T13:53:00.239450"
+}

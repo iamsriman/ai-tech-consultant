@@ -1,0 +1,23 @@
+{
+  "article_id": "12000089603",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089603-08-26-22-software-updates",
+  "title": "08/26/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/26/22 - Software Updates"
+  ],
+  "content": "## 08/26/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089603\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was affecting the ability to delete leads from the Admin in some cases.\n\n- We fixed an issue which was causing the system to always allow members to select Sub Categories, even if the ability to do so was disabled in the member's Membership Plan settings. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We fixed an issue which was affecting the ability save the Last Login date of Admin Accounts.\n\n- We updated the layout of the Account Dashboard page in the Admin to prevent display issues caused by very long website names.\n\n- We fixed an issue with the Insta-Load Search Results Add-On which was causing the system to display duplicate member results when the Listing \"Order Results By\" Post Setting was set to \"Random\" in some cases. Widget Involved: Search - Member - Search Query\n\n- We improved the \"Membership Plan Search Results\" Membership Plan setting validation in order to prevent Admins from saving URLs that begin with a forward slash.\n\n- We created a new Advanced Setting called \"Member Dashboard URL\". This new setting allows an Admin to edit the first part of the URL used for all pages in the Member Dashboard. By default this URL is \"/account\". Widget Involved: Bootstrap Theme - Footer - Scripts - DateTime Scripts\n\n- We implemented several updates to the workflow of the Send Newsletter page in the Admin.\n\n- We deprecated the \"Cancel Sub Accounts when Parent Account Cancels\" Membership Plan setting. Now, when a member that has sub accounts cancels their account, the system will always prompt them with a message that doing so will also cancel their sub accounts. Widget Involved: Bootstrap Theme - Account - Delete Account\n\n- We fixed an issue with the Global Website Search Add-On which was causing the Global Website Homepage Search to always redirect to the homepage when using the default SEO Templates. Widgets Involved: Bootstrap Theme - Header - Right Bootstrap Theme - Homepage Search - Global Website Search Bootstrap Theme - Homepage Search - Global Website Search + Location Bootstrap Theme - Module - Global Website Search Bootstrap Theme - Module - Global Website Search + Location\n\n- We fixed an issue which was causing the \"Include in Email\" form field setting from working properly for Checkbox fields in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089603",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089603"
+    }
+  ],
+  "lastmod": "2022-08-29T23:49:50+05:30",
+  "scraped_at": "2026-10-18T13:50:11.871352"
+}

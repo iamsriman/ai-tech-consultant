@@ -1,0 +1,71 @@
+{
+  "article_id": "12000030827",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030827-google-search-assist",
+  "title": "Google Search Assist",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Google Search Assist"
+  ],
+  "content": "## Google Search Assist\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000030827\n\n\n## Overview\n\n\nFill empty search result pages with content! Websites of all sizes may have empty search result pages. If visitors see empty results, they will leave the website – and may never return.\n\nThe Google Search Assist add-on will keep visitors engaged. With it, instead of displaying empty pages when there are no search results, the site will display related results directly from Google.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Google Search Assist Add-On\n```\n\n\n## Enabling the Add-On\n\n\nTo activate this please go to Settings >> General Settings:\n\nClick on the Search Settings tab:\n\nScroll down until the option to Enable or Disable the Google Search Assist and click on Save Changes .\n\nGoogle Search Assist Add-on will show related results from Google when these searches on the site don't have any results to show:\n\n- Member Search Results\n\n- Global Site Search\n\n- Post Search Results\n\nWhen enabled, pages that show Google Search Assist results, will return a 200 status, but the robots meta directive will be set to \"noindex,nofollow\" , this is meant to prevent bots from crawling these pages and consume unnecessary bandwidth.\n\nImportant Note : There is no revenue enabled for the Google Search Assist add-on. Google simply forces ads with this tool. We do not monetize this nor is there a way using the add-on to connect to a publisher account to gain revenue from the ads there. A user would have to rebuild the whole add-on just for the site if they wanted the revenue from the ads in this type of tool.\n\nUltimately the tool is meant to provide visitors with some results when there are no member results to display. Ideally the website owner should work and fill those empty member searches on the site to provide real resources rather than google suggestions.\n\nUPDATE:\n\nAdding the following CSS code may hide the Google Ad units from displaying. Include this snippet of CSS into your: Settings > Design Settings > Custom CSS tab > Custom CSS field:\n\n```\n.gsc-adBlock { display: none; }\n```",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12019891361/original/9KzR3c68NF9laQ_Akh_wM_LL5mMYzN8t8A?1496786373",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Search Assist' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094787697/original/FO1PAZpxiVLEDJubmvZIIQo_WR25BQwDTA.png?1624982720",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Search Assist' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094788013/original/m77UmOAPKqbDaBA92GZCs1cuApmuJu35Rw.png?1624983063",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Search Assist' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094788070/original/uttnXbJn91EwKve-wL4qSBT6jEjQ7wEltg.png?1624983116",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Search Assist' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000030827",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030827"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Google Search Assist Add-On",
+      "url": "https://www.brilliantdirectories.com/google-search-assistant-add-on"
+    }
+  ],
+  "lastmod": "2026-08-28T22:00:31+05:30",
+  "scraped_at": "2026-10-18T13:41:17.298895"
+}

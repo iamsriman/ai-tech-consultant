@@ -1,0 +1,178 @@
+{
+  "article_id": "12000089980",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089980-how-to-place-top-sub-categories-on-one-member-form",
+  "title": "How To Place Top & Sub Categories on One Member Form",
+  "category": "My Members",
+  "folder": "Member Categories",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Member Categories",
+    "How To Place Top & Sub Categories on One Member Form"
+  ],
+  "content": "## How To Place Top & Sub Categories on One Member Form\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089980\n\nThe default workflow members use to select their Top and Sub Categories is described here:\n\nHow To Select Categories As A Member\n\nThe default workflow has members first select a Top Category in the Contact Details form and then select Sub Categories in the Listing Details form. However, some website owners may prefer that members select both the Top and Sub Categories in the same form.  This article shows how to customize either the Contact Details form or the Listing Details form to make this possible.\n\n\n## Categories Selection / Listing - Additional Details - Member Form\n\n\nFor this first example, we'll add both the Top and Sub Categories selection fields to the \"Listing - Additional Details - Member\" form.\n\nCustomize the Listing - Additional Details - Member form:\n\nAdd a new field above the \"services\" field:\n\nSet up the new field with the following settings:\n\n1. Type of Field: Top Category List\n\n2. Field Label: %%%listing_top_category%%%\n\n3. Database Variable: profession_id\n\n4. Field Help Text: %%%listing_top_category_tooltip%%%\n\n5. Input View: Turn ON Input View , Turn OFF the other Display Settings .\n\nClick on Save Changes .\n\nLogin as a member and see the new method of selecting categories as a member:\n\nPlease see how it looks on the Member Dashboard:\n\nNOTE: If the subcategories are not visible in the form, verify that the Member Specialties are enabled in the Post Publishing Tab for that Membership Plan.\n\nTo have the selection in just one form, the default field to select top-level categories must be deleted on the \"Listing - Contact Details - Form\". To complete this step, access the form and remove the default field called profession_id , go to Actions >> Delete Field.\n\n\n## Categories Selection / Listing - Contact Details - Member Form\n\n\nFor this first example, we'll add both the Top and Sub Categories selection fields to the \"Listing - Contact Details - Member\" form.\n\nCustomize the Listing - Contact Details - Member form:\n\nAdd a new field below the \"profession_id\" field:\n\nSet up the new field with the following settings:\n\n1. Type of Field: Custom HTML\n\n2. Field Label: [widget=Bootstrap Theme - Account - Select Categories]\n\n3. Database Variable: services\n\n4. Input View: Turn ON Input View , Turn OFF the other Display Settings .\n\nClick on Save Changes .\n\nLogin as a member and see the new method of selecting categories as a member:\n\nPlease see how it looks on the Member Dashboard:\n\nNOTE: If the subcategories are not visible in the form, verify that the Member Specialties are enabled in the Post Publishing Tab for that Membership Plan.\n\nTo have the selection in just one form, the default field to select subcategories must be deleted on the \"Listing - Additional Details - Form\". To complete this step, access the form and remove the default field called services , go to Actions >> Delete Field.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114939310/original/7Sm8ExeYXlpb61BSANUEV7Wr1lAqjrdGTQ.png?1663857311",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114940220/original/OCZ-haEB0vv_TK_Pv3t6rC50WULR9_1beA.png?1663858018",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114939933/original/a3WhRucDGV9Lr6ZkwoEoLw7GEq-7DAScdQ.png?1663857812",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114940338/original/nZ6x_coubs6UG_LNk1ejALEbwTMAZT6C6Q.png?1663858105",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114940330/original/vxuH0nZvI2LK-ss1lXH7sfDD1vyUD5FH-A.png?1663858098",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114940473/original/qp6RXJ5ALQmv2T6Pd02aG3YhbfN8N5Mj0Q.gif?1663858232",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115144898/original/KKgWbX0Kcxp4ZDu-5OU0_e7-Hobhq3J71A.png?1664295117",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115143637/original/D451HJHYTgh3Q4Mw_Cxe86dunHuiPwMyZA.png?1664293914",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115144479/original/gqETK3qJc_b3wvUgTZsyOpkZOIER-S3_mg.png?1664294678",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115143952/original/Q5u10A9kdkn8NtigDjmHfrPVZ4scMtssmw.png?1664294160",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115144092/original/YITkVZIYFaxox_bdOaxVi28F13oQ-vBUQQ.png?1664294309",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115144164/original/coGzI0tgt4FHyXto8FE7ML7HdNLjQxGq0A.png?1664294377",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115144515/original/Xa9tswU00gkaQd5b0tsBuFr0OeBQMKSrDg.gif?1664294710",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115144831/original/JZ-HpNcuxL1mbN5-E2SMMllZtFd1JuSjHg.png?1664295061",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Place Top & Sub Categories on One Member Form' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089980",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089980"
+    },
+    {
+      "text": "How To Select Categories As A Member",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036422"
+    },
+    {
+      "text": "Login as a member",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036189"
+    },
+    {
+      "text": "Member Specialties",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000086136"
+    },
+    {
+      "text": "Post Publishing Tab",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000048893"
+    },
+    {
+      "text": "Login as a member",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036189"
+    },
+    {
+      "text": "Member Specialties",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000086136"
+    },
+    {
+      "text": "Post Publishing Tab",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000048893"
+    }
+  ],
+  "lastmod": "2026-06-09T18:48:21+05:30",
+  "scraped_at": "2026-10-18T13:50:16.246293"
+}

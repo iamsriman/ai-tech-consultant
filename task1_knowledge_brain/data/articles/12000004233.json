@@ -1,0 +1,23 @@
+{
+  "article_id": "12000004233",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004233-email-set-up-troubleshooting-",
+  "title": "Email Set Up (Troubleshooting)",
+  "category": "Emails",
+  "folder": "Email Accounts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email Accounts",
+    "Email Set Up (Troubleshooting)"
+  ],
+  "content": "## Email Set Up (Troubleshooting)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000004233\n\n\n## Email Issues After Pointing Nameservers to BD\n\n\nThis can quickly be fixed by reverting the nameservers and pointing the domain via the CNAME Record instead. Here is some helpful information on whether to use the nameservers method or a CNAME Record:\n\n\n## Setting Up Emails with Brilliant Directories\n\n\nBefore pointing a domain to Brilliant Directories, it is important to review the following information regarding email configuration.\n\nIMPORTANT NOTICE : GoDaddy has a known issue with the Brilliant Directories platform and is not able to receive any emails when using its nameservers.\n\n\n## Using Third-Party Email Services (e.g., Gmail) with Brilliant Directories Nameservers\n\n\nTo use a third-party email provider while the domain is pointed to Brilliant Directories’ nameservers, update the MX records in the domain's cPanel accordingly. This configuration ensures that email services such as Gmail will continue to function as intended.\n\n\n## Email Delivery When Pointing a Domain to BD Nameservers\n\n\nWhen a domain is pointed to the Brilliant Directories nameservers:\n\n- Emails will be delivered to the Brilliant Directories email server.\n\n- Existing email accounts on other platforms will no longer receive emails unless the new email account is configured to access them.\n\nTo retain access to previous email communications:\n\n- Export existing emails using an email client (e.g., Outlook).\n\n- Import the emails into the newly configured account on the Brilliant Directories platform.\n\n\n## Preventing Email Interruptions for Existing Email Accounts\n\n\nTo avoid any disruptions to current email services:\n\n- Do not point the domain to the Brilliant Directories nameservers.\n\n- Instead, update the CNAME Records to point to Brilliant Directories.\n\nBy doing so, the website will remain connected to Brilliant Directories while email routing remains unaffected, ensuring uninterrupted service with existing email providers.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000004233",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004233"
+    }
+  ],
+  "lastmod": "2026-06-18T02:10:40+05:30",
+  "scraped_at": "2026-10-18T13:39:46.262822"
+}

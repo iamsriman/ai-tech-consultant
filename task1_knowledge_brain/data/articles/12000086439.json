@@ -1,0 +1,89 @@
+{
+  "article_id": "12000086439",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086439-set-up-pretty-urls-with-google-maps",
+  "title": "Set Up Pretty URLs with Google Maps",
+  "category": "Settings",
+  "folder": "Google Maps Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Google Maps Troubleshooting",
+    "Set Up Pretty URLs with Google Maps"
+  ],
+  "content": "## Set Up Pretty URLs with Google Maps\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086439\n\nThis article covers the steps to create a second Google Maps API key for use with the Enable All Location Features For \"Pretty URL\" Search Results Pages Advanced Setting. This additional API key is configured to handle the server-side API calls required for this functionality, in addition to the JavaScript API calls handled by the primary key used elsewhere on the website. Further details on the benefits of setting up this additional key can be found in the following article: Editing The SEO Of Member Search Results Pages\n\n\n## Before Starting\n\n\nThe key is created in Google Cloud. The Google Cloud project must have billing active, because Google will not enable the Geocoding API on a project without a billing account. For help with billing and the main Google Maps API key, see How to Enable Maps .\n\nThe Google Cloud form for creating an API key requires at least one API to be selected, so this key is set up with two separate restrictions:\n\n- API restrictions : which Google APIs the key can call. This key only needs the Geocoding API .\n\n- Application restrictions : which servers can use the key. This key is limited to two IP addresses , the Admin server and the website's own server.\n\n\n## Step 1 - Enable the Geocoding API\n\n\nOpen the Geocoding API page in Google Cloud: Enable Geocoding API\n\nMake sure the correct project is selected at the top of the Google Cloud console, then click Enable . If the button reads Manage instead, the API is already enabled for this project.\n\nEnable the API before creating the key. The API restrictions list on the key only shows APIs that are already enabled in the project. If the Geocoding API is not enabled first, it cannot be selected when the key is created.\n\n\n## Step 2 - Find the Two Server IP Addresses\n\n\nLog in to the Admin of the website and navigate to Settings >> Advanced Settings . Search for Pretty URL .\n\nThe Enable All Location Features for \"Pretty URL\" Search Results Pages (Additional Google Maps API Cost) setting lists the two IP addresses the key must allow:\n\n- Admin server IP : the server that checks the key with Google when the setting is saved. This is 66.147.237.19 for every website.\n\n- Site server IP : the website's own server, which looks up locations for the search results pages. This address is different for each website, so always use the one shown in the website's Admin.\n\n\n## Step 3 - Create the API Key\n\n\nOpen the Google Cloud Credentials page: https://console.cloud.google.com/apis/credentials\n\nClick Create credentials (1), then API key (2):\n\nThe Create API key panel opens. Both restrictions are set in this panel before the key is created:\n\n- Name : enter a name that identifies the key, such as Pretty URL Location Key .\n\n- Select API restrictions : open the list, type Geocoding in the filter, check Geocoding API and click OK . Geocoding API then appears under Selected APIs .\n\n- Application restrictions : select IP addresses .\n\n- IP address restrictions : click Add , enter the Admin server IP (66.147.237.19) and click Done . Click Add again, enter the Site server IP from Step 2 and click Done . Both addresses must be listed.\n\n- Click Create .\n\nUse IP addresses, not Websites. Google refuses keys restricted by website (HTTP referrer) for the Geocoding API when it is called from a server, so a key restricted to Websites will not work for this setting.\n\n\n## Step 4 - Add the API Key to the Website\n\n\nCopy the new API key. It can also be copied later from the Credentials page by clicking Show key next to the key.\n\nIn the Admin of the website, navigate to Settings >> Advanced Settings and search for Pretty URL :\n\n- Turn ON the Enable All Location Features for \"Pretty URL\" Search Results Pages (Additional Google Maps API Cost) setting.\n\n- Paste the key into All Location Features For Pretty URL Search Results Pages API Key .\n\n- Click Save Settings .\n\nWhen the settings are saved, the Admin tests the key with Google. If Google refuses it, the save stops with a message that the key must use IP address restrictions. In that case, check in Google Cloud that both IP addresses from Step 2 are listed on the key and that Geocoding API is selected under its API restrictions, then save again.\n\n\n## Pretty URL Search Result Caching\n\n\nBy default, the system generates a cached version of the Pretty URL results the first time a specific location is accessed (for example, /los-angeles).\n\nWhen this location is loaded for the first time, the system performs a single API call and stores the resulting data as a cache file within an FTP directory. For any subsequent requests to the same location, the system serves the cached version instead of making additional API calls.\n\nThe cache keeps only around the 1,000 most recently looked-up locations for each website language. When visitors, including search engine crawlers and other automated traffic, view more different locations than that, the oldest cached locations are removed to make room, even if they are still viewed often, and the next visit to a removed location makes a new API call. A lookup that Google does not answer successfully is not cached, so it is requested again on the next visit. On websites with many locations or heavy automated traffic, the number of API calls can therefore be much higher than the number of locations.\n\nThis caching mechanism significantly improves performance by reducing API usage and allowing matching search results to load more quickly for future visitors.\n\nThe cached data is retained for a period of one year. After this time, the system automatically deletes the expired cache file. The next time the same URL is accessed, a new API call is made, and a fresh cache version is generated.\n\n\n## API Usage Cost\n\n\nBeginning in March 2025, enabling this setting will impact how quickly free Google API credits are used.\n\nPreviously, Google provided a flat $200 monthly credit covering all API requests, but now they offer the first 10,000 requests per month free for each API, with charges applied only after surpassing this limit.\n\nIf a particular API (like the Geocoding API) experiences heavy use, this new structure means the free allowance will be used up more quickly, causing charges from Google to accumulate sooner.\n\nFor more information about Google Maps Monthly Credits Usage and pricing: https://developers.google.com/maps/billing-and-pricing/faq",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186224604/original/i-LzFnXS9B7T8tRbHcI0F_4qSerNIuLR_Q.png?1791142105",
+      "alt": "Geocoding API page in Google Cloud with the Enable button highlighted",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Set Up Pretty URLs with Google Maps' (Settings > Google Maps Troubleshooting): Geocoding API page in Google Cloud with the Enable button highlighted",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186224605/original/AGtxwTsYW9Qc-X8Buc8-zU6YVyXgoKlpIg.png?1791142106",
+      "alt": "Advanced Settings showing the Admin server IP and Site server IP under the Pretty URL setting",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Set Up Pretty URLs with Google Maps' (Settings > Google Maps Troubleshooting): Advanced Settings showing the Admin server IP and Site server IP under the Pretty URL setting",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186224606/original/zgxakuxT-zUc-LY8yoE4LpyWtslDOdek_A.png?1791142107",
+      "alt": "Create credentials menu with the API key option highlighted",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Set Up Pretty URLs with Google Maps' (Settings > Google Maps Troubleshooting): Create credentials menu with the API key option highlighted",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186224607/original/dWsxUMhjEYY9wf1u9E_KbwD5QVHodTW32w.png?1791142108",
+      "alt": "Create API key panel with the name, Geocoding API restriction, IP addresses restriction and both server IPs filled in",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Set Up Pretty URLs with Google Maps' (Settings > Google Maps Troubleshooting): Create API key panel with the name, Geocoding API restriction, IP addresses restriction and both server IPs filled in",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186224608/original/MRPan_KQypu2p_aoEkE4CgLpQ_a6in3_dg.png?1791142109",
+      "alt": "Advanced Settings with the Pretty URL setting turned on, the API key field and the Save Settings button numbered",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Set Up Pretty URLs with Google Maps' (Settings > Google Maps Troubleshooting): Advanced Settings with the Pretty URL setting turned on, the API key field and the Save Settings button numbered",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086439",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086439"
+    },
+    {
+      "text": "Editing The SEO Of Member Search Results Pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682656"
+    },
+    {
+      "text": "How to Enable Maps",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108610"
+    },
+    {
+      "text": "Enable Geocoding API",
+      "url": "https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com"
+    },
+    {
+      "text": "https://console.cloud.google.com/apis/credentials",
+      "url": "https://console.cloud.google.com/apis/credentials"
+    },
+    {
+      "text": "https://developers.google.com/maps/billing-and-pricing/faq",
+      "url": "https://developers.google.com/maps/billing-and-pricing/faq"
+    }
+  ],
+  "lastmod": "2026-10-05T00:58:55+05:30",
+  "scraped_at": "2026-10-18T13:49:32.995819"
+}

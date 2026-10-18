@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101205",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101205-08-23-2024-software-update",
+  "title": "08/23/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/23/2024 - Software Update"
+  ],
+  "content": "## 08/23/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101205\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue that was causing images in email templates from displaying correctly on mobile devices in some cases.\n\n- Stripe no longer allows directly migrating user credit card information to their platform, so we removed the support we had for that functionality as well.\n\n- We fixed an issue which was affecting the ability to accept an Admin Email Invite when using Chrome as a web browser in some cases.\n\n- We updated the links on the Categories and Location pages to make it compatible with the \"Reduce Category Canonical Tags\" and \"Localize Canonical Tags\" Advanced Settings Widgets Involved: Bootstrap Theme - Category Groups - Member Categories Bootstrap Theme - Category Groups - Member Locations\n\n- We fixed an issue which was preventing the \"Canonical\", \"Prev\" and \"Next\" meta URLs from working properly on search result pages in some cases. Widget Involved: Bootstrap Theme - HEAD Bootstrap Theme - Pagination\n\n- We updated the Brilliant Directories Zapier App to allow selecting an option without a value for all dropdown fields that are not required to have a value.\n\n- We fixed an issue which was preventing the Admin area from working properly when using Safari as web browser in some rare cases.\n\n- We fixed an issue that was preventing the \"Maximum Uses\" Coupon Code Setting from working properly on the frontend of sites. Widget Involved: Bootstrap Theme - Function - Form Promotion Code Validation",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101205",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101205"
+    }
+  ],
+  "lastmod": "2024-08-27T00:10:15+05:30",
+  "scraped_at": "2026-10-18T13:54:45.713551"
+}

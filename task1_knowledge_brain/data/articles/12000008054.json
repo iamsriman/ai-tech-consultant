@@ -1,0 +1,59 @@
+{
+  "article_id": "12000008054",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008054-member-leads-lead-settings-receiving-direct-leads-settings",
+  "title": "Member Leads » Lead Settings » Receiving Direct Leads Settings",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "Member Leads » Lead Settings » Receiving Direct Leads Settings"
+  ],
+  "content": "## Member Leads » Lead Settings » Receiving Direct Leads Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000008054\n\nTo edit the general settings for \" Receiving Direct Leads \" when using the Basic Leads package go to: Interactions » Member Leads » Lead Settings and click on \" Receiving Direct Leads \": Available Settings In The Basic Leads Module: Members Receive Direct Leads Immediately: When enabled, leads submitted through a member’s profile page are delivered to the member immediately. When disabled, an administrator must review the lead and manually assign it to the member. Member Notification Type: Select \" Preview \" to send the member who received the lead a portion (preview) of the information submitted in the lead, rather than all of the information submitted in the lead. This preview will typically contain the content of the lead, but will not contain the contact information (phone and email) of the person who submitted the lead. Members will have to accept or purchase the lead in order to see the complete information of the lead. Select \" Complete \" to send all of the information submitted in the lead immediately without the need to accept or purchase the lead. Recommended: Use Preview to follow lead management best practices. Label Direct Lead As: Select \" Accepted \" for this match to count against the \"Maximum Acceptances\" total set in the General Lead Settings tab. Select \" Pending \" for this match to not count against the \"Maximum Acceptances\" total set in the General Lead Settings tab. Preview Email Template: Sends the member a limited preview of the lead details, typically excluding contact information such as email and phone number. Members must accept or purchase the lead to view the full submission. Complete Email Template: Select the email template to send to the member if \"Complete\" is selected above. Copy Admin On This Email: Send a copy of the \"Preview Email Template\" or \"Complete Email Template\" to the Admin email address(es) when it is sent to a member.\n\n\n## Where can members view their leads:\n\n\nOnce a member logs into their account, on the dashboard, they will be able to see the new leads on the \" M anage Leads \" option:\n\nAdditional Information:\n\n» Leads » Lead Emails\n\n» Purchasing Leads",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284375/original/sKcQPc1BU_66BhW7VLOMyMGZiYrV9_NaRg.png?1687410425",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Receiving Direct Leads Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115889836/original/xznowc3aWc-LoKeDNRFFT7GHHrcGSPNcHw.png?1665680148",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Receiving Direct Leads Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084476093/original/SCSvQZi5UFgxlMBOkNEqorgJ1Sg8mZmuvg.png?1604417868",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Receiving Direct Leads Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000008054",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008054"
+    },
+    {
+      "text": "Leads » Lead Emails",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000067747"
+    },
+    {
+      "text": "Purchasing Leads",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000673913"
+    }
+  ],
+  "lastmod": "2026-05-28T01:38:14+05:30",
+  "scraped_at": "2026-10-18T13:40:05.820699"
+}

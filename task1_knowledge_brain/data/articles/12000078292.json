@@ -1,0 +1,63 @@
+{
+  "article_id": "12000078292",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078292-how-to-clone-a-form",
+  "title": "How To Clone a Form",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How To Clone a Form"
+  ],
+  "content": "## How To Clone a Form\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078292\n\nThis article explains how to clone an existing form from the Form Manager.\n\nCloning a form creates a copy of an existing customized form. This is useful when a similar version of a form is needed, but the original form should remain unchanged.\n\n\n## Before Cloning a Form\n\n\nBefore a form can be cloned, the default version of the form must be customized first. Once the form has been customized, the Clone option will appear in the form’s Actions dropdown.\n\nFor instructions on customizing a default form, see the following article:\n\n- How To Customize a Form\n\n\n## How to Clone a Form\n\n\n- Go to Toolbox >> Form Manager .\n\n- Find the customized form that should be cloned.\n\n- Click the Actions dropdown for the form.\n\n- Select Clone Form .\n\nA popup will open with settings for the cloned form.\n\n\n## Update the Cloned Form Settings\n\n\nAfter selecting Clone , the cloned form settings popup will open. From this popup, the Form Name can be updated.\n\nThe Form System Name can also be updated from the Developer Settings tab.\n\nAdditional settings may be available in the other tabs of the popup, depending on the form being cloned.\n\n- Edit Form Settings » Email Notifications\n\n- Edit Form Settings » Submission Settings\n\n\n## Default Clone Naming\n\n\nWhen a form is cloned, the system automatically adds default copy labels to keep the cloned form unique.\n\n- Form Name: The system adds Copy of before the original form name.\n\n- Form System Name: The system adds copy_of_ before the original system name.\n\nThese values can be edited before saving the cloned form.\n\nImportant: The Form System Name must be unique. Avoid using the same system name as another form.\n\n\n## Edit the Cloned Form\n\n\nOnce the cloned form opens, the form fields can be edited as needed.\n\nCommon edits include:\n\n- Adding new fields\n\n- Removing fields that are not needed\n\n- Renaming fields\n\n- Reordering fields\n\n- Changing whether fields are required or optional\n\n- Updating field instructions or placeholder text\n\nSave the form after making changes.\n\n\n## When to Clone a Form\n\n\nCloning a form is useful when a second version of an existing form is needed.\n\nExamples:\n\n- Create a shorter version of a signup form.\n\n- Create a plan-specific checkout form.\n\n- Create different inquiry forms for different website pages.\n\n- Create a test version of a form before changing the live version.\n\n- Create a custom version of a default form while keeping the original customized form available.\n\n\n## Important Notes\n\n\n- A default form must be customized before it can be cloned.\n\n- The Clone option only appears for customized forms.\n\n- The cloned form should have a unique Form Name .\n\n- The cloned form must have a unique Form System Name .\n\n- After cloning, review the form fields and settings before using the form on the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182514833/original/qWky2jLlpO7d2mxZhE_aeEkI2tGqdrnurg.png?1784819892",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Clone a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182514926/original/dzIVu2OaWLMiCnPykeniy7ltc4yorHAPng.png?1784820009",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Clone a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182515719/original/ASdHcCjIhNBPlQQ4OT1YO54Fsb6SZ4g0KQ.png?1784820503",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Clone a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078292",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078292"
+    },
+    {
+      "text": "How To Customize a Form",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078291"
+    },
+    {
+      "text": "Edit Form Settings » Email Notifications",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000076388"
+    },
+    {
+      "text": "Edit Form Settings » Submission Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078794"
+    }
+  ],
+  "lastmod": "2026-07-23T20:58:57+05:30",
+  "scraped_at": "2026-10-18T13:47:59.162105"
+}

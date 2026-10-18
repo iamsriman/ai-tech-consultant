@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101781",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101781-10-04-2024-software-updates",
+  "title": "10/04/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/04/2024 - Software Updates"
+  ],
+  "content": "## 10/04/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101781\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue that was causing \"+\" characters in member email addresses to be converted to a blank space when using the Export Member Data tool in the Admin.\n\n- We updated the Member Category dropdowns in the Admin to sort content alphabetically rather than by ID.\n\n- We updated the member import logic to create a \"service\" value in the users_meta table when importing members with Sub Categories in the Admin.\n\n- We made several small bug fixes and a performance update to increase the speed of importing members using the Business Data tool in the Admin.\n\n- We improved how the One-Click Google Login Add-On works with the Default Website Language Setting.\n\n- We updated the Newsletter Campaign logic to check for time zone and date differences to determinate the current email usage for daily and monthly limits when schedule newsletter campaigns.\n\n- We fixed an issue which was preventing member profile images from displaying properly on member search results pages in some cases. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was preventing members from being able to remove files uploaded via the File Upload fields in Member Dashboard forms in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101781",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101781"
+    }
+  ],
+  "lastmod": "2024-10-06T23:13:02+05:30",
+  "scraped_at": "2026-10-18T13:55:04.057181"
+}

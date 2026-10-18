@@ -1,0 +1,63 @@
+{
+  "article_id": "12000101382",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101382-using-css-to-target-featured-posts",
+  "title": "Using CSS to Target Featured Posts",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Using CSS to Target Featured Posts"
+  ],
+  "content": "## Using CSS to Target Featured Posts\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101382\n\nPreviously, customizing the appearance of Pinned Featured Posts required modifying PHP in specific widgets.\n\nBrilliant Directories now adds a dedicated CSS class to featured posts, making it much easier to customize their appearance using CSS instead of PHP.\n\nThis article demonstrates how to target featured posts with CSS and provides an example of how to customize their appearance.\n\n\n## CSS Classes for Featured Posts\n\n\nEach featured post includes a CSS class that can be targeted based on its post type.\n\nThe following examples show two different post types and their corresponding CSS classes:\n\nhttps://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051517-pin-featured-posts In this example will change the Background Color of the post on the search results page with the CSS code below:\n\n.featured-post, .featured-post .img_section, .featured-post .mid_section, .featured-post .grid_element {\n    background-color: aliceblue;\n}\n\nAfter saving the changes, featured posts will display with the new background color on the search results page.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149241174/original/cc4QuR2KLfAtxDMMAuoRTz1J3VEckKAurA.png?1725985034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Featured Posts' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149241354/original/UZDL_-Ut1UG1SfbsywNVD4NCtoU7XScdEg.png?1725985125",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Featured Posts' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149241435/original/vJdm9WFgoY0bhtNr_CdATwMQLBS6npWxpg.png?1725985232",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Featured Posts' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101382",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101382"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051517-pin-featured-posts"
+    },
+    {
+      "text": "Pinned Featured Posts",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051517-pin-featured-posts"
+    },
+    {
+      "text": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051517-pin-featured-posts",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051517-pin-featured-posts"
+    }
+  ],
+  "lastmod": "2026-07-01T04:02:24+05:30",
+  "scraped_at": "2026-10-18T13:54:54.329456"
+}

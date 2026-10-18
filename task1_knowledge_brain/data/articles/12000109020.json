@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109020",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109020-database-to-utf8mb4-emoji-support-dashboard-installer",
+  "title": "Database to utf8mb4 (Emoji Support) - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Database to utf8mb4 (Emoji Support) - Dashboard Installer"
+  ],
+  "content": "## Database to utf8mb4 (Emoji Support) - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109020\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Database to utf8mb4 (Emoji Support) Does\n\n\nThis installer updates the character set the website's database uses to store text. It converts the database and all of its tables to utf8mb4 with the utf8mb4_unicode_ci collation, the modern MySQL text format that supports the full Unicode range, including emoji and many additional symbols and scripts.\n\nIt is a storage format conversion only. The site's existing content (member profiles, posts, reviews, settings) stays as it is; the change affects which characters the database can accept going forward.\n\n\n## Why It Appears\n\n\nThe platform checks the character set currently used by the database and each of its tables. The installer appears when any table still uses an older character set instead of utf8mb4. This is a legacy condition: databases created before utf8mb4 became the platform standard typically still use the older utf8 format, so seeing this installer on an older site is normal and does not indicate a problem. The installer's status message lists which tables still need to be converted.\n\n\n## Why It Matters\n\n\nMySQL's older utf8 format stores at most 3 bytes per character, but emoji and some other modern characters need 4 bytes. On a table that has not been converted, text containing an emoji cannot be stored correctly, so an emoji pasted into a profile, post, or review can be lost or cut off when saved. After the conversion, those characters save and display normally. Beyond that, nothing about the site's appearance or behavior changes.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Database to utf8mb4 (Emoji Support) appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Database to utf8mb4 (Emoji Support) does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nThere is no visible change to the website, and the existing text is unchanged. To verify, edit any piece of content, add an emoji, save it, and confirm the emoji is still there when the page reloads. Click Check For Updates again; once every table reports utf8mb4, the entry disappears. The conversion is a one-time update and does not need to be repeated.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109020",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109020"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:26+05:30",
+  "scraped_at": "2026-10-18T13:59:14.676082"
+}

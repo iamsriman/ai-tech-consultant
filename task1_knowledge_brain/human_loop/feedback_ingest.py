@@ -41,12 +41,10 @@ class FeedbackIngester:
         if not ticket:
             raise ValueError(f"Ticket with ID '{ticket_id}' not found.")
 
-        # 1. Update ticket in ticket manager
-        resolved_ticket = self.ticket_manager.resolve_ticket(
-            ticket_id=ticket_id,
-            expert_answer=expert_answer,
-            expert_name=expert_name,
-        )
+        if ticket.status == "resolved":
+            raise ValueError(f"Ticket '{ticket_id}' is already resolved")
+        if not expert_answer or not expert_answer.strip():
+            raise ValueError("Expert answer must not be empty")
 
         # 2. Format knowledge chunk
         chunk_text = (
@@ -54,7 +52,7 @@ class FeedbackIngester:
             f"Folder: {folder} | URL: https://support.brilliantdirectories.com/support/expert/{ticket_id}]\n\n"
             f"## Question\n{ticket.query}\n\n"
             f"## Verified Solution\n{expert_answer}\n\n"
-            f"(Verified by {expert_name})"
+            f"[SOURCE_TYPE: verified_expert]\n(Submitted by {expert_name}; ticket {ticket_id})"
         )
 
         doc_chunk = DocumentChunk(
@@ -69,10 +67,16 @@ class FeedbackIngester:
             text=chunk_text,
             has_screenshot=False,
             screenshot_urls="",
+            source_type="verified_expert",
+            verified_by=expert_name,
         )
 
         # 3. Upsert into ChromaDB
         added_count = self.vector_store.add_chunks([doc_chunk])
+        if added_count != 1:
+            raise RuntimeError("Expert answer was not indexed; ticket remains pending")
+        # Persist resolution only after the knowledge write succeeded.
+        self.ticket_manager.resolve_ticket(ticket_id=ticket_id, expert_answer=expert_answer, expert_name=expert_name)
         logger.info(
             f"Successfully indexed expert answer for ticket {ticket_id} into ChromaDB ({added_count} chunk)."
         )

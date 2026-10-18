@@ -1,0 +1,135 @@
+{
+  "article_id": "12000020258",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000020258-verification-for-a-g-suite-account-gmail-for-email",
+  "title": "Verification For A G Suite Account (Gmail) For Email",
+  "category": "Developer Hub",
+  "folder": "cPanel Dashboard",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "cPanel Dashboard",
+    "Verification For A G Suite Account (Gmail) For Email"
+  ],
+  "content": "## Verification For A G Suite Account (Gmail) For Email\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000020258\n\nG Suite is our recommended solution for 3rd party email platforms. Note that Google changes their workflow and design often, so the steps below may not be 100% accurate at the time of reading.  For the most up to date documentation from Google on this topic, reference their documentation here: https://support.google.com/a/answer/172171?hl=en&ref_topic=2705493 To verify a G Suite Accountfollow these instructions - Go to https://gsuite.google.com/products/gmail/ and click on \"Get Started\": Google also provides a free service to have them help with the setup: Set up G Suite for your organization . Verification Process: Now it is time to add one of the ways provided by Google for the \"Verification Step\" - 1. CNAME: 2. TXT Record: Login to the admin of a website and go to Developer Hub » cPanel Dashboard » \" Zone Editor \": **Important Note: The cPanel dashboard layout is continuously being updated, however, all the instructions presented in this article apply in the same way. We recommend using the keyword search tool to find specific sections: Inside the DNS Zone Editor click on \" Manage \": Add the records for the site: CNAME : TXT :",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075742390/original/-LpXY_LojjJOY7-MDzUwj2RbBA-uN-9E7Q.png?1585612229",
+      "alt": null,
+      "caption": "Go tohttps://gsuite.google.com/products/gmail/and click on \"Get Started\":",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'. Context: Go tohttps://gsuite.google.com/products/gmail/and click on \"Get Started\":",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075742585/original/7w71qu7EuENSurPeM684K9I7dhyECC1GuQ.png?1585612815",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075742600/original/__hUCheTvHs74Tq4cPpVck3uDW8Of2UWhw.png?1585612868",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094923324/original/CehrXm86rDQOA0hH9gmCO1Bqn0UmtPbgTw.png?1625182100",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124667198/original/Cc6UdNTUXD9pxZFR03-_eSclogkQI7RgPA.png?1682605797",
+      "alt": "image",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'. Label: image.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075742697/original/Q3JvlXYp28R1BP-6axAdtG-JAbjk2EBnoA.png?1585613055",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075742746/original/IcVfxU_xA7Zrm_B41IpI1F61E39COWHJUA.png?1585613189",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075744487/original/6-XetKVm5aDXkSY3r7PIuXm50baUTw4J8g.png?1585619311",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075744491/original/Qv03GWR40PgDcG3lrB3vIBZbyy1GoHFZoQ.png?1585619327",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075744511/original/EkXsXvfjy7SU3JNZgBQf_bfSc1tJzQFIyQ.png?1585619353",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12075744512/original/V_Z4WnFRRLbPnuJa3DVxeWrGWSQObenSRw.png?1585619357",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Verification For A G Suite Account (Gmail) For Email' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000020258",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000020258"
+    },
+    {
+      "text": "https://support.google.com/a/answer/172171?hl=en&ref_topic=2705493",
+      "url": "https://support.google.com/a/answer/172171?hl=en&ref_topic=2705493"
+    },
+    {
+      "text": "https://gsuite.google.com/products/gmail/",
+      "url": "https://gsuite.google.com/products/gmail/"
+    },
+    {
+      "text": "Set up G Suite for your organization",
+      "url": "https://support.google.com/a/answer/6365252"
+    }
+  ],
+  "lastmod": "2025-02-12T06:01:32+05:30",
+  "scraped_at": "2026-10-18T13:40:43.781870"
+}

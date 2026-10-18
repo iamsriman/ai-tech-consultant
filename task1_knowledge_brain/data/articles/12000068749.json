@@ -1,0 +1,257 @@
+{
+  "article_id": "12000068749",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068749-guide-5-how-to-edit-public-pricing-page-the-join-page-",
+  "title": "Guide 5. How to Edit Public Pricing Page (the /join page)",
+  "category": "Get Started Here",
+  "folder": "Quick Setup Guides",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Quick Setup Guides",
+    "Guide 5. How to Edit Public Pricing Page (the /join page)"
+  ],
+  "content": "## Guide 5. How to Edit Public Pricing Page (the /join page)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000068749\n\nBy default, all sites come with a default Join page that can be accessed using the \" yoursite.com / join \" URL and through the Main Menu link on the Homepage:\n\nThrough this page, encourage the website visitors to join the site with a Join page that feels personalized and properly synced to the site.\n\nA page that is easy to use and easy to read and that clearly directs users to click on the best plan for them is what we recommend.\n\n\n## Checkout Forms\n\n\nSelecting the \" Click to Join Now \" button will redirect them to the /checkout pages. The only difference between these pages is when it comes to the forms; FREE and PAID.\n\n\n### GDPR\n\n\nGDPR for these pages can be enabled/disabled inside Settings » General Settings » Configuration: User Consent Tools (GDPR Compliance)\n\n\n### Free Plan Form\n\n\nThis form will only ask for Email (username) and Password.\n\nThe /checkout pages will display the Membership Plan name automatically.\n\n\n### Paid Plan Form\n\n\nThis form will ask for Email (username) and Password and the Credit Card information if the website is using an On-site Payment Gateway like Stripe .\n\nIf the website is using an Off-site Gateway like PayPal it will redirect the user to the site to complete the payment.\n\nAdditional Information:\n\n» Stripe or PayPal Standard?\n\n» Supported Payment Gateways\n\nThis form shows the checkout process using Stripe:\n\n\n### Off-Site Payment Gateways\n\n\nThis form shows the checkout process using PayPal Standard:\n\nThe user is redirected off the site to complete the payment.\n\n\n## Join/Pricing Web Page\n\n\nThis page can be found inside Content » Edit Web Pages » Pricing Page :\n\nThe first three items on this image can be edited to fit the site:\n\n1. URL  ( best to leave as is )\n\n2. Page Title (H1)\n\n3. Sub Title (H2)\n\n4-7 . These tabs are for adding custom text, CSS, HTML and Footer content. Edit the Hero Section of the page accordingly:\n\n» How to add a Hero Section on Static Pages\n\nThere are two additional widgets that can be used on the page:\n\n8. The Claim Listing add-on, it requires a subscription: Claimable Business Listings . If this add-on is not enabled, this will not display on the site. This widget will only appear for anyone going through the claim a listing process.\n\n9. Side by Side pricing widget displays the membership plan tables inside the Pricing Page menu on the site.\n\n» Side-By-Side Pricing Tables » Introduction\n\n10. This is where the information for each plan can be edited.\n\n11. These are the Pre Made Elements: Web Page Builder » Pre-Made Elements\n\nAdditional Information:\n\n» To read more about the Web Pages, follow this link: Web Pages Folder\n\n» For more about the Widgets, follow this link: Toolbox » Widget Manager\n\n\n## Editing the Join Page Tables\n\n\nThis page comes with a set of pre-made tables where all of the plan details can be listed. Below we go over all of these parts of the page and how to edit them:\n\n1. 2. 3. 4.\n\nThese sections can be split into the following:\n\n- Plan Name, Pricing and Checkout Button/Link.\n\n- Plan Description - \" This is some text about why... \"\n\n- This is the first of two tables where the Plan Features can be showcased.\n\n- This is the second table where the Plan Features will go.\n\nAll of these tables will show edit options when clicked:\n\nAll of the text is controlled by the main Froala Editor options:\n\n\n### Edit Checkout Button\n\n\nThe \" Click to Join Now \" button will show different options where the link can be edited when clicked on. Find the \" Edit Link \" button:\n\nThe number at the end of the \" /checkout/X \" URL is determined by the plan ID:\n\nExtra text and images can also be added inside the WYSIWYG editor and the content will appear on the Join Page.\n\nAdditional Information:\n\n» Everything About WYSIWYG Editors\n\n» How to Post Images On WYSIWYG Editors\n\nThis page also comes with divider tables to provide equal spacing between the plans:\n\n\n## Adding New Pricing Tables\n\n\nUse the Pre-Made Elements to add additional pricing tables to the page:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119661696/original/Ycuc8aMZQE3L1tgSjHmoQSvbwAE67nXoxw.png?1673369037",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119676045/original/33N6nnyJ1WT0ixxa6hl2_7NYXYGPoiIDng.png?1673384400",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119980063/original/4TuGigo12A7OvPlB2rnBPtuq57laEG2cDg.png?1673970194",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119980175/original/9qQeH7CRkRjU7IgnLrbbUs2z-VylXkrx6A.png?1673970297",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119980796/original/1JjKVZl46jHhl8nALa6w9NLzrBxlRVPxsA.png?1673970888",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183124517/original/gZ63a-I6N96dAmNqhUXmemt1VorRbfWBVw.png?1785870710",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183124747/original/lmzvUockQiZjWx3KFuVQnqF_EeDAEqQNHQ.png?1785870946",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183124833/original/ZFD-38G_HnbBkRFLtqd0kJxr6CV6mFE4Yw.png?1785871021",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119983298/original/2fFxTGTzSwjR-51NgT70TXi2St9F-uaEJA.png?1673973132",
+      "alt": null,
+      "caption": "1.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'. Context: 1.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119983341/original/s-N-hxSRUj-hspbomtDNitUoV1kZ95lYPA.png?1673973178",
+      "alt": null,
+      "caption": "2.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'. Context: 2.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119983354/original/e0rJAbBPZgPV-aq5pjlYfmLJyochL8FJJg.png?1673973199",
+      "alt": null,
+      "caption": "3.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'. Context: 3.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119983391/original/zgS6YCZXNRs--NYVK4Bi9fOcF2v0xJHN6A.png?1673973212",
+      "alt": null,
+      "caption": "4.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'. Context: 4.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080631478/original/vhgb-69Y5IjYlV1OOAhes_lhJycesd24nQ.gif?1596206842",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080630611/original/UrYBfxQu15x7s_1WU52YyxklBBPk6RuO1w.png?1596205823",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080630557/original/r7buY-hgc2K40Bd0khVNLxCZIKxXIIsZwg.png?1596205753",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080630560/original/AON_2pyAMX1SGp2-GbdQoS3pQSdyw7dI7w.png?1596205759",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119983425/original/MUNPZ6zLAk2HGbLmxaq1wu0MHuJAEXDw5g.png?1673973239",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119983470/original/TMnn68Abb-Svdjm4529OTPKEWRmKKZ8X6Q.png?1673973261",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183124873/original/3Xw04ioNOC_azptNdK6TGTQtMXuetaipAA.png?1785871092",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119983767/original/Ua90zodguw8hqaglxxHKThlAkhSScjFOug.png?1673973528",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149176162/original/PhwsTpVFJQZjToT8PJQJSZtW8ahX9AkhuA.gif?1725900339",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 5. How to Edit Public Pricing Page (the /join page)' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000068749",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068749"
+    },
+    {
+      "text": "User Consent Tools (GDPR Compliance)",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000044937-user-consent-tools-gdpr-compliance-"
+    },
+    {
+      "text": "Stripe or PayPal Standard?",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000043160-stripe-or-paypal-standard-"
+    },
+    {
+      "text": "Supported Payment Gateways",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000006843-supported-payment-gateways"
+    },
+    {
+      "text": "How to add a Hero Section on Static Pages",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000065187-how-to-add-a-hero-section-on-static-pages"
+    },
+    {
+      "text": "Claimable Business Listings",
+      "url": "https://www.brilliantdirectories.com/claimable-business-listings-add-on"
+    },
+    {
+      "text": "Side-By-Side Pricing Tables » Introduction",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000073080-side-by-side-pricing-tables-%C2%BB-introduction"
+    },
+    {
+      "text": "Web Page Builder » Pre-Made Elements",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000074302"
+    },
+    {
+      "text": "Web Pages Folder",
+      "url": "https://support.brilliantdirectories.com/support/solutions/folders/12000005697"
+    },
+    {
+      "text": "Toolbox » Widget Manager",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000025507-toolbox-%C2%BB-widget-manager"
+    },
+    {
+      "text": "» Everything About WYSIWYG Editors",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000050711-everything-about-wysiwyg-editors"
+    },
+    {
+      "text": "» How to Post Images On WYSIWYG Editors",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000050864-how-to-post-images-on-wysiwyg-editors"
+    }
+  ],
+  "lastmod": "2026-08-05T00:48:32+05:30",
+  "scraped_at": "2026-10-18T13:46:14.524197"
+}

@@ -1,0 +1,376 @@
+{
+  "article_id": "12000088716",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088716-zapier-api-actions-create-new-user-google-sheets-example-",
+  "title": "Zapier API Actions: Create New User (Google Sheets Example)",
+  "category": "Developer Hub",
+  "folder": "No-Code API Workflows (Zapier, Pabbly & Others)",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "No-Code API Workflows (Zapier, Pabbly & Others)",
+    "Zapier API Actions: Create New User (Google Sheets Example)"
+  ],
+  "content": "## Zapier API Actions: Create New User (Google Sheets Example)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088716\n\nThis article shows an example of how a Google Spreadsheet can be used to create new members on a site using the site's API.\n\n\n## Create New User Checklist\n\n\n- Make sure to generate a unique API Key using the documentation down below as a guideline. Please make sure to save the API Key in a safe place as it is not accessible after it has been created: How To Generate an API Key\n\n- Make sure to have a Google Spreadsheet ready. This spreadsheet should have at least one row of member information shown below:\n\n\n### Required Fields\n\n\nPlease note the following required fields in order to create a member:\n\n- Email (email),\n\n- Membership Plan ID# (subscription_id)\n\n- Password (password - minimum 6 digits)\n\n\n### Note\n\n\nWhen setting up the file we recommend using our CSV import template file as a basis for the API sheet. The file has all of the correct database variables:\n\nHow To Import Members via CSV\n\nHowever, the column names do not necessarily match with the correct database variable names as this can be mapped later on.\n\nThe API also allow member geocoding and importing member images.\n\n\n## Connect New Member Spreadsheet Using Zapier\n\n\nIn this example, we will be using Zapier to integrate Google Sheets to the Brilliant Directories site.\n\n\n### Create Zap\n\n\nLog in to the Zapier account and click on Create Zap :\n\nName the new zap created and select the Google Sheets option as a Trigger:\n\nSelect the Event type as New Spreadsheet Row and click on Continue :\n\nConnect the Google Sheet Account (this would be a Gmail account) and click on Continue :\n\nChoose the preferred Spreadsheet and specify the Worksheet and click on Continue :\n\nClick on Test Trigger :\n\nThere will be a confirmation that a spreadsheet row has been found, click Continue :\n\nNow the Trigger has been set up correctly.\n\n\n### Create User Action\n\n\nThe Action can be created. Search and select the \" Brilliant Directories \" as the App option:\n\nChoose the Create User event and click Continue :\n\nIf this is the first time creating a Brilliant Directories connection, click on the Sign In option:\n\nIf there is already a connection created to Brilliant Directories, click on Connect a new account option:\n\nClicking both options above will open a new window where the domain of the site (https:// or http:// included) and the API Key generated can be specified:\n\nAfter clicking Yes, Continue on the window above, click on Continue :\n\nNext, we will be setting up the action. In this section, all the available member variables can be found. As we already created a spreadsheet with a row of member information, the next action would be mapping/matching the column names to the correct variable names.\n\nTo be able to create a member, the minimum required fields are email , password (minimum 6 digits), and subcription_id (membership plan ID#)\n\nNOTE: When using the Create User action, automatically Geocode the member:\n\nAnd auto-import member images:\n\nSet Member Tags directly from the API by a comma separated list:\n\nNow that all the preferred and required variables are matched and mapped correctly, click on Continue to test the action:\n\nConfirm that the information displayed is correct and click on Test & Continue :\n\n\n### Created Member\n\n\nThis will create a new member on the website, confirm that the member is created under Search Members:\n\nIf any issues, an error message will display:\n\n\n### Publish Zap\n\n\nOnce confirmed that the member is created on the site, click on Publish Zap.\n\nIf there is more than 1 member in the spreadsheet, click on Transfer existing data option :\n\nHere, select all and click on Next (already created member can be excluded):\n\nClick on Send data :\n\nNow additional members on the spreadsheet are created on the website:\n\n\n## Selecting the Event\n\n\nEach action below has an event that can be selected when create the new zap:\n\nMake sure to select the correct event for each action.\n\n\n## Updating Member Data\n\n\nFor this example, we went ahead and added 2 more rows or the original data can be edited on the original spreadsheet that is connected to Brilliant Directories:\n\nAfter waiting for a few minutes, the new members will be created on the site:\n\nThe API's main function is to add members to the database, it does not trigger a welcome emails because the member did not actually sign up on the site.\n\nWe have created a parameter that can be sent with the API request to trigger the email being sent, based on the settings of the membership plan. The idea is not to always trigger the signup email to be sent, only when the parameter is sent with the request.\n\nThe variable:\n\nsend_email_notifications\n\nIs set to 1 so the system will now trigger the emails after a successful create user request:\n\n\n## New Lead Actions\n\n\n\n### Create Lead\n\n\nTo use this action, create a spreadsheet with the new lead information. The spreadsheet should have the same variables found within the Website - Lead Form - Get Matched form.\n\nThere are two additional variables that can be used to Auto-Match and Auto Geocode the lead. When using these variables:\n\n- 1 - will enable the action\n\n- 0 - disables the action\n\nHowever these fields are already automatically enabled:\n\nauto_match:\n\nautomatch with possible members\n\nauto_geocode:\n\ngeocode the lead location\n\nIn order for the system to auto geocode, this advanced setting needs to be filled:\n\ngoogle_maps_server_side_api_key\n\n\n### Update Lead\n\n\nWith this action, within the spreadsheet add the lead ID and the variables for the information the needs to be updated.\n\n\n### Delete Lead\n\n\nUse this action to delete a lead, add the lead ID that will be removed from the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112341251/original/6kn4l40M-g6OqrakzqJhxPoFQHRA0-CMvw.png?1659040021",
+      "alt": null,
+      "caption": "Context: Create New User Checklist",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'. Context: Context: Create New User Checklist",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112065420/original/HalIfo8limvIaJgjeoXJdW9RkfxC3MvREQ.png?1658505776",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112065460/original/38Dj1FTd9SU4QeCyz9pptx1Rtgw4ueu30Q.png?1658505835",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112065513/original/T4h6kbiFFWaPb_R3e84ptbM-gbqyYCqMWA.png?1658505894",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112065578/original/VuDCtSatcF53NhOudTSqKfzCUV9-EtiymQ.png?1658505960",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112069103/original/ypz7kEPg8GzlpDQlJoZSC_Civ1W8spok6Q.png?1658510659",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112069134/original/c6oi3Pfby8iD8ZSE4ychO6NAt0Z76tYmyQ.png?1658510724",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112343151/original/8m8wpdGGc9l2VAIfvrlXirzHuz3FVGUYEQ.png?1659043431",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112069278/original/al679K_6RdnknQICb9k6nfcm4wfcMqPOIg.png?1658510921",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112069302/original/tuLxbVIbqF0_JUUza2zKTYfpXgfhbQm4-A.png?1658510975",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112287558/original/CmY6t-3eUFXuWzoufUSkv2wzVAsfdnc-mg.png?1658954222",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112069417/original/lEqUL2HDNzKH3OCldbi48rxxl5T99yzkiw.png?1658511120",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112069722/original/g2e2P4QAj6r5gjRBpHcq8-bVWEqtH3vLRw.png?1658511477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112287632/original/9gaLZ00aagwnvAZ47EsZPGzL_1W53ScKcg.png?1658954364",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121083835/original/yjhgsOFoxkWrcPtkZK5lOZWTXMtqgEncsQ.png?1675955525",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121083872/original/bCPtXxuXhjUJd94L3_ihVnAaJj9qvElg6g.png?1675955565",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137299635/original/URaX9zBmH9Z0rAN4WdVfW5h7vEcqTEYjDg.png?1705435320",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137299489/original/Yk_KD2sTz0ZlEQsrBQ8Bx3fFb1rq4qhjrQ.png?1705435198",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12150787130/original/3dj5BpuOcNbhlHwmm1GgOl0IBi15bE8Mog.png?1728593662",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121082762/original/7QORg3JKxIaMarTY7gzvpbWrzGSpZ3CG2w.png?1675954598",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121082884/original/UAjuvsfUpwPWL-RB30W6qo8bxDX13GYFFQ.png?1675954710",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121083328/original/4rKtmeLd2lV6W2sL5K0IIMd8FzHwvrL-rA.png?1675955095",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112343950/original/iLYx9H3i8npQKtdLwt3aIWn_wm0O1sdJZw.png?1659044825",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112343501/original/IJo-r5y3iRclj5L3bOAIEPLcyTU3i80zsw.png?1659044168",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112343526/original/rzzENESc01lfKNxRX6Ol6VXFAFIGJ5RohQ.png?1659044210",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112343533/original/kcWkrKW11ZjoAeITwe6rr4GfluI3NoJT5Q.png?1659044238",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112343625/original/jh1pVFMpxE2S1ZbRo0cPlGSIMMewP1q3Yg.png?1659044342",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119078964/original/I3Ar-3ymISczuBIeS2uVshbIEoAb12q38g.png?1672158941",
+      "alt": "imagen",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'. Label: imagen.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119071638/original/3Yre0P8qX2xxnC8lZbfCyLZILd-Egrik6Q.png?1672150282",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119071639/original/3NhWTo-DbRjcsCR73jPDgqgdOh1X771Xjg.png?1672150282",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119074562/original/yEhcd9OrNG3fREoCzGauslLFl1jk1aOtmw.png?1672153934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119075973/original/FqsNSy0mFd3EzCC_xOPHwvH4lgql9ajQpQ.png?1672155418",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119078333/original/Fduv0-EyD-i_TGrf8qrRpe-0YZmhmXsFHA.png?1672158199",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119076791/original/rjdtReqE5rp1od620ylJoc-d6UbZ0p4vag.png?1672156310",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119078218/original/LMrp1LGmC2885LI4GMxpH53_aEuGjoLfUw.png?1672158057",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119078807/original/ihySiAtANUZFuWwBd6PVHVd-3SWwQaBcZQ.png?1672158768",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Zapier API Actions: Create New User (Google Sheets Example)' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088716",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088716"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "How To Generate an API Key",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "How To Import Members via CSV",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000558475"
+    },
+    {
+      "text": "automatically Geocode",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000044148"
+    },
+    {
+      "text": "auto-import",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000046959"
+    },
+    {
+      "text": "Member Tags",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000100266-member-tags-tag-groups"
+    }
+  ],
+  "lastmod": "2025-02-10T23:43:26+05:30",
+  "scraped_at": "2026-10-18T13:50:00.462286"
+}

@@ -1,0 +1,144 @@
+{
+  "article_id": "12000073190",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073190-admin-accounts-invite-admin-",
+  "title": "Admin Accounts » Invite Admin +",
+  "category": "Settings",
+  "folder": "Admin Accounts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Admin Accounts",
+    "Admin Accounts » Invite Admin +"
+  ],
+  "content": "## Admin Accounts » Invite Admin +\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000073190\n\nThis article explains how to invite new admins or team members to access the website admin area.\n\nAdmin invitations allow the website owner or authorized admin to send an email invite to a new admin user. The invited admin can then accept the invitation, create their login details, and access the admin area based on the role assigned to them.\n\n\n## Overview\n\n\nThe Invite Admin tool is used to add new admin users without manually creating their login credentials.\n\nWhen an invite is sent, the new admin receives an email with an invitation link. After clicking the link, they can enter their full name, create a password, and complete the admin account setup.\n\nAdmin roles can be assigned during the invite process to control which areas of the admin the new user can access.\n\n\n## How to Invite a New Admin\n\n\n- Go to Settings >> Admin Accounts .\n\n- Click Invite Admin via Email .\n\nA popup will open where the admin email address and role can be selected.\n\n\n## Enter the Admin Email Address\n\n\nIn the invite popup, enter the email address of the person who should receive admin access.\n\nThis is the email address where the admin invitation will be sent.\n\n\n## Select an Admin Role\n\n\nUse the Role dropdown to select the admin role for the invited user. The assigned role controls which admin areas and tools the invited user can access after accepting the invitation.\n\nAvailable roles may include default admin roles and any custom admin roles created for the website.\n\nFor more information about admin roles and permissions, see the following article:\n\nAdmin Role Permissions\n\n\n## Invite Multiple Admins\n\n\nTo invite more than one admin at the same time, click Invite Another . This adds additional invitation fields to the popup.\n\nEach invitation row should include:\n\n- The admin email address\n\n- The admin role\n\nImportant: If additional invitation rows are added, they must either be completed or removed before the invites can be sent. If an added row is left blank, it will display in red and must be removed using the TRASH icon.\n\n\n## Send the Admin Invitation\n\n\nAfter adding the email address and selecting the role:\n\n- Review the admin email address.\n\n- Confirm the correct role is selected.\n\n- Click Send Invite .\n\nAfter the invitation is sent, a success message will display.\n\n\n### Pending Admin Invites\n\n\nAfter an admin invitation is sent, a Pending Admin Invites section will display in the Admin Accounts area. This section shows active admin invitations that have not yet been accepted.\n\nThe pending invite details may include:\n\n- Invite status\n\n- Invited email address\n\n- Assigned admin role\n\n- Name of the admin who sent the invite\n\n- Invite date or related invite details\n\nThis section helps admins track which invitations are still waiting for the invited user to accept.\n\n\n### Expired Admin Invites\n\n\nAdmin invitations expire if they are not accepted within 24 hours. After an invite expires, it will be marked as Expired . Expired invitations can be managed from the admin invite section.\n\n\n## Resend or Revoke an Admin Invite\n\n\nPending or expired invitations can be managed directly from the invitation list.\n\nAvailable actions include:\n\n- Resend Invite: Sends the admin invitation email again.\n\n- Revoke Invite: Cancels the invitation so the invite link can no longer be used.\n\n\n## Remove an Admin\n\n\nAdmins can be removed from the website from the Admin Accounts section. This removes the selected admin’s access to the website admin area.\n\n- Go to Settings >> Admin Accounts .\n\n- Find the admin account that should be removed.\n\n- Click the Actions dropdown for that admin.\n\n- Select Remove From Site .\n\n- Confirm the action when prompted.\n\nAfter the admin is removed, they will no longer have access to the website admin area.\n\nImportant: Only remove admins who should no longer have permission to manage the website. If the admin should keep access but needs different permissions, use Edit Admin Role instead.\n\n\n## Automatic Email Address Unblocking\n\n\nIf the invited admin’s email address was previously blocked or had bounced, the system will automatically attempt to unblock the email address during the invitation process. This helps the invited admin receive the invitation email and future website emails.\n\n\n## Accepting an Admin Invitation\n\n\nThe invited admin will receive an email invitation.\n\nInvitation Email Create Admin Account (Invitee)\n\nTo accept the invitation, the invited admin should:\n\n- Open the invitation email.\n\n- Click Click to Accept Invitation .\n\n- Enter their full name.\n\n- Create a password.\n\n- Submit the form to complete the admin account setup.\n\nAfter the invitation is accepted, the new admin will be logged in to their admin account.\n\n\n## Admin Invite Email Template\n\n\nThe admin invitation email uses the following email template:\n\n```\nadmin-invite-link\n```\n\nThis email template controls the content of the admin invite email sent to new admin users. To edit the admin invite email, go to Emails >> Email Templates and search for admin-invite-link .\n\nFor more information about editing email templates, see the following article:\n\nEmails >> Email Templates >> New Email Template\n\n\n## Important Notes\n\n\n- Admin invitations expire after 24 hours if they are not accepted.\n\n- Expired invitations can be resent or revoked.\n\n- The assigned role controls which areas of the admin the invited user can access.\n\n- If multiple invite rows are added, each row must be completed or removed before sending.\n\n- The invite email is controlled by the admin-invite-link email template.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183234960/original/ytLcttbRKWO6igAt3NbXcs-eGUWTYsTu0A.png?1786031793",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183235066/original/lC6dXD_NNa6mU2cyVhfNEZmTbH4ke6usrg.png?1786031901",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183235064/original/HOIGWPFxKm7LQXcwYO7QimXSyuFiGPneTA.png?1786031897",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183235330/original/9TwK1mjIedmr53nvV--dbhChVSVWdp14gg.gif?1786031993",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183235481/original/3feZROj2iWGPBdESAsYEun4zsiGyggOd2A.png?1786032204",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183239441/original/3ds22SXUG1wbu9q5a3JWjUAy-aPow5ikTQ.png?1786035500",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183235564/original/f7JToT3emQfVxKMPysaHBnTO8YVaFngxAA.png?1786032324",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183602984/original/dtPi5jHbz8022Nm-mb3OtOTVdqRhMn-mRA.png?1786663592",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183236814/original/S15ruO4kXaHx8cq-hPjpiz3N5EKeSRwyPQ.png?1786033438",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183236854/original/_X7dt_2A9ieh6J8OCejf22Wve62H0pxguw.png?1786033483",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183236787/original/xNEEpjnaXzxCOQk7e56dBJkfs-difujhRg.png?1786033413",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183235728/original/o3yqTSiGZCnhu6xXOcWnTxcx8uzrhSsYag.png?1786032428",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Accounts » Invite Admin +' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000073190",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073190"
+    },
+    {
+      "text": "Admin Role Permissions",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000064113-admin-role-permissions"
+    },
+    {
+      "text": "Edit Admin Role",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000064113"
+    },
+    {
+      "text": "Emails >> Email Templates >> New Email Template",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000045575-emails-%C2%BB-email-templates-%C2%BB-new-email-template"
+    }
+  ],
+  "lastmod": "2026-08-14T04:56:39+05:30",
+  "scraped_at": "2026-10-18T13:46:58.310063"
+}

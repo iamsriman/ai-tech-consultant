@@ -1,0 +1,104 @@
+{
+  "article_id": "12000071871",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071871-my-members-smart-lists",
+  "title": "My Members » Smart Lists",
+  "category": "My Members",
+  "folder": "Smart List",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Smart List",
+    "My Members » Smart Lists"
+  ],
+  "content": "## My Members » Smart Lists\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000071871\n\nSmart Lists can be created based on member search results using the filters available in the Search Members section under My Members. Smart Lists must be generated directly from search results; they cannot be created by manually selecting individual members.\n\nTo begin, navigate to My Members >> Search Members and execute a query using any combination of the available filters. Once the search results are displayed, the option to save them as a Smart List will be available.\n\nMore information about this section can be found in the article linked below:\n\nSearch Members Overview\n\n\n## Create Smart List\n\n\nOnce a search for members has been completed, a smart list can be created of this result by clicking on the Create Smart List from Current Result option:\n\nOnce clicked, a module will display where the name of this smart list can be specified:\n\nThe following success message will show up once the list has been created successfully:\n\n\n## View/Edit Smart List\n\n\nTo view and edit the newly created list, navigate to My Members >> Smart Lists\n\n\n### Bulk Actions\n\n\nProvides a single bulk action, Delete , which is useful for removing multiple smart lists at once.\n\n\n### Edit\n\n\nOpens a window allowing the admin to rename the smart list.\n\n\n### Export Email List\n\n\nExports the smart list into a downloadable CSV file (requires the Export Member Data Add-On to be active).\n\n\n### Delete\n\n\nManually deletes a single smart list at a time.\n\n\n### Sort Filters\n\n\nOffers four sorting arrangements:\n\n- Created Date (Newest First)\n\n- Created Date (Oldest First)\n\n- List Name (A-Z)\n\n- List Name (Z-A)\n\n\n### Keyword Search\n\n\nSimplifies finding a specific list when managing a large quantity of smart lists.\n\n\n### List Size\n\n\nDisplays the total number of members currently matching the criteria of the list.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160404191/original/FoOj96XuZwolLvPEZHVp0ob47h-OKaEYOQ.jpeg?1745545290",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Smart Lists' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160404190/original/KLHJH1Yh_NGB1i4QyaQ6pyVywYZniRMCSQ.png?1745545279",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Smart Lists' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093618693/original/SKsT9x2ku9g7zmfi9ydh8s9-Jv2gpDWdoA.png?1622832858",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Smart Lists' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093618792/original/TZjQ2pjKwR08ohucD1b4_DicM8Dd_ITQxw.png?1622833007",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Smart Lists' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169866239/original/sxHCmKWRZYfz3YFq-OWfFSiruIIF97lFTA.jpeg?1761939921",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Smart Lists' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169867280/original/ZDoDE1N8Nu35bROkjKw_5br2tktVRQV9kw.png?1761940891",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Smart Lists' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169867159/original/Hq1oOcX2y_atM2dQOCppIVL-b4B879YKfQ.png?1761940830",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Smart Lists' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169867121/original/8XCUvAHL0tQs1c_zDsbxIBv2qJpS4QLyMA.png?1761940750",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Smart Lists' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000071871",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071871"
+    },
+    {
+      "text": "Search Members Overview",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045147"
+    },
+    {
+      "text": "Export Member Data Add-On",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039479"
+    }
+  ],
+  "lastmod": "2026-06-15T23:45:37+05:30",
+  "scraped_at": "2026-10-18T13:46:50.247063"
+}

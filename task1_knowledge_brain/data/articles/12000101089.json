@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101089",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101089-08-16-2024-software-update",
+  "title": "08/16/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/16/2024 - Software Update"
+  ],
+  "content": "## 08/16/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101089\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added support for dashes in the names of coupon codes.\n\n- We fixed an issue which was causing the system to include CSS styles in messages sent via the \"3rd Party Lead Matched Notifications (SMS)\" Lead Setting in some cases. Widget Involved: Default Email Template\n\n- We fixed an issue which was causing the system to display unnecessary HTML entities code after successfully purchasing a Member Post on the Member Dashboard in some cases. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Photo Albums\n\n- We updated the display of One-Click Social Login buttons in sidebar modules to make them better aligned. Widgets Involved: Bootstrap Theme - Display - Facebook Action Login Bootstrap Theme - Display - Google Action Login\n\n- We fixed an issue which was preventing the system from using the correct text label for a form's submit button in the Member Dashboard in some cases.\n\n- The RSS Feed for Posts Add-On date format is now compatible with the Date Format Setting.\n\n- The Subscription Name is now available for all members when exporting members to a CSV file from the Admin.\n\n- We fixed an issue which was preventing the name of forms from displaying when using the \"Show Widget\" feature when viewing a website as an Admin.\n\n- We made several small bug fixes and UI improvements to the new Import Business Data tool in the Admin.\n\n- We fixed an issue which was preventing the Recent Transaction widget in the Member Dashboard from displaying the total amount for invoices in some cases. Widget Involved: Bootstrap Theme - Account - Member Dashboard - Recent Transactions\n\n- We fixed an issue which was affecting the ability to display the Multi-Photo Post Type description data on member profile pages in some cases.\n\n- We implemented an update to prefill the Sub Categories dropdown in the Website - Lead Form - Get Matched form after clicking the \"Request Information\" button on the Specialties tab on member profile pages. Widget Involved: Bootstrap - Contact Member Category Dropdowns Post Type Involved: Member Specialties\n\n- We we fixed an issue where invoices were labeled as being \"Past Due\" in the Payment History table in the Member Dashboard when a member has an upcoming invoice and is currently on a free trial.\n\n- We made several security updates to the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101089",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101089"
+    }
+  ],
+  "lastmod": "2024-08-22T00:44:41+05:30",
+  "scraped_at": "2026-10-18T13:54:43.240459"
+}

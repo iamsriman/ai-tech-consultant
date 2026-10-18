@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108127",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108127-api-reference-universal-search-cache",
+  "title": "API Reference - Universal Search Cache",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Universal Search Cache"
+  ],
+  "content": "## API Reference - Universal Search Cache\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108127\n\n← Back to API Reference | Getting Started Universal Search Cache The Universal Search Cache table stores temporary results from admin-side universal search queries, keyed by a hash of the search parameters, admin ID, and website ID. Cache entries expire after a set duration and are used to improve performance for repeated searches within an admin session. This is an internal system cache table with limited API exposure. Model name in URL: universal_search_cache — DB table: universal_search_cache Limited API availability: Only POST /api/v2/universal_search_cache/create and DELETE /api/v2/universal_search_cache/delete are functional. The GET /api/v2/universal_search_cache/get , GET /api/v2/universal_search_cache/get/{cache_id} , and PUT /api/v2/universal_search_cache/update endpoints listed in the API key permissions UI return HTTP 400 errors and are not currently supported. Use this model only when programmatically creating or removing cache entries; reads must be performed directly against the database table. Create a Universal Search Cache Record POST /api/v2/universal_search_cache/create Inserts a new cache record. The cache_id , search_query , admin_id , and website_id fields are required because the primary key is a varchar (not auto-incrementing) and the table has NOT NULL constraints on these columns. Required Fields Parameter Type Description cache_id string Required — unique cache key (typically an MD5 hash) search_query string Required — the search query string admin_id string Required — admin user identifier website_id string Required — website identifier Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/universal_search_cache/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"cache_id=a1b2c3d4e5f6\" \\\n  -d \"search_query=plumber+los+angeles\" \\\n  -d \"admin_id=1\" \\\n  -d \"website_id=12345\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"cache_id\": \"a1b2c3d4e5f6\",\n    \"search_query\": \"plumber los angeles\",\n    \"results_json\": \"{}\",\n    \"admin_id\": \"1\",\n    \"website_id\": \"12345\",\n    \"expires_date\": \"2026-05-28 00:50:55\",\n    \"created_date\": \"2026-05-27 19:50:55\"\n  }\n} Delete a Universal Search Cache Record DELETE /api/v2/universal_search_cache/delete Removes a cache record. The cache_id is required. Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/universal_search_cache/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"cache_id=a1b2c3d4e5f6\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"universal_search_cache record was deleted\"\n} The Universal Search Cache Object Field Type Description cache_id string MD5 hash used as the cache key (primary key component); max 32 characters search_query string The search query string that generated this cache entry; max 500 characters results_json text JSON-encoded search results stored in the cache admin_id string Identifier of the admin user who performed the search (primary key component); max 50 characters website_id string Website ID the search was performed on (primary key component); max 50 characters expires_date datetime Datetime when this cache entry expires and becomes invalid created_date timestamp Datetime when this cache entry was created (auto-set on insert)",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108127",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108127"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-05-28T05:31:23+05:30",
+  "scraped_at": "2026-10-18T13:58:32.101546"
+}

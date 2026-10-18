@@ -1,0 +1,23 @@
+{
+  "article_id": "12000099627",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099627-04-26-2024-software-updates",
+  "title": "04/26/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/26/2024 - Software Updates"
+  ],
+  "content": "## 04/26/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099627\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the widget search filter in the Sidebar Manager in the Admin from working properly when using the Safari browser in some cases.\n\n- We updated the \"Create User\" and \"Update User\" API Endpoints to trim whitespaces at the beginning and end of Sub Category names submitted to these endpoints.  This will help ensure the system consistently recognizes the names of Sub Categories correctly when creating or updating members via the Brilliant Directories API.\n\n- We created a new Webhook Event called \"Member Clicked Email Verification Link\".  This Webhook will be triggered after a member clicks on the email address verification link they receive by default after signing up as a member of a free Membership Plan.\n\n- The action of creating or updating a Coupon Code in the Admin is now being logged in the Activity Tracker.\n\n- We fixed an issue which was causing the system to display an empty <img> element as a placeholder for a member's profile images in the Member Dashboard when they had not yet uploaded images in the Profile Photo area.\n\n- We fixed an issue which was preventing the system from returning the correct suggested matches when manually matching a lead to members on the Match Leads page in the Admin.\n\n- We added the ability to search for members by their country's signup and login IP address on the Search Members page in the Admin .\n\n- The Bookmark counter shown when viewing Post Types in the Member Dashboard is now compatible with the \"Enable Bookmark Counter\" Design Setting. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Photo Albums datatable\n\n- We updated the display of the Related Posts widget used on the frontend of sites. Widget Involved: Bootstrap Theme - Display - Related Posts by Category\n\n- We updated the Zapier Integration to improve the Snapchat, Whatsapp and Hours of Operation variable field labels and descriptions used in the Create User action.\n\n- We fixed an issue which was preventing the system from returning accurate member results after performing a location search when the \"Strict City Match\" General Setting is enabled. Widget Involved: Search - Member - Search Query\n\n- We updated the Export Member to CSV functionality to remember the selected fields when exporting Member Data in the Admin.  These fields will be selected automatically the next time an Admin exports member data.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099627",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099627"
+    }
+  ],
+  "lastmod": "2024-05-09T11:33:17+05:30",
+  "scraped_at": "2026-10-18T13:53:55.129533"
+}

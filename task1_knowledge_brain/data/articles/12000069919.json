@@ -1,0 +1,37 @@
+{
+  "article_id": "12000069919",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069919-how-to-add-tag-arrays-to-post-detail-pages-and-about-section-of-a-member",
+  "title": "How To Add Tag Arrays to Post Detail Pages and About Section of a Member",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How To Add Tag Arrays to Post Detail Pages and About Section of a Member"
+  ],
+  "content": "## How To Add Tag Arrays to Post Detail Pages and About Section of a Member\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069919\n\nThis article explains how to add or delete tags without the need of editing the code within the widgets.\n\nBy default all Brilliant Directories sites include the following tags:\n\n<img><h1><h2><h3><h4><h5><h6><b><p><span><ul><ol><li><strong><font><em><br><iframe><u><hr><blockquote><tr><th><td><thead><table><div>\n\nTo modify them please follow these steps:\n\n1. From the Admin Dashboard navigate to Settings >> Advanced Settings.\n\n2. In the search field type the word \"tag\".\n\n3. Edit the allowed tags by adding or deleting tags.\n\n4. Save Changes.\n\nNote : To include new tags in already published posts and member's about me section restore the Details Page Design code or manually change it. To learn more about this refer to the following article Reset Member Post Types To Default .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090276579/original/GCqJ47sqBiMqzbK5oY2CzWZeuYk0WKbv0A.png?1616331420",
+      "alt": null,
+      "caption": "4. Save Changes.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add Tag Arrays to Post Detail Pages and About Section of a Member' in section 'My Content' / 'Edit Post Settings'. Context: 4. Save Changes.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069919",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069919"
+    },
+    {
+      "text": "Reset Member Post Types To Default",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000016280"
+    }
+  ],
+  "lastmod": "2022-06-24T01:52:51+05:30",
+  "scraped_at": "2026-10-18T13:46:31.080642"
+}

@@ -1,0 +1,146 @@
+{
+  "article_id": "12000069320",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069320-billing-reminder-email-templates",
+  "title": "Billing Reminder Email Templates",
+  "category": "Add-On Documentation",
+  "folder": "Billing Reminder Emails",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Billing Reminder Emails",
+    "Billing Reminder Email Templates"
+  ],
+  "content": "## Billing Reminder Email Templates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069320\n\nThis article discusses the different email templates used when the Billing Reminder Emails Add-On is active on a site.\n\nThere are three email events that can go out with the reminder emails:\n\n- New Payments Received\n\n- Upcoming Payment Reminder\n\n- Past Due Reminder\n\n\n## Edit Email Templates\n\n\nEach email event uses a different email template. These templates can be edited by clicking on \" Edit Template \" on the right side of the Billing Email Settings page in the Admin:\n\nAfter clicking on one of the Email Templates, a new browser tab will open with the selected email template displayed. In order to edit the template please click on Actions >> Customize :\n\nAdd any desired text, images, and links using the WYSIWYG editor.\n\nAdditional Information:\n\n» Everything About WYSIWYG Editors\n\n» How to Post Images On WYSIWYG Editors\n\n\n## New Payments Received\n\n\nThe New Payments Received template will notify the member immediately once the subscription payment goes through.\n\nThis action uses the email template:\n\n- invoice_payment_received\n\n\n## Upcoming Payment Reminder\n\n\nThe Upcoming Payment Reminder will notify the members before their upcoming payment is due.\n\nThis action uses the email template:\n\n- invoice_reminder_notice_first\n\n\n## Past Due\n\n\nThere are three different past-due reminder actions, each sent at specific intervals depending on how overdue a payment is.\n\n\n### Past Due Reminder #1\n\n\nThe Past Due Reminder #1 template will send the first email reminder that the customer has a pending payment.\n\nThis Billing Event uses the email template:\n\n- invoice_overdue_notice_first\n\n\n### Past Due Reminder #2\n\n\nThe Past Due Reminder #2 template will send a second reminder to the customer letting them know that they have a pending payment.\n\nThis Billing Event uses the email template:\n\n- invoice_overdue_notice_second\n\n\n### Past Due Reminder #3\n\n\nThe Past Due Reminder #3 template will remind the member for the third and final time about their pending payment.\n\nThis Billing Event uses the email template:\n\n- invoice_overdue_notice_third\n\n\n## Transaction History\n\n\nTo send these template with the corresponding information already filled in, the emails will need to be send out through the automatic add-on functionality or manually inside the Transaction History.\n\n\n### New Payments Received\n\n\nSelect members in bulk or individually to send out the Payment Received billing reminder.\n\n\n### Upcoming Payment Reminder\n\n\nSelect members in bulk or individually to send out the Upcoming Payment billing reminder.\n\n\n### Past Due\n\n\nSelect members in bulk or individually to send out the Past Due billing reminder.\n\n\n## Invoice Variables\n\n\nAdmins can fully customize these email templates to better align with their business model or make them more personalized.\n\nWhen editing billing-related emails, additional Invoice Variables become available for use.\n\n- %invoice_id% - this will display the invoice ID number.\n\n- %invoice_product_name% - this will display the name of the product that was purchased.\n\n- %invoice_due_date% - this variable will display the due date of the invoice.\n\n- %invoice_date_paid% - this will show the member's date when they paid an invoice.\n\n- %invoice_status% - this will display the status of the invoice (paid, past due, on hold, canceled).\n\n- %invoice_billing_cycle% -this will display how often they will be invoiced.\n\n- %invoice_promo_desc% -this will display the promo discount used in the invoice.\n\n- %invoice_total% - this will display the total of the invoice.\n\n- %invoice_pdf_link% - this will display the link to the PDF invoice.\n\n\n### Invoice Variable Exclusivity\n\n\nThese Invoice Variables only work with the default email templates designed for this add-on and will not function with other email templates.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796114/original/FtRAMxasIVFe_PkO8EWQ-VzSbLyNbsInNQ.png?1615344556",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796157/original/I20S3Ha8la7XXexxuCa8CfnY57b3DOvkJg.png?1615344654",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158979466/original/yKmx98Vh6rvC2zB-GgEJ_3T1ucBLmF-1NA.png?1743029923",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158979517/original/O58y0_0siXP7Tk90pEq6szQI_iShse_3ug.png?1743030045",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796291/original/izOGw8RjlVDnpWlFf7X9LIHYtA6UIDO3CA.png?1615345201",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796300/original/hHVM5DnkfN3s6sXsLYawFKeavMNvt_CYUg.png?1615345233",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796310/original/zwQ62hGnrtrXomomu2iSKOqSiNV89bWbJA.png?1615345276",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158980056/original/qanP7Ksfae4dwihm7Um2p8A1wiGUigJ-Hg.png?1743031048",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158980054/original/s3OqYpO2vu7W2zxusCcpN96fdw1cDbtxCQ.png?1743031040",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158980053/original/RV1jt-yKZnb0zrTeiavYGAi3-4AZzi4yng.png?1743031034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Templates' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069320",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069320"
+    },
+    {
+      "text": "Billing Reminder Emails",
+      "url": "https://www.brilliantdirectories.com/billing-reminder-emails"
+    },
+    {
+      "text": "» Everything About WYSIWYG Editors",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000050711-everything-about-wysiwyg-editors"
+    },
+    {
+      "text": "» How to Post Images On WYSIWYG Editors",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000050864-how-to-post-images-on-wysiwyg-editors"
+    },
+    {
+      "text": "invoice_payment_received",
+      "url": "https://www.managemydirectory.com/admin/emailTemplates.php?skeyword=invoice_payment_received"
+    },
+    {
+      "text": "invoice_reminder_notice_first",
+      "url": "https://www.managemydirectory.com/admin/emailTemplates.php?skeyword=invoice_reminder_notice_first"
+    },
+    {
+      "text": "invoice_overdue_notice_first",
+      "url": "https://www.managemydirectory.com/admin/emailTemplates.php?skeyword=invoice_overdue_notice_first"
+    },
+    {
+      "text": "invoice_overdue_notice_second",
+      "url": "https://www.managemydirectory.com/admin/emailTemplates.php?skeyword=invoice_overdue_notice_second"
+    },
+    {
+      "text": "invoice_overdue_notice_third",
+      "url": "https://www.managemydirectory.com/admin/emailTemplates.php?skeyword=invoice_overdue_notice_third"
+    }
+  ],
+  "lastmod": "2025-03-27T04:53:57+05:30",
+  "scraped_at": "2026-10-18T13:46:24.175091"
+}

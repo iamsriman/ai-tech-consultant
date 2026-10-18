@@ -1,0 +1,401 @@
+{
+  "article_id": "12000035550",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035550-content-manage-posts",
+  "title": "Content » Manage Posts",
+  "category": "My Content",
+  "folder": "Manage Posts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Manage Posts",
+    "Content » Manage Posts"
+  ],
+  "content": "## Content » Manage Posts\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000035550\n\nThis section of the software is a shortcut for the admin to be able to monitor all the post content being published on the website as well as to create posts and fetch unassigned posts. In here, the posts are divided by post type which makes it easier to find a certain post.\n\nTo access posts created by the admin or members of the directory navigate to Content » Manage Post . The post type with the most posts will show up first. If post types have the same number of posts or all are 0 the first post type displayed will be based on alphabetical order.\n\n\n## List Actions\n\n\nHover over the \"List Actions\" will display these available options:\n\n\n### Import Posts Via CSV File\n\n\nIt's possible to import posts via CSV File. To learn more about this refer to this article: How To Import Posts Via CSV File .\n\n\n### Export List of Current Results\n\n\nThis option will only show if the Export Member Data Add-On is enabled and will allow the posts to get exported in a CSV file.\n\n\n### Sync Posts with Google Maps\n\n\nSelect this option to begin the Geocoding process of the posts. This will open up the Batch Geocoder Tool:\n\nThe post's location information will be put through the Google Maps search engine which will perform a search, cross-referencing the location information with their location database. Based on the search, Google Maps will assign the latitude and longitude of the listing based on what Google Maps has on its location database.\n\nPlease note: the Geocoding tool uses the information available in the CSV import file. The better quality and the more specific the location data is, the better results this Geocoding tool will render when assigning the Longitude and Latitude to each listing.\n\nDepending on the number of posts imported, as well as the Geocoding option selected, this process could take up to several minutes to complete.\n\n\n### Geocode Errors\n\n\nIf the location data on a specific posts is incomplete, misspelled, or \"not official location name\".  The Geo-coder tool will display these as errors. This means the location information will need to be manually added.\n\nA list of posts with these errors is conveniently displayed on the right side of the Geocoding module as seen below:\n\nClick on \"Manually Geocode\" will display this pop-up:\n\nEnter the location information in the search bar to auto-populate the location fields:\n\nClick on \"Update User Location Information\" to update the post's location.\n\n\n### Check for Unassigned Posts\n\n\nThis tool allows the admin to look for unassigned posts, meaning, posts that are not connected to valid post types or existing members. This will only appear when there are unassigned posts, under the List Action dropdown.\n\nIf unassigned posts are found, a message will display indicating the post type and amount of unassigned posts. Click on the link to display them:\n\nOnce the posts have been fetched, it is possible to use the bulk functionality to either Publish, Unpublish, Change Ownership, Delete them or Change the Post Type only for unassigned posts :\n\nTo assign these posts to another post type keep in mind it has to be assigned to a post type of the same group (multi image or single image). To do it, hoover over the actions button of the unassigned post and click on Assign to Another Post Type :\n\nThen, select the post type accordingly:\n\n\n## Publish New Post +\n\n\nTo easily create a new post, click on the \"Publish New Post +\" button and follow the steps explained below\n\n- Select The Post Type: Choose between the different post types available to publish.\n\n- Which Member Will Be The Author: Type the name and search for the member that will appear as the author of the post. Keep in mind that only members that have the correct post publishing privileges will be able to create a post. Click HERE to learn more about post publishing.\n\n- Login To Create Post: Once the Post type and author have been selected, click on the button to access the member's account and create the post.\n\n\n## How to Search for a Post?\n\n\nThe admin can search for the post they are looking to edit by selecting the Post Type :\n\n\n### Filter By Status\n\n\nOnce the Post Type has been selected the results can be filtered by:\n\n- Published - this option will allow the admin to see all posts that have been published.\n\n- Not Published - this option shows the admin all the posts that haven't been published.\n\n- Pending Approval - this option shows the admin all the posts that are waiting to be approved so they can become public.\n\n- Featured Post - this option shows the admin all the posts that have been selected in \"Set As Featured Post\".\n\n5. Expired - this option shows the admin all the posts that have expired.\n\n\n### Sort By\n\n\nSelect one of the drop down options to sort the results in different alternatives.\n\n\n### Keyword\n\n\nEnter a keyword in the search field to filter the results, displaying only posts that contain the keyword.\n\n\n## How to Edit a Post?\n\n\nIt's possible to edit member posts, the system will log an admin into the member profile and redirect to the post form.\n\n\n### Find Post Using Search Filters\n\n\nUse the search filters to find posts to edit.\n\n\n### Click \"Edit Post\" Link\n\n\nAfter the post has been found if the admin wishes to edit it, just needs to click on Edit Post .\n\n\n### Start Editing the Post\n\n\nThe page will then be redirected to the post itself. There, the content can be edited as desired:\n\n\n## Bulk Actions\n\n\nThere are 5 available bulk options to modify posts.\n\n- Publish - This option will make non-published posts public so the visitors and other members can see the content created.\n\n- Unpublish - This option will make posts hidden for the visitors and other members. This is really useful if there is content that should not be on the website.\n\n- Assign New Author - With this option the posts ownership can be changed from one member to another:\n\n- Change Category : This action will bulk update the category for the selected posts.\n\n- Delete - This will delete the posts that were created. Once deleted they cannot be recovered.\n\nClicking on the checkbox below Bulk Actions will provide the option to select all posts, use this functionality to apply bulk actions to all of the posts of the desired Post Type:\n\n\n## Individual Actions Per Post\n\n\nTo access these options hover over Actions and select accordingly:\n\n- View Post : By clicking on the live page option a new tab will be open displaying the post.\n\n- Set to Publish/Unpublished : This option allows the admin of the site to moderate the posts that have been created.\n\n- Assign New Author: This option allows to change the ownership of an individual post.\n\n- Edit Image Data : Edit the image's Alt Tag and File Name. If this is a multi-image post, the arrows will be enabled to cycle through the different post's images:\n\n- Customize URL : Choose to use a custom URL for a specific post. Click on the following article for more information: How to Manually Edit the URL / Filename of Posts\n\n- Delete : Selecting this option option will permanently delete the select post.\n\n\n## Author's Membership Plan\n\n\nClick here to be redirected to the Membership Plan Post Publishing tab to edit the post-publishing permissions of that specific plan\n\n\n### Member Information\n\n\nHovering over the member's name will display 5 clickable links in the Manage Posts section. These will help as a shortcut to edit different member and membership plan information.\n\n\n### View Account\n\n\nBy clicking on the name of the member the admin will be easily redirected to the member's account information.\n\n\n### Quick Edit\n\n\nThis option will allow the admin to Edit different settings for the member. For more information, refer to this article Members » Search Members » Quick Edit Section\n\n\n### Email Member\n\n\nBy selecting this option, a pop up modal will show to compose and send an email to that specific member.\n\n\n### Live Profile\n\n\nClick on the link to be redirected to the member's public profile:\n\n\n### Login as Member\n\n\nThe admin will be redirected to the member's personal account:\n\n\n## Set Post as Featured\n\n\nIf the Pin Featured Posts add-on is active on the site, the option will become available.\n\nClick on this link for more information Pin Featured Posts\n\n\n## Show number of Views, Likes and Comments\n\n\nIn order for these details to show, the following add-ons need to be enabled:\n\n- Member Profile Analytics\n\n- Bookmark My Favorites Add-On\n\n- Bookmark Counter Add-on\n\n- Community Comments\n\n\n## FAQ\n\n\nHow do I Specify a Canonical Url for a Single Website Post?\n\n- Typically the way to do this isn't with a canonical tag, but by simply posting a link in the content of the post that cites the original source. Editing the canonical URL or changing robots meta tag of a single post would require customization.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133103901/original/qIbZ81VB2hYjWVTGBZ0v25Mk7JW8hzVwLg.jpg?1697844712",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161246862/original/dFZml0eD8cvKCbT0OF46U7GvNuSIihgh9Q.png?1747144228",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161252348/original/9rp574zxq2pctGw9rIAnZ7m6lHS0-h_6Yw.png?1747147450",
+      "alt": null,
+      "caption": "Context: The post's location information will be put through the Google Maps search engine which will perform a search, cross-referencing the location information with their location database. Based on the sea",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'. Context: Context: The post's location information will be put through the Google Maps search engine which will perform a search, cross-referencing the location information with their location database. Based on the sea",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161252749/original/FviK32WmQTcd8Iy9cAxP7Gw_tOgu4Fr9Ag.png?1747147729",
+      "alt": null,
+      "caption": "Context: Click on \"Manually Geocode\" will display this pop-up:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'. Context: Context: Click on \"Manually Geocode\" will display this pop-up:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161252897/original/766Lfama5U5kMvHpBv2CRuvVaF3oF7zO5A.png?1747147860",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161253132/original/XhHVna2xwhPjKa1o43xADGnx2B8Jf7DWEw.png?1747148038",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133103907/original/bNWGKubF-rHjFGsQCdfR9-i83XcbLz0Zfg.jpg?1697844779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133103961/original/XABxx-hlfReGt_9EN2f53EAbuGSxogNQfQ.jpg?1697844863",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133103967/original/zfriczzMSecR31dnrU3iqlK9g8ZgPvV-1A.jpg?1697844936",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104000/original/GKjfZopXv_GZ_4BnK4g9jRfAwK17kuiDyQ.jpg?1697844975",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104003/original/8_0TxFvvbBc2MzLygmyHI9lJPHTzNhw4pQ.jpg?1697845003",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104012/original/Nt3PBfNOXXteN4SROSueK0B4cHQvFjViMA.jpg?1697845073",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104018/original/DJ2W4F9lmsf4ZEicrLg7nA-VaU9b1TF3ag.jpg?1697845124",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125505473/original/3KFh6U_rEA2T-I7qwxb0jrJJQA47gXHosg.png?1684210052",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177469665/original/APauPTtYpjQ1mcwjJBImDiR0bOj-ElKpBg.png?1776184137",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104050/original/RGa1euWS-oYRKHuHbkqkm5sVFD4FS9ivqg.jpg?1697845235",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104061/original/Inzh6u3FCOPf_tRxSr7Q3_faR1SDNP4huA.jpg?1697845279",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104073/original/ic84tKwgIBhrWNJVbaAg69zDwUzAqgcD7g.jpg?1697845343",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179763246/original/QelsSGJCVwiOzLNmxLq_xHhh1zuUhGBAeA.png?1780413471",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104099/original/_tKKtjD8Ng1NtCKv9_CK-nIFjvr-lksl5A.jpg?1697845432",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179763476/original/Omzny3_m3XyX96gxIUVuW_dqTJGIAj_umw.png?1780413626",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113460218/original/Gf-w1X05hUxLUslOVARq7pWFB_LIqL6m9g.gif?1661270281",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104232/original/ws33ue-WSL36CAmTOMEPw5Asvbe82eLOaw.jpg?1697845788",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104239/original/JEq35y9wXRfrLc1nYDHuLaXmK7KOLYD-5g.jpg?1697845817",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104256/original/sajsYEX0UJF2bcUFAsnU0pfDFCayOCMzYA.png?1697845924",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133316401/original/M_aW5On3atwuj7rLMHBRlusAsNqdGDKuUQ.png?1698273206",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104245/original/12Qybtf5zce7AqigYHD5IUEtPE-Q3sA6kQ.jpg?1697845858",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104303/original/-dzGkJHwceHRarvfAnSNEdrQZt6ODu4QJw.jpg?1697845968",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104313/original/N-P0xRyWGJ2jxGS97r-qZUNDumWBWc9n7Q.jpg?1697846017",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104358/original/tBKegFY7JMfCjUa1ldtjxryKIEjjE9A_kQ.jpg?1697846133",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104431/original/5z6APz_1W02e4MKGQfYJ3NGgXTG8SFDNJA.jpg?1697846181",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104437/original/ip1LOGhtFwbdzT9EvVG1dlD9RYTqPp8Gkg.jpg?1697846209",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104438/original/cLQsXwXdJ4REKPUn5OWjc3X4dg8Lc7A-bA.jpg?1697846241",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104441/original/hRCZDSoP9P2ZiYMtbJe3Nv8zn-XqEvSZhQ.jpg?1697846273",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104473/original/YBT1dBC2YoCeXBqpU55tgViqhGNKVinIFw.jpg?1697846305",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133104494/original/98Xed5uLcwlIkwpPho_KVeTXL8Uy3yTv-A.jpg?1697846404",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161348003/original/71WKfyyKIyhSZvD6LUqiD5VwVFn_D_r-kQ.png?1747272311",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Manage Posts' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000035550",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035550"
+    },
+    {
+      "text": "How To Import Posts Via CSV File",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000091681"
+    },
+    {
+      "text": "Export Member Data",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000039479"
+    },
+    {
+      "text": "HERE",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000048893-finance-membership-plans-post-publishing-"
+    },
+    {
+      "text": "How to Manually Edit the URL / Filename of Posts",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000077359"
+    },
+    {
+      "text": "Members » Search Members » Quick Edit Section",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "Pin Featured Posts add-on",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051517"
+    },
+    {
+      "text": "Pin Featured Posts",
+      "url": "https://www.brilliantdirectories.com/pin-featured-posts-add-on"
+    },
+    {
+      "text": "Member Profile Analytics",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000619186"
+    },
+    {
+      "text": "Bookmark My Favorites Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000049688"
+    },
+    {
+      "text": "Bookmark Counter Add-on",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000067547"
+    },
+    {
+      "text": "Community Comments",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000075521"
+    }
+  ],
+  "lastmod": "2026-07-15T03:08:58+05:30",
+  "scraped_at": "2026-10-18T13:41:48.511280"
+}

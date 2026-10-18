@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093251",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093251-04-14-2023-software-updates",
+  "title": "04/14/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/14/2023 - Software Updates"
+  ],
+  "content": "## 04/14/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093251\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the normal behavior of the \"Filter By Star Rating\" Add-On in some cases.\n\n- We fixed an issue which was causing the \"One-Click Facebook Login\" Add-On to not trigger the signup process logic after clicking on the \"Register with Facebook\" button in some cases. Widget Involved: Bootstrap Theme Framework\n\n- We fixed an issue which was causing the Sidebar on Post Detail pages to be affected by the \"Search Result Sidebar Position on Mobile Devices\" Post Type Setting. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We updated the implementation of the \"Location Label\" Text Label in order to support double and single quotes. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- We updated the \"Change Home Page Theme\" workflow to add the option to also copy the \"Main Menu\" when installing a theme from the Design Settings page in the Admin.\n\n- We updated the Bulk Geocoder in the Admin to recognize the same location types as the Member Dashboard Google Maps geocoder logic. This will expand the types of locations that are considered as a \"City\", so smaller towns not labelled as cities by Google Maps can be used as cities on a website.\n\n- We fixed an issue which was preventing the Member Image Import tool from working properly in some cases.\n\n- We fixed an issue which was preventing the \"Recipients\" field in the Compose Email modal from being populated automatically when trying to reply to a Form Inbox submission in the Admin.\n\n- We updated the \"Search by Keyword\" functionality in order to include more results when searching for settings on the Design Settings page in the Admin.\n\n- We updated the Member Categories Export Tool in order to prevent category data from showing multiple times when downloading the file in some cases.\n\n- We updated the \"Dynamic Category Filtering\" Add-On in order to create a new set of Dynamic Category Filtering + Location widgets. To use these new widgets navigate to the Admin >> My Content >> Edit >> Search Results tab >> Sidebar Search Module. Widget Involved: Search - Member - Search Query\n\n- The Sub-Account Delete action text used in the Member Dashboard is now based on Text Labels. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- The One-Click Google Login Add-On signup logic is now compatible with Webhooks.\n\n- The Import Member Tool is now compatible with the \"Reward Credits to Assign After Sign Up\" Membership Plan setting.\n\n- We fixed an issue with the Website - Lead Form - Get Matched form which was causing the system to display an error message after submitting the form in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093251",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093251"
+    }
+  ],
+  "lastmod": "2023-04-17T22:33:30+05:30",
+  "scraped_at": "2026-10-18T13:50:52.791646"
+}

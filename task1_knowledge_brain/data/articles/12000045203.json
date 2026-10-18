@@ -1,0 +1,128 @@
+{
+  "article_id": "12000045203",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045203-detect-visitor-locations",
+  "title": "Detect Visitor Locations",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Detect Visitor Locations"
+  ],
+  "content": "## Detect Visitor Locations\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000045203\n\n\n## Overview\n\n\nEnable the website to detect and grab a visitor’s geo-location. Once detected, the visitor’s location will automatically be inserted into the location search fields on the website.\n\nThe Detect Visitor Locations add-on saves visitors an extra step by automatically using their current location when conducting local searches on the website.\n\n\n### Very Important\n\n\nFor this add-on to work, the site needs to have an SSL Certificate installed and Google Maps API Integration needs to be completed.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Detect Visitor Locations\n```\n\n\n## Enabling the Add-On\n\n\n1. Go to Settings » Design Settings » Search Results Pages:\n\n2. Now Enable or Disable this functionality:\n\n3. Select the icon that will appear in the Location Search when the addon is enabled:\n\n\n### Detect Location Permission\n\n\nWhen this add-on is enabled, an icon will display throughout any of the location-related search modules:\n\nClicking on it will prompt the browser with this message:\n\nOnce permission is given, the location will auto-populate within the location fields.\n\n\n## Prompt Automatic Location Module\n\n\nBy default the system will wait until the user clicks on the detect location icon to autofill the users location:\n\nHowever the popup can be set to automatically appear on the page when a user visits the page with the advanced setting:\n\nPrompt Visitors To Share Their Location Automatically On Page Load?\n\nSystem Variable: location_auto_fill_at_once\n\nAutomatically prompting the user to allow the website to \" Know your location \" prior to clicking or completing a search:\n\n\n## How the Add-On Works\n\n\n- Gets the location of the user's device using the very accurate HTML5 Geolocation API (not the user's IP)\n\n- Searches that location using the Google Maps Geocoding API to get the user's city as recognized by Google Maps\n\n- Inputs that city into the location search fields of the site automatically\n\nWhen doing a search, the search is based on the center of the city that was processed using the steps above. It is not calculating distance between the user's device and the members in search results.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129185376/original/sz_4FgOCsUqjpiF-cyOT_YkZUZ-iUo_AoQ.png?1690867620",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128888571/original/D9v9c5Fv5NadhAdkF5tbA8Fpr3Tr3M5vLA.png?1690302631",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128888578/original/xM6vzvJPoZcpjgb7E-2yF5_lDfbJqRHpMg.png?1690302637",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096320162/original/Go5N0XRNVNmTb1y1igEJXE21if5wbke83w.png?1627942497",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096320180/original/q8otuNybamM8zMN1AVmUXd9WbG-P6U2BjQ.png?1627942536",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096320196/original/ljQGD8fQPyfdkWtY1KOmgjXBW4h6P5Rfog.png?1627942577",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128972504/original/PFxa7QWVlPLzRROanZx51CroAZTQ39gHZg.png?1690420578",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128972254/original/h3vBcM18-4rh_wCem927a8qdQE6oSMcMhA.png?1690419860",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129185283/original/bhvHQZ1EgaY4GEVXJLsDQZUYOA2ZTuDSeQ.png?1690867433",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Detect Visitor Locations' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000045203",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045203"
+    },
+    {
+      "text": "SSL Certificate",
+      "url": "https://www.brilliantdirectories.com/ssl-secure-website"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019818"
+    },
+    {
+      "text": "Google Maps API Integration",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019818"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Detect Visitor Locations",
+      "url": "https://www.brilliantdirectories.com/detect-visitor-locations"
+    }
+  ],
+  "lastmod": "2026-08-28T21:53:04+05:30",
+  "scraped_at": "2026-10-18T13:42:53.585884"
+}

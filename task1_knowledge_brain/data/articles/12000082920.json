@@ -1,0 +1,51 @@
+{
+  "article_id": "12000082920",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082920-how-to-access-mysql-database",
+  "title": "How to Access MySQL Database",
+  "category": "Developer Hub",
+  "folder": "MYSQL Database",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "MYSQL Database",
+    "How to Access MySQL Database"
+  ],
+  "content": "## How to Access MySQL Database\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082920\n\n\n## How to Access the MySQL Database\n\n\nThis article explains how to access the MySQL database through the Developer Hub and identifies the primary table used to store member information.\n\nImportant Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.\n\n\n## Access the Database\n\n\n- Navigate to Developer Hub .\n\n- Select MySQL Database Manager .\n\n- Select the site_directory database from the left navigation panel.\n\n- Locate the list of database tables and select the users_data table.\n\nThe users_data table stores the primary member records, including account information, profile details, and membership settings.\n\nOnce the users_data table is selected, the database is ready for browsing records or executing SQL queries using the available database management tools.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181048179/original/2UWWecm92b5w0Gal1U0EmIc07Q0xyEkesA.png?1782418975",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Access MySQL Database' in section 'Developer Hub' / 'MYSQL Database'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181048181/original/C3SDkatGeqA27lZVAXd6ZVjjWwEak-WPNA.png?1782418980",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Access MySQL Database' in section 'Developer Hub' / 'MYSQL Database'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181048187/original/OeXCMc5bJCsAbxczWcXUgW599wvccjF1iA.png?1782418987",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Access MySQL Database' in section 'Developer Hub' / 'MYSQL Database'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082920",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082920"
+    }
+  ],
+  "lastmod": "2026-06-26T01:54:20+05:30",
+  "scraped_at": "2026-10-18T13:49:03.156970"
+}

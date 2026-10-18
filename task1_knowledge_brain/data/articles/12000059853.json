@@ -1,0 +1,23 @@
+{
+  "article_id": "12000059853",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059853-07-26-19-software-updates",
+  "title": "07/26/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/26/19 - Software Updates"
+  ],
+  "content": "## 07/26/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059853\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the Private Member Chat Add-On text field background not matching with the Theme Color Sets in some cases. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We added support for using Skype, Tel, Mail To and External Links in Menu Item URL fields in the Admin >> Menu Manager.\n\n- We fixed an issue which was causing text added in the Highlight Member Results Add-On to not be updated correctly when saved in some cases.\n\n- We added \"Top + Sub + Sub-Sub Member Category\" as a new Homepage Search widget option.\n\n- The Copyright symbol and Terms of Use and Privacy Policy links found in the footer of sites by default have been moved from the Footer Widget to the Footer Menu for new sites moving forward to make them more easily accessible. Widget Involved: Bootstrap Theme - Footer Bootstrap Theme - Footer - Terms of Use\n\n- We fixed an issue that was causing field validation on Checkout pages to not work properly when more than one form was printed in the same widget or Web Page body.\n\n- We fixed an issue that was affecting the ability to delete members in bulk from the Admin in some cases.\n\n- We updated the Stripe Payment Gateway integration to send all Credit Card information to Stripe in a better organized format. This will make payments easier to identify when logged in to a Stripe account.  Also, we updated the \"Member - Sign Up - Paid\" form in order to only use a single field for the \"Name on Card\" rather than a \"First Name\" and \"Last Name\" field which is not compatible with all name formats that may appear on credit cards. Form Involved: Member - Sign Up - Paid\n\n- We fixed an issue which was causing the system 2 show two duplicate \"processing\" alerts after saving a change to a Sidebar in the Admin.\n\n- We fixed an issue which was causing the system to show an error message when trying to pay an invoice from the Member Dashboard.\n\n- We fixed an issue that was causing the Footer Newsletter form to be erroneously pre-populated with a Contact's email address in some cases.\n\n- We fixed an issue with the UI of the Froala WYSIWYG when adding a link to content on the \"Edit Web Pages\" area in the Admin.\n\n- We fixed an issue which was causing the \"Bookmark my Favorites\" Add-On to not display any data in the Member Dashboard when a member saves a Listing as a Favorite. Widget Involved: Bootstrap Theme - Display - Add to Favorites Button",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059853",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059853"
+    }
+  ],
+  "lastmod": "2019-07-27T01:38:40+05:30",
+  "scraped_at": "2026-10-18T13:45:17.633974"
+}

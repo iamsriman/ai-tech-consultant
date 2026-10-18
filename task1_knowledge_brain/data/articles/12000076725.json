@@ -1,0 +1,134 @@
+{
+  "article_id": "12000076725",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076725-tax-and-vat-manager",
+  "title": "Tax and VAT Manager",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Tax and VAT Manager"
+  ],
+  "content": "## Tax and VAT Manager\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076725\n\nConfigure unlimited tax & value-added tax (VAT) rules to be applied on the website’s checkout pages with the Tax and VAT Manager Add-on . Tax rules can be applied universally to all members/customers or location-specific tax rules can be created.\n\nThe tax rules will be applied to all payments processed by the website including one-time and recurring payments.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Tax & VAT Manager Add-On\n```\n\n\n## Enabling the Add-On\n\n\n1. Go to Finance - Payment Settings:\n\n2. Click on Tax/VAT Settings (This will only display if the payment gateway and the add-on active):\n\n3. To create a new tax rule click on the blue button on the right side:\n\n4. Fill out the pop-up form to complete the new tax rule:\n\n1. Enter Tax Name - This will appear on the invoice as the name of the tax.\n\n2. Select Country - This will allow the admin to select the country that the tax will apply.\n\n3. Select State - This will allow the admin to select the state/province that the tax will apply.\n\n4. Tax Rate - This will be the tax percent-based tax rates, enter value between -100 and 100.\n\n5. Tax Rule Order - If this is the first tax, select primary. If this is a second-level tax rule, select secondary.\n\n5. Click Save Tax Rule when everything is set up to the admin's liking.\n\n6. The admin will be able to edit an existing tax rule here as well create a brand new tax rule:\n\nThe admin also has the option to select how the tax will display for the members in the front end:\n\nImportant : One must be selected in order to show in the front-end.\n\nExclusive - Tax price will be charged in addition to the prices the admin sets:\n\nInclusive -  Tax price will be included in the price the admin sets:\n\nNow there is also a Membership Plan setting to select if this order summary displays or not and the position of the promo code input.\n\nChoose the position in which the promo code input will display. There are 3 options:\n\n- Left\n\n- Right\n\n- Do Not Display\n\nThis is how the promo code applied to the price will display on the left side, the tax is applied to the discounted price:\n\nIf the promo code is set to display on the right:\n\nKeep in mind that if Do Not Display is selected, the order summary won't display and this includes the tax information. Also, users won't have the option to enter a promo code.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180451801/original/d09MZKZBObHA2XBC7kM_rPPq94tfyeh0DA.png?1781541905",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180451934/original/irc932qUkliVy3k6mLpEHSJ6PqQvq7YgEA.png?1781541963",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180451977/original/Hq8sm6D5FLasTZcQ0T0NdQMewNCweabYFQ.png?1781541999",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117305077/original/7bAwFe4JSJFapNvhH-YVZi1qoGcOSmqYFA.png?1668538663",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180452053/original/AOJwAH451Y7T26sP-rD1j9RQljJ2E27nSg.png?1781542112",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180452100/original/Ldvid29QHsKtENU6U6HtzFYOf_rbxIbb6g.png?1781542172",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087616645/original/LxX1l9b5KRFukymgppzOrrurJIupbO6vLg.png?1611008539",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087616707/original/90H1ZaXIftiCGRuzweBp0y4d8iqI7BVbuA.png?1611008658",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12101993111/original/zENX5kPsE-dqOUBZAQAqFn8ck6Izjh9s7A.png?1638853047",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102030532/original/PnK04VLGheSIVXxE9jrEUlqG3kV_Sdutfw.png?1638895517",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102030651/original/OigFeUteEIkbU9ILDRNt47dtF3ui4eo_iQ.png?1638895661",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tax and VAT Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076725",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076725"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Tax & VAT Manager Add-On",
+      "url": "https://www.brilliantdirectories.com/tax-vat-manager"
+    },
+    {
+      "text": "Membership Plan setting",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000048891"
+    }
+  ],
+  "lastmod": "2026-08-28T22:10:35+05:30",
+  "scraped_at": "2026-10-18T13:47:35.992033"
+}

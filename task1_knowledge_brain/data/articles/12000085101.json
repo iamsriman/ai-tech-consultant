@@ -1,0 +1,23 @@
+{
+  "article_id": "12000085101",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085101-01-07-22-software-updates",
+  "title": "01/07/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/07/22 - Software Updates"
+  ],
+  "content": "## 01/07/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000085101\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from properly encoding HTML in the \"Default Email Signature\" on the General Settings page in the Admin.\n\n- We updated the applicable default forms to use the new \"Froala Editor\" form field types in place of the previous widgets / custom code used for those fields. Forms Involved: Listing - About - Member Feature - Blog Articles Feature - Classifieds Feature - Coupons Feature - Digital Products Feature - Discussions Feature - Events Feature - Jobs Feature - Member Articles Feature - Photos Feature - Products Feature - Properties Feature - Soundcloud Feature - Videos\n\n- We implemented several security updates to prevent XSS injections in several areas of the software.\n\n- We fixed an issue with \"pretty URL\" location search results pages which was causing the system to display incorrect members on state/province pages when the members shared the same State Code, but from different countries. Widget Involved: Search - Member - Search Query\n\n- The Webhooks functionality now supports the \"Listing - Contact Details - General User\" form .\n\n- We fixed an issue that was preventing promo codes from being applied properly to invoices when a member had invoices from multiple subscriptions generated on the same day.\n\n- We fixed an issue which was preventing members from being properly matched with leads when the Automatic Lead Matching Add-On was active in some cases. Widget Involved: Search - Member - Search Query\n\n- We updated the Post Search Results logic to include the \"Description\" field when searching posts by keyword when the Expanded Keyword Search Add-On is not active. Widget Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We fixed an issue which was stripping the \"async\" attribute from <script> elements on the frontend of sites.\n\n- We fixed an issue with the member search logic which was causing the system to return incorrect members when searching by state or province in some cases. Widget Involved: Search - Member - Search Query\n\n- We updated the \"Member Listing Badges\" Add-On logic to display the \"Services All Locations\" badge when the \"Max. Location Limit\" Membership Plan setting is set to \"All\". Widgets Involved: Bootstrap Theme - Member Profile - Badges Bootstrap Theme - Member Profile - Header\n\n- We fixed an issue which was preventing the system from loading the Google reCaptcha box on the Newsletter form when another form using the reCaptcha is present on the same page in some cases.\n\n- We fixed an issue with the Google reCaptcha box which was causing the system to make a double submission of forms when two forms were using the reCaptcha on the same page in some cases.\n\n- We fixed a form submission error that was happening in some cases when submitting a form that contained a Google reCaptcha box. Widgets Involved: Account - Save Actions Bootstrap Theme - Function - Save Form Bootstrap Theme - Module - Newsletter Actions System - SaveForm\n\n- We added \"upgrade\" as a reserved word for the \"Member Signup Page URL\" Membership Plan setting.\n\n- We fixed an issue which was displaying the incorrect success message when a user subscribed to a site's Newsletter after previously submitting the Contact Us form. Widget Involved: Bootstrap Theme - Module - Newsletter Actions",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000085101",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085101"
+    }
+  ],
+  "lastmod": "2022-01-11T02:13:46+05:30",
+  "scraped_at": "2026-10-18T13:49:20.904198"
+}

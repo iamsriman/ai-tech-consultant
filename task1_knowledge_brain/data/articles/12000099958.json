@@ -1,0 +1,51 @@
+{
+  "article_id": "12000099958",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099958-using-css-to-target-form-fields",
+  "title": "Using CSS to Target Form Fields",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Using CSS to Target Form Fields"
+  ],
+  "content": "## Using CSS to Target Form Fields\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099958\n\nPreviously to show/hide form fields, complicated PHP in specific areas of code was used.\n\nNow we've made it easier to control by including a class to the <body> element that will be used.\n\nThis CSS Class will allow targeting specific rows of front-end display based on the system name or database variable of a field:\n\nWith this class it will be easier to target the form field using CSS in the Design Settings rather than having to go into specific sections of the code and use PHP every time.\n\nThis new class applies for all forms fields, this includes default and custom fields.\n\n\n## Example Using the CSS Method\n\n\nTarget the element or area that will be modified. In this example, the Background Color of the form field:\n\nAfter applying the CSS, only the \"Company Name\" field has a different background color:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143634572/original/m0iOstEe3m2f7WJjCQfj4mE8Wu_hoTR2wg.png?1716345534",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Form Fields' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143737515/original/MdDWBtJ8H2GV_shiefMnKgjt32D75fbL-g.png?1716482854",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Form Fields' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143737594/original/6jz8Ldd2zihMWACWv-6iPVd6SaFf1erJbw.png?1716482929",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Form Fields' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099958",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099958"
+    }
+  ],
+  "lastmod": "2024-05-23T22:19:43+05:30",
+  "scraped_at": "2026-10-18T13:54:02.453649"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000103981",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103981-03-28-2025-software-updates",
+  "title": "03/28/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/28/2025 - Software Updates"
+  ],
+  "content": "## 03/28/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103981\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Added support for the Finnish language .\n\n- Fixed an issue that prevented exporting the 'member_email' data from the Transaction History page in the Admin.\n\n- Updated the website logo width validation on the frontend of sites. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Fixed an issue that was affecting the ability to search members when using the \"Find Duplicates\" filter on the Search Members page in the Admin.\n\n- Released a security update to the Community Comments Add-On. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- Fixed an issue that prevented the \"Type of Offer:\" from displaying properly on Coupon details pages. Post Type Involved: Coupons",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103981",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103981"
+    }
+  ],
+  "lastmod": "2025-03-31T06:28:29+05:30",
+  "scraped_at": "2026-10-18T13:55:54.174817"
+}

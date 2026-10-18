@@ -1,0 +1,152 @@
+{
+  "article_id": "12000069319",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069319-billing-reminder-emails-from-a-member-s-perspective",
+  "title": "Billing Reminder Emails - From A Member's Perspective",
+  "category": "Add-On Documentation",
+  "folder": "Billing Reminder Emails",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Billing Reminder Emails",
+    "Billing Reminder Emails - From A Member's Perspective"
+  ],
+  "content": "## Billing Reminder Emails - From A Member's Perspective\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069319\n\nThis article discusses the workflow of receiving billing reminder emails from a member's perspective when the Billing Reminder Emails Add-On is active on a site.  For more information about other aspects of this add-on, please see the following:\n\n- Billing Reminder Email Settings\n\n- Billing Reminder Email Templates\n\nThe sending of emails through this add-on can be enabled by following the steps found here: Billing Reminder Email Settings\n\nBy default, these settings will be set to \"No\", and no emails will be sent. Set the desired settings to \"Yes\" to enable members to receive billing notifications:\n\nThere are 5 different events that can trigger an email to be sent:\n\n- New Payment Received\n\n- Upcoming Payment Reminder\n\n- Past Due Reminder #1\n\n- Past Due Reminder #2\n\n- Past Due Reminder #3\n\n\n## New Payment Received\n\n\nThe following events will trigger the \"New Payment Received\" email to be sent to the member.\n\nA member signs up for a paid Membership Plan:\n\nA member upgrades their Membership Plan:\n\nA member buys a post (Articles, Coupons, Properties, Videos, Digital Downloads, etc):\n\nAn Admin of the site manually collects payment for an invoice:\n\nA member manually pays an invoice through the Member Dashboard:\n\nThis is an example of a New Payment Received email sent to a member:\n\n\n## Upcoming Payment Reminder\n\n\nThis email reminder can be sent before an invoice for an upcoming recurring subscription payment is due.  Currently recurring subscription payments are limited to recurring Membership Plan payments.\n\nThe system will generate the upcoming invoice 14 days before the payment is due, so this email can be sent between 1 and 14 days before the due date.\n\nExample: If a member is paying on the 15th of each month, then the 1st of each month, the system will generate the upcoming invoice. If the settings were set to send the reminder 5 days before the renewal, then the member will receive a notification on the 10th of each month.\n\nExample Upcoming Payment Reminder email sent to a member:\n\n\n## Past Due Reminder #1\n\n\nIf the system was not able to collect the payment, then it will send the first past due reminder. This can be sent the same day (Instant) or up 90 days after the payment collection attempt failed.\n\nExample Past Due Reminder #1 email sent to a member:\n\n\n## Past Due Reminder #2\n\n\nThe system will check each day if a previously past due invoice is still past due. If it is, the system will send the second past due email reminder.\n\nExample Past Due Reminder #2 email sent to a member:\n\n\n## Past Due Reminder #3\n\n\nIf the same invoice is still past due, the system will then send the third past due reminder.\n\nEmail sent to the member:\n\nNOTE: If the Admin of the website modifies the member's billing subscription, then the email notifications process will be stopped automatically.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12108018711/original/Ynz0Lrh-8fCdAp46nBnBtYp8Tr3FjIi4Uw.png?1650656755",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076076501/original/tLBIUVa7gz-nPWW8b_4Ts-9FNlnJfDYUvQ.png?1586367899",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076086503/original/39_GSktLvTuvrnALqJDriDqalljRr2SJiw.png?1586393303",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076086553/original/---PgyCEe0asX2rXJbO6q89b6dSCDbLkbQ.png?1586393519",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076149995/original/tuDZh657Um9M0dPF16Qr85bXu54Tzgr1Og.png?1586556885",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076150016/original/DhPcDIuDIFjxbo-KWvXqcwLQck5SfSsXIw.png?1586556999",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076087767/original/1Gj4A5VrvqM_hD6hiRQ7HejSSfYYG4VGZQ.png?1586397310",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12108018750/original/YAd-UgSLB61vC821TCkAcGnc66AzNjzU9w.png?1650656828",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076088168/original/FCx3RN2VbFZ476LW5314-2Mjokvl44Yz_w.png?1586398986",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076087866/original/_WOiYKoKo4Iefu94JUrZZlyHayFiymC6yA.png?1586397639",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076087968/original/qAUQ9mQeDQHmUOMPXvC5oMuDl8IbP0Mlrg.png?1586398032",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076087984/original/-8Op6i70_EHJulpGWHrxeY64omJjKQfoeg.png?1586398143",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Emails - From A Member's Perspective' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069319",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069319"
+    },
+    {
+      "text": "Billing Reminder Emails",
+      "url": "https://www.brilliantdirectories.com/billing-reminder-emails"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000069319"
+    },
+    {
+      "text": "Billing Reminder Email Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000069276"
+    },
+    {
+      "text": "Billing Reminder Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000069320"
+    },
+    {
+      "text": "Billing Reminder Email Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000069276"
+    }
+  ],
+  "lastmod": "2023-08-01T10:17:25+05:30",
+  "scraped_at": "2026-10-18T13:46:23.358864"
+}

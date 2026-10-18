@@ -1,0 +1,82 @@
+{
+  "article_id": "12000087573",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087573-troubleshooting-member-category-search-result-issues",
+  "title": "Troubleshooting: Member Category Search Result Issues",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Troubleshooting: Member Category Search Result Issues"
+  ],
+  "content": "## Troubleshooting: Member Category Search Result Issues\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087573\n\nImportant Note : This is a continuation of the Member Search Result Issues Overview article hence we highly recommend our users go over the original article before diving into specific search result issues.\n\n\n## How to Conduct a Category Search\n\n\nCategory searches can be conducted from any search module that offers a keyword search field:\n\n\n## How To Troubleshoot Category Search Issues\n\n\nIf a category search has been conducted and expected members are not appearing in the search result, here are a few things to check that might play a role in this:\n\n\n### Check If The Member Selected The Searched Category\n\n\nThis may sound simple, but in instances where the expected member is not appearing on a category search result, the first thing to check would be if the member already selected the category.\n\nFor example, down below, we conduct a Top Level (Education) + Sub Level (Colleges & Universities) Category search but no members are appearing on this result:\n\nIf we navigate to My Members >> Member Categories and check the Colleges & Universities sub-level category, we can see that currently there are no members in this category:\n\nIf we login as a member and select this category:\n\nThe same search result page will start displaying this member as a result:\n\nIf a category search has been conducted and un expected members are appearing in the search result, here are a few things to check that might play a role in this:\n\n\n### Check If The Member Is Listed In All Sub-Level Categories\n\n\nIf un expected members are appearing in the category search result, it is a good practice to check if the Max. Sub-Level Categories Member Can Select setting is set to \"all\" for the membership plan, which will list them under all available sub-level categories:\n\nImportant Note: The \"all\" sub-level categories refer to all available sub and sub-sub level categories of the top-level category the member selected. The member would not be listed under other sub and sub-sub level categories that are under different top-level categories.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109949447/original/IQT0b-14XIKBdR3-AZqCeWBSowJjG__jHg.png?1654546835",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Category Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109949680/original/4sJc_-_UW0rEn9oR6QvDNrcuSYoRxSkPpw.png?1654547084",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Category Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109949744/original/eZOzz1aDMsCFWsfcG_LAUUAbA3_yINJyUA.png?1654547191",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Category Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109949832/original/xBpyhg0eAc-Ihjd_N7lEQ06dP_sTn-WNPA.png?1654547283",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Category Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109949876/original/jY7ZZCe-29_FDZ3PwZF4qvrXkFBSzcNKBg.png?1654547330",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Category Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110006608/original/GiCsUP4arU6wRh3QHaKB3_1GhWNdl7JhDg.png?1654630065",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Category Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087573",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087573"
+    },
+    {
+      "text": "Member Search Result Issues Overview",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000660016"
+    }
+  ],
+  "lastmod": "2025-06-06T05:23:33+05:30",
+  "scraped_at": "2026-10-18T13:49:52.654078"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109088",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109088-update-verify-listing-form-dashboard-installer",
+  "title": "Update Verify Listing Form - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Update Verify Listing Form - Dashboard Installer"
+  ],
+  "content": "## Update Verify Listing Form - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109088\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Update Verify Listing Form Does\n\n\nThis installer updates the built-in verify_business form so it can use email templates and feed submissions into Form Inquiries. It makes changes in two places.\n\nFirst, in the forms table, for the form named verify_business it sets four values: form_url to the Bootstrap Theme Save Form widget endpoint ( /api/widget/json/get/Bootstrap%20Theme%20-%20Function%20-%20Save%20Form ), form_action_type to widget , email_template to contact-us , and email_template_admin to contact-form-submission . Then, in the form_fields table, it renames the form's email field to inquiry_email so submissions are appended to Form Inquiries correctly. The field rename only runs if the first update succeeds; if the first update fails, the installer stops and makes no field change.\n\n\n## Why It Appears\n\n\nThis installer only applies when the Leads System is installed (the site's enable_data_flows setting is greater than zero). When that is the case, it checks the verify_business form and its fields, and it is offered if any of these are out of date: the form's form_url , form_action_type , email_template , or email_template_admin does not match the expected values above, or the form still has a field named email . If the Leads System is not installed, or everything already matches, the installer does not appear.\n\n\n## Why It Matters\n\n\nThe updated settings let the verify listing form use proper email templates for both the visitor confirmation and the admin notification, and routing it through the Save Form widget with the renamed inquiry_email field means submissions are appended to the site's Form Inquiries. Without these changes the form cannot take advantage of those template and inquiry-tracking features.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site's verify_business form needs updating, Update Verify Listing Form appears in the list. Click Install .\n\n- After it completes, click Check For Updates again to confirm the entry is gone.\n\n\n## After Running\n\n\nThe verify listing form now uses the contact-us and contact-form-submission email templates and appends submissions to Form Inquiries. There is nothing to reconfigure afterward, though the form and its email templates can be reviewed to confirm they read as intended.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109088",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109088"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:52+05:30",
+  "scraped_at": "2026-10-18T13:59:38.039451"
+}

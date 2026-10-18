@@ -1,0 +1,23 @@
+{
+  "article_id": "12000077307",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077307-01-29-21-software-updates",
+  "title": "01/29/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/29/21 - Software Updates"
+  ],
+  "content": "## 01/29/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077307\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from displaying the member sidebar menu on mobile devices when the hero section is enabled on static pages in some cases. Widgets Involved: Bootstrap Theme - Account - Sidebar Bootstrap Theme - Member Results Bootstrap Theme - Single Post Page Bootstrap Theme - Static Web Page\n\n- We fixed an issue which was preventing the system from displaying the search results pagination when the Insta-Load Search Results Add-On is not active on a site. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We implemented an update in order to improve the loading time of the member search results pages when using the Multi-Member Manager Add-on. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was causing the Simple Events Calendar to not display events which start and end on the same day in some cases.\n\n- We fixed an issue which was preventing the system from displaying the pagination on the Member Categories page >> Sub-Level tab when using the parent category filter  in the Admin.\n\n- We added two new options to the \"Website Logo Mobile View\" Design Setting: the \"Logo Compact View\" and \"Favicon Compact View\" options. Widget Involved: Bootstrap Theme - Header - Main Menu\n\n- We implemented a security update in order to prevent code injections on the Search Members page in the Admin.\n\n- We updated the documentation links of some Add-Ons on the Manage Add-Ons page in the Admin.\n\n- We deprecated the \"Account Status\" field when creating/editing Admin Accounts.\n\n- We fixed an issue which was preventing the system from respecting the currency suffix and prefix on post search results and details pages on the front-end of sites.\n\n- We fixed an issue which was preventing the system from auto-translating form fields that display a calendar in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We fixed an issue which was affecting the ability to restore the default Image Settings inn the Admin in some cases.\n\n- The \"Enter your Review\" field on the Listing - Write a Review form is now compatible with the Froala WYSIWYG. Widgets Involved: Bootstrap Theme - Member Profile - Submit Review Form - Froala Editor Javascript Form Involved: Listing - Write a Review\n\n- The dash symbol \"-\" on the member sidebar menu is now a Text Label. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We added the ability to add videos to multi-image Post Types. In order to use this new feature, navigate to the Admin >> Content >> Edit Post Settings >> Edit >> General Settings tab >> Additional Settings. Wigets Involved: Bootstrap Theme - Account - Edit Uploaded Photos Bootstrap Theme - Account - Photo Albums Upload Form\n\n- We fixed an issue which was preventing the system from automatically filling the \"From Name\" and \"From Email\" fields when using the Email Member feature on the Manage Post page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077307",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077307"
+    }
+  ],
+  "lastmod": "2021-02-02T03:30:37+05:30",
+  "scraped_at": "2026-10-18T13:47:45.743217"
+}

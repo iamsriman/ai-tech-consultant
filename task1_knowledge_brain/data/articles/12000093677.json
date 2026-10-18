@@ -1,0 +1,47 @@
+{
+  "article_id": "12000093677",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093677-changelog-june-2018",
+  "title": "Changelog - June 2018",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - June 2018"
+  ],
+  "content": "## Changelog - June 2018\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093677\n\nNew Features:\n\n- Now the Checkbox and Radio Input fields of the Form Builder are fully supported by the system's email functionality when added as custom fields to a form on the site.\n\n- The Export Member Data Add-On now includes a new field called full_filename - this field is a concatenation of the protocol (HTTP/HTTPS), the Site's Domain, and the filename of the Member.  This is useful when used with 3rd party email platforms that need the full URL of the member's profile page.\n\n- We added the ability to easily change the Status of an Invoice between Paid/Unpaid on the Transaction History Page in the Admin area.\n\n- Now Admins have the ability to see the Subscription History for each Member through the Member Details Page in the Admin area. In order to use this new feature, navigate to the Admin >> Members >> Search members >> Actions >> Account Details.  There is a new tab there called Subscriptions.\n\n- We released the Website Announcement Bar Add-On.\n\n- We released the AdBlock Detector Add-On. For more information click here .\n\n- We added the ability to sort Recent Events search results based on the Product Level like the other Recent Homepage widgets do.\n\n- We added support for placeholder text for the Select Dropdown field type in the Form Builder.\n\n- Now Admins have the ability to delete Subscriptions and Invoices from the Transaction History page in the Admin. In order to use this new feature, navigate to Admin >> Finance >> Transaction History >> Actions. The options to Delete Subscription and Delete Invoice are now available.\n\n- We added the ability to render Menus using a shortcode like is available for Forms and Widgets. E.g: [menu=pricing_menu]\n\n- We updated the pop-up actions in the Admin. Now all Admin pages are using the most recent version of the Fancybox library, fixing conflicts with some browser extensions and providing a more unified user interface.\n\n- We added Consent Management (GDPR) support for the Lead, Contact Us, and Newsletter forms. Click here for more information.\n\n- We added functionality to automatically terminate all Products and cancel all unpaid and past-due invoices when a member clicks the \"Close my Account\" button in the Member Dashboard. Also, we added the same functionality when an Admin deletes a member from the Admin area.\n\n- We released the Free Trial Period Add-On. Click here for more information.\n\n- We released the Limit Posts per Member Add-On. Click here for more information.\n\n- We added the option to accept Quarterly Payments for paid products. In order to use this new feature, navigate to the Admin >> Finance >> Manage Products >> Edit >> Pricing tab.\n\n- We released the Limit Max Photos Per Album Add-On. Click here for more information.\n\n- We added a Member Profile Stats and a Member Content tab to the Members Details page in the Admin area.  This shows the profile stats and posts published by the selected member.  In order to use this new feature, navigate to the Admin >> Members >> Search Members >> Actions >> Account Details.\n\n- We added the ability to automatically change the status of a member from \"Active\" to \"Past-Due\" (similar to \"Not-Active\" or \"On Hold\") when a member logs into their account and at least one of their subscription payments is past-due.  Once the member pays the past-due invoice, the status of the member will be set as \"Active\" again. In order to activate this new feature, set the Advanced Setting auto_suspend_accounts to 1.\n\nEnhancements / Fixes:\n\n- We fixed the issue that was causing duplicated results when the Sort Option was set to Random and the Lazy Load functionality was enabled on Member Search Results pages.\n\n- We identified a bug in the Google Maps API when adding the country of Ireland as a member's service area.  While Google resolves the issue on their end, we implemented a workaround so the functionality will continue working as expected.\n\n- The Recent Articles with Sidebar widget now includes the \"Posted By\" information as it is displayed in normal Article search results.\n\n- We updated the Color Theme Select module on the Design Settings page in the Admin to fix a couple of issues with the new design.\n\n- We added a Security Update to our Form Builder to avoid collision of form variable names and nicknames.\n\n- We updated the Blog Articles Details Page to show the Start Date of the Post instead of the date that was created.\n\n- We implemented a Security Update to display a 404 error when fetching a non-existent resource from the /images folder of a site.\n\n- We updated the style of the Add Credit Card Modal in the Member Dashboard to show the Save Button on smaller screen sizes when the Consent Tools are active.\n\n- We released an update to the Easy Coupon Codes Add-On to resolve an issue when a Fixed Valued Promo Code while upgrading. Also, we removed an error message that was showing on Member Profile pages when the member used a Promo Code to sign up for the site.\n\n- We fixed an issue with the Stripe Payment Gateway that was causing the System to not store Credit Card Information when 100% off Coupon Codes are used for a paid Product.\n\n- We fixed the issue of the filename of Members changing when a user claimed a listing.\n\n- We fixed an issue which was affecting the aesthetics of the Reviews page in the Admin area when the User Consent Tools are activate on a site.\n\n- We fixed an issue with the One Click Social Login and the Claimable Business Listings Add-Ons that was causing a duplicate member to be created when a user tried to claim a Listing using a social media account.\n\n- We fixed an issue which was affecting the normal behavior of the Include Posts from Non-Searchable Members setting in the Homepage Section Order area of the Design Settings page in the Admin area.\n\n- We fixed an issue which was affecting the display of the Date Range Calendar field in the Transaction History Page in the Admin area.\n\n- We added a new text label for the Lead Form. Text label name: member_lead_form_send_message\n\n- We fixed an issue with the Member Upgrade module that was causing the Product a member upgraded from to not be cancelled in some cases.\n\n- We updated the Admin Signature field on the Admin Account Page to use the Froala Editor instead of TinyMCE (deprecated).\n\n- We fixed an issue with the URL handling of the Image Import Tool in some cases.\n\n- The Post Settings code boxes now have the ability to render Widgets, Menus, and Forms using shortcodes. EG: [widget=My Custom Widget].\n\n- We made a Security Update to one of the core files that loads every time a frontend page of a website is requested\n\n- We fixed an issue that was affecting Member Profile Pages on sites that are running legacy versions of the software.\n\n- We fixed an issue which was causing errors in some cases when a visitor used the date filter when searching for Events.\n\n- We fixed an issue which was creating new members as \"Active\" before the payment was confirmed as completed.  This affected external payment gateways such as PayPal Standard.\n\n- We fixed an issue with the Members Only Content Setting which was impacting the Edit Post Setting page in the Admin area.\n\n- We fixed an issue that was affecting the category dropdowns of search features on sites that are running legacy versions of the software.\n\n- The language of the Event Calendar feature and datepicker fields is now controlled by the Language Setting found on the General Settings page of the Admin area.\n\n- In all, over 65 feature enhancements and software updates were released this month.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093677",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093677"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/adblock-detector-add-on"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000042446-europe-s-general-data-protection-regulation-gdpr-compliance"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/membership-free-trial-period"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/limit-posts-per-member-add-on"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/limit-max-photos-per-album-add-on"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/discussions/topics/12000019589"
+    }
+  ],
+  "lastmod": "2023-05-09T04:28:23+05:30",
+  "scraped_at": "2026-10-18T13:51:26.433684"
+}

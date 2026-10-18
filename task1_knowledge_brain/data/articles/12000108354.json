@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108354",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108354-04-24-2026-software-updates",
+  "title": "04/24/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/24/2026 - Software Updates"
+  ],
+  "content": "## 04/24/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108354\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Added the ability to export widget code for each widget in the \"Actions\" dropdown on the Widget Manager page in the Admin.\n\n- Released a new API endpoint (api/v2/site_info/get) that returns site information, including website name, phone, full URL, profession, industry, primary country, language, timezone, date format, distance format, currency settings, and brand image filenames.\n\n- Added support for additional custom operators on the API endpoints, including not_in, not_like, is_null, is_not_null, between, and word-form aliases such as lt, lte, gt, gte, eq, ne, and neq.\n\n- Improved the API endpoint that retrieves Post Types so that when a Post Type does not have local code saved the system now returns the master Post Type code as a fallback instead of empty values.\n\n- Released a new bookmark counter that displays the number of member bookmarks a member has in the Member Dashboard. Widget Involved: Bootstrap Theme - Display - Add to Favorites Button\n\n- Added a loading indicator that appears when clicking the \" Find Unused URL\" button on the 301 Redirects page in the Admin, providing visual feedback that the action is in progress.\n\n- Fixed an issue that caused the system to fall back to a small bounding-box search instead of using the configured radius when generating suggested member matches for a lead from the Admin Panel in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that caused both the \"Click To Load More Results\" button and the standard pagination numbers to display simultaneously on search results pages when the Lazy Load Add-On was active and the Pagination Display Options Post Type setting was not explicitly configured.\n\n- Fixed an issue that prevented the State field from displaying its options when a hidden Country field was used to pre-select a country on the Free Signup form with the Express Signup feature enabled. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- Fixed an issue that prevented multi-field search filters from being applied on the API endpoints, which caused the system to return the full unfiltered list of records instead of the filtered results.\n\n- Fixed an issue that caused Membership Plan prices, Lead prices, and other price values to lose their decimal portion when saved on a site using European currency format.\n\n- Fixed an issue that caused the system to silently overwrite another email template's content when an existing email template was renamed to match the name of another template in the Admin.\n\n- Fixed an issue that prevented Form Email notifications from being sent when a member submitted the Password Retrieval form. Widget Involved: Bootstrap Theme - Member Login Page\n\n- Fixed an issue that caused the Lead Auto-Match feature to fail when a Get Matched form was submitted from a search results page that contained a keyword in the URL. Widget Involved: Search - Member - Search Query\n\n- Fixed an issue that prevented the \" Reload Same Web Page After Express Member Registration\" setting from working when a visitor started the registration process from a Member Dashboard internal URL. Widget Involved: Bootstrap Theme - Member Login Page\n\n- Fixed an issue that caused the system to consume member credits twice when a member with sufficient WHMCS credits to fully cover an upgrade attempted to upgrade their membership plan.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108354",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108354"
+    }
+  ],
+  "lastmod": "2026-04-30T06:08:38+05:30",
+  "scraped_at": "2026-10-18T13:58:48.329925"
+}

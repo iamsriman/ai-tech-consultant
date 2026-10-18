@@ -1,0 +1,94 @@
+{
+  "article_id": "12000107265",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107265-account-dashboard-notification-settings",
+  "title": "Account Dashboard » Notification Settings",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Account Dashboard » Notification Settings"
+  ],
+  "content": "## Account Dashboard » Notification Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107265\n\nThe Notification Settings page in the Account Dashboard controls how the admin is notified about activity on the account's websites, such as new member signups, payments and leads. Notifications can be delivered through three channels: the Account Dashboard notification bell, desktop browser pop-ups, and the ManageMyDirectory.com mobile app. Each channel is turned on separately and has its own list of activity that triggers it.\n\n\n## Before Starting\n\n\n- Sign in to the Account Dashboard .\n\n- Desktop notifications need the browser's permission to show notifications on that computer.\n\n- Mobile app (in-app) notifications need the ManageMyDirectory.com app installed and signed in. See Account Dashboard » Login Settings .\n\n\n## How to Open Notification Settings\n\n\n- In the Account Dashboard, click the admin name at the top right.\n\n- Select Notification Settings .\n\n\n## Notification Settings\n\n\n- Website notifications – Shows alerts in the Account Dashboard notification bell. Use the switch on the right of the channel to turn it on or off, and the arrow to expand or collapse its options. The label next to the channel name shows its current state.\n\n- All my websites – Covers every website on the account, including any website added later.\n\n- Notify me about – Turns each type of activity on or off for this channel: New member signups , New payments , Plan changes , New leads , New reviews , Form inquiries , Support messages and Member logins .\n\n- Send a test notification – Sends a sample notification through the channel to confirm it works.\n\n- Desktop notifications – Browser pop-ups on this computer, even when the dashboard is closed. Click Enable desktop notifications and allow notifications when the browser asks. The channel then has its own website and activity options.\n\n- Mobile app (in-app) – Push notifications on the ManageMyDirectory.com mobile app. It shows Not set up until the app is signed in on a phone; its options appear here after that.\n\n- How often – How often notifications are sent: Real-time (as it happens) , Every 5 minutes , Every 15 minutes , Every 30 minutes or Every hour .\n\n- Save changes – Saves every channel. The message Notification settings saved. confirms the change.\n\nNotes on the channels. When All my websites is cleared, Choose websites opens a list of the account's websites. That selection is saved with the channel, but delivery does not yet limit notifications to the chosen websites. Desktop delivery of live website activity is still being finished. The desktop test notification already works. Saving from a browser that cannot use a channel (for example, desktop notifications not allowed in that browser, or no signed-in mobile app) leaves that channel's saved settings unchanged.\n\n\n## Activity Panel\n\n\nThe bell icon at the top of the Account Dashboard opens the Activity panel, which lists recent activity from the account's websites for any channel set to Website notifications . The panel can be filtered by activity type and by website.\n\n\n### Activity Type\n\n\nSelect which activity type to show.\n\nAll Activity Sign Ups Plan Changes Payments Logins Leads Reviews Forms Support\n\n\n### Select Website\n\n\nSelect the websites activity to be shown.\n\n\n## Related Articles\n\n\n- Account Dashboard » Update Profile\n\n- Account Dashboard » Login Settings",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185979020/original/QY8SS66mgVx3pRGSKhiEpkqQZWcrGrjTCg.png?1790709153",
+      "alt": "Account Dashboard admin menu with Notification Settings highlighted",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Account Dashboard » Notification Settings' (Dashboard Overview > Dashboard Links & Modules): Account Dashboard admin menu with Notification Settings highlighted",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185979025/original/Aa-bFFwQnH2Frmv335ltVjNDDa-1t_oU1Q.png?1790709161",
+      "alt": "Notification Settings page with each setting numbered",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Account Dashboard » Notification Settings' (Dashboard Overview > Dashboard Links & Modules): Notification Settings page with each setting numbered",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175445818/original/ZSuUybgfaacBPS8tsahNlzenpwwOQ1ZWIA.png?1772554956",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard » Notification Settings' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175445819/original/UoarhxLj7HGLbpOuBbTjI3RhfciTQvgPJw.png?1772554965",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard » Notification Settings' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175445851/original/BGcpGTtovOqh55IWXB_Q2AZCWG3SZKd8Ag.png?1772555007",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard » Notification Settings' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175445868/original/hEnr2_C694cvgxvwDBbwpn8XfYjvGDpxSA.png?1772555012",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard » Notification Settings' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107265",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107265"
+    },
+    {
+      "text": "Account Dashboard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476"
+    },
+    {
+      "text": "Account Dashboard » Login Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947"
+    },
+    {
+      "text": "Account Dashboard » Update Profile",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109946"
+    },
+    {
+      "text": "Account Dashboard » Login Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947"
+    }
+  ],
+  "lastmod": "2026-09-30T00:51:48+05:30",
+  "scraped_at": "2026-10-18T13:57:06.226791"
+}

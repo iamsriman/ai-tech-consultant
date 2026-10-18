@@ -1,0 +1,23 @@
+{
+  "article_id": "12000030177",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030177-05-26-17-software-updates",
+  "title": "05/26/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/26/17 - Software Updates"
+  ],
+  "content": "## 05/26/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000030177\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed the issue in the billing module that was displaying an \"unsuccessful\" message when a payment was indeed successful in some cases.\n\n- We updated the Request Review and Invite Colleagues features in the Member Dashboard. Widgets Involved: Bootstrap Theme - Account - Input Invite Emails Get More Recommendations Invite Contacts Cloudsponge Box Invite Friends Header Text Website - Main Footer Scripts Settings Involved: promote_feature promote_feature_reviews promote_feature_invite\n\n- We updated the method by which Design Settings are saved to prevent an issue that was causing Design Settings to save as blank in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000030177",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030177"
+    }
+  ],
+  "lastmod": "2018-04-19T01:44:17+05:30",
+  "scraped_at": "2026-10-18T13:41:13.386608"
+}

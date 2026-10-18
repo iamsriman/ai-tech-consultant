@@ -1,0 +1,27 @@
+{
+  "article_id": "12000065704",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065704-12-13-19-software-updates",
+  "title": "12/13/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/13/19 - Software Updates"
+  ],
+  "content": "## 12/13/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065704\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the logic when a paid signup transaction fails.  Previously, the system would create the member account, but set their status to \"Past Due\".  The new member would then sign in to their account to update their billing details and pay the pending invoice.  Now, the system will not create the member account if the payment fails, but rather prompt the member to update their credit card information and try again.  The system will also send an email notification to the \"Default Website Email\" address with the information about the failed signup attempt.  The failed signup attempt will also be logged in the Activity Tracker in the Admin.\n\n- We fixed an issue which was preventing members from adding a few specific zip / post codes as additional locations when using the \"Multi-Location Listings\" Add-On. Widget Involved Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue which was causing the Contact Details tab in the Member Dashboard to be marked as \"Complete\", even when the member had not selected a \"Top Category\" and the field was set to be required.\n\n- We fixed an issue that was preventing users from searching for members by country in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was preventing the system from displaying thumbnail images on videos search results pages in some cases. Feature Involved: Videos\n\n- We updated the layout of the \"Edit Web Pages\" section of the Admin.\n\n- The protocol_website_url variable  is now available for use in all email templates.\n\n- The \"Hero Section Settings\" on the Edit Web Pages section of the Admin is now compatible with the \"Member Search Results\" page type. Widget Involved: Bootstrap Theme - Member Results\n\n- We released the Dynamic Category Filtering Add-On. Click here for more information. Widget Involved: Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065704",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065704"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/dynamic-category-filtering-add-on"
+    }
+  ],
+  "lastmod": "2019-12-14T03:40:58+05:30",
+  "scraped_at": "2026-10-18T13:45:50.181255"
+}

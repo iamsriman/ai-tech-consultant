@@ -1,0 +1,153 @@
+{
+  "article_id": "12000108609",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108609-troubleshooting-member-keyword-search-result",
+  "title": "Troubleshooting: Member Keyword Search Result",
+  "category": "Developer Hub",
+  "folder": "Quick FAQ",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Quick FAQ",
+    "Troubleshooting: Member Keyword Search Result"
+  ],
+  "content": "## Troubleshooting: Member Keyword Search Result\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108609\n\nImportant Note : This is a continuation of the Member Search Result Issues Overview article hence we highly recommend our users go over the original article before diving into specific search result issues.\n\n\n## How to Conduct a Keyword Search\n\n\nKeyword searches can be conducted from any search module that offers a keyword search field:\n\n\n## How To Troubleshoot Keyword Search Issues\n\n\nIf a keyword search has been conducted and expected members are not appearing in the search result, here are a few things to check that might play a role in this:\n\n\n### Check The Category Keyword Searches Search Setting\n\n\nThe Category Keyword Searches setting under Settings >> Design Settings >> Searching Settings plays an important role in member search results:\n\nThe Strict Match keyword search will return the category results if the keyword is an exact match for a category or a category keyword. If the user searches for a keyword that is not an exact match, it will continue looking through the rest of the member profiles and return members that have that keyword in their profile.\n\nLet's use the member down below for example with the name Johnny Cook, who selected the sub-level category American Food :\n\nIf the user conducts a keyword search with the wording \"american\", this member will not show up in the search result:\n\nThe reason for that is the Category Keyword Searches setting is set to be Strict Match and there are no exact matches for a category or a category keyword:\n\nIf the user conducts a search for \"american food\" instead, the member specified will indeed show up in this keyword search result:\n\nAs this is an exact match with the sub-level category named \"American Food\" this member is selected.\n\nLet's change the Category Keyword Searches setting to be Broader Match instead and see the difference:\n\nThe Broad Match keyword search will return the results if a keyword is a match for the start of a category name or category keyword.\n\nIf the user conducts a keyword search again with the wording \"American\", the member specified will indeed show up in this search result this time:\n\nFor more information regarding the differences between the Broad and Strict Match keyword searches, please refer to the article down below where this is explained in detail with additional examples:\n\n- Member Keyword Search Type\n\n\n### Check If The Expanded Keyword Search Add-On Is Enabled\n\n\nIf the Expanded Keyword Search add-on is enabled on the site, wordings saved in default fields like About Me, Phone Number, or custom fields created on the site will all be taken into consideration:\n\nLet's use the same member as an example, in the About Me section for this member, we can see the wording \"Mexico\" has been used:\n\nAs the Expanded Keyword Search add-on is enabled on this site, conducting a keyword search with \"Mexico\" would indeed display this member as a result:\n\nIf we disable the add-on for testing purposes:\n\nThe member will no longer show up on this search result:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109644360/original/WRKBN_Il5T_9Skng5ifsyS2opQGpPlZmTw.png?1653929914",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109946126/original/0V_VOpxQbgu72nCMf6AW6A1Ou4NKaBjHyA.png?1654542330",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109946624/original/QFOr6ZS5XZbcJezUuktau1dCDYdaFkAKHQ.png?1654542977",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109946648/original/TiarpNRZQ_543ksOFX9DRtjPXYnonHFa0A.png?1654543027",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109946785/original/Vh8li4GaDoHsBvWHss01mbCaGXVQZ1L8bg.png?1654543237",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109946825/original/7Ep0_2I20PaJUbIyA0RnYID5cReJQTNb4w.png?1654543296",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109946908/original/LzXTJ9LRZ319rTu4v4a5_ZmjZ4rmYf5OsQ.png?1654543413",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109947239/original/ewcW3MBcOxKtkOt0M1j_uPIdMJwLa78xWw.png?1654543920",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109948316/original/sdRH3nJ_lkM6G6FAc4c3QiFqsEeeQy9bDA.png?1654545563",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109948594/original/P5evWg6UNQGu9nt3sMzR_MrnOWyZUpPFWA.png?1654545931",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109948626/original/lFqvW4L23wky3ZQ6GEMJHVWYmBtXKI_b9Q.png?1654545982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109948637/original/wOpi8No7PHCM8oeau6zBTaNKl-zrxbFD-w.png?1654546001",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109948648/original/TxO4FWR3dCJfc7L63_ISNLe_Q5EFDcpDtA.png?1654546022",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Keyword Search Result' in section 'Developer Hub' / 'Quick FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108609",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108609"
+    },
+    {
+      "text": "Member Search Result Issues Overview",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000660016"
+    },
+    {
+      "text": "Member Keyword Search Type",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058863"
+    },
+    {
+      "text": "Expanded Keyword Search",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034876"
+    }
+  ],
+  "lastmod": "2026-05-26T08:10:24+05:30",
+  "scraped_at": "2026-10-18T13:58:57.138559"
+}

@@ -1,0 +1,35 @@
+{
+  "article_id": "12000069456",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069456-install-3rd-party-ssl",
+  "title": "Install 3rd Party SSL",
+  "category": "Developer Hub",
+  "folder": "cPanel Dashboard",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "cPanel Dashboard",
+    "Install 3rd Party SSL"
+  ],
+  "content": "## Install 3rd Party SSL\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069456\n\n\n## Installing a Third-Party SSL Certificate\n\n\nA third-party SSL certificate can be installed through cPanel and then enabled in Brilliant Directories. The certificate provider remains responsible for issuing and renewing the certificate.\n\n\n### Requirements\n\n\nTo complete installation, you’ll need the issued certificate, its matching private key, and any required certificate-authority bundle. cPanel navigation can change, but the certificate tools remain under SSL/TLS .\n\n\n### Generate a Certificate Signing Request\n\n\n- Open Developer Hub > cPanel Dashboard .\n\n- Open SSL/TLS .\n\n- Generate a Certificate Signing Request (CSR) for the live domain and submit it to the certificate provider.\n\nSee the cPanel CSR documentation for additional guidance.\n\n\n### Install the Certificate\n\n\n- After the provider issues the certificate, return to SSL/TLS and open Manage SSL Sites .\n\n- Select the correct domain.\n\n- Paste the certificate into Certificate (CRT) , the matching key into Private Key (KEY) , and the authority bundle when supplied.\n\n- Select Install Certificate .\n\nSee the cPanel installation documentation .\n\n\n### Enable and Verify SSL in Brilliant Directories\n\n\nReturn to Settings > Domain Manager > SSL . Select I already installed a certificate — check for it when offered, then select Check again to refresh the status.\n\n\n### Renewal\n\n\nA manually installed certificate must be renewed and reinstalled before it expires. An expired certificate can produce browser security warnings.\n\n\n### Managed SSL Alternative\n\n\nBrilliant Directories can issue, install, and maintain a certificate through the Managed SSL Security Add-On .",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069456",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069456"
+    },
+    {
+      "text": "cPanel CSR documentation",
+      "url": "https://docs.cpanel.net/cpanel/security/ssl-tls/#certificate-signing-requests-csr"
+    },
+    {
+      "text": "cPanel installation documentation",
+      "url": "https://docs.cpanel.net/cpanel/security/ssl-tls/#install-and-manage-ssl-for-your-site-https"
+    },
+    {
+      "text": "Managed SSL Security Add-On",
+      "url": "https://www.brilliantdirectories.com/ssl-secure-website"
+    }
+  ],
+  "lastmod": "2026-09-28T23:27:41+05:30",
+  "scraped_at": "2026-10-18T13:46:25.874646"
+}

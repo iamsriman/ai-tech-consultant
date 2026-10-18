@@ -1,0 +1,188 @@
+{
+  "article_id": "12000087484",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087484-troubleshooting-member-location-search-result-issues",
+  "title": "Troubleshooting: Member Location Search Result Issues",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Troubleshooting: Member Location Search Result Issues"
+  ],
+  "content": "## Troubleshooting: Member Location Search Result Issues\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087484\n\nImportant Note: This is a continuation of the Member Search Result Issues Overview article hence we highly recommend our users go over the original article before diving into specific search result issues.\n\n\n## How to Conduct a Location Search\n\n\nLocation searches can be conducted from any search module that offers a location search field:\n\n\n## How To Troubleshoot Location Search Issues\n\n\nIf a location search has been conducted and expected members are not appearing in the search result, here are a few things to check that might play a role in this:\n\n\n### Check Member Geocode\n\n\nNon-geocoded members would not appear in location search results. If a member updates their location via the member dashboard under the Contact Details form, the member will be geocoded automatically by the system.\n\nHowever, if the members are added manually via the admin or via a CSV file, these members need to be geocoded manually.\n\nOne way to identify if the member needs to be geocoded would be by seeing the member under Search Members and checking for the Find Geocode link or a number will display next to Sync Members with the Google Maps button:\n\nIf a member needs to be geocoded, please refer to the article down below to learn how:\n\nHow To Geocode Members - Sync Members with Google Maps\n\n\n### Check \"Default Search & Lead Auto-Match Radius\" General Setting\n\n\nThe Default Search & Lead Auto-Match Radius setting under Settings >> General Settings >> Search Settings plays an important role in member search results:\n\nWhen a location search is conducted, members within this distance from the center of the searched location will be returned as results.\n\nLet's use the member down below for an example, who is located at 1530 DeKalb Ave NE, Atlanta, GA:\n\nIf the user conducts a location search with Duluth, GA, US, the member shown above will not display in this search result:\n\nThe reason for that is the Search Radius is set to 10 miles and Duluth, GA, US is 19.59 miles away from 1530 DeKalb Ave NE:\n\nIf we change the Search Radius to be 20 miles instead:\n\nThe same member will appear in the same location search result:\n\n\n### Check the \"Strict Match\" General Settings\n\n\nUnder Settings >> General Settings >> Search Setting s , there are a few additional settings that will play a role in which members display on search results.\n\nContinuing from the example above, currently, the member with the name Johnny Cook is displaying on the \"Duluth, GA, USA\" city search result as the member is within 20 miles radius of Duluth, GA:\n\nIf we would Enable the Strict City Match setting, however, this member would no longer show in this search result:\n\nThis is how the \"Strict Match\" settings function. As we enabled the Strict City Match setting, only the members within the searched City will appear and the radius set will be ignored.\n\nFor more information regarding how the Strict Match settings work, please refer to the article down below:\n\nDifferences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings\n\n\n### Check the Multi-Location Listing Related Settings\n\n\nIf a location search is conducted and unexpected members are appearing in the search result, there are a few settings related to the Multi-Location Listing add-on that might play a role in this.\n\nContinuing from the example above, currently, the search radius setting is set to 20 miles and the Strict City Search setting is enabled but as it can be seen from the screenshot down below, there are still members that are over 20 miles away and not in the searched city appearing in the search result:\n\nUsing the member named \"Enrique Price\" for example, we can see that this member is nowhere near Duluth, GA:\n\nNotice the extra \"Services All Locations\" badge appearing on the right side of the member profile? This is the indication of this member is listed in all possible locations and will appear on any location search conducted.\n\nIn this instance, this member is in a membership plan called \"Premium\":\n\nWhere the Max. Location Limit is set to \"all\" which will list all members in this plan in all locations:\n\nVery Important Note: This is not the only Multi-Location Listing related setting that might play a role in this so we highly recommend going over the article about this add-on.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109403125/original/g1JEltK0iatfb_5vXYMdJRet3pzO1uk4eg.png?1653407534",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109403686/original/r7PAgWXMTM1VTt2B4tonOFfS9_tqbNItOw.png?1653408090",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109404756/original/OyRFY1UqJvqE0V_GuNsXMpDl7e35WZ2iDQ.png?1653409250",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109414561/original/3oqNx99AffG-IgNBnqEQDichNl7PS4cqYw.png?1653422452",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109414670/original/k_w0Mx5meVlnQt4NCmXcPnpT3EDxZVY92A.png?1653422578",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109414711/original/G5MWAafbBLIYAqSNDgB4-vopeyRjvfx4eQ.png?1653422667",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109414714/original/HjED7Kcve8-NwgTffvi6_CT-JM6MRcY8xA.png?1653422675",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109414742/original/-zhUiCcGNZ3qgdeD0ELFdxhW8880bwjX5A.png?1653422725",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109414755/original/UjJSGUSYJp22J5DMMilBISkaFhZnSMVPVw.png?1653422776",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109635324/original/8cSFzRGRE1CFdhmSiq7-LlphIPCurVozhA.png?1653916534",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109635373/original/UHJ9QHmUx7pv9fNInvr9qb1zpSto9CBeBg.png?1653916594",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109635469/original/RH8bXVKKvU3cyaBJGgiTimI-JuRmnTCjcQ.png?1653916699",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109639003/original/kpb7KaOpDpJBio52fsWebdfKFty-Z26zBg.png?1653921188",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109639088/original/zu85P0KRUqqMZ1dNrMPLr_QASAn21Xj4fg.png?1653921307",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109639192/original/nLZpuqwRd3NOfcxE0Fe9Tubm4iIhbXOPFw.png?1653921418",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109639236/original/L6VFXCZIj7rNwJpOXPtoVtWhOlnu1fzDtw.png?1653921482",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Member Location Search Result Issues' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087484",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087484"
+    },
+    {
+      "text": "Member Search Result Issues Overview",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000660016"
+    },
+    {
+      "text": "How To Geocode Members - Sync Members with Google Maps",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044148"
+    },
+    {
+      "text": "Differences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682675"
+    },
+    {
+      "text": "Multi-Location Listing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829"
+    },
+    {
+      "text": "Multi-Location Listing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829"
+    }
+  ],
+  "lastmod": "2025-06-06T04:59:49+05:30",
+  "scraped_at": "2026-10-18T13:49:49.993579"
+}

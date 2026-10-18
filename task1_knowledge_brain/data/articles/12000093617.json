@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093617",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093617-05-05-2023-software-updates",
+  "title": "05/05/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/05/2023 - Software Updates"
+  ],
+  "content": "## 05/05/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093617\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the currency symbol from displaying correctly in the Job Recent Streaming widget in some cases. Widget Involved: Bootstrap Theme - Display - Recent Jobs\n\n- We fixed an issue which was preventing the \"RSS Feed for Posts\" Add-On from working properly when one of the post categories contains a special character in some cases.\n\n- We updated the logic of the \"Member Profile Analytics\" Add-On in order to support the SMS link protocol. Widget Involved: Bootstrap Theme - Function - API\n\n- The \"Redirect to External Payment Gateway\" text used when completing a signup or upgrade action is now a Text Label. Text Labels Involved: billing_payment_gateway_external_transfer transferred_external_label\n\n- We fixed an issue which was preventing the Web Page Builder in the Admin from working properly when saving embedded links in the content of the page in some cases.\n\n- We implemented an update in order to correctly validate the \"Sqft:\" form field when creating or updating a Property Post Type in the Admin.\n\n- We updated the logic of the Member Reviews page in the Admin in order to make the %filename% email variable available to the email template sent after an Admin updates the status of a member review to \"Accepted\".\n\n- We added a new field to the Create New Ticket page called \"What is This Regarding?\". When selecting a value for this field, the ticket will be routed to the proper department.\n\n- The Sidebar Member Profile Lead Form is now compatible with the \"Disable Member Sending Messages to Themselves\" Advanced Setting. Widget Involved: System - SaveForm\n\n- We fixed an issue which was preventing member images from being deleted properly from the Member Image page in the Admin. Also, we implemented an performance update in order to reduce the load time of the Member Image page.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093617",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093617"
+    }
+  ],
+  "lastmod": "2023-05-09T21:47:08+05:30",
+  "scraped_at": "2026-10-18T13:50:58.728319"
+}

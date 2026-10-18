@@ -1,0 +1,144 @@
+{
+  "article_id": "12000003210",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003210-unsubscribing-from-the-newsletter",
+  "title": "Unsubscribing from the Newsletter",
+  "category": "Emails",
+  "folder": "View Contacts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "View Contacts",
+    "Unsubscribing from the Newsletter"
+  ],
+  "content": "## Unsubscribing from the Newsletter\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000003210\n\nEvery email sent through the Brilliant Directories platform must include a link that allows recipients to opt out of the website's mailing list. When this link is clicked, the email recipient will be directed to the website with the \"/unsubscribe\" extension appended to the URL.\n\nFor instance, find this link at http://www.demobootstrap.com/unsubscribe .\n\nThe email recipient will be automatically placed in the \"unsubscribed\" list to cease receiving emails from the website.\n\n\n### Important Note\n\n\nA parameter is added to the hashed version of the email address it was sent to. When the user clicks on the link and enters the email address into the unsubscribe form, it will only process the request if the parameter is in the URL of the page it is submitted from and matches the email address submitted in the unsubscribe form.\n\n\n## Unsubscribe List\n\n\nEach email that is added to the unsubscribe list will show in the View Contacts:\n\n- Go to Emails\n\n- Click on View Contacts\n\n- Select View Unsubscribed List from the \" Contact List Actions \" dropdown\n\n\n### Sort Order Filters\n\n\nIt is possible to sort unsubscribes by using the Sort Order Filter, the options are:\n\n- Order by Newest First\n\n- Order by Oldest First\n\n\n### Export Unsubscribe Contacts\n\n\nTo export Unsubscribe contacts, hover over the Unsubscribe Actions and select \"Export Unsubscribers.\"\n\n\n### Important Note\n\n\nThis functionality is part of the Export Member Data add-on: Export Member Data\n\n\n### Manually Unsubscribe Emails\n\n\nTo manually add an email address to the Unsubscribe List, select Add to Unsubscribe List +\n\nInsert the email address into the Valid Email Address field, then proceed by clicking on the \" Add Email Addresses \" button.\n\nPlease note: This will not remove the email from the mailing list. If someone that is tagged as a silver member, they will still show on the silver member email list. By being added to the unsubscribe list, the newly unsubscribed member will be skipped at the time the email campaign gets sent out.\n\n\n## Resubscribe Members\n\n\nIf a user has previously unsubscribed but later wants to start receiving website updates again, follow these steps:\n\n- Go to Emails\n\n- Click on View Contacts\n\n- Select View Unsubscribed List from the \" Contact List Actions \" dropdown\n\n- Then Delete the email\n\nThis will remove them from the unsubscribe list, allowing them to receive emails again if they're included in any active mailing lists.\n\n\n## Edit the Unsubscribed Webpage\n\n\nTo make changes to the Unsubscribed Webpage, to My Content >> Webpage Builder >> Unsubscribed Page:\n\n>> Everything About Froala WYSIWYG Text Editor\n\nIf the page is not available, navigate to the Dashboard and look for the INSTALL NEW UPDATES module.\n\nClick on \" Check For Updates \" and locate the Email Unsubscribe Page Installer and click the \" Install \" button:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180355575/original/6cgpZc1sXFxZGdd1BXWqTn4L4KQMhqbeUQ.png?1781304196",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180355785/original/urXbnRfMLKX1F8nV6iGqejw5L6jtfmnO3w.png?1781304846",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180357038/original/vEob3WzN7E6DmfRWWgEh5vBlVW1t0EAEng.png?1781308730",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180357051/original/0nYOAGeMYYIvcsGapa57lw38R7n9BdBnSA.png?1781308767",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131496231/original/_6VXYDELT3dE0g7HgygDZkV2Z3D70stILg.png?1695073747",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12130674711/original/Tmt9CqLPGxsO09xjNOC81xt_JiVksmV7FQ.png?1693499656",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12130674735/original/scIPtIFs6oRZsYP3Bcs1LnrCcCoidz-QOQ.png?1693499681",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093128687/original/ZUuPbE6nCkLYWVUNMPjRln_71o-Iqwn_RQ.png?1621959819",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180357257/original/hNjm0WfEWfwXXkErjTbX0h7k9uuBraT7dg.png?1781309300",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164341570/original/QRpwL3FjY-azgqn2m9qq0MWBjfn03gh7Bw.png?1752597001",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132073727/original/RSWMKbIKe0usOWyAVyTAC9ApMcTSIXea6Q.png?1696036892",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132163151/original/JxDAZvmjMMO1ixjIpmVD4kIMjuxJ_-5hhg.png?1696282425",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unsubscribing from the Newsletter' in section 'Emails' / 'View Contacts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000003210",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003210"
+    },
+    {
+      "text": "http://www.demobootstrap.com/unsubscribe",
+      "url": "http://www.demobootstrap.com/unsubscribe"
+    },
+    {
+      "text": "Export Member Data",
+      "url": "https://www.brilliantdirectories.com/export-member-data-add-on"
+    },
+    {
+      "text": "Everything About Froala WYSIWYG Text Editor",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050711"
+    }
+  ],
+  "lastmod": "2026-06-13T05:46:23+05:30",
+  "scraped_at": "2026-10-18T13:39:44.019202"
+}

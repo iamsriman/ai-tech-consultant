@@ -1,0 +1,23 @@
+{
+  "article_id": "12000053206",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053206-01-11-19-software-updates",
+  "title": "01/11/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/11/19 - Software Updates"
+  ],
+  "content": "## 01/11/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000053206\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was causing the System Updates Module in the Admin Dashboard to install an update even if the \"Install Button\" was not clicked.\n\n- We created two new Text Labels to be used on Member Search Results pages. New text labels: results_search_results_tab and read_more_search_tab. Widget Involved: Bootstrap Theme - Member Results\n\n- The issue which was affecting the ability to upload Profile Images using Microsoft Edge browser have been fixed. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We did a Security Update to the Create Email Template section, now Email Teamplates can not be saved without a Subject and Email Body message.\n\n- We implemented a Security Update to the algorithm who handles the abilty to highlight the widgets when somebody press the \"Show Widget button\" on the Front-End Admin Bar.\n\n- We fixed an issue which was affecting the ablity to View/Edit the Member Categories Page in the Admin Area.\n\n- We fixed an issue which was causing after deletes a Widget the system redirect to a 404 error in some cases.\n\n- We added a confirmation prompt when a site Admin is placing an Order in the Admin Panel.\n\n- We removed deprecated functionality from one of the core files that load in all Front-End pages.\n\n- We fixed an issue which was affecting the mobile view of the Blog Post Slider Add-On in the homepage.\n\n- We fixed an issue that was affecting the signup process in some cases.\n\n- We fixed an issue which was causing the Blog Article search module to not work properly in some cases. Widget Involved: Bootstrap Theme - Module - Blog Articles Search",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000053206",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053206"
+    }
+  ],
+  "lastmod": "2019-03-09T01:12:54+05:30",
+  "scraped_at": "2026-10-18T13:44:24.808812"
+}

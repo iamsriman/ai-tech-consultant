@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108096",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108096-api-reference-email-auto-logs",
+  "title": "API Reference - Email Auto Logs",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Email Auto Logs"
+  ],
+  "content": "## API Reference - Email Auto Logs\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108096\n\n← Back to API Reference | Getting Started Email Auto Logs Email Auto Logs record delivery events for emails sent through the automated email system. Each log entry captures a single event (such as delivered, opened, or clicked) for a specific automated email send, and is linked to a record in the Email Auto Sent table. Model name in URL: email_auto_log — DB table: email_auto_log The Email Auto Log Object Field Type Description log_id integer Unique log entry ID (primary key, read-only) database string Name of the related database table (typically email_auto_sent ) database_id integer ID of the related record in the database table (links to sent_id in email_auto_sent ) email string Email address of the recipient event string Delivery event type (EG delivered , open , click , processed , spamreport , bounce ) response string SMTP or provider response message for the event date string Date and time the event was recorded (format: YYYYMMDDHHmmss ) smtp_id string Unique message ID assigned by the SMTP provider (EG SendGrid message ID) List Email Auto Log Entries GET /api/v2/email_auto_log/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/email_auto_log/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"log_id\": \"37\",\n      \"database\": \"email_auto_sent\",\n      \"database_id\": \"1\",\n      \"email\": \"recipient@example.com\",\n      \"event\": \"delivered\",\n      \"response\": \"250 2.0.0 OK  1690321987 y8-20020abc123si456789qtx.769 - gsmtp\",\n      \"date\": \"20230725145307\",\n      \"smtp_id\": \"b7TZFvWUTZKqTnSxttx0yA@geopod-ismtpd-41\"\n    },\n    {\n      \"log_id\": \"38\",\n      \"database\": \"email_auto_sent\",\n      \"database_id\": \"1\",\n      \"email\": \"recipient@example.com\",\n      \"event\": \"processed\",\n      \"response\": \"\",\n      \"date\": \"20230725145306\",\n      \"smtp_id\": \"b7TZFvWUTZKqTnSxttx0yA@geopod-ismtpd-41\"\n    }\n  ],\n  \"total\": \"12\",\n  \"current_page\": 1,\n  \"total_pages\": 1,\n  \"next_page\": \"\"\n} Retrieve an Email Auto Log Entry GET /api/v2/email_auto_log/get/{log_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/email_auto_log/get/37\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"log_id\": \"37\",\n      \"database\": \"email_auto_sent\",\n      \"database_id\": \"1\",\n      \"email\": \"recipient@example.com\",\n      \"event\": \"delivered\",\n      \"response\": \"250 2.0.0 OK  1690321987 y8-20020abc123si456789qtx.769 - gsmtp\",\n      \"date\": \"20230725145307\",\n      \"smtp_id\": \"b7TZFvWUTZKqTnSxttx0yA@geopod-ismtpd-41\"\n    }\n  ],\n  \"total\": \"12\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create an Email Auto Log Entry POST /api/v2/email_auto_log/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/email_auto_log/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"database=email_auto_sent\" \\\n  -d \"database_id=5\" \\\n  -d \"email=recipient%40example.com\" \\\n  -d \"event=delivered\" \\\n  -d \"response=250+OK\" \\\n  -d \"date=20240401120000\" \\\n  -d \"smtp_id=abc123xyz%40geopod-ismtpd-1\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"log_id\": \"13\",\n    \"database\": \"email_auto_sent\",\n    \"database_id\": \"5\",\n    \"email\": \"recipient@example.com\",\n    \"event\": \"delivered\",\n    \"response\": \"250 OK\",\n    \"date\": \"20240401120000\",\n    \"smtp_id\": \"abc123xyz@geopod-ismtpd-1\"\n  }\n} Update an Email Auto Log Entry PUT /api/v2/email_auto_log/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/email_auto_log/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"log_id=13\" \\\n  -d \"event=open\" \\\n  -d \"response=\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"log_id\": \"13\",\n    \"database\": \"email_auto_sent\",\n    \"database_id\": \"5\",\n    \"email\": \"recipient@example.com\",\n    \"event\": \"open\",\n    \"response\": \"\",\n    \"date\": \"20240401120000\",\n    \"smtp_id\": \"abc123xyz@geopod-ismtpd-1\"\n  }\n} Delete an Email Auto Log Entry DELETE /api/v2/email_auto_log/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/email_auto_log/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"log_id=13\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"email_auto_log record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108096",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108096"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:50+05:30",
+  "scraped_at": "2026-10-18T13:58:04.275058"
+}

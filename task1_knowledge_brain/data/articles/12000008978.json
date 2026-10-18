@@ -1,0 +1,133 @@
+{
+  "article_id": "12000008978",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008978-how-to-setup-upgrade-downgrade-options-for-membership-plans",
+  "title": "How to Setup Upgrade/Downgrade Options for Membership Plans",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "How to Setup Upgrade/Downgrade Options for Membership Plans"
+  ],
+  "content": "## How to Setup Upgrade/Downgrade Options for Membership Plans\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000008978\n\nThe Available Upgrade Options settings control which membership plans appear on the Upgrade/Downgrade page for each member. This guide outlines the steps to enable and configure these settings within a Brilliant Directories website.\n\n\n## How to Activate the \"Available Upgrade Options\" Settings\n\n\nFollow these steps:\n\n\n### 1. Go to the Membership Plans Section\n\n\n- Navigate to Finance » Membership Plans .\n\n- Click Edit on the membership plan that requires configuration.\n\n\n### 2. Open the Sign Ups & Upgrades Tab\n\n\n- Click Sign Ups & Upgrades tab.\n\n- Scroll down to find the section titled Change Plan – Upgrade/Downgrade Settings .\n\n\n## Configuration Options\n\n\nScroll down in the settings area to find the following options:\n\n\n### 1. Upgrade Email Sent\n\n\nChoose an email template to send to members after they upgrade to this membership plan.\n\n\n### Additional Option\n\n\n- Send Copy of Email to Default Website Email Address If checked (default), the system sends a copy of the upgrade email to the site admin.\n\n\n### Email Template Recommendations\n\n\n- Upgrade Email (Template: upgrade-response ) Use when upgrading from a lower-tier plan.\n\n- Downgrade Email (Template: downgrade-response ) Use when moving to a lower-tier plan, especially from the highest-tier plan.\n\n- Generic Template Create a neutral template if this plan is both an upgrade and downgrade option. This keeps the message relevant regardless of direction.\n\n\n### 2. After Upgrading to This Plan, Set Account Status As\n\n\nChoose the member's account status after the upgrade\n\n- Active Account Member becomes active and visible on the site.\n\n- Inactive Account Member remains inactive and hidden from the site.\n\n- Same Status Before Upgrading Member retains the status they had before the upgrade.\n\n- On Hold, Requires Admin Approval Member is on hold until manually approved by the admin.\n\n\n### 3. Available Upgrade Options\n\n\nThis is the key setting to control which plans members can upgrade or downgrade to.\n\n- Available Plans Select the membership plans that should appear as upgrade/downgrade options.\n\n- Pre-Selected Plan Choose the default selected upgrade option.\n\n- Display Order Choose the order in which plans appear on the upgrade page.\n\n\n### 4. Upgrade Page Header Content\n\n\nEnter a custom message or instruction that will appear above the upgrade options on the member’s Upgrade page.\n\n\n### 5. Description Why Members Should Upgrade to This Level\n\n\nAdd a description that explains the benefits of upgrading to this plan. This description will only be visible to members who are eligible to upgrade to this plan — not to those who are already on it.\n\nNote : This message will not display for members already in the plan.\n\nThis description will not display for members already enrolled in Plan 1.\n\n\n### 6. Free Trial when upgrading\n\n\nIf the membership plan a member upgrades to includes a Free Trial, the free trial will also be applied during the upgrade process. This means members upgrading to that plan will receive the same trial period as they would during a new sign-up, according to the membership plan's Free Trial settings and this will show in the member dashboard when upgrading:\n\n\n### 7. Card-Based Layout on Member Upgrade Page\n\n\nA new Advanced Setting is available to display the available membership plans in a card view instead of the standard list layout.\n\nWhen enabled, members will see the membership plan options presented as individual cards during the sign-up, upgrade, or downgrade process:\n\n\n## Additional Notes\n\n\n- Membership plans with the Account Type: \"Claim\" do not allow plan changes until the listing is claimed by a member.\n\n- For more information about the member upgrade experience, see: Member Upgrades From Members’ Perception",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183886337/original/N-frPsxxYm8KiIVUMcK5nosNTpAe5Qtgcw.png?1787180327",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183886383/original/iQfZ1BFv75G2PjMi-nKiXxlveL_Ym-udRg.png?1787180561",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183887856/original/iPBsCzV2Be6Nil1Sb7NGW4kn0z2BcB7f6Q.png?1787185058",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183887894/original/3SYg3olmWIl9HxB0lUJyAQ0VZ2xRcMFTRA.png?1787185202",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183887913/original/JhhZF0I-Ygeo_bwj5rdw8Xj2_vLc1kj-YQ.png?1787185283",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183888025/original/f-zy7k_LDDYbWVu7UTGPZBKEaNvoT2h_HQ.png?1787185691",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181939491/original/ucwbP-6kLCI7ucMe8jsvAkjTSZs198n1Yg.png?1783952792",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181940085/original/8GrOYx4I1GtGtcewBtKSXmORskVvv9BqKQ.png?1783953178",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181940288/original/jHw4s3sUFOhEaA-aHPjx-2HHm4q1QgDPbg.png?1783953329",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Setup Upgrade/Downgrade Options for Membership Plans' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000008978",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008978"
+    },
+    {
+      "text": "Free Trial",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046572-free-trial-period"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/5000673912"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/5000673912"
+    },
+    {
+      "text": "Member Upgrades From Members’ Perception",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/5000673912"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/5000673912"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/5000673912"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/a/tickets/new"
+    }
+  ],
+  "lastmod": "2026-08-20T05:59:08+05:30",
+  "scraped_at": "2026-10-18T13:40:10.757913"
+}

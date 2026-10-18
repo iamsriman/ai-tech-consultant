@@ -1,0 +1,55 @@
+{
+  "article_id": "12000000520",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000520-how-to-upload-a-social-media-sharing-image-to-the-site-",
+  "title": "How to upload a Social Media Sharing Image to the site",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "How to upload a Social Media Sharing Image to the site"
+  ],
+  "content": "## How to upload a Social Media Sharing Image to the site\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000000520\n\n1. Navigate to: Content » Edit Web Pages » Select Homepage ( /home url)\n\n2. Open the SEO Settings tab and upload an image:\n\n3. The image can be uploaded directly from the computer or from an existing image in the Media Manager.\n\nRECOMMENDATIONS\n\n- Do not use image names with spaces or special characters, this will prevent them from not working on any social site since this goes against the Web Standards. For example, an image named Hello World.jpg will not work. It should be named HelloWorld.jpg (Without spaces).\n\n- Images should be PNG, JPG or GIF. To have the best quality, use PNG. For compression, use JPG, and for an image to be animated, use GIF.\n\n- When testing which image to use for sharing on a social site, such as Facebook, navigate to Facebook Debug Tool to make sure that the image is being fetched properly. Click on the Fetch new scrape information button to grab the latest changes from the site (Instead of the cache version Facebook uses from the site).",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094922683/original/cAo8hthoq297KG2EI-BlKbOZrJchz394YQ.png?1625180561",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to upload a Social Media Sharing Image to the site' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094922717/original/iQ8Sa3M_TzC-6UdLmNINlGhPj-g6BT9c5g.png?1625180672",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to upload a Social Media Sharing Image to the site' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094922628/original/aCW_FRoSsbyDrn9FTLD6Rf1xB2vTTN2ulg.png?1625180393",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to upload a Social Media Sharing Image to the site' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000000520",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000520"
+    },
+    {
+      "text": "Facebook Debug Tool",
+      "url": "https://developers.facebook.com/tools/debug"
+    }
+  ],
+  "lastmod": "2023-07-19T07:36:11+05:30",
+  "scraped_at": "2026-10-18T13:39:21.217368"
+}

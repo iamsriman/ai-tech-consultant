@@ -1,0 +1,106 @@
+{
+  "article_id": "12000025507",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000025507-toolbox-widget-manager-overview",
+  "title": "Toolbox » Widget Manager Overview",
+  "category": "Toolbox",
+  "folder": "Widget Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Widget Manager",
+    "Toolbox » Widget Manager Overview"
+  ],
+  "content": "## Toolbox » Widget Manager Overview\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000025507\n\nWidgets are the core components of a Brilliant Directories website. They contain most of the PHP, HTML, CSS, and JavaScript that control how the site functions and displays content.\n\nModifying widget code is often required when adjusting layout, functionality, or specific areas of the website.\n\n\n## Default Widgets\n\n\nDefault Widgets are stored in a central database that all Brilliant Directories websites reference automatically. These widgets remain up-to-date because they are maintained centrally.\n\nThe internal development team updates Default Widgets to support core functionality, introduce new features, and apply improvements.\n\nIf no customization is made, the website continues to use the latest version of each Default Widget.\n\nDefault Widgets can be accessed under Toolbox » Widget Manager in the admin area.\n\n\n## Customized Widgets\n\n\nWhen a Default Widget is customized, or a new widget is created using the New Widget option, it appears in the Customized Widgets section.\n\nThis section is located at the top of the Toolbox » Widget Manager page, above the Default Widgets list.\n\n\n## Edit Widget Tabs\n\n\nEach widget includes three primary code sections:\n\n- HTML\n\n- CSS\n\n- JavaScript\n\n- Diff\n\nEach tab corresponds to its respective language and allows direct editing of the widget code.\n\n\n### Diff Tab\n\n\nThe Diff tab compares the Default Widget code with the Customized version side by side. The code is separated into collapsible sections: HTML, CSS, and JavaScript. This makes it easy to identify exactly what has changed in each area.\n\nEach section displays a line count summary (e.g. \"10 vs 9 lines (+1)\") so it is easy to see how many lines differ. Lines that exist in the customized version but not the default are highlighted, making it simple to pinpoint modifications at a glance.\n\nThis tab is only available for Customized Widgets.\n\n\n## Widget Type\n\n\nThe Edit Widget view includes an option to define the widget type.\n\nSelect \"Widget\" for standard functionality. Select \"Advertisement / Banner\" when the widget is intended to display banner content.\n\nNote: If \"Advertisement / Banner\" is selected while the Display Banner Advertisements setting (Design Settings → Banner Ads) is disabled, the widget content will not be displayed.\n\n\n## Additional Resources\n\n\nSome useful articles related to widgets can be found below:\n\nHow To Customize A Widget\n\nHow To Create A New Widget\n\nHow To Disable/Enable A Widget\n\nHow To Delete A Widget\n\nBulk Actions For Widgets\n\nHow To Call A Widget On A Custom Page\n\nLocating The Widgets Via Admin Bar",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182650396/original/M_hbdobAyObdYJJ_LyHE44cU0n1H-Za5BA.png?1785113427",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Widget Manager Overview' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182651776/original/RbfanAkxY780QH3FHvApLfID4dzVjZzdSQ.png?1785119017",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Widget Manager Overview' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179539897/original/CSWGJEnt135goxNjYcbRBTvm2t9HuYnR1g.png?1779984946",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Widget Manager Overview' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179540830/original/RLLLDUjMv2NNLaYF7FSDQ8u5ce2GrZB8sA.png?1779985914",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Widget Manager Overview' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176724377/original/pLDcOKqjIgyjlozG0zm6l9gDd_adihlOFA.png?1774920676",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Widget Manager Overview' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176724372/original/N9p5hw-e8GdwbzNYnWETi49RuEzq-9j4GQ.png?1774920657",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Widget Manager Overview' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000025507",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000025507"
+    },
+    {
+      "text": "How To Customize A Widget",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078430"
+    },
+    {
+      "text": "How To Create A New Widget",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078432"
+    },
+    {
+      "text": "How To Disable/Enable A Widget",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078433"
+    },
+    {
+      "text": "How To Delete A Widget",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078436"
+    },
+    {
+      "text": "Bulk Actions For Widgets",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078437-bulk-actions-for-widgets"
+    },
+    {
+      "text": "How To Call A Widget On A Custom Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051582"
+    },
+    {
+      "text": "Locating The Widgets Via Admin Bar",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051553"
+    }
+  ],
+  "lastmod": "2026-07-27T07:58:54+05:30",
+  "scraped_at": "2026-10-18T13:40:55.686645"
+}

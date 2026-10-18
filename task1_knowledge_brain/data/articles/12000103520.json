@@ -1,0 +1,23 @@
+{
+  "article_id": "12000103520",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103520-02-21-2025-software-updates",
+  "title": "02/21/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/21/2025 - Software Updates"
+  ],
+  "content": "## 02/21/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103520\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue affecting file name search on the Media Manager page in the Admin.\n\n- Added two new Member Review Settings: \"Notify the Admin that a review has been responded to?\" and \"Notify the submitter of a review that it has been responded to?\". The former controls the sending of an email to the Admin after a member replies to a review, and the latter controls the sending of an email to the review submitter after a member replies.\n\n- Implemented emoji support across the platform.\n\n- Fixed an issue preventing image uploads to Multi-Photo Post Types in some cases. Widget Involved: Bootstrap Theme - Account - Photo Albums Upload Form\n\n- Fixed an issue preventing the Briliant Directories API from searching for custom values in some cases.\n\n- Implemented improvements to the RazorPay Payment Gateway.\n\n- Updated the system to prevent Newsletter Statistics from being affected by member deletions.\n\n- Updated the Email Outbox page in the Admin to display the reason an email was not sent in the \"Activity\" column.\n\n- Updated the \"Members Updated Via Admin\" Webhook to send both old and new data to the webhook endpoint.\n\n- Updated the \"Member Plan Changed\" Webhook to send all member data to the webhook endpoint when a member upgrades their account from the Member Dashboard.\n\n- Updated all member webhooks to use the \"email\" key instead of \"user_email\". Widgets Involved: Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Function - Comment Handling\n\n- Fixed an issue preventing the %member_lead_match_link% and %lead_id% email variables from working when manually matching members with leads in the Admin.\n\n- Fixed an issue preventing the \"Click to View Your Profile\" button from working on the \"user-approved-by-admin\" Email Template in some cases.\n\n- Fixed an issue causing extra line breaks when rendering the %%%details%%% email variable in email templates. Email Templates Involved: batch-action-complete form_inquiry lead-admin-member-email-address-invalid lead-admin lead-preview-auto lead-visitor member-lead-complete member-lead-preview verify_business visitor-lead-submitted\n\n- The \"Bootstrap Theme - Display - Events Calendar\" widget is now available in the Sidebar Manager page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103520",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103520"
+    }
+  ],
+  "lastmod": "2025-02-25T01:57:16+05:30",
+  "scraped_at": "2026-10-18T13:55:44.389505"
+}

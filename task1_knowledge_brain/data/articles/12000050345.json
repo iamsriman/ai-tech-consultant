@@ -1,0 +1,23 @@
+{
+  "article_id": "12000050345",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050345-10-12-18-software-updates",
+  "title": "10/12/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/12/18 - Software Updates"
+  ],
+  "content": "## 10/12/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000050345\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed some issues with the saving of Sub Level Categories on the Member Categories page in the Admin area.\n\n- We add language localization to the Google Maps used in the Admin Area.\n\n- We fixed optimized the code of the Recent Coupons and Recent Jobs widgets used on the homepage. Widgets Involved: Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Jobs\n\n- Now the emails submitted through the Coming Soon and Contact Us forms are automatically registered as Contacts in the Admin area. Widgets Involved: System - SaveForm\n\n- We fixed an issue which was causing incorrect search results from displaying in some cases when searching for lead matches in the Admin area. Widget Involved: get match lead search ui\n\n- The Member Results Sorting Options widget is now fully based on Text Labels. Widget Involved: Bootstrap Theme - Member Results - Sorting Options\n\n- We fixed an issue which was was causing an incorrect Product to show for invoices on the Transaction History page in the Admin Area in some cases.\n\n- We fixed an issue which was causing the Refund Payment button to not work properly on the Transaction History page in the Admin Area in some cases.\n\n- We updated the UI of the Edit Web Pages and SEO Templates pages in the Admin Area.\n\n- We fixed an issue which was showing all of the results from the state a city is in rather just the results from the city when viewing a /state/city \"Pretty URL\" search results page. Widget Involved: Search - Member - Search Query\n\n- We removed the deprecated Lead Match Delivery and the Maximum Lead Matches buttons from the Configuration Tab on the General Settings page in the Admin Area.\n\n- Now the End Subscription button on the Transaction History page will only appear when the Invoice is linked to an active Subscription.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000050345",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050345"
+    }
+  ],
+  "lastmod": "2018-10-15T22:48:14+05:30",
+  "scraped_at": "2026-10-18T13:43:56.174279"
+}

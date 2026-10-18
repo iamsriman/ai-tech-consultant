@@ -1,0 +1,455 @@
+{
+  "article_id": "12000098834",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098834-design-settings-homepage-select-content-to-display-streaming-members",
+  "title": "Design Settings » Homepage » Select Content to Display » Streaming Members",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Homepage » Select Content to Display » Streaming Members"
+  ],
+  "content": "## Design Settings » Homepage » Select Content to Display » Streaming Members\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098834\n\n\n## Streaming Members\n\n\nThis article goes over the available settings to edit the Streaming Members section on the homepage of the website. This section is meant to be displayed on the homepage exclusively. This homepage widget will display the Newest Members that sign up to the website.\n\n\n## Visual Guide of the Streaming Members Settings\n\n\n\n## 1. Streaming Members Title\n\n\nThis setting controls the title for this homepage section. It can be edited to match the website's needs.\n\n\n## 2. Title Color\n\n\nThis setting controls the title color for the title of this homepage section. It can be edited to match the website's needs.  Click on the color bar to display the color pallet and select the color accordingly.\n\n\n## 3. Display Options\n\n\nThis setting control the total amount of members that will be displayed on this homepage section. Click on the drop-down menu to select the number of total results from the list. The maximum is 24 results.\n\n\n## 4. Results Per Row\n\n\nThis setting control the amount of members that will be displayed on this homepage section per row. Click on the drop-down menu to select the number of total results from the list. The maximum is 24 results.\n\n\n## 5. Enable Carousel Slider?\n\n\nThis setting control the layout of the Streaming Members section, if enabled the Streaming section will display as a carousel, with arrows at each side, instead of displaying the Streaming Members in a grid layout, they will appear in the carousel. If set to No, the Streaming Members will be displayed in the default grid view.\n\n\n## 6. Hide On Mobile?\n\n\nThis setting controls whether or not the Streaming Members section will display on mobile devices. If enabled this section will not appear on mobile devices. If the setting is set to No, the Streaming Members section will appear on mobile devices accessing the website.\n\n\n## 7. Only Show Members with Photo\n\n\nThis setting controls whether or not the Streaming Members section will display members that have already uploaded either a Member Image or Member Logo, but the system will only display the Member Image, not the Member Logo. The options are: \"Show All, Even if Member Does Not Have Photo\" or \"Member Must Have Photo\"\n\n\n## 8. Show \"View All\" Button\n\n\nThis setting controls whether or not the View All button on Streaming Members section will display in this section. If set to Yes, the button will show up at the top right corner of the section, if set to No, the button will not be displayed. To learn more about how to edit the color of this button, navigate to the following link: Design Settings » Button Colors\n\n\n## 9. Sort Order\n\n\nThis setting controls the order in which the Streaming Members will be displayed on the homepage of the website. The options are:\n\n- Newest: this will set the newest members first.\n\n- Oldest: this will set the oldest members first.\n\n- Random: this will set a random order based on the browser session.\n\n\n## 10. Only Display 'Verified' Members?\n\n\nThis setting will show only members that have verified their account with this process: How to Verify a Listing .\n\n\n## 11. Display Verified Badge?\n\n\nThis setting controls will display the verified badge.\n\n\n## 12. Limit Members Shown to These Membership Plans\n\n\nThis setting controls the membership plan that will be used to display members from. If left blank all members from all membership plans will be displayed on this section.\n\n\n## 13. Display Additional Information\n\n\nThis setting controls the information displayed per member in the Streaming Members section on the homepage of the website. The options to choose from are:\n\n- Display About Snippet\n\n- Display Top Level Category\n\n- Display Sub Level Category\n\n- Display Short Description\n\n- Do Not Display Additional Information\n\nDisplay About Snippet\n\nUsing this option will display the About Snippet field from the Contact Details form.\n\nDisplay Top Level Category\n\nUsing this option will display the Top Level Category from the Contact Details form.\n\nDisplay Sub Level Category\n\nUsing this option will display the Sub Level Category from the Additional Details form.\n\nDisplay Short Description\n\nUsing this option will display the Short Description from the Contact Details form.\n\nDo Not Display Additional Information\n\nUsing this option will hide this section.\n\n\n## 14. Display Location\n\n\nThis setting controls whether or not the address or location for the members is displayed on this section of the homepage. If set to Yes the location or address will be displayed, if set to No, the address or location will be hidden for the members on the Streaming Members section of the homepage.\n\n\n## 15. Display Star Ratings\n\n\nThis setting enables or disables the display of star ratings for streaming members. Administrators can choose to show or hide star ratings.\n\n\n## 16. Only Display Members Who Have Star Ratings\n\n\nThis setting specifies whether only members with star ratings should be displayed. It includes options to require a minimum star rating from 1 to 5 stars.\n\n\n## 17. Display View Profile Button\n\n\nThis setting controls whether or not the button that links website visitors to the members profile will be displayed. If set to Yes the button will appear in the Streaming Members widget of the homepage. If set to No, the button will not be displayed.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140212007/original/kqv2ErkThn5vFIGg90YcklNxacPCCHdang.png?1710446445",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140212052/original/VaNVvtJgigxAjIrRVVkX1trigM5l9M374A.png?1710446496",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154687507/original/z74JQ5FxVVXqgFkzaPrKqG7hKNMl3BBl_g.png?1735663283",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154687509/original/m7-sGBp_zJtc1pEIwYwxa8EJ_qJd1jeHKQ.png?1735663291",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154687534/original/7EKHjyhmSQ2ovu_-ng7fkcSWU1GVx8Ewuw.png?1735663343",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140212557/original/3nqfoFKMQU7gJqrk1Omwvb6ZE9p17N4IDw.png?1710447136",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140212655/original/06blqUvUCVD731z5BgcHKy1AdUTjSYl9nQ.png?1710447240",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140212938/original/K_PT6pG_eQQmlxnVvDsWkMInXm4thzWJdQ.png?1710447547",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140213103/original/m7vqSmUtO20YdCJRLQi8EDhSGO7DFd_G_g.png?1710447676",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140213929/original/X7tqsAIsK_Vc0iHjLLPv8sD2Hx2M5yHKYg.png?1710448616",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140213103/original/m7vqSmUtO20YdCJRLQi8EDhSGO7DFd_G_g.png?1710447676",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140217060/original/bUmVzY3NdUqon8hUrFdwxkKQW6Q3GQt8sQ.png?1710452908",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140217136/original/9B3dcyQczb-Jn4-ak7I2Ku1t7onjDJJatQ.png?1710453027",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140217471/original/t77V20jQAwq9G8-dg11jl07CrWF7b2PZfA.png?1710453384",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140217501/original/ABvmsnh3cdrQ-KSk4wDOxg4f1JTRHi1hnA.png?1710453441",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140217668/original/UhbnGjeO4YZDSWxO5c0qTEnF9vEjE8P-zg.png?1710453733",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140217700/original/hTXpDCZDirxffShxOh7vgVEQh_-qVFSG1Q.png?1710453798",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140217901/original/2IKsCuAQXU3nqXyXXV49rzeJUJCf6jhMRA.png?1710454067",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218281/original/bihcQc_LcwYkM55IdilfJrGU22wcGxsGUA.png?1710454523",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218480/original/_KosB3XjyD_Ydkq1r1v0JFnI-GgB29l6vA.png?1710454872",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218599/original/xPKu5Z7JmqKwK_lT3lEMQrssaqr2kJ5wuw.png?1710455133",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218770/original/OkOyR1Ior5zhmc6PTZ_hDjImgGBwhNfg7w.png?1710455477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218781/original/C1igy-zMbxv-vyKpuQrJd1HmBlPOZN193A.png?1710455500",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154756624/original/-GEqhhdBNPDrxeZWTLMHdacjEcjnRQdTBA.png?1735836956",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218857/original/sYdKTu0rFOI5NutYr06yJxv8jXm_aAD8JA.png?1710455701",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154756732/original/SXdISWgXevoZFuNJGZ2c84a5mIt4CnZmNA.png?1735837038",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154756932/original/2ZfWYAHhvdiIG9ZK2xz0UfF2HwsQ7VNW5A.png?1735837143",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218854/original/gY6B1b2JKiXrbZ68Lp47yJJgOczT2eyF4g.png?1710455684",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218857/original/sYdKTu0rFOI5NutYr06yJxv8jXm_aAD8JA.png?1710455701",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140218952/original/7Z5uNJUCBJlnqNHlGKKijnqrA6VEsLCtpg.png?1710455928",
+      "alt": null,
+      "caption": "Context: Using this option will display the About Snippet field from the Contact Details form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will display the About Snippet field from the Contact Details form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219085/original/M32E3VlDreEeD_Lh2hYvzdscHrR5XgHCnw.png?1710456155",
+      "alt": null,
+      "caption": "Context: Using this option will display the About Snippet field from the Contact Details form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will display the About Snippet field from the Contact Details form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219069/original/suJfLeV2xKRIXHr0wtvlXTG3TQZniPySDg.png?1710456091",
+      "alt": null,
+      "caption": "Context: Using this option will display the Top Level Category from the Contact Details form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will display the Top Level Category from the Contact Details form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219101/original/FjTd_REWZU8OdIgweaebVNZVboB2GLJ07A.png?1710456174",
+      "alt": null,
+      "caption": "Context: Using this option will display the Top Level Category from the Contact Details form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will display the Top Level Category from the Contact Details form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219106/original/0KzJSb1MbVE1iJy368A0h_nX8rhr8CBo6g.png?1710456215",
+      "alt": null,
+      "caption": "Context: Using this option will display the Sub Level Category from the Additional Details form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will display the Sub Level Category from the Additional Details form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219116/original/vDjeyOLTJKGlnK5RgvBSBogxk-i_SKdRXw.png?1710456249",
+      "alt": null,
+      "caption": "Context: Using this option will display the Sub Level Category from the Additional Details form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will display the Sub Level Category from the Additional Details form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219207/original/8ryM_8UZR65PePBDyA9pyxwalpOvTqPOZw.png?1710456417",
+      "alt": null,
+      "caption": "Context: Using this option will display the Short Description from the Contact Details form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will display the Short Description from the Contact Details form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219229/original/7Ae9CLCZxzifJy0Hg-XIQ4oTyeng_zsoKA.png?1710456496",
+      "alt": null,
+      "caption": "Context: Using this option will display the Short Description from the Contact Details form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will display the Short Description from the Contact Details form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219207/original/8ryM_8UZR65PePBDyA9pyxwalpOvTqPOZw.png?1710456417",
+      "alt": null,
+      "caption": "Context: Using this option will hide this section.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will hide this section.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219249/original/dVj5wohqtlqVJumlRh096EKH5WcH4iboWw.png?1710456557",
+      "alt": null,
+      "caption": "Context: Using this option will hide this section.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'. Context: Context: Using this option will hide this section.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219362/original/sLEKVaDPFZNngVe9QB5yPZzmrhUu3qLZkg.png?1710456747",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219378/original/pb6aajHccfiCKeq8gdfNbOO3pVA0OQqTuQ.png?1710456804",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144014733/original/iUn-kAbnKvUautLoU7owla8T_H34-WSWpg.png?1717012597",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144015130/original/xUOWhAm-11IpOHgkPF06sncfhyvrsyAYiA.png?1717013037",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144015227/original/qTMg9I0Q58PMHqNA93eErWwdq_U5eBxL-g.png?1717013160",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144015257/original/3bbpNdvDCEQz5YW2RhvpswkndlbAuSjCgg.png?1717013203",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219432/original/5jGjUt1lzkdsmy9_LK0kEVlopLWEPdZEDw.png?1710456983",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140219431/original/ZPm1l7hMdGFQyvjzElIribOPYt1TxFGByg.png?1710456971",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Members' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098834",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098834"
+    },
+    {
+      "text": "Design Settings » Button Colors",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046630"
+    },
+    {
+      "text": "How to Verify a Listing",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000021982"
+    }
+  ],
+  "lastmod": "2025-01-02T22:31:31+05:30",
+  "scraped_at": "2026-10-18T13:53:43.082224"
+}

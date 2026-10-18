@@ -1,0 +1,23 @@
+{
+  "article_id": "12000053017",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053017-01-04-19-software-updates",
+  "title": "01/04/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/04/19 - Software Updates"
+  ],
+  "content": "## 01/04/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000053017\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue wich was affecting the Post Tags search functionality when a tag contained an apostrophe.\n\n- We fixed an issue that was causing the Breadcrumbs on profile pages to link to a 404 page error in some cases. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- We fixed an issue which was causing the Back button on the Edit Widget page to redirect to a 404 error in some cases.\n\n- We updated the Lead Information on the Dashboard page in the Admin to show the number of Leads that need to be matched instead of the total number of Leads.\n\n- We fixed an issue which was affecting the normal behavior of the Show Advertisement On Listing Product setting in some cases.\n\n- We fixed an issue which was causing the location of a member search to not display in the H1 tag of the search results page in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000053017",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053017"
+    }
+  ],
+  "lastmod": "2019-03-09T01:11:05+05:30",
+  "scraped_at": "2026-10-18T13:44:23.031560"
+}

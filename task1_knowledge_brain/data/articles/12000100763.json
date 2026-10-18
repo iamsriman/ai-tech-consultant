@@ -1,0 +1,23 @@
+{
+  "article_id": "12000100763",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100763-07-19-2024-software-update",
+  "title": "07/19/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/19/2024 - Software Update"
+  ],
+  "content": "## 07/19/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100763\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented a security update to the member login process on the frontend of sites. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We implemented a security update to the Admin login process.\n\n- We fixed an issue which was preventing the Tax & VAT Add-On from working properly when purchasing a Digital Product post with a recurring subscription in some cases.\n\n- We updated the Froala WYSIWYG to add the ability to include Froala custom features.\n\n- The \"Stock Photo Libraries\" Add-On can now be used to create a member Cover Photo with the \"Profile Cover Photo\" Add-On. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was affecting the ability to export Newsletter Email Lists from the Smart Lists page in the Admin.\n\n- We fixed an issue with the \"Website 'FROM' Email Address\" Setting which was preventing the system from selecting the website's domain properly in some cases.\n\n- We fixed an issue which was causing the system to overwrite member information when an Admin logs into 2 different member accounts simultaneously in the same browser session and saves a change to the first member they logged in as. Widget Involved: Bootstrap Theme - Function - Form\n\n- We added support for Rumble videos when creating a video post from the Member Dashboard. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We updated the \"Order Results By\" Member Post Type Setting in order to include the \"Sort By Last Name\" option. When this option is selected, members without a last_name but with a company name will be sorted as if their company name is their last_name. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was preventing Admins from viewing the contents of Forms Inbox Smart Lists.\n\n- We updated the new Send Newsletter module to allow email addresses on the same domain to be included as recipients in newsletter campaigns.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100763",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100763"
+    }
+  ],
+  "lastmod": "2024-07-22T02:17:21+05:30",
+  "scraped_at": "2026-10-18T13:54:39.006394"
+}

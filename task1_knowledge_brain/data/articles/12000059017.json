@@ -1,0 +1,23 @@
+{
+  "article_id": "12000059017",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059017-07-05-19-software-updates",
+  "title": "07/05/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/05/19 - Software Updates"
+  ],
+  "content": "## 07/05/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059017\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the \"Email Accounts\" link in the Admin to result in a 404 error in some cases.\n\n- We fixed an issue which was preventing Form Inquiries from being deleted in the Admin.\n\n- We fixed an issue that was preventing the Overview tab from displaying on member profile pages when the \"Hide Map Overview Tab\" Product setting was set to \"yes\".\n\n- We fixed an issue which was causing leads to be matched with the incorrect member in some cases. Widget Involved: System - SaveForm\n\n- We added the ability to set different images to be used as the Invoice Logo and Email Template Logo.  In order to use this new feature navigate to the Admin >> Settings >> General Settings >>Brand Images. Widget Involved: Default Email Template\n\n- We fixed an issue which was causing the browser back button to not work properly after performing a member search using the  \"Top and Sub Category Search\" widget on the homepage. Widget Involved: Bootstrap Theme - Homepage Search - Top and Sub Category Only\n\n- We improved the load time of the \"Search Members\" page in the Admin.\n\n- We added the ability to select which members can view each single \"Web Page\" when the site is set to be Members Only . Note: This feature is available when the Member-Only Content Add-On is active. In order to use this feature, navigate to the Admin >> Content >> Edit Web Pages >> Display Settings. Widgets Involved: Bootstrap Theme - HEAD Bootstrap Theme - Static Web Page\n\n- Sub-Sub categories will now be displayed under their parent Sub category on the \"Services\" tab on member profile pages.\n\n- Products set to be \"Non-Searchable\" will no longer appear in the \"Recent Members\" homepage widget options on the Design Settings page in the Admin.\n\n- We updated the search functionality of the \"Edit Web Pages\" and \"SEO Template\" pages in the Admin.\n\n- We fixed an issue which was causing a redirect loop when switching between the Admin of different sites using the Safari browser.\n\n- We updated the Design Settings in the Admin to only show the \"Homepage Section Order Options\" of items set to display in the \"Homepage Section Order\".\n\n- We added the ability to change the default sort order of member searches on the frontend of sites.  They can now be sorted by Date Posted (Most Recent First, Most Recent Last) or Random. In order to use this new feature, navigate to the Admin >> Content >> Edit Post Settings >>Review >> Search Results Design tab. Widget Involved: Search - Reviews - Search Query\n\n- We fixed an issue which was causing Banner Ad Widgets to not work on individual Web Pages. Widget Involved: Bootstrap Theme - Banner - 320_50 Bootstrap Theme - Banner - 728_15 Bootstrap Theme - Banner - 970_90 Bootstrap Theme - Banner - Header - 970_90 Bootstrap Theme - Banner - Responsive Size Bootstrap Theme - Banner - Responsive Size 2 Bootstrap Theme - Banner - Responsive Size 3 Bootstrap Theme - Banner - Responsive Size 4 Bootstrap Theme - Banner - Responsive Size 5\n\n- We added the ability to export the Sales History records of the Sell Digital Downloads Add-On. Widgets Involved: Bootstrap Theme - Account - Manage Digital Products Bootstrap Theme - Display - Digital Download - Buy Button\n\n- The system will now automatically create a 301 redirect for the /reviews and /connect pages of a member's profile page when the URL of their profile pages is updated.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059017",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059017"
+    }
+  ],
+  "lastmod": "2019-07-06T04:41:57+05:30",
+  "scraped_at": "2026-10-18T13:45:10.758521"
+}

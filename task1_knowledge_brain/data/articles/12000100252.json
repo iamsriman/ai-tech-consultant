@@ -1,0 +1,23 @@
+{
+  "article_id": "12000100252",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100252-06-07-2024-software-update",
+  "title": "06/07/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/07/2024 - Software Update"
+  ],
+  "content": "## 06/07/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100252\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added the ability to create and assign \"Member Tags\" to members in the Admin.\n\n- We fixed an issue which was preventing changes made on the Webhooks page in the Admin from saving properly in some cases.\n\n- The auto_match and auto_geocode variables now support Boolean values (true or false) when creating and updating members and posts using the Brilliant Directories API.\n\n- We updated the Event Description text for the Paid Plan Signup Webhooks on the Webhooks page in the Admin.\n\n- We fixed a display issue with the \"No Settings Found With Your Keyword Search\" text that occurred after performing a keyword search with no results on the General Settings page in the Admin.\n\n- We fixed an issue which was preventing the system from correctly centering Google Maps on a member's location when viewing a member profile page when the \"Enable Search Results Cache\" Post Type setting was active in some cases.\n\n- We optimized the \"Find Duplicates\" filter on the Search Members page in the Admin so it executes much faster.\n\n- We made several small bug fixes and improvements to the new Send Newsletter functionality in the Admin.\n\n- We fixed an issue which was preventing a member's remaining credits and proration calculation from displaying correctly when when a member upgraded their Membership Plan from the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Function - Order Summary - Prorated Amount\n\n- We updated the display of member profile pages to hide the \"Company Details\" H2 title when there is no data to display in this section on the frontend of sites. Widgets Involved: Bootstrap Theme - Member Profile - Overview Tab\n\n- We released the Business Data Import tool which allows Admins to search for businesses and import them as members to their website.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100252",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100252"
+    }
+  ],
+  "lastmod": "2024-06-11T04:19:09+05:30",
+  "scraped_at": "2026-10-18T13:54:19.055885"
+}

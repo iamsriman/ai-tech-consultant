@@ -1,0 +1,31 @@
+{
+  "article_id": "12000075553",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075553-11-06-20-software-updates",
+  "title": "11/06/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/06/20 - Software Updates"
+  ],
+  "content": "## 11/06/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075553\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing bolded text in Froala editors to revert the font size of the text to 14px in some cases.\n\n- We update the design of the button color fields in order to display a preview of the color the button will have based on the \"Default Button Link Colors\" selected on the Design Settings page in the Admin.\n\n- We updated the layout of the Simple Events Calendar Add-On in order to display a badge with the number of events on a day day instead of using a dot for each event on a day. This change adds support for sites with many events on a given day and makes it more usable for mobile devices.\n\n- We fixed an issue which was causing the system to add an extra width to the homepage on mobile devices when using the Streaming Post Carousel Slider Add-On in some cases.\n\n- We updated the design of the \"Suggested Matches\" and \"Matched Members\" sections of the Lead Details pages in the Admin to display the member's Sub and Sub-Sub Categories.\n\n- We released the Community Comments Add-On. Click here for more information. Widgets Involved: Bootstrap Theme - Display - Posted By Snippet Bootstrap Theme - Photo Album Page Bootstrap Theme - Single Post Page\n\n- We created a new \"Hero Section\" setting when building web pages in the Admin to allow the CTA Button link to open in a new tab. Widgets Involved: Bootstrap Theme - Member Results Bootstrap Theme - Single Post Page Bootstrap Theme - Static Web Page\n\n- We released the Review with Photos Add-On. Click here for more information. Widgets Involved: Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Account - Reviews Details Page Bootstrap Theme - Display - Review Form Thank You Message Bootstrap Theme - Member Profile - Read Review\n\n- We fixed an issue which was affecting the ability for members to purchase leads from the Member Dashboard in some cases.\n\n- We updated the design of the \"Fetch Unassigned Post\" button on the Post Manage page in the Admin.\n\n- We updated the layout of the Import Members, Add New Members, and Geocode Members buttons on the Search Members page in the Admin to be a dropdown instead of separate buttons.\n\n- We updated the layout of the \"New Admin Account\" and \"Invite Admin\" buttons on the Admin Accounts page to be a dropdown instead of separate buttons.\n\n- We created a new Advanced Setting called \"Category Image as Profile Photo\". Enabling this setting will use the Top Level Category image associated to the member as their Profile Photo by default.  The member can override this by uploading a Profile Photo or Logo of their own. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We added the ability for users to create a free member account from the login form on the frontend of sites. In order to enable this new feature, navigate to the Admin >> Settings >> General Settings >> General tab >> Express Signup Membership Plan setting. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We fixed an issue which was causing the system to display the wrong email template selected on the Send Newsletter Page in the Admin when the email template variable name starts with a number in some cases.\n\n- We fixed an issue which was causing the system to display the Hero Section on Post Details pages in some cases.\n\n- We updated the layout of the Manage Posts page in the Admin to match the design of other areas of the Admin.\n\n- The Media Manager tool in the Admin now supports uploading files with the .epub file extension.\n\n- We updated the wording when trying to customize a Sidebar in the Admin.\n\n- We implemented an update in order to redirect Site Admins to the Create Newsletter Campaign page when no newsletters have been created previously.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075553",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075553"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/member-post-commenting"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/add-photos-to-member-reviews"
+    }
+  ],
+  "lastmod": "2020-11-10T03:26:02+05:30",
+  "scraped_at": "2026-10-18T13:47:20.204969"
+}

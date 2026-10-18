@@ -1,0 +1,51 @@
+{
+  "article_id": "12000100753",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100753-enhancing-security-with-two-factor-authentication-2fa-",
+  "title": "Enhancing Security with Two-Factor Authentication (2FA)",
+  "category": "Settings",
+  "folder": "Admin Accounts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Admin Accounts",
+    "Enhancing Security with Two-Factor Authentication (2FA)"
+  ],
+  "content": "## Enhancing Security with Two-Factor Authentication (2FA)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100753\n\nIn the coming weeks, 2FA will be gradually implemented for admin account logins. If the feature is not visible yet, admins are encouraged to wait a bit longer. A prompt will soon be provided to enable this feature for admin accounts. Any further questions can be directed to the support team, who are available to assist.\n\nThe Two-Factor Authentication (2FA) feature is an advanced security measure that adds an extra layer of protection, ensuring that only the authorized user can access their account, even if their password is compromised.\n\nWhat is Two-Factor Authentication (2FA)?\n\nTwo-Factor Authentication (2FA) is a security process that requires two distinct forms of identification before granting access to an account. Unlike traditional single-factor authentication, which relies solely on a password, 2FA incorporates an additional verification step to enhance security.\n\nNote : 2FA is optional—the admin of the website has the choice to either use it or skip it according to personal preference.\n\n\n## Setting Up 2FA\n\n\nGetting started with 2FA is straightforward. Users should follow these steps:\n\nLog In: Begin by entering the username and password.\n\nProvide Additional Verification: After the initial login, users will be prompted to provide a second form of verification. This will involve receiving a code via email, which is required to log in to the admin section of the website.\n\nIf users wish for the browser to remember their password for the next 7 days, they can select the checkbox to remember the device. If the user logs in from a different device, the system will prompt for the code sent via email once more.\n\nThe One Time Passcode will be sent to the Username email.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146873555/original/RwTcpR4pTQ3bOG8D6e8tfthQdVhIHvVs_w.png?1721877297",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Enhancing Security with Two-Factor Authentication (2FA)' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146557458/original/A005sCn9tv6iKpx1OrTsoN6U-vf50TC4Yw.gif?1721320460",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Enhancing Security with Two-Factor Authentication (2FA)' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146556782/original/WtVxPpqSAbPBhna7sdyvhZO_xxdSxdni1w.jpeg?1721319690",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Enhancing Security with Two-Factor Authentication (2FA)' in section 'Settings' / 'Admin Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100753",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100753"
+    }
+  ],
+  "lastmod": "2024-07-25T22:44:39+05:30",
+  "scraped_at": "2026-10-18T13:54:38.179291"
+}

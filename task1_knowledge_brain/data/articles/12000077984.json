@@ -1,0 +1,94 @@
+{
+  "article_id": "12000077984",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077984-edit-checkout-pages-titles-text-language",
+  "title": "Edit Checkout Pages: Titles, Text & Language",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Edit Checkout Pages: Titles, Text & Language"
+  ],
+  "content": "## Edit Checkout Pages: Titles, Text & Language\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077984\n\n\n## Overview\n\n\nAll the default text and language on checkout pages are Text Labels and can be edited by clicking on the left sidebar (Text Labels icon). There is no need to edit any HTML code.\n\nIt will highlight all text labels in yellow. To edit them, click on the variable name.\n\nFor example, instead of clicking on \"Enter Email\", click on \"enter_email_placeholder\"\n\nThe part of the H1 title \"Create Profile: Premium\" can be edited in the text label \"listing\" and the rest of the title, in the Finance » Membership Plans section.\n\nIt is stored in this widget \"Bootstrap Theme - Signup Page - H1 Title\".\n\nNote: We do not recommend editing the widget. It is better to use the text labels instead.\n\nRegarding the \"Save % with this option\" label:\n\nThe percentage can be removed by leaving this text label empty:\n\nIt is also possible to remove the entire section:\n\nBy leaving these two text labels blank: save_label_billing and per_year_option_billing\n\nThere might be some text labels that are not highlighted, like the card number, expiration date, and the security code.\n\nTo edit these three labels, follow the steps shown in the image below:\n\n\n## More About Editing Sign Up Pages\n\n\n- Overview Article\n\n- How to Add, Edit and Remove Input Fields on Sign Up Pages\n\n- How To Add a Sidebar to Sign Up Pages",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089795622/original/6SYT9DEGKnVzhVahi1b9xvscFG1M-2twLg.png?1615342779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Titles, Text & Language' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089795321/original/bsF_VzbtvVU5gwN6CTC7sCoQtZN5Ivv6TA.png?1615341812",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Titles, Text & Language' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089144110/original/VJt_2TPQEngW4av37ch4MqCZfZquvhjGqA.jpeg?1614036726",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Titles, Text & Language' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089795336/original/NvvP-lonpw8mDsaF1822xw-spLooD9jehw.png?1615341860",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Titles, Text & Language' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089795353/original/G7ZwlfX3ct1yN0bbkuZfuzTIRjIpz7dNsw.png?1615341944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Titles, Text & Language' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089795396/original/eD4_OT6rNzK9Lw-tGsV78olLJZmrlSC5Qw.png?1615342105",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Titles, Text & Language' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077984",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077984"
+    },
+    {
+      "text": "Text Labels",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673"
+    },
+    {
+      "text": "Overview Article",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078267"
+    },
+    {
+      "text": "How to Add, Edit and Remove Input Fields on Sign Up Pages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077983"
+    },
+    {
+      "text": "How To Add a Sidebar to Sign Up Pages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077982"
+    }
+  ],
+  "lastmod": "2026-06-10T02:24:19+05:30",
+  "scraped_at": "2026-10-18T13:47:54.447963"
+}

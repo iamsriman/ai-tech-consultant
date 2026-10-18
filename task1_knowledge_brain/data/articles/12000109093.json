@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109093",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109093-install-lead-price-support-dashboard-installer",
+  "title": "Install Lead Price Support - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Install Lead Price Support - Dashboard Installer"
+  ],
+  "content": "## Install Lead Price Support - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109093\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Install Lead Price Support Does\n\n\nThis installer adds the database column needed for the lead price on categories add-on, which lets a price per lead be set on categories. It adds a lead_price column to two category tables: list_professions and list_services .\n\nIn each table the new column is added as DECIMAL(10,2) , nullable with a default of NULL, positioned after the sort_order column. Each table is handled independently: the installer only adds lead_price to a table that does not already have it, so if one table already has the column and the other does not, only the missing one is added.\n\n\n## Why It Appears\n\n\nThe installer checks both list_professions and list_services for a lead_price column. If either table is missing it, the installer is offered. If both tables already have the column, it reports that everything is OK and does not appear.\n\n\n## Why It Matters\n\n\nWithout the lead_price column there is nowhere to store a per-category lead price, so the lead price on categories add-on cannot work. Running this installer puts the column in place so that add-on can be used.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If either category table is missing the column, Install Lead Price Support appears in the list. Click Install .\n\n- After it completes, click Check For Updates again to confirm the entry is gone.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The lead_price column now exists on the category tables, ready for the lead price on categories add-on. Because the installer checks each table before adding the column, it only fills in whatever is still missing.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109093",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109093"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:37+05:30",
+  "scraped_at": "2026-10-18T13:59:42.138041"
+}

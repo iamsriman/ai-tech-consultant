@@ -1,0 +1,151 @@
+{
+  "article_id": "12000002335",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002335-how-to-post-an-event",
+  "title": "How to Post an Event",
+  "category": "My Content",
+  "folder": "Manage Posts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Manage Posts",
+    "How to Post an Event"
+  ],
+  "content": "## How to Post an Event\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000002335\n\nTo post an Event, access the Member Dashboard. On the left sidebar, locate the Events post type and click on it to add a new post.\n\n\n### Important\n\n\nIf the Events option is not included in the Member Dashboard, the post needs to be enabled for the membership plan in the Post Publishing tab: Finance » Membership Plans - Post Publishing\n\n\n### Calendar Features Overview\n\n\nThis article includes two different calendar-related features available for Events:\n\n- Add to Calendar button: Automatically appears on the Event Detail Page and allows visitors to save the event to Google Calendar, Apple Calendar, and Outlook Calendar.\n\n- Add to Calendar Widget: A manually installed sidebar widget that can be added from Sidebar Manager to display the event calendar button in the sidebar area of the Event Detail Page.\n\nIf searching for instructions related to the sidebar calendar widget, calendar sidebar button, or event calendar button widget, see the section: Adding the \"Add to Calendar Widget\" to Sidebar .\n\nAdd content to the post, for example: title, description, image, and other relevant details as explained below:\n\n- Publish the content on the site or save it as a draft.\n\n- Add the Event title.\n\n- Add an image to the Event. Stock photos can be added using the Stock Photo Library for Post .\n\n- Select the applicable Event category.\n\n- Auto-Recurring Events Add-On required.\n\n- Select \"Start Time\" from the time dropdown.\n\n- Select \"End Time\" from the time dropdown.\n\n- Select \"Start Date\" from the calendar.\n\n- Select \"End Date\" from the calendar.\n\n- Add the cost to attend the Event.\n\n- Add an external link if necessary.\n\n- Add the Event address.\n\n- Add the Venue name.\n\n- The complete address will auto-populate after entering the address in step 12.\n\n- Enter applicable keywords separated by commas.\n\n- Enter the Event description.\n\n\n### Event Post Status & Actions\n\n\nOnce the Event Post has been created, the current status will display (Published, Draft, Expired). The number of views and bookmarks will only appear if the corresponding add-ons are active on the site. Click here to learn more.\n\nClick on the Actions button to view, edit, clone, or delete the post:\n\n\n## Member Dashboard Options\n\n\nDifferent options are available in this section:\n\n- Events: Displays all events and the total number of events in the account.\n\n- Add a New Event: Adds a new event. This option will not display if the post limit has been reached.\n\n- Entries per page: Select how many entries display per page (5, 10, 25, or 50).\n\n- Order of Posts: Newest, Oldest, Updated (first), Updated (last), Start Date (first), Start Date (last).\n\n- Filter by Status: Published, Draft, or Expired.\n\n- Filter by Keyword: Enter a keyword to display event posts containing it.\n\nAll Post Types have a designated search results page:\n\nExample: https://www.demobootstrap.com/events\n\n\n## Event Detail Page\n\n\nThe Event Detail Page displays all information added to the Event Post. At the top of the page, an Add to Calendar button allows attendees to save the event to a personal calendar. Supported calendar platforms include Google Calendar , Apple Calendar , and Outlook Calendar . Note: This button can also be displayed in the sidebar using the Add to Calendar Widget (see instructions below).\n\n\n### Adding the \"Add to Calendar Widget\" to Sidebar\n\n\nFor sites that need to display the calendar button in the sidebar, add the Add to Calendar Widget (also known as the calendar widget , event calendar button , or sidebar Add to Calendar button ). This widget is manually installed using the Sidebar Manager and displays the same calendar functionality within the sidebar area of the Event Detail Page.\n\n- Go to Toolbox >> Sidebar Manager and click Edit on \"Post Single Page.\"\n\n- Locate \"Bootstrap Theme - Display - Add to Calendar.\"\n\n- Drag and drop the widget to the desired position in the sidebar.\n\n- The widget will then appear on the page.\n\n\n## Events Expiration\n\n\nTo display expired events on the search results page, go to My Content >> Edit Post Settings >> Events >> Edit.\n\nOpen the Search Results Design tab and click on \"Additional Settings.\"\n\nScroll to \"Display Expired Posts in Search Results\" and select \"Yes.\"\n\nNote: Events without a specified expiration date are treated as expiring on the same day as the start date if this setting is set to \"No.\"\n\nIf set to \"Yes,\" expired posts will appear in search results and in the Events Calendar.\n\n\n## Recurring Events Add-On\n\n\nThe Auto-Recurring Events add-on enhances event functionality by allowing events to display in search results even after their initial start date has passed.\n\nMore information: How To Enable The Recurring Events\n\nNote: To enable this post type on a membership plan, go to Finance » Membership Plans - Post Publishing .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175104184/original/MJ6M5qqGhWGEzVU72-cuHctGIUQgjmJ0dw.png?1771942802",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175104912/original/1ilYJzfXcFXd6JtRf9BmzAsQkVDKN5pKwA.png?1771943405",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175105487/original/1Yj-Nq0Mg0yG4DZUz3KQyr7ADP0V1AHnRQ.png?1771943880",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175105515/original/hc2UUP9zKG9goMe-Ye-_EWJhwmbRAy_2kg.png?1771943905",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175105580/original/mIcH7r6CNAun_Ly7bko-OQXu8gbD_QG-jw.png?1771943932",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175105773/original/oRaXk9MrjwIOG-4w6bs_bbWE2PP7ZQUPdw.png?1771944054",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175105926/original/4ywWARNiI9hUkbFJDGo3JUfdNfzStmNuYg.png?1771944177",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175106367/original/xJs_c7gwZoqg0g48bTH00zfn3ayeRmAr2Q.png?1771944595",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175103795/original/1eIJP0d1K8gzWxslijLjk87KJkVZSE1JKA.png?1771942472",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175103878/original/qxDCe2CiYNzYoVSEVysWXfy7hZle8oAyXA.png?1771942510",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175103935/original/b-34Y8rHZZRtCAHORSqC1hrCVGi0iZkMmw.png?1771942560",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post an Event' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000002335",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002335"
+    },
+    {
+      "text": "Finance » Membership Plans - Post Publishing",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000048893"
+    },
+    {
+      "text": "Stock Photo Library for Post",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096709"
+    },
+    {
+      "text": "Auto-Recurring Events",
+      "url": "https://www.brilliantdirectories.com/auto-recurring-events-add-on"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/directory-software-plugins-add-ons"
+    },
+    {
+      "text": "https://www.demobootstrap.com/events",
+      "url": "https://www.demobootstrap.com/events"
+    },
+    {
+      "text": "How To Enable The Recurring Events",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050725"
+    },
+    {
+      "text": "Finance » Membership Plans - Post Publishing",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000048893"
+    }
+  ],
+  "lastmod": "2026-05-13T03:30:21+05:30",
+  "scraped_at": "2026-10-18T13:39:33.381174"
+}

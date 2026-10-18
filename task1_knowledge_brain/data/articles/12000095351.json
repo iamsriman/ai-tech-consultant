@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095351",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095351-08-11-2023-software-updates",
+  "title": "08/11/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/11/2023 - Software Updates"
+  ],
+  "content": "## 08/11/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095351\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We created a new Advanced Setting called \"Member Contact Page URL\". This new setting allows an Admin to edit the URL of the Connect page of Member Profiles. By default this URL is \"connect\". Widget Involved: Bootstrap Theme - Member Profile - Header Post Type Involved: Listing\n\n- We fixed an issue which was preventing the Edit-On Page Text Labels keyword search from working properly after changing the Default Website Language setting in some cases. Widgets Involved: Bootstrap Theme - Text Labels - Label Info Query Bootstrap Theme - Text Labels - Save Actions\n\n- The \"Category Display Options\" Lead Action Setting is now available to select for custom lead actions in the Admin.\n\n- The RSS Feed for Posts Add-On is now compatible with the Members Only Content settings.\n\n- We fixed an issue which was preventing the breadcrumb links on \"pretty URL\" search results pages from working correctly in some cases.\n\n- We created a new Advanced Setting called \"Member Reviews Page URL\". This new setting allows an Admin to edit the URL of the Review Details page on the frontend of a site. By default this URL is \"reviews\" Widgets Involved: Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Module - Recent Reviews Post Type Involved: Reviews\n\n- We fixed an issue which was preventing the Filter By Star Rating Add-On from working properly on member search results pages in some cases.\n\n- We fixed an issue which was causing the Media Manager to display an inaccurate number of files at the bottom of the Media Manager page in the Admin.\n\n- We updated the logic of the Export Transaction Results on the Transaction History Page in order to include the Invoice PDF link as part of the export file when the \"Downloadable PDF Invoices\" Add-On is active on the site.\n\n- We added 2 new classes to the Edit Uploaded Photos widget to allow elements to be targeted more easily when editing the workflow to add and edit the images of a Multi-Photo Post Type from the Member Dashboard area. New classes: photo-album-the-image-photo, photo -album-the-image-data. Widget Involved: Bootstrap Theme - Account - Edit Uploaded Photos",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095351",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095351"
+    }
+  ],
+  "lastmod": "2023-08-15T20:41:16+05:30",
+  "scraped_at": "2026-10-18T13:52:35.695025"
+}

@@ -1,0 +1,339 @@
+{
+  "article_id": "12000100210",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100210-design-settings-homepage-select-content-to-display-streaming-products",
+  "title": "Design Settings » Homepage » Select Content to Display » Streaming Products",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Homepage » Select Content to Display » Streaming Products"
+  ],
+  "content": "## Design Settings » Homepage » Select Content to Display » Streaming Products\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100210\n\n\n## Settings Documentation for Products\n\n\nThis document provides detailed descriptions of the settings available for configuring the streaming products section on the platform. Each setting allows for customization to meet specific needs and preferences.\n\nTo edit these settings, navigate to:\n\n- In the Admin Sidebar Open Settings\n\n- Select Designs Settings\n\n- Open The Homepage Tab\n\n- Open The Module Select Content to Display\n\n- Select The Streaming Products Option\n\n\n## Visual Guide of the  Streaming Products\n\n\nThese are the available settings for the Streaming Products section:\n\n\n## 1. Recent Products Title\n\n\nThis setting allows the administrator to set the title for the recent products section. The title can be customized by entering the desired text in the provided input field.\n\n\n## 2. Title Color\n\n\nThe title color setting enables the customization of the title's color. Administrators can choose a color by inputting the desired color code or using the color picker tool provided.\n\n\n## 3. Display Options\n\n\nThis setting controls the number of recent products displayed. Administrators can select from a range of options, from 1 to 24 results. Additionally, the layout can be adjusted to show a specific number of results per row, ranging from 2 to 4 results per row.\n\n\n## 4. Enable Carousel Slider\n\n\nThe carousel slider option allows recent products to be displayed in a sliding carousel format. This can be toggled on or off using the provided dropdown menu.\n\n\n## 5. Hide On Mobile\n\n\nThis setting allows administrators to choose whether the recent products section should be hidden on mobile devices. It can be enabled or disabled using the dropdown menu.\n\n\n## 6. Linked Post Type\n\n\nThis setting allows the administrator to select the type of content linked to the recent products. Options include classified, photo album, property, product.\n\n\n## 7. Only Show Posts with Photos\n\n\nAdministrators can choose to display only those posts that have photos. This setting ensures that posts without photos are excluded from the recent products list.\n\n\n## 8. Image Quality\n\n\nThis setting controls the quality of the images displayed in the recent products. Administrators can choose between thumbnail size and large size.\n\n\n## 9. Show \"View All\" Button\n\n\nThe \"View All\" button allows users to see all recent products. This setting can be toggled on or off using the dropdown menu.\n\n\n## 10. Hide If No Posts Exist\n\n\nThis setting allows administrators to choose whether the recent products section should be hidden if no posts exist. It can be enabled or disabled using the dropdown menu.\n\n\n## 11. Only Include Posts from Active Members\n\n\nThis setting specifies whether only posts from active members should be included. Administrators can choose to include posts from active members only or from all members.\n\n\n## 12. Include Posts from Non-Searchable Members\n\n\nThis setting allows administrators to choose whether to include posts from non-searchable members. It can be enabled or disabled using the dropdown menu.\n\n\n## 13. Include Posts from Members in These Plans\n\n\nThis setting allows administrators to limit the displayed posts to specific membership plans. Administrators can select the desired membership plans from the provided list.\n\n\n## 14. Display Order\n\n\nThe display order setting determines the order in which recent products are shown. Options include newest first, oldest first, and random order. This can be customized by selecting the desired option from the dropdown menu.\n\n\n## 15. Limit One Post per Member?\n\n\nThis setting specifies whether only one post per member should be displayed. Administrators can choose to display one post per member or allow multiple posts from the same member.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384001/original/VOubO-SmNEwvtloa-Z9k5S6eqfoiWa-3Nw.png?1717626799",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384014/original/L232FoSZ4BJhgc1oOg8_A0OcecFb8AdNng.png?1717626853",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384152/original/QqlZXCG17IjnPA7MiYsYufCuFhMtsMvpOg.png?1717627125",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384155/original/JYB7dNYfRt9qe--eTxog10Whr0boQLjh0w.png?1717627130",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384185/original/8ml67MBl1cu9i6cy0Bjh8hWHHGV1LxZiag.png?1717627140",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384260/original/og5ZSkiXtz5o1A1CvmMbOzqLNu_x24tK4Q.png?1717627275",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384195/original/NjF_3Y37r-jspN8mqjCz9odwql53etrmtQ.png?1717627152",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384273/original/QomVxsQ3di5R7Rm3QkPmh-Y0ycmjwNSWkQ.png?1717627315",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384292/original/j3oEUaY41fB6AfnJ6Ge3vbCglSjM_1rIkw.png?1717627354",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384303/original/zG0eLkiaZc9TgzTXmL2dBLWtHiG1b0_SyQ.png?1717627390",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384297/original/8_SQf5xExZSH3uY8HUluzm02uYWlxd01Lw.png?1717627364",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384336/original/FiSknaLQDiFHPmCWvCSzjJF5fOsFiocG0w.png?1717627425",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384405/original/KUZmuFMJsOUzQNZb351dLvj-Us_cZVq9gQ.png?1717627525",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384374/original/WxKZz8JU_5VWJuyQ5H6KSfPJrkPvPu74Bg.png?1717627477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384433/original/iQOepZ7yaxYkIMzHM1wZ79hZ5-zhvVoxWg.png?1717627562",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384445/original/gGSOZMwXQtPaVroqLWJ-0KIsiaFC4itsjg.png?1717627624",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384440/original/0mnAnzCZpRz61gdp9yD1LquQiLIVe-BMjg.png?1717627580",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384491/original/HcIvtrHENBNAgbitYRfkNlmfRO7EZI0UAg.png?1717627690",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384450/original/DuFGyw4IFW_eDRQsMNCgyY_FYhzjC6dYXA.png?1717627661",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384514/original/AcDq0YQeneuNEvL7Ean_kGwu8ZTZrFZOhQ.png?1717627720",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384502/original/NOfZOlzvzJxR0sRNaByGM9BfaHjHUeShxw.png?1717627698",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384516/original/m_PuDcf-yWKFeW-VxTqfeCbCFGbyrGN4sg.png?1717627729",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384525/original/Rr9oQQ07hTJGg_fXOXYsEp63ZE6ZqybN3Q.png?1717627759",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384563/original/rGz5FxOK_h4zeHOkYx-ll2jP_HoEQ0x-7A.png?1717627809",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384533/original/on4flOFyeqdjKnbH-XrQJG7eZNGxJIJJTg.png?1717627775",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384569/original/FB8LxBDsqs8yZrgyNNZE27eaBaLN98qWlA.png?1717627848",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384533/original/on4flOFyeqdjKnbH-XrQJG7eZNGxJIJJTg.png?1717627775",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384647/original/jx2kGxZFH59vr3mAurkWCIaPrQaoKW5MKQ.png?1717627891",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384533/original/on4flOFyeqdjKnbH-XrQJG7eZNGxJIJJTg.png?1717627775",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384657/original/-1wAzR9a4jQUruwF0CCGnaFWPXeQSKBFvw.png?1717627922",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384533/original/on4flOFyeqdjKnbH-XrQJG7eZNGxJIJJTg.png?1717627775",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384665/original/wTdsg7EzP0P75PZ7XPuG7zWTWIj40ker3w.png?1717627952",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384533/original/on4flOFyeqdjKnbH-XrQJG7eZNGxJIJJTg.png?1717627775",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384773/original/hH6fbAVGDLwH_KsVFk0pbPawOP_HwjJMHA.png?1717627985",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144384533/original/on4flOFyeqdjKnbH-XrQJG7eZNGxJIJJTg.png?1717627775",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Products' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100210",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100210"
+    }
+  ],
+  "lastmod": "2024-06-06T04:23:17+05:30",
+  "scraped_at": "2026-10-18T13:54:15.515087"
+}

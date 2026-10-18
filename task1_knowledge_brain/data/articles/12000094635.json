@@ -1,0 +1,154 @@
+{
+  "article_id": "12000094635",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094635-prorated-discounts-and-credits-for-membership-plan-changes",
+  "title": "Prorated Discounts and Credits for Membership Plan Changes",
+  "category": "Add-On Documentation",
+  "folder": "Member Credits System",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Member Credits System",
+    "Prorated Discounts and Credits for Membership Plan Changes"
+  ],
+  "content": "## Prorated Discounts and Credits for Membership Plan Changes\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000094635\n\nIn this article, we will be going over the prorated discounts and credits that can be assigned during membership plan upgrades and downgrades.\n\n```\nImportant Notes: 1. For this funcionality to work, the Member Credits System add-on has to be enabled on the site. 2. The member has to be in Active status, meaning that they can't be past due on the most recent invoice on the current product for this discounts/credits to work.\n```\n\nThere are three Advanced Settings related to the prorated discounts.\n\nFind them by searching the following variables:\n\n- enable_prorated_plan_changes\n\n- proration_deduct_first_day\n\n- enable_credit_system\n\n\n## Enable Prorated Plan Changes\n\n\nTo enable prorated plan changes, navigate to Settings >> Advanced Settings and enable the advanced setting enable_prorated_plan_changes :\n\nLocate the setting enable_credit_system and ensure that it is turned on:\n\nThe idea of proration is when a paid member wants to change their membership plan, the system will calculate a prorated amount of credits that will then be applied during when a member changes their membership plan.\n\nLet's assume the following scenario, there is a member who signed up for the Premium in an annual plan for $200 today:\n\nNow let's assume this member would like to change their membership plan to Featured on the same day, which is an annual plan for $100:\n\nWhen this advanced setting is enabled, instead of the members having to pay a new $100 for the plan they are changing to, the system will instead calculate the difference in pricing between the current plan and the new plan and will give the member a Prorated Discount/Credit:\n\nAs the system indicates in the Order Summary above, this member who signed up today still has $200.00 worth of prorated time left on their current plan, hence this member will receive $200 worth of credit and $100 of this credit will be used to pay for the $100 annual membership of this new plan.\n\nThis can be better seen in the Credit History Log for this member:\n\nA $200 prorated credit has been assigned first and then $100 was instantly used to change their membership plan, hence this member has a $100 credit left on their account.\n\n\n## Deduct First Day Usage From Proration Calculation\n\n\nTo enable the deduction of first-day usage from the proration calculation, navigate to Settings >> Advanced Settings and enable the advanced setting proration_deduct_first_day :\n\nNow let's assume the same scenario provided above, a member signed up for the Premium membership plan in an annual plan for $200 today and would like to change their membership plan to Featured on the same day, which has an annual plan for $100:\n\nWhen this advanced setting is enabled, the member will receive $199.45 worth of prorated credits first to their account, instead of $200 as the first-day usage of the yearly plan has been deducted from the total:\n\nThis can be better seen in the Credit History Log for this member:\n\n\n## How Does the System Calculate the Proration Credit Value?\n\n\nIn the examples above, we went over the scenarios where the user decides to change their plan within the same day. What if this user decides to change their plan after a few days instead?\n\n\n### Example 1\n\n\nLet's assume the member signed up on April 20th and changed their plan on April 28th (technically 9 full days) and let's assume the proration_deduct_first_day is disabled . The proration credit value would be calculated like the following:\n\n$200 divided by 365 equals $0.55,  and this will be the daily value of the original membership plan they signed up to.\n\n$0.55 times 8 days (not deducting for the first day) that past equals $4.40 of plan usage so far on their current plan.\n\n$200 minus $4.40 equals $195.60, and this will be the total value of the prorated credit the member will receive\n\n\n### Example 2\n\n\nLet's assume the member signed up on April 20th and changed their plan on April 28th and let's assume the proration_deduct_first_day is enabled . The proration credit value would be calculated like the following:\n\n$200 divided by 365 equals $0.55 and this will be the daily value of the original membership plan they signed up to.\n\n$0.55 times 9 days (the full number of days from April 20 - 28) equals $4.95 and this will be the total value of the prorated credit that will be deducted from the total\n\n$200 minus $4.95 equals $195.05 and this will be the total value of the prorated credit the member will receive",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127651524/original/TPolcsiSJfitE3fbhlCr-fIxfT2RbHl4PQ.png?1688051324",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138170667/original/h73BEpVkPXY_532Xwado9Ao9XJ5d1690JA.png?1706897612",
+      "alt": null,
+      "caption": "Locate the settingenable_credit_systemand ensure that it is turned on:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'. Context: Locate the settingenable_credit_systemand ensure that it is turned on:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127652517/original/J5J97hoVqOeGSuInmqBfFD3SyLceP6nD4w.png?1688052307",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127653292/original/o4BQziB5lEGm_NZ24d_THUuqXQfQls1mgQ.png?1688052985",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127655220/original/tWTfzyl5FnhLd4jUtwfpx4fOm1xgzuzLLw.png?1688054814",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127655493/original/OBV1nPBdXSWUCK8dR2GkKMQPtvBU8dNj7Q.png?1688055040",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127655974/original/v6S6iZKU650KqdOZCZhifCyXhj7cl5eteA.png?1688055478",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127656292/original/EYegNBdmW_UW1WuAnAxGrxkjNV4INq1kJg.png?1688055759",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127656434/original/F4lRbQclxNFBUbeV16BKcKWoa4zQvk1QRQ.png?1688055917",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127656501/original/YoreuZ5hpDJr91mFLcLrOmE8WFqAaMXg7Q.png?1688056001",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Prorated Discounts and Credits for Membership Plan Changes' in section 'Add-On Documentation' / 'Member Credits System'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000094635",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094635"
+    },
+    {
+      "text": "Member Credits System",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000086306"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    }
+  ],
+  "lastmod": "2025-03-27T00:49:36+05:30",
+  "scraped_at": "2026-10-18T13:52:26.137143"
+}

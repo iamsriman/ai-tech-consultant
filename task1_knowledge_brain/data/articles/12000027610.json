@@ -1,0 +1,23 @@
+{
+  "article_id": "12000027610",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027610-cookies-used-on-brilliant-directories-websites",
+  "title": "Cookies Used On Brilliant Directories Websites",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Cookies Used On Brilliant Directories Websites"
+  ],
+  "content": "## Cookies Used On Brilliant Directories Websites\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000027610\n\nSome jurisdictions require website owners to disclose the cookies used on their websites, including their purpose and functionality. The following cookies may be used by Brilliant Directories websites, depending on the features and third-party services enabled. __lc.visitor_id.nnnnnnnn Used by LiveChat , a third-party service supported by Brilliant Directories. This cookie recognizes returning visitors so conversations can continue across multiple visits. The cookie name includes a unique visitor identifier. _ga Used by Google Analytics . This cookie distinguishes unique visitors by assigning a randomly generated client identifier. It is used to collect visitor, session, and campaign data for analytics reports. loggedin Used by Brilliant Directories. This cookie identifies whether a visitor is currently logged in to a member account. A value of 1 indicates an authenticated member session. __Secure-sessionID5 Used by Brilliant Directories. This cookie stores the unique session identifier for the current visitor and helps maintain an active session while browsing the website. token Used by Brilliant Directories. When a member is logged in, this cookie stores a unique identifier used to verify the member when performing certain actions, such as adding members or posts to their Favorites list. subscription_id Used by Brilliant Directories. Stores the unique Membership Plan ID associated with the logged-in member. useractive Used by Brilliant Directories. Stores the current status of the logged-in member account, such as active, inactive, or deleted. userid Used by Brilliant Directories. Stores the unique Member ID assigned to the logged-in account. This identifier is used when performing certain member-related actions, such as adding Favorites. profession_id Used by Brilliant Directories. Stores the Main Category ID associated with the logged-in member. For example, if a member belongs to the Doctor category and that category has an ID of 25 , this cookie stores the value 25 . mobile_preloader Used by Brilliant Directories. Tracks whether a visitor has already loaded a page on the website. After the initial page load, this cookie is set to 1 , preventing the Mobile Preloader from running again during subsequent visits. This cookie is only created when the Front-End Optimization: Mobile Preloader Advanced Setting is enabled. A couple of improvements I'd also make while you're editing: Change the title to Cookies Used on Brilliant Directories Websites (\"on\" instead of \"On\"). Wrap every cookie name in inline code formatting ( cookie_name ) to make the article much easier to scan. Standardize every section to follow the same pattern: What it is Who sets it What it does That consistency makes these technical reference articles much more readable.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000027610",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027610"
+    }
+  ],
+  "lastmod": "2026-06-27T04:02:09+05:30",
+  "scraped_at": "2026-10-18T13:41:04.515983"
+}

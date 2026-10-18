@@ -1,0 +1,82 @@
+{
+  "article_id": "12000084213",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084213-edit-checkout-pages-how-to-edit-checkout-url",
+  "title": "Edit Checkout Pages: How To Edit Checkout URL",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Edit Checkout Pages: How To Edit Checkout URL"
+  ],
+  "content": "## Edit Checkout Pages: How To Edit Checkout URL\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084213\n\n\n## Overview\n\n\nA default checkout page URL looks like this:\n\nwww.domain.com/checkout/2\n\nThe value \" 2 \" at the end of the URL comes from the membership plan ID number:\n\n\n## How To Edit Checkout URLs\n\n\nThe \" checkout \" portion of the URL can be changed by navigating to Settings » Advanced Settings and conducting a keyword search for \" Default Checkout URL \":\n\nFor this example, the URL segment was changed from checkout to checkout-pay :\n\nIt is also possible to change the portion of the URL that follows this segment., which is \"2\" in this example. To accomplish this, navigate to Finance » Membership Plans and click Edit on the preferred membership plan:\n\nThen search for the setting \" Member Signup Page URL \":\n\n“In this example, the value was changed from ‘2’ to ‘ featured ’:\n\n\n## Important Rules About The \"Member Signup Page URL\" Setting:\n\n\n- If the setting is left blank, the system will assign the membership plan's ID# as the value.\n\n- Letters, numbers, underscores, and dashes are allowed. EG: gold-plan\n\n- Each membership plan's checkout URL has to be unique.\n\n- A membership plan ID cannot be used as the URL value for another checkout page.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166155004/original/MBIXihcZTBJ_DK3KHfgIr1y4t8XNMwyBlg.png?1755698977",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: How To Edit Checkout URL' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166155159/original/vORnApHwsBackS8PRBBIl2zON00vAFo7yQ.png?1755699054",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: How To Edit Checkout URL' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12101662595/original/Y9rAfyjiDkJP42_Y9F6D2OFUzETXDPw4Fg.png?1638285276",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: How To Edit Checkout URL' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166155348/original/crpV7NI49F270VgY89sQiO8Z3IDzEv8now.png?1755699160",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: How To Edit Checkout URL' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166155412/original/taOTtkdn6wAkJEPPm8sNe7rjXy1vkrY8FQ.png?1755699208",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: How To Edit Checkout URL' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12101663182/original/M2etK2fD-wdlJoDikc-IHDsECSiDu6Em6A.png?1638285723",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: How To Edit Checkout URL' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084213",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084213"
+    },
+    {
+      "text": "www.domain.com/checkout/2",
+      "url": "https://www.domain.com/checkout/2"
+    }
+  ],
+  "lastmod": "2026-06-10T21:39:03+05:30",
+  "scraped_at": "2026-10-18T13:49:13.682212"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000051559",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051559-11-18-18-software-updates",
+  "title": "11/18/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/18/18 - Software Updates"
+  ],
+  "content": "## 11/18/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000051559\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was causing a member's subscription to be listed as \"Pending\" after attempting to upgrade with a credit card that is rejected in some cases.\n\n- We fixed an issue that was preventing an Admin from deleting members in some cases.\n\n- We released a Security Update to all areas of the software where a member can upload an image or a file (CV / resume) and to the Media Manager in the Admin.  This update will make sure that only JPG, PNG, GIF, Doc, and PDF files can be uploaded (different files are allowed in different circumstances), and that the files that are of the type specified in their file extension. Widgets Involved: Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Account - Photo Albums Upload Form Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Footer - Scripts Bootstrap Theme - HEAD\n\n- We updated the UI of the Match Leads page in the Admin.\n\n- We removed the \"Type of Data\" field when editing Post Settings in the Admin to reduce potential user errors.\n\n- We released the Pin Featured Post Add-On. Click here for more information. Widgets Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We fixed an issue which was preventing image thumbnails from displaying the Admin Media Manager after pressiing the \"Load More\" button.\n\n- We removed the links to the old lead system in the Admin area on all sites that do not have any leads submitted using the old system.\n\n- We removed the Google+ share button from the Social Share Widget since Google will be deprecating that social network. Widget Involved: Bootstrap Theme - Module - Social Share\n\n- We updated the Facebook SDK URL in order to support the latest version of the Facebook Website Chat plugin. Widget Involved: Bootstrap Theme Framework\n\n- We improved the Edit Web Page URL validation in order to reduce potential user errors.\n\n- We updated the Top-Level Category filter in the Sub-Level Category Page in the Admin Panel in order to support searching the contents of the dropdown.\n\n- We added the ability to change the Site Date Format from the General Settings page in the Admin. In order to use this new feature navigate to Admin >> Settings >> General Settings >> Configuration Tab.\n\n- We deprecated the HTTPS Recaptcha settings, now we only use the Original Recaptcha Settings for both http and https. Widgets Involved: Account - Save Actions Bootstrap Theme - Account - Signup Actions Bootstrap Theme - Function - Google ReCaptcha on Password Retrieval Page Bootstrap Theme - Function - Google ReCaptcha on Sign up Page Bootstrap Theme - Function - Save Form Bootstrap Theme - Member Login Page\n\n- We fixed an issue which was increasing the Search Results page load time for features when the Pin Featured Posts Add-on is active on a site. Widgets Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We fixed an issue which was affecting the ability to upload images using the Media Manager page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000051559",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051559"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/pin-featured-posts-add-on"
+    }
+  ],
+  "lastmod": "2018-11-20T00:03:26+05:30",
+  "scraped_at": "2026-10-18T13:44:07.140011"
+}

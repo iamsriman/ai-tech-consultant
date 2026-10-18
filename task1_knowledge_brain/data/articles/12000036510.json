@@ -1,0 +1,95 @@
+{
+  "article_id": "12000036510",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036510-how-to-clone-a-post-type",
+  "title": "How to Clone a Post Type",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How to Clone a Post Type"
+  ],
+  "content": "## How to Clone a Post Type\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000036510\n\nIn some cases, the admin might want to have a duplicate a post type but with a different name and for a different purpose. Follow the steps in this article, to learn how to clone a post type.\n\nIn this example, the Events post type will be cloned in order to create an Open House post type.\n\nGo to My Content >> Edit Post Settings\n\nFind the post type to be cloned and hover over the Actions > Click on Clone\n\nNow, the new cloned post type will appear at the top, click on Edit:\n\nEdit the Name and URL  in these fields:\n\nIn this case, the cloned post type will be called \"Open House\"\n\nName: Open House\n\nURL Permalink: open-house\n\nOn the Profile Page Design tab, update the Profile Page Tab Title :\n\nOn the \"Search Results Design\" tab must also update the H1 that is going to display in your search results page.\n\nFinally, Click on Save Changes .\n\n\n## Adding the new Post Type to Membership Plans\n\n\nThe last step is to add the new post type to each membership plan by going to Finance >> Membership Plans >> Post Publishing Tab >> Check the \"Can Post\"\n\nNow members subscribed to this membership plan will be able to post \"Open Houses\".\n\nAll new posts will be published in the link previously added for the post type.\n\nExample: https://contentdocumentation.directoryup.com/open-house",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185006019/original/ICc66GKLfJNuvuev3IzE3kaU3SUS0PNGTQ.png?1789067181",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Clone a Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185006065/original/22VqrUASa7MqjqvI3dINU9Y5vp-IrbgUEA.png?1789067240",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Clone a Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185006111/original/JmYVR3E5UzGmV4lpjOOsXhws98Cr-cLZHw.png?1789067289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Clone a Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185006164/original/WXCSaXRYLQAQiZCaLhSogHTS_GTk03YPtQ.png?1789067384",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Clone a Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185006176/original/PU8HlF1SapOSw3y-3v7wkpouvTMCq3ZwYQ.png?1789067393",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Clone a Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185006249/original/dFNIRR9w4TI4Mi1pFqTzC2NwY-iq-T8Whw.png?1789067459",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Clone a Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185006456/original/zzbvIN-6iKVa9zUhbJV9XxFTzb3zpK-S_Q.png?1789067665",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Clone a Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000036510",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036510"
+    },
+    {
+      "text": "",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036494-adding-or-removing-membership-features"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000048893"
+    }
+  ],
+  "lastmod": "2026-09-11T00:44:38+05:30",
+  "scraped_at": "2026-10-18T13:41:55.780710"
+}

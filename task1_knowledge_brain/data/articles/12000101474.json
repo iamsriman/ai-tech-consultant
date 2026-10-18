@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101474",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101474-09-13-2024-software-update",
+  "title": "09/13/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/13/2024 - Software Update"
+  ],
+  "content": "## 09/13/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101474\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the paid member signup workflow to fix rare cases where a coupon code would not be applied to the payment as expected for sites using Stripe as the Payment Gateway.\n\n- We fixed an issue that was causing the system to send the \"Verify Account\" email multiple times when new members attempted to verify their email address. Widgets Involved: Bootstrap Theme - Account - Sidebar Bootstrap Theme - Account - Status Notifications\n\n- We updated the workflow of deleting members from the Admin area to also delete any post comments made by the deleted members as well.\n\n- We implemented a security update to the Multi-Listing Location (Service Area) Add-On. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We added the ability to manually upload thumbnail images for Video Post Types in the Member Dashboard. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Data Post Meta Bootstrap Theme - Display - Recent Videos Bootstrap Theme - Display - Related Posts by Category Bootstrap Theme - Single Post Page\n\n- We created a new Advanced Setting called \"MEMBER CREDITS: Select Transaction Types Credits Can Be Applied To\". This new setting allow Admins to select the types of transactions to which member credits can be applied.\n\n- We implemented a security update when uploading images to Multi-Photo Post Types in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Photo Albums Upload Form",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101474",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101474"
+    }
+  ],
+  "lastmod": "2024-09-16T22:40:50+05:30",
+  "scraped_at": "2026-10-18T13:54:59.875361"
+}

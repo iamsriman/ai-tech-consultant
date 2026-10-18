@@ -1,0 +1,23 @@
+{
+  "article_id": "12000088110",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088110-07-01-22-software-updates",
+  "title": "07/01/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/01/22 - Software Updates"
+  ],
+  "content": "## 07/01/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088110\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The validation help text for the Website URL form field type is now a Text Label. Text Label Involved: form_validation_valid_uri\n\n- We fixed an issue which was preventing the Member Search Results page from returning results after using the Dynamic Category Filtering Add-On in some cases.\n\n- We improved the Lead Settings page validation in the Admin to make sure at least one of the category or location fields are set as required when the auto-matching functionality is enabled .\n\n- We updated the \"Member Plan Changed\" webhook in order to add a new variable called \"purchase_status\". The value for this variable will be \"success\" for successfully collected payments or \"failed\" for payments that were not collected successfully.\n\n- We fixed an issue which was preventing the system from displaying the first_name value in the invoice_payment_received email template after a member signs up in some cases.\n\n- We updated the layout of the Single Photo and Photo Album Uploads forms when creating posts to add the recommended image size. Widgets Involved: Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Account - Photo Albums Upload Form\n\n- The Price Field form field type is now compatible with forms outside of the Member Dashboard area (Contact Us, Newsletter, Get Matched, etc). Also, we updated the logic of the field type in order to load the JS files after the page loads. This will help to reduce  the load time of pages and increase scores in 3rd party tools like GTMetrix and Google Pagespeed.\n\n- We fixed an issue which was preventing the Lead System from respecting the \"Maximum Accepted Matches\" lead setting when a member accepts a lead in some cases.\n\n- We fixed an issue which was affecting the ability to use the Community Comments Add-On on sites running PHP 5.4 in some cases.\n\n- We fixed an issue which was preventing the system from displaying the \"Membership Plan changed\" action on the Activity tab when viewing the Member Account page in the Admin.\n\n- We updated the Simple Events Calendar Add-On to prevent tooltips for holidays to get stuck after clicking on the calendar in some cases.\n\n- We fixed an issue which was preventing the system from respecting the \"Category Display Option\" Lead Settings when a site had more then one Lead Action Workflow in some cases. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We updated the logic of the Checkout forms in order to disable the \"Create My Profile\" button until the order summary is fully loaded.\n\n- We activated the Font Family selector for the email Froala WYSIWYG in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088110",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088110"
+    }
+  ],
+  "lastmod": "2022-07-11T23:52:00+05:30",
+  "scraped_at": "2026-10-18T13:49:57.075963"
+}

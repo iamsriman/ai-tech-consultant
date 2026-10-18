@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109096",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109096-menu-migration-dashboard-installer",
+  "title": "Menu Migration - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Menu Migration - Dashboard Installer"
+  ],
+  "content": "## Menu Migration - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109096\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Menu Migration Does\n\n\nThis installer modernizes how the website stores menu settings. It has two separate steps, and each one runs only if the database still needs it.\n\n- Migrate menu disable data : older sites recorded whether a menu was turned off in the general settings table ( users_meta , as rows where database is menus and key is disable ). This step moves that setting onto the menu itself by writing the menu_active column on the menus table, then deletes the old users_meta rows. A menu that was marked disabled becomes menu_active = 0 and one that was not becomes menu_active = 1 , so the menus keep the same on/off state, just stored in the newer location.\n\n- Update menu title column : this step makes sure the menu_title column on the menu_items table is a VARCHAR(255) field with Unicode (utf8) support, so menu titles up to 255 characters and special characters are stored correctly. If the menu_items table does not exist, this step is skipped.\n\n\n## Why It Appears\n\n\nThe installer appears when either step still has work to do. The first step is pending when the users_meta table still contains menu disable rows that have not been moved yet. The second step is pending when the menu_title column is not yet a VARCHAR(255) field. If there is no leftover disable data and the menu title column is already correct, the installer does not appear.\n\nThese are legacy conditions. Sites created before menu settings moved to their current storage will see the installer offered, while newer sites already have both in place. Seeing it does not mean anything is broken; it means the database predates one or both of these updates.\n\n\n## Why It Matters\n\n\nMoving the disable setting onto the menus table keeps each menu's on/off state with the menu itself, which is where newer platform features read it from, and it clears stale rows out of users_meta . Widening the menu title column prevents long menu titles or special characters from being cut off. Skipping the installer will not immediately break the menus, but it leaves menu settings on the older structures that newer features are not built for.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Menu Migration appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once both steps are done.\n\nIf Menu Migration does not appear in the list, the website is already up to date, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The menus keep the same on/off state and the same titles; only where those settings are stored changes. There is nothing to reconfigure afterward.\n\nEach step re-checks the database before running: the migration step only runs while leftover disable rows exist and reports that the data was already migrated once they are gone, and the title-column step is offered only while the column still needs widening. Because of these checks, the installer is safe to run even if part of the update was already applied earlier.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109096",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109096"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:41+05:30",
+  "scraped_at": "2026-10-18T13:59:44.579041"
+}

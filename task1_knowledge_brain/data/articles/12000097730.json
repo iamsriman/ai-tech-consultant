@@ -1,0 +1,23 @@
+{
+  "article_id": "12000097730",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097730-how-can-i-create-a-new-text-label-or-custom-text-labels",
+  "title": "How Can I Create a New Text Label or Custom Text Labels",
+  "category": "Developer Hub",
+  "folder": "Quick FAQ",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Quick FAQ",
+    "How Can I Create a New Text Label or Custom Text Labels"
+  ],
+  "content": "## How Can I Create a New Text Label or Custom Text Labels\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097730\n\nBrilliant Directories does not currently include a feature for creating custom text labels. However, the same result can be achieved by creating a custom widget that contains the desired text and displaying it anywhere on the website using a widget shortcode.\n\n\n## Creating a Text Label Widget\n\n\n- Log in to the Admin Area.\n\n- Navigate to Toolbox → Widget Manager .\n\n- Click New Widget .\n\n- In the HTML tab, enter the text that should be displayed.\n\n- Assign the widget a descriptive nickname that makes it easy to identify later.\n\nFor example, if the widget displays the text \"Join Us\" , a nickname such as Text - Join Us helps keep similar text label widgets organized.\n\nSave the widget after entering the desired content.\n\n\n## Displaying the Text Label\n\n\nOnce the widget has been created, it can be displayed anywhere that supports widget shortcodes.\n\nFor example:\n\nCopy [widget=Text - Join Us]\n\nWherever this shortcode is added, the widget's content will be rendered on the page. This approach makes it easy to reuse the same text in multiple locations while only needing to update it in one place.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097730",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097730"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:23+05:30",
+  "scraped_at": "2026-10-18T13:53:19.501531"
+}

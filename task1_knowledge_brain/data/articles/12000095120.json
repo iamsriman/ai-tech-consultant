@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095120",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095120-07-28-2023-software-updates",
+  "title": "07/28/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/28/2023 - Software Updates"
+  ],
+  "content": "## 07/28/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095120\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the One-Click Google Login Add-On button from aligning correctly on mobile devices. Widget Involved: Bootstrap Theme - Display - Google Action Create\n\n- We fixed an issue where some URLs that should return 404 errors were not returning the error as expected on the frontend of sites.\n\n- We fixed an with the Member Quick Edit Form in the Admin which was causing the system to display an incorrect URL validation error when saving in some cases.\n\n- We improved the member category URL validation on the Member Categories page in the Admin.\n\n- We created a new Advanced Setting called \"Dynamic Category Filtering - Only Show Categories Which Belong To The Top Category\". When enabled, the system will keep the top or sub category context from the URL so the dynamic filters in the sidebar only show categories related to the category of the current search results page.\n\n- We fixed an issue with the Member Snapshot module that was preventing it from displaying the correct number of members on the Admin Dashboard.\n\n- We fixed an issue when editing SEO Templates in the Admin which was causing the system to display the URL as fixed and the option to edit the URL simultaneously in some cases.\n\n- We created a new Advanced Setting called \"Default Add Post URL\". This new setting allows an Admin to edit the Member Dashboard URL used when creating a new post. By default this URL is \"add\". Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Success Page - Pay Per Post\n\n- We fixed an issue which was causing the system to duplicate member results when using the Dynamic Category Filter Add-On in some cases.\n\n- We improved the \"Max. Sub-Level Categories Member Can Select\" Membership Plan setting validation to only accept values of 0, a positive integer, \"all\" or \"unlimited\".\n\n- We fixed an issue with the Media Manager which was preventing the system from loading file thumbnails properly after using the \"Load All\" button.\n\n- We fixed an issue which was preventing Location Pretty URLs from returning accurate results when the \"Enable All Location Features for Pretty URL Search Results Pages\" Advanced Setting is active in some cases.\n\n- We fixed an issue with the /state/city member search results pages which was causing the system to display results from a matching city, but in a different state, than what was specified in the URL in some cases.\n\n- We added the \"name\" property to the Google Sitelink search schema.\n\n- We created a new Advanced Setting called \"Froala Markdown\". This setting will enable support for using markdown in Froala WYSIWYG editors on a site.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095120",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095120"
+    }
+  ],
+  "lastmod": "2023-07-31T22:55:57+05:30",
+  "scraped_at": "2026-10-18T13:52:32.785283"
+}

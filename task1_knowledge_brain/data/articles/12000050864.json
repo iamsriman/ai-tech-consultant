@@ -1,0 +1,284 @@
+{
+  "article_id": "12000050864",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050864-how-to-post-images-on-wysiwyg-editors",
+  "title": "How to Post Images On WYSIWYG Editors",
+  "category": "My Content",
+  "folder": "Manage Posts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Manage Posts",
+    "How to Post Images On WYSIWYG Editors"
+  ],
+  "content": "## How to Post Images On WYSIWYG Editors\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000050864\n\n\n## What is WYSIWYG Editor?\n\n\nWYSIWYG is an acronym for \"what you see is what you get\". The WYSIWYG Editor enables rich text editing capabilities for post types, about me sections, creating emails and even landing pages.\n\nFor more information regarding WYSIWYG Editors, please visit the master article shared down below.\n\nEverything About WYSIWYG Editors\n\nBefore starting, first add images to the Media Manager by following one of the two methods below:\n\n\n## Method 1: Upload Images\n\n\nNavigate to My Content → Media Manager → Click on “ Upload Image ”\n\nIn this section, there are two options to upload an image.\n\n\n### Click to Upload / Drag the Files to Upload\n\n\n\n## Method 2: Download Photos by Pexels\n\n\nNavigate to My Content → Media Manager → Click on “ Photos by Pexels ”\n\nSearch by Keyword using the designated field:\n\nSelect the preferred orientation and image size here, then click \"Search Photos\":\n\nSelect the size for download and click the download button:\n\nClick on Back to return to the Media Manager again, right-click on the preferred image, and click “ Copy Image URL ”\n\nThe images FULL URL path should look like this:\n\nhttp://YOURDOMAIN/images/background-pricing1-(1).jpg\n\nThe URL path that will be used to post on WYSIWYG Editor looks like this:\n\n/images/background-pricing1-(1).jpg\n\nNow that the images have been uploaded and the URL path has been copied it's possible to insert these images on preferred WYSIWYG Editors.\n\nFor this instance, an example Blog Article will be presented.\n\n\n## Adding Images on WYSIWYG Editors\n\n\n\n### 1) Adding Images on Blog Articles\n\n\nLogin as preferred member who is also allowed to post “ Blog Articles ”\n\nOn the Member's Dashboard, navigate to Blog Articles → Add Blog Articles\n\nOn the “ Article Content ” section, click on “ Code View ”\n\nOn a new line, paste the code specified down below:\n\n<img src=\" PASTE YOUR URL PATH \" >\n\nThe image will be rendered on the fly.\n\nIMPORTANT NOTE #1 : In this example, the URL path is “/images/test.jpg”\n\nIMPORTANT NOTE #2: In this example, the full code with the URL path is:\n\n<img src=\"/images/test.jpg\" >\n\n\n### 2) Adding Images on Static Pages\n\n\nNavigate to My Content --> Web Page Builder --> Click on \" New Web Page \"\n\nOn WYSIWYG Editor, click on \"Insert Image\".\n\nThere are 4 available options:\n\n1. Drag and Drop the image:\n\n2. Paste the FULL URL path and click \" Insert \"\n\n3. Click \" Browse \" to choose the image manually from the Media Manager\n\n4. Click \" Pexels \" to open up the following Image Search Menu:\n\n\n## Additional Image Options\n\n\n\n### Alignment\n\n\nAlign Image \"left\", \"Centered\" or \"right\":\n\n\n### Image Caption\n\n\nAdd a description or caption to the image:\n\n\n### Insert Link\n\n\nTurn the image into a clickable link.\n\n\n### Add Alternative Text\n\n\nAdd Alt Text for SEO purposes:\n\n\n### Change Image Size\n\n\nSpecify the height and width of the image:\n\n\n### Style\n\n\nChoose different styles, including the ability to hide the image on mobile:\n\nThis is an example of how a \"Circle\" styled image looks like:\n\n\n### Remove\n\n\nClick to delete the image:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133318784/original/lsg3MddkOe3_ARXdKg8RT_Xkx-TZ2yV6GA.png?1698279511",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134440960/original/bttukTtMVZ8Xa0jtKRrb-c4zKvdMRlbldw.png?1699994926",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133318817/original/rQA0H8VY31-Rf2zw1IOd_BNtcX_Nq_TmCg.png?1698279696",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133318809/original/ahUT90N3RwPAEBK6i6C9v118OR5n57IA9w.png?1698279657",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133318847/original/8mngo9qsDE8jDqHzhTh1ashAv3HGsk4B3g.png?1698279820",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133318883/original/5bA80mKEJjGDS1-7132Th3vuYu96SiTQug.jpg?1698279929",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134441047/original/SFlDmu7y9NrbRPB2xDcuW4b2JqAbQQT9iw.png?1699995050",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089661722/original/K88vFj301xXwXl-rUOQY9OhXqZ7t-Gqupg.png?1615050725",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089661758/original/ua4HIM_dbM3C_3QOReO1-CrIDpZT-r0LSA.png?1615050828",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089661798/original/BAn8jgyuNVVG17MFVCfHVwaxyWnQIOpLHg.png?1615050936",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134441082/original/52z2Wnz18_ZjMMJzhrPKZGb5DfGxplDQ7A.png?1699995115",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133555944/original/Yg82jKKGs-W5DFDHqdqWQkXH0cizsYUfOg.png?1698759539",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133556045/original/PCeGBidZBA4i-6q0P-39oYS5XmBUvU-iUQ.png?1698759634",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133556506/original/NwTh3n7tDAuFzeihh2yLaToHtbsItO5Now.jpg?1698760031",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133556529/original/ZQKTCSa0XyqHZLy3AhgD3JztwPIdiWu-Pw.jpg?1698760055",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133556575/original/h1kx0hfksM_cKbYEQoSC9QwtkM6dWW6SFw.jpg?1698760093",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662000/original/4fTUP-fI8h07iSg9ZUgZzXXUzzPrHcwTjg.png?1615051921",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133556177/original/rsKVXvZP66ePgWFwuYxs_LwOqv_ke7XZ7A.png?1698759777",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133556371/original/ih09dvoHb7MbNLJ1lwOr2syFuiqAXVrAzA.jpg?1698759946",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662046/original/NGPz0mc_iOJ3FO-lFmwdi0qGCdCtPQdGPA.png?1615052217",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662057/original/JO-IlYvCgfafrCJnjP7YsBJ9xeLY-g78DQ.png?1615052324",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662063/original/8SpMSV26C2-Ooa8bMPWhOLe_vBZJtxSa9A.png?1615052390",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662083/original/gz43ul5tVpXfyhHhbOGEIo0h7mDOLaxzug.png?1615052465",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662103/original/yFNs6XvCu8pgLS3mgKsJH-9I_VXYIarUug.png?1615052554",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662106/original/yAt2ibR_QqAfL0lzsI5bn_gOXIzlacnYvQ.png?1615052574",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090670821/original/vHmv0IvRFRyDEry1t6kmQB2KLhdvdMJRQQ.png?1617110833",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662118/original/irv4ziHyJfRJjZM5iggaxDslf2dQ8-i5ow.png?1615052667",
+      "alt": null,
+      "caption": "This is an example of how a\"Circle\"styled image looks like:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'. Context: This is an example of how a\"Circle\"styled image looks like:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090670666/original/jjNKpPwmwEcxETbMpAILcpFuS5TIbjnVaw.png?1617110714",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post Images On WYSIWYG Editors' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000050864",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050864"
+    },
+    {
+      "text": "Everything About WYSIWYG Editors",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000050711-everything-about-wysiwyg-editors"
+    },
+    {
+      "text": "http://YOURDOMAIN/images/background-pricing1-(1).jpg",
+      "url": "http://YOURDOMAIN/images/background-pricing1-(1).jpg"
+    }
+  ],
+  "lastmod": "2025-05-28T04:13:29+05:30",
+  "scraped_at": "2026-10-18T13:44:00.473266"
+}

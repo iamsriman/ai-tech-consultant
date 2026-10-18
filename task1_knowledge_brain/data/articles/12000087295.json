@@ -1,0 +1,23 @@
+{
+  "article_id": "12000087295",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087295-05-13-22-software-updates",
+  "title": "05/13/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/13/22 - Software Updates"
+  ],
+  "content": "## 05/13/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087295\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Simple Events Calendar Add-On to only show events from members who are \"Active\" on the site. Widget Involved: Bootstrap Theme - Function - Events Calendar JSON Array\n\n- We fixed an issue with the Select2 Dropdown on mobile devices which was causing browsers to display the mobile keyboard after selecting an option from the dropdown in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We updated the \"Members Imported / Added / Updated / Deleted Via Admin\" Webhook in the Admin to include the user_action variable when sending data to the webhook.\n\n- We fixed a UI issue when editing the Listings Post Type in the Admin.\n\n- We fixed an issue which was preventing Admins from creating support tickets from the Admin in some cases.\n\n- We deprecated the website_layouts database table which previously stored Design Settings values. The website_design_settings table will store these values moving forward.\n\n- We fixed an issue which preventing SMS 3rd Party Notification email from being sent when manually matching leads to members in the Admin.\n\n- The \"Price Field\" field type is now compatible with the Events Post Type. Post Type Involved: Events\n\n- The name of the days of the week in the Simple Events Calendar Add-On are now manually editable through Text Labels. Text Label Involved: sunday_events_calendar_day monday_events_calendar_day tuesday_events_calendar_day wednesday_events_calendar_day thursday_events_calendar_day friday_events_calendar_day saturday_events_calendar_day\n\n- We added the ability to set the Statement Descriptor on credit card statements when editing the payment gateway credentials for Stripe in the Admin.\n\n- We fixed an issue with the display of Vimeo video thumbnails on the frontend of sites. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Display - Recent Videos Post Type Involved: Video\n\n- We updated the layout of the Specialties tab on member profile pages to center-align the name of sub-sub level categories when viewed on mobile devices.\n\n- We updated the Search Members page in the Admin to keep the search criteria selected after deleting members.\n\n- We created a new setting for the Express Member Registration Add-On called \"Start with Express Registration Tab Selected\". Enabling this setting will display the signup form first instead of the login form when the \"Express Sign Up Membership Plan\" setting is active.\n\n- We fixed an issue which was causing the system to display the \"Install Form Spam Security\" update in the \"Install New Updates\" module on the Admin Dashboard after following the instructions in the ReCaptcha \"Website Alert\" in the Admin.\n\n- We fixed an issue which was preventing the system from creating Multi-Image posts when the name of the Post Type contained an apostrophe.\n\n- We created a new Advanced Setting called \"Skip Image Size Warning for Profile Photos and Logo\". Enabling this setting will skip the warning displayed to members when they upload a profile photo or logo that is smaller than the recommended size. Widget Involved: Bootstrap Theme - Account - Profile Image Upload",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087295",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087295"
+    }
+  ],
+  "lastmod": "2022-05-16T22:59:06+05:30",
+  "scraped_at": "2026-10-18T13:49:47.448795"
+}

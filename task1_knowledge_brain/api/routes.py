@@ -75,6 +75,11 @@ def query_knowledge_base(request: QueryRequest):
         citations=citations,
         screenshots=res.screenshots,
         ticket_id=res.ticket_id,
+        model_used=res.model_used,
+        fallback_used=res.fallback_used,
+        input_tokens=res.input_tokens,
+        output_tokens=res.output_tokens,
+        generation_error=res.generation_error,
     )
 
 
@@ -89,7 +94,7 @@ def check_native_settings(request: SettingsCheckRequest):
         question=f"Can this be configured in settings: {request.feature_description}",
         top_k=3,
     )
-    if res.has_answer and res.confidence >= 0.50:
+    if res.has_answer:
         top_cit = res.citations[0] if res.citations else None
         return SettingsCheckResponse(
             can_solve_with_native_settings=True,
@@ -163,19 +168,27 @@ def trigger_daily_sync(request: SyncRequest = SyncRequest()):
         updated_count=len(report.updated_articles),
         removed_count=len(report.removed_articles),
         message=report.message,
+        unchanged_count=report.unchanged_count,
+        failed_count=len(report.failed_articles or []),
     )
 
 
 @router.get("/health", response_model=HealthResponse, summary="Health & Status Check")
 def health_check():
     """Returns system status, indexed chunk count, and ticket statistics."""
-    count = vector_store.count()
+    try:
+        count = vector_store.count()
+        db_healthy = True
+    except Exception:
+        logger.exception("Chroma health check failed")
+        count = 0
+        db_healthy = False
     pending = ticket_manager.count(status="pending")
     resolved = ticket_manager.count(status="resolved")
     return HealthResponse(
-        status="ok",
+        status="ok" if db_healthy else "degraded",
         indexed_chunks_count=count,
         pending_tickets_count=pending,
         resolved_tickets_count=resolved,
-        chroma_db_healthy=True,
+        chroma_db_healthy=db_healthy,
     )

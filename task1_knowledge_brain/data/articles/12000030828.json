@@ -1,0 +1,196 @@
+{
+  "article_id": "12000030828",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030828-multi-member-manager",
+  "title": "Multi-Member Manager",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Multi-Member Manager"
+  ],
+  "content": "## Multi-Member Manager\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000030828\n\nThe Multi-Member Manager add-on allows individual members to manage multiple listings from one master account. The main account holder can quickly create, edit, and switch between multiple business listings.\n\nPerfect for websites that list banks, restaurant chains, retail stores, real estate firms, and more!\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Multi-Member Manager Add-On\n```\n\n\n## Enabling the Add-On\n\n\nNavigate to Finance >> Membership Plans:\n\nClick on \"Edit\" for the membership plan that can have access to the multi-listing add-on:\n\nClick on the \"Post Publishing\" tab, and then check the boxes for the Sub Accounts feature:\n\nActivate - This will activate this add-on for this membership level.\n\nHide Parent Account - this will hide main account but it will display all the sub accounts that were created.\n\nShow Sub-Account Tab - This will activate a tab in the member's main account showing a link to the sub accounts.\n\nThe admin can also limit the number of sub accounts members can have by toggling the \"Max Limit\" number. This option will only become available if the Limit Post Per Member add on is enabled on the site:\n\nThe admin will be able to tell easily which members are sub accounts and which member is their parent by simply going to Members - Search Members:\n\nThe admin will also be able to assign already created members into a sub account:\n\nImportant : The member being assigned to a parent account must be in the same membership plan. It will not allow the sub accounts to be in different membership plans.\n\n\n## How to Create a Sub Account:\n\n\nThe member will need to be logged into an account that has access to this. Once they have access, the member can go to their dashboard and add a sub account through here:\n\nThe main account can copy their information to save time instead of typing everything from scratch, however, if they wish to add a new sub account with different information they can do so:\n\nThe admin must input a new password if they are copying from the Master Account, if not it will not create the sub account:\n\nThe main account will be able to easily login and edit the sub accounts:\n\nIf the main account logs into one of the sub accounts, they will be able to easily go back to the main account with a click of a button:\n\nSub-accounts will not be able to upgrade individually, the main account will have to upgrade if they wish to upgrade the sub-accounts as well:\n\nImportant : If the main account is set to inactive, they will not be able to create new sub accounts. Also,  when a Parent account is deleted or canceled, all sub-accounts linked to the main account will also be canceled. When doing so, it will display a warning message as shown below:\n\nThe message above is the text label delete_sub_accounts_text that can be edited in Settings > Text labels as shown below\n\n\n### Importing Subaccounts\n\n\nSub accounts can be imported. The column for this is the \"parent_id\", in this field the ID of the parent account needs to be specified.\n\n» How To Import Members Via CSV File\n\n\n### Advanced Settings\n\n\nMatch Sub Account Status To Parent Account\n\nWhen set to \" On \" (default), the status of Sub Accounts (Active, On Hold, Past Due, Cancelled) will automatically update to match that of their parent account.\n\nWhen set to \" Off \", the status of Sub Accounts will be independent of their parent account, and must be manually updated by an Admin when the status of the parent account changes.\n\nSub Accounts / Additional Locations Account Area URL Slug\n\nThis setting controls the URL slug for the Sub Accounts / Additional Locations account area page. Leave it blank or set it to \"additional_locations\" to preserve the default.\n\nSystem Variable: default_subaccounts_url\n\nDefault Value: additional_locations",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114094690/original/stj4u0zQaMA1xlSpYTom61h1FJuyAUWa0A.png?1662478584",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114094767/original/K2N6gxPeOsfoT1Eb3ZoX5Fv23rQxbeWuyQ.png?1662478657",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114094878/original/RJVf2dUG780484OvWrk7wMLeI4gzGGyr1g.png?1662478723",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114094898/original/9apDQSSW87W3bCSFx_QmnUlVlRacWe5SJA.png?1662478741",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12071518730/original/FGQcNSHYskEA8_gNJ4gFUBc0FOZpVUqQcA.png?1577646527",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093125789/original/nkzAThGVWRdLPi_zqPCqNo6Y-2f4n3pUPw.gif?1621957068",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089771241/original/lOTWDX_3ht2FgneUYceMqEtZLAkNiMyGUg.png?1615302409",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089771302/original/QwYTCEI2pdAc5eQdYFX1cbg4tam9MHOv5g.png?1615302445",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089771341/original/RpOxYJ1m2lECR3ETuYsagRaCB-MwJxZijA.png?1615302488",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093439864/original/svdiOESW0gF_IxKJXDYwAXgMNZUqW9cJOA.gif?1622564959",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171705647/original/G0-lai3kLrJkEAeDFGQyq0_Z9jmLgN4BlQ.png?1765298527",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089771524/original/-NmwcxhE1eNM_KItdX5pF_6y_-hBQyXC3g.png?1615302638",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089771737/original/JNvUBSsfNL-HCUVHo3VW_VEu068wTcwXlQ.png?1615302870",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113784424/original/X1MIsCHfR7UAnPuzChaqAxvRu1ej6LHdfA.png?1661887033",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113784649/original/XaieZqwukXzhSnEnKQbrRfqscopNAT_M3g.png?1661887273",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121633152/original/fflToYwzyLtJTQRRLWYUL1yLEj-sItOWGw.png?1677037544",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182875175/original/QXLlbuR4AxJeyOjW78orDp9vmoGyU5ZpXA.png?1785426010",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Member Manager' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000030828",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030828"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Multi-Member Manager Add-On",
+      "url": "https://www.brilliantdirectories.com/multi-member-manager-sub-accounts"
+    },
+    {
+      "text": "Limit Post Per Member add on",
+      "url": "https://www.brilliantdirectories.com/limit-posts-per-member-add-on"
+    },
+    {
+      "text": "How To Import Members Via CSV File",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000558475"
+    }
+  ],
+  "lastmod": "2026-08-28T22:05:56+05:30",
+  "scraped_at": "2026-10-18T13:41:18.084099"
+}

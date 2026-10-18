@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109032",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109032-comments-table-installer-dashboard-installer",
+  "title": "Comments Table Installer - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Comments Table Installer - Dashboard Installer"
+  ],
+  "content": "## Comments Table Installer - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109032\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Comments Table Installer Does\n\n\nThis installer sets up the comments table in the site's database. That table is where the Community Post Add-On stores the comments members leave, so it needs to exist (and have the current structure) before commenting can work. The installer only creates and extends database structure; it does not modify or delete existing content.\n\nDepending on what the database is missing, it performs up to three updates:\n\n- Creates the comments table if it does not exist. Each row records who commented (the member), which post the comment belongs to, the comment text, the date and time, the commenter's IP address, whether the comment is active or waiting for approval, a reference to a parent comment (for threaded replies), and a rating value. It also adds database indexes so comment lookups stay fast.\n\n- Adds the master_id column, along with the same set of indexes, if the site has an older copy of the table that predates that column.\n\n- Adds the rating column if it is missing, so comments can store a rating value.\n\n\n## Why It Appears\n\n\nThe installer appears when the database has no comments table at all, or when it has an older version of the table that is missing the master_id or rating column. Both are age-related conditions: the table and its newer columns were added to the platform over time, so sites created earlier may not have them yet. Seeing this installer does not mean anything is broken.\n\n\n## Why It Matters\n\n\nFor sites that use (or plan to use) the Community Post Add-On, this table is where its comments are saved. Without it, the database has nowhere to store a member's comment. Running the installer prepares that storage; on its own it does not change anything visible on the website.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Comments Table Installer appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Comments Table Installer does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nThere is nothing visible to check on the front end, since the change is purely a database table. Once it has run, comment features backed by the Community Post Add-On have the storage they need, including support for holding comments in a waiting-for-approval state. The installer is safe to run at any time: it only creates a missing table or adds missing columns, and it leaves any existing comments untouched.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109032",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109032"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:24+05:30",
+  "scraped_at": "2026-10-18T13:59:24.828423"
+}

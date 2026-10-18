@@ -1,0 +1,77 @@
+{
+  "article_id": "12000001792",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001792-how-to-add-or-edit-categories-for-post-types",
+  "title": "How To Add or Edit Categories For Post Types",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How To Add or Edit Categories For Post Types"
+  ],
+  "content": "## How To Add or Edit Categories For Post Types\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000001792\n\nPost Types come with pre-set, example categories: These will need to be replaced with actual categories or deleted to remove the post category option from the post form. This field has a limit of 999 characters. Edit Post Categories Locate The Post Type 1. Go to My Content > Edit Post Settings 2. Locate the desired post type to edit: Edit The Categories 1. Look for the Post Categorie s field 2. Proceed to edit the categories while following these rules: No spaces No special characters It's possible to have the first category appear blank on the members drop-down box, and add a \",\" in front of the first category to achieve this. Note: The allowed characters for Post Categories are letters, numbers, periods, and apostrophes. If this is not an option on the site, please check the Software Updates module, which is located on the Dashboard: Applicable Post Types These steps apply to the following post types: Article Audio File Classified Coupon Discussion Event Job Opening Photo Album Product Video Website - Digital Product Website Blog Article Exception: Properties Post Type The Properties post type does not have a Post Category field in Edit Post Settings . Instead, it uses different classification fields such as Property Status and Property Type . These fields can be edited directly in the Feature - Properties form within the Form Manager. For more details, refer to the  following documentation: How to Update Property Types Using the Form Manager",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12145378705/original/jVD9H0b1zHYjxvZsWUCb1u-xkrtbiGonAQ.png?1719331795",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add or Edit Categories For Post Types' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12130491570/original/rRAvP4ydNr2t5YHXcxlvyV4MNktZCyfb6w.png?1693241327",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add or Edit Categories For Post Types' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12130495744/original/mb-TKPe9LcTLRttsWPIc-XBm6EYpybnYrQ.png?1693245708",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add or Edit Categories For Post Types' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104720578/original/FGVsxmomLfU4MjVjeziUWg4yzDR-nlluWA.png?1644255715",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add or Edit Categories For Post Types' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662821/original/gky9PuJBqQ6PmvXt6SnRBg9weYvzo4pxsQ.png?1615056368",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add or Edit Categories For Post Types' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000001792",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001792"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000063344"
+    },
+    {
+      "text": "How to Update Property Types Using the Form Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000063344"
+    }
+  ],
+  "lastmod": "2025-06-20T05:44:21+05:30",
+  "scraped_at": "2026-10-18T13:39:29.365835"
+}

@@ -1,0 +1,378 @@
+{
+  "article_id": "12000059251",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059251-in-depth-look-into-form-fields-and-their-settings",
+  "title": "In-Depth Look into Form Fields and their Settings",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "In-Depth Look into Form Fields and their Settings"
+  ],
+  "content": "## In-Depth Look into Form Fields and their Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059251\n\n\n## How to Create a New Form Field When Customizing a Form\n\n\nTo add a new form field to a form, click the Add Field button:\n\nClicking this button generates a new form field:\n\nClicking the Gear icon displays additional field settings:\n\nTo enable and require validation rules for a form field, see this article:\n\nToolbox » Form Manager » Field Validation Options\n\nTo clone a form field, go to Actions » Clone Field :\n\n\n## In-Depth Look Into Each Setting\n\n\nIn general, customizing forms is not recommended unless handled by a developer. However, these instructions can help with simple changes such as updating field text or adding a basic custom field.\n\n\n### Field Label\n\n\nEnter the name or label of the field in the Field Label section:\n\n\n### Database Variable\n\n\nThis section defines how the field data is stored in the database.\n\nImportant notes:\n\n- If a field is created without a database variable, submitted data will not be saved.\n\n- Existing database variables should not be changed unless the consequences are fully understood.\n\nThe database variable is entered here:\n\nThis variable is also visible in the front-end code view:\n\nDatabase variables must use lowercase letters only, contain no spaces, and use underscores for multiple words.\n\nAll database variables must be unique.\n\n\n### Type of Field\n\n\nSelect one of the available field types:\n\nFor a detailed explanation of each option, see:\n\nIn-Depth Look Into Each Field Type\n\n\n### Required Field\n\n\nThis setting determines whether the field must be completed before submitting the form:\n\nWhen enabled, a red asterisk appears on the front end:\n\n\n### Placeholder Text:\n\n\nEnter example text to be displayed inside the field as a placeholder:\n\nFront-end display:\n\n\n### Field Help Text:\n\n\nEnter text in this section that will be displayed below the field.\n\nFront-end display:\n\n\n### Default Field Value:\n\n\nIn this section, include a pre-filled value that will appear inside the form field by default.\n\nFront-end display:\n\nThe difference between the Placeholder Text and Default Field Value is that if a website visitor submits the form without making any changes to the field, the value-added on Placeholder Text will not be saved while the value-added on the Default Field Value will be saved in the database.\n\n\n### Additional Field CSS Class:\n\n\nInside this section add custom CSS classes to enhance the design of the fields. This is particularly useful for developers/web designers. If not familiar with CSS we do not recommend using this field:\n\nFront-end display:\n\nIf a field needs to be grayed out, add \"readonly\" after the CSS class:\n\nFront-end display:\n\n\n### Outer Element ID:\n\n\nInside this section, add a custom ID element to the field. This is especially useful for developers and web designers, as it allows for applying additional CSS styling or custom scripts to this specific form field.\n\nFront-end display:\n\n\n### Input View:\n\n\nInside this section, choose whether the new field will be displayed on the customized form. If disabled, the field will not appear on the form. This can be useful when adding fields that may be needed in the future but are not yet ready for members to fill out.\n\nBelow the display settings, there are some fields called \"Alt. Field Label\".\n\nThey allow adding a new field label name for each display setting.\n\nFor example, the main field label is \" Courses \".\n\nThe Input View (Form) is going to be renamed \" Completed courses \".\n\nThe Display View (Front-end) is going to be renamed \" Latest Courses \".\n\nThe other fields labels ( Lead Previews, Include in Emails, Table View ) are empty, so they will use the main field label.\n\nBelow the Input View, it's a checkbox for Admin Only, this works when inputting data, only the admin of the website will be able to view and edit this field, not the members.\n\nNOTE: If the field is set to \"Require Field\" and \"Admin Only\" at the same time a warning message will show up avoiding the form to be saved.\n\n\n### Display View:\n\n\nInside this section, choose whether the data entered in the new field will be displayed on the front end of the site.\n\nImportant to note that this particular setting does not apply to all forms. For example, enabling or disabling this setting for Contact Us form will not make any difference as there is no front-end view for this form on the site (after submitting). This would apply however if a custom field is added to a feature form like Classifieds or member form like Contact Details.\n\nA good example of the functionality of this setting can be found in the article down below:\n\nHow To Display Custom Post Fields In The Post Details Page\n\nInside this section is the option to add a button to the form. The Type of Field needs to be set to \"Website URL\", the Display View set to \"On\" and the options for buttons will show up like this:\n\nInside this section it's also the option to open the link button into a new tab:\n\n\n### Lead Previews\n\n\nInside this section, you can choose whether the data entered in the new field will be displayed on Lead Previews. Enabling this setting allows the information to be visible when reviewing leads, while disabling it will keep the data hidden from lead previews.\n\nThis setting applies to only lead forms like Website - Lead Form - Get Matched . If this setting is enabled and the member is set to receive a preview email when a lead is submitted, the field specified will display as it can be seen down below:\n\nThis can be helpful in instances where the site owner might not want to share all the details of a lead submitted to encourage the member to visit the website or even purchase the lead.\n\n\n### Include In Emails:\n\n\nLike the previous setting, if enabled, this option ensures that the data appears when the form is rendered in an email and for accepted leads. If disabled, the information will not be included in lead previews or email notifications.\n\nA good example to enable this setting would be for the Contact Us form as when it is submitted, it does send out an automated email to the admin of the site.\n\nTo include a field in an email template endit the email template to add the field variable using percentage signs i.e: %test_field%\n\n\n### Table View:\n\n\nThis setting will make the Field Label and the Content visible on the Admin Dashboard.\n\nThis field only works with the following forms:\n\n- Website - Lead Form - Get Matched\n\n- Listing - Write Review",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245119/original/JNb32n8lG37TqIBvaF5wqvu39UeCIjtcpQ.png?1618275642",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245144/original/i5Zizc9KlCNFqlcuH0klRpVX8ztteV3eHw.png?1618275674",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065588/original/hDB_cexWx33x3iZ08P7Kxuxyl5MnSNdaaQ.png?1648744764",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097278658/original/8IgKuqV9dA569WVHIb1-6lZDHQ2zDTLNfw.png?1629823930",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245191/original/P89-hOrL_bFWpDbWr2AugNSfna3Wr4nZrw.png?1618275817",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245193/original/mAytj0SzNQjMUKHgBDlwZWrX4R1CyxkrNg.png?1618275840",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245198/original/jeizip2cuzt2o5bosWs-eaaLNSo4lfOJqA.png?1618275900",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245214/original/oOGLf-WqmEShpbEXhaGSDw8POj6NIJcbRw.png?1618275948",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098193281/original/_k0zPLcRjRsqebZ-ckT3hXzgSxItn1Vwhw.png?1631638014",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245219/original/DBGb0CjW-leFI3X5qXFuZTF05akh96ye8A.png?1618276008",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245244/original/tZiy7LoAFX-JXrkIhZg6otu0wQQ_VBtu3w.png?1618276118",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245253/original/ua1AHjvxS84u1GsucBozkm3aye_CWcaf0w.png?1618276169",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065650/original/vFYLZJMnleOECp7QxxgI9vRxtUsAZgF7FA.png?1648744833",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245287/original/9gR_VIOmwoYbObZy2gR_6Cqwu37HImFZEg.png?1618276261",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065672/original/rpVoYpzb5A6OgDmCTUd_WXssxU1ATOl89w.png?1648744868",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245324/original/eedk8tZjQRb6cVypHO_N2nqvAe5KS7NeCA.png?1618276354",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065699/original/yzk3cISfw9PTLg4QGERjPQGAiEc-Q1oxag.png?1648744917",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245355/original/LTE7_ApQYZXyrfAN6JimDuPzRNI5SupzCw.png?1618276438",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065742/original/aaFBY8TVuRNKx0mEY0MPG2aSeqfGsEHJBA.png?1648744950",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245838/original/Tt8fFtwZT_0gWNnlQy8cGg8cJH2eVemMzg.png?1618278240",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12108157826/original/hTluXwOHpqRq1sQvFlOZ4Tqh0txlYlBTtw.png?1650990503",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12108157973/original/Cf39L5hqa3vnuD84aMVZOGA8kEDZMC7TBg.png?1650990683",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065783/original/hu58BGcl36LmkXsh_Kk33i2htVqY6q-V8Q.png?1648744981",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091245867/original/d_ACxicBM6MvNMQjJkyDz5DuA-Z54Xb5WQ.png?1618278319",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065841/original/jo5Asefj7QA5IMddmsdW9PpUk8k314J5Ig.png?1648745030",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065901/original/4jFjM2GIrN7BO5ex9YO1lRldB0RQ0sQR5g.png?1648745124",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113231001/original/hxFuv-yjN9RqhEM8WN7RoSQfSUJVIVr2Rw.png?1660802724",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113905384/original/g0S1OcW0VJz5pnigtG33GqNepoFzHGjyPA.png?1662052182",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065922/original/1VTRprw75dr5N7apIfSzo55J-Nkz-2SVtQ.png?1648745153",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114902229/original/Utlv-A98gml2obgFiWxe1G8nRtNSkdK10A.png?1663791674",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115224896/original/5jg33JxxocFauP42KSuIPN_BU3xp3A5l-A.png?1664412468",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107065980/original/pX3Lm0ffSfTlB380MiclApIHpESeWNe-Xw.png?1648745241",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091246194/original/U3JMOYpqNTARadqbR7Q2MjhrGJ29YYNk4g.png?1618279384",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107066071/original/OiB23XpuUUItpDTYEigftt5QQw_BpkT0Tg.png?1648745289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154768227/original/ir0ic4V2KnlKfD2dj059gdQFuwizi07pEQ.png?1735848532",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121608344/original/OcrxN9OQ-rqcHjeDQy-9m7DLcPzc3l19Aw.png?1676995771",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121608083/original/JAcGw9lM2kNIdBFkrZzCyVSk2fw0UvZQgw.png?1676995500",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121608274/original/S1F4lOz6Zs6q5nH_NtpZcUaTVRw4j9aQWQ.png?1676995707",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look into Form Fields and their Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059251",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059251"
+    },
+    {
+      "text": "Toolbox » Form Manager » Field Validation Options",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000081944"
+    },
+    {
+      "text": "In-Depth Look Into Each Field Type",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000059648"
+    },
+    {
+      "text": "How To Display Custom Post Fields In The Post Details Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078806"
+    }
+  ],
+  "lastmod": "2026-01-14T22:58:35+05:30",
+  "scraped_at": "2026-10-18T13:45:13.121724"
+}

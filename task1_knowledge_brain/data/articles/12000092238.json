@@ -1,0 +1,23 @@
+{
+  "article_id": "12000092238",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092238-02-17-2023-software-updates",
+  "title": "02/17/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/17/2023 - Software Updates"
+  ],
+  "content": "## 02/17/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000092238\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Post Comments page in the Admin from displaying the \"Actions\" column when the member's name contained special characters in some cases. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- We added Czech and Bulgarian languages as Default Website Language options in the General Settings.\n\n- We fixed an issue which was preventing the system from properly exporting lead data to a CSV file from the Admin in some cases.\n\n- We fixed an issue which was preventing the Froala WYSIWYG in the Admin from correctly setting the width and height attributes for image elements in the editor in some cases.\n\n- We updated the Star Rating for Posts Add-On in order to make it compatible with Text Labels. Also, the \"Due\" and \"Charged\" text in the Billing Account section of the Member Dashboard are now Text Labels. Widget Involved: Bootstrap Theme - Member Profile - Read Review Text Labels Involved: total_label search_comments due_label charged_label\n\n- We fixed an issue which was preventing Form Inquiries data from displaying properly in the Admin in some cases. Widget Involved: System - SaveForm\n\n- The form on the /unsubscribed page is now compatible with the Form Manager. Widget Involved: Bootstrap Theme - Function - Form Bootstrap Theme - Unsubscribe Email Page Form Involved: Unsubscribe Email\n\n- We added the ability to filter by \"Expired\" posts on the Manage Posts page in the Admin.\n\n- We created a new Advanced Setting called \"Match Sub Account Status to Parent Account\". When this setting is enabled, the status of Sub Accounts will automatically update to match that of their parent account.\n\n- We created a new Spam Form Protector Add-On setting called \"Block Spoof Characters\". This keyword list will protect forms from being submitted with characters that look like English characters but are not (also called homoglyphs).\n\n- We fixed an issue which was preventing the system from displaying the Map Search Results view on member search results pages when the lead map location field is present on the same page in some cases. Widget Involved: Bootstrap Theme - Search Results Map\n\n- We updated the \"Require Complete Profiles\" Advanced Setting in order to add the ability to allow searching for complete profiles from the Admin only.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000092238",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092238"
+    }
+  ],
+  "lastmod": "2023-02-21T04:24:43+05:30",
+  "scraped_at": "2026-10-18T13:50:45.403038"
+}

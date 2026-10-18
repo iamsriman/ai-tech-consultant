@@ -1,0 +1,27 @@
+{
+  "article_id": "12000039941",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039941-01-12-18-software-updates",
+  "title": "01/12/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/12/18 - Software Updates"
+  ],
+  "content": "## 01/12/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000039941\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The One-Click Social Login Add-On will no longer receive the Facebook \"likes\" of the user when it is used as a signup method.\n\n- The Members-Only Content Add-On is now fully based on the Add-On Manager.\n\n- The word \"Support\" is no longer a reserved keyword that cannot be used as the name of a Member Category.  A member's profile page will work as normal even if this is set as the name of the member's Top Level Category.\n\n- We fixed an issue that was affecting the normal behavior of the Multi-Location Listings Add-On.  It is now working as it should. Widgets Involved: Bootstrap Theme - Function - Google Location Suggest Search - Member - Search Query\n\n- We released a security update to the Widget Manager System.\n\n- The issue that was affecting the Profile Page Title when a Blog Article was posted by that member has now been resolved. Widgets Involved: Bootstrap Theme - HEAD\n\n- The Member Search Results Page is using the new getMemberCategory function in order to retrieve the Sub and Sub-sub Categories of members. For more information click here .\n\n- We fixed an issue that was affecting the Delete Button when a member tried to delete a Post. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Photo Albums Bootstrap Theme - Account - Photo Albums Upload\n\n- When a member upgrades from one product to another product, the price of the upgrade will not longer be pro-rated as this was causing confusion for many members and website owners, and sometimes resulted in nonsensical upgrade prices.  All upgrades will now be priced at face value and no attempt to prorate the price will be made.\n\n- The new getMemberCategory function has been integrated with the existing \"Sub Level Category Display Limit\" Advanced Setting.\n\n- The issue that was affecting the Events Search Modules when the date format is dd/mm/yy has now been resolved. Widgets Involved: Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Module - Event Search\n\n- We fixed an issue that was affecting the linked URLs of categories listed in the \"Member Related Searches\" Widget on member profile pages. Widget Involved: Bootstrap Theme - Module - Member Related Searches",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000039941",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039941"
+    },
+    {
+      "text": "here",
+      "url": "http://developers.brilliantdirectories.com/support/solutions/articles/12000038355-displaying-member-sub-level-categories-getmembersubcategory-function-"
+    }
+  ],
+  "lastmod": "2018-01-13T04:17:52+05:30",
+  "scraped_at": "2026-10-18T13:42:12.481708"
+}

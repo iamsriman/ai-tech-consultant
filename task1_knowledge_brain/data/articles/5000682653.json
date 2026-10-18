@@ -1,0 +1,82 @@
+{
+  "article_id": "5000682653",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682653-how-to-edit-the-seo-settings-of-dynamic-search-results-pages",
+  "title": "How To Edit The SEO Settings Of  Dynamic (Search Results) Pages",
+  "category": "My Content",
+  "folder": "SEO Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "SEO Templates",
+    "How To Edit The SEO Settings Of  Dynamic (Search Results) Pages"
+  ],
+  "content": "## How To Edit The SEO Settings Of  Dynamic (Search Results) Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682653\n\n\n## Overview\n\n\nDefault on-page SEO is pre-configured for all pages of the site. Advanced configuration is available for the SEO settings of dynamic pages, primarily search results pages and member profile pages, for administrators who wish to customize them further.\n\nCAUTION: These are dynamic pages . A change made to one SEO template is reflected across every page that uses that template. For example, editing the SEO template for a top-level category affects the search results pages for all locations and combinations tied to that category, not a single page.\n\n\n## Identifying an SEO Template\n\n\nThe Admin Toolbar can be used to identify which SEO template controls a given page:\n\n- Click Visit Website from the Admin Area to enable the Admin Bar.\n\n- Navigate to the search results page in question and open the Admin Bar dropdown menu. The SEO template name and number are displayed there.\n\n\n## Accessing SEO Template Settings\n\n\nThere are two ways to reach the SEO template settings.\n\n\n### Back End\n\n\n- Navigate to My Content > SEO Templates .\n\n- Locate the relevant template and click Customize or Edit .\n\n\n### Front End\n\n\n- From the Admin Toolbar on the front end, click Edit SEO Template # .\n\n- The system redirects to the corresponding Admin Section. Click Customize or Edit . Once the template loads, the SEO Settings tab contains the editable fields.\n\n\n## Editing SEO Meta Tags\n\n\n- Update the Page Meta Title , Meta Description , and Meta Keywords fields as needed.\n\n- Click Save SEO Template to apply the changes.\n\nNOTE: Default pages already include optimized SEO information, including default SEO variables. Existing values should be reviewed before being overwritten.\n\n\n## Dynamic Page Types\n\n\nDynamic SEO templates correspond to different combinations of category and location. Commonly edited templates include:\n\nTemplate Path pattern Profile page %filename% Top-level category search results %profession% Sub-level category search results %service_name% , %sub_category_name% , %sub_sub_category_name% Country search results /%country_name% City search results /%country_name%/%city_name%\n\nCombinations of these are also available as separate templates, for example:\n\n- Top-level category search results in a specific country — /%country_name%/%profession%\n\n- Top-level category search results in a specific city — /%country_name%/%city_name%/%profession%\n\n\n## Example: Profile Page Title\n\n\nFor a profile page belonging to a Dentist named James Smith, with a company called Smith Dentistry, located in Pasadena, California, the default Page Title template reads:\n\n%City% %Profession% – %full_name% – %Company% – %Profession%\n\nOn the live page, this renders as:\n\nPasadena Dentist – James Smith – Smith Dentistry – Dentist\n\nEach %variable% pulls data specific to the page being displayed and can be replaced with different variables or static text.\n\n\n## Common SEO Variables\n\n\nVariable Description %country_name% The name of the country associated with the page %city% / %city_name% The name of the city associated with the page %profession% The name of the top-level category associated with the page %service_name% The name of the sub-level category associated with the page %sub_category_name% Alternate variable for the sub-level category; functionally equivalent to %service_name% %sub_sub_category_name% The name of the sub-sub-level category associated with the page %full_name% The full name of the member associated with the page %company% The name of the member's company associated with the page %location% The city and state associated with the listing %trade% The Trade variable entered under Website > Website Settings > Variables %industry% The Industry variable entered under Website > Website Settings > Variables\n\n\n## Formatting Variables\n\n\n- Pluralizing: Surround the variable with double percent signs — %%profession%% displays \"Dentists\" instead of \"Dentist.\"\n\n- Capitalizing: Capitalize the first letter of the variable name — %Profession% displays \"Dentist\" instead of \"dentist.\"\n\n\n## Related Reading\n\n\nAdditional detail on available variables is covered in the \" Understanding SEO Variables \" article.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184628414/original/Cy9w0lJQzT7e0Ds7us86RkUzUwytNHmzog.jpeg?1788422143",
+      "alt": null,
+      "caption": "Context: The Admin Toolbar can be used to identify which SEO template controls a given page:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit The SEO Settings Of  Dynamic (Search Results) Pages' in section 'My Content' / 'SEO Templates'. Context: Context: The Admin Toolbar can be used to identify which SEO template controls a given page:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184628458/original/dx4c-1teH_qVMIpZkdfYNEnm4tzbDlW-Yw.jpeg?1788422208",
+      "alt": null,
+      "caption": "Context: Back End",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit The SEO Settings Of  Dynamic (Search Results) Pages' in section 'My Content' / 'SEO Templates'. Context: Context: Back End",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184628462/original/EcFKnIjLxn1Uglvs-HtvQAbf51cEwSXYjg.jpeg?1788422221",
+      "alt": null,
+      "caption": "Context: Back End",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit The SEO Settings Of  Dynamic (Search Results) Pages' in section 'My Content' / 'SEO Templates'. Context: Context: Back End",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184628473/original/1UVcThk8fSpOBmDuwsENd4rxqzaigCVJ8w.jpeg?1788422238",
+      "alt": null,
+      "caption": "Context: Back End",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit The SEO Settings Of  Dynamic (Search Results) Pages' in section 'My Content' / 'SEO Templates'. Context: Context: Back End",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184628501/original/6x6E_iKJmip8rhoGC59Ltb0_PQFvMnI6yw.png?1788422289",
+      "alt": null,
+      "caption": "Context: Front End",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit The SEO Settings Of  Dynamic (Search Results) Pages' in section 'My Content' / 'SEO Templates'. Context: Context: Front End",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184628515/original/nj4eXUcpoQLj0-XAv4mgNzKUEHHyMF6pAw.jpeg?1788422328",
+      "alt": null,
+      "caption": "Context: Front End",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit The SEO Settings Of  Dynamic (Search Results) Pages' in section 'My Content' / 'SEO Templates'. Context: Context: Front End",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682653",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682653"
+    },
+    {
+      "text": "Understanding SEO Variables",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/12000022881-understanding-seo-variables"
+    }
+  ],
+  "lastmod": "2026-09-03T13:34:37+05:30",
+  "scraped_at": "2026-10-18T13:39:01.818489"
+}

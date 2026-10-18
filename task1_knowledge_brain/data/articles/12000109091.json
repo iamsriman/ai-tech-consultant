@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109091",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109091-install-profile-cover-photos-dashboard-installer",
+  "title": "Install Profile Cover Photos - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Install Profile Cover Photos - Dashboard Installer"
+  ],
+  "content": "## Install Profile Cover Photos - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109091\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Install Profile Cover Photos Does\n\n\nThis installer sets up the pieces the site needs to support cover photos on member profiles: the folder that stores the uploaded images, the database support for a new photo type, and the image size setting that controls the cover dimensions. It adds structure; it does not change the existing member photos.\n\nIt runs three steps:\n\n- Creates the image folder : the /covers/profile folder is created on the website's file storage over FTP, which is where uploaded cover photos are saved. This step runs only when the folder is missing and the Profile Cover Photo addon is active.\n\n- Adds the cover photo type : the type column on the users_photo table is changed to an ENUM that includes cover_photo alongside the existing logo and photo types, so a photo can be flagged as a profile cover. This step runs only when cover_photo is not already an allowed type and the Profile Cover Photo addon is active.\n\n- Adds the cover image setting : a profile_cover row is added to the image_settings table, which controls the cover's dimensions. It is installed with a free (open) ratio, a default width of 1140 , a height of 200 , a minimum width of 750 , and a minimum height of 0 .\n\n\n## Why It Appears\n\n\nThe installer runs three separate checks and appears if any one of them still needs work. The folder step and the photo type step both check that the Profile Cover Photo addon is active, so those two steps only surface when that addon is enabled: the folder step appears when the /covers/profile folder does not yet exist, and the photo type step appears when the users_photo table's type column does not yet allow cover_photo . The image setting step appears whenever the profile_cover row is missing from the image_settings table.\n\nIf the Profile Cover Photo addon is not active, the first two steps are skipped, which is why an existing site may see only part of this installer offered.\n\n\n## Why It Matters\n\n\nCover photos need all three pieces to work: somewhere to store the file, a photo type that marks an image as a cover, and a size setting that governs the dimensions. Until these are in place, the cover photo feature has nothing to save to, no way to tag the image, and no dimensions to enforce. Running the installer puts the supporting structure in place so the feature can be used.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Install Profile Cover Photos appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once all steps are done.\n\nIf it does not appear in the list, the site already has the folder, photo type, and setting in place, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website on its own. The cover photo folder, the new photo type, and the image size setting are now in place, so members and admins can begin using profile cover photos. The existing member photos are unchanged. The dimensions installed with the setting (free ratio, width 1140, height 200) are defaults that can be adjusted afterward in the image settings.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109091",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109091"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:39+05:30",
+  "scraped_at": "2026-10-18T13:59:40.439312"
+}

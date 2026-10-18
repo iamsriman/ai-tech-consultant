@@ -1,0 +1,23 @@
+{
+  "article_id": "12000096241",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096241-10-06-2023-software-updates",
+  "title": "10/06/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/06/2023 - Software Updates"
+  ],
+  "content": "## 10/06/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096241\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the price of leads on Member Dashboard from being charged properly in some cases.\n\n- The \"Internal Description\" field is no longer required when creating a custom webhook in the Admin.\n\n- We fixed an issue which was preventing the One-Click Facebook Login from working properly when users sign up to a paid Membership Plan.\n\n- We updated the Post Settings page in the Admin to automatically remove any whitespaces at the beginning or end of the Post Type Name field when saving Post Types in the Admin.\n\n- We added the ability to use the Ctrl+S hotkey when saving Text Labels on the frontend of sites.\n\n- We fixed an issue with the member signup process which was allowing paid member accounts to be created without completing the payment process in some rare cases.\n\n- We updated our Stripe integration to be compatible with the latest version of Stripe's API.\n\n- We fixed an issue with the Stripe payment workflow when charging \"3d secure\" credit cards in some cases.\n\n- We added the ability to export member posts from the Manage Posts page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096241",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096241"
+    }
+  ],
+  "lastmod": "2023-10-09T21:46:40+05:30",
+  "scraped_at": "2026-10-18T13:52:57.624051"
+}

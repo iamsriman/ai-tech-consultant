@@ -1,0 +1,23 @@
+{
+  "article_id": "12000051014",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051014-11-02-18-software-updates",
+  "title": "11/02/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/02/18 - Software Updates"
+  ],
+  "content": "## 11/02/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000051014\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We updated the Form Manager to reduce potential user errors following the roll-out of the larger Form Manager update.\n\n- We fixed an issue which was preventing members from deleting Posts when the Pay Per Post Add-On is active. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Photo Albums datatable\n\n- We added a new field to the Contact Details form in the Member Dashboard section called \"Short Description\".  This field allows Members to add a brief description that will be display on the Member Search Results page.  This will replace the display of Sub Level Categories on member search results, which improves the performance of the site. Feature Involved: Listing\n\n- We updated the Search Member Keywords Add-On to add the same functionality to Post searches.  An Admin can now select the search depth on a per- feature basis.  To change this setting for a Post Type, navigate to Admin >> Content >> Edit Post Settings >> Edit >> Search Results Design Tab . The \"Post Keyword Search Options\" setting is found on this page. Widgets Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We fixed an issue which was preventing members from purchasing Leads or additional Posts (using the new Pay Per Post Add-On) in some cases.\n\n- The issue that was affecting the ability to set a Member Post as published when the Pay Per Post Add-On is active have been fixed.\n\n- We updated the filename generator to automatically find instances where more than one dash would be used in a filename and replace them with a single dash.\n\n- We fixed an issue with the Media Manager which was preventing the selection of lazy-loaded images in some cases.\n\n- We added an item to the to the Admin Menu >> Dashboard menu section that links to the \"Manage Add-Ons\" page.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000051014",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051014"
+    }
+  ],
+  "lastmod": "2018-11-02T23:48:27+05:30",
+  "scraped_at": "2026-10-18T13:44:03.016247"
+}

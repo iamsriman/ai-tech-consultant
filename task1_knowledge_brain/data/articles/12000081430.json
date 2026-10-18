@@ -1,0 +1,23 @@
+{
+  "article_id": "12000081430",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081430-08-06-21-software-updates",
+  "title": "08/06/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/06/21 - Software Updates"
+  ],
+  "content": "## 08/06/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000081430\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added a new set of default Smartlists to the Admin of all sites.\n\n- We updated the Web page Builder and SEO Templates page on the Admin in order to support code text coloring on the Advanced tab.\n\n- We fixed an issue which was causing the system to allow Site Admins to save a custom member profile page URL even if the same URL already exists for a Web Page in some cases.\n\n- We added a clickable link to the \"Membership Plan Search URL\" field when editing Membership Plans in the Admin.\n\n- We updated the logic of the Private Member Chat Add-On in order to display an error message when a member tries to send a message but does not have the \"Active\" status.\n\n- We are now validating that a \"/\" is not in any Member Category URL field when saving the Member Categories page in the Admin.\n\n- We updated the the Transaction History page in order to include a link that displays information about a coupon code that was used for the transaction when applicable. We also updated the signup and upgrade message in the Activity Tracker to identify if a member used a coupon code for a transaction.\n\n- We updated the Web Page Builder validation in order to prevent multiple post search results pages from being created using the same combination of Post Type and Post Type Category.\n\n- We fixed an issue with the Export Member logic which was preventing the system from exporting accurate member data after selecting the \"Select All Fields\" option in some cases.\n\n- We implemented a security update in order to further secure the \"Invite Admin\" workflow.\n\n- We updated the logic of the Free Trial Period Add-On in order to make it fully compatible with all available payment gateways.\n\n- We updated the Lead Match logic in order to change the status of leads that have already been matched to members when a Site Admin manually changes the status of a lead on the Member Leads page in the Admin.\n\n- We updated the layout of the Payment Gateways dropdown on the Payment Settings page in the Admin to categorize them as \"On-Site\" and \"Off-Site\" Payment Gateways.\n\n- We created a new setting called \"Select Transaction Types to Track\" in order to control which types of transactions are tracked by integrated affiliate software. To use this new setting navigate to the Admin >> Settings >> General Settings >> Integrations tab >> Affiliate Program Integrations section. Widgets Involved: Bootstrap Theme - Success Page - Free Member Sign Up Bootstrap Theme - Success Page - Lead Purchase Bootstrap Theme - Success Page - Paid Member Sign Up Bootstrap Theme - Success Page - Paid Member Upgrade",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000081430",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081430"
+    }
+  ],
+  "lastmod": "2021-08-10T01:37:00+05:30",
+  "scraped_at": "2026-10-18T13:48:50.040082"
+}

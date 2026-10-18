@@ -1,0 +1,42 @@
+{
+  "article_id": "12000108539",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108539-noindex-review-connect-pages",
+  "title": "Noindex Review & Connect Pages",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Noindex Review & Connect Pages"
+  ],
+  "content": "## Noindex Review & Connect Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108539\n\nThe Noindex Review & Connect Pages setting controls whether member review and contact action pages are included in search engine indexes.\n\nThese pages include URLs such as /writeareview and /connect , as well as custom URL variants (for example, /leave-a-review or /contact-now ).\n\nThese pages are generally intended to support actions rather than provide unique content and often contain little or no standalone information. Because of this, search engines may interpret them as thin-content pages, which is not ideal for SEO.\n\nWhen this setting is enabled, search engine crawlers are instructed not to index these action pages directly. Instead, they are guided to focus on the associated member profile page content, helping consolidate indexing toward the primary profile page and reducing the likelihood of low-value pages appearing in search results.\n\n\n## How to Access It\n\n\nTo access this setting, navigate to Settings > Design Settings , then search for \"Noindex Review & Connect Pages\":\n\n\n## How to Configure It\n\n\nIf set to ON , member /writeareview and /connect pages (including custom-slug variants such as /leave-a-review or /contact-now ) will emit the following meta tag: <meta name=\"robots\" content=\"noindex, follow\">\n\nThis instructs search engines not to include these pages in search results while still allowing crawlers to follow links found on those pages and continue indexing the relevant website content.\n\nIf set to OFF , these pages may be eligible for search engine indexing based on the crawler’s evaluation and standard indexing behavior.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179221029/original/6WHdbKoGteYD3IXhPPbf-sHTfBEeX2zlLA.png?1779381785",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Noindex Review & Connect Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179221057/original/5Txkx8F-wNOLyLWqNsZQMTJo4BB3FU9m9g.png?1779381835",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Noindex Review & Connect Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108539",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108539"
+    }
+  ],
+  "lastmod": "2026-06-02T20:10:07+05:30",
+  "scraped_at": "2026-10-18T13:58:54.440291"
+}

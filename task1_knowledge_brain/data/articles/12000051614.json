@@ -1,0 +1,169 @@
+{
+  "article_id": "12000051614",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051614-how-to-embed-3rd-party-code-x-facebook-youtube-",
+  "title": "How to Embed 3rd Party Code (X , Facebook, Youtube)",
+  "category": "Toolbox",
+  "folder": "Widget Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Widget Manager",
+    "How to Embed 3rd Party Code (X , Facebook, Youtube)"
+  ],
+  "content": "## How to Embed 3rd Party Code (X , Facebook, Youtube)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000051614\n\n3rd party Social Media Feeds from X (formerly Twitter) and Facebook can be embedded on the site:\n\n\n## Youtube\n\n\nTo embed videos from YouTube, follow the guide: How To Add Videos On Web Pages .\n\n\n## Facebook\n\n\nAll Facebook Instructions can be found here: https://developers.facebook.com/docs/plugins/page-plugin/\n\nOn the Facebook Page above, enter the URL of the Facebook Page and click on \"Get Code\":\n\nCopy the code into a custom widget:\n\nCall the custom widget on the page where you would like it to display, following the guide: How To Call A Widget On A Custom Page\n\n\n## X (Formerly Twitter)\n\n\nAll the X embeds can be accessed through:\n\nTwitter Publish\n\n\n## What Can I Embed From X?\n\n\nX offers a lot of new tools that can be embedded on the website. View these options by simply using the dropdown:\n\nPlease note: The Member Twitter Feed embed is no longer supported on the platform. This is due to recent changes made by X, which have affected the ability to display individual user timelines through third-party tools. Use the tools available at Twitter Publish to explore other embed options that continue to be supported.\n\n\n## The Process\n\n\nAfter deciding what kind of feature will be embedded, simply paste its URL to the text box.\n\nChoose the preferred display option, and the embed code will be generated on the fly!\n\nThe only thing left here is to copy the embed code for future usage:\n\n\n## Where Can I Embed This?\n\n\nNow we copied our embed code, let's create a new widget with it so we can call this on the preferred pages.\n\n\n### Creating The Widget\n\n\nIn the admin, navigate to Toolbox » Widget Manager » Click on the \" New Widget \" button:\n\nName the widget, paste the copied code in the HTML tab and copy the SHORT CODE of the widget for future usage and click \" Save Changes \".\n\n\n### Creating The Web Page\n\n\nNavigate to Content » Edit Web Pages » Click on \" New Web Page \" button OR click \" Edit \" on the preferred existing page:\n\nPaste the shortcode of the widget in the highlighted area below and click the \" Save Web Page \" button, and the new web page will be created on the fly!\n\n>> How To Call A Widget On A Custom Page\n\nLooking good!\n\nNOTE: We updated the X Activity Feed widgets to display the content from this 3rd party site after the rest of the page loads to improve page load times and page speed scores.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127472095/original/SQkJt6WICBxPnKhPKHCjzYDED6gILhWkBw.jpeg?1687800295",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127472169/original/v_iS0kM8yOR_vL1XMm2XAn2YwMNetUQjIg.jpeg?1687800374",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127472563/original/AZdxPG-SKHYH7b613n9D3YpPMXafcFmRqQ.jpeg?1687800849",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127472760/original/nnRBzff7AxHLUFgncuwnlawCgtAjgHeiNA.png?1687801095",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127472747/original/bmBY5KsDgJLPXVOYorFGRQ7asXtVQhiZXg.png?1687801071",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116087958/original/FD8TDZjkq6X3AwclLpnjV63Y8cDjEYgQxw.png?1666107790",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12043531283/original/SJo_tmTyGzl7WmwXyhXS1Zp8SF0d1yKR8Q.gif?1542723029",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12043531453/original/W-TVaViUDtfVEVT3Twxvu8S4dj10z7OiSg.gif?1542723212",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12043531622/original/8UbrakibxPWnkTwKQf7jd59iiZ70vAODeg.gif?1542723315",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12073538437/original/3PCUUZYX15g31et6_q4ZEk8F9JIYhiaBXQ.png?1580941632",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116255731/original/BcYZbnJp1g2xd0cVrTt1d2zFzqiRpincvw.png?1666385702",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116255845/original/TfYUxoQRWDUluVG6Ojm9fOXKvIY-Bdq7kQ.png?1666385914",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116692352/original/YMI3-kpT-pqaTtJ9LfQS6vvrdkSOw_C7NA.png?1667338975",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed 3rd Party Code (X , Facebook, Youtube)' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000051614",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051614"
+    },
+    {
+      "text": "How To Add Videos On Web Pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000065931-how-to-add-videos-on-web-pages"
+    },
+    {
+      "text": "https://developers.facebook.com/docs/plugins/page-plugin/",
+      "url": "https://developers.facebook.com/docs/plugins/page-plugin/"
+    },
+    {
+      "text": "How To Call A Widget On A Custom Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051582-how-to-call-a-widget-on-a-custom-page"
+    },
+    {
+      "text": "Twitter Publish",
+      "url": "https://publish.twitter.com/"
+    },
+    {
+      "text": "",
+      "url": "https://publish.twitter.com/"
+    },
+    {
+      "text": "Twitter Publish",
+      "url": "https://publish.twitter.com/"
+    },
+    {
+      "text": "How To Call A Widget On A Custom Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051582"
+    }
+  ],
+  "lastmod": "2025-07-15T22:33:47+05:30",
+  "scraped_at": "2026-10-18T13:44:08.800540"
+}

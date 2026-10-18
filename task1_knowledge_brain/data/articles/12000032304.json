@@ -1,0 +1,23 @@
+{
+  "article_id": "12000032304",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032304-07-14-17-software-updates",
+  "title": "07/14/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/14/17 - Software Updates"
+  ],
+  "content": "## 07/14/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000032304\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n.\n\n- We made an update so that any member reviews that are deleted will now show a 404 error when navigating to the review's URL.\n\n- The text of error and warning messages that can be triggered during the member signup process is now based on text labels.\n\n- The Advanced Settings auto_activate_paid_members and auto_activate_free_members are now active and working as expected .\n\n- We added additional items in the Admin area to be hidden if a website is set to be white-labeled.  To white-label the Admin area of a website, set the admin_account_view Advanced Setting to \"general\".\n\n- We improved the Admin Accounts page in the Admin area.  Now duplicate Admin usernames are not allowed and passwords must contain at least 8 characters, at least one letter and at least one number or symbol, and will not accept blank spaces.\n\n- Now the Price Slider can be controlled through the Post Settings for a given Post Type in the Admin area.  There is no longer a need to edit the Search Module widgets for a given Post Type in order to update the \"Min\" and \"Max\" values for a price slider. To use this new feature navigate to the Admin area >> Content >> Edit Post Settings.  Then on the General Setting tab of each Post Type, you will find new fields which control the Price Slider \"Min\" and \"Max\" values. Widgets Involved: Bootstrap Theme - Homepage Search - Classifieds Search Bootstrap Theme - Homepage Search - Jobs Search Bootstrap Theme - Homepage Search - Products Search Bootstrap Theme - Homepage Search - Property Search Bootstrap Theme - Module - Classifieds Search Bootstrap Theme - Module - Jobs Search Bootstrap Theme - Module - Products Search Bootstrap Theme - Module - Property Search",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000032304",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032304"
+    }
+  ],
+  "lastmod": "2017-07-14T21:46:39+05:30",
+  "scraped_at": "2026-10-18T13:41:25.855510"
+}

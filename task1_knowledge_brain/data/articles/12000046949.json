@@ -1,0 +1,271 @@
+{
+  "article_id": "12000046949",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949-my-members-member-categories",
+  "title": "My Members » Member Categories",
+  "category": "My Members",
+  "folder": "Member Categories",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Member Categories",
+    "My Members » Member Categories"
+  ],
+  "content": "## My Members » Member Categories\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046949\n\nAn essential part of the directory's search experience is the ability to filter results by categories. Below, we will provide an overview of this module. For a full explanation of how categories behave on the front-end and back-end, see the Member Categories Overview article. To access member categories, navigate to My Members >> Member Categories : This section is divided into three tabs to display Top , Sub , and Sub-Sub Categories on the site: Each of these tabs will have identical functionality, where categories can be searched by keyword or ID: And can be sorted by the following options: Keep in mind that these sort order options will only apply to the Member Categories view in admin, it will not apply to how categories will display in the front-end. Category Image If needed, an image can be uploaded or removed to each category, which will be used on a streaming widget on the homepage. These images are exclusively for the homepage streaming widget and do not affect individual member profile styling. These images are used when the categories are set to display on the homepage: Displaying Top-Level and Sub-Level Categories On The Homepage Manually Add Categories One of the options to add categories is to do it manually via the Add Top Level Categories button: More information about this process: How To Add Categories Manually From The Admin Member Category Actions This dropdown includes actions like importing, exporting, and editing the code used when displaying the categories on the profile pages. Import Categories Another option to add member categories is via importing a CSV file: More information about this process: How To Import Categories Via CSV File Export Categories The existing member categories can be exported via the Member Category Actions dropdown: More information about this process: How To Export Member Categories Edit Specialties Tab Code And the Specialities tab of member profiles can be edited via the Edit Specialities Tab Code: More information about this process: How To Edit Specialities Tab Code in Member Profiles Category Name and URL Each of the category tabs will have the same display, with additional options to further edit them. The category name can be edited under the Name section: Its live URL can be edited under the Link URL section: Keep in mind that if there are two categories with the same name, the system will assign a unique URL to one of them as can be seen in the image below: Tip: While the system automatically prevents URL conflicts, we recommend keeping your category names unique to ensure clean SEO patterns and a better search experience for your visitors. Sort Order The Sort Order option will determine categories' position in the Homepage streaming widget: Displaying Top-Level Categories On The Homepage This category sort order can also be selected for category searches and drop-downs. Settings > General Settings > Search Settings > Default Category Sort Order: Lead Price by Category If the Lead Price By Category add-on is active on-site, the price can be set under the Lead Price section: Category Related Keywords If the Keywords For Categories add-on is active on-site, related keywords can be added under the Related Keywords section: Total Members per Category Under the Actions column, the total number of members in each category can be seen: If clicked on this section, the system will display the members that are in that category under the Search Members section: Category Live Page Under the Actions dropdown, the live page of the selected categories search results can be found: Delete Category The selected category can be deleted if needed. Clicking the Delete option will open a module showing an overview of the category, including any members assigned to it and any child categories it contains. Bulk Delete Categories All category tabs come with the option to delete categories in bulk. Select multiple categories manually or select all at once. Note: Selecting “All” does not select every category in the system, only the categories visible on the current page. For example, if a category list spans 3 pages, using “Select All” and then deleting will only affect the categories shown on the first page, not those on subsequent pages. Parent Category Under the Sub and Sub-Sub Level Categories tab, an additional search filter called Parent Category can be found: Reassigning Structures Currently, admins can’t reassign the category structure directly through the system settings. To make changes, the best approach is to create a CSV file with the new structure and upload it. Members assigned to the old categories will be unassigned after the update and will need to be recategorized. Admins can bulk-assign members to a Top - Level Category, but not to subcategories.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160405151/original/Dfgc1OxBNXQA1Ur1XEjKdRyiPaSyyMHztA.png?1745548624",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160405162/original/YG3_MYBok8NQMvjzuowJuk7QVqNcAQC9tw.png?1745548667",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160405176/original/2lKWnAWwU451zOfwzmuUGhQu6cJ97crjUw.png?1745548713",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179811824/original/seIgdfZnG0okQDWioDtVTmPaYmGZ_bzbjg.png?1780482771",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160405184/original/yBYbpn0sP8Yry7pVE2SOaP7pi7-3b6CnlQ.png?1745548813",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160405197/original/qM4sYPSBb-GIlvsnld8uU3X0qQlU2mKb1g.png?1745548940",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093192676/original/DNsfjgwYQjHXntk7Q4YsAwqIa7wIrmY3PQ.png?1622053485",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093192728/original/BYrQiWlMQyb8oAaxnh2pzZAQivZ_m6Y72Q.png?1622053556",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093192770/original/p8r2xFnt0UTiZ51AlRWripTVbYM-5rGusA.png?1622053638",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194242/original/aFATrQezxR0iksnEBK0dM8MdKx9BGQcj0A.png?1622055920",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194257/original/XEZ9DQnn7pyy_DPm8_Tx6KD2gB8_Zqz6tQ.png?1622055931",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194289/original/8L_dZ_icdmCa3Kh6GbIKV19gKAIUTzu9DA.png?1622055979",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194302/original/INoDXeONGXJbsKnHB0ewNF959po7kW-Upg.png?1622056002",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12141890989/original/phJCMkL1bikYfrTc5UHuGkiBN9a7N_zvuA.png?1713371263",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194309/original/D5tVc25PnBStMHPhiS138RJWjaD7ROfX4A.png?1622056016",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194321/original/CuYq2S818wnGQ0uUoKAGsAxeiOOCOwDwjg.png?1622056029",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194331/original/jV1HC2o8H8lxb6a1oHJdY7nwxBBOI6Lr3A.png?1622056041",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160421185/original/v-eQ85on0lARgQynLNngLXoWGiWtjE13-w.png?1745583620",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194363/original/ngxg-u6D0V9izX9HUVpTvAv-UD2mCePttg.png?1622056103",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161116672/original/3jYWiLocE9Bgp9SasRyhaYridI8ZpTbxOQ.png?1746834865",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090681993/original/LV-_MPsfrx6DLWK1RMeEcOYv98Ate2guYw.png?1617122440",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161151107/original/m96vEC507JDdm1XldW_FWC-SBeBOITVD8A.png?1746989887",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090682118/original/6sAbVSaR53TW4z-zPJOqZY1rAnYBpeZhXA.png?1617122598",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949"
+    },
+    {
+      "text": "Member Categories Overview",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000067992"
+    },
+    {
+      "text": "Displaying Top-Level and Sub-Level Categories On The Homepage",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021788"
+    },
+    {
+      "text": "How To Add Categories Manually From The Admin",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052823"
+    },
+    {
+      "text": "How To Import Categories Via CSV File",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558401"
+    },
+    {
+      "text": "How To Export Member Categories",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058144"
+    },
+    {
+      "text": "How To Edit Specialities Tab Code in Member Profiles",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079810"
+    },
+    {
+      "text": "Displaying Top-Level Categories On The Homepage",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021788"
+    },
+    {
+      "text": "Default Category Sort Order:",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000074107-settings-%C2%BB-general-settings-%C2%BB-search-settings#section-4-default-category-sort-order"
+    },
+    {
+      "text": "Lead Price By Category",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067987"
+    },
+    {
+      "text": "Keywords For Categories",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064323"
+    }
+  ],
+  "lastmod": "2026-06-11T15:17:47+05:30",
+  "scraped_at": "2026-10-18T13:43:11.315968"
+}

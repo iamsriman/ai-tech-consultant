@@ -1,0 +1,31 @@
+{
+  "article_id": "12000093668",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093668-changelog-september-2017",
+  "title": "Changelog - September 2017",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - September 2017"
+  ],
+  "content": "## Changelog - September 2017\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093668\n\nNew Features:\n\n- Now all the Streaming Widgets have the ability to control which members can display recent posts on the homepage.\n\n- Now the placeholder text of Category dropdowns in the Get Matched form are based on text labels.\n\n- We added a new Admin page to check which Add-Ons have been activated on a site. Click here while logged in to the Admin Area of a site to view the new page.\n\n- The \"More About\" section heading on profile pages is now based on text labels.\n\n- We created a new Search Widget based only on Member Sub-Categories for the homepage and sidebars.\n\n- Now the Upgrade Pages on the Member Dashboard Section are based on Text Labels.\n\n- The Click-To-Call Add-On is now available.\n\n- The Insta-Load Search Results Add-On is now available.\n\n- The Verify Listing Section in the Member Dashboard is now based on text labels.\n\n- The \"Deleted\" word when a Member deletes Posts is now a text label. Also, the footer text of the Review Tab on the Member Profile Page is now based on text labels.\n\n- We added a new Advanced Setting called quote_live_links in order to support links on the Quote Section on the Member Profile Page.\n\n- The Events Forms and the Recurring Events information on the Events Form are now based on text labels.\n\nEnhancements / Fixes:\n\n- We improved the process of selecting which forms to use in the different sections of the Member Dashboard. Now, when editing a Product, the form selection dropdowns will only show forms that contain the word \"Listing\" in their name.  This will eliminate the common issue of website owners choosing forms that are not compatible with the Member Dashboard.\n\n- We added support to display a link when a field is set as a Website Address on the Listing - Additional Details Form.\n\n- We added additional SPAM protection to all of the public-facing default forms.  This will block even more types of SPAM form submissions from bots and other automated tools.\n\n- We enhanced the Widget that controls the Google Map on the Contact Details Forms in order to support more locations.\n\n- We updated the functionality of the Advanced Setting fast_search to impact Sub Categories as well.\n\n- Bug fixes to the Leads Module, Reviews Module, Google Location System, Add-on Manager System, and Member System.\n\n- In all, more than 20 bugs were fixed throughout the software.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093668",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093668"
+    },
+    {
+      "text": "here",
+      "url": "http://www.managemydirectory.com/admin/go.php?widget=Admin%20-%20Website%20-%20Display%20Add-On%20Status"
+    },
+    {
+      "text": "",
+      "url": "http://www.managemydirectory.com/admin/go.php?widget=Admin%20-%20Website%20-%20Display%20Add-On%20Status"
+    }
+  ],
+  "lastmod": "2023-05-09T04:17:36+05:30",
+  "scraped_at": "2026-10-18T13:51:19.132611"
+}

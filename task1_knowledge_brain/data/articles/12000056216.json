@@ -1,0 +1,23 @@
+{
+  "article_id": "12000056216",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056216-04-05-19-software-updates",
+  "title": "04/05/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/05/19 - Software Updates"
+  ],
+  "content": "## 04/05/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000056216\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Admin Bar to display on the frontend of websites in some cases.\n\n- We fixed an issue with the Feature Members On Homepage Add-On which was causing it to not use the correct widget in some cases.\n\n- The Checkbox field in the Form Manager module is fully compatible with the Required form field setting.\n\n- We fixed an issue which was causing the Member Categories Autosuggest feature to not work properly if the category name included an apostrophe.\n\n- We fixed an issue which was preventing the proper import of member images when importing members via CSV file.\n\n- We fixed an issue with the member import tool which was causing instances of \"nn\" in the file creating a line break.\n\n- We added \"postal_code_prefix\" as a supported location type in the member search system.  Now searching for a postal code prefix location will return results as expected. Widgets Involved: Bootstrap Theme - Function - Google Location Suggest Search - Member - Search Query\n\n- We improved the functionality of the Pin Featured Posts Add-On, by adding the ability to specify a date the Featured Post expires. In order to use this new feature, navigate to the Admin >> Content >> Manage Posts .  Note: This update only will be available if the site has the Pin Featured Posts Add-On active. Widgets Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We fixed an issue which was causing the Event End-Date field in post forms to not display the datepicker in some cases.\n\n- We fixed an issue which was causing the Edit Widget page in the Admin Panel to show the \"Save Changes\" confirmation alert when pressing the keyboard Space Bar in some cases.\n\n- We fixed an issue which was preventing the Recent Videos homepage widget from showing the Video Details link button on iPhones. Widget Involved: Bootstrap Theme - Display - Recent Videos",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000056216",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056216"
+    }
+  ],
+  "lastmod": "2019-04-06T01:41:03+05:30",
+  "scraped_at": "2026-10-18T13:44:44.111843"
+}

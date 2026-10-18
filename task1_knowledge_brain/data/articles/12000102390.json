@@ -1,0 +1,162 @@
+{
+  "article_id": "12000102390",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102390-how-to-create-a-lead-through-the-api-using-zapier",
+  "title": "How to \"CREATE\" a lead through the API using Zapier",
+  "category": "Developer Hub",
+  "folder": "No-Code API Workflows (Zapier, Pabbly & Others)",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "No-Code API Workflows (Zapier, Pabbly & Others)",
+    "How to \"CREATE\" a lead through the API using Zapier"
+  ],
+  "content": "## How to \"CREATE\" a lead through the API using Zapier\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102390\n\nThis article shows an example of how a Google Spreadsheet can be used to create a new lead while using the site's API.\n\n\n## Checklist Before Moving Forward With This Example\n\n\n1) Make sure to generate a unique API Key using the documentation down below as a guideline. Please make sure to save the API Key in a safe place as it is not accessible after it has been created:\n\nHow To Generate an API Key\n\n2) Make sure to have a Google Spreadsheet ready. This spreadsheet should have at least one row of the lead information shown below:\n\nPlease note the following required fields in order to create a lead:\n\n- lead_name\n\n- lead_email\n\n- lead_message\n\n- top_id\n\nIt should have the same variables found within the Website - Lead Form - Get Matched form.\n\n\n## Connecting Google Sheets with Zapier\n\n\nLog in to the Zapier account and click on + Create and click on Zaps :\n\nClick on Trigger and search for Google Sheet:\n\nSelect New or Updated Spreadsheet Row for the Trigger event and log into your Google account, once done click on Continue:\n\nSelect the Spreadsheet that has the lead information with the respective Worksheet. If necessary, select a Trigger Column or leave it as \"any column\" and click on Continue:\n\nClick on Test Trigger and the Spreadsheet information will display as a preview:\n\nClick on Continue with the selected record for the next step in this process.\n\n\n## Connecting the API with Zapier\n\n\nA new set of options will appear, select the option for Brilliant Directories:\n\nSelect the Action Event to Create Lead and either choose a BD account if you've done this in the past or Connect a new account:\n\nIf this is the first time, click on Connect a new account and a popup will show up. Add the website URL and the API Key , and click Yes, Continue to Brilliant Directories:\n\nOnce finished, click Continue.\n\n\n## Configuring the Lead Information\n\n\nThe next step is to align the fields from your worksheet to the correct fields for the lead to be created.\n\nThe next step will ask to test the trigger, and verify that everything went well:\n\nIf done correctly, the lead will appear in your admin area Interactions - Member Leads:\n\nWhen a lead is created via the API , the \"Origin Page\" will display the label \"Received from External Source\" both in the admin area or the member dashboard Which is a text label that can be edited under Settings >> Text Labels:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152725130/original/bnC9nbSdeSmDi4oFeLVYcKCqK3CoSnEdSQ.png?1731970885",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152726166/original/sKhjwgznhBE65tU0QY3TEcViSnqTnk3xoA.png?1731972309",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152726179/original/uGAcNdBsBe7R3OKD9KB_g0nWp2v51r3MqQ.gif?1731972347",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152726211/original/kxbxYgmvj9uGaHZgEXqj-hefUw4vxqDY4g.png?1731972388",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152891645/original/qYWz1LVO4ShzcMuubQxwEcJ8uRgYjlqvGg.png?1732197268",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152891658/original/4Crt3KfJfOyOOCNALi--WykfUAPZGMP8SA.png?1732197297",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152726402/original/JHQ_pmhLhLDetxgcmjgrWxQnYMLpdJ8dzw.gif?1731972779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152891786/original/8syEVUIFNqWwWhwOwwXGAxDaOGNCsz-qZQ.png?1732197432",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152891923/original/wgdfMHZR_86OZDtG8E_lMYHLnsKk1ZUBwQ.png?1732197507",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152892236/original/Mu83ugwUKZ3qlo7ajWFSLIBm5xQVlQ3tAA.gif?1732197800",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152892389/original/WsFJFxb1t6qb9pJkjAMsRQadHju-iXYwpQ.png?1732197935",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162687958/original/7ahnNJ--tdXqb7-wAVZPQ82feq_RomRfLw.png?1749648418",
+      "alt": null,
+      "caption": "When a lead is created via the API , the \"Origin Page\" will display the label \"Received from External Source\" both in the admin area or the member dashboardWhich is a text label that can be edited under Settings >> Text Labels:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'. Context: When a lead is created via the API , the \"Origin Page\" will display the label \"Received from External Source\" both in the admin area or the member dashboardWhich is a text label that can be edited under Settings >> Text Labels:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162688150/original/c_wBlcBWXSa73ZbG_94DuDXW-DMogvsHug.png?1749648622",
+      "alt": null,
+      "caption": "When a lead is created via the API , the \"Origin Page\" will display the label \"Received from External Source\" both in the admin area or the member dashboardWhich is a text label that can be edited under Settings >> Text Labels:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'. Context: When a lead is created via the API , the \"Origin Page\" will display the label \"Received from External Source\" both in the admin area or the member dashboardWhich is a text label that can be edited under Settings >> Text Labels:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162688185/original/nAJiJxQYR0oP57VNjpJrZywJTWwsjKt_xg.png?1749648658",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" a lead through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102390",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102390"
+    },
+    {
+      "text": "How To Generate an API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "Log in to the Zapier",
+      "url": "https://zapier.com/"
+    },
+    {
+      "text": "API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000088768"
+    }
+  ],
+  "lastmod": "2025-06-11T19:03:04+05:30",
+  "scraped_at": "2026-10-18T13:55:15.554029"
+}

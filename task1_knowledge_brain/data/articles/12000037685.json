@@ -1,0 +1,23 @@
+{
+  "article_id": "12000037685",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037685-11-17-17-software-updates",
+  "title": "11/17/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/17/17 - Software Updates"
+  ],
+  "content": "## 11/17/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000037685\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We refactored one of the core files that loads every time a frontend page of a website is requested in order to make it process faster.  We also removed several lines of code that were present to support pages that have since been deprecated.\n\n- We fixed an issue that was affecting the normal behavior of the Coming Soon Form. Widget Involved: Bootstrap Theme - Function - Save Form\n\n- We fixed an issue in the Multi-Member Add-On that was affecting the action of the Edit button when a member was trying to edit a Sub Account. Widget Involved: Bootstrap Theme - Account - Feature Edit\n\n- We updated the design of the \"Homepage Streaming Widget Options\" on the Design Settings page.\n\n- Now the \"Recent Blog Articles with Sidebar\" and the \"Recent Member Articles with Sidebar\" widgets can be fully controlled from the Design Settings Page in the Admin. Widgets Involved: Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Articles with Sidebar\n\n- Now the text of the button used in the Click to Call Member Add-On is based on text labels.\n\n- Now the placeholder text inside the Keyword Search field in the header of a site is based on text labels. Widget Involved: Bootstrap Theme - Header - Right\n\n- We fixed an issue that was affecting the normal behavior of the Multi Location Listing Add-On.\n\n- We made a security update to the function that saves the Member Account information to prevent unwanted HTML code from being displayed on the live profile page.\n\n- We improved the logic of some widgets in the admin in order to enhance the loading speed.\n\n- The titles of the sign up pages are now based on text labels.\n\n- We added the One-Click Social Login Add-On to the Add-On Status Checker in the Site Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000037685",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037685"
+    }
+  ],
+  "lastmod": "2017-11-18T01:14:24+05:30",
+  "scraped_at": "2026-10-18T13:42:02.384136"
+}

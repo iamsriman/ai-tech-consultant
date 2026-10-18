@@ -1,0 +1,46 @@
+{
+  "article_id": "12000104163",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104163-how-to-restrict-iframe-access-to-specific-domains",
+  "title": "How To Restrict Iframe Access to Specific Domains",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Restrict Iframe Access to Specific Domains"
+  ],
+  "content": "## How To Restrict Iframe Access to Specific Domains\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104163\n\nA new Advanced Setting has been introduced: Whitelist Domains Allowed to Iframe This Website . This setting provides control over which external domains are permitted to embed content from the website using an <iframe>.\n\nEnabling this feature enhances security and ensures better management of where website content can be displayed externally.\n\n\n## Available Options\n\n\nThis setting has three available option values, each offering different functionality to control iframe access: All, None, and Specific Domains.\n\n\n### 1. All (Default)\n\n\n- Allows all external domains to embed the website in an iframe.\n\n- Suitable for websites intended to be widely embedded without restriction.\n\n\n### 2. None\n\n\n- Prevents all external domains from embedding the website in an iframe.\n\n- Ideal for cases where iframe embedding is not permitted for any third party.\n\n\n### 3. Specific Domains\n\n\n- Grants access only to a list of approved domains.\n\n- Requires a comma-separated list of allowed domains.\n\n- Supports various URL formats, including: example.com, www.example.com, https://example.com, https://www.example.com, http://example.com, http://www.example.com\n\n- Appropriate for allowing iframe access from trusted or controlled domains only.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164648136/original/n-wdwb_qh2Rqqx9unATas81e7KFDpZef7A.png?1753163636",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Restrict Iframe Access to Specific Domains' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164648142/original/-pKV5NGbicVAkmJF0HiLroWfUIe-h0nnIA.png?1753163661",
+      "alt": null,
+      "caption": "Context: 3.Specific Domains",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Restrict Iframe Access to Specific Domains' in section 'Settings' / 'Advanced Settings'. Context: Context: 3.Specific Domains",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104163",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104163"
+    },
+    {
+      "text": "http://www.example.com",
+      "url": "http://www.example.com"
+    }
+  ],
+  "lastmod": "2025-07-22T11:24:25+05:30",
+  "scraped_at": "2026-10-18T13:55:59.226314"
+}

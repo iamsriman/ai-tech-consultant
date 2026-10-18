@@ -1,0 +1,46 @@
+{
+  "article_id": "12000057655",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057655-google-maps-edit-http-referrers",
+  "title": "Google Maps: Edit HTTP Referrers",
+  "category": "Settings",
+  "folder": "Google Maps Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Google Maps Troubleshooting",
+    "Google Maps: Edit HTTP Referrers"
+  ],
+  "content": "## Google Maps: Edit HTTP Referrers\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000057655\n\nIf Google Maps is not loading after the API key was added, the website domain may be missing from the key’s HTTP referrers.\n\nHTTP referrers tell Google which websites are allowed to use the API key. If the website domain is not listed, Google may block the key from working on the site.\n\n\n## Step 1 - Open Google Cloud Credentials\n\n\nLog in to the Google account connected to Google Cloud and open the Credentials page:\n\nOpen Google Cloud Credentials\n\nMake sure the correct Google Cloud project is selected at the top of the page.\n\n\n## Step 2 - Open the API Key\n\n\nFind the Google Maps API key and click on it to open the key settings.\n\n\n## Step 3 - Edit the Website Restrictions\n\n\nIn the application restrictions section, select:\n\n- Websites\n\nAdd each approved referrer one at a time.\n\nRequired Referrers\n\nAdd the following referrers. Replace example.com with the website’s live domain.\n\n- *.directoryup.com/*\n\n- *.managemydirectory.com/*\n\n- managemydirectory.com\n\n- *.example.com/*\n\n- example.com\n\nThe directoryup.com referrer is useful if the site is not live yet.\n\nThe managemydirectory.com referrers are needed so map-related features can work inside the Brilliant Directories admin area.\n\nThe custom domain referrers allow the API key to work on the live website.\n\n\n## Step 4 - Save the Changes\n\n\nAfter all referrers have been added, save the API key settings in Google Cloud.\n\nOnce saved, refresh the Brilliant Directories website and test the map again.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179115441/original/S4dW7H1cWgtXeH8_cZVLpM7Pwg2V1Hhgxw.png?1779238114",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Edit HTTP Referrers' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179115435/original/Xq5Ll-8OrB2fB4XXKigHrTeRfTgf7uC7Ag.png?1779238096",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Edit HTTP Referrers' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000057655",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057655"
+    },
+    {
+      "text": "Open Google Cloud Credentials",
+      "url": "https://console.cloud.google.com/apis/credentials"
+    }
+  ],
+  "lastmod": "2026-05-20T06:18:41+05:30",
+  "scraped_at": "2026-10-18T13:44:53.834091"
+}

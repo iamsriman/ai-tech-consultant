@@ -1,0 +1,150 @@
+{
+  "article_id": "12000046940",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940-quick-edit-module-for-members",
+  "title": "Quick Edit Module For Members",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "Quick Edit Module For Members"
+  ],
+  "content": "## Quick Edit Module For Members\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046940\n\nThe Quick Edit section for the members can be reached by navigating to:\n\n- My Members\n\n- Search Members\n\n- Quick Edit under Actions dropdown\n\nThe Quick Edit module provides administrators with direct access to four management tabs for any individual member record without navigating away from the Search Members screen.\n\nThe four tabs are:\n\nAccount Details Listing Settings Member Tags Advanced Options\n\n\n## Account Details\n\n\nThis tab is divided into two sections: Basic Information and Contact Information .\n\n\n### Basic Information\n\n\nThis section controls core account-level settings for the selected member.\n\n\n### Member ID\n\n\nThe system displays the member's unique system-assigned ID. This field is read-only and cannot be edited.\n\n\n### Account Status\n\n\nThe following status values are available for assignment to a member account:\n\nLabel Description Not Active Manually set by the administrator to deactivate an account. Active Member profile is visible on the front end of the site. Cancelled Applied when a member has cancelled the account. On Hold Used during manual admin approval of new signups. Past Due Applied when the member has an overdue subscription payment. Incomplete Applied when a paid signup encounters an unaccounted error; the account is created but remains unpaid.\n\nA member profile is only live and publicly visible on the site when the status is set to Active .\n\n⚠ CRITICAL CAUTION — Status Does Not Control Billing: Changing a member's Account Status does NOT cancel or pause any active billing subscription. Billing management must be handled separately through the subscription and payment system. A member set to \"Not Active\" or \"Cancelled\" may still be actively billed if the subscription is not independently cancelled.\n\n\n### Membership Plan\n\n\nDisplays all Membership Plans currently configured under Finance » Membership Plans . The administrator may reassign a member to a different plan from this field.\n\n⚠ CRITICAL CAUTION — Plan Change Does Not Affect Billing: Changing the Membership Plan assigned to a member does NOT modify or cancel the member's existing subscription. Subscription management must be handled separately.\n\n\n### Public Listing Represents (Listing Type)\n\n\nDetermines how the member's public profile is displayed. Two options are available:\n\n- Individual / Person — Profile displays the member's profile photo combined with first and last name.\n\n- Company / Organization — Profile displays the company logo combined with the company name.\n\n\n### Top Level Category\n\n\nDisplays all Top-Level Categories configured under My Members » Member Categories . The administrator may reassign the member's primary category from this field.\n\n\n### Internal Admin Notes\n\n\nA free-text field for administrator use only. Notes entered here are not visible to the member or to site visitors. This field is intended for internal record-keeping regarding the member account.\n\n\n### Contact Information\n\n\nThis section contains the member's direct contact and identity information.\n\n\n### First, Last, and Company Name\n\n\nInformation entered in these fields is displayed directly on the member's public profile. Which fields appear publicly depends on the Listing Type setting (Individual vs. Company) configured in the Basic Information section above.\n\n\n### Join Date\n\n\nThe member's recorded join date can be reviewed and edited from this field.\n\n\n### Phone Number and 2nd Phone Number\n\n\nPrimary and secondary phone numbers for the member can be added or updated here.\n\n\n### Email Address\n\n\nThe member's email address can be added or updated here.\n\n⚠ CRITICAL CAUTION — Email Is the Login Username: The email address entered in this field also serves as the member's login username. Changing this value will change the credentials required for the member to log in to the site. The affected member should be notified of any email address change.\n\n\n## Listing Settings\n\n\nThis tab contains visibility, location, and lead routing settings for the selected member.\n\n\n### Parent ID\n\n\nADD-ON REQUIRED — Multi-Member Manager: The Parent ID field is only available if the Multi-Member Manager add-on is active on the site. Without this add-on, this setting will not appear.\n\nWhen active, this field allows the administrator to assign, change, or remove a parent member ID. Assigning a parent ID converts the selected member into a sub-account under the designated parent.\n\nTo assign a parent ID, click the Change Parent Member button.\n\nA dropdown search field appears, search by member ID to locate the intended parent. Select the appropriate parent member from the results.\n\n⚠ CRITICAL CAUTION — Eligibility Restriction: Only Active members who share the same Membership Plan AND have the \"Sub Accounts\" feature enabled within their Membership Plan Settings will appear as assignable parent options. Members not meeting both criteria will not appear in the search results.\n\n\n### Stock Image Libraries\n\n\n⚠ ADD-ON REQUIRED — Stock Photo Library for Posts: This option is only visible if the Stock Photo Library for Posts add-on is active on the site.\n\n\n### Homepage Featured Member Order\n\n\n⚠ ADD-ON REQUIRED — Featured Members On Homepage: This setting is only available if the Featured Members On Homepage add-on is active on the site.\n\nWhen active, this field allows the administrator to specify the display position of the member within the homepage streaming widget.\n\n⚠ CRITICAL CAUTION — Unique Position Enforcement: The system does not permit two members to occupy the same featured position. Verify existing position assignments before making changes.\n\n\n### Verified Member?\n\n\nThis toggle controls whether the member is displayed with a verified icon badge on their public listing. Setting this to Yes activates the badge display.\n\nFull reference: How To Verify A Listing\n\n\n### List in All Locations?\n\n\n⚠ ADD-ON REQUIRED — Multi-Location Listing: This setting is only available if the Multi-Location Listing add-on is active on the site.\n\nWhen active, this toggle determines whether the member's profile is listed across all available site locations.\n\n\n### Max. Location Limit\n\n\n⚠ ADD-ON REQUIRED — Multi-Location Listing: This setting is only available if the Multi-Location Listing add-on is active on the site. When active, this field allows the administrator to override the maximum number of locations this specific member can list, independent of what is defined in the member's Membership Plan settings.\n\n\n### CC Lead Emails to\n\n\nMultiple email addresses can be entered in this field. All addresses entered will receive lead notification emails alongside the member. This is intended for use cases where a member represents a company and lead emails need to be routed to additional internal recipients such as sales representatives.\n\n\n## Member Tags\n\n\nThis tab allows administrators to add or remove tags assigned to the individual member record.\n\nFull reference: Member Tags & Tag Groups\n\n\n## Advanced Options\n\n\nThis tab contains SEO and code injection fields that apply exclusively to the selected member's individual profile page. These settings do not affect site-wide SEO configurations.\n\n⚠ NOTE — SEO Fields Are Optional: All SEO metadata fields in this tab (Meta Title, Meta Keywords, Meta Description, Social Meta Title, Social Meta Description) can be left blank. The platform's existing SEO templates already supply valid metadata to search engines. These fields are intended for profile-specific overrides only.\n\n\n### Listing Custom HEAD Code\n\n\nA custom code block that is rendered only within the <head> section of the selected member's profile page. This field does not affect any other pages on the site.\n\n\n### Listing Custom FOOTER Code\n\n\nA custom code block rendered in the footer section of the selected member's profile page only.\n\n\n### Listing Custom CSS Code\n\n\nCustom CSS entered here applies exclusively to the selected member's profile page.\n\n⚠ NOTE: Do not include <style> tags in this field. The system applies the CSS directly; wrapping tags will cause rendering issues.\n\n\n### Customize Listing URL\n\n\nThe member's profile URL slug can be edited in this field. URLs entered here should be relative, the full site domain is not required and should not be included.\n\nThe system also provides an option to fetch the URL from the active SEO template, which resets the slug to match the current SEO template configuration.\n\nFetching the URL also applies the current name-formatting rules: apostrophes are removed, most other punctuation and spaces become hyphens, and underscores are preserved. For example, Ruby’s Clay Studio becomes rubys-clay-studio in the name portion of the URL. This differs from entering a deliberate custom URL. See How To Customize The Member Profile URL Structure for examples and when existing URLs change.\n\n⚠ CRITICAL CAUTION — Dynamic URL Overwrite Risk: If a member later changes their location or categories, the system will automatically update their profile URL, overwriting any custom URL that was previously set. To prevent this automatic override, check the lock checkbox displayed beneath the URL field after entering a custom slug.\n\n\n### Listing Meta Title\n\n\nA custom meta title for the selected member's profile page. This field is optional; the platform's SEO templates provide baseline metadata when this field is left blank.\n\n\n### Listing Meta Keywords\n\n\nCustom meta keywords for the selected member's profile page. This field is optional.\n\n\n### Listing Meta Description\n\n\nA custom meta description for the selected member's profile page. This field is optional.\n\n\n### Listing Social Meta Title\n\n\nA custom social media meta title used when the member's profile is shared on social platforms. This field is optional.\n\n\n### Listing Social Meta Description\n\n\nA custom social meta description used when the member's profile is shared on social platforms. This field is optional.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181026291/original/9D05jWSD2yMr5ie0tF_v90m4Hz9eKUItVg.png?1782399007",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163003261/original/RC0hX9VmQiNqv1b7j3LTAvAHHc1Ckj3DBw.png?1750201614",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162352345/original/zS34SqsEi2g1MEEP4UzX5C-x0p2fuvN6nQ.png?1749055807",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144656430/original/C3K42mbflARVZzssTC7f3ncOVoYDjA8WSA.png?1718120555",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144656938/original/R4K4PgL2dGuCS2Ko5AEASs7LtMd9lZbRGg.png?1718120914",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144656984/original/LkM2slQ3ZfFfL62aHCN16pQAtATaXgJqmA.png?1718120953",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144657084/original/h2bwEn0W2Ifb-K8GuvI5ceHVghh1Fz-bKA.png?1718120982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144657337/original/UIatqhq80HHtF0VeNSDmIKl-3thPjCOyUg.png?1718121125",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144657479/original/GBeXqSnGSOwy9MzVvnIHyD_6IIF9rLdsUA.png?1718121181",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091348724/original/wKmPcUMwJyr5dHeYVdEv5-9Lxw5DbFr1yg.png?1618427305",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Quick Edit Module For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "Multi-Member Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030828"
+    },
+    {
+      "text": "Stock Photo Library for Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096709"
+    },
+    {
+      "text": "Featured Members On Homepage",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048094"
+    },
+    {
+      "text": "How To Verify A Listing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021982"
+    },
+    {
+      "text": "Multi-Location Listing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829"
+    },
+    {
+      "text": "Multi-Location Listing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829"
+    },
+    {
+      "text": "Member Tags & Tag Groups",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100266"
+    },
+    {
+      "text": "How To Customize The Member Profile URL Structure",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074682"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/a/tickets/new"
+    }
+  ],
+  "lastmod": "2026-09-15T23:42:44+05:30",
+  "scraped_at": "2026-10-18T13:43:10.387521"
+}

@@ -1,0 +1,51 @@
+{
+  "article_id": "12000100077",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100077-how-to-edit-the-home-url-of-the-domain",
+  "title": "How to Edit the /home URL of the Domain",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How to Edit the /home URL of the Domain"
+  ],
+  "content": "## How to Edit the /home URL of the Domain\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100077\n\nBy default the Homepage of the site is www.yourdomain123.com /home\n\nHowever, depending on the site verbiage or language, this may need to be changed. There is an advanced setting that will allow the / home portion of the URL to be updated.\n\n\n## Advanced Settings\n\n\nWebsite Homepage URL System Variable: default_home_url\n\nAdd the text into the field, save the changes, and the URL is immediately updated without needing to reset anything.\n\n\n## Example",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647802/original/R1jfYNPjr_OglhKrIl-3AxSqbhW-4JnuuQ.png?1753162566",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the /home URL of the Domain' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647808/original/3Vg_oFuqMJKW22MHk_RYLEjQmSMTm_caSQ.png?1753162588",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the /home URL of the Domain' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144018845/original/676N0aanYpbYybuelFi6zTIiE8jR96OgTQ.png?1717017175",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the /home URL of the Domain' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100077",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100077"
+    }
+  ],
+  "lastmod": "2025-07-22T11:06:31+05:30",
+  "scraped_at": "2026-10-18T13:54:04.988606"
+}

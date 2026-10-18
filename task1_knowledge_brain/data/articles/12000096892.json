@@ -1,0 +1,73 @@
+{
+  "article_id": "12000096892",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096892-how-to-insert-and-embed-google-adsense-code-directly-into-blog-articles-and-posts",
+  "title": "How to insert and embed Google Adsense code directly into blog articles and posts",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "How to insert and embed Google Adsense code directly into blog articles and posts"
+  ],
+  "content": "## How to insert and embed Google Adsense code directly into blog articles and posts\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096892\n\nAdsense offers two methods to insert ads in a site: Auto Ads and Ad Units to learn more about this topic please refer to: How Does AdSense Work?\n\nTo include an ad unit in the front-end text editor to be included on a post , please follow the steps below:\n\n\n## Breaking down the Ad Units code:\n\n\nAdsense Ad Units code consists of two parts, the script and the inserted code:\n\nThe code marked in red uses <script> tags. It's not necessary to add these in the body of the post. This is a good thing since allowing <script> tags inside posts would open the site up for potential security issues.\n\nThis javascript part of this code can be added sitewide. Then each ad unit will display based on where the rest of the snippet of HTML code is placed.\n\n\n## 1. Adding the Adsense Javascript:\n\n\nTo add the javascript portion of the Google Ad Unit to the body of your site use the Additional Footer Code section. Copy the sections of the code that are using <script> tags, then go to:\n\nSettings > Design Settings > Additional CSS / HEAD > Additional Footer Code\n\nPaste the code in the Additional Footer Section:\n\n\n## 2. Allow <ins> Tags:\n\n\nBefore adding the rest of the Ad Unit on a post content it is necessary to allow the <ins> tags to be used in these sections. There are two advanced settings where this tag needs to be included. Go to:\n\nSettings > Advanced Settings > and search for:\n\n- Allowed HTML Tags\n\nAdd <ins> to the list of Allowed HTML Tags:\n\n- Froala Allowed Empty Tags:\n\nAdd 'ins' to the list of Froala Allowed Empty Tags:\n\n\n## 3. Ad the rest of the Ad Unit Code to the Post:\n\n\nOnce the tags are allowed it now is possible to insert the code in the Froala Editor of the post and save it. Go to your post content, and switch to the code view. There you can add the ad unit <ins> code:\n\nIMPORTANT NOTE : Google may choose to not show ads to visitors based on geography and many other factors.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134169568/original/_ZxzLwrwy8N6GQv4hFiIyzxgl_l862y_Sg.png?1699489829",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to insert and embed Google Adsense code directly into blog articles and posts' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134169544/original/u4svCS-rBquwjzfWNYv9Oc-xaStqxUZYUw.png?1699489767",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to insert and embed Google Adsense code directly into blog articles and posts' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134169967/original/d3E4uGb_IH1jQHE-5sxco-NlDEpA5Agbow.png?1699490773",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to insert and embed Google Adsense code directly into blog articles and posts' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134169957/original/4OGHFGznsVE2V74D5wekkPkhmpglzf1uzw.png?1699490712",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to insert and embed Google Adsense code directly into blog articles and posts' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134170375/original/YDk1rH1Q4w-g4JEsBEjJl2VHit_jWipIqg.gif?1699491833",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to insert and embed Google Adsense code directly into blog articles and posts' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096892",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096892"
+    },
+    {
+      "text": "How Does AdSense Work?",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000686553"
+    }
+  ],
+  "lastmod": "2023-11-09T06:40:33+05:30",
+  "scraped_at": "2026-10-18T13:53:06.011581"
+}

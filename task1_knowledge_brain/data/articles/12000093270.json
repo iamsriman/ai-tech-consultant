@@ -1,0 +1,59 @@
+{
+  "article_id": "12000093270",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093270-too-many-redirects-unable-to-log-in-to-the-admin-ssl-browser-setting",
+  "title": "Too Many Redirects  - Unable to Log in to the Admin SSL Browser Setting",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Too Many Redirects  - Unable to Log in to the Admin SSL Browser Setting"
+  ],
+  "content": "## Too Many Redirects  - Unable to Log in to the Admin SSL Browser Setting\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093270\n\nWhen a website is not using an active valid SSL, some browsers, due to local settings, may present issues when logging into the admin.\n\nThis is due to a browser setting that forces the browser to force load the HTTPS version of a page even though the site does not have an SSL installed. To fix this, navigate to the browser settings by going to Settings -> Privacy and Security and scrolling down to uncheck the box that forces browsers to always navigate to HTTPS:\n\nIn Chrome it will look like this:\n\nIn Firefox it will look like this:\n\nOnce this browser setting has been disabled the admin will load properly. We strongly recommend using an SSL for a Brilliant Directories website, it can be a third party SSL, to learn how to add a third party SSL, please review the following documentation article:\n\nInstall 3rd Party SSL\n\nIf the website is using an SSL this issue will not happen. For more information on Brilliant Directories' SSL please review this article:\n\nManaged SSL/HTTPS Security Certificate",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124232987/original/GEB0QIF0lGZn93odB8M2PbTFFy8QD9ljsA.png?1681834812",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Too Many Redirects  - Unable to Log in to the Admin SSL Browser Setting' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124232993/original/DdQQfdrbD-uA6PZiVMUCVV8PeYyVh2L-lw.png?1681834826",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Too Many Redirects  - Unable to Log in to the Admin SSL Browser Setting' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124231954/original/Xrh6ty7eovDQFv9sAqddLCz-P2E3TGh3Rw.png?1681834111",
+      "alt": null,
+      "caption": "Context: Once this browser setting has been disabled the admin will load properly. We strongly recommend using an SSL for a Brilliant Directories website, it can be a third party SSL, to learn how to add a thi",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Too Many Redirects  - Unable to Log in to the Admin SSL Browser Setting' in section 'Get Started Here' / 'Common Questions & Troubleshooting'. Context: Context: Once this browser setting has been disabled the admin will load properly. We strongly recommend using an SSL for a Brilliant Directories website, it can be a third party SSL, to learn how to add a thi",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093270",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093270"
+    },
+    {
+      "text": "Install 3rd Party SSL",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069456"
+    },
+    {
+      "text": "Managed SSL/HTTPS Security Certificate",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050089"
+    }
+  ],
+  "lastmod": "2023-08-07T07:06:29+05:30",
+  "scraped_at": "2026-10-18T13:50:53.698880"
+}

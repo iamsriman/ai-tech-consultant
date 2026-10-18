@@ -1,0 +1,23 @@
+{
+  "article_id": "12000065936",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065936-12-20-19-software-updates",
+  "title": "12/20/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/20/19 - Software Updates"
+  ],
+  "content": "## 12/20/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065936\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from displaying Event Posts on the Events Calendar in some cases. Widget Involved: Bootstrap Theme - Function - Events Calendar JSON Array\n\n- We added the ability to customize multi-image post types like Classifieds, Products, Properties, etc to support the addition of expiration dates for the posts. Widgets Involved: Bootstrap Theme - Account - Photo Albums datatable Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Search - Group - Search Query\n\n- We fixed an issue which was preventing the first instance of a member's name from being clickable when using the Private Member Chat Add-On.\n\n- We fixed an issue which was affecting the ability to display the member email records stored on the Member Activity Tracker in some cases.\n\n- We added the ability to change the Member Dashboard Badge. To use this new feature, navigate to the Admin >> Finance >> Membership Plans >> Edit >> General tab. Widget Involved: Bootstrap Theme - Account - Member Dashboard\n\n- We fixed an issue which was allowing past due members to see member profile content when it had been set as Members Only content using the Members Only Add-On. Widgets Involved: Bootstrap Theme - Member Profile - Member Tabs Bootstrap Theme - Member Profile - Member Tabs lazyLoad\n\n- The \"verify listing\" success message that displays after submitting the Verify Listing form in the Member Dashboard is now a Text Label. Widget Involved: Bootstrap Theme - Account - Verify Listing Success\n\n- We fixed an issue which was preventing the system from saving member credit card information during the upgrade process when using a 100% off promo code.\n\n- We added a new Membership Plan setting that controls whether or not the \"Make a Connection / Claim Listing Message\" on Member Profile pages should be displayed or not. In order to use this new feature, navigate to the Admin >> Finance >> Edit >> Additional Settings tab. Widgets Involved: Bootstrap Theme - Member Profile Bootstrap Theme - Member Profile - Claim Listing Offer\n\n- We updated the layout of the Audio File post type (Soundcloud) search results page in order to show the cover of the soundcloud stream rather than the stream itself.  This allows for better support of the Members Only Add-On. Widget Involved: Bootstrap Theme - Account - Feature Body datatable Post Type Involved: Soundcloud\n\n- We updated the \"Edit Post Settings\" page in the Admin to display \"N/A\" in the \"URL Permalink\" column when there is no URL to select for a post type.\n\n- We updated the Post Sidebar Icon field on the Edit Post Settings page in order show an Icon Picker field.\n\n- We added a new Membership Plan setting that controls whether or not to send a copy of member signup and upgrade emails to the Default Website Email address of the site.\n\n- We created a Search Filter field in the Edit Membership Plan page which allows settings to be searched by keyword.\n\n- We updated the layout of the Private Member Chat Add-On in order to always show the member's name and photo at the top of the chat.\n\n- We added the ability to sort Static Pages in the Admin by the page ID or alphabetically.\n\n- The Search Members page in the Admin will now show the Parent Account information when a member is a Sub-Account.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065936",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065936"
+    }
+  ],
+  "lastmod": "2019-12-27T22:21:53+05:30",
+  "scraped_at": "2026-10-18T13:45:54.294691"
+}

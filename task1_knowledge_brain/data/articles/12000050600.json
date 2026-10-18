@@ -1,0 +1,31 @@
+{
+  "article_id": "12000050600",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050600-10-19-18-software-updates",
+  "title": "10/19/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/19/18 - Software Updates"
+  ],
+  "content": "## 10/19/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000050600\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was causing the Start Date field form validation to not work properly after a member deletes its value and tries to re-enter it. Widgets Involved: Bootstrap Theme - Footer - Scripts Bootstrap Theme - Function - Form Bootstrap Theme - Start Date Picker Bootstrap Theme - Start DateTime Picker\n\n- We fixed an issuue that was causing breadcrumb links on profile contact pages to not work correctly in some cases. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- We released a major update to the Form Manager System.  These updates will help prevent a website owner from accidentally creating unnecessary custom copies of forms, which will help ensure all websites are using the most up-to-date forms at all times. For more information click here . Widget Involved: Bootstrap Theme - Function - Form\n\n- We added the Ghana Cedi as a supported currency.\n\n- We fixed an issue which was causing the Export Member Data Add-On to not work properly on some versions of the Safari web browser.\n\n- We updated the Admin Froala WYSIWYG in order to allow text to wrap around images when they are floated to the left or right of the page.\n\n- We updated the Widget Code Difference Checker functionality in order to not render widgets that are called within other widgets.\n\n- We added the language parameter to all Google Maps API calls in the Admin Area.\n\n- We fixed an issue which was affecting the member login functionality when a Site Admin uses single quotes in the Text Labels used on the login page. Widget Involved: Bootstrap Theme - Function - Form\n\n- We fixed an issue which was causing the Signup Form to not display when at least one of the One-Click Social Login Add-On options was setting correctly on the site.\n\n- We updated the display of the details pages of album posts so that posts that have just one image in the album will not show a thumbnail of the image below the large version of the image. Features Updates: Classified Photo Album Product Property\n\n- We combined the Status and Invoice ID columns on the Transaction History page in the Admin Area in order to save space and simplify the UI.\n\n- We updated the Recent Blog Articles with Sidebar widget in order to sort the results using the \"Date Published\" field instead of the \"Date Created\" field. Widget Involved: Bootstrap Theme - Display - Recent Blog Articles with Sidebar\n\n- We added the Billing Cycle and the Easy Coupon Codes dropdown as new search criteria options on the Transaction History page in the Admin Area. Note: The Easy Coupon Codes dropdown will be available only when the Add-On is active on the Site.\n\n- We created two new Product Level settings: the Pre-Select Top-Level Category and Listing Type settings. These settings will allow Admins to Pre-select a Top-Level category and Listing Type that will be automatically applied to a member when they sign up.\n\n- We fixed an issue which was affecting the action to display the New Zealand map on Demo Sites.\n\n- We fixed an issue which was causing the Need Help button to not work properly in the Admin Area on some pages.\n\n- We made a small aesthetic update to the Recent Member widget used on the Homepage to better handle the display of very long category names. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We fixed an issue which was affecting the Social Media Sharing details for the Sub-Categories SEO Template in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- All of the text in the Claim Listing Offer widget is now fully based on Text Labels. New labels: create_non_claim_label, select_option_claim_listing,dont_claim_label. Widget Involved: Bootstrap Theme - Display - Claim Listing Offer\n\n- All of the text in the Title Signup Free Form widget is now fully based on Text Labels. New labels: or_enter_email_create_pw, enter_email_and_pw. Widget Involved: Bootstrap Theme - Display - tittle signup free form",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000050600",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050600"
+    },
+    {
+      "text": "",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/808/the-code-will-solve-two-issues-the-option/diff#chg-Bootstrap%20Theme%20-%20Start%20Date%20Picker%20%28ID%202100%29/html.php"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046441-toolbox-form-manager"
+    }
+  ],
+  "lastmod": "2018-10-20T04:58:35+05:30",
+  "scraped_at": "2026-10-18T13:43:57.949061"
+}

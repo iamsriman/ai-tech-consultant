@@ -1,0 +1,23 @@
+{
+  "article_id": "12000076659",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076659-12-25-20-software-updates",
+  "title": "12/25/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/25/20 - Software Updates"
+  ],
+  "content": "## 12/25/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076659\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the notifications that display inline after submitting a form so they can be closed by clicking on an \"X\" button instead of being closed automatically after 2 seconds. Widget Involved: Bootstrap Theme - Function - Form\n\n- We fixed an issue which was causing the system to add an extra empty slide at the end of the multi-photo image post galleries on post details pages when the Photo Albums Banner Ad design setting is activate in some cases. Widget Involved: Bootstrap Theme - Banner - Photo Albums Ad\n\n- The \"Public Main Menu\" and \"Members Main Menu\" Design Settings only supports menus which include the words \"Main Menu\" in the name of the Menu.\n\n- We updated the Website Time Zone options on the General Settings page in the Admin to include more time zone options and update the current options to use the currently recommended PHP time zone notation.\n\n- We fixed an issue which was preventing the system from displaying the correct error message when trying to sign up on a site using the One-Click Social Login Add-On.\n\n- We updated the layout of the Manage Leads page to include a dropdown with the options to create a New Lead Workflow, edit AutoMatch Workflows, and edit the Lead General Settings.  The \"Lead Settings\" link has been removed from the Admin sidebar menu as well.\n\n- We updated the links in the review notification emails sent to the Admin of the site to make sure clicking on the link will log the Admin in to the site the review was submitted to rather than the Default Login Website of the Admin account.\n\n- We fixed an issue which was affecting the ability to use the Keyword Search field on the General Settings page in some cases.\n\n- We removed the \"Page Content\" tab when editing SEO Templates in the Admin.\n\n- We updated the way emails are sent as a result of a form submission to make sure the logo of the site is properly included in the email.\n\n- We fixed an issue which was hiding the \"Custom Section Background\" Design Setting for the \"About Website/Join Offer\" Homepage Sections on the Design Settings page in the Admin.\n\n- The \"Choose a Password\" and the \"Registered with\" text on signup forms are now compatible with Text Labels.\n\n- The Member login and logout actions are now being logged by the Activity Tracker.\n\n- We updated the Default Website Language setting in order to include Polish as one of the dropdown options.\n\n- We updated the Manage Leads page in order to display all leads of the site when the page first loads instead of just showing the pending leads. A user can then only show the pending leads by selecting \"Pending\" in the \"Lead Status\" filter on the page.\n\n- We created a new Advanced Setting called \"Show Top Category in Member Search Results\". When this setting is active, the member's top level category will show on member search result pages. Post Type Involved: Listings\n\n- We fixed an issue which was preventing the system from displaying multiple categories in the h1 header on Member Search Results pages when using the Dynamic Category Filtering Add-On and selecting multiple categories in some cases. Widget Involved: Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076659",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076659"
+    }
+  ],
+  "lastmod": "2020-12-28T23:22:31+05:30",
+  "scraped_at": "2026-10-18T13:47:33.568144"
+}

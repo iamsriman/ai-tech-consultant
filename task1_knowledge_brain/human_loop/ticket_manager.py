@@ -14,7 +14,7 @@ import uuid
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_TICKETS_FILE = Path("task1_knowledge_brain/data/tickets.json")
+DEFAULT_TICKETS_FILE = Path(__file__).resolve().parents[1] / "data" / "tickets.json"
 
 
 @dataclass
@@ -65,6 +65,7 @@ class TicketManager:
             temp_path.replace(self.filepath)
         except Exception as e:
             logger.error(f"Error saving tickets to {self.filepath}: {e}")
+            raise
 
     def create_ticket(
         self,
@@ -116,11 +117,16 @@ class TicketManager:
             return None
 
         t = self.tickets[ticket_id]
+        previous = dict(t)
         t["status"] = "resolved"
         t["resolved_at"] = datetime.utcnow().isoformat()
         t["expert_answer"] = expert_answer.strip()
         t["expert_name"] = expert_name.strip()
-        self.save()
+        try:
+            self.save()
+        except Exception:
+            self.tickets[ticket_id] = previous
+            raise
         logger.info(f"Ticket {ticket_id} resolved by {expert_name}.")
         return ExpertTicket(**t)
 

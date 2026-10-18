@@ -1,0 +1,23 @@
+{
+  "article_id": "12000075978",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075978-11-27-20-software-updates",
+  "title": "11/27/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/27/20 - Software Updates"
+  ],
+  "content": "## 11/27/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075978\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the logic when deleting member profile photos and logos and post images to first check if another member or post is utilizing the same image before it is removed.  If there is another member or post using the image, it will not be deleted. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was preventing the Related Post Sidebar widget from displaying the video post thumbnail image in some cases. Widget Involved: Bootstrap Theme - Display - Related Posts by Category\n\n- We updated the layout of the Web Page Builder page in the Admin.\n\n- We updated the animation message when refreshing the website cache in the Admin.\n\n- We fixed an issue which was preventing the Send Newsletter page in the Admin from showing the campaign stats after a Newsletter Campaign has been sent in some cases.\n\n- We updated the Multi-Member Manager Add-On to allow members who log in to a sub account from a parent account to return to the parent account without logging in again. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Sidebar\n\n- We fixed an issue that was preventing members from updating the billing address of a credit card when the \"Use AVS Billing Address Fields\" Advanced Setting is active on a site.\n\n- We fixed an issue which was causing the system to flag form submissions as SPAM even when no spam keyword have been entered in some cases.\n\n- We fixed a bug with the Advanced Settings which was showing deprecated settings as well as currently active settings in the Admin in some cases.\n\n- We added the ability to restore the Global Website Search autosuggest setting rules from the \"Restore Default\" button on the Autosuggest Settings page in the Admin.\n\n- We fixed an issue which was affecting the ability to \"Drag-and-Drop\" images into the WYSIWYG used in the Web Page Builder in the Admin.\n\n- We updated the Menu Manager to now support Custom Menus as well as Default Menus, much like the Widget Manager and Form Manager.\n\n- We fixed an issue which was showing the \"Posted By\" data on the details pages of posts made by members that should not be visible for certain other users. Widgets Involved: Bootstrap Theme - Display - Posted By Snippet Bootstrap Theme - Member Profile Bootstrap Theme - Module - Posted by Author Snapshot\n\n- We fixed an issue which was affecting the ability to use the \"Hide Banner Ads\" setting on the Web Page Builder in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075978",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075978"
+    }
+  ],
+  "lastmod": "2020-12-01T01:07:11+05:30",
+  "scraped_at": "2026-10-18T13:47:26.263990"
+}

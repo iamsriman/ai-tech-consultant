@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107135",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107135-12-19-2025-software-updates",
+  "title": "12/19/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/19/2025 - Software Updates"
+  ],
+  "content": "## 12/19/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107135\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented pagination links on Post Results pages from working properly in some cases. Widget Involved: Bootstrap Theme - Pagination\n\n- Fixed an issue that affected the ability to send newsletter campaigns when an SSL certificate was installed on the website in some cases.\n\n- Fixed an issue that prevented Google Maps features from loading on Post Search Results, Member Dashboard and Profile pages when the Enable New Google Maps Places API setting was disabled in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Implemented a performance update to the Google Maps logic to only load the related JavaScript files when users interact with the page. This improves overall scores on third-party tools like GTMetrix and Google PageSpeed Insights when the Enable New Google Maps Places API setting is activate on the site. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that prevented the “Localize Canonical Tags” Advanced Setting from fully reducing URLs to the most localized version in some cases.\n\n- The \"Save Credit Card and Continue\" and \"Cancel\" buttons shown when entering credit card information for Pay Per Posts are now Text Labels.\n\n- Added the ability to upload images through the Froala Editor when editing Membership Plans in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107135",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107135"
+    }
+  ],
+  "lastmod": "2025-12-23T04:15:48+05:30",
+  "scraped_at": "2026-10-18T13:57:03.354505"
+}

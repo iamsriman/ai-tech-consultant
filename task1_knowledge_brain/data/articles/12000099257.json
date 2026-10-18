@@ -1,0 +1,23 @@
+{
+  "article_id": "12000099257",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099257-04-12-2024-software-updates",
+  "title": "04/12/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/12/2024 - Software Updates"
+  ],
+  "content": "## 04/12/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099257\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from updating the status of a lead in some cases after it has been accepted by a member and the site was using an Off-Site Payment Gateway.\n\n- We updated the Disposable Email Address SPAM blocker setting to only check the listed domains against form fields using the \"email\" form field type.\n\n- We created a new Advanced Setting called \"Do Not Show Stripe JS Script On Every Page\". When enabled, the system will only load the Stripe JS Library on payment pages and not on every page. Note: Stripe recommends loading the JS on every page for enhanced fraud detection. The system does this by default, but enabling this setting will only load the Stripe JS on the payment pages where it is absolutely necessary. Post Type Involved: Digital Product\n\n- The auto_match and auto_geocode field variables now support Boolean data (true or false) when creating and matching leads using the Brilliant Directories API.\n\n- We fixed an issue which was affecting the ability to collect Past Due Invoices from the Transaction History page in the Admin in some cases.\n\n- We fixed an issue which was preventing the \"Show Sub-Account Tab\" Membership Plan Setting from working properly on member profile pages when the \"Enable Lazy Load\" Advanced Setting was disabled. Widget Involved: Bootstrap Theme - Member Profile - Member Tabs\n\n- We fixed an issue which was causing the system to hide the \"Delete File\" button for all File Upload fields after an Admin uses the button to delete a single file from a form submission on the Form Inquiries page in the Admin.\n\n- The \"Enable Search Results Cache\" Post Type Setting is now available for all Single-Image and Multi-Image Post Types.\n\n- We fixed an issue which was preventing the \"Display Expired Posts in Search Results\" from working as expected on Events Search Results pages in some cases. Widget Involved: Search - Post - Search Query\n\n- We fixed an issue with the Google Translate Tool which was causing it to overlap with the Main Menu on the frontend of sites when the Menu Behavior is set to \"Stick To Top\". Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was preventing the system from respecting the \"Show 'Manage Leads' Link in Account Sidemenu\" setting when logged in as a member and visiting a different member's profile page using a mobile device in some cases. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We fixed an issue which was causing the system to redirect to the Member Dashboard instead of redirecting to \"/account/additional_locations/view\" after a member created a Sub-Account.\n\n- We updated the Header Main Menu to add the \"Default Button Background\" color behind the member profile image when visiting a site using a mobile device. Widget Involved: Bootstrap Theme - Header - Main Menu",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099257",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099257"
+    }
+  ],
+  "lastmod": "2024-04-15T19:53:20+05:30",
+  "scraped_at": "2026-10-18T13:53:50.623799"
+}

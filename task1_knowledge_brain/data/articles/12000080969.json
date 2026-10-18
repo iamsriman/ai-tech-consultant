@@ -1,0 +1,23 @@
+{
+  "article_id": "12000080969",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080969-07-23-21-software-updates",
+  "title": "07/23/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/23/21 - Software Updates"
+  ],
+  "content": "## 07/23/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080969\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Media Manager in the Admin to improve its loading speed.\n\n- We fixed an issue which was preventing the system from displaying the Page Options tab when editing the Homepage in the Web Page Builder in the Admin.\n\n- We fixed an issue which was causing the system to redirect to the Form Manager page after deleting a new form field when editing a form in the Admin.\n\n- We fixed an issue which was preventing the system from respecting the Members Only Restriction settings on the Global Website Search results page in some cases.\n\n- We fixed an issue which was preventing the system from displaying the Photo Albums Ad widget on Multi-Photo Post Type details pages in some cases. Widget Involved: Bootstrap Theme - Photo Album Page\n\n- The search module dropdown fields on search result pages are now compatible with the Theme Color sets. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We implemented an update in order to display a system error message when visiting a member signup form (/checkout pages) until recaptcha credentials have been set up for the site.\n\n- We updated the Transaction History page in the Admin so multiple Billing Cycles can be selected simultaneously when searching for transactions.\n\n- We fixed an issue which was affecting the display of values in dropdown fields in post and homepage search modules, causing the system to display both the values and variable names in some cases. Widgets Involved: Bootstrap Theme - Module - Property Search Bootstrap Theme - Homepage Search - Property Search\n\n- We fixed an issue which was affecting the ability to display the dropdown values in the Website - Lead Form - Get Matched form , causing the system to display both the values and variable names in some cases. Widgets Involved: Bootstrap Theme - Form - Lead Prefer Reply Day Bootstrap Theme - Form - Lead Prefer Reply Time\n\n- We fixed an issue which was preventing the system from displaying memebrs' Sub Categories on the Recent Members and Featured Members homepage widgets in some cases.\n\n- We created a new option for the \"Display Additional Information\" dropdown when editing the recent member widget settings called \"Display Short Description\". When this option is selected, the system will display the member \"Short Description\" data in the Recent Members and Featured Members homepage widgets . Widget Involved: Bootstrap Theme - Display - Recent Members",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080969",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080969"
+    }
+  ],
+  "lastmod": "2021-07-25T22:25:48+05:30",
+  "scraped_at": "2026-10-18T13:48:47.902439"
+}

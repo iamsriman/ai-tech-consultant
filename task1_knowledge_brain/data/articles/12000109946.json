@@ -1,0 +1,62 @@
+{
+  "article_id": "12000109946",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109946-account-dashboard-update-profile",
+  "title": "Account Dashboard » Update Profile",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Account Dashboard » Update Profile"
+  ],
+  "content": "## Account Dashboard » Update Profile\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109946\n\nThe Update Profile page in the Account Dashboard holds the contact details of the signed-in admin account: profile photo, name, job title, company, contact email and phone number, additional email addresses and phone numbers, email signature, and website and social profile links. The Brilliant Directories support and billing teams use these details to know who they are talking to and where to send replies.\n\nThe page edits only the account that is signed in. Other admins on a website update their own profiles from their own accounts.\n\n\n## Before Starting\n\n\n- Sign in to the Account Dashboard .\n\n- The Sign-in email cannot be changed from this page. Contact support to change it.\n\n\n## How to Open Update Profile\n\n\n- In the Account Dashboard, click the admin name at the top right.\n\n- Select Update Profile .\n\nUpdate Profile is also listed in the Account menu on the left of every account page, together with Notification Settings, Login Settings, Verified Users and Change Password.\n\n\n## Profile Settings\n\n\n- Profile photo – Click Upload photo and choose a JPG, PNG, GIF or WebP image up to 5MB. The image is cropped to a square and saved as soon as it uploads. Once a photo is set, Change photo replaces it and Remove deletes it.\n\n- Full name – Required. The name of the person who uses this admin account.\n\n- Job title – Optional.\n\n- Company – Optional.\n\n- Sign-in email – The email address used to sign in. It is shown for reference only ( Contact support to change ).\n\n- Email address – The address where Brilliant Directories should reach the admin. The star button next to an email address marks it as the primary email address for billing & support replies . The line under the field shows which address is currently the primary one.\n\n- Phone number – The main contact phone number, marked with a star as the primary phone.\n\n- Additional emails & phone numbers – Click to expand. The list loads from the account's support records. Click Add another address or Add another number to add one, click the star next to an entry to make it the primary one, or remove an entry with its remove button.\n\n- Email signature – Click to expand. The signature is appended to emails sent from the account. Use the editor toolbar for formatting; text colour, size and alignment are not kept.\n\n- Website & social profiles – Click to expand. Enter full addresses starting with http:// or https:// .\n\n- Save Changes – Saves every field except the photo, which saves on upload.\n\n\n## After Saving\n\n\nThe message Your profile has been saved. appears once the changes are stored.\n\nWhen a different address is chosen as the primary email, the line under Email address adds pending review . The Brilliant Directories team reviews profile changes before applying them to the account's support records, so the new primary email, additional emails and photo reach support records after that review.\n\n\n## Related Articles\n\n\n- Account Dashboard » Login Settings\n\n- Account Dashboard » Verified Users\n\n- Account Dashboard » Change Password\n\n- Account Dashboard » Notification Settings",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185979021/original/YRLEAbKGzKDfiH3rQoQ7GQMkwSHHS_CtOA.png?1790709155",
+      "alt": "Account Dashboard admin menu with Update Profile highlighted",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Account Dashboard » Update Profile' (Dashboard Overview > Dashboard Links & Modules): Account Dashboard admin menu with Update Profile highlighted",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185979027/original/1Yjqwvs22GGrQqEPmic7AjNScK_ra0E6Ag.png?1790709163",
+      "alt": "Update Profile page with each setting numbered",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Account Dashboard » Update Profile' (Dashboard Overview > Dashboard Links & Modules): Update Profile page with each setting numbered",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109946",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109946"
+    },
+    {
+      "text": "Account Dashboard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476"
+    },
+    {
+      "text": "Account Dashboard » Login Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947"
+    },
+    {
+      "text": "Account Dashboard » Verified Users",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109948"
+    },
+    {
+      "text": "Account Dashboard » Change Password",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109949"
+    },
+    {
+      "text": "Account Dashboard » Notification Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107265"
+    }
+  ],
+  "lastmod": "2026-09-30T00:51:35+05:30",
+  "scraped_at": "2026-10-18T14:00:12.585818"
+}

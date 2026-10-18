@@ -1,0 +1,126 @@
+{
+  "article_id": "12000091045",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091045-how-to-change-the-image-upload-size",
+  "title": "How To Change The Image Upload Size",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Change The Image Upload Size"
+  ],
+  "content": "## How To Change The Image Upload Size\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091045\n\nIn this article, we will be going over how to change the image upload size for certain sections like Single Image Posts, Multi-Image Posts, Private Chat Messages, and in the forms, where the file uploads are allowed.\n\n\n## Changing the file size for Single-Image Posts\n\n\nSingle-Image Posts are any post types that allow users to create a post with a single image. A good example of this would be Articles or Events.\n\nBy default, the image upload size limit is set to 10 MB. This can be easily edited via the Advanced Settings called\n\nSingle Post Image Upload Size where the preferred file size limit can be specified via a dropdown:\n\nThe minimum value that can be selected for this is 1 MB and the maximum value is 50 MB.\n\n\n## Changing the file size for Multi-Image Posts\n\n\nMulti-Image Posts are any post types that allow users to create a post with multiple images (album). A good example of this would be Photo Albums or Properties.\n\nBy default, the image upload size limit is set to 10 MB (per upload). This can be easily edited via the Advanced Settings called Group Post Image Upload Size where the preferred file size limit can be specified via a dropdown:\n\nThe minimum value that can be selected for this is 1 MB and the maximum value is 50 MB.\n\n\n## Changing the file size for Private Chat files\n\n\nThe Private Member Chat add-on allows members to chat back and forth through the website. Users can also upload images to these private chat messages:\n\nBy default, the image upload size limit is set to 10 MB (per upload). This can be easily edited via the Advanced Settings called Froala Chat PDF File Size where the preferred file size limit can be specified via a dropdown:\n\nThe minimum value that can be selected for this is 1 MB and the maximum value is 50 MB.\n\n\n## Changing the file size for file upload fields in forms\n\n\nThe File Uploads for Forms add-on allows users to add a file upload field for any forms on the website:\n\nBy default, the image upload size limit is set to 10 MB (per upload). This can be easily edited via the Advanced Settings called File Image Upload Size where the preferred file size limit can be specified via a dropdown:\n\nThe minimum value that can be selected for this is 1 MB and the maximum value is 50 MB.\n\n\n## Changing the file size for Froala Text Editors\n\n\nFroala Text Editors are integrated across the site, including the About Me section in the member dashboard and the content creation area for posts. Depending on the Froala Text Editor version in use, users may have the ability to upload images directly within their content.\n\nBy default, the image upload size limit is set to 10 MB. This can be easily edited via the Advanced Settings called\n\nMax Text Editor Size where the preferred file size limit can be specified:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117710449/original/t4MTPbcHS6zU3fxlBJDnyAtUjgWXhVz6AQ.png?1669304934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647577/original/kO-ox9_WonTO2s_LvIp8wo-lmMO5XGY5XA.png?1753161952",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117710584/original/mJJgQjkO8HNT9NawC1wyQSDIJoIDNCWuNQ.png?1669305209",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647591/original/CJqKIhSWYiejtnNgI_IEH_AeOBBbtkOi0A.png?1753161986",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117710803/original/MD3xEsvOzJzoaBL5D4R-lkdd44jVUSd1OA.png?1669305510",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647608/original/CxFuRvSDzCN9B7i2UeQ6jkOyiWittcTdHw.png?1753162034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117710983/original/i__sz6clgj7hHHyyiD1JFV42M1mis1g_ag.png?1669305808",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647616/original/PjTesJDkGlQvcUpse3ecBa_vY0ytfPm3nw.png?1753162065",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158593979/original/9YDEWXlj4mAqwXxfLJteGF0Sa-m74VSPSA.png?1742386419",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647630/original/tffLdfMjRNnuTwVg4LZVgjV9OLmMb9ToJQ.png?1753162113",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Image Upload Size' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091045",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091045"
+    },
+    {
+      "text": "Private Member Chat",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055517"
+    },
+    {
+      "text": "File Uploads for Forms",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087004"
+    },
+    {
+      "text": "Froala Text Editor version",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019667"
+    }
+  ],
+  "lastmod": "2025-07-22T10:58:36+05:30",
+  "scraped_at": "2026-10-18T13:50:28.588400"
+}

@@ -1,0 +1,183 @@
+{
+  "article_id": "12000019275",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019275-developer-hub-image-settings-profile-photos-logos-cover",
+  "title": "Developer Hub » Image Settings » Profile Photos, Logos & Cover",
+  "category": "Developer Hub",
+  "folder": "Image Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Image Settings",
+    "Developer Hub » Image Settings » Profile Photos, Logos & Cover"
+  ],
+  "content": "## Developer Hub » Image Settings » Profile Photos, Logos & Cover\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000019275\n\nIMPORTANT NOTE: Unless the site has heavy customizations to the underlying code of the website's design, there is no need to touch these settings as they will already be optimized for use around the website. This article will cover the image settings for the following: Profile Photo for Website Profile Photo for Social Media Sharing Profile Logo for Website Profile Logo for Social Media Sharing Profile Cover On the Image Settings page, these settings are in the Member Photos , Member Logos and Cover Photos sections, listed under Image Sizes in the side menu. Changes on the Image Settings page take effect only after Save is clicked in the save bar at the top of the page. 1 — the Member Photos, Member Logos and Cover Photos sections in the side menu. 2 — the settings of the selected section. Additional Information: Image Settings - Member Post Types- Single Photo Image Settings - Member Post Types - Multiple Photos Profile Logo Settings Here are some things to know regarding editing Profile Logo: The profile logo can be set to either an “Open” ratio or a fixed aspect ratio of 3:4 or 1:1 . More details on how aspect ratios work can be found here. When selecting the “Open” option, members are not restricted to a specific shape. This means they can upload images that are square, wider than they are tall, or taller than they are wide. With the ratio set to “Open” , the Width and Height values act as maximum limits rather than fixed dimensions. For example, if both values are set to 200px and a member uploads a 2000px × 2000px image, the system will automatically resize it to 200px × 200px . The image’s original proportions are preserved, but it is scaled down so it does not exceed the defined limits. This resizing helps ensure that images remain optimized for performance, allowing pages to load faster and improving the overall browsing experience across the website. 1 — the Profile Logo setting. 2 — its Ratio, which can be Open, 1:1 or 3:4. Entering a \"Profile Logo\" width of less than 162px shows a Warning message, and the width is reset to 162px: *This is done to make sure that large images are resized to dimensions that will look relatively uniform in the various areas of the website where profile logos are used. Entering a \"Profile Logo Social Media\" width or height of less than the required 200px shows a Warning message, and the value is reset to 200px: Profile Photo Settings The Profile Photo Settings function much like the Profile Logo Settings, with one key difference; Profile Photos allow you to set an aspect ratio of 3:4 or 1:1. This helps ensure that profile images fit properly across different areas of the website where they are displayed. Please note: Changing the default Aspect Ratios is possible, but not recommended.  Doing so would require customizing the design of the website significantly in order to accommodate a different aspect ratio for these images around the website and should only be requested by Advanced Users of the software that have significant experience in customizing the design of Brilliant Directories websites. Profile Cover Settings Here are some things to know regarding editing Profile Cover: The ratio of the Profile Cover will always be \"Open\" so members are not forced to upload an image that is a certain shape - wider than it is tall, or taller than it is wide. Since the ratio is always \"Open\", the \"Width\" and \"Height\" numbers serve as limits for the maximum width and height of the image.  For example, if the Width and height are set to 1200px x 500px, and a member uploads an image that is 2000px wide x 800px tall, the final image will be resized to be 1 200px wide x 500px tall, maintaining the same aspect ratio of the original image, but downsizing it to be no more than the limit.  This helps ensure that the website loads these images as quickly and efficiently as possible, thus reducing the overall time to load all of the website's pages as much as possible. How To Upload Logo Images As A Member Login as a member and go to the \"Profile Photo\" Tab Click on \"Upload Logo\" (once a logo has been uploaded, the button reads \"Change Logo\"): NOTE: Accepted Image formats are: JPG, PNG, GIF and WEBP 3. Click \"Choose Logo\" and select an image to upload. It opens in the cropping window: 4. Click \"Click to Save Photo\". If the logo is not large enough the member will receive the following message, warning them that the current image is smaller than 200px x 200px and will have to be stretched in order to meet the minimum size requirements for sharing on social media websites, and the logo will appear on the website at a smaller size than other Profile Logos. This warning appears only when the Skip Image Size Warning for Profile Photos and Logos Advanced Setting (system variable skip_photo_upload_warning_size) is turned off. It is ON by default, so by default the image is uploaded without the warning. How To Upload Profile Photos As A Member When uploading the profile photo, they will follow the same process as uploading a Profile Logo.  However, the members will be required to use the built-in cropping tool which will ensure that the final image uses the 3:4 Aspect Ratio specified in the Profile Photo Settings: If the photo is smaller than 200px x 200px, clicking \"Click to Save Photo\" shows the following warning, and \"Upload and Stretch\" uploads it anyway. This warning appears only when the Skip Image Size Warning for Profile Photos and Logos Advanced Setting (system variable skip_photo_upload_warning_size) is turned off. It is ON by default, so by default the image is uploaded without the warning. It is now possible to zoom in & out , rotate , and flip profile photo images while cropping, using the tools below the image: How To Upload Cover Images As A Member When uploading the cover photo, they will follow the same process as uploading a Profile Picture/Logo. However, the members will be required to use the built-in cropping tool which will ensure that the final image uses the dimensions specified in the Profile Cover Settings : Additional Information The image module is made up of text labels that can be edited: » How to locate Text Labels on the Front end of a Website » Settings » Text Labels",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415513/original/IaZ5TMh9a2jsTb6hzTV8p3Edn3FkkUVR_w.png?1791392544",
+      "alt": "Image Settings Member Photos section (2) opened from the Member Photos, Member Logos and Cover Photos side menu entries (1).",
+      "caption": "Context: This article will cover the image settings for the following:",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): Image Settings Member Photos section (2) opened from the Member Photos, Member Logos and Cover Photos side menu entries (1). Context: Context: This article will cover the image settings for the following:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358630/original/FgTuPV0OCt7NHyaYabxHrqGH8vQ5sGyXBA.png?1791318632",
+      "alt": "Member Logos section with the Profile Logo settings highlighted (1) and its Ratio menu set to Open (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): Member Logos section with the Profile Logo settings highlighted (1) and its Ratio menu set to Open (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358634/original/i0A8bUnl41HJug5WqXP8161IVAkYBzAvgg.png?1791318635",
+      "alt": "Warning popup saying the minimum size for the width setting is 162 pixels, shown over the Member Logos section.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): Warning popup saying the minimum size for the width setting is 162 pixels, shown over the Member Logos section.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358635/original/-uPjIaq-FE7GVhrOTjJDc3ggBoxlUadYww.png?1791318636",
+      "alt": "Warning popup saying the minimum size for the width setting is 200 pixels, shown over the Member Logos section.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): Warning popup saying the minimum size for the width setting is 200 pixels, shown over the Member Logos section.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358632/original/tPRMECKsZwh9XpYmKcJ08nY662D6G6TDNA.png?1791318633",
+      "alt": "Member Photos section with the Profile Photo and Profile Photo Social Media settings highlighted, including the 3:4 ratio.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): Member Photos section with the Profile Photo and Profile Photo Social Media settings highlighted, including the 3:4 ratio.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358633/original/xpG1CxYjCGmkd0yOWtu4A8RbvRRxGKW5qA.png?1791318634",
+      "alt": "Cover Photos section with the Profile Cover width and height settings highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): Cover Photos section with the Profile Cover width and height settings highlighted.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371913/original/oRQbO7p9KLs-wLSS69hyZujwn1b7HCp3RA.png?1791337614",
+      "alt": "Member dashboard Profile Photo tab with the Upload Logo button under Profile Logo marked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): Member dashboard Profile Photo tab with the Upload Logo button under Profile Logo marked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415558/original/bPWvuvwPVdqIqkUJlSC2_s2ToMjxzTpbuQ.png?1791392579",
+      "alt": "The Logo Upload window with the Choose Logo button marked (1).",
+      "caption": "NOTE: Accepted Image formats are: JPG, PNG, GIF and WEBP3. Click \"Choose Logo\" and select an image to upload. It opens in the cropping window:4. Click \"Click to Save Photo\". If the logo is not large enough the member will receive the following message, warning them that the current image is smaller ",
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): The Logo Upload window with the Choose Logo button marked (1). Context: NOTE: Accepted Image formats are: JPG, PNG, GIF and WEBP3. Click \"Choose Logo\" and select an image to upload. It opens in the cropping window:4. Click \"Click to Save Photo\". If the logo is not large enough the member will receive the following message, warning them that the current image is smaller",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371907/original/KYjSKvGRsXncGx55jPHyWIrcD7Wscpit7Q.png?1791337608",
+      "alt": "The logo cropping window with a test logo and the Click to Save Photo button marked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): The logo cropping window with a test logo and the Click to Save Photo button marked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177119493/original/Gi65-e1e_r6961F64yiisRQ1CJwZmFtCdw.png?1775590926",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' in section 'Developer Hub' / 'Image Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371908/original/PNQXDyIqiuS189AFDJTX7ZsLJB3gIsFY6w.png?1791337609",
+      "alt": "The profile photo cropping window with a 3:4 crop box over a test photo and Click to Save Photo marked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): The profile photo cropping window with a 3:4 crop box over a test photo and Click to Save Photo marked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371910/original/2X8dn-qv-IfHbI5qCUPoPIubRbvsaKPIrQ.png?1791337611",
+      "alt": "Warning that the image is smaller than the 200px x 200px social media minimum, with the Upload and Stretch button marked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): Warning that the image is smaller than the 200px x 200px social media minimum, with the Upload and Stretch button marked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371909/original/HHpEvTIM0cx-9b9KBl6V9DuInkJzYg8e9w.png?1791337610",
+      "alt": "The cropping tools below the image: zoom in and out, rotate left and right, flip horizontally and vertically (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): The cropping tools below the image: zoom in and out, rotate left and right, flip horizontally and vertically (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415557/original/gVXPZvflUThCws9qMqVg7Mp4bEB66uZruA.png?1791392578",
+      "alt": "The cover photo cropping window with a wide crop box over a test cover image and Click to Save Photo marked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): The cover photo cropping window with a wide crop box over a test cover image and Click to Save Photo marked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371911/original/BNg9q-Ko8J2s_evvbP0zH7d5z0D1d0ZxSg.png?1791337613",
+      "alt": "The Profile Photo tab with Show Text Labels on: every text is highlighted with its label name, and profile_logo_recommended_size is marked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub » Image Settings » Profile Photos, Logos & Cover' (Developer Hub > Image Settings): The Profile Photo tab with Show Text Labels on: every text is highlighted with its label name, and profile_logo_recommended_size is marked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000019275",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019275"
+    },
+    {
+      "text": "Image Settings - Member Post Types- Single Photo",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019276"
+    },
+    {
+      "text": "Image Settings - Member Post Types - Multiple Photos",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019277"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/a/solutions/articles/12000019278?portalId=5000075044#:~:text=images%20by%20default.-,Ratio,-The%20%22Ratio%22%20refers"
+    },
+    {
+      "text": "can be found here.",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019278-developer-hub-%C2%BB-image-settings#section-ratio"
+    },
+    {
+      "text": "How to locate Text Labels on the Front end of a Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055818"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673"
+    }
+  ],
+  "lastmod": "2026-10-14T03:16:54+05:30",
+  "scraped_at": "2026-10-18T13:40:33.091197"
+}

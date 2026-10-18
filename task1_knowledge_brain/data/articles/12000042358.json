@@ -1,0 +1,23 @@
+{
+  "article_id": "12000042358",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042358-03-16-18-software-updates",
+  "title": "03/16/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/16/18 - Software Updates"
+  ],
+  "content": "## 03/16/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000042358\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was affecting the behavior of the Widget Manager page in the Site Admin in some rare cases.\n\n- We improved how the system renders the Froala WYSIWYG styles in the Front-End Pages.  Some Froala styles that forced CSS that was incompatible with the default CSS styles on website were removed. Widget Involved: Form - Froala Editor Javascript\n\n- We made an improvement to the Billing Details page seen when logged in to members' account.  The columns in the Invoices section have been reordered and the table no longer requires scrolling to view all of the information.\n\n- We refactored how the system handles the automatic creation of 301 Redirects when the URL of member profiles or content changes. This update will prevent the creation of infinite redirect loops that have been caused by this module in the past.\n\n- Now the Member Image Fetch Tool supports JPEG image file extensions.\n\n- We fixed an issue which was affecting the Search Results Page when the Search Results Layout was set to Grid View. Widget Involved: Bootstrap Theme - Footer - Scripts",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000042358",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042358"
+    }
+  ],
+  "lastmod": "2018-03-17T03:47:06+05:30",
+  "scraped_at": "2026-10-18T13:42:24.210264"
+}

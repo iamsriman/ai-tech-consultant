@@ -1,0 +1,27 @@
+{
+  "article_id": "12000089183",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089183-08-05-22-software-updates",
+  "title": "08/05/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/05/22 - Software Updates"
+  ],
+  "content": "## 08/05/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089183\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Google Maps integration to only display the map on member profiles and post details pages when the member or post are correctly geocoded. Widgets Involved: Bootstrap Theme - Display - Post Location Modal Bootstrap Theme - Function - Google Location Suggest Bootstrap Theme - Module - Post Location Map\n\n- We updated the Google Maps API Usage Status Checker in order to show more specific API status messages for different API responses before displaying the content of the Geocode Members page in the Admin.\n\n- We updated the Homepage Clickable Maps Add-On in order to load the JS files after the page loads. This will help to reduce the page load time and increase scores in 3rd party tools like GTMetrix and Google Pagespeed. Widgets Involved: Bootstrap Theme - Homepage Search - Clickable Australia Map Bootstrap Theme - Homepage Search - Clickable Canada Map Bootstrap Theme - Homepage Search - Clickable Europe Map Bootstrap Theme - Homepage Search - Clickable Germany Map Bootstrap Theme - Homepage Search - Clickable Map Bootstrap Theme - Homepage Search - Clickable New Zealand Map Bootstrap Theme - Homepage Search - Clickable South Africa Map Bootstrap Theme - Homepage Search - Clickable UK Map Bootstrap Theme - Homepage Search - Clickable USA Map\n\n- We fixed an issue which was preventing the ability to display the Private Member Chat Add-On widget in sidebars on Post Details pages in some cases. Widget Involved: Bootstrap Theme - Module - Private Member Chat\n\n- We added the ability to search by Post ID when using the \"Search by Keyword\" filter on the Manage Posts page in the Admin.\n\n- We added the ability to support the auto-expiration of posts for single-image Post Types (article, jobs, blog articles).\n\n- We created a new search option to filter widgets by \"Enabled\" or \"Disabled\" on the Widget Manager page in the Admin.\n\n- We implemented an update to make all member variables are available to include in email templates sent when a form is submitted from the Member Dashboard.\n\n- We released the first version of the Brilliant Directories API. Please click here for more detailed information.\n\n- We fixed an issue which was preventing users from unsubscribing from a site's newsletter in some cases. Widget Involved: Bootstrap Theme - Unsubscribe Email Page\n\n- We fixed an issue which was causing slower than expected member search results on sites with more than 100.000 members in some cases. Widget Involved: Search - Member - Search Query\n\n- We updated the Member Reviews module to include the profile photo or logo of the member who submitted the review when viewing the review on the site. Post Type Involved: Reviews",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089183",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089183"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768-developer-hub-%C2%BB-generate-api-key-overview"
+    }
+  ],
+  "lastmod": "2022-08-08T21:48:33+05:30",
+  "scraped_at": "2026-10-18T13:50:05.848080"
+}

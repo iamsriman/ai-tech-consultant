@@ -1,0 +1,91 @@
+{
+  "article_id": "12000101323",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101323-google-analytics-4-tracking-membership-plan-sign-ups-using-key-events-conversions-",
+  "title": "Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)"
+  ],
+  "content": "## Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101323\n\nUnderstanding user interactions, such as sign-ups for different membership plans, is crucial for assessing website performance and optimizing user engagement. Integrating BD websites with Google Analytics 4 (GA4) enables effective tracking of membership plan sign-ups. Here’s a detailed guide on how to set up this tracking.\n\n\n## Part 1: Set Up Tracking on The Brilliant Directories Website\n\n\n\n### 1. Create a New Custom Widget\n\n\nBegin by accessing the BD website dashboard and creating a new custom widget .\n\n\n### 2. Name the Widget\n\n\nAssign a simple nickname to the widget, such as \"Track Sign Ups - Membership Plan Name,\" to facilitate identification.\n\n\n### 3. Insert the Tracking Code\n\n\nPaste the following code into the widget’s code area on the HTML tab:\n\n<script> gtag(\"event\", \"bronze_plan_sign_up\", { method: \"sign_up\" }); </script>\n\nThis code configures a custom event in GA4 to be triggered whenever a sign-up for the specified membership plan occurs.\n\nIMPORTANT: Replace bronze_plan_sign_up with the name of the membership plan you're tracking.\n\n- NO SPACES\n\n- NO SYMBOLS\n\n- USE UNDERSCORES _\n\n- If there are any spaces or symbols, the tracking will not work\n\n- Example change: premium_plan_sign_up\n\n\n### 4. Save Changes\n\n\nEnsure that the widget is saved to apply the changes.\n\n\n### 5. Edit the Membership Plan\n\n\nGo to Finance > Membership Plans, edit the plan that will have the tracking code, find the \"Successful Sign Up / Upgrade Conversion Tracking Code Widget\" setting in the first tab of the page, and select the widget created for the tracking code.\n\n\n## Part 2: Set Up Key Event to Track in Google Analytics 4 (GA4)\n\n\n\n### 1. Copy the Event Name\n\n\nUse the exact event name from the inserted code, for example, bronze_plan_sign_up .\n\n\n### 2. Access GA4 Admin Settings\n\n\nNavigate to Google Analytics for the website and click on the ADMIN blue icon located at the bottom-left of the page.\n\n\n### 3. Navigate to Key Events\n\n\nFind the DATA DISPLAY section in the sidebar, and click on KEY EVENTS .\n\n\n### 4. Create a New Key Event\n\n\nClick on NEW KEY EVENT and enter the copied event name, such as bronze_plan_sign_up\n\nIMPORTANT: The KEY EVENT name MUST MATCH EXACTLY the event name defined in the tracking code in the widget.\n\n\n### 5. Save the Key Event\n\n\nClick SAVE to finalize the event setup.\n\nEvents can be viewed under Reports > User Engagement & Retention > Events.\n\nAfter adding a new event in GA4, it typically takes about 24 to 48 hours for the event to appear in the Events report. This delay is due to the time required for data processing and reporting updates within Google Analytics 4.\n\nTo see the new event sooner, checking the Realtime report might provide immediate insights, though the full data and detailed reports will still be updated within the 24 to 48-hour time-frame.\n\nWith the tracking for membership plan sign-ups configured, monitoring these events directly in Google Analytics 4 becomes possible.\n\nFor different membership plans, the process can be repeated with unique event names for each plan.\n\nBy following these instructions, valuable insights into user engagement with various membership plans can be obtained, enabling data-driven decisions to enhance website performance.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148743078/original/bpdL5LCboAVrGZgl2LmjCJlIFWLljaZfrg.png?1725062677",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148742999/original/5pCVyKOjF3yl9vN15mjM2scZw90OArgLRw.png?1725062251",
+      "alt": null,
+      "caption": "Go to Finance > Membership Plans, edit the plan that will have the tracking code, find the \"Successful Sign Up / Upgrade Conversion Tracking Code Widget\" setting in the first tab of the page, and select the widget created for the tracking code.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)' in section 'Settings' / 'General Settings'. Context: Go to Finance > Membership Plans, edit the plan that will have the tracking code, find the \"Successful Sign Up / Upgrade Conversion Tracking Code Widget\" setting in the first tab of the page, and select the widget created for the tracking code.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148820759/original/suivIPUBiI35k9wC78HrGteiulJcDFC4EA.png?1725296532",
+      "alt": null,
+      "caption": "Navigate to Google Analytics for the website and click on the ADMIN blue icon located at the bottom-left of the page.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)' in section 'Settings' / 'General Settings'. Context: Navigate to Google Analytics for the website and click on the ADMIN blue icon located at the bottom-left of the page.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148820713/original/pDX0ik24Qa2waWihMlOR0pzC-yn3H1Da8Q.png?1725296483",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148820889/original/KK1jIYWeptny-jJYPdNsZYbv1ZLj5WMXPA.png?1725296729",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148743185/original/nNXjuLvGPWwxN-jvH7Cdryd4CzLFuNp-kQ.png?1725063221",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148743261/original/RGk_9bbohR5hNxdwH_RfZGraFc-chOCEqw.png?1725063793",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Analytics 4: Tracking Membership Plan Sign-Ups Using Key Events (Conversions)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101323",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101323"
+    },
+    {
+      "text": "a new custom widget",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078432"
+    }
+  ],
+  "lastmod": "2024-09-02T22:39:35+05:30",
+  "scraped_at": "2026-10-18T13:54:48.281869"
+}

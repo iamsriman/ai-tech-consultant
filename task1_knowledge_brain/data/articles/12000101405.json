@@ -1,0 +1,39 @@
+{
+  "article_id": "12000101405",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101405-how-to-remove-location-searches-from-the-search-modules",
+  "title": "How to Remove Location Searches from the Search Modules",
+  "category": "Developer Hub",
+  "folder": "Quick FAQ",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Quick FAQ",
+    "How to Remove Location Searches from the Search Modules"
+  ],
+  "content": "## How to Remove Location Searches from the Search Modules\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101405\n\nFor the Homepage , Header and Member Sidebar , you can just choose search modules that don’t have location in them:\n\n- Design Settings » Header Design\n\n- Design Settings » Header Search\n\n- Design Settings » Search Box / Call To Action\n\n- Toolbox » Sidebar Manager\n\nFor the Post Types sidebar, the location search field is wrapped with a CSS class that can be targeted with one rule to hide it for all those:\n\n.location-search-field {\n  display: none;\n}\n\nThis will hide the rest of the location input fields for posts in the sidebar searches.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101405",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101405"
+    },
+    {
+      "text": "Design Settings » Header Design",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000044979"
+    },
+    {
+      "text": "Design Settings » Header Search",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000044980"
+    },
+    {
+      "text": "Design Settings » Search Box / Call To Action",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078953"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000673365"
+    }
+  ],
+  "lastmod": "2024-09-09T22:05:16+05:30",
+  "scraped_at": "2026-10-18T13:54:55.142901"
+}

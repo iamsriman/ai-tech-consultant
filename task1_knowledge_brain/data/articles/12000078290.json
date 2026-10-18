@@ -1,0 +1,113 @@
+{
+  "article_id": "12000078290",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078290-how-to-customize-a-form",
+  "title": "How To Customize a Form",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How To Customize a Form"
+  ],
+  "content": "## How To Customize a Form\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078290\n\nTheBy default, new websites launch without any customized forms:\n\nTo customize a default form, click Customize under Actions:\n\nThis opens the Edit view of the selected form:\n\n\n## What Counts as a Customization\n\n\nA form is only registered as \"Customized\" when at least one form field setting is actually changed. Clicking Save Changes without making any changes:\n\ndisplays an error message, because no changes were made to the default form:\n\nFor a form to be considered customized, at least one of these highlighted settings on a form field must be changed:\n\nAdditional information: In-Depth Look Into Form Fields And Their Settings\n\n\n## Saving the Customized Form\n\n\nAfter making the preferred changes and clicking Save Changes :\n\nThe system displays the changes in the Form Preview:\n\nThe newly customized form will then display under the Custom Forms section:\n\nImportant Note: When to Change the Form's Nickname and Variable Name\n\nChanging the form's nickname and variable name is recommended when:\n\n- The form is a feature form for a cloned or newly created feature that is not a default feature (for example, turning blog articles into website news while keeping the original blog articles feature).\n\n- The form is a listing form for a newly created membership level. Unique form names on each level keep things organized. See How To Assign Different Member Forms To Various Membership Levels .\n\n- The form is a website form that will be called on a custom widget (for example, creating a second Contact Us page).\n\nChanging the form's nickname and variable name is not recommended when:\n\n- The form is a feature form for the existing default feature.\n\n- The form is a listing form shared across all membership levels.\n\n- The form is a website form called on multiple widgets. For example, changing the variable name of the default Contact Us form will stop it from displaying on the front end, because the default widget calls the form by its original system name.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819624/original/OJUz8cUsg7LILO75yis8NaTL_wLJzXLOOA.png?1761872934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819630/original/5Q4PyB8mu7PuibXi6gwkGooGXu7Ksi5FDQ.png?1761872961",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090907825/original/BJhuGok25c1coQxm7bM5HIP-3cg9xPb7Eg.png?1617651380",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089766515/original/lLgB9HH511NDGsfLNv59EAHgTrq92kMnNA.jpeg?1615297946",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090907841/original/1nJMxzKx_M9UR8cQxVv3NVZ8_AH8Oaz6bg.png?1617651414",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090907911/original/ppr-XZfBQYnd3GG_Xyxy7lnjUnYTs795Tg.png?1617651470",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090907931/original/IdRAweuaBmFCzoYTxmeilwoSzIKlYSa-6g.png?1617651512",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090907966/original/vxLrMDTwAUyFXnK22rcw5s9_zpwmbOR7Yg.png?1617651573",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819641/original/Aes40-E2wQUksxo12JRESRA0eP51mVCHZQ.png?1761873038",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078290",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078290"
+    },
+    {
+      "text": "In-Depth Look Into Form Fields And Their Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000059251"
+    },
+    {
+      "text": "How To Assign Different Member Forms To Various Membership Levels",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000006663"
+    }
+  ],
+  "lastmod": "2026-06-16T01:04:33+05:30",
+  "scraped_at": "2026-10-18T13:47:58.311593"
+}

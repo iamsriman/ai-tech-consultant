@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102777",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102777-12-13-2024-software-updates",
+  "title": "12/13/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/13/2024 - Software Updates"
+  ],
+  "content": "## 12/13/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102777\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the \"Website \"FROM\" Email Address\" General Setting to support the \".com.jm\" Top Level Domain extension.\n\n- We fixed an issue which was preventing the member search results page from returning accurate results after performing a location search in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue which was causing the system to incorrectly include manually geocoded members in the list of members missing location information on the Geocode Members page in the Admin.\n\n- We fixed an issue with the Search Members page in the Admin which was preventing the system from returning accurate results when performing a location search in some cases.\n\n- We fixed an issue with the \"Website - Lead - Get Matched\" form which was preventing the \"Make Location Fields Required?\" Lead Setting from working properly when the \"Map Display Options\" Lead Setting was set to \"Only Input\" in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We removed the Size, Image Caption and Alt Text options from the image toolbar options on the Private Chat Message Froala Editor. Widget Involved: Form - Froala Editor Javascript\n\n- We updated the Title and Help Text for new triggers on the Brilliant Directories Zapier App.\n\n- We fixed an issue which was preventing the Event Search results from returning accurate results after searching for a specific date range in some cases. Widget Involved: Search - Post - Search Query\n\n- We fixed an issue with the Private Member Chat Add-On which was preventing the system from sending the chat email notifications in some cases.\n\n- We updated the Brilliant Directories API to add the ability to search by members. Widget Involved: Search - Member - Search Query\n\n- We updated the Upgrade Summary module on the Member Dashboard to improve its display on mobile devices. Widgets Involved: Bootstrap Theme - Function - Order Summary - Credit Amount Bootstrap Theme - Function - Order Summary - Prorated Amount",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102777",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102777"
+    }
+  ],
+  "lastmod": "2024-12-17T00:07:21+05:30",
+  "scraped_at": "2026-10-18T13:55:25.454597"
+}

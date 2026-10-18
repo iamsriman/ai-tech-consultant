@@ -1,0 +1,182 @@
+{
+  "article_id": "12000091681",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091681-how-to-import-posts-via-csv-file",
+  "title": "How To Import Posts Via CSV File",
+  "category": "My Content",
+  "folder": "Manage Posts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Manage Posts",
+    "How To Import Posts Via CSV File"
+  ],
+  "content": "## How To Import Posts Via CSV File\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091681\n\n\n## Identifying the Type of Post, Database Table and Variables:\n\n\nBefore we start explaining how to import posts, there is some important information to understand and identify.\n\n\n### Single-Image Posts vs Multi-Image Posts\n\n\nThere are 2 types of posts: Single image posts and Multi-image posts.\n\nSingle Image Post data_type Articles 20 Blogs 20 Jobs 20 Coupons 20 Soundcloud 20 Events 20 Discussion 20 Videos 9\n\nMulti-Image Posts data_type Classified 4 Properties 4 Products 4 Photo Albums 4 Digital Products 4\n\n\n### Database Tables for Posts\n\n\nSingle-Image Posts and Multi-image posts are stored in different tables in the directory database:\n\n- data_posts: Single Image posts\n\n- users_portafolio_groups: Multi-image posts\n\nOnce the correct post to be imported has been identified, the correct variables and template file can be selected below.\n\n\n### Default Variables\n\n\nThe following variables need to be included in the CSV import files: For single image posts:\n\n- post_title: Add the post title.\n\n- post_content: Add the content of the post.\n\nFor multi-image posts:\n\n- group_name: Add the post title.\n\n- group_desc: Add the content of the post.\n\nThe content of the post can be formatted with HTML and CSS as long as it is specified on the same field.\n\nThe best way to do it is by creating a new webpage and pasting the content of the article there.\n\nFor example:\n\nThen click on the \"Code View\" and copy & paste the code on the CSV file:\n\n- post_category: These are the categories already added to the post type Post Categories field inside the Post Settings. More information: How To Add or Edit Categories For Post Types (events, coupons, classifieds, etc)\n\n- post_tags: Enter a comma-separated list of tags.\n\n- user_id: ID of the member that this post is going to be linked to. e.g., if \" Johnny Cook \" is publishing the post, then enter the ID: 44841\n\nNote: There are other variables that can be used in the import file but we are not going to add them here because they vary depending on the post type, so we used the general ones.\n\n\n### Custom Variables\n\n\nCustom variables previously added to the form can also be used in the import file.\n\nMake sure to use the database variable on the import file:\n\nNote: This same technique can be used to find the default variables by opening the default form for that specific post type.\n\nIMPORTANT NOTES:\n\n- The files below should be downloaded to the computer and viewed in a spreadsheet application like Microsoft Excel, or another similar application.\n\n- When using multi-option fields such as dropdowns, checkboxes, multiple choice radios, Yes/No, etc, please use the \"Database Variable\" :\n\nTo start, here are some files that will help with understanding how the import process works:\n\n- Single Image Import Template\n\n- Multi Image Import Template\n\n- Videos Import Template\n\nImportant information about CSV files: Importing Tricks - Importing CSV Files With Special Characters\n\n\n## Importing the CSV File\n\n\n\n### Import File Example\n\n\nIn this instance, we will import a blog article.\n\nThis is the import file we are going to use:\n\nTo import the CSV file:\n\n1. Go to My Content >> Manage Posts\n\n2. Click on Import Post File\n\n3. Select the post type you are going to import:\n\n- Single-Image Post (Post - Standard) Article Event Job Opening Coupon Video Audio File Website Blog Article Discussion\n\n- Article\n\n- Event\n\n- Job Opening\n\n- Coupon\n\n- Video\n\n- Audio File\n\n- Website Blog Article\n\n- Discussion\n\n- Multi-Image Post (Post - Photo Album) Photo Album Classifieds Property Product Website-Digital Product\n\n- Photo Album\n\n- Classifieds\n\n- Property\n\n- Product\n\n- Website-Digital Product\n\n4. Click on \"Choose File\" to attach the CSV file:\n\n5. Make sure the variables selected in the \"Directory Property\" match the \"Column Header From File\":\n\n6. If everything is correct, please click on \" Continue with import \".  Then click on the \" Yes, Continue \" button:\n\n7. The system will show if everything was successful or if there are errors:\n\n8. Go back to My Content >> Manage Posts to check the new posts imported.\n\n\n### Importing Post Images (optional)\n\n\nTo automatically import the images, the following Advanced Option can be selected. However, to complete the import of post images, please refer to the link below:\n\nPost Images: Importing Posts With Photos\n\n\n### Importing Post Locations (optional)\n\n\nTo add the location when importing a post through the CSV File the correct variable to use is post_location.\n\nWhen importing the CSV File with the location field is important to check the box on the left to Geocode the location properly:\n\nNOTE: In order for the Import with Location to work properly it is required to Set Up Pretty URLs with Google Maps with this Advanced Setting:\n\nHere are some examples of how the location can be entered on the post_location field:\n\n- Los Angeles, CA\n\n- Menlo Park, CA\n\n- 1234 Maple Dr, Camillus, NY 13031, USA\n\nGet Personal Assistance\n\nWe understand that this can be a challenging process, even for some users that are more technically inclined. If one would prefer that someone on our team assists with the import of the members, we have Training Sessions covering importing members. Use the link below to purchase this service: Training Sessions",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120100318/original/3isk6KurIWdJj1CLd6wzHkJsn27Zqmf-Dw.png?1674142603",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120100435/original/2rcLiHALzQugS5XfiUuzlEjHvdZkHs_gVA.png?1674142716",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120100867/original/DmJC26jtmIDeUuYatqqE38jWJ3LdjmwiVA.png?1674143055",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120102096/original/CIfgRKoa4obInpLSn_TZc6mddM4G1Gfvyw.png?1674144194",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120101449/original/jNS5IJrpjk5WPmX1o3iKseFzCR5_n1cdjg.png?1674143666",
+      "alt": null,
+      "caption": "Context: IMPORTANT NOTES:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'. Context: Context: IMPORTANT NOTES:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128627528/original/ZJFh0dvLIxaf2_fWRpLDTiTO4e95AsguDA.png?1689803959",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120103357/original/puDPvhaKc_pfNAq9c0Cw6wBjCq3hXIAp5A.png?1674145512",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133317093/original/UseqKdbaohbp8Xntb1ujjvV3f2VM95vIQg.png?1698274643",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120103991/original/NWhcSw3BTzKTvIPQCzUvl4QZlpIztd815A.png?1674146061",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120104022/original/X4Yen8KOC7nX8WvxIeWi74oatrbc9x8Wqg.png?1674146099",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128627697/original/6kn2x8XrST7b7KZfYdDMvT6QzGnZnSntrA.png?1689804105",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133317149/original/nhKZDH2LPzWkRt-8_jTmfW2rios_CqHC8Q.jpg?1698274835",
+      "alt": null,
+      "caption": "Post Images: Importing Posts With Photos",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'. Context: Post Images: Importing Posts With Photos",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133317209/original/X-D4BHA8NcDLOUTsQt_O4--i4pch94xkaw.png?1698274893",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125157223/original/vUO_AE7NzlAklTFJmNLyGRdtMyBa2gaBEw.png?1683586980",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Import Posts Via CSV File' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091681",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091681"
+    },
+    {
+      "text": "How To Add or Edit Categories For Post Types (events, coupons, classifieds, etc)",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000001792"
+    },
+    {
+      "text": "Single Image Import Template",
+      "url": "https://bootstrap.brilliantdirectories.com/helpdesk/attachments/12128627877"
+    },
+    {
+      "text": "Multi Image Import Template",
+      "url": "https://bootstrap.brilliantdirectories.com/helpdesk/attachments/12158140440?download=true"
+    },
+    {
+      "text": "Videos Import Template",
+      "url": "https://bootstrap.brilliantdirectories.com/helpdesk/attachments/12128627878"
+    },
+    {
+      "text": "Importing Tricks - Importing CSV Files With Special Characters",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000001776"
+    },
+    {
+      "text": "Post Images: Importing Posts With Photos",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000093407-post-images-importing-posts-with-photos"
+    },
+    {
+      "text": "Set Up Pretty URLs with Google Maps",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000086439"
+    },
+    {
+      "text": "Training Sessions",
+      "url": "https://www.brilliantdirectories.com/website-phone-support"
+    }
+  ],
+  "lastmod": "2025-08-26T02:01:53+05:30",
+  "scraped_at": "2026-10-18T13:50:40.332592"
+}

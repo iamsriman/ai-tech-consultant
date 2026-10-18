@@ -1,0 +1,68 @@
+{
+  "article_id": "12000091597",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091597-showing-related-members-by-category-and-location",
+  "title": "Showing Related Members by Category and Location",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "Showing Related Members by Category and Location"
+  ],
+  "content": "## Showing Related Members by Category and Location\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091597\n\nOverview\n\nThe Bootstrap Theme - Module - Member Related Searches widget displays related member results in the sidebar of Member Profile Pages. It surfaces other members who share the same category or location as the profile being viewed, giving site visitors a built-in way to discover additional listings.\n\n⚠ REQUIRED SETUP — Geocoding Required: This widget will not function correctly unless all members have been geocoded. Members without geocoded coordinates will not appear in the widget's location-based results.\n\nReference: How To Geocode Members — Sync Members with Google Maps\n\n\n## How to Add the Widget\n\n\nTo add the widget to the Member Profile Page sidebar:\n\n- Navigate to Toolbox » Sidebar Manager in the admin dashboard.\n\n- Select the Member Profile Page sidebar.\n\n- Locate the Bootstrap Theme - Module - Member Related Searches widget in the available widgets list.\n\n- Drag and drop the widget into the desired position in the sidebar order.\n\n- Save the sidebar configuration.\n\nReference: Toolbox » Sidebar Manager\n\n\n## How Related Members Are Determined\n\n\nThe widget determines which members to display based on the following logic:\n\n- Both the category and location of the profile being viewed are checked simultaneously.\n\n- Members who match either the category or the location of the current profile are returned as related results.\n\n- Links to the corresponding category and location search result pages are generated automatically alongside each result.\n\n- All categories assigned to the member are used — there is no limit on the number of categories checked.\n\n- A maximum of 10 related member results are displayed. Visitors can scroll within the widget to view all results.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119750916/original/mpDybEcgjASZou0U632yDy5lzfWAwxVU6g.png?1673501752",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Showing Related Members by Category and Location' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119750431/original/1XGpnU0ckVvilgG31FynX2wOSRC6mUUjIw.png?1673500864",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Showing Related Members by Category and Location' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119750480/original/ALjlHAaCtRmBE5-NS60HZy5bFtLilq0XGA.png?1673500965",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Showing Related Members by Category and Location' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119750875/original/eL0nMiMKZt2bQyKtmDzFYqoJ_67bFDSCNQ.png?1673501670",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Showing Related Members by Category and Location' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091597",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091597"
+    },
+    {
+      "text": "How To Geocode Members — Sync Members with Google Maps",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044148"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673365"
+    }
+  ],
+  "lastmod": "2026-06-25T16:32:36+05:30",
+  "scraped_at": "2026-10-18T13:50:38.743324"
+}

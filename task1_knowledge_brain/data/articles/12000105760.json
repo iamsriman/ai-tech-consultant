@@ -1,0 +1,23 @@
+{
+  "article_id": "12000105760",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105760-08-15-2025-software-updates",
+  "title": "08/15/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/15/2025 - Software Updates"
+  ],
+  "content": "## 08/15/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105760\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented changing the status of member reviews on the Member Reviews page in the Admin in some rare cases. Widget Involved: Account - Save Actions\n\n- Fixed an issue that affected the ability to send individual emails from the Admin in some cases.\n\n- Updated the API to ensure creating, updating, or deleting widgets through the Brilliant Directories API are reflected on the site immediately.\n\n- Sidebar Settings are now displayed on the Web Page Builder page in the Admin when the Page Type Setting is set to \"Member Search Results\" or \"Post Search Results\" .\n\n- Improved the Google Maps integration to ensure accurate results are returned when saving location data across the platform. Widgets Involved: Bootstrap - Contact Member Lead Map Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Account - Select Locations Bootstrap Theme - Function - Google Location Suggest Bootstrap Theme - Homepage Search - Clickable New Zealand Map Search - Member - Search Query\n\n- Released a new UI for the Admin Dashboard.\n\n- Created a new email variable called \"Link To Profile\" that includes the member profile link in email templates.\n\n- Fixed an issue that prevented the category dropdown in the \"Website - Lead Form - Get Matched\" form from respecting the \"Default Category Sort Order\" setting in some cases. Widget involved: Bootstrap - Contact Member Category Dropdowns\n\n- Fixed an issue that affected the ability to submit the \"Website - Lead Form - Get Matched\" form in some cases. Widget Involved: Bootstrap Theme - Function - Save Form\n\n- Fixed an issue that prevented the system from clearing category dropdown selections when manually matching members with leads in the Admin.\n\n- Fixed an issue that prevented the system from loading the version history module on Web Pages and Edit Post Settings pages in the Admin in some cases.\n\n- Improved how member sub and sub sub categories are saved in the Member Dashboard to ensure data consistency.\n\n- Addresses in Germany and Latvia will now be saved with the street number after the street name when fetched from Google Maps. Widget Involved: Bootstrap Theme - Form - Member Google Location\n\n- Fixed an issue that prevented the \"Menu Item Inline Attribute\" and \"Outer <li> Inline Attribute\" Menu Settings from working properly on the frontend in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105760",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105760"
+    }
+  ],
+  "lastmod": "2025-08-19T05:13:05+05:30",
+  "scraped_at": "2026-10-18T13:56:30.023329"
+}

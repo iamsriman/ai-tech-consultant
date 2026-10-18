@@ -1,0 +1,23 @@
+{
+  "article_id": "12000058328",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058328-06-14-19-software-updates",
+  "title": "06/14/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/14/19 - Software Updates"
+  ],
+  "content": "## 06/14/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000058328\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Events Calendar from displaying Events in some cases.\n\n- We updated the logic of the 301 Redirect module in order to support external as well as Internal redirect links.\n\n- We added a new Email Variable to the System, the signup_date_format will display the Signup Date of the Member based on the format selected on the General Settings page.\n\n- We fixed an issue which was preventing the Export Member Data Add-On files from adding information into the proper columns in the export file in some cases.\n\n- We fixed an issue which was causing Checkbox Form Fields to show \"Array\" as an option in some cases.\n\n- We released the Export Member Categories feature.\n\n- We fixed an issue which was preventing members from viewing content they should have access to when the \"Members-Only Access\" field was set as \"Only Protect Details Pages\" for a Post Type. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We fixed an issue which was preventing the \"Edit Post Settings\" >> \"Select Form To Use\" field from showing the custom Forms available on the site as options.\n\n- We fixed an issue which was preventing the Froala WYSIWYG from rendering on the \"Edit Web Pages\" and \"SEO Templates\" pages in the Admin in some cases.\n\n- We fixed an issue with the \"Limit Posts to These Products\" Design Setting which was preventing posts from Non-Searchable members from being shown as options.\n\n- We added a \"Processing\" message after an Admin clicks the \"Save Sidebar\" button when creating a new Sidebar.\n\n- We updated the Signup Form Title in order to show the correct Title text if the One-Click Social Login Add-On is active but not being used on a site. Widget Updated: Bootstrap Theme - Display - tittle signup free form\n\n- We added a security check to the Profile Photos and Post Feature Image upload fields used in the Member Dashboard, and to the Member and Categories Import Tools and Media Manager pages in the Admin.  This security check will validate that all files being uploaded to the site are of the correct type and do not contain malicious code. Widget Involved: Bootstrap Theme - HEAD\n\n- We added the ability to search by Login IP or Join IP address on the Member Search Results page in the Admin.\n\n- We improved the Member Keyword Search logic making it possible to search by keywords, categories, and more, returning all of the results together. In order to use this new feature, navigate to the Admin >> Settings >> General Settings >> Configuration Tab >> Member Keyword Search Type. Widget Involved: Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000058328",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058328"
+    }
+  ],
+  "lastmod": "2019-06-15T00:32:10+05:30",
+  "scraped_at": "2026-10-18T13:45:03.783743"
+}

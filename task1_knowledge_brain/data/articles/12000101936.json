@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101936",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101936-10-18-2024-software-updates",
+  "title": "10/18/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/18/2024 - Software Updates"
+  ],
+  "content": "## 10/18/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101936\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue that was preventing Admins from adding credits to all members that were the result of a search using the bulk action on the Search Members page in the Admin.\n\n- We fixed an issue that was preventing the system from marking an invoice as paid as expected when using PayPal Express as the Payment Gateway in some rare cases.\n\n- We updated the UI of the Business Data page in the Admin to add pagination and make it load more quickly.\n\n- We created a new installer to populate they city and zip code name data for Service Areas that were missing it. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We updated the display of one-time payment subscriptions on the Member Dashboard and Member Subscription pages in the Admin to make it more clear that they are for a one-time payment.\n\n- We added the ability to support languages with special characters when creating Member and Group Tags in the Admin.\n\n- We updated the Froala WYSIWYG editor to the latest version available.\n\n- We fixed an issue which was preventing the system from correctly decoding special characters in URLs when creating or editing Web Pages in Admin.\n\n- Member variables can now be used in post notification emails.\n\n- We released a new version of the Brilliant Directories App in Zapier. This version includes the option to unsubscribe email addresses from email notifications and some minor bug fixes.\n\n- We created a new Web Page Setting called \"Disable Screenshot Preview\". When this setting is enabled, the Preview Image won't load on the Web Page Builder page in the Admin.\n\n- We updated the \"Display Expired Post in Search Results\" Post Type Setting to always display expired posts in search results, even if not searching for a specific date range. Widget Involved: Search - Post - Search Query\n\n- We optimized the \"Form Submitted\" and \"Form Not Submitted\" filters on the Search Members page in the Admin to make them load results significantly faster.\n\n- We updated the Canonical URL's logic to always point to the lowercase version of a URL. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the \"Member Profile URL Structure\" Advanced Setting to add the member_id variable to the setting.\n\n- We fixed an issue which was affecting the ability to send emails when the \"Default From Email Name\" contains a \"@\" symbol in the name.\n\n- We fixed an issue that was causing the system to send the incorrect Email Template after a member accepted a lead from the Member Dashboard when the site is using PayPal as the Payment Gateway in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101936",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101936"
+    }
+  ],
+  "lastmod": "2024-10-21T22:30:36+05:30",
+  "scraped_at": "2026-10-18T13:55:08.240457"
+}

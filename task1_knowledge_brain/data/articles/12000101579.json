@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101579",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101579-09-20-2024-software-updates",
+  "title": "09/20/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/20/2024 - Software Updates"
+  ],
+  "content": "## 09/20/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101579\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Canonical, Prev, Next and Open Graph URL elements in the <head> from working properly on Post Search Results pages in some cases. Widgets Involved: Bootstrap Theme - HEAD Bootstrap Theme - Pagination\n\n- We updated the Brilliant Directories Zapier App to allow assigning member tags to members using the \"Create\" or \"Update\" member actions.\n\n- We added the \"nofollow\" attribute to the the \"print page\" link on Post Details pages. Widget Involved: Bootstrap Theme - Display - Print Button\n\n- We updated the homepage streaming widgets to accurately reflect the Website Time Zone set for the site when displaying data. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Audios Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Discussions Bootstrap Theme - Display - Recent Videos\n\n- We fixed an issue which was affecting the ability to display multi-image posts on the Manage Post page in the Admin when one of the posts did not have any images uploaded.\n\n- We implemented a security update to the \"Delete Member CV File\" logic in the Member Dashboard.\n\n- We fixed an issue which was preventing the system from returning accurate results when searching for cities in some cases. Widgets Involved: Bootstrap Theme - Function - Google Location Suggest website_save_location_system\n\n- We fixed an issue which was preventing the Brilliant Directories API \"Get User\" action from returning results in some cases and implemented pagination functionality when using this API endpoint.\n\n- We fixed an issue which was causing Business Data tool to create duplicate records in the users_photo table when importing Business Data records.\n\n- We fixed an issue with the \"RSS Feed for Posts\" Add-On which was preventing XML Parsers from correctly reading the <media> tag value for images from the RSS feed in some cases.\n\n- We fixed an issue which was affecting the ability to delete the Single Post thumbnail image when deleting posts from the Manage Post page in the Admin in some cases.\n\n- We fixed an issue that was preventing the system from correctly rendering the layout of the \"lead accepted\" email after a member accepted a lead in the Member Dashboard.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101579",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101579"
+    }
+  ],
+  "lastmod": "2024-09-23T22:05:53+05:30",
+  "scraped_at": "2026-10-18T13:55:01.518073"
+}

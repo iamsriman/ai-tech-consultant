@@ -1,0 +1,23 @@
+{
+  "article_id": "12000032873",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032873-07-21-17-software-updates",
+  "title": "07/21/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/21/17 - Software Updates"
+  ],
+  "content": "## 07/21/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000032873\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The Google Search Assist Feature is now controlled by a new security mechanism. Widgets Involved: Bootstrap Theme - Member Results - No Results\n\n- We fixed an issue in the \"Bootstrap Theme - Display - Recent Blog Articles\" Widget. Now blog posts will not be displayed in this widget until the publish date has been reached. Widgets Involved: Bootstrap Theme - Display - Recent Blog Articles\n\n- We included additional items in the Admin area to be hidden if a website is set to be white-labeled.  To white-label the Admin area of a website, set the admin_account_view Advanced Setting to \"general\".\n\n- We updated the Keyword + Location Search Module widget to be compatible with the keyword autocomplete feature. Widgets Involved: Bootstrap Theme - Search Module - Keyword_Location\n\n- We fixed an issue that was affecting the \"Bootstrap Theme - Display - Recent Members\" Widget. Moving forward, if the $enableMemberPriority variable is set to 'true', it will show the recent members in order of the Search Results Priority set in the Products (Membership Levels). Widgets Involved: Bootstrap Theme - Display - Recent Members\n\n- We made an update so that the URL of reviews that have been deleted, declined, or the status have been set as \"wait for admin approval\" or \"wait for member approval\" will not be included in sitemaps created by the Sitemap Generator.  The URL of these reviews will also return a 404 error.\n\n- The widget that displays Posts like Events, Articles, Blogs, Jobs, Videos, Audio FIles in the Account Member Dashboard is now based on Text Labels. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- The issue that was affecting the display of the Main Menu on some older smartphones and tablets has been resolved. Widgets Involved: Bootstrap Theme - Header - Main Menu\n\n- We added support in member search results for the Advanced Setting search_results_require_complete_profile . Widgets Involved: Search - Member - Search Query\n\n- The Advanced Setting \"Initial Account Status\" is now respected when creating a member manually through the Admin area is now working as expected.\n\n- We fixed a minor UI issue that was affecting the Widget Manager page in the Admin area.\n\n- We improved the way that Text Labels are saved in order to avoid unintended backslashes from being added to the text in some cases.\n\n- We fixed a Location Issue that was impacting the efficacy of the strict_search_results Advanced Setting in Member Search Results for some locations. Widgets Involved: Search - Member - Search Query\n\n- The Multi Listing Addon is now controlled by a new security mechanism. Widgets Involved: Bootstrap Theme - Account - Sidebar\n\n- We added the ability to display the Social media Links in the Header of the Site. Widgets Involved: Bootstrap Theme - Header - Right\n\n- We added a new login widget that can be used on any sidebar module. Widgets Involved: Bootstrap Theme - Sidebar - Member Login Form",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000032873",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032873"
+    }
+  ],
+  "lastmod": "2017-07-21T22:21:43+05:30",
+  "scraped_at": "2026-10-18T13:41:27.371465"
+}

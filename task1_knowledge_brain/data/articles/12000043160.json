@@ -1,0 +1,35 @@
+{
+  "article_id": "12000043160",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043160-stripe-or-paypal-express-standard-",
+  "title": "Stripe or PayPal Express/Standard?",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Stripe or PayPal Express/Standard?"
+  ],
+  "content": "## Stripe or PayPal Express/Standard?\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000043160\n\nRecommended Payment Gateway: Stripe.com Stripe is the recommended payment gateway solution for Brilliant Directories websites. Main Differences PayPal Express/Standard is an off-site payment gateway, while Stripe is an on-site payment gateway. The main differences between these payment gateways are outlined below: Feature Stripe PayPal Express/Standard Payment Experience Members complete payments directly on the website without being redirected to another platform. Members are redirected to PayPal to complete the payment. Recurring Subscription Payments Payments are automatically processed when subscriptions are due. Members may need to log in and complete additional steps when payments are due. Purchasing Leads Members can complete payments directly through the website. Members must leave the website, log in to PayPal, and complete the payment before accessing lead details. Member Experience Provides a faster and more seamless checkout experience. The additional steps may create friction during the payment process. Subscription Payments with PayPal Express/Standard Using PayPal Express/Standard as a payment gateway may result in fewer successful subscription payments due to the additional steps required from members. With PayPal Standard, each time a member's subscription payment is due, the member must log in to the website, access the Billing area, select the PayPal payment option, log in to the PayPal account, and complete the payment through PayPal. If a member wants to purchase a lead, the same process applies. The member must log in to the website, select the lead purchase, continue to PayPal, log in to the PayPal account, and complete the payment before accessing the lead details. Benefits of Using Stripe One of the main advantages Stripe provides over PayPal is that members do not need to leave the website to complete payments. When a member subscribes using Stripe, the credit card is charged automatically whenever the subscription payment is due, without requiring additional action from the member. Stripe Pricing Stripe costs the same as the free version of PayPal. Stripe has no monthly fee and uses the same per-transaction pricing structure as the free version of PayPal. Why Brilliant Directories Recommends Stripe Brilliant Directories is not affiliated with Stripe. However, based on experience with thousands of users who have connected different payment gateways, Stripe has proven to be one of the easiest payment gateways to set up, one of the most reliable options, and the solution that provides the best payment experience for website members. Setting Up Stripe For a complete walkthrough of setting up Stripe as the payment gateway, see the following guide: Setting Up Stripe . Supported Payment Gateways For more information about all currently supported payment gateways, refer to this article: Supported Payment Gateways .",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000043160",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043160"
+    },
+    {
+      "text": "Stripe.com",
+      "url": "https://stripe.com/"
+    },
+    {
+      "text": "Setting Up Stripe",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078856"
+    },
+    {
+      "text": "Supported Payment Gateways",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843"
+    }
+  ],
+  "lastmod": "2026-07-11T05:18:21+05:30",
+  "scraped_at": "2026-10-18T13:42:29.894940"
+}

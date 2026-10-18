@@ -1,0 +1,162 @@
+{
+  "article_id": "12000003538",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003538-managing-and-editing-email-templates",
+  "title": "Managing and Editing Email Templates",
+  "category": "Emails",
+  "folder": "Email Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email Templates",
+    "Managing and Editing Email Templates"
+  ],
+  "content": "## Managing and Editing Email Templates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000003538\n\nEmail templates control the content and structure of system-generated messages sent to members, including notifications, invoices, and account updates. This article explains how to access, edit, and manage these templates within the admin area, along with how customized versions are handled.\n\n\n## Locating the Email Templates Editor\n\n\nThe following steps outline how to locate and edit any email template.\n\nLogin to the Admin area of the site and navigate to Emails - Email Templates.\n\nLocate the email template to edit either by scrolling through the list or by searching for keywords in the email template in the “Filter by Keyword” field:\n\n\n## Email Template Categories\n\n\nFilter the default email templates by Category:\n\n- Billing\n\n- Customer Service\n\n- Lead Emails\n\n- Newsletter Emails\n\n- System Emails\n\n- My Saved Templates\n\nFilter by Category has all the email templates with a total of 78.\n\n\n## Email Template Types\n\n\nThere are 6 categories to select from when sorting by category.\n\n\n### Billing\n\n\nBilling has a total of 8 templates:\n\n\n### Customer Service Templates\n\n\nCustomer Service has a total of 17 templates:\n\n\n### Lead Templates\n\n\nLead Emails have a total of 20 templates:\n\n\n### Newsletter Emails\n\n\nNewsletter Emails have a varying total of templates. This tab will display any email that was created when sending a newsletter.\n\n\n### System Email Templates\n\n\nSystem Emails have a total of 32 templates:\n\n\n### My Saved Templates\n\n\nMy Saved Templates will have a varying total of templates.\n\nThis tab will display any template that has been assigned the \" My Saved Templates \" category.\n\n\n## Customizing a Template\n\n\nOnce the template has been identified, click on the “ Customize ” button for the email template:\n\n\n### Additional Information\n\n\nHere are some articles related to the editors:\n\n» Everything About WYSIWYG Editors\n\n» How to Post Images On WYSIWYG Editors\n\n\n## Edit Customized Template\n\n\nTo edit a template that has already been copied to the website, go to the “Customized Email Templates” section, find the template, and select “ Edit ” from the Actions dropdown.\n\n\n## Preview Template\n\n\nA modal will pop up when viewing the Preview of the template:\n\nPlease note that when cloning an email template to the site, the system automatically adds \" copy-of- \" to the title of the template. This will happen automatically if the name of the default email template is not changed. This is a way to avoid conflicts with duplicate email templates.\n\n\n## Disable a Template\n\n\nTo disable an email template, it must first be customized. Once customized, the template will appear in its own tab in the Email Templates area. Similar to widgets and forms, customized email templates can also be disabled. After customization, a Disable option will appear in the Actions dropdown for that template.\n\nDisabling an email template can be helpful when troubleshooting automated emails or testing custom email configurations.\n\n\n## Inline Style Attributes\n\n\nThe following are the default inline style attributes applied within email Froala editors. These styles help ensure a consistent appearance across the email templates.\n\n'color', 'background-color', 'font-family', 'font-size', 'font-style', 'font-weight', 'letter-spacing', 'line-height', 'text-align', 'text-decoration', 'text-indent', 'text-transform', 'direction', 'vertical-align', 'white-space', 'word-spacing', 'margin', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left', 'padding', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left', 'border', 'border-top', 'border-right', 'border-bottom', 'border-left', 'border-color', 'border-style', 'border-width', 'border-radius', 'display', 'width', 'min-width', 'max-width', 'height', 'min-height', 'max-height', 'background', 'background-image', 'background-repeat', 'background-position', 'table-layout', 'border-collapse', 'border-spacing', 'list-style-type', 'clear', 'float', 'text-shadow', 'opacity', 'word-break'\n\nFor any modifications or the addition of custom styles, please contact us at support@brilliantdirectories.com",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176414111/original/cnzgaT75U5YcTNnlhTZR4kB-YZuwp7mmcg.png?1774316129",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176414334/original/ZDOKso_jtuvPkk67GILV_x8rbLR6IFKwfA.png?1774316981",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176444840/original/22OZyOG0R6w8UQmMpn1-staoQXhbEsv_GQ.png?1774367308",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176444956/original/ProcUSqQYghLEh0bsy-cumAX2SI9l9kMjA.png?1774367437",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176444988/original/FpdstgEmW-Pk9L3Jde8pqsQMkzEuBN0ZeA.png?1774367459",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176445121/original/4TFQiJmQchc5zPb2FZUVRr8jzT8pzvZb2g.png?1774367580",
+      "alt": null,
+      "caption": "Context: System Email Templates",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'. Context: Context: System Email Templates",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176445169/original/Khd4flpclBXXdW0iPEwys_f2hS1HXN_deg.png?1774367649",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176445234/original/zzr-ajNcCGL--RzI4ZnAZlKkhIPDkKWSmQ.png?1774367714",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181565161/original/80IZ0UMWAayz7BnueLsomgp_CUqlhOirVA.png?1783361915",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176445387/original/1nFXCVz1QdgYj_pKcX5vtRfyrRAHq_3r0w.png?1774367862",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176445792/original/YzeSQAePQgWlnGdqR7gTvSgBMxksRh6wEA.png?1774368189",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176445848/original/uPK392roviyU-qlLMrYBHACBp9OpKA_7vQ.png?1774368233",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166103399/original/chxv__ZC3ofL2dY9ll6kJsl9wx23XVHwNw.png?1755625754",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176446482/original/M7KKGS4AVN-3EYis3kga4O3keU1TszGeFA.png?1774368658",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing and Editing Email Templates' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000003538",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003538"
+    },
+    {
+      "text": "» Everything About WYSIWYG Editors",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000050711-everything-about-wysiwyg-editors"
+    },
+    {
+      "text": "» How to Post Images On WYSIWYG Editors",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000050864-how-to-post-images-on-wysiwyg-editors"
+    },
+    {
+      "text": "support@brilliantdirectories.com",
+      "url": "mailto:support@brilliantdirectories.com"
+    }
+  ],
+  "lastmod": "2026-07-06T23:54:41+05:30",
+  "scraped_at": "2026-10-18T13:39:45.536041"
+}

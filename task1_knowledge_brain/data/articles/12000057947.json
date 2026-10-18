@@ -1,0 +1,131 @@
+{
+  "article_id": "12000057947",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057947-workaround-members-selecting-multiple-top-level-categories",
+  "title": "Workaround: Members Selecting Multiple Top Level Categories",
+  "category": "My Members",
+  "folder": "Member Categories",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Member Categories",
+    "Workaround: Members Selecting Multiple Top Level Categories"
+  ],
+  "content": "## Workaround: Members Selecting Multiple Top Level Categories\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000057947\n\nThe way that the software is designed, all members can only select one Top Level Category. There is a workaround however that will allow members to select Multiple Top Level Categories.\n\nThe site owner will need to create a General Top-level category that captures all of the members, then have the rest of the categories as sub and sub-subcategories.\n\n\n## Step 1 - Add Categories to CSV File\n\n\nEdit the CSV file that has been used to upload the Category Structure and add a new column or create a new CSV. file for this process.\n\nWith this workaround, here’s the updated file structure:\n\n- The old Top Level Categories now function as Sub-Categories .\n\n- The old Sub-Categories now function as Sub-Sub-Categories .\n\nWe’re using “ Hidden Top Category ” as an example name, but you should replace it with something that fits your site. This label will appear on the front end in links, so choose a name that makes sense for your visitors.\n\nNow proceed to re-upload the new category structure using the CSV file. To access this file, feel free to click on this link: http://managemydirectory.com/admin/member-category-structure-import-sample.csv or use the option that can be found on the screen after clicking on the Import Categories in the backend of the site. (see image below)\n\nCRITICAL DATABASE IMPACT: Selecting the option to delete existing categories will permanently erase all current category assignments across every active profile. Existing members will be forced to manually re-select their categories. This workaround is recommended for brand-new directory setups containing zero or few members.\n\n\n## Step 2 - Pre-Select the Top Level Category\n\n\n1. Finance » Membership Plans » Edit:\n\n2. Once inside the \"Edit\" screen search for the setting inside the General tab » Pre-Select Top Category :\n\n\n## Step 3 - Hide the Hidden Top-Level Category\n\n\nTo get started, complete the following steps:\n\n1. Navigate to Toolbox » Form Manager. Locate and edit the specific contact form utilized by the target membership plan (e.g., Listing - Contact Details)\n\n2. Locate the profession_id field row. Click the Gear Icon to open field settings and disable the Input View toggle to hide the single selection element from the member dashboard.\n\n3. Save the form changes.\n\n\n### Member Form: Category Workaround\n\n\nLogging in as a member, it is now possible to select more than one Category and Sub Category from the Listing Details Tab:\n\n\n### Homepage Search Module\n\n\nNavigate to Settings » Design Settings . Under the Search Box / Call to Action setting, select a call to action option that does not include a Top-Level filter.\n\n\n### Final Front-End Polish\n\n\nTo ensure the placeholder \"Hidden Top Category\" label does not visibly display on live member profiles, complete the final visibility steps outlined in the dedicated guide:\n\n- How To Hide Top-Level Category From Member's Profile Page",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12051675334/original/Nc8M4uj0hdFqPfH3fdZh-b6sU-Eg_6D-AQ.png?1559677714",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12051675464/original/8kUhlW1ykDsgLIjHJmgvnPu9NTQ0sqrNaA.png?1559677858",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171314343/original/omCde-fiRUf5d7EUaydXea7TAiO9vYxhiA.png?1764630308",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171314346/original/qc8s6HPljwukyZZY98b3mvBzhOs1BDUuAQ.png?1764630326",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171314500/original/PKNgfY1t4RQpqFuNkExeW79jjH8_B8Y4Iw.png?1764630539",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171314553/original/y6ZqLAHgGs5L8qVzB6A1eDu0uGfuClY4cQ.png?1764630583",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171314805/original/KlloYD9BQZOdUPXLoNcztXhcDogoNN9tOA.png?1764630968",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180120677/original/EfWNJHTAmpDvKDFjnzDwYHhbnCIK8pEq_g.png?1781010527",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12078322964/original/feo8TSDPurXrM4gaqd3Lo5FR2Y9pVA3m6g.png?1591635400",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171314617/original/8LK1FajpZW6cKfYxAZ20PhWJrdNt6pyYuQ.png?1764630679",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171314779/original/nGjA8nFbTdongp_aeCJus9fkFFbR63KVyw.png?1764630846",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Members Selecting Multiple Top Level Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000057947",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057947"
+    },
+    {
+      "text": "http://managemydirectory.com/admin/member-category-structure-import-sample.csv",
+      "url": "http://managemydirectory.com/admin/member-category-structure-import-sample.csv"
+    },
+    {
+      "text": "How To Hide Top-Level Category From Member's Profile Page",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084651"
+    }
+  ],
+  "lastmod": "2026-06-09T18:42:57+05:30",
+  "scraped_at": "2026-10-18T13:45:00.335351"
+}

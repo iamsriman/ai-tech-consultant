@@ -1,0 +1,132 @@
+{
+  "article_id": "12000021796",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021796-how-to-edit-member-dashboard-forms-add-custom-fields",
+  "title": "How To Edit Member Dashboard Forms & Add Custom Fields",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How To Edit Member Dashboard Forms & Add Custom Fields"
+  ],
+  "content": "## How To Edit Member Dashboard Forms & Add Custom Fields\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000021796\n\nThis article explains how to identify and edit the forms members fill out inside their member dashboard.\n\nThese forms can be customized by editing existing fields, deleting fields, or adding new custom fields where supported.\n\n\n## Identify the Form Being Used\n\n\nBefore editing a form, first confirm which form is assigned to the membership plan.\n\nGo to:\n\n- Finance\n\n- Membership Plans\n\n- Select the membership plan to edit\n\nOpen the Member Dashboard tab.\n\nThis section shows the member dashboard forms enabled for that membership plan.\n\nClick Edit Form for the form that needs to be updated. From there, form fields can be added, removed, or edited.\n\n\n### Important Notes\n\n\n- New custom fields can be added to the Contact Details and Listing Details forms.\n\n- Existing form fields can be edited or deleted.\n\n- New fields can technically be added to the About form, but saved information from those fields will not display on the member profile.\n\n- It is best to finalize form fields before launching the website and before members begin saving profile information.\n\n\n## Edit an Existing Form Field\n\n\nIn this example, an existing field is edited in the Listing - Contact Details - Member Form .\n\nGo to:\n\n- Toolbox\n\n- Form Manager\n\n- Click Customize for the form, or Edit if the form has already been customized\n\nFind the field that needs to be updated, make the changes, and click Save Changes .\n\nIn this example, the Company Name field was changed to Business Name .\n\nAfter the member saves the updated field in the dashboard, the updated label will display on the member profile.\n\n\n## Delete an Existing Form Field\n\n\nTo delete a field, open the form in the Form Manager and find the field that needs to be removed.\n\nClick Delete Field from the Actions dropdown.\n\nImportant: If a member already saved information in a deleted field, that saved data may still appear on the member profile because it remains stored in the database.\n\nFor this reason, it is best to finalize form fields before launching the website or before members begin adding profile information.\n\n\n## Add a New Form Field\n\n\nIn this example, a new field is added to the Listing - Additional Details - Member Form .\n\nGo to:\n\n- Toolbox\n\n- Form Manager\n\n- Click Customize for the form, or Edit if the form has already been customized\n\nClick Add Field . Enter the field details, including the Field Label and Database Variable .\n\nSelect the field type and enable Display View if the field should display on the member profile.\n\nOnce saved, the new field will display in the member dashboard form.\n\nAfter the member saves information in the new field, the field will display on the member profile if Display View is enabled.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091285359/original/pGw8IMBNpwDdx9vmYGj1ZEB_W_BHa3zvBA.png?1618331242",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127606905/original/jMQbVt3j9IOZ7OkuS3PEiIv8KbBBkvPegg.png?1687981563",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127606988/original/elQ-LMuoUhe4RD4G4qgAXf6FHIE0U0erzw.png?1687981642",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127607051/original/EO1RdCHLk8_ucDQTmsUrjNLJ5JIkyF7ipQ.png?1687981743",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127607265/original/bYgtOQdbmv7NxI_V2PjHu7U3GkFMxcsyJw.png?1687981960",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091286143/original/Z4DPY5SlEqYflYvjUgRDrAId2aOJgQyaxw.png?1618332401",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091286189/original/8SRKEYCGiFuN7ajlEHO2QmagSoHt_NKMkg.png?1618332483",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127607300/original/467tpwEWHTUXOHmdZFpQ1AzAzYgcddWgHg.png?1687982015",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127607349/original/y6uKxKeJkPmOxE5KVSL7923xyXUoNnWtdQ.png?1687982084",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107066179/original/OQ2YM8LUjdvcsDNb8jf676xGkAcQDD3uvg.png?1648745406",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091286831/original/NbdsqVXeOVQOSeYLwZi6SvGKCCAXR4eWVA.png?1618333367",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091286863/original/Jm2Kppj3MVRhXZiYgP6bOzqbNO9hsaLyDQ.png?1618333443",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Member Dashboard Forms & Add Custom Fields' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000021796",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021796"
+    }
+  ],
+  "lastmod": "2026-05-26T08:20:05+05:30",
+  "scraped_at": "2026-10-18T13:40:48.575251"
+}

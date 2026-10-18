@@ -1,0 +1,78 @@
+{
+  "article_id": "12000081625",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081625-account-dashboard-activate-site",
+  "title": "Account Dashboard: Activate Site",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Account Dashboard: Activate Site"
+  ],
+  "content": "## Account Dashboard: Activate Site\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000081625\n\nWhen logged into the Account Dashboard, all licenses that have been purchased but are not yet activated, will display on the Ready to Activate tab.\n\n- Inactive / Archived Sites Section – Displays websites that are not currently active and require activation or restoration.\n\n- Site ID Badge – Displays the unique Site ID assigned to the website.\n\n- Status Label – Displays the current site status (e.g., Archived) along with the archive date when applicable.\n\n- Website Name – Displays the internal website name.\n\n- Website URL – Displays the primary domain associated with the website (if available).\n\n- Plan Label – Displays the associated subscription plan (e.g., Lifetime Plan).\n\n- Add-Ons Indicators – Displays active add-ons associated with the website (e.g., VIP Add-Ons Club, Instant Business Records).\n\n- Creation Date – Displays the original website creation date when available.\n\n\n### Activate Site Section\n\n\n- Activate Site Button – Initiates the site activation process for websites eligible for activation (e.g., Lifetime Plan sites).\n\n- Activation Process – Re-enables the website and makes it accessible under the associated plan configuration.\n\n\n### Restore Site Section\n\n\n- Restore Button (Dropdown) – Initiates the restoration process for archived websites.\n\n- Restore Process – Reinstates the archived website to active status, preserving previous configuration and associated data where applicable.\n\nThere are two reasons an account will have Websites to Activate . The first reason is it's a brand new, recently purchase license that has not yet been activated.\n\nThe second reason is a previously-active website has been converted into a credit because it has not been actively used for a long time, or the license owner requested it be converted to a credit.\n\n\n## Activate Site\n\n\nCredits related to a license that has never been used for an active website will not have a backup of a previous website associated with it.  In these cases, the purple button will have a single option: \"Activate Site\":\n\n*Clicking on this button will launch a new website.\n\n\n## Credits Related to a Previously Active Website\n\n\nWhen a previously active website is converted to a credit, a full backup of the site is made first, and will be available for up to one year from the date it was converted to a credit.\n\nIf a credit is related to one of these websites, the green button will be a dropdown with the following options:\n\n\n### Restore Website from Backup\n\n\nChoosing this option will re-launch the website exactly as it was before it was converted to a credit.\n\n\n### Launch New Site\n\n\nChoosing this option will delete the backup of the previous website and launch a brand new website. Select this option if the previous site is no longer needed and a brand new website should be launched instead.\n\n\n### Upgrade Existing Site\n\n\nThis will use any back up saved on file.\n\n\n### Launch New Website\n\n\nSelect from any of the available themes (optional).\n\n\n### Contact Support\n\n\nChoosing this option will allow the site owner to submit a support ticket for additional assistance.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175413416/original/Atos1H1LLVJ17_fWHmGp6k7f_tyTtYHBHg.png?1772508138",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard: Activate Site' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175412896/original/f_MF5SQw92ziSnMjyf9ukFbm-SD1artgBQ.png?1772507147",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard: Activate Site' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175413381/original/WUVeyMAXsjej2gKyxeVdLzrj3PpGbke3IQ.png?1772508110",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard: Activate Site' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175413424/original/LpGaVyll8ZjsHSDl6uqmMI6PmvI7N9ZQ5g.png?1772508219",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard: Activate Site' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175413517/original/iUFJHZFtM12_q_5JkX5BPQieuSU69H4WAQ.png?1772508279",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard: Activate Site' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175413690/original/7o-RYP1cy5NfXPhEZ6Pi9W2oXPj5-aHZvQ.png?1772509016",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard: Activate Site' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000081625",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081625"
+    }
+  ],
+  "lastmod": "2026-03-03T09:07:39+05:30",
+  "scraped_at": "2026-10-18T13:48:51.823370"
+}

@@ -1,0 +1,87 @@
+{
+  "article_id": "12000065703",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065703-how-to-add-expire-end-dates-to-multi-photo-posts-such-as-classifieds-properties-photo-albums-prod",
+  "title": "How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products"
+  ],
+  "content": "## How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065703\n\nThis article explains how to add end or expiration dates to multi-photo post types. This applies to Photo Albums , Products , Classifieds , and Properties .\n\nThere are two methods:\n\n- Option 1 – Hidden Field method (admin-controlled). An admin adds a Hidden Field to the multi-photo post's custom form and defines the number of days until the post expires. Once that number of days has passed after the post is created, the post is automatically marked as expired and no longer appears in site search results. Members cannot view, edit, or modify this expiration date.\n\n- Option 2 – Member-selected end date. An admin adds a Custom HTML Field to the multi-photo post's custom form. Members can then select and manage the desired expiration date for their own post.\n\n\n## Option 1: Hidden Field Method\n\n\nNavigate to Toolbox >> Form Manager , then customize one of the following forms:\n\n- Feature - Classifieds\n\n- Feature - Properties\n\n- Feature - Photos\n\n- Feature - Products\n\nFor this example, the Classifieds form is used.\n\nClick one of the Add Field buttons.\n\nThis generates a blank field.\n\nFill in the fields as shown below, then click Save Changes .\n\n- Field Type Select: Hidden Field\n\n- Field Label Name Enter the number of days until the post expires. In this example, 7 represents seven days from the publish date.\n\n- Database Variable group_date_interval\n\nWhen a member copies a post with the Copy button in the member's post list, the copy gets its own expiration date, counted from the day the copy is made. Editing an existing post keeps its current expiration date.\n\n\n## Option 2: Allowing Members to Specify an End Date\n\n\nNavigate to Toolbox >> Form Manager , then customize one of the following forms:\n\n- Feature - Classifieds\n\n- Feature - Properties\n\n- Feature - Photos\n\n- Feature - Products\n\nFor this example, the Photos form is used.\n\nClick one of the Add Field buttons.\n\nThis generates a blank field.\n\nFill in the fields as shown below, then click Save Changes .\n\n- Field Type Custom HTML\n\n- Field Label Name [widget=Bootstrap Theme - End DateTime Picker - Group]\n\n- Database Variable group_date_calendar\n\nThe field appears when creating a new Photo Album post.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236410/original/DWk9QSixfYlzYYRdwbs35dkeEcbAGKFtYg.png?1781143389",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236416/original/PM0padEYXx_I_C38nqX2K_nnJ_zRNT9e-g.png?1781143429",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236441/original/LNaeK6PcmqWopF2B0_GY95xC5DzTWK9LEQ.png?1781143560",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236585/original/5nCaLgVYg7cAefulHETb3O672-TMW7pd8g.png?1781143915",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236588/original/hnK0Q6vBKD1WBrPADgG1uVGWCeJh_NElIQ.png?1781143938",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236624/original/AxIqR1Hnvv-54oJBQoPd3OkKkXi3_mou3Q.png?1781144058",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236700/original/QWtEKULuOx9rmbPAIAjruMiuSNVWH7TE8A.png?1781144146",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Multi-Photo Posts such as Classifieds, Properties, Photo Albums & Products' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065703",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065703"
+    }
+  ],
+  "lastmod": "2026-09-29T22:43:48+05:30",
+  "scraped_at": "2026-10-18T13:45:49.392830"
+}

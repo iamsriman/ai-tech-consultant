@@ -1,0 +1,62 @@
+{
+  "article_id": "12000109947",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947-account-dashboard-login-settings",
+  "title": "Account Dashboard » Login Settings",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Account Dashboard » Login Settings"
+  ],
+  "content": "## Account Dashboard » Login Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109947\n\nThe Login Settings page in the Account Dashboard controls how the signed-in admin account signs in: two-factor authentication, the available sign-in methods, and the ManageMyDirectory.com mobile app for notifications on a phone.\n\n\n## Before Starting\n\n\n- Sign in to the Account Dashboard .\n\n- Turning on two-factor authentication requires access to the inbox of the account's sign-in email, since the one-time codes are sent there.\n\n\n## How to Open Login Settings\n\n\n- In the Account Dashboard, click the admin name at the top right.\n\n- Select Login Settings .\n\nLogin Settings is also listed in the Account menu on the left of every account page.\n\n\n## Login Settings Sections\n\n\n- Two-Factor Authentication – Shows whether two-factor sign-in is On or Off . With two-factor on, a one-time code is emailed to the sign-in email whenever the account signs in from a new device, so a password alone is not enough to sign in.\n\n- Sign-in Methods – Lists the ways this account can sign in. Email and password shows the sign-in email and an Active badge. Google and Apple are marked Coming soon and are not available yet.\n\n- Get Notifications on Your App – The App Store and Google Play buttons open the ManageMyDirectory.com mobile app. After the app is installed and signed in once, the devices that are signed in and receiving notifications are listed here with the time each was last seen. Notification Settings opens the page that controls which notifications are sent.\n\n\n## Turn On Two-Factor Authentication\n\n\n- In the Two-Factor Authentication section, click Turn on two-factor . A one-time code is emailed to the account's sign-in email right away.\n\n- Under Enter your code , type the code from the email.\n\n- Click Verify & turn on .\n\nIf the email does not arrive, click Resend code . The code expires shortly, so use the most recent one.\n\nWhen the code is accepted, the confirmation Two-factor is on appears and the section shows the On badge. From then on, signing in from a new device asks for a one-time code sent by email. For more about how two-factor sign-in works, see Enhancing Security with Two-Factor Authentication (2FA) .\n\n\n## Related Articles\n\n\n- Account Dashboard » Update Profile\n\n- Account Dashboard » Change Password\n\n- Account Dashboard » Notification Settings",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185979019/original/c-LNWaAHENeGAGxsdr0KL5Eypetmyujvow.png?1790709151",
+      "alt": "Account Dashboard admin menu with Login Settings highlighted",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Account Dashboard » Login Settings' (Dashboard Overview > Dashboard Links & Modules): Account Dashboard admin menu with Login Settings highlighted",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185979024/original/18HGyvmwuXkwMAkcqSh6Z9sYfJk3KzUnpQ.png?1790709159",
+      "alt": "Login Settings page with its three sections numbered",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Account Dashboard » Login Settings' (Dashboard Overview > Dashboard Links & Modules): Login Settings page with its three sections numbered",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947"
+    },
+    {
+      "text": "Account Dashboard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476"
+    },
+    {
+      "text": "Enhancing Security with Two-Factor Authentication (2FA)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100753"
+    },
+    {
+      "text": "Account Dashboard » Update Profile",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109946"
+    },
+    {
+      "text": "Account Dashboard » Change Password",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109949"
+    },
+    {
+      "text": "Account Dashboard » Notification Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107265"
+    }
+  ],
+  "lastmod": "2026-09-30T00:51:36+05:30",
+  "scraped_at": "2026-10-18T14:00:13.439328"
+}

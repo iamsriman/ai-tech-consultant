@@ -1,0 +1,113 @@
+{
+  "article_id": "12000047120",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047120-content-web-page-builder",
+  "title": "Content » Web Page Builder",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Content » Web Page Builder"
+  ],
+  "content": "## Content » Web Page Builder\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000047120\n\nA Static Page is a page that does not have any dynamic content. The website only comes with a few default static pages since the majority of the web pages are Dynamic Pages (search result pages, profile pages, and post content).\n\nSome of the most common default Static Pages include:\n\n- Homepage - Can only be one Homepage\n\n- Login Page\n\n- Pricing Page\n\n- How It Works\n\n- Contact Us Page\n\n- Privacy Policy\n\n- Terms of Use\n\n- Search By Location\n\n- Search By Category\n\n- Get Matched\n\n- Password Retrieval\n\nIt is possible to locate the existing Static Pages by going to Content > Web Page Builder:\n\n\n## Edit Existing Pages\n\n\nTo edit the pages, click the Edit button.\n\n\n## Edit the Homepage\n\n\nThe Homepage cannot be edited through the WebPage Builder; instead, it has a specific section in the Design Settings where it can be managed. To learn how to edit the Homepage, refer to this article:\n\nHomepage » Front & Back End Overview\n\n\n## Actions Dropdown\n\n\nTo view, clone, or delete an existing static page, hover over Actions and select accordingly:\n\n\n### View Page\n\n\nRedirects the admin to the page on the front end. It shows how members and visitors see the page.\n\n\n### Clone Page\n\n\nThis action will clone the page exactly how it is. The admin will be required to change the Permalink since two pages cannot have the same one.\n\n\n### Delete\n\n\nClick here to permanently delete the page, it cannot be recovered unless a backup is done to the site.\n\n\n## Keyword Search\n\n\nUse the search field to search all web pages by keyword.\n\n\n## Sort Options\n\n\nThe Web Page Builder comes with a set of sort options to arrange the pages according to the selected filter.\n\nSort by:\n\n- Page ID Low - High\n\n- Page ID High - Low\n\n- Name A - Z\n\n- Name Z - A\n\n- Last Update - Ascending\n\n- Last Update - Descending\n\n- URL A - Z\n\n- URL Z -A\n\n\n## Filter by Access\n\n\nThe Web Page Builder comes with a set of filter by Access options to arrange the pages according to the selected filter.\n\nFilter by Access:\n\n- Any Access Level\n\n- Public For Everyone\n\n- Only Allow Members\n\n- Digital Products Buyers\n\n\n## Filter by Type\n\n\nThe Web Page Builder comes with a set of filter by Type options to arrange the pages according to the selected filter.\n\nFilter by Type:\n\n- Any Page Type\n\n- Home Page\n\n- Single Web Page\n\n- Post Search Results\n\n- Member Search Results\n\n- Custom Widget as Web Page\n\n- Password Retrieval Page\n\n- Unsubscribed Page\n\n\n## Create a New Web Page\n\n\nTo learn how to create a new Static Page, click the link below:\n\nHow to Create a New Static Page\n\n\n## Hide Web Pages\n\n\nTo hide a web page, change the URL to something only the site administrator would know to visit:\n\n- /join_DRAFT\n\nThis essentially marks the page as \" unpublished \" from the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169316966/original/AkGWMiQ2hvexgxGX3-CGionifyd-ijQ5MA.png?1761061681",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169317447/original/y2FEHJLiQLq6-KbiK1P2xad-pkA1B4M4bg.png?1761062076",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169317488/original/T5znnb1DAIj8Z5gMuibYmlU1amH65HrsJg.png?1761062122",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169317711/original/Hi_CAoLm7Bx0krpGUxkVjL_v3PzzuqvS7g.png?1761062322",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169317859/original/aszZswirJKeYFpocJjEj9dG7yIQ1VXdt9g.png?1761062457",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169318834/original/t8K70QhLguJ6jiwjP0o5IyHrpBSNNu14PQ.png?1761063209",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169318844/original/65x7-htsw0IS1yWbR7BPYj9j19wK9VI9jQ.png?1761063226",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169317570/original/48n7cjOmGee56d6F13VSLmv15wHB80y0Ig.png?1761062200",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169319438/original/J7QAzISXdZCaovPFNvqT4iPfQPD2KAoYog.png?1761063627",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000047120",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047120"
+    },
+    {
+      "text": "Homepage » Front & Back End Overview",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000069761"
+    },
+    {
+      "text": "How to Create a New Static Page",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/12000047125"
+    }
+  ],
+  "lastmod": "2026-06-10T22:42:15+05:30",
+  "scraped_at": "2026-10-18T13:43:14.646781"
+}

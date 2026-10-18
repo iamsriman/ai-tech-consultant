@@ -1,0 +1,195 @@
+{
+  "article_id": "12000026216",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000026216-how-to-use-and-or-modify-the-member-upload-cv-or-brochure-field-file-upload-field-",
+  "title": "How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)"
+  ],
+  "content": "## How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000026216\n\nThe Member Upload CV or Brochure field is a tool for members to upload files. The uploaded file is displayed through a link on the Member's public profile.\n\nThe files supported by the member upload tool are:\n\n- Images (JPG, JPEG, PNG, GIF, SVG, WEBP)\n\n- PDFs\n\n- Word documents\n\n- Excel documents\n\n- PowerPoint documents\n\nIMPORTANT - The tool only supports:\n\n- Files that are 10 MB or less.\n\n- By default, this field is only supported in the \"Listing - Additional Details - Member\" form. To add it to other forms, the File Uploads for Forms add-on is required.\n\nNote: although the upload button reads \"Please select an image or PDF file,\" all of the file types listed above are accepted. This button text is a label and can be changed (see \"How to Edit the Current Text of These Fields\" below).\n\n\n## How to Upload a File\n\n\nGo to the Member's Listing Details tab and click on \"Please select an image or PDF file\":\n\nAfter the file is uploaded, a \"1\" appears next to the button text, indicating that a file has been attached. Scroll down and save the changes:\n\n\n## How to Remove a File\n\n\nThe file uploaded can be deleted by clicking on the Remove CV option:\n\nWhich will prompt a confirmation alert:\n\n\n## How to Enable/Disable This Field on the Member's Public Profile\n\n\nNavigate to Toolbox >> Form Manager >> Listing - Additional Details - Member :\n\nFind the correct field by searching for \" cv \", click on the gear icon and make sure to enable Display View, and click Save Changes :\n\nIf display is set to Off, it will not display on the member's profile.\n\nThis is how the field will display on their public profile:\n\n\n## How to Add Additional CV/File Upload Fields to the Form\n\n\nOn the form specified above (Listing - Additional Details - Member), click on any of the \" Add Field \" buttons:\n\nThis will generate a blank field:\n\nWithin the \"Field Type\" drop-down select, F ile Upload Field :\n\nAdd a Label Name and a System Variable (the form will automatically fill in the variable, however, it is possible to add in a custom one):\n\nNext, click on the \" Gear Icon \":\n\nAdd the following details:\n\n- Additional Field CSS Class — filestyle_uploadcv\n\n- Outer Element ID — This ID must be unique for each CV field. Do not use upload_field , because that is the ID of the default field. Adding a number after the default ID works well, for example: upload_field2\n\nThis is how it displays after saving changes:\n\n\n## How to Edit the Current Text of These Fields\n\n\nTo accomplish this, navigate to Settings >> Text Labels.\n\nType in the search bar the current wording of the text field. Add the new text to display and save the changes.\n\n\"Upload CV or Brochure\" and \"Please select an image or PDF file\":\n\n>> member_listing_upload_cv\n\n>> filestyle_choose_cv_file\n\n\"View my Curriculum Vitae\"\n\n>> view_my_cv\n\n\"Remove CV\"\n\n>> remove_my_cv\n\n**Important Note** - The Upload CV functionality is only supported in the Listing Additional Details form. Moving this form field to other forms will cause this functionality to stop working properly.\n\n\n## Additional Functionality\n\n\nThe file path for this document can be edited through the Advanced Settings.\n\nFiles uploaded through \"File Upload\" Form Fields are saved in the folder /uploads/curriculum-vitae/ by default. Edit the second portion of this URL ( curriculum-vitae ) for future file uploads using this setting.\n\nSystem Variable: default_cv_url",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236904/original/k99h6jMMDCLWkvwq_HXSbfzXZ09SkdzU9w.png?1781144706",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236937/original/ojJ_DGJLBLbQ71LiWrYsl06afPqa9x0MCw.png?1781144804",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236976/original/-0P_kdDSlrZkOn_amHJPNHcjdmaXyNAD6Q.png?1781144942",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236980/original/AEIhvTKm2YeQnw1yqeEnRBXNfpyrWwUiUg.png?1781144991",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237020/original/469jN3I78o5ZaqFfgPDf1-UjANjWQRfY0g.png?1781145240",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237392/original/YKUxLVaPV2x63-7YiffR6_4Sb3k4cd88RA.png?1781146516",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237396/original/65CGtSzFsMRvIGrhQ-2VW9bASUoxtoVHPQ.png?1781146585",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237400/original/8eknFGZHzXMvzYubGd-rC7hAfOVGNGCPpA.png?1781146657",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237403/original/grHzDHa6g_U75GboLSHEIMI5l-g0oXx33w.png?1781146704",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237406/original/lx4UHb-fqFN5MQKgk3WUNMXZ2MWXIsv6Lw.png?1781146738",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237418/original/3HEhgR1iJaBX5zch1T6WaflbW6GHZbdcVg.png?1781146822",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237463/original/2y5HaEfIqwZR3UlFMBrkX--GycknNflVfg.png?1781146917",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237476/original/rX4Sy3DNi58TnRppzO3yjam7QM4gxOnm6w.png?1781147019",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080277929/original/pL45bHt5MIyggZoOhAf5fVrz2kITyhjBKA.png?1595453897",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109576413/original/O25c0cPocTEi-uwFK1jtyE3fOwBwGSJy_w.png?1653685627",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109576431/original/Bikxn5tLwjE4yjoRiFw_7HnrSMXnR6j9qg.png?1653685669",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109576457/original/ACR2JpAeEVKPpBZgFu1RP7onf9ZzYQARCg.png?1653685739",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109576492/original/J8C5sS_z7iHHk2OQFEX28A0zerY8FusrIA.png?1653685776",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237519/original/mkAMfYTNBvWuKwoY2Rzyr6TNpZ48PyxCmQ.png?1781147141",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use and or Modify the Member Upload CV or Brochure Field (File Upload Field)' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000026216",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000026216"
+    }
+  ],
+  "lastmod": "2026-06-11T08:35:45+05:30",
+  "scraped_at": "2026-10-18T13:40:57.238037"
+}

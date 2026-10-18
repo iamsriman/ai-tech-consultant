@@ -1,0 +1,73 @@
+{
+  "article_id": "12000109760",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760-settings-domain-manager-mailboxes-and-email-routing",
+  "title": "Settings » Domain Manager » Mailboxes and Email Routing",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Settings » Domain Manager » Mailboxes and Email Routing"
+  ],
+  "content": "## Settings » Domain Manager » Mailboxes and Email Routing\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109760\n\nThe Mailboxes tab in Settings > Domain Manager identifies where incoming email is delivered and provides the available mailbox controls. It is separate from the outgoing sender-authentication checks in Emails .\n\n\n## Before starting\n\n\nUse a custom domain and confirm which provider should receive its email. The visible actions depend on the domain's DNS connection and whether local mailboxes are supported. Moving mail to another provider requires that provider's account, mailbox setup, and exact records. Back up messages before removing mailboxes or changing a mail-hosting arrangement.\n\n\n## Check the current mail provider\n\n\n- Open Settings > Domain Manager > Mailboxes .\n\n- Read Who handles your email .\n\n- Review the provider and routing result before changing any mailbox.\n\nMX records decide where new incoming mail goes. A locally listed mailbox does not prove that the domain currently delivers new mail to it. If the domain uses Google, Microsoft, Cloudflare Email Routing, or another provider, manage the active inboxes at that provider unless a deliberate migration is being performed.\n\nThe example uses selfautomated.com with Brilliant Directories-hosted mail throughout. Who handles your email (1) reports where new mail for the domain is delivered.\n\n\n## Add and manage a local mailbox\n\n\n- Find Mailboxes .\n\n- Click Add a mailbox when offered.\n\n- Enter the requested mailbox details and password.\n\n- Set the storage limit.\n\n- Save the mailbox.\n\n- Click Refresh and confirm it appears.\n\nEach mailbox displays space used and its limit, with Open webmail , Set up , and More buttons. Open webmail is described under Open a mailbox in webmail . Set up shows the connection settings and can email them with Email these instructions to . More holds Change the password , Change the storage limit , and Delete this mailbox . A limit of 0 means no individual mailbox limit; the website's hosting capacity still applies.\n\nUse Set up for the exact connection settings for Outlook, Apple Mail, or a phone. Confirm the recipient before sending setup instructions.\n\nSet up (1) expands the connection settings (2) for the existing matt@selfautomated.com mailbox. It displays the exact connection settings without exposing the password.\n\nDeleting a mailbox also deletes its stored messages. Deletion requires confirmation of the full email address and cannot be undone from Domain Manager. Preserve any messages that must be kept first.\n\n\n## Open a mailbox in webmail\n\n\nOpen webmail opens the mailbox's inbox in a new browser window, already signed in, without the mailbox password. It works the same way as Check Email in cPanel.\n\n- Find the mailbox under Mailboxes .\n\n- Click Open webmail .\n\n- Read and send mail in the new window.\n\nA mailbox row: the Catch-all label (1) marks the mailbox that receives mail sent to addresses that do not exist, and Open webmail (2) opens its inbox signed in.\n\n- Signing in without the password is available to administrators whose role can open the website's cPanel. For other administrators, Open webmail opens the ordinary webmail sign-in page, which asks for the mailbox password.\n\n- If the browser blocks the new window, a message asks to allow pop-ups for the page; allow them and click Open webmail again.\n\n- If the mail server cannot sign in to the mailbox, the new window shows the webmail sign-in page instead, and a message explains that the mailbox password is needed there.\n\n- Each signed-in opening is recorded in the website's notifications as Webmail opened for the mailbox. The sign-in itself is never placed in a link or the browser address.\n\nA mailbox marked Catch-all receives email sent to addresses at the domain that do not exist; see Handle unrouted email . When that mail is kept in the account's own mailbox, that mailbox is listed too, as The account's own mailbox with the Catch-all label. It has no address at the domain and no usage figures ( Not reported ). For administrators whose role can open cPanel it offers only Open webmail , because webmail is the only way to read that mail; for other administrators it has no buttons.\n\n\n## Set the website's sending address\n\n\nEmail from your website controls the domain-based sending address offered by this panel. Use an address that is monitored and can receive replies, then recheck the outgoing authentication in Emails . This card appears when the domain has mailboxes on Brilliant Directories servers; otherwise, set the sending address under Emails with Your \"from\" address .\n\nAlso check Emails > Your mailboxes' signature (DKIM) . Its Fix it action provides the signature record for mail sent from hosted mailboxes; this is separate from the website’s sender-authentication setup.\n\n\n## Handle unrouted email\n\n\nSend all unrouted email for the following domain controls messages addressed to names without an existing mailbox. Choose one of three options, then click Save :\n\n- Bounce it back rejects these messages. This is the safer choice, because a sender who mistypes an address finds out.\n\n- Keep in the catch-all mailbox holds them in the account's own mailbox, which is then listed under Mailboxes with Open webmail .\n\n- Send it to delivers them to the address entered below it. When that address is one of the domain's own mailboxes, it is marked Catch-all in the mailbox list.\n\nWhen mail is currently kept in the account's own mailbox, the card says so ( Right now it is kept in the catch-all mailbox , followed by its name). If no option is selected, Save asks for a choice instead of saving. Confirm the destination before saving so mail is not collected in an unintended inbox.\n\nSend all unrouted email offers Bounce it back, Keep in the catch-all mailbox, and Send it to (1); the note below explains each choice (2). Here, mail to addresses that do not exist goes to matt@selfautomated.com.\n\n\n## Change the incoming email provider\n\n\n- Prepare the destination provider's account and mailboxes.\n\n- Open the DNS tab and keep a copy of the domain's current MX, SPF (TXT), and autodiscover records.\n\n- Open Change your email provider .\n\n- Click Change .\n\n- Select Our mail servers , Google Workspace , Microsoft 365 , or Somewhere else .\n\n- Enter or review the required provider values.\n\n- Click Point my email here .\n\n- Read the confirmation before approving the MX change.\n\n- Refresh the provider result.\n\n- Open the DNS tab and confirm the result: only the new provider's MX records remain, and the SPF and autodiscover records are still present. Remove any MX record left from the previous provider, and restore any missing record from the copy.\n\n- Test incoming email at the destination.\n\nCheck the DNS records after every provider change. The automated change can leave an MX record from the previous provider in place or remove the domain's SPF or autodiscover record. A leftover MX record can keep sending some incoming mail to the old provider, and a missing SPF record can send the website's email to spam. Compare the records with the copy taken before the change.\n\nAfter Change is clicked, Change your email provider offers four choices (1): Our mail servers , Google Workspace , Microsoft 365 , and Somewhere else . Cancel closes it without changes.\n\nThe automated action replaces the existing MX records where the panel has the required DNS access. For externally hosted DNS without that access, update the records at the DNS provider. Use the destination provider's exact hostname rather than a generic example. This changes delivery routing; it does not migrate stored messages or create a paid account at the destination provider.\n\nIf the panel identifies a mismatch between local mail delivery and server routing, it may offer Deliver my mail here . Use that only when the local server is the intended mail destination.\n\nThe reverse case, where the domain's mail goes to another provider but this server still keeps mail for the domain, shows This server still delivers your mail to itself with a Send my mail to button for that provider. If an old Brilliant Directories MX record outranks the provider's records, the panel removes it where it manages the DNS, or explains how to remove it at the DNS provider.\n\nCompletion means new mail reaches the intended provider, outgoing website mail passes authentication, and mailbox applications can connect with the displayed settings.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415541/original/8ep0YyluE-MS0iKl40Th7yX3YnapptZ_-Q.png?1791392569",
+      "alt": "Mailboxes tab with the Who handles your email card marked (1), showing Our mail servers and the domain's MX host.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Mailboxes and Email Routing' (Settings > Domain Manager): Mailboxes tab with the Who handles your email card marked (1), showing Our mail servers and the domain's MX host.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368895/original/Vw8dZ_wPf8Aaoj8L87o1N6pYgdLRn8Tc2A.png?1791332384",
+      "alt": "Mailbox row with Set up marked (1) and the expanded mail app settings for matt@selfautomated.com marked (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Mailboxes and Email Routing' (Settings > Domain Manager): Mailbox row with Set up marked (1) and the expanded mail app settings for matt@selfautomated.com marked (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358597/original/VJD5ebuo2MSVnjmV9iUW09e7i8XsEAqvDA.png?1791318602",
+      "alt": "Mailboxes card with a catch-all mailbox address (1) and its Open webmail button (2) beside Set up and More.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Mailboxes and Email Routing' (Settings > Domain Manager): Mailboxes card with a catch-all mailbox address (1) and its Open webmail button (2) beside Set up and More.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358601/original/QhbCqqStDr3yWNcIUt5XNSh8Yy4Y1KkROw.png?1791318603",
+      "alt": "Card for unrouted email with Bounce it back, Keep in the catch-all mailbox and Send it to options (1) and an explanation below (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Mailboxes and Email Routing' (Settings > Domain Manager): Card for unrouted email with Bounce it back, Keep in the catch-all mailbox and Send it to options (1) and an explanation below (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368896/original/w-612H89OBEARM1bCG4yOT6p55T4HoJv8A.png?1791332385",
+      "alt": "Change your email provider card opened, with the four choices Our mail servers, Google Workspace, Microsoft 365 and Somewhere else marked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Mailboxes and Email Routing' (Settings > Domain Manager): Change your email provider card opened, with the four choices Our mail servers, Google Workspace, Microsoft 365 and Somewhere else marked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760"
+    },
+    {
+      "text": "Emails",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090615"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:44+05:30",
+  "scraped_at": "2026-10-18T14:00:08.156364"
+}

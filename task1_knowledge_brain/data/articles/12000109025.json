@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109025",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109025-text-labels-dashboard-installer",
+  "title": "Text labels - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Text labels - Dashboard Installer"
+  ],
+  "content": "## Text labels - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109025\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Text labels Does\n\n\nText labels are the editable words and phrases the website uses throughout its pages, and they are stored in a database table called website_labels . This installer applies two housekeeping updates to that table.\n\n- It widens the field_type column to the LONGTEXT storage type so it can hold longer values than the previous format allowed.\n\n- It adds a uniqueness rule (a unique index) to the field column, which is the identifier of each label. This guarantees each label can exist only once in the table. If the site already contains duplicate copies of a label, the installer first removes the older copies, keeping the most recently created row for each duplicated label, and records a notification listing exactly which labels were affected.\n\n\n## Why It Appears\n\n\nThis update is age related. Sites created before the current database format still have the field_type column in an older, shorter format, or do not yet have the uniqueness rule on the field column. The installer checks the two conditions separately, so it can appear even if only one of them still needs the update. Seeing it does not mean anything is broken; it means the database predates this improvement.\n\n\n## Why It Matters\n\n\nDuplicate label rows are the main problem this solves. When the same label exists twice, editing the site text can behave unpredictably: one copy may change in the admin while the website keeps reading the other, so the edit never seems to take effect. The uniqueness rule makes that situation impossible going forward, and the built-in cleanup resolves any duplicates that already exist. This is a data integrity update rather than a visible change; it does not alter what the labels say.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Text labels appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Text labels does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nThe site’s text stays the same in almost all cases. The one exception is a site that had duplicate labels: for each duplicated label, the most recently created version is kept and the older copies are deleted, and the installer records a notification naming the removed duplicates. If that notification appears, review the labels it lists in the Text Labels area of the admin and confirm the wording is what is expected. No other follow-up is needed, and future duplicates are prevented automatically by the new uniqueness rule.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109025",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109025"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:48+05:30",
+  "scraped_at": "2026-10-18T13:59:18.820291"
+}

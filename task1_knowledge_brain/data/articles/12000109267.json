@@ -1,0 +1,79 @@
+{
+  "article_id": "12000109267",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109267-create-custom-checkout-and-sign-up-forms",
+  "title": "Create Custom Checkout And Sign Up Forms",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Create Custom Checkout And Sign Up Forms"
+  ],
+  "content": "## Create Custom Checkout And Sign Up Forms\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109267\n\nThis article explains how to assign a custom signup or checkout form to each membership plan.\n\n- Edit Checkout Pages: Overview\n\nThis feature allows different membership plans to collect different information during signup. For example, a free member plan can use a short basic signup form, while a paid professional plan can collect additional business, billing, or profile details during checkout.\n\n\n## Overview\n\n\nBy default, websites include signup forms for different membership signup and checkout flows. These forms control which fields display when a new member signs up for a membership plan.\n\nThere are three default signup forms available:\n\n- Member - Sign Up - Free\n\n- Member - Sign Up - Paid\n\n- Member - Sign Up - External Payment\n\nEach form is designed for a specific type of membership plan or checkout flow.\n\n- Difference Between On-Site and Off-Site Payment Gateways\n\nForm Name Shortcode Used For Member - Sign Up - Free [form=signup_free] Free membership plans Member - Sign Up - Paid [form=whmcs_signup_paid] Paid membership plans using onsite checkout Member - Sign Up - External Payment [form=whmcs_signup_external] Paid membership plans using an * off-site payment gateway, such as PayPal\n\n\n## Step 1: Clone the Signup Form\n\n\nStart by cloning the existing signup form that matches the type of membership plan being customized.\n\n- How To Clone a Form\n\nClone Member - Sign Up - Free for a free membership plan.\n\nClone Member - Sign Up - Paid for a paid membership plan using onsite checkout.\n\nClone Member - Sign Up - External Payment for a paid membership plan using an * off-site payment gateway .\n\nThe cloned form will include the required signup fields and system settings from the original form.\n\n\n## Step 2: Rename the Cloned Form\n\n\nAfter cloning the form, rename it so it can be selected inside the membership plan settings.\n\nThe form name must start with:\n\n```\nMember - Sign Up\n```\n\nNaming examples:\n\n- Member - Sign Up - Free - Basic Plan\n\n- Member - Sign Up - Free - Community Plan\n\n- Member - Sign Up - Paid - Professional Plan\n\n- Member - Sign Up - Paid - Business Plan\n\n- Member - Sign Up - External Payment - Sponsor Plan\n\nUse a clear name that identifies which membership plan the form is intended for.\n\nIf the form name does not start with Member - Sign Up , it will not appear as an option in the membership plan signup form setting.\n\n\n## Step 3: Customize the Form Fields\n\n\nAfter the form has been cloned and renamed, edit the form fields as needed.\n\n- How To Customize a Form\n\nFields can be added, removed, renamed, reordered, or marked as required based on the information that should be collected during signup.\n\nWhen editing the form, keep the following in mind:\n\n- Do not remove required system fields needed for signup or checkout.\n\n- Do not remove payment fields from paid signup forms.\n\n- Do not add payment fields to free signup forms.\n\n- Do not change the checkout flow by using the wrong form type.\n\n- Keep the form focused on the information needed at signup.\n\n- Save the form after making changes.\n\nImportant: If a required checkout or registration field is removed, the signup process may not work correctly.\n\n\n## Step 4: Assign the Form to a Membership Plan\n\n\nAfter the custom signup form has been created, assign it to the membership plan.\n\n- Go to Finance >> Membership Plans .\n\n- Click Edit for the membership plan that needs a custom signup form.\n\n- Use the admin search field at the top of the page and search for Sign Up Form .\n\n- In the Sign Ups & Upgrades section, find the Sign Up Form setting.\n\n- Select the signup form from the dropdown.\n\nThe selected form will now be used when new members sign up for that membership plan.\n\nNote: For a form to appear as an option in the dropdown, the form name must start with Member - Sign Up .\n\n\n## Keep Signup Forms Short for Better Conversions\n\n\nWhen customizing signup forms, it is best to keep the form as short and focused as possible.\n\n- 5 Ways to Optimize Checkout Pages to Increase Membership Sign Ups\n\n- Create a Signup Form That Works!\n\nLong checkout forms can reduce signup conversions because they create extra work before the user has completed registration. If a form feels too long, repetitive, or tedious, users may exit before finishing the signup process.\n\nA shorter form helps users complete signup faster and creates a smoother checkout experience.\n\n\n### Recommended Signup Form Guidelines\n\n\n- Only ask for information that is needed during signup.\n\n- Move non-essential profile details to the member dashboard after signup.\n\n- Avoid asking for the same information in multiple ways.\n\n- Use clear field labels so members understand what to enter.\n\n- Keep required fields limited to the most important information.\n\n- Use optional fields for details that are helpful but not required.\n\nFor example, a paid business plan may need the member’s name, email, company name, phone number, billing information, and payment details at checkout.\n\nHowever, details such as a full business description, social media links, extra images, certifications, or extended profile content can often be collected later from the member dashboard.\n\n\n## Important Form Requirements\n\n\n- Do not assign the free signup form to a paid membership plan. Paid plans need the correct paid or external payment form so the checkout process can work properly.\n\n- Do not assign the onsite paid signup form to a free membership plan. Free plans do not require payment fields, and adding payment fields to a free signup can create confusion during the signup process.\n\n- Do not assign the onsite paid signup form to a plan that uses an off-site payment gateway . Off-site payment plans need the external payment signup form so the off-site payment flow works as expected.\n\n\n## Common Mistakes to Avoid\n\n\n- Creating a new form from scratch: Clone the existing free, paid, or external payment signup form instead.\n\n- Using the wrong form type: Free plans should use free signup forms. Paid plans should use the correct paid or external payment signup form.\n\n- Using the wrong form name: The form name must start with Member - Sign Up .\n\n- Making the form too long: Long forms can reduce completed signups.\n\n- Removing required checkout fields: Removing required system fields can break registration or checkout.\n\n- Not testing the signup flow: Always test the form after assigning it to a membership plan.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182513369/original/jWAEsPG8kH8euskQu5sIBGMzF5yKah28ZQ.png?1784818563",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Custom Checkout And Sign Up Forms' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182520415/original/_Sv1eflnXrMdmseCD1O8cSpoza26jzSmOQ.png?1784823938",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Custom Checkout And Sign Up Forms' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182523269/original/DoJ3Doy4nAh9gxLZK4cWxq2MnlAR7uCxSA.png?1784826494",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Custom Checkout And Sign Up Forms' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109267",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109267"
+    },
+    {
+      "text": "Edit Checkout Pages: Overview",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000078267"
+    },
+    {
+      "text": "Difference Between On-Site and Off-Site Payment Gateways",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000082007"
+    },
+    {
+      "text": "How To Clone a Form",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000078292"
+    },
+    {
+      "text": "How To Customize a Form",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000078290"
+    },
+    {
+      "text": "5 Ways to Optimize Checkout Pages to Increase Membership Sign Ups",
+      "url": "https://www.brilliantdirectories.com/blog/5-ways-to-optimize-checkout-pages-to-increase-membership-sign-ups-directory-website-tips"
+    },
+    {
+      "text": "Create a Signup Form That Works!",
+      "url": "https://www.brilliantdirectories.com/blog/create-a-signup-form-that-works"
+    },
+    {
+      "text": "off-site payment gateway",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000006843"
+    }
+  ],
+  "lastmod": "2026-07-28T21:46:35+05:30",
+  "scraped_at": "2026-10-18T13:59:52.189592"
+}

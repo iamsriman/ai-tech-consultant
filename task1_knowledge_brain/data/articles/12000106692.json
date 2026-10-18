@@ -1,0 +1,59 @@
+{
+  "article_id": "12000106692",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106692-user-stats-post-page-view-counter",
+  "title": "User Stats: Post Page View Counter",
+  "category": "Add-On Documentation",
+  "folder": "Member Profile Analytics",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Member Profile Analytics",
+    "User Stats: Post Page View Counter"
+  ],
+  "content": "## User Stats: Post Page View Counter\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106692\n\nThis guide explains how to display a Post Page View Counter for posts added by members. Built-in Brilliant Directories variables can be used to show how many times a post has been viewed across different timeframes.\n\n\n## Available View Counter Variables\n\n\nTwo variables are available to control the type of view count that will display:\n\nVariable What It Shows %stat_view_post% Total Views – Total number of times the post has been viewed since creation. %stat_view_post__current_month% Monthly Views – Views received during the current calendar month.\n\nExample Output\n\n- Total Views: 1523\n\n- Monthly Views: 47\n\nThese statistics provide members with insight into how their content is performing.\n\n\n## Tips\n\n\n- Counters update automatically without additional setup.\n\n- View counts can be styled using HTML or CSS to match the site design.\n\n- Displaying view statistics can help increase member engagement and encourage more posting.\n\n\n## Understanding Post Types\n\n\nThere are two categories of post interactions tracked by the system: multi-image post clicks and single-image post clicks.\n\n\n### Multi-Image Post Clicks\n\n\nThese post types can contain multiple images.\n\n- Photo Albums\n\n- Products\n\n- Digital Products\n\n- Properties\n\n- Classifieds\n\n\n### Single-Image Post Clicks\n\n\nThese post types contain a single primary image.\n\n- Videos\n\n- Articles\n\n- Jobs\n\n- Events\n\n- Coupons\n\n- Audios\n\n- Discussions\n\n\n## Implementation by Content Type\n\n\nThe last parameter in the function call determines the content type being tracked:\n\n- '0' for Multi-Image Posts (Groups)\n\n- '1' for Single-Image Posts\n\n\n## A. Multi-Image Post Views (Last Parameter: '0')\n\n\n\n### Total Views\n\n\n```\n<div class=\"module\">\n    <?php if($group['group_id'] > 0){ ?>\n        <strong>Total Views<hr></strong>\n        <?php echo processProfileAnalyticsStats('%stat_view_post%', $group['user_id'], $w, $group['group_id'], '0'); ?>\n    <?php } ?>\n</div>\n```\n\n\n### Monthly Views\n\n\n```\n<div class=\"module\">\n    <?php if($group['group_id'] > 0){ ?>\n        <strong>View Monthly Views<hr></strong>\n        <?php echo processProfileAnalyticsStats('%stat_view_post__current_month%', $group['user_id'], $w, $group['group_id'], '0'); ?>\n    <?php } ?>\n</div>\n```\n\n\n## B. Single-Image Post Views (Last Parameter: '1')\n\n\n\n### Total Views\n\n\n```\n<div class=\"module\">\n    <?php if($post['post_id'] > 0){ ?>\n        <strong>Total Views<hr></strong>\n        <?php echo processProfileAnalyticsStats('%stat_view_post%', $post['user_id'], $w, $post['post_id'], '1'); ?>\n    <?php } ?>\n</div>\n```\n\n\n### Monthly Views\n\n\n```\n<div class=\"module\">\n    <?php if($post['post_id'] > 0){ ?>\n        <strong>View Monthly Views<hr></strong>\n        <?php echo processProfileAnalyticsStats('%stat_view_post__current_month%', $post['user_id'], $w, $post['post_id'], '1'); ?>\n    <?php } ?>\n</div>\n```\n\n\n## Example: Creating a View Counter Widget\n\n\nA custom widget can be created to combine both multi-image and single-image view counts for total and monthly views. Here is how to display it.\n\n- Create a New Widget . Add the following code: This code automatically displays view statistics for both multi-image posts (Groups) and single-image posts. It checks whether the page is showing a group or a standard post, retrieves the total and monthly view counts, and only displays the statistics if actual data exists. When no views are recorded, the entire module stays hidden. This allows the same widget to be added to any sidebar and used across all post types without further customization.\n\n- <?php\n// ----------------------------------\n// GROUP STATS\n// ----------------------------------\n$showGroup = !empty($group['group_id']);\n$groupTotal = 0;\n$groupMonth = 0;\n\nif ($showGroup) {\n    $groupTotal = processProfileAnalyticsStats('%stat_view_post%', $group['user_id'], $w, $group['group_id'], '0');\n    $groupMonth = processProfileAnalyticsStats('%stat_view_post__current_month%', $group['user_id'], $w, $group['group_id'], '0');\n}\n\n// ----------------------------------\n// POST STATS\n// ----------------------------------\n$showPost = !empty($post['post_id']);\n$postTotal = 0;\n$postMonth = 0;\n\nif ($showPost) {\n    $postTotal = processProfileAnalyticsStats('%stat_view_post%', $post['user_id'], $w, $post['post_id'], '1');\n    $postMonth = processProfileAnalyticsStats('%stat_view_post__current_month%', $post['user_id'], $w, $post['post_id'], '1');\n}\n\n// ----------------------------------\n// SHOW ONLY IF ANY STAT EXISTS\n// ----------------------------------\nif (\n    ($showGroup && ($groupTotal || $groupMonth)) ||\n    ($showPost && ($postTotal || $postMonth))\n) {\n?>\n<div class=\"module\">\n    <h4><strong>Content Statistics</strong></h4>\n\n    <?php if ($showGroup) { ?>\n\n        <?php if (!empty($groupTotal)) { ?>\n            <p><strong>Total Views:</strong> <?php echo $groupTotal; ?></p>\n        <?php } ?>\n\n        <?php if (!empty($groupMonth)) { ?>\n            <p><strong>Monthly Views:</strong> <?php echo $groupMonth; ?></p>\n        <?php } ?>\n\n    <?php } ?>\n\n    <?php if ($showPost) { ?>\n\n        <?php if (!empty($postTotal)) { ?>\n            <p><strong>Total Views:</strong> <?php echo $postTotal; ?></p>\n        <?php } ?>\n\n        <?php if (!empty($postMonth)) { ?>\n            <p><strong>Monthly Views:</strong> <?php echo $postMonth; ?></p>\n        <?php } ?>\n\n    <?php } ?>\n</div>\n<?php } ?>\n\n- Go to Toolbox → Sidebar Manager .\n\n- Edit or customize Post Single Page Sidebar.\n\n- Add the widget by searching for its name (e.g., Public View Counter ).\n\n- Drag and drop it into the desired position, click Save Changes.\n\n- Once saved, the view counter will display on post detail pages. This example can be previewed on all post detail pages that use the same sidebar. If a different sidebar is used, the widget can be added there as well.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170730164/original/HSaqrUFkNABpk-HRWLuQjlSUr4L1n7dxfg.png?1763494831",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Stats: Post Page View Counter' in section 'Add-On Documentation' / 'Member Profile Analytics'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170730985/original/jEfNVky4YgFru4M4iUPemHT0Iu8WJnWbQA.png?1763495508",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Stats: Post Page View Counter' in section 'Add-On Documentation' / 'Member Profile Analytics'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170731280/original/eSze63Qxn3tr1gEPFde9kMG6go3ZZSDueg.png?1763495661",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'User Stats: Post Page View Counter' in section 'Add-On Documentation' / 'Member Profile Analytics'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106692",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106692"
+    },
+    {
+      "text": "New Widget",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078432"
+    },
+    {
+      "text": "Sidebar Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000673365"
+    }
+  ],
+  "lastmod": "2026-07-21T03:32:51+05:30",
+  "scraped_at": "2026-10-18T13:56:55.652242"
+}

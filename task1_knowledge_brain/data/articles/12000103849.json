@@ -1,0 +1,89 @@
+{
+  "article_id": "12000103849",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103849-my-members-search-members-search-filters",
+  "title": "My Members Search Members » Search Filters",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "My Members Search Members » Search Filters"
+  ],
+  "content": "## My Members Search Members » Search Filters\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103849\n\nThe search filters enable refining the results based on specific criteria, helping to locate members efficiently.\n\n\n## Search Filters\n\n\nThere are 23 different search filters,\n\n\n### 1. Search by Name, ID, URL, or Token\n\n\nAllows searching for a member using their name, unique ID, profile URL, or token.\n\n\n### 2. Membership Plan\n\n\nFilters members based on their assigned membership plans.\n\n\n### 3. Top-Level Category\n\n\nEnables filtering by the primary category assigned to a member.\n\n\n### 4. Joined Date Range\n\n\nFilters members based on the date they joined the platform.\n\n\n### 5. Search by Email Address\n\n\nAllows locating a member by their registered email address.\n\n\n### 6. Account Status\n\n\nFilters members based on their account status, such as active, inactive, or on hold.\n\n\n### 7. Sub-Category Selection\n\n\nAllows refining searches further by selecting a sub-category relevant to a member.\n\n\n### 8. Login Date Range\n\n\nFilters members based on their last login activity within a specified date range.\n\n\n### 9. Verified Status\n\n\nFilters members based on whether they have been verified on the platform.\n\n\n### 10. Transaction Types\n\n\nFilters members based on their payment history, such as No Transactions, Paid, Stopped / Cancelled, Past Due, Refunded, Upcoming, Credits Available. (Includes filter for members with available credits )\n\n\n### 11. Sub-Sub Category\n\n\nAllows for further refinement by selecting a sub-sub category for the member.\n\n\n### 12. Joined Via\n\n\nFilters members based on how they registered, such as Admin, API, Import CSV, Business Data Import, Self Signup, Self Signup Via Facebook, Self Signup Via Google, and Self Signup Via Claim Listing.\n\n\n### 13. Search by Location\n\n\nFilters members based on their geographic location.\n\n\n### 14. Member Type\n\n\nFilters results by member type, such as individual or company.\n\n\n### 15. Forms Submitted\n\n\nFilters members based on the forms they have completed and submitted.\n\n\n### 16. Forms Not Submitted\n\n\nFilters members based on the forms they have not yet submitted.\n\n\n### 17. Profile Status Filter\n\n\n(Complete or Incomplete; only available if the Require Complete Profiles setting is turned on)\n\n\n### 18. Find Duplicates\n\n\nThe Find Duplicates filter enables the administrator to locate members based on selected fields. If multiple options are chosen, the filter will seek duplicates across all selected criteria.\n\n\n### 19. Choose Sales Rep. Name\n\n\nThis dropdown will display all the sales representatives that are added to members of the website. Available with the Sales Representative Tracking advanced setting.\n\n\n### 20. User IP Country\n\n\nFilters members based on the country associated with their IP address.\n\n\n### 21. User IP\n\n\nAllows searching members based on their last recorded IP address.\n\n\n### 22. Member Tags\n\n\nFilters members using custom tags assigned to them. (Available with the Member Tags & Tag Groups Add-on)\n\n\n### 23. Profile Images\n\n\nThe Profile Images Filter has two options:\n\n- Image Exist : Shows members who have the selected image(s) in the filter.\n\n- Image Missing : Shows members who are missing the selected image(s).\n\nProfile Photo Image: Filters members based on whether they have uploaded a profile picture. This option is typically relevant for individual listings.\n\nCompany Logo Image: Filters members based on whether they have uploaded a company logo. This option is relevant for company listings.\n\nProfile Cover Image: Filters members who have uploaded a cover image for their profile. Cover images help personalize a profile and enhance its visual appeal.\n\n\n### Important\n\n\nThis is an \"AND\" search, meaning if all three image types ( Profile, Logo, and Cover Image ) are selected, the system will look for members who have all three images. Only members meeting all three criteria will appear in the search results.\n\n\n## Searching by Multiple Member IDs\n\n\nThe Member Name, ID, or URL filter allows to search for multiple member IDs simultaneously. To do this, add a # to the search query, followed by a comma-separated list of member IDs. (see screenshot)\n\nExample: #44871,44866,44858\n\nNote: This field has a character limit. If the search exceeds the limit, no results will be displayed. In that case, try reducing the number of IDs in the search.\n\n\n## Location Search and Multi-Location Add-On\n\n\nIf the Multi-Location Add-On is active on the site, an additional checkbox option called Include Service Areas will appear.\n\n- If Service Areas are excluded, only the members who added the specified location to their contact details form will appear.\n\n- If Service Areas are included, members who added the specified location to their contact details form and those who added the specified location to their service areas will appear.\n\n\n## Multi-Option Filters\n\n\nAll dropdown filters on the Search Members page support selecting multiple options. Simply select the desired values within a filter to include them in the search results.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181027305/original/XY7WGw_wpMFVHEPa4LLVUGKWtLLCcboCSg.png?1782399899",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members Search Members » Search Filters' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159606186/original/sKvbDXwJXk4jhYas8wMKs8Q2Znuha_mFeg.png?1744129396",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members Search Members » Search Filters' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181027711/original/COpY1vwupUxbLgwtCBCzfdY4PicHpYdJig.png?1782400254",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members Search Members » Search Filters' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156093752/original/o4191XbtxiYKRX0tyVAFZemt840bIRJ6QA.png?1738083576",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members Search Members » Search Filters' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156093872/original/SBPuo35yCTAdfjsURNtEsW3r72FVm8aHeQ.png?1738083676",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members Search Members » Search Filters' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103849",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103849"
+    },
+    {
+      "text": "members with available credits",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086306"
+    },
+    {
+      "text": "Require Complete Profiles",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053996"
+    },
+    {
+      "text": "Sales Representative Tracking",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000058393"
+    },
+    {
+      "text": "Member Tags & Tag Groups",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100266"
+    },
+    {
+      "text": "Multi-Location Add-On",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829"
+    }
+  ],
+  "lastmod": "2026-07-28T05:46:48+05:30",
+  "scraped_at": "2026-10-18T13:55:49.244194"
+}

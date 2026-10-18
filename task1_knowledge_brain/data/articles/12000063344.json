@@ -1,0 +1,145 @@
+{
+  "article_id": "12000063344",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063344-how-to-update-property-types-using-the-form-manager",
+  "title": "How to Update Property Types Using the Form Manager",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How to Update Property Types Using the Form Manager"
+  ],
+  "content": "## How to Update Property Types Using the Form Manager\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000063344\n\nThe Properties feature is the only feature type that does not offer post categories.\n\nHow To Add or Edit Categories For Post Types\n\nThis is because the Properties feature includes built-in search filters that members can use on the site, such as Property Status , Property Type , the number of Beds , and the number of Baths .\n\nAll of these search filters can be edited via Toolbox >> Form Manager >> Feature - Properties .\n\nTo update the options for the All Statuses field:\n\nSearch for the variable name property_status , make the necessary changes, and click Save Changes .\n\nFront-end view after the changes:\n\nThe label All Statuses is a text label that can be changed under Settings >> Text Labels by searching for the property_all_statuses variable.\n\nThe same process applies to the remaining search filters, including Property Type (property_type), Beds (property_beds), and Baths (property_baths).\n\nBack-end changes:\n\nFront-end view:\n\nTo add a new dropdown option, click on + Add Option:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091536769/original/P3K4SmXoYLNQRDrJjx6TG3ik6A81FlhWaw.png?1618848147",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091536853/original/Iq19LQPMcyPqHes3RDyXgCxA3qFTBzpeOw.png?1618848261",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091536950/original/-AvI1Y76FJG4LlgALgJ8J3Ci9f7Xkbx4hA.png?1618848389",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237576/original/aCFumIu8WVetVlGuR5uhyWTohafFslPk1A.png?1781147369",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091584788/original/PEs56WYv_aVW8mmuONYYY2FveYW46GNjow.png?1618927207",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237592/original/OYQejV1uXBQH_6pSLJdd9rD10cdySDH_3Q.png?1781147408",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237598/original/ofoXlsID8jkaZJOuxJKXEg_aNwfBTNFOEg.png?1781147507",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237651/original/-OwEaZmyRojOVqghjR9uj8Zum9Xc-sfsfw.png?1781147536",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237654/original/sSDbacDA2GLXSdzuHxwcEWXzHe3Rd4t5bA.png?1781147567",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091585620/original/d-1yRdGSV7wmn85dKN9cTjQRnmQK-Ng32g.png?1618927854",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091585666/original/jY_c3y48SKo8bRQnIHobmyafaxen61y3Zw.png?1618927876",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091585686/original/U8S92yIu0SMECaJ3fJcOU0AECy74zIal2g.png?1618927898",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180237697/original/WTAA-86eTPuONrKIh8u7ukRM-GAGMvQ2vg.png?1781147679",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Property Types Using the Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000063344",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063344"
+    },
+    {
+      "text": "How To Add or Edit Categories For Post Types",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000001792"
+    }
+  ],
+  "lastmod": "2026-06-11T08:44:51+05:30",
+  "scraped_at": "2026-10-18T13:45:34.030528"
+}

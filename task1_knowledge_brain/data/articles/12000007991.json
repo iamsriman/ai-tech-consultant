@@ -1,0 +1,54 @@
+{
+  "article_id": "12000007991",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000007991-how-to-manage-leads-sent-to-claim-listings",
+  "title": "How To Manage Leads Sent To Claim Listings",
+  "category": "Interactions",
+  "folder": "Lead Module FAQ",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Lead Module FAQ",
+    "How To Manage Leads Sent To Claim Listings"
+  ],
+  "content": "## How To Manage Leads Sent To Claim Listings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000007991\n\nImported Claim Listings often contain outdated or missing contact information. While Claim Listings help populate a directory and improve credibility, they may still receive inquiries and leads from visitors.\n\nWhen a lead is submitted to a Claim Listing, the listing owner may never receive the notification if the email address on file is incorrect. This article explains the recommended process for managing leads sent to Claim Listings and converting those listings into active members.\n\nIn our Ultimate Guide On Claim Listings we explain that Claim Listings should be used primarily to give the website credibility and provide search results for the visitors.\n\nClaim Listings can receive leads even if they have not been claimed by the business owner. In many cases, visitors discover these listings through search engines and submit inquiries directly through the directory website.\n\nWhen this happens, it creates an opportunity to engage the business owner and encourage them to claim or activate their listing.\n\nWhen a Claim Listing receives a lead the recommendation is to:\n\n1. Search online for the business's current email address and phone number.\n\n2. Update the listing with the correct contact information.\n\n3. Move the listing to a separate membership level dedicated to Claim Listings that have received leads.\n\nThis makes it easier to identify and follow up with businesses that have already demonstrated interest from directory visitors.\n\nAfter updating the listing's contact information, resend the lead notification from the Admin Dashboard.\n\nThis step is important because the original notification may have been sent to an outdated or invalid email address.\n\nAfter resending the lead notification, contact the business owner directly.\n\nThe objectives of the call are:\n\n• Confirm that the business owner received the lead notification email.\n\n• Help them access their account.\n\n• Encourage them to claim and manage their listing.\n\nSince the lead notification email contains access to the member account, the business owner should immediately secure the account by updating the password.\n\nDuring the call:\n\n1. Ask the business owner to open the lead notification email.\n\n2. Have them click the link included in the email.\n\n3. Navigate to Account >> Change Password.\n\n4. Assist them in creating a new password.\n\nFor detailed instructions, refer to: Changing a Members Password\n\nAfter the business owner has successfully accessed the account, manually move the member from the Claim Listing membership level to the appropriate active membership level.\n\nThis ensures the listing is no longer treated as an unclaimed profile.\n\nIf the business owner is not interested in managing the listing:\n\n• Remove the listing from the directory.\n\n• Follow up with the lead submitter.\n\n• Offer to connect them with alternative businesses listed on the website.\n\nImportant Note : Claim listing emails with that contain only numbers @ the Email Domain of the site will not be  automatically matched to lead emails. (E.g: 1234@yoursite.com )\n\nTo resend a lead access Interactions >> Member Leads >> Find the lead, click on Actions >> Match Lead\n\nScroll down and look for Matched Members , hover the mouse on top of the Name of the member and click on Send Lead Preview Email.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180829081/original/SJPnp8HvFwu1FSAg7rRfyNi1FSUCHqVFUw.png?1782150935",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manage Leads Sent To Claim Listings' in section 'Interactions' / 'Lead Module FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180829253/original/53uI_34N8Y6fDdEvA04TbBLIAwrEQP-1ZA.png?1782151053",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manage Leads Sent To Claim Listings' in section 'Interactions' / 'Lead Module FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000007991",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000007991"
+    },
+    {
+      "text": "Ultimate Guide On Claim Listings",
+      "url": "https://www.brilliantdirectories.com/?s=claim+listings"
+    },
+    {
+      "text": "Changing a Members Password",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000049987"
+    },
+    {
+      "text": "1234@yoursite.com",
+      "url": "mailto:1234@yoursite.com"
+    }
+  ],
+  "lastmod": "2026-06-22T23:29:30+05:30",
+  "scraped_at": "2026-10-18T13:40:00.403883"
+}

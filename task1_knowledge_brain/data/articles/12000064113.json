@@ -1,0 +1,207 @@
+{
+  "article_id": "12000064113",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064113-admin-role-permissions",
+  "title": "Admin Role Permissions",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Admin Role Permissions"
+  ],
+  "content": "## Admin Role Permissions\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000064113\n\n```\nThis is a Free Add-On and Enabled on All Websites\n```\n\n\n## Overview\n\n\nAs the website grows, new employees will be hired to fill various administrative roles. Typically these employees do not need full access to the website’s entire back-end admin area.\n\nAdmin Role Permissions allows the website owner to define specific types of admins (moderator, billing specialist, etc.). Once defined, restrict these admins to specific admin areas.\n\n\n## Enabling the Add-On\n\n\nSettings » Admin Accounts » Admin Role Settings:\n\n\n### Owner Role Notes\n\n\n- The \" Owner \" role is only assigned to the license holder and has access to all Admin functionality. This Role is not editable.\n\n- Any accounts with the \" Owner \" role cannot be deleted from the site.\n\n\n## Creating Admin Roles\n\n\nThe first step is to create an Admin Role.  This role can then be assigned to one or more Admin account.  To create a Role, click on the \" N ew Admin Role + \" button:\n\n\n### New Admin Role Form\n\n\nClicking on the \" New Admin Role \" button will display the following form:\n\nEnter a \" Role Group Name \":\n\n* This will be the name of the Role, so it is recommended to give it a name that will be easy to remember what kind of Admin account it will be for. EG: Developer, Content Writer, Financial Administrator, etc.\n\nEnter a short \" Role Description \":\n\nSelect the areas of the Admin that this Role will be able to access by selecting the corresponding check-boxes. Expand the folders using the + icon to assign the role permissions:\n\nAfter the selection is complete, click on the \" Save & Continue \" button.  A success message will be displayed after the Role is saved:\n\nNOTE: If there is an error message when saving, please make sure all of the Software Updates found on the Admin Dashboard have been installed.\n\nThe new role will appear inside the \" Custom Admin Roles \" section:\n\n\n## Assigning Admin Roles\n\n\nAssign the new Role to an Admin account by either creating a new Admin account or editing an existing Admin account, and choosing a Role from the \"Account Role\" drop-down:\n\n** Additional reference: How To Add Additional Operators / Admins For The Site **\n\nClick on the drop-down to select from the available Roles:\n\n\n### Important Note\n\n\nIf a Role has not been selected for an Admin Account, the Admin account will have access to all pages in the Admin area.\n\n\n### Admin Role Example\n\n\nBelow is how the dashboard of the site appears for an Admin account with the Role created in this article:\n\nIn the Dashboard shortcuts, the sections that are inactive will also be hidden as shown in the GIF above.\n\n\n## Editing Admin Roles\n\n\nWithin the Actions drop-down click on \"Edit Admin Role\" :\n\nClicking on the drop-down will open all of the available roles to pick from:\n\nDefault roles cannot be edited. But custom versions of the default roles can be created. When creating a custom version of the default role make sure to select the custom role for the admin or the account will continue to use the default version.\n\n\n## Additional Functionality\n\n\nThis add-on includes extra features, with some activated dynamically based on specific scenarios.\n\n\n### Deleting Admin Role\n\n\nWhen deleting a custom role that has accounts assigned to it, the system will prompt the message:\n\n\n### Admin Role Form Link\n\n\nIf the admin/role can edit Role Permissions then the role will be linked. When clicked on the page will redirect to the role permissions form:\n\nDefault roles cannot be edited. But custom versions of the default roles can be created. When creating a custom version of the default role make sure to select the custom role for the admin or the account will continue to use the default version. The link will open the form with all of the checkboxes disabled and the save button will be hidden.\n\n\n## Front End Example\n\n\nRole Permissions will be reflected when using the Admin Bar. This applies for all Admin Bar options, the permission needs to be enabled in order to access/see the button: In this example the Web Page, SEO Template and Design Settings options are missing.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174860139/original/6SqhsoJPDT1dv7yqUoln7Wkk1Yj9jeOgYw.png?1771429328",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174860192/original/khsFTsSQ_tbWkbFZHWpj876y4cvbZ7Z8hA.png?1771429361",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174860220/original/9_13sL7TROxOkAlUSMfm2qU8WPLtpCjuAQ.png?1771429382",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088588669/original/MJVRmqIi_m0lFXmCIwQ9E05ikUXXIF9Jiw.png?1612885014",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088588672/original/va90y7W7L1Yl2DUlzGio26PU9bxz4W3VVQ.png?1612885022",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174860230/original/MhRXGMRmhUmVbZ1hBwGehRWPlWymOWfaqQ.png?1771429397",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174860249/original/mpfkkFDXsMdSceuADobh7rIuT0uoyKL6sw.png?1771429439",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110313733/original/n-5kqkSmYUmd7A-rxgqI6bLYIcJQArzXUQ.png?1655224555",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088589521/original/03fzvzAC8UUqYZnnFNst_PGzgQZ-tX8xhA.png?1612885834",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088589824/original/PaNWLelJ4m2gS6v4WoOVzVmtbRkT7_pKxA.png?1612886074",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088589827/original/GbUMg2SgBUf7K9PemPXQ28pjl9kvEZS9HQ.png?1612886081",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096931282/original/_Ac8xFjHP7iAn0CCcnz5fZjxHhaXWLZShA.gif?1629151874",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174860302/original/7PLb7Wn6o7CAUDCaH5kpn5oLsoCETB8eHQ.png?1771429479",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086257438/original/pIeHNjMap30B_Zlk8aBlS9tv0IqvkLo9aA.png?1607917731",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086257470/original/M0VZ1mrkmbgRVRbFDUed9i_671ZyuTOKlg.png?1607917789",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086830287/original/JRCGjvdZS26MADgCv3FTvzWY-D6kr1l8yA.png?1609253232",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088589912/original/4qVWJm8OErIv9KY3LAKhet8wJPxucELx9A.png?1612886159",
+      "alt": null,
+      "caption": "Context: If the admin/role can edit Role Permissions then the role will be linked. When clicked on the page will redirect to the role permissions form:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: If the admin/role can edit Role Permissions then the role will be linked. When clicked on the page will redirect to the role permissions form:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080218861/original/78sAwHVlo2EAOc66FTNs4rD9sTmtjbtxyQ.png?1595350472",
+      "alt": null,
+      "caption": "Context: If the admin/role can edit Role Permissions then the role will be linked. When clicked on the page will redirect to the role permissions form:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: If the admin/role can edit Role Permissions then the role will be linked. When clicked on the page will redirect to the role permissions form:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080218887/original/g09gIkKpuy6FgluVvS2dsoAA0wpuhOk-AA.png?1595350536",
+      "alt": null,
+      "caption": "Context: Default roles cannot be edited. But custom versions of the default roles can be created. When creating a custom version of the default role make sure to select the custom role for the admin or the acc",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: Default roles cannot be edited. But custom versions of the default roles can be created. When creating a custom version of the default role make sure to select the custom role for the admin or the acc",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105691644/original/8MFppJVMRalo2b-4KLGFs3jLElOVckFA4w.png?1646103959",
+      "alt": null,
+      "caption": "Context: Role Permissions will be reflected when using the Admin Bar. This applies for all Admin Bar options, the permission needs to be enabled in order to access/see the button:In this example the Web Page, ",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Role Permissions' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: Role Permissions will be reflected when using the Admin Bar. This applies for all Admin Bar options, the permission needs to be enabled in order to access/see the button:In this example the Web Page,",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000064113",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064113"
+    },
+    {
+      "text": "How To Add Additional Operators / Admins For The Site **",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682633"
+    }
+  ],
+  "lastmod": "2026-02-18T21:14:50+05:30",
+  "scraped_at": "2026-10-18T13:45:38.818122"
+}

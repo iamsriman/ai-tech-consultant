@@ -1,0 +1,114 @@
+{
+  "article_id": "5000686553",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000686553-how-does-adsense-work-",
+  "title": "How Does AdSense Work?",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "How Does AdSense Work?"
+  ],
+  "content": "## How Does AdSense Work?\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000686553\n\nOnce the AdSense account is created, there are two types of ads that can be implemented on the website.\n\n- How AdSense works\n\nVery Important Note:\n\n1. For any banners to display on the website it is required to have \"Display Banner Advertisements\" set to \"Yes\" on the  \" Banner Ad Design \" tab.\n\n2. Make sure to add the Ads.txt on the \"Enter Ads.txt Content\" Field, if the banners don't display it is because the site is missing this Google Verification.\n\n\n## 1. Auto Ads\n\n\n\"With Auto ads, you place one piece of code on all pages across your site. Auto ads will then scan your site and automatically place ads where they’re likely to perform well and potentially generate more revenue.\" - Google\n\n» Set up Auto Ad\n\nTo implement Auto Ads add the code inside the Custom HEAD/CSS section of the Design Settings:\n\n» How To Add A Snippet Of Code To Every Page Of A Site In The HEAD Section\n\nExample of the code that can be entered:\n\nNOTE: The following code samples are not working examples.\n\n\n## 2. Ad Units\n\n\n\"An ad unit is one or more Google ads displayed as a result of one piece of the AdSense ad code. You can create, customize and manage ad units on the Ads page in your AdSense account. Ad units give you control over where ads appear...\" - Google\n\n» Create an Ad Unit\n\nWhen using Ad Units, the AdSense code will need to be added to the HEAD of the site:\n\nExample of the code that can be entered:\n\nTo implement Ad Units add the code inside the Banner Ad slots:\n\n» Settings » Design Settings » General » Banner Ads\n\nNOTE: The following code samples are not working examples.\n\n\n## AdSense Tips\n\n\n- Code Implementation Guide: Get and copy the AdSense code\n\n- For Auto ads, only the AdSense code + ads.txt file is needed, but for ad units, the AdSense code + ads.txt file + the ad unit code is needed.\n\n- To insert an ad on to a blog post or any other post please refer to: How to insert and embed Google Adsense code directly into blog articles and posts .\n\n- There are a few things to know about AdSense before putting the code on the website:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174625/original/CclYv1X3oONO3JrPHL4bxNPV4EKdKaVt1A.png?1629660149",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does AdSense Work?' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097212804/original/yC_Tpo2DI4AChsAawjgBIq3xwS1z0NINaA.png?1629729332",
+      "alt": null,
+      "caption": "Example of the code that can be entered:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does AdSense Work?' in section 'Settings' / 'Design Settings'. Context: Example of the code that can be entered:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097267304/original/emANqq9tD8Af3xkf_ia300z6XWm1UQv7hw.png?1629812621",
+      "alt": null,
+      "caption": "Example of the code that can be entered:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does AdSense Work?' in section 'Settings' / 'Design Settings'. Context: Example of the code that can be entered:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097267374/original/pe63rSM3QYzKXcAazSvzo-W3N3sadBLAnQ.png?1629812645",
+      "alt": null,
+      "caption": "Example of the code that can be entered:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does AdSense Work?' in section 'Settings' / 'Design Settings'. Context: Example of the code that can be entered:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174700/original/ZXdfUvCB6Lw6gl5sKe4IhlUmUJLxPzsRIg.png?1629660495",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does AdSense Work?' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097212357/original/keReaCGk8gcqBROb5N8Oo-uBt0hEK3kpBA.png?1629729051",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does AdSense Work?' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000686553",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000686553"
+    },
+    {
+      "text": "How AdSense works",
+      "url": "https://support.google.com/adsense/answer/6242051?hl=en#:~:text=AdSense%20works%20by%20matching%20ads,amount%20you%20earn%20will%20vary."
+    },
+    {
+      "text": "Banner Ad Design",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019194"
+    },
+    {
+      "text": "Ads.txt",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000040190"
+    },
+    {
+      "text": "Set up Auto Ad",
+      "url": "https://support.google.com/adsense/answer/9261307"
+    },
+    {
+      "text": "» How To Add A Snippet Of Code To Every Page Of A Site In The HEAD Section",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682658"
+    },
+    {
+      "text": "Create an Ad Unit",
+      "url": "https://support.google.com/adsense/answer/9274025"
+    },
+    {
+      "text": "» Settings » Design Settings » General » Banner Ads",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019194"
+    },
+    {
+      "text": "Code Implementation Guide:Get and copy the AdSense code",
+      "url": "https://support.google.com/adsense/answer/9274019?hl=en"
+    },
+    {
+      "text": "How to insert and embed Google Adsense code directly into blog articles and posts",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000096892"
+    }
+  ],
+  "lastmod": "2023-11-09T06:42:07+05:30",
+  "scraped_at": "2026-10-18T13:39:16.569998"
+}

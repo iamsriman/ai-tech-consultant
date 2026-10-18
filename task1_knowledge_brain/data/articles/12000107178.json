@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107178",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107178-12-26-2025-software-updates",
+  "title": "12/26/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/26/2025 - Software Updates"
+  ],
+  "content": "## 12/26/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107178\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the Community Comments sort order feature from working properly in some cases.\n\n- Added tracking for clicks on the \"Additional Details\" link added for posts when the Member Profile Analytics Add-On is active on the website. Widget Involved: Bootstrap Theme - Function - API\n\n- Created a new 301 Redirect search field called \"Search By\" to allow searching by \" Source URL \" , \" Destination URL \", or \" Both \" on the 301 Redirect page in the Admin.\n\n- The Sub-Account Status text shown when viewing Sub-Accounts in the Member Dashboard is now compatible with Text Labels. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- The success text displayed after a member updates their password in the Member Dashboard is now a Text Label. New Text Label: Password updated successfully\n\n- Implemented a security update to include Google reCAPTCHA on the Member Login form on the frontend of sites. Form Involved: Member - Login Form\n\n- Fixed an issue with bulk-deleting items on the 301 Redirects page in the Admin not only deleting the selected results.\n\n- Released the new Admin Notifications system, which include notifications for new signups, logins, leads, reviews, form submissions, member upgrades, payments received, and more. To activate this new feature, navigate to the Account Dashboard >> Notifications Settings (Admin >> Switch Website >> Notifications Settings).\n\n- Fixed an issue with the member upgrades workflow in some cases when using the Eway Payment Gateway.\n\n- Fixed an issue that prevented the system from rendering the \" Upgrade Account URL \" and \" Claim Listing URL \" variables on the Preview Email tab when composing an individual email to a member from the Admin.\n\n- Updated the Breadcrumbs logic to correctly capitalize text using Cyrillic characters on the frontend of sites. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- Improved the security of the member billing address update workflow in the Member Dashboard.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107178",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107178"
+    }
+  ],
+  "lastmod": "2025-12-29T23:26:05+05:30",
+  "scraped_at": "2026-10-18T13:57:04.252635"
+}

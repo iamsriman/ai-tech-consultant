@@ -1,0 +1,23 @@
+{
+  "article_id": "12000105494",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105494-07-25-2025-software-updates",
+  "title": "07/25/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/25/2025 - Software Updates"
+  ],
+  "content": "## 07/25/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105494\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the Compose Email modal in the Admin from selecting an Email Template in some cases.\n\n- Updated the email verification process used to activate new member accounts by clicking on an email verification link to add additional security.\n\n- Fixed an issue that prevented the \"Most Views\" sort option from appearing on the Search Members page in the Admin, even when the \"Member Profile Analytics\" Add-On was enabled.\n\n- Fixed an issue with the UI of saving an SEO Template in the Admin which caused it to appear \"stuck\".\n\n- Released the new Admin Universal Search feature. This allows Admins to search by keyword across Member Content, Leads, Form Inquiries, Membership Plans, Widgets, Sidebars, Menus, Forms, and Post Content Settings from a single search field.\n\n- Fixed an issue with assigning members to tags via bulk action on the Search Members page in the Admin in some cases.\n\n- Updated Members Webhooks to include the \"token\" of each member in the data sent to the webhook endpoint.\n\n- Updated the automated 301 redirect creation functionality to only apply for members who have existed for more than 24 hours to prevent excessive 301 redirects from being generated.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105494",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105494"
+    }
+  ],
+  "lastmod": "2025-07-28T22:30:37+05:30",
+  "scraped_at": "2026-10-18T13:56:24.030968"
+}

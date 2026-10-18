@@ -1,0 +1,64 @@
+{
+  "article_id": "12000079189",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079189-how-to-customize-the-post-url-structure",
+  "title": "How To Customize The Post URL Structure",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Customize The Post URL Structure"
+  ],
+  "content": "## How To Customize The Post URL Structure\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000079189\n\nBy default the URL structure of a post is: post type / post title\n\nThe way to customize this structure is by navigating to Settings >> Advanced Settings and searching for the advanced setting:\n\nPost URL Structure\n\nSystem Variable: post_url_structure\n\nTo add a new value select the plus sign next to the variable name:\n\nTo modify the structure of the URL drag and drop each variable to the desired place:\n\nOnce the Post URL structure is customized, click Save to apply it to newly generated post URLs.\n\nImportant: Changing this setting does not immediately rewrite every existing post URL. The structure applies to new posts and when an existing post URL is regenerated through the standard post update process.\n\n\n## How Post Titles Become URLs\n\n\nWhen the system generates a URL from a post title, it formats the name or title for use in the URL:\n\n- Straight and curly apostrophes are removed.\n\n- Most other punctuation, symbols, and spaces become hyphens. Repeated hyphens are combined into a single hyphen.\n\n- Underscores are preserved.\n\n- Accented and non-Latin letters retain their existing handling. Some characters may appear as percent-encoded values in a copied URL.\n\nOriginal post title Generated name or title portion Ruby’s Clay Studio rubys-clay-studio Ruby's Clay Studio rubys-clay-studio Art • Studio art-studio Studio_Name studio_name\n\nThese examples show only the name or title portion. The full URL also follows the configured URL structure, and a duplicate URL may require an additional identifier.\n\n\n## Existing and Custom Post URLs\n\n\nThe formatting rules apply when a post URL is generated or regenerated. A platform update does not automatically rewrite all stored post URLs.\n\nAutomatically generated URLs follow the configured structure. A manually customized post URL is a separate choice; changing the default structure should not be used as a way to replace every custom URL. For individual URL changes and the associated redirect behavior, see How to Manually Edit the URL / Filename of Posts .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280410/original/E9k_E7HUZMAJV4eA1oGgIJLo45ZhrgBVwQ.png?1645316132",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Post URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647029/original/GDeVDCk-deNzJgipMvARy8Qs85gQsN2F3w.png?1753160532",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Post URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647033/original/5YwYXA5ZGomRRBwS2TvorthVp2FGY61Dvw.png?1753160552",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Post URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647082/original/PlVfmlgBNv07Hz1_I_Hn672G8BBHAVNM8Q.gif?1753160693",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Post URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000079189",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079189"
+    },
+    {
+      "text": "How to Manually Edit the URL / Filename of Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077359"
+    }
+  ],
+  "lastmod": "2026-09-15T23:39:02+05:30",
+  "scraped_at": "2026-10-18T13:48:28.012966"
+}

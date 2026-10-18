@@ -1,0 +1,35 @@
+{
+  "article_id": "12000005977",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005977-setting-up-paypal-payflow",
+  "title": "Setting Up PayPal Payflow",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Setting Up PayPal Payflow"
+  ],
+  "content": "## Setting Up PayPal Payflow\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000005977\n\nWhen it comes to accepting online payments, there are essentially 2 components: the Payment Gateway and the Merchant Account.\n\nThe payment gateway is a platform used to process credit card transactions, while the merchant account is where the processed funds are collected.\n\nPayPal Payments Pro is a combination of these 2 components rolled into one.  Payflow is the Payment Gateway and PayPal is also the Merchant Account.\n\nPayPal also offers Payflow as a standalone Payment Gateway that can be used to connect to the compatible 3rd party Merchant Account. IMPORTANT: PayPal Payflow Pro is available through paid business accounts that include a monthly fee. Verify that the PayPal account is a business account with the \"Direct Payments\" feature enabled before proceeding.\n\nIf the PayPal account does not include a monthly fee or the \"Direct Payments\" feature, refer to this article instead.\n\nIn order to use PayPal Payments Pro as the payment processor, the following credentials need to be added:\n\n- Partner (Merchant Name, EG: PayPalCA)\n\n- Merchant Login\n\n- Merchant Username\n\n- Merchant Password\n\n- PayPal API Username\n\n- PayPal API Password\n\n- PayPal API Signature\n\nf the site owner has a PayPal Payflow account and cannot locate the required credentials, contact PayPal and inform them that the website is being connected to process payments and that the developer has requested the credentials listed above.\n\nFollow these steps to add the credentials to the website: Finance » Payment Settings - Setting Up A Payment Gateway NOTE: If the site is migrating from PayPal Pro to Stripe as the main payment gateway, the registered credit cards on file will automatically be migrated to work with Stripe without further action required.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000005977",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005977"
+    },
+    {
+      "text": "refer to this article instead.",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000015920-setting-up-paypal-standard-free-as-your-payment-gateway"
+    },
+    {
+      "text": "Finance » Payment Settings - Setting Up A Payment Gateway",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830"
+    },
+    {
+      "text": "Stripe",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078856-setting-up-a-new-stripe-account"
+    }
+  ],
+  "lastmod": "2026-07-15T21:51:10+05:30",
+  "scraped_at": "2026-10-18T13:39:53.989146"
+}

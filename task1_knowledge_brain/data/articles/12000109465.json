@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109465",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109465-08-14-2026-software-updates",
+  "title": "08/14/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/14/2026 - Software Updates"
+  ],
+  "content": "## 08/14/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109465\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released support for push notifications in the Brilliant Directories mobile app . Admins can now receive alerts on their mobile devices — such as payment notifications — that open the corresponding website and screen when tapped.\n\n- Updated the members API so that changing a member's profile URL now automatically creates a 301 redirect from the old URL to the new one, matching the existing system behavior, with an option to skip the redirect when needed.\n\n- Improved the widgets API so it now only returns widgets compatible with the current version of the software.\n\n- Updated the Sub Accounts section of the Member Dashboard to display a \"Publish Your First Sub Account\" prompt when a member has not created any sub accounts yet. Widget Involved: Bootstrap Theme - Account - Feature Header\n\n- Fixed an issue that allowed emails sent from public website forms to use a visitor-supplied sender name and email address in some cases; these emails now always use the website's own sender information.\n\n- Fixed an issue that prevented WebP post images from displaying in social media share previews when the Front-End Optimization setting \"Use Content Delivery Network (CDN) for Images\" is enabled in some cases.\n\n- Fixed an issue that caused member reviews to display HTML character codes instead of readable text when editing a review in the Admin. Widget Involved: Account - Save Actions\n\n- Fixed an issue that prevented the Google Map on member profile pages from loading automatically in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that caused the member search in the Admin to return no results when combining a member tag filter with a photo or logo filter.\n\n- Fixed an issue that caused the system to write unnecessary debugging information to the website's error log on every page load. Widget Involved: Bootstrap Theme - Function - Google Location Suggest",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109465",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109465"
+    }
+  ],
+  "lastmod": "2026-08-18T04:57:26+05:30",
+  "scraped_at": "2026-10-18T13:59:58.807545"
+}

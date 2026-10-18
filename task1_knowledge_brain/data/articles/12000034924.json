@@ -1,0 +1,33 @@
+{
+  "article_id": "12000034924",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034924-how-to-setup-member-logo-as-backup",
+  "title": "How To Setup Member Logo as Backup",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Setup Member Logo as Backup"
+  ],
+  "content": "## How To Setup Member Logo as Backup\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000034924\n\nIf a member does not have a profile photo, with this setting enabled the system will use the member's logo as a profile photo - and vice versa.\n\nNavigate to Settings >> Advanced Settings and search for:\n\nMember Logo As Backup\n\nDatabase Variable: override_profile_photo",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647107/original/At0tUbMhxKOsQnwnIhhLnJkP8hKp_LDrPw.png?1753160794",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup Member Logo as Backup' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000034924",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034924"
+    }
+  ],
+  "lastmod": "2025-07-22T10:36:36+05:30",
+  "scraped_at": "2026-10-18T13:41:44.710721"
+}

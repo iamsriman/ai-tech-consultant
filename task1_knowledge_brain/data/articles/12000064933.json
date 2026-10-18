@@ -1,0 +1,113 @@
+{
+  "article_id": "12000064933",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064933-how-to-use-custom-google-fonts-on-static-pages",
+  "title": "How to Use Custom Google Fonts on Static Pages",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "How to Use Custom Google Fonts on Static Pages"
+  ],
+  "content": "## How to Use Custom Google Fonts on Static Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000064933\n\nTo use Google Fonts on a static page, please follow these steps.\n\nCreate or open a static page.\n\nAdd content to the page. The text shown below will be used as an example:\n\n- - - - - -\n\nUniverse\n\nThe physical Universe is defined as all of space and time (collectively referred to as spacetime) and their contents. Such contents comprise all of the energy in its various forms, including electromagnetic radiation and matter, and therefore planets, moons, stars, galaxies, and the contents of intergalactic space.\n\n- - - - - -\n\nOnce the text has been added, click on the \" Code View \" icon:\n\nIf desired, add a class for each section to use different Google fonts:\n\nExample code:\n\n1.\n\n<h2 class=\"myTitle\">Universe</h2> 2.\n\n<p class=\"myParagraph1\">The physical Universe is defined as all of space and time (collectively referred to as spacetime) and their contents. Such contents comprise all of energy in its various forms, including electromagnetic radiation and matter, and therefore planets, moons, stars, galaxies, and the contents of intergalactic space.</p>\n\nWe recommend to Save the Web Page at this point.\n\nOn the browser open up a different tab to check the different available fonts in Google Fonts.\n\nhttps://fonts.google.com/\n\nOnce a font has been selected. Copy this embed code in the Advanced >> HEAD section of the static page:\n\nPaste code into the Customize Page Level HEAD Tags by navigating to the advanced tab:\n\nIn this example, the Yuyu Google font family will also be used:\n\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Yuyu&display=swap\" rel=\"stylesheet\">\n\nNow, enter the following CSS in the Customize Page Level CSS Styles section\n\nCSS:\n\n.myTitle {\n  font-family: 'Yuyu', sans-serif;\n}\n\n.myParagraph1 {\n  font-family: 'Yuyu', sans-serif;\n}\n\nThis is what the page will look like after saving the changes:\n\nTo add one Google Font for the whole page, use a <div></div> with a class. For example, this code:\n\nExample:\n\n<div class=\"fullPage\">\n  <p><span style=\"font-size: 36px;\">Universe</span></p>\n  <p>The physical Universe is defined as all of space and time (collectively referred to as spacetime) and their contents. Such contents comprise all of energy in its various forms, including electromagnetic radiation and matter, and therefore planets, moons, stars, galaxies, and the contents of intergalactic space.</p>\n</div> CSS code: .fullPage {\nfont-family: 'Alata', sans-serif;\n}",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181731788/original/uubpVxl5bN32Qs1lXpLmSqkAGmJn5hkvbw.png?1783554199",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125212381/original/zUphENggz_IKqwE9Jqe7Ty9nskfrwkfUbg.png?1683659124",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181731998/original/Ol0_LTwzKQXAsb227DPIm9WFnjEn55t7Eg.png?1783554494",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181732096/original/5tdwnwEcWta2fHzJZm-FN1ywJXj9d6-lAg.png?1783554584",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181732490/original/tpS_ZP8JdTrtbuWZwMXg27S8PYcRQMPA-w.png?1783555145",
+      "alt": null,
+      "caption": "Paste code into theCustomize Page Level HEAD Tagsby navigating to the advanced tab:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'. Context: Paste code into theCustomize Page Level HEAD Tagsby navigating to the advanced tab:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181732493/original/xBMs5Jqqcb7QlDMaMGLYQXxgSiz9Y4iVtQ.png?1783555155",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181732285/original/ZCluP4cGlPzZeS0GnIC0Mq8wM7183GPOLg.png?1783554913",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181732535/original/znFX8lgVbeWCHTYx5bIAJ-hBHJG5BUWqnw.png?1783555283",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181732526/original/EirWRRB8-41GRtaQ8gnzezc8Kp9MAZ1FZA.png?1783555215",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Custom Google Fonts on Static Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000064933",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064933"
+    },
+    {
+      "text": "Create",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047125-how-to-create-a-new-static-page"
+    },
+    {
+      "text": "https://fonts.google.com/",
+      "url": "https://fonts.google.com/"
+    }
+  ],
+  "lastmod": "2026-07-09T05:31:58+05:30",
+  "scraped_at": "2026-10-18T13:45:44.468251"
+}

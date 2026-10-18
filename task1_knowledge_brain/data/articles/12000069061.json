@@ -1,0 +1,327 @@
+{
+  "article_id": "12000069061",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069061-google-maps-removing-all-maps",
+  "title": "Google Maps: Removing All Maps",
+  "category": "Settings",
+  "folder": "Google Maps Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Google Maps Troubleshooting",
+    "Google Maps: Removing All Maps"
+  ],
+  "content": "## Google Maps: Removing All Maps\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069061\n\nGoogle Maps is used for everything related to locations in the system:\n\n- Contact Details form\n\n- Members choosing Service Areas in the Member Dashboard\n\n- Members setting locations for posts when creating them\n\n- Displaying maps on profile pages\n\n- Displaying maps in the sidebars of profile pages or post pages\n\n- Users searching for members and posts by location\n\n- Users sharing their location to auto-fill location search fields ( Detect Visitor Locations add-on )\n\nRemoving any of this functionality will impact the user experience, so it is a matter of deciding which trade offs to make and disable that functionality accordingly.\n\n\n## How To Remove Maps\n\n\nThere are various areas on the site using location search fields of any kind which use the \"Places API (New)\" and \"Geocoding APIs\".\n\n\n### Contact Details Form\n\n\nThis form is where the members will enter their location that displays on the profile and is used for completing member location searches.\n\nWith the Contact Details form, we recommend that it be left alone - as removing all of the other maps functionality will reduce costs. With this being said, it is possible to remove the maps from the form as well.\n\nThe setting to disable the map will be inside:\n\nContent » Edit Post Setting » \"Post Type\" Edit » General Settings » Additional Settings\n\nSet to \" NO \"\n\nThe form will have the Location Bar and Form fields without the interactive map:\n\nThe reason we recommend leaving this form alone is that this form helps provide the most accurate locations for the members when searching for them in the admin section:\n\n\n### SEO Template Location Breadcrumb\n\n\nInstead, simply hide the location from the Breadcrumbs inside the SEO Template:\n\nIn one of the steps below, we shows how to remove the map and address from the profile as well, to remove all of the locations from the front-end.\n\n\n### Post Type Forms\n\n\nSome post types will include a location field for the product or coupon being sold.\n\nPost Forms\n\nThis example uses the Coupons form:\n\nAdditional Information:\n\n» Toolbox » Form Manager Folder\n\n\n### Search Modules\n\n\nA good step in removing Google Maps API usage is to remove location searches from the website.\n\n\n### Homepage\n\n\nBy default the website will come with the Category and Location search:\n\nDo not use any of the \" Location Search \" or Maps.\n\n\n### Header Mini Nav & Sidebars\n\n\n\n### Sidebars\n\n\nDo not use any of the Location modules shown below:\n\nAdditional Information:\n\n» Toolbox » Sidebar Manager\n\n\n## Get Matched Forms\n\n\nLocation fields and/or rendering the Google Map in Get Matched lead forms (though this is probably minimal compared to searches).\n\n\n### Get Matched Page\n\n\nThe default Lead form includes a map for users to enter their location for location matching.\n\n\n### Profile Pages\n\n\nThe map is present in the form used on the Profile as well:\n\n\n### Remove Lead Forms Location Searches\n\n\nThe leads form has special settings that control the location fields, no need to edit the actual lead form.\n\n1) Set the Location Fields to \" NO \":\n\n2) Decrease usage by switching to \" Only Input \"\n\nAdditional Information:\n\n» Leads » Manage Leads » Lead Settings » (Auto-Match Workflows) » Form Settings\n\n\n## Member Profile Pages & Search Results\n\n\nThe display of Google Maps themselves on profile pages and search results pages (JavaScript API).\n\n\n### Profile Pages\n\n\nThe member profiles will show a map with the member location.\n\nHide Google Maps in the Overview Tab: \" Do Not Display \"\n\n\n### Search Results Pages\n\n\nWith the Google Map Search Results Add-On :\n\nFirst disable the maps inside\n\nContent » Edit Post Settings » Member Listings » Search Results tab » Additional Settings:\n\nScroll all the way down:\n\nNow inside the Design Settings » Search Results Design select either List or Grid view for the results:\n\nThe Map button no longer appears:\n\nWhen trying to select Map view once this has been disabled, it will need to enabled again:\n\n\n## Detect Visitor Locations\n\n\nIf the Detect Visitor Locations Add-On, disabling this would reduce usage as well:\n\nAdditional Information:\n\n» Detect Visitor Locations Add-On",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663063/original/Hr_hg4hZ6RerdEUIIncNYLQexEHYJ41hBg.png?1619052864",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663247/original/wIHLvQmbCh10gEOqgenksxDbe8nO7vguhw.png?1619053425",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619313/original/UIfB6cJdtfeeZVUsNQ6gnB0T8UGqS0QFEg.png?1645919689",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663280/original/SObZS6r8JYoIPHgnCoEDf3ulQyH02xf2xQ.png?1619053531",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619326/original/mkkXQLv4uN_St9tLzP45FkmJYqZvebLe7w.png?1645919813",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619323/original/W_mBu-gIm8RzWhW0P7i-NFkmvo8xHqSAnQ.png?1645919784",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663325/original/Wak7JEdIqT9I7y8QXGA7Z8bhMfgDro_QKA.png?1619053790",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663351/original/70H6ex6nYNPYbTJOKlUf_A75__y6nUA-yA.png?1619053926",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663386/original/I4NrKeJD9gm5D7AYUnDsmi-AlLCOZopuOQ.png?1619054124",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663387/original/DY2vRpT1H1_L6e0gZjFUszr_X5fkjZoNjQ.png?1619054131",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663487/original/PWwUuazmCQ5vgosZaqq8L_KcRWfNsCdeMw.png?1619054454",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619334/original/TFirrb-RFc6B3MZiM8WDKz20cR1kkZ97jA.png?1645919942",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663544/original/Z89WuzO4hvJV-DgqVRJdPxPzSSaBqaNsgw.png?1619054655",
+      "alt": null,
+      "caption": "Context: Header Mini Nav & Sidebars",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'. Context: Context: Header Mini Nav & Sidebars",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619389/original/5_lQ7uK4JQEScIAZ7Vt0jdkz3T-r22Oxqg.png?1645920137",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619398/original/ELvoe_SWJ2GRhqKO47VPSlLUCprxHHSNRA.png?1645920238",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663780/original/M4iDyTEaioTixfoSi7KsGQi5Sp2fjcJjBg.png?1619055700",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663800/original/v3qku0SS6EWCo_yB2LHFcYs_Ef7DlF2StA.png?1619055773",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619406/original/zDitJLjWqnrL_ngZp8w5KTi6tu_qPkEcew.png?1645920313",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663863/original/YLCwme7ZtehM-Zj8NZLZlXjWDYd3fmttlQ.png?1619056096",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663864/original/OwL8xJDRDOmuvSazLT4a4aUP6Nd1yCY_4A.png?1619056104",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091663920/original/NLO8BHFm27tVhsmcRYELV6EeZ1utAlo9lQ.png?1619056358",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619475/original/Fx7euSq5m1GsquKOwFW_kWlUiYlC4_-xNg.png?1645921217",
+      "alt": null,
+      "caption": "Hide Google Maps in the Overview Tab: \"Do Not Display\"",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'. Context: Hide Google Maps in the Overview Tab: \"Do Not Display\"",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619481/original/gRcz5wNqanku2Z0k6_h7yJObCfxThG_2Ig.png?1645921364",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619531/original/XqGJ58txYD3qnBjG3sLEJ-whZ0N2S1qUqw.png?1645922103",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619519/original/Tmd_QrscpE3RmsypPN34VKqrMqw1ieSY3g.png?1645922035",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619534/original/mCPLrhQSj6Znj5hnxeGPehcbvbH8duvqZA.png?1645922147",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619590/original/bPpxl6ctWVA8dYy2aSwMlPt6jD_bstdurQ.png?1645923177",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619606/original/8GGwNuBHkaogCulABY6J4j7o_fRIKIciBw.png?1645923389",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619608/original/r69H3uJvFSnNOTKnvAR2wEzYnhVWCMAxqA.png?1645923454",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619609/original/xJkxiJElbak3y0RBdY8qZq7Z3PUh2dNArw.png?1645923477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619633/original/cdw7RnyE7fOOLiCHyZwJizROk97iiQg5gg.png?1645923912",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Removing All Maps' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069061",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069061"
+    },
+    {
+      "text": "Detect Visitor Locations add-on",
+      "url": "https://www.brilliantdirectories.com/detect-visitor-locations"
+    },
+    {
+      "text": "Toolbox » Form Manager Folder",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/folders/12000005710"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "Leads » Manage Leads » Lead Settings » (Auto-Match Workflows) » Form Settings",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000008053"
+    },
+    {
+      "text": "Google Map Search Results Add-On",
+      "url": "https://www.brilliantdirectories.com/google-map-search-results-add-on"
+    },
+    {
+      "text": "Detect Visitor Locations Add-On",
+      "url": "https://www.brilliantdirectories.com/detect-visitor-locations"
+    }
+  ],
+  "lastmod": "2025-04-08T02:22:23+05:30",
+  "scraped_at": "2026-10-18T13:46:18.110353"
+}

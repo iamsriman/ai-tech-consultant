@@ -1,0 +1,23 @@
+{
+  "article_id": "12000083175",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083175-10-22-21-software-updates",
+  "title": "10/22/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/22/21 - Software Updates"
+  ],
+  "content": "## 10/22/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000083175\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Stripe payment gateway credentials validation in order to prevent user errors when entering the credentials in the Admin.\n\n- We fixed an issue which was preventing the system from respecting the Admin Roles when visiting the Smart Lists page in the Admin in some cases.\n\n- We created a new form field type called \"Country Code + Phone Number\".  This field allows users to first select a country code from a dropdown and then enter the rest of the phone number. We also created a new Advanced Setting called \"Phone Country Code\" to edit the list of country codes.\n\n- We updated the form fields validations logic to only trigger validations when \"Enable Validation?\" is set to \"On\".\n\n- We updated the logic of the \"Enable Lazy Load Images\" setting in order to add the ability to \"Load Images After Scroll\", \"Load Images After Page Load\" or disable at all the lazy load feature form images. To use this setting, navigate to the Admin >> Developer Hub >> Image Settings. Widgets Involved : Bootstrap Theme - Homepage - Hero Divider Bootstrap Theme - Homepage - Featured Blog Posts Slider Bootstrap Theme - Display - Top Categories Bootstrap Theme - Display - Sub Level Categories Bootstrap Theme - Display - Recent Videos Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Discussions Bootstrap Theme - Display - Recent Digital Products Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Articles\n\n- We improved the way the system loads sidebars on the frontend of sites to reduce queries and improve page load times.\n\n- We fixed an issue with the Smart Lists which was preventing the system from creating a Smart List from all Newsletter Subscribers in some cases.\n\n- We updated the \"Display Order\" options when editing homepage streaming widget settings from the Design Settings page in the Admin. Widgets Involved: Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Jobs\n\n- We fixed an issue which was preventing the system from deleting all members from the Search Members page in the Admin.\n\n- We fixed an issue with the \"Date Picker\" form field type which was preventing the system from displaying the datepicker on forms in some cases.\n\n- We fixed an issue which was preventing the system from displaying custom SEO Template data after customizing the Member Search Results URL in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000083175",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083175"
+    }
+  ],
+  "lastmod": "2021-10-23T02:33:44+05:30",
+  "scraped_at": "2026-10-18T13:49:06.390064"
+}

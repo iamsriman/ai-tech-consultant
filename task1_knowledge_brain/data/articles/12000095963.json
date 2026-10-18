@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095963",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095963-09-15-2023-software-updates",
+  "title": "09/15/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/15/2023 - Software Updates"
+  ],
+  "content": "## 09/15/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095963\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Froala WYSIWYG in the Admin to add additional table (Content Box Settings, Hide on Mobile, Tablet and Desktop), table cell (Hide on Mobile, Tablet and Desktop) and image (Enlarge On Hover, Shrink on Hover, Hide on Mobile, Table and Desktop) styling options.\n\n- We added new Advanced Settings that allow an Admin to edit portions of URLs used in the Member Dashboard during the creation and editing of posts that were not previously editable. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Feature Header Bootstrap Theme - Account - Photo Albums Bootstrap Theme - Account - Photo Albums datatable Bootstrap Theme - Account - Sidebar New Advanced Settings: Default Add Multi-Photo Post Page URL Default Add Photos to Multi-Photo Post Types Page URL Default Photo Display Order Page URL Default Clone Post Page URL Default Edit Post Page URL Default Delete Post Page URL Default Delete Multi-Photo Post Type Page URL Default Edit Multi-Photo Post Type Page URL Default Upload Photos To Multi-Photo Post Types Page URL Default Save Post Page URL Default View Post Page URL\n\n- We fixed an issue with the breadcrumbs for states / provinces on search results pages which was causing the system to return a 404 error page when the URL of the breadcrumb contained a special character in some cases.\n\n- We fixed an issue which was causing the Member Images page in the Admin to display blank records after importing members via CSV file in some cases.\n\n- We fixed an issue which was preventing the Menu Manager from recognizing the \"Hide Item\" checkbox value as a change from the original when trying to customize a Menu in the Admin.\n\n- We updated the layout of the Contact Information column on the Search Members page in the Admin.\n\n- We fixed an issue which was preventing the \"Send Now\" button on the Send Newsletter page in the Admin from working properly in some cases.\n\n- The action of saving a Text Label from the frontend is now being logged in the Activity Tracker. We also updated the Activity Tracker description message in order to display the previous and new value of the changed item when an Admin updates an Advanced Setting or a Text Label. Widget Involved: Bootstrap Theme - Text Labels - Save Actions\n\n- We updated the \"SPAM Checker - Skip These Form Fields\" Advanced Setting value in order to include the following variables by default: bd_security,subaction,account_type,formname,form,url_from,g-recaptcha-response,payment_method_id,form_source,httpr,url_origin_pars.\n\n- We made the BD Help Bot available for all users in the Admin area.\n\n- We updated the \"Select All\" functionality on the Manage Leads page in the Admin to make it compatible with sites that have leads from the legacy Leads System.\n\n- The \"Default Member Search URL\" General Setting and the \"Membership Plan Search Results URL\" Membership Plan Setting are now checked against other potential duplicate URLs on the site when they are saved.\n\n- We fixed an issue which was preventing the Member Dashboard area from loading as expected in some cases.\n\n- We created a new Web Page called the \"Unsubscribed Page\" to make the newsletter unsubscribe page more customizable. We also created a new Advanced Setting called \"Newsletter Unsubscribe Page URL\" that allows Admins to edit the URL of this page.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095963",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095963"
+    }
+  ],
+  "lastmod": "2023-09-19T06:02:22+05:30",
+  "scraped_at": "2026-10-18T13:52:49.828241"
+}

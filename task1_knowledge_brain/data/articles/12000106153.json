@@ -1,0 +1,39 @@
+{
+  "article_id": "12000106153",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106153-users-clicked-link-api-how-to-edit-user-clicked-links-with-api-calls",
+  "title": "Users Clicked Link API - How To Edit User Clicked Links With API Calls",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "Users Clicked Link API - How To Edit User Clicked Links With API Calls"
+  ],
+  "content": "## Users Clicked Link API - How To Edit User Clicked Links With API Calls\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106153\n\nThis API allows users to create, read, update, and delete users clicked links from the database.\n\n\n## Available API Endpoints\n\n\nBelow is a list of the available endpoints for Users Clicked Links:\n\nhttps://example.com/api/v2/users_clicks/get/{click_id}\n\nhttps://example.com/api/v2/users_clicks/create\n\nhttps://example.com/api/v2/users_clicks/update\n\nhttps://example.com/api/v2/users_clicks/delete\n\nUsing the API, the following actions can be performed:\n\n\n### Get a Users Clicked Link\n\n\nRead the data of a Users Clicked Links based on the click_id\n\nEndpoint:\n\ncurl -X 'GET' \\\n  'https://www.example.com/api/v2/users_clicks/get/3' \\\n  -H 'accept: application/json' \\\n  -H 'X-Api-Key: YOUR_API_KEY'\n\nExample Request:\n\nhttps://www.example.com/api/v2/users_clicks/get/3\n\nExample Response:\n\n{\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"click_id\": \"3\",\n      \"user_id\": \"1\",\n      \"click_type\": \"Profile\",\n      \"click_name\": \"Profile Views\",\n      \"click_from\": \"http://bootstrapdemo2.startadirectory.com/california/beverly-hills/sample-category/john-smith\",\n      \"visitor_token\": \"\",\n      \"click_token\": \"b1fa2073d0f10a08f271bdcd8ddaea84\",\n      \"date_clicked\": \"20150723105631\",\n      \"click_url\": \"\",\n      \"click_ip\": \"191.102.57.226\",\n      \"post_id\": \"0\",\n      \"is_single_post\": \"0\"\n    }\n  ],\n  \"total\": \"1223\",\n  \"current_page\": 1,\n  \"total_pages\": 49,\n  \"next_page\": \"MipfKjI1\"\n}\n\n\n### Create a Users Clicked Link\n\n\nAdd a new Users Clicked Links to the database\n\nEndpoint:\n\ncurl -X 'POST' \\\n  'https://www.example.com/api/v2/users_clicks/create' \\\n  -H 'accept: application/json' \\\n  -H 'X-Api-Key: YOUR_API_KEY' \\\n  -H 'Content-Type: application/x-www-form-urlencoded' \\\n  -d 'click_from=https%3A%2F%2Fdevelopertoolsdocumentation.directoryup.com%2Funited-kingdom%2Flondon%2Fpet-services%2Fterry-greenwood&click_token=xyz789uvw321&is_single_post=0&click_name=Profile%20Views&visitor_token=&user_id=44833&click_type=link&click_id=&date_clicked=&click_url=https%3A%2F%2Fdevelopertoolsdocumentation.directoryup.com%2Funited-kingdom%2Flondon%2Fpet-services%2Fterry-greenwood&post_id=0&click_ip='\n\nExample Request:\n\nhttps://example.com/api/v2/user_clicks/create\n\nExample Response:\n\n{\n  \"status\": \"success\",\n  \"message\": {\n    \"click_id\": \"7957\",\n    \"user_id\": \"44833\",\n    \"click_type\": \"link\",\n    \"click_name\": \"Profile Views\",\n    \"click_from\": \"https://example.com/united-kingdom/london/pet-services/terry-greenwood\",\n    \"visitor_token\": \"\",\n    \"click_token\": \"7c93ec5cf1ba20dc45e6beb712dc5ce6\",\n    \"date_clicked\": \"20250925091346\",\n    \"click_url\": \"https://developertoolsdocumentation.directoryup.com/united-kingdom/london/pet-services/terry-greenwood\",\n    \"click_ip\": \"85.104.193.165\",\n    \"post_id\": \"0\",\n    \"is_single_post\": \"0\"\n  }\n}\n\n\n### Update a Users Clicked Link\n\n\nUpdate the Users Clicked Link record via the database, by specifying the click_id\n\nEndpoint:\n\ncurl --location --request PUT 'https://example.com/api/v2/users_clicks/update' \\\n--header 'X-Api-Key: YOUR_API_KEY' \\\n--header 'Content-Type: application/x-www-form-urlencoded' \\\n--header 'Cookie: __Secure-sessionID5=09a48e5f901ca9ee088d516a8f710eae' \\\n--data-urlencode 'click_id=7230' \\\n--data-urlencode 'click_name=Test'\n\nExample Request:\n\nhttps://example.com/api/v2/users_clicks/update\n\nExample Response:\n\n{\n    \"status\": \"success\",\n    \"message\": {\n        \"click_id\": \"7230\",\n        \"user_id\": \"44833\",\n        \"click_type\": \"Profile\",\n        \"click_name\": \"Test\",\n        \"click_from\": \"https://example.com/united-kingdom/london/pet-services/terry-greenwood\",\n        \"visitor_token\": \"\",\n        \"click_token\": \"e98c2d447f50ba3c6e51714b69ce0e00\",\n        \"date_clicked\": \"20221011132305\",\n        \"click_url\": \"\",\n        \"click_ip\": \"200.5.49.116\",\n        \"post_id\": \"0\",\n        \"is_single_post\": \"0\"\n    }\n}\n\n\n### Delete a Users Clicked Link\n\n\nDelete a Users Clicked Link record via the database, by specifying the click_id\n\nEndpoint:\n\ncurl --location --request DELETE 'https://example.com/api/v2/users_clicks/delete' \\\n--header 'X-Api-Key: YOUR_API_KEY' \\\n--header 'Content-Type: application/x-www-form-urlencoded' \\\n--header 'Cookie: __Secure-sessionID5=09a48e5f901ca9ee088d516a8f710eae' \\\n--data-urlencode 'click_id=7230'\n\nExample Request:\n\nhttps://example.com/api/v2/users_clicks/delete\n\nExample Response:\n\n{\n    \"status\": \"success\",\n    \"message\": \"users_clicks record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106153",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106153"
+    },
+    {
+      "text": "https://example.com/api/v2/users_clicks/get/{click_id}",
+      "url": "https://example.com/api/v2/users_clicks/get/{click_id}"
+    },
+    {
+      "text": "https://example.com/api/v2/users_clicks/create",
+      "url": "https://example.com/api/v2/users_clicks/create"
+    },
+    {
+      "text": "https://example.com/api/v2/users_clicks/update",
+      "url": "https://example.com/api/v2/users_clicks/update"
+    },
+    {
+      "text": "https://example.com/api/v2/users_clicks/delete",
+      "url": "https://example.com/api/v2/users_clicks/delete"
+    }
+  ],
+  "lastmod": "2025-09-30T21:41:30+05:30",
+  "scraped_at": "2026-10-18T13:56:42.237821"
+}

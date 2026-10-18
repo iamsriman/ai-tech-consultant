@@ -1,0 +1,27 @@
+{
+  "article_id": "12000054676",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054676-02-22-19-software-updates",
+  "title": "02/22/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/22/19 - Software Updates"
+  ],
+  "content": "## 02/22/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000054676\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We moved the View Profile and Upgrade Listing buttons visible when logged in the the Member Dashboard from below the header of the page to the sidebar of the page. Widgets Involved: Bootstrap Theme - Account - Feature Header Bootstrap Theme - Account - H1 Action Links Bootstrap Theme - Account - Member Dashboard Bootstrap Theme - Account - Sidebar\n\n- We fixed an issue which was affecting the ability to process refunds from the Admin in some cases.\n\n- We implemented a Security Update in order to avoid XSS attacks targeting the page parameter. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the help link inside the duplicate widget tag on the Widget Manager page in the Admin.\n\n- We fixed an issue which was preventing searches for members by country in the Admin from returning the correct results in some cases.\n\n- We updated the UI of the Member Upgrade pages in the member dashboard. Widgets Involved: Bootstrap Theme - Account - Upgrade Page 1 Bootstrap Theme - Account - Upgrade Page 2\n\n- We fixed an issue which was preventing the Insert Link feature of the \"Default Email Signature\" WYSIWYG in the Admin General Settings from working properly in some cases.\n\n- We updated several variables used in the default code found in Post Settings area of the Admin to make them more secure. Post Features Involved: Listing Specialty Review Soundcloud Classifieds Coupons Events Job Listings Photo Albums Products Properties Videos Website Blog Article Community Article\n\n- We released the Member Profile Badges Add-On. For more information click here . Widgets Involved: Bootstrap Theme - Member Profile - Badges Post Feature Involved: Listing",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000054676",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054676"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/member-profile-badges-add-on"
+    }
+  ],
+  "lastmod": "2019-03-09T01:14:47+05:30",
+  "scraped_at": "2026-10-18T13:44:33.709349"
+}

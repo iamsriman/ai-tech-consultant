@@ -1,0 +1,116 @@
+{
+  "article_id": "12000056398",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056398-report-this-page",
+  "title": "Report This Page",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Report This Page"
+  ],
+  "content": "## Report This Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000056398\n\nThe Report This Page add-on makes it easy to place a “Report This Page” button in any sidebar on the website. Website visitors can then report the page they are on to the website owner.\n\nBecause the “Report This Page” button can be added to any sidebar, all pages using that sidebar will have the button. This is especially useful for placing on member listings and posts.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Report This Page Add-On\n```\n\n\n## Enabling the Add-On\n\n\nAfter activation of this add-on, its widget will appear on the Default Widgets list:\n\nThis means that this widget can be utilized anywhere the admin sees fit. In this example, we will be calling this widget on a Post Single Page sidebar.\n\nThis is how my feature details page looks like before any edits:\n\nTo utilize this add-on on a specific sidebar, I navigated to Toolbox --> Sidebar Manager --> Clicked \" Edit \" on Post Single Page:\n\nThen I conducted a search for the widgets name, dragged and dropped it to the list of active widgets and clicked Save Changes :\n\nOur new widget is now active!\n\n\n## How Does The Tool Works?\n\n\nWhen clicked on Report This Page button, a pop-up module will appear:\n\nWhen filled and submitted, a confirmation message will appear:\n\nWebsite owner can access these messages via Emails --> Form Inquries :\n\nThe admin will be able to differentiate Form Inquiries by checking its Origin Form field.  Inquiries that comes via Report This Page add-on will have the report_post_form variable name on it (as it is highlighted on the image above).\n\nThe admin will also able to know which page that this is reported on via Origin URL field (also highlighted on the image above).\n\nClicking on View Inquiry will display the full details of the message received:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049168268/original/ADb3Gqx18_7V9WK_3b1SbxOqfBfRm7zteA.png?1554989999",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049168459/original/JA_Y8akB_F6ccOKx2uY7n0oHROIK9X0bHw.png?1554990164",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049168557/original/nRq4dg1jxY1yCQxDbJUNlrqOQgk7e_fKAA.png?1554990245",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049168803/original/ZOO_SiOm6zfvjNIGQ18WArj6eqJ5ClZD_w.gif?1554990484",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049168955/original/MZFmN3qrlj2e_ISJD0MI-P-B1Tn7RYfuAQ.png?1554990604",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049169205/original/FgBlza1yNMDAxGCz_HD_f3zWqSQAKs6BWw.png?1554990792",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049169335/original/FyR_2vcvNtJ9dt_R4q4mFzRO0Kya9r6-KA.png?1554990867",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049170040/original/lQXt7g8e-lw7pHH4sqMEB-OPbROM55lljw.png?1554991426",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12049170116/original/FWD7ELsAoKl9mwR_Ff1BRIbO229A5OIDUg.png?1554991497",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Report This Page' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000056398",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056398"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Report This Page Add-On",
+      "url": "https://www.brilliantdirectories.com/report-this-page-add-on"
+    }
+  ],
+  "lastmod": "2026-08-28T22:08:31+05:30",
+  "scraped_at": "2026-10-18T13:44:44.900364"
+}

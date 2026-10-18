@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108052",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108052-api-reference-album-photos",
+  "title": "API Reference - Album Photos",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Album Photos"
+  ],
+  "content": "## API Reference - Album Photos\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108052\n\n← Back to API Reference | Getting Started Album Photos Individual photos within an album group. Each photo belongs to an album group via group_id . Model name in URL: users_portfolio — DB table: users_portfolio The Album Photo Object Field Type Description photo_id integer Unique photo ID (primary key, read-only) user_id integer ID of the member who owns this photo required on create group_id integer Album group this photo belongs to required on create file string Photo filename on the server thumbnail string Thumbnail image filename title string Photo title or caption desc text Photo description keywords text Keywords or tags for the photo status integer 0 =Hidden, 1 =Active order integer Display order within the album group_cover integer 1 if this is the album's cover photo profile_cover integer 1 if this is used as the profile cover photo link text URL associated with this photo price number Price (for product photo types) product_category string Product category (for product photo types) manufacturer string Manufacturer name (for product photo types) availability string Product availability condition string Product condition (New, Used, etc.) photo_date_added string Date photo was uploaded (format: YYYYMMDDHHmmss ) photo_date_updated string Date photo was last updated photo_token string Unique photo token (auto-generated) photo_filename string URL-friendly photo slug original_image_url string Original URL for imported images revision_timestamp timestamp Last modified timestamp (auto-updated) room_id integer Room or sub-group ID for organizing photos matt integer Matte/border display flag facebook_photo_id string Facebook photo ID (for imported Facebook photos) orgfile string Original filename before processing reason_inactive string Reason the photo was deactivated inv_id string Inventory or reference ID product_type string Product type classification (for product photo types) additional_fields text Custom field data stored as serialized or JSON content data_type integer Data type classification ID data_id integer Related data category (post type) ID image_imported string Image import status: 0 =not imported, 1 =imported, 2 =failed List Album Photos GET /api/v2/users_portfolio/get Copy # Get all photos in a specific album group\ncurl -X GET \"https://www.yourdomain.com/api/v2/users_portfolio/get?property=group_id&property_value=15\" \\\n  -H \"X-Api-Key: your-api-key-here\" Retrieve an Album Photo GET /api/v2/users_portfolio/get/{photo_id} Copy curl -X GET \"https://www.yourdomain.com/api/v2/users_portfolio/get/99\" \\\n  -H \"X-Api-Key: your-api-key-here\" Create an Album Photo POST /api/v2/users_portfolio/create Copy curl -X POST \"https://www.yourdomain.com/api/v2/users_portfolio/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"user_id=42\" \\\n  -d \"group_id=15\" \\\n  -d \"title=Before+the+renovation\" \\\n  -d \"original_image_url=https%3A%2F%2Fexample.com%2Fimage.jpg\" \\\n  -d \"status=1\" Update an Album Photo PUT /api/v2/users_portfolio/update Copy curl -X PUT \"https://www.yourdomain.com/api/v2/users_portfolio/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"photo_id=99\" \\\n  -d \"title=Updated+Photo+Title\" \\\n  -d \"order=1\" Delete an Album Photo DELETE /api/v2/users_portfolio/delete Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/users_portfolio/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"photo_id=99\"",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108052",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108052"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:22+05:30",
+  "scraped_at": "2026-10-18T13:57:32.191872"
+}

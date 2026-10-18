@@ -1,0 +1,90 @@
+{
+  "article_id": "12000021788",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021788-displaying-top-level-and-sub-level-categories-on-the-homepage",
+  "title": "Displaying Top-Level and Sub-Level Categories On The Homepage",
+  "category": "My Members",
+  "folder": "Member Categories",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Member Categories",
+    "Displaying Top-Level and Sub-Level Categories On The Homepage"
+  ],
+  "content": "## Displaying Top-Level and Sub-Level Categories On The Homepage\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000021788\n\nThis guide demonstrates the setup utilizing the Streaming Top Categories widget. For displaying lower-tier categories on the homepage, select the Streaming Sub Level Categories widget instead. The configuration steps for both options remain identical. To display Top-Level Categories on the homepage, navigate to Settings >> Design Settings >> Homepage tab >> Select Streaming Top Categories option under Select Content to Display section: Clicking on Edit Settings will display a module where this widget can be edited further: The next step would be adding related images to each categories. Navigation Path: My Members » Member Categories Image Requirement: Upload a specific image to each category row. Recommended Image Dimensions: 400px by 200px. Inside the Edit Settings module for the streaming widget, the visibility of the categories is determined by the following rule: Enabled (\"Only Show Categories with Photos\"): The homepage widget will automatically hide any category that lacks an uploaded image. Disabled (\"Only Show Categories with Photos\"): All selected categories will display on the homepage, regardless of whether a placeholder image has been uploaded. Additional Information: Homepage Section Order Streaming Widgets Gallery",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090675822/original/64oL48sAC_D4vEl_rP0L86a4gJafdjMFaw.png?1617115357",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Displaying Top-Level and Sub-Level Categories On The Homepage' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090676021/original/3qYxyCt2H6vLajHsGy-xdI-WED2ojvdejw.png?1617115505",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Displaying Top-Level and Sub-Level Categories On The Homepage' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090676049/original/GijjW8-zh9vwrjC5BVC64rHMj0EEGiCiXw.png?1617115528",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Displaying Top-Level and Sub-Level Categories On The Homepage' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093196356/original/Pa7Y3ieiYY_rl2UuZscYlQjOH-N6AqsuAg.png?1622058779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Displaying Top-Level and Sub-Level Categories On The Homepage' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090676373/original/Gp0F3K-s7pkusXnlEz_gt92nN8OtYKZVYA.png?1617115830",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Displaying Top-Level and Sub-Level Categories On The Homepage' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090676436/original/2cIXQ2DCm6DCDu7UoDVEJ-EhUmK5q6yn6A.png?1617115898",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Displaying Top-Level and Sub-Level Categories On The Homepage' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000021788",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021788"
+    },
+    {
+      "text": "Homepage Section Order Streaming Widgets Gallery",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034916"
+    },
+    {
+      "text": "",
+      "url": "mailto:support@brilliantdirectories.com"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/a/tickets/new"
+    }
+  ],
+  "lastmod": "2026-06-09T18:33:08+05:30",
+  "scraped_at": "2026-10-18T13:40:47.786590"
+}

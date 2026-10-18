@@ -1,0 +1,23 @@
+{
+  "article_id": "12000087190",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087190-05-06-22-software-updates",
+  "title": "05/06/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/06/22 - Software Updates"
+  ],
+  "content": "## 05/06/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087190\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The Account Dashboard page in the Admin is now compatible with the \"Admin Account View\" Advanced Setting.\n\n- We added a \"Select All\" button when performing a search on the Manage Posts and Member Leads pages in the Admin.\n\n- We updated the logic of the checkout pages in order to make the country and state chained dropdowns work with form autofill tools enabled in the browser. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We fixed an issue which was preventing the system from exporting Smart Lists from the Admin in some cases.\n\n- We removed the canonical link for ?page=1 on member and post search result pages as it was redundant. Widget Involved: Bootstrap Theme - Pagination\n\n- We updated the Lead Match page in the Admin in order to display a help message when members are skipped as suggested matches for leads due to their email address being @ the domain of the website, indicating they are not real members. Widget Involved Search - Member - Search Query\n\n- We updated the logic of the \"Display Categories with No Members\" Advanced Setting to only display categories that have members who are \"Active\" and whose \"Are These Members Searchable on the Website?\" Membership Plan setting is set to \"Yes\". Widget Involved: Bootstrap Theme - Category Groups - Member Categories\n\n- We implemented several security updates to prevent XSS injections on checkout pages.\n\n- We fixed an issue with the Member Profile Analytics Add-On which was causing the system to log interactions with the wrong name in some cases.\n\n- We updated the layout of the Smart Lists page in the Admin to display the date and time a Smart List was created.\n\n- The selection of categories on the Additional Details tab in the Member Dashboard area is now compatible with the \"Required\" form field setting. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- The delete member action in the Admin will now trigger the \"Members Imported / Added / Updated / Deleted Via Admin\" Webhook.\n\n- We improved the \"Random\" member search results order logic. Widget Involved: Search - Member - Search Query\n\n- We updated the Google Website Translator Add-On in order to load the JS files after the rest of the page loads. This will help to reduce the load time of pages and increase scores in 3rd party tools like GTMetrix and Google Pagespeed.\n\n- We updated the \"Members Imported / Added / Updated / Deleted Via Admin\" Webhook in the Admin to include the user_id variable when sending data to the webhook.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087190",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087190"
+    }
+  ],
+  "lastmod": "2022-05-07T02:29:49+05:30",
+  "scraped_at": "2026-10-18T13:49:46.610608"
+}

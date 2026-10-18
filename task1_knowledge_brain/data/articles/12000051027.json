@@ -1,0 +1,78 @@
+{
+  "article_id": "12000051027",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051027-setup-essentials-required-steps-to-setup-the-directory",
+  "title": "Setup Essentials - Required Steps to Setup the Directory",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Setup Essentials - Required Steps to Setup the Directory"
+  ],
+  "content": "## Setup Essentials - Required Steps to Setup the Directory\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000051027\n\nAfter accessing the admin back-end, the first page that displays is the Admin Dashboard. Below is a guide with the essential steps to start setting up the new directory.. These boxes are linked to the different parts of the system that need to be set up on the site. These are the basic steps to be completed:\n\n\n## 1. Website Basics\n\n\nLearn more about  the Website Basics set up that includes:\n\n- Setting Up General Settings\n\n- Setting Up \"Staging Mode\"\n\n- Uploading Your Logo & Favicon\n\n- Adding Company Email\n\n- Adding Google Analytics\n\nGeneral Settings Documentation\n\n\n## 2. Add Business Listings\n\n\nTo rapidly populate the directory with relevant, up-to-date business records. The Instant Business Data service enables the ability to search for businesses by industry, location, and other criteria, then instantly import them to the website as listings.\n\nRead the following article to access more information on what can be done in this section:\n\nInstant Business Data\n\n\n## 3. Connect Domain\n\n\nAll new Brilliant Directories websites will be connected to a \"Staging URL\", which is a temporary URL that can be used while the site is being built. One of the advantages of having a staging URL is that the site can be worked on without impacting the eventual domain. Some users prefer to wait until their website has all of the proper keywords and settings configured to avoid having their websites indexed before it is ready.\n\nOnce the site is ready, follow the steps to connect the domain here:\n\nConnecting a Domain with the Domain Manager\n\nAfter completing Phase 1 of 2 with the 3 setups shown above, the last 3 will show like below as Phase 2 of 2 to complete the full setup.\n\n\n## 4. Payment Gateway\n\n\nBy connecting the payment gateway, any money received will be deposited directly into the account linked to the payment gateway. There, the country's currency can be selected if the country is included on the list of countries serviced by the chosen payment gateway and if the payment gateway supports that currency. Below is a list of all the currently supported payment gateways with links to more information about the countries and currencies supported by each. To get more info about each specific payment gateway, check out the link below\n\nS upported Payment Gateways Here is a guide on how to set up the Payment Gateway.\n\nSetting Up the Payment Gateway\n\n\n## 5. Spam Form Protection\n\n\nIn order to have the public forms protected from spam, a reCAPTCHA key must be added to the site. As Google describes it, \"reCAPTCHA is a free service that protects the website from spam and abuse. reCAPTCHA uses an advanced risk analysis engine and adaptive CAPTCHAs to keep automated software from engaging in abusive activities on the site. It does this while letting the valid users pass through with ease.\" Read more about reCAPTCHA here.\n\nSet Up Google reCAPTCHA Key NOTE: Before completing this step, a live domain name must be connected first.\n\nPlease see: How To Move The Site To A Live Domain.\n\n\n## 6. Google Maps\n\n\nIn order to use the location search on the site, a Google Maps JavaScript API key needs to be created and added to the Admin area of the site. This will enable Google Maps to work on the site's domain name. Find a complete, step-by-step guide on how to set this up and get this tool working.\n\nSet Up Google Maps API NOTE : Before completing this step, first connect the live domain name. Please see: How To Move The Site To A Live Domain.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180811389/original/vATvJwF4CWLCxH6CBVSCINkPjJfqg3muvA.png?1782136111",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setup Essentials - Required Steps to Setup the Directory' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12172099926/original/RqEYa2ehvf8jurVruebtsrNvrpiwVIzG4w.png?1765984456",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setup Essentials - Required Steps to Setup the Directory' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000051027",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051027"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/a/solutions/"
+    },
+    {
+      "text": "General Settings Documentation",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019742"
+    },
+    {
+      "text": "Instant Business Data",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100253"
+    },
+    {
+      "text": "Connecting a Domain with the Domain Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    },
+    {
+      "text": "Supported Payment Gateways",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways"
+    },
+    {
+      "text": "Setting Up the Payment Gateway",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000673830-finance-payment-settings-setting-up-a-payment-gateway"
+    },
+    {
+      "text": "Set Up Google reCAPTCHA Key",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019817-guide-8-how-to-enable-form-security-with-google-recaptcha"
+    },
+    {
+      "text": "How To Move The Site To A Live Domain.",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019271-how-to-connect-a-domain-to-a-brilliant-directories-website"
+    },
+    {
+      "text": "Set Up Google Maps API",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019818-guide-9-how-to-enable-maps-with-google-maps-api"
+    }
+  ],
+  "lastmod": "2026-06-22T19:18:59+05:30",
+  "scraped_at": "2026-10-18T13:44:03.823441"
+}

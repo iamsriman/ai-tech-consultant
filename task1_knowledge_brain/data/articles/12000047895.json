@@ -1,0 +1,478 @@
+{
+  "article_id": "12000047895",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-advanced-settings",
+  "title": "Settings » Advanced Settings",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Settings » Advanced Settings"
+  ],
+  "content": "## Settings » Advanced Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000047895\n\nThere are many Advanced Settings to configure the website for different specific tasks, and they are divided into 6 categories:\n\n- Global\n\n- URL Rules\n\n- Members\n\n- Sign Ups & Billing\n\n- Search\n\n- Text Editor\n\nTo find the advanced setting, admins can search for:\n\n- Name of the Setting\n\n- Description\n\n- System Variable\n\n- Default Value\n\nThe System Variable and Default Values for each Advanced Setting are displayed below the setting description.\n\n\n## 1. Global\n\n\nThis section outlines key configuration settings and optimizations available for enhancing the website's performance, security, design, and administrative experience. These settings are categorized into four primary sections:\n\n- Optimization\n\n- Security\n\n- Design\n\n- Admin\n\n\n### Optimization\n\n\nThis section outlines key website optimization and index settings aimed at improving site performance, user experience, and search engine visibility.\n\n\n### Meta Robots Setting\n\n\nMeta Robots Setting. (index.follow enables search engines to crawl your site. no-index, no-follow disables all robots from crawling your website.\n\n\n### Front-End Optimization: Only Load Google Maps when Requested by User\n\n\nIt improves website performance by optimizing the delivery of Google Maps JavaScript files. When enabled, the system only loads the required JavaScript files when a Google Maps feature or location autocomplete functionality is requested on a page.\n\nThis helps reduce unnecessary resource loading and can improve page load times, especially on pages where Google Maps functionality is not required.\n\nIf a widget interferes with this functionality, the system will identify  and highlight the widget causing the conflict:\n\n\n### Front-End Optimization: Enable Resource Delivery via CDN\n\n\nUse the built-in CDN URL to speed up the delivery of resources vs. the relative path of your domain name.\n\n\n### Front-End Optimization: Use Content Delivery Network (CDN) for Images\n\n\nSection to enter a URL to use a service like imagekit.io to serve images from an image CDN with automatic optimization and real-time transformation.\n\n\n### Ampify Account Id\n\n\nAmpify is used to create an Accelerated Mobile Page (AMP) compliant version of your website. AMP-compliant websites are lightweight and designed to give mobile visitors a fast, smooth, and engaging experience.\n\n\n### Front-End Optimization: Load Latest JavaScript Files on Frontend of Website\n\n\nWhen enabled (recommended), the frontend of the site will use updated versions of jQuery, jQuery UI, and Bootstrap JavaScript libraries.\n\n\n### Front-End Optimization: Mobile Preloader\n\n\nIf enabled, the first web page visited from a mobile device will display a brief loading message, which helps improve page speed metrics.\n\n\n### Front-End Optimization: Lazyload iFrame Embeds\n\n\nIf ON, embedded iFrames will be lazy loaded, and the full iframe will be loaded when visitors scroll to it — improving PageSpeed scores. For embedded YouTube videos, only their thumbnail will load at first, and the full video only when visitors click to play.\n\n\n### Front-End Optimization: Lazyload iFrame Embeds - Supported Domains\n\n\nWhen Lazyload iframe Embeds is enabled, this comma separated list of source domains will be targeted as iFrames to lazyload.\n\n\n### Front-End Optimization: Convert User-Uploaded Images to WebP Format\n\n\nAutomatically converts all user-uploaded images to WebP for better performance .\n\n\n### Security\n\n\nThis section highlights important security settings designed to protect the website and its users.\n\n\n### Protect Login Page from Iframe\n\n\nThis will protect the login page from being called from an iframe that is not on the same domain name.\n\n\n### Enable HTTP Security Headers (CSP)\n\n\nThis will enable the HTTP security headers and Content Security Policies. Over an HTTP connection, the website will add headers for Content Security Policy, X-Content-Type-Options, X-Frame-Options and X-XSS-Protection. Over an HTTPS connection, an additional header for Strict-Transport-Security is added.\n\nEmail Confirmation Expiration Time\n\nDefine how long new member signup confirmation links remain valid before they expire in seconds.\n\n\n### Design\n\n\nThis section covers various configuration and localization settings for the website’s front-end experience.\n\n\n### Default Geo-Map Image\n\n\nDefault top-level category image to display in geo-map.\n\n\n### Disable Pluralized Text\n\n\nThis setting will disable all pluralized text labels throughout the website. If set to OFF (default), automatic pluralization of text labels surrounded by %% will be enabled.\n\n\n### Google Translate Language Options\n\n\nThis is the list of language options displayed in the Google Translate Dropdown Menu.\n\n\n### Disable Drag-able Pins on Member Google Maps\n\n\nThe Google Maps option to 'Fill in the location fields below based on where I move the marker on the map above' when members are entering the location for their profile will be hidden.\n\n\n### Disable Default CSS Stylesheet\n\n\nWhen set ON, it will disable Bootstrap and theme-styles CSS spreadsheets.\n\n\n### Text Direction\n\n\nWill modify text if the language of the website should be read from the right side of the page to the left.\n\n\n### Default Center Map Location\n\n\nSection to add the latitude and longitude separated by a comma.\n\n\n### Froala Default Width Image\n\n\nThe default width of images added to Froala WYSIWYG editors throughout the website.\n\n\n### Admin\n\n\nThis section controls the visibility of the built-in chatbot within the admin panel.\n\n\n### Show Chatbot in the Admin\n\n\nWhen this is enabled, the BD chatbot will show up in the corner of specific pages in the admin.\n\n\n### Disable Screenshot Previews\n\n\nDisable preview screenshots across admin sections. Select from: Dashboard, Web Page Builder, Edit Post Settings, Form Manager and Domain Manager .\n\n\n## 2. URL Rules\n\n\nThis section outlines essential website configuration settings that govern how the site's URLs, member profile pages, dashboard, and publishing features are structured and managed. These settings are organized into the following categories:\n\n- Website\n\n- Member Profile Pages\n\n- Member Dashboard\n\n- Post Publishing\n\n\n### Website\n\n\nThis section includes settings that control URL structure, canonical tags, page redirects, and iframe permissions for the website.\n\n\n### www or non-www\n\n\nSelect www to include www in the domain of the site, select non-www to exclude www from the domain. After changing this setting, please refresh the htaccess file to implement the change.\n\n\n### Default 404 Error Page\n\n\nOption to select the Web Page visitors should be redirected to if the URL they requested does not exist.\n\n\n### Localize Canonical Tags\n\n\nAll member search results pages that have more than one location type in the Canonical Tag will be reduced to the most localized version possible.\n\n\n### Reduce Category Canonical Tags\n\n\nAll member search results pages that have more than one category in the Canonical Tag (a main category and a sub-level category, for example) will be reduced to only contain the most specific category.\n\n\n### Limit Canonical Tags to One Country\n\n\nAll member search results pages that have the country in the Canonical Tag will have the country removed.\n\n\n### Redirect to Dashboard on Checkout Pages (Logged In)\n\n\nRedirect members that are logged in and visit checkout pages to the user dashboard.\n\n\n### Categories Page URL\n\n\nURL for the Categories Page. By default this is set to '/categories' to match the Web Page for Categories.\n\n\n### Default Member Signup Page URL\n\n\nMember signup pages use the format /checkout/membership-plan-id by default. Edit the first portion of this URL (checkout) using this setting.\n\n\n### Default Form File Upload URL\n\n\nFiles uploaded through \"File Upload\"; Form Fields are saved in the folder /uploads/curriculum-vitae/ by default.\n\n\n### Whitelist Domains Allowed to IFrame This Website\n\n\nA Setting to control over which domains can load content from their website in an iframe.\n\n\n### Noindex Review & Connect Pages\n\n\nWhen enabled, member review and contact pages will use a noindex, follow robots meta tag to prevent these pages from being indexed by search engines.\n\n\n### Noindex, Follow Paginated Search Results\n\n\nWhen enabled, paginated search results pages, starting with page 2, will use a noindex, follow robots meta tag to prevent these pages from being indexed by search engines.\n\n\n### Alternate Header Logo URL\n\n\nSet an alternate URL for the header logo. By default, the logo links to your website’s homepage. Enter a full URL (e.g., https://example.com) to replace this behavior and have the logo link to a different page or external website. Leave blank to keep the default.\n\n\n### Member Profile Pages\n\n\nThis section focuses on configuring the structure and format of member profile page URLs.\n\n\n### Member Profile URL Structure\n\n\nElements to create a template that will be used when generating a member's profile page URL. Member_Name is required; however, you can include or exclude all other elements.\n\n\n### Submit Member Review Page URL\n\n\nThe URL used for writing a member review.\n\n\n### First and Last Name Order in Profile Page URL\n\n\nChoose \"First Name First\" (default) to display member names in profile page URLs as first_name-last_name. Choose \"Last Name First\" to display member names in profile page URLs as last_name-first_name.\n\n\n### Member Dashboard\n\n\nThis section defines the URL structures used across various areas of the Member Dashboard and member-related features.\n\n\n### Post URL Structure\n\n\nStructure used for posts when created or saved.\n\n\n### Member Dashboard URL: Account\n\n\nThe root URL of the Member Dashboard that will display when a member is logged in to their account.\n\n\n### Member Dashboard URL: Add Post\n\n\nThe portion URL of the Member Dashboard that will display when a member is creating a Post.\n\n\n### Member Contact Page URL\n\n\nThis is added to member profile page URLs to create the full URL where a Lead or Private Message can be submitted directly to a member.\n\n\n### Member Dashboard URL: Clone Post\n\n\nThe portion URL of the Member Dashboard that will display when a member is cloning a Post.\n\n\n### Member Dashboard URL: Add Multi-Photo Post\n\n\nThe portion URL of the Member Dashboard that will display when a member is creating a Multi-Photo Post Type.\n\n\n### Member Dashboard URL: Photo Display Order\n\n\nThe portion URL of the Member Dashboard that will display when a member is arranging the photos of a Multi-Photo Post.\n\n\n### Member Dashboard URL: Add Photos to Multi-Photo Post Types\n\n\nThe portion URL of the Member Dashboard that will display when a member is adding photos to a Multi-Photo Post Type for first time.\n\n\n### Member Dashboard URL: About Form\n\n\nA portion of the URL used when a member fills out the \"About\" form in the Member Dashboard.\n\n\n### Member Dashboard URL: Contact Details Form\n\n\nA portion of the URL used when a member fills out the \"Contact Details\" form in the Member Dashboard.\n\n\n### Member Dashboard URL: Home\n\n\nThe portion URL of the Member Dashboard that will display when a member is on their Member Dashboard Home Page.\n\n\n### Member Dashboard URL: Password\n\n\nThe portion of the Member Dashboard URL used for the Update Password page.\n\n\n### Member Dashboard URL: Billing\n\n\nThe portion of the Member Dashboard URL used when a member views their account billing information.\n\n\n### Member Dashboard URL: Changelisting\n\n\nThe portion of the Member Dashboard URL used for the Manage Account page.\n\n\n### Business Toolkit URL\n\n\nBusiness Toolkit URL in the Member Dashboard.\n\n\n### Sub Accounts / Additional Locations Account Area URL Slug\n\n\nURL slug for the Sub Accounts / Additional Locations account area page. Leave blank or set to \"additional_locations\" to preserve the default.\n\n\n### Post Publishing\n\n\nThis section outlines the URL structure settings related to member interactions, dashboard navigation, and key user actions on the website.\n\n\n### Default Member Search Page URL\n\n\nThe URL to use for member searches.\n\n\n### Simplified Member Feature URL Structure\n\n\nIf this is set to 1, when members create a post in one of the member features, the location information of the member will not be included in the URL structure of the post.  If set to 0, the site will attempt to add the location information of the member to the URL structure of the post.\n\n\n### Default Member Password Retrieval Page URL\n\n\nThe URL used for the member password retrieval functionality on the frontend of the website.\n\n\n### Member Dashboard URL: Verify Listing\n\n\nPortion of the URL that will display when a member is verifying their account in the Member Dashboard.\n\n\n### Member Dashboard URL: Leads Page\n\n\nThe portion of the URL of the Member Dashboard that will display when a member is viewing their Leads page in their Account.\n\n\n### Member Review Details Page URL\n\n\nThe portion of the URL of the Member Review that will display when visiting the member reviews details page.\n\n\n### Default Edit Post Page URL\n\n\nThe portion URL of the Member Dashboard that will display when a member is editing a Post.\n\n\n### Member Dashboard URL: Delete Post\n\n\nThe portion URL of the Member Dashboard that will display when a member is deleting a Post.\n\n\n### Member Dashboard URL: Edit Multi-Photo Post Type\n\n\nThe portion URL of the Member Dashboard that will display when a member is editing a Multi-Photo Post Type.\n\n\n### Member Dashboard URL: Upload Photos To Multi-Photo Post Types\n\n\nThe portion URL of the Member Dashboard that will display when a member is uploading photos to a Multi-Photo Post Types.\n\n\n### Member Dashboard URL: Delete Multi-Photo Post Type\n\n\nThe portion URL of the Member Dashboard that will display when a member is deleting a Mutli-Photo Post Type.\n\n\n### Member Dashboard URL: Save Post\n\n\nThe portion URL of the Member Dashboard that will display when a member is saving a Post.\n\n\n### Member Dashboard URL: View Post\n\n\nThe portion URL of the Member Dashboard that will display when a member is viewing their Post.\n\n\n### Member Dashboard URL: Edit Photos Data for Multi-Photo Post Type\n\n\nThe portion URL of the Member Dashboard that will display when a member is editing the photos data in a Multi-Photo Post Type.\n\n\n### Newsletter Unsubscribe Page URL\n\n\nThe URL used for the newsletter unsubscribe page.\n\n\n### Member Dashboard URL: Listing Details Form\n\n\nA portion of the URL used when a member fills out the ''Listing Details'' form in the Member Dashboard.\n\n\n### Member Dashboard URL: Profile Photo\n\n\nA  portion of the URL used when a member uploads their Profile Photo, Logo, and/or Cover Photo in the Member Dashboard.\n\n\n### Member Dashboard URL: Service Areas\n\n\nA portion of the URL used when a member selects Service Areas in the Member Dashboard.\n\n\n### Website Homepage URL\n\n\nThe URL used for the homepage of the website.\n\n\n### Member Dashboard URL: Upgrade\n\n\nThe portion of the Member Dashboard URL used when a member upgrades their account.\n\n\n## 3. Members\n\n\nThis section details various display, permission, security, and notification settings that help customize how member profiles function, how users interact with the platform, and how data is handled. These settings include:\n\n- Display\n\n- Permissions\n\n- Security\n\n\n### Display\n\n\nThis section includes settings that control the display and behavior of member profile images and category visibility.\n\n\n### Member Logo as Backup\n\n\nIf the member does not have a profile photo, will use the member's logo as profile photo - and vice versa.\n\n\n### Sub Level Category Display Limit Sets the default number of categories displayed for members in search results.\n\n\n\n### Prioritize Profile Cover Photo as Social Share Image\n\n\nThe system will first attempt to use a member's profile cover photo as the social share image.\n\n\n### Show Only Sub-Sub Categories On Member Profiles\n\n\nThe system will show the sub and sub-sub level categories under ''Specialties''.\n\n\n### Hide Top-Level Category on Member Profile Page\n\n\nThe Top Level Category that displays in the header of member profile pages will be hidden.\n\n\n### Skip Image Size Warning for Profile Photos and Logos\n\n\nSet to ON (default) to not warn members when they upload a profile photo or logo that will have to be stretched in order to work when shared on social media websites. Set to OFF to warn members when uploading a small image that will have to be stretched.\n\n\n### Permissions\n\n\nThis section covers various member management and listing features designed to enhance control, security, and user interaction.\n\n\n### Listing Promotion Tools\n\n\nIf enabled, members can use the built in promotion tools.\n\n\n### Disable members sending messages to themselves\n\n\nIf enabled and set to 1, members will not be able to send messages to themselves from their own profile pages.\n\n\n### Enable Member Account Billing History\n\n\nEnable to allow members to view their invoices and perform all or limited actions.\n\n\n### Allow Live Links in Member About Me Text\n\n\nMembers will be allowed to include additional links in their ABOUT ME section.  This setting is only available for the Bootstrap Version of the software using the default \"Bootstrap Theme - Member Profile - Overview Tab\" widget.\n\n\n### Allow Live Links in the Quote Section of Profile Pages\n\n\nMembers will be allowed to post live links in the Quote section of their profile pages. This setting is only available for the Bootstrap Version of the software using the default 'Bootstrap Theme - Member Profile - Overview Tab' widget.\n\n\n### Strip HTML tags from Listing Details Form\n\n\nIf the setting is \"ON\", it will remove any HTML tag for the input fields in the Listing Details Form.\n\n\n### Prevent Reviews For Own Profile\n\n\nPrevent members from submitting reviews to their own profile page.\n\n\n### Phone Country Codes\n\n\nPhone country codes for the Country Code + Phone number form field type.\n\n\n### Match Sub Account Status to Parent Account\n\n\nThe status of Sub Accounts (Active, On Hold, Past Due, etc) will automatically update to match that of their parent account.\n\n\n### Security\n\n\nThis section addresses key security and privacy settings related to member consent, login behavior, and session management.\n\n\n### Require Re-Consent (GDPR)\n\n\nSet this to 1 if members who have already provided consent to store their data must re-consent when taking a new action (upgrading or updating credit card info).  Set to 0 (default) if members who have already provided consent should not be shown the consent checkboxes again.\n\n\n### Enable Login Token Link\n\n\nWhen set to OFF, these links will require members to log in to their account before they can view the linked page. When set to ON, members will be automatically logged in to their account when clicking on these links.\n\n\n### Member Login Session Active Minutes\n\n\nEnter the number of minutes (without commas) a session will stay active for a member when they are logged into the website.\n\n\n### Enable Spam Detection For Chat Messages\n\n\nWhen a chat message is submitted, the system will automatically check for spam and block messages that violate the rules.\n\n\n### Include Login Token in Member Webhook Payloads\n\n\nWhen enabled, this setting includes the member login token in outgoing webhook payloads for member-related events, including new member registrations, member additions, updates, deletions, and member self-service form submissions. This setting is disabled by default for security purposes. The account password hash and cookies are never included in webhook payloads, even when this setting is enabled.\n\n\n## 4. Sign Ups and Billing\n\n\nThis section covers settings related to Member Sign-Up and Login, Account Status, Billing, and Notifications, offering tools to customize and streamline user account management and payment processes. These settings include:\n\n- Member Sign Up / Login\n\n- Member Account Status\n\n- Billing\n\n- Notifications\n\n\n### Member Sign Up / Login\n\n\nThis section outlines various member account and registration settings that enhance user experience and site functionality.\n\n\n### Default First_Name Value\n\n\nIf a member does not have a first name defined, this value will be placed where the first name would be in email templates.\n\n\n### Show Inactive Countries\n\n\nDisplays inactive countries in drop-down menus around the website, including payment pages\n\n\n### Allow Multiple User Accounts with Same Email Addresses (Duplicate Email Addresses)\n\n\nMembers can have multiple accounts with the same email address (but they need different passwords).\n\n\n### Member Redirect Login Rules\n\n\nEnter a comma separated list of pages (/login,/about,etc) where if a member logs in from those pages, they will always be redirected to the page defined in their membership level setting.\n\n\n### SPAM Protection - Member Signup Form Submission Time\n\n\nThe minimum number of seconds it should take to submit member signup forms once the page loads.\n\n\n### Reload Same Web Page After Express Member Registration\n\n\nThe user will remain on the same page after they sign up as a member via the Express Member Registration form instead of being redirected to the Member Dashboard.\n\n\n### Reload Same Web Page After Express Member Registration - Exception List\n\n\nA comma-separated list of pages that will continue to redirect users to the Member Dashboard after they have signed up via the Express Member Registration form, even if the ''Reload Same Web Page After Express Member Registration'' Advanced Setting is enabled.\n\n\n### Use Card-Based Layout on Member Upgrade Page\n\n\nWhen enabled, the member account Upgrade page (/account/upgrade) displays available membership plans as a modern card-based layout instead of the classic stacked list.\n\n\n### Member Account Status\n\n\nThis section manages member account statuses related to cancellations and payments.\n\n\n### Member Status After Requesting to Cancel\n\n\nChoose which status you would like to assign to members once they have requested to cancel their account.\n\n\n### Suspend Past Due Member Accounts\n\n\nWhen set to ON, members with a past due invoice will automatically have their account status changed to Past Due during the site's daily billing process, even if they do not log in. If a member logs in or appears in the Search Members page in the Admin before the daily process runs, their status will be updated to Past Due at that time instead.\n\n\n### Billing\n\n\nThis section covers advanced billing and member management features, including sales representative tracking, AVS address validation for payments, and invoice payment instructions.\n\n\n### Enable Sales Rep Field in Edit Members Form\n\n\nTurn on this feature if you want to enable sales_rep tracking for your members.\n\n\n### Use AVS Billing Address Fields\n\n\nWhen this is enabled, all forms that collect credit card information will also include fields necessary for AVS validation by your payment gateway. When you disable this, make sure all AVS settings in your active payment gateway are off.\n\n\n### Invoice Pay To Instructions\n\n\nEnter the address and payment information that will appear in the Pay to box on your invoices to your members.\n\n\n### India Stripe Account Accept International Payments\n\n\nEnable this setting to allow the website's Stripe account based in India to accept payments from other countries.\n\n\n### Save Billing Address As Member Address\n\n\nSet to Yes to save the Billing Address entered during signup as the member's profile address as well.  Set to No (default) to only save the Billing Address as billing information and not as their profile address.\n\n\n### MEMBER CREDITS: Enable Credit System\n\n\nTurn this setting ON to enable the credit system. Turn this setting OFF to disable showing the credit system functionality and auto-applying of credits to your members. You must also have the Member Credit System Add-on active for this setting to work.\n\n\n### MEMBER CREDITS: Enable Prorated Plan Changes\n\n\nOnly works when the “Member Credits System” Add-On is enabled and the \"Enable Credits System\" Advanced Setting is set to \"ON\". Set to ON in order to enable prorated calculation when members change their own plans.\n\n\n### MEMBER CREDITS: Proration: Deduct First Day Usage from Proration Calculation\n\n\nOnly works with “MEMBER CREDITS SYSTEM” add-on.. Set to ON to deduct the first day's usage from the proration amount calculation.\n\n\n### MEMBER CREDITS: Select Transaction Types Credits Can Be Applied To\n\n\nSelect the types of transactions where member credits can be applied. If an item is unchecked, member credits will not be used for those types of transactions.\n\n\n### Notifications\n\n\nThis section focuses on email notification settings related to member billing and account status changes.\n\n\n### Send Email Notification When Member Updates Billing Details\n\n\nWhen a member updates their credit card or billing information in the new billing module, send a notification to the email addresses specified here.\n\n\n### Do Not Receive Email After Cancellation\n\n\nWhen set to OFF (default), the Default Website Email Address will receive an email notification when a member requests to cancel their accounts.  When set to ON, no notification email will be sent when a member requests to cancel their account.\n\n\n### Send Failed Payment Notification Emails\n\n\nSet this to ON to send an email notification to the Default Website Email address when a user's attempt to sign up for a paid Membership Plan fails.\n\n\n### Do Not Send Empty Daily Reminder Report\n\n\nWhen this is set to ON, the system will not send a Daily Invoice Report to the admin when there is no billing activity.\n\n\n## 5. Search\n\n\nThis section focuses on Display Settings, Search Modules, and Search Logic; key areas that shape how users interact with and experience search results on the website. These settings consist of:\n\n- Display\n\n- Search Modules\n\n- Search Logic\n\n\n### Display\n\n\nThis section focuses on enhancing location-based search and URL functionality.\n\n\n### Countries to Display Cities Instead of States\n\n\nEnter a comma-separated list of Country Codes that should link to a list of cities in the country instead of states/provinces on the /locations page of the site.\n\n\n### Show Member Position in Member Search Results\n\n\nIf turned on the member's position will show on member search result pages.\n\n\n### Enable All Location Features for \"Pretty URL\" Search Results Pages (Additional Google Maps API Cost)\n\n\nSet to OFF (default) to show members that match a ''Pretty URL'' search results page's location by text only (do fewer Google Maps API calls). Set to ON to include all member location search results features (do more Google Maps API calls).\n\n\n### All Location Features For Pretty URL Search Results Pages API Key\n\n\nEnter the Google Maps API Key for the 'Enable All Location Features For ''Pretty URL'' Search Results Pages' functionality.\n\n\n### Prompt visitors to share their location automatically on page load?\n\n\nWhen set to OFF (default), visitors to the site can share their location by clicking on the icon in the website's location search fields.  When set to ON, prompt all visitors to share their location automatically as soon as they visit the website.\n\n\n### Insta-Load Search Results Button Behavior\n\n\nSelect how more search results are fetched with the ''Load More Results'' button.\n\n\n### Search Modules\n\n\nThis section offers settings to customize how categories and filters behave in member search results.\n\n\n### Auto-Expand Sub-Level\n\n\nIf enabled, auto-expands the next drop-down menu in a chained search series.\n\n\n### Recommend Sub-Level\n\n\nIf enabled, the next drop-down in a chained search series will be optional rather than pre-selecting the first option.\n\n\n### Show Sub-Categories in Member Search Results\n\n\nWill display member's sub-level categories on member search result pages. NOTE - will slow down load time.\n\n\n### Dynamic Category Search Accordions Open\n\n\nIt will load all the accordions on the dynamic category sidebar modules open.\n\n\n### Show Top Category in Member Search Results\n\n\nIf turned on the member's top level category will show on member search result pages.\n\n\n### Dynamic Category Filter - Broad Match\n\n\nSet to ON (default) to return members listed in ANY of the selected categories. Set to OFF to only return members listed in ALL of the selected categories.\n\n\n### Dynamic Category Filtering - Only Show Categories Related to the Searched Category\n\n\nWhen clicking on dynamic filters checkboxes, keep the top or sub category context from the URL so the dynamic filters in sidebar only show categories related to the page the category filter widget is being displayed on.\n\n\n### Search Logic\n\n\nThis section defines how location-based searches are conducted for different administrative levels, such as neighborhoods, counties, and states, allowing results to be returned based on either geographical bounds or a specified radius.\n\n\n### Neighborhood Search Method\n\n\nSelect how results will be returned when a user searches for a \"Neighborhood\" location (typically a section of a city in many countries). Selecting \"Bounds\" will return results that are within the bounds of the searched location.  Selecting ''Radius'' (default) will will return results within the ''Default Search Radius'' of the center of the searched location.\n\n\n### Administrative Area Level 2 Search Method\n\n\nThis setting needs the ''Members Search Engine'' setting to be set to 1 to work. With this setting, you can choose the type of search that will be performed when a location is an Administrative Area Level 2 or has the same location scope as an Administrative Area Level 2. The two options that it has are ''bounds'' (default) or ''radius''. if set to radius, the radius that will be applied will be the one on the setting ''Default Radius Search\".\n\n\n### Administrative Area Level 2 Search Method\n\n\nSelect how results will be returned when a user searches for an ''Administrative Area Level 2'' location (typically a ''county'' in many countries). Selecting ''Bounds'' (default) will return results that are within the bounds of the searched location.  Selecting ''Radius'' will will return results within the ''Default Search Radius'' of the center of the searched location.\n\n\n### Administrative Area Level 1 Search Method\n\n\nSelect how results will be returned when a user searches for an ''Administrative Area Level 1'' location (typically a state or province). Selecting ''Bounds'' (default) will return results that are within the bounds of the searched location.  Selecting ''Radius'' will will return results within the ''Default Search Radius'' of the center of the searched location.\n\n\n### Member Keyword Search - Exclude Custom Fields\n\n\nEnter a comma-separated list of the custom field variable names to exclude when performing a keyword search.\n\n\n### Member Keyword Search - Exclude Custom Fields\n\n\nEnter a comma-separated list of the custom member fields to exclude when performing a keyword search.\n\n\n### Member Keyword Search - Exclude Default Fields\n\n\nEnter a comma-separated list of the default member fields to exclude when performing a keyword search.\n\n\n### Complete Profile Fields\n\n\nA comma-separated list [NO SPACES] of the Member Profile Fields that must be filled in by a member for their profile to be considered \"COMPLETE\". If the \"Require Complete Profiles\" setting is enabled, a member will not appear in search results unless their profile is \"COMPLETE\".\n\n\n## 6. Text Editor\n\n\nThis section outlines settings related to Text Editors, Permissions, and File Upload capabilities on the website. These options help manage how users create and format content, what types of HTML and media are permitted, and the size limits for uploads.\n\n- Text Editors\n\n- Permissions\n\n- File Upload\n\n\n### Text Editors\n\n\nThis section covers advanced settings for the Froala WYSIWYG text editor, including options to simplify pasted content to plain text, enable emojis, embed widget shortcodes, and integrate third-party tools like Embedly and ChatGPT.\n\n\n### Froala Plain Paste\n\n\nWhen this setting is enabled, Froala WYSIWYG HTML Editor filters the pasted content and keeps only plain text by removing all its rich formatting.\n\n\n### Froala Emojis\n\n\nEnable Emojis in Froala's toolbar.\n\n\n### Allow Widget Shortcode in Front-End Text Editor\n\n\nThe text editor \"Froala Text Editor - Media Manager Access\" will allow embedding widget shortcode in the text editor and rendering the widget's HTML on the front-end of the website.\n\n\n### Enable Embedly in Frontend Froala Editors\n\n\nInclude Embedly embeddable content in the Froala Editors selected here. This will include the Embedly functionality in all of the Froala Editors of each type used throughout the website.\n\n\n### Enable chatGPT in Frontend Froala Editors\n\n\nEnable the integration of the chat GPT functionality in the selected Froala Editors.\n\n\n### Froala Remove Attributes When Pasting Text\n\n\nA comma separated list of attributes that will be removed when pasting something into the text editor.\n\n\n### Froala Markdown\n\n\nEnable Markdown in Froala's toolbar.\n\n\n### Froala Enable Stock Photo Library\n\n\nSelect which front-end text editors the stock photo library will be enabled for. Remember to also enable access for membership plans or individual users as well.\n\n\n### Auto-Save Drafts\n\n\nWhen enabled, supported pages will auto-save changes as a draft and offer to restore them if the content is not saved. Turn it OFF to disable drafts site-wide.\n\n\n### Permissions\n\n\nThis section defines content and formatting controls for posts and frontend forms, including settings for selecting post publish dates, specifying which HTML tags are permitted in posts and forms, and managing allowed iframe source domains.\n\n\n### Allow Selecting A Post Start / Publish Date in the Past\n\n\nThe Start Date or Post Date of a post can be any date.  If set to 0, members can only select a Start Date or Post Date in the present or future.\n\n\n### Allowed HTML Tags\n\n\nHTML elements that are allowed for use in the body of posts published on the website.\n\n\n### Allowed Iframe Sources\n\n\nAdd a comma separated list of the domains that you want to allow as a sources of iframes in your website.\n\n\n### Froala Allowed Empty Tags\n\n\nA list of HTML elements that are allowed to be empty in Froala Editors.\n\n\n### Allowed Frontend HTML Tags\n\n\nHTML elements that are allowed for use in frontend forms.\n\n\n### File Upload\n\n\nThis section outlines file size limits for uploads across different features, including the maximum file size for the Froala text editor, image uploads for single and group posts, file uploads, and PDF files shared in private member chats.\n\n\n### Max Text Editor Size\n\n\nThe max size of files (in MB) that can be uploaded via froala WYSIWYG editors.\n\n\n### Froala Upload File For Chat\n\n\nSetting this to ''ON'' will allow members to upload PDF files in Private Member Chats.  Set to ''OFF'' (default) to disable the sending of PDF files in Private Member Chats.\n\n\n### Single Post Image Upload Size\n\n\nSingle Post Image Upload Size.\n\n\n### Group Post Image Upload Size\n\n\nThe default file size for Group Post Images.\n\n\n### File Image Upload Size\n\n\nThe default file size for File Image upload.\n\n\n### Froala Chat PDF File Size\n\n\nDefault file size for the Froala Chat PDF file.\n\n\n## How to Activate the Settings\n\n\nThe advanced settings have three formats.\n\nSwitches:\n\nText Inputs:\n\nDropdown Selects:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183478775/original/kutDcfNAcv45NDBTv0Sn-8kwgOaPMoHGgQ.png?1786481768",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183479186/original/euQpvje-AU42JFD2zHT3Es_qBzzOMHJvVA.png?1786482189",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183542224/original/73YjYx6uEFk3kvvPid9D4xcRnE01jLzR0A.png?1786568105",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183479441/original/eSVnyKcdE9qgfuQzByZd11xMqarYQbYS6w.png?1786482531",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182155192/original/yiKaU46c72C6f_SVyRXQTNqMZY1_GlVurw.png?1784217867",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183481290/original/KsdgR0lbm5WhbLQD57B74AmRhpRUvdRaYA.jpeg?1786484623",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183481335/original/lYyFQwOsd70q7jKXE3HMrMEZVcmb0-WfQA.png?1786484718",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183482923/original/-zBIAKbuoGFyz5dmuRsNyVWBEs96PZx9EQ.png?1786486982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183542231/original/hBTxYTB4KZqUkJ8eM11BhFdZJYgEWtiqYA.png?1786568134",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183484572/original/NfJmDbVAB0SshNtLhkrNliX8Zw5va_RwtA.png?1786489887",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183484575/original/8kiKx2jChWdnYkFFOEE__xz3avCT-Uzkhw.png?1786489898",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183484586/original/Luvs-j18SVPPAATEI7_bxq4tqw7kmiS7ug.png?1786489934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183484598/original/LtACIuFN1z5YLcmpeEyFzD-ksRJV9GeTzQ.png?1786489980",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183484601/original/lRhZMx3GnFnr7-CBZgbXvS-_1S4VcKlNrQ.png?1786489994",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183484661/original/fTmH7ScZ6d6B0NEFgl4qQ8veRhCvsRsGLw.png?1786490057",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183484664/original/TQtuuMSlx6kATBs-hFE1DyPnvXTtWDMXQQ.png?1786490065",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183542301/original/c-XNhqH0X1pumQw2uMvNhE2IpmyE_MH9lQ.png?1786568168",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183485479/original/Pkezuz3V5iKk-3quX6VCDxuJnw1HCxrTRQ.png?1786491473",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183485924/original/W-BjHb-YqROtvFEXvb0yyJ3OCuru_3r6yA.png?1786492246",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183485925/original/0OAFWprURP7F_TtxraFWwwYcTmq3ZgLv-A.png?1786492257",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183486017/original/m2fbtQF27j1rXwpHxHb9wBliZMi8RGUBZQ.png?1786492369",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183542332/original/PIJvJQ07ORVVuw-zU3GrGlY2mcMzUwNCpg.png?1786568216",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183539225/original/fcUMp9Cdph7qGJodZGRa1E7x3jxwaXA0Ng.png?1786564816",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183539418/original/-9_nbTmx3AkxrrJy1DKoCRIqQZqzZD9MRA.png?1786564960",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183540166/original/kQbd_0-tX9kniT0OWKhfJ4SlJavtPDFapQ.png?1786565835",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183540182/original/6Oimt2qCMjqVkNJzOKUI4cJzvTpdFurO7w.png?1786565868",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183542376/original/jdTdtEA7j7jgJjMgykXrQ7VyiJNsZuAXcQ.png?1786568262",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183542374/original/yC8Z34QasqXSUSjMW55hHE6bdoPUsfVUoQ.png?1786568252",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183540327/original/X3LKZAzqjETJ3mRXm9As0rqv5L9jpg-kVQ.png?1786566021",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183540345/original/qzMoyTFcD92Zn0iBcj6oTJuDYWqdjUqaRQ.png?1786566041",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183540364/original/Pi-9ME7OVsaBKCilH1ypNJj0zApxS9GJ3g.png?1786566069",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183542423/original/qS4JzfS9rFEAmaOawzB-AWNbNXCSTjjm5A.png?1786568301",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183540397/original/-6LvsLOTXrAfLtkgteAvJ-yK028eVtcsuA.png?1786566114",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183540431/original/pTyQ90rnAxVhIWwhTKDD2P1Jsu0ZhF2MZA.png?1786566170",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183540438/original/X-f8nF08f_8g_zOR6LRXVMkhwb-E7m3oAg.png?1786566200",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169739291/original/xO17XLo0qJjZA-uboGI3SlZ8OqP2zYsy7w.png?1761762154",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170372571/original/O8jQtPEFirPIFccDhAUr-8aDPTkSTTIQ5w.png?1762880575",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164637120/original/DS88WcuvNTvZjjtouDNLfVm3mT2kwTK2fg.png?1753130485",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Advanced Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895"
+    },
+    {
+      "text": "Global",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-1-global"
+    },
+    {
+      "text": "URL Rules",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-2-url-rules"
+    },
+    {
+      "text": "Members",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-3-members"
+    },
+    {
+      "text": "Sign Ups & Billing",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-4-sign-ups-and-billing"
+    },
+    {
+      "text": "Search",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-5-search"
+    },
+    {
+      "text": "Text Editor",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-6-text-editor"
+    },
+    {
+      "text": "Optimization",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-optimization"
+    },
+    {
+      "text": "Security",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-security"
+    },
+    {
+      "text": "Design",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-design"
+    },
+    {
+      "text": "Admin",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-admin"
+    },
+    {
+      "text": "WebP for better performance",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071030"
+    },
+    {
+      "text": "Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-website"
+    },
+    {
+      "text": "Member Profile Pages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-member-profile-pages"
+    },
+    {
+      "text": "Member Dashboard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-member-dashboard"
+    },
+    {
+      "text": "Post Publishing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-post-publishing"
+    },
+    {
+      "text": "Display",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-display"
+    },
+    {
+      "text": "Permissions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-permissions"
+    },
+    {
+      "text": "Security",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-security-1"
+    },
+    {
+      "text": "Member Sign Up / Login",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-member-sign-up--login"
+    },
+    {
+      "text": "Member Account Status",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-member-account-status"
+    },
+    {
+      "text": "Billing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-billing"
+    },
+    {
+      "text": "Notifications",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-notifications"
+    },
+    {
+      "text": "Display",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-display-1"
+    },
+    {
+      "text": "Search Modules",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-search-modules"
+    },
+    {
+      "text": "Search Logic",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-search-logic"
+    },
+    {
+      "text": "Text Editors",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-text-editors"
+    },
+    {
+      "text": "Permissions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-permissions-1"
+    },
+    {
+      "text": "File Upload",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895-settings-%C2%BB-advanced-settings#section-file-upload"
+    }
+  ],
+  "lastmod": "2026-08-18T19:28:18+05:30",
+  "scraped_at": "2026-10-18T13:43:23.458038"
+}

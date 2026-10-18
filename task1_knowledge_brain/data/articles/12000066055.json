@@ -1,0 +1,23 @@
+{
+  "article_id": "12000066055",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000066055-01-03-20-software-updates",
+  "title": "01/03/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/03/20 - Software Updates"
+  ],
+  "content": "## 01/03/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000066055\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Detect Visitor Locations Add-On in order to only prompt the user to share their location if that information will be used on the current page being viewed. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue which was preventing the Events Search Results page from returning all of the posts that should be shown in some cases. Widget Involved: Search - Post - Search Query\n\n- We fixed an issue which was allowing members to sign up for Paid Membership Plans even when there was an issue with the payment in some cases.\n\n- We updated the style of the <a> tag on pricing page menus in order to be styled as a <span> tag for display purposes. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was preventing the system from displaying the Predictive Keyword Search Add-On dropdown on keyword search fields on the homepage to members whom are logged in to their account.\n\n- We updated the Member CSV Import Tool in order to support a country_name value being imported without a country_code value also being specified.\n\n- We updated the aesthetics of the Form Manager page in the Admin.\n\n- We updated the Member Profile Badges to be compatible with Text Labels.\n\n- We made the Sub Category Only, Sub Category + Location, and Sub Sub Category + Location search module widgets available when selecting a Sidebar Search Module for a Post Type on the the Edit Post Setting page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000066055",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000066055"
+    }
+  ],
+  "lastmod": "2020-01-04T04:14:41+05:30",
+  "scraped_at": "2026-10-18T13:45:57.491224"
+}

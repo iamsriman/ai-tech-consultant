@@ -1,0 +1,170 @@
+{
+  "article_id": "12000045147",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045147-my-members-search-members-overview",
+  "title": "My Members » Search Members Overview",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "My Members » Search Members Overview"
+  ],
+  "content": "## My Members » Search Members Overview\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000045147\n\nThe Search Members section is one of the most frequently used areas of the admin dashboard. It provides access to member records, filtering tools, bulk management actions, and AI-assisted member data queries, all from a single screen.\n\nTo access the section:\n\nNavigate to My Members in the admin dashboard. Click Search Members .\n\nThe Search Members screen is organized into four main areas:\n\n- Search Filters — narrow the member list by specific criteria.\n\n- Member Sidebar — toolbar containing member management tools.\n\n- BD Butler Tool — AI assistant for member data queries and actions.\n\n- Member Search Results Table — the list of member records matching the active filters.\n\n\n## 1 - Search Filters\n\n\nA set of filters is displayed at the top of the Search Members page. These allow the administrator to narrow the member results list based on specific criteria before taking any action.\n\nFull Reference: My Members Search Members - Search Filters .\n\n\n## 2- Member Sidebar\n\n\nThe Member Sidebar is located in the upper right area of the Search Members page. It contains three tools for managing and importing member records.\n\n\n### Add New Member\n\n\nOpens the Add New Member form, allowing the administrator to manually create a member account directly from the admin dashboard without requiring a front-end sign-up.\n\nFull Reference: How to Add Members Manually via Admin\n\n\n### Sync Members with Google Maps\n\n\nOpens the Batch Geocoder tool, used to assign latitude and longitude coordinates to member records in bulk so they become searchable by location.\n\nFull Reference: How to Geocode Members\n\n\n### List Actions Dropdown\n\n\nA dropdown menu containing three additional member management options.\n\n\n### Import Members via CSV File\n\n\nImports member records into the site from a CSV file. Template files and import guidelines are available in the reference article.\n\nFull Reference : How To Import Members Via CSV File\n\n\n### Export List of Current Members\n\n\nExports the currently filtered member data, including fields such as email addresses and phone numbers, into a downloadable CSV file.\n\n⚠ ADD-ON REQUIRED — Export Member Data: This option is only available when the Export Member Data add-on is active on the site. If the add-on is not active, this option will not appear in the List Actions dropdown.\n\n\n### Create Smart Lists from Current Results\n\n\nGenerates a Smart List based on the filters currently active in the Search Members section. The Smart List automatically groups members who match those filter criteria.\n\nFull Reference : My Members » Smart Lists\n\n\n## 3 - BD Butler Tool\n\n\nThe BD Butler AI tool is located below the Member Sidebar on the right side of the Search Members page. It is designed to assist administrators with member data queries and certain member-level actions without requiring manual navigation through the dashboard.\n\nThe tool can be used to ask questions about member data and to perform actions such as changing the top-level category for one or multiple members.\n\nFull Reference: BD Butler Tool\n\n\n## 4 - Member Search Results\n\n\nThe Member Search Results Table is displayed below the filters and sidebar. It lists all member records that match the currently active search filters.\n\nFull Reference: Member Search Results Table\n\n\n### Sort Options\n\n\nThe results table can be sorted using the following options:\n\nSort Option Description Sort Name A–Z Alphabetical ascending by member name. Sort Name Z–A Alphabetical descending by member name. Sort ID Highest Members with the highest system ID shown first. Sort ID Lowest Members with the lowest system ID shown first. Sort Newest First Most recently joined members shown first. Sort Oldest First Earliest joined members shown first. Sort Most Revenue Members with the highest revenue shown first. Sort Least Revenue Members with the lowest revenue shown first. Sort Most Credits Members with the most credits shown first. Sort Least Credits Members with the fewest credits shown first.\n\nFull Reference: My Members - Search Members - Sorting Options\n\n\n### Bulk Actions\n\n\nThe far-left column of the results table contains checkboxes for selecting individual member records. Selected members can then have a bulk action applied to them simultaneously via the Bulk Actions dropdown.\n\nFull Reference : Bulk Actions For Search Members Section\n\n\n### Verified Members Indicator\n\n\nWhen a member has been set to Verified status, a verified icon is displayed alongside their record in the results table.\n\nReferences : How to Verify a Listing · Quick Edit Module For Members\n\n\n### Internal Notes Indicator\n\n\nWhen internal notes have been added to a member record via the Quick Edit module, a notes icon is displayed alongside that member's record in the results table. This provides a visual confirmation that notes exist without requiring the Quick Edit module to be opened.\n\nReference : Quick Edit Module For Members",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181025555/original/jTQg5MVxENDExT6e87rO3wW3cq9JdOGfhg.png?1782398505",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181025561/original/xh70KL56DGWhvQO3wNy7lpy4lXGmn6Crag.png?1782398524",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181025621/original/WEopf71komckUJUTHqRJriHOZr7A5VMA2g.png?1782398555",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159696476/original/xvycJj2MByMtuBXvYn_E2KI_rLFKZWaf-w.png?1744238991",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181025654/original/7oYhlfFsg3zQHAP2yjksLmyXD-bE5_oLnw.png?1782398591",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131603093/original/Z_xv2tKlhxJ78ZrtSZs4c_nXi45rHBpr1w.png?1695226004",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159696951/original/SyS_D2sjszsx83MdyZOgG_nzf_dTOPyZYg.png?1744239895",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131603514/original/5GmnlEs1hAD7zOS05pw5ET-hWIJDJ5OrdA.png?1695226319",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131606533/original/Qb5tiGKcpDchlgAnd5Hep1si4G9LOja8cQ.png?1695228841",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131606601/original/3khA5IiFwP-Yckqv3fFWk0xgv9CTynKciA.png?1695228942",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Search Members Overview' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000045147",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045147"
+    },
+    {
+      "text": "My Members Search Members - Search Filters",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000103849"
+    },
+    {
+      "text": "How to Add Members Manually via Admin",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articless/12000078614"
+    },
+    {
+      "text": "How to Geocode Members",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044148"
+    },
+    {
+      "text": "How To Import Members Via CSV File",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000558475"
+    },
+    {
+      "text": "Export Member Data",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000039479"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000039479"
+    },
+    {
+      "text": "My Members » Smart Lists",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071871"
+    },
+    {
+      "text": "BD Butler Tool",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000107806-bd-butler"
+    },
+    {
+      "text": "Member Search Results Table",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000103850"
+    },
+    {
+      "text": "My Members - Search Members - Sorting Options",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000103852"
+    },
+    {
+      "text": "Bulk Actions For Search Members Section",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078616"
+    },
+    {
+      "text": "How to Verify a Listing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021982"
+    },
+    {
+      "text": "Quick Edit Module For Members",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "Quick Edit Module For Members",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940"
+    }
+  ],
+  "lastmod": "2026-07-03T19:26:21+05:30",
+  "scraped_at": "2026-10-18T13:42:51.831759"
+}

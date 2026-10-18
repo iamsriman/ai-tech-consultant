@@ -1,0 +1,23 @@
+{
+  "article_id": "12000068997",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068997-03-27-20-software-updates",
+  "title": "03/27/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/27/20 - Software Updates"
+  ],
+  "content": "## 03/27/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000068997\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the Import Member Categories tool which was preventing the system from importing all of the category data correctly in some cases.\n\n- We fixed an issue which was preventing submitted member reviews from respecting the \"Member Review Settings\" in the Membership Plan settings in some cases.\n\n- We fixed an issue which was preventing the editing of category images on the Member Categories page in the Admin.\n\n- We updated the logic of the upload Profile Photo section of the Member Dashboard in order to remove an alert which was displayed after uploading an image when using the Mozilla Firefox browser. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was preventing the system from displaying the Admin Sidebar Menu when visiting the site as an Administrator in some cases.\n\n- We fixed an issue with the Admin Media Manager which was preventing images from being uploaded in some cases.\n\n- We fixed an issue that was preventing the Activity Tracker in the Admin from recording the ID of members that were deleted in bulk.\n\n- The status of members can now only be manually set to \"Past Due\" in the Admin when the member has a past-due invoice.  Conversely, if a member has a past-due invoice the status of the member cannot be manually changed to \"Active\". This logic will apply only if the auto_suspend_accounts A dvanced Setting is active on a site.\n\n- We updated the Event Search Engine in order to return more accurate results when using the Auto-Recurring Events Add-On. Widgets Involved: Search - Post - Search Query\n\n- We added support for the %%% last_name%%% variable in the \"recommendation-member\" email template. Widget Involved: Account - Save Actions\n\n- We fixed an issue with the Google Sitemap Generator Add-On which was causing it to generate incorrect links for member review pages.\n\n- We updated the description text for the Invoice Logo section of the Brand Images tab on the General Settings page of the Admin.\n\n- We added the ability to apply the Admin Role Permission logic for Plugins created by third party developers. This feature can be added to the Custom Admin Roles of a site.\n\n- We updated the Property Sidebar Search widget in order to support cloned Post Types. Widget Involved: Bootstrap Theme - Module - Property Search\n\n- We added a new Admin Role Permission that toggles whether or not a Role has access to change the status (Active or Inactive) of Admin Accounts.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000068997",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068997"
+    }
+  ],
+  "lastmod": "2020-03-28T22:25:05+05:30",
+  "scraped_at": "2026-10-18T13:46:17.143381"
+}

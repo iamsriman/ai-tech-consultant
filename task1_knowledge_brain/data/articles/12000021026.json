@@ -1,0 +1,125 @@
+{
+  "article_id": "12000021026",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021026-setting-up-locations-for-uk-directories",
+  "title": "Setting Up Locations For UK Directories",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Setting Up Locations For UK Directories"
+  ],
+  "content": "## Setting Up Locations For UK Directories\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000021026\n\nYour Brilliant Directories website is integrated with Google Maps API. This means that your website is powered by the robust functionality of Brilliant Directories. This also means that there are certain limitations regarding what Brilliant Directories can do to edit Google Maps functionality. Here are some important items every United Kingdom Website owner should be aware of: Google Location Types Google assigns \"United Kingdom\" as the \"Country\" location type and \"England\" as the \"Administrative Area Level 1\" type which is normally reserved for States and Provinces. In all, Brilliant Directories uses five location types that you can set to either \"bounds\" or \"radius\". The Bounding and Radius Location Searches articles outlines in detail the difference between these settings and what each means. It is important to understand that although only five settings appear in the admin, there are 24 total location types that are controlled by these six primary settings, and all are based on the Google Location response. The parent settings are: \"Zip / Postal Code\" searches are for Zip Codes \"Locality\" searches are for cities \"Administrative Area Level 2\" searches are for counties \"Administrative Area Level 1\" searches are for States and Provinces Country There is a sixth location type that the Brilliant Directories system does not provide settings or SEO templates for: \"Neighborhood\" searches are very rarely used and we would recommend not modifying this setting The following chart shows all of the google location types and which primary setting they are tied to: Click here for complete documentation on the Google Maps Locations Hiding \"United Kingdom\" From URL Structure Brilliant Directories makes it easy to hide the \"country\" location type and swamp it for the \" Administrative Area Level 1\". This means that your member and feature posts URL structure will go from looking like this: http://mysite.com/united-kingdom/medecine/dr-patrick-awesome To http://mysite.com/england/medecine/dr-patrick-awesome To accomplish this, navigate to the Settings >> Advanced Settings and conduct a search for Member Profile URL Structure setting: The next step would be replacing the country_name variable with the state_name variable. After the changes, the new structure would look like this: Optimizing Field Labels via Form Manager To Match United Kingdom Locations IMPORTANT NOTE: Do not edit the \"Database Variable\" in form of the default fields. Editing this variable name will not return the correct end results. Navigate to Toolbox >> Form Manager and click Customize on a default Contact Details Form: Enable the Display View for the field with the variable name country_code if planning to display this value on profiles pages and disable it this field needs to be hidden on profile pages. Remember that the \"Country\" value will always be \"United Kingdom\" hence many site owners choose to hide this: Enable the Display View for the field with the variable name state_code if planning to display this value on profiles pages and disable it this field needs to be hidden on profile pages. Keep in mind that the \"State\" will always be England, Ireland, Northern Ireland, Scotland, and Wales for UK directories. Optional #1 : If you wish to add neighborhoods such as \"Basford\" or \"Canton\", create a new field for this location type. To add a new field, simply click on Add Field button. This is how this newly created field would look like: Optional #2: If you wish to add UK counties such as \"Nottinghamshire\", create a new field for this location type. To add a new field, simply click on Add Field button. This is how this newly created field would look like: Very Important Note: Keep in mind that the steps Optional #1 and #2 are hard coded solutions that do not integrate with the location database. These custom variables will exist in the database but they will need to be called on the search results via customization. And this is what it looks like when your members are filling out the contact details form:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12001311720/original/blob1454445464933.png?1454445474",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Locations For UK Directories' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099571393/original/TOXE5cMqcjq9vIEVPf2S4d3ihNNlq47gdw.png?1634248393",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Locations For UK Directories' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099571462/original/X_YQCZlbJCMZPpbFnlpdEp02bug-qv_wXA.png?1634248536",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Locations For UK Directories' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099571636/original/8-OqN5VwcsGvV2JW9rqaG6u1nqIi-3P1cA.png?1634248834",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Locations For UK Directories' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099571729/original/GdYGj_tzu0c_ULKz9bZfFM3tySluRa9J2w.png?1634249004",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Locations For UK Directories' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099571798/original/6v0HVoNkfDUrsPiJyzoRD8rEhn4flG-rKA.png?1634249207",
+      "alt": null,
+      "caption": "Optional #1: If you wish to add neighborhoods such as \"Basford\" or \"Canton\", create a new field for this location type. To add a new field, simply click on Add Field button. This is how this newly created field would look like:Optional #2:If you wish to add UK counties such as \"Nottinghamshire\", cre",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Locations For UK Directories' in section 'Developer Hub' / 'Additional Tips & Tutorials'. Context: Optional #1: If you wish to add neighborhoods such as \"Basford\" or \"Canton\", create a new field for this location type. To add a new field, simply click on Add Field button. This is how this newly created field would look like:Optional #2:If you wish to add UK counties such as \"Nottinghamshire\", cre",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099571875/original/VUs3zYBHuployi9u_017_dJycOJrKOs6NA.png?1634249477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Locations For UK Directories' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099571894/original/QX68wZlMJ4JMZJMM86cNaSvRTEC-AqIxgg.png?1634249538",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Locations For UK Directories' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12011721418/original/siCvTWp5D5fBinTvLMuipZanYyvvBcYAsA.png?1478815977",
+      "alt": "siCvTWp5D5fBinTvLMuipZanYyvvBcYAsA.png",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Setting Up Locations For UK Directories' (Developer Hub > Additional Tips & Tutorials): siCvTWp5D5fBinTvLMuipZanYyvvBcYAsA.png",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000021026",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021026"
+    },
+    {
+      "text": "Bounding and Radius Location Searches",
+      "url": "http://support.brilliantdirectories.com/support/solutions/articles/5000673066"
+    },
+    {
+      "text": "Click here for complete documentation on the Google Maps",
+      "url": "https://developers.google.com/maps/documentation/geocoding/intro"
+    },
+    {
+      "text": "Locations",
+      "url": "https://developers.google.com/maps/documentation/geocoding/intro"
+    },
+    {
+      "text": "http://mysite.com/united-kingdom/medecine/dr-patrick-awesome",
+      "url": "http://mysite.com/united-kingdom/medecine/dr-patrick-awesome"
+    },
+    {
+      "text": "http://mysite.com/england/medecine/dr-patrick-awesome",
+      "url": "http://mysite.com/england/medecine/dr-patrick-awesome"
+    }
+  ],
+  "lastmod": "2025-10-28T08:17:31+05:30",
+  "scraped_at": "2026-10-18T13:40:44.642056"
+}

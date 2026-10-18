@@ -1,0 +1,69 @@
+{
+  "article_id": "12000032539",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032539-edit-the-min-max-value-of-price-sliders",
+  "title": "Edit The Min & Max Value of Price Sliders",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "Edit The Min & Max Value of Price Sliders"
+  ],
+  "content": "## Edit The Min & Max Value of Price Sliders\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000032539\n\nSpecific Post Types, such as Properties, include price sliders in their search widgets to allow for the selection of value ranges. By default, the price slider for Properties features a minimum value of $0 and a maximum value of $5,000,000, as demonstrated below:\n\nUsers may click these values and slide them horizontally to adjust the search range.\n\nFor example, the following image displays a search for a more specific range of values:\n\n\n## Updating Minimum and Maximum Slider Values\n\n\nTo modify the default minimum and maximum values for a price slider.\n\n\n### Navigate to Post Settings\n\n\n- Log in to the Admin area of the website and navigate to My Content .\n\n- Click on Edit Post Settings .\n\n- Use the Post Type search tool to locate the specific Post Type or scroll down to the desired entry.\n\n- Click the Edit button.\n\n\n### Adjust Slider Configuration\n\n\nWithin the General Settings tab, scroll down to Additional Settings to locate the Price Slider fields.\n\n\n### Enable Price Slider?\n\n\nSelect \"Yes\" to activate a price slider for this Post Type, or \"No\" to disable it.\n\n\n### Price Slider Minimum Value\n\n\nEnter the starting value for the price slider. Use numerical characters only; do not include commas or periods.\n\n\n### Price Slider Maximum Value\n\n\nEnter the ending value for the price slider. Use numerical characters only; do not include commas or periods.\n\nAdjust the values to the desired range, then click Save Changes .\n\n\n## Reviewing the Changes\n\n\nThe search widget for the modified Post Type will now reflect the updated minimum and maximum values:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106337896/original/cbctGywSWc2lgKi1WvdcZvJQYoDXiceeEQ.png?1647363326",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit The Min & Max Value of Price Sliders' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106337894/original/Y5XixQISS2XDmT5Sin38VBK9yDEBuPMI9Q.png?1647363315",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit The Min & Max Value of Price Sliders' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174274852/original/OlyPUJJBh8YqB48eBAXiETE1271ro4Sb8A.png?1770299706",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit The Min & Max Value of Price Sliders' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174275072/original/NKF3XgSTpsNuv_i4ChNuXfsH-kaRL832iQ.png?1770299890",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit The Min & Max Value of Price Sliders' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106339432/original/6SKPJokB7NzS8DN06AiXW4lK9bMegZfdpQ.png?1647365057",
+      "alt": null,
+      "caption": "The search widget for the modified Post Type will now reflect the updated minimum and maximum values:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit The Min & Max Value of Price Sliders' in section 'My Content' / 'Edit Post Settings'. Context: The search widget for the modified Post Type will now reflect the updated minimum and maximum values:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000032539",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032539"
+    }
+  ],
+  "lastmod": "2026-02-06T02:40:47+05:30",
+  "scraped_at": "2026-10-18T13:41:26.593483"
+}

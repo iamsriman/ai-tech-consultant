@@ -1,0 +1,123 @@
+{
+  "article_id": "12000105576",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105576-admin-universal-search",
+  "title": "Admin Universal Search",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Admin Universal Search"
+  ],
+  "content": "## Admin Universal Search\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105576\n\nThe Universal Search allows admins to search across the entire website directly from the admin header. The search sits at the top left of every admin page, beside Switch Website : a filter menu (set to All by default) followed by the Search Website... box. Results are filtered based on each admin’s role permissions, ensuring access is limited to authorized data only.\n\nA built-in search cache improves speed and performance by storing recent queries per admin and website. Future updates may include a searchable history of recent admin searches for added convenience.\n\n\n## How to Search\n\n\n- Optionally, choose a content type from the filter menu at the left of the search box (leave it on All to search everything).\n\n- Click the Search Website... box and type at least two characters. Matching records appear in a panel below the box, grouped by content type, with a count of how many were found.\n\n- Click a result to open that record.\n\n\n## Universal Search Filters\n\n\nThe Universal Search is designed to locate specific records quickly, even on websites with a large amount of content. Filters are available to narrow searches to specific areas of the website, helping admins find exactly what is needed without sifting through unrelated results.\n\nSelecting a filter before entering a keyword focuses the search on that content type only, which can make the process faster and more precise.\n\nAvailable filters include:\n\n- Members\n\n- Single Photo Posts\n\n- Multi Photo Posts\n\n- Reviews\n\n- Leads\n\n- Form Inquiries\n\n- Membership Plans\n\n- Widgets\n\n- Sidebars\n\n- Menus\n\n- Post Settings\n\n- Forms\n\nThere is a limit of 10 results per table.\n\n\n### Members\n\n\nLocate member profiles by name or email.\n\n\n### Single Photo Posts\n\n\nFind posts that feature a single image.\n\n\n### Multi Photo Posts\n\n\nSearch posts containing multiple images, like event galleries or product showcases.\n\n\n### Reviews\n\n\nAccess customer or member reviews quickly by keyword.\n\n\n### Leads\n\n\nRetrieve lead submissions to track inquiries and follow-ups.\n\n\n### Form Inquiries\n\n\nSearch messages submitted through contact or custom forms.\n\n\n### Membership Plans\n\n\nLocate and manage membership plan settings and details.\n\n\n### Widgets\n\n\nFind the custom widgets saved on the site.\n\n\n### Sidebars\n\n\nIdentify and edit sidebars assigned to various pages.\n\n\n### Menus\n\n\nSearch for navigation menus to update links and structure.\n\n\n### Post Settings\n\n\nAccess and adjust configuration options for posts of all types.\n\n\n### Forms\n\n\nLocate forms used for signups, submissions, or other interactions.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415491/original/f6n5ozHyty_9pz1Uj3fkR-n29hSvD340sQ.png?1791392532",
+      "alt": "The Universal Search filter menu and Search Website box in the admin header",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): The Universal Search filter menu and Search Website box in the admin header",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730105/original/wV2ppz24f0Rv0hM4xAh9A7OiIet-QUuhgA.png?1791925385",
+      "alt": "Members filter with the keyword John and two matching members",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Members filter with the keyword John and two matching members",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730113/original/hf7JXIzX1o85RB8cvHJj9hqi0fvZ9O63Hg.png?1791925392",
+      "alt": "Single Photo Posts filter with the keyword Tips and two matching posts",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Single Photo Posts filter with the keyword Tips and two matching posts",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730108/original/ov6RfhypCpHULAAI0Fot8DVjE7AtJZ07mQ.png?1791925387",
+      "alt": "Multi Photo Posts filter with the keyword House and three matching posts",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Multi Photo Posts filter with the keyword House and three matching posts",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730104/original/kZ8a-wubqBzQ4YUNbl4nPDQUhTWIQVP9xA.png?1791925384",
+      "alt": "Leads filter with the keyword Lead and one matching lead",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Leads filter with the keyword Lead and one matching lead",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730110/original/LV-gKh9abNqo6UP5GMVjnmm2zmx6kCHc4A.png?1791925389",
+      "alt": "Membership Plans filter with the keyword Premium and one matching plan",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Membership Plans filter with the keyword Premium and one matching plan",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730118/original/GEzxUEOUMjaOybk4KjCsjishium6P_KGVw.png?1791925393",
+      "alt": "Universal Search set to the Widgets filter with the keyword co (1) and the one matching custom widget, Bootstrap Theme - Cookie Consent Code (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Universal Search set to the Widgets filter with the keyword co (1) and the one matching custom widget, Bootstrap Theme - Cookie Consent Code (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730112/original/cF4AoJJorHL1hHbVIpbyKMO-sQQ_KLlzCg.png?1791925391",
+      "alt": "Universal Search set to the Sidebars filter with the keyword bl (1) and the one matching sidebar, Blog Sidebar (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Universal Search set to the Sidebars filter with the keyword bl (1) and the one matching sidebar, Blog Sidebar (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730107/original/Nsh4Ple8UtMZokFPiBD1I8cvFLsfQA3smQ.png?1791925386",
+      "alt": "Menus filter with the keyword Menu and two matching menus",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Menus filter with the keyword Menu and two matching menus",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730111/original/NS0Qjr5_JHwNzd5D7bCKcRLf49EOngrKag.png?1791925390",
+      "alt": "Post Settings filter with the keyword Blog and one matching post type",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Post Settings filter with the keyword Blog and one matching post type",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730101/original/mGwJwBf3VzNX2mNJ6fIldRB0pyUOAWNbog.png?1791925382",
+      "alt": "Forms filter with the keyword listing and one matching form",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Universal Search' (Dashboard Overview > Dashboard Links & Modules): Forms filter with the keyword listing and one matching form",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105576",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105576"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:33+05:30",
+  "scraped_at": "2026-10-18T13:56:25.757277"
+}

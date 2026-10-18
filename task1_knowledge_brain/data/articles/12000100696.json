@@ -1,0 +1,23 @@
+{
+  "article_id": "12000100696",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100696-07-12-2024-software-update",
+  "title": "07/12/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/12/2024 - Software Update"
+  ],
+  "content": "## 07/12/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100696\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented a security update related to SVG images uploaded to sites. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was preventing the system from properly transcoding checkbox field values as in email notifications sent after a form is submitted in some cases.\n\n- We updated the Webhook logic to send both the keys and values of the Select, Dropdown, and Radio Input of custom form fields to the webhook endpoint.\n\n- We fixed an issue which was preventing the form submission logic from working properly when loading the same form twice on the same page in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts Bootstrap Theme - Function - Form\n\n- We fixed an issue which was preventing the \"Min/Max Character\" validation from working properly on Froala WYSIWYG fields in the Firefox browser in some cases.\n\n- We added a new \"Filter By Status\" option to the Form Inquiries page called \"Any Status\". When this option is selected, all inquiries will show, regardless of status.\n\n- We fixed an issue which was affecting the ability to sort the results on the Search Members in the Admin page after navigating to the page via a Member Smart List link.\n\n- We fixed an issue which was preventing the new Send Newsletter module from working properly after trying to send a newsletter campaign to more than 90.000 recipients.\n\n- We fixed an issue which was preventing the \"From Address\" field form working properly when creating or updating a newsletter campaign in some cases.\n\n- We fixed an issue which was affecting the ability to edit Membership Plans from the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100696",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100696"
+    }
+  ],
+  "lastmod": "2024-07-15T23:04:50+05:30",
+  "scraped_at": "2026-10-18T13:54:37.277255"
+}

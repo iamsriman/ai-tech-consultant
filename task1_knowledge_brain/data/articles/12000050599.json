@@ -1,0 +1,121 @@
+{
+  "article_id": "12000050599",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050599-facebook-pixel-",
+  "title": "Facebook Pixel",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Facebook Pixel"
+  ],
+  "content": "## Facebook Pixel\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000050599\n\n\n## What is Facebook Pixel?\n\n\nFacebook Pixel is code that can be placed on the website. It helps track conversions from Facebook ads, optimize ads based on collected data, build targeted audiences for future ads, and re-market to qualified leads—people who have already taken some kind of action on the website.\n\n\n## Adding FB Pixel\n\n\nGo to: https://business.facebook.com/\n\nClick on Events Manager:\n\nCreate the new Event:\n\nSelect Web :\n\nNow select Facebook Pixel and hit Connect :\n\nName the Pixel:\n\nClick on \" Install code manually \":\n\nFacebook Instructions : Paste the pixel code into the bottom of the header section just above the </head> tag. Install the base code on every page of the website.\n\nMake sure to save the Pixel Code, example:\n\n<!-- Facebook Pixel Code -->\n\n<script>\n\n!function(f,b,e,v,n,t,s)\n\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\n\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n\nn.queue=[];t=b.createElement(e);t.async=!0;\n\nt.src=v;s=b.getElementsByTagName(e)[0];\n\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n\n' https://connect.facebook.net/en_US/fbevents.js' );\n\nfbq('init', '2956733807889962');\n\nfbq('track', 'PageView');\n\n</script>\n\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n\nsrc=\" https://www.facebook.com/tr?id=2956733807889962&ev=PageView&noscript=1 \"\n\n/></noscript>\n\n<!-- End Facebook Pixel Code -->\n\nNote : The Pixel Code added on this article is for demonstration purposes only, the only code that is going to work on the site is the one generated on the Facebook account.\n\nThen click on Continue:\n\nWhere do I place this code on the site?\n\nPlace the Facebook Pixel code in the HEAD section of the website and click on Save Changes:\n\nImportant Note: To learn how to track member sign-ups with Facebook Pixel, please refer to the article down below:\n\nTracking Member Sign-Ups Events With Facebook Pixel",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102667049/original/c1ocgv4DC2d9NU--mBJb0y--Eja3F_3fkg.png?1640100691",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102667128/original/sCZ1rBTg2Tn18xRnf8NLlIu8oCCoX7aQeA.png?1640100776",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102667188/original/vfavHuu05Fh7WbybyYlSNN-rMp7UyLq7WA.png?1640100818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102667058/original/oQqQxRu5cfF5-L0GaZ4uX5E_Zt_AuoRmgA.png?1640100699",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102667067/original/LbfZNMWc4weXsozOvNwsXvydYZ_cDIdjaw.png?1640100708",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089085966/original/RMnehIAc3Uo35AeGxEYJO1K9QRm8BKIyIQ.png?1613921378",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089085970/original/yA9gJvH3YuB0M-9guSF-mh6j01dyr6ZUOw.png?1613921405",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089085981/original/X3JyOo1zA7qswfYGLYoPQNSYxz-e0HLpMQ.png?1613921481",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102667563/original/Ubl3dNjk0IKgnzKWshQ5tw4MaYD5uKRMxQ.png?1640101120",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Pixel' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000050599",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050599"
+    },
+    {
+      "text": "https://business.facebook.com/",
+      "url": "https://business.facebook.com/"
+    },
+    {
+      "text": "https://connect.facebook.net/en_US/fbevents.js'",
+      "url": "https://connect.facebook.net/en_US/fbevents.js'"
+    },
+    {
+      "text": "https://www.facebook.com/tr?id=2956733807889962&ev=PageView&noscript=1",
+      "url": "https://www.facebook.com/tr?id=2956733807889962&ev=PageView&noscript=1"
+    },
+    {
+      "text": "Tracking Member Sign-Ups Events With Facebook Pixel",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084689"
+    }
+  ],
+  "lastmod": "2023-07-15T04:57:45+05:30",
+  "scraped_at": "2026-10-18T13:43:56.999118"
+}

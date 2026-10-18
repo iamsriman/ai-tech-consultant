@@ -1,0 +1,60 @@
+{
+  "article_id": "12000108535",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108535-alternate-header-logo-url",
+  "title": "Alternate Header Logo URL",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Alternate Header Logo URL"
+  ],
+  "content": "## Alternate Header Logo URL\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108535\n\nThe Alternate Header Logo URL setting allows the header logo to link to a custom destination instead of the default homepage URL ( /home ).\n\nBy default, clicking the website logo redirects visitors to the website homepage. This setting can be used to replace that behavior by entering a full URL (for example, https://example.com ), allowing the logo to redirect to a different internal page or an external website.\n\nThis option can be useful when a website requires visitors to be redirected to a page other than the homepage after clicking the main logo.\n\nFor example, the logo can be configured to open a landing page, a directory search page, a promotional page, or even an external website.\n\nThis provides additional flexibility in controlling website navigation and directing visitors to the most relevant destination.\n\n\n## How to Access It\n\n\nTo access this setting, navigate to Settings > Design Settings and search for Alternate Header Logo URL:\n\n\n## How to Configure It\n\n\nEnter a full URL (for example, https://example.com ) in the Alternate Header Logo URL field to define the destination that opens when visitors click the website logo.\n\nFor example, to redirect visitors to the search results page when clicking the website logo, enter:\n\n- https://yoursite .com /search_results\n\nTo keep the default behavior and continue redirecting visitors to the homepage ( /home ), leave the field blank:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181797607/original/cTEdvCKMR7S0QQ4jVPiurS3Tz58xHUJnag.png?1783638801",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Alternate Header Logo URL' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179205848/original/y6Dx1idnxnzDHaaOyfvT5SP0JWFhXbVvzg.png?1779369504",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Alternate Header Logo URL' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179206287/original/kEMT5kTIse_9F_j68QxCmwRYI-ko14PTZA.png?1779369845",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Alternate Header Logo URL' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179205927/original/fdSGyvFgYy_Mz3IoOAooYohd7HVDjIpS9Q.png?1779369560",
+      "alt": null,
+      "caption": "To keep the default behavior and continue redirecting visitors to the homepage (/home), leave the field blank:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Alternate Header Logo URL' in section 'Settings' / 'Advanced Settings'. Context: To keep the default behavior and continue redirecting visitors to the homepage (/home), leave the field blank:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108535",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108535"
+    }
+  ],
+  "lastmod": "2026-07-10T06:44:49+05:30",
+  "scraped_at": "2026-10-18T13:58:53.556441"
+}

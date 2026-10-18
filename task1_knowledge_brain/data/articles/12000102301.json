@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102301",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102301-11-08-2024-software-updates",
+  "title": "11/08/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/08/2024 - Software Updates"
+  ],
+  "content": "## 11/08/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102301\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the UI of the Membership Plans page in the Admin to add pagination and make it load more quickly.\n\n- We fixed an issue which was affecting the ability to bulk update a member's status from the Search Members page in the Admin in some cases.\n\n- We fixed an issue that was preventing the \"Random\" sort order on member search results pages from working properly when the Insta-Load Search Results Add-On was active in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue that was preventing the \"Date Posted\" Display Order Design Setting for the Homepage Recent Events widget from working as expected. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We updated the Member Close Account module to give paid members a choice between closing their account immediately or when their current subscription expires. Widgets Involved: Bootstrap Theme - Account - Delete Account Bootstrap Theme Framework\n\n- We fixed an issue that was preventing the Location System Installer from working properly in some cases. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue which was preventing the form validation logic from correctly revalidating required form fields once they have already been marked as incomplete in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - DateTime Scripts\n\n- We fixed an issue that was causing the Stock Photo Library to require two clicks to display the pop-up modal when using the Web Page Builder in the Admin in some cases.\n\n- We updated the Stripe Payment Gateway workflow when processing payments on cards using 3D Secure Authorization to improve the handling of failed payments.\n\n- We fixed an issue which was preventing the system from loading the Stock Photo Library labels when editing Membership Plans from the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102301",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102301"
+    }
+  ],
+  "lastmod": "2024-11-11T22:59:34+05:30",
+  "scraped_at": "2026-10-18T13:55:14.534157"
+}

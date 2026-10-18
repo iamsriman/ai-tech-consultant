@@ -1,0 +1,23 @@
+{
+  "article_id": "12000057203",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057203-05-10-19-software-updates",
+  "title": "05/10/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/10/19 - Software Updates"
+  ],
+  "content": "## 05/10/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000057203\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Turkish Finansbank Payment Gateway credentials from being edited in the Admin Area.\n\n- We deprecated the HTTPS Recaptcha Settings on the Advanced Settings page. These credentials will continue to be updated in the General Settings >> Integrations tab. Deprecated Advanced Settings: https_recaptcha_site_key and https_recpatcha_secret_key.\n\n- We improved the logic of the Search Members page in the Admin when the \"Search Location\" and \"Transaction Types\" fields are used to search for members.\n\n- We added a new Transaction Type to the \"Transaction Types\" field on the Search Member page in the Admin called \"Stopped / Cancelled\".  Choosing this option will only show members which have a Stopped or Cancelled Product Subscription.\n\n- We fixed an issue which was causing the Transaction Tab on the Member Account Details page in the Admin to inaccurate results when using the Load Next Results button in some cases.\n\n- We updated the look of the Activity Tracker page in the Admin.\n\n- We removed the Members column on the Member Category page in the Admin and merged its contents into the Action column. This change will help with the display of this page on mobile devices.\n\n- We updated the text of the Admin menu item \"Website Activity Log\" to \"Activity Tracker\".\n\n- We added the ability to remove the Featured Post Expiration Date when one has been assigned to a post in the Admin using the Pin Featured Post Add-On.\n\n- We added the ability to Enable/Disabled Widgets in bulk on the Widget Manager page in the Admin.\n\n- We improved the logic of the Profile Tab settings of Products to resolve a conflict that could arise with certain deprecated Advanced Settings.\n\n- We fixed an issue which was preventing the Member Export Data Add-On from working properly in properly in some cases.\n\n- We added text to checkout pages to inform users whether a coupon code applies to only the first payment, or all future payments. This featured will be available when the Easy Coupon Codes Add-On is active on a Site. New Text Labels: promocode_nonrecurring_help_text_label, promocode_recurring_help_text_label. Widget Involved: Bootstrap Theme - Function - Form Promotion Code Validation\n\n- We added the total number of pending leads as a notification next to the Leads menu item in the Admin.\n\n- We fixed an issue which was preventing Member Bulk Actions on the Search Members page in the Admin from functioning properly in some cases.\n\n- We fixed an issue which was causing the Froala WYSIWYG to not upload images with capitalized file extensions in some cases. Widgets Involved: Bootstrap Theme - Form - Froala Editor Actions Form - Froala Editor Javascript\n\n- We created a new Design Setting to control whether or not to display the Member's Category in the Recent and Featured Member widgets on the homepage. In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Homepage Layout tab >> Homepage Section Order Options. Widgets Involved: Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Homepage Featured Members",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000057203",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057203"
+    }
+  ],
+  "lastmod": "2019-05-13T21:03:03+05:30",
+  "scraped_at": "2026-10-18T13:44:52.066703"
+}

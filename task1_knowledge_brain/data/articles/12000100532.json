@@ -1,0 +1,42 @@
+{
+  "article_id": "12000100532",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100532-allow-the-facebookexternalhit-bot-in-the-robots-txt-file",
+  "title": "Allow the facebookexternalhit Bot in the Robots.txt File",
+  "category": "Developer Hub",
+  "folder": "Robots File",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Robots File",
+    "Allow the facebookexternalhit Bot in the Robots.txt File"
+  ],
+  "content": "## Allow the facebookexternalhit Bot in the Robots.txt File\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100532\n\nFacebook uses the facebookexternalhit crawler to retrieve website content when links are shared. To allow this crawler, add the following directives to the Robots.txt file.\n\nUser-agent: facebookexternalhit\nDisallow: /api/\nAllow: /\n\n- Navigate to Developer Hub .\n\n- Select Robots File .\n\n- Add the following directives above the default rules at the end of the Robots.txt file.\n\n\n## Bandwidth\n\n\nIMPORTANT : Allowing the facebookexternalhit crawler can significantly increase a website's bandwidth usage.\n\nInternal testing has shown that the facebookexternalhit crawler may consume substantially more bandwidth than other common crawlers, such as Googlebot and Bingbot. This increase in traffic may result in higher bandwidth usage and, in some cases, reduced website performance.\n\nFor this reason, the facebookexternalhit crawler is not allowed by default. It should only be enabled when Facebook link previews are required.\n\nThe following example illustrates the difference in bandwidth usage between the facebookexternalhit crawler and other common crawlers over the same time period:\n\nFor these reasons, we do not allow this bot by default, and only recommend allowing it when absolutely necessary.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12145527861/original/ny-qV6xUI-Qf7tt6XW5ZEDDa5V9vpZjKKQ.png?1719521598",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Allow the facebookexternalhit Bot in the Robots.txt File' in section 'Developer Hub' / 'Robots File'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12145528758/original/0Kmpp-ch2zxjW5qgsH3AAiq2eWThdx0tlA.jpeg?1719522770",
+      "alt": null,
+      "caption": "The following example illustrates the difference in bandwidth usage between thefacebookexternalhitcrawler and other common crawlers over the same time period:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Allow the facebookexternalhit Bot in the Robots.txt File' in section 'Developer Hub' / 'Robots File'. Context: The following example illustrates the difference in bandwidth usage between thefacebookexternalhitcrawler and other common crawlers over the same time period:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100532",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100532"
+    }
+  ],
+  "lastmod": "2026-06-26T01:09:38+05:30",
+  "scraped_at": "2026-10-18T13:54:33.073047"
+}

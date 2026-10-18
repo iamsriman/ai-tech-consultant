@@ -1,0 +1,23 @@
+{
+  "article_id": "12000043296",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043296-04-13-18-software-updates",
+  "title": "04/13/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/13/18 - Software Updates"
+  ],
+  "content": "## 04/13/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000043296\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- Froala WYSIWYG now has the same styling options for the Admin and for the frontend of the site on all devices (mobile, tablet, and desktop). Widget Involved: Form - Froala Editor Javascript\n\n- We implemented several updates in order to make the Events Feature more stable. Widgets Involved: Search - Post - Search Query Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Member Profile - Member Tabs lazyLoad Bootstrap Theme - Display - Recent Events\n\n- Now the Member Dashboard Menu Tab is fully based on Text Labels. Widgets Involved: Bootstrap Theme - Account - Menu Tabs Text Labels profile_edit_pw billing_details_account_sidebar engage_contacts_label\n\n- Now the Member Export Data Add-On supports custom fields created by Site Admins.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000043296",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043296"
+    }
+  ],
+  "lastmod": "2018-04-14T04:04:43+05:30",
+  "scraped_at": "2026-10-18T13:42:30.679057"
+}

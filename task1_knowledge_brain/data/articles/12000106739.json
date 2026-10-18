@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106739",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106739-11-23-2025-software-updates",
+  "title": "11/23/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/23/2025 - Software Updates"
+  ],
+  "content": "## 11/23/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106739\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that caused the system to display expired posts in the Recent Homepage Widgets in some cases. Widgets Involved: Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Related Posts by Category\n\n- Updated the \"Reset Password\" workflow to prevent Admins from reusing previous passwords.\n\n- Fixed an issue that prevented 301 Redirects from working properly when manually creating rules for member category \"Pretty URL\" search results pages in some cases.\n\n- Updated the Setup Wizard in the Admin to use AI to automatically find a suitable stock photo to use as the homepage hero image matching the Website Name, Industry, and Profession.\n\n- Fixed an issue that prevented the “Website Status” setting from being respected when the “Website Homepage URL” Advanced Setting was set to a value other than “home.”\n\n- Updated the bulk invoice collection functionality to prevent invoices from being collected on twice even if an Admin runs multiple concurrent invoice collection attempts on the same invoice  when using Stripe as the Payment Gateway.\n\n- Released a security update to prevent bulk programatic submissions of Private Member Chat forms on the frontend of sites. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- Fixed an issue with displaying member phone numbers when viewing member search results pages while logged in as a member that had a status other than \"Active\". Post Type Involved: Member Listing\n\n- Fixed an issue that caused the system to display “Expired” posts even after selecting the “Draft” or \"Published\" options in the Status filter when viewing posts in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- Fixed an issue that affected the display of the scroll bars when using the \"Form Preview\" feature on the Form Manager page in the Admin in some cases.\n\n- Updated the Reviews page for individual Member Profile pages to display the \"No Search Results\" Text Label when the \"Enable Receiving Reviews\" Membership Plan setting is set to \"No\" for the member. Widget Involved: Search - Reviews - Search Query\n\n- Fixed an issue that prevented the Stock Photo Library Add-On from working properly when used in the Email Froala Editor in the Admin in some cases.\n\n- Fixed an issue that prevented post image thumbnails from displaying properly in the Recent Videos homepage section widget in some cases. Widget Involved: Bootstrap Theme - Display - Recent Videos\n\n- Fixed an issue that prevented the “Copy Details From Master Account” button from working properly when using the Multi-Member Manager Add-On in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- Released a new Admin Dashboard module that displays Website Pages, Post Types, and Smart List results, allowing Site Admins to view key site information at a glance.\n\n- Released a performance update to reduce loading times when importing members via the Business Data Importer tool.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106739",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106739"
+    }
+  ],
+  "lastmod": "2025-11-25T00:30:51+05:30",
+  "scraped_at": "2026-10-18T13:56:56.603896"
+}

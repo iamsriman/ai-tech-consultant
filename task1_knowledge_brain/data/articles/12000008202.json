@@ -1,0 +1,43 @@
+{
+  "article_id": "12000008202",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008202-how-to-turn-the-brilliant-directories-directory-website-into-a-mobile-application-for-apple-android",
+  "title": "How to Turn The Brilliant Directories Directory Website into a Mobile Application for Apple & Android",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "How to Turn The Brilliant Directories Directory Website into a Mobile Application for Apple & Android"
+  ],
+  "content": "## How to Turn The Brilliant Directories Directory Website into a Mobile Application for Apple & Android\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000008202\n\nThe video below shows how to convert a Brilliant Directories website into a mobile app in less than 5 minutes using third-party, no-code app building platforms. The website users will have the same familiar experience on the mobile app as they do on the main Brilliant Directories website. This approach displays your live website inside an app using WebView technology.\n\nStarting with a mobile-friendly website saves time and makes the entire app-building process easier.\n\n\n### Video Note\n\n\nThe app builder shown in the video (Como) was acquired and later shut down. The same WebView-based approach shown in the video still applies to modern no-code app builders.\n\n\n## No-Code Method\n\n\nThe easiest way to turn a Brilliant Directories website into a mobile app is by using a no-code app builder that supports loading your website inside the app using a WebView.\n\nNo-code app builders are third-party services and operate independently from Brilliant Directories. They have their own plans, pricing, and publishing requirements.\n\n\n### How It Works\n\n\nYour live Brilliant Directories site is displayed inside a mobile app shell. Your homepage loads first, and all navigation, logins, forms, listings, and features work exactly as they do on your website. No content needs to be rebuilt and no code is required.\n\n- Set your website URL as the app’s homepage, or\n\n- Add your website as a navigation item within the app\n\nSome app builders may show optional menus, screens, or layout tools in their interface. These are not required when using your website as the primary WebView.\n\n\n### Limitations\n\n\nThis method creates a WebView-based app (a website inside an app). It does not generate a fully custom native mobile app interface.\n\n\n### Popular No-Code App Builders\n\n\n\n### Appy Pie\n\n\nConvert your website into Android and iOS apps by entering your site URL. https://www.appypie.com/convert-website-to-mobile-apps\n\n\n### BuildFire\n\n\nEmbed your website inside the app using the WebView plugin. https://buildfire.com/plugin/webview-2/\n\n\n### GoodBarber\n\n\nDisplay your website in the app using a URL-based WebView section. https://www.goodbarber.com/help/web-view-sections-r33/url-section-web-view-a27/\n\nNOTE: Any no-code app builder that supports loading a website URL as the app homepage or as a navigation item follows this same general methodology.\n\n\n## Advanced Option\n\n\nA fully native mobile app can be built using custom development and the Brilliant Directories API. This approach requires development resources and is outside the scope of no-code app builders.\n\n\n## Developer Accounts\n\n\nPublishing a mobile app requires developer accounts with the app stores. These accounts, review processes, and any associated fees are managed directly between you and the app store provider.\n\n\n### Apple\n\n\nAn Apple Developer account is required to publish apps to the App Store. https://developer.apple.com/support/compare-memberships\n\n\n### Google\n\n\nA Google Developer account is required to publish apps to Google Play. http://developer.android.com/distribute/googleplay/start.html",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000008202",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008202"
+    },
+    {
+      "text": "https://www.appypie.com/convert-website-to-mobile-apps",
+      "url": "https://www.appypie.com/convert-website-to-mobile-apps"
+    },
+    {
+      "text": "https://buildfire.com/plugin/webview-2/",
+      "url": "https://buildfire.com/plugin/webview-2/"
+    },
+    {
+      "text": "https://www.goodbarber.com/help/web-view-sections-r33/url-section-web-view-a27/",
+      "url": "https://www.goodbarber.com/help/web-view-sections-r33/url-section-web-view-a27/"
+    },
+    {
+      "text": "https://developer.apple.com/support/compare-memberships",
+      "url": "https://developer.apple.com/support/compare-memberships"
+    },
+    {
+      "text": "http://developer.android.com/distribute/googleplay/start.html",
+      "url": "http://developer.android.com/distribute/googleplay/start.html"
+    }
+  ],
+  "lastmod": "2026-02-03T07:03:06+05:30",
+  "scraped_at": "2026-10-18T13:40:08.358282"
+}

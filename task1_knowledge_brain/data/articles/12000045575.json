@@ -1,0 +1,107 @@
+{
+  "article_id": "12000045575",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045575-emails-email-templates-new-email-template",
+  "title": "Emails » Email Templates » New Email Template",
+  "category": "Emails",
+  "folder": "Email Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email Templates",
+    "Emails » Email Templates » New Email Template"
+  ],
+  "content": "## Emails » Email Templates » New Email Template\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000045575\n\nThis article explains how to create a new email template from the admin area.\n\nEmail templates can be created to store and reuse email messages sent from the website. This helps keep formatting, wording, and branding consistent when sending messages to members, users, or contacts.\n\n\n## How to Create a New Email Template\n\n\n- Go to Emails >> Email Templates .\n\n- Click the New Email Template button.\n\nA blank email template editor will open.\n\n\n## Email Template Editor Overview\n\n\nThe new email template editor includes the main fields needed to create and save a reusable email template.\n\nThe following areas can be edited:\n\n- Subject Line: The subject line that will display when the email is sent.\n\n- Email Content: The main body of the email template. This area can include text, headings, links, images, buttons, and other formatted content.\n\n- Template Name: The internal name used to identify the template in the admin area.\n\nImportant: The Template Name should be unique and should not include spaces. Use lowercase letters and dashes when creating the template name.\n\nExample:\n\n```\nwelcome-email-template\n```\n\n\n## Design the Email Template\n\n\nThe email content can be created and edited using the WYSIWYG editor.\n\nThe editor can be used to add and format content such as:\n\n- Paragraph text\n\n- Headings\n\n- Links\n\n- Images\n\n- Buttons\n\n- Spacing and layout elements\n\nFor more information about using the WYSIWYG editor,  see the following article:\n\n- Everything About WYSIWYG Editors\n\n- How to Post Images On WYSIWYG Editors\n\n\n## Use Draggable Content Blocks\n\n\nThe right sidebar includes Premium Content Blocks that can be added to the email template. These blocks make it easier to build a structured email layout without creating everything manually.\n\nDraggable content blocks can be used to add prebuilt content sections, formatting blocks, layout elements, and other design components to the email template.\n\nTo use a draggable content block:\n\n- Find the content block in the sidebar.\n\n- Drag the block into the email content area.\n\n- Edit the text, images, links, or styling as needed.\n\n\n## Template Configuration Settings\n\n\nThe sidebar includes additional settings that control how the email template is categorized and displayed.\n\n\n## Template Category\n\n\nThe Template Category setting determines where the template is organized in the admin area.\n\nAvailable template categories may include:\n\n- Billing\n\n- Customer Service\n\n- Lead Emails\n\n- My Saved Templates\n\n- System Emails\n\nSelect the category that best matches the purpose of the email template.\n\n\n## Include Signature\n\n\nThe Include Signature setting controls whether the website email signature is added to the end of the email template.\n\nWhen enabled, the signature will display below the email content.\n\nFor instructions on editing the email signature, see the following article:\n\n- How To Edit The Website Email Signature\n\n\n## Include Default Template w/Logo\n\n\nThe Include Default Template w/Logo setting controls whether the system’s default email wrapper and logo are included when the email is sent.\n\nAvailable options may include:\n\n- Yes, Template + Logo Left: Includes the default email template wrapper with the logo aligned to the left.\n\n- Yes, Template + Logo Center: Includes the default email template wrapper with the logo aligned to the center.\n\n- Yes, Template + Logo Right: Includes the default email template wrapper with the logo aligned to the right.\n\n- Yes, Template + No Logo: Includes the default email template wrapper without displaying the logo.\n\n- No, Do Not Use Template or Logo: Sends the email without the default template wrapper or logo.\n\nSelect the option that best matches the desired email layout.\n\n\n## Include Unsubscribe Link\n\n\nThe Include Unsubscribe Link setting controls whether an unsubscribe link is included in the email template.\n\nImportant: The unsubscribe link cannot be removed from newsletter campaigns. Newsletter recipients must have the option to unsubscribe from future newsletter emails.\n\nFor non-newsletter email notifications, this setting can be adjusted based on the type of email being created.\n\n\n## Save the Email Template\n\n\nAfter the subject line, content, template name, and configuration settings have been added, save the email template.\n\n- Review the subject line.\n\n- Review the email content.\n\n- Confirm the template name is unique and properly formatted.\n\n- Confirm the template category and display settings.\n\n- Click Save Changes .\n\nOnce saved, the template will be available to use when composing emails or creating email campaigns.\n\n\n## Use the Saved Template\n\n\nAfter the email template has been saved, it can be selected from the Template dropdown when composing an email. This allows the saved email content and settings to be reused without recreating the email from scratch.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181561979/original/XIxIhJCgIkCtET8G91-Af0gKMxEx-3xBNQ.png?1783359328",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Templates » New Email Template' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181562477/original/WX1QknslsTkpii7oZRa1r1eMUdNCR4wzLg.png?1783359838",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Templates » New Email Template' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181562544/original/eVu6szId1Z4_e2E4gvR1HUuzmVzflooAHQ.png?1783359891",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Templates » New Email Template' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181564115/original/zOxgvVKUcasy8ciZtTFYU5pgznf8MiQzaw.png?1783360895",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Templates » New Email Template' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181564135/original/fqdE0cx2gL8EBFFILJBD7MYn8gUTYMSUGA.png?1783360951",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Templates » New Email Template' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181564245/original/GIeqnhV3ZitJ4G0BTh6qM48twnqX5NfGlg.png?1783361029",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Templates » New Email Template' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181564168/original/0Umatqc096BU-8KoEKxlvGj914kZGv7Row.png?1783360992",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Templates » New Email Template' in section 'Emails' / 'Email Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000045575",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045575"
+    },
+    {
+      "text": "Everything About WYSIWYG Editors",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000050711"
+    },
+    {
+      "text": "How to Post Images On WYSIWYG Editors",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000050864"
+    },
+    {
+      "text": "Premium Content Blocks",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000082844"
+    },
+    {
+      "text": "How To Edit The Website Email Signature",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000052157"
+    },
+    {
+      "text": "Unsubscribe Link",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000003210"
+    }
+  ],
+  "lastmod": "2026-07-06T23:33:58+05:30",
+  "scraped_at": "2026-10-18T13:42:55.186729"
+}

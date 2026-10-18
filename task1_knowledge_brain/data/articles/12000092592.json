@@ -1,0 +1,23 @@
+{
+  "article_id": "12000092592",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092592-03-10-2023-software-updates",
+  "title": "03/10/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/10/2023 - Software Updates"
+  ],
+  "content": "## 03/10/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000092592\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented several minor CSS fixes for the frontend of sites. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was causing the Grid View Search Results Add-On to not work properly when the \"Enable Lazy Load Images\" Advanced Setting was active in some cases.\n\n- We updated the Price Field form field type used in the Form Manager to fix some display issues for values saved in these fields in some cases.\n\n- We implemented several security updates for the Admin area.\n\n- We fixed an issue which was preventing the Top Level Dynamic Category Filter Add-On widget from redirecting to the search results page in some cases.\n\n- We excluded images generated using the mThumb PHP image resize script from being impacted when the \"Front-End Optimization: Use Content Delivery Network (CDN) For Images\" Advanced Setting is active on a site.\n\n- We fixed an issue which was affecting the ability to delete or rename images saved in subfolders using the Media Manager in the Admin.\n\n- We removed the \"1 Result\" Display Option when editing the settings of Recent Homepage Widgets on the Design Settings page in the Admin.\n\n- We updated the wording used in the member sub category selection widget used in the Member Dashboard when the \"Max. Sub-Level Categories a Member Can Select\" Membership Plan setting is set to \"unlimited\". Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We updated the \"From Name\" field when composing an email from the Admin in order to prevent backslashes \"\\\" from being added when the Website Name contains apostrophes.\n\n- We created a new Post Type setting called \"When Sorting Members - Respect Membership Plan Setting 'Search Priority'\". When this is set to \"No\" the Search Priority will be ignored when a user manually sorts the results on a search results page. Widget Involved: Search - Member - Search Query\n\n- We updated the email address validation when sending newsletters from the Admin to prevent sending errors.\n\n- The Email Sign Up Link used when sending an email template from the Admin is now compatible with the \"Default Member Signup URL\" Advanced Setting and the \"Member Signup Page URL\" Membership Plan Setting. Email Template Involved: membership-pay-link\n\n- A \"height:auto;\" inline CSS style is now included automatically for images added through the Froala WYSIWYG editor used to edit email templates to prevent images appearing as stretched in some email clients.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000092592",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092592"
+    }
+  ],
+  "lastmod": "2023-03-15T23:51:21+05:30",
+  "scraped_at": "2026-10-18T13:50:47.716976"
+}

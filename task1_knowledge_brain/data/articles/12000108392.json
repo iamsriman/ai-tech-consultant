@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108392",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108392-05-01-2026-software-updates",
+  "title": "05/01/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/01/2026 - Software Updates"
+  ],
+  "content": "## 05/01/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108392\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Improved logo image handling on the Setup Wizard so logos can better adapt to theme colors.\n\n- Updated the \" site_info \" API endpoint to include the \"website_id\" field in the response.\n\n- Improved the Member Write a Review page to load assets through the CDN URL helper instead of a hardcoded URL, ensuring more consistent and faster asset delivery.\n\n- Updated the Website Dashboard page and the Invoice Template feature to be fully compatible with the \"www or non-www\" General Setting, so the configured domain version is now displayed consistently.\n\n- Fixed an issue with trailing slashes in checkout page URLs for the Sell Digital Product and the Pay Per Post Add-On.\n\n- Fixed an issue that caused the Sitemap Generator to hang during file creation on websites with large amounts of content, significantly reducing processing time.\n\n- Fixed an issue that caused the payment gateway checklist on the Dashboard page in the Admin to show the \"Connect Gateway\" item as pending when the payment gateway was connected correctly and processing live transactions in some cases.\n\n- Fixed an issue that caused the system to capture the full product price instead of the discounted amount in some cases when a coupon code was applied during signup in some cases.\n\n- Fixed several issues with the API that prevented certain endpoints from returning data correctly or completing operations as expected.\n\n- Fixed an issue that caused the CC/BCC button in the \"Primary Recipients\" section on the Compose Email page in the Admin to appear visually misaligned in Safari for macOS.\n\n- Fixed an issue that caused the RSS feed canonical tag to display the www version of the domain even when the website was configured for non-www. Widget Involved: Bootstrap Theme - HEAD\n\n- Fixed an issue that caused the parent account's profile photo file to be deleted when a sub-account that shared the same image was deleted from the Admin.\n\n- Fixed an error in the API documentation caused by duplicate keys that prevented the documentation from loading correctly.\n\n- Fixed an issue that prevented inline conversion tracking scripts from executing in the success popup after a Digital Product or Pay Per Post purchase.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108392",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108392"
+    }
+  ],
+  "lastmod": "2026-05-04T21:43:26+05:30",
+  "scraped_at": "2026-10-18T13:58:49.206553"
+}

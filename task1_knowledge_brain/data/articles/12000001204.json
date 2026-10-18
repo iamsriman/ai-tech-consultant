@@ -1,0 +1,37 @@
+{
+  "article_id": "12000001204",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001204-what-country-code-format-is-used-when-importing-members",
+  "title": "What Country Code Format is Used When Importing Members",
+  "category": "My Members",
+  "folder": "Import Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Import Members",
+    "What Country Code Format is Used When Importing Members"
+  ],
+  "content": "## What Country Code Format is Used When Importing Members\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000001204\n\nWhen importing members, the country code must be based on the ISO 3166 standard. This is a two-letter code representing a specific country. So for example:\n\n- United States: US\n\n- United Kingdom: GB\n\n- United Arab Emirates: AE\n\n- Costa Rica: CR\n\n- Canada: CA\n\nIf a three-letter code is mistakenly provided, only the first two characters are processed. For example, entering UAE for the United Arab Emirates will result in the system mapping the record to Ukraine, as the correct two-letter code for Ukraine is UA:\n\n\n## Country Codes List\n\n\nFind more information about the ISO 3166 code for all countries: ISO 3166 - Country Code List",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000583917/original/Screenshot%20from%202016-01-13%2014-17-13.png?1452716404",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What Country Code Format is Used When Importing Members' in section 'My Members' / 'Import Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000001204",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001204"
+    },
+    {
+      "text": "ISO 3166 - Country Code List",
+      "url": "https://en.wikipedia.org/wiki/ISO_3166-2"
+    }
+  ],
+  "lastmod": "2026-06-11T15:30:02+05:30",
+  "scraped_at": "2026-10-18T13:39:26.909051"
+}

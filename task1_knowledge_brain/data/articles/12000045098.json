@@ -1,0 +1,23 @@
+{
+  "article_id": "12000045098",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045098-06-01-18-software-updates",
+  "title": "06/01/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/01/18 - Software Updates"
+  ],
+  "content": "## 06/01/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000045098\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed the issue that was causing duplicated results when the Sort Option was set to Random and the Lazy Load functionality was enabled on Member Search Results pages. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was affecting the saving and editing of Member Categories in the Admin area in some cases.\n\n- We identified a bug in the Google Maps API when adding the country of Ireland as a member's service area.  While Google resolves the issue on their end, we implemented a workaround so the functionality will continue working as expected. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- The Recent Articles with Sidebar widget now includes the \"Posted By\" information as it is displayed in normal Article search results. Widget Involved: Bootstrap Theme - Display - Recent Articles with Sidebar\n\n- We updated the Color Theme Select module on the Design Settings page in the Admin to fix a couple of issues with the new design.\n\n- We fixed an issue which was affecting the Pretty URL's module when the official name of a location has an apostrophe on the URL. Widget Involved: Search - Member - Search Query\n\n- Now the Checkbox and Radio Input fields of the Form Builder are fully supported by the system's email functionality when added as custom fields to a form on the site.\n\n- We added a Security Update to our Form Builder to avoid collision of form variable names and nicknames.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000045098",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045098"
+    }
+  ],
+  "lastmod": "2018-06-01T22:57:04+05:30",
+  "scraped_at": "2026-10-18T13:42:51.017692"
+}

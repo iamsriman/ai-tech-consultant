@@ -1,0 +1,208 @@
+{
+  "article_id": "12000102440",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102440-how-to-update-lead-data-using-api-google-sheets-example",
+  "title": "How to Update Lead Data Using API: Google Sheets Example",
+  "category": "Developer Hub",
+  "folder": "No-Code API Workflows (Zapier, Pabbly & Others)",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "No-Code API Workflows (Zapier, Pabbly & Others)",
+    "How to Update Lead Data Using API: Google Sheets Example"
+  ],
+  "content": "## How to Update Lead Data Using API: Google Sheets Example\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102440\n\nThis article shows an example of how a Google Spreadsheet can be used to update lead data on a site using the site's API.\n\n\n## Checklist Before Moving Forward With This Example\n\n\n1) Make sure to generate a unique API Key using the documentation down below as a guideline. Please make sure to save the API Key in a safe place as it is not accessible after it has been created:\n\nHow To Generate an API Key\n\n2) Prepare a Google Spreadsheet with at least two essential columns: one for the lead's ID# (the lead_id variable) to reference an existing lead on the site, and another for the variable to be updated. For example, if the lead currently has the lead name \" Test name \" and needs to be updated to \" John Doe \", specify these details in the spreadsheet.\n\nNote : The column names do not necessarily match with the correct database variable names as this can be mapped later on.\n\n\n## How To Connect Google Sheets Using Zapier\n\n\nIn this example, we will be using Zapier to integrate Google Sheets into the Brilliant Directories site.\n\nLog in to the Zapier account and click on Create Zap :\n\nName the new zap created and select the Google Sheets option as a Trigger:\n\nSelect the Event type as New Spreadsheet Row and click on Continue :\n\nConnect the Google Sheet Account (this would be a Gmail account) and click on Continue :\n\nChoose the preferred Spreadsheet, specify the Worksheet, and click on Continue :\n\nClick on Test Trigger :\n\nThere will be a confirmation that a spreadsheet row has been found, click Continue:\n\nNow the Trigger has been set up correctly, the Action can be created. Search and select the \" Brilliant Directories \" as the App option:\n\nChoose the Event as the Update Lead event and connect the Account:\n\nSelect \"Connect a new account\":\n\nThis will open a new window where the domain of the site (https:// or http:// included) and the API Key generated can be specified:\n\nNext, we will be setting up the action. In this section, all the available lead variables can be found. As we already created a spreadsheet with a row of lead data, the next action would be mapping/matching the column names to the correct variable names.\n\nSelect the \"Custom\" option for the Lead ID field and select the lead_id value from the spreadsheet:\n\nThen, map the Lead Name by selecting the lead_name column for the \"Lead Name\" field:\n\nNow that all the preferred variables are matched and mapped correctly, click on Continue to test the action:\n\nConfirm that the information displayed is correct and click on Test Step :\n\nMake sure that the targeted field is updated:\n\nOnce confirmed, click on \"Publish\":\n\nNote : Going forward, any new rows added to the connected Google Sheet via the API will automatically update the corresponding member data.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899862/original/B-FAC-qbQ2c8PE6Do9KUxbFnyVMTlmn-Yw.png?1732204111",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899877/original/79xsbrgg7Kogar3_ZdYNm3c5pQI4sRz41Q.png?1732204116",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899456/original/l1ZYwGsttlXQOoIxkXvJO1lngFgZZicwVA.png?1732203818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899460/original/0GGltd80iz37hf5AKljBGW1kc2nDTsApwg.png?1732203819",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899452/original/CKn8OHrO48VyZhrQZeplmGtOcU9Vd01iDQ.png?1732203816",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899445/original/VUCpsBwplwZPikIZ7euhexpd6LXFU7CM9A.png?1732203814",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152900039/original/2mHOBBAYQIzo4qCFyjeOw-cpsdEzphRJEA.png?1732204197",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899436/original/z4mn8wgIA0zJKbKCUOem1WGRtu2gU9e0Bg.png?1732203811",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152900089/original/V6KQVSCTUgtaRZv_ZX6jzgjkO0v3O-35Gg.png?1732204242",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899451/original/KRMeAri_AW7plfNKgQxo-5LUQ9DEmfR5OQ.png?1732203815",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152900142/original/h8uslNWjZV0V34fefTr3jvGWw0RBB0pg_A.png?1732204286",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152900259/original/RWUEOUKAqmj0H2esLAyR1-sV3ZWNl9Cl3w.png?1732204362",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152899459/original/RWwigrQVd0Hi_UVpKuc5cObGostirRVTLQ.png?1732203818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153229824/original/4hh4NkA66Xg3G1FeGGn6ghizDoQfau_M3g.png?1732794731",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153229837/original/82VPJg0UGDsAZztBL_1apkNvkChgPdWhDw.png?1732794741",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153229899/original/X8NmAiSFaJobzvWffPrHPzt0bf9O6Ifitw.png?1732794836",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153229947/original/0bBDe6Z_FwiSTyGDTgwuivtufSssMTfqjg.png?1732794890",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153229956/original/Eyb55RQ8uOT5kSq6fJb5pCXMZr7i3Js8zQ.png?1732794918",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153229990/original/0vMAzrzrQDnSHedBEfhvX5j8uFqgbN4Q4A.png?1732794966",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153229995/original/4_YyafOP4DutH9tVwcWD5ce3Zz6z6oUffQ.png?1732794982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Update Lead Data Using API: Google Sheets Example' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102440",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102440"
+    },
+    {
+      "text": "How To Generate an API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    }
+  ],
+  "lastmod": "2024-11-28T17:27:10+05:30",
+  "scraped_at": "2026-10-18T13:55:17.368145"
+}

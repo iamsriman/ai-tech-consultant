@@ -1,0 +1,166 @@
+{
+  "article_id": "12000101416",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101416-how-to-create-reviews-through-the-api-using-zapier",
+  "title": "How to \"CREATE\" reviews through the API using Zapier",
+  "category": "Developer Hub",
+  "folder": "No-Code API Workflows (Zapier, Pabbly & Others)",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "No-Code API Workflows (Zapier, Pabbly & Others)",
+    "How to \"CREATE\" reviews through the API using Zapier"
+  ],
+  "content": "## How to \"CREATE\" reviews through the API using Zapier\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101416\n\nThis article shows an example of how a Google Spreadsheet can be used to create a new review for members on a site using the site's API.\n\n\n## Checklist Before Moving Forward With This Example\n\n\n1) Make sure to generate a unique API Key using the documentation down below as a guideline. Please make sure to save the API Key in a safe place as it is not accessible after it has been created:\n\nHow To Generate an API Key\n\n2) Make sure to have a Google Spreadsheet ready. This spreadsheet should have at least one row of the review information shown below:\n\nPlease note the following required fields in order to create a member:\n\n- user_id ,\n\n- review_title\n\n\n## Connecting Google Sheets with Zapier\n\n\nLog in to the Zapier account and click on + Create and click on Zaps :\n\nClick on Trigger and search for Google Sheet:\n\nSelect New or Updated Spreadsheet Row for the Trigger event and log into your Google account, once done click on Continue:\n\nSelect the Spreadsheet that has the review information with the respective Worksheet. If necessary, select a Trigger Column or leave as \"any column\" and click on Continue:\n\nClick on Test Trigger and the Spreadsheet information will display as a preview:\n\nClick on Continue with selected record for the next step in this process.\n\n\n## Connecting the API with Zapier\n\n\nA new set of options will appear, select the option for Brilliant Directories:\n\nSelect the Action Event to Create Review and either choose a BD account if you've done this in the past or Connect a new account:\n\nIf an account is already, skip down to FILL IN THE BLANK.\n\nIf this is the first time, click on Connect a new account and a popup will show up. Add the website URL and the API Key , and click Yes, Continue to Brilliant Directories:\n\nOnce finished, click Continue.\n\n\n## Configuring the Review Information\n\n\nThe next step will be aligning the fields from your worksheet to the correct fields for the Review to be created.\n\nOnce all the respective fields have been selected and added, click on Continue:\n\nIf there is a need to send a notification, select Send Email Notifications ? These are the options: Email Member About This Update Email Reviewer About This Update Email Member & Reviewer About This Update\n\nThe next step will ask to test the trigger, do so to verify that everything went well:\n\nIf done correctly, the review will show up in the Interactions » Member Reviews :",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149196464/original/JmFo74WqTi_Pamm76CIVcdE_sRcrYdV3aw.png?1725921723",
+      "alt": null,
+      "caption": "2) Make sure to have a Google Spreadsheet ready. This spreadsheet should have at least one row of the review information shown below:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'. Context: 2) Make sure to have a Google Spreadsheet ready. This spreadsheet should have at least one row of the review information shown below:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149196680/original/2Y8017rb6Elut7_Ng_CHUEo71Ki5Aere7g.png?1725922128",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149196948/original/nZZXjY2yCyB6EscuKzQTJCn7s43jpjdV1g.gif?1725922583",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149197057/original/tnib63qjTygc8yZp5CmJnswPG2U1UZOx3A.png?1725922793",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149197431/original/rs3nOPeOurnFeJtsRRWCqhXDD_0iKxvi_g.png?1725923190",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149197761/original/YvnhUrYGgxjgQkm67PKu17bfUMi3hO8zXQ.png?1725923910",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149197936/original/HbY9BUDAxqa5-u31-Gp34W4D-MEdmwtmXg.gif?1725924212",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149198015/original/epRdckvqNpouGPP3f_Kz4TJOAAnWCAj5qQ.png?1725924311",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149198044/original/6JwQQYePiJRVhb_JQCahLV5lbsNKAu-Png.png?1725924495",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149198200/original/XByl47n4n8dmnkf2EoNiItmM3BHSbVMD7A.gif?1725924884",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149198273/original/kJl4Da7Y8uDpNg7mPUcVqu83Nx2vK1WatQ.png?1725925047",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158193307/original/aAP7-UhQ1dQ1W4wTFUizZIJalEdwVbEEDw.png?1741698889",
+      "alt": null,
+      "caption": "If there is a need to send a notification, selectSend Email Notifications?These are the options:Email Member About This UpdateEmail Reviewer About This UpdateEmail Member & Reviewer About This Update",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'. Context: If there is a need to send a notification, selectSend Email Notifications?These are the options:Email Member About This UpdateEmail Reviewer About This UpdateEmail Member & Reviewer About This Update",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149198295/original/lOfuqoDctHKsRNdt3WqsqsqMlOnHlWWI8g.png?1725925110",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149198365/original/VBQkk_3w9HMYWyH7i7jY8qI8r-6eeiChmA.png?1725925246",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"CREATE\" reviews through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101416",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101416"
+    },
+    {
+      "text": "How To Generate an API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "Log in to the Zapier",
+      "url": "https://zapier.com/"
+    },
+    {
+      "text": "API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000088768"
+    },
+    {
+      "text": "Interactions » Member Reviews",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000046951"
+    }
+  ],
+  "lastmod": "2025-03-11T18:47:04+05:30",
+  "scraped_at": "2026-10-18T13:54:57.934190"
+}

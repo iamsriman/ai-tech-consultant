@@ -1,0 +1,23 @@
+{
+  "article_id": "12000071334",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071334-06-05-20-software-updates",
+  "title": "06/05/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/05/20 - Software Updates"
+  ],
+  "content": "## 06/05/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000071334\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the \"Search Now\" button from working properly in search module widgets in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue which was affecting the ability to properly generate a sitemap in some cases.\n\n- We fixed an issue with the Search Results highlight preview in the Membership Plan Settings which was causing the border width to show as being saved as \"4\", the default, rather than \"0\", when it had been saved as \"0\".\n\n- We updated the format of how the system displays the location information on member profile pages in order to make it more uniform with other areas where a member's location is displayed. Widget Involved: Bootstrap Theme - Member Profile - Display Member Address Bootstrap Theme - Member Profile - Header\n\n- We fixed an issue which was preventing the \"bulk-actions\" dropdown from displaying on the Widget Manager page in the Admin.\n\n- We updated the \"Insert Link\" feature of Froala WYSIWYG editors across the platform in order to prevent a forced \"prefix\" value (https:// or https://) from being added when editing a link. Widget Involved: Form - Froala Editor Javascript\n\n- We added the signup page link to the Edit Membership Plan page in the Admin to make it easier to view the page when editing a Membership Plan.\n\n- We fixed an issue which was preventing Billing Address Information from being saved in the Member Dashboard area in the front-end of the sites in some cases.\n\n- We updated the Member Dashboard Sidebar Menu in order to keep the \"Account\" menu item toggled open when viewing the pages inside of that section. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We fixed an issue with the Recurring Event Add-On which was preventing the system from displaying event posts which do not repeat when the Recurring Event Add-On is active on a site.\n\n- We fixed an issue which was causing the Website Timezone to not be displayed correctly in the Admin area in some cases.\n\n- We updated the Dashboard Header and Dashboard Footer Custom HTML membership plan settings in order to allow Admins to use a Froala WYSIWYG or select a custom widget to display in the Member Dashboard area. Widgets Involved: Bootstrap Theme - Account - Member Dashboard\n\n- We updated the text of the \"Limit Post to These Products\" setting to \"Include Posts from Members in These Plans\" on the Homepage Section Order Options section of the Design Settings page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000071334",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071334"
+    }
+  ],
+  "lastmod": "2020-06-08T22:36:27+05:30",
+  "scraped_at": "2026-10-18T13:46:43.915383"
+}

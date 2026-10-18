@@ -1,0 +1,23 @@
+{
+  "article_id": "12000081743",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081743-08-27-21-software-updates",
+  "title": "08/27/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/27/21 - Software Updates"
+  ],
+  "content": "## 08/27/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000081743\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the layout of the header section on the frontend of sites in order to increase the space between the Logo and the Header Top menu when viewing the site on mobile devices. Widget Involved: Bootstrap Theme - Header - Right\n\n- We updated the Form Manager to include \"Validation Options\" for each field when editing forms in the Admin.\n\n- We created a new CSS class called \".showcase\" in order to highlight a specific pricing option when using the Side-by-Side Pricing Plans Add-On. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was preventing the system from displaying the Member Logged In module in the header when the \"Hide Top Header Menu\" page setting is active. Widget Involved: Bootstrap Theme - Header\n\n- We updated the Digital Product Restricted Page message to add a button that links to the details page of the digital product to purchase in order to gain access to the page. Widget Involved: Bootstrap Theme - Static Web Page\n\n- We deprecated the \"Downgrade Membership Plan\" module on the Manage Account tab in the Member Dashboard area as the workflow to downgrade and upgrade is the same. In a related change, we updated the \"Upgrade\" text labels text to \"Change My Plan\". Widget Involved: Bootstrap Theme - Account - Manage Account\n\n- We fixed an issue which was preventing the Listing - Verify Account form from sending email notifications in some cases.\n\n- We improved the way the system does SQL queries when loading menus on the frontend of sites to reduce queries and improve page load times.\n\n- We created a new Advanced Setting called \"Show Member Position in Member Search Results\". When the setting is active, it will show the member's position on member search results pages. Post Type Involved: Listing\n\n- We fixed an issue which was causing the system to mark the \"Listing Details\" tab in the Member Dashboard as incomplete when the only content to edit is Sub Categories and the Upload CV field.\n\n- We updated the Payment History table in the Member Dashboard area in order to show a message where there are no transactions to display.\n\n- We updated the recent widgets on the homepage in order to make the image element a clickable link which points to the post details page. Widgets Involved: Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Videos Bootstrap Theme - Display - Recent Discussions Bootstrap Theme - Display - Recent Audios Bootstrap Theme - Display - Recent Digital Products Bootstrap Theme - Display - Recent Sub Level Categories Bootstrap Theme - Display - Recent Top Categories Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Coupons\n\n- We implemented an update in order to display the text label rather than the database variable name when displaying the selected options for checkbox, select, and radio input fields powered by the Form Manager.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000081743",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081743"
+    }
+  ],
+  "lastmod": "2026-07-15T03:08:52+05:30",
+  "scraped_at": "2026-10-18T13:48:53.461209"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000094100",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094100-05-26-2023-software-updates",
+  "title": "05/26/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/26/2023 - Software Updates"
+  ],
+  "content": "## 05/26/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000094100\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the \"Complete Profile Fields\" Advanced Setting from working properly when using the \"service\" variable. This caused the system to return inaccurate results on member search results page in some cases. Widget Involved: Search - Member - Search Query Bootstrap Theme - Display - Recent Members\n\n- We updated the Domain Manager page in the Admin to display an error message when the domain is pointed to the BD servers via an incorrect A Record.\n\n- We fixed an issue which was preventing the system from displaying the date picker selection fields on pages in the Admin in some cases.\n\n- We updated the validation logic when saving forms in the Form Manager in the Admin to display an alert if the Database Variable of one of the fields has a value longer than 50 characters.\n\n- We fixed an issue which was preventing the system from showing Event Post Type results on member profile pages when the \"Display Expired Posts in Search Results\" Post Type Setting was active and the site had not enabled the Auto-Recurring Event Add-On.\n\n- We fixed an issue which was preventing Single Image Post Type search results pages from returning accurate results when using the location search filter in some cases. Widget Involved: Search - Post - Search Query\n\n- We fixed an issue which was preventing members from logging into their account from the member profile /connect page when the Private Member Chat Add-On was active in some cases.\n\n- We released the ChatGPT Content Creator Add-On. Please click here for more information.\n\n- We released a new version of the Brilliant Directories Zapier App. This version add the ability to auto-import post images when creating or updating member posts using the app.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000094100",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094100"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000094073"
+    }
+  ],
+  "lastmod": "2023-06-06T01:23:13+05:30",
+  "scraped_at": "2026-10-18T13:52:19.389601"
+}

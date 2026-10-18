@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108053",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108053-api-reference-users-reviews",
+  "title": "API Reference - Users Reviews",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Users Reviews"
+  ],
+  "content": "## API Reference - Users Reviews\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108053\n\n← Back to API Reference | Getting Started Reviews Member reviews submitted by visitors or other members. Reviews include multiple rating dimensions and require approval before appearing publicly (unless auto-approved in your site settings). Model name in URL: users_reviews — DB table: users_reviews The Review Object Field Type Description review_id integer Unique review ID (primary key, read-only) user_id integer ID of the member being reviewed required on create review_title string Review headline review_description text Full review text review_name string Name of the reviewer review_email string Email address of the reviewer review_zip string ZIP code of the reviewer review_status integer Approval status: 0 =Pending, 1 =Approved, 2 =Rejected review_worked string Description of working relationship with the member service_id integer ID of the service being reviewed rating_overall integer Overall rating (1–5) rating_service integer Service quality rating (1–5) rating_response integer Responsiveness rating (1–5) rating_expertise integer Expertise rating (1–5) rating_results integer Results rating (1–5) rating_language integer Communication rating (1–5) recommend integer 1 if reviewer recommends this member spoken_language string Language the review was written in gender string Reviewer's gender: male or female review_company string Reviewer's company name member_id integer ID of the logged-in member who wrote the review (if applicable) review_token string Unique review token (auto-generated) review_added string Date review was created (format: YYYYMMDDHHmmss ) review_approved string Date review was approved review_updated string Date review was last updated ip string IP address of the reviewer revision_timestamp timestamp Last modified timestamp (auto-updated) cookie string Cookie token from the reviewer's session httpr string HTTP referrer URL where the review was submitted from formname string Name of the form used to submit this review (e.g. member_review ) user_consent text Record of user consent (GDPR/privacy compliance) editmode string Edit mode flag (set when review is being edited) consent_history text Historical record of consent changes replyReviewId integer ID of the review this is a reply to (for threaded review responses) List Reviews GET /api/v2/users_reviews/get Copy # Get all approved reviews for a specific member\ncurl -X GET \"https://www.yourdomain.com/api/v2/users_reviews/get?property[]=user_id&property_value[]=42&property[]=review_status&property_value[]=1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Retrieve a Review GET /api/v2/users_reviews/get/{review_id} Copy curl -X GET \"https://www.yourdomain.com/api/v2/users_reviews/get/77\" \\\n  -H \"X-Api-Key: your-api-key-here\" Create a Review POST /api/v2/users_reviews/create Copy curl -X POST \"https://www.yourdomain.com/api/v2/users_reviews/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"user_id=42\" \\\n  -d \"review_name=Alice+Walker\" \\\n  -d \"review_email=alice@example.com\" \\\n  -d \"review_title=Excellent+service%21\" \\\n  -d \"review_description=Highly+professional+and+timely+work.\" \\\n  -d \"rating_overall=5\" \\\n  -d \"recommend=1\" \\\n  -d \"review_status=1\" Update a Review PUT /api/v2/users_reviews/update Copy curl -X PUT \"https://www.yourdomain.com/api/v2/users_reviews/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"review_id=77\" \\\n  -d \"review_status=1\" Delete a Review DELETE /api/v2/users_reviews/delete Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/users_reviews/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"review_id=77\" Search Reviews POST /api/v2/users_reviews/search Copy curl -X POST \"https://www.yourdomain.com/api/v2/users_reviews/search\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"user_id=42\" \\\n  -d \"review_status=1\"",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108053",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108053"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:22+05:30",
+  "scraped_at": "2026-10-18T13:57:33.049488"
+}

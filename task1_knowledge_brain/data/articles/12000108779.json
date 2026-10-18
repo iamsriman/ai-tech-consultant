@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108779",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108779-06-05-2026-software-updates",
+  "title": "06/05/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/05/2026 - Software Updates"
+  ],
+  "content": "## 06/05/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108779\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released over 300 new color sets to choose from in Design Settings in the Admin , now sorted by color tags. The logo generator will also take into account the site's color set when generating a logo.\n\n- Added a new date format option that displays dates in the YYYY-MM-DD format in the website's date and time format setting on the General Setting page in the Admin .\n\n- Added the ability to delete all member categories at once from the Admin, with a confirmation warning before the categories are permanently removed.\n\n- Updated the Froala Editor to the latest version, improving stability and editing features across the Admin and frontend.\n\n- Updated the Get User API endpoint so the password, token, and cookie fields are no longer included in API responses, improving data security.\n\n- Updated the Universal Search Cache API and its documentation in the Admin to reflect only the endpoints that are currently available.\n\n- Fixed an issue that caused event dates to display incorrectly on the frontend for events dated before 1970. Widget Involved: Bootstrap Theme - End DateTime Picker - Group\n\n- Fixed an issue that caused the post author selector to freeze when choosing an author in the Admin Post Wizard on sites with a large number of members.\n\n- Fixed an issue that caused API requests to be rejected with an authentication error when the API key header was sent in uppercase, affecting integrations such as Zapier on certain sites.\n\n- Fixed an issue that caused custom \"required\" field settings on the search form to be ignored when submitting the form in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that caused 301 redirects to be ignored when the redirect URL contained the word \"images\".\n\n- Fixed an issue that prevented the stock image importer from working correctly when the \" Convert Uploaded Images to WebP \" setting was enabled.\n\n- Fixed an issue that caused a member's subscription to remain in a Pending status after a successful upgrade payment in some cases.\n\n- Fixed an issue that caused members signing in with Google to be redirected to their Member Dashboard page instead of back to the review form, when the review form was restricted to members only.\n\n- Fixed an issue that caused location searches on the Match Leads page in the Admin to return no results because the searched city was incorrectly replaced with the country name.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108779",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108779"
+    }
+  ],
+  "lastmod": "2026-06-09T03:20:06+05:30",
+  "scraped_at": "2026-10-18T13:59:04.117646"
+}

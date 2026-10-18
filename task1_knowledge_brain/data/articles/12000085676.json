@@ -1,0 +1,249 @@
+{
+  "article_id": "12000085676",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085676-description-of-each-data-table-under-directory-database",
+  "title": "Description of each data table under _directory database",
+  "category": "Developer Hub",
+  "folder": "MYSQL Database",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "MYSQL Database",
+    "Description of each data table under _directory database"
+  ],
+  "content": "## Description of each data table under _directory database\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000085676\n\nIn this article, we will be sharing a short description of each of the data tables under _directory database.\n\n\n## 301_redirects\n\n\n301 Redirects found on the Developer Hub >> 301 Redirects page in the Admin area.\n\n\n## admin_roles\n\n\nCustom Admin Roles added through the Admin Role Permissions page in the Admin area.\n\n\n## admin_role_permissions\n\n\nIndividual permissions for each custom Admin Role added through the Admin Role Permissions page in the Admin area.\n\n\n## admin_role_plugins_permissions\n\n\nAdmin Role Permissions for plugins added by 3rd party developers.\n\n\n## bd_webhooks\n\n\nWebhooks added through the Developer Hub >> Webhooks page in the Admin area.\n\n\n## category\n\n\nDeprecated\n\n\n## category_bridge\n\n\nDeprecated\n\n\n## category_group\n\n\nDeprecated\n\n\n## chat_message_items\n\n\nIndividual chat messages created through the Private Member Chat Add-On .\n\n\n## chat_message_threads\n\n\nChat message threads created through the Private Member Chat Add-On .\n\n\n## comments\n\n\nComments added to posts using the Community Comments Add-On .\n\n\n## contacts\n\n\nDeprecated - used to store contacts seen on the deprecated Emails >> View Contacts page.\n\n\n## contacts_bridge\n\n\nDeprecated - previously used to store relations between \"contacts\" and \"contact lists\".\n\n\n## data_categories\n\n\nSettings for the Post Types found on the My Content >> Edit Post Settings page in the Admin area.\n\n\n## data_flows\n\n\nHigh level settings for lead matching workflows when the Automatic Lead Matching Add-On is active on a website.\n\n\n## data_flow_actions\n\n\nSettings for specific groups of Membership Plans used for the Automatic Lead Matching Add-On .\n\n\n## data_posts\n\n\nIndividual posts for single-image Post Types (EG: Articles, Job Listings, etc).  Individual posts can be seen on the Content » Manage Posts page in the Admin area.\n\n\n## data_types\n\n\nGeneral categories of Post Types used on the website.  It is not recommended to edit the contents of this table.\n\n\n## data_widgets\n\n\nCustom Widgets found on the Toolbox » Widget Manager page in the Admin area.\n\n\n## data_widgets_rel\n\n\nRelationship between Widgets and Sidebars and the order in which widgets appear in sidebars.  Sidebars can be edited on the Toolbox » Sidebar Manager page in the Admin area.\n\n\n## email_accounts\n\n\nDeprecated\n\n\n## email_automation_settings\n\n\nSettings related to the Billing Reminders Add-On .\n\n\n## email_auto_log\n\n\nLog of individual email activity related to the Emails » Send Newsletter functionality in the Admin area.\n\n\n## email_auto_sent\n\n\nLog of campaigns sent using the Emails » Send Newsletter functionality in the Admin area.\n\n\n## email_list\n\n\nDeprecated\n\n\n## email_log\n\n\nDeprecated\n\n\n## email_templates\n\n\nCustom Email Templates created through the Emails >> Email Templates page in the Admin area.\n\n\n## forms\n\n\nCustom forms created through the Toolbox » Form Manager page in the Admin area.\n\n\n## form_fields\n\n\nIndividual form fields for forms created through the Toolbox » Form Manager page in the Admin area.\n\n\n## form_field_types\n\n\nThe form field types used for form fields.  It is not recommended to edit the contents of this table.\n\n\n## form_inquiries\n\n\nData submitted through public contact forms on the site.  These submissions can be found on the Emails >> Forms Inbox page in the Admin area.\n\n\n## image_settings\n\n\nThe settings for images uploaded to the site. These settings can be found on the Developer Hub » Image Settings page in the Admin area.\n\n\n## installer_groups\n\n\nDeprecated\n\n\n## installer_steps\n\n\nDeprecated\n\n\n## leads\n\n\nLeads submitted to members on the site. These can be found on the Interactions >> Member Leads page in the Admin area.\n\n\n## lead_matches\n\n\nThe relationship between individual leads and the members they are matched to.\n\n\n## lead_services\n\n\nDeprecated\n\n\n## list_countries\n\n\nList of all countries and their country codes used on the site.\n\n\n## list_professions\n\n\nThe Top-Level Categories available for members to choose from.  These can be found on the My Members » Member Categories page in the Admin area.\n\n\n## list_seo\n\n\nThe individual Web Pages created on the My Content >> Web Page Builder page in the Admin area.\n\n\n## list_seo_template\n\n\nThe custom SEO Templates found on the Content » SEO Templates page in the Admin area.\n\n\n## list_services\n\n\nThe Sub Categories and Sub-Sub Categories available for members to choose from. These can be found on the My Members » Member Categories page in the Admin area.\n\nImportant Note: The Sub Categories will have a master_id value of 0 and the Sub-Sub Categories will have master_id > 0.\n\n\n## list_states\n\n\nDeprecated\n\n\n## list_tags\n\n\nDeprecated\n\n\n## location_cities\n\n\nCities that have been added to the database by members being geocoded to these locations through the Google Maps API .\n\n\n## location_states\n\n\nStates / provinces that have been added to the database by members being geocoded to these locations through the Google Maps API .\n\n\n## menus\n\n\nCustom menus created through the Toolbox » Menu Manager page in the Admin area.\n\n\n## menu_items\n\n\nIndividual menu items added to a custom menu through the Toolbox » Menu Manager page in the Admin area.\n\n\n## messages\n\n\nDeprecated\n\n\n## orders\n\n\nDeprecated\n\n\n## password_retrieval_sessions\n\n\nSession information stored by the system related to the workflow when members use the \"Forgot Password\" link on a member login page.\n\n\n## payment_gateway\n\n\nDeprecated\n\n\n## payment_log\n\n\nDeprecated\n\n\n## payout_accounts\n\n\nDeprecated\n\n\n## picture_settings\n\n\nDeprecated\n\n\n## plugin_records\n\n\nData related to third-party plugins installed on the site.\n\n\n## post_transactions\n\n\nLog of transactions made related to the Pay Per Post Add-On .\n\n\n## rel_categories\n\n\nDeprecated\n\n\n## rel_services\n\n\nRelationship between members and the Sub and Sub-Sub Categories they selected.\n\n\n## rel_users\n\n\nDeprecated\n\n\n## reminders\n\n\nDeprecated\n\n\n## service_areas\n\n\nService Areas selected by members through the Multi-Location Listing Add-On .\n\n\n## sidebars\n\n\nCustom sidebars added to a site through the Toolbox » Sidebar Manager page in the Admin area.\n\n\n## smart_lists\n\n\nThe Smart Lists added to a site through the My Members » Smart Lists page in the Admin area.\n\n\n## subscription_types\n\n\nSettings for the Membership Plans of the site.  These can be found on the Finance » Membership Plans page in the Admin area.\n\n\n## unsubcribe_list\n\n\nThe email addresses that have requested to be unsubscribed from future newsletters sent through the Emails » Send Newsletter page in the Admin area.\n\n\n## users_activity\n\n\nDeprecated\n\n\n## users_billing\n\n\nDeprecated\n\n\n## users_clicks\n\n\nLog of the clicks tracked through the Member Profile Analytics Add-On .\n\n\n## users_contacts\n\n\nDeprecated\n\n\n## users_data\n\n\nThe default / primary data stored for website members.  Members can be found on the My Members » Search Members page in the Admin area.\n\n\n## users_emails\n\n\nDeprecated\n\n\n## users_favorite\n\n\nThe bookmarks / favorites saved by members through the Bookmark My Favorites Add-On .\n\n\n## users_geolocation\n\n\nDeprecated\n\n\n## users_location\n\n\nDeprecated\n\n\n## users_log\n\n\nLog tracking members logging in and out of their account.\n\n\n## users_meta\n\n\nAdditional data related to the other tables on this list.  When data would normally be saved to another table, but there is no column for that data in the table, it is stored here.\n\n\n## users_photo\n\n\nRelationship between members and the profile photos, logos, and cover photos they uploaded.\n\n\n## users_portfolio\n\n\nRelationship between multi-image posts and the images added for those posts.\n\n\n## users_portfolio_groups\n\n\nIndividual posts for multi-image Post Types (EG: Products, Properties, etc). Individual posts can be seen on the Content » Manage Posts page in the Admin area.\n\n\n## users_portfolio_tags\n\n\nDeprecated\n\n\n## users_reviews\n\n\nThe Reviews submitted to members. These can be seen on the Interactions » Member Reviews page in the Admin area.\n\n\n## users_setting\n\n\nMeta data about members saved by the system.\n\n\n## user_invite_log\n\n\nDeprecated\n\n\n## user_types\n\n\nLegacy internal categories of members on the site. It is not recommended to edit the contents of this table.\n\n\n## visitors_searches\n\n\nDeprecated\n\n\n## website_contacts\n\n\nDeprecated\n\n\n## website_design_settings\n\n\nThe Design Settings saved for the site. These can be edited on the Settings » Design Settings page in the Admin area.\n\n\n## website_labels\n\n\nThe Text Labels saved for the site. These can be edited on the Settings » Text Labels page in the Admin area.\n\n\n## website_layouts\n\n\nDeprecated\n\n\n## website_notifications\n\n\nLog of all website activity shown on the Dashboard >> Activity Tracker page in the Admin area.\n\n\n## website_settings\n\n\nThe General Settings saved for the site. These can be edited on the Settings » General Settings page in the Admin area.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104736265/original/pnFTB0aLRHTpOZNofH8eGaZokym8LpkbWA.png?1644277621",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Description of each data table under _directory database' in section 'Developer Hub' / 'MYSQL Database'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000085676",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085676"
+    },
+    {
+      "text": "Developer Hub >> 301 Redirects",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682632"
+    },
+    {
+      "text": "Admin Role Permissions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064113"
+    },
+    {
+      "text": "Admin Role Permissions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064113"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064113"
+    },
+    {
+      "text": "Admin Role Permissions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064113"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064113"
+    },
+    {
+      "text": "Developer Hub >> Webhooks",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083005"
+    },
+    {
+      "text": "Private Member Chat Add-On",
+      "url": "https://www.brilliantdirectories.com/private-member-chat-add-on"
+    },
+    {
+      "text": "Private Member Chat Add-On",
+      "url": "https://www.brilliantdirectories.com/private-member-chat-add-on"
+    },
+    {
+      "text": "Community Comments Add-On",
+      "url": "https://www.brilliantdirectories.com/member-post-commenting"
+    },
+    {
+      "text": "Emails >> View Contacts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048447"
+    },
+    {
+      "text": "My Content >> Edit Post Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053202"
+    },
+    {
+      "text": "Automatic Lead Matching Add-On",
+      "url": "https://www.brilliantdirectories.com/advanced-leads-module-with-auto-matching"
+    },
+    {
+      "text": "Automatic Lead Matching Add-On",
+      "url": "https://www.brilliantdirectories.com/advanced-leads-module-with-auto-matching"
+    },
+    {
+      "text": "Content » Manage Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035550"
+    },
+    {
+      "text": "Toolbox » Widget Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000025507"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "Billing Reminders Add-On",
+      "url": "https://support.brilliantdirectories.com//support/solutions/articles/12000069276"
+    },
+    {
+      "text": "Emails » Send Newsletter",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070238"
+    },
+    {
+      "text": "Emails » Send Newsletter",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070238"
+    },
+    {
+      "text": "Email Templates",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003538"
+    },
+    {
+      "text": "Toolbox » Form Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046441"
+    },
+    {
+      "text": "Toolbox » Form Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046441"
+    },
+    {
+      "text": "form field types",
+      "url": "https://support.brilliantdirectories.com//support/solutions/articles/12000059648"
+    },
+    {
+      "text": "Emails >> Forms Inbox",
+      "url": "https://support.brilliantdirectories.com//support/solutions/articles/5000673655"
+    },
+    {
+      "text": "Developer Hub » Image Settings",
+      "url": "https://support.brilliantdirectories.com//support/solutions/articles/12000019278"
+    },
+    {
+      "text": "Interactions >> Member Leads",
+      "url": "https://support.brilliantdirectories.com//support/solutions/folders/12000005703"
+    },
+    {
+      "text": "My Members » Member Categories",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949"
+    },
+    {
+      "text": "My Content >> Web Page Builder",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047120"
+    },
+    {
+      "text": "Content » SEO Templates",
+      "url": "https://support.brilliantdirectories.com//support/solutions/articles/5000682654"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949"
+    },
+    {
+      "text": "My Members » Member Categories",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949"
+    },
+    {
+      "text": "Google Maps API",
+      "url": "http://How%20To%20Geocode%20Members%20-%20Sync%20Members%20With%20Google%20Maps"
+    },
+    {
+      "text": "Google Maps API",
+      "url": "http://How%20To%20Geocode%20Members%20-%20Sync%20Members%20With%20Google%20Maps"
+    },
+    {
+      "text": "Toolbox » Menu Manager",
+      "url": "https://support.brilliantdirectories.com//support/solutions/articles/12000034716"
+    },
+    {
+      "text": "Toolbox » Menu Manager",
+      "url": "https://support.brilliantdirectories.com//support/solutions/articles/12000034716"
+    },
+    {
+      "text": "Pay Per Post Add-On",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080356"
+    },
+    {
+      "text": "Multi-Location Listing Add-On",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "My Members » Smart Lists",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071871"
+    },
+    {
+      "text": "Finance » Membership Plans",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048836"
+    },
+    {
+      "text": "Emails » Send Newsletter",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070238"
+    },
+    {
+      "text": "Member Profile Analytics Add-On",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000619186"
+    },
+    {
+      "text": "My Members » Search Members",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045147"
+    },
+    {
+      "text": "Bookmark My Favorites Add-On",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049688"
+    },
+    {
+      "text": "Content » Manage Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035550"
+    },
+    {
+      "text": "Interactions » Member Reviews",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046951"
+    },
+    {
+      "text": "Settings » Design Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043606"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673"
+    },
+    {
+      "text": "Dashboard >> Activity Tracker",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005145"
+    },
+    {
+      "text": "Settings » General Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042195"
+    }
+  ],
+  "lastmod": "2024-11-20T03:47:47+05:30",
+  "scraped_at": "2026-10-18T13:49:27.007757"
+}

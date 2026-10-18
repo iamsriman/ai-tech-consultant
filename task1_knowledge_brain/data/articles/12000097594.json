@@ -1,0 +1,179 @@
+{
+  "article_id": "12000097594",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097594-how-to-use-zapier-triggers-with-the-api",
+  "title": "How to Use Zapier Triggers with the API",
+  "category": "Developer Hub",
+  "folder": "No-Code API Workflows (Zapier, Pabbly & Others)",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "No-Code API Workflows (Zapier, Pabbly & Others)",
+    "How to Use Zapier Triggers with the API"
+  ],
+  "content": "## How to Use Zapier Triggers with the API\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097594\n\nIt is now possible to get database information exported through the API using Zapier Triggers . Zapier triggers work by checking the database for new information periodically, approximately every 15 minutes.\n\nThere are currently 10 options:\n\nGet APIs New APIs Get New Lead by Field Get New Post by Field Get New User by Field Get Form Inquiries by Field Get Review by Field New All Users New All Leads New All Posts New All Reviews New All Form Inquiries\n\nNote: For the \"New All\" triggers, it is not required to send a field as a parameter, this will retrieve all new records that have been added.\n\nFor this example, we will be setting up a Get New User by Field trigger and connecting it to a Google Sheets spreadsheet.\n\n\n## Checklist Before Moving Forward With This Example\n\n\n- Make sure to generate a unique API Key using the documentation down below as a guideline. Please make sure to save the API Key in a safe place as it is not accessible after it has been created: > How To Generate an API Key\n\n- Make sure to have a Google Spreadsheet ready.\n\n\n## Setting Up the Trigger\n\n\nIn this example, we will be using Zapier to integrate Google Sheets to the Brilliant Directories site.\n\n\n### Create Zap\n\n\nLog in to the Zapier account and click on Create Zap :\n\nName the Zap and click on Trigger :\n\nSelect Brilliant Directories as the Trigger :\n\nOnce Brilliant Directories is selected, choose an Event , in this case Get New User by Field:\n\nThe next step is to connect the Account . Click on Sign in :\n\nAdd the website URL and the API Key , and click Yes, Continue to Brilliant Directories:\n\nOnce the account is connected, set uup the Field To Search and the Field To Search Value that will trigger this zap:\n\nMake sure to select a field and a value that will be consistent for all members that should be exported with this trigger. In this example, we want to get all new members that sign up. The membership plan is set to give all new members the status of \"Inactive - Waiting for Email Verification\", so we selected for the Field To Search \"active\" and the Value \"1\".\n\nNOTE : It is not recommended to use a field that will vary between each member, like the user_name or email, these are unique to each member and tehrefore only one would be added to the spreadsheet.\n\nOnce this is set, the trigger is ready to be tested. First make sure to submit a member that will match teh criteria and then test the trigger.\n\nIf a new member is detected, that has teh active field set to \"1\", the test will be successful, click on Continue with the selected record:\n\nNext up select the Change Action that will take place once the Trigger starts, in this case Google Sheets :\n\nAnd then the event that will take place in the spreadsheet, in this example, Create a Spreadsheet Row :\n\nSign In to the Google Sheets account, and Continue :\n\nSelect the drive, spreadsheet, worksheet and row that will be updated:\n\nThen test this step:\n\nOnce the test is ready click on Publish :",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135911182/original/3DzZ2bI6tPvFIEKvoQOfQUh4jnWgK4o9MA.png?1702590394",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135911344/original/ARXhs85vOffTjQoU0YASrGxvidmx4WXm9g.png?1702590564",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135911272/original/fTDfkQDrpk0Etrwh_0HS4lL5HWnWVDE_3g.png?1702590471",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138391163/original/7pSm92iBTcpIN47LZH2uxoOZg-nJM-_X7A.png?1707324171",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135911684/original/fI7N9hG4N9taZY9YgVSFc7EZN-tXSW1ouA.png?1702590912",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135911759/original/CQaGN3oOAvjrsXFo21s_H5h4mcC-6XnpuQ.png?1702591028",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135911873/original/UPbh4iVa-X028FJMg9zGeGpyBzljA_7TDw.png?1702591163",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135912145/original/d5GgRzTTJ6xO7m4AzKWSdBpGDlrkeLKipw.png?1702591468",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135912323/original/3wQDET0nGaXXtb8_OiRt_jCh1foRkYKIhw.png?1702591796",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135912363/original/q1r8KgZBBgb6Vc-NN30TS4Hvgiw6fEJc3w.png?1702591859",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135912451/original/92boUPvaD39mGrxt0EXoqWfbkER3QftffQ.png?1702592092",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135912519/original/9mSteCCkOUPN3LDjWLOz2u7EyfD3ajkyfA.png?1702592196",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135912702/original/yTEiTZsCLZDwXhScBQG1uux4Pj0LFUS1jw.png?1702592384",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135912773/original/P9lxympBIFXx5hC1PSPZ9k3pANAiXU1A6A.png?1702592508",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135912874/original/Gl6kw0uDVL5RV0Ibxo7ohxYtWfXLke8fqA.png?1702592647",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Use Zapier Triggers with the API' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097594",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097594"
+    },
+    {
+      "text": "Zapier Triggers",
+      "url": "https://help.zapier.com/hc/en-us/articles/8496288188429-Set-up-your-Zap-trigger#h_01HFWM0429AM607NBQ6PN3KEK7"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "How To Generate an API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000088768"
+    }
+  ],
+  "lastmod": "2024-12-11T03:30:54+05:30",
+  "scraped_at": "2026-10-18T13:53:13.450396"
+}

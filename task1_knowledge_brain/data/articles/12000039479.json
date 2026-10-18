@@ -1,0 +1,226 @@
+{
+  "article_id": "12000039479",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039479-export-member-data",
+  "title": "Export Member Data",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Export Member Data"
+  ],
+  "content": "## Export Member Data\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000039479\n\n\n## Overview\n\n\nThe data for the website’s members is conveniently stored and accessible within the website admin panel. Sometimes it’s necessary to export this data to be used for other purposes.\n\nThe Export Member Data add-on can quickly export specific member data (email addresses, phone numbers and more) into a .csv file that can downloaded and used with other applications.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Export Member Data Add-On\n```\n\n\n## Using the Add-On\n\n\nThis tool helps export members with ease. With this tool, one will be able to filter certain members and export the member's information. To use this simply follow these steps:\n\nIn the admin dashboard go to M embers » Search Members . Filter the members if needed and click on the \" Export List of Current Member Results \" button to export the search results:\n\nSelect the fields to export or simply \" Select All Fields\" and click on \" Continue with Export \":\n\nOn the next export, the previously selected fields will be remembered for future exports. These fields will be displayed in \" SELECTED FIELDS \":\n\nImportant Note: If the Multi-Location Listing Add-On is active on the site, a field will become available for the admin to select and include them in the export file:\n\nAll service areas will be included in parenthesis and will be comma separated:\n\nThe download should start right away as a zip file:\n\n\n### Opening Zip Files\n\n\n- To unzip a single file or folder, open the zipped folder, then drag the file or folder from the zipped folder to a new location.\n\n- To unzip all the contents of the zipped folder, press and hold (or right-click) the folder, select Extract All, and then follow the instructions.\n\n\n## Exporting Form Inquiries\n\n\nThis add-on will also allow  to export inquiries received from  forms.\n\nTo export the inquiries, please go to Emails » Form Inbox . The admin can export all inquiries by clicking \" Export Current Results \":\n\nIt is also possible to apply filters, the button will export the results based on the filter selected.\n\nFor example, to export the inquiries received from the \"Contact Form\", use the \"Filter by form\" >> Contact Form and then click on \"Export Inquiries\":\n\nA verification step will pop up to continue:\n\nA zip file will be available to open the file downloaded:\n\n\n## Exporting Member Posts\n\n\nWith this Add-On it is also possible to export member posts.\n\n1. Go to My Content >> Manage Post and use the available filters to search for the posts:\n\n2. Hover over the List Actions button and click on Export List of Current Posts Results:\n\n3. Select the fields to export or simply Select All Fields and click on Continue with Export:\n\nOn the next export, the previously selected fields will be remembered for future exports. These fields will be displayed in \" SELECTED FIELDS \":\n\n4. A new pop up will show asking for confirmation, click on \"Yes, Continue\" for the download to begin:\n\n5. A success pop-up will show:\n\n6.  Choose the location to save the file:\n\n7. Open the downloaded file:\n\n\n## Export Smart Lists\n\n\nThe Export option in Smart Lists allows the list to be downloaded as a CSV file. Member smart list exports match the format used in the standard Search Members export, while exports from inquiries, such as Newsletter Subscribers, include data specific to those submissions.\n\n- My Members » Smart Lists\n\n- Smart List & Export Functionality for Leads\n\n- Smart List & Export Functionality for Member Reviews",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160404493/original/hjlRxZsUDFUSxOkT733jg5--tqTK5QVwQQ.png?1745546464",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160404500/original/XuKSKlLLlHPJdegkARyeVWu12hgfQqJT1w.png?1745546507",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146449972/original/j3oDhssRNzNWRI_O5AOUiH4PMn29oQOEoA.png?1721167768",
+      "alt": null,
+      "caption": "On the next export, the previously selected fields will be remembered for future exports. These fields will be displayed in \"SELECTED FIELDS\":",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: On the next export, the previously selected fields will be remembered for future exports. These fields will be displayed in \"SELECTED FIELDS\":",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131538660/original/RdOJkLtz7M_VelQl_wf2J0pBKyx3GHGo1A.png?1695138956",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131539448/original/kGdNIRQ_ZYiiJlwnO2wO3Cl068YQSxXS8A.png?1695139721",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134743431/original/LsyYIDLZJ8RS-zl76NDStEAz-GZocy3Zhw.png?1700559129",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087401428/original/THB2RdE-ldBzGFADRMkR39E-GaYm-N-LWA.png?1610557713",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160404558/original/ziLVfeusPQq5TGsXBk9_AR8Pqp4iU8m4ag.png?1745546646",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094102887/original/Sr9Fpj6-MhxN_oUsOTB-sCw8mDdfKrj28A.png?1623770354",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134743232/original/9_zPkiVN9GVBWRmqT03qTERZVoMfOD59jQ.png?1700558856",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134743276/original/AABB4pYOSC9aQYg2U5S2gllrzZkW87HcXw.png?1700558953",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132901698/original/Mx6QKqKf2YJSWKzfCz9fTP-JwVLpvpmaVQ.png?1697559205",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132902022/original/2YHhULRYAczVYI0DDUZj8ISX2dXQ2N72nw.png?1697559464",
+      "alt": null,
+      "caption": "3. Select the fields to export or simply Select All Fields and click on Continue with Export:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: 3. Select the fields to export or simply Select All Fields and click on Continue with Export:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132902209/original/A8rEWnOUpfbESbtrnfeYvONfY7aOua_6UQ.png?1697559679",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146449979/original/1H_rtDQ5ALZRDMaJiYKZniKMiiTRa0zNuA.png?1721167786",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132902290/original/reToQtDpyiTEYuQLXxp4TZxk_O1FlzbTBQ.png?1697559785",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132902516/original/rz0KbcEfkGYn7MGTtatMiq4WxOdqFk6iaA.png?1697560050",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132902841/original/fH5U6WvofAmR1UWjsqGRxMsgE1vS42iVqg.png?1697560457",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132902424/original/4knkwsULGVUuKLTHkb0BgfjKoSmVaRJXeA.png?1697559969",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Export Member Data' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000039479",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039479"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Export Member Data Add-On",
+      "url": "https://www.brilliantdirectories.com/export-member-data-add-on"
+    },
+    {
+      "text": "Multi-Location Listing",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000030829"
+    },
+    {
+      "text": "My Content >> Manage Post",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000035550"
+    },
+    {
+      "text": "My Members » Smart Lists",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000071871"
+    },
+    {
+      "text": "Smart List & Export Functionality for Leads",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000079364"
+    },
+    {
+      "text": "Smart List & Export Functionality for Member Reviews",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000079365"
+    }
+  ],
+  "lastmod": "2026-08-28T21:54:39+05:30",
+  "scraped_at": "2026-10-18T13:42:08.027129"
+}

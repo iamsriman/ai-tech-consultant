@@ -1,0 +1,60 @@
+{
+  "article_id": "12000102978",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102978-how-to-get-member-transactions-through-the-api",
+  "title": "How to Get Member Transactions Through the API",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "How to Get Member Transactions Through the API"
+  ],
+  "content": "## How to Get Member Transactions Through the API\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102978\n\nIn this article, we will be going over how to Read members transactions using the Transactions API .\n\nWhat this API endpoint allows to do is to gather transaction information from 1 member at the time.\n\n\n## How to get member transactions\n\n\nThe Transactions API leverages a single parameter (member ID or Client ID) to retrieve  all the transactions data.\n\n/api/v2/user/transactions\n\n\n## Parameters\n\n\nOnly 1 parameter is needed to run the API: It can either be the Member ID or the Client ID (The id of the tblclients table in the billing database)\n\n\n## Example with Postman\n\n\nSending the member ID as the parameters\n\nThe results will show all transactions from that particular member in a Json Array format:\n\nIt will also show the payment methods partial details.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155074571/original/8I7THGaWkNr-05Z_DSDqURzJL_U--yyikA.png?1736357334",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Get Member Transactions Through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155074957/original/5OV_qtgI9_7Wr3OcoEz1zNS6lgTjvVoMlA.png?1736357559",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Get Member Transactions Through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155075063/original/D7bBQS4Itt1Mwq2wUYMro4u8CRgQZTsUFw.png?1736357644",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Get Member Transactions Through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173636751/original/c-BejdCvb8gKdn3oBWxC_zLrrnchwEc6tg.png?1769094041",
+      "alt": null,
+      "caption": "It will also show the payment methods partial details.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Get Member Transactions Through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'. Context: It will also show the payment methods partial details.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102978",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102978"
+    }
+  ],
+  "lastmod": "2026-02-01T03:55:17+05:30",
+  "scraped_at": "2026-10-18T13:55:32.919874"
+}

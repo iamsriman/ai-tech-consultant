@@ -1,0 +1,131 @@
+{
+  "article_id": "12000066244",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000066244-using-the-featured-blog-article-slider-with-other-post-types",
+  "title": "Using The Featured Blog Article Slider With Other Post Types",
+  "category": "Add-On Documentation",
+  "folder": "Featured Blog Article Slider",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Featured Blog Article Slider",
+    "Using The Featured Blog Article Slider With Other Post Types"
+  ],
+  "content": "## Using The Featured Blog Article Slider With Other Post Types\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000066244\n\nThe admin can use the \"Featured Blog Article Slider\" add-on functionality to show single photo posts such as blogs (Default), articles, coupons, and Jobs.\n\nIf the admin would like to use this add-on with any of the posts mentioned above, please follow these steps:\n\n1. Go to Settings - Design Settings and click on Home tab, from there expand the Select Content to Display:\n\n2. Select the option \"Featured Blog Article Slider\"\n\n3. Choose the post type the admin wants to use this streaming widget with: articles, coupons, or jobs . In this case, I'll use the coupons post type, so I'll choose \"Coupons\".\n\n4. By default, the Blog Form has a field to display the \"Featured Post Input\", so in order to add these new posts, we need to add this same field to the coupons form. Please go to Toolbox >> Form Manager.\n\n5. Find the form the admin needs to customize (Articles, coupons, or jobs).\n\n6. Click on Actions >> Customize.\n\nI'm going to customize the \"Coupons\" form because I'm using this post type as an example but if the admin is going to use another post, please use the following forms:\n\n- Articles: member_article_fields\n\n- Coupons: coupon_fields\n\n- Jobs: job_fields\n\n7. Click on \"New Field\".\n\n8 Select \"Custom HTML\" as the Field Type.\n\n9. In the\"Field Label\" option, paste this widget: [widget=Bootstrap Theme - Display - Feature Post Input]\n\n10. In the \"Database Variable\" field, paste this variable: widget_bootstrap_theme_display_feature_post_input\n\n11. Show in Display View? need to be set to \"Off\".\n\n12. Show in Input View? need to be set to \"On\".\n\n13. Save the changes.\n\nOnce this has been added the admin will see a new field in the \"Coupons\" form. It will allow the admin to select the posts they want to show in the homepage slider.\n\nBefore the form customization:\n\nAfter the form customization:\n\nNow, when a coupon is added, we can select which coupon to show in the homepage slider.\n\nThey will look like this:\n\nImportant: this add-on won't work with multiple photo posts such as properties, photo albums, classifieds, products, etc. Also, make sure to follow the suggested image size: Recommended image size 760x400 pixels\n\nNote: This could also work for other post types like the Events Post type, but to have this working , it will be required to do some small customizations to the widget: Bootstrap Theme - Homepage - Featured Blog Posts Slider. This \"<\" sign has to be changed for a \">\" sign, flipping the way the logic works in relation to the start_date of the posts:\n\nIf this add-on is not yet owned, the admin can purchase it on our website . Also find more information about this add-on in our documentation: Featured Blog Article Slider Add-On .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090967606/original/OZMLd5ne9MAFk5ShHWJL0Uer1s372L88tg.png?1617736055",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090967673/original/exS9aBdx7TKuZAmKCfCk_sREbHXWBQaWIw.png?1617736166",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090967790/original/xqGtiWlKcMVed5Pz90uAH8g0PaFQaBuepw.png?1617736346",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090967837/original/KxjtxzjSIXBRllR23yVidj68RA8Q1Wk_uw.png?1617736417",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090967872/original/LKHDInfiLCTDMEv0xEMLDG1FFR1Eky4srA.png?1617736473",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090967903/original/IJTk1tR4m_fFcuhJSSfMDj0DP2O4Hl5mOg.png?1617736512",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090968053/original/qerSa4Zy0ELHNXn6zZRVs3ySoPZO4ardqg.png?1617736761",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090968291/original/6rIHbNAtLwBbl6lB7B2Lu_PJ7eS3bWzOIA.png?1617737077",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090968317/original/89IH456R2sjFgk9jEcpiEa6yIaOwlgQffA.png?1617737115",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12072372888/original/QhDudF0enlJT1GOOx5mFzcmbTlbgBnMLpA.gif?1579032265",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116679235/original/OYqh2_uspQsQuH-tUO5SHH7unu_9i4oYQA.jpeg?1667320652",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using The Featured Blog Article Slider With Other Post Types' in section 'Add-On Documentation' / 'Featured Blog Article Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000066244",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000066244"
+    },
+    {
+      "text": "website",
+      "url": "https://www.brilliantdirectories.com/featured-blog-article-slider-add-on"
+    },
+    {
+      "text": "Featured Blog Article Slider Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000022422"
+    }
+  ],
+  "lastmod": "2023-08-29T22:02:03+05:30",
+  "scraped_at": "2026-10-18T13:45:59.231146"
+}

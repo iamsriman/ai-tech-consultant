@@ -1,0 +1,23 @@
+{
+  "article_id": "12000086559",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086559-03-18-22-software-updates",
+  "title": "03/18/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/18/22 - Software Updates"
+  ],
+  "content": "## 03/18/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086559\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the \"Post Limit Reached\" Text Label when a member tries to create a new post in the Member Dashboard area but has already reached their Post Limit. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Photo Albums Label Involved: posts_label\n\n- We deprecated the \"Post Limit Notification\" Post Type Setting when editing Posts in the Admin as it is no longer used.\n\n- We fixed an issue which was preventing the system from displaying Vimeo videos posted using the Videos Post Type when the video's URL contained more than one slash \"/\". Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Display - Recent Videos\n\n- We fixed an issue with the One-Click Google Login Add-On which was causing the system to set members as \"Verified\" automatically after completing the signup process using the Add-On.\n\n- The Recent Reviews homepage widget is now compatible with the Streaming Post Carousel Slider Add-On. Widget Involved: Bootstrap Theme - Display - Recent Reviews\n\n- We updated the Search Members page in the Admin to prevent PHP errors when the Join Date and Last Login Date data contain unexpected timestamp formats.\n\n- The \"Install New Updates\" and the \"Admin Dashboard Steps\" modules in the Admin Dashboard page and the Edit Payment Gateways page are now compatible with Admin Role Permissions.\n\n- We fixed an issue which was preventing the \" Listing Custom FOOTER Code \" found in the Member Quick Edit form from displaying when the \"Hide Website Footer\" Membership Plan setting was enabled. Widget Involved: Bootstrap Theme Framework\n\n- We fixed an issue which was causing the Search Members page in the Admin to show a search criteria tag with a value of \"0\" after selecting the Top Level Category filter but not selecting a Sub-Level Category. Also, after removing the Subscription search criteria tag, the system will now update the Subscription filter as well.\n\n- The %full_name% and %email% email template variables are now compatible when using the Compose Email functionality from the Search Members page, even if no Email Template is selected.\n\n- We fixed an issue which was affecting the ability to delete Contact Categories in the Admin.\n\n- We improved the way the system creates the \"Get Directions\" link for Google Maps modules on the frontend of sites. Widget Involved: Bootstrap Theme - Display - Post Location Modal Bootstrap Theme - Member Profile - Overview Tab\n\n- We implemented a performance update in order to reduce the load time of the Match Leads page in the Admin by only loading the categories of suggested matches when clicking in the \"View All\" link instead of loading all of the categories during the initial page load.\n\n- The \"Payment Received\" modal displayed after paying an invoice from the Member Dashboard area is now compatible with Text Labels.\n\n- We updated the logic of the Community Comments Add-On to only allow members with \"active\" status to publish comments.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086559",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086559"
+    }
+  ],
+  "lastmod": "2022-03-31T02:48:01+05:30",
+  "scraped_at": "2026-10-18T13:49:34.862575"
+}

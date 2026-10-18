@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109023",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109023-recover-password-reset-page-dashboard-installer",
+  "title": "Recover Password Reset Page - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Recover Password Reset Page - Dashboard Installer"
+  ],
+  "content": "## Recover Password Reset Page - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109023\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Recover Password Reset Page Does\n\n\nThis installer restores the page members use to reset their password when that page's record is missing from the website's database. It creates one new web page and changes nothing else.\n\nSpecifically, it inserts a page named Password Retrieval Page (page type password_retrieval_page ) into the site's page list (the list_seo table). The page's content renders the Bootstrap Theme - Member Login Page widget, the platform's standard member login template, and the page is created in active status so it works right away.\n\n\n## Why It Appears\n\n\nEvery Brilliant Directories website normally has a password reset page. This installer appears only when the platform's check finds no page of type password_retrieval_page in the database, which usually means the page was deleted at some point, EG during a cleanup of unused pages. It is not an age or version issue; it is a recovery tool for a missing page.\n\n\n## Why It Matters\n\n\nThe password reset page is where members land to set a new password when they cannot log in. If the page record is missing, that part of the login flow has no page to display, and members trying to recover their password have no way to complete the process. Restoring the page makes the standard password recovery flow work again. If the site already has the page, the installer does not appear and there is nothing to do.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Recover Password Reset Page appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Recover Password Reset Page does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nA page named Password Retrieval Page exists again in the admin's web page list. To verify, use the forgot password link on the site's login page (or request a password reset for a test account) and confirm the reset page loads. The installer only adds this one page; it does not modify or overwrite any existing page, and it is only offered while the page is missing.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109023",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109023"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:44+05:30",
+  "scraped_at": "2026-10-18T13:59:17.091273"
+}

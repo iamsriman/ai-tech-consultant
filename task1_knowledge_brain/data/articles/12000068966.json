@@ -1,0 +1,68 @@
+{
+  "article_id": "12000068966",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068966-common-mistakes-with-google-and-facebook-login",
+  "title": "Common Mistakes with Google and Facebook Login",
+  "category": "Add-On Documentation",
+  "folder": "One-Click Google Login",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "One-Click Google Login",
+    "Common Mistakes with Google and Facebook Login"
+  ],
+  "content": "## Common Mistakes with Google and Facebook Login\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000068966\n\nGoogle and Facebook Login can create a new membership or sign in to an existing member profile. Each provider must be linked to that profile before it can be used to sign in. A matching email address alone does not link a Google or Facebook account.\n\n\n## Before Troubleshooting\n\n\nThe relevant social login add-on must be activated and enabled for the membership plan. See Using Google Login and Using Facebook Login for setup and member dashboard instructions.\n\n\n## Signup and Login Have Different Purposes\n\n\n- Signup: Creates a new membership with the selected social account.\n\n- Login: Opens the member profile already linked to the selected social account.\n\n- Sync: Links a social account from an existing member dashboard after the member has signed in.\n\nAn existing member should sign in or recover access to the existing membership before syncing another provider. Repeating signup is not a password recovery method.\n\n\n## Google Signup Followed by Facebook Login, or the Reverse\n\n\nSigning up with Google does not automatically link Facebook. Signing up with Facebook does not automatically link Google. This remains true when the same email address is used with both providers.\n\n- Sign in with the provider already linked to the membership, or use the membership email address and password.\n\n- Open the member dashboard.\n\n- Sync the other social account.\n\nAfter syncing, either linked provider can be used to access the same member profile.\n\n\n## Account No Longer Linked\n\n\nIf the selected social account is not linked to a member profile, the login message provides a password recovery link. Google displays Google Account No Longer Linked ; Facebook displays Facebook account no longer linked . The message does not by itself confirm whether a membership exists for the email address.\n\n- Open the password recovery link in the message.\n\n- Enter or confirm the email address used for the existing membership.\n\n- Submit the password reset request.\n\n- For an existing account, use the instructions in the reset email to set a password.\n\n- Sign in with the membership email address and password.\n\n- Sync the desired Google or Facebook account from the member dashboard.\n\nThe linked social account can then be used to sign in again. If the member cannot access the membership email address, contact the directory administrator for assistance.\n\n\n## Set a Password First\n\n\nBefore removing a Google or Facebook connection, the member account must have a password. If it does not, selecting Unsync displays Set a Password First and keeps the social account linked.\n\n- Open the password link in the message. The member is logged out and taken to password recovery with the member email address filled in.\n\n- Submit the password reset request.\n\n- Set a password using the emailed link.\n\n- Sign in with the membership email address and new password.\n\n- Return to the member dashboard and select Unsync for the desired provider.\n\nThe member can continue signing in with the membership email address and password after the social connection is removed.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185238317/original/RNTyalRlHv-BUVVrs4v9ArSPAzs1f2N68Q.png?1789496482",
+      "alt": "Google account not linked message with password recovery link",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Common Mistakes with Google and Facebook Login' (Add-On Documentation > One-Click Google Login): Google account not linked message with password recovery link",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185238333/original/SwtRWa2sGgRncNQe41i9iRdo3MJ0Ag3zNA.png?1789496509",
+      "alt": "Facebook account not linked message with password recovery link",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Common Mistakes with Google and Facebook Login' (Add-On Documentation > One-Click Google Login): Facebook account not linked message with password recovery link",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185238332/original/oDIsGA5A0ft6r78qX3WvigncBkW3EjhHTA.png?1789496509",
+      "alt": "Google message requiring a password before unsyncing",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Common Mistakes with Google and Facebook Login' (Add-On Documentation > One-Click Google Login): Google message requiring a password before unsyncing",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185238334/original/h_NkL0PJAaZImIDmSD2g24C6QtW_My57gA.png?1789496510",
+      "alt": "Facebook message requiring a password before unsyncing",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Common Mistakes with Google and Facebook Login' (Add-On Documentation > One-Click Google Login): Facebook message requiring a password before unsyncing",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000068966",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068966"
+    },
+    {
+      "text": "Using Google Login",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069287"
+    },
+    {
+      "text": "Using Facebook Login",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069282"
+    }
+  ],
+  "lastmod": "2026-09-15T23:53:42+05:30",
+  "scraped_at": "2026-10-18T13:46:16.382252"
+}

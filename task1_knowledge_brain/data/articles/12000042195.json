@@ -1,0 +1,176 @@
+{
+  "article_id": "12000042195",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042195-settings-general-settings-tab",
+  "title": "Settings » General Settings Tab",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Settings » General Settings Tab"
+  ],
+  "content": "## Settings » General Settings Tab\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000042195\n\nThis article explains the General Settings Tab and all the settings within this tab.\n\n\n## General Setting Fields\n\n\nBelow is a full list of the settings available within the general settings tab.\n\n\n### Visual Guide of General Settings\n\n\nFull visual list of the General Settings Tab:\n\n\n### 1. Website Name\n\n\nThe Website Name or the Business Name of the website goes here:\n\n\n### 2. Website Phone Number\n\n\nThe Website's or Company's Phone Number goes here:\n\n\n### 3. Industry Name\n\n\nThe Website's or Company's related Industry goes here:\n\n\n### 4. Profession Name\n\n\nThe Profession Name for the members of the directory goes here:\n\n\n### 5. Default From Email Name\n\n\nThe Website or companies main email name:\n\n\n### 6. Website \"FROM\" Email Address\n\n\nThis is the email address that the system will use to send out emails from the website:\n\nSend Email Test\n\nThis tool will complete a test using the default website email address to ensure that this is working well and that it is not blocked. After clicking Send Test Email to Ensure Email is Working this message will show up:\n\nIf the email address is working properly, the following message will show up:\n\n\n### 7. Admin Notification Email Address\n\n\nPrimary email address to receive Admin-only website notification emails:\n\n\n### 8. Website Status\n\n\nHere is where the status of the website is set, when set to Staging Mode, a \"Coming Soon\" form will display on the homepage, instead of the regular homepage.\n\n\n### 9. Search Engine Visibility\n\n\nHere is where it's determined or set if Google or other search engines (Google, Bing, Yahoo, etc) can find and index the website :\n\n\n### 10. Require User Consent To Store Data (GDPR)\n\n\nSelect Yes if this website stores any personal data of EU citizens, or requires additional consent to store user data. More Info\n\n\n### 11. Express Sign Up Membership Plan\n\n\nSelect Yes to activate the Express Registration functionality, this is a free add-on but requires an SSL to work, to learn more about this free add-on click the following link: Express Member Registration\n\n\n### Notes about Express Registration\n\n\n- SSL Security Add-On is required for this to work properly.\n\n- Website must have at least one FREE membership plan that users can sign up to.\n\n\n### 12. Default Email Signature\n\n\nCreate an email signature that will be included at the end of all email templates.\n\n\n### 13. Include Website Signature In All Automatic Emails Sent?\n\n\nIf set to no, the emails sent will follow the email template signature setting.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135061529/original/oNVZdCx70f7xZfgkga0mKk2WJywT2ExHZg.png?1701184987",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131941605/original/DzYAiO9Wje9IB6GbVlk5gPrtob2kxfLXgw.png?1695833003",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131941870/original/WBz1ZA1n75hJvBx3uUEClRbgGVwFQ0QHcw.png?1695833298",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131942088/original/CgbI2IjaVjzqPUSGN47f6zGSLNjI6tbFjA.png?1695833501",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131942176/original/0vmYAWiukjDuy7H2x20oE8Xaasb1u-8o9w.png?1695833599",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135062953/original/06z7edsPLyALVs5vXYaMrEB4yrgx0m6YwA.png?1701186284",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135062955/original/LZf4zdMt_ohVBOfAVLfIxiIXP8S-L9-DAA.png?1701186289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133733793/original/oQKyQIYgZVd73bgPBIAwOds0--aaP-XujQ.png?1699020591",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132218146/original/KRhB_VuJM1ZDkxpU_SrOy9vZ_wKylW-xqw.png?1696355094",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133631505/original/1Pe9DN-sgI8R09BvBXi9SvWtIjQMDcA3Lw.png?1698864736",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131942514/original/Q2rt9SgvDBG_RKOlfBcHbfJDUjkX_Vmuwg.png?1695833918",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131942668/original/aAcaebi6stiljZA6AwOpUtWQu29Le5QEGQ.png?1695834093",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131942729/original/c7SZoHA4Y4duHjwBp9fFcGPqR6rspD-3LQ.png?1695834187",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131942958/original/qHOxmk7MPSg04DhXCXcKAxZC_MSGuMzLIQ.png?1695834402",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131949204/original/IrxBJMM563weJ-djGGkHv_IPQZQrLQZqWg.png?1695841246",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131949302/original/iWCsOiY-4V0ZseK3LWkjtDIRXuw5z2ddog.png?1695841327",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000042195",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042195"
+    },
+    {
+      "text": "More Info",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000042446-europe-s-general-data-protection-regulation-gdpr-compliance"
+    },
+    {
+      "text": "Express Member Registration",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000075702"
+    }
+  ],
+  "lastmod": "2023-11-28T21:25:20+05:30",
+  "scraped_at": "2026-10-18T13:42:23.440011"
+}

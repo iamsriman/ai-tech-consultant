@@ -1,0 +1,85 @@
+{
+  "article_id": "12000055835",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055835-google-maps-add-apis",
+  "title": "Google Maps: Add APIs",
+  "category": "Settings",
+  "folder": "Google Maps Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Google Maps Troubleshooting",
+    "Google Maps: Add APIs"
+  ],
+  "content": "## Google Maps: Add APIs\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000055835\n\nIf Google Maps or location search is not working, one of the required Google Maps APIs may not be enabled in Google Cloud.\n\nThis can happen even if the API key was already created and added to the Brilliant Directories website.\n\n\n## Required APIs\n\n\nThe Google Cloud project connected to the API key should have these APIs enabled:\n\n- Maps JavaScript API\n\n- Places API (New)\n\n- Geocoding API\n\nPlaces API (New) and the admin switch. Location search uses Places API (New) when Use Places API (New) is turned on. That switch is in the details window of the red Google Maps Error alert, and it is the same setting as Enable New Google Maps Places API in Advanced Settings. The key is tested for Places API (New) before the switch is saved. If the switch will not turn on, the key most likely does not have Places API (New) enabled: enable it in Step 1 below, wait a few minutes, and turn the switch on again.\n\n\n## Step 1 - Enable the Missing APIs\n\n\nUse the search bar to find the API that needs to be enabled.\n\nOpen each API link below and enable it for the Google Cloud project being used for the website.\n\n- Enable Maps JavaScript API\n\n- Enable Places API (New)\n\n- Enable Geocoding API\n\nIf the API is not enabled, click Enable .\n\nMake sure the correct Google Cloud project is selected at the top of the Google Cloud Console before enabling each API.\n\nRepeat this step until all required APIs are enabled for the same Google Cloud project.\n\n\n## Step 2 - Check API Restrictions\n\n\nIf the API key has API restrictions, make sure the required APIs are also selected in the key settings.\n\nIf an enabled API is not selected under the API key restrictions, Google may still block the key from using it.\n\nOpen the API key from the Google Cloud Credentials page:\n\n- Open Google Cloud Credentials\n\nInside the API key settings, look for the API restrictions section.\n\nSelect the option to restrict the key, then choose the APIs used by the website:\n\n- Maps JavaScript API\n\n- Places API (New)\n\n- Geocoding API\n\nIf one of these APIs does not appear in the list, return to Step 2 and confirm that the API was enabled for the same Google Cloud project.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179116415/original/eTkB5Z5Cfr401q6TD67yJui13b9_m5bdig.png?1779240289",
+      "alt": null,
+      "caption": "Context: Make sure the correct Google Cloud project is selected at the top of the Google Cloud Console before enabling each API.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Add APIs' in section 'Settings' / 'Google Maps Troubleshooting'. Context: Context: Make sure the correct Google Cloud project is selected at the top of the Google Cloud Console before enabling each API.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179116416/original/NGGiSqidiBzBJd867h6vC9m2fTIRtD0i8g.png?1779240289",
+      "alt": null,
+      "caption": "Context: Make sure the correct Google Cloud project is selected at the top of the Google Cloud Console before enabling each API.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Add APIs' in section 'Settings' / 'Google Maps Troubleshooting'. Context: Context: Make sure the correct Google Cloud project is selected at the top of the Google Cloud Console before enabling each API.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179116414/original/ZMZDRyXL_slgxMglaOG-NtRp6Xi4qlBxAw.png?1779240289",
+      "alt": null,
+      "caption": "Context: Make sure the correct Google Cloud project is selected at the top of the Google Cloud Console before enabling each API.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Add APIs' in section 'Settings' / 'Google Maps Troubleshooting'. Context: Context: Make sure the correct Google Cloud project is selected at the top of the Google Cloud Console before enabling each API.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179115953/original/aDqq8YfKogYOdD4lxI6NRtW3PhpKIdlcFQ.png?1779239174",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Add APIs' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179115954/original/nyLC0O2RAqIMG09Ye2lvkUgw2clBF1RRyQ.png?1779239174",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Add APIs' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000055835",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055835"
+    },
+    {
+      "text": "Enable Maps JavaScript API",
+      "url": "https://console.cloud.google.com/apis/library/maps-backend.googleapis.com"
+    },
+    {
+      "text": "Enable Places API (New)",
+      "url": "https://console.cloud.google.com/apis/library/places.googleapis.com"
+    },
+    {
+      "text": "Enable Geocoding API",
+      "url": "https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com"
+    },
+    {
+      "text": "Open Google Cloud Credentials",
+      "url": "https://console.cloud.google.com/apis/credentials"
+    }
+  ],
+  "lastmod": "2026-09-29T22:41:59+05:30",
+  "scraped_at": "2026-10-18T13:44:41.648968"
+}

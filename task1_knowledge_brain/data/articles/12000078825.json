@@ -1,0 +1,136 @@
+{
+  "article_id": "12000078825",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078825-edit-form-settings-developer-settings",
+  "title": "Edit Form Settings » Developer Settings",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "Edit Form Settings » Developer Settings"
+  ],
+  "content": "## Edit Form Settings » Developer Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078825\n\nIn this article, we will go over the Developer Settings found under Edit Form Settings.\n\n\n### Form System Name\n\n\nHere, the form’s system name can be specified. Use only alphanumeric characters and underscores, with no spaces.\n\n\n## Input Field Settings\n\n\n\n### Field Label Position\n\n\nThis setting allows you to control where labels appear within the form.\n\nThe front-end view when Labels Above Inputs is selected:\n\nThe front-end view when Labels Left of Inputs is selected:\n\n\n### Use Field Label as Placeholder Text?\n\n\nWhen enabled, field labels will display as placeholder text inside the input fields.\n\n\n### <input> Field CSS Classes\n\n\nCSS classes entered here will be applied to all input fields in the form.\n\nBootstrap CSS Forms Reference\n\n\n## Form Settings\n\n\nAdditional form settings are available further down under Developer Settings.\n\n\n### <form> Assign Unique ID\n\n\nA unique ID can be assigned to the selected form. This ID is applied directly to the <form> element.\n\n\n### <form> CSS Classes\n\n\nMultiple CSS classes can be applied directly to the <form> element.\n\n\n### <form> Inline Styles\n\n\nInline styles entered here will apply directly to the <form> element.\n\n\n### Save Action URL\n\n\nThis setting allows you to modify the default action= attribute of the form.\n\n\n### ID to Replace After Form Submitted\n\n\nThis option defines a target ID that will be replaced after form submission. This only works when Display Success Pop-Up Message is enabled under Edit Form Settings → Submission Settings.\n\n\n## Database Settings\n\n\nAdditional database-related options are available further down under Developer Settings.\n\n\n### What Database Table Should Submissions Post To?\n\n\nThis setting determines which database table receives the submitted form data. Only modify this if you are familiar with database tables.\n\n\n### Primary Key\n\n\nA unique field identifier can be specified for the selected database table.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090917736/original/lcUjeqwT-3nS3E0BanaWSz32pTM9WixRSA.png?1617670304",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090917819/original/oUu-sp06ME-ilzPKaU0hqxp7uWFz3OPLog.png?1617670493",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090917853/original/lsbnXSc2LkP6gz_A7X1YxUmOZ-6ahmRLRw.png?1617670550",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090917894/original/YrU07kjwxi1kO35nmYdmn5UyHr8rWARpRg.png?1617670615",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090917994/original/v2Sq65HsezSUFRlKGPatbK0P_OlVYRMrZA.png?1617670800",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090918200/original/tXh6KO4GBmgllYc2h1z1JBeNc8biEZR-uQ.png?1617671162",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090918282/original/KwPWt6Xv4qey8_m22wT0XFTUNv0IKDZp0g.png?1617671286",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090918361/original/WdnQqCgjnwEaemGM9NFJRCPIc8s_SgVZ5g.png?1617671468",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090918373/original/9YVCaGmh43gW5uuTvJX4BL0KMiOj0fmT_w.png?1617671523",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090918406/original/h51WGQpU-wZUejxYC1cMS5Rec4fDhD54Ww.png?1617671648",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090918420/original/l1oD-jW8Xy0iVz3RVt0CIiwjZaqOKXnn5Q.png?1617671688",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090918717/original/4vwkthV1xwqV-qGeuXfgq13HM7I1cZJ9Ow.png?1617672289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Developer Settings' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078825",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078825"
+    },
+    {
+      "text": "Bootstrap CSS Forms Reference",
+      "url": "https://www.w3schools.com/bootstrap/bootstrap_ref_css_forms.asp"
+    }
+  ],
+  "lastmod": "2026-01-06T01:36:16+05:30",
+  "scraped_at": "2026-10-18T13:48:18.390598"
+}

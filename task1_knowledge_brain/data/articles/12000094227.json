@@ -1,0 +1,23 @@
+{
+  "article_id": "12000094227",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094227-06-02-2023-software-updates",
+  "title": "06/02/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/02/2023 - Software Updates"
+  ],
+  "content": "## 06/02/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000094227\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing users from selecting a Top Level Category when using the Top Sub Sub-Sub Category Search Module widget on the frontend in some cases. Widget Involved: Bootstrap Theme - Search Module - Top_Sub_Sub-Sub_Category\n\n- We added the ability to choose \"Member Reviews\" as a \"Linked Post Type\" when creating a new \"Post Search Results\" page using the Web Page Builder in the Admin.\n\n- We fixed an issue with the One-Click Social Media Add-Ons which was preventing sites from creating new members when a member with the same email address already existed on the site.\n\n- We updated the Easy Coupon Codes Add-On in order to work with one-time purchases like Digital Products, Leads, and Pay Per Posts. To use this new feature navigate to the Admin >> Finance >> Coupon Codes >> New/Edit Coupon Code. Widgets Involved: Bootstrap Theme - Account - Leads Bootstrap Theme - Account - Leads Details Page - Purchase Button Bootstrap Theme - Function - Form Promotion Code Validation Bootstrap Theme - Function - Order Summary\n\n- We updated the \"Enable Lazy Load Images\" Advanced Setting in order to always load the images of the first 4 members on search results pages immediately. This will help to remove the initial \"flash\" of the top search result images while maintaining high scores on 3rd party tools like GTMetrix and Google PageSpeed Insights.\n\n- We added the ability to support apostrophes in the Post Categories field when editing Post Types in the Admin. Widgets Involved: Bootstrap Theme - Form - Group Categories Select Controller Bootstrap Theme - Form - Post Categories Select Controller\n\n- We added support for lead email variables when sending manual emails to members using the \"Email Submitter\" modal on the Manage Leads page in the Admin.\n\n- We fixed an issue which was preventing the system from saving content in the Froala WYSIWYGs used on the Membership Plans settings page in the Admin  in some cases.\n\n- We updated the RSS Feed for Posts Add-On to include the start date and time of events when available in RSS feeds for Event Post Types.\n\n- We fixed an issue with the \"Display Order\" setting for Reviews which was causing the \"Newest Reviews First\" and \"Newest Reviews Last\" options to work in reverse. Widget Involved: Bootstrap Theme - Display - Recent Reviews\n\n- We implemented several fixes to the Post Images tab on the Member Images page in the Admin.\n\n- The Profile Photo tab in the Member Dashboard is now compatible with Webhooks. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We added the ability to copy the signup link from the \"Actions\" dropdown on the Membership Plan settings page in the Admin.\n\n- We fixed an issue which was affecting the ability to save Post Types in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000094227",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094227"
+    }
+  ],
+  "lastmod": "2023-06-06T01:14:22+05:30",
+  "scraped_at": "2026-10-18T13:52:21.159518"
+}

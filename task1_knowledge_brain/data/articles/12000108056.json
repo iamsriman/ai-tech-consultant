@@ -1,0 +1,35 @@
+{
+  "article_id": "12000108056",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108056-api-reference-widgets",
+  "title": "API Reference - Widgets",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Widgets"
+  ],
+  "content": "## API Reference - Widgets\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108056\n\n← Back to API Reference | Getting Started Widgets Widgets are reusable HTML/CSS/JS components that power the front-end of your Brilliant Directories website. They can be created, modified, and rendered via the API. Model name in URL: data_widgets — DB table: data_widgets Default values & admin-level visibility: /get responses merge platform Default values (an uncustomized record is returned from the platform Defaults with is_default: true ) and, based on the admin account that created the API key, honor the same visibility rules as the View Widgets page ( /admin/formViewWidgets.php ): widgets whose widget_name is on the admin/Add-On blacklist return a 403 permission error, and forbidden records are silently filtered out of list responses. See Getting Started for details. Legacy widgets are not returned: the Default widgets merged into a /get list response are limited to those supported by the current version of the software. Widgets that belong only to legacy versions are left out. A widget that supports the current version alongside older ones is still returned, because the check asks whether the current version is among the versions listed in bootstrap_enabled , not whether it is the only one. Widgets customized on the website are returned regardless of the versions they list, and retrieving a single widget by ID is not filtered. The Widget Object Field Type Description widget_id integer Unique widget ID (primary key, read-only) widget_name string Widget name/label required on create widget_type string Widget type (default: Widget ) widget_data text Widget HTML content widget_style text Widget CSS styles widget_javascript text Widget JavaScript code widget_settings text Widget configuration settings (JSON or serialized) widget_values text Widget variable values widget_class string CSS class names to apply to the widget container widget_viewport string Where widget appears: front , admin , or both widget_html_element string HTML element type wrapping the widget (default: div ) div_id string HTML ID attribute for the widget container short_code string Shortcode reference for this widget bootstrap_enabled string Comma-separated list of the software versions this widget supports. This is the value the Widget Manager's Software Version filter reads. It is not a true or false flag. ssl_enabled integer 1 if SSL/HTTPS is enabled for this widget mobile_enabled integer 1 if mobile viewport is enabled file_type string File type of the widget date_updated string Date widget was last updated updated_by string User who last updated this widget revision_timestamp timestamp Last modified timestamp (auto-updated) customize string Virtual field for widget customization context fromcron string Virtual field indicating cron execution context List Widgets GET /api/v2/data_widgets/get Copy curl -X GET \"https://www.yourdomain.com/api/v2/data_widgets/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Retrieve a Widget GET /api/v2/data_widgets/get/{widget_id} Copy curl -X GET \"https://www.yourdomain.com/api/v2/data_widgets/get/500\" \\\n  -H \"X-Api-Key: your-api-key-here\" Create a Widget POST /api/v2/data_widgets/create Copy curl -X POST \"https://www.yourdomain.com/api/v2/data_widgets/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"widget_name=My+Custom+Banner\" \\\n  -d \"widget_data=%3Ch2%3EWelcome%21%3C%2Fh2%3E\" \\\n  -d \"widget_viewport=front\" \\\n  -d \"bootstrap_enabled=1\" Update a Widget PUT /api/v2/data_widgets/update Copy curl -X PUT \"https://www.yourdomain.com/api/v2/data_widgets/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"widget_id=500\" \\\n  -d \"widget_name=Updated+Banner\" \\\n  -d \"widget_data=%3Ch2%3ENew+Content%21%3C%2Fh2%3E\" Delete a Widget DELETE /api/v2/data_widgets/delete Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/data_widgets/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"widget_id=500\" Render a Widget POST /api/v2/data_widgets/render Returns the rendered HTML output of a widget, with all template variables processed. Useful for previewing widget output or embedding rendered content in external applications. Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/data_widgets/render\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"widget_id=500\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"Widget rendered successfully\",\n  \"name\": \"My Widget Name\",\n  \"output\": \"<h2>Welcome!</h2>\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108056",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108056"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-08-18T21:37:25+05:30",
+  "scraped_at": "2026-10-18T13:57:35.670376"
+}

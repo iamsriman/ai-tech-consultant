@@ -1,0 +1,35 @@
+{
+  "article_id": "12000044965",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044965-05-25-18-software-updates",
+  "title": "05/25/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/25/18 - Software Updates"
+  ],
+  "content": "## 05/25/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000044965\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was affecting the \"Click to Load More\" button on posts listed on Member Profile Pages. Widgets Involved: Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Member Profile - Member Tabs lazyLoad\n\n- We fixed an issue which was preventing legacy Profile Page Tabs from rendering Text Labels correctly. Widget Involved: Bootstrap Theme - Member Profile - Member Tabs\n\n- We implemented a fix for the capitalization of Tags added to posts.  Previously, the first letter of each tag was always capitalized and the rest of the letters were always lower-case.  Now the Tags will be displayed on the Post Details and Post Search Results exactly as they were entered. Widgets Involved: Bootstrap Theme - Single Post Page Bootstrap Theme - Tag Link\n\n- We rolled out a Security Update to the Stripe Payment Gateway to implement their most recent API and support tokenization of billing information before it is sent to Stripe's servers. Widgets Involved: Bootstrap Theme - Account - Leads Details Page - Purchase Button Forms Involved: Sign Up - Paid Member\n\n- We released the Facebook Website Chat Add-On. Click here for more information. Widget Involved: Bootstrap Theme Framework\n\n- We updated the Easy Coupon Codes Add-On in the Admin Panel in order to show all available Paid Products.\n\n- Now Site Admins can update the settings of the \"Streaming Homepage Widgets\" through the Design Settings Page on the Admin Panel. In order to use these new settings navigate to Admin >> Settings >> Design Settings >> Homepage Layout Tab. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Display - Recent Videos\n\n- We released the Detect Visitor Locations Add-On. Click here for more information.\n\n- We released a set of tools to make it easier for Brilliant Directories websites to comply with Europe's General Data Protection Regulation (GDPR). Click here for more information. Widget Involved: Account - Save Actions Forms Involved: Sign Up - Paid Member Sign Up - Free Member Listing - Write Review WHMCS2 - Listing - Upgrade\n\n- We fixed an issue which was affecting the normal behavior of the Post Category field on the Edit Post Settings section of the Admin area.\n\n- We fixed an issue that was affecting the Member Upgrade functionality for some cases when a member had multiple past subscriptions associated with their account.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000044965",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044965"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/facebook-website-chat"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/detect-visitor-locations"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000042446-europe-s-general-data-protection-regulation-gdpr-compliance"
+    }
+  ],
+  "lastmod": "2018-05-26T03:09:20+05:30",
+  "scraped_at": "2026-10-18T13:42:44.400965"
+}

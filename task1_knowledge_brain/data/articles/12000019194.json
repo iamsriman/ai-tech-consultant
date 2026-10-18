@@ -1,0 +1,215 @@
+{
+  "article_id": "12000019194",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019194-settings-design-settings-banner-ads",
+  "title": "Settings » Design Settings » Banner Ads",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Settings » Design Settings » Banner Ads"
+  ],
+  "content": "## Settings » Design Settings » Banner Ads\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000019194\n\nBrilliant Directories wants to make it easier for Directory Website owners to place banner advertisements throughout their websites. Banner ads are a quick way to generate revenue, especially when using third-party tools like Google Adsense. Our Banner Manager makes it easy to place banners in the following areas: Sidebars (5) Footer (1) Header (1) Below Header (1) Text Links (1) Important: 1. For any banners to display on the website it is required to have \"Display Banner Advertisements\" set to \"Yes\" on the  \"Banner Ad Design\" tab. 2. Make sure to add the Ads.txt on the \"Enter Ads.txt Content\" Field, if the banners don't display it is because the site is missing this Google Verification. 3. If the Ads.txt is added but if there is no Google Ads code added, the banner space might show as a blank space, in this case, disable the banner ad that is displaying the blank space: 4. Each Membership plan has a setting called \"Show Banner Ads On Profile\" if this setting is enabled the banner ads shown on the profiles are not going to appear. To understand more about this setting please visit: Finance » Membership Plans - Profile Page . How To Add Banners In The \"Banner Ads\" Manager There are two primary methods to add a banner to the website using this tool: 1) Inserting a Custom Image and 2) Using an Embed Code (Google Adsense, etc): Method 1: Inserting A Custom Image Go to ADMIN >> DESIGN SETTINGS >> BANNER ADS tab Click on the down arrow for the banner Select \"Use Image Banner Ad\": Click on \" Upload Image \" Select Image from the Media Manager. To add a \"clickable\" banner add the URL link: Click on \"Save Changes\" To know how to place banners on the website please skip the next section Method 2: Add An Embed Code provided by a 3rd party such as Google Adsense Go to ADMIN >> DESIGN SETTINGS >> BANNER AD DESIGN Click on the down arrow for the banner Select \"Use Embed Code\": Paste embed code. Here is an example of what it could look like: Click on \"Save Changes\" How To Place Banners On The Website Once the banners are all set, see how to place them on the site by just following these easy instructions: Adding Banners to Sidebars Each Banner that is found in the Banner Ad Design section has its own unique widget name. This is important to note as placing banners on the website by calling the appropriate widget name. For this example, we will try to add the following banner on the member search result pages: Copy the name of the widget: Go to TOOLBOX >> SIDEBAR MANAGER Select the \"Member Search Result\" Sidebar Paste the widget name copied in step 2: Click and drag the Banner in the order of preference. Click \"Save Changes\" Important Note: The banner named Sidebar Banner Ad (Bootstrap Theme - Banner - Responsive Size) is a unique banner that will appear automatically in certain sidebars after enabled. These sidebars are: Member Profile Page Member Search Result Post Search Result Post Single Page Toolbox » Sidebar Manager Adding The Footer Banner to the Website Adding an image or embed code in the Footer Banner will automatically display the Banner Ad in the Footer as long as advertisements are enabled for the website. There are no further steps required. Adding Banner Ad To Header Adding a banner to the Header requires hiding the search bar that comes by default in the header as there is not enough room for both the banner ad and the search bar. To add both this would be customization and would require that request to go to the marketplace. To add a Banner to the Header please follow these instructions: Upload the image banner or paste the embed code inside the Header Banner design box: Click on \"save changes\" Go to SETTINGS >> DESIGN SETTINGS >> GENERAL  >> HEADER DESIGN In the \"Header Search Module\" dropdown select the \"Display Header Banner Ad\" option: Click \"Save Changes\" The Header Ad should not be displayed in the Header. This is how the Header Banner Ad will display on the front-end: Adding Below Header Banner Ad This banner can be added under Banner Ads directly: This banner, by default, will display on any pages under the Header besides the homepage (/home) and join page (/join): To allow this banner to display in the Homepage, check the Display on Homepage option: Photo Albums Banner Ad This banner is going to display at the end of the Photo Gallery of a Membership Feature that is using a Photo Gallery, for example, Photo Albums, Products, Properties, and Classifieds. See the Banner showing at the end of the Photo Gallery content:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115244069/original/J3Lyj8v8F-awVxxJ5E4pPabBSiC6PcNkdA.png?1664451357",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106503052/original/SXec7VxreWPh5nd1hmKU8hNrLYGbL44vbw.png?1647626343",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106503101/original/rdsf7XEze5cFhMjKeImtPJYylOu9hpQktw.png?1647626394",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086347381/original/vADtkQbE-vO056zRhMESQ1jfZQYR1szixA.png?1608048681",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086347517/original/uGyt3Tme5VzMJaQ8Tzcl8zUthgnmZ5b1ZA.png?1608048777",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084765726/original/0hAu4cWQ-Lwu6UslWZDg8cId7hp3VivIKQ.png?1605017810",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084765868/original/t5r8Ub_NGDE-TaJ2TAC2UrsUa-LMAsHoBg.png?1605017941",
+      "alt": null,
+      "caption": "Context: Adding Banners to Sidebars",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'. Context: Context: Adding Banners to Sidebars",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086347545/original/t0Vdv3d2QyfzfZ1lqBfLsnKfXnoXQn8Xzg.png?1608048812",
+      "alt": null,
+      "caption": "Copy the name of the widget:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'. Context: Copy the name of the widget:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106650419/original/z6YiE9LAj6nAJwouCGClGfXoTqGWiDbQ-g.png?1647966192",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12048448704/original/AFCg7EEFQEaEEcysd04B5DmZKCIGRUBbeQ.png?1553620529",
+      "alt": "blob1476130830479.png",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Design Settings » Banner Ads' (Settings > Design Settings): blob1476130830479.png",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12048448705/original/DNQkQyDruf_e0VRL7LBd0jPLaQNY2-Vtaw.png?1553620529",
+      "alt": "blob1476131087997.png",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Design Settings » Banner Ads' (Settings > Design Settings): blob1476131087997.png",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106650487/original/Z4kz40aaKK0NhV1NNeax1uxngFaGUnhhUA.png?1647966236",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089359085/original/BlcnI1c8lZZloHljCxk49Y6keDBxSDAuJQ.png?1614438326",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106650128/original/PI266OlifpGN8Vp3BW0_qLQi1NBV2P_72w.png?1647965927",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124676688/original/J6Ssxl8gKW5DPBwFkAfijZSf3XnMCuHtGg.png?1682615038",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106649943/original/1J4mPaznLJ5wqa75Wu3YP9_epFi6K9eyjQ.png?1647965745",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124676443/original/jecLTPxWbSUJvIKHW2jlhLBamnd0uJkDfg.png?1682614821",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106650820/original/OaXFAFo9jkvzpy92ZIjbmqVsFazFBkKlLw.png?1647966566",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089359504/original/YTaIApeQJNTY44kzKw_jY38FYnRc8A2mxw.png?1614440148",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Design Settings » Banner Ads' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000019194",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019194"
+    },
+    {
+      "text": "Ads.txt",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000040190-how-to-add-an-ads-txt-file"
+    },
+    {
+      "text": "Finance » Membership Plans - Profile Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049272"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12010568472/original/blob1476130830479.png?1476130858"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12010568553/original/blob1476131087997.png?1476131115"
+    }
+  ],
+  "lastmod": "2023-07-14T06:44:44+05:30",
+  "scraped_at": "2026-10-18T13:40:30.554184"
+}

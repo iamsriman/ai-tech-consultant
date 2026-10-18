@@ -1,0 +1,23 @@
+{
+  "article_id": "12000052006",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052006-11-30-18-software-updates",
+  "title": "11/30/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/30/18 - Software Updates"
+  ],
+  "content": "## 11/30/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000052006\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added a meta tag to the the <HEAD> section of all sites with the RSS Feed Add-On active to make sure search engines are aware of the RSS feed. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was causing the Blog Articles feature to not respect the Publish Date field when ordering blog posts in some cases. Widget Involved: Search - Post - Search Query\n\n- We updated the design of the Recent Reviews homepage widget to add some additional margin between each review. Widget Involved: Bootstrap Theme - Display - Recent Reviews\n\n- We added the ability to Create/Delete and Update folders through the Media Manager Tool in the Admin.\n\n- We fixed an issue which was removing the Member Search Results code after installing the Member Profile Analytics Add-On in some cases on older sites.\n\n- The fixed an issue which was adding extra margin at the top of the Front-End pages when the site does not have a Main Menu. Widgets Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We added the ability to edit the Default Email Signature from the General Settings page in the Admin. This signature will be added to email templates sent out by the system by default. In order to use this new feature navigate to Admin >> Settings >> General Settings >> General Tab.\n\n- Imported members that have a password pre-set in the import file will now have the password automatically encrypted during import.\n\n- We released the Google Map Search Results and Grid View Search Results Add-On. Widgets Involved: Bootstrap Theme - Footer - Scripts Bootstrap Theme - Grid View Toggle Bootstrap Theme - Member Results - Sorting Options Bootstrap Theme - Search Results Map Features Involved: Community Articles Classifieds Products Photo Albums Properties Listings Coupons Events Jobs Listings Videos Website Blog Articles\n\n- We updated the design of the Member Reviews Page in the Admin.\n\n- We added the Bookmark Text Label for the Bookmark Favorites Add-On. Text Label created: bookmark. Widgets Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was causing the Member Contact Form that displays on Post Details pages to not work properly in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000052006",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052006"
+    }
+  ],
+  "lastmod": "2018-12-01T05:40:06+05:30",
+  "scraped_at": "2026-10-18T13:44:12.108925"
+}

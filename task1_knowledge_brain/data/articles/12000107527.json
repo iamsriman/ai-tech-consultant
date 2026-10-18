@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107527",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107527-01-29-2026-software-updates",
+  "title": "01/29/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/29/2026 - Software Updates"
+  ],
+  "content": "## 01/29/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107527\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the Post Category field from displaying when creating blog posts using the Brilliant Directories Zapier integration in some cases.\n\n- Updated the Member Tags field to display in the correct position in the Brilliant Directories Zapier integration.\n\n- Fixed an issue that affected the ability to create members using the Brilliant Directories API in some cases.\n\n- Fixed an issue that prevented changes made using the Quick Edit Member form on the Search Members page in the Admin from saving properly in some cases.\n\n- Updated the alert message when publishing or un-publishing free posts when the Pay Per Post Add-On is active on a website. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- Fixed an issue that prevented the Google Location Autosuggest logic from working properly when selecting “London, UK” as a location while submitting leads in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that prevented the system from displaying the available Site Admins when visiting the Admin Account page in the Admin in some cases.\n\n- Updated the CSS of the “Date Time” picker field color to always use #000 (black) . Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Fixed an issue that affected the ability to publish comments on post details pages in some cases. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- Fixed an issue that prevented the Domain Manager page in the Admin from working properly when the connected domain was using proxied records (EG, when using Cloudflare) in some cases.\n\n- Fixed an issue that affected the ability to display Radio Button fields on the \"Website - Lead Form - Get Matched\" form when the \"Hide Field Labels\" Lead Setting was set to \"Yes\".\n\n- Added the Directory Discount Badge to Site Admins with the Owner role who have more than three active websites on the Account Dashboard page.\n\n- Added the users_to_match variable to the Create Lead API endpoint to allow leads to be matched with specific members via a comma-separated list of emails or user IDs. Note: This new variable overrides the lead auto-match logic.\n\n- Fixed an issue that prevented the Blog Post Schema Markup feature from working properly in some cases. Widget Involved: Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article\n\n- Fixed an issue that prevented the Daily Smart List Sync logic from working properly.\n\n- Implemented an update to fully uninstall the Block Traffic by Country Add-On settings after deactivating the Add-On in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107527",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107527"
+    }
+  ],
+  "lastmod": "2026-02-03T03:07:56+05:30",
+  "scraped_at": "2026-10-18T13:57:12.121876"
+}

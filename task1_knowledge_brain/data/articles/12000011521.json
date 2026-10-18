@@ -1,0 +1,204 @@
+{
+  "article_id": "12000011521",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000011521-managing-member-credit-cards",
+  "title": "Managing Member Credit Cards",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Managing Member Credit Cards"
+  ],
+  "content": "## Managing Member Credit Cards\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000011521\n\nThis article covers how to do the following from the Admin area of the site: How to check if a member currently has a credit card on file. How to add a credit card for a member. How to update the credit card on file for a member. How to delete a credit card on file for a member. To do any of the above actions, follow these steps: Click My Members » Search Members Search for the member and click Actions » Payment History: Click the \"CC Info\" button: Checking if a Member Has a Credit Card on File If the member has a credit card on file, a snippet of the credit card information will display here: Adding a Credit Card for a Member Click the \"Add Credit Card\" button: Enter the credit card information of the member: Click the \"Save credit card & continue\" button. If the complete credit card information is entered with no errors, a success message like this will appear: Click the \"Close Window\" button. The member's credit card information on file will be displayed here: Understanding Card Type Information (Stripe Only) When an admin views a member’s saved payment information in the member’s Account Details , the dashboard will also display the type of card stored for that account. This information is only available when when Stripe is used as the payment gateway. Other gateways do not display these details. The card type label helps clarify how the card is stored in Stripe and whether it supports recurring subscription payments. Below are the possible types and their meanings: Legacy A non-3D Secure card saved as a legacy “card” object in Stripe. Recurring subscription payments will process normally. If there are any issues collecting payments on this type of card, the member may need to log in to the Member Dashboard and save their credit card information once again so it is saved as a modern \"Payment Method\" object in Stripe. Legacy (3DS) A 3D Secure card saved as a legacy “card” object in Stripe . If there are any issues collecting payments on this type of card, the member may need to log in to the Member Dashboard and save their credit card information once again so it is saved as a modern \"Payment Method\" object in Stripe. Payment Method A non-3D Secure card saved as a modern “payment method” object in Stripe. This is Stripe's preferred, most up-to-date format. Recurring subscription payments will process normally. Payment Method (3DS Recurring) A 3D Secure card saved as a modern “payment method” object in Stripe that supports recurring subscription payments. Recurring subscription payments will process normally. Payment Method (3DS Manual) A 3D Secure card saved as a modern “payment method” object in Stripe that requires manual authentication for each transaction. The member must log in to their Member Dashboard and manually authenticate every payment. The member may contact the bank to remove this requirement or use a different card. Updating a Member’s Credit Card on File To update the credit card on file for a member, click the \"Update\" button: NOTE: This button will only appear if the member already has a credit card on file. The current credit card on file will appear at the top of the modal. The fields for entering the updated information will also appear there: Click the \"Save credit card & continue\" button. If the complete credit card information is entered with no errors , a success message like this will display: Click the \"Close Window\" button.  The updated credit card information will be reflected on the following page: Updating a Member’s Credit Card on File Click the \"Clear\" button: Confirm removal of the credit card on file by clicking the \"Yes, clear credit card\" button: Once successfully deleted, a success message will appear, click the \"Close Window\" button: Customizing Member Credit Card Form Text Labels The text labels displayed in the pop-up for adding or updating a member’s credit card can be modified in the Admin area. This is useful for aligning terminology with business requirements or providing clearer instructions to members. To update these labels: Navigate to Settings >> Text Labels in the Admin menu. Search for terms related to the credit card form, such as: 1. add_credit_card_popup_title 2. add_credit_card_popup_subtitle (hidden) 3. cc_card_name 4. cc_card_number 5. cc_expiration_date 6. cc_security_code Edit the desired text labels and save the changes. Once updated, the new labels will appear in the modal whenever a member adds or updates credit card information through the member dashboard. Enabling the “Use AVS Billing Address Fields” Setting By default, when trying to update an existing credit card for a member, the available fields are limited to the Card Owner Name and Card Number: When the Use AVS Billing Address Fields advanced setting is enabled: Additional location fields will be added to the same form. This would also apply if the member is updating their credit card via their member dashboard: Keep in mind that when the \" Use AVS Billing Address Fields \" advanced setting is turned on, the billing address fields on the checkout pages will become mandatory.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105107219/original/hYAoeTxXq_BhlzFyp120w-YBVhYE9LNn7Q.png?1644980620",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089849922/original/69njtx7Gt7RY05EL2uVlcS3MYmHvf5QwLg.png?1615426401",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089849936/original/0Wz8Q5Lgg_icDMipQ9vIiJre5qqFtxVAQg.png?1615426517",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850002/original/q4sKv0WH2bx-zxH4N7wDFHKtii9Enn5zLQ.png?1615426630",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850009/original/0WzFabpTQfp-7Iqfya7pc9FMwtRYsJTcwg.png?1615426683",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850025/original/S0kwBFZ9EDLYdi_Lx4AMatE6sRG0ltIOIg.png?1615426716",
+      "alt": null,
+      "caption": "Click the \"Save credit card & continue\" button.If the complete credit card information is entered with no errors, a success message like this will appear:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'. Context: Click the \"Save credit card & continue\" button.If the complete credit card information is entered with no errors, a success message like this will appear:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850046/original/TY8BdoLczyYTChcTfft32R8Nt6Da_ol_Kw.png?1615426769",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170092092/original/4pVEpAFDNJDqAAvFV_UcJ6QtrztDHfzoZA.png?1762365420",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850056/original/OutDeT8D-Y23tLAYInIBuOAG1oW6Trb4NA.png?1615426798",
+      "alt": null,
+      "caption": "Context: Updating a Member’s Credit Card on File",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'. Context: Context: Updating a Member’s Credit Card on File",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850097/original/ZSXfU4-sbuvOz8PzOseQ-wH-GxxWfGbgfA.png?1615426921",
+      "alt": null,
+      "caption": "Context: Updating a Member’s Credit Card on File",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'. Context: Context: Updating a Member’s Credit Card on File",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850102/original/NIGpHvcgHgnEcFH_tuCsmaw21HzYHW04kw.png?1615426960",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850116/original/OT3DkC-FcjaWF5VC3eSFneM4T6xKzejcwQ.png?1615426988",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850120/original/-DQdfTXuN5LRQbjQWyNAGCjVExlFaqBzGg.png?1615427012",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850122/original/San_gOv47JuT_aYIvj2W1x6ARsjzsuF-iQ.png?1615427040",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850132/original/Q21frGHmj1kUHATRvNUGGH1HO-CTlTBg6g.png?1615427065",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165727069/original/FOFSLuRgVcuVd2DMI4WWSagM2GDKnRhbng.png?1755005233",
+      "alt": null,
+      "caption": "Context: Customizing Member Credit Card Form Text Labels",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'. Context: Context: Customizing Member Credit Card Form Text Labels",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100713117/original/yLUSXTyA1B2TBMcgLa1s_UtAF27hhQC73w.png?1636461179",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165814267/original/9fK7Z_JDXIFHaigCes5UdxsDdvEDhMOtpw.png?1755109209",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100713206/original/pVEvY1dMVydutpgOF7T3PCSVxnOIEwo1yQ.png?1636461297",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100713322/original/EuwHtOXNbcimQAUBghHcjgWAvXxtGRLdbA.png?1636461381",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Member Credit Cards' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000011521",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000011521"
+    }
+  ],
+  "lastmod": "2026-06-05T21:51:19+05:30",
+  "scraped_at": "2026-10-18T13:40:21.911013"
+}

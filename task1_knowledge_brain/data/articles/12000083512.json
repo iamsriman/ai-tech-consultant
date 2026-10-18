@@ -1,0 +1,23 @@
+{
+  "article_id": "12000083512",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083512-11-12-21-software-updates",
+  "title": "11/12/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/12/21 - Software Updates"
+  ],
+  "content": "## 11/12/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000083512\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Webhooks page in the Admin to only allow a webhook to be saved as \"Enabled\" if the corresponding Webhook Link has been provided.\n\n- We fixed an issue with the \"Display Order\" setting for homepage widgets which was preventing the results from being sorted by \"Newest First\" when the \"Limit One Post per Member?\" setting is active for the same widget. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Audios Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Digital Products Bootstrap Theme - Display - Recent Discussions Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Videos\n\n- We fixed an issue which was causing the \"Recent Members\" homepage widget to display the Top Category of the previous member if a member displaying in the widget had not yet selected a Top Category. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We fixed an issue with the Global Website Search modules which was preventing them from loading the results when the Global Website Search SEO Template was not customized on the site. Widgets Involved: Bootstrap Theme - Header - Right Bootstrap Theme - Module - Global Website Search Bootstrap Theme - Module - Global Website Search + Location\n\n- We fixed an issue which was causing email templates sent to a member after accepting a lead to render the lead's name instead of the member's name using the %%%first_name%%% variable.\n\n- We implemented a performance update in order to delay loading the Recaptcha scripts until after the user clicks on the form.  This helps speed up the load of pages and optimizes the delivery of this javascript. Widget Involved: Bootstrap Theme - Function - Google ReCaptcha on Sign up Page\n\n- We updated the logic of Multi-Image Post Types to prevent images from other Post Types from displaying with posts unintentionally. Widget Involved: Bootstrap Theme - Account - Photo Albums datatable Bootstrap Theme - Account - Photo Albums Sort Bootstrap Theme - Display - Related Posts by Category Bootstrap Theme - HEAD Bootstrap Theme - Photo Album Page Bootstrap Theme - Search Results - Display Image Slider\n\n- We fixed an issue with the Pin Featured Post Add-On which was causing the system to reset the content of a post after setting it as a featured post from the Admin in some cases.\n\n- We fixed an issue which was causing the \"pretty URL\" search results pages for locations to return a 404 error page when trying to render the page for a city when the country the city is in does not have states or provinces.\n\n- We updated the Domain Manager page logic to display more detailed error messages when there is an issue updating the domain of a website.\n\n- We updated the system to prevent console warnings related to expired cookies from displaying in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000083512",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083512"
+    }
+  ],
+  "lastmod": "2021-11-13T02:53:35+05:30",
+  "scraped_at": "2026-10-18T13:49:10.462665"
+}

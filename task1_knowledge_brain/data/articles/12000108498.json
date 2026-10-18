@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108498",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108498-05-15-2026-software-updates",
+  "title": "05/15/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/15/2026 - Software Updates"
+  ],
+  "content": "## 05/15/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108498\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a new Advanced Setting called \"Noindex, Follow Paginated Search Results\" that applies a \"noindex, follow\" robots meta tag to paginated search result pages beyond the first page. This helps prevent search engines from crawling low-value paginated pages while still allowing them to discover deeper content like member profiles and posts.\n\n- Released a new bulk action in the Manage Posts area of the Admin that allows changing the Category of multiple selected posts at once, displaying a drop-down with the available categories for the selected post type.\n\n- Included the \"Encrypt Member Passwords\" installer as part of the \"Install New Updates\" section in the Admin Dashboard, so it can be executed by Admins on sites where it had not yet been run.\n\n- Improved how GeoIP country-blocking rules are written to the .htaccess file on LiteSpeed servers, placing them at the top of the file so they are evaluated before the rewrite rules that route traffic to the application.\n\n- Fixed an issue that caused the Display Member Logo widget to render the square social media crop of the logo instead of the profile crop on the Member Profile page. Widget Involved: Bootstrap Theme - Member Profile - Display Member Logo\n\n- Fixed an issue that caused the system to save WebP images as blank when members rotated images in photo album post types in the Member Dashboard.\n\n- Fixed an issue that caused the banner ad image preview to appear broken in the Admin Design Settings when the admin area was accessed over HTTPS.\n\n- Fixed an issue that caused profile photo and logo uploads to hang on a validation alert in the Member Dashboard, in cases where a third-party script on the site declared a conflicting global variable. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- Fixed an issue that caused a direct lead to be matched to additional members even though the member's \"Get Replies from more members?\" setting was disabled, in cases where the site-wide automatic matching setting was enabled. Widget Involved: System - SaveForm\n\n- Fixed an issue that caused the system to produce blank WebP files when automatically converting uploaded PNG images that contained a transparency layer.\n\n- Fixed an issue that prevented images from being included when exporting posts belonging to multi-image post types from the Admin.\n\n- Fixed an issue that caused the Sitemap Generator, Web Page Builder, and Widget Manager pages to render blank in the Admin on sites with several thousand individual web pages saved in the database.\n\n- Fixed an issue that caused a direct lead to be matched to additional members even though the \"Get Replies from more members?\" field was set to \"No\", on sites where the site-wide automatic matching setting was disabled. Widget Involved: System - SaveForm",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108498",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108498"
+    }
+  ],
+  "lastmod": "2026-05-19T20:06:26+05:30",
+  "scraped_at": "2026-10-18T13:58:52.695309"
+}

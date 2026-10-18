@@ -1,0 +1,27 @@
+{
+  "article_id": "12000082535",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082535-09-24-21-software-updates",
+  "title": "09/24/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/24/21 - Software Updates"
+  ],
+  "content": "## 09/24/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082535\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Coming Soon module to make it use a Web Page rather than a widget. To use this new feature and edit the coming soon web page, navigate to the Admin >> General Settings >> General Tab >> Website Status (changed to Staging Mode) >> Edit Coming Soon Page.\n\n- We created a new \"Sidebar Search Module\" Post Type setting option called \"No Search Module - None\". Choosing this option will hide the search module in the default Post Type search result pages sidebar.\n\n- We improved the way the system does SQL queries on every page load  to reduce queries and improve page load times.\n\n- We released the Premium Content Blocks Add-On. Click here for more information.\n\n- We fixed an issue with the Member Limit logic which was preventing Admins from importing members even when the member limit has not been reached in some cases.\n\n- We updated the logic of the Insta-Load Search Results Add-On to update the text at the top related to the number of listings being displayed with every click on the lazy load button. Widget Involved: Bootstrap Theme - Member Results - Sorting Options\n\n- We implemented a performance update in order to reduce the FTP connections on every page load on the frontend of sites to improve page load times.\n\n- We fixed an issue which was affecting the ability to customize forms even when changes are applied to a form field's validation options in some cases.\n\n- We fixed an issue which was causing the Email Template Logo to display as a broken image in emails when the logo is stored inside a sub folder in the Media Manager in some cases.\n\n- We added the ability to upload attachments and use the feedback survey on support ticket page in the Account Dashboard area in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082535",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082535"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/premium-content-blocks"
+    }
+  ],
+  "lastmod": "2021-09-27T04:28:16+05:30",
+  "scraped_at": "2026-10-18T13:48:59.823705"
+}

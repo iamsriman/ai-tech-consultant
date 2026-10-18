@@ -1,0 +1,90 @@
+{
+  "article_id": "12000067547",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067547-bookmark-counter-add-on",
+  "title": "Bookmark Counter Add-on",
+  "category": "Add-On Documentation",
+  "folder": "Bookmark Counter",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Bookmark Counter",
+    "Bookmark Counter Add-on"
+  ],
+  "content": "## Bookmark Counter Add-on\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000067547\n\n\n## Overview\n\n\nThe Bookmark Counter add-on provides additional functionality to the Bookmark My Favorites add-on by displaying a live counter of how many times a post or member listing has been bookmarked/favorited.\n\nStir the competitive spirit of the website visitors. Prompt them to take action by showing how popular certain posts are.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Bookmark Counter Add-On\n```\n\n\n## Enabling the Add-On\n\n\nGo to Settings >> Design Settings expand the Button Colors section.\n\nFind: Enable Bookmark Counter\n\n\n## Front-End\n\n\nWhen enabled, the Post Search Results will show how many times a post has been liked:\n\nMember Search Results are going to show the total for that profile:\n\n\n### Sort Options\n\n\nWith this add-on enabled, the search results will display sort options for \" Sort by Most/Least Likes \":\n\nThere are text labels for the select options:\n\n- Sort By Least Likes System Variable : sort_by_least_likes\n\n- Sort By Most Likes System Variable : sort_by_most_likes\n\nThese text labels need to have values in order for the sort options to appear in the search results. If there is no text for either of these labels, members and website users will not be able to sort by Most Likes and Least Likes.\n\n\n## Member Dashboard\n\n\nThe Liked content will display in the member dashboard sidebar:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12122715404/original/SEHNJ0FXr9ibTwGTk6plukhwAVH5N0NK9A.png?1678983475",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bookmark Counter Add-on' in section 'Add-On Documentation' / 'Bookmark Counter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796871/original/-e9f3ujlCI6frj2D0yfzCMDG7Rcds8bmEw.png?1615347201",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bookmark Counter Add-on' in section 'Add-On Documentation' / 'Bookmark Counter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796894/original/_ShbMdk_oD05c_G0ax70ME8cFmE0-eWVxA.png?1615347262",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bookmark Counter Add-on' in section 'Add-On Documentation' / 'Bookmark Counter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12122717003/original/6VKX88q3em0CBBNseQ2A4vKjWWUzygnT2Q.png?1678985079",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bookmark Counter Add-on' in section 'Add-On Documentation' / 'Bookmark Counter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12122717460/original/o9lYzfn-p47J7OhSUViGRoRD7Mi-M9p4fQ.png?1678985470",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bookmark Counter Add-on' in section 'Add-On Documentation' / 'Bookmark Counter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12122716101/original/Qsi9ZlBtsSkWolGzXxjDnMC_wi3-1ByDfg.png?1678984134",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bookmark Counter Add-on' in section 'Add-On Documentation' / 'Bookmark Counter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000067547",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067547"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Bookmark Counter Add-On",
+      "url": "https://www.brilliantdirectories.com/bookmark-counter-add-on"
+    }
+  ],
+  "lastmod": "2026-08-28T21:51:45+05:30",
+  "scraped_at": "2026-10-18T13:46:05.947218"
+}

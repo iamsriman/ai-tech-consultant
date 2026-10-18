@@ -1,0 +1,27 @@
+{
+  "article_id": "12000062030",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000062030-09-20-19-software-updates",
+  "title": "09/20/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/20/19 - Software Updates"
+  ],
+  "content": "## 09/20/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000062030\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the Sitemap Generator Add-On to not auto-generate the sitemap files correctly in some cases.\n\n- Member upgrades are now listed in the Activity Tracker in the Admin. Widget Involved: Bootstrap Theme - Success Page - Paid Member Upgrade\n\n- We fixed an issue which was causing the link in the member-password-retrieval email template to break when the email template was customized on the site. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We updated the \"Compose Email\" modal in the Admin to prevent it from refreshing when changing the \"Signature\" setting.\n\n- We released the Advanced Post Moderation Add-On. Click here for more information. Widget Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Feature Edit Bootstrap Theme - Account - Photo Albums datatable\n\n- We fixed an issue with the \"Insta-Load Search Results\" Add-On for Post Photo Album post types for sites on servers running PHP 7.\n\n- We added the ability to set the Member Profiles and Member Search Results pages as \"members only\" using the \"Members Only Content\" Add-On. In order to use this feature navigate to the Admin >> Content >> Edit Post Settings >> General Settings tab >> Additional Settings section. Widgets Involved: Bootstrap Theme - Member Profile Bootstrap Theme - Member Profile - Contact Page Bootstrap Theme - Member Profile - Submit Review Bootstrap Theme - Member Results\n\n- We updated the Text Labels page in the Admin to display the Text Labels in alphabetical order.\n\n- We fixed an issue which was causing a portion of the Froala WYSIWYG in the Admin to overlap with the Admin sidebar when editing a link in the WYSIWYG in some cases.\n\n- We fixed an issue which was causing member search results pages to not have the proper spacing in some cases. Widget Involved: Bootstrap Theme - Search Module - Sub + Sub-Sub\n\n- We fixed an issue which was preventing special characters from displaying in the mobile version of the \"Main Menu\" on sites. Widget Involved: Bootstrap Theme - Header - Main Menu\n\n- We fixed an issue which was causing an error message to appear after pressing the \"Google Sync\" button even when the action was successful in some cases.\n\n- We fixed an issue which was causing the name of a member to be cut off in the Recent Members homepage widget if the member's name contained a dash. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We updated the spacing of the recent reviews homepage section order option in the Design Settings page in the Admin to match the other options in this area of the settings.\n\n- We created a new Advanced Setting named force_product_settings_login_redirect . From the setting's description: \" Enter a comma separated list of pages (/login,/about,etc) where if a member logs in from those pages, they will always be redirected to the page defined in their membership level setting. Otherwise, after logging in from any other pages, the current page will refresh after logging in so that the member remains on the current page. TIP: Leave empty for all logins to always redirect to the membership level redirect page. Use \"/login\" to ALWAYS refresh the current page and never redirect user to their login redirect page.\" Widget Involved: Bootstrap Theme - Function - Form\n\n- We updated the Stripe Payment Gateway in order to make it fully compatible with the new SCA requirements for credit cards issued by European Union banks.\n\n- We updated the design of the Multi-Location Listing Add-On in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue which was causing a member's name to be cutoff if it contained a special character when being imported in a CSV file.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000062030",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000062030"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/advanced-post-moderation-add-on"
+    }
+  ],
+  "lastmod": "2019-09-24T04:21:52+05:30",
+  "scraped_at": "2026-10-18T13:45:31.574770"
+}

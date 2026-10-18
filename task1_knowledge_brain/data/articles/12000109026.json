@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109026",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109026-optimize-design-settings-dashboard-installer",
+  "title": "Optimize Design Settings - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Optimize Design Settings - Dashboard Installer"
+  ],
+  "content": "## Optimize Design Settings - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109026\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Optimize Design Settings Does\n\n\nThis installer moves the website’s design settings (the stored values behind the site’s colors, fonts, and layout choices) from an older database table to the current one, and tidies the new table up. The design itself does not change; only where and how the settings are stored changes.\n\n- Creates the current storage table, website_design_settings , if the database does not have it yet.\n\n- Copies the most recent active design from the legacy website_layouts table into the new table, converting it from one wide row into one row per setting. This step is only offered while the new table is empty, so it never overwrites design settings already present in the current format.\n\n- Removes leftover rows in the new table that are not real design settings, such as temporary system values (EG entries named admin_token, entries whose names start with newsite_ or lc_sso, and blank entries with random 32-character names). These are stray records, not anything the design uses.\n\n- Widens the setting_value column to the LONGTEXT storage type so long values are no longer cut off at 255 characters.\n\n- Renames the legacy website_layouts table to website_layouts_old . The old table is renamed, not deleted, so all of its data stays in the database as a backup.\n\n\n## Why It Appears\n\n\nThis is a legacy update, most common on sites created on older platform versions. It appears when the database still stores design settings in the old website_layouts structure, or when the new table exists but still needs one of the follow-up refinements: the stray-row cleanup, the wider setting_value column, or the renaming of the old table. Each condition is checked separately, so the installer may appear even if only one step remains.\n\n\n## Why It Matters\n\n\nThe platform reads design settings from the current website_design_settings table, so completing the migration keeps the saved design available in the place the software looks for it. The wider value column means longer setting values save completely instead of being truncated, and the cleanup keeps the table limited to actual design data. To be clear about the magnitude: this is a storage upgrade, not a redesign, and the website should look exactly the same before and after.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Optimize Design Settings appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Optimize Design Settings does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nLoad the website and confirm it looks the way it did before. It should, because the installer moves and tidies settings rather than changing their values. The design settings remain editable in the admin exactly as before. If the pre-migration data ever needs to be referenced, it is still in the database in the website_layouts_old table. No other action is needed.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109026",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109026"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:43+05:30",
+  "scraped_at": "2026-10-18T13:59:19.650182"
+}

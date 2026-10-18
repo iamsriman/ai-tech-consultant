@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104473",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104473-05-16-2025-software-updates",
+  "title": "05/16/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/16/2025 - Software Updates"
+  ],
+  "content": "## 05/16/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104473\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Improved the error handling of the software to display a user-friendly error message when the system encounters a PHP error on the frontend of a site.\n\n- Updated how city information related to Service Areas is handled when performing location searches for specific addresses and ZIP codes on the frontend. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Optimized the Brilliant Directories API Log to only save the meta data of API requests rather than full responses. This change improves the performance of the API and the storage utilization of sites.\n\n- Updated all internal HTTP requests to specify a custom User-Agent to better identify their source.\n\n- Fixed an issue that prevented the VAT and Tax Add-On from working properly on checkout pages in some cases.\n\n- Updated webhooks to no longer prepend \"New User\" to each field when using the \" Member Plan Changed \" and \" Members Imported / Added / Updated / Deleted Via Admin\" webhooks.\n\n- Improved permission verification when saving posts from the Member Dashboard.\n\n- The \"loading\" text when using the Category Dropdowns fields in the homepage search modules is now compatible with Text Labels. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- Fixed a bug with the \"Create Post\" Zapier workflow that was preventing posts from being saved properly in some cases.\n\n- Fixed an issue that was preventing the Blog Post category link on post search results from working properly in some cases. Post Type Involved: Website Blog Article\n\n- Fixed an issue that prevented custom front-end forms from being submitted in some cases. Widget Involved: Bootstrap Theme - Function - Save Form",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104473",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104473"
+    }
+  ],
+  "lastmod": "2025-05-19T22:30:19+05:30",
+  "scraped_at": "2026-10-18T13:56:06.410223"
+}

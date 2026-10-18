@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102199",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102199-11-01-2024-software-updates",
+  "title": "11/01/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/01/2024 - Software Updates"
+  ],
+  "content": "## 11/01/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102199\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We created a new Post Type Setting called \"Trigger Webhook for Initial Save or Every Save?\". When set to \"Every Save\", the system will trigger the webhook every time a member saves a post.  When set to \"Initial Save Only\", the system will trigger the webhook only the first time a post is saved.\n\n- We made several small bug fixes and UI improvements to the Import Business Data tool in the Admin.\n\n- We fixed an issue which was preventing \".ttf\" files from being uploaded to a site using the Media Manager in the Admin.\n\n- We created a new Advanced Setting called \"Disable Lead Matched Notifications (SMS) Fallback\". When enabled, the system will only send messages to the phone number saved in a member's sms_phone_number field, and never fall back to the phone_number saved for a member.\n\n- We implemented a security update to the Member Images Importer tool in the Admin.\n\n- We fixed an issue which was causing the system to use a different layout when rendering the %%%details%%% content in a lead email when manually matching the lead to members from the Admin.\n\n- We fixed an issue which was preventing the Decline Leads modal from working properly when a member tried to decline a \"Free\" lead from the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- We fixed an issue which was affecting the ability to display the Events Calendar Picker when saving a recurring event from the Member Dashboard in some cases.\n\n- We updated the Send Newsletter page in the Admin to reduce page load time.\n\n- We fixed an issue with the lead matching logic which was preventing the system from correctly matching leads to members when the site had pre-selected a Top Level Category in the Lead Settings in some cases. Widget Involved: System - SaveForm\n\n- We fixed an issue which was preventing the Clone Form functionality form copying all of the form field settings in some cases.\n\n- We implemented an update to better support the GTranslate 3rd party service.\n\n- We updated the Brilliant Directories API to make the leads endpoint compatible with the Website Time Zone Setting.\n\n- We fixed an issue which was preventing the system from saving the Member Billing Address when the address contained an apostrophe.\n\n- We fixed an issue which was preventing the \"Clone Field\" logic on the Form Manager from working properly in some cases.\n\n- We implemented a security update to the Stock Photo Library Add-On.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102199",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102199"
+    }
+  ],
+  "lastmod": "2024-11-05T04:13:14+05:30",
+  "scraped_at": "2026-10-18T13:55:09.969778"
+}

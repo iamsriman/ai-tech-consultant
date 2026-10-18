@@ -1,0 +1,23 @@
+{
+  "article_id": "12000098868",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098868-03-15-2024-software-updates",
+  "title": "03/15/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/15/2024 - Software Updates"
+  ],
+  "content": "## 03/15/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098868\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was affecting the display of the \"Clean-Up\" Tools buttons on the Admin Dashboard page when the site was white labeled.\n\n- We updated the default robots.txt file to include the Facebook Crawler Bot as part of the default robot list.\n\n- We added a highlight to the top of the \"Active\" tab wherever tabs are used on the frontend of a site (member's profile pages, Global Website Search, etc).  This makes it easier to identify the active tab at a glance. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We updated the \"Block Disposable Email Addresses\" logic to prevent partial matches of the disposable email address domains.\n\n- We fixed an issue which was preventing the system from collecting Past Due Invoices from the Transaction History page in the Admin when using Stripe as a Payment Gateway in some rare cases.\n\n- We fixed an issue was affecting the ability to pay Past Due invoices from the Member Dashboard when using a credit card that utilized \" 3D Secure\" protection and the site was using Stripe as Payment Gateway in some cases.\n\n- We fixed an issue which was preventing Select2 Dropdowns from working properly on the \"Website - Lead Form - Get Matched\" form in some cases. Widgets Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts Bootstrap Theme - HEAD - JS - Libraries\n\n- We fixed an issue which was preventing the Smart List Daily Schedule from running as expected in some cases.\n\n- We fixed an issue that was preventing the \"rotate image\" buttons from working as expected when uploading member profile images from the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was preventing the system from reflecting the correct transaction amount in Stripe after collecting on an invoice from the Admin in some cases.\n\n- We fixed an issue which was preventing the system from saving the content of the Froala WYSIWYG when using the \"code view\" feature on the Membership Plans page in the Admin.\n\n- We fixed an issue which was causing the property_price form field from working as expected with the Currency  settings found in the Admin >> General Settings >> Localization tab.\n\n- We fixed an issue which was preventing the \"Revenue\" and \"Credit\" sort options from working properly on the Search Members page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098868",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098868"
+    }
+  ],
+  "lastmod": "2024-03-19T03:22:35+05:30",
+  "scraped_at": "2026-10-18T13:53:43.933815"
+}

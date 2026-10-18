@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093675",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093675-changelog-april-2018",
+  "title": "Changelog - April 2018",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - April 2018"
+  ],
+  "content": "## Changelog - April 2018\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093675\n\nNew Features: PayFast is now available as a supported payment gateway for customers in South Africa. We implemented a new search criteria in the Search Member page in the Admin: Transaction Types.  This will allow Admins to search members by the status of transactions associated with each member such as \"Paid\", \"Refunded\", \"Upcoming\" and \"Past Due\". Also, we added the ability to change the status of a member through a bulk action using a drop-down at the bottom of the Search Member page. Now the Member Export Data Add-On supports custom fields created by Site Admins. We created a new Advanced Setting in order to allow members to select past days on the Date / Time Picker fields of the Blog Articles, Jobs and Events features.  Choosing dates in the past is enabled by default, but can be disabled by setting the \"allow_past_date_in_posts\" Advanced Setting to 0. We added a new Product Setting in order to Show/Hide the Specialties tab on live Member Profile pages. Now Site Administrators can easily add and edit the ads.txt code of a site in the Design Settings area of the Admin. In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Banner Ad Design Settings Tab. We created a new widget called Bootstrap Theme - Module - Posted by Author Snapshot.  This widget can be used on \"Post Single Page\" sidebars and will show a \"snapshot summary\" of the profile information of the Member who published the post. Enhancements / Fixes: Now the \"Recurring Subscriptions\" title heading on the Billing Details Page in the Member Dashboard is based on Text Labels. The Specialties Option in the Post Publishing tab when editing a Product in the Admin is now able to be selected and deselected again. We fixed an issue that was affecting the Member Dashboard Menu when a member visits the site using a mobile device. We added additional security checks to the Post Images upload system. Froala WYSIWYG now has the same styling options for the Admin and for the frontend of the site on all devices (mobile, tablet, and desktop). We implemented several updates in order to make the Events Feature more stable. Now the Member Dashboard Menu Tab is fully based on Text Labels. Now the Google Sitemap Generator will exclude the URLs of member profile pages that have set the \"Hide Listing from Search Engines\" setting to \"Yes\" in their associated Product's settings. We fixed an issue that was causing compatibility problems when the Lead Form and the Homepage slider were enabled together on the homepage of a site. Now the Member Export Data Add-On will export the names of all Top and Sub categories selected by each member. We did a small aesthetic update to the layout of the Frontend Design Settings Live Tool. We resolved an issue related to folder permissions preventing images from being uploaded to the Image Manager in the Admin or the Sitemap Generator Add-On updating sitemaps properly. We updated the Date Field Type in the Form Manager to properly respect the default_jquery_date_format A dvanced Setting. We fixed the issue which was affecting the normal behavior of the Upgrade Member functionality. In all, over 30 feature enhancements and software updates were released this month",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093675",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093675"
+    }
+  ],
+  "lastmod": "2023-05-09T04:25:45+05:30",
+  "scraped_at": "2026-10-18T13:51:24.876058"
+}

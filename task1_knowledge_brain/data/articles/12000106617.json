@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106617",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106617-11-07-2025-software-updates",
+  "title": "11/07/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/07/2025 - Software Updates"
+  ],
+  "content": "## 11/07/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106617\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Updated the display of the the verified member badge in search results and the member homepage widgets on the frontend of sites. Widget Involved: Bootstrap Theme - Display - Recent Members Post Type Involved: Member Listings\n\n- Added the \"Bingbot\" User-Agent as part of the default robots.txt file.\n\n- Fixed an issue that caused dotted table borders to appear in new Email Templates created in the Admin in some cases.\n\n- Updated the Brilliant Directories Zapier App to align the required fields in Zapier with the required fields in the Reviews API.\n\n- Fixed an issue that prevented the system from respecting the \"Quantity Available\" Digital Product Setting, which allowed members to continue purchasing digital products when the quantity available was set to 0.\n\n- Fixed an issue that caused the system to display the Staging Mode form when visiting the homepage with multiple forward slashes ( // ) added to the end of the URL.\n\n- Fixed an issue that prevented the the Web Page Builder's \" Delete\" bulk action from working properly in some cases.\n\n- Improved the performance of the Stripe integration to allow transactions to process faster when using Stripe as the payment gateway.\n\n- Fixed an issue that prevented past-due invoices created through the Quick Create action buttons in the Admin from displaying on the Transaction History page and the Member Dashboard in some cases. Also, invoices created through the Quick Create action buttons are now logged in the Activity Tracker.\n\n- Fixed an issue that hid the Restore Default Code option when editing the Reviews post type in the Admin.\n\n- Improved overall website scores on third-party tools such as GTmetrix and Google PageSpeed Insights. Widget Involved: Bootstrap Theme Framework\n\n- Update the default schema markup widgets to improve SEO compatibility, AI parsing, and semantic structure. Widgets Involved: Bootstrap Theme - Single Post Page Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article Bootstrap Theme - Detail Page - Schema Markup - Community Article Bootstrap Theme - Detail Page - Schema Markup - Video Post Type Bootstrap Theme - Detail Page - Schema Markup - Jobs Post Type Bootstrap Theme - Detail Page - Schema Markup - Event Post Type Bootstrap Theme - Detail Page - Schema Markup - Property Listing Post Type Bootstrap Theme - Detail Page - Schema Markup - Product Post Type Bootstrap Theme - Member Results Bootstrap Theme - Global Website - Schema Markup Bootstrap Theme - Member Profile - Display Member Address Bootstrap Theme - Static Web Page Post Types Involved: Member Reviews",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106617",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106617"
+    }
+  ],
+  "lastmod": "2025-11-10T22:44:25+05:30",
+  "scraped_at": "2026-10-18T13:56:52.815145"
+}

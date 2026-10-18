@@ -1,0 +1,60 @@
+{
+  "article_id": "12000059296",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059296-how-to-embed-a-form-on-a-web-page",
+  "title": "How To Embed a Form on a Web Page",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How To Embed a Form on a Web Page"
+  ],
+  "content": "## How To Embed a Form on a Web Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059296\n\nTo embed any form on a web page, copy and paste the form's shortcode.\n\nThe shortcode uses the form's system name to call it, in this format:\n\n[form=System Name]\n\nFor example, the Website - Contact Us form has the system name contact_form , so its shortcode is:\n\n[form=contact_form]\n\nA form's system name can be found in the Form Manager (and identified on the front end using the Admin Bar). The screenshot below shows where the system name appears:\n\nWith the shortcode copied, follow these steps:\n\n1. Navigate to My Content >> Web Page Builder , as used in related articles and click \" New Web Page \", or click \" Edit \" on an existing page:\n\n2. Paste the copied shortcode into the text editor, add a unique URL, and save the changes:\n\nThe form will start displaying right away:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180458082/original/Z-fIyxbORAzEBvPKuggbTsrEMbyMe6eqjw.png?1781546754",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Embed a Form on a Web Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180458319/original/Bm4NFVnoMwY9C1LdtIsW7fOGq4cnRxxHKw.png?1781546976",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Embed a Form on a Web Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180458504/original/HDALS0Tse2c0cAXNGsnp90f0abeEbQg-9w.png?1781547039",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Embed a Form on a Web Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180458605/original/AibIE2BIl-WLKJjq5vSgQZL-pZRHhU18_g.png?1781547082",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Embed a Form on a Web Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059296",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059296"
+    }
+  ],
+  "lastmod": "2026-06-15T23:41:33+05:30",
+  "scraped_at": "2026-10-18T13:45:14.163841"
+}

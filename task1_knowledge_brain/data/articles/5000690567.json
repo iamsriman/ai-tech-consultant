@@ -1,0 +1,23 @@
+{
+  "article_id": "5000690567",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000690567-member-tables-and-relations",
+  "title": "Member Tables and Relations",
+  "category": "Developer Hub",
+  "folder": "MYSQL Database",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "MYSQL Database",
+    "Member Tables and Relations"
+  ],
+  "content": "## Member Tables and Relations\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000690567\n\nThe Brilliant Directories database stores member information across multiple related tables. Each table is responsible for a specific type of data, allowing member records to be organized while maintaining relationships between associated information.\n\nThe following diagram illustrates the primary relationships between the member-related tables. For simplicity, only the most commonly referenced tables are shown.\n\n(Existing relationship diagram)\n\n\n## Core Member Table\n\n\nThe users_data table serves as the primary table for member records. Each member is assigned a unique ID that is used to relate records across the database.\n\nAdditional member information is stored in related tables and linked using this member ID.\n\nSome commonly related tables include:\n\nTable Purpose users_photo Stores member profile photos. users_portfolio Stores portfolio items and member content. data_posts Stores posts created through Membership Features. users_favorite Stores member favorites. users_billing Stores member billing information. users_meta Stores custom fields and other dynamic data.\n\n\n## Service and Category Relationships\n\n\nMember professions and services are managed through relationship tables.\n\nThe rel_services table connects member records in the users_data table with the appropriate records in the list_professions and list_services tables. This relationship determines the professions and services assigned to each member.\n\n\n## Query Examples\n\n\nDepending on the information being retrieved, different tables must be queried together.\n\nSome common examples include:\n\nObjective Related Tables Retrieve members with profile photos users_data , users_photo Retrieve members with portfolio content or posts users_data , users_portfolio , data_posts Retrieve members by profession or service users_data , rel_services , list_professions , list_services\n\nUnderstanding these relationships can help when creating custom SQL queries or integrating directly with the database.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000690567",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000690567"
+    }
+  ],
+  "lastmod": "2026-06-26T01:15:57+05:30",
+  "scraped_at": "2026-10-18T13:39:19.713996"
+}

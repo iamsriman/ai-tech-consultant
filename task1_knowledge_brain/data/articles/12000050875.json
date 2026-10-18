@@ -1,0 +1,31 @@
+{
+  "article_id": "12000050875",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050875-10-26-18-software-updates",
+  "title": "10/26/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/26/18 - Software Updates"
+  ],
+  "content": "## 10/26/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000050875\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue wich was affecting the display of the Member Categories page in the Admin Area in some cases.\n\n- We added support for Special Characters in Review URLs. Now the system will automatically encode/decode the URLs of the Review Search Result pages and Reviews on Profile pages. Feature Involved: Review\n\n- We fixed an issue which was affecting the normal behavior of the Insta-Load Search Results Add-On when Site Members have an apostrophe in their names.\n\n- We updated the Front-End Froala WYSIWYG in order to allow text to wrap around images when they are floated to the left or right of the page. Widget Involved: Form - Froala Editor Javascript\n\n- We removed the \"View Page\" link from the Actions Dropdown on the SEO Template page in the Admin Area, as this link does not apply for SEO Templates.\n\n- We fixed an issue which was affecting the normal behavior of the Member Review Module when a site is using the Default Review Form. Widget Involved: Bootstrap Recommendation Email Details Bootstrap Theme - Account - Reviews Bootstrap Theme - Form - Display Rating Options Recommendation Email Details\n\n- We improved the validation messages displayed when using the Edit Web Pages area of the Admin when saving a page.\n\n- We added validation to the \"Enter URL\" fields in the Menu Manager to reduce user errors and provide additional security.\n\n- We updated the General Settings >> Integrations tab to require the website be connected to a live domain before completing the integration steps.  This will help prevent user errors when setting up integrations for their site and provides a smoother workflow for launching a new site.\n\n- We updated the \"Fetch from SEO Template\" link to support special characters in the member's profile URL when using the \"Quick Edit\" feature for a member in the Admin.\n\n- We added the ability to install the SSL Security Add-On from the General Settings page in the Admin area.\n\n- We updated the layout of the Required First Steps area on the Admin Dashboard.  This update is intended to better highlight the pending steps that are required to fully launch a new site.\n\n- We added the ability to check and run Software Updates from the Dashboard page on the Admin Area.  With this update, Admins now have the ability to automatically install updates that are required to be run on a per-site basis.  This includes updates to the structure of a site's database, updating fields in custom forms, and deactivating custom widgets that would prevent an update from being fully applied.\n\n- We released the Pay Per Post Add-On. Click here for more information. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Feature Edit Bootstrap Theme - Account - Feature Header Bootstrap Theme - Account - Photo Albums Bootstrap Theme - Account - Sidebar Bootstrap Theme - Success Page - Lead Purchase\n\n- We made some small updates to the UI of the Form Manager to improve the user experience.\n\n- Now the \"Select Form To Use\" field on the Edit Post Setting page on the Admin Area will only show the forms that have the word \"Feature\" in the name of the form to reduce potential user error.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000050875",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050875"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/pay-per-post-add-on"
+    },
+    {
+      "text": "",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/711/bd-one-time-payment/diff#chg-Bootstrap%20Theme%20-%20Account%20-%20Feature%20Edit%20%28ID%201305%29/html.php"
+    }
+  ],
+  "lastmod": "2018-10-31T00:57:01+05:30",
+  "scraped_at": "2026-10-18T13:44:01.298420"
+}

@@ -1,0 +1,339 @@
+{
+  "article_id": "12000100176",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100176-design-settings-homepage-select-content-to-display-streaming-coupons",
+  "title": "Design Settings » Homepage » Select Content to Display » Streaming Coupons",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Homepage » Select Content to Display » Streaming Coupons"
+  ],
+  "content": "## Design Settings » Homepage » Select Content to Display » Streaming Coupons\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100176\n\n\n## Settings Documentation for Streaming Coupons\n\n\nThis documentation provides detailed information on the settings available for configuring the display of recent coupons on the platform. Each setting is explained to help admins customize the section to their preferences.\n\nTo edit these settings, navigate to:\n\n- In the Admin Sidebar Open Settings\n\n- Select Designs Settings\n\n- Open The Homepage Tab\n\n- Open The Module Select Content to Display\n\n- select The Streaming Coupons Option\n\n\n## Visual Guide of the Streaming Coupons\n\n\nThese are the available settings for the Streaming Coupons section:\n\n\n## 1. Recent Coupons Title\n\n\nThis setting allows the admin to set the title for the recent coupons section. The title can be customized by entering the desired text in the provided input field.\n\n\n## 2. Title Color\n\n\nThe title color setting enables the customization of the title's color. Admins can choose a color by inputting the desired color code or using the color picker tool provided.\n\n\n## 3. Display Options\n\n\nThis setting controls the number of recent coupons displayed. Admins can select from a range of options, from 1 to 24 results. Additionally, the layout can be adjusted to show a specific number of results per row, ranging from 2 to 4 results per row.\n\n\n## 4. Enable Carousel Slider\n\n\nThe carousel slider option allows recent coupons to be displayed in a sliding carousel format. This can be toggled on or off using the provided dropdown menu.\n\n\n## 5. Hide On Mobile\n\n\nThis setting allows admins to choose whether the recent coupons section should be hidden on mobile devices. It can be enabled or disabled using the dropdown menu.\n\n\n## 6. Linked Post Type\n\n\nThis setting allows the admin to select the type of content linked to the recent coupons. Options include events, job listings, coupons, videos, SoundCloud posts, website blog articles, community articles, and discussions.\n\n\n## 7. Only Show Posts with Photos\n\n\nAdmins can choose to display only those posts that have photos. This setting ensures that posts without photos are excluded from the recent coupons list.\n\n\n## 8. Image Quality\n\n\nThis setting controls the quality of the images displayed in the recent coupons. Admins can choose between thumbnail size and large size.\n\n\n## 9. Show \"View All\" Button\n\n\nThe \"View All\" button allows users to see all recent coupons. This setting can be toggled on or off using the dropdown menu.\n\n\n## 10. Hide If No Posts Exist\n\n\nThis setting allows admins to choose whether the recent coupons section should be hidden if no posts exist. It can be enabled or disabled using the dropdown menu.\n\n\n## 11. Only Include Posts from Active Members\n\n\nThis setting specifies whether only posts from active members should be included. Admins can choose to include posts from active members only or from all members.\n\n\n## 12. Include Posts from Non-Searchable Members\n\n\nThis setting allows admins to choose whether to include posts from non-searchable members. It can be enabled or disabled using the dropdown menu.\n\n\n## 13. Include Posts from Members in These Plans\n\n\nThis setting allows admins to limit the displayed posts to specific membership plans. Admins can select the desired membership plans from the provided list.\n\n\n## 14. Display Order\n\n\nThe display order setting determines the order in which recent coupons are shown. Options include newest first, oldest first, end date (earliest date first), end date (earliest date last), or random order. This can be customized by selecting the desired option from the dropdown menu.\n\n\n## 15. Limit One Post per Member?\n\n\nThis setting specifies whether only one post per member should be displayed. Admins can choose to display one post per member or allow multiple posts from the same member.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144234687/original/ZRL7gYIVHB3Tsl-TBLp37QeXL9xF35DIjA.png?1717448370",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144234997/original/2GJ_bxswvlxKBoL1iRJpCJ0CfypE2vY1zw.png?1717448601",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144234513/original/XCbLbLXKB5FC_RJPHAtDph7s6J0Ugbywdg.png?1717448160",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144234563/original/JAsedyLdloQCN7PjtHe8j6KGW4EAXtbVjQ.png?1717448168",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144234577/original/wR-uzfwgzLZitYqCD2cn208zkI4iyUqm0g.png?1717448213",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235176/original/hMrf0PDPnO-eR8FSqHVP_8WuC37kQnH6cA.png?1717448733",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235180/original/Jt9AoK-zglyJ6ygE8UBAp37VgwNZUtkrCA.png?1717448750",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235353/original/hJqqnn99kck51NV6xDeLS2oFJ8tHQk1LAQ.png?1717448908",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235367/original/r8f67VYkraYnfQN4AhglJIj0vuuErAnp4Q.png?1717448921",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235386/original/zVKp8EedsF6IUZTz1-_tfHMMhRkAItKFkg.png?1717448948",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235265/original/LTyG6j57NnojU04mhE2S8IDC4olbFlJPvg.png?1717448846",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235435/original/JFT4yxjoXNHE9NxZJO0HjdXRbbtQXPT-jA.png?1717449040",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235549/original/XP3UcG7rXrEJG1YYLeTF2udda9kik5cDrA.png?1717449147",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235563/original/2KS4IhYJgnqf5aAoWa0lgUVPWOwS4e5tIg.png?1717449197",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235617/original/TmS2HCewWepTF4BIkLGxeSEbIEyNFo1YCg.png?1717449282",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235701/original/KPucNkJ1jAd4KUq_mcLIRx_wwXtprNRNzA.png?1717449365",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235708/original/5ARYzP0Z4JvoNw4zCBJo9TcDbHUdbCuBSw.png?1717449401",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235742/original/8CYDdtU39mVW3VbUy7KUQS_ZnmZTyj1zZQ.png?1717449446",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235708/original/5ARYzP0Z4JvoNw4zCBJo9TcDbHUdbCuBSw.png?1717449401",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235784/original/evPYLQfUfN37Q8iRiogsSs1Odn0l36v2jg.png?1717449507",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235708/original/5ARYzP0Z4JvoNw4zCBJo9TcDbHUdbCuBSw.png?1717449401",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235834/original/dnL8PidY5j2cpt2IKilDkCqgE0_kVqP_-w.png?1717449560",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235856/original/j4MkMgd9NkqRELD2Ek5EdLj92CdRjoVraQ.png?1717449580",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235895/original/Sb0XtB_2QcbptcThsLlKHRHMWUrardWrLw.png?1717449620",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235953/original/p9aW81YrahaTksWda5IadwPgdDGU60MK6Q.png?1717449636",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235976/original/F5LY2pTF7W-rOWumQFL173uQ45VS2TGQsQ.png?1717449703",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235953/original/p9aW81YrahaTksWda5IadwPgdDGU60MK6Q.png?1717449636",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235997/original/edSIqsAql3FnfmD1UkfoISuRPyDJLhHbOA.png?1717449755",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235953/original/p9aW81YrahaTksWda5IadwPgdDGU60MK6Q.png?1717449636",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144236024/original/myEL_Idx8Ji0_lbye6HoN-CDPAFqKzQrKQ.png?1717449797",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235953/original/p9aW81YrahaTksWda5IadwPgdDGU60MK6Q.png?1717449636",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144236045/original/JopWCDJ7ILXKj-dpBYXnl_JOG1nv-dVlcw.png?1717449844",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235953/original/p9aW81YrahaTksWda5IadwPgdDGU60MK6Q.png?1717449636",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144236104/original/jYPuidIvQLN9J0XAGAdfCzjGCeL0kEi1ww.png?1717449915",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144235953/original/p9aW81YrahaTksWda5IadwPgdDGU60MK6Q.png?1717449636",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Coupons' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100176",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100176"
+    }
+  ],
+  "lastmod": "2024-06-04T03:04:37+05:30",
+  "scraped_at": "2026-10-18T13:54:09.285806"
+}

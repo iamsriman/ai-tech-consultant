@@ -1,0 +1,27 @@
+{
+  "article_id": "12000103304",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103304-01-31-2025-software-updates",
+  "title": "01/31/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/31/2025 - Software Updates"
+  ],
+  "content": "## 01/31/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103304\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the member profile link on the member reviews page to point to the incorrect URL in some cases. Post Type Involved: Member Reviews\n\n- We fixed an issue which was causing the Membership Plan filter UI to show a different Plan than the one being filtered on the Search Members page in the Admin.\n\n- We released a new payment gateway called \"RazorPay\", click here for more information. Widget Involved: Bootstrap Theme - Account - Leads Details Page - Purchase Button\n\n- The Text Labels can now be searched by Title using the keyword search field on the Text Labels page in the Admin.\n\n- We fixed an issue which was affecting the ability to click on the \"Save\" button when creating new Membership Plans and saving the Geocode Member form in the Admin.\n\n- We updated the referral form field on checkout pages to only allow integer values. Widget Involved: Bootstrap Theme - Form - Referral Input\n\n- We updated the Stock Photo Library Add-On to add the ability to set a color for the icons when using the Icon Library in the Admin.\n\n- We fixed an issue which was causing the Search Members page in the Admin to return an error when performing a search that contained apostrophes in some cases.\n\n- We updated the Available Widget list on the Sidebar Manager page in the Admin to only display the Banner,  Module, Dynamic Category Filter, and Custom Widgets when choosing widgets to add to a sidebar.  This is intended to help prevent Admins from choosing widgets that are not meant to be added to a sidebar.\n\n- We fixed an issue which was preventing the user-approved-by-admin Email Template from correctly populating the member variables after updating the status of member to \"Active\" using the Quick Edit form on the Search Members page in the Admin.\n\n- We updated the \"Update Member\" API endpoint to add the ability to remove member images by using the image_action parameter. Similarly, we added the ability to auto-import member images by sending the auto_image_import parameter when updating members via API.\n\n- The default Email Templates are now compatible with the Default Website Language Setting.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103304",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103304"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000103082-setting-up-razorpay"
+    }
+  ],
+  "lastmod": "2025-02-04T01:53:35+05:30",
+  "scraped_at": "2026-10-18T13:55:39.624604"
+}

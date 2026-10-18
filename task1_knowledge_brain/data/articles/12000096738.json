@@ -1,0 +1,114 @@
+{
+  "article_id": "12000096738",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096738-using-css-to-target-elements-based-on-user-sessions-logged-in-members-vs-visitors-",
+  "title": "Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)"
+  ],
+  "content": "## Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096738\n\nPreviously to show/hide elements when a user is logged in or out, users had to use complicated PHP in specific areas of code.\n\nNow we've made it easier to control by including two classes to the <body> element that will be used depending on the user's logged-in status:\n\n- Logged Out : <body class=\" general-session \">\n\n- Logged In : <body class=\" user-session session-plan-level- ID # \">\n\nWith these classes it will be easier to hide simple elements like menu items, buttons, links, images using CSS in the Design Settings rather than having to go into specific sections of the code and use PHP every time.\n\n\n## Example Using the CSS Method\n\n\nThe mini nav menu is showing when user's are logged in and out:\n\nThis menu has 2 custom buttons:\n\n- \" Logged In Button \" - show when logged in and hide when logged out\n\n- \" Logged Out Button \" - show when logged out, hide when logged in\n\nI want to hide the \"Logged In Button\" when a user is logged out, so I added a class called \"hide-logged-out\":\n\nSimilarly, I added the class \"hide-logged-in\" to the \"Logged Out Button\":\n\nFinally, I added some CSS to the site to apply \"display:none;\" in the different situations:\n\n```\nbody.user-session .hide-logged-in, body.general-session .hide-logged-out {\n    display: none;\n}\n```\n\nThis will apply \"display:none;\" to any element with the \"hide-logged-in\" class when the <body> has the class \"user-session\" (when a user is logged in).\n\nIt will also apply \"display:none;\" to any element with the \"hide-logged-out\" class when the <body> has the class \"general-session\" (when a user is logged out).\n\nBefore applying the CSS, both buttons display:\n\nAfter applying the CSS, I only see the \"Logged In Button\" when logged in:\n\nAnd only see the \"Logged Out Button\" when logged out:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134075065/original/v4C_K3lRLLEawh--mpjFc88Je2OQw3UTdg.png?1699371450",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134075188/original/CEE3JtwYAkp-1XUiwpHC7HFlf1e0jFfQng.png?1699371516",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134075729/original/lf7KRfyivTCuzDFs8KlDiR8jwng4_vSROA.png?1699371928",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134080112/original/r0OTbabT4WR6771DOavaN7EA6v4ZOLx3LA.png?1699374817",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134080226/original/X1PRQNWuTOODbluPnwknh2mEenlf0LHW7A.png?1699374885",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134081974/original/HJp86TAbzE87xjgrj2AGIECgOlHWq_PJFg.png?1699376387",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134102947/original/18ICK5W7E_JnoS27dKK3xoTx1xjjn-MIDw.png?1699397965",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134125524/original/A7CwiJ3TIHta7sE7BCb7TdC7cwy1ok1ofQ.png?1699444412",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134543489/original/mhui0Cm6Riim7cY24-sicCITtE9cYVMlbg.png?1700145789",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134542153/original/yIO-ytos-x8TqhGzyGJRuKQIbeYTfuJvmA.png?1700144827",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to target elements based on User Sessions (Logged In Members vs Visitors)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096738",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096738"
+    }
+  ],
+  "lastmod": "2024-03-12T01:20:38+05:30",
+  "scraped_at": "2026-10-18T13:53:03.538839"
+}

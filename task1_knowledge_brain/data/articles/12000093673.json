@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093673",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093673-changelog-february-2018",
+  "title": "Changelog - February 2018",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - February 2018"
+  ],
+  "content": "## Changelog - February 2018\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093673\n\nNew Features:\n\n- We released the new Lead Price by Category Add-On.\n\n- Now forms have the ability to redirect to another page after submission.  In order to set a form to do this, navigate to the Admin area >> Toolbox >> Form Manager >> Edit  >> Actions >> Edit Form Settings option.  From here, navigate to the Save Actions Tab and change the Save Actions option to Redirect to URL. Then enter the URL in the Redirect To URL field. Note: This new feature will not work in the forms that are used in the Member Dashboard area.\n\n- The Search Member Keywords Add-On is now fully based on the New Add-On Manager.\n\n- We released a new tool that helps Site Admins to easily change the Text Labels without the need to go to the Admin area.  This new tool can be found in the Admin Bar after visiting a site as \"Admin\". Note: This tool is still in Beta.\n\n- Site Admins have now the ability to manually change the parent of existing Sub Accounts through the Admin area (this applies to the Multi-Member Manager Add-On). In order to assign the Parent ID, follow these instructions: Login to the Admin >> Members >> Search Members >> Actions >> Quick Edit >> Listing Settings tab Here there is now a new field to assign the Parent ID. Note: This field will only appear if the site has activated the Multi-Member Manager Add On.\n\nEnhancements / Fixes:\n\n- We fixed an issue which was affecting the normal behavior of the Tabs when a site member deletes a photo album feature.\n\n- We enhanced the function that handles the Preview functionality of Email Templates in the Admin area to include the logo of the site when enabled.\n\n- We made an improvement to the function that handles the Social Media URLs in order to automatically format social media links on profile pages even when the format of the link was not entered as required in the Member Dashboard.\n\n- We fixed an issue that was affecting the View Details link of Lead invoices in the Transaction History page of the Admin.\n\n- We refactored several widgets in order to be prepared for the upcoming release of a new method of editing Text Labels through the front end of a website.\n\n- We updated the Facebook Feed widget that can be used on member profile pages to align with the latest best practices from Facebook.\n\n- We improved the error message when a member's payment fails when signing up for a paid product. Now, if a payment fails, the system will display a button that will take the members to login to their account to update their payment credentials.\n\n- We added a default version of the Website Contact Form to the system.\n\n- We made an improvement of how the system handles 404 pages and errors.\n\n- Now the Listing and Specialty features are enabled by default when an Admin creates a new Product.\n\n- We released a Security Update to the Admin Accounts module on the Site Admin.\n\n- We refactored several core files that make all frontend pages of websites load faster.in the front end of a site.\n\n- Now when an Admin uses the Front End Live Design Tool the system will hide the Admin Bar in the front end of a site.\n\n- In all, over 30 feature enhancements and software updates were released this month",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093673",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093673"
+    }
+  ],
+  "lastmod": "2023-05-09T04:23:22+05:30",
+  "scraped_at": "2026-10-18T13:51:23.265558"
+}

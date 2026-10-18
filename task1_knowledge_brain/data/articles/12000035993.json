@@ -1,0 +1,33 @@
+{
+  "article_id": "12000035993",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035993-understanding-member-category-relationships-in-mysql",
+  "title": "Understanding Member Category Relationships in MySQL",
+  "category": "Developer Hub",
+  "folder": "MYSQL Database",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "MYSQL Database",
+    "Understanding Member Category Relationships in MySQL"
+  ],
+  "content": "## Understanding Member Category Relationships in MySQL\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000035993\n\nBrilliant Directories stores member categories and subcategories across multiple database tables. Understanding how these tables relate to one another is helpful when creating SQL queries, importing data, or troubleshooting category assignments.\n\n\n## Main Categories\n\n\nThe list_professions table stores all main member categories.\n\nEach member's assigned main category is stored in the profession_id column of the users_data table.\n\nTable Column Purpose list_professions profession_id Stores the main category records. users_data profession_id Stores the member's assigned main category.\n\n\n## Subcategories\n\n\nThe list_services table stores all subcategories and sub-subcategories.\n\nThe following columns define the relationship between categories:\n\nColumn Purpose service_id Unique ID of the subcategory. profession_id Identifies the parent main category. master_id Identifies the parent subcategory. A value of 0 indicates a first-level subcategory.\n\n\n## Example Category Structure\n\n\nThe following example shows the list_services table in phpMyAdmin.\n\nEach record shares the same profession_id ( 1 ), indicating that all three subcategories belong to the same main category.\n\nThe master_id value is 0 for every record, indicating that these are first-level subcategories and are not children of another subcategory.\n\nIf a subcategory were nested beneath another subcategory, the master_id value would contain the parent subcategory's service_id instead of 0 .\n\n\n## Member Relationships\n\n\nThe rel_services table associates members with their assigned subcategories.\n\nThe two primary columns are:\n\nColumn Purpose user_id Member ID from the users_data table. service_id Assigned subcategory from the list_services table.\n\nWhenever a member is assigned a subcategory, a record is created in the rel_services table linking the member to the corresponding service_id .\n\n\n## Summary\n\n\nThe category relationship is managed across four primary tables:\n\nTable Purpose users_data Stores member records and the assigned main category. list_professions Stores all main categories. list_services Stores subcategories and sub-subcategories. rel_services Links members to their assigned subcategories.\n\nUnderstanding these relationships makes it easier to create SQL queries, troubleshoot category assignments, and manage custom integrations with the Brilliant Directories database.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181047873/original/Ckqu2R0SWXppSdyIrlr3C3fFdZA_3KgLNQ.png?1782418620",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Understanding Member Category Relationships in MySQL' in section 'Developer Hub' / 'MYSQL Database'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000035993",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035993"
+    }
+  ],
+  "lastmod": "2026-06-26T01:48:20+05:30",
+  "scraped_at": "2026-10-18T13:41:50.884165"
+}

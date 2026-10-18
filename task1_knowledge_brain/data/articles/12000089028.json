@@ -1,0 +1,91 @@
+{
+  "article_id": "12000089028",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089028-how-to-call-a-widget-on-a-froala-editor-using-its-shortcode",
+  "title": "How To Call a Widget on a Froala Editor Using Its Shortcode",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Call a Widget on a Froala Editor Using Its Shortcode"
+  ],
+  "content": "## How To Call a Widget on a Froala Editor Using Its Shortcode\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089028\n\nBy default, the widgets can't be called on front-end Froala editors for security reasons.\n\nWe have created a workaround to allow supporting widget shortcode to be called on these Froala editors. To accomplish this, please follow the steps specified down below.\n\n\n## 1) Enable the Advanced Setting allow_widgets_froala_media_manager (Allow Widget Shortcode In Front-End Text Editor)\n\n\nTo enable this advanced setting, navigate to Settings >> Advanced Setting and search for allow_widgets_froala_media_manager (Allow Widget Shortcode In Front-End Text Editor) and enable it:\n\n\n## 2) Select Froala Text Editor -Media Manager Access Option as a Form Field\n\n\nThe next step to accomplish this workaround is to change the form field on an existing Froala editor to be Froala Text Editor -Media Manager Access .\n\nFor this example purposes, we will be customizing the default About Me form under Form Manager:\n\nOnce in the edit view, identify the existing Froala editor and change its form field to be Froala Text Editor -Media Manager Access :\n\nFROALA Text Editor: Versions And Their Upload Functionalities\n\nOnce these two steps are completed, we can copy the shortcode of the preferred widget:\n\nAnd paste the shortcode copied to the Froala editor:\n\nNow the widget is rendering and displaying in the member profile:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647519/original/nRWpf1lVd9VKsP05kcXkJgg3uIC-jh4eFQ.png?1753161725",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget on a Froala Editor Using Its Shortcode' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112644615/original/LctHRrB3XbJ-Wht2s_5MCKa7L_Lngpw-JQ.png?1659628261",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget on a Froala Editor Using Its Shortcode' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112644752/original/zXH61P5Pg0VXjGQgGRRJOiA-VM2LdrDhew.png?1659628409",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget on a Froala Editor Using Its Shortcode' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112645666/original/40-Gb35k2oNGLhJjs7FENaVbOSwC_OZnJg.png?1659629553",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget on a Froala Editor Using Its Shortcode' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112645695/original/TDcUHCGyL0v7eZg_78YMC5d18s6Gr401XA.png?1659629587",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget on a Froala Editor Using Its Shortcode' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112645749/original/Z7dQAsLwIehaX7RDfiqeqA5CTaHArQhcVw.png?1659629643",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget on a Froala Editor Using Its Shortcode' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112645785/original/7nOThXAFLRCYgR6Q7yw5mPeo9KQwP0BqwA.png?1659629698",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget on a Froala Editor Using Its Shortcode' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089028",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089028"
+    },
+    {
+      "text": "FROALA Text Editor: Versions And Their Upload Functionalities",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019667"
+    }
+  ],
+  "lastmod": "2025-07-22T10:52:14+05:30",
+  "scraped_at": "2026-10-18T13:50:04.907546"
+}

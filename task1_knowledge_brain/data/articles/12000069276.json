@@ -1,0 +1,128 @@
+{
+  "article_id": "12000069276",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069276-billing-reminder-email-settings",
+  "title": "Billing Reminder Email Settings",
+  "category": "Add-On Documentation",
+  "folder": "Billing Reminder Emails",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Billing Reminder Emails",
+    "Billing Reminder Email Settings"
+  ],
+  "content": "## Billing Reminder Email Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069276\n\n\n## Overview\n\n\nThe default finance tools built into every Brilliant Directories website make it easy to identify past-due members, failed payments & manually send invoices to members. The Billing Reminder Emails add-on extends the default functionality by also sending automated emails to members. The website will automatically send billing emails to members and send the admin a daily summary report of website transactions.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Billing Reminder Emails Add-On\n```\n\n\n## Enabling the Add-On\n\n\nThe default finance tools built into every Brilliant Directories website make it easy to identify past-due members, failed payments & manually send invoices to members. The Billing Reminder Emails add-on extends the default functionality by also sending automated emails to members. With this Add-On activated, a website will automatically send billing emails to members and send the Admin of the site a daily summary report of the website's transactions.\n\nThis add-on will be automatically turned on once the VIP add-on package is acquired or this is purchased individually.\n\nThis article covers the settings for this Add-On.  For more information on other aspects of this Add-On, please see the following:\n\n- Billing Reminder Emails - From Members Perspective\n\n- Billing Reminder Email Templates\n\n\n## Admin Configuration\n\n\nNOTE: When the Add-On is initially activated, all of the automated emails are disabled by default.  Please be sure to enable the desired emails following the steps below to ensure they are sent.\n\nTo edit the settings please follow these steps:\n\nGo to Finance >> Transaction History >> Click on Billing Email Settings :\n\nOr go to Finance >> Payment Settings >> Click on Billing Email Settings :\n\nThese 2 buttons will open up the billing email settings and display these options:\n\n\n### Email Event\n\n\nThese are the events that will trigger an email to be sent.  More options are planned for the future, but currently, the events that will trigger an email to be sent are:\n\n- New Payments Received - This email will be sent to the member when a payment is received for an invoice. If the payment is for an invoice generated at the same time the payment is received (EG: a new paid member signup or a membership upgrade), a copy of this email will also be sent to the Admin of the site. If the payment received was for a scheduled invoice (EG: a monthly or yearly subscription payment, payment after a free trial expires, etc), a copy of the Payment Received email will not be sent to the Admin of the site. This email can only be sent with the \"Same Day (Instant)\" option selected for the \"Send Email When\" setting. When the One-Time Billing cycle is selected, member purchases such as Digital Products, Pay Per Post, and Lead Purchases will trigger the New Payment Received email template to be sent to the member.\n\n- Upcoming Payments Reminder - This email will be sent to the member as a reminder before a scheduled invoice is due. A copy of this email will not be sent to the Admin of the site. This can be sent between 1 and 14 days before the invoice is due.\n\n- Past Due Reminder numbers 1, 2, and 3 - Each of these emails can be sent after the system has attempted to collect payment for a due invoice, but was not able to collect successfully.   A copy of these emails is not sent to the Admin of the site.  The Add-On supports a total of 3 of these emails that can be sent up to 90 days after the unpaid invoice was due.\n\n\n### Billing Cycles\n\n\nChoose which billing cycles to email members about a certain payment event. By default all of these are set to \"0\". Once Email Member is turned ON all billing cycles are automatically selected. The admin can select which Billing Cycles will receive the notifications.\n\n\n### Email Member\n\n\nIf set to yes, this Email Event will be sent to the members for each of the billing cycles selected.\n\n\n### Copy Admin\n\n\nWhen this option is enabled, it will send a copy to the admin of the automated admin emails.\n\n\n### Daily Admin Report\n\n\nIf set to yes, this type Email Event will be included in the summary email sent to the Admin of the site each day.  If set to no, this type of Email Event will be excluded from the summary email.\n\n\n### Include Invoice PDF\n\n\nChoose to include a copy of the PDF invoice in the email. This option requires the site to have the Downloadable PDF Invoices Add-On enabled.\n\n\n### Send Email When\n\n\nChoose how many days before a payment is due to send out an email reminder or choose how many days after the payment was due to remind the customer. New Payments will send out the email immediately.\n\n\n### Email Template\n\n\nClick \"Edit Template\" to edit the email template that is sent out for each event. Please be sure not to change the name of the email template when editing it, as this will prevent the email from being sent. To learn more about the email templates used by this Add-On, please see this article: Billing Reminder Email Templates.\n\n\n### Note\n\n\nMembers that are on \"Hold\" or \"Cancelled\" will NOT receive these email notifications.\n\n\n## Admin Summary Reports\n\n\nIf the \"Email Admin\" setting is set to \"Yes\" the Admin of the site will receive a summary report (Daily Invoice Report) each day of the scheduled billing events that happened that day.  This report will only include scheduled events (EG: a monthly or yearly subscription payment), and not include \"instant\" events that happened throughout the day (EG: a new paid member signup, Lead purchase, or Digital Product purchase).\n\nTo prevent getting too many emails, the system won't send a copy of each individual email sent to members, it will send the summary instead.\n\nBelow is an example of a summary email:\n\n\n## Billing Emails Activity\n\n\nAll emails sent by the system or by the Admin are going to be tracked by the website.  There are two ways to check the billing email activity.\n\n1. Go to Dashboard >> Activity Tracker >> Filter by \" Finance \"\n\n2. Go to Finance >> Transaction History >> Click on \" Show Email Activity \"\n\nIf the add-on was not purchased, owners will still have the ability to send invoices manually by clicking on Actions >> Send Email Notifications:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097447417/original/arQ9Bxmctxpg2JIT_s03bxPpYC6x2CVPuw.png?1630105731",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Settings' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097447436/original/M-W4HqhSzOObhjsU8EdciHvX9cmmMHoHDw.png?1630105829",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Settings' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165034837/original/R79EvC1LQ2qzd9i7BYQU2LTzud_Akis5QQ.png?1753793397",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Settings' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135406522/original/r_1lBTm5NgQWqNI7NOqw3d1hTZCCquZfGA.png?1701783109",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Settings' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076193768/original/iIog0zBluN9X6kiB_Q6qONHqu1jrpoeAFA.png?1586790444",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Settings' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135406649/original/AZtgMxkncYH31-Pqkxpc24a8eNxqnHBRkg.png?1701783227",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Settings' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097447568/original/M8fuSQqvcgXhfp22QDZlIRykCBk7OwO9vg.png?1630106641",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Settings' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097577388/original/98IhTQjbH5Zk-SNXzEItucyCmNfIqIOZ0A.png?1630430002",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Billing Reminder Email Settings' in section 'Add-On Documentation' / 'Billing Reminder Emails'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069276",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069276"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Billing Reminder Emails Add-On",
+      "url": "https://www.brilliantdirectories.com/billing-reminder-emails"
+    },
+    {
+      "text": "Billing Reminder Emails - From Members Perspective",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000069319"
+    },
+    {
+      "text": "Billing Reminder Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000069320"
+    },
+    {
+      "text": "Downloadable PDF Invoices Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000047892-downloadable-pdf-invoices-add-on"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000069320-billing-reminder-email-templates"
+    },
+    {
+      "text": "Billing Reminder Email Templates.",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000069320"
+    }
+  ],
+  "lastmod": "2026-08-28T21:51:12+05:30",
+  "scraped_at": "2026-10-18T13:46:20.798005"
+}

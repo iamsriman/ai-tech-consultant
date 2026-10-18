@@ -1,0 +1,182 @@
+{
+  "article_id": "12000019818",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019818-guide-9-how-to-enable-maps-with-google-maps-api",
+  "title": "Guide 9. How to Enable Maps with Google Maps API",
+  "category": "Get Started Here",
+  "folder": "Quick Setup Guides",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Quick Setup Guides",
+    "Guide 9. How to Enable Maps with Google Maps API"
+  ],
+  "content": "## Guide 9. How to Enable Maps with Google Maps API\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000019818\n\nIn order to use location search and Google Maps features on a Brilliant Directories website, a Google Maps API key must be created in Google Cloud and added to the site admin.\n\n>> Google Maps API: Features, Functions, and Key Considerations\n\nThe Google Maps API key is what lets Google Maps work on the website. The key is created in Google Cloud, which is managed by Google, not Brilliant Directories. Because of this, the setup screens may look a little different for each person depending on their Google account, location, billing setup, or whether they have used Google Cloud before.\n\n\n## Important Notes\n\n\n- The live domain should be connected before completing the Google Maps API setup. For help connecting a live domain, see: How To Move A Site To A Live Domain\n\n- Google requires billing to be enabled for Google Maps Platform projects. Google controls billing requirements, credits, limits, and account settings.\n\n- If Google Cloud Console opens a blank screen, redirects unexpectedly, or loses the setup session, return to the Google Maps Platform page and select Get Started again.\n\nMost of this setup happens inside Google Cloud. The final step happens inside the Brilliant Directories admin.\n\n\n## Step 1 - Create Account\n\n\nStart by opening Google Maps Platform:\n\n>> Open Google Maps Platform\n\nClick Create an account to get started, or open the Google Cloud Console. Google may ask for account setup, billing information, or project details before continuing.\n\nIf Google asks setup questions, answer them based on the website or project being connected. These questions are managed by Google and may vary by account.\n\n\n## Step 2 - Enable Billing\n\n\nGoal : The Google Cloud project must have billing enabled before Google Maps can work properly on the website.\n\nOpen the Google Cloud Billing page:\n\n- Open Google Cloud Billing\n\n- [WATCH] How to create a billing account\n\nSelect the same Google Cloud project being used for the website and confirm that billing is active.\n\nIf billing is not active, follow Google’s prompts to add or connect a billing account.\n\n- Google Maps Connect Billing\n\nIf Google rejects the payment method, requires identity verification, or shows a billing account error, that issue must be resolved directly inside Google Cloud.\n\n\n## Step 3 - Enable the APIs\n\n\nGoal : Enable the required Google Maps APIs for the same Google Cloud project.\n\nOpen each API link below and enable it for the Google Cloud project being used for the website.\n\n- Enable Maps JavaScript API\n\n- Enable Places API (New)\n\n- Enable Geocoding API\n\n[WATCH] How to enable Google Maps Platform APIs\n\nMake sure the correct Google Cloud project is selected at the top of the Google Cloud Console before enabling each API.\n\nIf Google shows a different screen than expected, focus on the outcome of this step: each of the required APIs should be enabled for the same project.\n\n- Google Maps Enabling an API\n\n\n## Step 4 - Create the API Key\n\n\nGoal : Create one Google Maps API key that will be added to the Brilliant Directories admin.\n\nOpen the Google Cloud Credentials page:\n\nOpen Google Cloud Credentials\n\n- Click Create credentials .\n\n- Select API key .\n\n- The Create API key panel opens. The API restrictions (Step 5) and website restrictions (Step 6) can be set here before clicking Create , or added later by editing the key.\n\n- Copy the new API key.\n\nGoogle may show slightly different labels depending on the account. The main goal is to create an API key inside the same project where the required APIs were enabled.\n\n\n## Step 5 - Restrict API Access\n\n\nGoal : Limit the API key so it can only access the Google Maps APIs needed for the website.\n\nOpen the API key from the Google Cloud Credentials page:\n\n- Open Google Cloud Credentials\n\nIn the Create API key panel, or on the Edit API key page of an existing key, find the Select API restrictions list.\n\nOpen the list, select the APIs used by the website, and click OK :\n\n- Maps JavaScript API\n\n- Places API (New)\n\n- Geocoding API\n\nIf one of these APIs does not appear in the list, return to Step 3 and confirm that the API was enabled for the same Google Cloud project.\n\nWhen editing an existing key, click Save after selecting the APIs. In the Create API key panel, finish Step 6 first, then click Create .\n\n\n## Step 6 - Restrict the API Key\n\n\nGoal : Restrict the API key so it can only be used by the approved website domains.\n\nThis step is important because it tells Google which websites are allowed to use the API key.\n\nUnder application restrictions, select:\n\n- Websites\n\nThen click Add under Website restrictions and add the allowed website referrers one at a time.\n\nRequired Referrers\n\nUse the examples below as a guide. Replace example.com with the final domain of the website.\n\n- *.directoryup.com/*\n\n- *.managemydirectory.com/*\n\n- managemydirectory.com\n\n- *.example.com/*\n\n- example.com\n\nThe directoryup.com referrer is useful if the site is not live yet.\n\nThe managemydirectory.com referrers are needed so map-related features can work properly inside the Brilliant Directories admin area.\n\nThe custom domain referrers allow the API key to work on the live website domain.\n\n- Google Maps: Edit HTTP Referrers\n\nAfter adding the referrers, click Create in the Create API key panel, or Save when editing an existing key.\n\n\n## Step 7 - Add the API Key\n\n\nGoal : Add the finished Google Maps API key to the Brilliant Directories admin.\n\n- Go to Settings .\n\n- Click General Settings .\n\n- Click the Integrations tab.\n\n- Paste the Google Maps API key into the Google Maps Javascript API Key field.\n\n- Click Save Changes .\n\nOptional shortcut: type Google Maps in the Search by Keyword box at the top right of General Settings to show only the matching fields.\n\nAfter saving, the Google Maps API key is connected to the website.\n\n\n## Step 8 - Check the Result\n\n\nGoal : Confirm that Google accepts the key.\n\nRight after Save Changes , the Integrations tab tests the key with Google and shows the result below the key field:\n\n- Website key : green ( Google Maps key is working or Maps work on your website ) means Google accepts the key. A key restricted to the website's domain is tested on the live domain, the way visitors use it.\n\n- Server key : the optional server key, used to geocode members during imports. No server key saved in grey is fine for most sites.\n\nA red result names the problem. Click it to see the fix steps and edit the key; a key Google refuses there is not saved. For each possible result, see Google Maps Issues: Index .\n\n\n## Google API Usage\n\n\nDifferent Brilliant Directories features may use different Google Maps services.\n\nFront-End Website Features\n\n- Member profile maps: Maps JavaScript API\n\n- Location searches: Places API (New) and Geocoding API\n\n- Detect Visitor Location Add-On: Geocoding API\n\nMember Dashboard Features\n\n- Contact details forms: Maps JavaScript API, Places API (New), and Geocoding API\n\n- Post forms with location fields: Maps JavaScript API, Places API (New), and Geocoding API\n\n- Multi-Location Add-On: Maps JavaScript API, Places API (New), and Geocoding API\n\nAdmin Dashboard Features\n\n- Geocode Members tool: Geocoding API\n\n- Location searches in admin tools: Places API (New) and Geocoding API\n\n- Enable All Location Features For Pretty URL Search Results Pages advanced setting: Geocoding API\n\n\n## FAQ\n\n\nGoogle Cloud Screen Does Not Match This Article -- Google may update labels, layouts, and setup screens at any time. If the screen looks different, focus on the goal listed in each step. The main requirements are still the same: billing must be active, the required APIs must be enabled, the API key must be created, and the key must be restricted to the correct website domains. Google Shows a Questionnaire -- The questionnaire is part of Google’s setup process. Answer the questions based on the website or project being connected. Brilliant Directories does not require one specific answer pattern for the Google questionnaire. SDK Options Appear in Google -- For a standard Brilliant Directories website setup, SDK options are not needed. Ignore iOS SDK, Android SDK, Navigation SDK, Fleet Engine, and mobile app setup options unless a separate custom mobile app project specifically requires them. The API Does Not Appear When Restricting the Key -- If Maps JavaScript API, Places API (New), or Geocoding API does not appear in the API restrictions list, the API may not be enabled for the selected Google Cloud project. Return to Step 3, confirm the correct project is selected, and enable the missing API.\n\n\n## When to Contact Brilliant Directories Support\n\n\nContact Brilliant Directories Support if:\n\n- The API key has been added to the Brilliant Directories admin, but maps are still not loading\n\n- The correct APIs appear to be enabled, but the website still shows a map error\n\n- There is uncertainty about where to add the API key inside the Brilliant Directories admin\n\n- Location features are not working after the Google setup has been completed\n\n\n## When to Contact Google Support\n\n\nSome issues must be handled directly inside Google Cloud because Google controls the account, billing, verification, project, and API key system.\n\nContact Google Support or review Google Cloud Help if:\n\n- Billing cannot be activated\n\n- Google rejects the payment method\n\n- The Google Cloud account is locked, suspended, or restricted\n\n- Google requires identity verification\n\n- The Google Cloud project cannot be accessed\n\n- Google shows billing, permissions, or account-level errors",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368342/original/aqOs74OKDIJ-gamg8NTQHx24NO4783CixA.png?1791331528",
+      "alt": "A website's location search field showing Google place suggestions as 'Los An' is typed, which needs a working Google Maps API key.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): A website's location search field showing Google place suggestions as 'Los An' is typed, which needs a working Google Maps API key.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368343/original/mZqkmnc7th5QsD3a2mCu4RP5Dq9ZmajkpQ.png?1791331529",
+      "alt": "The Google Maps Platform home page with the Create an account button marked.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): The Google Maps Platform home page with the Create an account button marked.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370586/original/ZMYJ_8dQK6bWjGezb-FiwRULhOL6UxLEbA.png?1791335037",
+      "alt": "The Maps JavaScript API product page in Google Cloud, with the Manage button and API Enabled status marked.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): The Maps JavaScript API product page in Google Cloud, with the Manage button and API Enabled status marked.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370590/original/uiDEGkLeGi59X8k32xJzs0MtpnqZNS_2nw.png?1791335042",
+      "alt": "The Places API (New) product page in Google Cloud, with the Manage and Try this API buttons and API Enabled status marked.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): The Places API (New) product page in Google Cloud, with the Manage and Try this API buttons and API Enabled status marked.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370585/original/rRnLHNlABQuym1VGeidT3mTsW2QSLG_IxA.png?1791335036",
+      "alt": "The Geocoding API product page in Google Cloud, with the Manage button and API Enabled status marked.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): The Geocoding API product page in Google Cloud, with the Manage button and API Enabled status marked.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370583/original/gyJYURD9Cap0BRWYvTca9zbIyVsF7_Z2nQ.png?1791335033",
+      "alt": "The Credentials page with the Create credentials button (1) open and its API key option (2) marked.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): The Credentials page with the Create credentials button (1) open and its API key option (2) marked.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370584/original/LM40mEO0uPwO0h_elyetGkhqMY2CJWQ_qw.png?1791335035",
+      "alt": "The API Keys list on the Credentials page, with an arrow pointing to the key's name, which opens the key's settings.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): The API Keys list on the Credentials page, with an arrow pointing to the key's name, which opens the key's settings.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370582/original/pLs3VpWTDE_0OqdWv74I588ypcHtpMFN2w.png?1791335031",
+      "alt": "The Create API key panel with Select API restrictions set to 3 APIs and the Selected APIs list showing Maps JavaScript API, Places API (New) and Geocoding API.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): The Create API key panel with Select API restrictions set to 3 APIs and the Selected APIs list showing Maps JavaScript API, Places API (New) and Geocoding API.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370593/original/2T2DcbacOoktOXuYezMC4oNYl32B9CE8Uw.png?1791335045",
+      "alt": "Application restrictions set to Websites, with the Add button and the five website referrers listed under Website restrictions.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): Application restrictions set to Websites, with the Add button and the five website referrers listed under Website restrictions.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358697/original/4xdp09cAvgyHqNEYrs_welLQk5H1S596CA.png?1791318680",
+      "alt": "The Integrations tab's Google Maps key tester, with numbered Website key and Server key result rows and the Edit both keys link.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Guide 9. How to Enable Maps with Google Maps API' (Get Started Here > Quick Setup Guides): The Integrations tab's Google Maps key tester, with numbered Website key and Server key result rows and the Edit both keys link.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000019818",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019818"
+    },
+    {
+      "text": "Google Maps API: Features, Functions, and Key Considerations",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682639"
+    },
+    {
+      "text": "How To Move A Site To A Live Domain",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682661-how-to-move-your-site-to-your-live-domain"
+    },
+    {
+      "text": "Google requires billing",
+      "url": "https://developers.google.com/maps/billing-and-pricing/billing"
+    },
+    {
+      "text": "Get Started",
+      "url": "https://console.cloud.google.com/google/maps-apis/start?utm_source=Docs_GS_Button&ref=https://developers.google.com/maps/&utm_content=Docs_Central"
+    },
+    {
+      "text": "Open Google Maps Platform",
+      "url": "https://cloud.google.com/maps-platform/"
+    },
+    {
+      "text": "Open Google Cloud Billing",
+      "url": "https://console.cloud.google.com/billing"
+    },
+    {
+      "text": "[WATCH] How to create a billing account",
+      "url": "https://youtu.be/uINleRduCWM?si=fPCcOiAMN1ol9Fn7"
+    },
+    {
+      "text": "Google Maps Connect Billing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057688"
+    },
+    {
+      "text": "Enable Maps JavaScript API",
+      "url": "https://console.cloud.google.com/apis/library/maps-backend.googleapis.com"
+    },
+    {
+      "text": "Enable Places API (New)",
+      "url": "https://console.cloud.google.com/apis/library/places.googleapis.com"
+    },
+    {
+      "text": "Enable Geocoding API",
+      "url": "https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com"
+    },
+    {
+      "text": "[WATCH] How to enable Google Maps Platform APIs",
+      "url": "https://youtu.be/n1UorU1PALk?si=gcDqjA9v-1vBHJMD"
+    },
+    {
+      "text": "Google Maps Enabling an API",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055835"
+    },
+    {
+      "text": "Open Google Cloud Credentials",
+      "url": "https://console.cloud.google.com/apis/credentials"
+    },
+    {
+      "text": "Open Google Cloud Credentials",
+      "url": "https://console.cloud.google.com/apis/credentials"
+    },
+    {
+      "text": "Google Maps: Edit HTTP Referrers",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057655"
+    },
+    {
+      "text": "Google Maps Issues: Index",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097715"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:02+05:30",
+  "scraped_at": "2026-10-18T13:40:41.254507"
+}

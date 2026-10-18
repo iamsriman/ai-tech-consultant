@@ -1,0 +1,116 @@
+{
+  "article_id": "12000042564",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042564-homepage-background-image-slider",
+  "title": "Homepage Background Image Slider",
+  "category": "Add-On Documentation",
+  "folder": "Homepage Background Slider",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Homepage Background Slider",
+    "Homepage Background Image Slider"
+  ],
+  "content": "## Homepage Background Image Slider\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000042564\n\n\n## Overview\n\n\nAdd excitement to the website with the Homepage Background Slider add-on. Replace the static homepage hero image with a lively animated image slideshow.\n\nThe main homepage text, search box, and/or call-to-action (CTA) will remain unchanged. However, a slideshow will be placed behind the call-to-action with up to 8 uploaded images.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Homepage Background Slider Add-On\n```\n\n\n## Enabling the Add-On\n\n\nTo access this section, please go to: Settings >> Design Settings >> Homepage:\n\nScroll down until you see the Background Image Slider >> Image Slider Settings :\n\nThe Homepage Slideshow is usually the first thing people see when they visit the site. It consists of the Carousel Images that are rotating in the background at the top of the homepage. There are 8 slides that can be used to display high quality website Images above the fold.\n\nWhen selecting any of the images to go into the homepage background, it is important to make sure the images used are the perfect size for the target audience.\n\nRecommended Homepage Background Sizes\n\nNEED TO CROP OR RESIZE THE IMAGES? PLEASE CONSIDER USING THIS FREE ONLINE TOOL\n\n\n## The Background Image Slider Settings\n\n\nThe settings are divided into 2 sections, the Image Slider Settings & the Individual Slide Settings.\n\n\n### Image Slider Settings\n\n\nThese settings can be divided into 6 different sections:\n\n- Enable Slideshow?\n\n- Slideshow Loading Method\n\n- Background Images Behavior\n\n- Rotation Interval\n\n- Transition Duration\n\n- Transition Effect\n\n- Background Color\n\n- Show Slideshow Arrows\n\n\n### Enable Slideshow?\n\n\nThis setting determines whether the website uses the rotating image carousel functionality that is this entire module or if the website will use a single background image.\n\n- Enable Slideshow - Desktop Only: The website will display the rotating image carousel with all the images uploaded only when the website is viewed on a desktop device.\n\n- Enable Slideshow - Desktop & Mobile: The website will display the rotating image carousel with all the images uploaded when the website is viewed on a desktop and mobile device.\n\n- Disable Slideshow: The website will show the single homepage background image and not the slideshow.\n\n\n### Slideshow Loading Method\n\n\nIt is possible to choose the loading method for the image slider. Each method has its own advantages:\n\n- JavaScript : This method supports special effects, however, it slows the page loading time.\n\n- Pure CSS: The recommended method loads faster and works best for mobile devices. However, it does not support special effects like Swirl left or right. For the Background Images behavior setting, only Mobile-Ready View is available with this loading method; Standard View is not supported. When using the Pure CSS version, it will only use the Transition duration only and it will not use the Rotation Interval setting.\n\n\n### Background Images Behavior\n\n\nSelect the background images behavior:\n\n- Mobile-Ready View : This is the recommended option as the system will optimize the image behavior on mobile devices.\n\n- Standard : Recommended for desktop view.\n\n\n### Rotation Interval\n\n\nThis setting will dictate how many seconds each slide rotates in the carousel, there is a max setting of 10 seconds.\n\n\n### Transition Effect\n\n\nThis setting will dictate what effect will be applied to all the slides when they are rotating to display the next image in the carousel. The available effects are:\n\n- Slide Left, Slide Right, Slide Up, Slide Down\n\n- Swirl Left, Swirl Right\n\n- Fade\n\n- Zoom Out, Zoom In\n\n\n### Transition Duration\n\n\nThis setting will dictate how long the effect will last before actually displaying the next image in the slider.\n\nA good tip here is to make sure that the Transition Duration is always less time than the Rotation Interval .\n\n\n### Background Color\n\n\nThis is the color that will load in the area where the homepage slider will be, while the page is loading the images in the slider.\n\nUsually, this color only lasts a few seconds on the screen because the images of the slider load very fast.\n\n\n### Show Slideshow Arrows\n\n\nThis is a \"Yes\" or \"No\" setting.  It will decide whether or not people visiting the site will be able to control which slide show image they see at a time.\n\nIt will accomplish this by adding or not adding small arrows that indicate a new image on each side of the slider.\n\nImportant Note : The \"Show Slideshow Arrows\" setting is only available if the \"Slideshow Loading Method\" is set to \" JavaScript \" and will be hidden if the \" Pure CSS \" option is selected.\n\n\n## The Individual Slide Settings\n\n\nThis area consists of three main settings:\n\n- Enable Slide/Disable Slide\n\n- Upload Image\n\n- Delete Image\n\n\n### Enable Slide/Disable Slide\n\n\nThis setting will determine whether or not the image uploaded to this slot of the slider will display on the homepage.\n\n\n### Upload Image\n\n\nThis setting allows people to select and add an image to one of the homepage slider slots.\n\nThis setting will change to \"replace image\" if an image was already placed and a change needs to be made.\n\n\n### Delete Image\n\n\nThis Setting will only remove the image from the slider slot and will not delete the image from the image manager.\n\n\n### Homepage Background Slider Example",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12123964300/original/9vrZ8SCrRWhgUrTP20jOsU3yJaKm33UmgA.png?1681322836",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Background Image Slider' in section 'Add-On Documentation' / 'Homepage Background Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160917424/original/9KIM_wpXsrNqm6DJASSg4g-IuiKadFF8rg.png?1746544842",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Background Image Slider' in section 'Add-On Documentation' / 'Homepage Background Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129548691/original/JxOXrUHxMzqlVO8Dp8D8GmtMBdP6DBaVtA.png?1691501403",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Background Image Slider' in section 'Add-On Documentation' / 'Homepage Background Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129549353/original/ecYCZ1srQv9lGi_9a1u6G_-wfgUVbDnwZw.png?1691501958",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Background Image Slider' in section 'Add-On Documentation' / 'Homepage Background Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160917867/original/ZseYtE6uJDf3CHcJC3kUiQX8aC_bT8Ud8w.png?1746545139",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Background Image Slider' in section 'Add-On Documentation' / 'Homepage Background Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160917881/original/FFhfSHsrXqQ4XAYxqwMBdRtWdaU9IPhjHg.png?1746545150",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Background Image Slider' in section 'Add-On Documentation' / 'Homepage Background Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12123976678/original/cD2owQw5FX6sXzBXm32NYVrWZ_vvNILHmA.png?1681339932",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Background Image Slider' in section 'Add-On Documentation' / 'Homepage Background Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129551422/original/RGM5CNXbBvjXWjpc5ZlhTK4Jg4VcGQpNKg.gif?1691503784",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Background Image Slider' in section 'Add-On Documentation' / 'Homepage Background Slider'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000042564",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042564"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Homepage Background Slider Add-On",
+      "url": "https://www.brilliantdirectories.com/homepage-background-slider-add-on"
+    },
+    {
+      "text": "Recommended Homepage Background Sizes",
+      "url": "https://support.brilliantdirectories.com//support/solutions/articles/12000000238"
+    },
+    {
+      "text": "FREE ONLINE TOOL",
+      "url": "https://www.iloveimg.com/crop-image"
+    }
+  ],
+  "lastmod": "2026-08-28T22:03:13+05:30",
+  "scraped_at": "2026-10-18T13:42:25.949984"
+}

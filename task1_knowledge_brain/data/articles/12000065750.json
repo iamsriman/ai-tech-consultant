@@ -1,0 +1,51 @@
+{
+  "article_id": "12000065750",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065750-how-to-disable-option-to-complete-member-s-address-based-on-the-map-s-marker",
+  "title": "How To Disable Option To Complete Member's Address Based On The Map's Marker",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Disable Option To Complete Member's Address Based On The Map's Marker"
+  ],
+  "content": "## How To Disable Option To Complete Member's Address Based On The Map's Marker\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065750\n\nMember's of the directory have the option to select and set their location based on the location of the marker in the map on the Contact Details form:\n\nUse the Advanced Setting:\n\nDisable Drag-able Pins on Member Google Maps\n\nSystem Variable: disable_drag_drop_member_map\n\nOnce the Advanced Setting is enabled, the option to move the pin is gone:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280465/original/8zgz-XHKusHNo8S8p4znazF5Yj7PhceEfQ.png?1645316810",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable Option To Complete Member's Address Based On The Map's Marker' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647200/original/lrT7wgLKomvvjJAQWaJS-UW19dEOcYPTGw.png?1753160999",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable Option To Complete Member's Address Based On The Map's Marker' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280508/original/OBGyAJoqFhBM1cNfnj71-sVzaGNWNNVQ-A.png?1645316984",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable Option To Complete Member's Address Based On The Map's Marker' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065750",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065750"
+    }
+  ],
+  "lastmod": "2025-07-22T10:40:02+05:30",
+  "scraped_at": "2026-10-18T13:45:50.971824"
+}

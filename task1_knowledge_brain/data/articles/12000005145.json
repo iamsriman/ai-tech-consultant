@@ -1,0 +1,94 @@
+{
+  "article_id": "12000005145",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005145-website-notifications-activity-tracker",
+  "title": "Website Notifications / Activity Tracker",
+  "category": "Add-On Documentation",
+  "folder": "Admin Activity Tracking",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Admin Activity Tracking",
+    "Website Notifications / Activity Tracker"
+  ],
+  "content": "## Website Notifications / Activity Tracker\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000005145\n\n\n## Overview\n\n\nThe Admin Activity Tracking add-on is an upgrade to the current Admin Activity feature included with all Brilliant Directories websites.\n\nThe default Admin Activity feature tracks and logs activity on any website for the past 30 days. This upgrade extends the activity tracking history to store unlimited log records.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Admin Activity Tracking Add-On\n```\n\n\n## About this Add-On\n\n\nAll actions performed through the admin backend or the front-end of the site are logged and tracked to ensure visibility into system usage and user activity. These logs support auditing, troubleshooting, performance monitoring, and help maintain accountability by providing a record of who performed specific actions and when they occurred.\n\nHowever, any changes made directly at the database level are not tracked by these logging mechanisms.\n\n\n### Is this free?\n\n\nYes. This feature is included with all websites and is available for free to any existing Bootstrap theme website. This will track up to 30 days at no cost. However, to have unlimited tracking, acquire this add-on HERE.\n\n\n### How long does Brilliant Directories track website notifications?\n\n\nBy default, the website can track notifications for up to 30 days. Notifications older than 30 days will be removed from the notification center unless the add-on is active on the site.\n\n\n### Will website notifications also act as a change log?\n\n\nYes. One of the most requested features has been the ability to easily track who edits widgets or makes changes to the system, helping identify the root cause of an error (system or user).\n\n\n## Activity Tracker Filters\n\n\nGo to Dashboard >> Activity Tracker\n\nThe Activity Tracker makes it easy to find specific actions using any of the four filters, including “Select All / Unselect All” options for Type and Category.\n\n\n### Filter by Type\n\n\nSelect from nine types to narrow the search results, quickly find specific activities in the Activity Tracker.\n\n- Member\n\n- Email\n\n- Lead\n\n- Admin Area\n\n- Finance\n\n- Form Submission\n\n- API\n\n- Webhook\n\n- Business Data Import\n\n\n### Filter by Category\n\n\nChoose from 18 categories to refine the search in the Activity Tracker. Focus on specific areas of activity and quickly find the records most relevant to the search criteria.\n\n301 Redirects, Accepted, Admin Accounts, Admin Action, Admin Created Order, Admin Signup, Admin Stopped Order, Advanced Settings, Automatched, Autosuggest, Backup, Billing Module Installed, Blocked Spam, Campaign, Contact Added, Contact Tag, Contact Unsubscribed, Contact Us Form, Country Settings, Coupon Codes, Credits, Credit Card, Cron Job, Deleted, Design Settings, Declines, Direct, Email Templates, Failed Transaction, Forms, General Settings, Getmatched Lead Submitted, HTACCESS, Main Categories, Member Import, Member Triggered, Membership Features, Membership Plan, Membership Plans, Menus, Newsletter, Payment Gateway Activated, Post, Profile Information, Robots.txt, SEO Settings, Self Signup, Self Upgrade, Settings, Sidebars, Single Manual Email, Sitemap, Static Page, Sub Categories, Successful Transaction, System, Tax Settings, Templates, Text Labels, Transaction Refund, Widgets.\n\nActivity Tracker filters include \"Select All / Unselect All\" for Type and Category\n\n\n### Filter By Date\n\n\nThere will be a calendar date picker to filter by dates.\n\n\n### Search by Keyword\n\n\nThe keywords will search through the Description field.\n\n\n### Website Activity Information\n\n\nThe Website Activity Section will include:\n\n- ID : The ID assigned to the action.\n\n- Time : When the action was completed.\n\n- Type : The section of the admin this action belongs to. Category : This field describes the specific area or module within the section (indicated by 'Type') to which the action relates.\n\n- Description : The action completed.\n\n- Updated By : Shows the Admin who completed the action.\n\n- IP Address : The IP of the Admin at the time the action was completed on the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173322820/original/Yzn2Mv0ghO5dHSfXrFgJmW38vZ4JIFAA2g.png?1768499562",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Website Notifications / Activity Tracker' in section 'Add-On Documentation' / 'Admin Activity Tracking'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12172935957/original/qDNrD7AiLTSNhogtSvr8CGag8MHm-c6Ruw.png?1767826245",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Website Notifications / Activity Tracker' in section 'Add-On Documentation' / 'Admin Activity Tracking'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12172935978/original/Dq925-01Tf_92SINMPdqUJMFHW3s2LH5ig.png?1767826292",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Website Notifications / Activity Tracker' in section 'Add-On Documentation' / 'Admin Activity Tracking'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168293717/original/YR5ElHwmCZ-g08Tj0MCNAv39qyG2T7ilNA.png?1759255878",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Website Notifications / Activity Tracker' in section 'Add-On Documentation' / 'Admin Activity Tracking'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173322966/original/wV3r_E-rnNzNY7plIjm8-m1H4SEujE-qQw.png?1768499649",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Website Notifications / Activity Tracker' in section 'Add-On Documentation' / 'Admin Activity Tracking'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168294409/original/b93JpkTeBl1xjIi7Fj-v7qxoZ80jMn0Bcw.png?1759256185",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Website Notifications / Activity Tracker' in section 'Add-On Documentation' / 'Admin Activity Tracking'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000005145",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005145"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Admin Activity Tracking Add-On",
+      "url": "https://www.brilliantdirectories.com/website-activity-tracking-add-on"
+    },
+    {
+      "text": "HERE.",
+      "url": "https://www.brilliantdirectories.com/website-activity-tracking-add-on"
+    }
+  ],
+  "lastmod": "2026-08-28T21:50:20+05:30",
+  "scraped_at": "2026-10-18T13:39:50.876302"
+}

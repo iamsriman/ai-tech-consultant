@@ -1,0 +1,27 @@
+{
+  "article_id": "12000088655",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088655-07-15-22-software-updates",
+  "title": "07/15/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/15/22 - Software Updates"
+  ],
+  "content": "## 07/15/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088655\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Manage Posts page in the Admin to display an alert when an Admin sets a post that is pending review to \"Published\", and this would cause the member to exceed the \"Max. Free Posts\" the member has set in their Membership Plan settings.\n\n- We fixed an issue which was preventing the Lead Price by Category Add-On from working properly for Sub-Sub Level categories in some cases.\n\n- We created a new set of lead settings called \"Pre-Selected Top Level Category\", \" Pre-Selected Sub Level Category \" and \" Pre-Selected Sub Sub Level Category \". These allow for pre-selecting categories in the \"Website - Lead Form - Get Matched\" form. To use this new feature, navigate to the Admin >> Interactions >> Member Leads >> Lead Settings >> Auto-Match Workflows >> Edit >> General Lead Settings. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- The getMemberSubCategory() function is now compatible with the Default Category Sort Order settings. Click here for more information. Post Types Involved: Listings Sub Accounts\n\n- We fixed an issue which was causing the system to display the \"Default Member Logo\" as if it was uploaded manually by the member when the \"Category Image as Profile Photo\" Advanced Setting is active. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was preventing forms from submitting properly when it contains a required \"File Upload\" field in some cases.\n\n- The Video Post Type is now compatible with the \"Youtube Shorts\" URL format. Widget Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Display - Recent Videos Bootstrap Theme - Display - Related Posts by Category\n\n- We added the ability to import 301 Redirects via CSV file on the 301 Redirect page in the Admin.\n\n- We updated the Froala WYSIWYGs to the latest version available.\n\n- We fixed an issue which was causing the system to load an incorrect version of the social media image tag (og:image) on member profiles and post details pages in some cases.\n\n- We updated the Stripe Payment Gateway logic in order to support indempotent requests.\n\n- We fixed an issue that was causing pages in the Admin to load more slowly than they should in some cases.\n\n- Manually creating a new member subscription from the Admin is now being logged in the Activity Tracker.\n\n- We updated the File Uploads for Forms Add-On in order to load the JS files after the page loads. This will help to reduce the load time of pages and increase scores in 3rd party tools like GTMetrix and Google Pagespeed. Widgets Involved: Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Account - Photo Albums Upload Form Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Footer - Scripts - Filestyle Scripts Bootstrap Theme - Footer - Scripts - Input Clear Content Scripts Bootstrap Theme - Footer - Scripts Bootstrap Theme - HEAD Bootstrap Theme - Function - Form Bootstrap Theme - Reviews - Upload Images\n\n- We fixed an issue which was preventing the system from displaying the custom 404 error page when the URL of the page starts with /checkout in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088655",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088655"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/a/solutions/articles/12000038355?portalId=5000075044"
+    }
+  ],
+  "lastmod": "2022-07-16T04:36:40+05:30",
+  "scraped_at": "2026-10-18T13:49:58.780276"
+}

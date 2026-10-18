@@ -1,0 +1,37 @@
+{
+  "article_id": "12000070467",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070467-get-parameter-rule-for-member-search-results-parentid-123-",
+  "title": "Get parameter rule for MEMBER search results \"&parentid=123\"",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Get parameter rule for MEMBER search results \"&parentid=123\""
+  ],
+  "content": "## Get parameter rule for MEMBER search results \"&parentid=123\"\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000070467\n\nMember search results can be filtered by adding the parentid parameter to the search results URL. This returns sub-account members assigned to the specified parent member ID. URL Format Use the following URL structure: Copy /search_results?parentid=123 Replace 123 with the parent member's User ID. Find the Parent Member ID To locate a member's User ID, see: How to View a Member's Unique ID Number in the Admin Area Example If the parent member's User ID is 18 , the search results URL would be: Copy /search_results?parentid=18 The search results page will then display members assigned as sub-accounts of that parent member.\n\nHow To View A Member's Unique ID Number In The Admin Area",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181295990/original/greR2LWKUQQJ0BGkJEx85ZhtEuyzsZq8nw.png?1782860152",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Get parameter rule for MEMBER search results \"&parentid=123\"' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000070467",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070467"
+    },
+    {
+      "text": "How To View A Member's Unique ID Number In The Admin Area",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000575488"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:20+05:30",
+  "scraped_at": "2026-10-18T13:46:39.000192"
+}

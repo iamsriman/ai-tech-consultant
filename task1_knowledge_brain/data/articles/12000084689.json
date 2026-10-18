@@ -1,0 +1,59 @@
+{
+  "article_id": "12000084689",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084689-tracking-member-sign-ups-events-with-facebook-pixel",
+  "title": "Tracking Member Sign-Ups Events With Facebook Pixel",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Tracking Member Sign-Ups Events With Facebook Pixel"
+  ],
+  "content": "## Tracking Member Sign-Ups Events With Facebook Pixel\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084689\n\nStandard events are predefined visitor actions that correspond to common, conversion-related activities, such as searching for a product, viewing a product, or purchasing a product.\n\nThis article explains how to track completed purchases on the site.\n\nDetailed information about conversion tracking can be found in the article below:\n\nConversion Tracking\n\nStep 1:\n\nEnsure the pixel's base code is installed on every page where conversions will be tracked. This process is explained in detail in the article below:\n\nFacebook Pixel\n\nStep 2:\n\nCustomize the Bootstrap Theme - Conversion Tracking Codes widget to call the fbq('track') function which tracks completed purchases on the site.\n\nThe following example code is provided by Facebook Pixel:\n\n<script> fbq('track', 'Purchase', {currency: \"USD\", value: 30.00}); </script> The next step is to replace the specified parameter values with the default variables. All of the available variables can be found in the Bootstrap Theme - Conversion Tracking Codes widget: The resulting code would look like this: <script> fbq('track', 'Purchase', {currency: \"USD\", value: <?php echo $conversion_tracking['amount']; ?>}); </script> Then add the code to the specified widget below line 38: When this function is called, the event is tracked as a purchase event in Events Manager:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103142825/original/LIL_0OyZQi-67izntHX-Z5E2wP_nhP6TcA.png?1641308257",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tracking Member Sign-Ups Events With Facebook Pixel' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103142971/original/RkrpQOS_L8kB7MDEhxr5uKmC8T6qADe93w.png?1641308404",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tracking Member Sign-Ups Events With Facebook Pixel' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103143231/original/2y2z1T_TbFy9EtrIlSrzbo409LRp0UxrPQ.png?1641308616",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Tracking Member Sign-Ups Events With Facebook Pixel' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084689",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084689"
+    },
+    {
+      "text": "Conversion Tracking",
+      "url": "https://developers.facebook.com/docs/facebook-pixel/implementation/conversion-tracking"
+    },
+    {
+      "text": "Facebook Pixel",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050599"
+    }
+  ],
+  "lastmod": "2026-06-10T21:55:48+05:30",
+  "scraped_at": "2026-10-18T13:49:20.110232"
+}

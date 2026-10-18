@@ -1,0 +1,51 @@
+{
+  "article_id": "12000107802",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107802-how-to-get-member-subscriptions-through-the-api",
+  "title": "How to Get Member Subscriptions Through the API",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "How to Get Member Subscriptions Through the API"
+  ],
+  "content": "## How to Get Member Subscriptions Through the API\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107802\n\nIn this article, we will go over how to use the Subscriptions API to retrieve subscription information for a single member.\n\n\n## How to get member subscriptions\n\n\nThe Subscriptions API leverages a single parameter (User ID or Client ID) to retrieve  all the transactions data.\n\n/api/v2/user/subscriptions\n\n\n## Parameters\n\n\nOnly one parameter is required to run the API. It can be either the User ID or the Client ID (the ID from the tblclients table in the billing database).\n\n\n## Example with Postman\n\n\nSending the user ID as the parameters:\n\nThe results will show all subscriptions from that particular member in a Json Array format:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175570914/original/BCGHdMTcS_KqjOJ5YfjTd7xirk2oRrsxlg.png?1772727706",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Get Member Subscriptions Through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175571763/original/Vs_gwgWIB8iX_0j-XP_FhbqobYUA7bpM1g.png?1772728439",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Get Member Subscriptions Through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175571834/original/PmyT5pZP1b87mHtdTjD1FDr3D8ZLk2zOEg.png?1772728556",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Get Member Subscriptions Through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107802",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107802"
+    }
+  ],
+  "lastmod": "2026-03-13T23:29:25+05:30",
+  "scraped_at": "2026-10-18T13:57:19.887407"
+}

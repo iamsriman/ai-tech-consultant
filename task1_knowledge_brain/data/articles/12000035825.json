@@ -1,0 +1,23 @@
+{
+  "article_id": "12000035825",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035825-09-29-17-software-updates",
+  "title": "09/29/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/29/17 - Software Updates"
+  ],
+  "content": "## 09/29/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000035825\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We deprecated the Java Upload Big Size File tab on the Image Manager Module in the Site Admin.\n\n- We included the Member Phone Number in the overview tab as part of the Click-To-Call Members Add-On. Widget Involved: Bootstrap Theme - Member Profile - Display Phone Number\n\n- We fixed an issue that was affecting the display of the Event, Coupon, and Job Calendar when you try to copy an existing Post. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- The updated Quick Edit Modal on the Search Member Page on the Admin is now saving the information and working as it should.\n\n- We fixed an issue that was affecting the Account Feature Body Widget when a site has installed the Recurring Events Add-On. Widget Involved: Bootstrap Theme - Account - Feature Body\n\n- We fixed an issue that was affecting the Previous and Next links on the Header of a page when you visit a Search Results page. Widget Involved: Bootstrap Theme - Pagination\n\n- The issue that was affecting the display of the Categories on the Search Results page when a site has installed the Insta-Load Search Results Add-On has been resolved.\n\n- Now, when a Free Sign Up Member tries to add a Credit Card, the Add Credit Card Modal will show the First Name and Last Name fields without any information (previously it would fill these fields in with \"Free\" and \"Member\".",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000035825",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035825"
+    }
+  ],
+  "lastmod": "2017-09-29T22:01:10+05:30",
+  "scraped_at": "2026-10-18T13:41:50.054951"
+}

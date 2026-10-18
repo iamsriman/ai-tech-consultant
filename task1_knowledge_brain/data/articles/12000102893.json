@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102893",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102893-12-20-2024-software-updates",
+  "title": "12/20/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/20/2024 - Software Updates"
+  ],
+  "content": "## 12/20/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102893\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The Private Member Chat Add-On is now compatible with the Time and Date Format Settings.\n\n- We updated the Web Page Builder to support selecting the \"Custom Widget as Web Page\" option as the Page Type setting when editing Homepage in the Admin.\n\n- We fixed an issue which was preventing the Products and Classifieds Homepage widgets from displaying the post price in some cases. Widgets Involved: Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Products\n\n- We fixed an issue which was preventing the Membership Plans page in the Admin from displaying the \"Move Members\" action link.\n\n- We fixed an issue that was causing the system to display duplicate results on Post Search Results pages when the \"Order Results By\" Post Setting was set to \"Random\" and the Insta-Load Search Results Add-On was active. Widgets Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We fixed an issue that was affecting the ability to delete Posts via bulk action from the Admin in some cases.\n\n- We created a new Design Setting called \"Only Display 'Verified' Members?\" When enabling this new setting the Recent Members homepage widget will only display \"Verified\" members. We also added the \"Display Verified Badge\" Design Setting to control whether or not the verified badge displays for members in the homepage widget. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We added the ability to upload .json, .csv and .tsv files using the Media Manager page in the Admin.\n\n- We fixed an issue which was affecting the ability to schedule Smart Lists to be sent to a webhook endpoint in the Admin.\n\n- We updated the Activity Tracker to log the previous and new value of the changed items when an Admin updates a Post Setting.\n\n- We fixed an issue which was preventing the Brilliant Directories Zapier App from working properly when trying to update and remove Member Tags in some cases.\n\n- We updated the Text Labels module to add support for several additional languages.\n\n- We fixed an issue which was preventing the system from refunding member credits to members after attempting to purchase a lead that was \"Sold Out\" in some cases.\n\n- We fixed an issue that was preventing the \"Auto Import the post images based on 'Post Image' during import\" Import Post Setting from working properly in some cases.\n\n- We fixed an issue which was affecting the ability to customize and save Forms when the 2FA logic is enabled and the website is not using an SSL certificate.\n\n- We fixed an issue that was preventing the Canonical URL from working properly when the \"Default Member Search URL\" was updated and the site was not using an SSL certificate in some cases. Widgets Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the Member Category dropdowns on the Get Matched form from working properly when the \"Pre-Selected Top Level Category\" Lead Setting was active in some cases. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We updated the modal workflow when deleting Members on the Search Members page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102893",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102893"
+    }
+  ],
+  "lastmod": "2024-12-23T20:21:46+05:30",
+  "scraped_at": "2026-10-18T13:55:27.218743"
+}

@@ -1,0 +1,190 @@
+{
+  "article_id": "12000081342",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081342-admin-bar",
+  "title": "Admin Bar",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Admin Bar"
+  ],
+  "content": "## Admin Bar\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000081342\n\nThe Admin Bar is a tool that helps the website administrator to easily make updates on the front end of the site. It is also useful to pinpoint important elements like forms, widgets, SEO Templates and sidebars and text labels.\n\nTo locate the Admin Bar, login into the admin and click on the \"Visit Website\" button:\n\nThis will redirect the admin to the Homepage and the admin bar will show:\n\nClick on the dropdown button to make the bar wider:\n\n\n## Available Tools\n\n\nThe available tools in the bar are described below:\n\n\n### 1. Website Dashboard\n\n\nBy clicking on this option, the admin will be redirected to the back-end dashboard:\n\n\n### 2. Go To Widget Manager\n\n\nThis option will open up the widget manager section.\n\nMore information is available in the following article: Toolbox » Widget Manager Overview\n\n\n### 3. Edit Static P age / Add Custom Content\n\n\nThe third option in the Admin Bar changes based on the type of page currently active.\n\n\n### Static Pages - Edit Static Page\n\n\nOn a Static Page , select “Edit Static Page” to modify the page that’s currently displayed.\n\n\n### Dynamic Pages - Add Custom Content\n\n\nWhen viewing a dynamic page like a member search results page or a post  search results page, the Admin Bar will display the option to add custom content to  to the search results page and an option to edit it. This option only appears for dynamic pages, such as search results.\n\nBy selecting the option to Add custom content the Quick Create Wizard - Create Web Page starts.\n\nMore information is available in the following articles:\n\nAdding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages\n\nHow to Turn Posts and Post Categories Search Results Pages into Static Pages\n\n\n### 4. S how Widgets\n\n\nClick on the magnifying glass icon to see all the widgets that are being used on the current page. This view will also include text labels, forms, menus and sidebars. Default widgets will be highlighted in red and Custom items will appear in blue. Click on awidget to open it on the Widget Manager.\n\nMore information is available in the following article: How to Locate Widgets, Sidebars, Menus, and Forms Via Admin Bar\n\n\n### 5. Show Text Labels\n\n\nThis option will highlight the text labels and allow the admin to edit them.\n\nMore information is available in the following article: How to Locate Text Labels on the Front End of a Website\n\n\n### 6. Design View\n\n\nThis tool allows to make edits on the go! With this new tool make design changes and see them right away!\n\nMore information is available in the following article: Front End Live Design Tool\n\n\n### 7. Edit Listing\n\n\nWhile looking a member profile, the admin can choose this option and it will be redirect to the member dashboard.\n\n\n### 8. Refresh Live Website\n\n\nUse this option to make sure that recent changes that have been made to widgets, forms, and other elements of the website through the Admin Area are reflected in the website's cache.\n\nMore information is available in the following article: Refresh Live Website: How To Refresh The Cache Of The Website\n\n\n### 9. Exit Admin View\n\n\nSelect this to close the admin bar.\n\n\n### 10. Edit Post\n\n\nWhen viewing a post details page, the admin bar displays an additional option to \" Edit Post \".\n\nThis button redirects the admin to the member’s profile, landing directly on the post form for quicker access.\n\n\n## Admin Role Permissions\n\n\nRole Permissions will be reflected when using the Admin Bar. This applies for all Admin Bar options, the permission needs to be enabled in order to access/see the button.\n\nIn this example the Web Page , SEO Template , Text Labels and Design Settings options are missing.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180811792/original/-0BDyeVgcnr6DnlrI3_BX-4T7-vOuV4I4A.png?1782136501",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096605738/original/Cb2Go7Wr8QhNOOVlTp0fgy3QDswjzSbXZA.png?1628519745",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096605671/original/rlwPcqzFLG4G46dDg6xuneUi2N3heedOJg.gif?1628519671",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161349713/original/otwD2aV8VobnwSQZgP8SG1KjyhYgMFLEJg.png?1747277685",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180811816/original/M89_LRWXZx6sVT1wVwCdEcH4Lnb15Eb_kg.png?1782136551",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166484162/original/HNRhkFd7wVfKJuLOrjoHvXBasaNUKDJHNQ.png?1756239228",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152282550/original/HWufxnv0tlDVwpqp6RU24j5VqsXA_Xw5MQ.png?1731168865",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170033088/original/MpyRspIWKmEiBoZXUq7OQhv4Bk285_KnnQ.png?1762283788",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152282602/original/2OyJG7b9Ek5dzLc2Of2nQ8oqVDAvUxGa5Q.png?1731169052",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096609064/original/dl4_f6IMJUJVpqXZhPQe0y8bxtaQs0wNgQ.png?1628522657",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105692046/original/2IWpPMSNEHgxb1rBoavQbbnSnlGcegeBTg.jpeg?1646105811",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096609104/original/e0itTyvXNHNZU48BMUQIklf7nNNs9Vnx5A.gif?1628522708",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161350286/original/2j66EzI3-bTu9o-eGEcajJQAWPZ1LhqHyg.png?1747279672",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105692163/original/LOF9_oBGYcE7UN24BNcVJMNEcf3QPVKwog.png?1646106178",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Admin Bar' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000081342",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081342"
+    },
+    {
+      "text": "Toolbox » Widget Manager Overview",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000025507"
+    },
+    {
+      "text": "Static Page",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047120"
+    },
+    {
+      "text": "Quick Create Wizard - Create Web Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000106505-quick-create-wizard-create-web-page"
+    },
+    {
+      "text": "Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000002518-adding-seo-content-to-a-specific-member-search-results-page-turn-dynamic-pages-into-static-pages"
+    },
+    {
+      "text": "How to Turn Posts and Post Categories Search Results Pages into Static Pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000071552-how-to-turn-posts-and-post-categories-search-results-pages-into-static-pages"
+    },
+    {
+      "text": "How to Locate Widgets, Sidebars, Menus, and Forms Via Admin Bar",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000051553"
+    },
+    {
+      "text": "How to Locate Text Labels on the Front End of a Website",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000055818"
+    },
+    {
+      "text": "Front End Live Design Tool",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000039736"
+    },
+    {
+      "text": "Refresh Live Website: How To Refresh The Cache Of The Website",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000070151"
+    },
+    {
+      "text": "Role Permissions",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000064113"
+    }
+  ],
+  "lastmod": "2026-06-22T19:26:04+05:30",
+  "scraped_at": "2026-10-18T13:48:48.977626"
+}

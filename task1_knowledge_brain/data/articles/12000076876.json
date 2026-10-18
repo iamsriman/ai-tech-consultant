@@ -1,0 +1,60 @@
+{
+  "article_id": "12000076876",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076876-how-to-disable-brilliant-directories-default-css",
+  "title": "How To Disable Brilliant Directories' Default CSS",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Disable Brilliant Directories' Default CSS"
+  ],
+  "content": "## How To Disable Brilliant Directories' Default CSS\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076876\n\nBrilliant Directories' default CSS stylesheet can be deactivated using the Advanced Setting:\n\nDisable Default CSS Stylesheet\n\nSystem Variable: website_disable_css_stylesheets\n\nOnce the Advanced Setting has been turned on and since there will be no link to a stylesheet, the website will look broken like this:\n\nIf the custom CSS stylesheets are hosted elsewhere, the way to link this will be using the Custom CSS / HEAD section,\n\nAdditionally, custom CSS can also be added directly to each static page. To do this, navigate to the webpage that needs to be edited and use the Advanced tab:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647437/original/OCY1CwVrs0aQaFqgA6gtqUy7SCHRALQh5w.png?1753161403",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable Brilliant Directories' Default CSS' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280685/original/ebVmUp4lrgww3Ra7-1hXYmtiGKtAsQlpXg.png?1645319198",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable Brilliant Directories' Default CSS' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280691/original/ZVdb3UXYFrz1yRvA9kamLnFlnIwPs8N0-g.png?1645319332",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable Brilliant Directories' Default CSS' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280697/original/tI3f0j6n_V8pe8je4NgGEiwQRmxMp60i-A.png?1645319400",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable Brilliant Directories' Default CSS' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076876",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076876"
+    }
+  ],
+  "lastmod": "2025-07-22T10:46:50+05:30",
+  "scraped_at": "2026-10-18T13:47:40.101846"
+}

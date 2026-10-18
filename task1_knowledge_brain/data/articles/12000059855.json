@@ -1,0 +1,87 @@
+{
+  "article_id": "12000059855",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059855-how-to-search-for-featured-members-in-the-database",
+  "title": "How To Search For Featured Members In The Database",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How To Search For Featured Members In The Database"
+  ],
+  "content": "## How To Search For Featured Members In The Database\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059855\n\nTo see the list of members who have been featured on the homepage via its Quick Edits:\n\nNavigate to Developers --> MySQL Database :\n\nClick on the database that ends with wording \" directory \":\n\nConduct a search for the table users_data and open it by clicking on it:\n\nClick on SQL :\n\nPaste the specified SQL code and click Go :\n\nThis is the SQL code needed to run:\n\n```\nSELECT * FROM `users_data` WHERE featured > 0;\n```\n\nWhich will display members that are featured on your site:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181110861/original/sK6G8RQTt7SM1n9S5wLWtRYncL-71kJsSg.png?1782513284",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Featured Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181110846/original/Y0J8iOyJlC72aEHUBr9HHnMimkDv77pxDw.png?1782513219",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Featured Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054310080/original/GZds3y0AO7IZwRLeisQsslBnliwYTDG0QQ.png?1564179707",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Featured Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054310121/original/ALns7iwPau4cAovJzHV03y5cDXGqb6ZF9w.png?1564179814",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Featured Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054310175/original/6cxtfFVz_8loZCJXtQXWS5oWhdQFzJqtIA.png?1564179939",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Featured Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054310216/original/uLoWMNZHWhufjokN43RtXGnExKxAIfCw3g.png?1564180039",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Featured Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054310263/original/U36cwbAAgne2F-AewaxRqO0rEcE9GzZ44A.png?1564180150",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Featured Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059855",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059855"
+    }
+  ],
+  "lastmod": "2026-06-27T04:06:29+05:30",
+  "scraped_at": "2026-10-18T13:45:18.517234"
+}

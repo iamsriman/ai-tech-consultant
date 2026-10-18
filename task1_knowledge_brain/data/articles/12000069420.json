@@ -1,0 +1,23 @@
+{
+  "article_id": "12000069420",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069420-04-10-20-software-updates",
+  "title": "04/10/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/10/20 - Software Updates"
+  ],
+  "content": "## 04/10/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069420\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We created a new widget called \"Bootstrap Theme - Display - Related Posts by Category\".  This widget can be placed in the sidebar of Post Details Pages in order to display other posts related to the one currently being viewed.\n\n- We fixed an issue which was preventing Admin Account passwords from being reset when a site's domain is not set up properly.\n\n- We added the \"Clear Formatting\" option to the Froala WYSIWYG in the Admin.\n\n- We added new classes to all HTML elements printed on the Overview Tab of Member Profile pages. This will help to apply different layouts and have better control over every element printed on the page.\n\n- We updated the title of Reviews to display a maximum of 50 characters in the Streaming Reviews homepage widget. Widget Involved Bootstrap Theme - Display - Recent Reviews\n\n- We updated the Member Category Sort Order field on the Member Categories page in the Admin to only accept numerical values.\n\n- We updated the Categories field in the Leads Form order to make it compatible with the \"Front-End Display\" Member Category setting. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We added the ability to move the ownership of Posts on the Manage Post page in the Admin.\n\n- We updated the Hero Section for Static Pages in order to add action button links. In order to use this new feature, navigate to the Admin >> Content >> Edit Web Pages >> Edit >> Hero Section settings. Widget Involved: Bootstrap Theme - Member Results\n\n- We added the ability to search by the \"Forms Submitted\" and \"Forms Not Submitted\" by a member on the Search Members page in the Admin.\n\n- We fixed an issue which was causing table head titles to not align with the correct columns on the Transaction History page in the Admin in some cases.\n\n- We fixed an issue which was affecting the ability to display the Google Search Assist Add-On on sites where access to the Add-On was grandfathered in rather than granted explicitly.\n\n- We updated the \"Restore Default Code\" feature on the Edit Post Settings page to use the term \"Post Type\" instead of \"Feature\".\n\n- We updated the View Post page in the Member Dashboard area in order to display the Bookmark Counter for each post. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Photo Albums datatable\n\n- We fixed an issue which was causing the system to display duplicate invoices without invoice line items on the Transaction History page in the Admin in some cases.\n\n- We updated the Lead Form submission logic in order to improve the back-end validation and add further protection against spam lead submissions. Widgets Involved: Bootstrap Theme - Function - Save Form\n\n- The Website Conflicts link in the Admin Header Menu is now fully compatible with the Admin Permission module.\n\n- We removed the \"1.\" number which was displaying on member signup pages when the One-Click Social Login Add-On is active and moved it to an existing  Text Label where can be easily edited. Widget Involved: Bootstrap Theme - Display - Email Action Create Paid Text Label Involved: register_new_account",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069420",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069420"
+    }
+  ],
+  "lastmod": "2020-04-14T00:58:16+05:30",
+  "scraped_at": "2026-10-18T13:46:24.991682"
+}

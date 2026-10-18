@@ -1,0 +1,86 @@
+{
+  "article_id": "12000087005",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087005-troubleshooting-listing-is-not-public-or-active",
+  "title": "Troubleshooting: Listing is not Public or Active",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Troubleshooting: Listing is not Public or Active"
+  ],
+  "content": "## Troubleshooting: Listing is not Public or Active\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087005\n\nIn this article, we will be going over the message that displays on member profiles in specific scenarios with the default wording \" Sorry, this Listing is not Public or Active \" and how to troubleshoot it:\n\nIf the message above displays on the member profile, this may be due to a couple of reasons:\n\n\n## 1) Member Is Not In Active Status\n\n\nThe first thing to check when this message is seen would be the member's status. Under My Members >> Search Members , the status of the member can be seen on its dedicated column:\n\nMember's status can be changed directly under Actions >> Quick Edit :\n\nTo active status:\n\n\n## 2) The Member Is In a Non-Searchable Membership Plan\n\n\nIt is important to check the Finance » Membership Plans - Search Visibility settings to see if the member is in a membership plan that is searchable:\n\nThere may be two different scenarios related to the settings above:\n\n- Like in the screenshot above, if the Are These Members Searchable on the Website? setting is set to \" No \", the member's profiles will not be visible and the error message will display.\n\n- If the Are These Members Searchable on the Website? setting is set to \" Yes \" but the Can Unregistered Visitors View These Members in Search Results? setting set to \" No \", the member profile will not be visible to the public but will be visible to other members. In this scenario, it is best to log in as a member that is allowed to see these membership plan members (more information about this can be found in the next step).\n\n\n## 3) Admin Is Logged In As A Member That Is Not Allowed To Search For This Member\n\n\nLet's assume the following scenario:\n\nThe admin of the site is logged in as a member that is in the Featured membership plan and trying to view the profile of a member that is in the Premium plan. In this scenario, it is best to check the Finance » Membership Plans - Search Visibility settings of the membership plan named Featured .\n\nTo make sure if the Premium plan is checked under Hidden Member Profile Settings :",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107842770/original/1FHVFFJ-JIGEJve1fUOwB3F2by4TYKTtTA.png?1650384682",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Listing is not Public or Active' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107842945/original/u9o2xk1ZNYL4MuhNwJmZQfRe98dR1SstaA.png?1650384928",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Listing is not Public or Active' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107843007/original/8ReBK7lPbq5nPAQD3PjdSLTt5K2UQwOAdA.png?1650384976",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Listing is not Public or Active' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107843040/original/lWqKavaEQoGgWxf56JA2_G1jpzYj779Ufw.png?1650385013",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Listing is not Public or Active' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107843361/original/6SLjjOdQ0SD9YjVpsysLchtm3XHL4bfUbQ.png?1650385327",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Listing is not Public or Active' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107844404/original/KH3sU9xdA3J7I2Tdvdj83n17CwIEs_5Evw.png?1650386445",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: Listing is not Public or Active' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087005",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087005"
+    },
+    {
+      "text": "Finance » Membership Plans - Search Visibility",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049274"
+    },
+    {
+      "text": "Finance » Membership Plans - Search Visibility",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049274"
+    }
+  ],
+  "lastmod": "2023-08-07T06:30:46+05:30",
+  "scraped_at": "2026-10-18T13:49:42.491300"
+}

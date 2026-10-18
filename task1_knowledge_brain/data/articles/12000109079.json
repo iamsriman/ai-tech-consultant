@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109079",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109079-cleanup-unused-pages-meta-dashboard-installer",
+  "title": "Cleanup Unused Pages Meta - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Cleanup Unused Pages Meta - Dashboard Installer"
+  ],
+  "content": "## Cleanup Unused Pages Meta - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109079\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Cleanup Unused Pages Meta Does\n\n\nThis installer is a database cleanup task. It removes leftover web page SEO records that are no longer attached to a real web page.\n\nSpecifically, it deletes every row from the users_meta table where the database column equals list_seo and the database_id column equals 0 . Those are SEO meta entries (page titles, meta descriptions, and similar settings) that were saved with a page ID of 0, meaning they point to no actual web page. Only these orphaned rows are removed; SEO settings tied to real pages are untouched.\n\n\n## Why It Appears\n\n\nBefore doing anything, the installer counts the users_meta rows matching database = 'list_seo' and database_id = 0 . If that count is greater than zero, the installer is offered. If there are none, it reports that everything is fine and does not appear.\n\n\n## Why It Matters\n\n\nThese orphaned rows serve no purpose. They are SEO settings with no page to apply to, so removing them keeps the users_meta table free of dead entries. Nothing on the live website depends on them, so clearing them has no visible effect.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has orphaned entries, Cleanup Unused Pages Meta appears in the list. Click Install .\n\n- After it completes, click Check For Updates again to confirm the entry is gone.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The unused list_seo rows with a page ID of 0 are deleted, and the real page SEO settings are preserved. Because the installer re-counts the orphaned rows every time it runs, it is safe to run again; if no matching rows remain, there is simply nothing to remove.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109079",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109079"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:23+05:30",
+  "scraped_at": "2026-10-18T13:59:30.750322"
+}

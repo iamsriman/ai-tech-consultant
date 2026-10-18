@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107908",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107908-03-13-2026-software-updates",
+  "title": "03/13/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/13/2026 - Software Updates"
+  ],
+  "content": "## 03/13/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107908\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a new UI for the Member Profile Analytics Add-On in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Listing Statistics\n\n- Fixed an issue that prevented the “Cancel” button from working properly in the warning modal displayed when uploading small member profile images in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- Fixed an issue that caused the system to duplicate the website signature when composing emails in the Admin in some cases.\n\n- F ixed an issue that prevented the system from correctly truncating review descriptions in the Recent Reviews sidebar widget in some cases. Widget Involved: Bootstrap Theme - Module - Recent Reviews\n\n- Fixed an issue that caused the system to send an email notification after publishing a post comment that requires Admin validation when a member had enabled email notifications for post comments. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- Fixed an issue that prevented the Member Profile Analytics Add-On from tracking member post views when the “Enable Profile Statistics” Membership Plan Setting was set to “Enable Only For Admin” . Widget Involved: Bootstrap Theme - Function - API\n\n- Fixed an issue that affected the ability to add “Brooklyn, NY” as a service area on the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- Fixed an issue that caused the system to display an extra \"Continue To Next Section\" button after a member successfully purchased a digital product in the frontend.\n\n- Added keyword search functionality when using the “Browse” feature to insert or replace images with the Froala WYSIWYG editor in the Admin.\n\n- Updated the error validation messages when uploading member profile, logo, cover, reviews and post images on the frontend. Widgets Involved: Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Account - Photo Albums Upload Form Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Footer - Scripts - Filestyle Scripts Bootstrap Theme - Reviews - Upload Images\n\n- The Send Newsletter page in the Admin is now compatible with the BD Butler.\n\n- Fixed an issue that prevented the “Actions” dropdown from displaying correctly on the Email Templates page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107908",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107908"
+    }
+  ],
+  "lastmod": "2026-03-15T03:56:26+05:30",
+  "scraped_at": "2026-10-18T13:57:22.991215"
+}

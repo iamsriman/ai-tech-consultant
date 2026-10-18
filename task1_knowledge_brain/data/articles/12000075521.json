@@ -1,0 +1,426 @@
+{
+  "article_id": "12000075521",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075521-community-comments",
+  "title": "Community Comments",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Community Comments"
+  ],
+  "content": "## Community Comments\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075521\n\n\n## This is a Free Add-On and Enabled on All Websites\n\n\n\n## Overview\n\n\nWith the Community Comments Add-On, enable comments on all of the Post Type detail pages by logged - in members.\n\nAdd native comment functionality to the website. Logged-in, active members will be able to leave comments on the website’s content and reply to other members’ comments.\n\nThis website add-on eliminates the need to use a third-party solution, such as Disqus, and provides a seamless user experience.\n\n\n## Enabling the Add-On\n\n\nGo to Interactions » Post Comments\n\nIn the next page click on \"Comment Settings\" :\n\nWithin Comment Settings, select \" Yes \" to enable the functionality:\n\nSelect the post types that will allow comments, keep in mind it's possible to filter by keyword:\n\nAdd the Default Title Text for Comments Section and the Maximum Character Limit of Each Comment (1000 characters is the maximum limit):\n\nAfter selecting the post types that allow comments,  a list of settings will appear to configure the functionality per post type, click on each tab to review them:\n\n\n## In-Depth Look at the Post Comment Settings\n\n\n\n### 1. Use an alternate title for this Comment Section\n\n\nThis option allows admins to use a different title per post type, instead of the default one. This is what the title will look like:\n\n\n### 2. Moderate Comments Before Being Published\n\n\nThese comments can be approved/declined in the backend Admin dashboard explained in the section below.\n\nText Label Variable: comments_pending_approval\n\n\n### 3. Display Comments Count In Search Results Pages Yes:\n\n\n\n### 4. Display \"Follow Comment\" button\n\n\nThis allows users to \" Follow Comments \", meaning, if a comment is left on the post, the user will receive a simple email notification linking to the new comment (similar to private chat emails notifications)\n\nThe last option \" CANCEL \" will allow the user to Turn Off notifications after they've already opted to follow the post in the first place.\n\n\n### 5. Display Comments Count on Post Details Page Yes - Above Post\n\n\nYes - Above Comment Section\n\nYes - Above Post and Comment Section\n\n\n### 6. Enable Star Rating with Initial Comment\n\n\nIf enabled, users can select a 1-5 star rating with their initial comment.\n\nFor a better explanation, please refer to Star Ratings For Posts\n\n\n### 7. Allow Users to Edit Their Comments\n\n\nWhen enabled the option to edit the comment submitted will be available.\n\nThe option to give a Max. Days to Edit the submitted comment is available as well.\n\n\n### 8. Allow Users to Delete Their Comments\n\n\nWhen enabled, the option to delete the comment submitted will be available.\n\nThe option to give a Max. Days to Delete the submitted comment is available as well.\n\n\n## Showing Member Badges on Post Comments\n\n\nIf the Member Badges Add-on is enabled on the website, the badges will display once a comment is submitted:\n\n\n## Filter Post Comments via Keyword Search\n\n\nEnter any word to filter comments by keyword.\n\n\n## Available Sort Order Options for Comments\n\n\nFilter by sort options: Oldest First, Newest First, or Most Replies.\n\n\n## Backend/Admin Functionality\n\n\nThere are several filter options available on the backend for comments.\n\n\n### Bulk Change Status\n\n\nBulk Change Status to Accepted, Pending, Declined, and Delete.\n\n\n### Post Type\n\n\nComments can be filtered by post type.\n\n\n### Filter Status\n\n\nComments can be filtered by status: Accepted, Pending, or Declined.\n\n\n### Overall Rating\n\n\nIf the AddOn Star Ratings For Posts is enabled on the website, the filter by overal rating will be available.\n\n\n### Member Name or ID\n\n\nComments can be filtered by name or ID.\n\n\n### Keyword or Post Title\n\n\nComments can be filtered by keyword or post title.\n\n\n## Individual Actions within each Comment\n\n\nIndividual actions can be taken for each submitted comment.\n\n\n### Actions Drop-down\n\n\nFrom here, the comment on the post can be viewed or deleted.\n\n\n### Member Information\n\n\nInformation about the member who submitted the comment can be accessed.\n\n\n### Individual Status Change\n\n\nIndividual comments can be changed by status: Accepted, Pending, or Declined.\n\n\n### Post Title Link\n\n\nAn option is available to click the link of the post where the comment was submitted.\n\n\"View All Comments\" An option is available to view all the comments submitted from the same post.\n\n\n### Edit the comment\n\n\nThe submitted comment can be edited.\n\nNOTE: Members must be active in order to be able to post a comment. If a not active member attempts to comment a post an error message will display letting them know their account must be active:\n\n\n## \"Follow\" Comments Notifications\n\n\nUsers will have 3 options to receive an email notification:\n\n\n### Any New Comments\n\n\n\n### Only Replies to My Comments\n\n\n\n### Cancel - Stop Following Comments\n\n\nHaving the \" Follow Post \" button will be the indication that any user wants to receive notifications when comments are left on a specific post.\n\nThe System Email that is sent out is found in:\n\n- Emails\n\n- Click on Email Templates\n\n- Search for post-comment-reply-notification\n\nMore information: How to Edit Email Templates",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175508352/original/4mwepHb3N3Vxsy3HdDqiR6PL8m-p3OMShg.png?1772639409",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175508412/original/Wq4kL5D2GmEfrB4Cxgr3e1Bkq1tnnZs00g.png?1772639460",
+      "alt": null,
+      "caption": "In the next page click on\"Comment Settings\":",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: In the next page click on\"Comment Settings\":",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131526798/original/u8tzQNUinaodY5pOqOmpmLK_M14JHtT1WQ.png?1695129174",
+      "alt": null,
+      "caption": "Within Comment Settings, select \"Yes\" to enable the functionality:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Within Comment Settings, select \"Yes\" to enable the functionality:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131527483/original/tMu3XpAchOjBW2U7Xq7RXqYpmmmz-uIRKw.png?1695129783",
+      "alt": null,
+      "caption": "Select the post types that will allow comments, keep in mind it's possible to filter by keyword:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Select the post types that will allow comments, keep in mind it's possible to filter by keyword:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131527660/original/FKM-YcLQN427JkXb9UTyFvCtGPL-FPvOFA.png?1695129960",
+      "alt": null,
+      "caption": "Add theDefault Title Text for Comments Sectionand theMaximum Character Limit of Each Comment(1000 characters is the maximum limit):",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Add theDefault Title Text for Comments Sectionand theMaximum Character Limit of Each Comment(1000 characters is the maximum limit):",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131528320/original/SiDEuvOE7Rlcd6m3Bd1UV6REOXVQIHS9jQ.png?1695130480",
+      "alt": null,
+      "caption": "After selecting the post types that allow comments,  a list of settings will appear to configure the functionality per post type, click on each tab to review them:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: After selecting the post types that allow comments,  a list of settings will appear to configure the functionality per post type, click on each tab to review them:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175508626/original/x2XqmFks9QTo0qz5DsVoYit-70TGfTrnyg.png?1772639621",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175746402/original/hbE1FMRC5N7KBP24TzpgenmsrpgD4J-nEQ.png?1773095397",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105392961/original/9Q5JdrMXclU69sKpJpezfsSQDBcs_0t6pg.png?1645500447",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105392372/original/oszhOQl1kGfWYMUjXCA1TMPt1chEldhQFg.png?1645498133",
+      "alt": null,
+      "caption": "These comments can be approved/declined in the backend Admin dashboard explained in the section below.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: These comments can be approved/declined in the backend Admin dashboard explained in the section below.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104084023/original/J5LqGYuiDsMcDEiO04FbuXayZ9gSBUajJQ.png?1643054633",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104084457/original/7vEHfW0GU10QNFBMlGqXIUQjBMdvDKX1Pw.png?1643055180",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144791222/original/ShsazqJZBs61QQGTwL8Fv2xxIxZjW87AMQ.png?1718296636",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144792076/original/4bWTlq203K1JsVZyvwgW5EzVu1TIawkvug.png?1718297167",
+      "alt": null,
+      "caption": "The last option \"CANCEL\" will allow the user to Turn Off notifications after they've already opted to follow the post in the first place.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: The last option \"CANCEL\" will allow the user to Turn Off notifications after they've already opted to follow the post in the first place.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105392436/original/u6Pg_-DbL7ZLUavbjOph4kqAfky-UTVcKw.png?1645498467",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105392401/original/fgH2TBk5RzMkD196ZIQXihpP3Ln1sn54Pw.png?1645498279",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105392415/original/BCk-9Ymc4M_sn6VfZK_sIstUfmTQwEaNrA.png?1645498368",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576040/original/176HkTST0DXckwj_ZGv2sAZNrOq9XJiGOA.png?1772732621",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576090/original/ZbB-60LyLU8YKZa0V3sbyUS437u_x1PqBg.png?1772732696",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105392513/original/3V_H6DJrjPRbw4mUtWdH_NIHSkTX2C0xHA.png?1645498748",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105392794/original/frZgZw6Ct-N99m9fFtLtCk0_4a1xZSwA9Q.gif?1645499862",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105392850/original/Pz4RLtqbXy5qIe4p_xjk-TtDL4ojtLbCFA.png?1645500029",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576318/original/MrTVbA-2KCAJhUi6hRQlnEvINLYak7afLg.png?1772732992",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576353/original/0_4PmTnT4v7N0JGztjWQa04vZk7mmPtIMQ.png?1772733033",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576493/original/XP0zYtB-ixXe90M4BCneXUOEEk0jXgDADg.png?1772733172",
+      "alt": null,
+      "caption": "Comments can be filtered by post type.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Comments can be filtered by post type.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576505/original/LHcd5Xwg7Qbpff_BEASCLcacnIM7Xf-1WA.png?1772733208",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576593/original/2qMU9EJ9g2pIxpHLqBRIqztURjaHgrIvaw.png?1772733285",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576657/original/44oi3_Y2xJ760zh62MrImBqMJB5yVl9l8g.png?1772733339",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576694/original/n-h6-OiKP70OS6aukgwWFS9dpbtTyVILUw.png?1772733411",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576725/original/G3qTyEltBwu9_ngMXu1n0ubswhZarXK2JQ.png?1772733451",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576762/original/dDMRPczk6-bobA4injsnI6eDvMtRlVxM7Q.png?1772733477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576797/original/M1wEYaNdiTrdOq-F3MMBhoDWourrA9snbA.png?1772733497",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084592363/original/If__vqhvaQ6DpVXGFdLo9_VRFAhhy002VA.png?1604607980",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084592367/original/75U8Yzy9YMOMSDzfUW5_kE31iPPBQqA6Qw.png?1604607985",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576828/original/7yrkh6y9sACMdTmWzYGp-vuUJFcve7YnjQ.png?1772733522",
+      "alt": null,
+      "caption": "An option is available to click the link of the post where the comment was submitted.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: An option is available to click the link of the post where the comment was submitted.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576838/original/0CLYQTGZIX30Hiw16Q6hgbBAZssrDca5ZA.png?1772733534",
+      "alt": null,
+      "caption": "\"View All Comments\"An option is available to view all the comments submitted from the same post.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: \"View All Comments\"An option is available to view all the comments submitted from the same post.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576861/original/VDo-zBDhtzHFEOZGO8sajenq-MTTlH4kRw.png?1772733584",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175576879/original/9h6NemO3ESnGVp8CFV5Izek38g2jb2pi9w.png?1772733615",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106666799/original/cFwrbnjy_P85lBrMl1h1OQg6MCiVJnI_CA.png?1647987201",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144792048/original/XqqjRKx2Aeza4bIVcebwy4M6vtJ27FmDQg.png?1718297136",
+      "alt": null,
+      "caption": "Context: Any New Comments",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: Any New Comments",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144792049/original/29cjyWcYkiVOmP84GMORtNh653nCsYhfCA.png?1718297143",
+      "alt": null,
+      "caption": "Context: Only Replies to My Comments",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: Only Replies to My Comments",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144792052/original/09i-h9VwYT67Meq-5Hx8mYauEI4uOyAFDQ.png?1718297149",
+      "alt": null,
+      "caption": "Context: Cancel - Stop Following Comments",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: Cancel - Stop Following Comments",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144792835/original/g5baXhFOE2ZUQxkTg0dNHcIeyZwXhV0xPg.png?1718297800",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Community Comments' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075521",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075521"
+    },
+    {
+      "text": "Star Ratings For Posts",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000091756"
+    },
+    {
+      "text": "Badges Add-on",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000055542-member-profile-badges"
+    },
+    {
+      "text": "Star Ratings For Posts",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000091756"
+    },
+    {
+      "text": "How to Edit Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000003538"
+    }
+  ],
+  "lastmod": "2026-03-10T04:47:45+05:30",
+  "scraped_at": "2026-10-18T13:47:19.387418"
+}

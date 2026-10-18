@@ -1,0 +1,296 @@
+{
+  "article_id": "12000050980",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050980-settings-general-settings-integrations-tab",
+  "title": "Settings » General Settings » Integrations Tab",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Settings » General Settings » Integrations Tab"
+  ],
+  "content": "## Settings » General Settings » Integrations Tab\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000050980\n\nThis article explains the Integrations Tab in the General Settings Tab and all the settings within this tab. This section of the admin area is used to set up different API keys and add-ons.\n\nImportant: A live domain needs to be connected before editing this section of the admin.\n\n\n### Notes\n\n\n- For new sites launched using a directoryup.com subdomain, test mode credentials for the ReCaptcha and Google Maps API are already active. Once the site is switched to a real domain, these test credentials will stop working, and new credentials will need to be configured. To learn more about this, please follow this link: directoryup.com Subdomain Test Credentials\n\n- There is an option to VIEW these settings, but in order to edit the settings, a domain must be connected. To learn how to set the domain live, please follow this link: How To Move The Site To A Live Domain\n\n\n### Visual Guide of the Integrations Tab\n\n\n\n## Integrations\n\n\nOnce the site is connected to a live domain, the following can be edited:\n\n\n## 1. Block Spam Keywords\n\n\nThis is a comma separated list of keywords to block form submissions on sign up pages and public forms. To learn more about this click here: Spam Form Protector Add-On TIP : Add keywords in \"quotes\" to target exact matches rather than any partial match (more specific targeting)\n\n\n## 2. Google Analytics\n\n\nGoogle Analytics ID\n\nEnter Google Analytics 4 ID. Format G-XXXXXXX. To learn more about Google Analytics, click here: Installing Google Analytics Tracking Code (easy method)\n\n\n## 3. Google Maps JavaScript API Key\n\n\nThis is the field where the Google Maps API Key should be added. To learn more about this click here: How to Enable Maps with Google Maps API\n\n\n## 4. Google ReCaptcha Site key\n\n\nThis is the field where the Google ReCaptcha Site Key should be added. To learn more about this, click here: How to Enable Form Security with Google reCaptcha\n\n\n## 5. Google ReCaptcha Secret Key\n\n\nThis is the field where the Google ReCaptcha Secret Key should be added.\n\n\n## 6. Google Developer Client ID (for social login add-on)\n\n\nThis is the field where the Google Developer Client ID (for social login) should be entered. To learn more this, click here: Google Login Add-On\n\n\n## 7. Enable Google Login?\n\n\nAllow members to login with their Google account. Allow members to sign up with their Google Account in the Product Settings\n\n\n## 8. Facebook App ID (for social login add-on)\n\n\nThis field is where the Facebook App ID (for social login) should be entered . To learn more about this, click here: Facebook Login Add-On\n\n\n## 9. Enable Facebook Login?\n\n\nAllow members to login with their Facebook account. Allow members to sign up with their Facebook Account in the Product Settings\n\n\n## 10. Facebook App Secret ID (for social login add-on callback delete)\n\n\nEnter Secret ID for Facebook App (for Social Login delete)\n\n\n## 11. Enable Private Chat Messages for Members?\n\n\nIf YES, this will also need to be activated to each specific membership plans. To learn more about this, click here: Private Member Chat\n\n\n## 12. Send Email Notifications to Members\n\n\nSend Email Notifications when Chat Messages are Sent\n\n\n## 13. Send Email Notification to Admin When Private Chat Reported?\n\n\nSend an email notification to the Admin of the site when a member flags / reports a private chat message.\n\n\n## 14. Select Transaction Types to Track\n\n\nThis setting will control when the affiliate tracking code will be triggered.\n\nThe options are:\n\n- Member Sign Ups\n\n- Member Upgrades\n\n- Member Lead Purchases\n\n- Digital Product Purchases\n\n- Pay-Per-Post Purchase\n\nTo learn more about this, click here: Affiliate Program Integrations\n\n\n## 15. PostAffiliatePro URL\n\n\nThis setting will include the PostAffiliatePro tracking code to successful signups. IMPORTANT: Do not include http or www.\n\n\n## 16. ChatGPT API Key\n\n\nEnter the ChatGPT API Key. Click here to learn more about ChatGPT",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177885635/original/nsltrMmbngG5sTfIBgmbbHcQrNa-w3n8LQ.png?1776884698",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176417832/original/Vl0iCmImgAVwUj6RbvOBpwgRqLKflKIiGQ.png?1774329567",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176417908/original/8zD3BUjDytYIMUbTxqO84ndvUBtwvMdFmA.png?1774329731",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176417953/original/DhizxsV_VQfRpNn9bcQdZMijRskNsKh-Ng.png?1774329938",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176418000/original/0dNKu4ksMCzAFEHB06XlHu71T7ma431W2Q.png?1774330097",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140065610/original/_rgg2z8Xtfs3FuQPrzL0_SzKViHSo61CZg.png?1710259210",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086351027/original/55jpgOUpwl8pqUNM4KeWAcA23vUOfG2Tlw.png?1608052553",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086351048/original/Ln9wo3L2sEExmFfdKQUXpSDbsV8UbkTyxQ.png?1608052583",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132168268/original/Uk-wFiEv7WOxwcIhit0w3JEqL7f--fXu7A.png?1696291083",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132168518/original/SHv7ECZ9fym1pKeuOZKseiCPEhe5jW4qMw.png?1696291551",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132168529/original/BFKPeeibXt-gdOYZ5LGDJLlDMQ_4VTNUUw.png?1696291672",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132170801/original/gabQS1fmWh4mgDC0o3JhRiuCFPVg3Scegw.png?1696294484",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132168643/original/c5sc-HIq0ftcaSowWWq3D4pKWEOqUh3zdw.png?1696291884",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132168651/original/jlpmBQZfKmul5Cb0qkMQF6O3sVTYFgPIKQ.png?1696291943",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132168925/original/b9t6HeTu1Rl64UXb6uUiq0qJIj8_E4oh1w.png?1696292232",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132169296/original/8AJnAfl0CZ6JDDBzNc_naWqprcsIhPUolw.png?1696292315",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132169896/original/H82Y59E1XLLGwn67gCxljaO9A5Ha4gZWZQ.png?1696292416",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176453817/original/p8kktwiG5jfDG77GZwAPL5ajFcYpl94Ztg.png?1774375345",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132170211/original/ugDKtRsWd6WABOC8E-GwI5ekhaOoHG16LQ.png?1696292742",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132170223/original/WDB4ucefCNd69r_vvIlhwozlhuRe5dnoEg.png?1696292803",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Integrations Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000050980",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050980"
+    },
+    {
+      "text": "directoryup.com Subdomain Test Credentials",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000106813"
+    },
+    {
+      "text": "How To Move The Site To A Live Domain",
+      "url": "https://support.brilliantdirectories.com/solution/articles/5000682661"
+    },
+    {
+      "text": "Spam Form Protector Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046616"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046616"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046616"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/anti-spam-form-protector-add-on"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682660"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682660"
+    },
+    {
+      "text": "Installing Google Analytics Tracking Code (easy method)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682660-installing-google-analytics-tracking-code-easy-method-"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019818"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019818"
+    },
+    {
+      "text": "How to Enable Maps with Google Maps API",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019818"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019817"
+    },
+    {
+      "text": "How to Enable Form Security with Google reCaptcha",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019817"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036962"
+    },
+    {
+      "text": "Google Login Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036962"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036273"
+    },
+    {
+      "text": "Facebook Login Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036273"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000055517"
+    },
+    {
+      "text": "Private Member Chat",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000055517"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/12000058112"
+    },
+    {
+      "text": "Affiliate Program Integrations",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000058112"
+    },
+    {
+      "text": "ChatGPT",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000094073"
+    }
+  ],
+  "lastmod": "2026-04-23T02:31:35+05:30",
+  "scraped_at": "2026-10-18T13:44:02.126370"
+}

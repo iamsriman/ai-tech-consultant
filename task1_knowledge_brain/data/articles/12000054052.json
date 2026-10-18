@@ -1,0 +1,23 @@
+{
+  "article_id": "12000054052",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054052-02-01-19-software-updates",
+  "title": "02/01/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/01/19 - Software Updates"
+  ],
+  "content": "## 02/01/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000054052\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- Now the title attribute for the \"Send a Message\", \"Write a Review\" and \"Show Phone Number\" buttons on Member Profile pages are now Text Labels. New text labels: view_phone_number, contact_label, write_a_review_for. Widget Involved: Bootstrap Theme - Member Profile - Header\n\n- We created a new Display Setting for the Edit Web Page section called  \"Hide Banner Ads\". This setting will help Admins hide banner ads on specific pages and SEO templates. In order to use this new feature navigates to Admin >> Content >> Edit Web Pages >> Edit >> Display Settings.\n\n- We improved the logic for the \"Hide Field Labels\" setting in the Leads Settings page in the Admin to not hide the labels for Checkbox and Radio fields as that will cause those fields to not display correctly.\n\n- We created two new Design Settings in order to control the layout of the Join Offer link and the About Website button on the homepage. In order to use this new feature navigates to Admin >> Settings >> Design Settings >> Homepage Layout >> About Website and Join Offer. Widget Involved: Bootstrap Theme - Display - About Website and Join Offer\n\n- We added the ability to choose a sort order for Top Level Categories when viewed in dropdowns on the site.  To use this, change the \"Front-End Display\" setting on the Member Categories page in the Admin Area. In order to use this new feature navigates to Admin >> Members >> Member Categories >> Top level Categories Tab.\n\n- We fixed an issue which was preventing the name of the Product from displaying in the \"Upgrade\" Email Template when it is sent. Email Template Involved: upgrade\n\n- We removed the additional Signup Button from displaying in the Recent and Featured Member widgets when viewing a site on a mobile device. Widgets Involved: Bootstrap Theme - Display - Homepage Featured Members Bootstrap Theme - Display - Recent Members\n\n- We added the ability to display custom widgets in the Member Dashboard area. With these new settings an Admin can now select custom widgets to display on the member's dashboard without editing a default widget. In order to use this new feature, navigate to Admin >> Finance >> Manage Products >> Edit >> Additional Settings tab. Widgets Involved: Bootstrap Theme - Account - Member Dashboard\n\n- We created a new Advanced Setting in order to choose which languages show up for the Google Translator Add-On. New Advanced Setting: translate_languages. Widgets Involved: Bootstrap Theme - Header - Member Links\n\n- We fixed an issue which was affecting the display of the Collect Payment modal on the Transaction History page in the Admin Area.\n\n- We updated the \"Google Map Search Results\" Add-On to include the additional posts on the map that are retrieved when the \"Load More\" button is clicked on search results pages using the \"Insta-Load Search Results\" Add-On. Widget Involved: Bootstrap Theme - Google Pins Locations\n\n- Now the Delete modal on the View Post page in the Member Dashboard Area is fully based on text labels. Widget Involved: Bootstrap Theme - Account - Feature Body datatable",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000054052",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054052"
+    }
+  ],
+  "lastmod": "2019-03-09T01:13:50+05:30",
+  "scraped_at": "2026-10-18T13:44:29.056699"
+}

@@ -1,0 +1,33 @@
+{
+  "article_id": "12000102910",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102910-code-to-require-location-before-search",
+  "title": "Code to Require Location Before Search",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Code to Require Location Before Search"
+  ],
+  "content": "## Code to Require Location Before Search\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102910\n\nThe code below will make the location field in search modules required when doing a search\n\n<script>\n// This script adds the 'required' attribute to all input fields with both classes 'googleSuggest' and 'googleLocation'\n$(document).ready(function() {\n   // Select all inputs with both classes 'googleSuggest' and 'googleLocation'\n   $('input.googleSuggest.googleLocation').attr('required', true);\n});\n</script> This code needs to be added to the Additional Footer Code in Design Settings:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154552470/original/fHA4kZUnL4YRjh-rhbfYUK2xnbzOeeAkVA.png?1735317871",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Code to Require Location Before Search' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102910",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102910"
+    }
+  ],
+  "lastmod": "2026-05-23T02:08:03+05:30",
+  "scraped_at": "2026-10-18T13:55:28.075482"
+}

@@ -1,0 +1,223 @@
+{
+  "article_id": "12000065790",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065790-dynamic-category-filtering",
+  "title": "Dynamic Category Filtering",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Dynamic Category Filtering"
+  ],
+  "content": "## Dynamic Category Filtering\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065790\n\n\n## Overview\n\n\nBy default, users can search for members by category, but they can only search within one category or subcategory at a time.\n\nThe Dynamic Category Filtering add-on allows users to search within multiple categories at once. This is ideal for websites that only have one main category with multiple sub-categories.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Dynamic Category Filtering\n```\n\n\n## Enabling the Add-On\n\n\nGo to Toolbox » Sidebar Manager.\n\nIn the Sidebar Manager select which sidebar to add the dynamic category filtering to, in this example we will proceed with the \" Member Search Result\" sidebar as this is the recommended sidebar to use for this add-on:\n\nSearch for the following keywords depending on whether the users will use the search for Categories or Categories + Location.\n\n\n### Dynamic Category Filters Dynamic Category + Location Filters\n\n\nThen click and drag over the widget add-on that will work best for the website:\n\n\n### Listings - Dynamic Category Filters\n\n\nSelect this widget inside the Post Settings for the \" Listings\" :\n\nInside the Listing settings, click on the Search Results Design tab:\n\nInside the dropdown select from any of the Dynamic Category search module widgets:\n\n\n## Dynamic Category Filtering on the Site\n\n\n\n### Dynamic Category Filter - Top Level Category (+ Location)\n\n\nA checkbox will appear next to the Top Category:\n\n\n### Dynamic Category Filter - Top + Sub Level Category (+ Location)\n\n\nThe Top Category (+) will need to be expanded -\n\nThe checkbox will appear next to the Sub Category :\n\n\n### Dynamic Category Filter - Top + Sub + Sub-Sub Level Category (+ Location)\n\n\nThe Top Category (-) and the Sub Category (+) will need to be expanded -\n\nThe checkbox will appear next to the Sub-sub Category :\n\n\n### Dynamic Category Filter - Sub + Sub-sub Level Category (+ Location)\n\n\nThe Sub Category (+) will need to be expanded -\n\nThe checkbox will appear next to the Sub Category :\n\n** This sidebar widget is recommend for sites that have the following workaround: Workaround: Members Selecting Multiple Top Level Categories **\n\n\n### Important Note\n\n\nVisiting the search results page for a specific Top Category on a site will only show the Sub and Sub-Sub categories related to that Top Category, same applies when visiting a Sub level category page, it will display the Sub-Sub level categories associated to the Sub.\n\nAdditional Information\n\n» Sidebar Manager Folder\n\n\n## Dynamic Category Filtering Settings\n\n\nThe add-on has various additional settings that help tailor the functionality to the site.\n\n\n### Broad Match\n\n\nThe Dynamic Category filtering can work in two modalities, one is the Broad Match and the other is a Strict Match.\n\nThis is controlled with an advanced setting called Dynamic Category Filter - Broad Match, when this setting is turned ON the results will return members listed in ANY of the selected categories. Set to OFF to only return members listed in ALL of the selected categories.\n\n\n### Accordions Open\n\n\nIf this is set to ON, it will load all the accordions on the dynamic category sidebar modules open\n\n\n### Only Show Categories Related to the Searched Category\n\n\nSystem Variable: dynamic_category_filter_show_categories_related\n\nWhen clicking on dynamic filters checkboxes, keep the top or sub category context from the URL so the dynamic filters in sidebar only show categories related to the page the category filter widget is being displayed on.\n\nWhat this setting does is that it will slim down the options available inside the sidebar search module to include only the corresponding Sub categories for each Top level category:\n\nThis setting will also slim down the options available inside the sidebar search module to include only the corresponding Sub-sub categories for each Sub level category:\n\nThis takes effect when a Top level category or Sub Category is specified in the URL of the search results page.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175179888/original/BXXWhehYpa01M6VWaxJVenog3aoEH6dRGA.png?1772040645",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096830443/original/0cGwpw7p90U9xl59FAg01nEvEwErFr52jA.png?1628869647",
+      "alt": null,
+      "caption": "Context: Dynamic Category FiltersDynamic Category + Location Filters",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: Dynamic Category FiltersDynamic Category + Location Filters",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124373998/original/fZP93nYUBXrf4Eqgn6SI9G_RrZojTV_vmQ.png?1682034372",
+      "alt": null,
+      "caption": "Context: Dynamic Category FiltersDynamic Category + Location Filters",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: Dynamic Category FiltersDynamic Category + Location Filters",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084123855/original/G6oNUVzZpJGOVMl-7boxKBKEVnMmhTX2yw.gif?1603725515",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175179990/original/MBOax-c0xLwd0qA4Gj1OMDKyrJ8WftBFBA.png?1772040713",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175180079/original/5MDQS7nGKTVg8M5poUhTQs34LHvw5FVSXw.png?1772040793",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124374596/original/8OVnxymnl5XI4QNRYTpP1ybPZroWJH5_nw.png?1682035431",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124418095/original/P-7PoDT0Dp3Ci8_gcN_9oBNpDe8U4MfnoQ.png?1682102729",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125007356/original/EJUwquaXtgbcXQfN0GFIpkoP_CdNQaEgRA.png?1683240518",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124418141/original/g9HRG-KYMeSP4dDVcXuRSa_HAJq7EXdDVQ.png?1682102791",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125007303/original/aUkr4Y5_NeXqOXMwvTwvGOkDCAtK-Cr0fg.png?1683240380",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124418220/original/uRSh_99pK1a7ZiBOOgffug5xCdCwCnM5zw.png?1682102921",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125007101/original/OtH2XetTwViJs8UyWQALt2rdxziZWc2nfw.png?1683240058",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124418309/original/Ze0dBhAM-ZSrVwbVc8Qp0Wb4RF7pTU0iIQ.png?1682103008",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124418308/original/JmAWUHThrcFBgJIE-8amMoBmdE5tzhpWkQ.png?1682103004",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175180153/original/Lm5ZMNX7tah3jJgu0jnrRLzKJXAS2Lo1-Q.png?1772040854",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175180194/original/QfwDRF2QViytmkROyqSBwAeTZmhCsX7ztg.png?1772040911",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175180276/original/IbomPJYZwDCPtD1Cj7h9N9_dOdkxvtif2Q.png?1772040969",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129893556/original/MPUHbjUpmDAUXOCTjrwGFlx_QzWy5FPsVQ.png?1692117357",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175181085/original/Wu2QIWvC9VERR_Xp5OJ1EVCXZO7FyiZL_w.png?1772041828",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Dynamic Category Filtering' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065790",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065790"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Dynamic Category Filtering",
+      "url": "https://www.brilliantdirectories.com/dynamic-category-filtering-add-on"
+    },
+    {
+      "text": "Workaround: Members Selecting Multiple Top Level Categories",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000057947"
+    },
+    {
+      "text": "» Sidebar Manager Folder",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/folders/12000005708"
+    }
+  ],
+  "lastmod": "2026-08-28T21:53:41+05:30",
+  "scraped_at": "2026-10-18T13:45:51.830590"
+}

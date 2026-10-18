@@ -1,0 +1,122 @@
+{
+  "article_id": "12000067996",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067996-auto-match-workflows-additional-notifications-settings",
+  "title": "Auto-Match Workflows » Additional Notifications Settings",
+  "category": "Add-On Documentation",
+  "folder": "Automatic Lead Matching",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Automatic Lead Matching",
+    "Auto-Match Workflows » Additional Notifications Settings"
+  ],
+  "content": "## Auto-Match Workflows » Additional Notifications Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000067996\n\nTo edit the general settings for \"Additional Notifications\" when using the Advanced Lead Matching package.\n\nGo to Interactions and find \" Leads\"\n\nClick on \" Auto-Match Workflows\"\n\nSelect \" Edit \"\n\nClick on \" Additional Notifications \"\n\nThere are four tabs in this section:\n\n- Admin\n\n- Visitor\n\n- Members\n\n- Third Party / SMS\n\n\n## Additional Notifications tabs\n\n\nThese sections give access to more specific and advanced settings.\n\n\n### Admin Notifications\n\n\nThese notification settings will apply to the Admin accounts.\n\n- Email Admin When Lead Submitted: Select \"Yes\" to send an email to the Admin email address(es) when a lead is submitted anywhere on the website.\n\n- Admin Lead Submitted Template: Select the email template to send to the Admin if \"Email Admin When Lead Submitted\" is set to \"Yes\" above.\n\n- Extra Admin Email Addresses: Enter a comma-separated list of email addresses that you would also like to receive Admin Notifications. Email addresses entered here will be copied on all Admin Notifications, including all emails where \"Copy Admin On This Email?\" has been set to \"Yes\".\n\n- Email Admin When Lead Declined By Member: Select \"Yes\" to send an email to the Admin when a lead is declined by a member.\n\n- Admin Lead Declined By Member Template : Select the email template to send to the admin when a lead has been declined if \"Email Admin When Lead Declined By Member\" is set to \"Yes\" above.\n\n- Email Admin When a Members Tries to Purchase a Lead: Select \"Yes\" to send an email to the Admin email address(es) when a lead is purchased anywhere on the website.\n\n- Admin Lead Purchase Attempt By Member Template: Select the email template to send to the admin when a member is attempting to purchase a lead.\n\n\n### Visitor Notifications\n\n\nThese notification settings will apply to the Vistors that submit a lead.\n\n- Email Visitor After Lead Submission : Select \"Yes\" to send an email to the visitor when they submit a lead.\n\n- Visitor Email Template: Select the email template to send to the visitor when they submit a lead if \"Email Visitor After Lead Submission\" is set to \"Yes\" above.\n\n- Copy Admin On This Email? : Send a copy of the Visitor Email Template to the Admin email address(es) when \"Email Visitor After Lead Submission\" is set to \"Yes\" above.\n\n- Visitor Email Variable : The variable name of the visitor's email address field in the lead form. If \"Email Visitor After Lead Submission\" is set to \"Yes\" above, the Visitor Email Template will be sent to the email address submitted in this field. The default value is \"lead_email\" and it is not recommended to change this for most websites.\n\n- Send Email to visitor when Members Accepts a Lead : If set to \"Yes\" when a member accepts a lead, an email will be sent to the visitor that submitted the lead.\n\n- Lead Accepted Visitor Email Template : Select the email template to send to the visitor when they submit a lead if \"Email Visitor After Lead Submission\" is set to \"Yes\" above.\n\n- Copy Admin on this Email? : Yes or No\n\n\n### Member Notifications\n\n\nThese notification settings will apply to the Member accounts.\n\n- Email Member After Accepting Lead : Select \"Yes\" to send an email to a member after they have accepted or purchased a lead. This email will typically contain the complete details of the lead, including the lead's contact information.\n\n- Member Email Template After Accepting Lead: Select the email template to send to the member if \"Email Member After Accepting Lead\" is set to \"Yes\" above.\n\n- Copy Admin On This Email? : Send a copy of the \"Member Email Template After Accepting Lead\" to the Admin email address(es) when it is sent to a member.\n\n- Email Member After Trying To Accept A Sold Out Lead : Select \"Yes\" to send an email to a member if they have accepted a lead that has already \"sold out\" (the \"Maximum Acceptances\" has already been reached for this lead).\n\n- Member Email Template When Lead Has Been Sold Out: Select the email template to send to the member if \"Email Member After Trying To Accept A Sold Out Lead\" is set to \"Yes\" above.\n\n- Copy Admin On This Email? : Send a copy of the \"Member Email Template When Lead Has Been Sold Out\" to the Admin email address(es) when it is sent to a member.\n\n\n### Third Party / SMS Notifications\n\n\nThese notification settings will apply for Third Party & SMS N.\n\n- Email 3rd Parties When Lead Submitted: Select \"Yes\" to send an email to 3rd parties when a lead is submitted anywhere on your site.\n\n- 3rd Party Lead Submitted Template: Select the email template to send to the 3rd parties if \"Email 3rd Parties When Lead Submitted\" is set to \"Yes\" above.\n\n- 3rd Party Email Addresses : Enter a comma-separated list of email addresses that you would like to send the \"3rd Party Lead Submitted Template\" to when a lead is submitted. This setting can also be used with any custom \"Email Address\" fields in the Website - Lead Form - Get Matched : Take the unique database variable and add it to the setting enclosed in 3 percentage signs (%%%): The system will read any emails added to the custom Email Address field and send out a copy of the \"3rd Party Lead Submitted Template\" when a lead is submitted. >> Understanding Variables\n\n- Copy Admin On This Email? : Send a copy of the \"3rd Party Lead Submitted Template\" to the Admin email address(es) when the \"3rd Party Lead Submitted Template\" is sent.\n\n- 3rd Party Lead Matched Notifications (SMS): Select \"Yes\" to send an email to 3rd parties when a lead is matched to a member. A separate email will be sent for each individual member that a lead is matched to.\n\n- 3rd Party Lead Matched Template (SMS) : Select the email template to send to the 3rd parties if \"3rd Party Lead Matched Notifications\" is set to \"Yes\" above.\n\n- 3rd Party Email Addresses (SMS) : Enter a comma-separated list of email addresses that you would like to send the 3rd Party Lead Matched Template to when a lead is matched to a member. (Works the same as the explanation on #3)\n\n- Copy Admin On This Email (SMS) : Send a copy of the \"3rd Party Lead Matched Template\" to the Admin email address(es) when the \"3rd Party Lead Matched Template\" is sent.\n\n\n### Send SMS Notifications\n\n\nMore information on sending members SMS Lead notifications: How To Send SMS Notifications To Members When They Receive a Lead",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12151797372/original/n9sWCBKwu3TEFrCNaACyYP7I5klrdIBz8Q.png?1730310685",
+      "alt": null,
+      "caption": "Click on \"Auto-Match Workflows\"",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'. Context: Click on \"Auto-Match Workflows\"",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12151797384/original/vUJDn2uVAe8-KKZ3rhUT8HCcUYIboOfT-Q.png?1730310698",
+      "alt": null,
+      "caption": "Select \"Edit\"",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'. Context: Select \"Edit\"",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12151797386/original/HkM_jzl6pWl0eaE5777fCqWDUTM-vkYoeg.png?1730310703",
+      "alt": null,
+      "caption": "Click on \"Additional Notifications\"",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'. Context: Click on \"Additional Notifications\"",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137368536/original/3qH3whGzF2vVXdB03TPlAkCpOm9rkzs2ng.jpeg?1705525164",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137368545/original/Jx56jK3R_0jyFeOQHJsrZs9lNgJsfkd6gA.jpeg?1705525173",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137368548/original/0roCeIEOgv90bz8nvgSanFSLwE10yhr_Hg.jpeg?1705525183",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137368555/original/tJJYUzaDGjXJb4CrF_e8jQFAKbwKZEHYHw.jpeg?1705525192",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137383078/original/tgpUNStitgnC-nfM5kbxchPtRYbKubYUVQ.jpeg?1705554965",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12139299573/original/9EZSu0hlwFQahAIkR4hGV_oc0xMbk-zTIQ.png?1708980360",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12139297131/original/e-3mq4pXZbfu07N452kkmaD9z0l9qDslVg.png?1708978338",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Auto-Match Workflows » Additional Notifications Settings' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000067996",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067996"
+    },
+    {
+      "text": "Understanding Variables",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000022881"
+    },
+    {
+      "text": "How To Send SMS Notifications To Members When They Receive a Lead",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000040224"
+    }
+  ],
+  "lastmod": "2025-06-01T08:45:25+05:30",
+  "scraped_at": "2026-10-18T13:46:12.010074"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000100474",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100474-06-21-2024-software-update",
+  "title": "06/21/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/21/2024 - Software Update"
+  ],
+  "content": "## 06/21/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100474\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- Webhook activity is now being logged in the Activity Tracker.\n\n- We fixed an issue that was causing member CSV imports to get stuck when the Billing Module was not correctly installed on a site in some cases.\n\n- We made several small bug fixes and improvements to the In-App Purchase process for the Import Business Data tool in the Admin.\n\n- The Stock Photo Library Add-On is now compatible with Text Labels. Widgets Involved: Bootstrap Theme - Account - Feature Single Photo Upload Form - Froala Editor Javascript\n\n- We fixed an issue that was preventing member search results pages from returning accurate results when performing location searches in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was affecting the ability to assign Member Tags to members using the bulk action on the Search Members page in the Admin.\n\n- We fixed an issue that was preventing the \"Paid Plan Signup\" Webhooks from triggering as expected on the frontend of sites in some cases.\n\n- We updated the default robots.txt file to remove the facebookexternalhit directive.  Facebook has been aggressively crawling sites that have this bot allowed in the robots.txt file, causing the bandwidth of sites to be consumed much faster than expected and affecting the performance of the servers the sites are hosted on.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100474",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100474"
+    }
+  ],
+  "lastmod": "2024-06-24T22:27:18+05:30",
+  "scraped_at": "2026-10-18T13:54:25.318266"
+}

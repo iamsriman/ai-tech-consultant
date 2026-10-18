@@ -1,0 +1,27 @@
+{
+  "article_id": "12000004676",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004676-how-to-edit-keyword-search-autosuggest-settings-for-member-searches-",
+  "title": "How To Edit Keyword Search Autosuggest Settings For Member Searches",
+  "category": "Add-On Documentation",
+  "folder": "Predictive Keyword Search",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Predictive Keyword Search",
+    "How To Edit Keyword Search Autosuggest Settings For Member Searches"
+  ],
+  "content": "## How To Edit Keyword Search Autosuggest Settings For Member Searches\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000004676\n\nThe auto-suggest allows the admin to fully control which information is displayed in the in the keyword auto-suggest.\n\nTo learn how to set the auto-suggest up for the website, please click here .\n\nWhat Should the Admin Know About The Auto-Suggest:\n\nMaximum Autosuggest Limit\n\n- This setting controls how many items display in the autosuggest\n\n- \"Headers\" count towards the autosuggest limit\n\n- Often times categories will not show in the auto suggest because the limit has been reached\n\nShowing Categories In The Auto-Suggest\n\n- The auto-suggest will show available categories as long as it matches up with a category letter per letter. This means if a visitor types \"die\" and there are category called \"dietitian\", and another called \"ladies\", the auto-suggest will show both possible categories since \"die\" is possible in both. The moment the visitor types in \"diet\" they'll see \"ladies\" disappear from the auto-suggest.\n\n- The auto-suggest will organize the categories alphabetically. It does not take into account whether or not the first letters are an exact match. In the example above, \"dietitian\" will appear above \"ladies\" only because \"dietitian\" starts with a \"d\" and \"ladies\" starts with an \"l\".\n\n- Adding extra spaces will not impact which categories are shown UNLESS someone types in an additional character that does not make it an exact match.\n\n- The auto-suggest does not try to calculate what the user \"must-have\" been looking for.\n\nShowing Companies  & Individuals in the Auto-Suggest\n\nA person's first name or last name will appear in the auto-suggest ONLY if they have selected to be listed as an \"individual\" The company name will show in the auto-suggest regardless of members listing themselves as an \"individual\" or \"company\" Exact matches are not required to show results. As long as the words entered in the keyword search have a word that is included somewhere in the company name, that business will show in the search results. Showing Feature Posts (coupons, classifieds, properties, etc)\n\n- The auto-suggest can be programmed to show feature posts as well, however this will only display individual feature posts. This member search can't be used to perform robust searches for features. It can however, show individual feature posts that meet the search criteria. This means that if I type in \"beauty\" and a coupon has the title \"Beauty Salon 25% Discount\", that particular coupon will appear in the auto-suggest.\n\n- Clicking on a feature post in the member search auto-suggest can only take the visitor to that specific post.\n\n- It is not possible to search via feature categories. If this is what the admin is trying to accomplish, we suggest using a search module that is specific to the feature the admin wish to search.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000004676",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004676"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/5000657865"
+    }
+  ],
+  "lastmod": "2021-03-10T07:42:27+05:30",
+  "scraped_at": "2026-10-18T13:39:49.318898"
+}

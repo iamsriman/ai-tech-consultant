@@ -1,0 +1,82 @@
+{
+  "article_id": "12000016280",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000016280-how-to-reset-to-default-post-types-code",
+  "title": "How to Reset to Default Post Types Code",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How to Reset to Default Post Types Code"
+  ],
+  "content": "## How to Reset to Default Post Types Code\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000016280\n\nSometimes a change is applied and it needs to be reverted, or simply  the admin/collaborator wants to apply the most recent default layout for a Member Post Type on the website. To override the current code used in a Member Post Type with the most recent default version of that code, please follow the instructions below. 1. Navigate to My Content »  Edit Post Settings in the Admin area of the website. Click on \"Edit\" for the Member Post Type that needs to be restored: 2. Click on the tab that corresponds to the layout that needs to be edited (only one layout can be restored at a time - the entire post type can be restored to default by restoring each individual tab to default) : 3. Move to the tab where the code needs to be edited: Profile Page Design, Search Results or Page Detail and click on the View/Edit Code button. 4. Select the Member Post Type that needs to be restored. In this example,  the \"Discussions\" Post Type will be edited, so it's necessary to  select \"Discussions\" to restore this Post Type: 5. Click on the \"Restore Default Code\" button. 6. Click on I understand, Continue\" to proceed. Once confirmed, all code in the \"Page Header\", \"Page Loop\", and \"Page Footer\" fields (if editing the Profile Page Design or the Search Results Design tabs) or \"Page Layout\" field (if editing the Detail Page Design tab) will be replaced with the latest default code available for the feature. 7. Click on \"Save Changes\" to apply the new code. IMPORTANT NOTE: Following the steps above will replace all of the code above with the most recent default code, and any customizations to the code will be lost. Once this change has been saved, they cannot be reverted. To learn How to Customize the Default Post Types Code click on this article: How to Customize the Default Post Types Code",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127318875/original/UezfDAL4I3yj2PL31ZztA7-vMNzqqxjj1Q.png?1687449739",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Reset to Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094087041/original/4dXNJO_iRaaefeDMgmsrptqJv42dfZv_tg.png?1623755212",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Reset to Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129521206/original/QrIlqrqAH5qI_mGv0Bm-PqzKPxQLowkymg.png?1691452598",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Reset to Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094087396/original/n6726e1O4k_-sk7mD2_7EhKKYJQ-7B6ccQ.png?1623755621",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Reset to Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127610288/original/xFgUgtz7nqaXW2pFEEdTyisnFTBBL8c9aA.png?1687985425",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Reset to Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127610175/original/1n8gUuhLEiDGm8PwWsy-B2O0V-DQ5aianw.jpg?1687985319",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Reset to Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000016280",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000016280"
+    },
+    {
+      "text": "How to Customize the Default Post Types Code",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000080220"
+    }
+  ],
+  "lastmod": "2023-08-08T05:27:03+05:30",
+  "scraped_at": "2026-10-18T13:40:29.031988"
+}

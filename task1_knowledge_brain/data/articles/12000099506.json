@@ -1,0 +1,23 @@
+{
+  "article_id": "12000099506",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099506-04-19-2024-software-updates",
+  "title": "04/19/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/19/2024 - Software Updates"
+  ],
+  "content": "## 04/19/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099506\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented a security update to Upload File System to prevent malicious files being uploaded through widgets.\n\n- We fixed an issue which was affecting the ability to use the South Africa Clickable Map when the \"Front-End Optimization: Only Load Google Maps when Requested by User\" setting was active. Widget Involved: Bootstrap Theme - Homepage Search - Clickable South Africa Map\n\n- We fixed an issue which was preventing the image caption feature in the Private Member Chat Froala WYSIWYG from working properly. We also fixed an issue which was preventing the \"Reported\" tag from displaying properly in the Private Member Chat module in the Member Dashboard.\n\n- We fixed an issue which was preventing the Google Maps Integration from respecting the \"Location Search Suggestions\" General Setting when pasting data in the Google Maps location fields. Widgets Involved: Bootstrap - Contact Member Lead Map Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Account - Select Locations Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue which was preventing the Stock Image Libraries Checkbox setting in the Member Quick Edit form from working properly when the legacy free_stock_images setting was active in some cases.\n\n- We fixed an issue which was preventing the system from returning accurate results on Post Search Results pages after trying to perform a keyword search that included special characters in some cases. Widget Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We fixed an issue which was preventing the system from loading the Text Labels on the frontend in some cases after using the \"Show Text Labels\" when visiting the website as an Admin.\n\n- We fixed an issue that was preventing an Admin from updating the name of an Email Template in the Admin in some cases.\n\n- We updated the dropdown that displays for members in the \"Suggested Matches\" column when matching a lead to add the options \"Match as Pending\" and \"Match as Accepted\".\n\n- We fixed an issue which was preventing the Preview feature from working properly on the Media Manager page after loading more files using the \"Load More\" or \"Load All\" buttons in some cases.\n\n- The system will now show a lead matched to a member as \"Sold Out\" right away when the member visits the Manage Leads page in the Member Dashboard and the lead has already been accepted the maximum number of times as set in the \"Maximum Accepted Matches\" Leads Setting . Widget Involved: Bootstrap Theme - Account - Leads - New Lead System DataTables\n\n- We updated the Google Sitemap Generator Add-On to include Post Search Results page URLs that have been created as custom Web Pages.  These URLs will appear Static Pages Sitemap file when the system updates the website's sitemap.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099506",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099506"
+    }
+  ],
+  "lastmod": "2024-04-22T23:05:00+05:30",
+  "scraped_at": "2026-10-18T13:53:52.338261"
+}

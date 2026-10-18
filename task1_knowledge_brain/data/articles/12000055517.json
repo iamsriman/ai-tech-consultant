@@ -1,0 +1,367 @@
+{
+  "article_id": "12000055517",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055517-private-member-chat",
+  "title": "Private Member Chat",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Private Member Chat"
+  ],
+  "content": "## Private Member Chat\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000055517\n\nPrivate Member Chat allows members to chat back and forth through the website. Keep members coming back to the site when replying to their chat messages.\n\nBy default, members receive an email notification when they get a message. With this add-on they can respond back to messages directly from within their member dashboard area.\n\nIMPORTANT: Private Member Chat is exclusively for member-to-member communication. Unregistered users will be prompted to log in or create an account to access this feature.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Private Member Chat Add-On\n```\n\n\n## Enabling the Add-On\n\n\nGo to Settings - General Settings:\n\nClick on Integrations Tab:\n\nScroll down until the option to Enable Private Chat Messages for Members appears and select Yes .\n\n\n### Private Chat Email Notifications and Templates\n\n\nThe notifications to the user can be turned on or off here:\n\n- Only send notifications to the message receiver. (all messages)\n\n- Only send notifications to the message sender. (first message only)\n\n- Send all notifications to the message receiver and sender (selected by default).\n\n- No email notifications sent.\n\nSelect if the admin should receive a email notification by checking the box at the bottom.\n\nThe notification email templates are:\n\n- conversation-reply\n\n- start-conversation-general-user\n\n- start-conversation-member\n\n>> How to Edit Email Templates\n\nThere is an Email Template variable that can be used in these private member chat notification emails to pass the content that was submitted in the chat:\n\n%%%chat_message_content%%%\n\nOther email variables that are specific to the private chat messages are:\n\n%%%sender_company%%%\n\n%%%sender_first_name%%%\n\n%%%sender_full_name%%%\n\nThese will print the sender's information by their company name, the fist name or full name accordingly.\n\nChoose if the admin should be notified via email when a chat message gets reported.\n\nThe notification email template is:\n\n- conversation-flag-notification\n\n\n## Private Member Chat Membership Settings\n\n\nNow that this has been activated for the site, determine which membership levels will have access to this add-on.\n\nGo to Finance - Membership Plans, select the Membership Plan that will be granted this add-on to and click Edit:\n\nClick the Profile Page tab and scroll down to the Page Display Settings section. Then enable Receive Chat Messages, Send Chat Messages, or both , depending on whether members on this plan should be able to receive, send, or fully participate in private chats.\n\n\n## Sending Private Chats\n\n\nWhen the Private Chat is enabled all of the \"Send Message buttons to contact the member will replace the Contact Form for the Private Chat. This means that if a user who's not logged in tries to contact the member they will be redirected to a login screen :\n\nThis will also be the case for the Contact Member button in the member posts. The user won't be allowed to contact the member unless they have an account and are logged in. In the post pages a modal will appear prompting the user to log in or create an account:\n\nHowever, the general get-matched form will still be available in the default Member Profile Pag e sidebar for non-members:\n\nIf a member is logged in but is not active they won't have access to the private chat and will get this message:\n\nIf a member is logged in and his account is active and he searches for another member's profile, he can now send him a direct message:\n\nAs shown below, the regular contact form won't appear, instead, this other message field will appear:\n\n\n## Spam Submission\n\n\nIf a word identified as spam is submitted, the message will be blocked based on the Spam Form Protector Add-On . To enabled this, the Advanced Setting \"Enable Spam Detection For Chat Messages\" has to be turned On\n\nOnce the message is sent, it will redirect to the thread of the messages where the full conversation can be seen:\n\nAnd the member that received the message will get a notification:\n\nMembers will have the option to upload images to the chat reply:\n\nThe members can easily click to the Send Message button and get taken to the Send Message text area field.\n\n\n## Report Private Chats\n\n\nThe members will have the ability to report any messages to the admin, this way if they are being harassed, it is possible to block the member for them.\n\nAfter a message is reported, the member will get this success message:\n\nThe message will then appear as \" REPORTED \":\n\nOnce the message gets reported, the admin will get sent an email notification that uses this email t emplate : conversation-flag-notification.\n\n\n## Private Member Chat Advanced Settings\n\n\nAdditional options that can be found in the advanced settings section that expand the functionality for the Private Chats add-on:\n\n\n### Stock Images for Private Member Chat add-on\n\n\nTo also enable/disable the option for users to select images from Stock Image Library go to the Advanced Settings and look for the Froala Enable Stock Photo Library > Froala Text Editor - Private Member Chat Messages:\n\n\n### Froala Upload File for Private Chats\n\n\nTurning ON the Advanced Setting Froala Upload File for Chat will allow for members to upload PDF files directly in the chat.\n\n\n## Text Labels for Private Chats\n\n\nThe Private Chats add-on uses two text labels:\n\n- chat_with_label\n\n- chat_with_label_append\n\nNOTE: These labels will be used for all private chats.\n\n\n## Admin Dashboard\n\n\nThe admin will be able to review all Direct Chats within the admin area, this is located in the Interactions >> Private Chats:\n\nThe admin can quickly run a keyword search and filter chats by status: Active, Archived, or Reported .\n\nChoose where the keyword search is performed by filtering results based on Member Name , Member ID# , Chat ID# , or the chat content .\n\nThe admin will be also able to read the thread that was reported, clicking on the \" Read Thread \" button:\n\nIf a message has been REPORTED by one of the members, this will be reflected under the Status :\n\nThe admin can then take the appropriate action, whether that is deleting the thread, contacting the flagged member or reopening the thread if the message is not considered inappropriate by changing the Status of the chat:\n\n- Active\n\n- Archived\n\n- Reported\n\nThe ability to delete chats individually:\n\nOr in bulk:\n\nAll of the information for the members involved in the conversation is available:\n\nNOTE : If both of the members from the private chat conversation are deleted, their chat history will no longer be available.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182700885/original/AhiWYQrel7AaqwgxSnFKids5lrqy7d9UoA.png?1785181513",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182700919/original/ZUq73d7chiMGY5HjTuOEsfjW1KYPrpzSQQ.png?1785181568",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113785533/original/o1vtj8ookkFI0SSywnSLdlAYP4IxTlNntA.png?1661888613",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182876220/original/D6PDULZfQVFAneBHu7mSYPIyi6rmwFQBCg.png?1785426840",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701020/original/vAmNp5YoutyTuB8hYuJ-1XZI_fduBy1EEg.png?1785181670",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182702499/original/zV4SMywtWGDaftDOIrfNQJNiUtRvojCQvQ.png?1785182839",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146508304/original/oU8LyufTE4C_Dc6P5gN3p9NAaJ2WbwOGOg.gif?1721246676",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146508375/original/PeruHiDDxjd6ca5Qo4VNN0V3HH_saJcUnQ.gif?1721246727",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146508499/original/5PuCUCzeRG3hqVgiwVxPD013e8qLt3xtIg.png?1721246834",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096929151/original/Fd2F_JID0610Bz0Kfut0lrMCv_HBICl0Cw.png?1629147321",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090912714/original/cBNmyAv2V_ElsWtzHO7oWxkHK2OhBIRshQ.png?1617659722",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090912745/original/Z5tLgSwDBPKbcDTDBFkwpEe28j69LD8GSQ.png?1617659779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175446365/original/u1PBe3x0Ks-AZEh_vSpJ-Zom3RwLtTj_fA.png?1772555458",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117302681/original/UYNf0zK-h63mOFYjILGCXLgRgJPwe3lXJA.png?1668535272",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117302741/original/NRLsZi85mWXZYU-vUGB4slCDSdrEE_q2ig.png?1668535354",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117302791/original/GzRN6aBt10hMSUcMIV3mffwC8Gx8e7WiQA.png?1668535440",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117302931/original/c8APskrbmCJxAx8r8WyLET23w2XHT7yUGA.png?1668535563",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115475756/original/83PBFEWwoBorW7d7OjP2rXhgHlzs2uzrng.png?1664907694",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115475792/original/_F-36DKcrzPd8Vd8vMhXcdW4ylm5g730ng.png?1664907722",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115475808/original/uZoUAc4q97N-qY8_PmrxrOx8eXPjnWdqwg.png?1664907779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115475994/original/3eNtLYvzssJZttk5vlusc_MJga7pXH6rPg.png?1664908078",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107846601/original/TRUtOGoWR8No1C8cxulhIIttzpP0yEIDAg.png?1650389012",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701227/original/a0Aefs5I_ffhQKsBsl352VTBdWJzXTeADg.png?1785181897",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138995449/original/1XJ8JHYGDzkQAFzYIN1E8Ptyuzh0Y2utOQ.png?1708447198",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701383/original/1y-7mMEI7I-QQk3R17O_XSngSnXiUX87wQ.png?1785182022",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117302855/original/8qXl4DhhNjQtkbrGVi66WcldrFhFS07p6Q.png?1668535503",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154269162/original/eGKKVbR2D1XS7OgqTp-9A9hvqMUIJmepzw.png?1734621852",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701396/original/r5c0X_aYTK1Y2eEGxbn3Etgspjs9FG89DA.png?1785182066",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701543/original/_t-E8_IawFU8Nu6jmatCagJKbKBn3Ne7Kg.png?1785182193",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701766/original/V4sFCFgUxESq0-RNaqi-Nq0lgSoVP0ZQeA.png?1785182338",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701503/original/U1D2rW2nDWcCBmm_pety-9cYR9JTJjgGHQ.png?1785182134",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701901/original/jb3Bex2OJNVsakiHrS8YwHD8v2OBLkVPCg.png?1785182431",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182701987/original/vNdCVY0NUKq7flNyN3OBITHGpiiYppwNQQ.png?1785182471",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127192743/original/AZZOTjZjBLcWLJBCW4KDEWWUp8cl1jLoyQ.png?1687273685",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182702095/original/c89U5M4FjZH36PcMn6gkqnpQeXszn2W1tQ.png?1785182525",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182702137/original/rJgzNLIwV87C3EVDbzUp5BEKdOxP2urtIw.png?1785182564",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Private Member Chat' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000055517",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055517"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Private Member Chat Add-On",
+      "url": "https://www.brilliantdirectories.com/private-member-chat-add-on"
+    },
+    {
+      "text": "How to Edit Email Templates",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000003538"
+    },
+    {
+      "text": "Spam Form Protector Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000046616"
+    }
+  ],
+  "lastmod": "2026-08-28T22:08:09+05:30",
+  "scraped_at": "2026-10-18T13:44:37.055548"
+}

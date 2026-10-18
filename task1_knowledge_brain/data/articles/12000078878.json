@@ -1,0 +1,223 @@
+{
+  "article_id": "12000078878",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078878-how-to-create-testimonials-page",
+  "title": "How To Create Testimonials Page",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How To Create Testimonials Page"
+  ],
+  "content": "## How To Create Testimonials Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078878\n\nIt is possible to create a testimonials page within the Brilliant Directories software by repurposing existing functionality. The simplest starting point is cloning the existing Contact Us form, since it already contains the basic fields and submission settings a testimonial form needs.\n\n\n## 1) Cloning the Contact Us Form to Create a Testimonial Form\n\n\nNavigate to Toolbox >> Form Manager and locate the Contact Us form in the list.\n\nClick the Clone option for the Contact Us form. This creates a copy of the form, including its fields and settings, without affecting the original Contact Us form.\n\nRename the cloned form to something descriptive, such as \"Testimonial Form.\" The clone receives its own system variable/shortcode, so it can be edited freely without interfering with the live Contact Us form.\n\nThe cloned form comes with the Contact Us fields already in place. For this example, we re-named some of the form fields and removed the unnecessary ones:\n\nOnce ready, the next step would be editing the form settings by clicking on Edit Form Settings button:\n\nUnder the Submission Settings tab, the site owner can choose the action after the form is submitted, for this example, we choose to display a unique pop-up message that will be displayed after the form is submitted:\n\n\n## 2) Calling the Testimonial Form on a Webpage\n\n\nNow that the Testimonial Form is ready, copy its shortcode by clicking Copy to Clipboard so it can be called on a web page:\n\nThe next step would be navigating to My Content >> Web Page Builder >> New Web Page :\n\nThe minimum requirement to create this page is pasting the copied shortcode into the page's Froala Editor section and specifying a unique URL. There are many design options that can be implemented, like adding a hero image, but for this example, we kept it simple:\n\nAfter clicking on Save Changes , the site owner can view the live page via the View Page button:\n\nOur form is displaying as it should:\n\n\n## 3) User Experience\n\n\nOnce the page is ready, this form can be utilized by the members or website visitors on the fly. Submitting the form will display a success message if it has been set up:\n\n\n## 4) Where To Find The Submitted Testimonials\n\n\nAs we specified which table this form will be saved at the database at the end of step #2, this submission can be found under Emails >> Forms Inbox and can be sorted through using the Filter By Form:\n\nClicking on View Full Inquiry will display the full message for future usage:\n\n\n## 5) Where To Display The Submitted Testimonials\n\n\nThe submitted testimonial can be displayed on a new web page. To accomplish this, navigate to My Content >> Web Page Builder >> New Web Page :\n\nHere, the site owner can utilize any of the pre-made draggable contents. For this example, we will be utilizing 3 Column Feature List :\n\nDragging and dropping this element will display some default information that can be edited further:\n\nFor this example, we went ahead and removed the buttons, added some member images, and utilized the titles as member names and paragraph as the testimonial itself:\n\nOnce clicked Save Changes , the live page can be review via the View Page button:\n\nOur page is displaying as it should:\n\n\n### Some Useful Articles:\n\n\nHow To Create A New Form\n\nEdit Form Settings » Developer Settings\n\nHow To Embed A Form On A Web Page\n\nHow to Create a New Static Page\n\nEmails » Forms Inbox\n\nDraggable Content Blocks\n\nHow To Add A Hero Section On Static Pages",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238097/original/kaF47jZKzuAR_x06EDle6OeF3KkpnKZn-A.png?1781148445",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238359/original/8691xCjbSE5c7P-chCpaw7Vzs5Z98vfSCA.gif?1781149141",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238401/original/H8rMIG17GFopuogNN73JZxzHdvgwCf2WvQ.png?1781149292",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238432/original/FqT_vBPLXn6ktPz5oWTtZ-YAZb3MXetpTw.png?1781149343",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238440/original/IyxGJT0dW_IoEIGkOafMVRs6Xj5Cclq1mg.png?1781149410",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238465/original/Q_srrGqenQNnB7hYim7xq8g3F0OyWJgspA.png?1781149493",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238487/original/-Ez9NTqdIxr1N5NhgNaZ8E8uFr9UqUJmBw.png?1781149560",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238513/original/iM02FSs07bVjK7BNDoXFY8skRkHHUV-6lA.png?1781149708",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238526/original/l696PEoB8ynAFOkgXuKEqBUBurYStwU5-g.png?1781149737",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238539/original/M643UvVK24isXG1OHExK5oq229nHy2idAA.png?1781149766",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091142243/original/Ho56aytfpzOsrwzbxHagAaDlIk_0s-8Bpw.gif?1618010423",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238564/original/J9uGjVPPo-fP_ggFykqiCxmLxbu0lFQAYA.png?1781149944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091142307/original/Q7HnOYvB1HpFZFRobOQGWYqGuaHCf-nNYQ.png?1618010815",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238603/original/jGGhx2VzQc0a79P9dNiiLYlC97maiQHNUA.png?1781150072",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238647/original/6YBduomyQW5Gy9wXVMAtlTiC6rIqPfcMbA.png?1781150166",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180238658/original/9NYjBiwiCo0v1iZRbdreGndqxpqT3b1_zQ.png?1781150204",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127605549/original/w8BO5H_fkFzd9F8xCDH5KbhDa9osXlT1GA.png?1687980328",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127605594/original/Pw4xiSx1lJ8MCB9UjkmbYcIWucL1npMv6Q.png?1687980365",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091142430/original/rffPuAdJJQ6f_h-FYvPAFwKz-M92lf2U1A.png?1618011544",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Testimonials Page' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078878",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078878"
+    },
+    {
+      "text": "How To Create A New Form",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000071719"
+    },
+    {
+      "text": "Edit Form Settings » Developer Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078825"
+    },
+    {
+      "text": "How To Embed A Form On A Web Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000059296"
+    },
+    {
+      "text": "How to Create a New Static Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047125"
+    },
+    {
+      "text": "Emails » Forms Inbox",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000673655"
+    },
+    {
+      "text": "Draggable Content Blocks",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000074302"
+    },
+    {
+      "text": "How To Add A Hero Section On Static Pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000065187"
+    }
+  ],
+  "lastmod": "2026-06-11T09:27:30+05:30",
+  "scraped_at": "2026-10-18T13:48:19.968235"
+}

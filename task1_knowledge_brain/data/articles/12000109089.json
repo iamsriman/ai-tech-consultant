@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109089",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109089-install-categories-for-posts-dashboard-installer",
+  "title": "Install Categories for Posts - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Install Categories for Posts - Dashboard Installer"
+  ],
+  "content": "## Install Categories for Posts - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109089\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Install Categories for Posts Does\n\n\nThis installer moves the site's post categories from the older form-field way of storing them to the current categories system. It adds a place to store category definitions on each post type, copies the existing category options into it, and converts the old category selector fields to the new one. It migrates the data; it does not delete the categories.\n\nIt runs three steps:\n\n- Adds the categories column : a feature_categories column (varchar(999)) is added to the data_categories table (the site's post types) so each post type can store its category options in the new system.\n\n- Migrates existing categories : for post types whose form has a field ending in _category , the field's saved options ( field_options ) are copied from the form_fields table into the new feature_categories column on data_categories .\n\n- Updates the old selector fields : the old post_category and group_category form fields are converted to Custom fields that render the new category selector widget. The post_category field is set to use the Bootstrap Theme - Form - Post Categories Select Controller widget, and the group_category field is set to use the Bootstrap Theme - Form - Group Categories Select Controller widget.\n\n\n## Why It Appears\n\n\nThe installer runs three separate checks and appears if any one of them still needs work. It shows up when the data_categories table is missing the feature_categories column, when a post type still has a form field ending in _category whose options have not yet been migrated, or when the form_fields table still contains an old post_category or group_category field.\n\nThese are legacy conditions. Sites built before the current categories system will see this installer offered; newer sites already store categories the new way.\n\n\n## Why It Matters\n\n\nThe current categories system reads category options from the feature_categories column on each post type and displays the selector through the category widget. Until the categories are migrated and the old fields are converted, the post types are still on the older storage that newer category features are not built around. Running the installer brings the categories in line with the current system while preserving the existing category options.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Install Categories for Posts appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once all steps are done.\n\nIf it does not appear in the list, the categories are already on the current system, so there is nothing to do.\n\n\n## After Running\n\n\nThe post types now store their category options in the new feature_categories field, and the category selectors on the forms are rendered by the current category widget instead of the old fields. The existing category options are preserved through the migration. Click Check For Updates after installing and the entry disappears once all three checks pass.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109089",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109089"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:35+05:30",
+  "scraped_at": "2026-10-18T13:59:38.825756"
+}

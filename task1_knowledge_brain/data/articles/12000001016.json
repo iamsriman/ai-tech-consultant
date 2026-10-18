@@ -1,0 +1,73 @@
+{
+  "article_id": "12000001016",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001016-how-to-set-a-default-social-media-image",
+  "title": "How to Set a Default Social Media Image",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "How to Set a Default Social Media Image"
+  ],
+  "content": "## How to Set a Default Social Media Image\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000001016\n\nWhenever a user is sharing a page in Social Media such as Facebook, Google Plus, Twitter and/or any others, an image will appear for that post. There is an option on our General Settings to select the image that will display by default for each social media platform.\n\nThese are the areas in order of precedence:\n\n- Specific image for a static page\n\n- Post image or album cover (for posts like events, articles, coupons, etc or albums like photo albums, properties, classifieds, etc)\n\n- Profile photo or logo for profile pages\n\n- First search results image for search results pages\n\n- Default Social Media Image\n\n- Website Logo\n\n- Image from the Default Homepage Slideshow\n\nThe system searches down the list to see if each of those items exists.  If #1 exists, it will use that, if not, it will see if #2 exists, etc.\n\nSo the default social media image will be used if nothing more specific is available for that page.\n\nTo get a better understanding of this tool, here are some scenarios:\n\n- Sharing a profile page, it will use the profile photo or logo of the member, depending on whether it is a company or individual\n\n- When sharing coupon, it will share the image the member uploaded for that coupon\n\n- Sharing property, it will use the album cover image the member uploaded for that property\n\n- Sharing a search results page, it will use the image associated with the 1st search result\n\n- Sharing a static page, it will use the image specified for that static page (or if no image is specified for that page, it will continue going down the list above until it finds an image that has been specified)\n\nTo set this up, go to:  Admin Dashboard > General Settings > Branding > Default Social Media Image:\n\nExample:\n\nIf a user creates a posts and and it doesn't have an image:\n\nThe Default Social Media Image will appear instead of an empty share:\n\nFinally, only if needed:\n\nWhen testing which image to use for sharing on a social site, such as Facebook, navigate to Facebook Debug Tool to make sure that the image is being fetched properly. Click on the Fetch new scrape information button to grab the latest changes from the site (Instead of the cache version Facebook uses from the site).",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104990704/original/O5QhjkwFlO_R_gqMJWvfTUnKSMq-WnPJZQ.png?1644795832",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Set a Default Social Media Image' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000540668/original/blob1452637039005.png?1452637042",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Set a Default Social Media Image' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000540677/original/blob1452637063941.png?1452637067",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Set a Default Social Media Image' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000540695/original/blob1452637152412.png?1452637155",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Set a Default Social Media Image' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104990693/original/_kIym6MmrZaB57bikdzIW_TPmeL7qxHOuA.jpeg?1644795765",
+      "alt": null,
+      "caption": "When testing which image to use for sharing on a social site, such as Facebook, navigate toFacebook Debug Toolto make sure that the image is being fetched properly. Click on theFetch new scrape informationbutton to grab the latest changes from the site (Instead of the cache version Facebook uses fro",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Set a Default Social Media Image' in section 'Settings' / 'General Settings'. Context: When testing which image to use for sharing on a social site, such as Facebook, navigate toFacebook Debug Toolto make sure that the image is being fetched properly. Click on theFetch new scrape informationbutton to grab the latest changes from the site (Instead of the cache version Facebook uses fro",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000001016",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001016"
+    },
+    {
+      "text": "Facebook Debug Tool",
+      "url": "https://developers.facebook.com/tools/debug"
+    }
+  ],
+  "lastmod": "2023-07-14T03:32:40+05:30",
+  "scraped_at": "2026-10-18T13:39:26.021117"
+}

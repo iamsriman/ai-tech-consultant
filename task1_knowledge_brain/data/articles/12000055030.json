@@ -1,0 +1,131 @@
+{
+  "article_id": "12000055030",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055030-adding-custom-content-to-the-homepage-hero-section",
+  "title": "Adding Custom Content to the Homepage Hero Section",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Adding Custom Content to the Homepage Hero Section"
+  ],
+  "content": "## Adding Custom Content to the Homepage Hero Section\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000055030\n\nTo learn how to call a custom search module widget on a homepage as Custom Homepage Content, follow these steps:\n\n\n### 1. Remove the search module or select the option to add a Hero Message with button Links:\n\n\n- To remove the search module navigate to the Settings >> Design Settings >> Homepage Tab >> Search Box / Call to Action :\n\nOn Homepage Search Box Call to Action, select the Call to Action as \" Hide Search Module / Call to Action \":\n\n- To learn how to add the Hero Message with links, refer to this article Hero Message with Links - Up to Three Buttons on Homepage\n\nThis example shows what a homepage looks like when using the Display Buttons Links option:\n\n\n### 2. Call the preferred search filter widget on the homepage.\n\n\n- Search the preferred widget by navigating to Toolbox - Widget Manager and copy its short code for future usage:\n\n- Navigate to My Content >> Web Page Builder >> Click \"Edit\" on Homepage :\n\n- Paste the shortcode copied earlier to the Page Content and Save:\n\n\n### 3. Add the custom search module to the Homepage:\n\n\n-Navigate to Settings >> Design Settings >> Homepage Tab >> Enable Additional Sections >> Select Content to Display\n\n- In Select Content to Display, select Custom Homepage Content on a preferred Section:\n\nThis is an example of what the homepage looks like with the custom search widget and the links:\n\n\n## How to Add Custom Content Above or Below the Hero Section:\n\n\nWe created these two empty widgets into the homepage hero code:\n\n- Bootstrap Theme - Homepage Search - Extra Content Above\n\n- Bootstrap Theme - Homepage Search - Extra Content Below\n\nThese widgets allow users to easily add content directly above and below homepage search modules without customizing other important widgets:\n\nOnce the custom content is saved into the widget:\n\nThe content will display in the corresponding placements in the hero section:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124819877/original/1-2jES9_HHjnga6DPtNHtQsFG6RmDKuMug.jpeg?1682975758",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124819884/original/O65LgfK4kg49wPS2ieJ_BeKCPjUYEfciew.jpeg?1682975768",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125211199/original/N-7Cmf5IjQgA_JKvC9MsmpmxtteSm72YIw.png?1683658185",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124819917/original/omijT2vaGUjYYd4jFtsI2xX-f6MU-hUnvQ.jpeg?1682975794",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124819938/original/xdwVOUDRIg9MByzAKHtUS_8qkSuQBrZFqA.png?1682975811",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124819941/original/GrWET7iR8lI4RPwUHK0P4eXsX6nMO2pIDA.jpeg?1682975824",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125211320/original/1yrvToSUeWHOUZbEEdzrwMJm68rdeifu9A.png?1683658254",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125211439/original/FNaTyNcxFI2cYSXsp8q40JABSye5uXBW6A.png?1683658317",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125990105/original/ruOceqRgxZVUZ3-HqocH7sgw5TMDUszngQ.png?1685033806",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125990312/original/IqDenuwuMZUa_X73SHQBP_yi1BcPfcJyoQ.png?1685033982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125990467/original/UzfMFIgLkWnBmAF-Q1tXV9YTNi5RHFXkwg.png?1685034154",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Custom Content to the Homepage Hero Section' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000055030",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055030"
+    },
+    {
+      "text": "Hero Message with Links - Up to Three Buttons on Homepage",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000046511"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/a/tickets/new"
+    }
+  ],
+  "lastmod": "2023-07-15T05:07:51+05:30",
+  "scraped_at": "2026-10-18T13:44:34.568620"
+}

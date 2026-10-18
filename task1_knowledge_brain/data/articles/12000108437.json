@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108437",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108437-05-08-2026-software-updates",
+  "title": "05/08/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/08/2026 - Software Updates"
+  ],
+  "content": "## 05/08/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108437\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a new Advanced Setting called \"Alternate Header Logo URL\". By default, clicking the website's logo sends users to the home page. Adding a URL to this setting will direct users to that URL instead. Widget Involved: Bootstrap Theme - Header - Left\n\n- Released the ability to enable a price slider filter on the Events search module. To use this new setting navigate to the Admin >> Edit Post Settings >> Events >> Additional Settings . Widget Involved: Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Module - Event Search\n\n- Released a new AI-powered Logo Maker inside the Admin Brand Images section, allowing Admins to generate custom website logos directly from the Admin area.\n\n- Released the ability to import an existing Stripe Customer ID when importing members through CSV files or when creating and updating members through the API.\n\n- Added a new \"Link Text Size\" option to the Website Announcement Message module in Design Settings. This allows Admins to choose the size of the announcement link button from 5 different options without writing custom CSS.\n\n- Added a new optional parameter to the \"update user\" API endpoint that allows Admins to explicitly clear field values when needed, instead of having empty values silently ignored as they were before.\n\n- Improved form submission across the website by automatically scrolling the screen to the first field with a validation error, helping members quickly locate and correct issues without having to scroll manually.\n\n- Improved the Profile Statistics tracking system to also record initial Private Chat Message submissions, in addition to the existing tracking for lead form submissions.\n\n- Improved the reliability of website preview thumbnails displayed across the Admin by migrating the screenshot service to a self-hosted infrastructure, eliminating dependency on third-party providers and resolving previous availability issues.\n\n- Fixed an issue that prevented the MCP server connection from working when the configured site URL ended with a trailing slash.\n\n- Fixed an issue that prevented the Web Page Builder CTA button text from saving correctly when the text contained an apostrophe, which previously caused the button to disappear after saving.\n\n- Fixed an issue that caused the Display Member Logo widget to use the version of the member's logo intended for social media sharing rather than the version intended for profile page display. Widget Involved: Bootstrap Theme - Member Profile - Display Member Logo",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108437",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108437"
+    }
+  ],
+  "lastmod": "2026-05-12T00:17:30+05:30",
+  "scraped_at": "2026-10-18T13:58:50.957431"
+}

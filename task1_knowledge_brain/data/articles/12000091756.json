@@ -1,0 +1,210 @@
+{
+  "article_id": "12000091756",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091756-star-ratings-for-posts",
+  "title": "Star Ratings For Posts",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Star Ratings For Posts"
+  ],
+  "content": "## Star Ratings For Posts\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091756\n\nThe Star Ratings for Posts add-on works with the free Community Comments add-on to allow the users to submit a 1-5 star rating with the comments they leave on any of the website’s published posts. Perfect for products, properties, events & more!\n\nThe post’s overall rating will be displayed on both the post’s detail page as well as in post type’s search results page on the website.\n\nKey Features and Benefits\n\n- Select which post types users can leave comments & ratings\n\n- Members can leave a 1-5 star rating on posts\n\n- Overall post rating will be displayed on post’s page and in post search results\n\n- Improve and increase user engagement\n\n- Encourage members to publish more beneficial content for your community\n\n- Improve SEO with built-in schema markup\n\nCommon Use Cases\n\n- Products: Review products and services\n\n- Events: Review local attractions & events\n\n- Properties: Review hotel stays, rental properties, etc.\n\n- Articles: Rate articles, recipes, tutorials, etc.\n\n- Coupons: Rate deals based on if the shared coupon code works\n\n- Videos: Rate movie trailers, informative videos, etc.\n\n- Community Feedback: Privately ask for & receive feedback from your members on new ideas or concepts\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Star Ratings For Posts\n```\n\n\n## Enabling the Star Ratings for Posts\n\n\nThe star ratings for posts can be enabled within the Comment settings:\n\nFor more information about all of the Comments settings, check out our in-depth guide covering the Comments add-on: Community Comments\n\nNow, in the comment settings, the options to enable the star ratings are at the bottom of the screen:\n\nBut before these settings are changed or enabled, lets go over some of the other settings that need to be enabled in order for this functionality to work:\n\n- The comments need to be enabled, otherwise there is no way to leave a star rating on a post.\n\n- Allow the post type(s) that will have the star ratings enabled.\n\nIn the example above the Community Articles, Coupons, Discussions and Photo Albums have been selected as post types that will allow comments.\n\nWith these post types allowing comments, the settings can now be utilized:\n\n- These tabs will display the same settings for each post type, allowing a lot of flexibility to modify each individual post type and the accompaning settings.\n\n- The Star Rating settings - there are 3 settings to modify.\n\nWe will now cover the individual Star Rating settings:\n\n- Users Can Only Rate a Post One Time - If this setting is left unchecked, the website members can rate published posts as many times as they'd like. When the setting is enabled, the stars will not appear for additional comments: When it is disabled, the stars appear:\n\n- Display Star Rating on Search Result Pages - This settings allows the ratings to display on the search results pages of the post types so that all website users/visitors can see it. *see \" Front-End Use \" section for an example\n\n- Display Star Rating on Post Detail Page - This will allow the rating to display on the details page which is where the post information is displayed in detail. This setting has a few more options: • No - Hide Star Rating • Yes - Above Post • Yes - Above Comments Section • Yes - Above Post and Comment Section\n\n\n## Front-End Use\n\n\nThe option to leave Star Ratings will appear above the comment text field:\n\nMembers will type in their comment or review, then select the star rating they want to leave and that will appear immediately on the post:\n\nOnce the comment has been submitted the rating will appear on the post, in the position that has been selected in the settings:\n\nThe rating will also be shown in the search results page for the post type:\n\nBack inside the post details page, the comments section will allow members and visitors to sort through comments on posts that have received a lot of engagement:\n\n- Search comments:\n\n- Filter by rating:\n\n- Sort Comments:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180453502/original/thfHERSj9imnQGeDbkuCt5_HkV7Zkl-CMg.png?1781543305",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180453575/original/QoQ1uDxJUolFQERNHIsvPDTkE3zb3U46qQ.png?1781543363",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180453643/original/YMwUnM139Dh7gTccs6QCGYNRMSTVjlcVkA.png?1781543432",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180453876/original/PR0vR7I0QXkP1YHuANX-Pe8Yw2mD3TEsnw.png?1781543566",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120325039/original/iUFUowRsv1GvLbsC1pfgZBeo6S3k_Vj9Hg.png?1674571908",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120386808/original/hr8MtGBfea6IkUjBBGK-aLeTyd3G5cAPEA.png?1674660029",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120386793/original/EezYJQAh_4p7UNuyFWFOXA9rmBf_Nw4aRg.png?1674660017",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120387463/original/Jy_eSGyV-O_MffJxV19nkcqUeeRtSYCjzA.png?1674660603",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120387369/original/rLPTA_dFhjXG3IUjC3d1rkW5ghR1F7WCDA.png?1674660543",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120387291/original/pMUhbe8t6qMTMk3jWe6kVB5cl3Im0Joy2w.png?1674660494",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120387216/original/l0YujHmKXbJPrlnU3Uarn9fYo24S02TS-g.png?1674660400",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120382971/original/dTfxmhlUxj6rbxxjtsuUbrsgoog6iLVfrQ.png?1674656470",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120383099/original/39VsKLHNo_3sdMMR5Z70OaHnCTNh_RQXCg.png?1674656571",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120383212/original/ypgcd__PqkNVq4AzEnH1F4_DV5rWIAlnQQ.png?1674656687",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120383381/original/-bdFytivVYXoTFhxZyjY8e0AJy9sWtnJFg.png?1674656850",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120383484/original/HZUo3_iqLKE_V2LLqq7s4sZjLSWeIR1wgg.png?1674656971",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120383628/original/7qB1zReOIxe3JYvv1MxpfJCl9LsjTV-G_A.png?1674657136",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120383582/original/LmzXD2fDQGmWPwpaE8OC8zBirWQZqFMS8g.png?1674657071",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120383649/original/ZD4yeLbCtnkYxhhFL1aL4mhVS9lsvOstOw.png?1674657153",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Star Ratings For Posts' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091756",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091756"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Star Ratings For Posts",
+      "url": "https://www.brilliantdirectories.com/star-ratings-reviews-for-posts"
+    },
+    {
+      "text": "Community Comments",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000075521"
+    }
+  ],
+  "lastmod": "2026-08-28T22:09:56+05:30",
+  "scraped_at": "2026-10-18T13:50:42.009490"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000096057",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096057-09-22-2023-software-updates",
+  "title": "09/22/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/22/2023 - Software Updates"
+  ],
+  "content": "## 09/22/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096057\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added the ability to create custom Webhooks for individual Post Type forms and custom forms from the Webhooks page in the Admin.\n\n- We fixed an issue which was preventing the ImageKit preconnect link from working properly on the frontend of sites in some cases.\n\n- We fixed an issue with the \"Insta-Load Search Results\" Add-On which was preventing the system from returning accurate results after conducting a search using the \"Predictive Keyword Search\" Add-On in some cases.\n\n- We improved the validation of the \"Member Login Session Active Minutes\" Advanced Setting to only allow positive integers to be saved.\n\n- We updated some default Javascript code to prevent the use of passive listeners on touch and wheel events when navigating on the frontend.  This change helps improve Pagespeed scores. Widget Involved: Bootstrap Theme - HEAD - JS - Libraries\n\n- We created a new Email Template Setting called \"Include Unsubscribe Link\". This setting allow Admins to exclude the Unsubscribe Link from specific email templates. By default the Unsubscribe Link is always included.  This setting will not impact emails sent via the \"Send Newsletter\" page in the Admin, as all bulk emails require it to be present. Widget Involved: Default Email Template\n\n- We fixed an issue with the \"Export Member Data\" Add-On which was preventing the system from exporting data from the Transaction History page after performing a search using the \"Coupon Code Used\" filter field in some cases.\n\n- The Brilliant Directories Helpbot is now available in the Admin of all sites that are not set to be white-labeled.\n\n- We created a new Advanced Setting called \"Insta-Load Search Results Button Behavior\". This setting allows Admins to select how more search results are fetched with the \"Load More Results\" button. The values for the setting are: \"Load More Results When Button is Clicked (default)\", \"Auto-Load More Result When Button is Visible on Screen After Scrolling\" and \" Auto-Load More Result When Button is Visible on Screen Just on Mobile \". Widget Involved: Bootstrap - Search - Lazy Loader tabs\n\n- We created a new Text Label for the \"Send Message\" button text when a member starts or replies to a chat message. Text Label Involved: member_chat_send_message",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096057",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096057"
+    }
+  ],
+  "lastmod": "2023-09-25T22:08:06+05:30",
+  "scraped_at": "2026-10-18T13:52:50.732795"
+}

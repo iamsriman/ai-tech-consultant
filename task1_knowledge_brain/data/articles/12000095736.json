@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095736",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095736-09-08-2023-software-updates",
+  "title": "09/08/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/08/2023 - Software Updates"
+  ],
+  "content": "## 09/08/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095736\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the member import process via CSV and API to automatically remove any white spaces included in the \"email\" field during import.\n\n- The page heading for the member Profile Photo and Logo upload page in the Member Dashboard is now based on a unique Text Label. Widget Involved: Bootstrap Theme - Account - Profile Image Upload Text Label Involved: profile_photo\n\n- The \"Page #\" text shown in the <h1> of search results pages when when navigating to page 2, page 3, etc is now a Text Label. Widget Involved: Bootstrap Theme - Single Post Page Text Label Involved: page_label\n\n- We added validation to the 301 Redirects page to prevent redirect rules from being added with a / at the beginning of the URLs entered in the tool.\n\n- The \"I ncrease Limit\" button next to the Member Count on the Admin Dashboard is now compatible with the \"Admin Account View\" Advanced Setting.\n\n- The keyword filter on the /categories page on the frontend of sites will now filter Top Level Categories as well. Widget Involved: Bootstrap Theme - Category Groups - Member Categories\n\n- We updated the previews and screenshots for the Homepage Theme options found on the Design Settings page in the Admin to reflect recent updates to the themes.\n\n- We added the ability to include the names of Service Areas selected by each member when using the \"Export Member Data\" Add-On to export member information to a CSV file from the Admin.\n\n- We updated the Froala WYSIWYGs to the latest version.\n\n- We fixed an issue where clicking on a link in a Froala WYSIWYG in the Admin was opening the link rather than displaying the \"Edit Link\" context menu in some cases.\n\n- We updated the Unsubscribe link in emails sent from the system so that the email address of the user who clicked the link is auto-filled into the Unsubscribe Email Form after clicking on the Unsubscribe link. Widget Involved: Bootstrap Theme - Unsubscribe Email Page",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095736",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095736"
+    }
+  ],
+  "lastmod": "2023-09-11T22:04:28+05:30",
+  "scraped_at": "2026-10-18T13:52:47.215069"
+}

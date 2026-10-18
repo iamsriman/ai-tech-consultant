@@ -1,0 +1,27 @@
+{
+  "article_id": "12000086921",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086921-04-08-22-software-updates",
+  "title": "04/08/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/08/22 - Software Updates"
+  ],
+  "content": "## 04/08/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086921\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added support for JS-based conversion tracking codes added to the Bootstrap Theme - Conversion Tracking Codes widget for tracking member purchases on the frontend of sites.\n\n- We fixed an issue which was preventing the system from highlighting text labels in the Member Dashboard when viewing the site as an Admin.\n\n- We fixed an issue with the form field validation options in the Form Manager which was causing the system to render the code in a widget rather than displaying the shortcode for a widget saved to the field in some cases.\n\n- We updated the logic of the Lead Settings to skip the validation of the location and categories fields selected for website pages when the \"Share the same form settings for Profile Pages & Website Pages\" is set to \"Yes\".\n\n- We added the ability to notify the site's Admin when a private member chat has been reported by a member. Email Template Involved: conversation-flag-notification\n\n- We updated the logic of Google Maps displayed around a site to center the map on the \"Primary County\" of the site if there are no results to display on the map. Widgets Involved: Bootstrap - Contact Member Lead Map Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Account - Select Locations Bootstrap Theme - Search Results Map\n\n- We fixed an issue with the Pretty URL Location URL logic which was returning a 404 error page when navigating to the URL of a country when a State has the same URL as well.\n\n- We now support the upload of xlsx, xls, gif, webp, ppt, and pptx file formats using the \"Upload CV or Brochure\" field on the Member Dashboard area of sites. Widgets Involved: Bootstrap Theme - Footer - Scripts - Filestyle Scripts Bootstrap Theme - Function - Form\n\n- The \"Publish Post\" button when using the Pay Per Post Add-On is now a text label.\n\n- We fixed an issue which was preventing the system from sending the Billing Reminder notification emails for sites using PHP 5.4. in some cases.\n\n- We fixed an issue which was preventing the system from rendering the Froala WYSIWYG when the \"Price\" field had content saved in an old format in some cases.\n\n- We created a new Advanced Setting called \"Ampify Account Id\". This setting will be used on sites that are utilizing the Ampify.io integration seen here: https://marketplace.brilliantdirectories.com/partner/amp-faster-websites",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086921",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086921"
+    },
+    {
+      "text": "https://marketplace.brilliantdirectories.com/partner/amp-faster-websites",
+      "url": "https://marketplace.brilliantdirectories.com/partner/amp-faster-websites"
+    }
+  ],
+  "lastmod": "2022-04-12T01:39:24+05:30",
+  "scraped_at": "2026-10-18T13:49:37.336073"
+}

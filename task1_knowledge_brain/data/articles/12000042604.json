@@ -1,0 +1,23 @@
+{
+  "article_id": "12000042604",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042604-03-23-18-software-updates",
+  "title": "03/23/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/23/18 - Software Updates"
+  ],
+  "content": "## 03/23/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000042604\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We moved the \"Keyword Search\" Menu Item from the Settings Tab to the Developers Tab in the Admin Menu and changed the name of the menu item to \"Autosuggest Settings\".\n\n- We fixed an issue which was affecting the normal behavior of the Recent Events Widgets when the Recurring Events Add-On is active. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We fixed an issue that was affecting the Tags functionality on search results pages for posts when the Insta-Load Search Results Add-On was active.\n\n- We fixed an issue which was affecting saving the \"Quick Edit\" page accessed in the \"Actions\" menu in the Search Members page in the Admin.\n\n- Now Admin Moderators can only update their own Admin credentials.\n\n- We fixed an issue which was affecting the logic of the Multi-Member Manager Add-On in the Admin Dashboard.\n\n- We made an improvement to how the system handles all search result pages when the Insta-Load Add-On is active.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000042604",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042604"
+    }
+  ],
+  "lastmod": "2018-03-24T02:11:16+05:30",
+  "scraped_at": "2026-10-18T13:42:26.794930"
+}

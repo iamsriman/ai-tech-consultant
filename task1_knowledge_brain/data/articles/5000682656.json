@@ -1,0 +1,169 @@
+{
+  "article_id": "5000682656",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682656-editing-the-seo-of-member-search-results-pages",
+  "title": "Editing The SEO Of Member Search Results Pages",
+  "category": "My Content",
+  "folder": "SEO Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "SEO Templates",
+    "Editing The SEO Of Member Search Results Pages"
+  ],
+  "content": "## Editing The SEO Of Member Search Results Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682656\n\nWhat are Member Search Results Pages? Member Search Results pages are what a visitor to the website will see when they search for members on the site. These searches can be done by keyword, category, and/or location. For example, to see a search results page that contains all of the searchable members of the site, go the /search_results page (EG: http://www.demobootstrap.com/search_results ). \"Pretty\" URLs and \"Not So Pretty\" URLs When a visitor to the site searches for a member by keyword, category, and/or location, the search results page will have a \"Not So Pretty\" URL.  It will look something like this (this is a search for members in the category \"Restaurants\" in the location \"Las Vegas, Nevada\"): http://www.demobootstrap.com/search_results?sid=2&tid=&location_value=Las+Vegas%2C+NV%2C+United+States&city=Las+Vegas&county_sn=Clark+County&adm_lvl_1_sn=NV&country_sn=US&location_type=locality&swlat=36.1296229&nelat=36.380623&swlng=-115.414625&nelng=-115.062072&lat=36.1699412&lng=-115.13982959999998&faddress=Las+Vegas%2C+NV%2C+USA&place_id=ChIJ0X31pIK3voARo3mz1ebVzDo For comparison sake, a search on Google.com for \"Restaurants in Las Vegas, Nevada\", can look something like this: https://www.google.com/?gws_rd=ssl#q=restaurants+in+las+vegas,+nevada&tbs=bkv:p,bkt:b,sbd:1,cdr:1,cd_min:1800,cd_max:1899&tbm=bks As we can see, the URL that the visitor sees in both cases is \"Not So Pretty\". For most of these search results pages, there is also a \"Pretty\" URL version of the page, that shows the same search results. For example, the \"Pretty\" URL version of a search for members in the category \"Restaurants\" in the location \"Las Vegas, Nevada\" will look like this: http://www.demobootstrap.com/united-states/nevada/las-vegas/restaurants ( Note: http://www.demobootstrap.com/nevada/las-vegas/restaurants - without united-states in the URL - would also show the same results ) The URL of this page is much prettier! Pretty URLs The search engine on the site uses all of the information in the \"Not So Pretty\" URL to drive some of the advanced search functionality such as Service Areas, Search Radius Distance Calculations, and more. However, a \"Not So Pretty\" URL like this is not as desirable for sharing on social media, sending in an email, or for SEO purposes. The system automatically creates a \"Pretty\" URL version of member search results pages for all of the reasons listed above. We created the advanced setting: \"Enable All Location Features For \"Pretty URL\" Search Results Pages (Additional Google Maps API Cost)\" This setting allows the \" Pretty \" URL version of a member search results to take into account the advanced locations features mentioned above (such as Service Areas and Membership Plan Search Priority ). NOTE: To allow all \"Pretty URL\" location search results pages to include these location features please set this Advanced Setting to ON . When this setting is ON, loading a \"Pretty URL\" location search results page will require a Google Maps API query to enable location search features, like including Service Areas. This may impact the Google Maps API bill if it is enabled. Once this setting is enabled, the creation of a separate Google Maps Key is needed please see the process on how to set it up: Set Up Pretty URLs With Google Maps Where Can I Edit the SEO Elements of a Member Search Results Page? There are 2 different ways to access the SEO elements of a search results page - while viewing the page on the front end of the website, and when viewing the Admin area of the site. Important Note: The instructions below describe how to edit the SEO elements and content of all member search results pages.  If the goal is to edit the SEO elements and content of only one specific member search results page, please see this article for more information. Editing SEO Templates From The Front End First, login to the Admin area of the site and click on the \"Visit Website\" link at the top of the screen: This will allow to view the front end of the website while having extra Admin abilities. Next, navigate to the member search results page to be edited.  It's possible to navigate to either the \"Pretty\" or \"Not So Pretty\" URL version of the page - the SEO elements of both versions of the page are edited from the same place. Once on the member search results page that would like to edit, click on the \"Edit SEO Template\" icon in the left Admin navigation bar: This will take the admin directly to the correct SEO Template to edit the SEO elements of this page. Edit SEO Templates From The Admin Area All of the SEO Templates for member search results pages can also be accessed by navigating to Content >> SEO Templates in the left navigation menu of the Admin area. There are 45 Default SEO Templates available, starting with ID #100: Using the search box on the right side of the screen will allow to easily search for any existing SEO template : Member Search Results SEO Templates All of the SEO Templates related to member search results pages have ID numbers in the 200 range - #200 through #232. Information about which types of search results each template is for can be found on the \"Page Details\" column. For example, #200 is the \"Default\" search results page template, meaning it is the template that is used when navigating to the /search_results page on the site, or if searching for members on the site without specifying a keyword, category, or location.  In other words, this page will display all of the searchable members on the site, as this page does for example: http://www.demobootstrap.com/search_results Here are some other examples: #201 - Search Results - Members - Main Category Only This is the SEO Template used when performing a search by main category only. \"Pretty\" URL example of this type of search results page (\"Food\" is the main category): http://www.demobootstrap.com/food \"Not So Pretty\" URL example of this type of search results page: http://www.demobootstrap.com/search_results?sid=17&tid=&location_value= #204 - Search Results - Members - Country Only This is the SEO Template used when only a country is searched for. \"Pretty\" URL example of this type of search results page (\"United States\" is the country): http://www.demobootstrap.com/united-states \"Not So Pretty\" URL example of this type of search results page: http://www.demobootstrap.com/search_results?sid=&tid=&location_value=united+states&country_sn=US&location_type=country&swlat=18.9106768&nelat=71.3867745&swlng=172.4458955&nelng=-66.95028609999997&lat=37.09024&lng=-95.71289100000001&faddress=United+States&place_id=ChIJCzYy5IS16lQRQrfeQ5K5Oxw #225 - Search Results - Members -State / City / Main Category This is the SEO Template used when a state (province), city and main category, all specified in a search. \"Pretty\" URL example of this type of search results page (\"New Jersey\" is the state, \"Madison\" is the city, and \"Food\" is the main category): https://www.demobootstrap.com/new-jersey/madison/food/bagel-chateau-of-madison \"Not So Pretty\" URL example of this type of search results page: http://www.demobootstrap.com/search_results?sid=17&tid=506&location_value=Madison%2C+NJ%2C+United+States&city=Madison&county_sn=Morris+County&adm_lvl_1_sn=NJ&country_sn=US&location_type=locality&swlat=40.7399439&nelat=40.777214&swlng=-74.4446059&nelng=-74.39216590000001&lat=40.7598227&lng=-74.41709700000001&faddress=Madison%2C+NJ%2C+USA&place_id=ChIJI-fYekymw4kRrerf8h65X1A To edit one of the templates, simply find the one in the list that applies for the type of search results page and click on \"Edit\": Editing a template will impact both the \"Pretty\" and \"Not So Pretty\" URL versions of that type of search results page. Also, any content added to the Hero Section of the \"Pretty\" URL will impact as well the \"Not So Pretty\" URL version of a member search results page. To learn more about how to edit the different elements of SEO templates, refer to this article: How to Edit The Different Elements of SEO Templates",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171648871/original/mVVlUOFlC2nxHYHIlHbzsFsR8jM4Rh50Kw.png?1765222117",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171652241/original/Wm4EYjPcanLSEZEj6dJdn_Enr6ApxpI4yQ.png?1765225050",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171652381/original/HnSxCue76H8piUxpOSxt_UYDogt2AwIE3g.png?1765225194",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171652395/original/VLmvaLb6i01tttWOy4Ic2jcbTJm3Aw-SEA.png?1765225241",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171652426/original/OPWu9tqF-FwCnqByyk43tFpazTqdyn8-mQ.png?1765225308",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076775937/original/doH6Zi7WZOGnl6VFTwljVuRoFEto7XA7Iw.png?1588153109",
+      "alt": null,
+      "caption": "Context: Member Search Results SEO Templates",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'. Context: Context: Member Search Results SEO Templates",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076775978/original/VnUSbe8rL6rRdO9tek2-aFszjkrIQhPlIQ.png?1588153176",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084037534/original/YsM7HVx4sj8j4X2uWnHKyAOL8Ra72Fiu_A.png?1603465413",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076776054/original/jPSJFI4_Z_C4e6MdEecGkgn5ZqIaqNxrfA.png?1588153322",
+      "alt": null,
+      "caption": "Context: \"Not So Pretty\" URL example of this type of search results page:http://www.demobootstrap.com/search_results?sid=17&tid=506&location_value=Madison%2C+NJ%2C+United+States&city=Madison&county_sn=Morris+C",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Editing The SEO Of Member Search Results Pages' in section 'My Content' / 'SEO Templates'. Context: Context: \"Not So Pretty\" URL example of this type of search results page:http://www.demobootstrap.com/search_results?sid=17&tid=506&location_value=Madison%2C+NJ%2C+United+States&city=Madison&county_sn=Morris+C",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682656",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682656"
+    },
+    {
+      "text": "http://www.demobootstrap.com/search_results",
+      "url": "http://www.demobootstrap.com/search_results"
+    },
+    {
+      "text": "http://www.demobootstrap.com/search_results?sid=2&tid=&location_value=Las+Vegas%2C+NV%2C+United+States&city=Las+Vegas&county_sn=Clark+County&adm_lvl_1_sn=NV&country_sn=US&location_type=locality&swlat=36.1296229&nelat=36.380623&swlng=-115.414625&nelng=-115.062072&lat=36.1699412&lng=-115.13982959999998&faddress=Las+Vegas%2C+NV%2C+USA&place_id=ChIJ0X31pIK3voARo3mz1ebVzDo",
+      "url": "http://www.demobootstrap.com/search_results?sid=2&tid=&location_value=Las+Vegas%2C+NV%2C+United+States&city=Las+Vegas&county_sn=Clark+County&adm_lvl_1_sn=NV&country_sn=US&location_type=locality&swlat=36.1296229&nelat=36.380623&swlng=-115.414625&nelng=-115.062072&lat=36.1699412&lng=-115.13982959999998&faddress=Las+Vegas%2C+NV%2C+USA&place_id=ChIJ0X31pIK3voARo3mz1ebVzDo"
+    },
+    {
+      "text": "https://www.google.com/?gws_rd=ssl#q=restaurants+in+las+vegas,+nevada&tbs=bkv:p,bkt:b,sbd:1,cdr:1,cd_min:1800,cd_max:1899&tbm=bks",
+      "url": "https://www.google.com/?gws_rd=ssl#q=restaurants+in+las+vegas,+nevada&tbs=bkv:p,bkt:b,sbd:1,cdr:1,cd_min:1800,cd_max:1899&tbm=bks"
+    },
+    {
+      "text": "http://www.demobootstrap.com/united-states/nevada/las-vegas/restaurants",
+      "url": "http://www.demobootstrap.com/united-states/nevada/las-vegas/restaurants"
+    },
+    {
+      "text": "http://www.demobootstrap.com/nevada/las-vegas/restaurants",
+      "url": "http://www.demobootstrap.com/nevada/las-vegas/restaurants"
+    },
+    {
+      "text": "\"Enable All Location Features For \"Pretty URL\" Search Results Pages (Additional Google Maps API Cost)\"",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000086439"
+    },
+    {
+      "text": "Set Up Pretty URLs With Google Maps",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000086439"
+    },
+    {
+      "text": "this article",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000002518--bootstrap-adding-seo-content-to-a-specific-member-search-results-page"
+    },
+    {
+      "text": "http://www.demobootstrap.com/search_results",
+      "url": "http://www.demobootstrap.com/search_results"
+    },
+    {
+      "text": "http://www.demobootstrap.com/food",
+      "url": "http://www.demobootstrap.com/food"
+    },
+    {
+      "text": "http://www.demobootstrap.com/search_results?sid=17&tid=&location_value=",
+      "url": "http://www.demobootstrap.com/search_results?sid=17&tid=&location_value="
+    },
+    {
+      "text": "http://www.demobootstrap.com/united-states",
+      "url": "http://www.demobootstrap.com/united-states"
+    },
+    {
+      "text": "http://www.demobootstrap.com/search_results?sid=&tid=&location_value=united+states&country_sn=US&location_type=country&swlat=18.9106768&nelat=71.3867745&swlng=172.4458955&nelng=-66.95028609999997&lat=37.09024&lng=-95.71289100000001&faddress=United+States&place_id=ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+      "url": "http://www.demobootstrap.com/search_results?sid=&tid=&location_value=united+states&country_sn=US&location_type=country&swlat=18.9106768&nelat=71.3867745&swlng=172.4458955&nelng=-66.95028609999997&lat=37.09024&lng=-95.71289100000001&faddress=United+States&place_id=ChIJCzYy5IS16lQRQrfeQ5K5Oxw"
+    },
+    {
+      "text": "https://www.demobootstrap.com/new-jersey/madison/food/bagel-chateau-of-madison",
+      "url": "https://www.demobootstrap.com/new-jersey/madison/food/bagel-chateau-of-madison"
+    },
+    {
+      "text": "http://www.demobootstrap.com/search_results?sid=17&tid=506&location_value=Madison%2C+NJ%2C+United+States&city=Madison&county_sn=Morris+County&adm_lvl_1_sn=NJ&country_sn=US&location_type=locality&swlat=40.7399439&nelat=40.777214&swlng=-74.4446059&nelng=-74.39216590000001&lat=40.7598227&lng=-74.41709700000001&faddress=Madison%2C+NJ%2C+USA&place_id=ChIJI-fYekymw4kRrerf8h65X1A",
+      "url": "http://www.demobootstrap.com/search_results?sid=17&tid=506&location_value=Madison%2C+NJ%2C+United+States&city=Madison&county_sn=Morris+County&adm_lvl_1_sn=NJ&country_sn=US&location_type=locality&swlat=40.7399439&nelat=40.777214&swlng=-74.4446059&nelng=-74.39216590000001&lat=40.7598227&lng=-74.41709700000001&faddress=Madison%2C+NJ%2C+USA&place_id=ChIJI-fYekymw4kRrerf8h65X1A"
+    },
+    {
+      "text": "How to Edit The Different Elements of SEO Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000076758"
+    }
+  ],
+  "lastmod": "2025-12-09T01:52:21+05:30",
+  "scraped_at": "2026-10-18T13:39:04.760966"
+}

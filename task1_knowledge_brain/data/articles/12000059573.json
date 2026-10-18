@@ -1,0 +1,27 @@
+{
+  "article_id": "12000059573",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059573-07-19-19-software-updates",
+  "title": "07/19/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/19/19 - Software Updates"
+  ],
+  "content": "## 07/19/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059573\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added a new option to the \"Account Status After Signup\" Product Level setting called \"On hold, Requires Admin Approval\". Choosing this setting will apply the status \"On Hold\" to all members that signup for this Product, and an Admin of the site will have to manually set the member's status to \"Active\" before they will appear on the site. Widget Involved: Bootstrap Theme - Display - Facebook Action Create Bootstrap Theme - Display - Google Action Create\n\n- We fixed an issue which was preventing logging in as a Member from the Leads page in the Admin from working properly.\n\n- We fixed an issue which was affecting the Member Keyword search feature when the \"Member Keyword Search Type\" setting in the General Settings was set as \"Inclusive\". Widget Involved: Search - Member - Search Query\n\n- We created a new Design Setting to display Profile Photos as circular instead of rectangular on the frontend of a site. In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Design Settings tab >> Additional Design Settings section. Widget Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Member Profile - Contact Page Bootstrap Theme - Member Profile - Submit Review Feature Involved: Reviews\n\n- We removed the \"Deleted Selected\" button from the Reviews and Leads pages in the Admin and added it as an option in the \"Bulk Actions\" dropdown on these pages instead.\n\n- We fixed an issue which was causing the Leads search engine to show 0 suggested matches on the Lead Details page in the Admin in some cases.\n\n- We fixed an issue that was preventing multiple different forms from printing within the same widget or same body content of Single Static pages.\n\n- We added more detailed error messages when forms aren't able to be submitted on the frontend of sites. Widget Involved: System - SaveForm\n\n- We fixed an issue with the Sitemap Generator Add-On which was preventing URLs with a State in them from being added in some cases.\n\n- We disabled the \"Can View\" checkbox on the Post Publishing tab in the Product Settings when a Post Type has the \"Members-Only Access\" setting set to \"Keep Public for All Visitors\".\n\n- We improved the logic of the \"Member Related Search\" widget that shows in the sidebar of profile pages to prevent it from adding links that will lead to non-existent pages when the member enters a custom city name not recognized by Google Maps. Widget Involved: Bootstrap Theme - Module - Member Related Searches\n\n- We fixed an issue which was affecting the ability to search for events using the \"Select Date\" field in some cases. Widget Involved: Search - Post - Search Query\n\n- We released the Predictive Keyword Search Add-On. Click here for more information. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We added the \"Customize Page Level Footer Content\" field to the Edit Web pages area in the Admin. Whatever code is added to this field will be added to the page immediately above the closing </body> tag of the page Widget Involved: Bootstrap Theme Framework\n\n- The \"Profile Photo Title\" text label in the Member Dashboard will now be highlighted when viewing the text labels on that page as an Admin. Widget Involved: Bootstrap Theme - Account - Profile Photo Upload\n\n- The affiliate tracking code added through the General Settings or the \"Bootstrap Theme - Conversion Tracking Codes\" widget will now be executed when a member upgrades their account as well as when they first sign up. Widget Involved: Bootstrap Theme - Success Page - Paid Member Upgrade\n\n- We fixed an issue which was preventing the font selected for the site from applying to the Bookmark Counter. Widget Involved: Bootstrap Theme - Custom Appearance Settings",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059573",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059573"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/predictive-keyword-search-add-on"
+    }
+  ],
+  "lastmod": "2019-07-20T00:48:58+05:30",
+  "scraped_at": "2026-10-18T13:45:15.906899"
+}

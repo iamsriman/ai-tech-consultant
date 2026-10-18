@@ -1,0 +1,23 @@
+{
+  "article_id": "12000082055",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082055-09-10-21-software-updates",
+  "title": "09/10/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/10/21 - Software Updates"
+  ],
+  "content": "## 09/10/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082055\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- When choosing the forms to use in the \"Select Information You Want to Collect\" section of the Membership Plan Settings in the Admin, we added links to edit the corresponding forms to each section.\n\n- We added a help text under each geocode method on the \"Sync Members with Google Maps\" page in the Admin.\n\n- We updated the logic of the \"Attempt to Collect all Selected Invoices\" on the Past Due tab of the Transaction History page to display an error message for sites using Off-Sites Payment Gateways which do not support this feature.\n\n- The delete action on the Forms Inbox page in the Admin is now being logged in the Activity Tracker.\n\n- We fixed an issue which was causing the \"/locations\" page on the frontend of sites to display duplicate locations in some cases. Widget Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- We updated the text labels for the Top, Sub and Sub-Sub Category selection fields in the Get Matched form on the frontend of sites. Form Involved: Website - Lead Form - Get Matched Text Labels Involved: get_matched_category_select_top get_matched_category_select_sub get_matched_category_select_subsub\n\n- We updated the member downgrade workflow to also cancel and delete any upcoming invoices and active subscriptions after downgrading from a paid plan to a free plan.\n\n- We fixed an issue that was causing some form inquiries to display as blank when viewing them on the Forms Inbox page in the Admin.\n\n- We fixed an issue which was causing the Forms Inbox page in the Admin to show Member Login form submissions in some cases.\n\n- We updated the General Settings page in the Admin to require full absolute URL's for all fields in the Social Media tab.\n\n- We fixed an issue which was preventing the system from saving the Invoice Logo on the General Settings page in the Admin on Chromium web browsers in some cases.\n\n- The system is now displaying the SEO Template ID on the page details tab when editing SEO Templates in the Admin.\n\n- We updated the Google Sitemap Generator Add-On to make the generation of sitemaps faster and more efficient, especially for sites with a large amount of data.\n\n- We created two new Design Settings called \"Top Spacing\" and \"Bottom Spacing\" for each Homepage section in the Admin >> Settings >> Design Settings >> Homepage tab >> Select Content to Display. Widgets Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Audios Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Digital Products Bootstrap Theme - Display - Recent Discussions Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Display - Recent Videos\n\n- We fixed an issue that was causing checkbox fields on Post Detail pages to display variable names instead of the corresponding label in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082055",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082055"
+    }
+  ],
+  "lastmod": "2021-09-11T20:07:47+05:30",
+  "scraped_at": "2026-10-18T13:48:57.432707"
+}

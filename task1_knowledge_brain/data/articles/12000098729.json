@@ -1,0 +1,51 @@
+{
+  "article_id": "12000098729",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098729-using-css-to-target-verified-members",
+  "title": "Using CSS to Target \"Verified\" Members",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Using CSS to Target \"Verified\" Members"
+  ],
+  "content": "## Using CSS to Target \"Verified\" Members\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098729\n\nPreviously to show/hide elements when a user is verified, complicated PHP in specific areas of code was used.\n\nNow we've made it easier to control by including a class to the <body> element that will be used:\n\n- <div class=\"verified_member_result\">\n\nWith this class it will be easier to hide simple elements like menu items, buttons, links, images using CSS in the Design Settings rather than having to go into specific sections of the code and use PHP every time.\n\n\n## Example Using the CSS Method\n\n\nTarget the element or area that will be modified. In this example, the Background Color of the verified member:\n\nAfter applying the CSS, only the \" Verified \" member has a different background color:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140623297/original/nsX56Fih_l--G8tnPnRkf7NCEPJWxdyA_A.png?1711138604",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target \"Verified\" Members' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140770559/original/gxpRutpzLPr8QlLzCqYkYsaucR4W23e1eQ.png?1711464633",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target \"Verified\" Members' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140772995/original/_p76RivtjpcJcgGw9blAclkOHjBHSEk-_g.png?1711466321",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target \"Verified\" Members' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098729",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098729"
+    }
+  ],
+  "lastmod": "2024-03-26T20:54:37+05:30",
+  "scraped_at": "2026-10-18T13:53:39.790456"
+}

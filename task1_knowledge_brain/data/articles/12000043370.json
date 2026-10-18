@@ -1,0 +1,301 @@
+{
+  "article_id": "12000043370",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043370-settings-general-settings-brand-images-tab",
+  "title": "Settings » General Settings » Brand Images Tab",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Settings » General Settings » Brand Images Tab"
+  ],
+  "content": "## Settings » General Settings » Brand Images Tab\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000043370\n\nThis article explains the Brand Images Tab in the General Settings section which includes several options to customize images that the system will use as \"defaults\" throughout the website.\n\n\n## Brand Images List\n\n\nBelow is a full list of default brand images to be uploaded to the website.\n\nUseful Tip: To crop or resize any image, please consider using this free online tool .\n\n\n### Visual Guide of Brand Images\n\n\nFull visual list of the Brand Images Tab:\n\n\n### 1. Website Logo Image\n\n\nThis will be the main logo of the website, it will show up on the top-left corner of the header of the website.\n\nThe recommended dimensions for the logo are 450 x 70px\n\nDisplay Max Width Setting\n\nIf the logo uploaded is too wide, the maximum width of the logo displayed on the live website can be edited by entering a numerical value in this field.\n\nAI Logo Generator Setting\n\nThe AI Logo Creator helps generate logo concepts based on brand preferences and visual direction. Detailed instructions on how the feature works are available in the documentation: Website Logo AI Generator\n\n\n### 2. Email Template Logo Image\n\n\nThis will be the logo used in email templates, both automated emails and email campaigns.  This setting also includes the option to specify the Display Width (the height will be adjusted accordingly).\n\nThe recommended dimensions for the logo are 450 x 70px\n\n\n### 3. Invoice Logo Image\n\n\nThis will be the logo used in system invoices, images used in this section should only by JPG.\n\nThe recommended dimensions for the logo are 450 x 70px\n\n\n### 4. Favicon Image\n\n\nThis will be the favicon for the website, this will be used across the entire front end of the website.\n\nThe recommended dimensions for this image are 56 x 56px\n\n\n### 5. Default Member Photo Image\n\n\nThis will be the image used on member profiles that do not have an image. If the member of the directory does not upload their own image, this is the image that will be used instead.\n\nThe recommended dimensions for this image 250 x 250px\n\n\n### 6. Default Member Logo Image\n\n\nThis will be the logo used on member profiles that do not upload their own logo. If the member of the directory does not upload their own logo, this is the logo that will be used instead.\n\nThe recommended dimensions for this image 250 x 250px\n\n\n### 7. Default Member Cover Image\n\n\nThis will be the image used on member profiles that do not upload their own cover photo. If the member of the directory does not upload their own cover photo, this is the image that will be used instead.\n\nVery Important Note : This section will only be available if the Profile Cover Photo add-on is enabled on the site.\n\nThe recommended dimensions for this image 1520 x 800px\n\n\n### 8. Default Social Media Image\n\n\nThis will be the image used by social media platforms in case the post completed on the website do not have their own image.\n\nThe recommended dimensions for this image 1200 x 1200px\n\n\n### 9. Member Badge Image\n\n\nDefault image used as the badge for member of the directory, this image shows up inside member dashboards. The \"Member Badge\" is located in the member's dashboard. They are able to copy custom code that they can then paste on their own website to advertise that they are a member of the website. This adds credibility to their own company, and helps promote the website at the same time.\n\nThe recommended dimensions for this image 250 x 250px\n\n\n### 10. Verified Member Icon\n\n\nDefault image used when members of the directory have been verified.\n\nThe recommended dimensions for this image 100 x 100px\n\n\n### 11. Google Map Pin Drop Image\n\n\nDefault image used inside Google Maps, both front-end and member dashboards.\n\nThe recommended dimensions for this image 25 x 42px\n\n\n### 12. All Locations Badge Image\n\n\nDefault image used when members of the directory are listed in all available locations.\n\nThis Badge will only be available for users that have the Multi-Location Listing Add-on.\n\nIn the Listing Settings, there's an option to \" List in All Locations \" which is set to NO by default.\n\nThis image will appear on any members that have been edited to display in All Locations. This can be done in the Members » Search Members » Quick Edit Section .\n\nIf this is set to YES , this member will show in the search results regardless of the location being searched, even in searches outside of their country, this will also activate the All Locations Badge on their member profile.\n\nThe recommended dimensions for this image 100 x 100px\n\n\n### 13. Post Search Results Placeholder Image\n\n\nDefault image used when members of the directory complete posts without an image.\n\nThe recommended dimensions for this image 400 x 200px",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179243200/original/-pDSzi0hO5g1zbihhNankwgUDUBI7iGbPA.png?1779420332",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179243203/original/7ZYz6-yXwbc-hoYzCXP9Na--KrrLnQrXZg.png?1779420364",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953102/original/oTHMDtAbAtA_bLvJ0Snou_M68wJrOyfInA.png?1695845720",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179243213/original/cAwvBtqS54QYvXOyTnhTJHrCeIxGfQ7cTg.png?1779420444",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179243327/original/49OxI969QgW_NW1n-nDVLItOuoj8pEn-tw.png?1779420922",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953110/original/KeWVzj1YC0vlcyy4_Rlq8h0ZQvpCEFhg7A.png?1695845736",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953124/original/6RN1-o6v-y9sfHIHRHQZFQ_AcYjTDFN9Mg.png?1695845763",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953134/original/Ley-fZf994Cq-hqNs1X5sloXSKBcSAeZjQ.png?1695845780",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953140/original/qQh8MEgcV8kJDTr3Z5sR-WMwr8zDW0IimQ.png?1695845806",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953153/original/-jpW7tBGhQLgujh0BylEntvSr7WVR-uDjw.png?1695845823",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953169/original/p0tTLcO9y1JSaDE0JrNf_AUEWSyKZg_j3A.png?1695845852",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953214/original/mX9oJf1QB_TP55bb05kmAimgvMC5xmKaZQ.png?1695845891",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953685/original/PKuH3Pvul3IADihHzxOqzepNo10NPuj4uQ.png?1695846364",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953250/original/3QPZcpboyhg2_OX9t5w1k76IVNzi4LRQjA.png?1695845950",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953684/original/-ow1SFc45Eg65pN1wA0TyYy4c3BePbTLpA.png?1695846360",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953260/original/SB_yTq1-EMd7SjSI3IKrPH_IW9dCBX1gxw.png?1695845981",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132166311/original/-KF0L-Z76G_dQ6PAcS-7O8DXJzHqoVVLvw.png?1696286508",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953714/original/sVUEqcAy3ZgzUA2kOgr_YN5ogToZO2JfrA.png?1695846390",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953717/original/ztbiwYx5H6QMOVBhMOjp-L-1fTpnRVqqDQ.png?1695846414",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953827/original/ql34TlaV_oyP9CbzK4moKtINgF9CyP5PvQ.png?1695846461",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953892/original/L9qx-0_0BmctAaHzOhPh0QELBsd-HCNvvQ.png?1695846561",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131954006/original/-UqM7hTmrc1LKyQvaJPGnS3lllLKZcXX_g.png?1695846721",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131953910/original/13pRCMywIaxMf40oUl2d1ji_L_rK9iFF5w.png?1695846580",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131954023/original/dxZsLyNZbJXYuV__DBtieAvxmjBgMclmQQ.png?1695846761",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131954014/original/kabuxPD2dMJoxOr7hz0tljXudIoajbw-tA.png?1695846741",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131954085/original/ma5GiiMn9UxqE_7QiqqTa-CebByrnbVNiQ.png?1695846807",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131954054/original/PGZNQ8XHkCMFamSICTBghQ3lfE7rft1prg.png?1695846780",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131954616/original/9Mp9U4dWBl1CY_T2RRVGiHF5-O8yEtJhDg.png?1695847277",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131954588/original/fvT7dii2G1HR3a01TtyvfORtqHdW7AopyA.png?1695847257",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Brand Images Tab' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000043370",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043370"
+    },
+    {
+      "text": "free online tool",
+      "url": "https://www.iloveimg.com/crop-image"
+    },
+    {
+      "text": "Website Logo AI Generator",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000108546"
+    },
+    {
+      "text": "Multi-Location Listing",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000030829"
+    },
+    {
+      "text": "Members » Search Members » Quick Edit Section",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000046940"
+    }
+  ],
+  "lastmod": "2026-05-22T09:05:52+05:30",
+  "scraped_at": "2026-10-18T13:42:31.472647"
+}

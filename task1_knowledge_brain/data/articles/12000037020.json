@@ -1,0 +1,23 @@
+{
+  "article_id": "12000037020",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037020-10-27-17-software-updates",
+  "title": "10/27/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/27/17 - Software Updates"
+  ],
+  "content": "## 10/27/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000037020\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue that was affecting the behavior of the Favorites Add-On on profile pages when the Footer of the page was hidden. Widgets Involved: Bootstrap Theme - Footer Bootstrap Theme - Footer - Scripts\n\n- We fixed an issue that was affecting the behavior of the Recent Blog wIdgets functionality when displayed on the homepage. Widgets Involved: Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Blog Articles with Sidebar\n\n- We fixed a typo on the Member Related Search widget on Profile Pages. Widgets Involved: Bootstrap Theme - Module - Member Related Searches\n\n- We added a function to remove the escape characters (\\) when the Main Category of a member is displayed in the Profile Page Header widget. Widgets Involved: Bootstrap Theme - Member Profile - Header\n\n- We improved the functionality of the widget that controls the selected billing cycle on member signup pages. Widget Involved: Bootstrap Theme - Form - Membership Payment Options\n\n- Website Admins can now see the current version of the software being used on their website in the upper-right portion of the Admin Area.  The current version is \"Bootstrap Theme Framework v.4.0\"\n\n- We removed the ability to Clone SEO Templates in the SEO Templates area of the Admin to prevent unintended issues with these templates.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000037020",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037020"
+    }
+  ],
+  "lastmod": "2017-10-27T21:57:04+05:30",
+  "scraped_at": "2026-10-18T13:41:58.338465"
+}

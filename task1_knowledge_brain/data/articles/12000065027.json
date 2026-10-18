@@ -1,0 +1,23 @@
+{
+  "article_id": "12000065027",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065027-11-22-19-software-updates",
+  "title": "11/22/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/22/19 - Software Updates"
+  ],
+  "content": "## 11/22/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065027\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the member login link displayed when a page is protected by the Members-Only Content Add-On in order to make it show a modal on the same page instead of redirecting to the login page. Widget Involved: Bootsrap Theme - Display - Members Only Message\n\n- We updated the description of the \"Max. Sub-Level Categories Member Can Select\" Membership Plan setting to better describe its functionality.\n\n- We fixed an issue which was preventing members from updating their credit card information when the credit card on file has been declined while purchasing a Digital Product, Pay per Post or a Lead.\n\n- We updated the Post Settings page in the Admin for \"Specialties\" in order to only display the Profile Page Design tab.\n\n- We updated the Froala WYSYWYG in order to support clicking the \"Tab\" key when editing content in \"code\" view. Widget Involved: Form - Froala Editor Javascript\n\n- We created a new Design Setting to control whether or not to display the \"view profile\" button for the Recent Members and Recent Featured Member homepage widgets. In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Homepage Layout tab >> Homepage Section Order Options. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We added support for displaying the text entered in the \"Sub Title (H2)\" field in the SEO Template for /checkout pages.\n\n- We updated the display of the Bookmark Content Add-On on the frontend of sites. Widgets Involved: Bootstrap Theme - Display - Add To Favorites Button Bootstrap Theme - Custom Appearance Settings\n\n- The Progress Bar will now be hidden on the Member Dashboard if a member has already entered content for all of the \"Manage Listing\" pages for their profile. Widget Involved: Bootstrap Theme - Account - Member Dashboard\n\n- We added 2 new font weight options for the Main and Sub Title fields shown on the homepage of sites. In order to use these new settings,, navigate to the Admin >> Settings >> Design Settings >> Homepage Layout tab >> Homepage Search Settings. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was preventing location and category fields shown in the lead submission form from being treated as required. Widgets Involved: Bootstrap - Contact Member Category Dropdowns Bootstrap - Contact Member Lead Map\n\n- We added Hero Section settings to the Edit Web Pages section in the Admin to allow for the creation of a \"Hero\" area on any custom Web Page. Widget Involved: Bootstrap Theme - Static Web Page\n\n- The Pre-Register form shown when a site is set to \"Staging Mode\" now uses the Form Manager rather than a hard-coded form in a widget. Widget Involved: Bootstrap Theme - Coming Soon Page\n\n- We updated the Post Settings in order to show the live link of the Post Type's search results page for easier access.\n\n- We fixed an issue which was making the login link in the email sent via the \"Resend Verification Email\" button not clickable in some cases.\n\n- We fixed an issue that was causing large images uploaded through the \"Profile Photo\" tab in the Member Dashboard to appear pixelated in some cases. Note: The Mozilla Firefox browser does not yet support the feature used to fix this issue. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We updated the Videos Search Results page in order to show Youtube video thumbnails in 16:9 aspect ratio instead of 4:3. Feature Involved: Videos",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065027",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065027"
+    }
+  ],
+  "lastmod": "2019-11-25T22:05:16+05:30",
+  "scraped_at": "2026-10-18T13:45:45.271375"
+}

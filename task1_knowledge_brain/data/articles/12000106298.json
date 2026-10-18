@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106298",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106298-10-03-2025-software-updates",
+  "title": "10/03/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/03/2025 - Software Updates"
+  ],
+  "content": "## 10/03/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106298\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Updated the validation of Website URL form fields powered by the Form Manager to correctly handle \"@\" symbols in URLs . Widget Involved: Bootstrap Theme - Function - Form\n\n- Fixed an issue that prevented the Import Post Data modal from working properly when importing posts via CSV file in the Admin in some cases.\n\n- Fixed an issue that prevented the \"View\" and \"Delete\" buttons from working properly when editing leads on the Member Leads page in the Admin.\n\n- Added a new set of Design Settings called \"Bottom Spacing\" and \"Text Shadow\" to control the spacing and text shadow of the Main Title Text in the Hero Content section on the homepage. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Updated the Stripe Payment Gateway integration to avoid requiring members to manually authorize new transactions on 3D Secure cards that have already been authorized previously. Widget Involved: Bootstrap Theme - Account - Leads Details Page - Purchase Button\n\n- Fixed an issue that prevented the system from sending the data of the message sender to the webhook endpoint when the Chat Message Actions webhook is triggered.\n\n- Added a new set of Design Settings to customize the layout of button links when choosing the \"Display Button Links\" option for the Hero Content section of the homepage. Widget Involved: Bootstrap Theme - Homepage Search - Hero Message with Button Links\n\n- Created a new set of Design Settings called \"Display Social Icons\" and \"Social Icons Style\" to control the display of social icon links in the website footer and member profile pages. Widget Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Member Profile - Display Website Links Bootstrap Theme - Social Media Links Bootstrap Theme - Global Website - Schema Markup\n\n- Created a new set of Design Settings called \"Background Movement\" and \"Background Position\" to control the display of the Hero Content Background Image on the homepage. Note: Apple iOS devices automatically use \"Scroll\" for the Background Movement setting, as \"Fixed\" (parallax effect) is not supported. Widget Involved: Bootstrap Theme - Homepage",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106298",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106298"
+    }
+  ],
+  "lastmod": "2025-10-08T23:02:11+05:30",
+  "scraped_at": "2026-10-18T13:56:43.903972"
+}

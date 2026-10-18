@@ -1,0 +1,87 @@
+{
+  "article_id": "5000686290",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000686290-adding-a-video-above-the-fold-of-the-homepage",
+  "title": "Adding A Video Above The Fold Of The Homepage",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Adding A Video Above The Fold Of The Homepage"
+  ],
+  "content": "## Adding A Video Above The Fold Of The Homepage\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000686290\n\nFirst, hide the entire first section by navigating to Settings >> Design Settings >>  Search Box / Call to Action >> Hide Entire Section :\n\nAdd the video as Custom Homepage Content. To start this process, navigate to Content >> Webpage Builder >> Edit Homepage :\n\nAdd the Video using the Coding Icon < >\n\nIn order to make the video larger and match the width of the rest of the elements in the homepage, replace the width and height:\n\nAlso make sure to remove or add a different Title H1 and Subtitle H2:\n\nThe last step will be to call this section as custom homepage content. To do this navigate to Settings >> Design Settings >> Homepage >> Select Content to Display >> Select: Custom Homepage Content\n\nNow you can Visit the Site, the end result is the video above the fold:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089359575/original/cCSXlUBmHOjXyySLo1Yx0vmbLaqPRD7ifA.png?1614440575",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding A Video Above The Fold Of The Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086114456/original/m43mTlCWd9YwxOTmMN7c-Oh2ocKIC2dyOw.png?1607562745",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding A Video Above The Fold Of The Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089359716/original/_SqD-pxTclcooURZN6ui5sinJeISpL7jVQ.png?1614441210",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding A Video Above The Fold Of The Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089359719/original/T-UMDwQ-qQFa7WvL08CJxD0cjHPLsx_3Sg.png?1614441219",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding A Video Above The Fold Of The Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089359703/original/25CjKIh7uId3_osf0IYar9QgbY1KlRcCjQ.png?1614441128",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding A Video Above The Fold Of The Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089359755/original/XUJ03z6yHWFnMf4zcPcpfCHCKVybrdbBDA.png?1614441383",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding A Video Above The Fold Of The Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089359816/original/PIzx4nqQAfTedHvGYzxmpkE7w4RPmweJMA.png?1614441550",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding A Video Above The Fold Of The Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000686290",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000686290"
+    }
+  ],
+  "lastmod": "2023-09-27T23:29:30+05:30",
+  "scraped_at": "2026-10-18T13:39:14.226805"
+}

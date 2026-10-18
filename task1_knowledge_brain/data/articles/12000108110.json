@@ -1,0 +1,35 @@
+{
+  "article_id": "12000108110",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108110-api-reference-menus",
+  "title": "API Reference - Menus",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Menus"
+  ],
+  "content": "## API Reference - Menus\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108110\n\n← Back to API Reference | Getting Started Menus Menus define the navigation containers on your directory site. Each menu has a name, location identifier, optional custom CSS and code, and controls whether it is active. Menu items are managed separately via the Menu Items endpoint. Model name in URL: menus — DB table: menus Default values & admin-level visibility: /get responses merge platform Default values (an uncustomized record is returned from the platform Defaults with is_default: true ) and, based on the admin account that created the API key, honor the same visibility rules as the Menu Builder ( /admin/menuBuilder.php ): menus not whitelisted for the admin level return a 403 permission error, and forbidden records are silently filtered out of list responses. See Getting Started for details. The Menu Object Field Type Description menu_id integer Unique menu ID (primary key, read-only) menu_name string Internal machine-readable name for this menu (EG header_mini_nav ); max 35 characters required on create menu_title string Human-readable display title for this menu (EG Top Header Menu ) required on create menu_location string Theme location or hook where this menu is rendered (EG header , footer ) menu_div_id string HTML id attribute applied to the menu's wrapper element; max 60 characters menu_div_class string HTML class attribute applied to the menu's wrapper element; max 60 characters menu_div_css text Custom CSS scoped to this menu's wrapper element menu_div_code text Custom HTML or PHP code injected into the menu's wrapper menu_effects string JavaScript animation or effect applied to this menu (EG slide , fade ); max 60 characters menu_active integer Whether this menu is active and rendered on pages: 1 active, 0 inactive revision_timestamp timestamp Timestamp of the last modification to this record (auto-managed) List Menus GET /api/v2/menus/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/menus/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"menu_id\": \"62\",\n      \"menu_name\": \"header_mini_nav\",\n      \"menu_title\": \"Top Header Menu\",\n      \"menu_location\": \"\",\n      \"menu_div_id\": \"\",\n      \"menu_div_class\": \"\",\n      \"menu_div_css\": \"\",\n      \"menu_div_code\": \"\",\n      \"menu_effects\": \"\",\n      \"menu_active\": \"1\",\n      \"revision_timestamp\": \"2020-10-28 19:46:38\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Retrieve a Menu GET /api/v2/menus/get/{menu_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/menus/get/62\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"menu_id\": \"62\",\n      \"menu_name\": \"header_mini_nav\",\n      \"menu_title\": \"Top Header Menu\",\n      \"menu_location\": \"\",\n      \"menu_div_id\": \"\",\n      \"menu_div_class\": \"\",\n      \"menu_div_css\": \"\",\n      \"menu_div_code\": \"\",\n      \"menu_effects\": \"\",\n      \"menu_active\": \"1\",\n      \"revision_timestamp\": \"2020-10-28 19:46:38\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Menu POST /api/v2/menus/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/menus/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"menu_name=footer_nav\" \\\n  -d \"menu_title=Footer+Navigation\" \\\n  -d \"menu_location=footer\" \\\n  -d \"menu_active=1\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"menu_id\": \"63\",\n    \"menu_name\": \"footer_nav\",\n    \"menu_title\": \"Footer Navigation\",\n    \"menu_location\": \"footer\",\n    \"menu_div_id\": null,\n    \"menu_div_class\": null,\n    \"menu_div_css\": null,\n    \"menu_div_code\": null,\n    \"menu_effects\": null,\n    \"menu_active\": \"1\",\n    \"revision_timestamp\": null\n  }\n} Update a Menu PUT /api/v2/menus/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/menus/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"menu_id=63\" \\\n  -d \"menu_title=Site+Footer+Navigation\" \\\n  -d \"menu_div_class=footer-nav-wrapper\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"menu_id\": \"63\",\n    \"menu_name\": \"footer_nav\",\n    \"menu_title\": \"Site Footer Navigation\",\n    \"menu_location\": \"footer\",\n    \"menu_div_id\": null,\n    \"menu_div_class\": \"footer-nav-wrapper\",\n    \"menu_div_css\": null,\n    \"menu_div_code\": null,\n    \"menu_effects\": null,\n    \"menu_active\": \"1\",\n    \"revision_timestamp\": \"2026-04-03 10:00:00\"\n  }\n} Delete a Menu DELETE /api/v2/menus/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/menus/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"menu_id=63\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"menus record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108110",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108110"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-07-02T11:26:36+05:30",
+  "scraped_at": "2026-10-18T13:58:16.957247"
+}

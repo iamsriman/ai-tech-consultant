@@ -1,0 +1,315 @@
+{
+  "article_id": "12000008053",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008053-member-leads-lead-settings-form-settings",
+  "title": "Member Leads » Lead Settings » Form Settings",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "Member Leads » Lead Settings » Form Settings"
+  ],
+  "content": "## Member Leads » Lead Settings » Form Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000008053\n\nTo edit the general settings of the Leads Module, Navigate to Interactions » Member Leads » Lead Settings . This opens the Edit Lead Settings Basic page If the Automatic Lead Matching Add-On is active on the site, these settings will appear inside the lead action module. Click Edit to open the form settings: Lead Settings (Basic) Maximum Acceptances Set the maximum number of members who can accept or purchase each lead after it has been matched to them. This includes members matched directly or automatically.). Maximum Lead Inquiries Per Day Set the maximum number of lead inquiries a visitor can submit per day. Enter 0 for unlimited submissions. This limit is based on the visitor’s IP address. After the limit has been reached by a visitor, it will show an alert “ Daily Submission Limit Reached ” This alert is a text label: Daily Getmatched Limit Reached Database Variable: daily_getmatched_limit_reached Automatically Match Leads to Qualified Members * This will only appear if the site has the Automatic Lead Matching Add-On *\n\n\n## Form Settings\n\n\n\n### Enable \"Get Replies from more members?\" Option\n\n\nSelect \"Yes\" to display \"Get Replies from more members?\" . Only applies for Lead forms on the profile pages:\n\n\n### Hide Field Labels\n\n\nOFF (Show Field Label) ON (Hide Field Label)\n\nNote: When field labels are hidden, the system automatically displays the word Required for required fields. This text can be edited from the corresponding text label.\n\n\n### Display Location Fields & Make Location Fields Required?\n\n\nChoose whether to display location fields on the lead form, and whether those fields should be required.\n\nIMPORTANT NOTE: For automatching to work, a lead must include category information, location information, or both. If automatching is enabled, at least one of these fields should be required\n\n\n### Map Display Options\n\n\nDefault Only Map Only Input\n\n\n### Display Preferred Reply Day & Time\n\n\n\n### Make Category Fields Required?\n\n\n\n### Category Display Options\n\n\nSelect which category levels should appear on the lead form.\n\nWhen selecting the \"Only Sub Level Categories\" or \"Sub & Sub-Sub Categories\" options, it's possible to select the top-level categories of the sub-level categories that will display:\n\n* Limit sub-categories that will be included. Leave all unchecked or check all to include sub-categories from all top-level categories.\n\nNote: If the member hasn't selected a Top, Sub, or Sub-sub category the specific category dropdown fields would be hidden.\n\n\n### Pre-Selected Categories\n\n\nSelect which categories should be pre-selected or available in the lead form for top-level, sub-level, and sub-sub-level categories.\n\nThis setting will preselect the categories that display in the form:\n\nThe category fields will respect the order assigned to the categories using the \" Default Category Sort Order \" setting:\n\n\n### Share Form Settings: Profile Pages & Website Pages\n\n\n* This will only appear if the site has the Automatic Lead Matching Add-On *\n\nTurn this setting ON to use the same lead form settings for both profile pages and website pages. Turn it OFF to configure separate settings for website pages.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153051910/original/aeO58O1yQf7-PUENC8u5gZjZSkUN-ebqgA.png?1732547564",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153052037/original/lNDEaQkL4OJT6Ibq7swB8QsjMlc9KdXn9A.png?1732547622",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127483963/original/mjegsdcetCPB3WCBZ9ZjtMH64Ut3zYVzZw.png?1687812431",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127484030/original/WSqg0D8H5NH21knzDwAlJ0ePiH38dZ4Jpw.png?1687812470",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092434743/original/GaKRyBOVjbc9C9SXZf7ZnY8SvkSrAkKetA.png?1620663672",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153061738/original/dxgqZMQQ9sp_xJyUwB4bKOxXb1xvk5MwYA.png?1732554726",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153062115/original/NysIcrsgFLcV-0RrKsIO7gsZ_mBhcZFfjg.png?1732554974",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084473963/original/uZnl_lTi-co0yTJgWII95UrREY18CRpxmg.png?1604416108",
+      "alt": null,
+      "caption": "* This will only appear if the site has theAutomatic Lead Matching Add-On*",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: * This will only appear if the site has theAutomatic Lead Matching Add-On*",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12111879581/original/P_Jib4nO4x4aYM6kT_fWUPJA17kSP2MeTA.png?1658251272",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092434873/original/EcGy1p0zH83w4Pzw6iQf-iNdOOVYLr1h0g.png?1620663785",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079934475/original/5kToE_AI80o977UKSJ3AbnizJ08qewQPJQ.png?1594733936",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092434911/original/38nYuJQsOwngRy4PqyojvcQihh0QO83ZoA.png?1620663820",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153062393/original/zLsTmxyi177RuXeYNTuDb2XJYgJZMAGJag.png?1732555319",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153062388/original/PhSUaF5UkNnkV2SfChB8fg9oSMXFTbftQw.png?1732555315",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092435062/original/ynUK-dlCU2v_hu9BV8RNWM4vgoU9ljdF-g.png?1620663994",
+      "alt": null,
+      "caption": "Context: Display Location Fields & Make Location Fields Required?",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: Context: Display Location Fields & Make Location Fields Required?",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092435086/original/Du5sIGOWytDCvUH-6U0eSyufsvryxv-mcw.png?1620664022",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094449379/original/yC3Z039Njfggoa8s80WBi-afuVmGb7OYXA.png?1624379968",
+      "alt": null,
+      "caption": "Context: Only Input",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: Context: Only Input",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094449279/original/VUgb4JoMOSbY63ec82KodvkI_HZBvq3RVA.png?1624379895",
+      "alt": null,
+      "caption": "Context: Only Input",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: Context: Only Input",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094449230/original/TGFeIU0WovwB9h-lZ8mp7qeHw5HIvEJ05Q.png?1624379830",
+      "alt": null,
+      "caption": "Context: Only Input",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: Context: Only Input",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092435409/original/dqYRu7E95gjjK29W6li1IimYqAyCNS9Suw.png?1620664318",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092435264/original/EQsni9-u-u1_TcKotxqi25-y8OJMBS7zcw.png?1620664183",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092438081/original/dgViHDstlcuwNrzwCvppKSEQ6i_YPLi-jQ.png?1620667618",
+      "alt": null,
+      "caption": "Context: Make Category Fields Required?",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: Context: Make Category Fields Required?",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092438059/original/IYxG0VMW9t0O6rM5Tqeme-EwQZihqyzuEg.png?1620667611",
+      "alt": null,
+      "caption": "Context: Make Category Fields Required?",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: Context: Make Category Fields Required?",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092438130/original/2A4ytZaI2DCr21wlZsNG_N_CoSiOAMlozA.png?1620667669",
+      "alt": null,
+      "caption": "Context: Category Display Options",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: Context: Category Display Options",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092438133/original/bgbARIxZMysUCcPVbzT5E8_2kRymnNOL7w.png?1620667676",
+      "alt": null,
+      "caption": "Select which category levels should appear on the lead form.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'. Context: Select which category levels should appear on the lead form.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092438137/original/_-qjZ255EhAWYTFGexTmxB5Tm9psTPp15Q.png?1620667683",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153063040/original/JxdzDwx_cXiUoJUlxlJOaYFhxczmX6iFAQ.png?1732555827",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153063011/original/ZTljgNLxj3d0JH--Z_RW3umARQelrpGB1w.png?1732555794",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153063130/original/3Sv2khZ2oI4qU2_Vn8EGwX_LlTbGKH_6Tg.png?1732555884",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092438420/original/0zCLzqG5XV7578QyJInEhP5y41ZRbimL2A.png?1620668003",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12112017251/original/-1fuXpOk8I4cFHBmLX7oBc7eWzbEhYTRpw.png?1658423458",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Leads » Lead Settings » Form Settings' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000008053",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008053"
+    },
+    {
+      "text": "Automatic Lead Matching Add-On",
+      "url": "https://www.brilliantdirectories.com/advanced-leads-module-with-auto-matching"
+    },
+    {
+      "text": "Automatic Lead Matching Add-On",
+      "url": "https://www.brilliantdirectories.com/advanced-leads-module-with-auto-matching"
+    },
+    {
+      "text": "Automatic Lead Matching Add-On",
+      "url": "https://www.brilliantdirectories.com/advanced-leads-module-with-auto-matching"
+    }
+  ],
+  "lastmod": "2026-06-03T00:13:47+05:30",
+  "scraped_at": "2026-10-18T13:40:04.298193"
+}

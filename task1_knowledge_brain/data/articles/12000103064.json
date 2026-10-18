@@ -1,0 +1,244 @@
+{
+  "article_id": "12000103064",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103064-top-sidebar-widgets",
+  "title": "Top Sidebar Widgets",
+  "category": "Toolbox",
+  "folder": "Sidebar Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Sidebar Manager",
+    "Top Sidebar Widgets"
+  ],
+  "content": "## Top Sidebar Widgets\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103064\n\nThis article highlights the top sidebar widgets frequently used across various site pages, including profile pages, search results, and post pages. It is designed to help site admins select the best widgets to enhance page sidebars and improve user experience.\n\nWhile it doesn't include every widget option available, it focuses on the most popular and effective choices.\n\n\n## Adding Widgets to a Sidebar\n\n\nTo search for and add widgets to sidebars:\n\n- Go to Toolbox\n\n- Select Sidebar Manager\n\n- Find the desired sidebar and click \" Edit \"\n\n- Search for the widget\n\n- Drag and drop it into the sidebar\n\n- Save\n\nThroughout this article, each widget is listed with its reference in the format [widget=...] . This is the widget's name — search for it in the Sidebar Manager to find and add it.\n\nMore information:\n\n- Sidebar Alignment: Design Settings » Sidebar Alignment Options\n\n- Sidebar Manager Overview : Toolbox » Sidebar Manager\n\n- How to Create a Sidebar\n\n\n## Universal Sidebar Widgets\n\n\nThese widgets can be added to any page and will retain their intended functionality.\n\n\n### Share this Page\n\n\nDisplays social sharing buttons for the current page.\n\n[widget=Bootstrap Theme - Module - Social Share]\n\n\n### Join Our Community\n\n\nInvites users to get listed on the site.\n\n[widget=Bootstrap Theme - Module - Member Join Offer]\n\n\n### Join Newsletter\n\n\nAllows members and users to join the site's newsletter.\n\n[widget=Bootstrap Theme - Module - Newsletter Sign Up Form]\n\n\n## Sidebar Videos & Text Boxes\n\n\nEnhance the website sidebars with videos and custom text boxes to showcase important content, promotions, or helpful resources.\n\n\n### Video\n\n\nAdd videos to sidebars by creating a new widget and inserting the embed code: How to Add a Video in a Sidebar\n\n\n### Text Box\n\n\nAdd a custom text box to sidebars by creating a new widget and inserting the text content: How to Create a Text Box to Display Text in a Sidebar\n\n\n## Banner Ads on Sidebars\n\n\nThe process of adding banners to any sidebar can be found here: Adding Banners to Sidebars\n\n\n## Global Search Results\n\n\nThe default sidebar used on this page is Global Website Search .\n\n\n### Global Search\n\n\nThis widget allows users to search more keywords across the entire site.\n\n[widget=Bootstrap Theme - Module - Global Website Search]\n\n\n## Member Profiles\n\n\nThe default sidebar used on this page is the Member Profile Page default sidebar.\n\n\n### Contact Form\n\n\nThis widget allows users to contact the member.\n\n[widget=Bootstrap Theme - Module - Member Contact Form]\n\n\n### Related Searches\n\n\nThis widget shows related searches based on the member's information.\n\n[widget=Bootstrap Theme - Module - Member Related Searches]\n\n\n### Facebook Feed\n\n\nWith this widget, the Facebook Feed streams all of the latest posts and updates from a specific Facebook account.\n\nOnly Facebook Company Pages or Fan Pages will stream content.\n\n\n## Member Search Results\n\n\nThe default sidebar used on this page is the Member Search Result default sidebar.\n\n\n### Search Module\n\n\nThis widget finds members based on keywords and/or location.\n\n[widget=Bootstrap Theme - Search Module - Keyword_Location]\n\n\n### Recent Reviews\n\n\nThis widget displays recent reviews left on member's profiles.\n\n[widget=Bootstrap Theme - Module - Recent Reviews]\n\n\n## Post Search Results\n\n\nThe default sidebar used on this page is the Post Search Result and some common widgets to use are:\n\n\n### Dynamic Sidebar Search\n\n\nThis widget will adapt to the selected Post Type and show relevant filter options accordingly\n\n[widget=Bootstrap Theme - Search Module - Dynamic Sidebar Search]\n\n\n## Post Detail Page\n\n\nThe default sidebar used on this page is the Post Single Page and some common widgets to use are:\n\n\n### Posted By Author\n\n\nThis widget will show the author of the post along with options to contact or see the profile.\n\n[widget=Bootstrap Theme - Module - Posted by Author Snapshot]\n\n\n### Post Location Map\n\n\nThis widget will display the location of the post.\n\n[widget=Bootstrap Theme - Module - Post Location Map]\n\n\n### Related Posts\n\n\nThis widget will display the related posts by category.\n\n[widget=Bootstrap Theme - Display - Related Posts by Category]\n\n\n## Notes\n\n\n- Dynamic search modules and regular search modules can't be used on the same sidebar.\n\n- Custom widgets can also be added, the functionality will depend on the custom code.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180303636/original/f-EhdMR16Np2ovUh6jErepZlW2pnUMoP4w.png?1781237902",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155696204/original/T-rZ5DXUGAxYq5h6RqZAmzCcN1Ip8lmyKQ.gif?1737431893",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180303719/original/vckAPJVw_QXJshhfr72mQNR-EihRsi7SZA.png?1781238060",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180303820/original/rXDj4LDGpJu9rdAbPHY2ldLffTBb59YpQQ.png?1781238648",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180303823/original/qzijQ6DbOFc3xv6jcQG0zztNERPgLMdpdw.png?1781238707",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180303922/original/BBdC1u0htXn6RjP-x-3MDxdjQeXWZ8tHhg.png?1781239043",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155676042/original/aeU9tMO7Mw4flg98TECcbN8ZdkvP-OTu3A.png?1737398008",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175004573/original/wc86GOeuuno589RUwkEgkch9OrpiSVmRIA.png?1771714704",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155675407/original/2Fd6SNIXFHIjniMe2zdn7_OWwri9cqw_1w.png?1737397264",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155696325/original/xGawjbtAGE8wIsOlkEC5tPHHY_EkIV9YDw.png?1737432086",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156117352/original/StNGYvAtO2WtJwxbKkWUPpXdrlYAZrlGPA.png?1738111682",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155743940/original/lYQzlq3wYHEhGIygnU9Hb7iNRBYfrkrfJQ.png?1737491946",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155743656/original/PmJlZRij56rPHIbTJK_fr_VhuxVMfn-CDQ.png?1737491592",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155743962/original/zQSzvIJESLw2O6ob1ec1-SgpkiyB7fUqhA.png?1737491968",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155833293/original/vmGJrIPrWRLvqK-GV6uiD7s0ThxoqRCWkg.png?1737606979",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155833317/original/_J7zoQjOuGHxRTQrQxcPvHqekRJatqQ_8g.png?1737607040",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175004614/original/ivIJMfCucTj2QggKJtDj0DRpn9lncH32sA.png?1771714830",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155833436/original/NXm2dv6_dYwMsrUlzYFhreV6rnfM1XTIMw.png?1737607453",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155833447/original/1ONs9FpjQZveMUmY5WSWqbFhxtkp0tfY_A.png?1737607561",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155833471/original/xwEieQ9xCkuZm_9NzkGqBtT67NVeBOpxVw.png?1737607645",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Top Sidebar Widgets' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103064",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103064"
+    },
+    {
+      "text": "Design Settings » Sidebar Alignment Options",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000045050"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000673365-toolbox-»-sidebar-manager"
+    },
+    {
+      "text": "How to Create a Sidebar",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047136"
+    },
+    {
+      "text": "How to Add a Video in a Sidebar",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000033973"
+    },
+    {
+      "text": "How to Create a Text Box to Display Text in a Sidebar",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000033704"
+    },
+    {
+      "text": "Adding Banners to Sidebars",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019194-settings-design-settings-banner-ads#section-adding-banners-to-sidebars"
+    },
+    {
+      "text": "Global Website Search",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000073931-global-website-search"
+    },
+    {
+      "text": "Contact Form",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000067995-leads-»-front-back-end-overview"
+    },
+    {
+      "text": "Related Searches",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000091597-showing-related-members-by-category-and-location"
+    },
+    {
+      "text": "Facebook Feed",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019740"
+    }
+  ],
+  "lastmod": "2026-06-13T00:01:35+05:30",
+  "scraped_at": "2026-10-18T13:55:34.842404"
+}

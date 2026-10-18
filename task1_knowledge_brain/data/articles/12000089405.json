@@ -1,0 +1,23 @@
+{
+  "article_id": "12000089405",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089405-08-12-22-software-updates",
+  "title": "08/12/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/12/22 - Software Updates"
+  ],
+  "content": "## 08/12/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089405\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added a setting called \"Only Show Sub-Categories Level\" for the \" Streaming Sub Categories\" homepage section found in the Design Settings . This setting allows the Admin to  display \"All Subcategories\", \"Sub-Categories Only\" or \"Sub-Sub Categories Only\". Widget Involved: Bootstrap Theme - Display - Sub Level Categories\n\n- We fixed an issue which was preventing the Related Posts widget from displaying Vimeo video thumbnail images in some cases. Widget Involved: Bootstrap Theme - Display - Related Posts by Category\n\n- We fixed an issue which was affecting the ability to use the Predictive Keyword Search Add-On on the homepage when the Homepage Background Slider Add-On was active in some cases. Widget Involved: Bootstrap Theme - Display - Background Slideshow\n\n- We updated the workflow of the Import Members page in the Admin to include a popup notification to encourage Admins to sync the newly imported members with Google Maps after import.\n\n- We updated the paid member signup pages to display an error message when the site has not yet installed a Payment Gateway.\n\n- We updated the Blog Article Publish Start Date field to make it compatible with the Website Time Zone setting when creating blog posts on the frontend of sites. Widget Involved: Bootstrap Theme - Start DateTime Picker\n\n- We updated the Froala WYSIWYGs to the latest version available.\n\n- We fixed an issue which was affecting the ability to display the Homepage Background Slider arrows when the \"Show Slideshow Arrows\" Design Setting was active in some cases.\n\n- We fixed an issue which was causing the system to append a \"-1\" to member category filenames when importing categories through the Admin.\n\n- We fixed an issue which was adding extra whitespace in the Featured Blog Posts Slider widget in some cases. Widget Involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider\n\n- We fixed an issue which was preventing members from completing the purchase of a Digital Product when the member did not have a credit card on file and the site was using an internal Payment Gateway other than Stripe.\n\n- We fixed an issue which was affecting the ability to edit leads from the Manage Leads page on the Admin in some cases.\n\n- We updated the Member Categories page in the Admin to load correctly for sites that have an extremely large number of categories.\n\n- The post search results and Global Website Search Results pages are now compatible with the Google Search Assist Add-On. Widget Involved: Bootstrap Theme - Post Results - No Results\n\n- We fixed an issue which was preventing the Markup Schema widget from working properly in some cases. Widget Involved: Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article\n\n- We created a new Form Field setting in the Form Manager called \"Admin Only\".  When this setting is enabled for a field, the field will only be visible when visiting the site as an Admin using the \"Visit Website\" button. To use this new feature ,navigate to the Admin >> Toolbox >>Form Manager >> Edit >> Display Settings.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089405",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089405"
+    }
+  ],
+  "lastmod": "2022-08-15T23:23:04+05:30",
+  "scraped_at": "2026-10-18T13:50:07.522565"
+}

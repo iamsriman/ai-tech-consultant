@@ -1,0 +1,23 @@
+{
+  "article_id": "12000085516",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085516-01-28-22-software-updates",
+  "title": "01/28/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/28/22 - Software Updates"
+  ],
+  "content": "## 01/28/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000085516\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the \"Member Signup Page URL\" validation message to display the name of the Membership Plan setting instead of \"CHECKOUT URL\".\n\n- We updated how front-end cookies are stored in browsers to allow login pages to work in iframes.\n\n- We updated the layout of the Subscription Tab and added the date subscriptions were ended on the Member Details page in the Admin. Also, the \"End Subscription\" action s now being logged in the Activity Tracker.\n\n- We fixed an issue which was affecting the ability to use credit cards issued by banks in the European Union in some cases.\n\n- We updated the Google Sitemap Generator to not include the search results and details pages of Post Types that are set as Members Only.\n\n- We updated the logic of the Google Sitemap Generator to not include the member profile /connect pages when the 'Show \"Send Message\" Buttons & Forms' Membership Plan setting is set to \"No\"",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000085516",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085516"
+    }
+  ],
+  "lastmod": "2024-05-09T11:31:13+05:30",
+  "scraped_at": "2026-10-18T13:49:25.354741"
+}

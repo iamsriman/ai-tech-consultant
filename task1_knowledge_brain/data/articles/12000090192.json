@@ -1,0 +1,23 @@
+{
+  "article_id": "12000090192",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090192-10-07-22-software-updates",
+  "title": "10/07/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/07/22 - Software Updates"
+  ],
+  "content": "## 10/07/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090192\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the layout of the of the Private Member Chat Add-On in the Member Dashboard in order to add a \"Send Message\" button.\n\n- We updated the logic of the Grid View Search Results Add-On to load the third party JS resources from the site's domain and only load it when the Add-On is active. Widget Involved: Bootstrap Theme - Footer - Scripts - Grid View Scripts\n\n- We fixed an issue which was preventing the system from displaying the keyword search filter on the Lead Settings page in the Admin when the Automatic Lead Matching Add-On is not active on the site.\n\n- We updated the member search results page after performing a location search in order to display the name of the Service Area that caused the member to be included in the location search results. Widget Involved: Search - Member - Search Query\n\n- We updated the Brilliant Directories API in order to add the abilities to update existing members through the API.\n\n- We added the ability to send the cover_image variable when adding or updating members when using the Brilliant Directories API. We also added the same logic to support importing Cover Images using the cover_image variable when importing members via CSV file through the Admin.\n\n- We fixed an issue which was preventing the price of Digital Product posts from displaying correctly on post details pages.\n\n- We added the ability to create custom web pages for Membership Plan Search Results URLs using the Web Page Builder.\n\n- We fixed an issue which was preventing the system from returning accurate results when using the Dynamic Category Filtering Add-On with the \"Category Keyword Searches\" setting set to \"strict\" in some cases. Widget Involved: Search - Member - Search Query\n\n- We updated the Froala WYSIWYG in the Admin to add a custom popup toolbar to add an ID to header elements (H1 ,H2, etc) in the editor.\n\n- We created a new Advanced Setting called \"Froala Upload File for Chat\". This new setting allows site members to upload PDF files when using the Private Member Chat Add-On. Widgets Involved: Bootstrap Theme - Form - Froala Editor Actions Form - Froala Editor Javascript",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090192",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090192"
+    }
+  ],
+  "lastmod": "2022-10-10T22:57:11+05:30",
+  "scraped_at": "2026-10-18T13:50:19.559529"
+}

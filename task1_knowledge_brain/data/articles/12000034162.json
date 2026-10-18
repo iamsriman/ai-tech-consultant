@@ -1,0 +1,23 @@
+{
+  "article_id": "12000034162",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034162-08-18-17-software-updates",
+  "title": "08/18/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/18/17 - Software Updates"
+  ],
+  "content": "## 08/18/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000034162\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We updated the link of the Show Widget features when an Admin visits a site.\n\n- We fixed an issue that was affecting the load speed of the pages when the Events Calendar widget has been activated. Widget Involved: Bootstrap Theme - Function - Events Calendar JSON Array\n\n- We removed the ability to copy a newsletter campaign that was sent in the past, this functionality will be back in the future once this entire module is refactored.\n\n- The pagination arrows on the Search Results pages are now working as they should. Widget Involved: Bootstrap Theme - Pagination\n\n- The following sections in the Profile Pages are now based on text labels: Member Profile Badge section, location address section, website and social media link sections. Widgets Involved: Bootstrap Theme - Member Profile - Badges Bootstrap Theme - Member Profile - Display Member Address Bootstrap Theme - Member Profile - Display Website Links\n\n- The Admin Email Signature is now working as it should.\n\n- We fixed an issue that was affecting the Promo Code Addon when the Deep Blue Color Theme as set on a site. Widgets Involved: Bootstrap Theme - Signup Page Layout - Promo Code Input\n\n- We added a new Design Setting that will adapt the hero image of the homepage to mobile devices. To use this setting navigate to the Admin >> Settings >> Design Settings and on the homepage search setting next to the Homepage Image you will find this new setting. Widget Involved: Bootstrap Theme - Homepage\n\n- We fixed an issue that was affecting the search results order of the Feature Post (Articles, Events, Photo Albums, etc).\n\n- We fixed an issue with the Email Templates on the Leads Module, now is working as it should.\n\n- We updated the Email Templates module in order to fix the Preview button when you are editing an Email Template.\n\n- We remove the Contact Us Tags from the Contact Tags module, this functionality will be back in the future since this module needs a refactor.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000034162",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034162"
+    }
+  ],
+  "lastmod": "2017-09-07T22:13:16+05:30",
+  "scraped_at": "2026-10-18T13:41:36.115234"
+}

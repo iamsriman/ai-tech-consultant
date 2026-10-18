@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095798",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095798-add-custom-tabs-to-member-profile-pages-using-jquery",
+  "title": "Add Custom Tabs to Member Profile Pages Using JQuery",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Add Custom Tabs to Member Profile Pages Using JQuery"
+  ],
+  "content": "## Add Custom Tabs to Member Profile Pages Using JQuery\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095798\n\nThis article provides jQuery examples for adding one or more custom tabs to member profile pages. When the page loads, the script appends a new tab to the profile navigation and creates the corresponding tab content. Insert the desired code snippet at the bottom of the SEO Template or in Design Settings → Custom Footer Code . Tip If the custom tab contains more than plain text (such as widgets or dynamic content), using [widget=shortcode] inside the tab content may provide more reliable rendering. Add a Single Custom Tab Use the following example to add a single custom tab to member profile pages. <script>\n$(document).ready(function(){\n    $('.profile-tabs-nav').append('<li role=\"presentation\"><a href=\"#divNew\" rel=\"nofollow\" aria-controls=\"tNew\" aria-label=\"New Tab\" role=\"tab\" data-toggle=\"tab\" aria-selected=\"false\">New Tab</a></li>');\n    $('.tab-content').append('<div role=\"tabpanel\" class=\"tab-pane\" id=\"divNew\">New Tab Content</div>');\n});\n</script> Add Multiple Custom Tabs Use the following example to add multiple custom tabs to member profile pages. <script>\n$(document).ready(function(){\n    $('.profile-tabs-nav').append('<li role=\"presentation\"><a href=\"#divNew1\" rel=\"nofollow\" aria-controls=\"tNew1\" aria-label=\"New Tab 1\" role=\"tab\" data-toggle=\"tab\" aria-selected=\"false\">New Tab 1</a></li>');\n    $('.tab-content').append('<div role=\"tabpanel\" class=\"tab-pane\" id=\"divNew1\">New Tab Content 1</div>');\n    \n    $('.profile-tabs-nav').append('<li role=\"presentation\"><a href=\"#divNew2\" rel=\"nofollow\" aria-controls=\"tNew2\" aria-label=\"New Tab 2\" role=\"tab\" data-toggle=\"tab\" aria-selected=\"false\">New Tab 2</a></li>');\n    $('.tab-content').append('<div role=\"tabpanel\" class=\"tab-pane\" id=\"divNew2\">New Tab Content 2</div>');\n    \n    $('.profile-tabs-nav').append('<li role=\"presentation\"><a href=\"#divNew3\" rel=\"nofollow\" aria-controls=\"tNew3\" aria-label=\"New Tab 3\" role=\"tab\" data-toggle=\"tab\" aria-selected=\"false\">New Tab 3</a></li>');\n    $('.tab-content').append('<div role=\"tabpanel\" class=\"tab-pane\" id=\"divNew3\">New Tab Content 3</div>');\n});\n</script>",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095798",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095798"
+    }
+  ],
+  "lastmod": "2026-07-01T04:03:42+05:30",
+  "scraped_at": "2026-10-18T13:52:48.912538"
+}

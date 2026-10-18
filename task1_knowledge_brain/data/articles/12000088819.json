@@ -1,0 +1,23 @@
+{
+  "article_id": "12000088819",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088819-07-29-22-software-updates",
+  "title": "07/29/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/29/22 - Software Updates"
+  ],
+  "content": "## 07/29/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088819\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Homepage Background Slider Add-On from working properly on some iPhone versions in some cases. Widget Involved: Bootstrap Theme - Display - Background Slideshow\n\n- We fixed an issue which was preventing CSV files uploaded to the CV/Brochure form field from being downloaded in some cases sites.\n\n- We fixed an issue which was preventing Admins from deleting members in some cases.\n\n- We fixed an issue which was affecting the ability to delete posts from the Manage Posts page in the Admin when selecting all results to apply the bulk action in some cases.\n\n- We updated sites using the legacy leads module to prevent Spam form submissions.\n\n- We fixed an issue which was preventing the search filters for posts in the Member Dashboard from working properly in some cases. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Leads - New Lead System DataTables Bootstrap Theme - Account - Photo Albums datatable\n\n- We created a new Advanced Setting called \"Reload Same Web Page After Express Member Registration\". Enabling this setting will keep users on the same page after they sign up as a member via the Express Member Registration form instead of being redirected to the Member Dashboard. We also created a new Advanced Setting called \"Reload Same Web Page After Express Member Registration - Exception List\".  The URLs entered into this setting will continue to redirect users to the Member Dashboard after signing up, even when the previous setting is active on the site. Widget Involved: Bootstrap Theme - Success Page - Free Member Sign Up\n\n- We fixed an issue which was preventing the Streaming Events homepage widget from properly ordering events when selecting the \"Date Posted\" option in the Display Order Design Settings. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We fixed an issue which was causing the Related Posts widget on Post Details pages to display expired events in some cases. Widget Involved: Bootstrap Theme - Display - Related Posts by Category\n\n- We created a new search option for the 301 Redirect page call \"Find Unused Redirects\". Using this filter will return all redirects that currently point to a URL that is not in use on the website.\n\n- We created a new Advanced Setting called \"Allow Widget Shortcode in Front-End Text Editor\".  Enabling this setting will allow widgets to be added to posts using the \"Froala Text Editor - Media Manager Access\" form field.\n\n- We fixed an issue which was preventing the \"Member Profile URL Structure\" Advanced Setting from working properly after it was edited.\n\n- We updated the logic of the Streaming Properties homepage widget and the Properties Post Type code to only display bed and bathroom data when a value other than 0 has been saved for the fields. Widget Involved: Bootstrap Theme - Display - Recent Properties Post Type Involved: Property\n\n- We added the ability to set a Default Member Cover image. To use this new feature, navigate to the Admin >> Settings >> General Settings >> Brand Images tab.\n\n- We fixed an issue which was causing the Activity Tracker to display \"Member Deleted\" entries without member data in some cases.\n\n- We fixed an issue which was preventing members from being returned to the Member Dashboard when using the Pay per Post Add-On on sites running PayPay Express/Standard as payment gateway in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088819",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088819"
+    }
+  ],
+  "lastmod": "2022-08-21T22:47:39+05:30",
+  "scraped_at": "2026-10-18T13:50:03.081450"
+}

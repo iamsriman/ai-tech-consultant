@@ -1,0 +1,23 @@
+{
+  "article_id": "12000080800",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080800-07-16-21-software-updates",
+  "title": "07/16/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/16/21 - Software Updates"
+  ],
+  "content": "## 07/16/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080800\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to duplicate the United Kingdom country dropdown options when editing a member's billing address.\n\n- We added Stripe payment gateway support for zero-decimal currencies.\n\n- We fixed an issue which was preventing the system from completing paid signups when using the Easy Coupons Code and Free Trial Period Add-Ons simultaneously in some cases.\n\n- We removed a section of legacy code which was causing the system to redirect to a member location search when a user searches for a 5-digit number as a keyword.\n\n- We updated the Member Dashboard sidebar in order to display the profile image even if the member does not have a name or company name saved. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We fixed an issue which was preventing the system from displaying Vimeo video thumbnails in the streaming videos homepage widget in some cases. Widget Involved: Bootstrap Theme - Display - Recent Videos\n\n- We fixed an issue which was affecting the ability to use the location search on the Global Website Search results page in some cases.\n\n- We fixed an issue which was preventing users from purchasing leads in some cases.\n\n- We added the ability to upload .jfif, .woff, .woff2 and eot files using the Media Manager in the Admin.\n\n- We created a new set of homepage widgets that can be used to display additional sections of custom content powered by the Froala WYSIWYG. To use this new feature, navigate to the Admin >> Settings >> Design Settings >> Homepage tab >> Select Content to Display.\n\n- We fixed an issue which was causing the Form Manager to get stuck on the \"Processing\" message when trying to save a form in some cases.\n\n- We improved the logic of the Member Profile Analytics Add-On to more accurately track the profile views on member profile pages.\n\n- We fixed an issue which was affecting the ability to display the dropdown values on post search modules, causing the system to display both the values and variable names in some cases. Widget Involved: Bootstrap Theme - Module - Property Search\n\n- We fixed an issue which was preventing the system from displaying the member CV file after replacing the file in the Member Dashboard in some cases.\n\n- We updated the Froala WYSIWYG in order to allow the \"allow\" attribute in HTML elements. Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue which was preventing the system from loading the Smart List page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080800",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080800"
+    }
+  ],
+  "lastmod": "2021-07-17T05:21:22+05:30",
+  "scraped_at": "2026-10-18T13:48:47.111106"
+}

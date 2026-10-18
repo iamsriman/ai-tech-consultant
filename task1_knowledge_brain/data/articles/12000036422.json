@@ -1,0 +1,138 @@
+{
+  "article_id": "12000036422",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036422-how-to-select-categories-as-a-member",
+  "title": "How To Select Categories as a Member",
+  "category": "My Members",
+  "folder": "Member Categories",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Member Categories",
+    "How To Select Categories as a Member"
+  ],
+  "content": "## How To Select Categories as a Member\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000036422\n\nIn this article, we will cover how to select categories as a member and how to enable sub category selection for the members inside the admin.\n\nThe form category sort order is based on the selection in the \"Default Category Sort Order\" setting: Default Category Sort Order\n\n\n### Important\n\n\n- The Top Category is selected in the Contact Details form.\n\n- The Sub Categories and Sub-Sub Categories are selected in the Listing Details (Additional Details) form.\n\n- A different approach can be found here: How To Select Categories As A Member In One Member Form .\n\n\n## Login as a Member\n\n\nLog in using the member credentials or log in as a member in the Admin Dashboard: Login As Member\n\nOnce logged in as a member, click on the Contact Details Form:\n\nThere is going to be a form field called Top Category, or Best Describes You. Now , select the one that suits the member's business:\n\nScroll down the form and click on Save & Continue. This will redirect to the Profile Photo tab automatically . From there, click on the Listing Details (Additional Details) tab :\n\nMembers can select multiple sub-categories that they Specializes in:\n\nMembers can \"Search by Keyword\" if there are a lot of categories on this form.\n\nOnce the Sub or Sub-sub category has been selected, it will appear as a tag below the \" You Are Listed.. \" message:\n\nClicking on the \"X\" on these tags will also deselect the category from the selected options:\n\nScroll down and click on Save & Continue.\n\nThe specialties will appear inside their own tab on the profile page:\n\nNote: The Specialties tab must be enabled for the specific Membership Plan to appear on live profiles. This setting is located under Finance » Membership Plans » Edit » Profile Page » Show \"Specialties\" Tab .\n\nThe \" Specialty/Specialties \" wording is a text label that can be changed:\n\n\n## Enabling Category Selection for Members\n\n\nTo enable sub-category selection, navigate to Finance » Membership Plans » Edit and configure the settings within the following distinct tabs:\n\n- Search Visibility Tab: Locate Max. Sub-Level Categories Member Can Select to define selection limits (enter 'all' or 'unlimited' if preferred). Value Option ' all ': Automatically assigns the member to every single available sub-category on the website without requiring manual selection. Value Option ' unlimited ': Empowers the member to manually select an unrestricted number of sub-categories from their dashboard.\n\n- Post Publishing Tab: Locate the Member Specialties checkbox and toggle to ACTIVATE to allow category selections inside the member dashboard.\n\n\n## Choose Which Categories Display on Member Profiles\n\n\nBy default sub and sub-sub categories will display on member's profiles, once these have been selected by the member in the Additional Details form. There is a setting that can narrow down which subs and sub-sub categories appear on the profile.\n\n» Choose Which Types of Sub & Sub-Sub Categories Display on Member Profiles",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171253050/original/G9up415cVwBLsPhX0WGdaIkFUAuuQWo4wA.png?1764553766",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160404977/original/UAiIDITvClbvSUmg7O_jVJsjTaaY8fACIg.png?1745547991",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160404984/original/FWJQ648dLaeX36X8hXxsB3-fsIBV5n_CZw.png?1745548027",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160404989/original/Bp52F4UCqletRkDpSnryymO8QSNEy_FM-Q.png?1745548062",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12082973733/original/M7570KxPjOICLSBhQa5xoa6X3r1eaSL-ZA.png?1601345017",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160421304/original/h5ZfNUEk4QL32622fllAeerJOy9szroR9Q.png?1745583881",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180115861/original/Z2zbJpvs-HBr8LaUKpQubtFCZN15ZtL8Ig.png?1781006384",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143522312/original/A_tlXpFtcIYvgMvBsAGz2-ZaZrYkjTjCMQ.png?1716212272",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143553012/original/BTLNe0MIIM04scG16z04k-qB3OZVn_SX9w.png?1716238487",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143553026/original/nQDdfYmkjhdT_Ogw-kkAoA6jnSNwCf4cGA.png?1716238497",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Select Categories as a Member' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000036422",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036422"
+    },
+    {
+      "text": "Default Category Sort Order",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000074107-settings-%C2%BB-general-settings-%C2%BB-search-settings#section-4-default-category-sort-order"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000074107-settings-%C2%BB-general-settings-%C2%BB-search-settings#section-4-default-category-sort-order"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000074107-settings-%C2%BB-general-settings-%C2%BB-search-settings#section-4-default-category-sort-order"
+    },
+    {
+      "text": "How To Select Categories As A Member In One Member Form",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089980"
+    },
+    {
+      "text": "Login As Member",
+      "url": "https://support.brilliantdirectories.com/solution/articles/12000036189"
+    },
+    {
+      "text": "Choose Which Types of Sub & Sub-Sub Categories Display on Member Profiles",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000074407"
+    }
+  ],
+  "lastmod": "2026-06-09T17:32:53+05:30",
+  "scraped_at": "2026-10-18T13:41:54.980226"
+}

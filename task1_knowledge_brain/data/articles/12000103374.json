@@ -1,0 +1,23 @@
+{
+  "article_id": "12000103374",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103374-02-07-2025-software-updates",
+  "title": "02/07/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/07/2025 - Software Updates"
+  ],
+  "content": "## 02/07/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103374\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates have not been pushed to your website.\n\n- The Brilliant Directories app in Zapier was updated to use clearer labels when creating and updating member reviews.\n\n- The Froala Editor was updated to the newest version.\n\n- Auto-pluralization logic is now disabled when a language other than English is selected in the default website language setting.\n\n- An issue that prevented the 301 redirect logic from working properly in some cases was fixed.\n\n- Post images for multi-image Post Types can now be imported by sending the auto_image_import parameter when updating members via API.\n\n- The Member Category logic was updated to remove any selected Sub Categories after a member changes their Top Category .\n\n- An issue that prevented schema markup for community articles and blog posts from working properly when the Post Title contained double or single quotes was fixed. Widgets Involved: Bootstrap Theme - Detail Page - Schema Markup - Community Article Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article\n\n- Updating a member via API is now logged in the Activity Tracker.\n\n- The action of creating, customizing, updating, or deleting an Email Template is now logged in the Activity Tracker.\n\n- An issue that prevented member variables from being populated in the business-listing-verified Email Template after submitting the \"Listing - Verify Account\" form on the Member Dashboard was fixed.\n\n- The \"Bookmark My Favorites\" Add-On was updated to prevent inactive members from favoriting other members and posts. Widgets Involved: Bootstrap Theme - Display - Add to Favorites Button Bootstrap Theme - Function - Add to Favorites Button\n\n- A security update was released for the Billing Information page in the Member Dashboard.\n\n- An issue that prevented the Business Data Import tool from working properly in some cases was fixed.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103374",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103374"
+    }
+  ],
+  "lastmod": "2025-02-10T01:42:33+05:30",
+  "scraped_at": "2026-10-18T13:55:41.568850"
+}

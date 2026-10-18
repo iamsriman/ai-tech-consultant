@@ -1,0 +1,23 @@
+{
+  "article_id": "12000074824",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074824-10-02-20-software-updates",
+  "title": "10/02/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/02/20 - Software Updates"
+  ],
+  "content": "## 10/02/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000074824\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the save action logic of the Newsletter form in order to return a message if the email entered already exists as a Contact with the Newsletter tag. Widget Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- We fixed an issue which was causing the \"Send Message\" button to get stuck showing the \"processing\" message after sending a chat message using the Private Member Chat Add-On in some cases. Widget Involved: Form - Froala Editor Javascript\n\n- We refactored the member signup logic in order to speed up the process when a paid member sign up on a site.\n\n- We fixed an issue which was causing the \"Card Name\" field on /checkout pages to overwrite the \"First Name\" on the Contact Details tab in the Member Dashboard area.\n\n- We updated the layout of the \"processing\" message shown when viewing Posts in the Member Dashboard area.\n\n- We updated the validation used when saving Member Categories in the Admin to prevent forward slashes from being saved in the \"Link URL\" field of a category.\n\n- We created a new Membership Plan setting called \" Successful Sign Up / Upgrade Conversion Tracking Code \" in order to allow users to add conversion tracking codes for member signups and upgrades more easily. In order to use this new feature, navigate to the Admin >> Finance >> Membership Plans >> Edit >> Signups and Upgrades tab Widget Involved: Bootstrap Theme - Conversion Tracking Codes\n\n- We fixed an issue which was causing the Highlight Member Results Add-On to not display the \"Text Message\" text in some cases.\n\n- We fixed an issue which was preventing the Global Website Search + Location widget from displaying after being saved in the Design Settings in some cases.\n\n- We updated the layout of the Billing Address form on used in the Member Dashboard area to be a modal instead of always visible.\n\n- We implemented an update in order to identify member posts that are not associated with an existing Post Type and delete from the website.  This can now be found on the Manage Post page in the Admin.\n\n- We moved the Default Category Sort Order from the Member Categories page to the General Settings page >> Search Setting tab in the Admin.\n\n- We fixed an issue with searching for members in the Admin when they name contains an ampersand symbol (&).\n\n- We added the ability to upload images directly through the Froala WYSIWYG in the Admin.\n\n- We created a new homepage Search Type called \"Hero Message with Button Links\" for the homepage. Widget Involved: Bootstrap Theme - Homepage\n\n- The time format of each transaction on the Transaction History page will now match with the server website time format (12h instead of 24h).\n\n- Additional whitespaces in the \"Max. Free Post\" fields on the Membership Plans >> Post Publishing tab in the Admin will now be trimmed when saving.\n\n- We fixed an issue which was preventing the image style feature from working properly in Froala WYSIWYGs in some cases. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Custom checkbox fields used in forms will now display selected options with a comma and a space between each selected option. Widget Involved: System - SaveForm\n\n- We fixed an issue which was preventing the system from respecting the Froala WYSIWYG text align feature when a static page is set to be \"Full-Width\".\n\n- We fixed an issue which was affecting the ability to delete Sub and Sub-sub level categories from the Member Categories page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000074824",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074824"
+    }
+  ],
+  "lastmod": "2020-10-06T03:02:10+05:30",
+  "scraped_at": "2026-10-18T13:47:13.456895"
+}

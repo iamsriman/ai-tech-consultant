@@ -1,0 +1,51 @@
+{
+  "article_id": "12000090864",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090864-how-to-enable-csp-headers",
+  "title": "How to Enable CSP Headers",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How to Enable CSP Headers"
+  ],
+  "content": "## How to Enable CSP Headers\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090864\n\n\n## What is Content-Security-Policy?\n\n\nContent-Security-Policy is the name of a HTTP response header that modern browsers use to enhance the security of the document (or web page). The Content-Security-Policy header allows the restrict how resources such as JavaScript, CSS, or pretty much anything that the browser loads.\n\n\n## How to Enable CSP Headers\n\n\nThis can be accomplished by enabling the Advanced Setting called Enable HTTP Security Headers (CSP):\n\nThis will enable the HTTP security headers and Content Security Policies. Over an HTTP connection, the website will add headers for Content Security Policy, X-Content-Type-Options, X-Frame-Options, and X-XSS-Protection. Over an HTTPS connection, an additional header for Strict-Transport-Security is added.\n\nResults before enabling this advanced setting:\n\nResults after enabling this advanced setting:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173377997/original/yeloArFGcZutw00gBZ7Y4cVDjVAp4cDrAw.png?1768586410",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Enable CSP Headers' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117288391/original/mabcqR2wkhftIbmuIBbZWAc4BMqEdIApBQ.png?1668521982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Enable CSP Headers' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117288257/original/duLXanV9w0EVnWm_jQgETTpGQBUDezW8ew.png?1668521854",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Enable CSP Headers' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090864",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090864"
+    }
+  ],
+  "lastmod": "2026-01-16T23:30:17+05:30",
+  "scraped_at": "2026-10-18T13:50:26.982388"
+}

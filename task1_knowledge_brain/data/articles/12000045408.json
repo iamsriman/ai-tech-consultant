@@ -1,0 +1,23 @@
+{
+  "article_id": "12000045408",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045408-06-08-18-software-updates",
+  "title": "06/08/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/08/18 - Software Updates"
+  ],
+  "content": "## 06/08/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000045408\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We updated the Blog Articles Details Page to show the Start Date of the Post instead of the date that was created.\n\n- We added the Member's Zip Code to the Members Details Overview tab in the Admin Panel.\n\n- The Export Member Data Add-On now includes a new field called full_filename - this field is a concatenation of the protocol (HTTP/HTTPS), the Site's Domain, and the filename of the Member.  This is useful when used with 3rd party email platforms that need the full URL of the member's profile page.\n\n- We implemented a Security Update to display a 404 error when fetching a non-existent resource from the /images folder of a site.\n\n- We updated the style of the Add Credit Card Modal in the Member Dashboard to show the Save Button on smaller screen sizes when the Consent Tools are active.\n\n- We added the ability to easily change the Status of an Invoice between Paid/Unpaid on the Transaction History Page in the Admin area.\n\n- We released an update to the Easy Coupon Codes Add-On to resolve an issue when a Fixed Valued Promo Code while upgrading. Also, we removed an error message that was showing on Member Profile pages when the member used a Promo Code to sign up for the site. Widget Involved: Bootstrap Theme - Function - Form Promotion Code Validation\n\n- We fixed an issue with the Stripe Payment Gateway that was causing the System to not store Credit Card Information when 100% off Coupon Codes are used for a paid Product.\n\n- We fixed the issue of the filename of Members changing when a user claimed a listing.\n\n- We applied a fix for the issue that was causing an error with the Photo Albums Edit button in the Member Dashboard.\n\n- Now Admins have the ability to see the Subscription History for each Member through the Member Details Page in the Admin area. In order to use this new feature, navigate to the Admin >> Members >> Search members >> Actions >> Account Details.  There is a new tab there called Subscriptions.\n\n- We fixed an issue that was affecting the Free Signup Congratulations Modal. Widget Involved: Bootstrap Theme - Success Page - Free Member Sign Up\n\n- We removed the \"No Restriction\" option from the Edit Promo Code page when a Site Admin is creating a new Promo Code.\n\n- We released the Website Announcement Bar Add-On.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000045408",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045408"
+    }
+  ],
+  "lastmod": "2018-06-09T04:42:49+05:30",
+  "scraped_at": "2026-10-18T13:42:54.430129"
+}

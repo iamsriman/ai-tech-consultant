@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093666",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093666-changelog-july-2017",
+  "title": "Changelog - July 2017",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - July 2017"
+  ],
+  "content": "## Changelog - July 2017\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093666\n\nNew Features:\n\n- We added some additional functionality to how categories are displayed on the front end of a website. There is now an Advanced Setting called fast_search.  When this is set to 1, all categories of a website will display in the /categories page and in category dropdowns in member search features, regardless of whether or not a member will be found in that category.  This speeds up the loading of the /categories page as well as the category dropdowns since the software does not need to check whether or not there are members that have selected those categories. If fast_search is set to 0 (as it is by default) only categories that at least one member has selected will display on the /categories page and in category dropdowns in member search features.\n\n- Now the Price Slider can be controlled through the Post Settings for a given Post Type in the Admin area.  There is no longer a need to edit the Search Module widgets for a given Post Type in order to update the \"Min\" and \"Max\" values for a price slider. To use this new feature navigate to the Admin area >> Content >> Edit Post Settings.  Then on the General Setting tab of each Post Type, you will find new fields which control the Price Slider \"Min\" and \"Max\" values.\n\n- The widget that displays Posts like Events, Articles, Blogs, Jobs, Videos, Audio FIles in the Account Member Dashboard is now based on Text Labels.\n\n- The Yes/No Field Type in the Form Builder, the Service Areas portion of the Member Dashboard (Multi-Location Listings Add-On), the Add / Edit Post area of the Member Dashboard, and the Select Categories Module in the Member Dashboard are now based on Text Labels.\n\n- We added the ability to display the Social media Links in the Header of the Site.\n\n- We added a new login widget that can be used on any sidebar module.\n\n- The Events Calendar Widget is now based on Text Labels.\n\n- The New Bulk Image Importer has been updated and now works properly with the latest version of the image system.  This can be found by navigating to Members >> Member Images in the Admin area\n\nEnhancements / Fixes:\n\n- We refactored one of the core files that loads whenever a front end page of a website is requested in order to make it process faster.  We also removed several lines of code that were present to support pages that have since been deprecated.\n\n- The Advanced Settings auto_activate_paid_members and auto_activate_free_members are now active and working as expected .\n\n- We improved the Admin Accounts page in the Admin area.  Now duplicate Admin usernames are not allowed and passwords must contain at least 8 characters, at least one letter and at least one number or symbol, and will not accept blank spaces\n\n- The issue that was affecting the display of the Main Menu on some older smartphones and tablets has been resolved.\n\n- We improved the way that Text Labels are saved in order to avoid unintended backslashes from being added to the text in some cases.\n\n- We added support for the \"Website Address\" field type in the Form Manager. This field type will now automatically create a link from the content entered in this field rather than displaying the content as plain text.\n\n- Bug fixes to the New Leads Module, New Reviews Module, Google Location System, Add-on Manager System, and Member System.\n\n- In all, more than 30 bugs were fixed throughout the software.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093666",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093666"
+    }
+  ],
+  "lastmod": "2023-05-09T04:15:39+05:30",
+  "scraped_at": "2026-10-18T13:51:17.408035"
+}

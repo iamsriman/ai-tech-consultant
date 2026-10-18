@@ -1,0 +1,73 @@
+{
+  "article_id": "12000093278",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093278-workaround-center-website-logo",
+  "title": "Workaround: Center Website Logo",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Workaround: Center Website Logo"
+  ],
+  "content": "## Workaround: Center Website Logo\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093278\n\n\n## Overview\n\n\nOn all Brilliant Directories websites, the Logo is placed to the left within the header:\n\nThis leaves room for the Logo and the Header Search and links without crowding all of the elements. There aren't any setting to change the placement of the logo but it can be centered using custom CSS.\n\nThis workaround is really only recommended for websites using uploaded images as their logo. Since this does shrink the space on the header-right elements... so it would behave differently on every site that has the right elements.\n\nThis works best on sites that are not displaying a header menu.\n\n\n## Centering the Logo\n\n\nUse the CSS code below:\n\n#website_logo {\n  margin-left:41.66666667%;\n  width:16.66666667%;\n  margin-top: 15px;\n}\n\n.header-right-container {\n  width:41.66666667%\n}\n\n@media only screen and (max-width: 991px) {\n  .header-right-container {\n    width:100%\n  }\n  #website_logo {\n    margin: 0 auto;\n    width: auto;\n  }\n} Copy the code and paste it inside the DESIGN SETTINGS > CUSTOM CSS / HEAD > Additional CSS: Once the code is saved, it centers the Logo: We recommend hiding the header menu and search module when using this code: When using the header menu and search module, notice that the \" Search \" button has been moved, depending on how many items and the size, the Header Menu may not display as expected. For any design adjustments more than this, we suggest reaching out to a web designer: https://marketplace.brilliantdirectories.com/",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124356752/original/m_baeeWUCJFxYufTXx1KaCQ1P9WRRIg1Cw.png?1682011189",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Center Website Logo' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124428460/original/Vaz3kXPSe_5xz9MIZWMa3UBGLwzjaSwosg.png?1682125108",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Center Website Logo' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124554857/original/cMrTagGAtPa8jivfgT7rUPYrJYVMRVUb1w.png?1682434888",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Center Website Logo' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124553671/original/OScJu2Tre8hAA-W7ZQlxu1E9IUHCUiaU7A.png?1682433818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Center Website Logo' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124555305/original/3RTq3wHPWf_SLB0WJlpwK0Tu0DS3rKyk0g.png?1682435285",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: Center Website Logo' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093278",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093278"
+    },
+    {
+      "text": "https://marketplace.brilliantdirectories.com/",
+      "url": "https://marketplace.brilliantdirectories.com/"
+    }
+  ],
+  "lastmod": "2024-11-29T10:08:27+05:30",
+  "scraped_at": "2026-10-18T13:50:54.507758"
+}

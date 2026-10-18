@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093175",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093175-04-07-2023-software-updates",
+  "title": "04/07/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/07/2023 - Software Updates"
+  ],
+  "content": "## 04/07/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093175\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Froala WYSIGYG toolbar shown when sending messages using the Private Chat Add-On from working properly in some cases. Widget Involved: Form - Froala Editor Javascript\n\n- We added Norwegian as a Default Website Language option.\n\n- We updated the Domain Manger page in the Admin in order to show a screenshot of the homepage of the website.\n\n- We fixed an issue which was preventing the \"One-Click Google Login\" Add-On from performing the \"Sync Account\" action from the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Member Dashboard\n\n- We fixed an issue which was preventing the Event Post Type from returning accurate results when filtering events using the Date Range filter in some cases. Widget Involved: Search - Post - Search Query\n\n- We updated the \"No Items Added\" Text Label in order to support apostrophes.\n\n- We updated the \"Bootstrap Theme - Form - Member Signup Default Paid Fields\"  and \"Bootstrap Theme - Form - Member Signup Default Free Fields\" widgets in order to remove an HTML tag which was displaying after using the \"Show Widgets\" feature when viewing signup pages while logged in as an Admin. Widgets Involved: Bootstrap Theme - Form - Member Signup Default Free Fields Bootstrap Theme - Form - Member Signup Default Paid Fields\n\n- We updated the CSP Header configuration on the CSP Headers widget to be more flexible with the type of content that can display without reducing security. Widget Involved: Bootstrap Theme - Function - CSP Headers\n\n- We fixed an issue which was causing the system to send duplicate email notifications to the Admin email address after a paid member signs up through the frontend of the site.\n\n- We fixed an issue which was causing the system to update the post_date_interval and group_date_interval field values after updating a post from the Member Dashboard.\n\n- The \"Member - Sign Up - Paid External Gateway\" form is now compatible with Webhooks.\n\n- We enhanced the Lead Location field validation in order to prevent the lead form from being submitted without all of the required location data.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093175",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093175"
+    }
+  ],
+  "lastmod": "2023-04-11T02:32:53+05:30",
+  "scraped_at": "2026-10-18T13:50:50.846677"
+}

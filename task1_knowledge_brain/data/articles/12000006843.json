@@ -1,0 +1,179 @@
+{
+  "article_id": "12000006843",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways",
+  "title": "Supported Payment Gateways",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Supported Payment Gateways"
+  ],
+  "content": "## Supported Payment Gateways\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000006843\n\nThis article covers the payment gateways and currencies supported by the software.\n\nAfter connecting a payment gateway, any money received will be deposited directly into the payment gateway account. Members can be charged in the country's home currency (check the list of \"Supported Currencies & Countries\" below to see if the website country is included on the list of countries serviced by the chosen payment gateway, and the payment gateway supports the desired currency).\n\nBelow is a list of all of the currently supported payment gateways with links to more information about the countries and currencies supported by each:\n\n- Stripe\n\n- Authorize.net\n\n- eWay\n\n- PayPal Express / Standard\n\n- PayPal Payflow / PayPal Payments Pro\n\n- PayPal Website Payments Pro\n\n- PayFast\n\n- Verifone\n\n- Razorpay\n\n\n## Stripe.com\n\n\nThis is our Recommended Payment Gateway\n\n- Type of Gateway: On-site (members do not leave the site to pay)\n\n- Fees: Stripe does not charge any monthly fees, only a standard per-transaction fee. Stripe pricing details\n\n- Refunds: Refunds can be processed within 365 days\n\n- Supported Currencies & Countries: USD, AUD, CAD, EUR, GBP, and over 100 more - Stripe supported currencies and countries\n\n\n### Why We Recommend Stripe\n\n\n- Cost: Stripe charges no monthly fees, only an industry-standard fee per-transaction, making it one of the most economical payment gateway options available. Stripe pricing details .\n\n- Latest Technology: Stripe was founded in 2012, so it is a relatively new payment gateway compared to some of the other options on the market.  However, because of its recency, it has been built from the ground up with the latest technologies and security protocols and has been able to avoid many of the mistakes that have plagued more antiquated options such as PayPal, eWay, and Authorize.net.\n\n- Market Reach / Support: As of this writing, it currently supports transactions in 100+ currencies, is available for businesses in 25+ countries, and is constantly expanding that reach, making it one of the most widely available payment gateways on the market.\n\n- Security: Stripe uses a \"tokenization\" system to process payments, which offers the best combination of user experience and security available today.  This means that as soon as a member completes a transaction through the website, Stripe securely stores the member's credit card information in their own PCI-compliant network, and it is not stored locally on the website at all.  Instead, only a \"token\" (an encrypted string of characters which represents that member's credit card information) is stored locally on the website.  In the unlikely event that someone was able to gain access to this information on the site, all they would find would be tokens that cannot be used to access the member's actual credit card data.  This means, the owner of the site never has to worry about someone stealing the credit card information of the members on the website.\n\n- Website Owner Experience: Setting up a new Stripe account is extremely easy, and can be completed in a few short minutes.  Once the account is set up and connected to the Brilliant Directories website, it works extremely well.  Of the thousands of Brilliant Directories websites that have a payment gateway connected, users have rarely reported issues when setting up Stripe, even if they have had issues trying to set up a different payment gateway in the past.\n\n- Website Member Experience: Once Stripe is connected as the website payment gateway, members of the site never know that Stripe is being used to process payments.  Members never have to leave the website to pay, and the website's name shows up on their credit card statement.  When Stripe attempts to process payments from the members, it has an extremely high rate of successful transactions, being able to capture payment successfully.\n\n\n### In Summary\n\n\nCompared to the other payment gateway options, Stripe is the easiest to set up and manage. There are no monthly fees, it is far more advanced in terms of technology and security, it has all of the features needed for a payment gateway, and most importantly - it just works.\n\nEven if there is already a history with another payment gateway, it is strongly recommended to use Stripe with any Brilliant Directories website.\n\n\n## Other Supported Payment Gateways\n\n\nIf it is not possible to use Stripe, there are additional payment gateways listed below.\n\n\n### Authorize.net\n\n\n- Type of Gateway: On-site (members do not leave the site to pay)\n\n- Fees: Authorize.net charges a monthly fee for the use of their payment gateway, a per-transaction fee, and additional monthly fees may apply for use of a merchant account. Authorize.net pricing details\n\n- Refunds: Refunds can be processed within 120 days\n\n- Supported Currencies & Countries: Which Currencies Does Authorize.Net Support?\n\n- If this payment gateway is activated on the site, check the \"Advanced Fraud Detection Settings\" directly on the Authorize.net account.\n\n\n### eWay\n\n\n- Type of Gateway: On-site (members do not leave the site to pay)\n\n- Fees: eWay may or may not charge a monthly fee depending on the country the account was registered in, plus they charge a per-transaction fee. eWay Australia pricing details (choose the country the account would be registered in from the top menu and then click on the Pricing link in the top main menu for details)\n\n- Refunds: There is no time limit to process a refund.\n\n- Supported Currencies & Countries: eWay has support for different currencies depending on the country the account is registered in.  See the country-specific eWay site for more details.\n\n\n### PayPal Express / Standard\n\n\nAlso called Free, Personal , Basic, and Plus\n\n- Type of Gateway: Off-site / 3rd Party (members are sent to the PayPal website to pay)\n\n- Fees: PayPal Free does not charge any monthly fees, only a per-transaction fee. PayPal Free pricing details (see the fees described for \"PayPal Payments Standard & Express Checkout\" on this page)\n\n- Refunds: There is a limit of 180 days to process a refund.\n\n- Supported Currencies & Countries: Since PayPal operates differently from traditional payment gateways, the currencies and countries supported by PayPal Free depend on two factors:\n\n1. Whether the customer has a PayPal account with an available balance.\n\n2. The country where the website owner's PayPal account is registered.\n\nIf the member signing up on the site has a PayPal account with an available balance, that balance can be used to pay in the following currencies, regardless of the country where the PayPal account is registered: PayPal supported currencies paid with a PayPal account balance\n\nIf the member signing up on the site does not have an available PayPal account balance and pays by credit card, the transaction can be processed in the following currencies, depending on the country where the PayPal account is registered: PayPal supported currencies paid with a credit card\n\n\n### PayPal Payflow / PayPal Payments Pro\n\n\n- Type of Gateway: On-site (members do not leave the site to pay)\n\n- Fees: PayPal Payments Pro charges a monthly fee plus a per-transaction fee. PayPal Payments Pro pricing details (See the fees listed for \"PayPal Payments Pro\" on this page)\n\n- Refunds: It has a limit of 180 days to process a refund.\n\n- Supported Currencies & Countries: The currencies that can be accepted on the site depend on the country that the PayPal Payments Pro account was registered in as the website owner. PayPal Payments Pro supported currencies and countries (see the countries that have \"PayPal Payments Pro\" listed as an option in the \"Product Name\" column)\n\n\n### PayPal Website Payments Pro\n\n\nOlder version of PayPal Payments Pro\n\n- Type of Gateway: On-site (members do not leave the site to pay)\n\n- Fees: PayPal Website Payments Pro charges a monthly fee plus a per-transaction fee. PayPal Website Payments Pro pricing details\n\n- Refunds: It has a limit of 180 days to process a refund.\n\n- Supported Currencies & Countries: The currencies that can be accepted on the site depend on the country that the PayPal Website Payments Pro account was registered in as the website owner. PayPal Website Payments Pro accepted currencies and countries (see the countries that have \"Website Payments Pro\" listed as an option in the \"Product Name\" column)\n\n\n### PayFast\n\n\n- Type of Gateway: Off-site / 3rd Party (members are sent to the PayFast website to pay)\n\n- Fees: PayFast does not charge any monthly fees, only a per-transaction fee, and a \"payout fee\" when a withdrawal is requested. See their latest fees by clicking here .\n\n- Refunds: There is no time limit to process a refund.\n\n- Supported Currencies & Countries: PayFast only supports transactions in South African Rand (ZAR) currency.  PayFast accounts are only available for companies and individuals located in South Africa.\n\n\n### Verifone\n\n\n- Type of Gateway: Off-site / 3rd Party (members are sent to Verifone to pay)\n\n- Fees: Fees start at 3.5% + $0.35 per-transaction fee, see pricing details .\n\n- Refunds: There is a limit of 120 days to process a refund.\n\n- Supported Currencies & Countries: This payment gateway is supported in 234 countries, please see Verifone supported currencies and countries\n\n\n### Razorpay\n\n\n- Type of Gateway: Off-site / 3rd Party (members are sent to Razorpay to pay)\n\n- Fees: They vary based on the payment method and region. For domestic payments within India, fees start at 2% per transaction. International payments incur higher fees, typically around 3.5% per transaction. Refunds can be processed instantly, enhancing customer satisfactione, see pricing details .\n\n- Refunds: There is a limit of 120 days to process a refund.\n\n- Supported Currencies & Countries: This payment gateway supports payments in over 100 currencies, including major international currencies like USD, EUR, GBP, SGD, and AED. Please see Razorpay supported currencies and countries\n\n\n## Pro Tip: SSL Certificate\n\n\nAll payment pages collect sensitive member and credit card information, so all transactions on these pages are secured using an SSL Certificate.\n\nBy default, all sites will use our generic secured payment domain, securemypayment.com.  However, potential members of the site are much more likely to complete a transaction on a secured page on the own domain rather than a generic domain like securemypayment.com.\n\nTo process all payments using secured pages using the own domain (plus secure all other pages of the site as well), install an SSL Certificate on the domain.  An SSL Installation Service is available to handle the installation, testing, and maintenance of the SSL certificate.\n\nAcquire an SSL Certificate",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843"
+    },
+    {
+      "text": "Stripe",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-stripecom"
+    },
+    {
+      "text": "Authorize.net",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-authorizenet"
+    },
+    {
+      "text": "eWay",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-eway"
+    },
+    {
+      "text": "PayPal Express / Standard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-paypal-express--standard-also-called-free-personal-basic-and-plus"
+    },
+    {
+      "text": "PayPal Payflow / PayPal Payments Pro",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-paypal-payflow--paypal-payments-pro"
+    },
+    {
+      "text": "PayPal Website Payments Pro",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-paypal-website-payments-pro-older-version-of-paypal-payments-pro"
+    },
+    {
+      "text": "PayFast",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-payfast"
+    },
+    {
+      "text": "Verifone",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-verifone"
+    },
+    {
+      "text": "Razorpay",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843-supported-payment-gateways#section-razorpay"
+    },
+    {
+      "text": "Stripe.com",
+      "url": "https://stripe.com/"
+    },
+    {
+      "text": "Stripe pricing details",
+      "url": "https://stripe.com/us/pricing"
+    },
+    {
+      "text": "Stripe supported currencies and countries",
+      "url": "https://support.stripe.com/questions/which-currencies-does-stripe-support"
+    },
+    {
+      "text": "Stripe pricing details",
+      "url": "https://stripe.com/us/pricing"
+    },
+    {
+      "text": "Authorize.net",
+      "url": "https://www.authorize.net/"
+    },
+    {
+      "text": "Authorize.net pricing details",
+      "url": "https://www.authorize.net/solutions/merchantsolutions/pricing/"
+    },
+    {
+      "text": "Which Currencies Does Authorize.Net Support?",
+      "url": "https://support.authorize.net/knowledgebase/Knowledgearticle/?code=000001210"
+    },
+    {
+      "text": "eWay",
+      "url": "https://www.eway.com.au/"
+    },
+    {
+      "text": "eWay Australia pricing details",
+      "url": "https://www.eway.com.au/plans-pricing"
+    },
+    {
+      "text": "PayPal Express / Standard",
+      "url": "https://www.paypal.com/us/webapps/mpp/paypal-payments-standard"
+    },
+    {
+      "text": "PayPal Free pricing details",
+      "url": "https://www.paypal.com/us/webapps/mpp/merchant-fees"
+    },
+    {
+      "text": "PayPal supported currencies paid with a PayPal account balance",
+      "url": "https://developer.paypal.com/docs/classic/api/currency_codes/#paypal"
+    },
+    {
+      "text": "PayPal supported currencies paid with a credit card",
+      "url": "https://developer.paypal.com/api/rest/reference/currency-codes/"
+    },
+    {
+      "text": "PayPal Payflow / PayPal Payments Pro",
+      "url": "https://www.paypal.com/us/webapps/mpp/paypal-payments-pro"
+    },
+    {
+      "text": "PayPal Payments Pro pricing details",
+      "url": "https://www.paypal.com/us/webapps/mpp/merchant-fees"
+    },
+    {
+      "text": "PayPal Payments Pro supported currencies and countries",
+      "url": "https://developer.paypal.com/api/rest/reference/currency-codes/"
+    },
+    {
+      "text": "PayPal Website Payments Pro",
+      "url": "https://www.paypal.com/ca/webapps/mpp/paypal-payments-pro"
+    },
+    {
+      "text": "PayPal Website Payments Pro pricing details",
+      "url": "https://www.paypal.com/au/cgi-bin/webscr?cmd=_display-pro-fees-outside"
+    },
+    {
+      "text": "PayPal Website Payments Pro accepted currencies and countries",
+      "url": "https://developer.paypal.com/docs/classic/api/currency_codes/#creditcard"
+    },
+    {
+      "text": "PayFast",
+      "url": "https://www.payfast.co.za/"
+    },
+    {
+      "text": "PayFast website",
+      "url": "https://www.payfast.co.za/"
+    },
+    {
+      "text": "clicking here",
+      "url": "https://www.payfast.co.za/fees/"
+    },
+    {
+      "text": "Verifone",
+      "url": "https://www.2checkout.com/global-payments/"
+    },
+    {
+      "text": "pricing details",
+      "url": "https://www.2checkout.com/pricing/"
+    },
+    {
+      "text": "Verifone supported currencies and countries",
+      "url": "https://www.2checkout.com/global-payments/"
+    },
+    {
+      "text": "Razorpay",
+      "url": "https://www.2checkout.com/global-payments/"
+    },
+    {
+      "text": "pricing details",
+      "url": "https://razorpay.com/pricing/"
+    },
+    {
+      "text": "",
+      "url": "https://www.2checkout.com/global-payments/"
+    },
+    {
+      "text": "Razorpay supported currencies and countries",
+      "url": "https://razorpay.com/docs/payments/international-payments/"
+    },
+    {
+      "text": "Acquire an SSL Certificate",
+      "url": "https://www.brilliantdirectories.com/ssl-secure-website"
+    }
+  ],
+  "lastmod": "2026-07-15T21:28:04+05:30",
+  "scraped_at": "2026-10-18T13:39:56.276590"
+}

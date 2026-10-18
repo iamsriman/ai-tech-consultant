@@ -1,0 +1,60 @@
+{
+  "article_id": "12000101601",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101601-how-to-remove-the-post-publish-date",
+  "title": "How to Remove the Post Publish Date",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How to Remove the Post Publish Date"
+  ],
+  "content": "## How to Remove the Post Publish Date\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101601\n\nEvery post is published with the Post Date visible on the website:\n\n\n## Remove Date Sitewide\n\n\nThe \" Posted \" date can be removed site wide by adding this Custom CSS code in Design Settings.\n\n.posted-by-snippet-date {\n  display: none;\n} Add the code in the Design Settings: Go to Settings . Click on Design Settings . Head to the Custom CSS / HEAD tab . Add the code in the Additional CSS space.\n\n\n## Remove Date Individual Post Types\n\n\nTo remove the date for a specific post type add it in the Post Settings.\n\nGo to:\n\n- Go to My Content.\n\n- Click on Edit Post Settings.\n\n- Find to the Post Type .\n\n- Head to the Detail Page Design tab.\n\n- Add the code in the Insert Additional Code space.\n\nWith this one, add the style tags as well:\n\n<style>\n    .posted-by-snippet-date {\n        display: none;\n    }\n</style>\n\n\n## Date Removed\n\n\nOnce the code has been saved, the date is removed:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149897343/original/sV_zEeYZS3-Ak3fR7aBMc2TPWna9DeqkHw.png?1727139420",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Post Publish Date' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149896508/original/QQw_1VySvsBXasAw7NgRAARm_Mq_tNcBVg.png?1727137106",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Post Publish Date' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149883369/original/h81U3TQ2p64GpXOiImsL-yftYjda3uVGTA.png?1727120506",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Post Publish Date' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149897346/original/MqlSZ4dVFZNl9AnAQMkg-IOrVTd6eddEfA.png?1727139450",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Post Publish Date' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101601",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101601"
+    }
+  ],
+  "lastmod": "2026-04-20T23:55:11+05:30",
+  "scraped_at": "2026-10-18T13:55:02.377024"
+}

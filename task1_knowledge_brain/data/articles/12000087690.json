@@ -1,0 +1,23 @@
+{
+  "article_id": "12000087690",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087690-06-10-22-software-updates",
+  "title": "06/10/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/10/22 - Software Updates"
+  ],
+  "content": "## 06/10/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087690\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The \"URL Permalink\" on the Edit Post Settings page in the Admin now supports Thai language characters.\n\n- We updated the UI of the Edit Admin Role modal in the Admin.\n\n- We added the ability to clone custom widgets from the Widget Manager page in the Admin.\n\n- We fixed an issue which was preventing members from logging in to their account using the One-Click Facebook and Google Login Add-On in some cases.\n\n- We removed a deprecated script from the Footer Scripts widget used on the frontend of sites. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We created 2 new Membership Plan settings called \"Assign Referral Credits to Members Who Refer New Sign Ups\" and \"Credits Assigned to Referring Member\". When both settings are enabled, the system will assign credits to any member who refers a new member to sign up, and mentions them as the referring member. To use these new settings, navigate to the Admin >> Finance >> Membership Plans >> Edit >> Sign Ups and Upgrades tab >> Sign Up Settings section.\n\n- We updated the \"Paid Plan Signup\" and the \"One-Time Purchase\" webhooks in order to add a new variable called \"purchase_status\". The value for this variable will be \"success\" for successfully collected payments or \"failed\" for payments that were not collected successfully.\n\n- We implemented a security update in order to automatically expire any previously sent Admin password reset emails if the same Admin's password is updated from the Admin area.\n\n- We updated the logic of the \"Complete Profile Fields\" setting to add a new variable called \"cover_photo\". If this new variable is added to the setting, the system will require all members to have uploaded a Member Cover Photo image before they are displayed in search results on the site when the \"Require Complete Profiles\" Advanced Setting is active.\n\n- We added a new date range search filter to the Member Leads and Member Reviews pages in the Admin.  Choosing a date range in this field will filter out any leads that were not submitted in the selected range.\n\n- We fixed an issue with the Disable Form functionality which was preventing the system from falling back to the default form when the custom form was disabled in some cases.\n\n- We fixed an issue which was affecting the ability to display member search results on the Global Website Search page when the \"Order Results By\" setting for the Member Listings Post Type was set to\" Member ID (Oldest First)\" or \"Member ID (Newest First)\".\n\n- We updated the Tooltip Text for the \" Include In Emails\" Form Field setting in the Form Manager in the Admin to \" Shows data when form is rendered in an email and for accepted leads\".\n\n- Bulk actions performed on members from the Search Members page in the Admin are now being logged in the Activity Tracker.\n\n- The Click to Call Add-On link colors are now compatible with the Hyperlink Color and Hyperlink Hover Color Design Settings.\n\n- We fixed an issue which was preventing the \"Post Limit Message\" notification banner from displaying the number of available posts in some cases.\n\n- We updated the Dynamic Category Filtering Add-On to respect the URL of the page after using the category checkboxes on Pretty URL search results pages.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087690",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087690"
+    }
+  ],
+  "lastmod": "2022-06-13T22:20:06+05:30",
+  "scraped_at": "2026-10-18T13:49:54.420796"
+}

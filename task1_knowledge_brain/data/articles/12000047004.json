@@ -1,0 +1,23 @@
+{
+  "article_id": "12000047004",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047004-07-06-18-software-updates",
+  "title": "07/06/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/06/18 - Software Updates"
+  ],
+  "content": "## 07/06/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000047004\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We applied a UI update to show the \"Past Due\" status on the Member Dashboard when the member has a Past Due invoice and the auto_suspend_accounts advanced setting is set to 1. Widgets Involved: Bootstrap Theme - Account - Member Dashboard Bootstrap Theme - Header - Member Links\n\n- Now the two buttons at the bottom of the Login Form can be controlled through a menu. You can find the new menu with the name \"Login Page Links\" on the Menu Manager page in the Admin area.\n\n- We fixed an issue which was not allowing for an Admin to login to a member's account from the Admin area when the auto_suspend_accounts advanced setting was set to 1.\n\n- We updated the Post Categories field validation in order to support the \"&\" symbol.\n\n- We removed the ability to Clone/Delete the homepage Static Page through the Admin area to makes sites more stables and avoid user error.  We also removed the \"Home\" option from the \"Page Type\" dropdown when editing a static page and made this a protected Page Type only used for the site's homepage.\n\n- We removed the additional \"Purchase Lead\" and \"Accept Lead\" buttons from the Lead Preview page in the Member Dashboard to de-clutter the design.. Widget Involved: Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- We added the ability to set a unique image URL to be used for the logo on PDF invoices produced by the system through the billing_logo_url Advanced Setting. This is useful for sites that need to use a logo in PDF invoices that is different from the website's logo.\n\n- We fixed an issue which was affecting the normal behavior of the Google Map on the Member Profile Page when the Overview tab's \"Tab Order\" is set to something other than 1.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000047004",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047004"
+    }
+  ],
+  "lastmod": "2018-07-07T04:50:51+05:30",
+  "scraped_at": "2026-10-18T13:43:13.881643"
+}

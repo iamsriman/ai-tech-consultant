@@ -1,0 +1,23 @@
+{
+  "article_id": "12000031733",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000031733-06-30-17-software-updates",
+  "title": "06/30/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/30/17 - Software Updates"
+  ],
+  "content": "## 06/30/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000031733\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue that was affecting the image upload process for images smaller than 200px x 200px.\n\n- We made an update to the Lead Form so that it will not submit a Lead if the Location Field is set as required in the form and no location has been entered. Widgets Involved: Bootstrap - Contact Member Lead Map\n\n- We added the Social Media icons for Pinterest and Instagram to the Search Members page in the Admin area.\n\n- The Billing Section in the Member Dashboard Account is now based on Text Labels. Widgets Involved: WHMCS2 - Bootstrap Theme - Function - Form WHMCS2 - Upgrade Calculation Preview WHMCS2 - Upgrade Payment Actions WHMCS2 - Upgrade Payment Actions - Pre Invoice Double Check\n\n- We changed the order that the countries are displayed on the Locations Page. Previously, countries were shown in order from Z to A, and are now shown from A to Z. Widgets Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- We made an update to force Admins to use a strong password when editing the password for a member of their site.\n\n- We fixed an issue that was affecting the generation of URLs for the details pages of Posts when the Title of the Post includes an apostrophe.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000031733",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000031733"
+    }
+  ],
+  "lastmod": "2017-07-06T03:00:56+05:30",
+  "scraped_at": "2026-10-18T13:41:24.353277"
+}

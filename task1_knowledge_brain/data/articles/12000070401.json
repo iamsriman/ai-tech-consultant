@@ -1,0 +1,23 @@
+{
+  "article_id": "12000070401",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070401-05-08-20-software-updates",
+  "title": "05/08/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/08/20 - Software Updates"
+  ],
+  "content": "## 05/08/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000070401\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented a set of security updates for Admin Accounts.\n\n- We created a new Design Setting called \"Show View All Button\". This setting will allow Admins to choose whether or not the \"View All\" button displays in each Homepage Streaming widget. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Audios Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Digital Products Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Display - Recent Videos Bootstrap Theme - Display - Sub Level Categories Bootstrap Theme - Display - Top Categories\n\n- We added the ability to select an image or icon for each section of the Homepage Hero Divider. In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Homepage Layout >> Homepage Divider Settings. Bootstrap Theme - Homepage - Hero Divider Bootstrap Theme - Custom Appearance Settings\n\n- We updated the Froala WYSIWYG link options for use on the Front-End of the sites. Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue which was causing the About Website and Join Offer to display stacked on top of each other instead of side by side when the join offer and about website title fields are blank. Widget Involved: Bootstrap Theme - Display - About Website and Join Offer\n\n- We fixed an issue which was preventing the \"Download Invoice\" link when viewing the Digital Product Sales History not work properly in some cases. Also, we created a new text label called download_invoice_label for this  link. Widget Involved: Bootstrap Theme - Account - Manage Digital Products Text Label Involved: download_invoice_label\n\n- We fixed an issue which was preventing Admins from being able to change the ownership of posts from one member to another in some cases.\n\n- We fixed an issue which was causing the system to change the capitalization of a Post Type's name when creating a new post in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- We updated the design and improved the load time of the Admin Dashboard page.\n\n- We updated the signup modal success message when the \"After Sign Up, Set Account Status As\" Membership Plan setting is set as \"On Hold\" to make it more relevant for this situation. Widget Involved: Bootstrap Theme - Success Page - Free Member Sign Up Bootstrap Theme - Success Page - Paid Member Sign Up Text Label Involved: account_awaiting_approval\n\n- We fixed an issue with the Service Area module in the Member Dashboard which was preventing members from selecting a Service Area when two of the Text Labels on the page had the same value. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue which was causing review ratings to be set as 1 star when the \"Hide Reviews Star Rating Options\" setting is enabled on a site or the \"Rating Overall\" text label is empty. Widget Involved: Bootstrap Theme - Member Profile - Read Review",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000070401",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070401"
+    }
+  ],
+  "lastmod": "2020-05-11T23:10:55+05:30",
+  "scraped_at": "2026-10-18T13:46:38.187793"
+}

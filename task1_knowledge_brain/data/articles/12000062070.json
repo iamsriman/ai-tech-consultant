@@ -1,0 +1,141 @@
+{
+  "article_id": "12000062070",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000062070-advanced-post-moderation",
+  "title": "Advanced Post Moderation",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Advanced Post Moderation"
+  ],
+  "content": "## Advanced Post Moderation\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000062070\n\n\n## Overview\n\n\nBy default the members have the option to publish and unpublish their posts on the website. The Advanced Post Moderation add-on allows the admin to decide how certain types of posts are published on the website. Require a website admin to approve and publish member posts or allow members to publish and unpublish their own posts.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Advanced Post Moderation Add-On\n```\n\n\n## Enabling the Add-On\n\n\nGo to My Content > Edit Post Settings > Edit the Post Type:\n\nInside the settings, expand the additional settings, the admin will see the Post Approval options. The \" Post Publishing \" settings for each Membership Plan will override the option selected here.\n\n- Member Controls Publish Status : Displays the Publish option on the post form, allowing members to decide whether to publish their post immediately or save it as a draft.\n\n- Admin Moderates All Posts : Removes the Publish option from the post form. All new posts are saved as drafts and require admin approval before going live. Members cannot choose to publish their posts directly.\n\n- Auto-Publish All Posts : Removes the Publish option from the post form. All new posts are automatically published and go live on the site right away.\n\n\n### Moderate by Plan\n\n\nIt is also possible to moderate the posts per membership plan, the setting selected in the membership plan will have a higher hierarchy than the default rule set on the post type settings.\n\nIn order to activate the setting in the membership plan, go to Finance >> Membership Plans >> Edit >> Move to the Post Publishing tab search the Post Type and choose the specific rule for the plan:\n\n\n## Manually Approve Content\n\n\nTo  manually p ublish content from any of the websites post types, follow the steps below:\n\n- Go to My Content\n\n- Click on Manage Posts\n\nClick on the top where the posts that need approval will show. This will redirect to the post to be approved:\n\nHover over Actions and click on \"View Post\" to review the content or edit the post before approving:\n\nOnce the admin viewed, edited or confirmed the user's content, hover over Actions and click on \"Set to Published\":\n\n\n### Approval Email Notification\n\n\nThe admin now has the option to notify the member that created the post after they've approved the post. The email template that will be used is: post-approved-by-admin\n\nHow to Edit Email Templates\n\n\n### Important Notes\n\n\n- Remember when moderating content, constantly check the member's content and update it. Anything that requires to be moderated before publishing will remain as a draft until approved for publishing.\n\n- If the Pay-Per-Post add-on is active on the website, the admin will have the option to override the limit. If the post or posts that are about to be approved go over the member limit, a warning will display to inform the admin about this:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173317941/original/Cqh4SbvhHgty0KHIh-LlcSo0RA3aXEh_Aw.png?1768495945",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12172934986/original/_V7GnkqJHoNVWQBYv8Z7SH2w8GARm_Vikw.gif?1767824848",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131642815/original/3hpE-4OKz2rU5qlwebaRUxqBoSjRLMtdUA.png?1695290363",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131642862/original/WHPtyqjKagE3Swb7HKULTTaQZYFn5mF16Q.png?1695290415",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173317981/original/agrNFptgvJrN8RmVmEfgn7qlgyk6uNDGPA.png?1768496012",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173318615/original/lHSlTo3rsY33YoZ833sFimq-secDFaM8hQ.png?1768496616",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173322167/original/UgeU3GBxvwM9deNfHk5XQ_yce_VWiqqYuw.png?1768499173",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173322786/original/fnfA1QKlj6_-iRPsfVRo_It09c-1JQbCKg.gif?1768499470",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12173322255/original/QJsoHCwKnbcE4TL5oXmWea4Zsjgbubws0g.png?1768499234",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144428922/original/StAPp6jZwVG6TywYteBoer5Y5x8ZswSV4w.png?1717692700",
+      "alt": null,
+      "caption": "Context: Important Notes",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Advanced Post Moderation' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Context: Important Notes",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000062070",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000062070"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Advanced Post Moderation Add-On",
+      "url": "https://www.brilliantdirectories.com/advanced-post-moderation-add-on"
+    },
+    {
+      "text": "Post Publishing",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000048893"
+    },
+    {
+      "text": "How to Edit Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/a/solutions/articles/12000003538"
+    },
+    {
+      "text": "Pay-Per-Post add-on",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000080356"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000062070-advanced-post-moderation"
+    }
+  ],
+  "lastmod": "2026-08-28T21:50:27+05:30",
+  "scraped_at": "2026-10-18T13:45:32.395117"
+}

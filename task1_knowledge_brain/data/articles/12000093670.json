@@ -1,0 +1,27 @@
+{
+  "article_id": "12000093670",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093670-changelog-november-2017",
+  "title": "Changelog - November 2017",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - November 2017"
+  ],
+  "content": "## Changelog - November 2017\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093670\n\nNew Features:\n\n- Now the Google Search Assist Add-On can be Enabled / Disabled through a setting located in the Search Results Design section in the Design Settings.\n\n- The system now to tracks the IP address members signed up and last logged in from.  There is also now a button in the \"Search Members\" section of the Admin that leads to a page where IPs can be blocked from accessing the site.  This update will help to identify any sources of spam member signups and provide a method to block their source from accessing the site. To find this new update, navigate to the Site Admin >> Members >> Search Members.\n\n- The One-Click Social Login Add-On is now Available.\n\n- The Members Only Message widget is now based on text labels.\n\n- Now the \"Recent Blog Articles with Sidebar\" and the \"Recent Member Articles with Sidebar\" widgets can be fully controlled from the Design Settings Page in the Admin.\n\n- Now the text in the Get Matched form is fully based on Text Labels.\n\n- The titles of the Signup page using the One-Click Social Login Add-On and the Credit Card Expiration field are now based on Text Labels.\n\n- Now the Google Sitemap Generator is available as an Add-On.\n\nEnhancements / Fixes:\n\n- We implemented several general fixes and improvements to the Member Import Images module.\n\n- We released an update to speed up the loading of Add-Ons and reduce related server load.\n\n- We moved all of the Design Settings in the Admin related to Search Results into one single section called Search Results Design. To find this new section, navigate to the Admin Area >> Settings >> Design Settings >> Design Settings tab.  Here you will find the new Search Results Design section.\n\n- We refactored one of the core files that loads every time a frontend page of a website is requested in order to make it process faster.  We also removed several lines of code that were present to support pages that have since been deprecated.\n\n- We updated the design of the \"Homepage Streaming Widget Options\" on the Design Settings page.\n\n- We made a security update to the function that saves the Member Account information to prevent unwanted HTML code from being displayed on the live profile page.\n\n- We added the One-Click Social Login Add-On to the Add-On Status Checker in the Site Admin.\n\n- We implemented a limit on the number of members that can be matched with a lead.  If a site is using the Basic Lead package (the default package that comes with all licenses), the limit will be 100 matches.  If a site is using the upgraded Automatic Lead Matching package, the limit will be 1500 matches.\n\n- We made a few security enhancements to the Widget Library page in the Admin.\n\n- We improved the Website Timezone Field in the General Settings page of the Admin to make sure the timezone selected is accurate in all cases.\n\n- We fixed an issue that was affecting the Year Established field in the Listing Details form in the Member Dashboard. Now this will be displayed only when a member selects an option from the Dropdown field, and will no longer save \"0\" by default. This update will be available for all new sites.  If you are having this issue on your already-launched site, please contact Support and request that this update be installed.\n\n- Bug fixes to the Leads Module, Reviews Module, Google Location System, Add-on Manager System, Biling Module, and Member System.\n\n- In all, more than 30 bugs were fixed throughout the software.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093670",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093670"
+    },
+    {
+      "text": "Support",
+      "url": "https://bootstrap.brilliantdirectories.com/support/tickets/new"
+    }
+  ],
+  "lastmod": "2023-05-09T04:20:54+05:30",
+  "scraped_at": "2026-10-18T13:51:20.748338"
+}

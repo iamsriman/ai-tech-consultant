@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108055",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108055-api-reference-unsubscribed",
+  "title": "API Reference - Unsubscribed",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Unsubscribed"
+  ],
+  "content": "## API Reference - Unsubscribed\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108055\n\n← Back to API Reference | Getting Started Unsubscribe List Tracks email addresses that have opted out of receiving emails. Addresses on this list are left out of newsletters and automated email campaigns. Transactional template emails, such as welcome, verification and notification emails, are still sent to them. Model name in URL: unsubscribe_list — DB table: unsubscribe_list The Unsubscribe Record Object Field Type Description id integer Unique record ID (primary key, read-only) email string Email address that has unsubscribed required on create code text Source of unsubscribe: admin , email , or api type string Type of unsubscribe (e.g. unsubscribe ) date string Date unsubscribed (format: YYYYMMDDHHmmss ) — auto-set on create definitive integer 1 for permanent unsubscribe, 0 for standard website_id integer Website ID — auto-set on create List Unsubscribe Records GET /api/v2/unsubscribe_list/get Copy curl -X GET \"https://www.yourdomain.com/api/v2/unsubscribe_list/get?limit=50\" \\\n  -H \"X-Api-Key: your-api-key-here\" Retrieve an Unsubscribe Record GET /api/v2/unsubscribe_list/get/{id} Copy curl -X GET \"https://www.yourdomain.com/api/v2/unsubscribe_list/get/18\" \\\n  -H \"X-Api-Key: your-api-key-here\" Create an Unsubscribe Record POST /api/v2/unsubscribe_list/create Adds an email address to the unsubscribe list. The date , code , and website_id fields are set automatically. Copy curl -X POST \"https://www.yourdomain.com/api/v2/unsubscribe_list/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"email=optout@example.com\" \\\n  -d \"definitive=0\" Update an Unsubscribe Record PUT /api/v2/unsubscribe_list/update Copy curl -X PUT \"https://www.yourdomain.com/api/v2/unsubscribe_list/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=18\" \\\n  -d \"definitive=1\" Delete an Unsubscribe Record DELETE /api/v2/unsubscribe_list/delete Removes an email from the unsubscribe list, re-enabling emails to that address. Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/unsubscribe_list/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=18\"",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108055",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108055"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-10-09T23:00:24+05:30",
+  "scraped_at": "2026-10-18T13:57:34.796169"
+}

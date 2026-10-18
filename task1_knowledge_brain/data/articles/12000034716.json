@@ -1,0 +1,225 @@
+{
+  "article_id": "12000034716",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034716-toolbox-menu-manager",
+  "title": "Toolbox » Menu Manager",
+  "category": "Toolbox",
+  "folder": "Menu Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Menu Manager",
+    "Toolbox » Menu Manager"
+  ],
+  "content": "## Toolbox » Menu Manager\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000034716\n\n\n## Where Can I Access This Tool?\n\n\nInside Toolbox » Menu Manager:\n\n\n## What are the Default Menu Options?\n\n\nBy default, the Menu Manager comes with 5 different menu options.\n\n\n### Header Main Menu\n\n\nAccessible via /home and most of the website.\n\n\n### Side-by-Side Pricing Menu - add-on\n\n\nCan be added to the /join page.\n\n\n### Footer Menu\n\n\nIs accessible on any page by the default\n\n\n### Header Mini Nav\n\n\nIs accessible via /home\n\n\n### Login Page Links\n\n\nIs accessible via /login\n\n\n## How Can I Edit These Menus?\n\n\nClick Customize under Actions to edit a menu.\n\nIn this instance, let's make changes to the \" Main Menu \".\n\nAdd an additional link by clicking on the \" New Link+ \" button:\n\nOnce the text and URL are added, click Save Changes . Once saved, the edited menu will start appearing above the Default Menus, indicating it is a Custom Menu.\n\nWhen clicked on \" Edit \" on Custom Menus:\n\nThere is a button option called  \" Edit Menu Settings \":\n\nOnce clicked, a module will display where the Nickname and System Name can be assigned for the menu:\n\nAdditionally, Custom Menus will have a few options under Actions :\n\n- Clicking Disable will disable the custom menu and its default version will be used on the website. This is very helpful for troubleshooting purposes:\n\n- Clicking Clone will clone this custom menu and will assign a custom Menu Name and Shortcode :\n\n- Clicking Copy Shortcode will copy the shortcode of this custom menu, with this copied shortcode, it is easy to call the menu on the preferred location like in a webpage or a widget ( How To Call A Menu On A Webpage ).\n\nEx) [menu=main_menu_clone_33]\n\n- Click Delete to remove this custom menu.\n\n\n## How to Create Dropdown Menus\n\n\nDrag a menu item beneath another to create a child element.\n\nAfter saving:\n\nClick to hide:\n\nThe drop-down menu shows up on the front end:\n\n\n## More Editing Options For Menu Links\n\n\nAll menu links come with a \" Settings \" button that allows for further changes:\n\n- Link / Text Link CSS Class - In this section, add preferred CSS Class to the <a> element. This is an ideal place to use pre-maid Bootstrap classes if needed.\n\n- <li> CSS Class - In this section, add preferred CSS Class to the <li> element. This is an ideal place to use pre-maid Bootstrap classes if needed.\n\n- Link / Text Inline Style Attribute - In this section, add preferred style elements to the <a> element.\n\n- <li> Inline Style Attribute - In this section, add preferred style elements to the <li> element.\n\n- Add no-follow - This setting will indicate if search engines should follow this link or not.\n\n- Open in a new window - This setting will indicate if the link should open in a new tab or not.\n\n- Hide Item - This setting will hide the menu item in the front end but will still be available in the menu manager.\n\nAdditional Information:\n\n>> How To Edit The Options For Menu Links",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124075562/original/nQaepMMpbnaDVvUwBo6bSbymaunlTPVRLg.png?1681491698",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124075687/original/CIVR4W8Ou7gX7mbieCgl6Md9GUKoaceHpA.png?1681491784",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124075871/original/R8q7NkB1AaXWosmyCCcWQ498s1oEh0Tv6A.png?1681491967",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076002/original/AtRK7-QYJCJDrkGq3s8cyjmkU1aSFw5Vxg.png?1681492143",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076020/original/HTNI3rJX0Gxu1aUg_g5Q-eMR7unGeoPa2g.png?1681492207",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161699960/original/Z6C8n0aPNJpY2GZAfnqNAMoCa1SVxQunZQ.png?1747890971",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076121/original/VG7DzbbQ41Y88yEsi9S6fR0xf3m8Lfs5MQ.png?1681492323",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076208/original/4LgvUEXfXzFhIGNZc0m89vtkN4QGpDcyUg.png?1681492434",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076232/original/8khdt6EXT2lujF__mA3HDOwb67BGHb23Ow.png?1681492486",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076327/original/nYoOxbtIhzmAdpNqrgKtf1R_Ai1rUv1PAQ.png?1681492605",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076345/original/YFPQgLaWa5TfJfVO_RtrlHZ70mzJyAtm4g.png?1681492631",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076392/original/09Ry8Nn6ueAQrVq3gPhzTaFtXnaWxJVRsg.png?1681492678",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076498/original/PnFNipucR2Iv6BUkLnqLMtMs-7287TXYpA.png?1681492740",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076542/original/EJ1__d5DtGMAKqmsI5erQvmc8lZ1y_HzHw.png?1681492780",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076575/original/1yGnC3RodWxVNckvtnC4ECCqxyBnn7wnRw.png?1681492825",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124076620/original/0e1yW1SLc0ntMFPpNICPYULzPl9Oyh908g.png?1681492867",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124077589/original/4SJwzRkidf3u65XpZhNvaaeU8vL9-I3VPQ.png?1681493881",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124077626/original/yBt0ejDjZbKKrsiFRsrcTOYD55I_1Kldvw.png?1681493956",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124077606/original/EPcUaUXevLK-HYDbE5Si7aOKolTnhQoHfA.png?1681493936",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124077646/original/l0gHXTcceCG4TQre-j4CiOlb29yikkpV-A.png?1681493989",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124077727/original/cZdUPTAKbzw0ik6OSkOjgtns2ej0OfHD9A.png?1681494026",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Menu Manager' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000034716",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034716"
+    },
+    {
+      "text": "add-on",
+      "url": "https://bootstrap.brilliantdirectories.com/a/solutions/articles/12000073080"
+    },
+    {
+      "text": "How To Call A Menu On A Webpage",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034726"
+    },
+    {
+      "text": "How To Edit The Options For Menu Links",
+      "url": "https://support.brilliantdirectories.com/solutions/articles/12000052181"
+    }
+  ],
+  "lastmod": "2026-01-06T01:19:19+05:30",
+  "scraped_at": "2026-10-18T13:41:38.367951"
+}

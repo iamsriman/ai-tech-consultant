@@ -18,6 +18,8 @@ class ExtractedImage:
     caption: Optional[str] = None
     is_screenshot: bool = False
     vision_description: Optional[str] = None
+    description_source: Optional[str] = None
+    content_hash: Optional[str] = None
 
     def to_dict(self) -> Dict:
         return asdict(self)

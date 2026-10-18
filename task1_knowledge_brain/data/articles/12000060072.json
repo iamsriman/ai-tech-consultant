@@ -1,0 +1,23 @@
+{
+  "article_id": "12000060072",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060072-08-02-19-software-updates",
+  "title": "08/02/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/02/19 - Software Updates"
+  ],
+  "content": "## 08/02/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000060072\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Payfast Payment Gateway from processing transactions in some cases.\n\n- We created a new Design Setting in order to show/hide the number of posts in each tab on Member Profile Pages. In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Design Settings tab >> Additional Design Settings section. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We added the ability to show/hide the Member Address information on Member Search Results pages based on the \"Show Address on Listing\" Product Setting. Feature Involved: Listing\n\n- We removed redundant code from the Listing Feature Search Results to improve the efficiency of loading member search results pages. Feature Involved: Listing\n\n- We fixed an issue which was erroneously causing the Lead Form to show an \"Invalid Recaptcha\" error when submitting the form in some cases. Widget Involved: System - SaveForm\n\n- We fixed an issue with the \"Members-Only Access\" Post Settings which was causing the search results pages of post types to be Members-Only when it was set to only make the details pages of posts to be Members-Only. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the Events Calendar feature from working properly properly on Sites running PHP 7.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000060072",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060072"
+    }
+  ],
+  "lastmod": "2024-05-09T11:31:35+05:30",
+  "scraped_at": "2026-10-18T13:45:22.002868"
+}

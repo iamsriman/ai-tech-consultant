@@ -1,0 +1,122 @@
+{
+  "article_id": "12000103091",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103091-managing-leads-from-a-member-s-perspective",
+  "title": "Managing Leads From A Member's Perspective",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "Managing Leads From A Member's Perspective"
+  ],
+  "content": "## Managing Leads From A Member's Perspective\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103091\n\nMembers can manage leads directly from their dashboard. Depending on the lead settings configured by the site administrator, members may be able to:\n\n- Purchase a lead\n\n- Accept a free lead\n\n- Decline a lead\n\nThis article explains how each action works and how members can track the status of their assigned leads.\n\n\n## Purchasing Leads\n\n\nPlease find all the relevant information here: Purchasing Leads\n\n\n## Accepting Free Leads\n\n\nAn email notification is sent when a lead is assigned. The email contains a link to view the lead details.\n\nThe link included in the email automatically logs into the dashboard and opens the assigned lead. Clicking on \" View Details \" will open the lead:\n\nIf lead notifications are configured to display a preview only, Accept Lead must be selected before the full contact information becomes available.\n\nAfter the lead is accepted, the complete lead information becomes available, including contact details such as email address and phone number.\n\n\n## Declining Leads\n\n\nThe member will receive an email notifying them that they have a lead. A link to view the lead is included in the email template:\n\nClicking on the link will AUTOMATICALLY log that member into his dashboard and take them straight to the lead itself facilitating the purchasing process. Clicking on \" View Details \" will open the lead:\n\nThe member will click on \" Decline Lead \" to not accept it:\n\nThe system will display a pop-up asking for feedback on why the lead was not accepted. This question is optional.\n\nThe lead will appear as \"Declined\" in this section:\n\n\n### View Declined Lead Reason\n\n\nThe owner of the site views the declined lead reason in the Leads details of the admin:\n\n\n## Member Assigned Lead Status\n\n\nWhen a lead is accepted, the following lead statuses will be displayed:\n\n- Deal Won\n\n- Deal Lost\n\n- In Progress\n\n- Needs Contact\n\nThese statuses are designed to help members efficiently manage their leads on the dashboard.\n\nThis appears in its own column when viewing all leads:\n\n\n### Lead Status Text Labels\n\n\nThese are text labels which can be found and edited within the Settings » Text Labels :\n\n- lead_user_status_won\n\n- lead_user_status_deal_lost\n\n- lead_user_status_in_progress\n\n- lead_user_status_needs_contact",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155728959/original/yEyF508A0Gwn6zNJtxaLE4g9F1XGH_zZ7w.png?1737477373",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155729072/original/DVMvcB_6_gQsCkseDjpyAzsFRY-Pcyk6fQ.png?1737477471",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155729147/original/NFSL0PaSPkY8FWzqCprKAUfbPOs92F_tvA.png?1737477532",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155728959/original/yEyF508A0Gwn6zNJtxaLE4g9F1XGH_zZ7w.png?1737477373",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155729537/original/F-hb3aXqwvohPzVLcYTKCAQP_dWCoAguOw.png?1737477870",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155729885/original/EFd8pM7k-Wh0fy3oVvCA1UKAcNUoC3fxPg.png?1737478137",
+      "alt": null,
+      "caption": "The system will display a pop-up asking for feedback on why the lead was not accepted. This question is optional.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'. Context: The system will display a pop-up asking for feedback on why the lead was not accepted. This question is optional.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155730211/original/watlVnkjsg1ltegneDa9DYA-Nff25c1T4A.png?1737478330",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155730036/original/Eu_xPlo3FiKS6OVXhgL6eyD7aY6KZ6LGHQ.png?1737478227",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155730618/original/J2IFVQ4XK1W-5DRBycObYKJYJMI6OBsUsA.png?1737478676",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164354873/original/3xJSSvErkcAALjOEBzfcgC0YdoOvyUNYkA.png?1752609451",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Managing Leads From A Member's Perspective' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103091",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103091"
+    },
+    {
+      "text": "Purchasing Leads",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000673913"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://bootstrap.brilliantdirectories.com/a/solutions/articles/5000682673"
+    }
+  ],
+  "lastmod": "2026-06-12T21:18:42+05:30",
+  "scraped_at": "2026-10-18T13:55:37.692025"
+}

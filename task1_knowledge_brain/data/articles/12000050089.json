@@ -1,0 +1,45 @@
+{
+  "article_id": "12000050089",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050089-managed-ssl-https-security-certificate",
+  "title": "Managed SSL/HTTPS Security Certificate",
+  "category": "Add-On Documentation",
+  "folder": "Managed SSL Security",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Managed SSL Security",
+    "Managed SSL/HTTPS Security Certificate"
+  ],
+  "content": "## Managed SSL/HTTPS Security Certificate\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000050089\n\n\n## Managed SSL/HTTPS Security Certificate\n\n\nSSL encrypts traffic between the website and its visitors and allows the public website and payment pages to use HTTPS on the connected domain.\n\n\n### How to Get Managed SSL\n\n\nManaged SSL is included with qualifying add-on packages and can also be purchased as the Managed SSL Security Add-On .\n\n\n### Connect the Domain First\n\n\nThe live domain must point to the website before a certificate can be issued. See How to Connect a Domain to a Brilliant Directories Website .\n\n\n### Installation and Status\n\n\nWhen managed SSL is already active, Domain Manager requests a new certificate as part of Switch Over . Open Settings > Domain Manager > SSL to review its status and select Check again after DNS changes.\n\nIf managed SSL is purchased after the domain is connected, open the SSL tab and use the installation action shown there. Issuance can take time while the domain and DNS are verified.\n\nExample certificate status on a directoryup.com website. Custom-domain certificate details and available actions depend on the website configuration.\n\nCustom HTAccess rules: SSL activation can regenerate the HTAccess file. Back up any custom rules before installation and confirm them afterward.\n\nA manually installed third-party certificate follows a different renewal process. See Install 3rd Party SSL .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668544/original/exn3eP_KrlYJ3lqhpEgS0XapNr_9Mho9EA.png?1790182300",
+      "alt": "SSL tab on a free directoryup.com address, with the Managed SSL card marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Managed SSL/HTTPS Security Certificate' (Add-On Documentation > Managed SSL Security): SSL tab on a free directoryup.com address, with the Managed SSL card marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000050089",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050089"
+    },
+    {
+      "text": "Managed SSL Security Add-On",
+      "url": "https://www.brilliantdirectories.com/ssl-secure-website"
+    },
+    {
+      "text": "How to Connect a Domain to a Brilliant Directories Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    },
+    {
+      "text": "Install 3rd Party SSL",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069456"
+    }
+  ],
+  "lastmod": "2026-09-23T22:32:04+05:30",
+  "scraped_at": "2026-10-18T13:43:54.594640"
+}

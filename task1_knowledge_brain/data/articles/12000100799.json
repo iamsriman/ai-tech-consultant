@@ -1,0 +1,109 @@
+{
+  "article_id": "12000100799",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100799-customizing-froala-editors-adding-rtl-and-ltr-options-for-text-direction",
+  "title": "Customizing Froala Editors: Adding RTL and LTR Options for Text Direction",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Customizing Froala Editors: Adding RTL and LTR Options for Text Direction"
+  ],
+  "content": "## Customizing Froala Editors: Adding RTL and LTR Options for Text Direction\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100799\n\nIn this tutorial, we explore how to customize Froala editors, focusing on adding RTL and LTR options for text direction. For more details, refer to the Froala development page .\n\nIn many languages, the text flows either from left to right (LTR) or right to left (RTL), and adjusting the text direction in Froala text editors can be essential for accurately displaying content in these languages.\n\nTo customize text direction, follow the steps outlined below:\n\n\n## 1. Create a Widget Using the Provided Code\n\n\nTo begin, copy the code provided below:\n\n<script> // Function to change the text direction and alignment var changeDirection = function (dir, align) { // Save the current selection to maintain it after modifications this.selection.save(); // Wrap the selected block tags this.html.wrap(true, true, true, true); // Restore the selection to work with the selected elements this.selection.restore(); // Get the selected blocks var elements = this.selection.blocks(); // Save the selection again to restore it after changes this.selection.save(); // Iterate over the selected elements and apply changes for (var i = 0; i < elements.length; i++) { var element = elements[i]; if (element != this.el) { // Change the text direction and alignment of the element this.$(element) .css('direction', dir) .css('text-align', align) .removeClass('fr-temp-div'); // Remove the temporary class used for wrapping } } // Unwrap the temporary divs used during the wrapping process this.html.unwrap(); // Restore the original selection this.selection.restore(); } // Function to add custom buttons to the Froala editor function addCustomButton(editor, FroalaEditor) { // Define the icon for the right-to-left (RTL) button FroalaEditor.DefineIcon('rightToLeft', { NAME: 'arrow-left', template: 'font_awesome' }); FroalaEditor.RegisterCommand('rightToLeft', { title: 'RTL', focus: true, undo: true, refreshAfterCallback: true, callback: function () { changeDirection.apply(this, ['rtl', 'right']); // Apply RTL direction and right alignment } }); // Define the icon for the left-to-right (LTR) button FroalaEditor.DefineIcon('leftToRight', { NAME: 'arrow-right', template: 'font_awesome' }); FroalaEditor.RegisterCommand('leftToRight', { title: 'LTR', focus: true, undo: true, refreshAfterCallback: true, callback: function () { changeDirection.apply(this, ['ltr', 'left']); // Apply LTR direction and left alignment } }); // Add the custom buttons to the editor's toolbar let toolbarButtons = editor.opts.toolbarButtons; if(Array.isArray(toolbarButtons)){ toolbarButtons.push('rightToLeft'); toolbarButtons.push('leftToRight'); }else{ // scenario Froala Text Editor - Media Manager Access toolbarButtons.moreText.buttons.push('rightToLeft'); toolbarButtons.moreText.buttons.push('leftToRight'); toolbarButtons.moreText.buttonsVisible=12; } let settings = editor.opts; // Update the editor's toolbar options editor.opts.toolbarButtons = toolbarButtons; editor.destroy(); // Destroy the current editor instance new FroalaEditor(\"#yourcustomid\", settings); // Create a new editor instance with updated buttons } // Function to execute when the page is fully loaded window.onload = function() { // Ensure the editor instance is fully initialized before adding the custom button addCustomButton(window[\"yourcustomid\"], FroalaEditor); }; //// EXTRA NOTE //// /// change \"yourcustomid\" to the id or class of the froala you need to change </script> Then, navigate to Toolbox >> Widget Manager to create a widget using this code. After creating the widget, copy its shortcode for future use: 2. Customizing the Form Next, customize the preferred form under Toolbox >> Form Manager. For this example, we will customize the \"Feature - Member Articles\" form to incorporate the text direction functionality. Next, add a new form field with the type set to \"Custom HTML,\" and then paste the previously copied widget shortcode into this field. Important Note: The Database Variable assigned to this field is not important. Next, click on the gear icon for the Froala Text Editor field and assign a unique \"Outer Element ID.\" Be sure to copy this ID for future use. 3. Customizing the Widget to Refer to the Outer Element ID To ensure the widget interacts correctly with the form field, open the newly created widget under Widget Manager: On lines 83 and 89, replace \" yourcustomid \" with the Outer Element ID assigned to the Froala Text Editor field. Before: After: This is how the end result would look like:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146910791/original/doSij_7rweG8vEjbKTMbBR1gTjGtZq9Szw.png?1721925899",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146910862/original/tNXc5697bab4GT1qiVi09XHNgAF5PY17wg.png?1721925961",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146911019/original/onH78XPka-eVCUM6XGQDooLOI05EhFQ9kg.png?1721926031",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146911246/original/butW_0G3rOXQ_ps4XIeeCS14VtTRR13-xA.png?1721926274",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146911355/original/Gb1PDUPMzcUqB7nQl8jisVVmaWsR-_6ETQ.png?1721926399",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146911525/original/a5JEuKeMfUvz3mbOjzuQ4E2OQn6jOh7gvA.png?1721926551",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12147197843/original/bXhYfIDJQ9BKTALPKwdPOjNTthcOSerDAA.png?1722438642",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12147197846/original/rzn_VmXqqU8LNGDq2HbqW9qCu0b_i5gnww.png?1722438648",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146963061/original/6iwzF0-IkAq5w6Ey5zBCfxHv2lrJDwX5ZA.gif?1722007617",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Customizing Froala Editors: Adding RTL and LTR Options for Text Direction' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100799",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100799"
+    },
+    {
+      "text": "Froala development page",
+      "url": "https://froala.com/wysiwyg-editor/examples/rtl-ltr-custom-button/"
+    }
+  ],
+  "lastmod": "2024-08-14T21:55:26+05:30",
+  "scraped_at": "2026-10-18T13:54:39.836256"
+}

@@ -1,0 +1,94 @@
+{
+  "article_id": "12000019817",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019817-guide-8-how-to-enable-form-security-with-google-recaptcha",
+  "title": "Guide 8. How to Enable Form Security with Google reCaptcha",
+  "category": "Get Started Here",
+  "folder": "Quick Setup Guides",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Quick Setup Guides",
+    "Guide 8. How to Enable Form Security with Google reCaptcha"
+  ],
+  "content": "## Guide 8. How to Enable Form Security with Google reCaptcha\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000019817\n\nThis article it's a guide on how to set up Google reCaptcha to reduce spam. NOTE : Before completing this step, FIRST connect the live domain name. Please see: How To Move Your Site To Your Live Domain .\n\nThe website needs to have the reCAPTCHA key set up in order to have the public forms prevent SPAM. As Google describes it, \"reCAPTCHA is a free service that protects the website from spam and abuse. reCAPTCHA uses an advanced risk analysis engine and adaptive CAPTCHAs to keep automated software from engaging in abusive activities on the site. It does this while letting valid users pass through with ease.\"\n\nFor this reason, if the reCAPTCHA keys have not yet been set up the checkout pages won't be available and will display the following message:\n\n\n## Instructions\n\n\n1. Sign in to the Gmail Account being used for the business.\n\n2. Go to: https://www.google.com/recaptcha/admin/create\n\n3. Provide a label name for the reCAPTCHA key. Add the URL of the website. 4. IMPORTANT: You must select \"reCAPTCHA v2\" and the \"I'm not a robot\" option.\n\nreCAPTCHA v2 > \"I'm not a robot\" Checkbox:\n\n5. Provide the URL of the website and/or temporary URL if applicable. Use only the domain without HTTP / HTTPS and www .\n\ne.g : loveanimalsandplants.com\n\n6. Accept the Terms of Service.\n\n7. Click on Submit\n\nPlease see these steps Live:\n\n8. Copy the Site Key Provided.\n\n9. Copy the Secret Key Provided.\n\n\n## Adding the Keys\n\n\nGo into the admin page and click on Settings >> General Settings . Click on Integrations.\n\nPaste the Site Key and the Secret Key into the Google Recaptcha fields:\n\nFor your other sites, be sure to repeat the tutorial from \"Add a site\" without clicking \"Add new key.\"",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096225116/original/281j9FOkTfTuRn-6ePel34VuyhTkYAAPKw.png?1627671836",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 8. How to Enable Form Security with Google reCaptcha' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179424418/original/hq4g_H7NkaY8qa2XUQ0f3qTUhR2zvRDPXA.png?1779824127",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 8. How to Enable Form Security with Google reCaptcha' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12071328183/original/iOQnWPV5kvwnpMTAl0rXkjZa9rdMbLU5xA.png?1577415144",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 8. How to Enable Form Security with Google reCaptcha' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085560943/original/G8ulK0FBnSpTcaL2XGt7lOrRypv44hvAPw.gif?1606414304",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 8. How to Enable Form Security with Google reCaptcha' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085561008/original/t1_bFH_nEEIxWRT8fDdpgSgNLUD2YQthTA.png?1606414412",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 8. How to Enable Form Security with Google reCaptcha' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104985336/original/5xohrdePN5NXwYqPGorIdt60npiwXQftTg.png?1644770001",
+      "alt": null,
+      "caption": "For your other sites, be sure to repeat the tutorial from \"Add a site\" without clicking \"Add new key.\"",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 8. How to Enable Form Security with Google reCaptcha' in section 'Get Started Here' / 'Quick Setup Guides'. Context: For your other sites, be sure to repeat the tutorial from \"Add a site\" without clicking \"Add new key.\"",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000019817",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019817"
+    },
+    {
+      "text": "How To Move Your Site To Your Live Domain",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682661-how-to-move-your-site-to-your-live-domain"
+    },
+    {
+      "text": "https://www.google.com/recaptcha/admin/create",
+      "url": "https://www.google.com/recaptcha/admin/create"
+    },
+    {
+      "text": "www",
+      "url": "http://www"
+    },
+    {
+      "text": "loveanimalsandplants.com",
+      "url": "http://www.loveanimalsandplants.com/"
+    }
+  ],
+  "lastmod": "2026-05-27T01:05:51+05:30",
+  "scraped_at": "2026-10-18T13:40:40.506599"
+}

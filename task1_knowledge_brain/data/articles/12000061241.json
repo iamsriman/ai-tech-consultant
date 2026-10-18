@@ -1,0 +1,23 @@
+{
+  "article_id": "12000061241",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000061241-08-30-19-software-updates",
+  "title": "08/30/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/30/19 - Software Updates"
+  ],
+  "content": "## 08/30/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000061241\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the color picker fields in the Admin in order to still apply the selected color when the user clicks out of the color picker field.\n\n- We fixed an issue which was causing member categories to link to 404 error pages in some cases.\n\n- We created a new homepage and sidebar search module for the Sell Digital Downloads Add-On.\n\n- We updated the Expanded Keyword Search, SSL Secure Website and Google Search Assist Add-Ons to make them fully compatible with the current version of our Add-On Manager system. Widget Involved: Search - Member - Search Query Search - Reviews - Search Query\n\n- We fixed an issue which was preventing breadcrumbs from displaying on member search results pages in some cases. Widget Involved: Bootstrap Theme Framework\n\n- We fixed an issue which was preventing PDF files from being uploaded by members through the Member Dashboard on servers running PHP 7.\n\n- We added the \"Request Review\" feature to the \"Manage Reviews\" section of the Member Dashboard when there are no reviews to moderate. Widget Involved: Bootstrap Theme - Account - Reviews Datatable\n\n- We fixed an issue which was preventing Admins from deleting invoices in the Admin in some cases.\n\n- We fixed an issue which was causing the \"Edit Listing\" button to be covered by the Profile Cover Photo on their profile pages. Widget Involved: Bootstrap Theme - Member Profile\n\n- We fixed an issue that was preventing the \"Edit Listing\" button on member profile pages from working properly on mobile devices. Widget Involved: Bootstrap Theme - Member Profile\n\n- We fixed an issue which was preventing the \"Copy to Clipboard\" link from working properly on the Sitemap Generator page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000061241",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000061241"
+    }
+  ],
+  "lastmod": "2019-09-10T01:20:34+05:30",
+  "scraped_at": "2026-10-18T13:45:27.490713"
+}

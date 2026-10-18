@@ -1,0 +1,260 @@
+{
+  "article_id": "12000096184",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096184-how-to-create-smart-list-webhooks",
+  "title": "How To Create Smart List Webhooks",
+  "category": "My Members",
+  "folder": "Smart List",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Smart List",
+    "How To Create Smart List Webhooks"
+  ],
+  "content": "## How To Create Smart List Webhooks\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096184\n\nHere is an overview of our Webhooks functionality: Developer Hub - Webhooks\n\nThe Webhooks functionality can be used to send data to any URL endpoint. This allows for sending data to intermediaries (Zapier, Pabbly Connect, Wokato, APIFuse, etc), API endpoints on other platforms, or custom endpoints created by the user to receive data.\n\n\n## Create the Smart List\n\n\nThe first step is to create the smart list based on the member search results.\n\nFollow the steps in this article: My Members » Smart Lists\n\n\n## Create the Webhook Event\n\n\nThe Webhook Event must be created on Zapier, Pabbly Connect, Wokato, APIFuse, etc.\n\nWe have another article that explains how to do it: Connecting Webhook Events With Zapier\n\nHowever, we will share specific instructions for smart lists on this article.\n\nFor this example, Zapier is used.\n\nCreate a new Zapier account or log in to an existing account .\n\nClick on the \" + Create Zap \" button:\n\nNext, add a Zap name at the top left.\n\nClick on the \" 1. Trigger \" button:\n\nSelect the \" Webhook \" option:\n\nThen, in the right sidebar, select the Event >> Catch Hook and click on \" Continue \":\n\nThen click on \" Continue \" again:\n\nCopy the Webhook URL:\n\n\n## Add the Webhook URL to the BD Admin\n\n\nGo to Developer Hub >> Webhooks :\n\nIn the search bar, type Smart to locate Members Smart Lists . Paste the Webhook URL, enable the webhook using the toggle switch, and save the changes at the top right of the screen.\n\nConfiguration Note: Pasting the Webhook URL directly into the global Members Smart Lists field applies the endpoint execution to all member smart lists on the site. To target an isolated list instead, leave the global field blank and click New Webhook + .\n\nThen select the specific smart list you want to create the Webhook for:\n\nGo to My Members >> Smart Lists . Find the smart list created at the beginning of this article and click on Actions >> Sync Webhook Now:\n\nSelect the information that needs to be sent on the webhook and click on the \"Continue With Webhook\" button:\n\nA success pop-up will show up.\n\nClick on \"Close Window\":\n\n\n## Test the Trigger\n\n\nNow go back to Zapier and click on \"Test trigger\":\n\nZapier will show the information sent from the admin, which means it was connected correctly. Select a request and click on \"Continue with selected record\":\n\nHere is where we need to select what we want to do (Create a new google sheet, send an email notification, etc). In this case, we will create a new Google Sheet, so we will type \"Sheet\" on the search bar and select \"Google Sheets\":\n\nFor this example, we will create a new spreadsheet row. Zapier will ask to connect a Google Account to proceed.\n\nA new Google Sheet named 'Smart List Webhook' can be created for this workflow, containing the specific fields intended for the webhook payload\n\nThen go back to Zapier. When the account has been connected, Zapier will recognize the new spreadsheet created.\n\nParse the data and click on Test:\n\nCheck the spreadsheet to see if the information was updated:\n\nGo back to Zapier and click on \"Publish\"\n\n\n## Schedule the Webhook\n\n\nThere are 3 ways to schedule a smart list webhook:\n\n- Schedule Daily: The cron job will run once every day.\n\n- Schedule Weekly : The cron job will run every Sunday.\n\n- Schedule Monthly : The cron job will run on the first day of the month.\n\nIt can be selected here:\n\nRequirement : Automated scheduling options ( Schedule Daily , Schedule Weekly , Schedule Monthly ) are only visible if the global Members Smart Lists webhook is enabled within Developer Hub > Webhooks .\n\nThe system will automatically create a cron job that will run on the selected schedule:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132213607/original/kEbufqgttgk2fn01zj0Vl1Csa9j-5ZdDIQ.png?1696350150",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132213709/original/wYb_ydQskL5_JyBVPaKp9q7nMCnvBncxAg.png?1696350323",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132213787/original/1GcozPpZMeGXQQoztx5YhsiDZtTm7DV0bA.png?1696350380",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132214043/original/zACvVXssS4V3zcMLJIq84f0xmG812QtZ3Q.png?1696350673",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132214132/original/DKdkE_B9hl5g_Bdnj3k7AcYdvpByAk5uuQ.png?1696350766",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132214266/original/cU3hVCFYFRCDEqGgZ6XUVyyd21_zPcX8QQ.png?1696350901",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132214352/original/9shisGwaoJOrice1AYWaw_8pthRf7G5VAA.png?1696350986",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132214437/original/HlsdqKCnwyZIvsElZVOvb5gHrLdvYk9wzg.png?1696351039",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134071637/original/IbvRbN-1HwymKm8M8Egaw_os565SPkxWyQ.png?1699368824",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134071572/original/awA6F9t_nF5FMULiJYMd0rrVtxtmtCAl6g.png?1699368764",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132221863/original/uRgoWXyhSqYIQ0xb-9MmMLPZ2hSQyZTvaQ.png?1696358905",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132221913/original/eycSgAYBazFdhEkyIQNwIGxYWTZnpUj2lw.png?1696358990",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132221980/original/bDoNF43CKkhdpQR1gxnExiQiuNG8QesrMg.png?1696359043",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132215014/original/Na5HJwJ5ZEQiean4d1RrITy26h8XbsEJ6Q.png?1696351723",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132215121/original/gXwgriDjt8LDkrW4Zss-1dHzNSwXRrtJYQ.png?1696351857",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132215169/original/StZtb8TQnkIYiqGlQcFlWNjOqxIIS9lr3A.png?1696351913",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132215270/original/eR3Gbime2HzqRarf1iJ3j5esWxh12et4YA.png?1696351980",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132222442/original/Tw1B9JhgapRqz5umvS85Vn06XcYSm82fAw.png?1696359498",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132215434/original/Z-_B3nsb54GCGSGhBdaeuWZO18pnxp4wxA.png?1696352107",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132215670/original/bGpkMKWV5Epjmd4FLcdfwPPAMRnMn4DRUg.png?1696352364",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132222867/original/xwNWQ1hcjGrjox5vnflLd4dAeTcXZoG78Q.png?1696359911",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132215714/original/T8Eg3WOFouC_RIQRyfF5zkzhVT1wXSfPrw.png?1696352417",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132223421/original/Cu6vv8oUiwDcKCsKEz4NxAp6Sr1T2q37qg.png?1696360407",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132223483/original/anH16WFFaJAE7TvRAssULv-N7Gau3WYYfg.png?1696360477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create Smart List Webhooks' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096184",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096184"
+    },
+    {
+      "text": "Developer Hub - Webhooks",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000083005"
+    },
+    {
+      "text": "My Members » Smart Lists",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000071871"
+    },
+    {
+      "text": "Connecting Webhook Events With Zapier",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082977"
+    },
+    {
+      "text": "new Zapier account",
+      "url": "https://zapier.com/sign-up"
+    },
+    {
+      "text": "log in to an existing account",
+      "url": "https://zapier.com/app/login"
+    }
+  ],
+  "lastmod": "2026-06-15T23:51:01+05:30",
+  "scraped_at": "2026-10-18T13:52:55.087694"
+}

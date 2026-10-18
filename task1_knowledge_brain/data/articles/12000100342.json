@@ -1,0 +1,23 @@
+{
+  "article_id": "12000100342",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100342-06-14-2024-software-update",
+  "title": "06/14/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/14/2024 - Software Update"
+  ],
+  "content": "## 06/14/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100342\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed a display issue on the Search Members page in the Admin area when the \"Require Complete Profile\" and the \"Enable Sales Rep Field in Edit Members Form\" Advanced Settings were both enabled in some cases.\n\n- We fixed an issue which was causing the system to return members that were not geocoded on member search results pages after performing a location search in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was preventing the system from including the country name as part of the member profile URL when the \"Member Profile URL Structure\" Advanced Setting had not been saved in some cases.\n\n- We fixed an issue that was preventing the Details pages of Multi-Photo Post Types to display at full width when there was no sidebar selected. Widget Involved: Bootstrap Theme - Photo Album Page\n\n- We implemented a security update to member search result pages on the frontend of sites. Widgets Involved: Bootstrap Theme - Search Module - Keyword Only Bootstrap Theme - Search Module - Keyword_Location\n\n- We fixed an issue that was causing the system to display duplicate posts after using the \"Click to Load More Results\" button when the \"Order Results by\" Post Type Setting was set to \"Random Order\" in some cases. Widgets Involved: Bootstrap - Search - Lazy Loader tabs Search - Group - Search Query Search - Post - Search Query\n\n- We released the new Setup Wizard to help guide new websites through the initial setup process. This can be found on the Admin Dashboard page in the Admin area.\n\n- We made several small bug fixes and improvements to the new Import Business Data tool in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100342",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100342"
+    }
+  ],
+  "lastmod": "2024-06-17T23:41:02+05:30",
+  "scraped_at": "2026-10-18T13:54:21.968587"
+}

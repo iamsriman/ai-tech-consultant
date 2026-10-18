@@ -1,0 +1,27 @@
+{
+  "article_id": "12000093661",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093661-changelog-february-2017",
+  "title": "Changelog - February 2017",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - February 2017"
+  ],
+  "content": "## Changelog - February 2017\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093661\n\nNew Features:\n\n- We updated the Front-End Design of the Categories Page so that the Sub-Sub Categories are in a toggle accordion.\n\n- A new setting to pluralize words has been created, if the disable_plural_text is set to 1, the system will not pluralize any Text Labels on the site, which is useful for those who wish to translate their site to another language. The default value is 0.\n\n- Migration tool to migrate reviews from old review system to the new one is ready to be used.\n\n- New widgets Bootstrap Theme - Display - Recent Blog Articles with Sidebar AND Bootstrap Theme - Display - Recent Articles with Sidebar are ready to be used. These widgets will display the most recent articles and blog articles with a sidebar.\n\n- We updated our Member Category Page and the Member Category importer.\n\n- We added two new Membership Level Settings, Show QR Code in Dashboard and Show Member Badge in Dashboard.\n\n- New Advanced setting created: get_copy_review_email - if you set this settings to 1 the site admin will receive a copy of Member Review Emails. By default the setting will set as 0. Click here for more information .\n\nEnhancements / Fixes:\n\n- Bug fixes through the New Leads Module, New Reviews Module and Google Location System, and Add-on Manager System.\n\n- In summary more than 30+ bugs fixed ranging from Backend, Admin Panel, Frontend and more.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093661",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093661"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000026229-receive-copies-of-all-of-your-members-review-emails"
+    }
+  ],
+  "lastmod": "2023-05-09T04:08:02+05:30",
+  "scraped_at": "2026-10-18T13:51:13.415951"
+}

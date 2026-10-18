@@ -1,0 +1,42 @@
+{
+  "article_id": "12000047896",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047896-developer-hub-htaccess-file",
+  "title": "Developer Hub » HTACCESS File",
+  "category": "Developer Hub",
+  "folder": "HTACCESS File",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "HTACCESS File",
+    "Developer Hub » HTACCESS File"
+  ],
+  "content": "## Developer Hub » HTACCESS File\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000047896\n\nAn .htaccess (hypertext access) file is a directory-level configuration file supported by several web servers, used for configuration of site-access issues, such as URL redirection, URL shortening, access security control (for different web pages and files), and more.\n\nBecause of the sensitivity of this file, edits should only be made by someone familiar with server-side configuration. Incorrect changes can cause the website to stop loading .\n\n\n## Before Editing the HTACCESS File\n\n\nThe .htaccess file is powerful but easy to break. Even a small typo can make the entire website inaccessible . For that reason:\n\n- Always save a copy of the current .htaccess content before making any changes.\n\n- Only make changes when absolutely necessary.\n\n- If unsure about a directive or configuration rule, please consult a qualified developer.\n\n\n## Accessing the HTACCESS File\n\n\n- Go to Developer Hub\n\n- Click on \" HTACCESS File\"\n\nFrom this screen, the current file contents can be viewed and edited if needed.\n\n\n### Restoring the Default File\n\n\nIf issues arise or a reset is required, the Restore Default button can be used to revert the file to its original version.\n\nBefore restoring, it is strongly recommended to copy and save the current content into a .txt file for reference.\n\n- .htaccess file code area.\n\n- \"Save Changes\" button.\n\n- \"Restore Default\" .htaccess file button.\n\n\n### When This Tool Should Be Used\n\n\nMost website owners will not need to edit the .htaccess file. Edits should be considered only when:\n\n- A server-level configuration change is specifically required.\n\n- The impact of the modification is fully understood.\n\n- A backup of the current file has been created.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180160067/original/qKGvK0_9j0MSXCzR1Xn2QrOABSWrIzYCTw.png?1781041510",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Developer Hub » HTACCESS File' in section 'Developer Hub' / 'HTACCESS File'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180160225/original/86Gs0AJ_4f_KX6ki2R6ajloNacDDmq4uhw.png?1781041674",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Developer Hub » HTACCESS File' in section 'Developer Hub' / 'HTACCESS File'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000047896",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047896"
+    }
+  ],
+  "lastmod": "2026-06-10T03:18:11+05:30",
+  "scraped_at": "2026-10-18T13:43:24.755021"
+}

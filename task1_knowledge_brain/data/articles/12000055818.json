@@ -1,0 +1,68 @@
+{
+  "article_id": "12000055818",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055818-how-to-locate-text-labels-on-the-front-end-of-a-website",
+  "title": "How to Locate Text Labels on the Front End of a Website",
+  "category": "Settings",
+  "folder": "Text Labels",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Text Labels",
+    "How to Locate Text Labels on the Front End of a Website"
+  ],
+  "content": "## How to Locate Text Labels on the Front End of a Website\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000055818\n\nFirst, access the website from the admin backend in order to display the Admin Bar .\n\nOnce the Admin Bar is active, click on the \" Show Text Labels \" icon. All the available Text Labels on that specific page, will be highlighted:\n\nTo look for the Text Label, scroll through the page, the text label will have a yellow background. By clicking on the text label the system will redirect to the Text Labels section with a search completed of the text label that was selected:\n\nOr use the Text Label Search that can be found in the bottom right corner of the screen:\n\nEdit the Text directly through the Text Label Search.\n\nImportant Note: T here are some areas the text labels cannot be highlighted by the tool, like if the text label is the placeholder attribute of a field, a <select><option>, or not initially displayed on the page.  However, using the on-page text label editor, the label can be found.\n\nAdditional Information:\n\nSettings » Text Labels",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093775171/original/ZU-seyeBsNeH6Af_IDGRciA1XcHtzRGckw.png?1623171503",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Locate Text Labels on the Front End of a Website' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280011/original/Y1o6nNgroHhtyt7fUGx61KnL-whPaTW7fg.png?1645312414",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Locate Text Labels on the Front End of a Website' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117287013/original/-xs3lmpX-T6QdXW9YmhRuMmhaqFQcRHtzg.png?1668520544",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Locate Text Labels on the Front End of a Website' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128340630/original/UUCbu93SnR8dalmszvIlIr8w9xtn0FNKaQ.gif?1689292723",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Locate Text Labels on the Front End of a Website' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000055818",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055818"
+    },
+    {
+      "text": "Admin Bar",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055666"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673"
+    }
+  ],
+  "lastmod": "2023-07-14T05:28:59+05:30",
+  "scraped_at": "2026-10-18T13:44:40.785644"
+}

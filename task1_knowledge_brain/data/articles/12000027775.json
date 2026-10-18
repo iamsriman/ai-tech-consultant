@@ -1,0 +1,31 @@
+{
+  "article_id": "12000027775",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027775-03-31-17-software-updates",
+  "title": "03/31/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/31/17 - Software Updates"
+  ],
+  "content": "## 03/31/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000027775\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We improved the Google Assistance Add-On to make it work with the Pretty URL system (Member Categories and Locations Page).\n\nWidget Involved:\n\nBootstrap Theme - Member Results - No Results\n\n- We added the ability to display the Member login form on the Homepage. An Admin can control this functionality through the Website Design Settings. When the user is already logged in to their on the site, the system will display the Search Module instead of the Member Login Form.\n\nWidgets Involved:\n\nBootstrap Theme - Admin - Design Settings\n\nBootstrap Theme - Homepage\n\nBootstrap Theme - Homepage Search - Member Login Form\n\nDesign Settings Involved:\n\nHomepage Layout >> Search Type\n\nHomepage Layout >> Require Login Form >> Yes\n\n- The Field Type option in the Form Builder has been re-ordered to make it easier for an Admin to find the correct field type options when adding or editing a field. Also, we reduced the number of field types in order to only show the ones that are already supported by the system.\n\nWidget Involved:\n\nAdmin - Form Builder Container\n\n- The issue related to leads being matched to a member twice has been resolved.\n\nWidget Involved:\n\nBootstrap Theme - Function - Form\n\n- We did a major update for the Lead Automatching Engine and the Member Search Query. When searching for a member using the location and category search features on the front end of a website and auto-matching leads based on location and category (available with the Automatic Lead-Matching Add-On ), the results will always be exactly the same.  The Member Search Query has also been completely refactored for faster and more robust results.  Please see the complete documentation of this major update here .\n\nWidgets Involved:\n\nSystem - SaveForm\n\nSearch - Member - Search Query\n\nBootstrap Theme - Lead System - Engine Name And Radius Value\n\nAdmin-Match-Leads\n\nAdmin - Bootstrap Theme - Lead System - Automatically Match Leads To Qualified Members\n\n- The issue related to show the Member Phone Number on the overview tab not displaying as expected in some cases has been resolved. Now the code will respect the Membership Level / Product setting to display the member's phone number.\n\nWidget Involved:\n\nBootstrap Theme - Member Profile - Display Phone Number",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000027775",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027775"
+    },
+    {
+      "text": "Automatic Lead-Matching Add-On",
+      "url": "http://www.brilliantdirectories.com/advanced-leads-module-with-auto-matching"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000027557-major-update-for-lead-matching-member-search-systems-march-29-2017"
+    }
+  ],
+  "lastmod": "2017-04-03T04:13:35+05:30",
+  "scraped_at": "2026-10-18T13:41:05.272220"
+}

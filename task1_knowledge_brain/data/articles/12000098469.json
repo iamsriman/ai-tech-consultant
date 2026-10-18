@@ -1,0 +1,23 @@
+{
+  "article_id": "12000098469",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098469-02-23-2024-software-updates",
+  "title": "02/23/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/23/2024 - Software Updates"
+  ],
+  "content": "## 02/23/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098469\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added Serbian and Filipino Default Website Language options in the General Settings in the Admin.\n\n- We updated the Email Templates in order to make them compatible with the \"Text Direction\" Advanced Setting. Widget Involved: Default Email Template\n\n- We created a new Advanced Setting called \"First and Last Name Order in Profile Page URL\". This new setting allows Site Admins to choose the order of the member's name in the Profile Page URL, either \"First Name First\" (default) or \"Last Name First\".\n\n- We created a new Email Template called \"reply-contact-us\". This new email template will load the content of a Form Inquiry when using the \"Reply\" button on the Form Inquiries page in the Admin. Widget Involved: Bootstrap Theme - Unsubscribe Email Page\n\n- The \"Account Billing Address Update\" form is now editable on the Form Manager page in the Admin.\n\n- We fixed an issue which was preventing the Text Label search filter from working properly on the Text Labels page in the Admin in some cases.\n\n- Category search results pages for Posts will now use their own self-referential canonical URL rather than using the default search results page URL as their canonical URL. This allows for search engines to see these category search results pages as separate from the default search results page for the Post Type. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the Google Maps API Integration in order to reduce the amount of requests sent to Google when the \"Front-End Optimization: Only Load Google Maps when Requested by User\" is deactivated and the \"Detect Visitor Location\" is enabled. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue which was preventing the \"Reply Sent\" label from showing on the Form Inquiries page in the Admin after replying to a form inquiry in some cases.\n\n- We fixed an issue which was causing the \"Search Members\" page in the Admin to show that 1 result was being returned when more than 1 result was returned when searching for members by category.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098469",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098469"
+    }
+  ],
+  "lastmod": "2024-02-26T23:34:27+05:30",
+  "scraped_at": "2026-10-18T13:53:35.643036"
+}

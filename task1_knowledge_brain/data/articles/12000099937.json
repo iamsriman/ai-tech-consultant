@@ -1,0 +1,27 @@
+{
+  "article_id": "12000099937",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099937-05-17-2024-software-updates",
+  "title": "05/17/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/17/2024 - Software Updates"
+  ],
+  "content": "## 05/17/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099937\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the location search on the Search Members page in the Admin to provide better results when searching by state or country.\n\n- We deprecated the Facebook Website Chat Add-On. Click here for more information. Widgets Involved: Bootstrap Theme - Module - Member Facebook Feed Bootstrap Theme - Module - Social Share Bootstrap Theme Framework\n\n- We fixed an issue which was preventing the Google Maps Search Results Add-On from working properly when the \"Enable Search Results Cache\" Post Type Setting was active.\n\n- We updated the highlight color of custom webhooks on the Webhooks Page in the Admin.\n\n- We added validation to prevent non-decimal values when updating the \"Default Center Map Location\" Advanced Setting in the Admin.\n\n- We fixed an issue which was preventing the Post Category dropdowns from working properly on Post Search Results pages when the \"Sidebar Position on Mobile Devices\" Post Setting is set to \"Top\" in some cases. Widget Involved: Bootstrap Theme - Single Post Page\n\n- The new Send Newsletter functionality is now compatible with emojis.\n\n- We fixed an issue which was preventing the Google Maps logic from working properly after performing a search for a state or province that shares its name with a city in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue which was preventing the system from respecting the \"Make Location Fields Required?\" Lead Setting when submitting the \"Website - Lead Form - Get Matched\" form in some cases. Widget Involved: System - SaveForm",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099937",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099937"
+    },
+    {
+      "text": "here",
+      "url": "https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/"
+    }
+  ],
+  "lastmod": "2024-05-21T21:39:06+05:30",
+  "scraped_at": "2026-10-18T13:54:00.793552"
+}

@@ -1,0 +1,37 @@
+{
+  "article_id": "12000080325",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080325-set-up-the-www-or-non-www-version-of-the-domain",
+  "title": "Set Up The WWW or Non-WWW Version Of The Domain",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Set Up The WWW or Non-WWW Version Of The Domain"
+  ],
+  "content": "## Set Up The WWW or Non-WWW Version Of The Domain\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080325\n\n\n## Set the WWW or Non-WWW Version of a Domain\n\n\nA live domain can display either www.example.com or example.com as its preferred public address. Visitors to the other version are redirected to the selected style.\n\n\n### Change the Setting in Domain Manager\n\n\n- Open Settings > Domain Manager > Domain .\n\n- Find Web address style .\n\n- Select Change .\n\n- Choose With www. or Without www. , then click Save this style . Links across the website are rewritten, and the website stays online throughout.\n\nWithout www. can be saved only when the address without www (such as example.com ) already reaches the website. Until it does, Domain Manager explains what to point first and keeps the www version. A forwarding rule at the registrar does not meet this requirement, because it would send visitors back and forth between the two addresses; point the root domain itself at the website instead.\n\nThe connection wizard asks the same question during Check It . On the A domain name I own route, How should your address appear? appears under the address box as soon as a root domain such as example.com is typed, with or without www. The domain is always connected as www.example.com ; the choice decides which version visitors land on. If Without www. is chosen but the root domain does not reach the website when the switch runs, the website stays on the www version and Domain Manager says so. A domain selected from a connected Cloudflare account uses its www address; change it here afterwards if needed. The choice is not shown for a true subdomain such as members.example.com .\n\nThe Web address style dialog offers the www and non-www versions of the connected domain.\n\n\n### Alternative: URL Rules\n\n\nThe preferred version can also be changed from the existing URL Rules setting in Advanced Settings. Search for WWW or Non-WWW or the system variable preferred_domain , select the preferred style, save the change, and refresh the HTAccess File if that screen instructs it.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668553/original/qr_bi6JKSCavNb5NUERUDRh8hRs1HfGwFA.png?1790182306",
+      "alt": "The Web address style dialog, with Save this style marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Set Up The WWW or Non-WWW Version Of The Domain' (Settings > Advanced Settings): The Web address style dialog, with Save this style marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080325",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080325"
+    },
+    {
+      "text": "HTAccess File",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047896"
+    }
+  ],
+  "lastmod": "2026-09-23T22:32:03+05:30",
+  "scraped_at": "2026-10-18T13:48:43.215725"
+}

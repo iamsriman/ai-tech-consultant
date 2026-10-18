@@ -1,0 +1,64 @@
+{
+  "article_id": "12000089676",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089676-edit-the-account-portion-of-member-dashboard-url",
+  "title": "Edit the /account Portion of Member Dashboard URL",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Edit the /account Portion of Member Dashboard URL"
+  ],
+  "content": "## Edit the /account Portion of Member Dashboard URL\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089676\n\nThe member dashboard URL by default is linked to:\n\nwww.yourdomain.com /account/home\n\nHowever depending on the site verbiage or language this may need to be changed. There is an advanced setting that will allow the / account portion of the URL to be updated:\n\nMember Dashboard URL System Variable: default_account_url\n\nAdd the text into the field, save the changes and the URL is immediately updated without needing to reset anything:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114088343/original/gKl2o4cTggarXY4D5x_VmGEu2uFZYSOTBQ.png?1662473375",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit the /account Portion of Member Dashboard URL' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647534/original/rWsWOK-0zEmRs_gA5qry8fLoLJ61PSwZww.png?1753161796",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit the /account Portion of Member Dashboard URL' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647551/original/3x0KMEd0CbP7o94qMpr0k-uB2Q0rQzIyZQ.png?1753161844",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit the /account Portion of Member Dashboard URL' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114088998/original/80p3RhrpdurOa9MfE_J5OYHHz802BGqYcQ.png?1662473879",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit the /account Portion of Member Dashboard URL' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089676",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089676"
+    },
+    {
+      "text": "www.yourdomain.com",
+      "url": "http://www.yourdomain.com"
+    }
+  ],
+  "lastmod": "2025-07-22T10:54:13+05:30",
+  "scraped_at": "2026-10-18T13:50:12.701993"
+}

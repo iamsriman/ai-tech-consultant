@@ -1,0 +1,336 @@
+{
+  "article_id": "12000046232",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046232-finance-transaction-history",
+  "title": "Finance » Transaction History",
+  "category": "Finance",
+  "folder": "Transaction History",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Transaction History",
+    "Finance » Transaction History"
+  ],
+  "content": "## Finance » Transaction History\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046232\n\nThe Transaction History page provides the admin with an overview of the billing history and expected payments for all site members.\n\nThis article explains all the features available on this page. It can be accessed by navigating to Finance  »  Transaction History in the admin area.\n\nThe Transaction History page is organized into five tabs:\n\n- Payments Received\n\n- Upcoming Payments\n\n- Past Due\n\n- Refunded\n\n- Stopped\n\n\n## Payments Received\n\n\nThe Payments Received tab records all payments collected from members and displays the total amount received, which matches the Finance Snapshot in the Dashboard. This total includes payments for services like leads, pay-per-posts, digital downloads, and membership subscriptions.\n\nThis section provides key transaction details such as Invoice ID, date paid, member’s name, product, and amount paid (1). An Actions button (2) allows the Admin to manage invoices efficiently.\n\n\n### Quick Actions\n\n\nThe Actions button (1) in the far-right column opens several invoice-related options (2).\n\n- Send Email Notification: Click this button to send an email notification to the member. It will display the Compose Email pop-up and the system will automatically use the invoice_payment_received email template when clicking this button under the Payments Received tab.\n\n- Refund Payment: Click on this button to refund the payment to the member and label the invoice as Refunded .\n\n- Mark as Unpaid: Mark this invoice as Unpaid . This is useful if the member disputes the charge with their bank or the payment is refunded directly through the payment gateway and not through the website. This enables an admin to track this billing event in the admin area in cases where it could not be tracked automatically. Changing the status of an invoice in this way will move the invoice to the appropriate tab (Upcoming Payments or Past Due, depending on when the invoice was originally due).\n\n- Download Invoice: Download a copy of this invoice in PDF format. Members can also download PDF copies of invoices through their Member Dashboard in the Billing History section.\n\n- End Subscription: Use this button to stop (Cancel) the subscription related to this invoice, and do not collect any future payments connected to this subscription. If there are unpaid invoices related to the Subscription, the system will cancel those invoices as well. Clicking it opens the Confirm End Subscription window, which has an optional Reason for cancelling box (up to 1,000 characters). A reason entered there is saved with the cancellation and shown on the Finance » Search Subscriptions page. Full steps: How Do I Cancel Payment Subscriptions - Orders . * Note: The End Subscription button will only appear when the invoice has an active subscription associated with it.\n\n- Delete This Invoice: Delete the invoice completely from the system.  This is permanent and cannot be undone.\n\n- Delete Subscription: Delete the subscription completely from the system.  This will not delete any invoices related to the subscription but will delete the subscription itself from the system and will not collect any new invoices related to the subscription.  This is permanent and cannot be undone.  It is better to choose End Subscription in most cases unless there is a specific need to delete the subscription from the system entirely.\n\n\n## Upcoming Payments\n\n\nThe Upcoming Payments tab displays all payments scheduled for processing within the next 14 days, making it easier to track upcoming dues and contact members if needed. Above the tab name, the total amount of upcoming payments is also shown for quick reference.\n\nIn this section, the Due Date column is organized in ascending order rather than descending. Key details such as Invoice ID, status, date paid, member’s name, product (membership plan), and amount due are displayed.\n\n\n### Quick Actions\n\n\nThe Actions button (1) in the far-right column opens several options for the invoice (2).\n\n- Send Email Notification: Click this button to send an email notification to the member. Clicking this button will display the Compose Email pop-up and the system will automatically use the invoice_reminder_notice_first template when clicking this button under the Upcoming Payments tab.\n\n- Mark as Paid: It allows marking this specific member as Paid. This is used for members who pay directly by bank deposit or with other payment methods that are not the default payment gateway. This way there is a record on the site. It allows changing the status of the payment from Unpaid to Paid, if this button is used, the system will move this payment to the Payments Received tab.\n\n- Download Invoice: The admin can download the invoice for this specific payment. Keep in mind that in the member's dashboard, they can also download invoices.\n\n- Stop This Payment: As this payment is going to be taken in the next 14 days, it can be stopped if needed. Using this option, the subscription (order) is not going to be cancelled, it will only cancel this specific payment.\n\n- End Subscription: Use this button to stop (Cancel) the subscription related to that specific payment. If there are unpaid invoices, the system will cancel them as well. Clicking it opens the Confirm End Subscription window, which has an optional Reason for cancelling box (up to 1,000 characters). A reason entered there is saved with the cancellation and shown on the Finance » Search Subscriptions page. Full steps: How Do I Cancel Payment Subscriptions - Orders . * Remember that the system will create the unpaid invoice 13 days before the next due date. Also, the End Subscription button will only appear when the invoice has an active subscription associated with it.\n\n- Delete This Invoice: It will delete the invoice from the admin and member's account.\n\n- Delete Subscription: This one deletes the subscription from the admin and member's account.\n\n\n## Past Due Tab\n\n\nThe Past Due tab displays all payments that the system was unable to process. These payments remain visible until the day after their due date. For instance, if a payment is due on the 29th and the system fails to process it, it will appear in this section until the 30th. The total amount of past-due payments is also displayed above the tab name for quick reference.\n\nIn this section, key payment details such as Invoice ID, status, date paid, member’s name, product (membership level), and amount due are listed.\n\n\n### Quick Actions\n\n\nAn Actions button (1) on the right opens additional management options for the admin (2).\n\n- Send Email Notification: Click this button to send an email notification to the member. Clicking  this button will display the Compose Email pop-up and the system will automatically use the invoice_overdue_notice_first template when clicking  this button under the Past Due tab.\n\n- Collect Payment: Payment can be collected manually. If the payment is taken successfully, it means that there are no issues with that card, but the money couldn't be taken because the bank declined the transaction on the first attempt, insufficient funds, etc.\n\n- Mark as Paid: It allows marking this specific member as Paid. This is used for members who pay directly by bank deposit or with other payment methods that are not the default payment gateway. This way, there is a record on the site. It allows changing the status of the payment from Unpaid to Paid. By using this button, the system will move this payment to the Payments Received tab.\n\n- Download Invoice: Download a copy of this invoice in PDF format. Members can also download PDF copies of invoices through their Member Dashboard in the Billing History section.\n\n- Stop This Payment: As this payment is going to be taken in the next 14 days, it can be stopped if needed. Using this option, the subscription (order) is not going to be cancelled, it will only cancel this specific payment.\n\n- End Subscription: Use this button to stop (Cancel) the subscription related to this invoice. If there are unpaid invoices related to the subscription, the system will cancel them as well. Clicking it opens the Confirm End Subscription window, which has an optional Reason for cancelling box (up to 1,000 characters). Full steps: How Do I Cancel Payment Subscriptions - Orders .\n\n- Delete This Invoice: It will delete the invoice from the admin and member's account.\n\n- Delete Subscription: This one deletes the subscription from the admin and member's account.\n\n\n### Bulk Manual Invoice Collection\n\n\nSince the billing system attempts to process each payment only once, unsuccessful transactions require manual follow-up. Payments can be collected manually, and members can update their credit card information if needed.\n\nThere is a button at the top right that attempts to collect all selected invoices. On the Past Due tab (1), tick the checkbox next to each invoice to collect, then click Attempt to Collect All Selected Invoices (2).\n\n\n### Updating Account Status\n\n\nIf the status of a member is Active, but it needs to be changed manually to Past Due , the system will show this error (1) and the change is not saved:\n\nThis error only appears while the advanced setting Suspend Past Due Member Accounts is ON. With it ON, the status cannot be changed from Active to Past Due unless the member has at least one past-due invoice. The setting is OFF by default.\n\nTo override this setting and manually update each member's account status, the advanced setting Suspend Past Due Member Accounts needs to be set to OFF. It is on the Sign Ups & Billing tab of Settings » Advanced Settings , under Member Account Status.\n\n\n## Refunded\n\n\nThe Refunded Payments section displays all successful payments that have been refunded. Above the tab name, the total amount of refunded payments is shown for easy reference.\n\nThis section includes key details such as the Invoice ID, status, date paid, member’s name, product (membership level), and amount refunded, allowing administrators to track and manage refunded transactions efficiently.\n\n\n### Quick Actions\n\n\nAn Actions button (1) on the right opens additional management options for the admin (2).\n\n- Send Email Notification: Click on this button to send an email notification to the member. Clicking on this button will display the Compose Email pop-up and the system will automatically use the invoice_refund_confirmation template.\n\n- Mark as Paid: It allows marking this specific member as Paid. This is used for members who pay directly by bank deposit or with other payment methods that are not the default payment gateway. This way, there is a record on the site. It allows changing the status of the payment from Unpaid to Paid, using this button the system will move this payment to the Payments Received tab.\n\n- Download Invoice: Download a copy of this invoice in PDF format. Members can also download PDF copies of invoices through their Member Dashboard in the Billing History section.\n\n- End Subscription: Use this button to stop (Cancel) the subscription related to this invoice. If there are unpaid invoices related to the subscription, the system will cancel them as well. Clicking it opens the Confirm End Subscription window, which has an optional Reason for cancelling box (up to 1,000 characters). Full steps: How Do I Cancel Payment Subscriptions - Orders .\n\n- Delete This Invoice: It will delete the invoice from the admin and member's account.\n\n- Delete Subscription: This one deletes the subscription from the admin and member's account.\n\n\n## Stopped\n\n\nThe Stopped Payments section displays payments that were scheduled for processing but were stopped and cancelled before completion. Above the tab name, the total amount of stopped payments is shown for easy reference.\n\nThis section includes important details such as the Invoice ID, status, date paid, member’s name, product (membership plan), and amount. Additionally, an Actions button on the right allows admins to manage these payments.\n\n\n### Quick Actions\n\n\n- Mark as Paid: This option allows marking this specific member as Paid. This is used for members who pay directly by bank deposit or with other payment methods that are not the default payment gateways. This way, there is a record on the site. It allows changing the status of the payment from Unpaid to Paid, using this button the system will move this payment to the Payments Received tab.\n\n- Download Invoice: Download a copy of this invoice in PDF format. Members can also download PDF copies of invoices through their Member Dashboard in the Billing History section.\n\n- End Subscription: Use this button to stop (Cancel) the subscription related to that specific payment. If there are unpaid invoices the system will cancel them as well. Clicking it opens the Confirm End Subscription window, which has an optional Reason for cancelling box (up to 1,000 characters). A reason entered there is saved with the cancellation and shown on the Finance » Search Subscriptions page. Full steps: How Do I Cancel Payment Subscriptions - Orders . * Remember that the system will create the unpaid invoice 13 days before the next past due. Also, the End Subscription button will only appear when the invoice has an active subscription associated with it.\n\n- Delete This Invoice: It will delete the invoice from the admin and member's account.\n\n- Delete Subscription: This one deletes the subscription from the admin and member's account.\n\n\n### Delete Several Stopped Invoices at Once\n\n\nThe Stopped tab also has a checkbox next to each invoice and a select-all checkbox in the table header. To delete several stopped invoices in one step, select them and click List Actions » Delete Selected . The steps are explained in Delete Several Stopped Invoices at Once below.\n\n\n## Member Information\n\n\nIn all of the tabs, hovering over the member's name (1) will display information about the member along with several links to take actions on the member (2):\n\n- Account Details: Links to the member's Account Details page, which contains an overview of information about the specific member.\n\n- Quick Edit: Edit several attributes of the member without logging into their account.\n\n- Send Email: Send an email to the member. Use an existing email template or send a custom email.\n\n- Change Password: Assign a new password for the member.\n\n- View Live Profile: View the live profile of the member as seen by visitors to the website.\n\n- Login as Member: Login to the member's dashboard as if they logged in to their account.\n\n- Payment History: See the complete billing history of this member.\n\n- Delete Account: Delete the member's account completely.\n\n\n## Billing Email Settings\n\n\nTo configure the billing email settings, read this article: Billing Reminder Email Settings\n\n\n## Income Reports\n\n\nAt the top right is the \"Income Reports\" button, which has 3 options:\n\n- Daily Income Report\n\n- Monthly Income Report\n\n- Recurring Income Estimator\n\nThese reports cannot be downloaded. However, the tables can be selected and copied, then the information can be pasted into an Excel sheet.\n\n\n### Report Details\n\n\nThese reports are an estimate and exact totals may slightly differ based on the timestamp and timezone defined by the payment gateway.\n\nThis report is generated in the time chosen in the General Settings >> Location Tab >> Hour of Day to Collect Recurring Payments: Settings » General Settings » Localization .\n\n\n## Ask BD Butler Section - Revenue Insights & More\n\n\nThe BD AI assistant is designed to analyze website financial data and provide quick answers regarding revenue, payments, subscriptions, and general website transaction history. Here's an article with more information about this: BD Butler .\n\n\n## Transaction Search Filter Options\n\n\nThe Transaction History includes 14 search filter options:\n\n- Member name or ID#\n\n- Member email address\n\n- Product Name (for example; name of the membership plan or digital product purchased)\n\n- Membership plan name\n\n- Billing cycles\n\n- Member Account Status\n\n- Invoice Status\n\n- Invoice ID#\n\n- Subscription ID#\n\n- Coupon Code name\n\n- Invoice Date Range\n\n- Sales Rep Name\n\n- Sort by Newest or Oldest option\n\n- Option Show or Hide Billing Emails Sent\n\n\n### Billing Cycles\n\n\nWhen searching by Billing Cycles, the admin can select more than one option here:\n\nWithin the Billing Cycles drop-down, there are also options to sort by three subscription statuses:\n\n- Any - This will display the invoices for members that have active and ended (cancelled) subscriptions.\n\n- Only Active - This will display the invoices for members that have an active subscription.\n\n- Only Ended - This will display the invoices for members that have an ended (cancelled) subscription\n\n\n### Sales Rep\n\n\nThe Sales Rep Name option will only display if the settings are enabled. Here's an article with more details about How to Activate Sales Representative Tracking For Members .\n\n\n## List Actions Dropdown\n\n\nIn this section, called \" List Actions \", it is possible to export data, create smart lists, and delete invoices in bulk to help organize and manage information efficiently.\n\n\n### Export Transactions\n\n\nUnder this dropdown, it is possible to export the currently selected results by clicking on Export Current Results.\n\nClicking this opens the Export Transactions window. Tick the fields to export under Available Export Fields (1); the chosen fields are listed under Selected Fields (2). Then click Continue with Export (3), or Cancel Export to close the window without exporting:\n\nAvailable Transaction History Export Fields\n\nMember Account Status ( active ) Company Name ( company ) Credit Value ( credit ) Date Paid ( datepaid ) Email Address ( member_email ) First Name ( first_name ) Invoice ID# ( invoice_id ) Invoice Link ( invoice_link ) Invoice Status ( invoice_status ) Last Name ( last_name ) Notes ( notes ) Phone Number ( phone_number ) Product Name ( product_name ) Subscription Created Date ( subscription_created_date ) Subscription ID# ( subscription_id ) Subscription Name ( subscription_name ) Sub Total ( subtotal ) Total ( total ) User ID# ( user_id ) Billing Address ( billing_address )\n\nFor this action to appear, the Export Member Data add-on has to be enabled on the site.\n\n\n### Transactions History Smart List\n\n\nIt is also possible to create a Smart List of the currently selected results by clicking  Create Smart List from Results. Clicking this will display a pop-up where the name of the smart list can be entered (1):\n\nThe smart list will be created after clicking Yes, continue (2). A confirmation window then shows the smart list name. To open the new smart list right away, click the Go To <name of the smart list> Smart List link (1):\n\n\n### Delete Selected\n\n\nInvoices can be deleted in bulk from the tabs that show a checkbox next to each invoice: Past Due , Refunded and Stopped , plus Payments Received and Upcoming Payments when the Billing Reminder Emails add-on is enabled. Deleted invoices cannot be recovered.\n\n- Tick the checkbox next to each invoice to delete (1). The checkbox in the table header selects every invoice currently loaded on the page (results load 20 at a time).\n\n- Click List Actions (2), then click Delete Selected (3). If no invoice is selected, the message \"No Invoices Selected\" appears.\n\n- In the Confirm Bulk Delete window, choose one of the two options: Yes, delete invoices and subscriptions: deletes the selected invoices and the subscriptions they belong to. A subscription that still has other active invoices is kept, the same as when a single invoice is deleted. No, only delete invoices: deletes only the selected invoices and leaves every subscription untouched.\n\n- Yes, delete invoices and subscriptions: deletes the selected invoices and the subscriptions they belong to. A subscription that still has other active invoices is kept, the same as when a single invoice is deleted.\n\n- No, only delete invoices: deletes only the selected invoices and leaves every subscription untouched.\n\n- Both options lead to a final Are you sure? window. Click Yes, continue to delete, or No, cancel to stop without deleting anything.\n\nWhen the deletion finishes, the message \" Deleted! X invoice(s) deleted successfully.\" appears and the list reloads. If some invoices could not be deleted, the message reads \" Done X of N invoice(s) deleted. Y could not be deleted.\" and the invoices that were not deleted remain in the list.\n\n\n## Send Bulk Email Dropdown\n\n\nIf the site has the \"Billing Reminder Emails\" Add-On , the option to send out certain bulk payment emails appears for 3 tabs:\n\n- Payments Received\n\n- Upcoming Payments\n\n- Past Due\n\nClick here to review the emails sent out: Billing Reminder Email Templates\n\n\n## Transaction Notes\n\n\nAdmins have the ability to add notes to all invoice types, including Received, Upcoming, Past Due, Refunded, and Stopped invoices.\n\nAdmins can also leave notes when they attempt to contact a member, which helps with tracking billing more efficiently. Click Add Note under the product name, type the note (1) and click Save Note (2).\n\n\n## Additional Information Shown\n\n\nThe transaction history results will also display additional information depending on the member purchase.\n\n\n### Leads\n\n\nIf the member purchased a lead, the row shows the lead number (1) and no View Details link. View Details (2) only appears when the payment belongs to a subscription.\n\n\n### Pay-Per-Post Purchased Limit\n\n\nIf the Vip Add-Ons were installed on the site and a member paid per post, the payment information will appear in the Payments Received tab as \"Add a New Name of the Post Type \" (1). The \"Add a New\" wording comes from the purchase_limit_for text label. In the screenshot below the member paid for a Classified.\n\n\n### Coupon Codes\n\n\nIf a member used a Coupon Code during the sign-up process, the code used in this transaction will display as a clickable Coupon Code: <code> link (1) that opens the coupon in Finance » Coupon Codes :",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367465/original/An4aBUp5ZpcMTn6Ez49o7Ygksxevlr8UsQ.png?1791330013",
+      "alt": "Transaction History with its five tabs numbered 1 to 5: Payments Received, Upcoming Payments, Past Due, Refunded and Stopped.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Transaction History with its five tabs numbered 1 to 5: Payments Received, Upcoming Payments, Past Due, Refunded and Stopped.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370051/original/QPqLOwSooZHw-DVHe4_2DhfKvRe7DgyYAw.png?1791333902",
+      "alt": "Payments Received tab showing the table's column headings (1) and a row's Actions button (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Payments Received tab showing the table's column headings (1) and a row's Actions button (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370052/original/pOYf0gR-TWWi9XxpZs6fUEc6CY6oAt4Ipg.png?1791333903",
+      "alt": "A paid invoice's Actions button (1) open, listing Send Email Notification, Refund Payment, Mark as Unpaid, End Subscription, Delete This Invoice and Delete Subscription (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): A paid invoice's Actions button (1) open, listing Send Email Notification, Refund Payment, Mark as Unpaid, End Subscription, Delete This Invoice and Delete Subscription (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367603/original/zoF3RqoBiu3SUDOk8fQn1QIDUS4NpWdcwQ.png?1791330199",
+      "alt": "Confirm End Subscription window with the optional Reason for cancelling box",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Confirm End Subscription window with the optional Reason for cancelling box",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729587/original/UMO4rsc8D4YtNyMQD7g0dbqH2RMwwgtCPQ.png?1791924904",
+      "alt": "An Upcoming Payments invoice with its Actions button (1) open, listing Send Email Notification, Mark as Paid, Download Invoice, Stop This Payment, End Subscription, Delete This Invoice and Delete Subscription (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): An Upcoming Payments invoice with its Actions button (1) open, listing Send Email Notification, Mark as Paid, Download Invoice, Stop This Payment, End Subscription, Delete This Invoice and Delete Subscription (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729588/original/Qz4hazChrQQppykXFZjsa74BHrwYxH7j4A.png?1791924906",
+      "alt": "A Past Due invoice with its Actions button (1) open, listing Send Email Notification, Collect Payment, Mark as Paid, Download Invoice, Stop This Payment, End Subscription, Delete This Invoice and Delete Subscription (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): A Past Due invoice with its Actions button (1) open, listing Send Email Notification, Collect Payment, Mark as Paid, Download Invoice, Stop This Payment, End Subscription, Delete This Invoice and Delete Subscription (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415549/original/B0qaAIVkONXa3zTQz-001GOq-FWGKT6Mnw.png?1791392572",
+      "alt": "Past Due tab (1) with the Attempt to Collect All Selected Invoices button (2) at the top right.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Past Due tab (1) with the Attempt to Collect All Selected Invoices button (2) at the top right.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729594/original/SLU6uTIndAjx7seQr3osS8xKmLENAPlxUA.png?1791924912",
+      "alt": "The Quick Edit window showing the error that the Auto Suspend / Activate Account setting is activated and the member cannot be changed to Past Due without past due invoices (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): The Quick Edit window showing the error that the Auto Suspend / Activate Account setting is activated and the member cannot be changed to Past Due without past due invoices (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367467/original/WZCl9aa2X4vcVxXm2CIJDmO-Lxo39nscAQ.png?1791330015",
+      "alt": "Suspend Past Due Member Accounts advanced setting on the Sign Ups & Billing tab, with its toggle set to OFF.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Suspend Past Due Member Accounts advanced setting on the Sign Ups & Billing tab, with its toggle set to OFF.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729589/original/WysEub1LsOjhRSaKzCTyis9gy5tDQMdRHg.png?1791924907",
+      "alt": "A Refunded invoice with its Actions button (1) open, listing Send Email Notification, Mark as Paid, Download Invoice, End Subscription, Delete This Invoice and Delete Subscription (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): A Refunded invoice with its Actions button (1) open, listing Send Email Notification, Mark as Paid, Download Invoice, End Subscription, Delete This Invoice and Delete Subscription (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367469/original/WWDzoEIzgytMNF-7vsVJJ1P0lIm6vBI_Zg.png?1791330016",
+      "alt": "Stopped tab with the row's Actions button (1) open, showing Mark as Paid, Download Invoice, Delete This Invoice and Delete Subscription (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Stopped tab with the row's Actions button (1) open, showing Mark as Paid, Download Invoice, Delete This Invoice and Delete Subscription (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370053/original/Bk_2qs4OFkUzrkENJ_RRYgkfhKCXZo44Vg.png?1791333905",
+      "alt": "Hovering over a member's name (1) opens a card with the member's ID, status, email and action links such as Account Details and Login as Member (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Hovering over a member's name (1) opens a card with the member's ID, status, email and action links such as Account Details and Login as Member (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367470/original/HHtkVyHDS6Hcj8sNrz3vW4mpEBzZlfs0mQ.png?1791330017",
+      "alt": "Billing Email Settings button at the top right of Transaction History.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Billing Email Settings button at the top right of Transaction History.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367480/original/rRyxOHJLC8kH40qN4DVV_uuBLMOgKUeGEw.png?1791330018",
+      "alt": "Income Reports button (1) open, listing Daily Income Report, Monthly Income Report and Recurring Income Estimator (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Income Reports button (1) open, listing Daily Income Report, Monthly Income Report and Recurring Income Estimator (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367481/original/yKKYEykBCNLe_3FS5s93_TPWtiJIgEuDTg.png?1791330019",
+      "alt": "Ask BD Butler, Revenue Insights & More button on Transaction History.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Ask BD Butler, Revenue Insights & More button on Transaction History.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367482/original/l7gsVbob-qm0t2DK8Wf5gLQrCZRs_iS0WQ.png?1791330020",
+      "alt": "The Transaction History search filters, from Search User Name or ID # to Hide Billing Emails Sent.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): The Transaction History search filters, from Search User Name or ID # to Hide Billing Emails Sent.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367483/original/aYgKwphg9XCMVzvq_Hku2VhnWs3OVLUY4A.png?1791330021",
+      "alt": "Billing Cycles filter (1) open, with a checkbox for each billing cycle (2) so several can be selected.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Billing Cycles filter (1) open, with a checkbox for each billing cycle (2) so several can be selected.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367484/original/3j-sft4o6B8wxUCMWwlMNlURx3bWzZhFWw.png?1791330022",
+      "alt": "Subscription Status options at the bottom of the Billing Cycles filter: Any, Only Active and Only Ended.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Subscription Status options at the bottom of the Billing Cycles filter: Any, Only Active and Only Ended.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367486/original/3pwQcVz-Jsr8F-kncZIOqh6suFQWDXnTrg.png?1791330023",
+      "alt": "List Actions button (1) open, showing Export Current Results, Create Smart List from Results and Delete Selected (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): List Actions button (1) open, showing Export Current Results, Create Smart List from Results and Delete Selected (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367487/original/YiXlYTd3AW8g6Uf7vw4vOBhBmFBsYO0RdA.png?1791330024",
+      "alt": "Export Transactions window with Available Export Fields (1), Selected Fields (2) and the Continue with Export button (3).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Export Transactions window with Available Export Fields (1), Selected Fields (2) and the Continue with Export button (3).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367488/original/m_5Je_0RVPcpGmwEqGm1Wdc4PwkKLRdnjw.png?1791330025",
+      "alt": "Please enter a smart list name window with the name field (1) and the Yes, continue button (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Please enter a smart list name window with the name field (1) and the Yes, continue button (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729595/original/wU4plC81Jyv2MNZGRd_-brSSFUUq0v4RJQ.png?1791924914",
+      "alt": "The confirmation window after creating a smart list from Transaction History, with the Go To Paid Premium Members Smart List link (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): The confirmation window after creating a smart list from Transaction History, with the Go To Paid Premium Members Smart List link (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367489/original/rYiglpoxLsiz71ADqZYnIuUWtlgTWnvyjA.png?1791330026",
+      "alt": "Stopped tab with an invoice ticked (1), List Actions open (2) and Delete Selected highlighted (3).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Stopped tab with an invoice ticked (1), List Actions open (2) and Delete Selected highlighted (3).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367490/original/mdzL2y4_9axDj3xNFVl-TmrlS51XREwapg.png?1791330027",
+      "alt": "Send Bulk Email button (1) open on the Payments Received tab, showing the New Payments Received email (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Send Bulk Email button (1) open on the Payments Received tab, showing the New Payments Received email (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367492/original/nAmuCA2ijw3ce0xn-4m4_EIv9ROilXKZcQ.png?1791330028",
+      "alt": "Add Note opened under a transaction's product, showing the notes box (1) and the Save Note button (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Add Note opened under a transaction's product, showing the notes box (1) and the Save Note button (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729590/original/hlg9oFUgucWSe22ic5e-BMpiVfvqRt66RQ.png?1791924909",
+      "alt": "Payments Received rows where a lead purchase shows Lead #1 with no View Details link (1), while a subscription payment shows View Details (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): Payments Received rows where a lead purchase shows Lead #1 with no View Details link (1), while a subscription payment shows View Details (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729591/original/2N3OUYJoQ1X0VLJMJS2ZMvqhwgAy4Dw5Jw.png?1791924910",
+      "alt": "A pay-per-post payment on Payments Received described as Add a New Classified (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): A pay-per-post payment on Payments Received described as Add a New Classified (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729592/original/ugsrwwrFfjhAzi2r3aymHpng57ui6x-1Xw.png?1791924911",
+      "alt": "A subscription payment on Payments Received with the clickable Coupon Code: SAVE20 link (1) under the plan name.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Transaction History' (Finance > Transaction History): A subscription payment on Payments Received with the clickable Coupon Code: SAVE20 link (1) under the plan name.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046232",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046232"
+    },
+    {
+      "text": "How Do I Cancel Payment Subscriptions - Orders",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728"
+    },
+    {
+      "text": "How Do I Cancel Payment Subscriptions - Orders",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728"
+    },
+    {
+      "text": "How Do I Cancel Payment Subscriptions - Orders",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728"
+    },
+    {
+      "text": "How Do I Cancel Payment Subscriptions - Orders",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728"
+    },
+    {
+      "text": "How Do I Cancel Payment Subscriptions - Orders",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728"
+    },
+    {
+      "text": "Delete Several Stopped Invoices at Once",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046232#section-delete-several-stopped-invoices-at-once"
+    },
+    {
+      "text": "Billing Reminder Email Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000069276"
+    },
+    {
+      "text": "Settings » General Settings » Localization",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000042159"
+    },
+    {
+      "text": "BD Butler",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000107806"
+    },
+    {
+      "text": "How to Activate Sales Representative Tracking For Members",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000058393"
+    },
+    {
+      "text": "Export Member Data",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039479"
+    },
+    {
+      "text": "Smart List",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071871"
+    },
+    {
+      "text": "\"Billing Reminder Emails\" Add-On",
+      "url": "https://www.brilliantdirectories.com/billing-reminder-emails"
+    },
+    {
+      "text": "Billing Reminder Email Templates",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000069320"
+    },
+    {
+      "text": "Coupon Code",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032881"
+    }
+  ],
+  "lastmod": "2026-10-14T03:18:54+05:30",
+  "scraped_at": "2026-10-18T13:42:57.683838"
+}

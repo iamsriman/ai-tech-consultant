@@ -9,11 +9,13 @@ import json
 import logging
 import os
 from pathlib import Path
+import threading
+import time
 from typing import Dict, List, Optional, Set, Any
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_CHECKPOINT_PATH = Path("task1_knowledge_brain/data/crawler_checkpoint.json")
+DEFAULT_CHECKPOINT_PATH = Path(__file__).resolve().parents[1] / "data" / "crawler_checkpoint.json"
 
 
 class CrawlCheckpoint:
@@ -25,6 +27,8 @@ class CrawlCheckpoint:
             "last_updated_at": None,
             "completed_articles": {},  # url -> {article_id, scraped_at, lastmod}
             "failed_articles": {},     # url -> {error, retries, last_attempt}
+            "indexed_articles": {},    # url -> {article_id, content_hash, indexed_at, chunks}
+            "index_failed_articles": {},
         }
         self.load()
 
@@ -43,13 +47,23 @@ class CrawlCheckpoint:
     def save(self) -> None:
         """Atomically saves current crawler state to JSON."""
         self.data["last_updated_at"] = datetime.utcnow().isoformat()
-        temp_path = self.filepath.with_suffix(".tmp")
-        try:
-            with open(temp_path, "w", encoding="utf-8") as f:
-                json.dump(self.data, f, indent=2, ensure_ascii=False)
-            temp_path.replace(self.filepath)
-        except Exception as e:
-            logger.error(f"Failed to save checkpoint: {e}")
+        temp_path = self.filepath.with_name(
+            f"{self.filepath.name}.{os.getpid()}.{threading.get_ident()}.tmp"
+        )
+        for attempt in range(4):
+            try:
+                with open(temp_path, "w", encoding="utf-8") as f:
+                    json.dump(self.data, f, indent=2, ensure_ascii=False)
+                temp_path.replace(self.filepath)
+                return
+            except PermissionError:
+                if attempt == 3:
+                    logger.exception("Failed to replace checkpoint after bounded lock retries")
+                    raise
+                time.sleep(0.05 * (2 ** attempt))
+            except Exception as e:
+                logger.error("Failed to save checkpoint (%s)", type(e).__name__)
+                raise
 
     def is_completed(self, url: str) -> bool:
         """Checks if a URL has already been successfully crawled."""
@@ -87,6 +101,22 @@ class CrawlCheckpoint:
         failed[url] = prior
         self.save()
 
+    def mark_indexed(self, url: str, article_id: str, content_hash: str, chunks: int) -> None:
+        self.data.setdefault("index_failed_articles", {}).pop(url, None)
+        self.data.setdefault("indexed_articles", {})[url] = {
+            "article_id": str(article_id), "content_hash": content_hash,
+            "indexed_at": datetime.utcnow().isoformat(), "chunks": int(chunks),
+        }
+        self.save()
+
+    def mark_index_failed(self, url: str, error: str) -> None:
+        failures = self.data.setdefault("index_failed_articles", {})
+        previous = failures.get(url, {"retries": 0})
+        previous.update({"error": error, "retries": previous.get("retries", 0) + 1,
+                         "last_attempt": datetime.utcnow().isoformat()})
+        failures[url] = previous
+        self.save()
+
     def filter_pending(self, urls: List[str]) -> List[str]:
         """Returns only the URLs that have not yet been marked completed."""
         completed = set(self.data.get("completed_articles", {}).keys())
@@ -115,5 +145,7 @@ class CrawlCheckpoint:
             "last_updated_at": None,
             "completed_articles": {},
             "failed_articles": {},
+            "indexed_articles": {},
+            "index_failed_articles": {},
         }
         self.save()

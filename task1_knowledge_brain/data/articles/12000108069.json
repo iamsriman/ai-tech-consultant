@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108069",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108069-api-reference-users-portfolio-tags",
+  "title": "API Reference - Users Portfolio Tags",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Users Portfolio Tags"
+  ],
+  "content": "## API Reference - Users Portfolio Tags\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108069\n\n← Back to API Reference | Getting Started Users Portfolio Tags Users Portfolio Tags associates text tags with individual portfolio photos uploaded by members. Each record links a tag string to a specific photo and user, enabling keyword-based discovery and filtering of portfolio content. Model name in URL: users_portfolio_tags — DB table: users_portfolio_tags The Users Portfolio Tags Object Field Type Description tag_id integer Unique portfolio tag record ID (primary key, read-only) photo_id integer ID of the portfolio photo this tag is attached to (foreign key to users_portfolio ) tag string The tag text string (default empty string) user_id integer ID of the member who owns this portfolio tag rel_id integer ID of the related portfolio group or album record rel_db string Name of the related database/table for the portfolio group reference List Users Portfolio Tag Records GET /api/v2/users_portfolio_tags/get Returns a paginated list of users portfolio tag records. Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/users_portfolio_tags/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"tag_id\": \"1\",\n      \"photo_id\": \"10\",\n      \"tag\": \"landscape\",\n      \"user_id\": \"42\",\n      \"rel_id\": \"5\",\n      \"rel_db\": \"users_portfolio_groups\"\n    },\n    {\n      \"tag_id\": \"2\",\n      \"photo_id\": \"10\",\n      \"tag\": \"architecture\",\n      \"user_id\": \"42\",\n      \"rel_id\": \"5\",\n      \"rel_db\": \"users_portfolio_groups\"\n    }\n  ],\n  \"total\": \"314\",\n  \"current_page\": 1,\n  \"total_pages\": 13,\n  \"next_page\": \"MipfKjI1\"\n} Retrieve a Users Portfolio Tag Record GET /api/v2/users_portfolio_tags/get/{tag_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/users_portfolio_tags/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"tag_id\": \"1\",\n      \"photo_id\": \"10\",\n      \"tag\": \"landscape\",\n      \"user_id\": \"42\",\n      \"rel_id\": \"5\",\n      \"rel_db\": \"users_portfolio_groups\"\n    }\n  ],\n  \"total\": \"314\",\n  \"current_page\": 1,\n  \"total_pages\": 314\n} Create a Users Portfolio Tag Record POST /api/v2/users_portfolio_tags/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/users_portfolio_tags/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"photo_id=10\" \\\n  -d \"tag=landscape\" \\\n  -d \"user_id=1\" \\\n  -d \"rel_id=5\" \\\n  -d \"rel_db=users_portfolio_groups\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"tag_id\": \"315\",\n    \"photo_id\": \"10\",\n    \"tag\": \"landscape\",\n    \"user_id\": \"1\",\n    \"rel_id\": \"5\",\n    \"rel_db\": \"users_portfolio_groups\"\n  }\n} Update a Users Portfolio Tag Record PUT /api/v2/users_portfolio_tags/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/users_portfolio_tags/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"tag_id=1\" \\\n  -d \"tag=architecture\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"tag_id\": \"1\",\n    \"photo_id\": \"10\",\n    \"tag\": \"architecture\",\n    \"user_id\": \"42\",\n    \"rel_id\": \"5\",\n    \"rel_db\": \"users_portfolio_groups\"\n  }\n} Delete a Users Portfolio Tag Record DELETE /api/v2/users_portfolio_tags/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/users_portfolio_tags/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"tag_id=1\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"users_portfolio_tags record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108069",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108069"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-07-02T09:49:17+05:30",
+  "scraped_at": "2026-10-18T13:57:46.896436"
+}

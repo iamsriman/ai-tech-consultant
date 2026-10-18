@@ -1,0 +1,23 @@
+{
+  "article_id": "12000072902",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000072902-07-24-20-software-updates",
+  "title": "07/24/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/24/20 - Software Updates"
+  ],
+  "content": "## 07/24/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000072902\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the legacy ReCaptcha Checkbox field type used in forms to fix an issue those fields were causing when submitting older custom forms they were used in.\n\n- We added the Strikethrough text decoration option to the Froala WYSIWYG on the Edit Web Pages section of the Admin.\n\n- We implemented an update to the Email Templates page and Compose Email modal in order to support using tables in the email Froala WYSIWYG.\n\n- We fixed an issue with the Sub-Account Add-On which was affecting the ability to edit a Sub-Account when logged in as the Parent Account.\n\n- We added support for legacy custom review forms that were set to submit to a URL different than the current default. Widget Involved: Bootstrap Theme - Function - Save Form\n\n- We made the Membership Plan name displayed on the Manage Post Page in the Admin a clickable link that leads directly to the \"Post Publishing\" tab of the Membership Plan.\n\n- We fixed an issue which was causing the \"View Page\" button shown when editing a Web Page in the Admin to link to a non-valid URL in some cases.\n\n- We fixed an issue which was causing the system to set the \"Year Established\" to \"0\" when a member signs up.  It will now set the value of this field to NULL as intended\n\n- We added a new item to the \"Membership\" column on the Search Member page in the Admin called \"Joined Via\". This new piece of data will identify how a member signed up to the website. The possible status for the field are: Admin (when added individually through the Admin), Self Signup (signed up through the normal signup process) and Import (imported via CSV file in the Admin).\n\n- We fixed an issue which was causing the results in \"Grid View\" on Member Search Results pages to overlap when clicking the \"Click To Load More\" button in some cases.\n\n- We implemented an update in order to delete Member Chat Messages when both site members are being deleted from a website.\n\n- We fixed an issue which was preventing Member Upgrades from working properly in some cases.\n\n- We updated the Froala WYSIWYG in the Admin in order to support the button color set of the Theme selected in the Design Settings of the Admin.\n\n- We fixed an issue which affecting the ability to delete individual posts on the Manage Posts page in the Admin.\n\n- We fixed an issue which was preventing members from adding <a> elements in Post Description and Member About fields even when they were allowed by the site's settings. Widget Involved: Form - Froala Editor Javascript",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000072902",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000072902"
+    }
+  ],
+  "lastmod": "2020-07-24T23:18:05+05:30",
+  "scraped_at": "2026-10-18T13:46:54.915327"
+}

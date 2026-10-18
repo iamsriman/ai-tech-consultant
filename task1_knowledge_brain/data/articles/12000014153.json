@@ -1,0 +1,50 @@
+{
+  "article_id": "12000014153",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000014153-setting-up-how-member-reviews-are-approved-on-the-website",
+  "title": "Setting Up How Member Reviews Are Approved On The Website",
+  "category": "Interactions",
+  "folder": "Member Reviews",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Reviews",
+    "Setting Up How Member Reviews Are Approved On The Website"
+  ],
+  "content": "## Setting Up How Member Reviews Are Approved On The Website\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000014153\n\nTo configure how member reviews are approved on your website, go to: Finance » Membership Plans » Profile Page Tab . The review approval workflow is controlled by two settings: Require All Reviews To Be Approved by Admin First – Determines whether an administrator must review and approve new reviews before they can be published. Ability to Accept and Delete Reviews (Member) – Determines whether members can approve or reject reviews submitted to their profile. The combination of these two settings determines how every new review is processed. The four possible workflows are explained below. The combination of these two settings determines how every new review is processed. The four possible workflows are explained below. Scenario 1 Require All Reviews To be Approved by Admin First: SET TO NO Ability to Accept and Delete Reviews (Member): SET TO NO By setting both to \"NO\", all member reviews that are submitted to the website will automatically get published and appear live on the member's profile page and the homepage if the latest reviews are streamed. Scenario 2 Require All Reviews To be Approved by Admin First: SET TO NO Ability to Accept and Delete Reviews (Member): SET TO YES Scenario 2 automatically sets all reviews to \"WAITING FOR MEMBER\". The review will not be published on the website until the member approves the review. The member will also receive an automated notification that there is a pending review in their account. Scenario 3 Require All Reviews To be Approved by Admin First: SET TO YES Ability to Accept and Delete Reviews (Member): SET TO YES The third scenario automatically sets all reviews to \"WAITING FOR ADMIN\". The admin gets an email notification that a review was submitted and must go to the admin area of the website to approve the review manually. » Approving Member Reviews from the Admin Scenario 4 Require All Reviews To be Approved by Admin First: SET TO YES Ability to Accept and Delete Reviews (Member): SET TO NO Our last scenario automatically sets reviews to \"WAITING FOR ADMIN\". Since members are not able to accept or delete reviews, the admin only has the choice to accept or delete the review. There is no option to notify the member or set it to \"WAITING FOR MEMBER\". The ADMIN will see the following pop-up when the setting is changed to \"APPROVED\" » Approving Member Reviews from the Admin Email Templates Linked To New Review Module Depending on your review approval settings, different email templates may be sent to the reviewer or the site administrator. These templates can be customized under Emails → Email Templates . admin-review-notification update-pending-reviews",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181207130/original/F85o_ReLkpcEe0YD_l7poUbWZlqooHxaWA.png?1782754494",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up How Member Reviews Are Approved On The Website' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127616649/original/P6fgJugnBf_gGH5DmXkgCdXbwd8Klgh2-w.jpeg?1687995476",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up How Member Reviews Are Approved On The Website' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000014153",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000014153"
+    },
+    {
+      "text": "Approving Member Reviews from the Admin",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682630"
+    },
+    {
+      "text": "Approving Member Reviews from the Admin",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682630"
+    }
+  ],
+  "lastmod": "2026-06-29T23:06:08+05:30",
+  "scraped_at": "2026-10-18T13:40:27.517728"
+}

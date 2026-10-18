@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095727",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095727-php-code-snippet-to-declare-a-variable-and-fetch-data-for-the-currently-logged-in-user",
+  "title": "PHP Code Snippet to Declare a Variable and Fetch Data for the Currently Logged-in User",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "PHP Code Snippet to Declare a Variable and Fetch Data for the Currently Logged-in User"
+  ],
+  "content": "## PHP Code Snippet to Declare a Variable and Fetch Data for the Currently Logged-in User\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095727\n\nThis PHP snippet retrieves the currently logged-in user's information and stores it in a variable for later use.\n\nThe example uses the user's session cookie to retrieve the associated member record and assigns the returned data to the $loggedInUser variable.\n\n```\n<?php // Declare variable for the currently logged-in user $loggedInUser = getUser($_COOKIE['userid'], $w); ?>\n```",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095727",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095727"
+    }
+  ],
+  "lastmod": "2026-07-01T04:04:16+05:30",
+  "scraped_at": "2026-10-18T13:52:46.120125"
+}

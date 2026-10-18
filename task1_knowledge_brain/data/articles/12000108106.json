@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108106",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108106-api-reference-data-flows",
+  "title": "API Reference - Data Flows",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Data Flows"
+  ],
+  "content": "## API Reference - Data Flows\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108106\n\n← Back to API Reference | Getting Started Data Flows Data Flows define the lead routing and matching workflows on your directory site. Each flow configures how visitor submissions are processed, which search engine and UI handles matching, and the parameters used for automatic member-to-lead assignment. Model name in URL: data_flows — DB table: data_flows The Data Flow Object Field Type Description flow_id integer Unique data flow ID (primary key, read-only) flow_name string Internal machine-readable name for the flow (EG default_flow ) required on create flow_nickname string Human-readable display label for the flow (EG Default Flow ) required on create auto_match string Auto-match method identifier; empty string disables auto-matching search_engine string Search widget or engine slug used to find matching members for this flow search_ui string Search UI widget slug used to present the lead form to visitors search_radius integer Geographic radius in miles used for auto-matching members to leads auto_match_number integer Maximum number of members to automatically match to each lead submission auto_match_acceptance integer Whether matched members must accept the lead before being connected: 1 yes, 0 no user_no_email_notification integer Whether to suppress email notifications to members for leads from this flow: 1 suppress, 0 send fromcron integer Whether this flow can be triggered via cron/scheduled processing: 1 yes, 0 no List Data Flows GET /api/v2/data_flows/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/data_flows/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"flow_id\": \"1\",\n      \"flow_name\": \"default_flow\",\n      \"flow_nickname\": \"Default Flow\",\n      \"auto_match\": \"\",\n      \"search_engine\": \"Search - Member - Search Query\",\n      \"search_ui\": \"get match lead search ui\",\n      \"search_radius\": \"50\",\n      \"auto_match_number\": \"5\",\n      \"auto_match_acceptance\": \"1\",\n      \"user_no_email_notification\": \"0\",\n      \"fromcron\": \"0\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Retrieve a Data Flow GET /api/v2/data_flows/get/{flow_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/data_flows/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"flow_id\": \"1\",\n      \"flow_name\": \"default_flow\",\n      \"flow_nickname\": \"Default Flow\",\n      \"auto_match\": \"\",\n      \"search_engine\": \"Search - Member - Search Query\",\n      \"search_ui\": \"get match lead search ui\",\n      \"search_radius\": \"50\",\n      \"auto_match_number\": \"5\",\n      \"auto_match_acceptance\": \"1\",\n      \"user_no_email_notification\": \"0\",\n      \"fromcron\": \"0\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Data Flow POST /api/v2/data_flows/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/data_flows/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"flow_name=premium_flow\" \\\n  -d \"flow_nickname=Premium+Member+Flow\" \\\n  -d \"search_engine=Search+-+Member+-+Search+Query\" \\\n  -d \"search_ui=get+match+lead+search+ui\" \\\n  -d \"search_radius=25\" \\\n  -d \"auto_match_number=3\" \\\n  -d \"auto_match_acceptance=1\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"flow_id\": \"2\",\n    \"flow_name\": \"premium_flow\",\n    \"flow_nickname\": \"Premium Member Flow\",\n    \"auto_match\": null,\n    \"search_engine\": \"Search - Member - Search Query\",\n    \"search_ui\": \"get match lead search ui\",\n    \"search_radius\": \"25\",\n    \"auto_match_number\": \"3\",\n    \"auto_match_acceptance\": \"1\",\n    \"user_no_email_notification\": null,\n    \"fromcron\": null\n  }\n} Update a Data Flow PUT /api/v2/data_flows/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/data_flows/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"flow_id=2\" \\\n  -d \"search_radius=10\" \\\n  -d \"auto_match_number=5\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"flow_id\": \"2\",\n    \"flow_name\": \"premium_flow\",\n    \"flow_nickname\": \"Premium Member Flow\",\n    \"auto_match\": null,\n    \"search_engine\": \"Search - Member - Search Query\",\n    \"search_ui\": \"get match lead search ui\",\n    \"search_radius\": \"10\",\n    \"auto_match_number\": \"5\",\n    \"auto_match_acceptance\": \"1\",\n    \"user_no_email_notification\": null,\n    \"fromcron\": null\n  }\n} Delete a Data Flow DELETE /api/v2/data_flows/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/data_flows/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"flow_id=2\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"data_flows record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108106",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108106"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:58+05:30",
+  "scraped_at": "2026-10-18T13:58:13.581172"
+}

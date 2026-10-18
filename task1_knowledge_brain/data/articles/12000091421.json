@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091421",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091421-12-23-22-software-updates",
+  "title": "12/23/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/23/22 - Software Updates"
+  ],
+  "content": "## 12/23/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091421\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added the ability to delete the old website backups made through cPanel using the \"Cleanup Tool\" on the Admin Dashboard.\n\n- We fixed an issue which was preventing PDF files which have an ampersand \"&\" symbol in the filename from being uploaded through forms with a file upload field.\n\n- We fixed an issue which was causing the system to remove commas \",\" from the Checkbox, Dropdown and Multichoice Radio form field labels when creating and editing forms from the Admin.\n\n- We fixed an issue with the Brilliant Directories API which was preventing the system from triggering the Admin Email Notifications after creating a lead using the API in some cases.\n\n- We fixed an issue which was affecting the ability to capture payments recurring payments when using Stripe as the payment gateway.\n\n- We updated the recent homepage widgets and search results page logic for Multi-Image Post Types to prevent post images from getting mixed up with review images. Widgets Involved: Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Digital Products Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Post Types Involved: Classified Product Digital Product Photo Album Property\n\n- We updated the Post Type Homepage and Search Module widgets in order to make the JS third party resource files compatible with the \"Front-End Optimization: Enable Resource Delivery via CDN\" Advanced Setting. Widgets Involved: Bootstrap Theme - Homepage Search - Blog Article Search Bootstrap Theme - Homepage Search - Classifieds Search Bootstrap Theme - Homepage Search - Coupons Search Bootstrap Theme - Homepage Search - Digital Products Search Bootstrap Theme - Homepage Search - Discussions Search Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Homepage Search - Jobs Search Bootstrap Theme - Homepage Search - Member Article Search Bootstrap Theme - Homepage Search - Photo Album Search Bootstrap Theme - Homepage Search - Products Search Bootstrap Theme - Homepage Search - Property Search Bootstrap Theme - Homepage Search - Videos Search Bootstrap Theme - Module - Audio Search Bootstrap Theme - Module - Blog Articles Search Bootstrap Theme - Module - Classifieds Search Bootstrap Theme - Module - Coupons Search Bootstrap Theme - Module - Digital Products Search Bootstrap Theme - Module - Discussion Search Bootstrap Theme - Module - Event Search Bootstrap Theme - Module - Jobs Search Bootstrap Theme - Module - Member Article Search Bootstrap Theme - Module - Photo Albums Search Bootstrap Theme - Module - Products Search Bootstrap Theme - Module - Property Search Bootstrap Theme - Module - Videos Search Bootstrap Theme - Photo Album Page\n\n- We fixed an issue with the \"Price Field\" form field type which was causing the system to not respect the \"Website Currency Number Format\" setting when using the field in Member Dashboard forms in some cases.\n\n- We fixed an issue which was causing the Admin Sidebar Menu Items to get stuck as \"open\" after hovering the mouse when using the Safari browser in some cases.\n\n- We updated the Billing Cycles search search options to add the ability to search by Active or Ended subscriptions when performing a search on the Transaction History page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091421",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091421"
+    }
+  ],
+  "lastmod": "2022-12-26T23:24:35+05:30",
+  "scraped_at": "2026-10-18T13:50:34.806388"
+}

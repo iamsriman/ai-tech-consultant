@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091650",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091650-01-13-23-software-updates",
+  "title": "01/13/23 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/13/23 - Software Updates"
+  ],
+  "content": "## 01/13/23 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091650\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to duplicate member listings in search results after sorting the members by \"Most Reviews\"  in some cases. Widget Involved: Search - Member - Search Query\n\n- We added the ability to import Member Posts via CSV file from the Manage Posts page in the Admin.\n\n- Posts with an expiration date but no expiration time will now expire at 12:00am on the day after the post's expiration date. For example, a post with an expiration date of January 1st will count as expired and no longer show in search results at 12:00am on January 2nd. Widget Involved: Search - Post - Search Query\n\n- We fixed an issue which was preventing the system from respecting the Blog Post Start Date on custom Blog Post Types in some cases. Widget Involved: Search - Post - Search Query\n\n- We updated the Website Alerts module in the Admin in order to prevent an alert that the Footer - Scripts or the HEAD widgets are customized on the site when them being customized will have not have an impact on the site's performance.\n\n- We updated the Member API logic in order to check if the token variable has a value before sending the request using the API.\n\n- The Fancy Box 3rd party script files are now compatible with the \"Front-End Optimization: Enable Resource Delivery via CDN\" Advanced Setting. Widget Involved: Bootstrap Theme - Custom Appearance Settings",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091650",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091650"
+    }
+  ],
+  "lastmod": "2023-01-17T03:09:56+05:30",
+  "scraped_at": "2026-10-18T13:50:39.573294"
+}

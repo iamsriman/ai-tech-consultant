@@ -1,0 +1,23 @@
+{
+  "article_id": "12000029882",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000029882-05-19-17-software-updates",
+  "title": "05/19/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/19/17 - Software Updates"
+  ],
+  "content": "## 05/19/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000029882\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added additional SPAM protection to all of the public-facing default forms.  This will block even more types of SPAM form submissions from bots and other automated tools. Widgets Involved: Bootstrap Theme - Function - Save Form System - SaveForm Forms Involved: Contact Us Get Matched Newsletter\n\n- We added a new tool to prevent and fix duplicate website member tokens. This increases security and fixes some login bugs associated with member tokens.\n\n- We improved the save function on the Advanced Settings in order to prevent blank spaces from being saved before or after the content of a setting.  This will prevent bugs related to the saving of Advanced Settings.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000029882",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000029882"
+    }
+  ],
+  "lastmod": "2017-05-26T20:10:36+05:30",
+  "scraped_at": "2026-10-18T13:41:12.607948"
+}

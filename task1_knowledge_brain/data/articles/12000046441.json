@@ -1,0 +1,103 @@
+{
+  "article_id": "12000046441",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046441-toolbox-form-manager",
+  "title": "Toolbox » Form Manager",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "Toolbox » Form Manager"
+  ],
+  "content": "## Toolbox » Form Manager\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046441\n\nThe Form Manager is a core module of the Brilliant Directories platform, as it contains all forms used throughout the site.\n\nForms allow members and visitors to submit information, making this the place to create, edit, and customize how data is collected.\n\n\n## How to Access the Form Manager\n\n\nTo access the Form Manager, navigate to Toolbox >> Form Manager :\n\n\n## Default Forms\n\n\nEvery Brilliant Directories site includes a set of default forms. These forms are labeled with a DEFAULT FORM tag:\n\nTo learn more about default form types, see Default Form Types\n\n\n## Customized Forms\n\n\nNew websites are launched without customized forms:\n\nOnce a default form is customized, it appears above the Default Forms section:\n\nTo learn how to customize a form, see How to Customize a Form\n\n\n## Bulk Actions\n\n\nBulk actions are available for custom and newly created forms:\n\nTo learn more about bulk actions, see Bulk Actions for Forms\n\n\n## Form Filters\n\n\nFilters organize forms by status, type, alphabetical order, or last update:\n\n\n### Filter by Status\n\n\nView forms that are currently active or disabled.\n\n\n### Filter by Type: Member Listings\n\n\nForms associated with membership listing sections such as Contact Details, Additional Details, or About.\n\n\n### Filter by Type: Post Types\n\n\nForms related to post types such as Classifieds, Albums, or Blog Posts.\n\n\n### Filter by Type: General\n\n\nForms not associated with listings or post types.\n\n\n## Allowed Frontend HTML Tags\n\n\nSite owners can control which HTML elements are allowed in front-end forms.\n\nThis setting is located under Settings >> Advanced Settings >> Allowed Frontend HTML Tags :\n\nNote: For security reasons, the following HTML elements are never allowed:\n\n<input>, <textarea>, <link>, <form>, <meta>, <applet>, <frame>, <iframe>, <script>, <style>, <base>, <body>, <html>, <object>, <?>, <?php\n\n\n### Important Information\n\n\n- Forms cannot be imported or exported.\n\n- Advanced searching and filtering can be performed using SQL queries.\n\n- The Leads Form is tied directly to the Leads System. Most changes should be made in Lead Settings . Keeping the default Get Matched form and only adding new fields is recommended, to avoid conflicts.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819095/original/Sk5-PWIecSBDqcoTFcJhCCJggJD9lI8pew.png?1761870888",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819116/original/-twSwZoyBmERCPCxbBGP6qWYWVATCSCJUw.png?1761871062",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819114/original/303-qCYWSPPbrZRT93RZe36vSth0OlOhoQ.png?1761871019",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819135/original/u9gfBT_h2tZQqNPZmqA6zGkXAv0L2ZmWPw.png?1761871136",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819160/original/EEAWFe5V_-40b3qx2aJEYyb59dLU22u6xg.png?1761871182",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819193/original/2Ic11pJMKsiRmyzpDtfZMbkyzz2JBOr2yw.png?1761871303",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109998940/original/yZ3TEm-UV7h6TIcVfLijdBXPZXf9McsVmA.png?1654620008",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046441",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046441"
+    },
+    {
+      "text": "Default Form Types",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000079027"
+    },
+    {
+      "text": "How to Customize a Form",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078290"
+    },
+    {
+      "text": "Bulk Actions for Forms",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078793"
+    },
+    {
+      "text": "Lead Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000008053"
+    }
+  ],
+  "lastmod": "2026-06-16T01:27:40+05:30",
+  "scraped_at": "2026-10-18T13:42:58.883921"
+}

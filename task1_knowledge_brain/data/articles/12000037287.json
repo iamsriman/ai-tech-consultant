@@ -1,0 +1,23 @@
+{
+  "article_id": "12000037287",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037287-11-03-17-software-updates",
+  "title": "11/03/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/03/17 - Software Updates"
+  ],
+  "content": "## 11/03/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000037287\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue that was affecting the Facebook Sharing Image function. Now it is working as it should. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue that was affecting the the USA Map Widget. Widget Involved: Bootstrap Theme - Homepage Search - Clickable USA Map\n\n- We updated the Domain Manager Page in the Site Admin in order to support special characters in the domain by automatically converting it to punycode format.\n\n- The issue that was affecting the manual collect of the Past Due Payments has been resolved.\n\n- We fixed an issue that was affecting the Add Credit Card functionality in the Billing Module.\n\n- We added a new module to the Member Dashboard area called Add Content .  This module allows members to publish content with just one click, rather than navigating to the current location in the sidebar. To activate this new module, navigate to the Admin Area >> Finance >> Manage Products >> Click on the Edit Button of the Product, navigate to the Additional Settings tab and search for the Show Add Content in Dashboard setting. Widget Involved: Bootstrap Theme - Account - Member Dashboard\n\n- The Multi-Location Listings Add-On is now available. Widgets Involved: Bootstrap Theme - Account - Checklist Wizard Bootstrap Theme - Account - Member Dashboard Bootstrap Theme - Account - Menu Tabs\n\n- We released a security update that affects the Reply to Member Reviews Add-On. Widgets Involved: Account - Save Actions Bootstrap Theme - Account - Reviews Bootstrap Theme - Member Profile - Read Review\n\n- We fixed an issue that was affecting the Reply to Inquiry functionality in the Form Inquiries section of the Admin Area.\n\n- We released a security update that affects the Automatic Lead Matching Add-On. Widgets Involved System - SaveForm Bootstrap - Lead Form - Extra Settings",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000037287",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037287"
+    }
+  ],
+  "lastmod": "2017-11-04T02:52:02+05:30",
+  "scraped_at": "2026-10-18T13:41:59.185350"
+}

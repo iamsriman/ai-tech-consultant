@@ -1,0 +1,27 @@
+{
+  "article_id": "12000026231",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000026231-02-28-2017-software-updates",
+  "title": "02/28/2017 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/28/2017 - Software Updates"
+  ],
+  "content": "## 02/28/2017 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000026231\n\nBrilliant Directories made the following updates to these default widgets and Core functionality. If you have customized any of these widgets, and would like to update your customized widget, you can find our most updated code in the Default Widget section. If you have a custom version of these widgets, it means that our latest updates has not been pushed to your website.\n\nUpdates:\n\n- The \"New Custom SEO Setting\" button on Custom SEO Settings is now only available for Super Admins.\n\n- The Issue that was affecting the Froala Editor when somebody embed a Youtube video on the Admin has been solved.\n\n- The issue when you upload a CV and the link was not showing in the Member Profile Page has been solved.\n\n- Member Category Import functionality was updated.\n\n- We added two new Membership Level Settings, Show QR Code in Dashboard and Show Member Badge in Dashboard. Widget Involved: Bootstrap Theme - Account - Member Dashboard.\n\n- The New Add-On Manager has been released..\n\n- The Issue when the Google Map was shown in the search results even if the system did not receive results has been solved. Widget Involved: Bootstrap Theme - Search Results Map.\n\n- Issue with the Strict Search functionality has been fixed. Widget Involved: Search - Member - Search Query.\n\n- The Company Logo will only show on the Profile Overview Tab if the Member set his listing type as Individual. Widgets Involved: Bootstrap Theme - Deprecated - Member Profile - Display - Member Contact Details AND Bootstrap Theme - Member Profile - Display Member Logo.\n\n- The Issue with the Rule boxes Arranged of the Autosuggest has been fixed.\n\n- New Advanced settings was created, get_copy_review_email if you set this settings to 1 the Site admin will receive the copy of the Member Review Email. By default the setting will set as 0. Click here for more information.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000026231",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000026231"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000026229-receive-copies-of-all-of-your-members-review-emails"
+    }
+  ],
+  "lastmod": "2017-03-02T19:27:58+05:30",
+  "scraped_at": "2026-10-18T13:40:58.118463"
+}

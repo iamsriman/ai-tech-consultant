@@ -1,0 +1,59 @@
+{
+  "article_id": "12000087024",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087024-front-end-optimization-enable-resource-delivery-via-cdn",
+  "title": "Front-End Optimization: Enable Resource Delivery Via CDN",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Front-End Optimization: Enable Resource Delivery Via CDN"
+  ],
+  "content": "## Front-End Optimization: Enable Resource Delivery Via CDN\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087024\n\nThe Front-End Optimization: Enable Resource Delivery Via CDN advanced setting enables additional optimization of the website performance by having any CSS  or Javascript resources that are referenced on all pages to be served from https://www.optimizecdn.com .\n\nIf set to OFF, the system will use relative paths from the domain, but if turned ON it speeds up the delivery of resources vs. the relative path of the domain name.\n\nTo activate the setting go to Settings > Advanced Settings:\n\nFront-End Optimization: Enable Resource Delivery Via CDN\n\nThis is a recently added update to our software, for which we added code to the following default widgets:\n\n- Bootstrap Theme - HEAD\n\n- Bootstrap Theme - Footer - Scripts\n\n- Bootstrap Theme - Footer - Scripts - User Search Scripts\n\nIf the site has one or more of these widgets customized the system will check if the website has these custom widgets and if each widget does not have present brilliantDirectories::cdnUrl(). If one or more of these widgets are missing this code, a pop up will display with a recommendation:\n\nAnd the setting will display a warning indication which of these widgets need to be updated or disabled:\n\nTo fix this, there are a couple of options:\n\n1. Disable the custom widgets that are indicated in the warning message.\n\n2. Keep your custom widget, making sure to include the brilliantDirectories::cdnUrl() code, by comparing the custom and default widgets and adding it in the right section.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107960602/original/qfL82X9Z70ywb5-Z49PjjqCvsPpl1djQug.png?1650560630",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Front-End Optimization: Enable Resource Delivery Via CDN' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107961108/original/Lh88XHZuchuIFXbjaglRkturkF19jvxKRw.png?1650561363",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Front-End Optimization: Enable Resource Delivery Via CDN' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107960839/original/ospi7BTjmq0k7cLXvo9PdmOJLtiDepS6lQ.png?1650561010",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Front-End Optimization: Enable Resource Delivery Via CDN' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087024",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087024"
+    },
+    {
+      "text": "optimization of the website performance",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000084601"
+    },
+    {
+      "text": "https://www.optimizecdn.com",
+      "url": "https://www.optimizecdn.com/"
+    }
+  ],
+  "lastmod": "2023-08-07T07:00:13+05:30",
+  "scraped_at": "2026-10-18T13:49:43.365376"
+}

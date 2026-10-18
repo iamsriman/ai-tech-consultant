@@ -1,0 +1,103 @@
+{
+  "article_id": "12000078297",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078297-how-to-set-up-a-wildcard-url-rewrite-web-page",
+  "title": "How to Set Up a Wildcard URL Rewrite Web Page",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "How to Set Up a Wildcard URL Rewrite Web Page"
+  ],
+  "content": "## How to Set Up a Wildcard URL Rewrite Web Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078297\n\nA static page can be designated as a Wildcard, so that one page is displayed at many different URLs.\n\nAfter enabling a wildcard, any additional slug added to that page’s URL displays the wildcard page, without redirecting the visitor.\n\nNote : This capability is provided only upon request. To enable it, please open a support ticket so our team can turn it on for your site.\n\nAfter Wildcard support has been activated, complete the following steps to set up a Wildcard web page:\n\n1. Navigate to My Content >> Web Page Builder:\n\n2. Click on the \"New Web Page +\" button:\n\n3. Enter the page URL and content:\n\n4. Move to the Page Options tab, scroll down to Advanced Options and check the Wildcard URL Rewrite option:\n\n5. Save the changes.\n\nIn this example, the wildcard page is https://bd-documentation.directoryup.com/wildcard\n\nIf a visitor goes to https://bd-documentation.directoryup.com/wildcard/test or any other URL such as https://bd-documentation.directoryup.com/wildcard/test/brilliantdirectories , the visitor sees the content of the original page, https://bd-documentation.directoryup.com/wildcard .\n\nThe address in the browser stays the URL the visitor requested. Each of these URLs is treated as its own page by search engines: the page's canonical URL (the address the page tells search engines is its main address) is the URL that was requested, without any query string. For example, /wildcard/test?ref=1 reports /wildcard/test as its canonical URL, and it can be indexed separately from /wildcard . Canonical URLs are always lowercase.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185608086/original/BGrZ_eayfrjDxcHpqNUoz0NCsGhV2DAyIA.png?1790103108",
+      "alt": "My Content menu open with Web Page Builder highlighted",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Set Up a Wildcard URL Rewrite Web Page' (My Content > Web Page Builder): My Content menu open with Web Page Builder highlighted",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185608087/original/SktxnjAu1HT5Q4GhLKG6TUh3GRTz3wW1rw.png?1790103111",
+      "alt": "New Web Page button in the Web Page Builder",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Set Up a Wildcard URL Rewrite Web Page' (My Content > Web Page Builder): New Web Page button in the Web Page Builder",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185608095/original/ACTThFzQJzUiPr5PYJgbyXqlKlxCHpS_rg.png?1790103117",
+      "alt": "New web page with the URL set to wildcard and page content entered",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Set Up a Wildcard URL Rewrite Web Page' (My Content > Web Page Builder): New web page with the URL set to wildcard and page content entered",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185608100/original/8eX8hkcC0t4aZ9v8VdClEEuaoBYQDGnhig.png?1790103119",
+      "alt": "Wildcard URL Rewrite checked under Advanced Options on the Page Options tab",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Set Up a Wildcard URL Rewrite Web Page' (My Content > Web Page Builder): Wildcard URL Rewrite checked under Advanced Options on the Page Options tab",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185606798/original/dAXR7692P67_KsNGR45hp4tu-Xm6DGn0VA.png?1790101893",
+      "alt": "The wildcard page at its own URL",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Set Up a Wildcard URL Rewrite Web Page' (My Content > Web Page Builder): The wildcard page at its own URL",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185606805/original/e0zUgA0qjmpiIBCC_TbEnWuqbDKp4SiBrQ.png?1790101901",
+      "alt": "Page source of a wildcard child URL showing its own address as the canonical URL",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Set Up a Wildcard URL Rewrite Web Page' (My Content > Web Page Builder): Page source of a wildcard child URL showing its own address as the canonical URL",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185606800/original/m1F_hOVj5wAeXRUZzWnMYgcl0wFo8aLMRg.png?1790101895",
+      "alt": "The same wildcard page shown at a child URL",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Set Up a Wildcard URL Rewrite Web Page' (My Content > Web Page Builder): The same wildcard page shown at a child URL",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078297",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078297"
+    },
+    {
+      "text": "https://bd-documentation.directoryup.com/wildcard",
+      "url": "https://bd-documentation.directoryup.com/wildcard"
+    },
+    {
+      "text": "https://bd-documentation.directoryup.com/wildcard/test",
+      "url": "https://bd-documentation.directoryup.com/wildcard/test"
+    },
+    {
+      "text": "https://bd-documentation.directoryup.com/wildcard/test/brilliantdirectories",
+      "url": "https://bd-documentation.directoryup.com/wildcard/test/brilliantdirectories"
+    },
+    {
+      "text": "https://bd-documentation.directoryup.com/wildcard",
+      "url": "https://bd-documentation.directoryup.com/wildcard"
+    }
+  ],
+  "lastmod": "2026-09-23T00:22:50+05:30",
+  "scraped_at": "2026-10-18T13:47:59.981067"
+}

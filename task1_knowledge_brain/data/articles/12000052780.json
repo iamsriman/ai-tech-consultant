@@ -1,0 +1,77 @@
+{
+  "article_id": "12000052780",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052780-how-to-create-a-modal-pop-up-box",
+  "title": "How To Create A Modal - Pop Up Box",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How To Create A Modal - Pop Up Box"
+  ],
+  "content": "## How To Create A Modal - Pop Up Box\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000052780\n\nThis article demonstrates how to create a basic modal pop-up that can display custom content on a website.\n\nThe example uses a custom widget to define the modal's HTML and JavaScript, then displays it on a selected page.\n\nNote This example provides a basic modal template. Some content, such as signup forms or other interactive elements, may require additional customization to function correctly inside a modal.\n\nFor a walkthrough of this feature, see the following Webinar:\n\nCreate Pop-Up Notifications & Offer Boxes on Your Website – Training Workshop for Directory Software\n\n\n## Step 1: Create the Modal Widget\n\n\nCreate a new widget by navigating to:\n\nToolbox → Widget Manager → New Widget\n\n\n### Add the HTML\n\n\nPaste the following code into the widget's HTML editor.\n\n```\n<div class=\"modal fade\" id=\"Modaltimed\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\"><span aria-hidden=\"true\">&times;</span><span class=\"sr-only\">Close</span></button>\n        <h4 class=\"modal-title\" id=\"myModalLabel\">Thank you for visiting us!</h4>\n      </div>\n      <div class=\"modal-body\">\n        Happy Holidays!\n      </div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\n      </div>\n    </div>\n  </div>\n</div>\n```\n\nThe primary areas of the modal that can be customized are:\n\n- Title\n\n- Body Content\n\n\n### Add the JavaScript\n\n\nPaste the following code into the widget's JavaScript editor.\n\n```\n<script>\nsetTimeout(function() {\n    $('#Modaltimed').modal();\n}, 2000);\n</script>\n```\n\n\n## Step 2: Display the Modal\n\n\nCall the widget on the page where the modal should appear.\n\nFor instructions on adding widgets to a page, see:\n\nHow to Call a Widget on a Custom Page\n\nIn this example, the widget is added to the /join page.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12044932092/original/Q7dUVMLYMOAg7XVgjSO9dotCB4b3Qw6u_g?1545845120",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Modal - Pop Up Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12044932217/original/LdusX_1gUZkhv7U9Xcs6jEwlTEfnIp9lGw?1545845218",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Modal - Pop Up Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12044932277/original/oUtNl72ojcrtGrmanHb-Vh0ag3CyoHi2Kw?1545845276",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Modal - Pop Up Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12044932606/original/CXwZYFxaaq0LrWreGfXk2C06-T1aiMXa8w?1545845752",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Modal - Pop Up Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12044932623/original/QWYhUKUdAyjT9p2UZf3jDCrKxM39hOJyzQ?1545845768",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Modal - Pop Up Box' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000052780",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052780"
+    },
+    {
+      "text": "Create Pop-Up Notifications & Offer Boxes on Your Website – Training Workshop for Directory Software",
+      "url": "https://www.youtube.com/watch?v=pcbbDAurXKQ&list=PLymghy2UPw3mV47etizjz0UeD_PlbZKyf"
+    },
+    {
+      "text": "How to Call a Widget on a Custom Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051582"
+    }
+  ],
+  "lastmod": "2026-07-01T04:12:05+05:30",
+  "scraped_at": "2026-10-18T13:44:19.656605"
+}

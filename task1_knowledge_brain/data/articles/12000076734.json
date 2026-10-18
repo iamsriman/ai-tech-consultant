@@ -1,0 +1,123 @@
+{
+  "article_id": "12000076734",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076734-how-to-embed-the-newsletter-form-to-a-static-page",
+  "title": "How to Embed the Newsletter Form to a Static Page",
+  "category": "Emails",
+  "folder": "Send Newsletter",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Send Newsletter",
+    "How to Embed the Newsletter Form to a Static Page"
+  ],
+  "content": "## How to Embed the Newsletter Form to a Static Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076734\n\nThis article explains how to add the newsletter signup form to a static web page using the Brilliant Directories Web Page Builder.\n\nThere are three common ways to display the newsletter signup form on a static page:\n\n- Add the default newsletter widget to a sidebar\n\n- Embed the newsletter form directly on the page using the form shortcode\n\n- Add a button that opens the newsletter signup form in a modal popup\n\n\n## Option 1: Add the Newsletter Widget to a Sidebar\n\n\nThis option displays the newsletter signup widget inside a sidebar assigned to a static page.\n\nImportant: Sidebars can be added to static pages, except for the homepage URL /home .\n\n\n### Step 1: Create a New Sidebar\n\n\n- Go to Toolbox >> Sidebar Manager .\n\n- Click New Sidebar .\n\n- Enter a sidebar nickname.\n\n- Click Save Sidebar .\n\n\n### Step 2: Add the Newsletter Widget to the Sidebar\n\n\n- Find the new sidebar in the Sidebar Manager.\n\n- Click Edit .\n\n- Drag and drop the following widget into the sidebar:\n\nBootstrap Theme - Module - Newsletter Sign Up Form\n\n- Click Save Changes .\n\n\n### Step 3: Assign the Sidebar to a Static Page\n\n\n- Go to Content >> Web Page Builder .\n\n- Create a new web page or edit an existing static page.\n\n- Scroll to the page display settings.\n\n- Select the new sidebar under the page’s display options.\n\n- Click Save Changes .\n\nThe newsletter signup widget will now display in the sidebar area of the selected static page.\n\n\n## Option 2: Embed the Newsletter Form Directly on the Page\n\n\nThis option places the newsletter signup form directly inside the content area of the static page.\n\n\n### Step 1: Copy the Newsletter Form Shortcode\n\n\n- Go to Toolbox >> Form Manager .\n\n- Find the form named Website - Newsletter Signup Form .\n\n- Under the Actions column, click Copy to Clipboard .\n\n\n### Step 2: Add the Shortcode to the Static Page\n\n\n- Go to Content >> Web Page Builder .\n\n- Create a new static page or edit an existing one.\n\n- Paste the copied form shortcode into the page content area where the form should appear.\n\n- Click Save Changes .\n\nThe newsletter signup form will now display directly on the static page.\n\n\n## Option 3: Add a Button That Opens the Newsletter Modal\n\n\nThis option adds a button to the static page. When clicked, the button opens the newsletter signup form in a popup modal.\n\n\n### Step 1: Add a Button to the Page\n\n\n- Go to Content >> Web Page Builder .\n\n- Create a new static page or edit an existing page.\n\n- Add a button using the draggable content blocks.\n\n\n### Step 2: Add the Modal Attributes to the Button\n\n\n- Click into Code View for the page content.\n\n- Find the button code.\n\n- Add the following code inside the opening button or link tag, before the closing > :\n\n```\ndata-target=\"#newsletter_subscribe_modal\" data-toggle=\"modal\"\n```\n\nExample:\n\n```\n<a href=\"#\" class=\"btn btn-primary\" data-target=\"#newsletter_subscribe_modal\" data-toggle=\"modal\">Subscribe to Newsletter</a>\n```\n\n\n### Step 3: Add the Newsletter Modal Widget to the Page\n\n\nAt the bottom of the page content, add the following widget shortcode:\n\n```\n[widget=Bootstrap Theme - Modal - Newsletter Subscribe]\n```\n\n- Exit Code View.\n\n- Click Save Changes .\n\n- View the page on the front end and click the button to test the modal.\n\nWhen the button is clicked, the newsletter signup modal will open on the page.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181299370/original/YO8ShJxAQKApqIj3HPl1CTO1PDiqeNmFzw.gif?1782866930",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181299491/original/l5OmWu6Q3rLuYTK6oMhW9_2_7n7zPZkC9A.gif?1782867122",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181300262/original/Fcp8Lpi1ACLXJsnKhOUaLqMeixtme8QNAg.gif?1782869300",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181300258/original/v6xlIxyEk1M_M7B8XRIf1XsMN37Pt7q3rg.png?1782869221",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181301032/original/kSo3FbP1ap1DDoM3-ufu9PruuMqyAVbPxw.gif?1782871241",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181301613/original/N7cjpcbOPBc4nY9Wjab0ICj_ibUuC0v25g.gif?1782872387",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181301710/original/YXZzuSrgiITEm8hO6HeVnAq-dYsAQJQ5qA.png?1782872783",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181301845/original/L8rZi7dM2O3uli_JML9RuhDlsIvTbU0BfA.gif?1782873513",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181301868/original/U0gLkALkJ3vnpnMQmS4btbqFdfYE14H4Cw.png?1782873632",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181301899/original/Qjjrw9bJEFMIL6LNh8VZKc-gTkp86A0r-Q.png?1782873828",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181301923/original/kU4W5pUVYAVwCGYtw5h2SWMuR5A9ixE1JQ.gif?1782873913",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Embed the Newsletter Form to a Static Page' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076734",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076734"
+    }
+  ],
+  "lastmod": "2026-07-01T08:17:12+05:30",
+  "scraped_at": "2026-10-18T13:47:36.767956"
+}

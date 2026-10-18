@@ -1,0 +1,181 @@
+{
+  "article_id": "12000046572",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046572-free-trial-period",
+  "title": "Free Trial Period",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Free Trial Period"
+  ],
+  "content": "## Free Trial Period\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046572\n\n\n## Overview\n\n\nThe Free Trial Period add-on allows administrators to offer a specified number of free days on individual paid membership plans. Depending on the website’s payment gateway and selected authorization option, members may be required to enter payment information during signup.\n\nIf a member does not cancel before the trial ends, the regular membership payment becomes due.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Free Trial Period Add-On\n```\n\nFeatures and Benefits :\n\n- Increase paid membership signups\n\n- Add a free trial period to individual membership packages.\n\n- Choose how many days the trial period lasts\n\n- Trial info is automatically displayed on checkout pages\n\n- Payment information can be optional or required, depending on the selected authorization option and payment gateway.\n\n- Members are automatically charged once their trial ends\n\n- Members are not charged if they cancel before their trial ends\n\n\n## How to Enable a Free Trial for a Membership Plan\n\n\n\n### 1. Open the Membership Plan\n\n\n- Go to Finance » Membership Plans .\n\n- Click Edit for the membership plan that will offer the trial.\n\n\n### 2. Open the Sign Ups & Upgrades Tab\n\n\n- Select the Sign Ups & Upgrades tab.\n\n\n### 3. Enable the Free Trial Period\n\n\nTwo sets of options are available and can be configured independently:\n\n- New Signups: For members subscribing to this plan for the first time.\n\n- Plan Changes: For existing members switching from another plan to this one.\n\nFor either option, set Enable Free Trial Period to Yes .\n\n\n### 4. Specify Number of Trial Days\n\n\nIn Number of Free Trial Days , enter the duration of the trial. For example, enter 7 to offer a seven-day free trial. Click Save Changes when the configuration is complete.\n\n\n## Credit Card Requirements and Authorization Options\n\n\nUnder Free Trial Additional Options , select how payment information will be handled during the free trial. The available options depend on whether the website uses an on-site or off-site payment gateway.\n\nRelated Article: Supported Payment Gateways: On-Site and Off-Site Payment Gateways\n\n\n### Off-Site Payment Gateways\n\n\n- No credit card required for free trial: Members can begin the free trial without providing payment information. They must add a valid payment method before paid billing can begin.\n\n\n### On-Site Payment Gateways\n\n\n- No credit card required for free trial: Members can begin the free trial without providing payment information. They must add a valid payment method before paid billing can begin.\n\n- Add credit card on file without authorization: Members must provide a credit card during signup. The card is saved but is not charged or authorized until the free trial ends.\n\n- Authorize a $1.00 charge when card is required: Members must provide a credit card. A $1 authorization is processed to verify that the card is valid and active.\n\n- Authorize full subscription amount when card is required: Members must provide a credit card. The full subscription amount is authorized to confirm that sufficient funds are available. The regular payment is processed when the free trial ends.\n\n\n## What Members See at Checkout\n\n\n\n### When No Credit Card Is Required\n\n\nCredit-card fields are hidden during checkout. The member must add a valid payment method before paid billing begins. If payment cannot be collected when the trial ends, the member is marked as Past Due .\n\n\n### When Authorization Is Required\n\n\nWhen a credit-card authorization option is selected, the checkout form displays an authorization notice explaining how the member’s card will be handled.\n\n\n### Customize the Authorization Message\n\n\nTo customize the authorization title and message:\n\n- Go to Settings » Text Labels .\n\n- Search for Credit Card Authorization .\n\n- Edit the following labels: Credit Card Authorization Title Credit Card Authorization Message\n\n- Credit Card Authorization Title\n\n- Credit Card Authorization Message\n\n- Save the changes.\n\n\n## Verify the Free Trial for New Signups\n\n\nAfter saving the membership plan, open its signup page to confirm that the free-trial information appears correctly.\n\n- Go to Finance » Membership Plans .\n\n- Find the configured membership plan and click Edit .\n\n- Click Sign Up Page at the top of the page.\n\nIn the Select a Payment Option section, confirm that the trial duration and payment start date are displayed correctly.\n\n\n## Verify the Free Trial During a Plan Upgrade\n\n\nFree trials can also apply when an existing member upgrades to an eligible membership plan. The destination plan must have the free trial enabled and must be configured as an available upgrade option.\n\nWhen the member selects the plan from the Upgrade/Downgrade page, the trial duration and payment start date appear with the plan’s payment information:\n\nFor instructions on making the plan available during an upgrade, see How to Setup Upgrade/Downgrade Options for Membership Plans .\n\n\n## Customize the Free Trial Display Text\n\n\nWhen a free trial is enabled, the trial duration and payment start date appear during checkout:\n\nTo customize this text:\n\n- Go to Settings » Text Labels .\n\n- Search for Free Trial .\n\n- Edit the applicable labels.\n\n- Save the changes.\n\nThe following five labels are available for editing:\n\nLabel Description Variable Name Default Text Line 1 Before Days free_trial_period_line1_before This plan includes a. Line 1 After Days free_trial_period_line1_after DAY FREE TRIAL. Line 2 Before Start Date free_trial_period_line2_before Your payment will start on. Line 2 After Start Date free_trial_period_line2_after Type additional text if needed. Line 3 (Additional Info) free_trial_period_line3 Additional text displayed under date.\n\nThe “before” and “after” labels are combined with a dynamically generated value, such as the number of trial days or the payment start date.\n\n\n## Additional Notes\n\n\nThe following conditions apply when using the Free Trial Period Add-On:\n\n- Members must cancel before the trial ends to avoid the first regular membership charge.\n\n- Free trials can apply to both new signups and eligible membership-plan upgrades.\n\n- When no card is collected during signup, the member must add a valid payment method before paid billing begins.\n\n- If payment cannot be collected when the trial ends, the member is marked Past Due .\n\n- Past-due transactions can be reviewed under Finance » Transaction History » Past Due .\n\n\n## Additional Resources\n\n\n- Free Trial Payment Intents - Stripe\n\n- Finance » Transaction History",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183888073/original/kBC6zHk29feJz_cx0VPDoG2GPFxbucTwFg.png?1787185908",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183888077/original/EJSGZeHrjqGdnRfkaVHDFqEGdwNVMlshcg.png?1787185938",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184819365/original/csYOZEFLEpim0IlwmDDHo_dtNpQ0PNcfQg.png?1788814606",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183888110/original/Vje1kLItj_4XypV9CNcGFlt5CzERVMV9Nw.png?1787186029",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159746037/original/8VlhDIRGxlDZWO0nM10P_hMTuFyetPG1bw.png?1744310179",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183888590/original/B2cV_7IvAYt1YwUfNWYRz8E3a_iUKXlNcg.png?1787187255",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159746053/original/Z4akLTlBgROGz9aAdctiZTdYGif8OyYghQ.png?1744310228",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159746079/original/P7ZBh2HRJWcsKM1QUX8Sh_B5lVk0Lo4kRQ.png?1744310250",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182875264/original/KmnK07XPDz0iSMRYUvMhDcInjAszjX5lYw.png?1785426100",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182875396/original/HZNMn5Cr_i-acBHj0PbK-r7UV8nwSg1jlQ.png?1785426152",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182875973/original/f6-mFnHXz8pv1xwoxgI0wWaL7rDis5NeHQ.png?1785426588",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183888750/original/DnIHntPJGRcw3ZeBf14gLpua9QTUzRApXw.png?1787187967",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182875995/original/MiYp7poPw6il05rMMMWlrzWtUHH2M82Lww.png?1785426639",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182875476/original/QB4i9bDp8sl1louiJ7gOSqr_Im4H01Y6tQ.png?1785426192",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Free Trial Period' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046572",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046572"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Free Trial Period Add-On",
+      "url": "https://www.brilliantdirectories.com/membership-free-trial-period"
+    },
+    {
+      "text": "Supported Payment Gateways: On-Site and Off-Site Payment Gateways",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000006843"
+    },
+    {
+      "text": "How to Setup Upgrade/Downgrade Options for Membership Plans",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000008978-how-to-setup-upgrade-downgrade-options-for-membership-plans"
+    },
+    {
+      "text": "Free Trial Payment Intents - Stripe",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000072584"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046232-finance-transaction-history"
+    },
+    {
+      "text": "Finance » Transaction History",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046232-finance-transaction-history"
+    }
+  ],
+  "lastmod": "2026-09-11T23:41:20+05:30",
+  "scraped_at": "2026-10-18T13:43:02.878965"
+}

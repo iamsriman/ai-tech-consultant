@@ -1,0 +1,23 @@
+{
+  "article_id": "12000085648",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085648-02-04-22-software-updates",
+  "title": "02/04/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/04/22 - Software Updates"
+  ],
+  "content": "## 02/04/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000085648\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Froala WYSIWYGs used on the frontend of sites in order to make it compatible with the draggable \"Pre-Made Elements\" module when using the \"Froala Text Editor - Access Media Manager\" form field type inside a Member Dashboard form. Widget Involved: Form - Froala Editor Javascript\n\n- We updated the logic of the /checkout pages in order to prevent member signups when the \"Disable Public Sign Ups Pages For This Membership Plan?\" Membership Plan setting is set to \"Yes\".\n\n- We created a new Post Setting called \"Sidebar Position on Mobile Devices\" that allows the Admin to choose the position of the search results page sidebars on mobile devices. Widgets Involved: Bootstrap Theme - Member Results Bootstrap Theme - Single Post Page\n\n- We updated the Predictive Keyword Search Add-On in order to load the JS files after the page loads. This will help to reduce  the load time of  pages and increase scores in 3rd party tools like GTMetrix and Google Pagespeed. Widgets Involved: Bootstrap Theme - Display - Add to Favorites Button Bootstrap Theme - Footer - Scripts - Input Clear Content Scripts",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000085648",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085648"
+    }
+  ],
+  "lastmod": "2022-02-06T00:44:31+05:30",
+  "scraped_at": "2026-10-18T13:49:26.234592"
+}

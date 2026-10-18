@@ -1,0 +1,140 @@
+{
+  "article_id": "12000049987",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049987-changing-a-members-password",
+  "title": "Changing a Members Password",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "Changing a Members Password"
+  ],
+  "content": "## Changing a Members Password\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000049987\n\nThere are four methods through which a member's password can be changed or reset on a Brilliant Directories site:\n\nVia the Admin Dashboard — the administrator sets a new password directly on the member record. Via the Member Dashboard — the member changes their own password from their front-end account area. Via the Password Retrieval Link — the member requests a reset email from the /login/retrieval page.\n\n\n## Method 1 — Via the Admin Dashboard\n\n\nThe administrator can manually set a new password for any member from within the Search Members section of the admin dashboard.\n\nTo change a member's password via the admin dashboard:\n\n- Navigate to My Members » Search Members .\n\n- Locate the target member in the results table.\n\n- Click the Actions dropdown for that member's record.\n\n- Select Change Password from the dropdown options.\n\n- The Change Password module will appear.\n\n- Enter the new password in the module.\n\n- Save the change.\n\n\n## Method 2 — Via the Member Dashboard\n\n\nMembers can change their own password independently from within their front-end member dashboard. No administrator action is required for this method.\n\nTo change a password via the member dashboard:\n\n- The member logs in to the site and accesses their member dashboard.\n\n- The member navigates to the password change area within the dashboard.\n\n- The member enters and saves a new password.\n\n\n## Method 3 — Via the Password Retrieval Page\n\n\nEvery Brilliant Directories website includes a default password retrieval page accessible at /login/retrieval . Members can use this page to request a password reset email if their current password has been forgotten.\n\nTo reset a password via the retrieval page:\n\n- The member navigates to the site's /login/retrieval page.\n\n- The member enters their registered login email address in the field provided.\n\n- The member clicks \"Get My Password\" .\n\n- The system sends a password reset email to that address.\n\n- The member opens the email and clicks the reset link.\n\n- The reset link redirects the member to a page where a new password can be set.\n\n\n### The /login/retrieval Page in the Web Page Builder\n\n\nThe /login/retrieval retrieval page is a standard web page managed through the Web Page Builder, and is editable in the same way as all other site pages.\n\nNavigation Path: Admin Dashboard » My Content » Web Page Builder\n\n⚠ NOTE — Page Not Appearing in Web Page Builder: If the /login/retrieval page does not appear in the Web Page Builder, an installer is available to restore it. The installer option will be visible within the Web Page Builder interface.\n\nThe retrieval page contains the [widget=Bootstrap Theme - Member Login Page] widget, which controls the password retrieval functionality on the page. This widget can be reviewed and configured from within the Web Page Builder like any other page widget.\n\n- Reference: Content » Web Page Builder\n\n\n### Customizing the Password Retrieval URL\n\n\nThe default /login/retrieval URL can be changed to a custom path if needed. This setting is managed from within Advanced Settings.\n\nNavigation Path: Admin Dashboard » Settings » Advanced Settings\n\n- Reference: Settings » Advanced Settings",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181026803/original/jNXwND1YlxgiJIo3j899VW2HimadDHPkHQ.png?1782399421",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115850330/original/j3Sy5ZScEcgU7c_WivU9TniBNZ6BRWPghg.png?1665624457",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091358060/original/CiCTs-L9uPYS65umyUCf0pYGPQH85AT71A.png?1618446268",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091358110/original/WNK-IOvfi56dt-FMGLs-6rZRX7LRQB9OVQ.png?1618446417",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091358957/original/Vp--94y_zuD_7Fx4YlR9Di-1Z5Qbxkbu9Q.png?1618448886",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091359006/original/b0S-CW3CWyPurbgYipf0zbVBtK5XPQzWSg.png?1618449112",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091359026/original/nQdo2GPJ738qm_Om_wm3JRCc1vhwnmdklg.png?1618449171",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180871886/original/4e3UdpTIVxQhvtK0CcYSMCd_tGF3jWUQVQ.png?1782216179",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181781959/original/dtdxAXOtQgBanlDmh4pNws5YPryPZifVRQ.png?1783620862",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12123565180/original/HkPqe9yNXR2akFmtLk2HIPX0e5mpj4nhJA.png?1680570133",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181794534/original/hoGsFH1ZUUYfISMYCcSnub-k59tpFCAa8w.png?1783634118",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181795150/original/wMXbx9bV8vxYfEmMSGalTmx16g_MGkTB1Q.png?1783635092",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Changing a Members Password' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000049987",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049987"
+    },
+    {
+      "text": "Content » Web Page Builder",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047120"
+    },
+    {
+      "text": "Settings » Advanced Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047895"
+    }
+  ],
+  "lastmod": "2026-07-10T04:09:31+05:30",
+  "scraped_at": "2026-10-18T13:43:52.974214"
+}

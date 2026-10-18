@@ -1,0 +1,23 @@
+{
+  "article_id": "12000098272",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098272-02-02-2024-software-updates",
+  "title": "02/02/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/02/2024 - Software Updates"
+  ],
+  "content": "## 02/02/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098272\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the member search modules on the frontend of sites that use Member Category dropdown fields to always show the placeholder text in sub and sub-sub category fields after the parent top or sub category has been selected. We also deprecated \"Recommend Sub-Level\" Advanced Setting as part of this update.\n\n- We fixed an issue which was preventing the URL Permalink column from showing the correct search results URL on the Edit Post Settings page in the Admin in some rare cases.\n\n- We fixed an issue which was preventing the \"Random Order\" option in the the \" Order Results By\" Post Type Setting from working properly when the \"Respect Membership Plan 'Search Priority'\" setting was not active in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue with the TikTok Website Footer icon link which was causing the system to display a member's TikTok link instead of the Website's Tiktok link on Post Details pages in some cases.\n\n- We updated the logic of the \"Profile Page Tab Order\" Post Type Setting in order include a \"Hide on Profile Pages\" option. Selecting this option will hide these posts from displaying on all member profile pages.\n\n- We fixed an issue with the Members API which was causing the system to add the whole member address in the \"address1\" filed when creating members.\n\n- We fixed an issue with the Recurring Events sort order logic which was preventing the system from respecting the \"Respect Membership Plan 'Search Priority'\" Post Type Setting when the \"Pin Featured Post\" Add-On was not active on the site.\n\n- We fixed an issue which was preventing the Froala WYSIWYG Image Caption feature from working properly for images inside a table element in some cases.\n\n- We fixed an issue which was preventing the Transaction Smart List \"export\" action from working properly in some cases.\n\n- We fixed an issue which was preventing custom variables from being sent to the Webhook Endpoint after submitting the \"Listing - Contact Details - Member\" form from the Member Dashboard.\n\n- We fixed some minor display issues when using the \"One-Click Google Login\" Add-On button on the frontend. Widget Involved: Bootstrap Theme - Account - Member Dashboard\n\n- We fixed an issue which was preventing the \"Include Service Areas\" checkbox from working properly after performing a location search from the Search Members page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098272",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098272"
+    }
+  ],
+  "lastmod": "2024-02-06T01:05:03+05:30",
+  "scraped_at": "2026-10-18T13:53:30.049161"
+}

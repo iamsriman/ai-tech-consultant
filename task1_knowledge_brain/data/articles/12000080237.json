@@ -1,0 +1,84 @@
+{
+  "article_id": "12000080237",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080237-getting-stripe-credentials-existing-account",
+  "title": "Getting Stripe Credentials - Existing Account",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Getting Stripe Credentials - Existing Account"
+  ],
+  "content": "## Getting Stripe Credentials - Existing Account\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080237\n\nIf the Stripe account has been created and the credentials need to be added to the admin, then follow the steps in this article.\n\nWhen the new Secret Key has been rolled out, go to the admin and navigate to Finance >> Payment Settings >> Stripe and paste the Publishable and Secret keys here:\n\n\n### Important Notes\n\n\n- The name that appears on a member's credit card statement can be edited on the Statement Descriptor section above. Must be between 5 - 22 characters, have at least one letter, and cannot contain the following characters: < > \\ ' \" *\n\n- When adding credentials for Stripe gateway, there will be additional validation on each key field as the valid credentials should be between 25 and 255 characters, and the key cannot include dots (ex: ....).\n\n- In the \"Secret or Restricted Key\" field, you can enter either a standard Secret Key (beginning with sk_) or a Restricted Key (beginning with rk_).\n\nThere are two types of API keys: Publishable and Secret.\n\n- Publishable API keys are meant solely to identify the account with Stripe, they aren’t secret.\n\n- Secret API keys should be kept confidential. The account’s secret API key can perform any API request to Stripe without restriction.\n\n\n## Create Stripe Account\n\n\nIf the Stripe account needs to be created for the first time, then follow the steps on this other article: Setting Up A New Stripe Account\n\n\n## Stripe Test and Live Modes\n\n\n- In test mode , payments are not processed by card networks or payment providers, and only Stripe test payment information can be used. Genuine card information cannot be used in test mode . Instead, use any of the following test card numbers, valid expiration date in the future, and any random CVC number, to create a successful payment. Stripe test cards can be found here: https://stripe.com/docs/testing Each basic test card’s billing country is set to the U.S. If need to create test card payments using cards for other billing countries, use the international test cards .\n\n- In Live mode , payments are processed by card networks and members can use real cards.\n\n\n## Obtaining the API Keys\n\n\nThe API keys are always available in the Dashboard .\n\nIn TEST mode, secret keys are always visible and you can just copy and paste them in the BD admin.\n\nIn order to copy a key, hover over it and click on \"Click to copy\"\n\nIn LIVE mode, new secret keys are only visible the first time the owner accesses them. After that, the Dashboard redacts the API key.\n\n\n### Roll Key\n\n\nIf the secret key is lost, it cannot be recovered from the Dashboard, so the owner must roll the key or create another one.\n\nIn order to roll a new key refer to the article down below:\n\nStripe Credentials - How To Roll Key\n\n\n## Setting up a Payment Gateway\n\n\nTo learn more about how to complete this process, use the following article for reference: Finance » Payment Settings - Setting Up A Payment Gateway",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160602311/original/K42G8Z0C_pSiO894w-FN4PeEL2wCpAkQqQ.png?1745946099",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Getting Stripe Credentials - Existing Account' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160602508/original/HYNqDi1aOGJqa6rgUwv8ew2N4HD2Ob59dA.png?1745946317",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Getting Stripe Credentials - Existing Account' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181962756/original/wZxt0_ZGl0KqllVAiNMiCTha2y_MEQu9EQ.png?1783970695",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Getting Stripe Credentials - Existing Account' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181962615/original/GU-G6Kaie99ky_Ssorshj07kbcV_XPlaFg.png?1783970578",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Getting Stripe Credentials - Existing Account' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080237",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080237"
+    },
+    {
+      "text": "Setting Up A New Stripe Account",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078856"
+    },
+    {
+      "text": "https://stripe.com/docs/testing",
+      "url": "https://stripe.com/docs/testing"
+    },
+    {
+      "text": "international test cards",
+      "url": "https://stripe.com/docs/testing#international-cards"
+    },
+    {
+      "text": "Dashboard",
+      "url": "https://dashboard.stripe.com/apikeys"
+    },
+    {
+      "text": "Stripe Credentials - How To Roll Key",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083229"
+    },
+    {
+      "text": "Finance » Payment Settings - Setting Up A Payment Gateway",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830"
+    }
+  ],
+  "lastmod": "2026-07-14T00:55:25+05:30",
+  "scraped_at": "2026-10-18T13:48:40.791469"
+}

@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108060",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108060-api-reference-tag-groups",
+  "title": "API Reference - Tag Groups",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Tag Groups"
+  ],
+  "content": "## API Reference - Tag Groups\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108060\n\n← Back to API Reference | Getting Started Tag Groups Tag Groups are containers that organize tags into named sets. Each tag belongs to a tag group, allowing administrators to create structured taxonomies for classifying members and other content. Model name in URL: tag_groups — DB table: tag_groups The Tag Group Object Field Type Description id integer Unique tag group ID (primary key, read-only) group_tag_name string The name of the tag group added_by integer User ID of the user who created this tag group updated_by integer User ID of the user who last updated this tag group created_at datetime Timestamp when this tag group was created updated_at datetime Timestamp when this tag group was last updated List Tag Group Records GET /api/v2/tag_groups/get Returns a paginated list of tag group records. Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/tag_groups/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"1\",\n      \"group_tag_name\": \"Custom Tags\",\n      \"added_by\": \"27\",\n      \"updated_by\": \"27\",\n      \"created_at\": \"2024-06-04 16:35:35\",\n      \"updated_at\": \"2024-06-04 16:35:35\"\n    },\n    {\n      \"id\": \"2\",\n      \"group_tag_name\": \"Specializations\",\n      \"added_by\": \"27\",\n      \"updated_by\": \"27\",\n      \"created_at\": \"2024-06-04 18:28:22\",\n      \"updated_at\": \"2024-06-04 18:28:22\"\n    }\n  ],\n  \"total\": \"2\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Retrieve a Tag Group Record GET /api/v2/tag_groups/get/{id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/tag_groups/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"1\",\n      \"group_tag_name\": \"Custom Tags\",\n      \"added_by\": \"27\",\n      \"updated_by\": \"27\",\n      \"created_at\": \"2024-06-04 16:35:35\",\n      \"updated_at\": \"2024-06-04 16:35:35\"\n    }\n  ],\n  \"total\": \"2\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Tag Group Record POST /api/v2/tag_groups/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/tag_groups/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"group_tag_name=Certifications\" \\\n  -d \"added_by=1\" \\\n  -d \"updated_by=1\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"3\",\n    \"group_tag_name\": \"Certifications\",\n    \"added_by\": \"1\",\n    \"updated_by\": \"1\",\n    \"created_at\": null,\n    \"updated_at\": null\n  }\n} Update a Tag Group Record PUT /api/v2/tag_groups/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/tag_groups/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=3\" \\\n  -d \"group_tag_name=Professional+Certifications\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"3\",\n    \"group_tag_name\": \"Professional Certifications\",\n    \"added_by\": \"1\",\n    \"updated_by\": \"1\",\n    \"created_at\": \"0000-00-00 00:00:00\",\n    \"updated_at\": \"0000-00-00 00:00:00\"\n  }\n} Delete a Tag Group Record DELETE /api/v2/tag_groups/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/tag_groups/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=3\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"tag_groups record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108060",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108060"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:28+05:30",
+  "scraped_at": "2026-10-18T13:57:39.280428"
+}

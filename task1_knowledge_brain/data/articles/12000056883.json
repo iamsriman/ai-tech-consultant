@@ -1,0 +1,39 @@
+{
+  "article_id": "12000056883",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056883-04-26-19-software-updates",
+  "title": "04/26/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/26/19 - Software Updates"
+  ],
+  "content": "## 04/26/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000056883\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the look of the \"View my CV\" button on member profiles pages.\n\n- We updated the Sidebar Manager page in the Admin to exclude homepage widgets that do not work properly in sidebars from the list of available widgets.\n\n- The title tags of the available buttons on the Profile Photo and Logo page in the Member Dashboard can now be edited via Text Labels. New Labels: photo_zoom_in, photo_zoom_out, photo_move_left, photo_move_right, photo_move_up, photo_move_down, photo_rotate_left, photo_rotate_right, photo_flip_vertical, photo_flip_horizontal, photo_crop. Widget Involved; Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was preventing replies to reviews from being saved when the reply was longer that 512 characters.\n\n- We updated the version of the Event Search Date picker script to better support mobile devices. Widgets Involved: Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Module - Event Search\n\n- We updated the Manage Products page in the Admin in to replace the \"Sign Up Page\" button with the message \"Sign Ups Disabled\" when a Product has the \"Disable Signups For This Product\" setting enabled.\n\n- We added a filter field to the Edit Post Settings page in the Admin.\n\n- We refactored the Reviews feature search to be controlled by a widget called \"Search - Reviews - Search Query\". Also, we created a new Reviews Filter Search Module. In order to use this new Reviews Filter Search Module, navigate to the Admin >> Content >> Edit Post Settings >> Reviews >> Search Results Tab >> Sidebar Search Module. Widgets Involved: Bootstrap Theme - Admin - Sidebar Search Module Setting Dropdown Search - Reviews - Search Query\n\n- We fixed an issue which was preventing the Private Member Chat Add-On from showing the correct Sender information on the My Chat Messages page in the Member Dashboard in some cases.\n\n- The Website Activity Log in the Admin now tracks when a Form is Enabled, Disabled or Deleted.\n\n- We fixed an issue which was preventing members from downloading an Invoice when the Downloadable PDF Invoices Add-On is active on a Site.\n\n- We improved the Admin Usernames validation to insure Admin Usernames are a valid email address format.\n\n- We are no longer displaying the Breadcrumbs field when a Site Admin is editing a Static Web Page in the Admin.\n\n- We added integrations with ShareaSale and PostAffiliatePro.  These can be integrated on a site by entering the corresponding information in the General Settings >> Integrations tab in the Admin.\n\n- We released the Filter By Star Rating Add-On. Click here for more information. Widget Involved: Search - Member - Search Query\n\n- We added the ability to export Contacts as a CSV file. In order to use this new feature, navigates to the Admin >> Emails >> View Contacts.\n\n- We added the ability to control how many results will display per row in Recent Homepage Widgets. In order to use this feature, navigate to the Admin >> Settings >> Design Settings >> Homepage Layout tab >> Homepage Section Order Options. Widgets Involved: Bootstrap Theme - Display - Homepage Featured Members Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Videos Bootstrap Theme - Display - Sub Level Categories Bootstrap Theme - Display - Top Categories",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000056883",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056883"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/filter-by-star-rating-add-on"
+    },
+    {
+      "text": "",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/1131/bd-streaming-widget-extra-display-settings/diff#chg-Bootstrap%20Theme%20-%20Display%20-%20Recent%20Coupons%20%28ID%201250%29/html.php"
+    },
+    {
+      "text": "",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/1131/bd-streaming-widget-extra-display-settings/diff#chg-Bootstrap%20Theme%20-%20Display%20-%20Recent%20Coupons%20%28ID%201250%29/html.php"
+    },
+    {
+      "text": "",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/1131/bd-streaming-widget-extra-display-settings/diff#chg-Bootstrap%20Theme%20-%20Display%20-%20Recent%20Products%20%28ID%201249%29/html.php"
+    }
+  ],
+  "lastmod": "2019-04-27T03:50:52+05:30",
+  "scraped_at": "2026-10-18T13:44:49.681458"
+}

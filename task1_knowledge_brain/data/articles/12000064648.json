@@ -1,0 +1,23 @@
+{
+  "article_id": "12000064648",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064648-11-08-19-software-updates",
+  "title": "11/08/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/08/19 - Software Updates"
+  ],
+  "content": "## 11/08/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000064648\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the design of the \"Install New Updates\" module on the Admin Dashboard page.\n\n- We fixed an issue when performing a reviews search on the Member Details page in the Admin, the system was returning all of the member reviews from the site instead of just the reviews for the member being viewed.\n\n- We updated the logic of how the system creates the URL of a new post created by a member.  Now the post URL will only include the name of post, rather than always including the ID of the post as well.  However, if the system detects that the new post will have the same URL as an existing post, it will include the post ID at the end of the URL in order to make it unique.\n\n- The \"Members-Only\" badge will now display next to the Listing Post Type on the \"Edit Post Setting\"s page in the Admin if it is set to be members-only.\n\n- The Google Maps Search Results Add-On is now fully compatible with Text Labels. Widget Involved: Bootstrap Theme - Search Results Map\n\n- We fixed an issue which was preventing the \"Enable Form Spam Security\" installer from showing as complete after clicking on the \"Install\" button in the  \"Install New Updates\" module on the Admin Dashboard in some cases.\n\n- We updated the design of the \"Featured Blog Article Slider\" Add-On in order to optimize its display on mobile devices. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was preventing members from adding a Service Area that included an apostrophe in the location's name when using the \"Multi-Location Listings\" Add-On. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We updated the \"Reset Default Values\" button on the Image Settings page in the Admin in order to make it consistent with the Bootstrap Framework.\n\n- We updated the Stripe payment gateway integration to include more descriptive metadata information sent with every payment intent created by the system.  The Member Name, Member ID, Member Email, Action URL, Website URL and Invoice ID are all included with each payment intent to better track the website's activity and more easily troubleshoot any issues that appear.\n\n- We updated the \"Close My Account\" feature in the Member Dashboard in order to make it compatible with Text Labels. Widget Involved: Bootstrap Theme - Account - Delete Account",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000064648",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064648"
+    }
+  ],
+  "lastmod": "2019-11-12T01:08:21+05:30",
+  "scraped_at": "2026-10-18T13:45:42.882033"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000080515",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080515-07-02-21-software-updates",
+  "title": "07/02/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/02/21 - Software Updates"
+  ],
+  "content": "## 07/02/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080515\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Recent Members homepage widget from displaying the member Sub Categories in some cases.\n\n- We fixed an issue which was causing member profile page tabs to display erroneous data in some cases. Widget Involved: Bootstrap Theme - Member Profile - Member Tabs Bootstrap Theme - Member Profile - Member Tabs lazyLoad\n\n- We fixed an issue which was preventing the Sitemap Generator logic from respecting the \"Apply NoIndex, NoFollow\" page setting causing the system to include URLs that should not be included in the sitemap.\n\n- We fixed an issue which was preventing the system from pre-filling the Sub Sub Category dropdown field in sidebar search modules after performing a search. Widget Involved: Bootstrap Theme - Search Module - Top_Sub_Sub-Sub_Location\n\n- We fixed an issue which was preventing the system from generating an appropriate URL for posts when a member saves a post without a title in some cases.\n\n- We optimized several SQL queries commonly used when loading pages on the frontend of a site to improve page load times.\n\n- We fixed an issue with the default /locations page causing the system to not respect the proper sort order of locations in some cases. Widget Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- We fixed an issue which was preventing the system from displaying the Vimeo video thumbnail in some cases. Post Type Involved: Video\n\n- We fixed an issue with the Post Meta Details widget which was causing the system to display data from the post it should not in some cases. Widget Involved: Bootstrap Theme - Module - Post Meta Details v2.0\n\n- We implemented an updated in order to display the label text instead of the database variable when displaying data from dropdown <select> and checkbox fields powered by the Form Manager.\n\n- We fixed an issue which was preventing the system from exporting checkbox field data when trying to export the content from the Forms Inbox page in the Admin.\n\n- We fixed an issue which was affecting the ability to add sub-menus to menus on the Menu Manager page in the Admin in some cases.\n\n- We fixed an issue which was preventing the system from correctly matching leads to members when using member categories as part of the match criteria in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue with the Digital Products purchase logic which was causing the system to get stuck when trying to add a credit card during the purchase process in some cases. Widget Involved: Bootstrap Theme - Member Login Page",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080515",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080515"
+    }
+  ],
+  "lastmod": "2021-07-04T23:13:34+05:30",
+  "scraped_at": "2026-10-18T13:48:45.625749"
+}

@@ -1,0 +1,87 @@
+{
+  "article_id": "12000059947",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059947-how-to-search-for-verified-members-in-the-database",
+  "title": "How To Search For Verified Members In The Database",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How To Search For Verified Members In The Database"
+  ],
+  "content": "## How To Search For Verified Members In The Database\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059947\n\nVerified members can be identified directly within the website's database using the is_verified field.\n\n\n## Viewing the Verification Status\n\n\nTo see whether members have been verified, open Quick Edit for any Member:\n\n\n## Searching for Verified Members\n\n\nTo search for verified members directly in the database, go to:\n\nDeveloper Hub → MySQL Database\n\nClick on the database that ends with wording \" directory \":\n\nOpen the users table.\n\nClick on SQL :\n\nPaste the specified SQL code and click Go :\n\nThis is the SQL code needed to run:\n\n```\nSELECT * FROM `users_data` WHERE verified > 0;\n```\n\nWhich will display members that are verified on your site:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181111269/original/XBZfYeKuBbFrusExh0HIS4zEXANHtq_Jjg.png?1782514245",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Verified Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181111275/original/iLYZScgTjkc6WgrBWuCOX5Lw906TJl8oiA.png?1782514290",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Verified Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054483633/original/Qo-tp4PE72tVAqJVKA0caSFGscMCyujUwA.png?1564496078",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Verified Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054483678/original/bMdCWNPY-q-jtwXsVG6l12ERKc0zjVWQTg.png?1564496102",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Verified Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054483707/original/ZRD4t_G-fPAE22aQh27adsQ1T9nW6ZhBxQ.png?1564496123",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Verified Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054483719/original/86eTBlUjivvZmCfsRAH1tRQHZgwFkEtRuQ.png?1564496142",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Verified Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12054483778/original/NdEMDeHq3h-WF4ps7SF5qstTrp5AluTLBA.png?1564496199",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Search For Verified Members In The Database' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059947",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059947"
+    }
+  ],
+  "lastmod": "2026-06-27T04:23:45+05:30",
+  "scraped_at": "2026-10-18T13:45:20.729237"
+}

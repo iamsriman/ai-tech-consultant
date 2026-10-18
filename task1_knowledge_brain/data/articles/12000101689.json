@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101689",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101689-09-27-2024-software-updates",
+  "title": "09/27/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/27/2024 - Software Updates"
+  ],
+  "content": "## 09/27/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101689\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the \"Delete Unused Image\" tool in the Admin Dashboard to identify and delete the member and post images that are not currently used on the website.\n\n- The Digital Products Post Type Search Result page is now compatible with the \"Photo Gallery Previewer Add-On\". Post Type Involved: Digital Product\n\n- We implemented an update to remove the \"%EF%BB%BF\" character (Byte Order Mark for UTF-8 files) which is sometimes added to the first category name in the import file when importing categories via CSV in the Admin.\n\n- We fixed an issue with the Send Newsletter feature which was preventing the system from updating the status of a campaign to \"Sent\" after the campaign was completed in some cases.\n\n- Member Sub Category search results pages are now compatible with the Google Search Assist Add-On.\n\n- We updated the Video Post Type Form to allow the ability to manually upload thumbnail images for videos. Form Involved: Feature - Videos\n\n- We fixed an issue which was preventing the Chinese Traditional language from working properly in 3rd Party tools like Google Maps and the Froala WYSIWYG. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the Featured Blog Article Slider Add-On to add a space between the title and the content when displaying the data. Widget Involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider\n\n- We updated the frontend of the websites to make it compatible with the \"Text Direction\" Advanced Setting. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We implemented an update to delete any pending subscriptions if the process of purchasing a Digital Product with a recurring subscription fails to be completed.\n\n- We updated the Brilliant Directories Zapier App and API to allow assigning member credits to members using the \"Update\" member action.\n\n- We added the ability to add member credits to member through the bulk actions on the Search Members page in the Admin.\n\n- We made several small bug fixes and a performance update to increase the speed of importing members using the Business Data tool in the Admin.\n\n- We fixed an issue which was preventing the system from respecting the \"Credits to Add After Initial Purchase\" Digital Product Setting when trying to purchase a Digital Product in some cases.\n\n- We fixed an issue that was preventing the system from respecting the \"What Can This Code Be Used For?\" Coupon Code setting on checkout pages in some cases. Widget Involved: Bootstrap Theme - Function - Form Promotion Code Validation",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101689",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101689"
+    }
+  ],
+  "lastmod": "2024-10-01T02:03:31+05:30",
+  "scraped_at": "2026-10-18T13:55:03.205622"
+}

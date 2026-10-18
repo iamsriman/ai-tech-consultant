@@ -1,0 +1,109 @@
+{
+  "article_id": "12000051955",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051955-manual-billing-management-accept-cash-bank-transfers-or-unsupported-payment-gateways",
+  "title": "Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways"
+  ],
+  "content": "## Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000051955\n\nSome site owners prefer to receive member payments directly through checks, bank transfers, or other offline payment methods. Other site owners want to use a third-party payment gateway and track these payments in the admin.\n\nThis article explains how to create invoices manually and record offline payments in the BD Admin.\n\nFollow the steps below:\n\n1. Log in to the Admin area and navigate to Members » Search Members:\n\n2. Locate the member for whom the subscription will be created and click Actions » Payment History:\n\n3. At the top-right corner of the screen, click New Order :\n\n4. On the left side, configure the following settings:\n\nMembership Plan: Select the membership plan this member will be under.\n\nBilling Cycle: Monthly, Semi-Yearly, and Yearly (depending on the chosen membership plan configuration).\n\nPrice Override: Add a different amount if offered a special discount. If the amount does not need to be modified, leave this option blank.\n\nStart Billing On: If the subscription needs to start in the future, then select the new date here.\n\n5. Verify that the selected information appears on the right side.\n\nWhen everything has been set up correctly, click \"Create Order\" button and wait less than 10 seconds.\n\n6. The page will load automatically and this message will appear:\n\n7. Since the member doesn't have a credit card on file, the system will mark the invoice as \"Unpaid\".\n\nIn order to mark it as paid, go to the \"Past Due\" tab and click  Actions » Mark as Paid:\n\n8. The system displays a confirmation pop-up asking to continue, click \"Yes, Continue\":\n\n9.  The system then asks whether to generate the next invoice for the subscription.\n\nIMPORTANT NOTE:\n\n- The recommended option is 'No, Cancel '.\n\nWhy? Because when clicking NO, the system won't generate the invoice now, it will generate it 14 days before the next due date (This is the regular invoices generation procedure).\n\n- When clicking \"Yes, continue\" it will generate the next invoice immediately.\n\nSo if today is 11/29/2020 and the next invoice should be paid on 11/29/2021 (a year later ) that unpaid invoice will appear in the \"Upcoming Payments\" section of the Transaction History for a whole year and this might be confusing for the owner of the site, especially when there are a lot of upcoming payments.\n\nIn summary, selecting No preserves the normal billing scheduler and it will be easier for the admin to handle the next payments.\n\n10.  Regardless of choosing \"Yes or No\" in the step above, the system will mark the invoice as \"Paid\":\n\nTo learn how to cancel/stop orders (Subscriptions) read this article: How Do I Cancel Payment Subscriptions - Orders",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181400074/original/yE9vtRAwMGw7of_kI4DuZ62-xrnnvqAoww.png?1783007554",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092391863/original/SfSGRk7NifZzo54oMgVWlDiIhnrfKQvNdw.png?1620603258",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392379/original/uwG2gsPKC75mFLALUCigI1sFwNYFydu4Cg.png?1620605242",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092391886/original/RXT3SUEwnH9IKIMmZTZjMHbS-bEudQLSHw.png?1620603382",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092391911/original/PgBdA6ajBHAf0iVSleYKyUtZao7LI1kT2w.png?1620603431",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392121/original/_TyoiSSvMivHXEuI6nznQ0VefYxSVjrMbA.png?1620604427",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392146/original/UNNKt0Wtj174dzOy8Wq7tzNWLgZRGyQ2qA.png?1620604469",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392207/original/Lh0hcRzmveVZgJclBrUqE8ljqgyfQsWj1w.png?1620604590",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392214/original/_VP1N3AvNVxa_ANYPFV3L_8ZucvRUb3jsQ.png?1620604654",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manual Billing Management - Accept Cash, Bank Transfers, or Unsupported Payment Gateways' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000051955",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051955"
+    },
+    {
+      "text": "How Do I Cancel Payment Subscriptions - Orders",
+      "url": "https://support.brilliantdirectories.com/solution/articles/5000567728"
+    }
+  ],
+  "lastmod": "2026-07-02T21:34:01+05:30",
+  "scraped_at": "2026-10-18T13:44:11.308029"
+}

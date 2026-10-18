@@ -1,0 +1,102 @@
+{
+  "article_id": "12000044521",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044521-google-website-translator",
+  "title": "Google Website Translator",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Google Website Translator"
+  ],
+  "content": "## Google Website Translator\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000044521\n\n\n## Overview\n\n\nGrowing and managing an international directory or membership website can be challenging… especially if the members and users speak different languages.\n\nThe Google Website Translator add-on will add a drop-down menu to the website, allowing users to select their language. Once selected, Google Translate will be used to translate the front-end of the website to the user’s selected language.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Google Website Translator Add-On\n```\n\n\n## Enabling the Add-On\n\n\n1. Settings » Design Settings » General » Header Design:\n\nThis tool will appear in the header:\n\nTo revert the site back to the original language, use the \" Show Original \" button that appears at the top of the web page:\n\n** Google Translate won't show the default website language as an option in the drop-down because technically, there is no need to translate it since that's the main language of the website. **\n\n\n## Additional Functionality\n\n\nThe admin will be able to change the wording that displays instead of the usual \"Select Language\" by editing the text label select_language_option_google_translate :\n\nBy default it will be blank making the \"Select Language\" appear, once the new text is added it will replace it:\n\nWith this add-on it is also possible to limit the languages available that can be translated. To do this, follow the steps below.\n\n1. Go to Settings » Advanced Settings, search for:\n\n» translate_languages\n\nEdit the languages here -\n\nSee the list of the languages using the link below:\n\nhttps://cloud.google.com/translate/docs/languages",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094237130/original/EwOHRdMc86WOblc0-P7rnGcaDKG-N2VyCg.png?1623969392",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Website Translator' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12083729739/original/uJcLBWS5TvlMZ1zYtmjrplolwHaFVlywcw.png?1602852686",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Website Translator' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12083729762/original/Xg0pOmLwotNYt_P8WjNVJ_mZj2N4e-2nUA.png?1602852710",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Website Translator' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12083729823/original/mJIxGMqAun99mUXdoA5zWsk3Z2_4M9YcJQ.png?1602852778",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Website Translator' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095063049/original/v9Gia3zfaSWVFdzQOfO8OFAINI9BP2Evhw.png?1625513490",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Website Translator' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095063208/original/4vxxP4UxQFTGYFpW1ivHshYn1QNm_VIwVA.png?1625513967",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Website Translator' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095130784/original/5RnuOV9xtKTfuZTqPk-HkaVmkFxtEdiWYA.png?1625622206",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Website Translator' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000044521",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044521"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Google Website Translator Add-On",
+      "url": "https://www.brilliantdirectories.com/google-website-translator-add-on"
+    },
+    {
+      "text": "https://cloud.google.com/translate/docs/languages",
+      "url": "https://cloud.google.com/translate/docs/languages"
+    }
+  ],
+  "lastmod": "2026-08-28T22:03:07+05:30",
+  "scraped_at": "2026-10-18T13:42:39.478472"
+}

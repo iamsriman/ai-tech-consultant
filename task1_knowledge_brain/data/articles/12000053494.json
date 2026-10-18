@@ -1,0 +1,23 @@
+{
+  "article_id": "12000053494",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053494-01-18-19-software-updates",
+  "title": "01/18/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/18/19 - Software Updates"
+  ],
+  "content": "## 01/18/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000053494\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing a member from upgrading their membership in some cases.\n\n- We implemented a Security Update so Admins can no longer edit the username of their account, but can still create a new one if necessary.\n\n- Members can now see their Product Level in the sidebar of the member dashboard when they are logged into their account. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We deprecated the \"Email Login Info\" link from the Admin Accounts page in the Admin Area as all Admin Accounts have encrypted information that cannot be emailed.\n\n- We added back the \"Ok\" button that displays in the popup after saving the Member Categories page in the Admin Area.\n\n- All text in the Member Review form is now fully based on Text Labels.\n\n- We updated the \"Compose Email\" validation page in order to support modern domain gTLDs.\n\n- The text of the \"Search\" button in the Header Search module is now a Text Label. Widget Involved: Bootstrap Theme - Header - Right\n\n- We updated the UI of the Match Lead Details page in the Admin Area.\n\n- We removed the Breadcrumbs, Sidebar and full width settings from the Homepage Edit page in the Admin Area as they are not used for the Homepage.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000053494",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053494"
+    }
+  ],
+  "lastmod": "2019-03-09T01:13:07+05:30",
+  "scraped_at": "2026-10-18T13:44:25.723060"
+}

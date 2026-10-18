@@ -1,0 +1,125 @@
+{
+  "article_id": "12000087597",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087597-why-is-google-not-indexing-my-site-pages-",
+  "title": "Why is Google not indexing my Site / Pages?",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "Why is Google not indexing my Site / Pages?"
+  ],
+  "content": "## Why is Google not indexing my Site / Pages?\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087597\n\n\n## Google's Indexing Algorithm\n\n\nGoogle uses algorithms to analyze each page of a website to determine if it meets its own proprietary standards for being included in its index.  While tools can be used to force Google to analyze a page, unfortunately there is no way to force Google to include a specific page in its index.\n\nGoogle takes into consideration several factors when determining if a page will be included in its index or not:\n\n- The page cannot be subject to any manual actions or legal issues.\n\n- The page cannot be a duplicate of another indexed page; it must either be unique, or selected as the canonical version of a set of similar pages.\n\n- The page quality must be high enough to warrant indexing.\n\nGoogle provides information about how to make sure URLs on a website can be found by Google:\n\nIn-depth guide to how Google Search works\n\nThe Brilliant Directories software has tools available to make pages discoverable and indexable by Google.  However, even when a website owner leverages these tools to take a proactive approach to making the URLs of their site discoverable by Google, their documentation also mentions that \"While these approaches help Google find the URLs on the site, it doesn't guarantee that the content will be indexed and served in Search results.\"\n\nThis can be due to a number of factors that their algorithm takes into account, including content not being unique (the information can also be found elsewhere online) or robust enough (according to Google's algorithm) to be included in their index.\n\n\n## Ensuring a Page is Discoverable & Indexed\n\n\nUnfortunately, no website owner can control which website pages Google chooses to include in its index. However, a website owner can make sure the page exists, is discoverable, and is available to be indexed (the page has the correct meta tags, the page loads correctly, the robots.txt file allows the page to be crawled, etc).\n\nIf a page was recently created or the sitemap was recently submitted with a new page, it can take time for Google to index the page.  Please allow at least a week after submitting a sitemap or individual page index request before assuming there is an issue that must be addressed. If the page or site change is recent, check back in a week or two to see if it is still missing.\n\nIf the Sitemap or an individual page index request was submitted to Google several weeks ago and some pages are not being indexed, the URL Inspection tool in the Google Search Console can be used to check if there is a technical issue preventing it from being indexed, or if Google has simply chosen not to index the page. When using this tool, does Google show that there is a technical problem preventing it from being indexed (something we can look into and fix on our end), or just that it is not currently indexed (which is at Google's discretion and we have no control over)?\n\nIf there is a technical problem, please create a new ticket by clicking here and add the screenshot of the error Google is showing, so our development team can take a look.\n\nIf there isn't an error but Google is not indexing the page / site, please continue with the steps below.\n\n\n### Step 1. Verify that the page or site is missing\n\n\nIt sounds obvious, but first, verify that the page or site is actually missing from Google's index. Many people assume that they are not on Google, when in fact their page simply appears very low in Search results.\n\nTo verify the page/site presence on Google:\n\n- Turn off safe search , which might be filtering the results.\n\n- Search Google for the site or page: - For a missing site: Do a site search with the syntax site:your_domain_name Examples: site:example.com or site:example.com/petstore - For a missing page : Search Google for the full URL of the page.\n\n- If there are results , then the site or page is in the index: - For a site : It is possible that not every page on the site is indexed, but the site itself is in our index. Consider adding a sitemap to help Google discover all the pages on the site. - For a page : If a page is in the index, but not performing as well as it should, check our webmaster guidelines for tips on improving search performance. If the page has suffered a recent ranking drop, there is some troubleshooting needed. If there are multiple versions of a page (for example a mobile and a desktop version, or two URLs that point to the same page), Google will consider one to be canonical (authoritative) and all others to be duplicates, and Search results will point only to the canonical page. The URL Inspection tool can be used on a page to see if it is considered a duplicate.\n\n- If the site or page cannot be found in search results, please go to Step 2: Fix the problem.\n\n\n### Step 2. Fix the problem\n\n\nPlease make sure a Search Console account was created before following the steps below because it is much easier to diagnose indexing problems using Search Console.\n\nWas the website bought or inherited from someone else? It's possible that the site has existing manual actions filed against it. The history pages in the Manual Actions report and Security Issues report will show any outstanding actions filed against it.\n\n- If the site or page is new , it might not be in our index because we haven't had a chance to crawl or index it yet. It takes some time after a new page is posted before Google crawls it, and more time after that to index it. The total time can be anywhere from a day or two to a few weeks, typically, depending on many factors. Learn how Google crawls the web.\n\n- If recently restructured the site , or moved to a new domain or to https, pages that previously performed well may now rank poorly if mistakes were made when executing the move. To fix: Use 301 redirects (\"RedirectPermanent\") to redirect users, Googlebot, and other crawlers. (In Apache, it can be done with an .htaccess file) If the site was recently moved to https, check for the presence of both http and https URLs in Google. Read more about how to move the site with minimal effect on Search results.\n\n- Check to see if any manual actions have been applied to the page . Manual actions will lower the page ranking or remove it entirely from Search results. The Manual Actions report should provide guidance on how to fix the manual action. For legal removals, learn more about legal removal requests and removal policies .\n\n- Check to see if any security issues have been reported on the site . Security issues can lower the page ranking, or display a warning in the browser or in search results. The Security Issues report should provide guidance on how to fix the manual action.\n\n- Inspect the page using the URL Inspection Tool : OPTION 1: If the report says that the page has not been indexed Here are the most common reasons: 1. The page is being blocked with a robots.txt file, a noindex directive, or some other mechanism, such as password protection. In any case, use the appropriate means to unblock it. 2. If the report describes other technical issues, read the documentation to learn why else the page might be blocked. 3. If there are no errors, and the page is not blocked to Google, there might be a problem with findability. Request indexing of the page using the URL Inspection tool. 4. Request indexing of the page using the URL Inspection tool. OPTION 2: If the report says that the page has been indexed 1. Check whether someone successfully requested that the site or URL be removed from the index. Open the URL removal tool to look for approved requests of URL or site removal. If so, the request can be revoked. 2. The page may have been dropped or omitted from the index for totally innocuous reasons. (The web is immense, and Google doesn't get to every page, though we try to!) Ask Google to recrawl the page . 3. Still having problems? Visit the Webmaster Forum and explain the problem (please be sure to describe the issue completely, and include links to the site).",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110882861/original/6R-n0T91aJw6udHL-u-ZK5FoZ2KmlVpagA.png?1656347220",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Why is Google not indexing my Site / Pages?' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087597",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087597"
+    },
+    {
+      "text": "In-depth guide to how Google Search works",
+      "url": "https://developers.google.com/search/docs/beginner/intro-indexing"
+    },
+    {
+      "text": "Sitemap",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682659"
+    },
+    {
+      "text": "URL Inspection tool",
+      "url": "https://support.google.com/webmasters/answer/9012289?hl=en"
+    },
+    {
+      "text": "new ticket by clicking here",
+      "url": "https://bootstrap.brilliantdirectories.com/a/tickets/new"
+    },
+    {
+      "text": "Turn off safe search",
+      "url": "https://support.google.com/websearch/answer/510"
+    },
+    {
+      "text": "site search",
+      "url": "https://support.google.com/websearch/answer/2466433"
+    },
+    {
+      "text": "URL Inspection tool",
+      "url": "https://support.google.com/webmasters/answer/9012289"
+    },
+    {
+      "text": "a Search Console account",
+      "url": "https://support.google.com/webmasters/answer/34397"
+    },
+    {
+      "text": "",
+      "url": "https://support.google.com/webmasters/answer/34397"
+    },
+    {
+      "text": "",
+      "url": "https://support.google.com/webmasters/answer/34397"
+    },
+    {
+      "text": "Manual Actions report",
+      "url": "https://support.google.com/webmasters/answer/9044175"
+    },
+    {
+      "text": "Security Issues report",
+      "url": "https://support.google.com/webmasters/answer/9044101"
+    },
+    {
+      "text": "Learn how Google crawls the web.",
+      "url": "https://developers.google.com/search/docs/advanced/guidelines/how-search-works?visit_id=637902204912818807-1176198697&rd=1"
+    },
+    {
+      "text": "Read more about how to move the site with minimal effect on Search results.",
+      "url": "https://developers.google.com/search/docs/advanced/crawling/what-is-site-move?visit_id=637902204912818807-1176198697&rd=1"
+    },
+    {
+      "text": "Check to see if any manual actions have been applied to the page",
+      "url": "https://search.google.com/search-console/manual-actions"
+    },
+    {
+      "text": "learn more about legal removal requests",
+      "url": "https://support.google.com/legal/answer/3110420"
+    },
+    {
+      "text": "removal policies",
+      "url": "https://support.google.com/websearch/answer/3143948?visit_id=637902204912818807-1176198697&rd=1"
+    },
+    {
+      "text": "Check to see if any security issues have been reported on the site",
+      "url": "https://search.google.com/search-console/security-issues"
+    },
+    {
+      "text": "URL Inspection Tool",
+      "url": "https://support.google.com/webmasters/answer/9012289"
+    },
+    {
+      "text": "Request indexing of the page using the URL Inspection tool.",
+      "url": "https://developers.google.com/search/docs/advanced/crawling/ask-google-to-recrawl?visit_id=637902204912818807-1176198697&rd=1#url_inspection"
+    },
+    {
+      "text": "URL removal tool",
+      "url": "https://www.google.com/webmasters/tools/url-removal"
+    },
+    {
+      "text": "Ask Google to recrawl the page",
+      "url": "https://developers.google.com/search/docs/advanced/crawling/ask-google-to-recrawl?visit_id=637902204912818807-1176198697&rd=1"
+    },
+    {
+      "text": "Visit the Webmaster Forum",
+      "url": "https://support.google.com/webmasters/community/?hl=en&gpf=%23!forum%2Fwebmasters"
+    }
+  ],
+  "lastmod": "2026-06-25T16:28:13+05:30",
+  "scraped_at": "2026-10-18T13:49:53.483037"
+}

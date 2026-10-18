@@ -1,0 +1,113 @@
+{
+  "article_id": "12000105678",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105678-how-to-create-a-custom-webhook",
+  "title": "How To Create A Custom Webhook",
+  "category": "Developer Hub",
+  "folder": "Webhooks",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Webhooks",
+    "How To Create A Custom Webhook"
+  ],
+  "content": "## How To Create A Custom Webhook\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105678\n\nA custom webhook sends the data of one specific form, or one specific Smart List, to its own Webhook Link. Use one for a custom form, a customized copy of a default form, a post type form, or a single Smart List.\n\n\n## Creating a Custom Webhook\n\n\n- Go to Developer Hub and click Manage Webhooks .\n\n- Click New Webhook . The New Webhook drawer opens.\n\n- Under Connect to , choose Form or Smart List .\n\n- Open the Form (or Smart List ) list and pick the one that should send its data. Type in the Filter box at the top of the list to narrow it down.\n\n- Check the Webhook nickname . It fills in with the form or Smart List name and can be changed.\n\n- Optionally, add an Internal description as a reminder of what the webhook is for.\n\n- Click Save . The page reloads and the new webhook is listed under Custom Webhooks .\n\n- Switch the new webhook on, paste the endpoint address into its Webhook Link , and click Save in the Unsaved changes bar at the top of the page.\n\n- Connect to : Form or Smart List .\n\n- The list of forms (or Smart Lists), in A-Z order, with the form's internal name beside each title. Each form appears once; when the website has its own customized copy of a form, that copy is the one listed.\n\n- A form already connected to a custom webhook is greyed out and marked Used by with that webhook's nickname. Each form or Smart List can have one custom webhook.\n\n- Cancel and Save . If anything was changed, Cancel asks before discarding it.\n\n- Connect to : Form or Smart List.\n\n- Form : the form whose submissions are sent. A form sends its data each time it is submitted; a Smart List sends its records when Sync Webhook Now is clicked or its schedule runs.\n\n- Webhook nickname : the name shown on the Webhooks page. It is required.\n\n- Internal description : an optional note, shown under the nickname on the Webhooks page.\n\n- Save adds the webhook (or saves the changes when editing).\n\nIf no form or Smart List is chosen, or the nickname is empty, the drawer shows the problem under the field and does not save.\n\nTo test the webhook, enter a Webhook Link and submit the form, if a form was selected, or sync the Smart List, if a Smart List was selected. For Smart List webhooks and how to connect them see: How To Create Smart List Webhooks\n\n\n## Editing or Deleting a Custom Webhook\n\n\n- Custom webhooks are listed under Custom Webhooks , in a Forms or a Smart Lists section. Each row has the same switch, Webhook Link and copy button as the default webhooks.\n\n- The menu button (three dots) beside the switch.\n\n- Edit opens the drawer to change the form, nickname or description. Delete Webhook removes the webhook.\n\nDeleting asks for confirmation. Once deleted, the form's data stops going to the Webhook Link, and this cannot be undone.\n\nSave or discard any unsaved changes to Webhook Links before adding, editing or deleting a custom webhook: these actions reload the page, so the page asks for the changes to be saved first.\n\nIf the form or Smart List a custom webhook was connected to no longer exists, the row is marked Form Not Available or Smart List Not Available .\n\n\n## Custom Webhooks for Post Types\n\n\nThe default webhooks Standard Post Saved and Photo Album Post Saved send the data of every Single Image and Multi-Image post type. To send one post type to a different link, create a custom webhook for that post type's form (EG Feature - Blog Articles ). That post type then uses the custom webhook, and the other post types keep using the default webhook for their type.\n\n\n### Activity Tracker:\n\n\nLogs of the Webhook actions and the information sent can be seen in the Activity Tracker (Dashboard » Activity Tracker), where each one is listed with the Type Webhook.\n\nWhen a webhook is triggered, this is the information logged in the Activity Tracker: its status, Webhook Link, where it was triggered from and the time (1), and the data sent in the Body (2). This example is a custom Smart List webhook run with Sync Webhook Now:\n\nWhen a Smart List webhook is triggered, only the first record sent to the webhook endpoint with a confirmation message that the webhook data was correctly sent is logged.\n\n\n### Multi-Value Fields(Checkboxes, Dropdowns, Radial Buttons)\n\n\nAll Multi-value fields types like Checkboxes, Dropdowns and Radial buttons will send the normal information and additionally, it will send information about the field Option labels from the front end and database variables. These can be identified with labels that have \"_stringify\" on the webhooks\n\nFor example a checkbox field:\n\nWhen the options are selected:\n\nThe information sent to the webbooks:\n\nArray of the different options selected : \"checkbox_label\": [\"option_1\",\"option_2\",\"option_3\"]\n\nDatabase Values: \"checkbox_label_stringify\": \"option_1,option_2,option_3\"\n\nValues of Labels in the front end \"checkbox_label_values_stringify\": \"Option 1,Option 2,Option 3\"\n\nImportant: This information can also be viewed in the Activity Tracker:\n\n\n### What happens when a Form Submission Webhook Event is triggered?\n\n\nWhen a user submits one of the forms a Webhook is configured for, the data submitted in the form is sent to the Webhook URL via CURL (https://www.php.net/manual/es/book.curl.php) as a POST array.\n\nFor example, the default Contact Us form has the following fields:\n\nName [yourname]\n\nEmail [inquiry_email]\n\nPhone Number [phone]\n\nMessage [comments]\n\nA user submits the following information to these fields:\n\nThe following $POST array would be sent to the Webhook URL setup for this form.\n\nformname: contact_form\n\nyourname: Jane Smith\n\ninquiry_email: jane@example.com\n\nphone: 6263962211\n\ncomments: I need assistance setting up art galleries.\n\ng-recaptcha-response: 03AGdBq25plMxoJT4Y634dC_nAu_zDQYhtep04LByAG5AFQ2k4_Y0BvhNle9GrSh7UX0snQYQ4VwaQPaT1iHv4Q2qySvUY9w3VRWH7p4sT4DI6dbjndt28b3KpaUYdc3nO5loeBSwf1G5lk0KE90whyRj7_8CwSs1Foif18Ai2MkCYFo6JU_fk6REx9Z_3Tpk2ZTiciYoy_5oyPirmWXaUKYF5NLEcGvFRA_CusrVlFTpuyTnWfiNYnsqoZQb3TQsds5f-p1LgsmTSMDWZCQfnUt2ZEA45uZtz0m5fmC_9RybfIdySPNX2guugQVN27nWu2H9P2hY7ChCAmKM0BSbP8P83n_o4_yb4gRynhQCwFlVzfUiaiLK6fA1jWrfHQkX5NAKmwhVvEfgKwGPgk1yJ2cmULdkcjEQFTuvBOHfxTaJq0dbav4x07vuKmldcp92PLZyQj0Ogl16tr9_XJqqjJ_U7BTyJq6-WyA\n\nHTTPR: https://www.demobootstrap.com/about/contact\n\nDATE: 20211015110636\n\nIP: 201.191.195.131\n\nCONTACT_TYPE: contact_form\n\nImportant Note: Click here to access the Full List of Variables Per Webhook.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415517/original/qqHK53RX7OOVdmHdfzVNXp7XOrz13NIs9g.png?1791392548",
+      "alt": "New Webhook drawer with the Form and Smart List choice (1), the form picker (2), a form in the list (3) and Cancel and Save (4).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): New Webhook drawer with the Form and Smart List choice (1), the form picker (2), a form in the list (3) and Cancel and Save (4).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415518/original/eESRmIqEjZYMcghyK7Occhhjxvcl0melAg.png?1791392549",
+      "alt": "Edit Webhook drawer with numbered fields for the connection type, form, webhook nickname and internal description, plus Cancel and Save.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): Edit Webhook drawer with numbered fields for the connection type, form, webhook nickname and internal description, plus Cancel and Save.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186365024/original/vrWi1y1YeA6hMOv1vjF9JzdndR5VXe9Oow.png?1791325273",
+      "alt": "Custom Webhooks Forms section (1) with a webhook's three-dots button (2) opened to show Edit and Delete Webhook (3).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): Custom Webhooks Forms section (1) with a webhook's three-dots button (2) opened to show Edit and Delete Webhook (3).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186365006/original/cP_ecjl3Z13Rdg9Y4rZe3HzX90Yix7_Zsg.png?1791325257",
+      "alt": "Delete Webhook confirmation popup naming the webhook and warning it cannot be undone, with Delete Webhook highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): Delete Webhook confirmation popup naming the webhook and warning it cannot be undone, with Delete Webhook highlighted.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415564/original/kiOaGkRu_LW3kV-mi3gyM9lVTf4p2d2vzA.png?1791392584",
+      "alt": "Activity Tracker Website Activity table with a Webhook entry (1) showing the status, Webhook Link, trigger and Body; IP addresses blurred.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): Activity Tracker Website Activity table with a Webhook entry (1) showing the status, Webhook Link, trigger and Body; IP addresses blurred.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415563/original/xTByahw40Bc7ecyS8ggyJ0f1f8lNt2ZVZg.png?1791392583",
+      "alt": "The Activity Tracker description of a webhook entry: status, link, trigger and time (1) and the Body with the data sent (2); the IP line is blurred.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): The Activity Tracker description of a webhook entry: status, link, trigger and time (1) and the Body with the data sent (2); the IP line is blurred.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371919/original/8--EFCswBgeglwwTloMSD4xbdyS3J3g5Pw.png?1791337621",
+      "alt": "Contact Us form with a Check Box Options field offering Option 1, Option 2 and Option 3 (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): Contact Us form with a Check Box Options field offering Option 1, Option 2 and Option 3 (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371925/original/JDlaYpUbgvNwkWaWx8vt2TJmFYAAhUcicg.png?1791337622",
+      "alt": "The same Contact Us form with all three checkbox options ticked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): The same Contact Us form with all three checkbox options ticked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186371926/original/vJfuL8YVaiuKeBL873DS02nlB50J5dT89w.png?1791337623",
+      "alt": "Contact Us form filled in with Jane Smith, jane@example.com, 6263962211, all three options and a message (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Create A Custom Webhook' (Developer Hub > Webhooks): Contact Us form filled in with Jane Smith, jane@example.com, 6263962211, all three options and a message (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105678",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105678"
+    },
+    {
+      "text": "How To Create Smart List Webhooks",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000096184"
+    },
+    {
+      "text": "Full List of Variables Per Webhook.",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104764"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:35+05:30",
+  "scraped_at": "2026-10-18T13:56:28.396802"
+}

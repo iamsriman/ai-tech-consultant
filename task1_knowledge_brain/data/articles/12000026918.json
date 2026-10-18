@@ -1,0 +1,27 @@
+{
+  "article_id": "12000026918",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000026918-03-13-17-software-updates",
+  "title": "03/13/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/13/17 - Software Updates"
+  ],
+  "content": "## 03/13/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000026918\n\nBrilliant Directories made the following updates to these default widgets. If you have customized any of these widgets, and would like to update your customized widget, you can find our most updated code in the Default Widget section. If you have a custom version of these widgets, it means that our latest updates have not been pushed to your website.\n\nUpdates:\n\n- New Autosuggest rules have been created in order to support legacy features and new features.\n\n- The new lazy load feature has been installed on freshbootstrap, this means that the newly launched websites will have this feature installed  as a default functionality. Widgets involved: Bootstrap Theme - Member Profile, Bootstrap Theme - Display - Add to Favorites Button. Click here for more information.\n\n- The issue that was affecting the images of the Favorites features on the Member Account Sections was fixed. Widget Involved: Bootstrap Theme - Function - Add to Favorites Button.\n\n- The Autoactivate free signup issue has been fixed and has been integrated with the new Billing Update. Widgets involved: Bootstrap Theme - Success Page - Free Member Sign Up, WHMCS2 - Signup Payment Actions.\n\n- The Featured Member Article slider issue when the slider is not in the header  was fixed. Widgets involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000026918",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000026918"
+    },
+    {
+      "text": "here",
+      "url": "http://internal.brilliantdirectories.com/solution/articles/12000026759-lazy-load"
+    }
+  ],
+  "lastmod": "2017-03-13T20:42:31+05:30",
+  "scraped_at": "2026-10-18T13:40:59.670080"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000041913",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000041913-03-02-18-software-updates",
+  "title": "03/02/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/02/18 - Software Updates"
+  ],
+  "content": "## 03/02/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000041913\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed some issues related to the Admin Password Update from the previous week. Now the Admin Login will work as it should and it will complete logins significantly faster than ever before.\n\n- We fixed an issue which was affecting the normal behavior of the USA Map Widget when clicking on the state of New York. Widget Involved: Bootstrap Theme - Homepage Search - Clickable USA Map\n\n- Now when an Admin uses the Front End Live Design Tool the system will hide the Admin Bar in the front end of a site.\n\n- We refactored several widgets in order to be prepared for the upcoming release of a new method of editing Text Labels throughout the front end of a website. Widgets Involved: Bootstrap Theme - Module - Blog Articles Search Bootstrap Theme - Module - Classifieds Search Bootstrap Theme - Module - Coupons Search Bootstrap Theme - Module - Event Search Bootstrap Theme - Module - Jobs Search Bootstrap Theme - Module - Member Article Search Bootstrap Theme - Module - Member Join Offer Bootstrap Theme - Module - Photo Albums Search Bootstrap Theme - Module - Products Search Bootstrap Theme - Module - Property Search Bootstrap Theme - Module - Videos Search Bootstrap Theme - Search Module - Keyword_Location Bootstrap Theme - Search Module - Local Radius Search Bootstrap Theme - Search Module - Location Search Bootstrap Theme - Search Module - Sub + Sub-Sub Bootstrap Theme - Search Module - Sub Category Only Bootstrap Theme - Search Module - Sub_Location Bootstrap Theme - Search Module - Sub_Sub_Sub_Location Bootstrap Theme - Search Module - Top Category Only Bootstrap Theme - Search Module - Top_Category_Location Bootstrap Theme - Search Module - Top_Sub_Category Bootstrap Theme - Search Module - Top_Sub_Location Bootstrap Theme - Search Module - Top_Sub_Sub-Sub_Location\n\n- Site Admins have now the ability to manually change the parent of existing Sub Accounts through the Admin area (this applies to the Multi-Member Manager Add-On). In order to assign the Parent ID, follow these instructions: Login to the Admin >> Members >> Search Members >> Actions >> Quick Edit >> Listing Settings tab Here there is now a new field to assign the Parent ID. Note: This field will only appear if the site has activated the Multi-Member Manager Add On.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000041913",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000041913"
+    }
+  ],
+  "lastmod": "2018-03-03T02:28:14+05:30",
+  "scraped_at": "2026-10-18T13:42:20.800647"
+}

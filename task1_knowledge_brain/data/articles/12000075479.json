@@ -1,0 +1,23 @@
+{
+  "article_id": "12000075479",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075479-how-to-render-a-widget-in-an-email-template",
+  "title": "How To Render A Widget In An Email Template",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How To Render A Widget In An Email Template"
+  ],
+  "content": "## How To Render A Widget In An Email Template\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075479\n\nTo include a widget in an email template use the shortcode [widget=Name of Widget].\n\nAnother option is to have the results of a widget sent to a variable. This option will apply if you have a custom widget and you want more control over what data will be used in the e-mail template.\n\nSTEP 1: Create the widget variable\n\nTurn the printed data from the widget into a variable <?php $widget_var = widget(\"Name of Widget\");\n\n?>\n\nAnother way to combine more data before and after the widget and combine it into one variable. <?php\n\nob_start(); echo \"Beginning Text\";\n\necho widget(\"Name of Widget\"); echo \"Ending Text\";\n\n$widget_var = ob_get_contents();\n\nob_end_clean();\n\n?>\n\nSTEP 2:  Include this variable in the email template.\n\nT hen reference the variable inside of your email template as %%%widget_var%%%.\n\nSTEP 3: Use the following code to pass this newly created variable into the email template and send the email Add the variable to the $w variable so it will become accessible and executable within the email template. You <?php $user = getUser($user_id,$w); /// Get the email address from a member $w['widget_var'] = $widget_var;  /// Add the widget contents to a variable\n\n$email = prepareEmail('templae-name-goes-here', $w);  /// Email Template to Send\n\n$results = sendEmailTemplate($email['sender'],$user['email'],$email['subject'],$email['html'],$email['text'],$email['priority'],$w); print_r($results); /// This will show the results of the email send. When it returns success, the email was sent.\n\n?>\n\nADVANCED USAGE:\n\nYou can also pass the value directly into the email, skipping the email template. This will allow you to create your own email template that sends an email with your own custom logic.\n\n///This must include the sender name and email address. Name <from@email.com>\n\n$email['sender'] = $w['website_name'].\" <\".$w['website_email'].\">\"; /// This must be a valid email\n\n$user['email] = \"to@recipient_domain.com\"; /// You must input a subject\n\n$email['subject'] = \"Subject\"; /// You must input a body in html\n\n$email['html'] = \"<strong>Your html code</strong>\".$widget_var.\"with the variable from the widget included\";\n\n/// Email Text, If this is blank the system will strip the tags and send a text version $email['text'] = \"Text version of your email\"; ///Email Priority, can be left blank or input a number $email['priority'] = 2;\n\n/// This function will send the email\n\nsendEmailTemplate($email['sender'], $user['email'], $email['subject'], $email['html'], $email['text'], $email['priority'], $w);\n\n* Note both the subject and a body are required to send an email this way.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075479",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075479"
+    }
+  ],
+  "lastmod": "2024-03-08T11:11:44+05:30",
+  "scraped_at": "2026-10-18T13:47:18.533834"
+}

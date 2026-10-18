@@ -1,0 +1,51 @@
+{
+  "article_id": "12000091596",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091596-how-to-add-a-second-quotation-mark-to-the-slogan-motto-on-profile-pages",
+  "title": "How To Add A Second Quotation Mark To The Slogan/Motto on Profile Pages",
+  "category": "My Content",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Additional Tips & Tutorials",
+    "How To Add A Second Quotation Mark To The Slogan/Motto on Profile Pages"
+  ],
+  "content": "## How To Add A Second Quotation Mark To The Slogan/Motto on Profile Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091596\n\nBy default, the slogan only has one quotation mark at the beginning. However, there are some website owners that would like to add a quotation mark here:\n\nIn order to add it, please go to Settings >> Design Settings >> Custom CSS >> and paste the code below:\n\n.quote_box::after {\n\ncontent: \"\";\n\nbackground-image: url(/images/icon-quote.png);\n\nposition: absolute;\n\nwidth: 45px;\n\nheight: 35px;\n\nbackground-repeat: no-repeat;\n\ntransform: rotate(1800deg) scaleX(-1);\n\nmargin-left: 10px;\n\n}\n\nIt should look like this:\n\nThe second quote mark will show up on all member profiles:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119750123/original/K9k1OT7Q8-MHgwNRoTTBqbYfffAiZ9jHyQ.png?1673499905",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add A Second Quotation Mark To The Slogan/Motto on Profile Pages' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171375731/original/n-3W2xidqugwhLd4_6RGGx0pTy2Z1Gg4Rg.png?1764712460",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add A Second Quotation Mark To The Slogan/Motto on Profile Pages' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12119750111/original/Iqj2me_GtaVk-jI2vmtPdLq_Xiz488GcZw.png?1673499867",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Add A Second Quotation Mark To The Slogan/Motto on Profile Pages' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091596",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091596"
+    }
+  ],
+  "lastmod": "2025-12-03T03:24:48+05:30",
+  "scraped_at": "2026-10-18T13:50:37.973399"
+}

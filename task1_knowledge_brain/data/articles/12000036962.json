@@ -1,0 +1,137 @@
+{
+  "article_id": "12000036962",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036962-google-login-add-on",
+  "title": "Google Login Add-On",
+  "category": "Add-On Documentation",
+  "folder": "One-Click Google Login",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "One-Click Google Login",
+    "Google Login Add-On"
+  ],
+  "content": "## Google Login Add-On\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000036962\n\nThe One-Click Google Login add-on allows users to register or log in to the website using their Google account.\n\nThis works with the default Brilliant Directories login and registration system. Existing members can also connect or remove their linked Google account from inside the member dashboard.\n\n\n## How To Get This Add-On\n\n\n- Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club\n\n- The add-on can also be purchased individually: One-Click Google Login Add-On\n\nThis setup requires a Google Cloud project and a Google OAuth Client ID.\n\nIf Google Maps is already set up for the website, use the same Google Cloud project. This keeps the Google settings for the website in one place.\n\nThe Google setup screens are managed by Google and may look different depending on the account, project, or Google Cloud updates. The steps below focus on the settings needed for Brilliant Directories.\n\n\n## Step 1 - Open Google Cloud\n\n\nLog in to the Google account being used for the website and open Google Cloud:\n\n- Open Google Cloud APIs & Services\n\nMake sure the correct Google Cloud project is selected at the top of the page.\n\n\n## Step 2 - Create the API Key\n\n\nIf Google Maps is already set up for the website, this step can be skipped because the website should already have a Google API key.\n\nIf an API key has not been created yet, open the Google Cloud Credentials page:\n\n- Open Google Cloud Credentials\n\n- Click Create Credentials .\n\n- Select API Key .\n\n- Name the key something easy to recognize, such as Google Login .\n\n- Copy the API key.\n\nAfter the API key is created, add the correct HTTP referrers so Google knows which website domains are allowed to use the key.\n\nFor help editing HTTP referrers, see this article: Google Maps Issues: Editing HTTP Referrers\n\n\n## Step 3 - Branding Details\n\n\nIn Google Auth Platform, open the Branding section.\n\n- Open Branding\n\nComplete the required branding fields for the website.\n\n- App name: The website or brand name users will recognize.\n\n- User support email: The email users can contact for help.\n\n- App domain: Add the website homepage, privacy policy, and terms of service URLs.\n\n- Authorized domains: Add the website domain used for Google Login.\n\n- Developer contact information: Add the email Google can use for project notices.\n\nSave the branding settings before continuing.\n\n\n## Step 4 - Create OAuth Client ID\n\n\nOpen the Google Auth Platform Clients page:\n\nOpen Google Auth Platform Clients\n\n- Click Create Client .\n\n- For application type, select Web application .\n\n- Enter a name for the client, such as Google Login .\n\n- Add the website domain under Authorized JavaScript origins .\n\n- Create the client.\n\n- Copy the Client ID .\n\nThe authorized JavaScript origin should use the live website domain with HTTPS.\n\nExample:\n\n- https://www.yourdomain.com\n\nReplace yourdomain.com with the website’s live domain.\n\n\n## Step 5 - Add Scopes\n\n\nOpen the Data Access section in Google Auth Platform.\n\nAdd the following scopes:\n\n- .../auth/userinfo.email\n\n- .../auth/userinfo.profile\n\n- openid\n\nThese scopes allow Google Login to confirm the user’s basic profile information and email address.\n\n\n## Step 6 - Enable the People API\n\n\nOpen the Google People API page:\n\nOpen Google People API\n\nMake sure the correct Google Cloud project is selected, then click Enable .\n\n\n## Step 7 - Copy the Key and ID\n\n\nAfter the Google setup is complete, copy the details that need to be added to the Brilliant Directories admin.\n\n- API Key: Only needed if a Google API key has not already been added for Google Maps.\n\n- Client ID: Required for Google Login.\n\n\n## Step 8 - Add the Google Details\n\n\nLog in to the Brilliant Directories admin and go to:\n\n- Click on Settings\n\n- Go to the General Settings\n\n- The field to add the Google details is in the Integrations tab\n\nAdd the Google details:\n\n- API Key: Add the API key if one has not already been added for Google Maps.\n\n- Client ID: Add the Google Developer Client ID.\n\nMake sure Google Login is enabled in the Integrations settings, then save the changes.\n\n\n## Step 9 - Allow Google Login\n\n\nAfter the Google details are added in the admin, enable Google Login for the membership plans that should offer this option.\n\nGo to:\n\n- Finance\n\n- Membership Plans\n\n- Edit the membership plan\n\n- Enable Sign In with Google\n\n- Save the changes\n\n\n## Live Buttons\n\n\nOnce Google Login is set up and enabled, the Google Login button will display on the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540272/original/uYOLpxIX7fwy4Qwb0Fs6424bQuSwim_1Bw.png?1784843073",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540329/original/7AtuCw0WLVf6Ew6eWg3AO-T5Rx1tckxwxA.png?1784843178",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540404/original/eDHqplUEBcY7SdrLIRZ8VHOn9rleb5nnWw.png?1784843332",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540445/original/tz5hx4mbrFsJlnuYfdoJ0vQLg1wqgsxHfQ.png?1784843419",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540476/original/odr2nC-RN3ZksAHKHrNOodN0rZnvzjv2uw.png?1784843518",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540510/original/wknTNrcwk6W7t2vTG4LfO96m6OBtlbGxQQ.png?1784843575",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540587/original/5Xb6blr7aqW_hjfwI2fbHOVjcmxC4aMcWg.png?1784843629",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085521350/original/UiR9A5NZjpFbu73ouLouCTX2afNyuFqQOg.png?1606348840",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12123265146/original/d5FAko0exSWdFizF5oSKzpyjnA3pCN_sDQ.png?1680022152",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Login Add-On' in section 'Add-On Documentation' / 'One-Click Google Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000036962",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036962"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "One-Click Google Login Add-On",
+      "url": "https://www.brilliantdirectories.com/one-click-google-login"
+    },
+    {
+      "text": "Open Google Cloud APIs & Services",
+      "url": "https://console.cloud.google.com/apis"
+    },
+    {
+      "text": "Open Google Cloud Credentials",
+      "url": "https://console.cloud.google.com/apis/credentials"
+    },
+    {
+      "text": "Google Maps Issues: Editing HTTP Referrers",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000057655-google-maps-edit-http-referrers"
+    },
+    {
+      "text": "Open Branding",
+      "url": "https://console.cloud.google.com/auth/branding"
+    },
+    {
+      "text": "Open Google Auth Platform Clients",
+      "url": "https://console.cloud.google.com/auth/clients"
+    },
+    {
+      "text": "Open Google People API",
+      "url": "https://console.cloud.google.com/apis/library/people.googleapis.com"
+    }
+  ],
+  "lastmod": "2026-08-28T22:06:28+05:30",
+  "scraped_at": "2026-10-18T13:41:57.489603"
+}

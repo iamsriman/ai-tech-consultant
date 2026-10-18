@@ -1,0 +1,108 @@
+{
+  "article_id": "12000046959",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046959-member-images-importing-members-with-profile-photos-logos-cover-photos",
+  "title": "Member Images: Importing Members with Profile Photos, Logos & Cover Photos",
+  "category": "My Members",
+  "folder": "Import Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Import Members",
+    "Member Images: Importing Members with Profile Photos, Logos & Cover Photos"
+  ],
+  "content": "## Member Images: Importing Members with Profile Photos, Logos & Cover Photos\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046959\n\nImporting members requires clean, unformatted text data (no line breaks or styling) mapping to the proper columns to ensure a successful upload.\n\nHow To Import Members Via CSV File\n\nThis includes the links for the images that will be uploaded with the file.\n\n\n## Add Image URL to Import File\n\n\nInsert the URL for the image into the corresponding field:\n\n- logo\n\n- profile_photo\n\n- cover_photo\n\nCurrently, the import tool supports the following image formats:\n\n- webp\n\n- jpg / jpeg\n\n- png\n\n- gif\n\n\n## Cover Photo\n\n\nThe Profile Cover Photo add-on must be active on the website for imported cover photos to display on member profiles.\n\n\n## Hosting Images\n\n\nThese images can be uploaded to the Media Manager in order to guarantee a successful upload.\n\nOnce the images are uploaded to the Media Manager, their URL can be grabbed by clicking on the Copy URL option:\n\nThe images can also be hosted on external platforms, however, t his tool is meant to help in migrating a site from one platform to another, not to copy images from a 3rd party source without their consent.\n\nFor in-depth information about the Media Manager check out this link: >> Media Manager Folder\n\n\n## Importing Member Images\n\n\nPlease follow these steps to import all of the images to the members that were just imported:\n\n- Navigate to the Members >> Member Images: ** Important Note: This tab will only display if the system identifies recently imported images through the member import template. **\n\n- Choose an appropriate number of members to import the images of at a time in the dropdown below:\n\n- Click on \" Update Results \":\n\n- Use the Bulk Actions checkbox to select all of the members on the page, then select Fetch from Source and Resize Photos from the dropdown menu. If prompted, check the Select All option to include all remaining records.\n\n- Click the \" Apply Action \" button. There will be a notification that the images are being processed:\n\n- Do not close the window or navigate away from the page during this process.\n\n- Repeat the steps above for each page until all images have been fetched and resized.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132741289/original/97qAroPdF7RMCw0Past52BPcnOpGLGTNRQ.png?1697228760",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Images: Importing Members with Profile Photos, Logos & Cover Photos' in section 'My Members' / 'Import Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104575465/original/jfUSPeiZ426sTMhROUwGK2WTqWvlzrJkbw.png?1643916094",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Images: Importing Members with Profile Photos, Logos & Cover Photos' in section 'My Members' / 'Import Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104575478/original/M9hQkKUvp2oVunQv8g7Y2GGfJSAJgJ2PXw.png?1643916144",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Images: Importing Members with Profile Photos, Logos & Cover Photos' in section 'My Members' / 'Import Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124654108/original/Tp4v8ZGS4jJkgWeO2cT3H6AE3VbhSK18ww.png?1682589389",
+      "alt": null,
+      "caption": "Context: Please follow these steps to import all of the images to the members that were just imported:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Images: Importing Members with Profile Photos, Logos & Cover Photos' in section 'My Members' / 'Import Members'. Context: Context: Please follow these steps to import all of the images to the members that were just imported:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129685843/original/_VNAZ8MTPG0z1XnytGGNToSrHc1GIrUolA.png?1691684522",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Images: Importing Members with Profile Photos, Logos & Cover Photos' in section 'My Members' / 'Import Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124654119/original/-z7CXTqUNYvzQyhNyFs9VM6M4fSpGD21MQ.png?1682589407",
+      "alt": null,
+      "caption": "Click on \"Update Results\":",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Images: Importing Members with Profile Photos, Logos & Cover Photos' in section 'My Members' / 'Import Members'. Context: Click on \"Update Results\":",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129562463/original/aPmSSciHOkb8RiIpD8jUnlNnuM7Tn9Myvg.png?1691513009",
+      "alt": null,
+      "caption": "Context: Click on \"Update Results\":",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Images: Importing Members with Profile Photos, Logos & Cover Photos' in section 'My Members' / 'Import Members'. Context: Context: Click on \"Update Results\":",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074997084/original/EhK9g0uNDuUXW5iShPyN6S9eLhehCnyDXA.png?1583884496",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Images: Importing Members with Profile Photos, Logos & Cover Photos' in section 'My Members' / 'Import Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046959",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046959"
+    },
+    {
+      "text": "How To Import Members Via CSV File",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000558475"
+    },
+    {
+      "text": "Profile Cover Photo",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060993"
+    },
+    {
+      "text": "Media Manager Folder",
+      "url": "https://support.brilliantdirectories.com/support/solutions/folders/12000005701"
+    }
+  ],
+  "lastmod": "2026-06-11T15:25:35+05:30",
+  "scraped_at": "2026-10-18T13:43:13.088554"
+}

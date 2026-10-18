@@ -1,0 +1,23 @@
+{
+  "article_id": "12000065957",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065957-12-27-19-software-updates",
+  "title": "12/27/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/27/19 - Software Updates"
+  ],
+  "content": "## 12/27/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065957\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added the ability to sort Member Categories in the Admin by Category Name, Category ID, and \"Sort Order\".\n\n- We fixed an issue which was causing the system to send incorrect transaction metadata to the Stripe Payment Gateway when a member upgraded their account in some cases.\n\n- We updated logic of the Member Upgrade process so members are no longer required to re-enter their credit card information when the credit card requires SCA validation for the Stripe payment gateway.\n\n- The language of the Froala WYSIWYG editor is now based on the \"Google Maps Language\" setting found in the Admin >> General Settings >> Configuration tab . Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue that was preventing the system from loading the Price Slider search module field when its called more than one time on the same page. Widgets Involved: Bootstrap Theme - Module - Classifieds Search Bootstrap Theme - Module - Jobs Search Bootstrap Theme - Module - Products Search Bootstrap Theme - Module - Property Search\n\n- The Reviews Search Results page is now compatible with the \"Respect Membership Level Search Priority\" post setting. Widget Involved: Search - Reviews - Search Query\n\n- We updated the Coming Soon form to not show the GDPR fields when sending the confirmation email to the Site Admin. Form Involved: Website - Coming Soon\n\n- We fixed an issue which was causing the system to show an incorrect lead price when the site is using Swiss Franc as the Website Currency.\n\n- We updated the Search Members page in the Admin in order to speed up the page load time.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065957",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065957"
+    }
+  ],
+  "lastmod": "2019-12-30T23:47:31+05:30",
+  "scraped_at": "2026-10-18T13:45:56.707134"
+}

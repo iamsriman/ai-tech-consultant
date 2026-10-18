@@ -1,0 +1,23 @@
+{
+  "article_id": "12000105570",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105570-08-01-2025-software-updates",
+  "title": "08/01/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/01/2025 - Software Updates"
+  ],
+  "content": "## 08/01/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105570\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Added Default Schema Markup to the Post Details pages of the Products and Properties Post Types. Post Types Involved: Product Property\n\n- Fixed an issue that prevented the \"Text Direction\" Advanced Setting from working properly on the details pages of Multi-Photo Post Types in some cases. Widgets Involved: Bootstrap Theme - Photo Album Page Bootstrap Theme - Custom Appearance Settings\n\n- Added Mongolian as a Default Website Language.\n\n- Updated the Froala Email Editor in the Admin to include Email Variables in the Froala toolbar for easier access.\n\n- Updated the help text description for the \"Are these members searchable on the website?\" setting on the Membership Plan page in the Admin.\n\n- Fixed an issue that caused the Post Details page to redirect to a 404 error when the Post URL Structure included location information in some cases.\n\n- Created a new text label called \"Add Credit Card Popup Subtitle\" to display additional text on the Add Credit Card modal. By default, the text label is empty.\n\n- The Google Maps lead form field on the frontend is now compatible with the \"Google Map Theme\" Design Setting. Widget Involved: Bootstrap - Contact Member Lead Map\n\n- Fixed an issue that prevented the system from including the \"alt\" attribute for SVG image files on the frontend of sites in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- Fixed an issue that prevented the Search Module - Keyword Search widget from working as expected in some cases. Widget Involved: Bootstrap Theme - Search Module - Keyword Search",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105570",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105570"
+    }
+  ],
+  "lastmod": "2025-08-05T03:30:51+05:30",
+  "scraped_at": "2026-10-18T13:56:24.859616"
+}

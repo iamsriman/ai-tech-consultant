@@ -1,0 +1,27 @@
+{
+  "article_id": "12000093662",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093662-changelog-april-2017",
+  "title": "Changelog - April 2017",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - April 2017"
+  ],
+  "content": "## Changelog - April 2017\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093662\n\nNew Features:\n\n- We added a new Sidebar Search Module Widget: Bootstrap Theme - Search Module - Location Search. This widget allows to search members based only on Location parameters. To use this new feature navigate to Toolbox >> Sidebar Manager and select the sidebar where you want to add this new widget.\n\n- We are happy to announce the release of the 3rd major update related to the Text Labels Project. With this update, we have achieved 90% conversion of hard coded text to text labels in Default Widgets and core files.\n\n- We released an update to the Member Dashboard Checklist Wizard.  This update fixes the issue of the tabs at the top of the Member Dashboard pages to display strangely on non-standard display resolutions.\n\n- The Promo Code Feature is ready to be purchased and installed on all Bootstrap websites using their own payment gateway. Click here for more information.\n\n- We added new SEO Variables for Member Search Pages. The new SEO Variables are: %zip_code% and %country_code%. To use these new variables, edit an SEO Template that is used for Member Search Results Pages and add these new variables wherever you would like them to be used.  Please note that %zip_code% and %country_code% variables will only display on the search results page if the user has entered information for these location types as part of their search.\n\n- We minified several CSS and Javascript files and updated all widgets and core files that call them.  This will improve the load time of all web pages and increase your website's score in 3rd party tools like Google Pagespeed, GTMetrix, etc.\n\n- We made an update to the Email Templates Layout.\n\nEnhancements / Fixes:\n\n- Bug fixes to the New Leads Module, New Reviews Module, Google Location System, Add-on Manager System, and Member System.\n\n- We implemented a new update in order to call a more optimized image where applicable in all Streaming Widgets, Feature Posts, and Photo Album Posts.  This will improve the load time of all web pages that call these images and increase your website's score in 3rd party tools like Google Pagespeed, GTMetrix, etc\n\n- In all, more than 20+ bugs were fixed throughout the software.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093662",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093662"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000027986-easy-coupon-codes"
+    }
+  ],
+  "lastmod": "2023-05-09T04:08:43+05:30",
+  "scraped_at": "2026-10-18T13:51:14.178872"
+}

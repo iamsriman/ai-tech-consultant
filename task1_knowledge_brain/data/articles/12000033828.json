@@ -1,0 +1,23 @@
+{
+  "article_id": "12000033828",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000033828-08-11-17-software-updates",
+  "title": "08/11/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/11/17 - Software Updates"
+  ],
+  "content": "## 08/11/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000033828\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue with the Service Area Module in the Member Dashboard. Now the drag and drop of the pin on the Map will work as expected on mobile devices. Widgets Involved: Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue with the Google Map in the Get Matched Form that was affecting iOS devices - now is working as expected. Widgets Involved: Bootstrap - Contact Member Lead Map\n\n- We added functionality to change the language of the Google Map Feature and the Google Recaptcha through Admin settings. To change the language of those modules navigate to the Admin are of your site and then Settings >> General Settings >> Configuration tab.  Here you will find a dropdown to select your chosen language.  Currently this setting will only impact the Google Maps, Google ReCaptchas, and Event Calendar language settings.  We plan on adding additional language functionality around this setting in future updates. Widgets Involved: Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Function - Form Bootstrap Theme - Function - Google Location Suggest Bootstrap Theme - Function - Google ReCaptcha on Sign up Page\n\n- We fixed an issue in the Export Function in the Search Member Section of the Admin.\n\n- We fixed an issue that was affecting the post publish limit on Features like Photo Albums, Classifieds, Properties and Products in some cases. Widgets Involved: Bootstrap Theme - Account - Photo Albums Publishing Limit Alert\n\n- We added Prev and Next meta data for a better SEO performance on paginated Search Results pages. Widgets Involved: Bootstrap Theme - Pagination Bootstrap Theme - HEAD",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000033828",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000033828"
+    }
+  ],
+  "lastmod": "2017-08-11T21:34:23+05:30",
+  "scraped_at": "2026-10-18T13:41:32.870920"
+}

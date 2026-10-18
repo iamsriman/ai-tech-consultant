@@ -1,0 +1,31 @@
+{
+  "article_id": "12000082007",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082007-difference-between-on-site-and-off-site-payment-gateways",
+  "title": "Difference Between On-Site and Off-Site Payment Gateways",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Difference Between On-Site and Off-Site Payment Gateways"
+  ],
+  "content": "## Difference Between On-Site and Off-Site Payment Gateways\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082007\n\nBrilliant Directories platform offers several integrated payment gateways including the most popular and globally accepted – PayPal, Stripe, 2Checkout, Authorize.NET, & more.\n\nThese gateways can be separated into two groups; On-Site Payment Gateways and Off-Site Payment Gateways .\n\n\n## Functionality Differences\n\n\nHere's how On-Site and Off-Site Payment Gateways differ in terms of functionality and user experience:\n\n- On-Site Gateways allow all transactions to be completed without leaving the website, while Off-Site Gateways require the user to be redirected to the payment gateway's website to complete transactions.\n\n- On-Site Gateways will automatically bill member credit cards for recurring subscriptions, while Off-Site Gateways require members to manually pay for each invoice.\n\n- On-site Gateways allow the Admin of a site to manually attempt to collect on invoices, while Off-Site Gateways do not allow for this functionality.\n\n- On-Site Gateways allow a member to store a credit card on file with the site, while Off-Site Gateways do not.\n\n\n### Payment Gateways: On-Site or Off-Site\n\n\nOn-Site Payment Gateways Off-Site Payment Gateways Authorize.net PayFast Authorize.net CIM PayPal Express/Standard BluePay Verifone formerly 2checkout eWay Razorpay PayPal Payflow Paypal Website Payments Pro Stripe (Recommended)\n\n\n### Additional Resources\n\n\n- Learn more about the recommended payment gateway Stripe and how it differs from PayPal Express/Standard: Stripe Or PayPal Express/Standard?\n\n- In-depth list of the available website payment gateways: Supported Payment Gateways",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082007",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082007"
+    },
+    {
+      "text": "Stripe Or PayPal Express/Standard?",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043160"
+    },
+    {
+      "text": "Supported Payment Gateways",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843"
+    }
+  ],
+  "lastmod": "2026-07-15T01:59:14+05:30",
+  "scraped_at": "2026-10-18T13:48:55.804530"
+}

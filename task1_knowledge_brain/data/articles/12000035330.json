@@ -1,0 +1,27 @@
+{
+  "article_id": "12000035330",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035330-09-15-17-software-updates",
+  "title": "09/15/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/15/17 - Software Updates"
+  ],
+  "content": "## 09/15/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000035330\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added additional SPAM protection to all of the public-facing default forms.  This will block even more types of SPAM form submissions from bots and other automated tools. Widgets Involved: Account - Save Actions Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Function - Google ReCaptcha on Sign up Page Bootstrap Theme - Function - Save Form Bootstrap Theme - Module - Newsletter Actions System - SaveForm Forms Involved: Get Matched Reviews Newsletter Sign up Contact Us\n\n- We added a new Admin Page in order to check which Add-Ons have been activated on a site. Click here while logged in to view the new Admin Page.\n\n- The \"More About\" section heading on profile pages is now based on text labels. Widget Involved: Bootstrap Theme - Member Profile - Overview Tab\n\n- We fixed an issue that was affecting the Main Menu on mobile devices.\n\n- We resolved an issue that was affecting the \"Hide Field Labels\" Setting when the Advanced Lead Module Add-On was activated. Widget Involved: Bootstrap - Lead Form - Extra Settings\n\n- We created a new Search Widget based only on Member Sub-Categories for the homepage and sidebars.\n\n- We fixed an issue that was affecting the \"View Account\" button on the Member Header Action Box. Widget Involved: Bootstrap Theme - Header - Member Links\n\n- We enhanced the Widget that controls the Google Map on the Contact Details Forms in order to support more locations. Widget Involved: Bootstrap Theme - Form - Member Google Location\n\n- Now the Upgrade Pages on the Member Dashboard Section are based on Text Labels. Widgets Involved: Bootstrap Theme - Account - Upgrade Page 1 Bootstrap Theme - Account - Upgrade Page 2\n\n- We updated the functionality of the Advanced Setting fast_search in order to make it work for the Member Sub-Categories. Widgets Involved: Bootstrap - Contact Member Category Dropdowns Bootstrap Theme - Category Groups - Member Categories\n\n- The Click-To-Call Add-On is now available.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000035330",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035330"
+    },
+    {
+      "text": "here",
+      "url": "http://www.managemydirectory.com/admin/go.php?widget=Admin%20-%20Website%20-%20Display%20Add-On%20Status"
+    }
+  ],
+  "lastmod": "2017-09-18T22:07:11+05:30",
+  "scraped_at": "2026-10-18T13:41:46.125710"
+}

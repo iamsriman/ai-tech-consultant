@@ -1,0 +1,100 @@
+{
+  "article_id": "12000053996",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053996-require-complete-profiles-how-to-hide-incomplete-profiles",
+  "title": "Require Complete Profiles - How To Hide Incomplete Profiles",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Require Complete Profiles - How To Hide Incomplete Profiles"
+  ],
+  "content": "## Require Complete Profiles - How To Hide Incomplete Profiles\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000053996\n\n\n## What are Incomplete Profiles?\n\n\nIncomplete profiles on search results, like shown down below, might have a negative effect on the users experience:\n\nHaving relevant content and search results plays a big part in increasing the website credibility.\n\nWith the Require Complete Profiles setting (shown down below), prevent incomplete profiles from populating the search results:\n\nChanging the setting to \" Require Complete Profiles to display in search results \" will activate these criteria for both the admin backend filters and the frontend search results.\n\nWhen activating, the member search results will only display members who at least have:\n\n- First Name\n\n- Top-Level Category selected\n\n- Profile Photo OR Logo uploaded\n\n- Company Name\n\nThis is how the search results look after activating this advance setting:\n\nChanging the setting to \" Allow searching for complete profiles from the Admin only \" will activate these criteria only in the admin backend to display the corresponding search filters, bu it won't apply to the website member search:\n\nThese are the filters that will get activated in the backend:\n\n\n## Changing the Requirements\n\n\nBy default the system will only require the following 4 fields:\n\n- First Name\n\n- Top-Level Category selected\n\n- Profile Photo OR Logo uploaded\n\n- Company Name\n\nThis criteria can be changed through an advanced setting, Complete Profile Fields :\n\nSystem Variable: complete_profile_fields\n\nThe variables used are:\n\n- company = Company\n\n- first_name = Name\n\n- file = Profile Photo or Logo\n\n- cover_photo = Cover Photo\n\n- profession_id = Top Category\n\n- service = Sub Categories\n\nThese variables can be removed or more can be added. When adding more variables, it is important that they match what is in the database table users_data , which is where all the default fields are stored.\n\nFor example, if the Phone Number is added to this list, the database variable needs to be included.\n\nThis variable is phone_number :\n\nImportant Note\n\nCustom fields can also be added to the setting, however to make it work with users_meta fields, which is where custom fields are stored, the site needs the Expanded Keyword Search add-on.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104009627/original/2pRsjHS6p36c8kLlVV1JNgiQikWCR-qGQQ.png?1642864020",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Require Complete Profiles - How To Hide Incomplete Profiles' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105981277/original/ifSJz1pRUS88iff3qJ4dNML9xvEs4I1DGA.png?1646682027",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Require Complete Profiles - How To Hide Incomplete Profiles' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121726200/original/6cD7DOpsJAhopkrWLkY8S-3AL4JCiKNSZQ.png?1677171205",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Require Complete Profiles - How To Hide Incomplete Profiles' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104009862/original/G_2sATFu49hr8xwI-L1NUkipWgzZShTn7Q.png?1642864782",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Require Complete Profiles - How To Hide Incomplete Profiles' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121726496/original/dJfjrVRta9ulZay2OpMuuVm5Gb8A97XTjQ.png?1677171493",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Require Complete Profiles - How To Hide Incomplete Profiles' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121726736/original/I-LcraYiF9NBxAOTBN7Tz5oKYse0WuIinQ.png?1677171771",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Require Complete Profiles - How To Hide Incomplete Profiles' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105981234/original/gXf0z5HSIL8hnu5asIiojxnxkhQOuNlndA.png?1646681976",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Require Complete Profiles - How To Hide Incomplete Profiles' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104009995/original/iC7CShZPsapVvzLStLDN5q93YqkQ1WC3EA.png?1642865309",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Require Complete Profiles - How To Hide Incomplete Profiles' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000053996",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053996"
+    },
+    {
+      "text": "Expanded Keyword Search",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000034876"
+    }
+  ],
+  "lastmod": "2025-03-07T20:36:07+05:30",
+  "scraped_at": "2026-10-18T13:44:28.242280"
+}

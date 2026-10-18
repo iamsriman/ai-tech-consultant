@@ -1,0 +1,86 @@
+{
+  "article_id": "12000058393",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058393-how-to-activate-sales-representative-tracking",
+  "title": "How to Activate Sales Representative Tracking",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How to Activate Sales Representative Tracking"
+  ],
+  "content": "## How to Activate Sales Representative Tracking\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000058393\n\nWithin the BD platform, it is possible to activate Sales Representative Tracking for members.\n\nTo activate this feature, navigate to Settings >> Advanced Settings and search for:\n\nEnable Sales Rep Field In Edit Members Form\n\nSystem Variable: enable_sales_rep_field\n\nWhen activated, a new search field called Choose Sales Rep Name will be available under My Members > > Search Members:\n\nAlso, a new filter will be added in the Finance >> Transaction History section:\n\nAssign a Sales Rep for each member by clicking on the Quick Edit option:\n\nAnd assign a Sales Rep directly under the Sales Representative field:\n\nThis system name for the sales rep value is ref_code\n\nNow this information added will display as a dropdown option:\n\nImportant Note: This field will be available as a column when Exporting Member Results as well.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647160/original/eDR6uyUSFpkmA9V6kGzD7JBX2DWzqWdovw.png?1753160933",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Activate Sales Representative Tracking' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094777744/original/jBBv010n6JK7ovNTIkgKsTyDDzkIyy6tVA.png?1624973520",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Activate Sales Representative Tracking' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124676126/original/_fUrtJuffFElZC0elMVZz_P7chkYcLwDBA.png?1682614478",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Activate Sales Representative Tracking' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094777816/original/Ly_Gm7ScBnOsuNCeM_Q5n51RbxbQx5obDA.png?1624973573",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Activate Sales Representative Tracking' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094777874/original/u9X7TLVmsS-fur35LWPJxOxYkJIUX0_aDg.png?1624973625",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Activate Sales Representative Tracking' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094777979/original/gGwXOnpQbAl6ppMUoWgU9zFm380D3rrCBg.png?1624973698",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Activate Sales Representative Tracking' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000058393",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058393"
+    },
+    {
+      "text": "Finance >> Transaction History",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046232"
+    },
+    {
+      "text": "Exporting Member Results",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039479"
+    }
+  ],
+  "lastmod": "2025-07-22T10:39:00+05:30",
+  "scraped_at": "2026-10-18T13:45:04.598545"
+}

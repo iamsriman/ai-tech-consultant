@@ -1,0 +1,46 @@
+{
+  "article_id": "12000075598",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075598-how-to-display-cities-instead-of-states-in-the-locations-page",
+  "title": "How To Display Cities Instead Of States In The \"/locations\" Page",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Display Cities Instead Of States In The \"/locations\" Page"
+  ],
+  "content": "## How To Display Cities Instead Of States In The \"/locations\" Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075598\n\nBy default on the \"locations\" page, the system will display a list of countries and their respective cities, that currently have members. This allows for an easy way to search through the locations on the directory.\n\nSome locations around the globe would want to change this setup, by replacing the Country for the Cities. It's important to note that this denomination is used by Google and its API.\n\nTo make this change effective, navigate to Settings >> Advanced Settings and search:\n\nCountries To Display Cities Instead Of States\n\nSystem Variable: display_cities_instead_states\n\nIn the field add a comma-separated list of Country Codes that should link to a list of cities in the country instead of states/provinces on the /locations page of the site. Click Here to see the list of country codes.\n\nExample: GB,SG,AU",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647426/original/vIfnrINrFra6360PJYCA8ZbqZyicfnBcEA.png?1753161352",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Cities Instead Of States In The \"/locations\" Page' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12120641889/original/P-ckSaspxOiHoOdcdsIweoIJpyguGR-VFg.png?1675180415",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Cities Instead Of States In The \"/locations\" Page' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075598",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075598"
+    },
+    {
+      "text": "Click Here",
+      "url": "https://en.wikipedia.org/wiki/ISO_3166-2"
+    }
+  ],
+  "lastmod": "2025-07-22T10:45:54+05:30",
+  "scraped_at": "2026-10-18T13:47:21.714079"
+}

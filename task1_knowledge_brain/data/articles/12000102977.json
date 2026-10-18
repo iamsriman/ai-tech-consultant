@@ -1,0 +1,51 @@
+{
+  "article_id": "12000102977",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102977-using-css-to-target-membership-plans",
+  "title": "Using CSS to Target Membership plans",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Using CSS to Target Membership plans"
+  ],
+  "content": "## Using CSS to Target Membership plans\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102977\n\nPreviously to edit the look of member search results for a particular membership plan required  complicated PHP in specific areas of code was required.\n\nNow we've made it easier to control by including a class to the <body> element that will be used:\n\n- <div class=\"level_#\"> (the # is to be replaced with the membership ID)\n\nIn the example below Company A is in membership plan ID 6\n\nWith this class it will be easier to hide or change simple elements like menu items, buttons, links, images using CSS in the Design Settings rather than having to go into specific sections of the code and use PHP every time.\n\n\n## Example Using the CSS Method\n\n\nTarget the element or area that will be modified. In this example, the Background Color of the members in the membership plan 6:\n\nAfter applying the CSS, only the members from membership plan 6 will show with a different background color:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155070994/original/B5kh3Mp0qYU70iu6UhwxlfYlozx2DZhfpA.png?1736354793",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Membership plans' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155071538/original/ride6bkWVDCSqGekkMip0r115_HeCzWP3Q.png?1736355118",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Membership plans' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155071589/original/YYH4gWnPkP1vF6dPJH9uYKte6OAz7zHPtA.png?1736355155",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using CSS to Target Membership plans' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102977",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102977"
+    }
+  ],
+  "lastmod": "2025-01-08T22:24:21+05:30",
+  "scraped_at": "2026-10-18T13:55:32.016350"
+}

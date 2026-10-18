@@ -1,0 +1,70 @@
+{
+  "article_id": "12000106813",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106813-directoryup-com-subdomain-test-credentials",
+  "title": "directoryup.com Subdomain Test Credentials",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "directoryup.com Subdomain Test Credentials"
+  ],
+  "content": "## directoryup.com Subdomain Test Credentials\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106813\n\nTo make the website setup process smoother, all sites using a directoryup.com subdomain now start with our Brilliant Directories test credentials automatically enabled. This removes common setup roadblocks and allows usage of key features without needing to connect personal accounts right away.\n\n\n## What’s Automatically Enabled\n\n\nWhen a new site is created using a directoryup.com URL, the system will provide a set of default test integrations so the admins can begin testing features immediately.\n\n\n### Test Stripe Gateway\n\n\nNew DirectoryUp sites start with the Test Stripe Gateway enabled. This allows a walk through of the checkout flow, test signup experiences, and payment settings all without needing to connect any live billing details.\n\n\n### Test Transaction Label\n\n\nTransactions processed using Brilliant Directories’ default test Stripe credentials (automatically included on new sites) will now display a “Test Transaction” label in the transaction history for clear distinction from live payments.\n\nNote: This applies only to the built-in BD test Stripe credentials, not to custom Stripe accounts connected in test mode.\n\n\n### Default reCAPTCHA\n\n\nFor security and spam protection, a default reCAPTCHA key is assigned to the DirectoryUp URL. This ensures the forms work correctly while setting things up.\n\n\n### Default Google Maps JavaScript Key\n\n\nDirectoryUp sites also receive a default Google Maps JS key so maps, location fields, and distance searches load during the early setup stage.\n\nTogether, these defaults allows the testing of important pages and workflows immediately after launch.\n\n\n## What to Know About Limitations\n\n\nBecause these are shared test-only credentials, they are not designed for long-term or high-volume use. To keep performance stable for everyone, the following limits apply.\n\n\n### Bulk Geocoder Restrictions\n\n\nBulk geocoding for members or posts is disabled under the test Google Maps key. To use bulk geocoding, replace the test key with your own Google Maps API key in the Admin settings.\n\n\n### Bulk Import Members\n\n\nBulk importing members cannot use the shared test credentials for geocoding or location processing. If the member import includes addresses or relies on Maps-based functions, you’ll need to add your own Google Maps API key before running the import to ensure accurate results and prevent errors during processing.\n\n\n### Bulk Import Posts\n\n\nThe same limitation applies when bulk importing posts. Any post types that require location data — such as events, classifieds, or listings with addresses — will not fully process under the default test key. Adding your own Google Maps API key will allow the import to complete normally and apply correct geocoding.\n\n\n### Not Allowed in Custom Widgets\n\n\nThe shared test keys cannot be used inside custom widgets . If custom functionality needs Google Maps or other related services, add your own API key first.\n\n\n### Usage Limits on the Shared Google Account\n\n\nThe Google Maps test key has strict usage limits. If the site grows or receives increased map activity, a switch to your own Google API key to ensure consistent performance is required.\n\n\n## Add Your Own Keys\n\n\nAs soon as the basic website features are tested, we recommend replacing the default test credentials with your own:\n\n- Connect your own Stripe account before accepting real payments\n\n- Add your own Google Maps API key for full geocoding and map functionality\n\n- Add your own r eCAP TCHA keys for higher traffic or custom form setups\n\nThis ensures the site runs smoothly, supports full functionality, and avoids rate limits.\n\n\n## Why This Update Helps\n\n\nThe goal of this update is to remove friction during the early steps of building a directory. New DirectoryUp users can now:\n\n- Test the signup and payment flow instantly\n\n- See maps and location fields working right away\n\n- Avoid confusion around missing API keys or setup errors\n\nEverything loads out of the box, creating a clear path to start shaping the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171476198/original/6UpgJhITEqk1HDBzqbBrqF5Obo6sv-bHrA.png?1764862987",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'directoryup.com Subdomain Test Credentials' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175730267/original/SdSdtpEtKkfBCk7GQUlHdh5pvknIs3Know.png?1773079088",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'directoryup.com Subdomain Test Credentials' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106813",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106813"
+    },
+    {
+      "text": "Test Stripe Gateway",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080237-getting-stripe-credentials-existing-account#section-stripe-test-and-live-modes"
+    },
+    {
+      "text": "reCAPTCHA",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000019817"
+    },
+    {
+      "text": "Google Maps JS",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000019818"
+    },
+    {
+      "text": "Bulk geocoding",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000044148"
+    },
+    {
+      "text": "custom widgets",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000025507"
+    },
+    {
+      "text": "own Stripe",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078856"
+    },
+    {
+      "text": "Google Maps API",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682639"
+    }
+  ],
+  "lastmod": "2026-03-10T00:03:43+05:30",
+  "scraped_at": "2026-10-18T13:56:59.372757"
+}

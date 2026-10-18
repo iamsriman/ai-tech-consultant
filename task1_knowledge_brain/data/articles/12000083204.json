@@ -1,0 +1,42 @@
+{
+  "article_id": "12000083204",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083204-protect-the-login-page-from-iframe-embeds",
+  "title": "Protect the Login Page From iFrame Embeds",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Protect the Login Page From iFrame Embeds"
+  ],
+  "content": "## Protect the Login Page From iFrame Embeds\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000083204\n\nThis Advanced Setting will protect the Login page ( /login ) from being called from an iframe that is not on the same domain name.\n\nThe purpose of this security setting is to prevent another website from embedding the website login form without proper authorization. We recommend enabling this setting as a security measure.\n\nHowever some sites have a custom integration where the login page is part of additional built-in functionality within another application, in which case we recommend disabling this setting and/or customizing the login widget to modify it for specific customizations.\n\n- System Variable : protect_login_from_iframe",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100362431/original/1InVuCY6iGvfl_HcHalcsBOrT7ieAToRBg.png?1635817182",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Protect the Login Page From iFrame Embeds' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164637827/original/zTy1KXpf1YsXFbtZPuJY2Jk07Lj8UqcV_w.png?1753131347",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Protect the Login Page From iFrame Embeds' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000083204",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083204"
+    }
+  ],
+  "lastmod": "2025-07-22T02:25:51+05:30",
+  "scraped_at": "2026-10-18T13:49:07.149548"
+}

@@ -1,0 +1,69 @@
+{
+  "article_id": "12000110002",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000110002-developer-hub-overview",
+  "title": "Developer Hub Overview",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Developer Hub Overview"
+  ],
+  "content": "## Developer Hub Overview\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000110002\n\nThe Developer Hub gathers the website's advanced tools in one place: API keys and webhooks for connecting other applications, 301 redirects, image size settings, search autosuggest, the robots.txt and .htaccess files, and direct access to the website's database and cPanel.\n\n\n## Opening the Developer Hub\n\n\nClick Developer Hub in the left menu of the Admin area. The page shows one card per tool. Click anywhere on a card, or its button, to open the tool.\n\n\n## The Tools\n\n\n- Manage API Keys : creates the API keys that let outside applications connect to the website, and sets what each key can access. See Developer Hub » Generate and Manage API Keys .\n\n- Manage Webhooks : turns on webhook events and sets the links that website events (form submissions, sign ups, payments and more) are sent to. See Developer Hub - Webhooks .\n\n- 301 Redirect Rules ( Manage Redirects ): sends visitors and search engines from pages that moved to their new address. See 301 Redirects .\n\n- Image Settings ( Edit Image Sizes ): sets the maximum dimensions for images members upload. See Developer Hub » Image Settings .\n\n- Autosuggest Settings ( Manage Autosuggest ): manages the keyword suggestions shown as visitors type in the search bar. See How To Edit Keyword Search Autosuggest Settings For Member Searches .\n\n- Robots.txt File ( Edit Robots.txt ): customizes or resets the website's robots.txt file. See Developer Hub » Robots File .\n\n- HTACCESS File ( Edit HTACCESS ): customizes or resets the website's .htaccess file. See Developer Hub » HTACCESS File .\n\n- MySQL Database ( Open Database ): opens the website's database in a new browser tab. See the MySQL Database articles.\n\n- cPanel Dashboard ( Open cPanel ): opens the website's cPanel in a new browser tab. See the cPanel Dashboard articles.\n\nWhere is the FTP File Manager? The Developer Hub no longer has a separate FTP File Manager card. Files on the website's server are reached through the cPanel Dashboard card.\n\nCards appear according to the admin's role permissions. An admin whose role does not include a tool does not see its card, and when a role includes none of the tools, the page shows No Developer Tools . The Autosuggest Settings card also needs the keyword autosuggest add-on to be active.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186365007/original/DT4sVSDMBlJWdWcZ4dsc9y7I1u7Vsf4USw.png?1791325258",
+      "alt": "Developer Hub with nine numbered tool cards, from Manage API Keys and Manage Webhooks to Open Database and Open cPanel.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Developer Hub Overview' (Developer Hub > Additional Tips & Tutorials): Developer Hub with nine numbered tool cards, from Manage API Keys and Manage Webhooks to Open Database and Open cPanel.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000110002",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000110002"
+    },
+    {
+      "text": "Developer Hub » Generate and Manage API Keys",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088768"
+    },
+    {
+      "text": "Developer Hub - Webhooks",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083005"
+    },
+    {
+      "text": "301 Redirects",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682632"
+    },
+    {
+      "text": "Developer Hub » Image Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019278"
+    },
+    {
+      "text": "How To Edit Keyword Search Autosuggest Settings For Member Searches",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004676"
+    },
+    {
+      "text": "Developer Hub » Robots File",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075850"
+    },
+    {
+      "text": "Developer Hub » HTACCESS File",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047896"
+    },
+    {
+      "text": "MySQL Database",
+      "url": "https://support.brilliantdirectories.com/support/solutions/folders/12000013013"
+    },
+    {
+      "text": "cPanel Dashboard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/folders/12000005726"
+    }
+  ],
+  "lastmod": "2026-10-14T03:16:36+05:30",
+  "scraped_at": "2026-10-18T14:00:17.132587"
+}

@@ -1,0 +1,117 @@
+{
+  "article_id": "12000008873",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008873-how-to-manually-bill-a-member-create-a-subscription-for-a-member",
+  "title": "How To Manually Bill A Member / Create A Subscription For A Member",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "How To Manually Bill A Member / Create A Subscription For A Member"
+  ],
+  "content": "## How To Manually Bill A Member / Create A Subscription For A Member\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000008873\n\nAt any moment, the site can create a subscription (recurring or one-time payment) for a member of the directory. Keep in mind that when someone signs up from the /join page, the system will create the subscription automatically.\n\nHowever, sometimes the owner wants to change the subscription's amount or create a new subscription.\n\nThis is also very beneficial if the site is taking external payments (bank transfers, checks, etc.,) instead of accepting direct payments on the site.\n\n\n## Create a \"New Order\"\n\n\nLog in to the admin area and navigate to Members » Search Members. Locate the member and click on Actions » Payment History:\n\nAt the top right, click on the \"New Order\" button:\n\nFill out the new order form with the subscription details:\n\n- Membership Plan: Select the membership plan of this specific order.\n\n- Billing Cycle: Monthly, Quarterly, Semi-Yearly, and Yearly. (this will depend on the configuration set up in the membership plan)\n\n- Price Override: Type the new amount for this specific order. Leave this option blank if the membership plan doesn't need to be overridden. Enter a price greater than 0.\n\n- Start Billing On: By default, the system will show today's date. However, it can be modified to any date in the future.\n\n- Admin Notes : Add notes for the internal team (See example below).\n\n- Create Order : The system will save and create the order.\n\nConfirm the order by clicking on the \"Submit Order\" button:\n\nThe page should load automatically and the message \"New Order Created\" will appear with an order summary:\n\n\n### Card on File\n\n\nIf the member had a credit card on file and the date selected was today, then the system should collect the payment.\n\nTo verify if the money was taken successfully, click on the \"Transactions\" tab and make sure the status of the order says \"Paid\".\n\nThis payment can also be verified under Finance » Transaction History:\n\nIf the charge couldn't be attempted or there was no card registered to begin with, this means that the credit on file needs to be updated. The unpaid invoice will appear in the \"Past Due\" tab.\n\nWhen the member updates the credit card on file, the unpaid invoice can be attempted manually. There is no need to create a new order.\n\n\n### Manually Collect Payment\n\n\nTo attempt the payment manually, click on Actions » Collect Payment:\n\n\n### Cash or Bank Transfer\n\n\nIf the member paid the invoice by cash or a bank transfer, the invoice can be Marked as Paid at any moment, removing it from the Past Due list.\n\n\n## Refunds\n\n\nHow to refund a member: How Refunds Work\n\n\n## Cancel Subscriptions\n\n\nHow to cancel orders: How Do I Cancel Payment Subscriptions - Orders .\n\n\n## Update Existing Subscriptions\n\n\nHow to update existing member subscriptions: Updating Member Subscriptions",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105106940/original/pInDeb5VwGlz-8bFuZUUaykksmMrK8oxoQ.png?1644979731",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796281/original/ZdnS5XRtDWsGJaMnuKpBY4Rf8NpIQkhHHQ.png?1615345132",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159659893/original/UZcbNfDruWzL6UIv7w3xgamx-L7VcTQdEw.png?1744201826",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796427/original/0kcQtZhxXZxlXyNjbik-osTpfhyqmWk_DA.png?1615345656",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796434/original/O0YWh4Wyw-_02iFYsJr1zA1-FjFOJzwqEg.png?1615345679",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089796451/original/l-H7jn0Eo6jaW3H-t20NFPOjm2bKuqopSA.png?1615345743",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105106951/original/dFKYKYbVl13mq0LV5KDEZgLfO8KE8vErFg.png?1644979799",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105106958/original/uCk77Q6lgySpWtLfpotwd41-3U_c9BTL-Q.png?1644979839",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159662838/original/zntX5WA7tmkmTxyUO1zgdd4ZbVluoxKU_Q.png?1744204627",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Manually Bill A Member / Create A Subscription For A Member' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000008873",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008873"
+    },
+    {
+      "text": "How Refunds Work",
+      "url": "https://support.brilliantdirectories.com/solution/articles/5000674165"
+    },
+    {
+      "text": "How Do I Cancel Payment Subscriptions - Orders",
+      "url": "https://support.brilliantdirectories.com/solution/articles/5000567728"
+    },
+    {
+      "text": "Updating Member Subscriptions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069505"
+    }
+  ],
+  "lastmod": "2026-06-02T22:55:22+05:30",
+  "scraped_at": "2026-10-18T13:40:09.972444"
+}

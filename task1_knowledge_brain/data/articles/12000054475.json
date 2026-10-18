@@ -1,0 +1,23 @@
+{
+  "article_id": "12000054475",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054475-02-15-19-software-updates",
+  "title": "02/15/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/15/19 - Software Updates"
+  ],
+  "content": "## 02/15/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000054475\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing invoices from being downloaded when the Dowloadable PDF Invoices Add-On was active in some cases.\n\n- We improved the logic of the Honey Pot field included in member signup forms for SPAM protection.\n\n- We updated the logic of how member addresses are displayed on Member Search Result pages. Feature Involved: Listing\n\n- We fixed an issue which was causing the Insta-Load functionality to not work properly for the Events tab on Member Profile pages when the Auto-Recurring Events Add-On is active on a site. Widgets Involved: Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Member Profile - Member Tabs lazyLoad Search - Post - Search Query\n\n- We updated the UI of the image upload section when a member adds or edits a post to better support mobile devices. Widgets Involved Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Account - Feature Edit\n\n- We fixed an issue which was causing the Pay Per Post Add-On to not show the correct price when purchasing a Post in some cases.\n\n- We updated the the location suggestions functionality when searching for members by location in the Admin to show the exact same options as the one use when searching for members by location on the front end of a site.\n\n- We updated the \"Admin Account Forgot Password\" logic in order to make it compatible with the most recent Admin Account updates.\n\n- We updated the UI when an Admin clicks the \"Show Widget button\" on the Front-End Admin Bar to only show widgets that are editable.\n\n- We improved the logic of the Visit Website Link in the Admin Area to use the protocol used by the site (http or https) when the button is clicked.\n\n- We fixed an issue which was causing the system to use the default version of a form instead of the custom version of the form when the Bootstrap Theme - Function - Form widget has been customized on a site.\n\n- We fixed an issue which was causing devices in some locations to return a very general result (state or country instead of city) when the Detect Visitors Location Add-On is active. Widget Involved: Bootstrap Theme - Function - Google Location Suggest",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000054475",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054475"
+    }
+  ],
+  "lastmod": "2019-03-09T01:14:20+05:30",
+  "scraped_at": "2026-10-18T13:44:30.604649"
+}

@@ -1,0 +1,64 @@
+{
+  "article_id": "12000004623",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004623-how-to-create-a-newsletter-template",
+  "title": "How To Create A Newsletter Template",
+  "category": "Emails",
+  "folder": "Send Newsletter",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Send Newsletter",
+    "How To Create A Newsletter Template"
+  ],
+  "content": "## How To Create A Newsletter Template\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000004623\n\nThis article explains how to create a newsletter template from the Emails >> Send Newsletter section of the admin area.\n\nNewsletter templates can also be created from Emails >> Email Templates , but this article focuses on creating one directly from the newsletter builder.\n\n\n## Where to Start\n\n\n- Go to Emails >> Send Newsletter .\n\n- Click the New Email Newsletter button.\n\nThe first step is to give the newsletter a name and choose how the newsletter should be created.\n\nThere are three available options:\n\n- Start Blank\n\n- AI Generate\n\n- Select Template\n\n\n## Option 1: Start Blank\n\n\nSelecting Start Blank opens the standard newsletter editor.\n\nThis option is best when the newsletter will be created manually from scratch.\n\n- Enter a name for the newsletter.\n\n- Select Start Blank .\n\n- Click Continue .\n\nThe admin will be taken to the newsletter editor, where the newsletter content can be added, edited, saved, and sent.\n\n\n## Option 2: AI Generate\n\n\nSelecting AI Generate opens the Quick Create Wizard, which helps generate a newsletter using AI. This option is useful when the admin wants help creating the first draft of the newsletter content.\n\nFor complete step-by-step instructions, please see the following article:\n\n- Quick Create Wizard - Create Newsletter\n\nThe Quick Create Wizard allows the admin to:\n\n- Add a custom prompt for the newsletter\n\n- Select options for format, tone, audience, length, images, and color mood\n\n- Use suggested prompts as a starting point\n\n- Review and edit the generated newsletter before saving\n\n- Continue to the standard newsletter editor to make final changes or send the newsletter\n\n\n## Option 3: Select Template\n\n\nSelecting Select Template allows the admin to create a newsletter from an existing saved newsletter template. This option is best when the site already has newsletter templates saved and one of those templates should be reused.\n\n- Enter a name for the newsletter.\n\n- Select Select Template .\n\n- Choose one of the available saved newsletter templates.\n\n- Click Continue .\n\nThe selected template will open in the standard newsletter editor, where the content can be edited and sent.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181469771/original/9MAvZanP2vhkOLRjosgtWIx9MPwMwHCzCw.png?1783117687",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Newsletter Template' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181469822/original/dsTDKx0LdzijbKTOz7P3HlxsXXjwUcNlbA.png?1783117820",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Newsletter Template' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181469851/original/uKT1eUqqi-Hu5nrcXywmmurhrXvnR9w-WQ.png?1783117899",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Newsletter Template' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181469901/original/yvQLuna6FLtLN4sX1iKpW0Ke6bRHh1_0Pw.png?1783118131",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A Newsletter Template' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000004623",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004623"
+    },
+    {
+      "text": "Quick Create Wizard - Create Newsletter",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000106455-quick-create-wizard-create-newsletter"
+    }
+  ],
+  "lastmod": "2026-07-04T04:06:20+05:30",
+  "scraped_at": "2026-10-18T13:39:48.586679"
+}

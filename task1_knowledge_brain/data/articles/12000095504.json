@@ -1,0 +1,105 @@
+{
+  "article_id": "12000095504",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095504-how-to-add-location-fields-to-post-types-like-blog-and-community-articles",
+  "title": "How to Add Location Fields to Post Types Like Blog and Community Articles",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How to Add Location Fields to Post Types Like Blog and Community Articles"
+  ],
+  "content": "## How to Add Location Fields to Post Types Like Blog and Community Articles\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095504\n\nIn this article, we will be going over the steps on how to add location and map fields to post types like blog and community articles.\n\n\n## Editing the Form\n\n\nThe first step is to navigate to Toolbox >> Form Manager and click Customize or Edit on the preferred feature form. In the example below, we used the Blog Article:\n\nNext, add 4 new form fields in the preferred place:\n\nThese 4 new fields should look like the following:\n\n1) Location Map widget\n\nType of Field: Custom HTML\n\nField Label: [widget=Bootstrap Theme  - Form - Member Google Location] Database Variable: not important\n\n2) Latitude Field\n\nType of Field: Hidden Field\n\nField Label: blank Database Variable: lat\n\n3) Longitude Field\n\nType of Field: Hidden Field\n\nField Label: blank Database Variable: lon\n\n4) Address Field\n\nType of Field: Textarea - Paragraph\n\nField Label: %%%location_label%%% Database Variable: post_location\n\nAddtl. Field CSS Class: form-control\n\nSave changes and the location fields will start appearing when publishing/editing the post in the member dashboard area:\n\n\n## Front End Display\n\n\nOnce the information is saved and the Bootstrap Theme - Module - Post Location Map widget is added to the sidebar, the map will display in the details page of the post:\n\n\n## Using the Members Location for Posts\n\n\nIf the post form does not include location fields (lat, lon, etc.), there is a system-level setting called override_post_location that can automatically use the member’s geocoded location for the post.\n\n\n### Important Notes About This Setting:\n\n\n- This is a Super Admin-only setting and is not accessible from the regular admin panel.\n\n- If enabled , and the post form does not contain lat/lon fields , the system will automatically assign the member’s geocoded values (lat, lon, country, state) to the post.\n\n- This setting does not populate the post_location string used by the location map widget. Therefore, a map or location may not display on the post details page unless the proper fields are present in the form.\n\n- If the form does include lat/lon fields, this setting is ignored .\n\nThis setting was originally created to ease the transition to location-based post search and is not currently being expanded.\n\nIf the admin of the website needs to test this setting or have it enabled or disabled, please contact the Brilliant Directories support team.\n\nSet to ON to save the lat and lon (geocode) of a member with their post if the post's form does not have lat and lon fields. Set to OFF to only save a lat and lon for a post if the fields exist in the post's form.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180231408/original/0SQ0HMU0DjoB78mw6mdihfLvC7ay8o06QQ.png?1781132103",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180233435/original/Jrr8wYqA_w5PS6sKwAhzS_c1BrOScvwQSw.png?1781135201",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180233465/original/E2LHujMLAKk9eURNKirX90oPSkGRloRF1Q.png?1781135292",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180233475/original/20brCUauIGDmPATsi-YheqNJcQzLOcMbTQ.png?1781135338",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180233510/original/_5zqvCBy2NwWKhpL7TcU3Jg8F16hzfAPlQ.png?1781135379",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180233650/original/uXQfvbF1DH2q2zfSQ8bxsZXaWF3_7344-g.png?1781135431",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12130406657/original/buS6JgUl7G0QjrrvyYYUW21v8qSIZJTkTg.png?1692990007",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12130406685/original/1SslsAmg9x0PUXy0gGHaFzzmyKC1pN0CkA.png?1692990065",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161691176/original/T4o8msAMERPiihWa5dsTpEbBtwmAD9LHfA.jpeg?1747866560",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Location Fields to Post Types Like Blog and Community Articles' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095504",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095504"
+    }
+  ],
+  "lastmod": "2026-06-11T05:20:50+05:30",
+  "scraped_at": "2026-10-18T13:52:38.167779"
+}

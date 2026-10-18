@@ -1,0 +1,23 @@
+{
+  "article_id": "12000080363",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080363-06-25-21-software-updates",
+  "title": "06/25/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/25/21 - Software Updates"
+  ],
+  "content": "## 06/25/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080363\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from downloading the Sales History report file for the \"Website - Digital Product\" Post Type in the Member Dashboard in some cases.\n\n- We fixed an issue which was preventing the display of images on the details pages of multi-image posts for some iPhone models. Widgets Involved: Bootstrap - Contact Member Category Dropdowns Bootstrap Theme - Photo Album Page\n\n- We added the ability to edit the Member Billing Address from the Member Dashboard when the site uses an external payment gateway like Paypal Express.\n\n- We improved the way the system does SQL queries when loading pages on the frontend of sites to reduce queries and improve page load times.\n\n- We created a new Advanced Setting called \"SPAM Checker - Skip These Form Fields\". Users can use this setting to list the variable names of fields they would like to exclude from being checked for SPAM when forms are submitted from the frontend of their site.\n\n- Forms used for Posts in the Member Dashboard are now fully compatible with the Website Currency settings. Widgets Involved: Bootstrap Theme - Group Post Form Patch Bootstrap Theme - Jobs Form Patch\n\n- We fixed an issue which was preventing the system from loading static web pages on the frontend of sites in some cases.\n\n- We updated the \"Select Call to Action\" Design Setting field to be a searchable dropdown in the Homepage tab on the Design Settings page in the Admin.\n\n- We fixed an issue which was preventing Admins from updating a member's credit card information from the Admin when the site does not have an SSL certificate installed.\n\n- We updated the Admin login page to prevent it from being placed in an iframe on a 3rd party website.\n\n- We updated the SQL queries done on member search results pages in order to speed up the loading time of these pages. Posty Type Involved: Listing\n\n- We fixed an issue which was preventing the system from saving checkbox fields in the Member Dashboard area when the field's value contained an apostrophe as part of the name.\n\n- We updated the design of the Reviews tab in order to move the \"Click to Load More Results\" button above the \"Write a Review\" button link on member profile pages. Widgets Involved: Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Member Profile - Member Tabs lazyLoad\n\n- We fixed an issue which was affecting the ability to select member category images when the image is inside of a sub-folder in the Media Manager.\n\n- We updated the UI when editing or creating new Checkbox and Dropdown form fields in the Form Manager in the Admin.\n\n- The \"Select Language\" placeholder text of the Google Website Translator Add-On is now a text label.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080363",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080363"
+    }
+  ],
+  "lastmod": "2021-06-28T20:52:53+05:30",
+  "scraped_at": "2026-10-18T13:48:44.766005"
+}

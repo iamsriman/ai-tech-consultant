@@ -1,0 +1,86 @@
+{
+  "article_id": "12000088694",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088694-import-301-redirects-via-csv-file",
+  "title": "Import 301 Redirects via CSV file",
+  "category": "Developer Hub",
+  "folder": "301 Redirects",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "301 Redirects",
+    "Import 301 Redirects via CSV file"
+  ],
+  "content": "## Import 301 Redirects via CSV file\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088694\n\nWhen migrating a website to a new platform, URL structures often change. It is best practice to implement permanent (301) redirects from the previous URLs of important pages to their corresponding new destinations.\n\nThe platform supports bulk import of redirect rules using a CSV file.\n\n\n## Preparing the Import File\n\n\nCreate a CSV file containing each redirect to be applied. At minimum, this file must include two columns:\n\n- source_url — the original URL that requires redirection\n\n- destination_url — the target URL to which the original should redirect\n\nThe CSV may include additional optional columns intended for developer reference only (e.g., type, db_id). These are not required for successful import.\n\nExamples of values used by the optional type column include:\n\n\"type\" Field Description admin Manually created 301 redirects through the admin dashboard. data_post Single Image Post Type redirect list_services Sub/sub-sub category page redirect list_professions Top category page redirect photo_group Multiple Image Post Type redirect profile Member Profile redirect\n\nImportant Note : For type \" import\" can also be specified to identify which redirects were imported and which ones were created by the system.\n\nPlease see the sample CSV file attached here .\n\n\n## Starting From an Export\n\n\nThe Export CSV button on the 301 Redirect Rules page downloads the redirects currently shown, with any search and filters applied, in the same columns the import reads. An export makes a convenient starting file: edit or add rows, then import it.\n\n- Import CSV : opens the import dialog.\n\n- Export CSV : downloads the redirects shown in the list as a CSV file.\n\n\n## Uploading the File\n\n\n- Go to Developer Hub and click Manage Redirects on the 301 Redirect Rules card.\n\n- Click Import CSV . The Import CSV File dialog opens.\n\n- Drag the CSV file onto the dialog, or click browse and choose it. Files up to 10 MB and 50,000 rows are accepted.\n\n- The dialog checks the file before anything is imported and shows its size and number of rows. Replace picks a different file and Remove clears it. If the headings are missing or the file cannot be used, the problem is shown here instead.\n\n- Click Import CSV .\n\n- The column rules: the first row holds the headings, source_url and destination_url are required, and type and db_id are optional.\n\n- The drop area. Click browse to choose the file instead of dragging it.\n\n- The checked file, with its size and number of rows.\n\n- Import CSV starts the import. It stays disabled until the file passes the check.\n\n\n## Reading the Import Report\n\n\nWhen the import finishes, a report shows how many redirect rules were imported, and the list behind it refreshes. Rows that could not be imported are skipped, and the report gives the reason for each one, EG:\n\n- The source already has a redirect rule (or appears twice in the file).\n\n- source_url or destination_url is empty.\n\n- source_url is a full address instead of a path on the website, like old-page .\n\n- source_url and destination_url are the same.\n\n- The address holds characters a web address cannot contain, such as quotes or angle brackets.\n\nColumns the import does not recognize are ignored, and the report lists them under Columns not imported .\n\n- The reasons rows were skipped, by row number in the file.\n\n- Download Skipped Rows saves a CSV of just the skipped rows (row number, source_url, destination_url and the reason). Fix those rows and import the downloaded file again.\n\nImported rules with no type in the file are given the type import , which keeps them apart from redirects the system created.\n\nNote. The import runs as one batch: if a row cannot be saved partway through, no rows from that file are added, and the report asks for that row to be checked before the file is imported again.\n\nTo verify many redirects at once, an external HTTP status checker such as https://httpstatus.io/ can be used.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370592/original/lcBl_chWWaXdDbX7zwWaW_CaRjfgEf4XPw.png?1791335044",
+      "alt": "The sample redirect CSV open in Google Sheets with the required source_url and destination_url columns highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Import 301 Redirects via CSV file' (Developer Hub > 301 Redirects): The sample redirect CSV open in Google Sheets with the required source_url and destination_url columns highlighted.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370591/original/G7gwlpdizVDNRQht_XX9Zuz6p9onblc4Qg.png?1791335043",
+      "alt": "The sample redirect CSV open in Google Sheets with the optional type and db_id columns highlighted, both marked not required (developer use).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Import 301 Redirects via CSV file' (Developer Hub > 301 Redirects): The sample redirect CSV open in Google Sheets with the optional type and db_id columns highlighted, both marked not required (developer use).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186365000/original/bG_AqiADQFN0sIYYgyiPCcgNnf8Cby0MSA.png?1791325251",
+      "alt": "301 Redirect Rules page with the Import CSV button (1) and the download icon for exporting the shown redirects as CSV (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Import 301 Redirects via CSV file' (Developer Hub > 301 Redirects): 301 Redirect Rules page with the Import CSV button (1) and the download icon for exporting the shown redirects as CSV (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186365001/original/eu5caqPsg1GmcPIfU0bUDsJ7FKZl8NQ3tg.png?1791325252",
+      "alt": "Import CSV File dialog with the column rules (1) and the drag and drop area with a browse link (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Import 301 Redirects via CSV file' (Developer Hub > 301 Redirects): Import CSV File dialog with the column rules (1) and the drag and drop area with a browse link (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186365002/original/UmGilvusVbpTcp1BRb6Q_pjZTC2wRn_3xg.png?1791325253",
+      "alt": "Import CSV File dialog showing the chosen file with its size and row count (1) and the Import CSV button (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Import 301 Redirects via CSV file' (Developer Hub > 301 Redirects): Import CSV File dialog showing the chosen file with its size and row count (1) and the Import CSV button (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186365003/original/b0u-Eahaui3owWUsRZ-0uR8G2Fl6KhqGUQ.png?1791325254",
+      "alt": "No Redirect Rules Imported report listing skipped rows and their reasons (1) with a Download Skipped Rows button (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Import 301 Redirects via CSV file' (Developer Hub > 301 Redirects): No Redirect Rules Imported report listing skipped rows and their reasons (1) with a Download Skipped Rows button (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088694",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088694"
+    },
+    {
+      "text": "attached here",
+      "url": "https://support.brilliantdirectories.com/helpdesk/attachments/12112008468"
+    },
+    {
+      "text": "https://httpstatus.io/",
+      "url": "https://httpstatus.io/"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:18+05:30",
+  "scraped_at": "2026-10-18T13:49:59.606000"
+}

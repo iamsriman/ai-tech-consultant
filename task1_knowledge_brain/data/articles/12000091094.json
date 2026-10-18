@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091094",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091094-11-25-22-software-updates",
+  "title": "11/25/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/25/22 - Software Updates"
+  ],
+  "content": "## 11/25/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091094\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the new Domain Manager page in the Admin to implement some minor fixes to validations in several places.\n\n- We updated the Automatic Lead Matching Add-On to prevent lead submissions that don't have at least a category or location to for automatching.\n\n- We fixed an issue which was causing the leads to not have a top category assigned when the top level category dropdown is hidden in the leads form.\n\n- We fixed an issue with the Menu Manager that was preventing items from being cloned when first customizing a menu.\n\n- We fixed an issue which was preventing the system from correctly displaying items selected in custom Checkbox fields in some cases.\n\n- We updated the Easy Coupon Codes Add-On to skip form field validation when a billing form field has been set as mandatory but is no longer visible after applying a 100% coupon code during the signup process.\n\n- We fixed an issue which was causing the system to display \"NaN\" in the pagination links when filtering Sub and Sub Sub Categories on the Member Categories page in the Admin.\n\n- We fixed an issue with the Sub Sub Dynamic Category Filtering Add-On which was causing the system to redirect to the incorrect URL after using the search filter in some cases.\n\n- We updated the Auto-Recurring Events Add-On to support the \"Search Results Priority\" Membership Plan setting when viewing Event search results.\n\n- We updated the RSS Feed for Posts Add-On in order to support symbols and special characters in the post body.\n\n- We fixed an issue which was preventing the system from sending the Admin Email Notification after a user submits the form for a Multi-Image Post Type from the Member Dashboard in some cases.\n\n- We updated the Activity Tracker to log the correct error message when a paid signup using a credit card with 3D secure fails.\n\n- We updated the Facebook and Google Social One-Click Login and the Facebook Website Chat Add-Ons in order to load the JS files after the page loads. This will help reduce page load times and increase scores in 3rd party tools like Google Pagespeed. Widget Involved: Bootstrap Theme Framework",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091094",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091094"
+    }
+  ],
+  "lastmod": "2022-11-28T23:38:13+05:30",
+  "scraped_at": "2026-10-18T13:50:29.522521"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000060277",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060277-08-09-19-software-updates",
+  "title": "08/09/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/09/19 - Software Updates"
+  ],
+  "content": "## 08/09/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000060277\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented an update to the Preferred Reply Day and Preferred Reply Time fields in the \"Website - Lead Form - Get Matched\" form in order to make them fully editable from the Form Manager. Widgets Involved: Bootstrap Theme - Form - Lead Prefer Reply Day Bootstrap Theme - Form - Lead Prefer Reply Time\n\n- We fixed an issue with the canonical link added to the <head> section of /checkout pages to make it more accurate. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was causing the breadcrumb on member profile pages to show the \"Profession Name\" of the website when the member had not yet selected a Top Level Category. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- We fixed an issue with the \"Write a Review\" and \"Send a Message\" pages linked from member profile pages which was causing the breadcrumbs to show the member's country name twice when the member had not selected a city in some cases.\n\n- We implemented a security update to the leads section of the member dashboard to re-confirm a lead had been matched to a member before showing the details of the lead. Widgets Involved: Bootstrap Theme - Account - Leads Bootstrap Theme - Account - Leads - New Lead System Bootstrap Theme - Account - Leads - New Lead System DataTables\n\n- We moved the \"Members-Only\" setting, price slider fields, and \"Post Limit notification\" fields to a new section called \"Additional Settings\" on the \"Edit Post Type\" page in the Admin.\n\n- We improved the way that the system determines the completeness of the various member information tabs in the member dashboard.  Now a tab will be considered complete if all of the required fields in the form used for the tab have been filled with information.  If the form does not have any required fields, it makes sure that at least one of the fields in the form has been filled with information. Widgets Involved: Bootstrap Theme - Account - Checklist Wizard Bootstrap Theme - Account - Member Dashboard\n\n- We fixed an issue which was causing the member dashboard to show a blank page when a site has set the same form to be used in multiple tabs for the member's Product.\n\n- We added the ability to display multiple Form Manager forms in the same widget or page body on the frontend of sites. Widgets Involved: Bootstrap - Contact Member Category Dropdowns Bootstrap Theme - Function - Form Bootstrap Theme - Function - Google ReCaptcha on Sign up Page Bootstrap - contact member lead map\n\n- We made an update to the sidebar used in the member dashboard to display a counter next to the \"Sub Accounts\" item.  This will display the number of Sub-Accounts the member has under their account.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000060277",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060277"
+    },
+    {
+      "text": "",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/1455/updated-form-logic-so-you-can-have/diff#chg-Bootstrap%20Theme%20-%20Function%20-%20Form%20%28ID%201952%29/html.php"
+    }
+  ],
+  "lastmod": "2024-05-09T11:31:04+05:30",
+  "scraped_at": "2026-10-18T13:45:23.977454"
+}

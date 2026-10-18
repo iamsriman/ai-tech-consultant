@@ -1,0 +1,397 @@
+{
+  "article_id": "12000100253",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100253-instant-business-data",
+  "title": "Instant Business Data",
+  "category": "Additional Services",
+  "folder": "Additional Services",
+  "breadcrumbs": [
+    "Solution home",
+    "Additional Services",
+    "Instant Business Data"
+  ],
+  "content": "## Instant Business Data\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100253\n\nRapidly populate the directory with relevant, up-to-date business records. The Instant Business Data service enables the ability to search for businesses by industry, location, and other criteria, then instantly import them to the website as listings.\n\nEVERY BD SITE STARTS WITH 100 FREE CREDITS!\n\nKey Features & Benefits :\n\n- Instantly populate the directory with business listings\n\n- Choose businesses based on Category and Location\n\n- Immediate content boost for new and existing websites\n\n- Helps any website appear more established and credible\n\n- Enormous cost-savings compared to other data providers\n\n```\nGet This Boost Visit our website: Instant Business Data\n```\n\n\n## Business Import Credits\n\n\nBusiness Import Credits serve as the key to acquiring individual records, with these credits being offered in a range of quantities. Each purchase, whether it's 1,000 or 10,000 credits, is designed to cater to different business needs, ensuring flexibility and scalability.\n\nWhen a user opts to purchase, say, 10,000 business imports, these credits are then allocated to one of their owned websites. This streamlined process allows for efficient management and application of the credits, ensuring that the website benefits directly from the import capabilities.\n\nEVERY BD SITE STARTS WITH 100 FREE CREDITS!\n\nADD 1,000 CREDITS ADD 5,000 CREDITS ADD 10,000 CREDITS ADD 25,000 CREDITS\n\n\n### Data Accuracy Disclosure\n\n\n- The business data importer tool strives to provide accurate data.\n\n- The purpose of this tool is to add business listings so the site appears populated and established.\n\n- Due to the dynamic nature of business data, some details, such as logo images, may be unavailable .\n\n- This tool is not intended as a source for email addresses. If available, emails are not guaranteed to work.\n\n- To conserve credits, the system skips duplicate records already imported by this tool , but not from other sources.\n\n- To ensure the data meets the website's needs, test with a smaller import of 10 records first before initiating larger imports.\n\n\n## Importing Business Data\n\n\nImport data directly from the admin dashboard once the credits have been added to the website.\n\n- Go to My Members\n\n- Click on Business Data\n\n\n### Import Credits\n\n\nAdd Import Credits on this page, the button will redirect to the following URL: Add Instant Business Data Credits\n\n\n### Filters\n\n\nWithin this tab, users can search for records that align with any Business Category in any Location. Each click refines the search, progressively narrowing the sample size of the results.\n\nThe resulting records will be displayed on the same page, providing a seamless and convenient user experience.\n\n\n### Select Business Category\n\n\nThis filter allows admins to select from Main and Specific categories using the drop downs.\n\nMain Category Specific Category Match Options\n\nThere are two additional filter options for the categories that can focus or broaden the results.\n\n- Primary Category Match *Focused Search *Fewer Results : This search option narrows results to only include businesses listed under a specific primary category. For example, when searching for \"Pizza Restaurant,\" only businesses with \"Pizza Restaurant\" as their primary category will be found. Use this option for precise and targeted search results.\n\n- R elated Category Match *Broader Search *More Results : This search option expands results by including businesses in both the primary and related categories. For example, a business listed under \"Pizza Restaurant\" may also appear in searches for \"Restaurant\" or \"Pizza Shop.\" Choose this option to find a wider range of related businesses.\n\n\n### Business Name\n\n\nThis is an optional filter and there are 3 additional options.\n\n- Exact Name Match: Finds exact name matches only.\n\n- Partial Name Match : Finds names containing the keyword.\n\n- Does Not Match: Excludes names with the keyword.\n\n\n### Enter Location/Region\n\n\nThe location search is powered by Google making it easy and convenient to search all regions. If the website language is different than english, a checkbox option has been added to enable searching in the website's language, providing more comprehensive results based on the commonly used language versions in specific regions.:\n\nImportant: To get results only from a specific location, enter the EXACT postal code or city name. Searching by country or state will return results from the entire area. Searching by county is only supported for the USA, for other countries a pop-up will show indicating to enter a specific location.\n\nFor locations in Taiwan , we encourage to search for zip codes or the entire country. Searching for cities will return a warning modal:\n\n\" Specific Location Required: For Taiwan, please input a specific postal code location for the most accurate results. Cities, counties, and states are not supported at this time. \"\n\nIt is required to select a Google Location Suggestion in order to search.\n\nIf a location is typed in without a Google suggestion being selected, an error message will appear:\n\n\"INVALID LOCATION: Enter a proper postal code, city or state, AND THEN select an option from the suggestions.\"\n\nTo ensure satisfaction with results, test imports with 10 credits first.\n\n\n### Preferred Attributes\n\n\nSelect the preferred attributes to be included. Please note that while the system will attempt to include all details, some attributes may not always be available.\n\n- Email Address\n\n- Phone Number\n\n- Website URL\n\n- Updated Last 30 Days\n\n\n### Duplicate Company Name Handling\n\n\nThe Duplicate Company Name Handling option, located under Preferred Attributes, helps prevent duplicate business listings during imports. When enabled, the admin can choose how duplicate company names are handled before records are imported.\n\nChoose one of the following options:\n\n- Import All Records (Allow Duplicate Names) (Default) – Imports all matching businesses, including duplicate company names.\n\n- Skip If Company Name Already Exists on Website – Checks the website for an existing business with the same company name and skips importing duplicate matches.\n\n- Prevent Duplicate Names Within This Import Only – Prevents duplicate company names from being imported more than once during the current import session.\n\nIf two businesses with the same company name were imported into the directory. Although they have different coordinates, they appear as duplicate listings.\n\nBy selecting Skip If Company Name Already Exists on Website, businesses with a company name that already exists on the website will be skipped during future imports, helping reduce duplicate listings and minimizing cleanup after bulk imports.\n\nNote: Duplicate detection is based on an exact, case-insensitive company name match. Businesses skipped because of duplicate names are not imported and do not consume Business Data credits .\n\n\n## Search for Records\n\n\nOnce the records have been narrowed down using the filters, the system can complete the search:\n\n- Click on \" Search for Records \"\n\n- Scroll down to see the results\n\n- Two options will be available: \" Go Back \" or \" Continue to Import Settings \"\n\nThe results will display the number of credits available and will allow the user to select how many of the records to import:\n\n\n### Review & Import Records\n\n\nThe results available will need to be reviewed before completing the import.\n\n- Total Records Found : Displays the total number of records detected and available for import from the uploaded data.\n\n- Import Credits Available : Indicates the number of records that can be imported based on the credits currently available on the account.\n\n- Maximum Imports : Shows the maximum number of records permitted in this import batch, determined by the available credits.\n\n- How many records to import? : Specify the number of records to include in this import. The selected amount cannot exceed the maximum allowed.\n\n- \" Continue to Import --> \": Starts the import process for the selected records.\n\n\n### Import Settings\n\n\nThe Import Settings include:\n\n\n### Assign Records to a Membership Plan\n\n\nSelect from the existing plans\n\n\n### Set Member Status\n\n\nActive or Inactive\n\n\n### Assign Tag to Identify Members After Import\n\n\nCreate and assign a new tag if needed.\n\nAssign Members to a Category\n\nThe system can add these new members to one of the following options\n\n- Assign Members to Existing Category (No New Category Created)\n\n- Create a Top Category (If Name Does Not Exist)\n\n- Create Sub or Sub-Sub Categories (If Name Does Not Exist)\n\nThe category that was searched won't be automatically created in the directory unless the create top or sub / sub-sub categories is selected.\n\n\n### Confirm Import\n\n\nOnce the settings have been defined, complete the import:\n\nConfirm the Data Import :\n\nThe system will generate an Import Summary:\n\nClicking on \" View Import Progress \" will redirect the users to the My Imports tab.\n\n\n## My Imports\n\n\nThis tab shows the results of all queued, processing, and completed imports.\n\nQueued and processing imports appear at the top, while completed imports are listed in descending order based on the import ID.\n\nThis includes:\n\n- Import ID : Displays the unique identifier assigned to each import batch.\n\n- Actions : View Records & Download List\n\n- Status : Indicates the current state of the import, such as processing, complete, or available for reimport.\n\n- Criteria : Summarizes the filters and data points used to generate the import, including category and location.\n\n- Find Logos : Shows the progress of the logo retrieval task for the imported records.\n\n- Geocode Records : Displays the status of converting record addresses into map-ready geographic coordinates.\n\n- Total Completed Imports : Reflects the number of records successfully imported compared to the total requested.\n\nNOTE: Once the import is in the queue it's ok to continue with other tasks in the admin, the import will continue processing in the background.\n\n\n### Sort Filters\n\n\nUse the available filters and search tools to quickly locate, sort, and manage import records.\n\n- Sort By : Organizes import records based on the selected criteria, such as ID, date, or record volume.\n\n- ID or Keyword : Searches for imports using a specific import ID or related keyword.\n\n- Location Name : Filters imports by the location associated with the records.\n\n- Assigned Category : Displays imports mapped to a specific category.\n\n- Any Status : Filters imports by their current progress, including complete, processing, or reimport availability.\n\n- Filter by Date : Limits results to imports created within a selected date range.\n\nSelect Reset at any time to clear the filters and return to the full list before running a new search.\n\n\n### View Records\n\n\nClicking on \" View Records \" will display the imported members in the Search Members list:\n\n\n### Download List\n\n\nThe\"Download List\" option allows to export the results into a .csv file.\n\n\n### Reimport Data\n\n\nWhen previously imported data has been deleted from the site for whatever reasons, a button with the option to \"Reimport Data\" will appear in the Status column:\n\nWhen reimporting data, the system will prompt the admin to assign the categories once more. . If category options are available, all three levels can be assigned.\n\nOnce the categories have been selected, the data will import again:\n\n\n### About Me\n\n\nTo help with SEO and avoid duplicate content warnings, a unique content blurb about the business is included with each record.\n\n\n### Important Note\n\n\n- The system does not import images for members assigned to a plan that does not support logo or profile photos.\n\n\n## Data Search Tips\n\n\nThis video provides a step-by-step guide on how to find more business records, offering practical tips and tools to enhance search results and uncover additional data: Find More Business Records – Instant Business Data Search Tips\n\n\n## FAQ\n\n\n- Where is the data from and how is it sourced? We’ve partnered with data providers that aggregate business information from various public and commercial sources worldwide. Our providers use advanced technologies and methodologies to compile this information, ensuring its accuracy and relevance.\n\n- Is the data safe to use? Yes, the data is safe to use. Our data providers adhere to strict data privacy and security standards to ensure that all information is handled responsibly and ethically.\n\n- How often is the data updated? The data is updated regularly to ensure that you have the most current information available. The frequency of updates varies depending on the source, but our providers strive to keep the data as up-to-date as possible.\n\n- Is the data always 100% accurate? While we strive to provide the most accurate and up-to-date information, minor discrepancies may sometimes exist due to the dynamic nature of business data. If you encounter widespread issues with the data, please contact our customer support team for assistance.\n\n- What types of businesses are included in the listings? Our listings cover over 5,000 business categories from worldwide locations, ensuring comprehensive coverage for various industries.\n\n- How do I integrate the data into my site? Integrating the data is simple and efficient. The system will automatically add the business data as listings on your site with just a few clicks. Additionally, the data can be exported and used in other ways to suit your needs.\n\n- Are email addresses included? While email addresses are not guaranteed to be included, they may occasionally be found and included with the data.\n\n- What if a business doesn’t want to be listed on my site? If a business you’ve imported requests to be removed from your site, it’s best practice to comply with the request and remove the listing. This helps create a safe, transparent, and respectful experience for everyone involved.\n\n- Why didn’t all my data get imported? Business Data import records will be skipped if they have already been imported or if the email field contains a Facebook link instead of a valid email address.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144594561/original/EEktjM9d5YImdoPAq1e2jmHV9YFQz6dtQA.png?1718044217",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144594585/original/kVUVqUI-YcxSXt_71MwbE_DfIInkKKU4fQ.png?1718044254",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144594654/original/5ofspsJhg6_ITEhyhIuLtsUMqsGRe6LJmw.png?1718044277",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144595333/original/lvQAExL45jXXm7XLl55Wwg1HZ7YUCoDW3w.png?1718044933",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525196/original/iFxNLWul-EFU9F5a14RMFXDt0ptb5yrhow.png?1770779708",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174524875/original/GDrFRTmGfZx5YyU0hcbNc1id2z_GhpIImw.png?1770778965",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174524911/original/benpgfE1siutGqdmcN5gJ6Yke_6hvwXLtA.png?1770779019",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525042/original/SFGbayBlSjbqok0ZC8sNeaWX7xIo11mQ6w.png?1770779201",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525126/original/9VEKDK9a-zTfbcGXHRBp4PhmfYEGHLDk_g.png?1770779438",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525127/original/XYr_Oyym0Mu5r6Pdp_SfabfzJ1kHqJKqcw.png?1770779445",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525189/original/zMD1TG-AUnlhGns1Xpn7U1PlOp23ki0aCw.png?1770779631",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525121/original/UsZDP-9GMdZljzGB-Wdl2VhXKlKnSDIj9A.png?1770779380",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525048/original/LXPMOwGwOsB8rd9IckelX_dShAnEt3ehJw.png?1770779251",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525051/original/Ixntnpi4gwGVa5mdwF8dkDLC-hw4UhMP7w.png?1770779299",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525118/original/sHdfNdjAwnEyTx_8EGnk0JrX0hfc9lmDYw.png?1770779328",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525207/original/EGaOG9-iJLdWbuY0pyIdcz4HIGYJQ7ZDTA.png?1770779764",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183192764/original/zI3-sxmG5LjBt455pXiDESICCIUQn5C5EQ.png?1785963170",
+      "alt": null,
+      "caption": "Context: TheDuplicate Company Name Handlingoption, located under Preferred Attributes, helps prevent duplicate business listings during imports. When enabled, the admin can choose how duplicate company names a",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'. Context: Context: TheDuplicate Company Name Handlingoption, located under Preferred Attributes, helps prevent duplicate business listings during imports. When enabled, the admin can choose how duplicate company names a",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183192002/original/TJj1NbErmqmMnLZCdDEfic9pBvBeHn1IbQ.png?1785961860",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525233/original/pfcmr-sO6uBwa2aOnEUAVal7OzakmF4LzA.png?1770779843",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525329/original/xG91SwX1wXxYXH8i2dZacjNkahBBTmGirg.png?1770780192",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525332/original/48FxEji2xws_X2fQzjTbhe8-w1X_OPZrZA.png?1770780215",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159978815/original/Cgh3z9s2UEAqQAuUdX2VXqzjQ12r55ETmQ.png?1744760901",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144618125/original/xhNKYSRFWTZH9EdN3aDewQmV967XzKpwYQ.png?1718073447",
+      "alt": null,
+      "caption": "Select from the existing plans",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'. Context: Select from the existing plans",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144618148/original/Sc0U1eY0ZU84O1iYdtsW9Oc_G-3wmD8h7w.png?1718073453",
+      "alt": null,
+      "caption": "Context: Active or Inactive",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'. Context: Context: Active or Inactive",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144618156/original/AarbGUODvSt7MKx-ZOw38eEiQyebNFDOyA.png?1718073469",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159978880/original/TrkGpGrBouyyNhUCo3n_DkyQLvGpzia9Hw.png?1744761102",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159978911/original/t9jG6fJblyWjOO4POyyS2KkWwb6zZwx1aA.png?1744761220",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525471/original/aD3IP_rxQ4it4UPvVXEUw37EEAs5-SdavQ.png?1770780583",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525474/original/cf-KP2SWrL6ZKcJybB9cfEdFVs1It4g8dw.png?1770780610",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525493/original/f-4SPz8-ugdtSPuVMig47LPVSmTz9tiigA.png?1770780712",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525576/original/QVfbr6381Asj3JRuDDXKArRoo3-Dltvc4w.png?1770781130",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165831251/original/H1aGcPd1tEx4rH7IEZapdf27lVpihLNVOA.png?1755133790",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525531/original/ZidkInQyvbIgrmJQcrx_matIeupcqmMSQQ.png?1770780820",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174525555/original/Ott1LFufrGTF5dCO9XKiQJYpBH4FskTC6g.png?1770780953",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162980871/original/kHxG2-NZFYWy4ZFxpCivO7EsR9hZHAmyQA.png?1750176257",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162981236/original/YxtccMcR7p_lCO4EwuFUc05OlduQDJTWRw.png?1750176575",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162981288/original/diBZVUS4lR3xIkbtgJ0f6lOApTCirGCt8A.png?1750176640",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146431308/original/SePnxfOP2MqJclajtQegvmkso9_R8Xg65Q.png?1721150947",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Instant Business Data' in section 'Additional Services' / 'Additional Services'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100253",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100253"
+    },
+    {
+      "text": "Instant Business Data",
+      "url": "https://www.brilliantdirectories.com/instant-business-data"
+    },
+    {
+      "text": "ADD 1,000 CREDITS",
+      "url": "https://directory.brilliantdirectories.com/payment/5747?_gl=1*6ondtj*_gcl_au*MTM2MDIxMTA1MS4xNzEwODUzNzUw*_ga*MTk4ODMwMzU1NS4xNzAxNzIxMTQy*_ga_JML6VZ4G2S*MTcxODAzODUwMi4yNjIuMC4xNzE4MDM4NTAyLjYwLjAuMA.."
+    },
+    {
+      "text": "ADD 5,000 CREDITS",
+      "url": "https://directory.brilliantdirectories.com/checkout/5748?show=next-step&nb=NThUR2NZMUxFemMyR3ZxRlFYb1lLK1IvNGp0bElVQXlGYW03d210ZnRzRFJiMlp1K21walZieFFra01hWG13UQ==|||081a6d161bed767b7f800821d328e7a34bd3aa8de799a0a8df8210542c1761d4#step-2-title"
+    },
+    {
+      "text": "ADD 10,000 CREDITS",
+      "url": "https://directory.brilliantdirectories.com/checkout/5749?show=next-step&nb=ai9RVzUwMld4T3ZTc0JvUXlRSkl0ZmR3Z29YR2VZTHZaVHR4TTV1dHUwUFppSEdtTUhCT3ZVazFlOVJkaDhxVw==|||a8b5438c33ecec2325ffbf099b91d4fc446af3ff9dba4f4360544263daa70dc0#step-2-title"
+    },
+    {
+      "text": "ADD 25,000 CREDITS",
+      "url": "https://directory.brilliantdirectories.com/checkout/5750?_gl=1*wub64j*_gcl_au*MTM2MDIxMTA1MS4xNzEwODUzNzUw*_ga*MTk4ODMwMzU1NS4xNzAxNzIxMTQy*_ga_JML6VZ4G2S*MTcxODA1MTI5Mi4yNjQuMS4xNzE4MDUyMzgwLjU5LjAuMA..&"
+    },
+    {
+      "text": "Add Instant Business Data Credits",
+      "url": "https://www.brilliantdirectories.com/instant-business-data"
+    },
+    {
+      "text": "export the results",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000039479"
+    },
+    {
+      "text": "Find More Business Records – Instant Business Data Search Tips",
+      "url": "https://www.brilliantdirectories.com/blog/find-more-business-records-instant-business-data-search-tips"
+    }
+  ],
+  "lastmod": "2026-08-11T04:45:18+05:30",
+  "scraped_at": "2026-10-18T13:54:19.975663"
+}

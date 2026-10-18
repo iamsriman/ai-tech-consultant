@@ -1,0 +1,189 @@
+{
+  "article_id": "12000070238",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070238-emails-newsletter-overview",
+  "title": "Emails » Newsletter Overview",
+  "category": "Emails",
+  "folder": "Send Newsletter",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Send Newsletter",
+    "Emails » Newsletter Overview"
+  ],
+  "content": "## Emails » Newsletter Overview\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000070238\n\nThis article explains how to use the Emails >> Send Newsletter section of the admin area to manage email newsletter campaigns, review campaign statuses, view statistics, filter newsletters, and access available campaign actions.\n\nThe newsletter overview page displays all email newsletter campaigns in one place, including drafts, scheduled newsletters, newsletters currently sending, sent newsletters, and cancelled campaigns.\n\n\n## Send Newsletter Page\n\n\n- Go to Emails >> Send Newsletter .\n\nThis page displays the full newsletter campaign table, along with campaign filters, status labels, statistics, and action buttons.\n\n\n## Emailing Best Practices Notice\n\n\nAt the top of the page, an Emailing Best Practices notice may display.\n\nThis notice reminds admins that the newsletter tool should be used for emailing real members and contacts who have opted in to receive emails. The newsletter tool is not intended for cold prospects, purchased lists, or recipients who have not opted in.\n\nImportant: High bounce rates or spam complaint rates may result in loss of access to this feature.\n\n\n## Create a New Newsletter\n\n\nTo create a new newsletter campaign, click the New Email Newsletter button.\n\nThis opens the newsletter creation process, where a new campaign can be created from scratch, generated with AI, or created from an existing template.\n\nFor full instructions, please see the following article:\n\n- Emails >> Send Newsletter >> New Email Newsletter\n\n\n## Refresh the Newsletter Table\n\n\nClick the Refresh Table button to reload the newsletter overview table.\n\nThis is useful when checking for updated campaign statistics, status changes, or newly created campaigns.\n\n\n## Newsletter Table Overview\n\n\nThe newsletter overview table includes the main details for each campaign.\n\nThe table may include the following columns:\n\n- Actions\n\n- Campaign Name\n\n- Total Size\n\n- Delivered\n\n- Failed\n\n- Opened\n\n- Clicked\n\n\n### Campaign Name\n\n\nThe Campaign Name column displays the name of the newsletter campaign.\n\nThis section may also display the campaign ID, created date, and sent date. Campaign names help admins identify newsletters in the overview table, especially when multiple newsletters have been created or sent over time.\n\n\n### Total Size\n\n\nThe Total Size column displays the total number of recipients included in the newsletter campaign.\n\nThe number shown in this column is clickable. Clicking the number opens a statistics screen that shows the recipients included in that campaign group.\n\nThe statistics screen can display recipient details such as:\n\n- Email address\n\n- Member ID\n\n- Smart List association\n\n- Recipient status details\n\n\n### Delivered\n\n\nThe Delivered column displays how many recipients successfully received the newsletter campaign.\n\nThe number shown in this column is clickable. Clicking the number opens the recipient statistics screen for the delivered recipients.\n\n\n### Failed\n\n\nThe Failed column displays how many newsletter emails failed to deliver.\n\nThe number shown in this column is clickable. Clicking the number opens the recipient statistics screen for the failed recipients.\n\nFailed delivery statuses may include delivery issues such as bounced emails or rejected emails.\n\n\n### Opened\n\n\nThe Opened column displays how many recipients opened the newsletter campaign. The number shown in this column is clickable. Clicking the number opens the recipient statistics screen for the recipients who opened the newsletter.\n\n\n### Clicked\n\n\nThe Clicked column displays how many recipients clicked a link inside the newsletter campaign. The number shown in this column is clickable. Clicking the number opens the recipient statistics screen for the recipients who clicked a link in the newsletter.\n\n\n## Viewing Campaign Statistics\n\n\nThe numbers shown under Total Size , Delivered , Failed , Opened , and Clicked are clickable.\n\nClicking any of these numbers opens a statistics screen for that specific metric. The statistics screen works the same way for each metric and can be used to review the recipients included in that result set.\n\nFor example, clicking the number under Delivered shows the recipients who opened the newsletter, while clicking the number under Clicked shows the recipients who clicked links in the newsletter.\n\n\n### Statistics Screen Options\n\n\nThe statistics screen may include the following tools.\n\n- Status Dropdown: Filter the statistics by available recipient statuses.\n\n- Smart Lists Filter: Filter the statistics by Smart List association.\n\n- Search by Keyword: Search within the recipient results.\n\n- List Actions: Create a Smart List from the results or export the results as a CSV file.\n\n\n### List Actions\n\n\nThe List Actions dropdown may include:\n\n- Create Smart List from All: Creates a new Smart List from the displayed recipient results.\n\n- Export CSV File from All: Exports the displayed recipient results as a CSV file.\n\nThese options are useful when admins want to create follow-up lists based on engagement, delivery status, failed emails, opens, or clicks.\n\n\n## Actions\n\n\nThe Actions column displays the current status of the newsletter campaign and includes an Actions dropdown.\n\n\n### Campaign Statuses\n\n\nA campaign status label will display in the Actions column.\n\n\n### Actions Dropdown\n\n\nThe Actions dropdown includes available options for the selected newsletter campaign.\n\nCommon options may include:\n\n- View Details: Opens a campaign details popup with the campaign ID, sender details, subject, send date, included lists, excluded lists, and total recipients.\n\n- Create Clone: Creates a duplicate copy of the newsletter campaign.\n\n- Preview Email: Opens a preview of the newsletter email.\n\n\n### View Details\n\n\nThe View Details action opens a popup with detailed information about the newsletter campaign.\n\nThis popup may include:\n\n- Campaign ID\n\n- Created By\n\n- Email Subject\n\n- Email Template\n\n- Send Date\n\n- Completed Date\n\n- From Name\n\n- From Address\n\n- Included Lists\n\n- Excluded Lists\n\n- Total Recipients\n\nThis is helpful for confirming how the campaign was configured after it has been sent or scheduled.\n\n\n### Create Clone\n\n\nThe Create Clone action creates a copy of an existing newsletter campaign. This is useful when a similar newsletter should be reused without starting from scratch.\n\nAfter cloning a campaign, the new copy can be edited before it is sent or scheduled.\n\n\n### Preview Email\n\n\nThe Preview Email action opens a preview of the selected newsletter. This allows the newsletter content and layout to be reviewed without opening the campaign editor.\n\n\n## Sort and Filter Newsletter Campaigns\n\n\nThe newsletter overview page includes several tools for finding and organizing newsletter campaigns.\n\n\n### Sort by Newest or Oldest\n\n\nUse the sort dropdown to organize campaigns by date.\n\nAvailable options include:\n\n- Sort by Newest\n\n- Sort by Oldest\n\n\n### Filter by Status\n\n\nUse the status dropdown to filter campaigns by campaign status.\n\nAvailable status filters may include:\n\n- Any Status\n\n- Draft\n\n- Scheduled\n\n- Sending\n\n- Sent\n\n- Cancelled\n\n\n### Filter by Date\n\n\nUse the date filter to find newsletters based on a selected date range.\n\nCommon date filter options include:\n\n- Today\n\n- Yesterday\n\n- Last 7 Days\n\n- Last 30 Days\n\n- This Month\n\n- Last Month\n\n- Year to Date\n\nA custom date range can also be selected from the calendar. After selecting the date range, click Apply to filter the newsletter table.\n\n\n### Search by Keyword\n\n\nUse the Search by Keyword field to search for a specific newsletter campaign by keyword.\n\nThis is useful when searching by campaign name, subject, or other visible campaign details.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472617/original/lNWX6oYWFcJsonigoGBL1q6dCeFKDiyJtQ.png?1783132365",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472637/original/vtYltbyVxFKFoplNqctl1GcrgKfZTo_0Og.png?1783132414",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472680/original/Cb7cZ4X5eVlPLcJbx37z4JCLbdAOv5F7jQ.png?1783132545",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472676/original/DGnrNRrqe4UALYkoJMskHFi2bEI_NxtWng.png?1783132530",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472685/original/HpSxjlUGjiV9Tz74KvU7FBYIxCMsxARn1Q.png?1783132584",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181560332/original/IhhVbYeZQD6kRAZBs7BDRr4elKzL4cCJLw.png?1783358103",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181559158/original/b_Dfr7nkXQCk6HvG32EjJbLfthQnriF7BQ.png?1783357183",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181559209/original/IH-9KT5i2yLcahSuyqKLCoXYFZrUdQU6ig.png?1783357219",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472690/original/vWYjWpdRu0_19t3XpcCokdClmx2ycQPuHw.png?1783132621",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181557981/original/MqJj59vYAilvnZflIDjxGWuWLjaVQsfp1A.png?1783356363",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181558500/original/5FO1fBiKKuhpyqJUCe946OsmlgVue74DwQ.png?1783356739",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181558510/original/LBnrXnRhD7QA4L0tAmzINwiF5oZnFOqcyA.png?1783356752",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181558519/original/cfhfs3gkXhZBGdUMvwjH4zXN-GrmUGRcEA.png?1783356758",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181559821/original/O4RSsU-GcjcZBfhRA5MuBa8jwgVvrS4mvg.png?1783357662",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181559874/original/PW0_L1oAwzGW7Vm8yFcfo9IhCBIB7khhug.png?1783357690",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181559888/original/4CrjUTtG0vo69Bya7PAXpDIoIx9B7ohUaw.png?1783357720",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181559950/original/WtAWxjmJA5sAtf5sBD6A4E5JGm32qZ4VKw.png?1783357808",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Newsletter Overview' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000070238",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070238"
+    },
+    {
+      "text": "Emails >> Send Newsletter >> New Email Newsletter",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000004622"
+    },
+    {
+      "text": "Smart List",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000071871"
+    },
+    {
+      "text": "Export CSV",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000039479"
+    }
+  ],
+  "lastmod": "2026-07-06T22:45:35+05:30",
+  "scraped_at": "2026-10-18T13:46:37.161392"
+}

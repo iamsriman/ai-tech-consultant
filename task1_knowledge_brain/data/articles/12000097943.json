@@ -1,0 +1,23 @@
+{
+  "article_id": "12000097943",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097943-01-19-2024-software-updates",
+  "title": "01/19/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/19/2024 - Software Updates"
+  ],
+  "content": "## 01/19/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097943\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The Cleanup Tools in the Admin Dashboard is now compatible with the \"Admin Account View\" Advanced Setting.\n\n- We fixed an issue which was preventing the system from displaying the \"+\" symbol in phone numbers when using the Click-To-Call Add-On.\n\n- We created a new Design Setting for the Featured Blog Article Slider widget called \"Use Thumbnail on Mobile\". This setting adds the ability to select the quality of the images used in the homepage for the Blog Article Slider homepage widget. To use this new setting, navigate to the Admin >> Settings >> Design Settings >> Homepage tab >> Select Content to Display. Widget Involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider\n\n- We improved the form validation when saving the Member Quick Edit form on the Search Members page in the Admin.\n\n- We updated the Froala WYSIWYG in the Admin to add additional table (Grid on Mobile) styling options.\n\n- We fixed an issue which was preventing the Overview tab from displaying on member profile pages when the \"Profile Page Tab Title\" setting for the \"Member Listings\" Post Type was empty.\n\n- We fixed an issue which was preventing leads purchased from the Member Dashboard from being logged in the Activity Tracker when the One-Time Purchase Webhook was active in some cases.\n\n- We fixed an issue which was preventing the system from displaying the correct thumbnail image for Youtube videos on the homepage in some cases. Widget Involved: Bootstrap Theme - Display - Recent Videos\n\n- We fixed an issue which was preventing the \"View Setting\" link next to the \"Require Complete Profiles\" setting on the General Settings page in the Admin from working properly in some cases.\n\n- We updated the schema markup for comments displayed on post details pages to use the new \"DiscussionForumPosting\" schema recommended by Google for this type of content. Widgets Involved: Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article Bootstrap Theme - Detail Page - Schema Markup - Community Article\n\n- We added the ability to notify members via email when an Admin refunds a payment from the Transaction History page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097943",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097943"
+    }
+  ],
+  "lastmod": "2024-01-23T01:43:20+05:30",
+  "scraped_at": "2026-10-18T13:53:25.153522"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000098261",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098261-how-to-clear-and-remove-user-cookies-on-specific-web-pages",
+  "title": "How to Clear and Remove User Cookies on Specific Web Pages",
+  "category": "Developer Hub",
+  "folder": "HTML Code Snippets from Standard BD Website Theme",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "HTML Code Snippets from Standard BD Website Theme",
+    "How to Clear and Remove User Cookies on Specific Web Pages"
+  ],
+  "content": "## How to Clear and Remove User Cookies on Specific Web Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098261\n\nThis article explains how to remove a specific cookie when a visitor accesses a particular page on the website.\n\nWarning Cookies are used to maintain important website functionality, such as user authentication and session data. Removing cookies may affect how certain features behave. Use this code only when the cookie is no longer needed.\n\nFor example, the claim_listing cookie is created when a visitor begins the process of claiming a member listing.\n\nIf the goal is to prevent the visitor from continuing the claim process after navigating to another page, the following code can be added to a landing page or widget to remove the claim_listing cookie.\n\nCopy <?php setcookieSameSite ( \"claim_listing\" , \"\" , time - 36000 , \"/\" , $_SERVER [ 'HTTP_HOST' ], true , true , \"Lax\" ); ?>\n\nOnce this code is executed, the claim_listing cookie is cleared from the visitor's browser, preventing the claim process from continuing on subsequent pages.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098261",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098261"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:23+05:30",
+  "scraped_at": "2026-10-18T13:53:29.211388"
+}

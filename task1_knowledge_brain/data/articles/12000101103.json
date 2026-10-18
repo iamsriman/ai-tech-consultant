@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101103",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101103-seo-variables-list",
+  "title": "SEO Variables List",
+  "category": "My Content",
+  "folder": "SEO Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "SEO Templates",
+    "SEO Variables List"
+  ],
+  "content": "## SEO Variables List\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101103\n\n\n## Overview\n\n\nThe following variables are available for use within SEO templates and the Web Page Builder. NOTE: All variables below must be wrapped in percent signs (e.g., %first_name% ) to be recognized by the system.\n\n\n## Member Variables\n\n\nLabel Variable Description User ID %user_id% Ascending numeric value linked to a member. First Name %first_name% First name of the member. Last Name %last_name% Last name of the member. Full Name %full_name% First name and last name of the member. Email %email% Email associated with the member's listing. Company %company% Company name of the member; used by the system when the listing is set to Company. Phone Number %phone_number% Primary phone number associated with the member listing. City %city% City associated with the member listing. State Code %state_code% Two-letter state code associated with the member listing's address. State Ln %state_ln% Long full name of the state. Country Code %country_code% Two-letter country code associated with the member listing's address. Country Ln %country_ln% Long full name of the country. Subscription ID %subscription_id% Membership plan ID# associated with the member listing. Member Profile URL %filename% Link to the member listing. Active %active% Member listing's status. Signup Date %signup_date% Date the member listing was created. Signup Date Formatted %signup_date_format% Formatted version of the signup date. Last Login %last_login% Last login date to the member listing. Location %Location% %Location% is dynamically generated from the member’s City and State fields. For members outside the United States, the Country is also appended. Position %position% Position represented by the owner of the member listing. Profession ID %profession_id% ID number of the top-level category selected by the member. Top Category %Profession_name% Name of the top-level category selected by the member. Sub Category %service_name% Name of the sub-level category selected by the member. Verified %verified% Whether the listing has been manually verified. Nationwide %nationwide% Whether the member listing provides services nationwide. Listing Type %listing_type% Listing type selected by the member. Member Website URL %%%website%%% Displays the website link entered in the contact details form.\n\n\n## Website Variables\n\n\nLabel Variable Description Website Name %website_name% Name added to the Website Name field in General Settings. Website Domain %website_url% Domain name added through the domain manager. Website Email %website_email% Email address added to the Email Address field in General Settings. Website Phone %website_phone% Phone number added to the Phone Number field in General Settings. Country %country% Primary location added in General Settings. Profession %profession% Profession added to the Profession field in General Settings. Industry %industry% Industry added to the Industry field in General Settings. Currency %currency_code% Currency added in General Settings. Distance %distance% Format used for distances.\n\n\n## Post Type Variables\n\n\nLabel Variable Description Group Name %%%Group_name%%% Multi-image post type name (Photo Albums, Products, Digital Products, Properties, Classifieds). Data Name %Data_name% Single post type name (Videos, Articles, Jobs, Events, Coupons, Audios, Discussions). Post Category %post_category% The category assigned to each post in My Content .",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101103",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101103"
+    }
+  ],
+  "lastmod": "2026-09-04T15:05:17+05:30",
+  "scraped_at": "2026-10-18T13:54:44.901326"
+}

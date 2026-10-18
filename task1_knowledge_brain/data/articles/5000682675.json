@@ -1,0 +1,60 @@
+{
+  "article_id": "5000682675",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682675-differences-between-strict-bounds-not-strict-radius-location-search-settings",
+  "title": "Differences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Differences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings"
+  ],
+  "content": "## Differences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682675\n\n\n## What are Strict (Bounds) and Not-Strict (Radius) searches?\n\n\nThere are 5 different types of locations that can be searched for on the site (with the alternate names used in some countries in parenthesis):\n\n- Countries\n\n- States (provinces)\n\n- Counties\n\n- Cities (towns, suburbs, etc)\n\n- Zip Codes (postcodes / postal codes)\n\nAs the Administrator of a site, it is possible to choose what kind of search is done for each of these types of locations - a Strict (Bounds) search or a Not Strict (Radius) search.\n\nBy default, postal codes (Zip Codes) and cities use a Not-Strict (Radius) search, and counties, states, and countries use a Strict (Bounds) search:\n\n\n### Not-Strict (Radius) Search\n\n\nA not-strict (radius) search means that the system will get the latitude/longitude of the center of the searched location, and then return all members within the Default Search Radius  set for the site (50 miles by default). To modify the Default Search Radius, navigate to the Settings >> General Settings >> Search Settings tab in the Admin:\n\n\n### Strict (Bounds) Search\n\n\nWhen using Strict (Bounds) settings, members can be returned in search results based on multiple levels of geographic relationships. Here’s how it applies for different location types\n\n\n### When Searching for a City (e.g., \"Ashford\")\n\n\nMembers will be returned if they have:\n\n- An address within the bounding box of the searched city.\n\n- A service area that exactly matches the searched city (\"Ashford\").\n\n- A service area located within the searched city (e.g., a zip code that Google Maps lists as being in \"Ashford\").\n\n- A bounds-type service area that contains the city (e.g., \"Kent\", \"England\", or \"United Kingdom\" includes \"Ashford\").\n\n\n### When Searching for a Zip Code (e.g., \"TN24 8EP\")\n\n\nMembers will be returned if they have:\n\n- An address within the bounding box of the searched zip code.\n\n- A service area that exactly matches the searched zip code (\"TN24 8EP\").\n\n- A bounds-type service area that contains the zip code (e.g., \"Ashford\", \"Kent\", \"England\", or \"United Kingdom\" includes \"TN24 8EP\").\n\nNote : Full support for county-level searches is coming soon.\n\n\n### Smart Default Settings\n\n\nAs mentioned above, a strict (bounds) search for zip codes will \"return all of the members within the bounds of that zip code, along with any members that are outside the zip code but inside the square that contains the zip code\".\n\nHowever, with the recommended default settings of \"Bounds\" for countries and states, the system is smart enough to exclude any members that are outside the searched location, even if they are contained within the box that contains the searched location.\n\nFor example, searching for \"Los Angeles County\", the system will only return results that are inside of Los Angeles County, even if there are members that are outside of Los Angeles County, but inside the box that contains it.\n\n\n## Showing the Distance from a Searched Location\n\n\nAs mentioned above, not-strict (radius) searches will return everything within a radius from a fixed point, typically the center of a city or zip code.  Since the system can calculate the distance of each member from this fixed point, it can display information about how far away each member is from that point.\n\nFor example, this is a search result for the zip code \"90210\":\n\nThis is the distance this listing is from the center of the zip code \"90210\".\n\nHowever, using a strict (bounds) search for zip codes and cities, there will be no distance information returned (\"2.1 mi away\" for example), because there is no point to calculate this from - it simply returns the results inside the bounds of the searched area.\n\n\n## Editing the Strict (Bounds) & Not-Strict (Radius) Location Search Settings\n\n\nTo change the settings of any type of locations search, navigate to Settings >> General Settings >> Search Settings :",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161367375/original/Vqw4RqGnXW0fCFquDDEEaQdEdoEeJApN0A.png?1747311054",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Differences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110125575/original/Hm4ZmtiVG8ZXZ70d6e3Le_rvQIOZ1TvEHw.png?1654801734",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Differences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280292/original/Tvb69nmpvaixZOy09d1Ehf39E9WVfCYyCQ.png?1645315204",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Differences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161367427/original/HyIohUtkU7g34JbdFjgwyJ-rXEeRQJOcig.png?1747311090",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Differences Between Strict (Bounds) & Not-Strict (Radius) Location Search Settings' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682675",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682675"
+    }
+  ],
+  "lastmod": "2025-05-15T17:41:42+05:30",
+  "scraped_at": "2026-10-18T13:39:13.448460"
+}

@@ -1,0 +1,149 @@
+{
+  "article_id": "12000075579",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075579-how-to-host-include-external-css-stylesheets-or-javascript-libraries",
+  "title": "How To Host & Include External CSS Stylesheets or Javascript Libraries",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How To Host & Include External CSS Stylesheets or Javascript Libraries"
+  ],
+  "content": "## How To Host & Include External CSS Stylesheets or Javascript Libraries\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075579\n\nIt's possible to include and reference 3rd-party CSS stylesheets and JavaScript Libraries. They can be included in many areas of the platform. The most common areas to reference 3rd-party scripts are listed below: 1. Site-Wide References Custom scripts included here will be applied throughout the entire website. Navigate to Settings > Design Settings > Custom CSS / HEAD tab > Enter your code in the Additional HEAD Code input field 2. Page-Level References Custom scripts included here will only be applied on the specific web page they are referenced on. Navigate to Content > Web Page Builder > edit a specific Web Page > use the HEAD or Footer JavaScript tabs as needed to insert and reference 3rd-party scripts 3. Custom Widget References Custom scripts included here will only be applied on web pages the custom widget is rendered on. Navigate to Toolbox > Widget Manager > edit a specific Widget > use the HTML or JavaScript tabs as needed to insert and reference 3rd-party scripts Need to Host Stylesheets or JavaScript Files Online? To reference 3rd-party scripts and libraries they need to already exist and be hosted online. For the security of the Brilliant Directories network at large, 3rd-party scripts and libraries need to be uploaded and hosted elsewhere, via third-party hosting providers. This helps to maintain higher levels of security and data integrity for your website. There are many solutions to host files online. While it is possible to use any hosting service, in this example we will recommend creating a FREE account on https://codesandbox.io and following the steps outlined below  on how to host and reference external resources. Step 1: Click Sign In, no need to have an account, this page will allow you to create one using a Google Account or a Github Account: Step 2: Select a Google Account or a Github Account Step 3: Click Create Sandbox to start the upload process: Step 4: Select the Static option with the HTML 5 logo: Step 5: In order to upload the CSS file to the sandbox use the following upload button: Step 6: Choose the CSS file to be used: Step 7: To view the path to the CSS file which exists in the sandbox select the following option Step 8: This is an example of the URL where the CSS file will exist on: Step 9: The CSS file path will be the name of the custom CSS file and the URL: Step 10: Add the link to the CSS stylesheet in any of the areas mentioned before, this is an example of adding the link to the HEAD section of the website:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181295843/original/vNDxp54uz2jb2n7H75LRMqcSCA4wIJhuuA.png?1782859972",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181295914/original/31q7Lo5zxZJRUslkwN2DS8-zCJtdjDQ1yA.png?1782860007",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084772116/original/bgtX5jWrMdZq6lXUkxIIH6kiafiL6kSqBw.png?1605023796",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084851703/original/_up7EJpkrwOXysKqdQTqz8eWv8o1uq1TrA.png?1605140474",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084852074/original/_p_SBc9YYMEp7z9Huhza_xx2ZhPWgmq-cw.png?1605141127",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084852182/original/o2_Ec--E5tCxnm1GJrCuaozuXVriaSt_ZA.png?1605141376",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084852283/original/es4CG-3GDSJK73h261N42tdGai_N0oy7_Q.png?1605141536",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084852479/original/27hAJ7xa0lpHo9A_7AsjiaeunfwCbz-t8g.png?1605141916",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084852533/original/oLBB2QNj8vt6sSbT7mnFT-gWVY8QvGgsNQ.png?1605142009",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084852566/original/cEgeHTU4R9ATYYO2NMQ6_yWc30jjtl6OZg.png?1605142089",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084853395/original/HzngY21smNJHhiDwnL9tvUGImlh-RgoqKw.png?1605143973",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084853423/original/XKjn7uF-SH-NQhOwkw7vK7dR8pN8WaBCmw.png?1605144009",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084853096/original/Xv6NUL_KBUBZyee4uUvSGJ3aVECj-ngDrw.png?1605143315",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Host & Include External CSS Stylesheets or Javascript Libraries' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075579",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075579"
+    },
+    {
+      "text": "",
+      "url": "https://github.com/join?plan=free"
+    },
+    {
+      "text": "https://codesandbox.io",
+      "url": "https://codesandbox.io"
+    }
+  ],
+  "lastmod": "2026-07-01T04:23:47+05:30",
+  "scraped_at": "2026-10-18T13:47:20.945717"
+}

@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108660",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108660-api-reference-refresh-cache",
+  "title": "API Reference - Refresh Cache",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Refresh Cache"
+  ],
+  "content": "## API Reference - Refresh Cache\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108660\n\n← Back to API Reference | Getting Started Refresh Cache The Refresh Cache endpoint triggers a cache rebuild for the current website programmatically. It is the API equivalent of clicking the Refresh Live Website button in the admin panel. Use this endpoint after making changes through the API (creating widgets, updating settings, importing data, etc.) so the changes become visible on the live site without an admin having to push the button manually. Model name in URL: website_settings — Action endpoint. Refreshes the current site's cache and always purges LiteSpeed cache regardless of scope. Refresh the Cache POST /api/v2/website_settings/refreshCache Refreshes the cache for the website that owns the API key being used. Site identification is automatic; no website_id parameter is needed. All three parameters are optional. Request Parameters Parameter Type Description scope string Comma-separated list of cache areas to refresh. Valid values: data_widgets , settings , web_pages , css , menus , sidebars . Omit this parameter to perform a full cache refresh (all areas) full boolean Applies only when scope is omitted. When true , also runs the heavier maintenance operations: database table optimization and file permission fixes. Defaults to false . Ignored when scope is provided verbose boolean When true , the response includes per-area success/failure status and timing details. Defaults to false Response Fields Field Type Description status string success or error message string Human-readable summary (EG Cache refreshed successfully ) or, on error, the failure reason areas_refreshed array of string List of cache areas that were refreshed in this call scope string The scope that was refreshed; either the comma-separated area list passed in, or full when no scope was provided full boolean Included only on full refreshes; indicates whether the heavier maintenance operations were run details object Included only when verbose=true . Maps each refreshed area to {status, time_ms} (and error on failure) total_time_ms integer Included only when verbose=true . Total time in milliseconds across all refreshed areas Example Request — Full Refresh Copy curl -X POST \"https://www.yourdomain.com/api/v2/website_settings/refreshCache\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response — Full Refresh Copy {\n  \"status\": \"success\",\n  \"message\": \"Cache refreshed successfully\",\n  \"areas_refreshed\": [\n    \"data_widgets\",\n    \"settings\",\n    \"web_pages\",\n    \"css\",\n    \"menus\",\n    \"sidebars\"\n  ],\n  \"scope\": \"full\",\n  \"full\": false\n} Example Request — Scoped Refresh Refresh only the widget cache and the menu cache, useful after creating widgets or editing menus through the API: Copy curl -X POST \"https://www.yourdomain.com/api/v2/website_settings/refreshCache\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"scope=data_widgets,menus\" Example Response — Scoped Refresh Copy {\n  \"status\": \"success\",\n  \"message\": \"Cache refreshed successfully\",\n  \"areas_refreshed\": [\n    \"data_widgets\",\n    \"menus\"\n  ],\n  \"scope\": \"data_widgets,menus\"\n} Example Request — Full Refresh with Maintenance Equivalent to the admin UI Refresh Live Website button: full cache refresh plus database table optimization and file permission fixes: Copy curl -X POST \"https://www.yourdomain.com/api/v2/website_settings/refreshCache\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"full=true\" Example Response — Full Refresh with Verbose Output Adding verbose=true produces per-area timing data: Copy {\n  \"status\": \"success\",\n  \"message\": \"Cache refreshed successfully\",\n  \"areas_refreshed\": [\n    \"data_widgets\",\n    \"settings\",\n    \"web_pages\",\n    \"css\",\n    \"menus\",\n    \"sidebars\",\n    \"db_optimization\",\n    \"file_permissions\"\n  ],\n  \"scope\": \"full\",\n  \"full\": true,\n  \"details\": {\n    \"data_widgets\":     { \"status\": \"success\" },\n    \"settings\":         { \"status\": \"success\" },\n    \"web_pages\":        { \"status\": \"success\" },\n    \"css\":              { \"status\": \"success\" },\n    \"menus\":            { \"status\": \"success\" },\n    \"sidebars\":         { \"status\": \"success\" },\n    \"db_optimization\":  { \"status\": \"success\" },\n    \"file_permissions\": { \"status\": \"success\" }\n  },\n  \"total_time_ms\": 4500\n} Note: Cache refresh runs synchronously and can take several seconds on large sites. The HTTP request will not return until the refresh completes. Plan client-side timeouts accordingly. Errors Status Cause 401 Missing or invalid X-Api-Key header 400 Returned with status: error when scope contains a value that is not in the valid areas list. The message field names the invalid value and lists the valid options 429 Rate limit exceeded 405 HTTP method other than POST",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108660",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108660"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-07-13T03:30:35+05:30",
+  "scraped_at": "2026-10-18T13:59:01.305654"
+}

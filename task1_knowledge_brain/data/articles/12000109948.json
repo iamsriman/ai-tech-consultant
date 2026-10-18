@@ -1,0 +1,49 @@
+{
+  "article_id": "12000109948",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109948-account-dashboard-verified-users",
+  "title": "Account Dashboard » Verified Users",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Account Dashboard » Verified Users"
+  ],
+  "content": "## Account Dashboard » Verified Users\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109948\n\nThe Verified Users page in the Account Dashboard lists the people the Brilliant Directories support and billing teams may contact about the account's websites, and what each person can discuss. A website owner can give a colleague, partner or assistant access here directly, instead of asking support to add them.\n\nEach verified user gets one of three access levels:\n\n- Billing & Support – Can be contacted about both billing and support matters.\n\n- Billing Only – Can be contacted about billing matters only.\n\n- Support Only – Can be contacted about support matters only.\n\n\n## Before Starting\n\n\n- Sign in to the Account Dashboard with the account that owns the websites. The page is for website owners: an account that does not own any active, suspended or pending website sees a message explaining there is nothing to set.\n\n- Verified users are stored in the account's support records. If the page shows We could not reach your support record just now , saving may not work until the record is available again; try later or contact support.\n\n- Verified users are contacts for support and billing. Adding someone here does not give them a login to the website admin. To add an admin login, see Settings » Admin Accounts .\n\n\n## How to Open Verified Users\n\n\n- In the Account Dashboard, click the admin name at the top right.\n\n- Select Update Profile (or any other account page).\n\n- In the Account menu on the left, click Verified Users .\n\n\n## Add a Verified User\n\n\n- Email address – Enter the person's email address. It can be an email already on the account or a new one for someone else.\n\n- Access level – Choose Billing & Support , Billing Only or Support Only .\n\n- Websites – Click to choose which websites this person is a contact for. Search by name, URL or ID, tick the websites, then click Done . Select all shown and Clear tick or untick the whole list.\n\n- Remove – The trash button removes the person from the list.\n\n- All my websites – Makes the person a contact for every website on the account, including any website added later.\n\n- Add another email – Adds a row for another person.\n\n- Save changes – Saves the list. Adding, changing or removing a person takes effect only after saving.\n\nEvery person needs at least one website, or All my websites . A person with no websites is not saved, and a message names them.\n\n\n## After Saving\n\n\nThe message Verified users were saved. confirms the change. The support and billing teams then use this list to confirm who may be contacted about each website, and at which access level.\n\nContacts that the Brilliant Directories team entered earlier appear under On file with our support team . They cannot be changed on this page, but they show the full list of people on file. Contact support to change one of them.\n\n\n## Related Articles\n\n\n- Account Dashboard » Update Profile\n\n- Account Dashboard » Login Settings",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185979031/original/HerEcrRJclQh_TxH-wvHHO6xpyetJrE89g.png?1790709164",
+      "alt": "Verified Users page with a person's email, access level and websites numbered",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Account Dashboard » Verified Users' (Dashboard Overview > Dashboard Links & Modules): Verified Users page with a person's email, access level and websites numbered",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109948",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109948"
+    },
+    {
+      "text": "Account Dashboard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476"
+    },
+    {
+      "text": "Settings » Admin Accounts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682633"
+    },
+    {
+      "text": "Account Dashboard » Update Profile",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109946"
+    },
+    {
+      "text": "Account Dashboard » Login Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109947"
+    }
+  ],
+  "lastmod": "2026-09-30T00:51:36+05:30",
+  "scraped_at": "2026-10-18T14:00:14.300728"
+}

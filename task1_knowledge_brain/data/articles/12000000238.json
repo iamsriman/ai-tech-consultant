@@ -1,0 +1,46 @@
+{
+  "article_id": "12000000238",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000238-recommended-image-sizes-homepage-background-image-profile-image-logo-image-",
+  "title": "Recommended Image Sizes (Homepage Background Image, Profile Image, Logo Image)",
+  "category": "Developer Hub",
+  "folder": "Image Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Image Settings",
+    "Recommended Image Sizes (Homepage Background Image, Profile Image, Logo Image)"
+  ],
+  "content": "## Recommended Image Sizes (Homepage Background Image, Profile Image, Logo Image)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000000238\n\nWhen adding an image to a site for styling factors or updating a profile image we many times ponder what the recommended image size should be. This mostly depends on several factors. At Brilliant Directories, depending on the place where the image will be used, shown, and scrolled on, the image can change its recommended size. Homepage Background Images We recommend sizes between 700px X 250px to sizes like 1400px X 400px. The reason for this is that most partners have either, mobile members, desktop members, or both. If the website happens to focus on selling through a mobile environment only, then images would simply need to be smaller to accommodate for the smartphone size (and speed of loading). If however,  the members are mostly Desktop users, then the sizes mentioned above would be ideal. Lastly, if dealing with a mix of both, the smaller sizes recommended above are better. Another point to mention is the resolutions the members will have. If they typically use a 1366x768 resolution (Typically found in 720p screens), then an image of around 700+ in width should be enough. But the same image on a 1920x1080 resolution (A 1080p screen) will simply look horrible since it will not take the full width of the site (And will look cut from the member's perspective). So it is more important to make sure that the width of an image is long enough than the actual height of it. This is not taking into account the 2K, 4K, and Retina Scan technologies than expand upon this. Lastly, there is the size and format of images. We recommend image formats to be JPG and PNG. JPG will offer in many cases smaller size, but will not offer transparency. PNG will offer an almost similar size (if optimized correctly) and include transparency. There are some sites, that can also extra compress an image, the best site for me is http://www.jpegmini.com/ that actually offers real compression without losing the quality of the original JPG image. I have tested several big and medium images (500KB to 3MB images) and they have received a compression between 40% to 85% which is incredible. This will of course impact how fast the site loads. If using large images, loading the page will take significantly more. There are several variables to take into consideration, from width and height to image format, to image size, compression, member type, etc.. Profile Images VS Logo Images For these 2 cases, there is the Width versus Height factor. For Profile Images, this tend to have a larger Height than the Width because they typically show a person. For Logo Images, since they are Iconic, Logo, LogoType or a combination, they tend to have more Width than Height. An Example Logo Image looks like this (Width is larger than Height) An example Profile Image looks like this (Height is larger than Width) For both cases, their larger dimension should be between 1.2x to 2.5x the smaller dimension. So for a Profile Image with a Width of 100px, a Height of 120px will work. For a Width of 200px, a Height of 240px and so on. For Logo Images, if the Height is 100px, the Width could be 120px or more. If the Height is 160px, the Width could be around 192px or more. Many profile images use a standard 150px X 230px. Logo Images typically are 200px X 150px. Image Shrinking / Stretching (Image Scaling) When an image is larger or smaller than the rest try forcing it to the default size. If the image is larger than the default image size, the image would not suffer or look different in any way, but it is recommended to upload a smaller image to optimize resources on the page so when users are viewing it, it loads faster. It is not the same to have several 1 MB images on a page that actually use a size that could be easily achieved by using the same image but with a size of 20KB (50x smaller). The website will literally load 50x faster if all images have the same dimensions and also use the same amount of kilobytes in size. With this information, to force images to a certain size use the following CSS properties: min-height - Sets the MINIMUM Height an image can have. This means that if the image has a lower height than this, it will be forced to get larger. This affects the quality of the image since it stretches the image. The more it is stretched, the worst the quality will get. min-width - Sets the MINIMUM Width an image can have. This means that if the image has a lower width than this, it will be forced to get larger. This affects the quality of the image since it stretches the image. The more it is stretched, the worst the quality will get. max-height - Sets the MAXIMUM Height an image can have. This means that if the image has a higher height than this, it will be forced to get smaller. This will not affect the quality of the image. max-width - Sets the MAXIMUM Width an image can have. This means that if the image has a higher width than this, it will be forced to get smaller. This will not affect the quality of the image. width - Sets the DEFAULT Width an image can have. The image is not forced to get larger or smaller and the real size of the image will take priority over this CSS property. height -Sets the DEFAULT Height an image can have. The image is not forced to get larger or smaller and the real size of the image will take priority over this CSS property.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000129166/original/xbrilliant-directories.png.pagespeed.ic.cnSJySi_rP.png?1451505840",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Recommended Image Sizes (Homepage Background Image, Profile Image, Logo Image)' in section 'Developer Hub' / 'Image Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12053448237/original/Yrw0SWxoOdzL4UJdb_dzMIUw5NtecEHadg.png?1562953100",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Recommended Image Sizes (Homepage Background Image, Profile Image, Logo Image)' in section 'Developer Hub' / 'Image Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000000238",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000238"
+    },
+    {
+      "text": "http://www.jpegmini.com/",
+      "url": "http://www.jpegmini.com/"
+    }
+  ],
+  "lastmod": "2026-06-10T03:09:24+05:30",
+  "scraped_at": "2026-10-18T13:39:20.444488"
+}

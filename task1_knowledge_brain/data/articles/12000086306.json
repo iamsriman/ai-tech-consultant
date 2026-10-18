@@ -1,0 +1,178 @@
+{
+  "article_id": "12000086306",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086306-member-credits-system",
+  "title": "Member Credits System",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Member Credits System"
+  ],
+  "content": "## Member Credits System\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086306\n\nIncentivize members to take action by rewarding them with credits and preserve revenue by issuing credits instead of processing refunds.\n\nManually assign credits to member accounts or give credits to members automatically after signup or an upgrade. Credits take the form of the website’s primary currency and can be used as payment for future purchases on the site.\n\nEasily add or deduct credits from specific members and quickly identify which member payments were made with credits – all from the website’s admin area.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Member Credit System Add-On\n```\n\n\n## How Credits work\n\n\n- Available credits will automatically be used for the member’s next payment(s)\n\n- Credits work for all purchases (renewals, upgrades, lead & post purchases, etc.)\n\n\n## Using the Add-on\n\n\nWith the Member Credits System add-on, admins can manually add or deduct credits from individual member accounts as needed.\n\nCredits can also be automatically added to a member’s account after they sign up or upgrade to a new plan.\n\nFrom the member’s perspective, credits can be used as a form of site currency to access features or make purchases, depending on how the system is set up.\n\n\n### Important\n\n\nLocate the setting enable_credit_system and ensure that it is turned on:\n\n\n### Add & Deduct Credits\n\n\nGo to My Members » Search Members (1) and search for the member (2):\n\nSearch for the member that will receive or be deducted credits then click on Actions > Payment History:\n\nOn the member’s Transactions tab, click Credits (1), then Add Credit (2). A Deduct Credit button also appears there when the member already has a credit balance:\n\nA pop-up form will open with the following fields:\n\n- Credit Options: Shows Add Credits or Deduct Credits , depending on which button was clicked.\n\n- Credit Amount : Add the numerical value of the credits that will be applied or deducted using the website currency.\n\n- Internal Note : Add a note for internal use, for future reference.\n\n\n### Automatically Add Credits After Signup Or Upgrade\n\n\nGo to Finance > Membership Plans > select the plan > Edit:\n\nUnder the Sign Ups & Upgrades tab, scroll down to the 5 credit options:\n\n1. Display Available Credits Inside Member's Dashboard? : If YES, the member will see the credit balance inside their member dashboard on the billing details page.\n\n2. Reward Credits to Assign After Sign Up: Entering a value greater than $0 will assign credits to this member after successful sign-up. There is a checkbox with the option to only assign credits when referred by another member.\n\n3. Reward Credits After Successful Membership Plan Change: Entering a value greater than $0 will assign credits that will be added to the member’s account after they change to this plan from inside their member dashboard area.\n\n4. Assign Referral Credits to Members Who Refer New Sign Ups: If enabled, an input field on sign-up pages to enter a referring member's ID number:\n\n5. Credits Assigned to Referring Member: Entering a value greater than $0 will add credits to the referring member's account for new member sign-ups who use the referring member ID number.\n\nImportant Note: Credits can't be assigned or awarded for \"completed tasks\" like filling out forms, publishing posts or uploading documents, etc.\n\n\n## Credits for Digital Products\n\n\nIn combination with the Sell Digital Products & Services add-on , the admin will have two additional fields in the Digital Products form:\n\n- Credits to Add After Initial Purchase (1): Buyers will receive this credit amount one time after initial purchase. Leave blank if no credits are granted.\n\n- Allow Use of Existing Credits for Purchase? (2): Select 'Yes' to allow buyers to use existing credits towards this purchase, or 'No' to require the use of a payment method.\n\n\n## Search For Members with Credits\n\n\nTo look for members that have credits available in their profile go to My Members » Search Members (1), open Transaction Types (2), tick Credits Available (3) and click Search Members (4):\n\nMember credit balances can also be included in a member export: select the member_credit_balance field when exporting from Search Members. See Export Member Data .\n\n\n## Credits History\n\n\nFor the member to see the available credits, the option Display Available Credits Inside Member's Dashboard? needs to be set to YES (1) in their Membership Plan:\n\nThese members will be able to see the number of credits available in their Billing Information section (1) and see the historical usage of the credits in the Credits History tab (2).\n\nThe Payment History , Subscriptions and Credits History tabs only appear when the advanced setting Enable Member Account Billing History ( enable_member_billing_history ) is turned on.\n\nLog in as a member >Account > Billing Information\n\n\n### Credits Usage\n\n\n- Available credits will automatically be used for the member’s next payment(s)\n\n- Credits work for all purchases (renewals, upgrades, leads, digital products, post purchases, etc.)\n\nThis means that the next purchase that this member tries to process will automatically use the credits available.\n\nIf the amount of credits cover the full amount of the renewal, upgrade, post or lead purchase it will automatically be deducted.\n\n\n### Example #1\n\n\nA member has 3.00 in credits and wants to publish an article that costs 1.00. The Review Order window shows that 1.00 of the 3.00 available credits will be used (1), so nothing is due (2). The remaining 2.00 in credits stays in the member's account:\n\nIf on the contrary, the amount is not enough to cover the full amount of the purchase, the system will use the available credits to cover a part of the total cost and the remaining amount will be charged to the credit card on file.\n\n\n### Example #2\n\n\nA member has 0.50 in credits and wants to publish the same 1.00 article. All 0.50 of the available credits will be used (1), and the remaining 0.50 is due now (2) and charged to the credit card on file:\n\n\n## Credit Transaction Types\n\n\nSelect the types of transactions where member credits can be applied. If an item is unchecked, member credits will not be used for those types of transactions.\n\nMEMBER CREDITS: Select Transaction Types Credits Can Be Applied To\n\n\n## Video Walkthrough",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368621/original/6hItUvU2BywVmRYnSxWuSwp1CJkA0k_vpw.png?1791331931",
+      "alt": "The MEMBER CREDITS: Enable Credit System setting on the Sign Ups & Billing tab of Advanced Settings, with its toggle set to ON (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The MEMBER CREDITS: Enable Credit System setting on the Sign Ups & Billing tab of Advanced Settings, with its toggle set to ON (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368622/original/eZ0LuMn6nsctg5i4KbucGxS0VQSPib7OdQ.png?1791331932",
+      "alt": "Search Members (1) under My Members, with the Search Name, ID, URL or Email field (2) used to find the member.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): Search Members (1) under My Members, with the Search Name, ID, URL or Email field (2) used to find the member.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368623/original/Gcwjle13b3DIkamEMBkqaGkPQeRM6vFwdg.png?1791331934",
+      "alt": "A member's Actions button (1) open on Search Members, with Payment History (2) highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): A member's Actions button (1) open on Search Members, with Payment History (2) highlighted.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368624/original/H8gDrhJIgM5fz87aAtcJVsK_kKERGSd92w.png?1791331935",
+      "alt": "The member's Transactions tab with the Credits button (1) and the Add Credit button (2) above the Credit History Log.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The member's Transactions tab with the Credits button (1) and the Add Credit button (2) above the Credit History Log.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368625/original/3IF4T3Ni6kb2X0J7pDVEPZE2iYYfM7x64w.png?1791331936",
+      "alt": "The Add Credits from Member window with the Credit Options (1), Credit Amount (2) and Internal Note (3) fields.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The Add Credits from Member window with the Credit Options (1), Credit Amount (2) and Internal Note (3) fields.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368626/original/u6gUgzYK9ydbWB_BHEhZLq9tRoJQ1x_yEw.png?1791331937",
+      "alt": "Finance (1), Membership Plans (2) and a plan's Edit button (3) in the admin.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): Finance (1), Membership Plans (2) and a plan's Edit button (3) in the admin.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368627/original/gSArgyvpkxTs-hQe2EUeL6TsNxDPhR2fSA.png?1791331938",
+      "alt": "The five credit options on a membership plan's Sign Ups & Upgrades tab, numbered 1 to 5.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The five credit options on a membership plan's Sign Ups & Upgrades tab, numbered 1 to 5.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370613/original/cH5qLr4PMKXeznNMQE9lSj6ulhYS-t3VcQ.png?1791335123",
+      "alt": "A sign-up form with the Did Someone Refer You? Enter Referral ID Below field highlighted.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): A sign-up form with the Did Someone Refer You? Enter Referral ID Below field highlighted.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370612/original/Pb2izv9p88vQhtbDVLR6x9_gZCVcX8y9AQ.png?1791335122",
+      "alt": "The New Website - Digital Product form with Credits to Add After Initial Purchase (1) and Allow Use of Existing Credits for Purchase? (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The New Website - Digital Product form with Credits to Add After Initial Purchase (1) and Allow Use of Existing Credits for Purchase? (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368629/original/XPWGJ_CRsLzGYPk0lm0T3ae5hKMpQpjJOg.png?1791331941",
+      "alt": "Search Members (1) with the Transaction Types filter (2) open, Credits Available ticked (3) and the Search Members button (4).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): Search Members (1) with the Transaction Types filter (2) open, Credits Available ticked (3) and the Search Members button (4).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729914/original/NsxNLR3r12aOrUKbGOGnKz0QCD87pmsZzw.png?1791925178",
+      "alt": "The plan setting Display Available Credits Inside Member's Dashboard? with Yes selected (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The plan setting Display Available Credits Inside Member's Dashboard? with Yes selected (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729580/original/bktvr7Wy5T1RaA_-tw76QXMUYnDFtBUCpQ.png?1791924900",
+      "alt": "A member's Billing Information page showing Credits Available of 3.00 (1) and the Credits History tab (2) listing each credit change with its running balance.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): A member's Billing Information page showing Credits Available of 3.00 (1) and the Credits History tab (2) listing each credit change with its running balance.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729581/original/P0B1tUoXIegcKXEKw2htplwoFqE0Uf7U3w.png?1791924902",
+      "alt": "The Review Order window for Add a New Article where 1.00 of 3.00 available credits will be used (1) and 0.00 is due now (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The Review Order window for Add a New Article where 1.00 of 3.00 available credits will be used (1) and 0.00 is due now (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186729585/original/WAjTRG2hGiyGcTWcrp6dcsKFDOBjKkFKfw.png?1791924903",
+      "alt": "The Review Order window for Add a New Article where 0.50 of 0.50 available credits will be used (1) and 0.50 is still due now (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The Review Order window for Add a New Article where 0.50 of 0.50 available credits will be used (1) and 0.50 is still due now (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368630/original/s2XI08rCRg3Ot2EbqV0G7kdoDnmr-PBwPA.png?1791331943",
+      "alt": "The MEMBER CREDITS: Select Transaction Types Credits Can Be Applied To setting with each transaction type ticked (1).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Member Credits System' (Add-On Documentation > Add-On Documentation): The MEMBER CREDITS: Select Transaction Types Credits Can Be Applied To setting with each transaction type ticked (1).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086306",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086306"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Member Credit System Add-On",
+      "url": "https://www.brilliantdirectories.com/member-credits-system"
+    },
+    {
+      "text": "Sell Digital Products & Services add-on",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057707"
+    },
+    {
+      "text": "Export Member Data",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039479"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:16+05:30",
+  "scraped_at": "2026-10-18T13:49:32.002525"
+}

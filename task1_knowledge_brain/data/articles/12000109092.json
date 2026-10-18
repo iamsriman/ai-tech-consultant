@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109092",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109092-update-post-analytics-dashboard-installer",
+  "title": "Update Post Analytics - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Update Post Analytics - Dashboard Installer"
+  ],
+  "content": "## Update Post Analytics - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109092\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Update Post Analytics Does\n\n\nThis installer adds two database columns that let click analytics be tracked at the level of individual posts. It only adds columns to the tracking table; it does not change or remove any of the existing click data.\n\nBoth columns are added to the users_clicks table (where the platform records click activity):\n\n- post_id : a numeric column (BIGINT, defaulting to 0 ) that links a recorded click to the specific post that was viewed.\n\n- is_single_post : a small flag column (TINYINT, defaulting to 0 ) that records whether the linked post_id refers to a single post ( 1 ) or a group post ( 0 ).\n\n\n## Why It Appears\n\n\nThe installer checks the users_clicks table for both columns and appears whenever either post_id or is_single_post is missing. If both columns already exist, the installer does not appear.\n\nThis is a legacy condition. Databases created before per-post click tracking became standard will see the installer offered, while newer sites already have both columns in place. Seeing it does not mean anything is broken; it means the database predates this structure update.\n\n\n## Why It Matters\n\n\nThese two columns are what let a click be attributed to a specific post and identified as a single or group post. Without them, click records cannot be tied to individual posts, so post-level analytics have nowhere to store that relationship. Adding them brings the database in line with what post analytics expects. Skipping the installer will not break the existing click data, but it leaves the database missing the columns that per-post analytics rely on.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Update Post Analytics appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once both columns exist.\n\nIf Update Post Analytics does not appear in the list, the website is already up to date, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The existing click records are preserved; only the two new tracking columns are added to the table. There is nothing to reconfigure afterward.\n\nThe installer re-checks the columns before making changes and only adds the ones that are still missing, so it is safe to run even if part of the update was already applied earlier. If both columns already exist, it reports that the columns are already installed and makes no changes.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109092",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109092"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:51+05:30",
+  "scraped_at": "2026-10-18T13:59:41.350353"
+}

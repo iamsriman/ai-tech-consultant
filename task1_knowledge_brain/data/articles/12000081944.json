@@ -1,0 +1,105 @@
+{
+  "article_id": "12000081944",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081944-toolbox-form-manager-field-validation-options",
+  "title": "Toolbox » Form Manager » Field Validation Options",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "Toolbox » Form Manager » Field Validation Options"
+  ],
+  "content": "## Toolbox » Form Manager » Field Validation Options\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000081944\n\nValidation rules restrict what can be entered into a form field and display an error message when the input doesn't meet the requirements. Rules are configured per field.\n\nTo turn on and require validation rules for a form field, please go to Actions >> Validation Options:\n\nEnable validation here:\n\nFor every rule type, a custom error message can be added in the field on the right side. If no custom message is added, the system falls back to the general error messages (see \"Default error messages\" below).\n\n\n## Validation Rules:\n\n\n\n### Min/Max Characters\n\n\nRestricts how many characters a field can have.\n\nOn the right side, the error message can be added.\n\nIt will look like this in the front end:\n\n\n### Numerical Value Range\n\n\nSet numerical range this field's value needs to fall within.\n\nIt will look like this in the front end:\n\nIt will look like this in the front end:\n\n\n### Regular Expression\n\n\nThis is an advanced setting for developers to input REGEX rules.\n\nSo, for example, the regex that is in the placeholder above:\n\n^[a-zA-Z0-9_.]+$\n\nThis means the content must be any combination of lowercase or uppercase letters (A–Z), numbers, underscores, and periods. No other characters are accepted.\n\nNo other characters would be accepted. Use without the leading or trailing slash /.\n\nIt will look like this in the front end:\n\n\n## Default error messages\n\n\nIf no custom error message is added to a rule, the system shows general error messages. These messages are text labels and can be edited under Settings >> Text Labels .\n\nIn the search bar at the top right, type \"Form validation\" and all labels related to these messages will appear.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180235905/original/ZRrMGFknAyx88qyWhzV3OP3xrj5AQrutog.png?1781141654",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180235974/original/wqCLVSupggtP3RRj8NGQpsCa_enNvlAiiw.png?1781141833",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236021/original/BGheKxEfE_cljXtUTLbC5Mg0liJmlE564g.png?1781141944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236105/original/nDendUmGqVsdGGEkNDqXT5qEMo2TV9isCg.png?1781142121",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236124/original/LkUJ4juiaytRJQ5H5OFJUS0p7cR0xMaBqg.png?1781142243",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236137/original/emtjYsuA5ZFGNBgNxlTgcFKWxGtqukovPg.png?1781142312",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236158/original/ioK7e_wdfu_ix5wVUdkujPIP5PD4Vrxa2A.png?1781142443",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236216/original/mvBd2BvGDpspl8VJ_nvPFvOWBIvvhE-vTw.png?1781142539",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180236235/original/4C40aCVh-23VSwGj3jllGN1eiYcvdATo7g.png?1781142739",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Form Manager » Field Validation Options' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000081944",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081944"
+    }
+  ],
+  "lastmod": "2026-06-11T07:22:23+05:30",
+  "scraped_at": "2026-10-18T13:48:55.027129"
+}

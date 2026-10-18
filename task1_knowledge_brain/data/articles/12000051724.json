@@ -1,0 +1,23 @@
+{
+  "article_id": "12000051724",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051724-11-23-18-software-updates",
+  "title": "11/23/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/23/18 - Software Updates"
+  ],
+  "content": "## 11/23/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000051724\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The Facebook Website Chat Add-On greeting message is now a Text Label. New text label: fb_chat_greeting.\n\n- We released the RSS Feed for Posts Add-On.\n\n- We fixed a UI issue which was preventing the Accepted Label from displaying correctly on the Review Details Page in the Member Dashboard. Widgets Involved: Bootstrap Theme - Account - Reviews\n\n- We hid the Footer Newsletter Form when viewing /checkout pages. Widgets Involved: Bootstrap Theme - Footer\n\n- We fixed an issue that was adding an escape backslash in front of some characters in the keyword search modules. Widget Involved: Bootstrap Theme - Search Module - Keyword_Location\n\n- We fixed an issue which was preventing a member from deleting Sub-Accounts in some cases. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- We fixed an issue which was setting a member's status as \"On Hold\" even when the paid signup process was successfully completed.\n\n- We fixed an issue which was preventing the keyword search module from finding members in a matching Sub-Sub Category in some cases Widgets Involved: Search - Member - Search Query\n\n- We created a new Text Label in order to show the correct error message during the Signup Process if the email entered is already associated with an existing member. New Text Label: duplicate_email_error.\n\n- We updated the UI of the \"Add Member\" workflow from the Search Members page in the Admin.\n\n- We added the ability to search by category to the Audio File Feature. Widgets Involved: Bootstrap Theme - Form - Post Categories Select Controller Bootstrap Theme - Module - Audio Search\n\n- We added the ability to \"Clone\" and \"Delete\" Sidebars to the Actions dropdown on the Sidebar Manager page in the Admin.\n\n- We updated the Coupon Code page in the Admin to place active and inactive coupons on different tabs. Note: This section is only available if the Easy Coupon Codes Add-On is active in the Site.\n\n- We updated the fields where members add their related URLs (website, blog, and social media URLs) in order to support special characters in the URLs.\n\n- Now the Member Profile and Search Results Review Stars will not showing in the Site if the \"Hide Reviews Star Rating Option\" setting in the Member Product Settings page is set to Yes. Widget Involved: Bootstrap Theme - Member Profile - Header Feature Involved: Listing\n\n- We added support for Special Characters to Static Page URLs in the Admin.\n\n- We added the ability to select the Social Media Image when editing a Static Page in the Admin.\n\n- We released the Homepage Clickable Maps Pack Add-On. Widget Involved: Bootstrap Theme - Homepage",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000051724",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051724"
+    }
+  ],
+  "lastmod": "2018-11-27T00:00:22+05:30",
+  "scraped_at": "2026-10-18T13:44:09.656173"
+}

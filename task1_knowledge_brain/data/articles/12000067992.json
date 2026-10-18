@@ -1,0 +1,145 @@
+{
+  "article_id": "12000067992",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067992-my-members-member-categories-front-back-end-overview",
+  "title": "My Members » Member Categories » Front & Back End Overview",
+  "category": "My Members",
+  "folder": "Member Categories",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Member Categories",
+    "My Members » Member Categories » Front & Back End Overview"
+  ],
+  "content": "## My Members » Member Categories » Front & Back End Overview\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000067992\n\nBy default, all sites come with a categories page that can be accessed using the / categories URL and through the Footer Menu link on the Homepage:\n\nThis will allow the website visitors and members to browse through all of the categories available on the site:\n\nFor sites with a lot of categories, the search bar makes it easy for the website users to quickly find what they are looking for, which will search for any matching keywords:\n\nThis page can use two different category widgets.\n\n- Bootstrap Theme - Category Groups - Member Categories : will display all Top, Sub and Sub-sub level categories.\n\n- Bootstrap Theme - Sub Category Groups - Member Categories : will display all Sub and Sub-sub level categories.\n\nIn addition, both widgets support using a URL parameter to pre-fill the keyword filter. This works with spaces, quotation marks, and special characters.\n\nExamples:\n\n- https://directory.directoryup.com/ categories?category=Sub%20Sub\n\n- https:// directory .directoryup.com/ sub-categories?category=Museum%20of%20zoology\n\n\n### Sort Order\n\n\nThe order in which the categories are displayed on this page can be changed in the General Settings section under the Search Settings tab of the admin dashboard as seen below\n\nDefault Category Sort Order\n\nSelect the order in which member categories should display on the live website\n\n\n## Back-End Information\n\n\nThe /categories web page can be found inside My Content » Web Page Builder:\n\nThe first three items on this image can be edited to fit the website:\n\n- URL\n\n- Page Title (H1)\n\n- Sub Title (H2)\n\n- This widget is the one that displays the categories inside the Categories page on the site. [widget=Bootstrap Theme - Category Groups - Member Categories]\n\n- This is the standard sidebar that will appear on all Web Pages.\n\nAdditional Information\n\n» To read more about the Web Pages, follow this link: Web Pages Folder\n\n» For more about the Widgets, follow this link: Toolbox » Widget Manager\n\n\n## Editing Categories\n\n\n» My Members » Member Categories\n\n» How To Import Categories Via CSV File\n\n» How To Add Categories Manually From The Admin\n\n» How To Select Categories as a Member\n\n\n## Designing the Categories Page\n\n\nText and Images can be added inside the WYSIWYG editor and they will appear on the Categories Page.\n\n» Everything About WYSIWYG Editors\n\n» How to Post Images On WYSIWYG Editors\n\nUse the Hero Section\n\n» How to add a Hero Section to Static Pages\n\n\n## Advanced Settings\n\n\nThere are a few advanced settings that can help further customize the categories pages.\n\n\n### Show Categories with No Members\n\n\nTo only display the categories that have been selected by at least one member, make sure to disable this setting under General Settings:\n\n\n### ⚠️ Important Note - Categories Page URL\n\n\nChanging the URL of this page will not change all the links throughout the website (like the footer link shown above). If a change is made in the /categories URL, this new URL should be updated under the following Advanced Setting as well:\n\nFor example , if the web page's URL is changed from /categories to /categories-1 , the advanced setting specified above should be updated to /categories-1 as well.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090914687/original/rrJZcwHECKlWdpi-5cH3rUbOYlFjQIHcxw.png?1617664150",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090914703/original/suOYa5xITozd9IW11fNQCXTNZqjioa3fEQ.png?1617664200",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090914733/original/GdItgcrO1_hqs0nTqJgEAyQthw31sCHYbw.png?1617664230",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165009937/original/OZVjP-gtJbLuE29kYIg9svmFKt4Lf2tGRg.png?1753749301",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165009942/original/PT9RY7-W-XpCfJPykOgM_Ak2u85WNfhnpQ.png?1753749332",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180114653/original/4pXyG2HYaSygfPXuqd3zGE7QGjd-Ft7QDg.png?1781004455",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180114658/original/_w9LQAUR3XWQTd91ZNfrvpI9N0rEefN8Kw.png?1781004462",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165010001/original/NA9AgC-OqE9MRSjWW3IfmORnk9zs7SvHww.png?1753749489",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165010071/original/8Mf-5-6X_kGQG95tevmSyt9CQfX9p2b3PQ.png?1753749517",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members » Member Categories » Front & Back End Overview' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000067992",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067992"
+    },
+    {
+      "text": "Web Pages Folder",
+      "url": "https://support.brilliantdirectories.com/support/solutions/folders/12000005697"
+    },
+    {
+      "text": "Toolbox » Widget Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000025507"
+    },
+    {
+      "text": "My Members » Member Categories",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046949"
+    },
+    {
+      "text": "How To Import Categories Via CSV File",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558401"
+    },
+    {
+      "text": "How To Add Categories Manually From The Admin",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052823"
+    },
+    {
+      "text": "How To Select Categories as a Member",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036422"
+    },
+    {
+      "text": "» Everything About WYSIWYG Editors",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050711"
+    },
+    {
+      "text": "» How to Post Images On WYSIWYG Editors",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050864"
+    },
+    {
+      "text": "How to add a Hero Section to Static Pages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065187"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/folders/12000005697"
+    }
+  ],
+  "lastmod": "2026-06-09T17:02:01+05:30",
+  "scraped_at": "2026-10-18T13:46:10.393572"
+}

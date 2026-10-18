@@ -1,0 +1,63 @@
+{
+  "article_id": "12000108343",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108343-brilliant-directories-mcp-server",
+  "title": "Brilliant Directories MCP Server",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Brilliant Directories MCP Server"
+  ],
+  "content": "## Brilliant Directories MCP Server\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108343\n\nThe Brilliant Directories MCP lets supported AI assistants — like Claude, Cursor, Windsurf, Cline, and OpenAI Codex — connect directly to your BD site. Instead of copying and pasting site data into a chat window, the AI can read and update your members, posts, pages, categories, leads, emails, and more by talking to your site's API on your behalf.\n\nFor complete, up-to-date install instructions for the AI chatbot you're using, see the official Brilliant Directories MCP GitHub repository .\n\nThe GitHub page has the full list of supported AI chatbots and step-by-step setup for each one. This article covers the basics so you know what the MCP is, what it does, and how to troubleshoot the simple stuff.\n\n\n## What Is the BD MCP?\n\n\nMCP stands for Model Context Protocol — an open standard that lets AI tools securely connect to outside software. The Brilliant Directories MCP is the BD-specific connector built on that standard. Once installed in your AI assistant, it gives the AI a set of tools for working with your BD site directly.\n\nThat means you can ask the AI things like \"list my last 20 leads,\" \"create a new landing page about X,\" or \"find members in the Plumbers category and update their tags,\" and the AI carries out the task on your live site — no copy/paste, no manual API calls.\n\n\n## What the BD MCP Can Do\n\n\nThe MCP exposes the full set of resources available through the BD public API, including:\n\n- Members — create, search, update, manage subscriptions and metadata\n\n- Content — single-image and multi-image posts, categories and subcategories, tags\n\n- Pages and navigation — web pages, menus, widgets, sidebars, redirects\n\n- Marketing — leads, lead matches, smart lists, email templates, unsubscribes\n\n- Reviews — read, create, and moderate\n\n- Forms and fields — create and edit forms and form fields\n\n- Membership plans — create and update plans\n\nThe full list of supported actions is maintained in the GitHub README , which is updated as new capabilities ship.\n\n\n## What the BD MCP Doesn't Do\n\n\n- It doesn't change anything outside the BD public API. If a feature isn't exposed through the BD API, the MCP can't reach it.\n\n- It doesn't have an \"undo.\" Writes — including deletes — happen on your live site immediately. Always test on one record before bulk operations.\n\n- It doesn't bypass permissions. What your API key is allowed to do is what the AI is allowed to do. New keys default to member read/write only ; other resources have to be enabled on the key.\n\n- It doesn't work with ChatGPT. ChatGPT (web, desktop, or mobile) does not support MCP connectors. Use one of the supported AI tools listed on the GitHub page.\n\n- It doesn't store your data on Brilliant Directories' servers. The connection runs from your computer (or the hosted endpoint) directly to your site.\n\n\n## How to Connect the MCP to Your AI Tool\n\n\nThe complete install instructions live on the official BD MCP GitHub repository . The GitHub page includes the full list of supported AI chatbots and the exact configuration to copy and paste for each one — Claude Desktop, Claude Code, Cursor, Windsurf, Cline, OpenAI Codex Desktop, n8n, and more. We keep that page as the source of truth so the steps stay current as the supported clients change.\n\nThe two videos below walk through setup for the two most common tools:\n\n\n### Setting Up the BD MCP in Claude Desktop\n\n\nThis walkthrough shows where to find the MCP settings in Claude Desktop, where to paste your BD API key and site URL, and how to confirm the connection is working.\n\n\n### Setting Up the BD MCP in OpenAI Codex\n\n\nThis walkthrough covers adding the BD MCP server inside OpenAI Codex Desktop, including the exact form fields for the URL and authentication headers.\n\n\n### What You'll Need Before You Start\n\n\n- Your BD site URL — the full canonical URL, e.g. https://www.your-site.com (include https:// , include www. if your site uses it, no trailing slash).\n\n- A BD API key — generate one from your BD admin under Developer Hub → Generate API Key . New keys default to member read/write permissions only. To let the AI work with other resources (posts, leads, pages, etc.), enable the Advanced Endpoints toggle on the key.\n\n- A supported AI tool — see the GitHub page for the current list.\n\n- (Some setups only) Node.js — a small one-time install from nodejs.org if your AI tool runs the MCP locally. The GitHub instructions will tell you whether you need it.\n\n\n## Troubleshooting: I Connected It, But It's Still Not Working\n\n\nIf you followed the GitHub install steps but the AI doesn't seem to see your BD site, run through this checklist before anything else. These are the simple, common reasons a fresh setup doesn't work — and they cover the vast majority of cases.\n\n\n### 1. Fully quit and restart your AI app\n\n\nClosing the window isn't enough. The MCP only loads when the app starts up fresh, so you need to fully quit the app — on Windows, right-click the icon in the system tray and choose Quit; on Mac, use Cmd-Q or right-click the dock icon and choose Quit. Then reopen the app. This fixes the majority of \"it's not connecting\" cases.\n\n\n### 2. Check your site URL is exactly right\n\n\nThe URL is fussy. It must:\n\n- Start with https://\n\n- Include www. if your site uses it\n\n- Not end with a slash\n\nExamples:\n\n- Correct: https://www.mysite.com\n\n- Incorrect: www.mysite.com (missing https:// )\n\n- Incorrect: https://mysite.com/ (trailing slash)\n\n- Incorrect: https://mysite.com (missing www. when site uses it)\n\n\n### 3. Re-copy your API key\n\n\nOpen Developer Hub, copy the API key fresh, and paste it again. Make sure there are no extra spaces before or after. If you regenerated the key recently, the old one no longer works — use the new one.\n\n\n### 4. Install Node.js if your setup needs it\n\n\nSome AI tool setups run the MCP locally on your computer, which requires Node.js. If the GitHub install instructions for your tool mention Node.js or npx , download and install Node.js from nodejs.org . This is a one-time step. Windows users: reboot after installing.\n\n\n### 5. Confirm Advanced Endpoints are enabled (if you're trying to do more than work with members)\n\n\nBy default, a new BD API key only allows the AI to read and write members. If you want it to manage posts, pages, leads, emails, etc., go back into Developer Hub → your API key → Permissions and enable the Advanced Endpoints toggle for the resources you want to use. Save, then restart your AI app.\n\n\n### 6. Test the connection with a simple prompt\n\n\nAsk the AI:\n\n```\nCan you confirm that the BD MCP is connected and tell me what Brilliant Directories site tools are available?\n```\n\nIf the AI lists BD tools, you're connected. If it says it doesn't have any BD tools or doesn't know about Brilliant Directories, the MCP isn't loaded — recheck the steps above.\n\n\n### Still Stuck?\n\n\nOpen an issue on the GitHub repository or contact BD support.\n\n\n## Important Notes on Safety\n\n\n- Treat your API key like a password. Don't share it or paste it into public chats.\n\n- Writes go to your live site immediately. There is no undo, including for deletes. For bulk operations, ask the AI to run on one record first to confirm the result.\n\n- Use least-privilege keys. Only enable Advanced Endpoints for resources you actually want the AI to touch. For production use, consider disabling all delete actions on the key.\n\n- Each team member should generate their own API key rather than sharing one.\n\n- Review AI changes before publishing for anything that affects what visitors see.\n\n\n## Example Prompts to Try Once Connected\n\n\nOnce the MCP is connected, the best results come from clear, specific prompts tied to a real task on your site. Below are some starter prompts you can adapt.\n\n\n### Starter Prompts\n\n\nConfirm the connection:\n\n```\nCan you confirm that the BD MCP is connected and tell me what Brilliant Directories site tools are available?\n```\n\nReview the member signup page:\n\n```\nReview the member signup page.\n\nTell me if the page clearly explains:\n- who should join\n- what members receive\n- why the membership is valuable\n- what the visitor should do next\n\nThen suggest better wording for the top section of the page.\n```\n\nRewrite a page section:\n\n```\nReview the current content on this page and rewrite the opening section.\n\nKeep the tone professional, clear, and friendly.\n\nThe goal is to explain what the website offers and encourage visitors to browse the directory.\n```\n\nSEO review of a page:\n\n```\nReview this page for SEO.\n\nFocus on:\n- page title\n- meta description\n- heading structure\n- keyword clarity\n- content quality\n- opportunities to make the page more useful\n\nDo not over-optimize the content. Keep the recommendations natural and visitor-friendly.\n```\n\n30-day content plan:\n\n```\nCreate a 30-day content plan for this directory website.\n\nInclude:\n- blog post ideas\n- member spotlight ideas\n- landing page ideas\n- email newsletter topics\n- social post ideas\n\nMake the ideas relevant to the website niche.\n```\n\n\n### Prompt Formula That Works Well\n\n\n```\nReview [specific website area].\n\nThe goal is to [main objective].\n\nFocus on [specific items].\n\nReturn the result as [list / draft copy / step-by-step plan / recommendations].\n```\n\n\n### Best Practices\n\n\n- Work on one page or task at a time.\n\n- Tell the AI what part of the site to review.\n\n- Explain the goal before asking for changes.\n\n- Ask for a draft or plan before applying major updates.\n\n- Review AI-generated changes before publishing.\n\n- Ask the AI to explain its recommendations when needed.\n\n\n## Learn More\n\n\n- Official GitHub Repository — full setup, all client configs, current tool list\n\n- Cursor Directory Plugin\n\n- Model Context Protocol — about the open standard",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108343",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108343"
+    },
+    {
+      "text": "official Brilliant Directories MCP GitHub repository",
+      "url": "https://github.com/brilliantdirectories/brilliant-directories-mcp#official-brilliant-directories-mcp-server--setup-guide"
+    },
+    {
+      "text": "GitHub README",
+      "url": "https://github.com/brilliantdirectories/brilliant-directories-mcp#official-brilliant-directories-mcp-server--setup-guide"
+    },
+    {
+      "text": "official BD MCP GitHub repository",
+      "url": "https://github.com/brilliantdirectories/brilliant-directories-mcp#official-brilliant-directories-mcp-server--setup-guide"
+    },
+    {
+      "text": "GitHub page",
+      "url": "https://github.com/brilliantdirectories/brilliant-directories-mcp#official-brilliant-directories-mcp-server--setup-guide"
+    },
+    {
+      "text": "nodejs.org",
+      "url": "https://nodejs.org"
+    },
+    {
+      "text": "nodejs.org",
+      "url": "https://nodejs.org"
+    },
+    {
+      "text": "the GitHub repository",
+      "url": "https://github.com/brilliantdirectories/brilliant-directories-mcp/issues"
+    },
+    {
+      "text": "Official GitHub Repository",
+      "url": "https://github.com/brilliantdirectories/brilliant-directories-mcp#official-brilliant-directories-mcp-server--setup-guide"
+    },
+    {
+      "text": "Cursor Directory Plugin",
+      "url": "https://cursor.directory/plugins/brilliant-directories"
+    },
+    {
+      "text": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io"
+    }
+  ],
+  "lastmod": "2026-05-04T23:11:17+05:30",
+  "scraped_at": "2026-10-18T13:58:47.261460"
+}

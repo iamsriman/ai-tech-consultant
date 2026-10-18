@@ -1,0 +1,236 @@
+{
+  "article_id": "12000042159",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042159-settings-general-settings-localization",
+  "title": "Settings » General Settings » Localization",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Settings » General Settings » Localization"
+  ],
+  "content": "## Settings » General Settings » Localization\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000042159\n\nThis article covers the Localization tab found under General Settings, including all available options and configurations.\n\n\n### Visual Guide of Localization and Currency Settings\n\n\n\n### 1. Primary Country\n\n\nSelect the country that the system will fall back on or will be recommended to users for their locations:\n\nIt may be necessary to check the country settings in the Finance section:\n\nFinance » Payment Gateways » Additional Settings » Billing Address Countries\n\n\n### 2. Default Website Language\n\n\nThis setting controls the language used for 3 different pieces of functionality in our platform.\n\n- The Google Recaptcha Keys: Set Up reCaptcha - Brilliant Directories Quick Start Guide .\n\n- The Google Location AutoSuggestions. Find examples of these autosuggestions here: Benefits And Limitations Of The Google Maps API For Locations\n\n- The Events Calendar: Events Calendar\n\nNOTE: Recaptcha and Google Maps have their own lists of supported languages; if the default language selected for the site is not supported on their end, the language for that tool will default to English.\n\nList of Supported Languages for Automatic Website Translation\n\nar-AE (Arabic) bg-BG (Bulgarian) bn-BD (Bengali - Bangladesh) cs-CZ (Czech) da-DK (Danish) de-DE (German) el-GR (Greek) en-AU (English - Australia) en-GB (English - Great Britain) en-US (English) es-MX (Spanish) fr-FR (French) fi-FI (Finnish) he-IL (Hebrew) hi-IN (Hindi) hu-HU (Hungarian) hr-HR (Croatian) id-ID (Indonesian) it-IT (Italian) ja-JP (Japanese) kk-KZ (Kazakh) ko-KR (Korean) mn-MN (Mongolian) ms-MY (Malay) nl-BE (Dutch - Belgium) nl-NL (Dutch) no-NO (Norwegian) pl-PL (Polish) pt-BR (Portuguese - Brazilian) pt-PT (Portuguese) ro-RO (Romanian) sr-SR (Serbian) sv-SE (Swedish) th-TH (Thai) tl-PH (Filipino) tr-TR (Turkish) vi-VN (Vietnamese) zh-CN (Chinese - Simplified) zh-HK (Chinese - Hong Kong) zh-TW (Chinese - Traditional)\n\nIf the language selected is available in the Supported Languages for Automatic Website Translation list, and the Use same language for text labels and email templates option is checked, the system will automatically translate the text labels and the email templates to the selected language. To view the full list of supported languages, please check the available language options. If the selected language is listed, the site will display the corresponding text labels in that language.\n\nAny place in front-end of the site that is using text labels will start displaying in that language, like shown below:\n\nAs the sections like header menu or main menu are not utilizing any text labels, their translation must be done via the Menu Manager.\n\nThe text direction for the site can be set using the Advanced Setting, \" Text Direction \":\n\nSystem Variable: text_direction\n\nSelect \" Right to Left \" if the language of the website should be read from the right side of the page to the left.\n\n\n### 3. Time Format\n\n\nSelect the format to display time values on the frontend of the website with this setting:\n\n\n### 4. Date Format\n\n\nChange the way the date is displayed throughout the website with this setting:\n\n\n### 5. Website Time Zone\n\n\nThe system will suggest the time zones depending on the \"Primary Country\" selected above.\n\nThis setting will set the time for:\n\n- The Time in the admin panel, which is important for the website activity tracker to keep track of all changes at the right time.\n\n- This will also set the website time, so any post that expires on a certain date and time will make sure that it expires based on the right time zone.\n\nNOTE: The time zone may need to be adjusted for Daylight Savings Time (make sure the timezone matches the GMT time difference)\n\n\n### 6. Hour of Day to Collect Recurring Payments\n\n\nSelect the time to collect the recurrent payments. Billing processes will be scheduled within one hour of the selected time. This setting is synced with the selected website timezone.\n\n\n### 7. Display Website Timezone When Publishing a Post\n\n\nThis setting controls the display the website's timezone for posts, this appears underneath the date and time pickers on the forms that have these fields.\n\nIf selecting \" Yes \" an additional field will appear to add a custom text:\n\nAdmins can enter custom text that will display as the timezone below time and date fields when members publish a post.\n\n\n### 8. Distance Format\n\n\nThere are two options for this setting; Miles or Kilometers .\n\nThis setting will make sure that when visitors search for the professionals on the website the correct distance measurement is displayed.\n\ne.g: Say a visitor searches for location X on the site, and there are no members in location X , but there is one in Location Z .\n\nLocation Z is W miles/kilometers away from Location X . Based on this setting when the visitor does a search our system will display the member's distance from location X to Z in either Miles or Kilometers.\n\n\n### 9. Location Search Suggestions\n\n\nThese settings go hand in hand; however, if \"Only Search Primary Country?\" is set to \"No\",  the \"Primary Country\" setting doesn't really have a purpose:\n\nThe \"Primary Country\" setting basically tells the system what country the website is targeted to.\n\nThe \"Only Search Primary Country?\" setting, when set to \"yes\" will instruct all the location modules on the site to only prompt autosuggestions for locations in that country.\n\nIf this is set to yes, we would also recommend following these instructions to localize the search:\n\nHow To Localize Searches\n\nNote: The system will use the primary country of the site as the \"region\" when getting the info if the location from Google maps.\n\n\n### 10. Block Traffic by Country\n\n\nControl traffic from specific countries only as needed, primarily to reduce spam. Aggressive blocking may impact SEO rankings on Google. If unsure, leave setting blank.\n\nThis requires the add-on: Block Website Traffic by Country\n\n\n## Currency\n\n\nThese settings control how the website displays and processes currency, including the symbol, format, and placement - ensuring consistency for both admin and member transactions.\n\nList of Supported Languages for Automatic Website Translation\n\nAOA - Angola Kwanza (Kz) ARS - Argentine Peso ($) AMD - Armenia Dram (֏) AWG - Aruba Guilder (ƒ) AUD - Australian Dollar (A$) AZN - Azerbaijan New Manat (₼) BSD - Bahamas Dollar (B$) BHD - Bahraini Dinar (.د.ب or BD) BDT - Bangladesh Taka (৳) BBD - Barbadian Dollar (Bds$) BYN - Belarusian Ruble (Br) BZD - Belize Dollar (BZ$) BMD - Bermudian Dollar (BD$) BOB - Bolivia Boliviano (Bs.) BAM - Bosnia and Herzegovina Convertible Marka (KM) BWP - Botswana Pula (P) BRL - Brazilian Real (R$) GBP - British Pound (£) BND - Brunei Darussalam Dollar (B$) BGN - Bulgaria Lev (лв) BIF - Burundi Franc (FBu) KHR - Cambodia Riel (៛) CAD - Canadian Dollar (C$) CVE - Cape Verde Escudo (Esc) KYD - Cayman Islands Dollar (CI$) XAF - Central African CFA Franc (FCFA) CLP - Chilean Peso ($) CNY - Chinese Yuan (¥) COP - Colombia Peso ($)KMF - Comoros Franc (CF) XPF - Comptoirs Français du Pacifique (CFP) Franc(₣ or CFPF) CDF - Congo/Kinshasa Franc (FC) CRC - Costa Rica Colon (₡) HRK - Croatia Kuna (kn) CZK - Czech Koruna (Kč) DKK - Danish Krone (kr) DJF - Djibouti Franc (Fdj) DOP - Dominican Republic Peso (RD$) XCD - East Caribbean Dollar (EC$) EGP - Egyptian Pound (£ or E£) SVC - El Salvador Colon (₡) ETB - Ethiopia Birr (Br) EUR - Euro (€) FKP - Falkland Islands (Malvinas) Pound (£) FJD - Fiji Dollar (FJ$)GMD - Gambia Dalasi (D) GEL - Georgia Lari (₾) GHS - Ghanaian Cedi (₵) GIP - Gibraltar Pound (£) GTQ - Guatemala Quetzal (Q) GNF - Guinea Franc (FG) GYD - Guyana Dollar (GY$) HTG - Haiti Gourde (G) HNL - Honduras Lempira (L) HKD - Hong Kong Dollar (HK$) HUF - Hungarian Forint (Ft) ISK - Icelandic Krona (kr) INR - Indian Rupee (₹) IDR - Indonesian Rupiah (Rp) ILS - Israeli Sheqel (₪) JMD - Jamaican Dollar (J$) JPY - Japanese Yen (¥) JOD - Jordanian Dinar (JD) KZT - Kazakhstan Tenge (₸) KES - Kenyan Shilling (KSh) KGS - Kyrgyzstan Som (с or som) LAK - Laos Kip (₭) LBP - Lebanese Pound (ل.ل or L£) LSL - Lesotho Loti (L) LRD - Liberia Dollar (L$) MOP - Macau Pataca (MOP$) MKD - Macedonia Denar (ден or MKD) MGA - Madagascar Ariary (Ar) MWK - Malawi Kwacha (MK) MYR - Malaysian Ringgit (RM) MVR - Maldives Rufiyaa (Rf or ރ) MRO - Mauritania Ouguiya (UM) (now replaced by MRU) MUR - Mauritius Rupee (₨) MXN - Mexican Peso ($ or Mex$) MDL - Moldova Leu (L) MNT - Mongolia Tughrik (₮) MAD - Moroccan Dirham (DH or د.م.) MZN - Mozambique Metical (MT) MMK - Myanmar Kyat (K) NAD - Namibian Dollar (N$) NPR - Nepalese Rupee (₨) ANG - Netherlands Antilles Guilder (ƒ or NAƒ) NZD - New Zealand Dollar (NZ$) NIO - Nicaragua Córdoba (C$) NGN - Nigeria Naira (₦) NOK - Norwegian Krone (kr) OMR - Omani Rial (ر.ع. or OMR) PKR - Pakistani Rupee (₨) PAB - Panamanian Balboa (B/.) PGK - Papua New Guinea Kina (K) PYG - Paraguay Guarani (₲) PEN - Peru Sol (S/.) PHP - Philippine Peso (₱) PLN - Polish Zloty (zł) QAR - Qatari Riyal (ر.ق or QR) RON - Romanian Leu (lei) RUB - Russian Ruble (₽) RWF - Rwanda Franc (FRw) STD - São Tomé and Príncipe Dobra (Db) (now STN) SHP - Saint Helena Pound (£) WST - Samoa Tala (WS$) SAR - Saudi Riyal (ر.س or SR) RSD - Serbia Dinar (дин. or RSD) SCR - Seychelles Rupee (₨) SLL - Sierra Leone Leone (Le) SGD - Singapore Dollar (S$) SBD - Solomon Islands Dollar (SI$) SOS - Somalia Shilling (Sh.So. or So.Sh.) ZAR - South African Rand (R) KRW - South Korean Won (₩) LKR - Sri Lankan Rupee (Rs or ₨) SRD - Suriname Dollar (SR$) SZL - Swaziland Lilangeni (E) SEK - Swedish Krona (kr) CHF - Swiss Franc (CHF) TWD - Taiwan New Dollar (NT$) TJS - Tajikistan Somoni (SM) TZS - Tanzania Shilling (TSh) THB - Thai Baht (฿) TTD - Trinidad and Tobago Dollar (TT$) TRY - Turkish Lira (₺) UGX - Uganda Shilling (USh) UAH - Ukraine Hryvnia (₴) AED - United Arab Emirates Dirham (د.إ or AED) UYU - Uruguay Peso ($U) USD - US Dollar ($) UZS - Uzbekistan Som (soʻm or UZS) VUV - Vanuatu Vatu (VT) VND - Viet Nam Dong (₫) XOF - West African CFA Franc (CFA) YER - Yemen Rial (﷼) ZMW - Zambia Kwacha (ZK)\n\n\n### 11.Currency Preview\n\n\nGet a preview of the settings that have been picked for the website currency:\n\n\n### 12. Website Currency\n\n\nSelect the currency that members will be charged in.\n\nHowever, to charge any of the members it's always important to set up a payment gateway:\n\nSetting Up A Payment Gateway\n\nIf the desired currency doesn't appear in the drop-down please contact our support team.\n\n\n### 13. Website Currency Number Format\n\n\nIn some countries the order in which the currency symbol is displayed changes, some countries use the symbol in front of the amount, some others use it after the amount, also the way in which the decimals are delimited can change depending on the format that is used in the country the site is located.\n\nThis setting controls the format in which the currency and amounts should be displayed:\n\n\n### 14. Currency Prefix\n\n\nIf the format of the website currency should display before the amount use the currency prefix.\n\ne.g: [AU$]1,234.5\n\n\n### 15. Currency Suffix\n\n\nIf instead, the currency symbol should display after the amount use the Currency Suffix.\n\ne.g: 1,234.56[AU$]",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161492961/original/u0xnXdpOhAFZftKlSlAydasUWlRAgoLl_w.png?1747590873",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085290394/original/n1J8DlaNU-MLP01RkXruzm6az0hHEBcgnw.png?1605896043",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156799429/original/u1_yWs8aBK2EG6l1PZsOTs9kq1zyJZwLWQ.png?1739290251",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117400768/original/VFaVZWepN-91G53eB4iQycz9KiLHRFQGBQ.png?1668698790",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165814401/original/qWoYSaZF5LjnHWYxpbcwdXmmsZQY-C6fQw.png?1755109371",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180139090/original/rMKIxOUAGAsaF3VBtQpTYzEL6t3SPwFSGg.png?1781023628",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182113665/original/1nYe7krL7cgnU37m-IWOwZsRZOMz4D8SaA.png?1784158981",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085290345/original/DezTmBnc6zR984K_Vdz0l0seAYo8RGDs4g.png?1605895942",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12123894741/original/hWOyFOdAW-N2N8aGupHHoF-CAQW-cwbEaQ.png?1681229379",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161492850/original/J95PiS9B1IMaGZUaWtmC8SLkJN8sDkRQsA.png?1747590272",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161492866/original/WYTIeuQ1ivLXivrs6KX5-rOExJPSCraWNw.png?1747590357",
+      "alt": null,
+      "caption": "If selecting \"Yes\" an additional field will appear to add a custom text:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'. Context: If selecting \"Yes\" an additional field will appear to add a custom text:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180139099/original/wQml5VZw5EzA5fad54uYeCWbURJ16hkfvw.png?1781023660",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180139303/original/LlkCQxVubOPEM8a0SX8F9XJBaLTzXEUEEA.png?1781023913",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161493002/original/nm1yn9mzavQC__yxq-fQdxjXMJz9aVrfRg.png?1747591074",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161493074/original/sIvCsP7YA1OnsnnbC7xdQBDkTM_bDP-QyQ.png?1747591296",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084351478/original/i8gS-KMvNzWjFhupMqLebjk2zoRtVNeC_A.png?1604093992",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085290478/original/yZbf9pKOm3wy8faRPTGwbNKnrB1vFLWfjA.png?1605896204",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12101452313/original/O0_VptUXoBn3b4iq4otcEfjKl1uVY24Khg.png?1637806989",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12101452301/original/7xwJDpx0GewhjNJsCsiRsTn8FYhJPw7JgA.png?1637806890",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12101452307/original/ns82_S7VrQxto5fm-WWHXOyHNz7XqK6bVA.png?1637806937",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Localization' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000042159",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042159"
+    },
+    {
+      "text": "Finance » Payment Gateways » Additional Settings » Billing Address Countries",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047893"
+    },
+    {
+      "text": "Set Up reCaptcha - Brilliant Directories Quick Start Guide",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019817"
+    },
+    {
+      "text": "Benefits And Limitations Of The Google Maps API For Locations",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682639"
+    },
+    {
+      "text": "Events Calendar",
+      "url": "http://www.demobootstrap.com/events-calendar"
+    },
+    {
+      "text": "text labels",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682673"
+    },
+    {
+      "text": "How To Localize Searches",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003018"
+    },
+    {
+      "text": "Block Website Traffic by Country",
+      "url": "https://www.brilliantdirectories.com/block-website-traffic-by-country"
+    },
+    {
+      "text": "Setting Up A Payment Gateway",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830"
+    }
+  ],
+  "lastmod": "2026-07-16T05:13:21+05:30",
+  "scraped_at": "2026-10-18T13:42:21.668487"
+}

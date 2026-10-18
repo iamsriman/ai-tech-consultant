@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104745",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104745-06-06-2025-software-updates",
+  "title": "06/06/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/06/2025 - Software Updates"
+  ],
+  "content": "## 06/06/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104745\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Implemented a set of quality improvements to the API Documenation page in the Admin.\n\n- Fixed an issue that prevented the Post Type Search Results from returning accurate results when using the post category dropdown filter in some cases. Widget Involved: Search - Group - Search Query\n\n- Fixed an issue that prevented the homepage's sub-sub category dropdowns from respecting the \"Content Boxes & Background Corner Styles\" Design Detting. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- Added support for Sub and Sub-Sub Categories as variables in SEO Templates. New SEO variables: sub_category_name and sub_sub_category_name. Widget Involved: Search - Member - Search Query\n\n- The Recent Reviews sidebar widget is now compatible with the \"URL Permalink\" Post Type Setting. Widget Involved: Bootstrap Theme - Module - Recent Reviews\n\n- Updated the message that displays for the \"Origin Page\" field on the Lead Details page when a lead is created via the API. Widget Involved: Bootstrap Theme - Display - Lead Origin URL\n\n- Fixed an issue that prevented Google Maps suggestion options from working properly when the \"Location Search Suggestions\" setting was set to \"Only Search Within Primary Country\" and the New Google Maps Places API was enabled. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Added the ability to import image titles and image descriptions when importing Multi-Photo Posts via CSV File and the API.\n\n- Added a \"Year to Date\" (January 1st to current date) option to select when using \"Date Picker\" search fields in the Admin.\n\n- Fixed an issue that prevented the Easy-Coupon Codes Add-On from working properly on checkout pages in some cases. Widget Involved: Bootstrap Theme - Function - Form Promotion Code Validation\n\n- Fixed an issue that prevented list bullets in Froala fields (EG the \"About Me\" field) from displaying on member profile pages when viewed on mobile devices in some cases.\n\n- Added Default Schema Markup to the Post Details pages of Job, Event, and Video Post Types.\n\n- Updated the Web Page Builder in the Admin to add a Search Snippet Preview when creating or updating web pages. To use this new feature navigate to the Admin >> My Content >> Web Page Builder >> Create/Edit Web Page >> SEO Settings Tab.\n\n- Updated the layout of the Login page for the Admin.\n\n- Added the ability to import Business Data members into different categories than they were originally when reimporting previous imports from the Business Data page in the Admin.\n\n- Improved the member import validation logic to better handle URL formats when importing members with website links via CSV file and API.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104745",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104745"
+    }
+  ],
+  "lastmod": "2025-06-09T22:43:09+05:30",
+  "scraped_at": "2026-10-18T13:56:11.172171"
+}

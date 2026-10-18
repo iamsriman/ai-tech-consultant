@@ -1,0 +1,116 @@
+{
+  "article_id": "12000041145",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000041145-modifying-invoices",
+  "title": "Modifying Invoices",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Modifying Invoices"
+  ],
+  "content": "## Modifying Invoices\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000041145\n\nWe will start this article by explaining how to download invoices (Add-on). If information about editing invoice details is needed, scroll down to the 'Modifying Invoice Information' section .\n\n\n## Downloading Invoices:\n\n\nBy default, the system does not send invoices automatically after a member pays; however, if the \"Downloadable PDF Invoices\" add-on is active, members can log in to their account and download the invoices from the Billing Section of their dashboard.\n\nNote: Another add-on is available to send invoices automatically Billing Reminder Emails Add-On.\n\n\n### \"Invoiced To \"Address:\n\n\nIn this section, they can add a billing address. this address will be reflected only on their invoices and it won't modify the listing address.\n\nThey can also view the Open and Cancelled Subscriptions:\n\n\n### Meaning of Statuses:\n\n\nActive orders:\n\nThis means that this order is still open and if it's recurring, it will auto-renew every 30, 90, 182, or 365 days. If the order (subscription) is \"Active\" but, it was a One-Time Payment, it won't auto-renew.\n\nCancelled orders :\n\nThis means the order has been cancelled.\n\nWhen a member is deleted, by default, the system will auto cancel all subscriptions related to the member.\n\n\n## Modifying Invoice Information:\n\n\nSeveral invoice elements can be modified or specified.\n\n\n### Invoice \"Pay To\" Instructions\n\n\nUsually, the \"Pay To\" section is empty; if it needs to be added to the site, go to Settings » Advanced Settings » billing_pay_to and add the company information.\n\nThe ABN number can be added here to be compliant with Australian tax law or any other VAT number required.\n\nExample:\n\nNote: It is not recommended to add more than 5 lines here:\n\nThe payment information will be updated automatically by the system, depending on the membership plan, price, or posts purchased. Important : Once the information is added in the advanced setting, make sure to refresh the website cache to reflect the change on all invoices. See how: Refresh the Cache .\n\n\n### Invoice Language:\n\n\nIf the language of the PDF invoice needs to be edited go to Settings >> General Settings >> Localization tab >> Default Website Language:\n\n\n### Invoice Logo\n\n\nBy default, the system will use the \"Website Logo\" but if it needs to be replaced due that it is too big or a new logo needs to be used, then upload a new \"Invoice Logo\". The image must be in JPG format..\n\nTo upload an Invoice Logo go to: Settings >> General Settings >> Brand Images section.\n\nFor more information about downloading invoices, see this article: How To Download Invoices",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091454025/original/WFKzZwfP7SndALXUoVgsCiHenTHOL8IkSQ.png?1618600860",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Modifying Invoices' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091454084/original/CsCVXgk7Ijn7THFTLDEEodiGzJs0LAgXzg.png?1618600966",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Modifying Invoices' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091454099/original/9L_qslnurs96VfsAaSM0SMY3qBYAZ_-RsA.png?1618601006",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Modifying Invoices' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091454113/original/Fu2DLlXOcWm5DX3o1tGj8fjGHMJCP0GUZw.png?1618601044",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Modifying Invoices' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093613710/original/t1VtAR9oBksXAOGQY63J5XDwo6gr-rOuGw.png?1622825576",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Modifying Invoices' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091454145/original/WS9kJN6xG10aj6TPhwJKc25_uXwzPe8kHg.png?1618601112",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Modifying Invoices' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105107118/original/7_6Ln4Iozr0F8d8EfmzRaP8e5I_XilWWyA.png?1644980288",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Modifying Invoices' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105107130/original/7ZN3xyu53g7x3PC7W__ZLRfqvYtDQDoR1Q.png?1644980338",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Modifying Invoices' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000041145",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000041145"
+    },
+    {
+      "text": "Billing Reminder Emails",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069276"
+    },
+    {
+      "text": "Refresh the Cache",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070151-refresh-live-website-how-to-refresh-the-cache-of-the-website"
+    },
+    {
+      "text": "Settings >> General Settings >> Localization tab >> Default Website Language:",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682670"
+    },
+    {
+      "text": "Settings >> General Settings >> Brand Images",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000043370"
+    },
+    {
+      "text": "How To Download Invoices",
+      "url": "https://bootstrap.brilliantdirectories.com//solution/articles/5000674169"
+    }
+  ],
+  "lastmod": "2026-06-10T01:55:05+05:30",
+  "scraped_at": "2026-10-18T13:42:18.242363"
+}

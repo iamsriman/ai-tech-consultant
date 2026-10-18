@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102408",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102408-11-15-2024-software-updates",
+  "title": "11/15/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/15/2024 - Software Updates"
+  ],
+  "content": "## 11/15/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102408\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented some small fixes to the Smart Lists Page in the Admin.\n\n- We fixed an issue with the Froala WYSIWYG editor that was causing images uploaded via a Stock Photo Library to not insert at the cursor's position in the editor in some cases.\n\n- We updated the UI of the \"conversation-reply\" Email Template.\n\n- We created a new widget called \"Bootstrap Theme - Cookie Consent Code\". The code in this new widget is executed before all scripts in the <head> of all pages of a site. This is ideal for adding the code from any Cookie Consent script provider that requires to run before all other scripts that may set cookies on the page. Widget Involved: Bootstrap Theme - HEAD\n\n- We created a new set of Text Labels that will be used on the \"Verify Your Profile\" page in the Member Dashboard after a member has been successfully verified by the Admin. Widget Involved: Bootstrap Theme - Account - Verify Listing Success Text Labels Involved: verifed_title verified_paragraph_1 verified_paragraph_2\n\n- We updated the UI of the Coupons Code page in the Admin to add pagination and optimize the speed of loading the content on the page.\n\n- The \"Default From Email Name\" setting is now compatible with the \"Send Test\" modal on the Email Templates page in the Admin.\n\n- We updated the Facebook Feed widget in order to not load on mobile devices as Facebook currently has an issue preventing the content from loading in that scenario. Widget Involved: Bootstrap Theme - Module - Member Facebook Feed\n\n- We fixed an issue which was affecting the ability to upload images to Multi-Image Posts in the Member Dashboard in some cases. Widgets Involved: Bootstrap Theme - Account - Photo Albums Upload Form Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Reviews - Upload Images\n\n- We fixed an issue with the Member Import Tool which was preventing the Import Tool from working properly in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102408",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102408"
+    }
+  ],
+  "lastmod": "2024-11-20T05:24:22+05:30",
+  "scraped_at": "2026-10-18T13:55:16.449843"
+}

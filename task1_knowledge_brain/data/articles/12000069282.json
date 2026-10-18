@@ -1,0 +1,104 @@
+{
+  "article_id": "12000069282",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069282-using-facebook-login",
+  "title": "Using Facebook Login",
+  "category": "Add-On Documentation",
+  "folder": "One-Click Facebook Login",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "One-Click Facebook Login",
+    "Using Facebook Login"
+  ],
+  "content": "## Using Facebook Login\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069282\n\nFacebook Login allows members to create a membership or sign in with a linked Facebook account. The add-on must be activated and enabled for the applicable membership plan before use.\n\nIf Facebook login credentials haven't been set up yet, please follow this article:\n\nActivating Facebook Login Add-On\n\n1. Once the setup has been completed, go to Finance - Membership Plans and enable Facebook Login for the membership plan:\n\n2. Search for \" login \" and in the M ember's Dashboard tab the setting will appear. Make sure it is set to \" YES \":\n\n\n## Front End Use:\n\n\nAfter this is set up, the Facebook login option will display throughout the website:\n\nWith this button the members can sign up using their Facebook account:\n\nExisting members can sign in using a linked Facebook account:\n\nFacebook login works when the member signed up with that Facebook account or synced it from an existing member dashboard. A matching email address alone does not establish this link:\n\nMembers with a password can remove the Facebook connection by selecting Unsync. Accounts without a password must set one first, as explained below:\n\n\n## Recovering Access When the Account Is Not Linked\n\n\nIf the selected Facebook account is not linked to a member profile, a message titled Facebook account no longer linked provides a password recovery link. Using the same email address for both accounts does not automatically link them. This message alone does not confirm whether a membership exists for that email address.\n\n- Open the password recovery link in the message.\n\n- Enter or confirm the email address associated with the existing membership.\n\n- Submit the password reset request.\n\n- For an existing account, follow the instructions in the password reset email to set a password.\n\n- Sign in with the membership email address and password.\n\n- Sync the Facebook account again from the member dashboard.\n\nOnce the account is synced, Facebook login can access that member profile again. The signup option is for creating a new membership, not for recovering an existing one.\n\n\n## Setting a Password Before Unsyncing\n\n\nA member account must have a password before its Facebook connection can be removed. If no password has been set, clicking Unsync displays Set a Password First and leaves the social account linked.\n\n- Open the password link in the message. This logs the member out and opens password recovery with the member email address filled in.\n\n- Submit the password reset request.\n\n- Use the emailed link to set a password.\n\n- Sign in with the membership email address and the new password.\n\n- Return to the member dashboard and click Unsync for Facebook.\n\nAfter unsyncing, the member can continue to sign in with the membership email address and password.\n\nFor additional login scenarios, see Common Mistakes with Google and Facebook Login .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100913901/original/6YLJQ5e6AlNx7rkfHarxWYi39Zl-Iss3_g.png?1636771859",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Facebook Login' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100913958/original/nqt6U-MUgu8-RcAUzGQ3hiWgMrh2wOY95g.png?1636772301",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Facebook Login' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100913978/original/jhRB46xAmvUqsnX9xRKwUJUx5VDqTMij1g.png?1636772486",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Facebook Login' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100913974/original/lTf1kLMvBlz-pXeyM4jTFRQRGi7bxzYvrQ.png?1636772433",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Facebook Login' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100913986/original/E7KL2ChvfXbgf1vjYvXOXFJxJAM2ntln2A.png?1636772629",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Facebook Login' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12100914047/original/XQWxuXgHq0DUsxsDlHnz9gwgA6zbYekESw.png?1636772950",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Facebook Login' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185238333/original/SwtRWa2sGgRncNQe41i9iRdo3MJ0Ag3zNA.png?1789496509",
+      "alt": "Facebook account not linked message with password recovery link",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Using Facebook Login' (Add-On Documentation > One-Click Facebook Login): Facebook account not linked message with password recovery link",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185238334/original/h_NkL0PJAaZImIDmSD2g24C6QtW_My57gA.png?1789496510",
+      "alt": "Facebook message requiring a password before unsyncing",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Using Facebook Login' (Add-On Documentation > One-Click Facebook Login): Facebook message requiring a password before unsyncing",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069282",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069282"
+    },
+    {
+      "text": "Activating Facebook Login Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000036273-activating-facebook-login-add-on"
+    },
+    {
+      "text": "Common Mistakes with Google and Facebook Login",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068966"
+    }
+  ],
+  "lastmod": "2026-09-15T23:53:39+05:30",
+  "scraped_at": "2026-10-18T13:46:21.705536"
+}

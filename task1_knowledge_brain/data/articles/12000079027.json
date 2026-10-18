@@ -1,0 +1,161 @@
+{
+  "article_id": "12000079027",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079027-default-form-types",
+  "title": "Default Form Types",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "Default Form Types"
+  ],
+  "content": "## Default Form Types\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000079027\n\nEvery Brilliant Directories site will come with a set of default forms that the site owner can utilize.\n\nThese forms can be organized into 4 main titles.\n\n\n## Feature Forms\n\n\nThese are the forms utilized by the members of the site when posting any feature type like Classifieds , Blog Articles , Events , etc.\n\nBelow an example of a Classifieds form in the front-end can be seen:\n\nAll the Feature Forms can be found by searching the wording \" Feature \" under Toolbox >> Form Manager , or by using the \"Post Type\" filter:\n\nTo learn how to customize these forms:\n\nHow To Customize a Form\n\nTo learn how to add and display a custom field on these forms:\n\nHow To Display Custom Post Fields In The Post Details Page\n\nTo identify which feature type is using which form, navigate to My Content >> Edit Post Settings >> Form To Use column:\n\n\n## Listing Forms\n\n\nThese forms are utilized by members of the website when they are managing their profiles via the member dashboard:\n\nAll the Listing Forms can be found by searching the wording \" Listing \" under Toolbox >> Form Manager , or by filtering \"Member Listings\":\n\nTo learn how to customize these forms:\n\nHow To Customize Member Dashboard Forms\n\nTo identify which membership level is using which form, please refer to the article down below:\n\nHow To Assign Different Listing Forms To Various Membership Plans\n\n\n## Member Forms\n\n\nThese are the forms utilized by the potential members during their sign-up process and by the existing members during their login, upgrade process.\n\nAll the Member Forms can be found by searching the wording \" Member \" under Toolbox >> Form Manager :\n\nTo learn how to customize these forms:\n\nEdit Checkout Pages: Overview\n\nAs default, the member forms can be found in the following URLs:\n\nLogin Form --> /login\n\nSign Up Form --> /checkout/1\n\nUpgrade Form --> /account/upgrade\n\n\n## Website Forms\n\n\nThese forms are utilized by members of the website or website visitors when they are contacting the website via Contact Us form, when submitting leads, when reporting a post or when subscribing to a newsletter:\n\nAll the Website Forms can be found by searching the wording \" Website \" under Toolbox >> Form Manager :\n\nAs default, the website forms can be found in the following URLs:\n\nContact Us Form --> /about/contact\n\nGet Matched Form --> /getmatched\n\nNewsletter Form --> Will appear in the footer and on the sidebars if allowed",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091525864/original/mw1ltiZlB7TEk5pVA4c30l3qoy2rMdOIyg.png?1618838728",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819520/original/fskunOakLWD1hix-cYGMKPHpoYwTRl2zGA.png?1761872530",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129558664/original/IzzX2Nz6-Wa8i9thU9an3J_z__JznAxA5A.png?1691509877",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091527084/original/lQjrFbjENbh0gGT2WCj1gdRJLyjho2MRHg.png?1618839642",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819563/original/IINC8xSElrJO28ECnpiV3AmsfwERuOdjMA.png?1761872598",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091528577/original/d6lXQKSHWEce253G_0nkAUGzBqiHg-lvAA.png?1618840924",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091528618/original/lkObqqFS_ABxBrZK7_2iFIiAbSW6LqPIgw.png?1618840948",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091528828/original/-LYEqDDse9Gzh4d8hCp9_BEfV-rBbwWP0Q.png?1618841127",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819602/original/MVyp0xpi4gdf5iUdzCkcvtXunzk4FggAnQ.png?1761872753",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091533735/original/Ws6jQ8-BGEllFVd53p4uHhBPSC4KV6VS1g.png?1618845195",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091533771/original/0dRs29GxVzGXLEDSiyGo_wuFgLH-rFHv2w.png?1618845225",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091533800/original/urBlNNhLnm-xl6p2mV_CM1-8_fkuei-iug.png?1618845281",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819609/original/S0tnwJR-6XkMl7oOU4wU1FSKRa3LF6vXuQ.png?1761872796",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Default Form Types' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000079027",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079027"
+    },
+    {
+      "text": "How To Customize a Form",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078290"
+    },
+    {
+      "text": "How To Display Custom Post Fields In The Post Details Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078806"
+    },
+    {
+      "text": "How To Customize Member Dashboard Forms",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000021796"
+    },
+    {
+      "text": "How To Assign Different Listing Forms To Various Membership Plans",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000006663"
+    },
+    {
+      "text": "Edit Checkout Pages: Overview",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078267"
+    }
+  ],
+  "lastmod": "2025-10-31T06:36:42+05:30",
+  "scraped_at": "2026-10-18T13:48:25.616757"
+}

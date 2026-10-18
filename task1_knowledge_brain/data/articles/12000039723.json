@@ -1,0 +1,27 @@
+{
+  "article_id": "12000039723",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039723-01-05-18-software-updates",
+  "title": "01/05/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/05/18 - Software Updates"
+  ],
+  "content": "## 01/05/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000039723\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The Member Export Data Add-On is now fully based on the new Addon Manager. This Add-On is an improvement of the Member Data Export feature and issues identified during its BETA release have been resolved. Click here for more information.\n\n- We fixed an issue that was affecting the normal behavior of the Design Settings Page in the Admin area.\n\n- We recently released an update to easily change the Design Settings of a page from the Front-End of the site in addition to the Admin area. With this new update, you can modify the Header, Body, Newsletter and Footer Design Settings using the Frontend Design Tool. To access to this tool, login to the Admin >> Settings >> Design Settings and in the top of the page there is a button called \"Live Design Tool\" that will take you to the new tool. Widgets Involved: Bootstrap Theme - Footer - Scripts Bootstrap Theme - HEAD Bootstrap Theme - Header - Left Bootstrap Theme - Member Login Page Bootstrap Theme Framework Bootstrap - Contact Member Lead Map Bootstrap Theme - Admin - Design Settings\n\n- We allowed the Twitterbot in the default robots.txt file.\n\n- We did a big update to the way that the Search Module Widgets for posts retrieve the Post Categories. For new sites, the categories can be edited from the Edit Post Settings Page in the Admin instead of editing the form of the Post Type. Widgets Involved: Bootstrap Theme - Contact Us Page Bootstrap Theme - Homepage Search - Blog Article Search Bootstrap Theme - Homepage Search - Classifieds Search Bootstrap Theme - Homepage Search - Coupons Search Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Homepage Search - Jobs Search Bootstrap Theme - Homepage Search - Member Article Search Bootstrap Theme - Homepage Search - Photo Album Search Bootstrap Theme - Homepage Search - Products Search Bootstrap Theme - Homepage Search - Property Search Bootstrap Theme - Homepage Search - Videos Search Bootstrap Theme - Module - Blog Articles Search Bootstrap Theme - Module - Classifieds Search Bootstrap Theme - Module - Coupons Search Bootstrap Theme - Module - Event Search Bootstrap Theme - Module - Jobs Search Bootstrap Theme - Module - Member Article Search Bootstrap Theme - Module - Photo Albums Search Bootstrap Theme - Module - Products Search Bootstrap Theme - Module - Property Search Bootstrap Theme - Module - Videos Search\n\n- We fixed an issue that was affecting the Print Coupon feature. Widget Involved: Bootstrap Theme - Display - Print Button\n\n- We fixed an issue that was affecting the tabs for Posts on member profile pages. This issue only affected sites that had the enable_lazy_load A dvanced Setting set to '0'. Widget Involved: Bootstrap Theme - Member Profile - Member Tabs\n\n- We fixed an issue that was affecting the normal behavior of the Post Search Results Map View feature. Widgets Involved: Bootstrap Theme - Search Results Map",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000039723",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039723"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/export-member-data-add-on"
+    }
+  ],
+  "lastmod": "2018-01-06T05:26:52+05:30",
+  "scraped_at": "2026-10-18T13:42:10.809100"
+}

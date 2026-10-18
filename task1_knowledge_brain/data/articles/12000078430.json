@@ -1,0 +1,113 @@
+{
+  "article_id": "12000078430",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078430-how-to-customize-a-widget",
+  "title": "How To Customize a Widget",
+  "category": "Toolbox",
+  "folder": "Widget Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Widget Manager",
+    "How To Customize a Widget"
+  ],
+  "content": "## How To Customize a Widget\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078430\n\nCustomizing a widget creates an editable copy that overrides the default version on the website. The default version remains stored in the system, which makes it possible to compare changes and restore earlier code at any time.\n\nTo customize a widget, first locate its default version. This can be done using the search function under Toolbox >> Widget Manager :\n\nWidgets can also be identified directly on the front-end using the Admin Bar. This provides a quick way to locate the corresponding widget in the admin area.\n\nLocating Widget Via Admin Bar\n\n\n## Customizing the Widget\n\n\nOnce the default widget is located, select Customize from the Actions dropdown:\n\nThis opens the widget's code for editing:\n\nAfter making the required changes, select Save Changes . The customized version will then appear above the default widgets in the Widget Manager:\n\n\n### Clone Widget\n\n\nIf a duplicate of the customized widget is needed, the clone option can be used.\n\n\n## Changes After Customization\n\n\n\n### Diff Tab\n\n\nA Diff tab is added to the widget view. This displays the differences between the default widget code and the customized version.\n\n\n### Select Revision\n\n\nA Select Revision option becomes available. This provides access to up to 10 previous saved versions, allowing earlier code to be restored if needed.\n\n\n### Created and Last Updated Dates\n\n\nCreated and Last Updated timestamps appear in the Widget Manager. These indicate when the widget was first customized and most recently modified, which can assist with troubleshooting.\n\n\n### Save History\n\n\nA Save History option appears in the Actions dropdown. Selecting this option redirects to the Activity Tracker , where a detailed record of changes can be reviewed.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180344381/original/aQRDZTaP-UZTU26G6KMfVt0VMBrnermaqA.png?1781289458",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180344449/original/7vhStEbcsrzViBomOjZ7zf-5lEN2Lf6Llw.png?1781289584",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180344524/original/MQ98SdvSlViVhR4_cX09zcYVH4BoSE_Yaw.png?1781289637",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180344652/original/Pnw3Lz00IxQEjOb5SZUhWAesld9t6tWDCQ.png?1781289740",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180344711/original/mQ65Wtdzx5qLKuGq7cdApBFqEbZFAcA-NA.png?1781289818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180344915/original/L8ma9o3YZRVw7I_Sj6RXz2n8LfiPOgVrYw.png?1781289949",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176724184/original/MJwpGW21tQt9J2k-lINy0geV2vpumALhDQ.png?1774920160",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180344766/original/vfwCZ7Jqs-nzb19x2xKSytC48qJrv7FmpQ.png?1781289906",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180344753/original/7nrkHhkU2sWE7T8RK-TQWw_5oTbqhSfx3g.png?1781289879",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078430",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078430"
+    },
+    {
+      "text": "Locating Widget Via Admin Bar",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051553"
+    },
+    {
+      "text": "Activity Tracker",
+      "url": "http://Activity%20Tracker"
+    }
+  ],
+  "lastmod": "2026-09-10T06:34:17+05:30",
+  "scraped_at": "2026-10-18T13:48:04.821100"
+}

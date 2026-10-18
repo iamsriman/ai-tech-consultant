@@ -1,0 +1,131 @@
+{
+  "article_id": "12000100235",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100235-emails-email-outbox",
+  "title": "Emails » Email Outbox",
+  "category": "Emails",
+  "folder": "Email Outbox",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email Outbox",
+    "Emails » Email Outbox"
+  ],
+  "content": "## Emails » Email Outbox\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100235\n\nThis article will guide us on using the Email Outbox functionality in our software. Learn how to access and utilize this tool to engage with the audience effectively.\n\n\n## How to Access This Tool\n\n\nThis tool can be accessed under Emails » Email Outbox in the admin area:\n\n\n## Overview of the Layout\n\n\nIn this section, the Email Outbox layout will be outlined and explained. This includes additional resources and details of the different statuses, activities, and information that is displayed.\n\nStatus\n\nTwo different banners can be displayed based on the status of the emails sent from the system:\n\n- Sent: The email has been sent out.\n\n- Not Sent: The email has not been sent out.\n\n\n### Date\n\n\nThe emails sent date and time will be displayed here:\n\n\n### Sent By\n\n\nThe email account of the sender will be displayed:\n\nThe default Website \"FROM\" Email Address can be set up under General Settings » General Settings Tab » Website \"FROM\" Email Address.\n\n\n### Recipient\n\n\nThis section displays the recipient email address, along with any CC and BCC recipients:\n\n\n### Email Content\n\n\nIn this section, the Email Template used will be displayed.\n\nWithin this segment, both the Email Templates name and the option to click \" See Email \" for a preview of the email will be available:\n\n\n### Activity\n\n\nEmail activity will be displayed in this column, it includes activity for the main email recipient as well, as any other CC/BCC:\n\n\n### Email Status\n\n\nDifferent status will show:\n\n- Delivered: Emails are successfully sent to the server.\n\n- Unopened: The recipient might not have read the email or deleted the email without opening it.\n\n- Opened: Number of times the recipients have opened the email.\n\n- Clicked : Interaction of the recipients clicking on a link in the emails.\n\n- Spam Complaints: Reports made by email recipients against the emails sent from the site.\n\n- Failed: The email address entered is not valid.\n\n- Hard Bounced: This occurs when the recipient's mail server permanently rejects an email due to reasons like invalid email addresses or domain issues.\n\n- Soft Bounced: It happens when an email cannot be delivered temporarily, often due to reasons like a full mailbox or a temporary issue with the recipient's server.\n\n- Previously Bounced: This refers to email addresses that have experienced either a hard or soft bounce in previous delivery attempts, indicating a history of delivery issues that should be monitored or addressed.\n\nThe date and time of each Activity will also be displayed next to each status:\n\n\n### Email Source\n\n\nThis will display what triggered the email:\n\n- Admin Sent: The email was manually sent using the Emails » Compose Emails functionality.\n\n- Signup :  Triggered by a Signup / Welcome email.\n\n- API : Email sent by the API.\n\n- Newsletter : Newsletter submissions.\n\n- Billing Upgrade / Update: Complete an upgrade or update credit card.\n\n- Password Reset.\n\n- Email Verification.\n\n- Lead Message / Lead Complete and Lead Match.\n\n- Contact Form and Feedback\n\n- Recommendation: Reviews\n\n- (No Label) : Triggered by a custom widget or code.\n\n\n## Exploring Additional Functionality\n\n\nSome additional functionality is available within the Email Outbox. Here, users can filter options and convenient actions.\n\n\n### Filter by Status\n\n\nThis option enables users to filter the Outbox by the email status, such as Sent, Not Sent, Delivered, Unopened, Opened, Clicked, Spam Complaints, and Failed.\n\n\n### Filter by Date\n\n\nUsers can arrange sent emails chronologically, aiding in tracking and managing sent emails over time.\n\n\n### Filter by Keyword\n\n\nThis feature facilitates searching for specific sent emails by keywords, streamlining navigation within the system.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181949960/original/y73U5IUyt0b3NNwc6zZ47wQSDIO5KL64iw.png?1783959844",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181950002/original/sCBJY3T0u8tbNj5iYx5ozw5AEbdWAy7k7g.png?1783959913",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181950029/original/jxu33c_19hyjNM1l4YI9bpzWMD1dgBKrpA.png?1783959969",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181950056/original/-H4OVfvfw3FMPOmBTccz7knmTHAU10931A.png?1783960009",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183109456/original/PHIyYe2j1UWzYbgGFr742SBS3iRWKj1OzQ.png?1785858825",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180350872/original/IjYREXeEypPfGzyn6S4-Tct6BDUFpOAgkA.png?1781296596",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181950200/original/SuIP23j0F-xIM1GOvlrE2UmKnVCormt8sA.png?1783960151",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181950301/original/2ciD3xNuf1Jg_TvxLQccfWAx7dmD-aN2Iw.png?1783960231",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183922049/original/FX6WYM9JiJzUV45GVG9xOZ8d0wL3ixoXRA.png?1787240541",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183923202/original/DmmlMh-4disp_Y10W2VHxz09-HqMysyf9A.png?1787241311",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181952118/original/kYiteGQUkyR4SOgdD3KERPU1m_CH7QhMuw.png?1783961758",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Email Outbox' in section 'Emails' / 'Email Outbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100235",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100235"
+    },
+    {
+      "text": "General Settings » General Settings Tab » Website \"FROM\" Email Address.",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042195-settings-general-settings-tab#section-6-website-from-email-address"
+    },
+    {
+      "text": "Emails » Compose Emails",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000076567"
+    }
+  ],
+  "lastmod": "2026-08-20T21:25:20+05:30",
+  "scraped_at": "2026-10-18T13:54:18.152357"
+}

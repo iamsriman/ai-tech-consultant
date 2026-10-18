@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108013",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108013-03-27-2026-software-updates",
+  "title": "03/27/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/27/2026 - Software Updates"
+  ],
+  "content": "## 03/27/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108013\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the bulk action to publish all posts at once from working properly on the Manage Posts page in the Admin.\n\n- Fixed an issue that prevented the Web Page Builder page from functioning correctly in some cases when the \"Disable Screenshot Previews\" Advanced Setting was enabled for the Web Page Builder in the Admin.\n\n- Fixed an issue that caused a duplicate copy of an image to be created in the Media Manager when replacing the image via URL in a Froala editor when editing an Email Template in the Admin.\n\n- Fixed an issue that prevented the \"+\" icon from displaying in front of the phone number on Member Profile pages when using the \"Phone Number + Country Code\" field type. Additionally, resolved an issue that caused the country code to be saved twice when re-submitting the Contact Details form in the Member Dashboard.\n\n- Added a new permissions system for API Keys in the Admin area. Admins can now enable or disable access to specific API endpoints for each API Key, with a \"Select / Deselect All\" option for convenience. All existing API Keys retain full access by default.\n\n- Fixed an issue that prevented the system from tracking unsubscribe form submissions in the \"Form Submitted\" filter on the Search Members page in the Admin. Widget Involved: Bootstrap Theme - Unsubscribe Email Page\n\n- Fixed an issue that prevented Smart Lists from updating dynamically when member profiles changed. Prior to this change, scheduled Newsletter Campaigns could include members that matched the Smart List criteria at the time the campaign was scheduled, but no longer matched at the time the campaign was sent.\n\n- Fixed an issue that caused the API to return an \"invalid key\" error on sites hosted on server 74.\n\n- Fixed an issue that caused location searches to fail when using strict postal code matching for countries with hyphenated zip codes (e.g., Poland, Japan, Portugal, Brazil, South Korea). Also resolved a related issue that caused the system to incorrectly filter city-level searches by partial zip codes in location searches. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that caused excessive wait times when logging in on websites with the CAPTCHA verification enabled in some cases.\n\n- Improved the API to support searching by multiple values simultaneously when using the GET protocol. Admins can now filter by multiple fields using AND/OR operators in a single API request.\n\n- Updated the Member Profile pages with modern UI styling improvements across various CSS elements.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108013",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108013"
+    }
+  ],
+  "lastmod": "2026-03-30T22:56:32+05:30",
+  "scraped_at": "2026-10-18T13:57:24.902947"
+}

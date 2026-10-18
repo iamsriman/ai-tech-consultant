@@ -1,0 +1,23 @@
+{
+  "article_id": "12000090704",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090704-11-04-22-software-updates",
+  "title": "11/04/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/04/22 - Software Updates"
+  ],
+  "content": "## 11/04/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090704\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the display of the Subscription dropdown on the Search Members page in the Admin when the name of a Subscription contains an HTML element.\n\n- We added the ability to verify member login credentials through the Brilliant Directories Member API. New API Endpoint: /api/v2/user/login\n\n- We fixed an issue which was causing the member signup from to get stuck on the \"Processing\" message when the \"Successful Sign Up / Upgrade Conversion Tracking Code Widget\" Membership Plan setting had a value selected in some cases.\n\n- We fixed an issue which was preventing the \"Price Field\" form field type from working correctly in Member Dashboard forms in some cases.\n\n- We updated the \"Froala Allowed Empty Tags\" setting to include the \"<i>\" HTML element by default.\n\n- We updated the Export Member Data Add-On to include the cover_photo field in export files when applicable.\n\n- We added a default set of Spanish language Text Labels.  Site Admins can now choose to apply and edit English and Spanish Text Labels separately.\n\n- We created a new Advanced Setting called \"Enable HTTP Security Headers (CSP)\". This new setting will add additional HTTP security headers and Content Security Policies when the server responds to client requests.\n\n- We fixed an issue which was preventing the Predictive Keyword Search Add-On from returning members results in the Header Keyword Search field in some cases.\n\n- The Google Map Search Results Add-On is now compatible with the \"Front-End Optimization: Only Load Google Maps when Requested by User\" Advanced Setting. Widget Involved: Bootstrap Theme - Search Results Map\n\n- We fixed an issue which was preventing the location search fields from returning results when the site is set to only return results from the Primary Country of the site in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We updated the Brilliant Directories Zapier App in order to add the ability to create, update and delete leads and update members.\n\n- We updated the Private Member Chat Add-On layout on the Member Dashboard in order to display the URL of the page from which the chat was initiated.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090704",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090704"
+    }
+  ],
+  "lastmod": "2022-11-08T00:48:46+05:30",
+  "scraped_at": "2026-10-18T13:50:25.305419"
+}

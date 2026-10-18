@@ -1,0 +1,59 @@
+{
+  "article_id": "12000071659",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071659-moving-an-existing-site-to-brilliant-directories-",
+  "title": "Moving an Existing Site to Brilliant Directories.",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Moving an Existing Site to Brilliant Directories."
+  ],
+  "content": "## Moving an Existing Site to Brilliant Directories.\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000071659\n\nThere are several things to take into account when bringing over an existing website to the Brilliant Directories platform. This is a list of the main areas that need to be addressed when completing this process.\n\n1st - Make sure to update the existing domain on the Brilliant Directories site. There are 2 ways to set up the domain, one will be pointing the Name Servers of the domain to the Brilliant Directories Name Servers. The other option will be to use an CNAME-record.\n\nTo learn more about setting up a domain, visit the following link:\n\nHow to Connect a Domain to A Brilliant Directories Website\n\n2nd- Setting up the Google Maps API is necessary in order for the website to work properly, this setup is personal and should be completed by the website admin. These are the steps to complete this setup:\n\nHow To Enable Maps With Google Maps API\n\n3rd - If the existing website has many static pages or landing pages, these will need to be created on the Brilliant Directories platform. Creating a static or landing page is very easy, these are the steps to follow in order to accomplish this:\n\nHow to Create a New Static Page\n\n4th- If the existing website has already been indexed by search engines and has well-ranked pages, make sure to create a 301 redirect from the old URL to the new one. Setting this up using the Brilliant Directories platform is very straight forward, these are the steps to follow:\n\nHow To Add 301 Redirects Through The Admin Area Of The Site\n\n5th- Importing existing members can be accomplished by following these steps:\n\nHow To Import Members Via CSV File\n\n6th- Billing subscriptions can also be created manually and these are the necessary steps to complete this process:\n\nHow To Manually Bill A Member / Create A Subscription For A Member\n\n7th- Email accounts can be created using Brilliant Directories if the domain has been pointed to Brilliant Directories using the Name Server method (See step 1 for more information about this process) by following these steps:\n\nEmails » Email Accounts\n\nThese are the basic steps needed in order to easily transition from an existing website to the Brilliant Directories platform. We currently do not have a way to bulk import content, such as articles, classifieds, coupons, etc, these need to be manually added to the site. For further assistance or questions please reach out to support@brilliantdirectories.com we are always happy to help.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000071659",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071659"
+    },
+    {
+      "text": "How to Connect a Domain to A Brilliant Directories Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271-how-to-connect-a-domain-to-your-brilliant-directories-website"
+    },
+    {
+      "text": "How To Enable Maps With Google Maps API",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019818-guide-10-how-to-enable-maps-with-google-maps-api"
+    },
+    {
+      "text": "How to Create a New Static Page",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047125-how-to-create-a-new-static-page"
+    },
+    {
+      "text": "How To Add 301 Redirects Through The Admin Area Of The Site",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000682632"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000673406"
+    },
+    {
+      "text": "How To Import Members Via CSV File",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000558475-how-to-import-members-via-csv-file"
+    },
+    {
+      "text": "How To Manually Bill A Member / Create A Subscription For A Member",
+      "url": "https://support.brilliantdirectories.com/a/solutions/articles/12000008873?portalId=5000075044"
+    },
+    {
+      "text": "Emails » Email Accounts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-%C2%BB-email-accounts"
+    },
+    {
+      "text": "support@brilliantdirectories.com",
+      "url": "mailto:support@brilliantdirectories.com"
+    }
+  ],
+  "lastmod": "2025-10-07T03:56:44+05:30",
+  "scraped_at": "2026-10-18T13:46:46.306705"
+}

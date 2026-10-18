@@ -1,0 +1,144 @@
+{
+  "article_id": "12000093407",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093407-post-images-importing-posts-with-photos",
+  "title": "Post Images: Importing Posts With Photos",
+  "category": "My Content",
+  "folder": "Manage Posts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Manage Posts",
+    "Post Images: Importing Posts With Photos"
+  ],
+  "content": "## Post Images: Importing Posts With Photos\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093407\n\nImporting posts can be a bit of a tricky process due to the fact that all of the data entered must be simple, clean text (no formatting, line breaks, or other things that can break a CSV file), and the data must all be in the proper columns in order to import properly. This includes the links for the images that will be uploaded with the file.\n\nMore information on how to import posts and example import files can be found in the article below: >> How To Import Posts Via CSV File\n\nThese post images can be uploaded to the Media Manager in order to guarantee a successful upload. For in-depth information about the Media Manager check out this link: >> Media Manager Folder << Once the images are uploaded to the Media Manager, their URL can be grabbed by clicking on the Copy URL option:\n\nNOTE:   The images can also be hosted on external platforms, however, this tool is meant to help in migrating a site from one platform to another, not to copy images from a 3rd party source without their consent. It is possible to import images are hosted elsewhere, but they must comply with the following:\n\n- The image URL must also have a compatible extension: jpg, jpeg, png, gif, webp.\n\n- The image must be publicly accessible (the host cannot block the image importer).\n\nThe Import Posts via CSV File window will show an Advanced Option that will automatically detect and import the images if selected:\n\nHowever, if this option was not selected, or if any images are left unimported, Please follow these steps to import all of the images to the members that were just imported:\n\n- Navigate to My Members >> Member Images >> Post Images tab: ** Important Note : This tab will only display if the system identifies recently imported images through the member or post-import template. **\n\n- Choose an appropriate number of posts to import the images of at a time in the dropdown: Importing and resizing photos is an extremely resource-intensive activity for a server, so at the time, 500 images are the maximum that can be imported/resized at a time.\n\n- Click on \" Update Results \":\n\n- Use the Bulk Actions to select all of the posts, then select \" Fetch from Source and Resize Photos \" from the dropdown menu:\n\n- Click the \" Apply Action \" button. There will be a notification that the images are being processed:\n\n- Do not close the window or navigate away from the page during this process.\n\n- Repeat the steps above for each page until all images have been fetched and resized.\n\n\n## Difference for Importing Images for Single Image and Multi-Image Posts\n\n\nIn the platform, there are two general types of post formats:\n\n- Single Image Posts — e.g., Articles, Blogs, Job Listings\n\n- Multi-Image Posts — e.g., Classifieds, Properties, Products\n\nWhen importing either type, use the same CSV variable: post_image\n\n\n### For Single Image Posts\n\n\nSimply include one image URL per post (one per row).\n\n\n### For Multi-Image Posts\n\n\nInclude multiple image URLs, separated by commas, within the same post_image field.\n\nExample: https://brilliantdirectories.com/img1.jpg,https://brilliantdirectories.com/img2.jpg,https://brilliantdirectories.com/img3.jpg\n\n\n### Optional: Image Title & Description\n\n\nThese are optional and can be added to enrich the post content. Provide a title and description for the image(s) using the following CSV variables:\n\n- post_image_title\n\n- post_image_description\n\nInclude multiple titles and descriptions, separated by commas:\n\n\n## Photo Album Import Example CSV\n\n\nDownload : Example CSV file for a photo album import\n\nTo use this file, ensure that the user_id value is updated to match the member associated with the import.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124655109/original/yyQOviHD9wiDkhU8TgyyE7yBi4Mv5Md5rw.png?1682590974",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12167930183/original/ZmApXYqbiBBeOiT9IjjdOXn8g7CyqJpK_Q.png?1758646632",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12167930387/original/l7h8BX77p0pgf97LsNyaYWoUpVWhla6d9A.png?1758646678",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133316992/original/xc6dSN2rhGBbozjdclHNVyY9fhi5vQjiAA.png?1698274279",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12167930530/original/36wzzZboyAUcpegDSnrYF6_GJ1rOgr2W-w.png?1758646793",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12167930684/original/Esl6cmqPYSf2-c1zVwKT54EiEFghPl4Veg.png?1758646934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168048266/original/Q70LOIn7gC4ck8qP-nPPUNPb8Ma0U-MlIQ.png?1758810321",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168048430/original/QrRWd3stzlxWdV5kGe8AhTh-IRq8ypjeJw.png?1758810420",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168048463/original/VYYqcrgXsbz8lVE0gXlbFA30N34aDVpIhw.png?1758810443",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12167920253/original/nCmXE9Wf8uQpOGfM_pfrwzj4-DV_aYOGHA.png?1758638867",
+      "alt": null,
+      "caption": "When importing either type, use the same CSV variable:post_image",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'. Context: When importing either type, use the same CSV variable:post_image",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12167920516/original/cz8xEr8xJ6X8Tk1CIeU4O7ovwW2Yp5n_6w.png?1758639156",
+      "alt": null,
+      "caption": "Context: Include multiple titles and descriptions, separated by commas:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'. Context: Context: Include multiple titles and descriptions, separated by commas:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12167930066/original/wa76u59oUBL4FC07y6K4yNFbSMvLMS6jZw.png?1758646555",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Images: Importing Posts With Photos' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093407",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093407"
+    },
+    {
+      "text": "How To Import Posts Via CSV File",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091681-how-to-import-posts-via-csv-file"
+    },
+    {
+      "text": "Media Manager Folder",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/folders/12000005701"
+    },
+    {
+      "text": "Example CSV file for a photo album import",
+      "url": "https://bootstrap.brilliantdirectories.com/helpdesk/attachments/12168053557"
+    }
+  ],
+  "lastmod": "2025-09-29T07:33:21+05:30",
+  "scraped_at": "2026-10-18T13:50:57.079867"
+}

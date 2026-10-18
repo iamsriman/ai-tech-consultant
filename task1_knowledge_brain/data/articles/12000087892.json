@@ -1,0 +1,23 @@
+{
+  "article_id": "12000087892",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087892-06-24-22-software-updates",
+  "title": "06/24/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/24/22 - Software Updates"
+  ],
+  "content": "## 06/24/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087892\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing Member Search Results pages from returning accurate keyword search results in some cases. Widget Involved: Search - Member - Search Query\n\n- The \"Contact Member\" button on Post Details pages is now compatible with the Members-Only Content Add-On. Widget Involved: Bootstrap Theme - Contact Member Modal\n\n- We added a new way to import members into specific Sub-Sub Categories even if the category has the exact same name as another Sub-Sub Category. When filling out the \"services\" column in the member import file, the following notation can be used to import the member into both a Sub Category and a specific Sub-Sub Category underneath that Sub Category at the same time: Sub Category Name=>Sub Sub Category Name\n\n- The Predictive Keyword Search Add-On will now display the exact same member results in the suggestion dropdown as the resulting search results page, taking into account all of the same settings and add-ons.\n\n- We fixed an issue which was preventing the system from saving the \"Default Email Signature\" setting correctly on the General Settings page in the Admin in some cases.\n\n- We implemented an update to prevent members from purchasing the same lead multiple times from the Member Dashboard area.\n\n- We fixed an issue which was preventing the Automatic Lead Matching Add-On from working properly after submitting a lead in some cases. Widget Involved: System - SaveForm\n\n- We fixed an issue which was preventing the Member Search Results page from returning accurate results in some cases when using the Dynamic Category Filtering Add-On while the \"Dynamic Category Filter - Broad Match\" Advanced Setting is set to \"Off\".\n\n- We fixed an issue with the Simple Events Calendar Add-On which was preventing the system from displaying the names of the days of the week on the events calendar in some cases.\n\n- We fixed an issue which was causing the Insta-Load Search Results Add-On to return members with a status other than \"Active\" after clicking on the \"Click to Load More Results\" button in some cases.\n\n- We fixed an issue with the Leads system which was preventing the system from sending the \"3rd Party Lead Matched\" Notifications after manually matching leads from the Admin.\n\n- We fixed an issue which was preventing the Froala WYSIWYG from displaying emojis on the frontend in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087892",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087892"
+    }
+  ],
+  "lastmod": "2022-06-27T22:42:59+05:30",
+  "scraped_at": "2026-10-18T13:49:56.253266"
+}

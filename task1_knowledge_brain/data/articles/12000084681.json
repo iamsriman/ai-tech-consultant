@@ -1,0 +1,23 @@
+{
+  "article_id": "12000084681",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084681-12-31-21-software-updates",
+  "title": "12/31/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/31/21 - Software Updates"
+  ],
+  "content": "## 12/31/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084681\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing Manage Post page in the Admin to send a user back to the first page of results after updating a post on a different page of results.\n\n- We implemented a set of security updates to prevent XSS injections in the Admin.\n\n- We updated the Froala WYSIWYG to version 4.0.7. Widget Involved: Form - Froala Editor Javascript\n\n- We deprecated the \"Enable Local Member URL Structure\" Advanced Setting as it has been replaced by the \"Member Profile URL Structure\" Advanced Setting. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- We fixed an issue which was preventing Webhooks from sending the CV field URL and User ID when submitting the \"Listing - Additional Details - Member\" form.\n\n- We fixed an issue which was removing the Invoice Logo image after saving and refreshing the Brand Images tab on the General Settings page in the Admin.\n\n- We updated the logic of the \"Lead Submitted\" Webhook to include both the member category IDs and names when submitting the lead form.\n\n- We updated the UI of the Community Comments Add-On to add member profile badges next to the member's profile image.\n\n- We fixed an issue with the Predictive Keyword Search which was not returning accurate suggested results when searching for keywords in member names in some cases.\n\n- The Form Manager will no longer display the \"Field Label\" and \"Database Variable\" form field settings after setting a field as \"Security - HoneyPot Field\" or \"Security - Google reCaptcha\" as those values are not needed.\n\n- We added the \"Full Name\" variable to the Email Variable list on the Email Templates page in the Admin.\n\n- We fixed an issue which was causing the \"Star Rating Filter\" on member search results to return incorrect results after using the filter in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was preventing the system from submitting the \"Website - Lead Form - Get Matched\" form when the form was customized and using the new \" Security - Google reCaptcha \" form field type in some cases. Widget Involved: System - SaveForm",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084681",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084681"
+    }
+  ],
+  "lastmod": "2024-05-09T11:33:03+05:30",
+  "scraped_at": "2026-10-18T13:49:19.330362"
+}

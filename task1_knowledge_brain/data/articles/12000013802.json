@@ -1,0 +1,31 @@
+{
+  "article_id": "12000013802",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013802-how-to-enable-hotlink-protection",
+  "title": "How To Enable Hotlink Protection",
+  "category": "Developer Hub",
+  "folder": "cPanel Dashboard",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "cPanel Dashboard",
+    "How To Enable Hotlink Protection"
+  ],
+  "content": "## How To Enable Hotlink Protection\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000013802\n\n\n## Understanding Hotlink Protection\n\n\nHotlinking occurs when another website displays files that are hosted on your website, such as images, by directly linking to their source URL. While the content appears on the third-party website, the files are still being served from your website, which means your website's bandwidth and server resources are being used to deliver that content.\n\n\n## How Hotlink Protection Works\n\n\nHotlink protection prevents other websites from directly embedding and displaying files hosted on your website. When enabled, requests originating from unauthorized domains will be blocked from accessing protected content.\n\nThis can help reduce unnecessary bandwidth usage and prevent third-party websites from using your hosted images and files without permission.\n\n\n## Important Considerations\n\n\nBefore enabling hotlink protection, keep in mind that some websites and services may no longer be able to display your images if they rely on direct file access.\n\nMany major platforms, including social media networks, use their own methods to preview and cache content, so they are generally not affected. However, smaller websites and applications that directly reference your image URLs may be unable to display those files once hotlink protection is enabled.\n\n\n## Option 1: Enable Hotlink Protection with Cloudflare\n\n\nIf your website is connected to Cloudflare, you can enable Cloudflare's built-in Hotlink Protection feature.\n\nCloudflare Documentation: https://support.cloudflare.com/hc/en-us/articles/200170026-Understanding-Cloudflare-Hotlink-Protection\n\n\n## Option 2: Configure Hotlink Protection with an .htaccess File\n\n\nFor websites hosted on servers that support Apache configuration files, hotlink protection can also be implemented using rules added to the website's .htaccess file.\n\nReference Guide: https://mediatemple.net/community/products/dv/204644230/prevent-hotlinking-with-a-.htaccess-file\n\n\n## Additional Notes\n\n\nBrilliant Directories does not currently include a built-in hotlink protection setting. If hotlink protection is required, it will need to be configured through a service such as Cloudflare or by implementing server-level rules where supported.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000013802",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013802"
+    },
+    {
+      "text": "https://support.cloudflare.com/hc/en-us/articles/200170026-Understanding-Cloudflare-Hotlink-Protection",
+      "url": "https://support.cloudflare.com/hc/en-us/articles/200170026-Understanding-Cloudflare-Hotlink-Protection"
+    },
+    {
+      "text": "https://mediatemple.net/community/products/dv/204644230/prevent-hotlinking-with-a-.htaccess-file",
+      "url": "https://mediatemple.net/community/products/dv/204644230/prevent-hotlinking-with-a-.htaccess-file"
+    }
+  ],
+  "lastmod": "2026-06-10T03:55:36+05:30",
+  "scraped_at": "2026-10-18T13:40:25.881196"
+}

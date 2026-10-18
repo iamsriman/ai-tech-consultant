@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095275",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095275-08-04-2023-software-updates",
+  "title": "08/04/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/04/2023 - Software Updates"
+  ],
+  "content": "## 08/04/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095275\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from creating a 301 Redirect after updating the URL of a category on the Member Categories page in the Admin.\n\n- We created a new Design Setting called \"Slideshow Loading Method\" in order to offer an additional \"Pure CSS\" version of the homepage slideshow feature which loads more quickly and uses fewer resources than the JavaScript version. By default the system will display the JavaScript method to load the homepage slider. To use this new feature navigate to the Admin >> Settings >> Design Settings >> Homepage Tab >> Image Slide Settings\n\n- We fixed an issue which was preventing the system from logging the correct \"Web Page\" URL (the URL the form was submitted from) for the Form Inbox page in the Admin. Widgets Involved: Bootstrap Theme - Function - Form System - SaveForm\n\n- We updated the Transaction History page in the Admin to add the ability to export data to CSV and create Smart Lists from the search results on the page. To use this new feature navigate to the Admin >> Finance >> Transaction History >> List Actions.\n\n- We created a new Advanced Setting called \"Default Lead URL\". This new setting allows an Admin to edit the URL of the Manage Leads page in the Member Dashboard. By default this URL is \"leads\". Widgets Involved: Bootstrap Theme - Account - Leads - New Lead System DataTables Bootstrap Theme - Account - Sidebar\n\n- We added the ability to support the File Upload Field when sending data to Webhook URLs. Widget Involved: System - SaveForm\n\n- We fixed an issue with the Form Manager which was preventing the data saved to field types that utilize \"Label\" and a \"Database Variable\" options (Select Dropdowns, Checkboxes, Radio buttons, etc) from being shown as selected when revisiting the form in the Member Dashboard.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095275",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095275"
+    }
+  ],
+  "lastmod": "2023-08-07T22:12:58+05:30",
+  "scraped_at": "2026-10-18T13:52:33.677206"
+}

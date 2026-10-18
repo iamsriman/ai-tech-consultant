@@ -1,0 +1,273 @@
+{
+  "article_id": "12000021982",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021982-how-to-verify-a-listing",
+  "title": "How to Verify a Listing",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "How to Verify a Listing"
+  ],
+  "content": "## How to Verify a Listing\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000021982\n\nOverview The Verified Listing feature allows administrators to manually verify member listings. Once verified, a badge appears on the member's public profile, indicating to site visitors that the listing has been reviewed and verified by the site administrator. A default checkmark badge is displayed on verified profiles. When a site visitor hovers over the badge, a message confirms that the listing is verified.\n\n⚠ NOTE — Verification Is Always Manual : The system does not verify members automatically. Regardless of whether a member submits a verification form, the verified status is only applied when an administrator manually sets the member to Verified via the Quick Edit module. The form submission is a request, it does not trigger automatic verification.\n\nPart 1 — Enable the Verify Listing Option on a Membership Plan The Verify Listing option must be enabled on a Membership Plan before members on that plan can see or submit a verification request from their dashboard. Navigation Path: Admin Dashboard » Finance » Membership Plans » Member's Dashboard To enable the setting: Navigate to Finance » Membership Plans in the admin dashboard. Click Edit on the target Membership Plan. Search for \"Verify Listing\" within the plan settings. Enable the option and save the plan. Once enabled, members on that plan will see the verification link and form within their member dashboard.\n\n⚠ NOTE — Setting Is Per Membership Plan: The Verify Listing option must be enabled independently on each Membership Plan where it is required. Enabling it on one plan does not affect any other plans.\n\n\n## Part 2 — Member Form Submission\n\n\nAfter the Verify Listing option is enabled on their plan, the member can access the Listing - Verify Account form from their member dashboard and submit it to request verification.\n\nOnce submitted, a confirmation message is displayed in the member dashboard.\n\n\n### Editing the Form Submission Text Labels\n\n\nThe text displayed in the post-submission confirmation message can be edited under Settings » Text Labels . The following three labels control this message:\n\nLabel Name Description Verification Info Submitted The title or heading displayed after the form is submitted. Verification Paragraph 1 The first paragraph of the post-submission message. Verification Paragraph 2 The second paragraph of the post-submission message.\n\nReference: Settings » Text Labels :\n\n- Verification Info Submitted :\n\n- Verification Paragraph 1:\n\n- Verification Paragraph 2:\n\n\n### Viewing Form Submissions\n\n\nSubmitted verification requests are stored in the Forms Inbox and can be reviewed by the administrator before a verification decision is made.\n\nReference: Emails » Forms Inbox\n\nCustomizing the Verification Form Fields The default fields on the Listing - Verify Account form can be edited or extended through the Form Manager. To customize the form: Navigate to Toolbox » Form Manager . Locate the Listing - Verify Account form. Click Actions » Customize . Edit existing fields or add new ones as required. Part 3 — Apply Verified Status to a Member After reviewing a member's form submission, the administrator manually applies the verified status to the member's listing. Navigation Path: Admin Dashboard » My Members » Search Members » Actions » Quick Edit » Listing Settings Tab To verify a member listing: Navigate to My Members » Search Members . Locate the target member in the results table. Click Actions » Quick Edit for that member's record. Navigate to the Listing Settings tab within the Quick Edit module. Locate the Verified Member? setting. Set the value to Verified . Save the change. Post-Verification Message Displayed to the Member Once the administrator has set the member to Verified, a confirmation message is displayed to the member within their dashboard. The text displayed in the post-verification confirmation message can be edited under Settings » Text Labels. The following three labels control this message: Label Name Description Verified Title Label The heading displayed in the verified confirmation message. Verified Paragraph 1 Label The first paragraph of the verified confirmation message. Verified Paragraph 2 Label The second paragraph of the verified confirmation message. Reference : Settings » Text Labels : Verified Title Label : Verified Paragraph 1 Label : Verified Paragraph 2 Label : Part 4 — Send the Verified Confirmation Email Once the member has been set to Verified in the Quick Edit module, the administrator can notify the member by sending the built-in verified confirmation email. The email template to use is: business-listing-verified This template can be customized within the email templates settings before sending. Part 5 — Customization Options Custom Verified Badges The default verified checkmark badge can be replaced with a custom icon to match the visual style of the site. Navigation Path: Admin Dashboard » Settings » General Settings » Brand Images » Verified Member Icon Upload the replacement icon at the path above. Customize the Verify Form URL The URL path where members access the verification form can be changed from its default value. Navigation Path: Admin Dashboard » Settings » Advanced Settings The setting name is Member Verify URL . System variable: default_verify_url The value entered in this field controls the portion of the URL that appears when a member navigates to the verification form from within their dashboard. The default value is promote/verify . Verified Badge Widget — Search Results The verified badge displayed in member search results is controlled by the Bootstrap Theme - Member Verified Badge widget. The badge layout, icon, and text are all editable through this widget and its associated text labels. Reference: How To Customize a Widget Text Labels Controlling the Search Results Badge Two text labels control the content of the verified badge in search results: # Label Name System Variable Controls 1 Search Results Verified Member Icon search_results_verified_member_icon The icon displayed in the badge. 2 Search Results Verified Member search_results_verified_member The text displayed in the badge.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170364495/original/PyMkj6f2Sh80qgMhYg3wHTF4eM0zgbHuGw.png?1762873707",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105985133/original/FPsRWYffn8vQAYOpnsTfuoEQDwj3XswB3g.png?1646686994",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169320516/original/xXIK3TATeYZhglr5qVtfVb-OwSsPrn8oUw.png?1761064274",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105985797/original/tktfsRPwZ4z64liLMaBY3n76-tjKXD646w.png?1646687830",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153428118/original/Qxkfe3AtNQrjUO4RxrvLwrJWU2R_trbydQ.png?1733236095",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153428816/original/rDGUo2o3DrVLOHsQopISHE6qnM7BOMcXmQ.png?1733236586",
+      "alt": null,
+      "caption": "Context: Reference:Settings » Text Labels:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'. Context: Context: Reference:Settings » Text Labels:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153429026/original/7tkEGzrUPqUyPBZKFTp-jEOWC54_88DmkQ.png?1733236708",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153429056/original/AGvfsOPy_hXgOiyHkB0dreDD-NX3VZi3wA.png?1733236752",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169321309/original/ANxLrpIxdINr4DEiKUa0ixNneV1zEiXsBg.png?1761064959",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169321654/original/Dz871yFRzTGek7t-zt1FmdG2AdBwiTXQ_Q.png?1761065206",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153428592/original/qOdf0r57KWSSJagcwZp0DbfotfqJ2ZvjaA.jpeg?1733236380",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181027215/original/CT7cFq28WSbqutVON56waabxCXR0tZk1nQ.png?1782399796",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164946471/original/gcLhYqUnXCRos8IwpqP-ZlmQ1QBlO1GsEg.png?1753662816",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153429712/original/p5kfaxVdnNynND4KSEknLQ9uFiIroH3Q-g.png?1733237298",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153429884/original/7c_xXQoBwNlJJdPB2Q8VZCryr19z-3_t0g.png?1733237417",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153429960/original/DeU5BXNCgbK6f-Fa2VTR3xhkqWREogKJag.png?1733237487",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153429983/original/TnKLvXzKdEwr_eKBEJX92WkKkeJMegnDOA.png?1733237513",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169321928/original/wWU53V3wE8IWtb-Vve2T-GIAMKy4WvzIpQ.png?1761065395",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169322075/original/D-dOIMLksJeYkEoh9XG01aeZ9nftPzRacQ.png?1761065506",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128971776/original/eeD5ZqDy2DlJDjcQdaK12nYFPT_dxKE4jA.png?1690418062",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164946478/original/OpM7Z1zzTQwVUcRd8jtGl8j3xHI_60Px9g.png?1753662858",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170367133/original/Fc2_JDyPQebvLALcA3AsWk8HaqtO6ffJYQ.png?1762875755",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170368761/original/b02Q-7q-oKxUSeJdlPyRny3B1eqpIFQoUg.png?1762877449",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170368874/original/TST4JfrBIVkT1WgjBf1IMU2ZEs1kV8Ybng.png?1762877588",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170368898/original/KGEs_qiW702rG-P3YNBgmSqRiSTvcr-IZA.png?1762877616",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Verify a Listing' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000021982",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021982"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000682673"
+    },
+    {
+      "text": "Emails » Forms Inbox",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000673655"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000682673"
+    },
+    {
+      "text": "How To Customize a Widget",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000078430"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/a/tickets/new"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/a/tickets/new"
+    }
+  ],
+  "lastmod": "2026-06-25T20:33:19+05:30",
+  "scraped_at": "2026-10-18T13:40:49.260645"
+}

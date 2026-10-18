@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109834",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109834-09-25-2026-software-updates",
+  "title": "09/25/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/25/2026 - Software Updates"
+  ],
+  "content": "## 09/25/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109834\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a rebuilt Domain Manager in the Admin . It now connects to Cloudflare through a one-click sign-in, sets up email deliverability records automatically, and reports real certificate and domain registration details.\n\n- Added a Web Page Setting called \"Sidebar Position on Mobile Devices\" in the Admin, so the sidebar placement on mobile can now be chosen page by page. Widget Involved: Bootstrap Theme - Static Web Page\n\n- Added a bulk delete option for member transactions in the Admin . Selection checkboxes are now available on the Cancelled invoices tab as well.\n\n- Updated the emoji picker in the Froala Edito r in the Admin and in the email editor so emojis can now be searched by keyword, and recently used emojis are kept for quick access.\n\n- Improved the per-plan Sign Up Form selection in the Admin so the list for each membership plan now only shows forms that match the plan's billing type, preventing a free form from being assigned to a paid plan's checkout by mistake.\n\n- Improved how print-friendly versions of pages are handled so search engines no longer index them as duplicate content.\n\n- Fixed an issue that caused location searches using a radius to include expired posts in the results total when the post type was set to hide expired posts from search results. Widgets Involved: Search - Group - Search Query Search - Post - Search Query\n\n- Fixed an issue that prevented the website preview image in the Admin dashboard from being updated when the Block/Allow Country tool was restricting the website to specific countries.\n\n- Fixed an issue that caused the editing popups in the Froala Editor, such as the image, link and table options, to appear far down the page and out of reach on websites that load a third-party translation script.\n\n- Fixed an issue that allowed a parent category to be selected without any sub-category, which displayed a category on the member's public profile that the member never chose. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- Fixed an issue that caused the scheduled account closing process to cancel and email members again when their account had already been cancelled or had been reactivated by an Admin .\n\n- Fixed an issue that caused saving a membership plan to create a redirect on the checkout address in some cases, which prevented Digital Product and Pay Per Post purchases from completing.\n\n- Fixed an issue that caused the Block/Allow Country tool to also block integrations that connect through the API, such as Zapier and n8n.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109834",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109834"
+    }
+  ],
+  "lastmod": "2026-09-26T05:21:06+05:30",
+  "scraped_at": "2026-10-18T14:00:11.702983"
+}

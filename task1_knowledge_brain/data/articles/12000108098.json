@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108098",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108098-api-reference-email-lists",
+  "title": "API Reference - Email Lists",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Email Lists"
+  ],
+  "content": "## API Reference - Email Lists\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108098\n\n← Back to API Reference | Getting Started Email Lists Email Lists track individual email addresses that have been added to or removed from your site's mailing lists. Each record represents a single email subscription entry including its subscription status, source, and associated token. Model name in URL: email_list — DB table: email_list The Email List Object Field Type Description id integer Unique record ID (primary key, read-only) email string Email address of the subscriber required on create type string List type or source identifier (EG subscribe , unsubscribe ) date_added string Date the record was added (format: YYYYMMDDHHmmss ) status integer Subscription status: 1 active, 0 inactive token string Unique token assigned to this subscription entry cookie string Cookie value associated with the subscription action httpr string HTTP referrer URL at time of subscription page string Page URL where the subscription was initiated List Email List Records GET /api/v2/email_list/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/email_list/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"1\",\n      \"email\": \"subscriber@example.com\",\n      \"type\": \"subscribe\",\n      \"date_added\": \"20240301120000\",\n      \"status\": \"1\",\n      \"token\": \"abc123token\",\n      \"cookie\": \"\",\n      \"httpr\": \"https://www.example.com/signup\",\n      \"page\": \"/signup\"\n    }\n  ],\n  \"total\": \"100\",\n  \"current_page\": 1,\n  \"total_pages\": 4,\n  \"next_page\": \"MipfKjI1\"\n} Retrieve an Email List Record GET /api/v2/email_list/get/{id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/email_list/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"1\",\n      \"email\": \"subscriber@example.com\",\n      \"type\": \"subscribe\",\n      \"date_added\": \"20240301120000\",\n      \"status\": \"1\",\n      \"token\": \"abc123token\",\n      \"cookie\": \"\",\n      \"httpr\": \"https://www.example.com/signup\",\n      \"page\": \"/signup\"\n    }\n  ],\n  \"total\": \"100\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create an Email List Record POST /api/v2/email_list/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/email_list/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"email=subscriber%40example.com\" \\\n  -d \"type=subscribe\" \\\n  -d \"status=1\" \\\n  -d \"date_added=20240401120000\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"101\",\n    \"email\": \"subscriber@example.com\",\n    \"type\": \"subscribe\",\n    \"date_added\": \"20240401120000\",\n    \"status\": \"1\",\n    \"token\": null,\n    \"cookie\": null,\n    \"httpr\": null,\n    \"page\": null\n  }\n} Update an Email List Record PUT /api/v2/email_list/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/email_list/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=101\" \\\n  -d \"status=0\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"101\",\n    \"email\": \"subscriber@example.com\",\n    \"type\": \"subscribe\",\n    \"status\": \"0\"\n  }\n} Delete an Email List Record DELETE /api/v2/email_list/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/email_list/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=101\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"email_list record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108098",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108098"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:52+05:30",
+  "scraped_at": "2026-10-18T13:58:06.237027"
+}

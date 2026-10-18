@@ -1,0 +1,35 @@
+{
+  "article_id": "12000077123",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077123-01-22-21-software-updates",
+  "title": "01/22/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/22/21 - Software Updates"
+  ],
+  "content": "## 01/22/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077123\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from saving the \"Member Specialties\" Post Type when clicking on the \"Save Changes\" button.\n\n- We fixed an issue which was preventing the system from returning accurate post search results when using the location search field in some cases. Widgets Involved: Search - Post - Search Query Search - Group - Search Query\n\n- We fixed an issue which was preventing the system from charging tax on member upgrades when the Tax & VAT Manager Add-On is active on a site.\n\n- We updated some areas in the Member Dashboard that were not using the \"Verify Member Icon\" image specified in the Brand Images section of the General Settings page in the Admin. Widget Involved: Bootstrap Theme - Account - Verify Listing Success\n\n- We created a new Email Template variable called \"url_origin\" which indicates the URL of the page a form was submitted from. Widget Involved: System - SaveForm\n\n- We fixed an issue which was causing the system to match leads submitted through the site's \"Get Matched\" form with the logged-in member who submitted the lead rather than using the expected lead matching logic. Widget Involved: System - SaveForm\n\n- The Pay Per Post alert modal displayed when a member is paying for a post is now compatible with Text Labels.\n\n- We improved the URL validation across the Web Page Builder, Member Categories, SEO Template and Edit Post Settings page in the Admin.\n\n- The \"Search Results\" text on the Profile Stats page in the Member Dashboard area is now a Text Label. Text Label Involved: statistics_search_results\n\n- We fixed an issue which was causing the system to automatically choose New York as the location when the \"Detect Visitor Location\" Design Setting is activate on a site in some cases. Widget Involved: Bootstrap - Contact Member Lead Map Bootstrap Theme - Header - Right\n\n- We fixed an issue that was preventing the system from displaying the \"Processing\" icon when saving a lead note on the Manage Leads page in the Admin.\n\n- We released the Side-by-Side Pricing Plans Add-On, click here for more information.\n\n- We released the Post Affiliate Pro Integration Add-On, click here for more information.\n\n- We released the ShareaSale Affiliate Integration, click here for more information.\n\n- We implemented an update in order to not load the WebsiteScript.js file when the Page Type of a Web Page has been set as \"Custom Widget as Web Page\".\n\n- We fixed an issue which was preventing the system from sending the Reset Password email after the \"Retrieve Password\" form was submitted in some cases.\n\n- We added the ability to manually edit the URL of member posts on the Manage Post page in the Admin.\n\n- We fixed an issue which was preventing the system from returning accurate results when using the \"Price\" search field on post search results pages in some cases. Widgets Involved: Search - Post - Search Query\n\n- We improved the validation of the recipients field t o prevent entering more than 5 email addresses at a time on the Compose Email page in the Admin.\n\n- We fixed an issue which was causing the selected Font to not be applied correctly on the Front-End of sites in some cases. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We updated the Manage Add-Ons page in the Admin in order to add the ability to filter Add-Ons by status.\n\n- We fixed an issue which was causing the system to remove the category GET parameter in the \"og:url\" meta tag and canonical URL in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the system from displaying the Youtube video thumbnail on videos search results pages in some cases. Post Type Involved: Video\n\n- We moved the Smart List menu item from the Emails section to the Members section on the Admin Sidebar menu in the Admin area.\n\n- We fixed an issue which was preventing the system from charging tax amount when a member signs up using the Free-Trial Period Add-On in some cases.\n\n- We created a new Comment Post setting called \"Display Comments Count in Search Results\" to control whether or not the total number of comments published for a specific post will display on searcch results pages. In order to use this new feature, navigate to the Admin >> Content >> Post Comments >> Comment Settings. Post Types Involved: Articles Blog Article Video Property Photo Albums Job Listings Event Coupon Classified SoundCloud Post\n\n- We fixed an issue which was preventing the system from charging for the One-Time Setup fee when creating new orders from the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077123",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077123"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/side-by-side-pricing-plans"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/post-affiliate-pro-integration"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/shareasale-affiliate-integration"
+    }
+  ],
+  "lastmod": "2021-01-25T02:06:57+05:30",
+  "scraped_at": "2026-10-18T13:47:44.152813"
+}

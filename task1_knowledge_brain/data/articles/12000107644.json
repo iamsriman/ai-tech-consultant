@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107644",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107644-02-13-2026-software-updates",
+  "title": "02/13/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/13/2026 - Software Updates"
+  ],
+  "content": "## 02/13/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107644\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented a few sites from connecting to the billing system in some rare cases.\n\n- Released a new feature called “Add Event to Calendar” . This allows users to add an event post to popular calendar platforms like Outlook, Google Calendar, and Apple Calendar. Widget Involved: Bootstrap Theme - Display - Posted By Snippet\n\n- Refactored and updated the Social Share Buttons widget on sidebars in the frontend. Widget Involved: Bootstrap Theme - Module - Social Share\n\n- Updated the “Support & Updates” section on the Admin Dashboard to improve compatibility with the Admin Whitelabel setting.\n\n- Fixed an issue that caused the system to display error messages when viewing forms in the Admin in some cases.\n\n- Fixed an issue that prevented the \"Report\" button from working properly when replying to a private chat on the Member Dashboard.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107644",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107644"
+    }
+  ],
+  "lastmod": "2026-02-16T21:21:31+05:30",
+  "scraped_at": "2026-10-18T13:57:15.042632"
+}

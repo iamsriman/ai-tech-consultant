@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106935",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106935-12-12-2025-software-updates",
+  "title": "12/12/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/12/2025 - Software Updates"
+  ],
+  "content": "## 12/12/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106935\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the field validations from working properly (EG: allowed blank values that should not be allowed) when creating newsletter campaigns in the Admin in some cases.\n\n- Released a new version of the Website Progress Setup To Do module on the Admin Dashboard page.\n\n- Implemented an update to support \" attributes\" and \" HTML\" tags with single quotes, double quotes, or no quotes when updating the values for the “Froala Allowed Empty Tags” and “Froala Remove Attributes When Pasting Text” Advanced Settings in the Admin.\n\n- Released a security update to the Community Comments Add-On on the frontend of the sites to help prevent comment SPAM. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- Released a security update to the Review Details page in the Member Dashboard to ensure only users with the proper Membership Plan permissions can accept or decline reviews. Widgets Involved: Bootstrap Theme - Account - Reviews Bootstrap Theme - Account - Reviews Details Page\n\n- Fixed an issue that disabled automatic pluralization for text labels when selecting English (Australia) or English (Great Britain) as the default website language in the Admin.\n\n- Released a security update to the Private Member Chat Add-On to prevent bulk message SPAM from being submitted from the frontend of sites.\n\n- Updated the Free Trial process to improve the speed and security of launching new free trial websites.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106935",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106935"
+    }
+  ],
+  "lastmod": "2025-12-22T22:06:53+05:30",
+  "scraped_at": "2026-10-18T13:57:02.444649"
+}

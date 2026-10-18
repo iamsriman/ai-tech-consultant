@@ -1,0 +1,46 @@
+{
+  "article_id": "12000075850",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075850-developer-hub-robots-file",
+  "title": "Developer Hub » Robots File",
+  "category": "Developer Hub",
+  "folder": "Robots File",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Robots File",
+    "Developer Hub » Robots File"
+  ],
+  "content": "## Developer Hub » Robots File\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075850\n\nTo edit the default version of the Robots.txt file navigate to Developer Hub >> Robots File :\n\n\n## Default Rules\n\n\nThe default file includes the following rules.\n\nUser-agent: Googlebot\nDisallow: /api/\nAllow: /\n\nUser-agent: Mediapartners-Google\nDisallow: /api/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /api/\nAllow: /\n    \nUser-agent: Yahoo-MMCrawler\nDisallow: /api/\nAllow: /\n\nUser-agent: Yahoo-slurp\nDisallow: /api/\nAllow: /\n\nUser-agent: slurp\nDisallow: /api/\nAllow: /\n    \nUser-agent: Msnbot\nDisallow: /api/\nAllow: /\n\nUser-agent: MSNBot-media\nDisallow: /api/\nAllow: /\n\nUser-agent: Bingbot\nDisallow: /api/\nAllow: /\n\nUser-agent: Bing Preview bot\nDisallow: /api/\nAllow: /\n    \nUser-agent: Twitterbot\nDisallow: /api/\nAllow: /\n    \nUser-agent: *\nDisallow: /\n\nTo add to the file, click inside the text field and add the necessary rules.\n\nSee How To Add Bots To Your Robots.Txt File (Ahrefs Example) .\n\n\n## Restore Default File\n\n\nThe following button replaces any value imputed to the default version of the file:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094106908/original/OpJk8GuLXGPLPrn69hN3Z96LG_XooIXB9A.png?1623774021",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Developer Hub » Robots File' in section 'Developer Hub' / 'Robots File'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085399056/original/SMAL8GXCLwyM4T8t-DZRRhzyFxUwMDVmUQ.png?1606162699",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Developer Hub » Robots File' in section 'Developer Hub' / 'Robots File'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075850",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075850"
+    },
+    {
+      "text": "How To Add Bots To Your Robots.Txt File (Ahrefs Example)",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000099791"
+    }
+  ],
+  "lastmod": "2025-11-12T21:52:23+05:30",
+  "scraped_at": "2026-10-18T13:47:24.739935"
+}

@@ -1,0 +1,31 @@
+{
+  "article_id": "12000109346",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109346-how-to-migrate-a-domain-connection-from-a-record-to-cname",
+  "title": "How to Migrate a Domain Connection from A Record to CNAME",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "How to Migrate a Domain Connection from A Record to CNAME"
+  ],
+  "content": "## How to Migrate a Domain Connection from A Record to CNAME\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109346\n\nA CNAME connection uses the site's unique directoryup.com target instead of tying a hostname to a server IP. This allows the connection to follow the website when its hosting server changes.\n\n\n## Before starting\n\n\nHave access to the DNS provider that currently hosts the domain's records. Record the existing values, confirm the website being connected, and preserve email and unrelated service records. This procedure changes DNS pointing; it does not require changing the website's domain name.\n\n\n## Update www or another subdomain\n\n\n- Open Settings > Domain Manager > Domain .\n\n- Locate the site's connection details.\n\n- Copy the unique directoryup.com target.\n\n- Open the current DNS provider's record editor.\n\n- Replace the conflicting address record for the intended hostname with a CNAME to the copied target.\n\n- Save the change.\n\n- Return to Domain Manager and click Check again .\n\nType: CNAME Name: www, or the exact subdomain being connected Value: The site's unique directoryup.com target copied from Domain Manager\n\nRemove only the record that conflicts at that hostname. A CNAME cannot share its hostname with ordinary A/AAAA records or other data. Do not remove unrelated MX, TXT, or mailbox records.\n\n\n## Handle the root domain separately\n\n\nThe root domain is the address without a prefix, such as example.com . DNS does not allow an ordinary CNAME record on the root, so the right record depends on the company that runs the domain's DNS. Do not delete a working root record before its replacement is ready.\n\n- Brilliant Directories nameservers: nothing to change; the records are managed for the website.\n\n- Cloudflare: Cloudflare flattens a CNAME on the root, so the root takes the same CNAME as www, pointing to the site's unique target.\n\n- GoDaddy: GoDaddy does not allow a CNAME on the root. When the website uses the www version, keep the www CNAME and turn on GoDaddy Domain Forwarding so example.com forwards to https://www.example.com with Permanent (301) . When the website uses the version without www, the root keeps an A record instead, and forwarding must stay off.\n\n- Namecheap: replace the root record with an ALIAS record for @ pointing to the site's unique target. Namecheap does not allow an ALIAS alongside an existing A, AAAA, CNAME, or redirect record for the same host, so delete the current root record first.\n\n- Other DNS providers: the root keeps an A record pointing to the server address shown in Domain Manager. An A record points at a fixed address, so if the website moves to a different server in the future, that one record needs the same update. Moving the domain's DNS to a free Cloudflare account avoids this.\n\nStep-by-step instructions and the exact records for each case are in Point the root domain in the connection guide.\n\n\n## Verify the result\n\n\nConfirm both the intended hostname and the root-domain behavior. The Domain tab can report separate results for each address. If Cloudflare proxying is enabled, a public DNS lookup may show Cloudflare addresses rather than the underlying CNAME; inspect the record in the connected Cloudflare DNS editor as well.\n\nFinally, open the website over HTTPS and confirm email still works. See DNS records in Domain Manager for the distinction between editable records and a public DNS view.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109346",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109346"
+    },
+    {
+      "text": "Point the root domain",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271#section-cname-exception"
+    },
+    {
+      "text": "DNS records in Domain Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109758"
+    }
+  ],
+  "lastmod": "2026-09-23T22:06:04+05:30",
+  "scraped_at": "2026-10-18T13:59:55.497039"
+}

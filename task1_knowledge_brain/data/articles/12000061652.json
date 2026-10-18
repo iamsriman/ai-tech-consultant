@@ -1,0 +1,23 @@
+{
+  "article_id": "12000061652",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000061652-09-13-19-software-updates",
+  "title": "09/13/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/13/19 - Software Updates"
+  ],
+  "content": "## 09/13/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000061652\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing Bootstrap styles from being applied when saving info in Froala WYSIWYG fields in the Admin.\n\n- We fixed an issue that was causing the Media Manager to briefly display a URL after an image was uploaded in some cases.\n\n- We fixed an issue which was affecting the ability to disable the background color of the \"Recent\" Homepage widgets in the Design Settings of the Admin.\n\n- We removed the \"insert image\" option from the Froala Quick Insert menu on the \"Edit Web Pages\" section of the Admin.\n\n- We deprecated the Members-Only textarea field on the General Settings page in the Admin as it no longer applies after recent updates to the Members-Only functionality.\n\n- The system will now refresh the website cache automatically after a Payment Gateway is edited or added in the Admin.\n\n- We added the ability to select the text message position of the \"Highlight Member Results\" Add-On. In order to use this new feature navigate to the Admin >> Finance >> Manage Products >> Edit >> General tab.\n\n- We fixed an issue which was preventing some of the \"Software Updates\" found on the Admin dashboard from completing installation in some cases. Software Updates Involved: Member Account Details Updates (erase the 0 from experience) Job Theme Support Search membership permissions to visitor Form Categories Update\n\n- We added the ability to support transparency / alpha settings for all color picker fields on the Design Settings page in the Admin. Widgets Involved: Bootstrap Theme - Account - Sidebar Bootstrap Theme - Account - Upgrade Page 1 Bootstrap Theme - Autosuggest Javascript Generator Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Header - Main Menu Bootstrap Theme - Homepage Search - Clickable Australia Map Bootstrap Theme - Homepage Search - Clickable Canada Map Bootstrap Theme - Homepage Search - Clickable Europe Map Bootstrap Theme - Homepage Search - Clickable Germany Map Bootstrap Theme - Homepage Search - Clickable New Zealand Map Bootstrap Theme - Homepage Search - Clickable South Africa Map Bootstrap Theme - Homepage Search - Clickable UK Map Bootstrap Theme - Homepage Search - Clickable USA Map\n\n- The Property feature search field options are now fully powered by the Property Form. Widgets Involved Bootstrap Theme - Homepage Search - Property Search Bootstrap Theme - Module - Property Search\n\n- We fixed an issue which was preventing signups using the \"One-Click Social Login\" Add-On from sending an email verification in some cases.\n\n- We fixed an issue which was affecting the ability to delete member Service Areas when the \"Multi-Location Listing\" Add-On is activate on a site. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue which was causing post categories containing an ampersand \"&\" symbol to return 0 results on post search results pages.\n\n- We fixed an issue which was preventing members from updating their credit card information when using Eway as the site's Payment Gateway in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000061652",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000061652"
+    }
+  ],
+  "lastmod": "2019-09-14T04:51:24+05:30",
+  "scraped_at": "2026-10-18T13:45:29.993373"
+}

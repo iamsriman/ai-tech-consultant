@@ -1,0 +1,23 @@
+{
+  "article_id": "12000090963",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090963-11-18-22-software-updates",
+  "title": "11/18/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/18/22 - Software Updates"
+  ],
+  "content": "## 11/18/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090963\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from displaying the Form Preview when editing a form in the Form Manager in the Admin when the \"Enable HTTP Security Headers (CSP)\" was active in some cases.\n\n- We fixed an issue with the Froala \"Button Link\" Pre-Made Element which was causing the system to add a duplicate \"rel\" attribute value when editing Web Pages in the Admin.\n\n- We fixed an issue which was affecting the ability to save custom form fields as blank after they had previously stored a value in some cases.\n\n- We updated the Tax & VAT Manager Add-On in order to allow negative tax values.\n\n- We updated the Stripe Payment Gateway in order to support migrating credit card data that was previously stored locally to Stripe when a site changes their Payment Gateway to Stripe.\n\n- We fixed an issue with the Automatic Lead Matching Add-On which was preventing the system from displaying possible Suggested Matches when manually matching members to leads from the Admin in some cases. Widget Involved: Search - Member - Search Query\n\n- We updated the new Domain Manager page in the Admin to implement some minor fixes to validations in several places.\n\n- We fixed an issue which was preventing the Froala WYSIWYG Icon Picker from working properly when trying to select icons in some cases.\n\n- We released a new version of the Brilliant Directories App in Zapier. This version will include the ability to select Sub Sub Categories for leads. We also added support for submitting plain zip/post codes as a lead_location value and the origin IP when creating a new lead from Zapier.\n\n- We fixed an issue which was preventing the city Pretty URL search result page from returning accurate results in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was causing the default event Date & Time picker fields from resetting to \"12:00 AM\" after selecting a time in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - DateTime Scripts\n\n- We created a new set of Advanced Settings to control the maximum file upload size in different contexts. These new settings will impact the member, post, multi-photo and PDF Chat upload logic. By default the maximum file upload size for all field types is 10MB. New Advanced Settings: File Image Upload Size Single Post Image Upload Size Group Post Image Upload Size Froala Chat PDF File Size Widgets Involved: Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Account - Photo Albums Upload Form Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Footer - Scripts - Filestyle Scripts Form - Froala Editor Javascript",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090963",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090963"
+    }
+  ],
+  "lastmod": "2022-11-21T23:16:54+05:30",
+  "scraped_at": "2026-10-18T13:50:27.775635"
+}

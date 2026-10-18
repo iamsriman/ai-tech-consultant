@@ -1,0 +1,145 @@
+{
+  "article_id": "12000052073",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052073-how-to-edit-login-page-button",
+  "title": "How To Edit Login Page Button",
+  "category": "Toolbox",
+  "folder": "Menu Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Menu Manager",
+    "How To Edit Login Page Button"
+  ],
+  "content": "## How To Edit Login Page Button\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000052073\n\nEvery Brilliant Directories website comes with a default /login page. On this page, the default login form and the signup button are available to edit:\n\n\n## Edit This Button in the Back End\n\n\nNavigate to Toolbox » Menu Manager , search for the \" Login Page Signup Buttons \" menu, and click \" Customize \":\n\nIn the \" Edit \" view, the text areas can be edited to change the wording and the URLs:\n\nThe admin can choose to either edit the wording directly in the Menu Manager or edit the text labels.\n\nThe text and URL can be edited under Settings » Text Labels : login_form_join_cta\n\ndefault_signup_url\n\n\n## Make the Link a Button\n\n\nEach menu link has its own \" Edit \" button for further changes. Clicking it opens a dropdown of settings. In the Menu Item CSS Class field, add the following:\n\nMenu Item CSS Class\n\nbtn btn-danger btn-block sm-nopad nav\n\nIt will look like this:\n\n\n## Change The Link to the Deprecated Two Buttons\n\n\nOlder versions of the /login page displayed two signup buttons instead of one. To recreate that layout, add two menu items with the following settings.\n\nThis is the information that needs to be added to add the 2 buttons, please click on Add Menu Item:\n\nNote: the URLs below are examples. /checkout/5 points to a specific membership plan — replace the plan ID with the correct one for the website.\n\n\n### Button 1\n\n\nTEXT: Not a Registered User? <span class=\"inline-block\">Create Free User Account</span>\n\nURL: /checkout/5\n\nMenu Item CSS Class: btn btn-danger btn-block sm-bmargin\n\nOuter <li> CSS Class: col-xs-12 col-sm-12 col-md-6 nolpad sm-nopad nav\n\n\n### Button 2\n\n\nTEXT: Are You a Local Business? <span class=\"inline-block\">List Your Company Now</span>\n\nURL: /join\n\nMenu Item CSS Class: btn btn-success btn-block\n\nOuter <li> CSS Class: col-xs-12 col-sm-12 col-md-6 norpad sm-nopad nav\n\nThis is how it will look on the /login page:\n\n\n## Change The Color of These Buttons\n\n\nThe menu link has its \" Edit \" button that can be utilized to make further changes. When clicked on these, a dropdown of sections will appear. On one this section called \" Link CSS Class \", the kind of a button that is being used as default will display:\n\nHighlighted areas indicate our button is Danger Button. In this scenario, the specific button color can be changed via Settings » Design Settings » Default Button Link Colors",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301181/original/FnUYz7OLT7JEtdVeWO5_6KD_2SR0QpuK0g.png?1781230881",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301189/original/05lWFQZuAuIXh2L4q4DsxJOoir_qkl3e1w.png?1781230939",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301209/original/2fGUAqR4yJLk2VVKYrBiKRsKd93y4uxp9A.png?1781231032",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301339/original/h2NRFWwRMV6AX9kn3sddAwKuGDvm09yKEg.png?1781231403",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301347/original/jAQWwM_-ca26bSe5RyPWirOnawvk8hHInw.png?1781231445",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301423/original/DcSL4Edl6IRfr1-a1C7HubO9xfht-dcctA.png?1781231653",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301431/original/kVUIthDoYdZuSnbPJQWfZbBTr_ouaeiysg.png?1781231696",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301483/original/Mx5rHyqN3DAA9ZOw7eVFIR49BiQ7RxWigA.png?1781231913",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301582/original/QNKC2n4mSCY0lN3vB09HGlQr0eUcAqIPww.png?1781232002",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301593/original/4h29794YISw8hSsmxkAdp4co0VIls4tDbg.png?1781232078",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301601/original/szCvEVGw9OWtpYFwMG-GXGq6VCd8o_GZ0Q.png?1781232136",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301621/original/A_4oIQmR-1Rd6zdgjzaPb1qVAbhtzS0KIQ.png?1781232206",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180301625/original/VWxScto1_v1TfA9_UFLTNgudV2btyUPqCg.png?1781232280",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit Login Page Button' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000052073",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052073"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://bootstrap.brilliantdirectories.com/a/solutions/articles/5000682673"
+    }
+  ],
+  "lastmod": "2026-06-12T08:14:49+05:30",
+  "scraped_at": "2026-10-18T13:44:12.922059"
+}

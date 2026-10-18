@@ -1,0 +1,83 @@
+{
+  "article_id": "12000099550",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099550-how-to-prevent-and-minimize-unwanted-spam-emails",
+  "title": "How to Prevent and Minimize Unwanted Spam Emails",
+  "category": "Emails",
+  "folder": "Forms Inbox",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Forms Inbox",
+    "How to Prevent and Minimize Unwanted Spam Emails"
+  ],
+  "content": "## How to Prevent and Minimize Unwanted Spam Emails\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099550\n\nUnfortunately, websites that have Contact Us forms are susceptible to unwanted spam form submissions, this is quite common on the internet.\n\nHere are a few recommendations to address this:\n\n\n### Block SPAM Keywords\n\n\nRead more : Spam Form Protector Add-On\n\n- Go to Settings\n\n- Click on General Settings\n\n- Use the Integrations tab to access the SPAM Keyword Blocker\n\n\n### Block Individual IPs\n\n\nRead more : Block An IP Address From The Website\n\n- Go to Emails\n\n- Click on Forms Inbox\n\n- The IP will be displayed in the Inquiry Details\n\nBlock the IP of individual spammers if there is an influx of spam submissions from one IP Address.\n\n\n### Block Traffic by Country\n\n\nRead more : Block Traffic By Country\n\n- Go To Settings\n\n- Click on General Settings\n\n- Use the Localization tab to access the Block Traffic by Country setting\n\nEasily prevent visitors from specific countries from accessing the front-end of the website, this add-on identifies a visitor's country based on their IP address.\n\nThis prevents the submission of the forms on the site from users in the blocked countries.\n\n\n### Members-Only Pages\n\n\nRead more: Members-Only Content\n\nThis add-on provides full control over who can access the website’s content by requiring designated “members” to log in before being able to view certain pages.\n\nIn this case the pages with the forms can be protected.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180649797/original/M1rUjYKfSSMRulDqyUSA64TTGrm-nsQB7Q.png?1781795131",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Prevent and Minimize Unwanted Spam Emails' in section 'Emails' / 'Forms Inbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180649933/original/SyhjjsA8fr57SnejG8nsVeDSMEZmNG_fQg.png?1781795208",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Prevent and Minimize Unwanted Spam Emails' in section 'Emails' / 'Forms Inbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180649983/original/JeBQwhBj93U5Yev9icx81AREsUHJSfeSZg.png?1781795265",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Prevent and Minimize Unwanted Spam Emails' in section 'Emails' / 'Forms Inbox'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099550",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099550"
+    },
+    {
+      "text": "Spam Form Protector Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046616"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000008504"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000008504"
+    },
+    {
+      "text": "Block An IP Address From The Website",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000008504"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000008504"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000008504"
+    },
+    {
+      "text": "Block Traffic By Country",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000098368"
+    },
+    {
+      "text": "Members-Only Content",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682638"
+    }
+  ],
+  "lastmod": "2026-06-18T20:38:01+05:30",
+  "scraped_at": "2026-10-18T13:53:53.114370"
+}

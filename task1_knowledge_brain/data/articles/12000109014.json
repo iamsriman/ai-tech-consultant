@@ -1,0 +1,27 @@
+{
+  "article_id": "12000109014",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109014-moving-your-website-to-a-new-server-site-transfer-wizard-",
+  "title": "Moving Your Website to a New Server (Site Transfer Wizard)",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Moving Your Website to a New Server (Site Transfer Wizard)"
+  ],
+  "content": "## Moving Your Website to a New Server (Site Transfer Wizard)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109014\n\nFrom time to time Brilliant Directories moves websites to newer, faster servers. When your website is scheduled for a move, a guided transfer wizard appears in your Admin area (\"Time to Move to a Faster Server\") and walks you through everything needed to complete the move. This article explains each step of that wizard and what to expect.\n\n\n## What the Wizard Does\n\n\nThe transfer wizard automates the parts of a server move that used to require support tickets: it detects how your domain is currently pointed (CNAME/ALIAS record, A record, or a connected Cloudflare account) and adjusts the guided steps to match, so you only see the instructions that apply to your setup. The process supports cPanel-hosted configurations and includes a streamlined Cloudflare connection flow.\n\n\n## Step 1 — Choose Your Hosting\n\n\nThe wizard first shows your hosting options:\n\n- Upgrade to Enhanced Hosting — move to the Enhanced Hosting bundle on the new server. If you choose this, payment is collected in the final step and the wizard confirms with an \"Enhanced Hosting Activated\" screen.\n\n- Forever Free Hosting — keep your included hosting plan; your site still moves to the new server.\n\nIf you are already on Enhanced Hosting the wizard tells you so and skips the upgrade offer.\n\n\n## Step 2 — Connect Your Domain\n\n\nThe wizard checks your domain's current pointing method and presents the matching path. If your domain is already connected correctly, it says so and no DNS changes are needed.\n\n\n### Option A: Connect with Cloudflare + Brilliant Directories\n\n\nThe recommended path. Connect your Cloudflare account and the wizard configures and verifies the DNS records for you — when it succeeds you will see \"Cloudflare Already Connected & Verified.\" If the connection cannot be established, the wizard says so and you can use one of the manual options below instead.\n\n\n### Option B: Update Your Records (CNAME / ALIAS)\n\n\nIf your DNS provider supports CNAME or ALIAS records, the wizard shows the exact records to set — the root domain record and the www subdomain record — with provider guides, and then verifies your pointing with a check button.\n\n\n### Option C: Nameservers (NS)\n\n\nAlternatively, point your domain's nameservers at the values the wizard displays. It detects your registrar, links to the matching registrar guide, and verifies the change once you have updated the nameservers at your registrar.\n\n\n## Step 3 — Finalize the Transfer\n\n\nOnce the domain is connected, confirm the transfer. If you selected Enhanced Hosting, payment options are presented here.\n\n\n## Tracking the Move\n\n\nAfter you finish the wizard, the Admin shows a transfer status panel with your Domain Connection Status and Transfer Status . When everything completes you will see \"Your website has moved!\" along with any follow-up steps.\n\nRelated: For general domain-connection help outside of a server move, see How to Connect a Domain to a Brilliant Directories Website .",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109014",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109014"
+    },
+    {
+      "text": "How to Connect a Domain to a Brilliant Directories Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    }
+  ],
+  "lastmod": "2026-07-02T09:09:46+05:30",
+  "scraped_at": "2026-10-18T13:59:09.646947"
+}

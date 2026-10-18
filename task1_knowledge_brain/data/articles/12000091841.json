@@ -1,0 +1,27 @@
+{
+  "article_id": "12000091841",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091841-01-27-23-software-updates",
+  "title": "01/27/23 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/27/23 - Software Updates"
+  ],
+  "content": "## 01/27/23 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091841\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the \"Sidebar Position on Mobile Devices\" Post Type Setting in order to make it compatible with tablets in portrait mode in addition to mobile devices. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We updated the new Domain Manager page in the Admin to improve validations in several places.\n\n- We fixed an issue which was preventing the member signup process from completing when the /checkout page contains an additional custom form in some cases. Widget Involved: Bootstrap Theme - Module - Member Contact Form\n\n- We updated the CSP Header widget in order to allow requests from the Admin as part of the security policies. Widget Involved: Bootstrap Theme - Function - CSP Headers\n\n- We added a \"copy to clipboard\" button next to the name, email and phone fields when viewing leads in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- We updated the Froala WYSIWYGs in the Admin and frontend to set width and height attributes for <img> element., This will help reduce layout changes during page load.\n\n- We updated the keyword search on the Help Center page in the Admin to return more accurate results.\n\n- We fixed an issue which was preventing the Post Search Result pages from displaying the correct social media description after turned a a static page as Post Search Results in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- The Yes or No form field data result on the frontend is now compatible with Text Labels.\n\n- We released the Star Ratings for Posts Add-On. Click here for more information. Widgets Involved: Search - Post - Search Query Bootstrap Theme - Function - Comment Handling Bootstrap Theme - Display - Posted By Snippet Post Types Involved: Classifieds Community Articles Coupons Digital Products Discussions Events Job Listings Photo Albums Products Properties Soundclouds Videos Website Blog Articles\n\n- We created a new text label called more_options_placeholder, the text label will impact the Sub-Sub Category dropdown placeholder. Widgets Involved: Bootstrap Theme - Homepage Search - Sub + Sub-Sub Bootstrap Theme - Homepage Search - Sub + Sub-Sub + Location Bootstrap Theme - Homepage Search - Sub-Sub Search Bootstrap Theme - Homepage Search - Top Sub SubSub Category Bootstrap Theme - Search Module - Sub + Sub-Sub Bootstrap Theme - Search Module - Sub_Sub_Sub_Location Bootstrap Theme - Search Module - Top_Sub_Sub-Sub_Location\n\n- We updated the layout of the Private Chats page in Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091841",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091841"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000091756"
+    }
+  ],
+  "lastmod": "2025-08-05T21:12:30+05:30",
+  "scraped_at": "2026-10-18T13:50:42.898767"
+}

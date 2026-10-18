@@ -1,0 +1,23 @@
+{
+  "article_id": "12000042894",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042894-03-30-18-software-updates",
+  "title": "03/30/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/30/18 - Software Updates"
+  ],
+  "content": "## 03/30/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000042894\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was affecting the normal behavior of the Multi-Location Listing Add-On when a Site Member tried to add a Zip Code located in Singapore. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We created an easy to show/hide the Front-End Design Setting Tool when an Site Admin vistis a website as Admin.\n\n- The issue that was affecting the Start and End Date Picker when the Recurring Event Add-On is active is already fixed. Widgets Involved: Bootstrap Theme - End DateTime Picker Bootstrap Theme - Footer - Scripts Bootstrap Theme - Start DateTime Picker\n\n- We added a new text label for the title headers in the \"/locations\" page on the Site Front-End. Text Labels: browse_label members_label cities_label locations_browse_worldwide Widget Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- We fixed an issue which was affecting the normal behavior of the List View/Grid View Design settings. Widget Involved: Bootstrap Theme - Footer - Scripts",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000042894",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042894"
+    }
+  ],
+  "lastmod": "2018-04-04T04:27:34+05:30",
+  "scraped_at": "2026-10-18T13:42:27.545749"
+}

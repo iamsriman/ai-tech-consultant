@@ -1,0 +1,41 @@
+{
+  "article_id": "12000069993",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069993-get-parameter-rule-for-post-and-group-search-results-userid-",
+  "title": "GET parameter rule for $POST and $GROUP search results \"&userid=\"",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "GET parameter rule for $POST and $GROUP search results \"&userid=\""
+  ],
+  "content": "## GET parameter rule for $POST and $GROUP search results \"&userid=\"\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069993\n\nThe userid URL parameter can be used to filter Post and Group search results by the member who created them.\n\nWhen a User ID is specified, the search results display only the posts created by that member.\n\n\n## URL Format\n\n\nAppend the userid parameter to a Post or Group search results URL.\n\nFor example:\n\nCopy /search/classifieds?userid=1\n\nReplace 1 with the desired member's User ID.\n\n\n## Find the Member's User ID\n\n\nTo locate a member's User ID, see:\n\nHow to View a Member's Unique ID Number in the Admin Area\n\n\n## Example\n\n\nThe following example displays all Classifieds posts created by the member whose User ID is 1 .\n\nHow To View A Member's Unique ID Number In The Admin Area",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076747396/original/EG_i2l5-17BAd_BBuCAnjUpQYimpTc762w.png?1588089524",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'GET parameter rule for $POST and $GROUP search results \"&userid=\"' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069993",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069993"
+    },
+    {
+      "text": "How to View a Member's Unique ID Number in the Admin Area",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000575488"
+    },
+    {
+      "text": "How To View A Member's Unique ID Number In The Admin Area",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000575488"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:19+05:30",
+  "scraped_at": "2026-10-18T13:46:33.646229"
+}

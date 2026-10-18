@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104338",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104338-05-02-2025-software-updates",
+  "title": "05/02/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/02/2025 - Software Updates"
+  ],
+  "content": "## 05/02/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104338\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Added the ability to geocode member posts from the Admin. To use this new feature navigate to Admin >> My Content >> Manage Posts >> List Actions >> Sync Posts with Google Maps.\n\n- Fixed an issue that prevented members from selecting a location in the Contact Details form in the Member Dashboard when the \"New Google Maps Places API\" was enabled. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue with the Post Import functionality when the 'Auto Import the posts image based on \"Post Image\" during import' setting was enabled in some cases.\n\n- Updated the Domain Manager to proceed with domain updates even when the Name Server (NS) records for the domain are not detected as pointing to Brilliant Directories servers.  This update was made to comply with some domain registrars that require the zone records to be present on our end before the NS records can be updated by the registrar.\n\n- Increased page speed scores on third-party tools like GTMetrix and Google PageSpeed Insights. Widgets Involved: Bootstrap Theme - HEAD Bootstrap Theme Framework\n\n- Fixed an issue with the \"Required\" field validation with the Member Sub-category selection field in the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- Updated the \"Invite Admin\" functionality to automatically unblock email addresses that had been blocked previously and display a message explaining why the email was previously blocked.\n\n- All \"Bootstrap Theme - Banner - Ads\" widgets are now available to use with the Sidebar Manager in the Admin.\n\n- Updated the Web Page Builder in the Admin to support the \"Ctrl+S\" keyboard shortcut for saving pages.\n\n- Fixed an issue with saving \"Canterbury, NZ\" as a member Service Area in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- Fixed an issue that prevented <a> HTML tags from being saved to posts when creating or updating member posts via the API, even with the \"Allow Live Links in the Member About Me Text\" Advanced Setting enabled.\n\n- Fixed an issue that prevented widgets from being updated via the API when sending the \"widget_name\" variable in some cases.\n\n- Fixed an issue applying coupon codes to paid member signups in some rare cases.\n\n- Fixed the display of member images when viewing the \"My Favorites\" page in the Member Dashboard on mobile devices. Widgets Involved: Bootstrap Theme - Account - Favorites Controller\n\n- Added support for the \"city_name\" and \"country_name\" SEO variables on the Global Website Search SEO Template.\n\n- Fixed an issue saving a member's IP address during the signup process in some cases.\n\n- Fixed an issue that prevented member search results pages from returning accurate results when the \"Strict Postal Code Match\" or \"Strict City Match\" Settings were enabled in some cases. Widget Involved: Search - Member - Search Query\n\n- Updated the \"Manage Post\" tab on the Account Details page in the Admin to display a \"No Post Found!\" message when there are no posts to display.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104338",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104338"
+    }
+  ],
+  "lastmod": "2025-05-06T02:26:15+05:30",
+  "scraped_at": "2026-10-18T13:56:03.361739"
+}

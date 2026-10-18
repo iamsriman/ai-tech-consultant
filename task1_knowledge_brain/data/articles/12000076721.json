@@ -1,0 +1,27 @@
+{
+  "article_id": "12000076721",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076721-01-01-21-software-updates",
+  "title": "01/01/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/01/21 - Software Updates"
+  ],
+  "content": "## 01/01/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076721\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from properly including the Website Logo in the email sent after a user submits a custom Contact Us form in some cases. Widget Involved: System - SaveForm\n\n- We added new Text Labels specifically for plural versions of some existing Text Labels.  This will allow a site owner that is translating the website into a different language to have better control over the plural versions of these Text Labels.\n\n- We updated the alert that displays after changing the URL of a Post Type when saving the Post Settings in the Admin.\n\n- The miles \"mi\" and kilometers \"km\" text that displays on the search results pages of radius-based location searches are now Text Labels.\n\n- We moved the Membership Plan setting that allows members to receive reviews from the Post Publish tab to the Profile Page tab >> Member Reviews Settings section. Also, we moved the Member Review Post settings from the Edit Post Settings page to the Members >> Member Reviews page in the Admin.\n\n- We fixed an issue which was preventing the system from sending an email notification to the Admin when the \"Admin Email Address\" setting for the form and the \"Website Default Email\" setting in the General Settings are the same.\n\n- We fixed an issue which was preventing link URLs that contained special characters from being saved properly in Froala WYSIWYGs found in the Member Dashboard area. Widget Involved: Bootstrap Theme Framework\n\n- We fixed an issue which was preventing the system from treating Froala WYSIWYGs with the \"froala-editor\" class as Required when they have been set that way in the Form Settings. Widget Involved: Form - Froala Editor Javascript\n\n- We improved the member search results logic in order to return more accurate results when searching for custom data that has special characters.\n\n- We added the \"Icon Picker\" Toolbar feature for Froala WYSIWYGs used in the Admin area. This allows users to add icons when creating / editing web pages and using the Desisgn Settings page in the Admin.\n\n- We created a new Advanced Setting called \"Disable Default CSS Stylesheets\". Enabling this setting will disable the Bootstrap and theme-styles CSS stylesheets that are loaded on every page on the front end of sites by default. We also created a new Web Page setting to disable the CSS stylesheets for individual web pages. Widget Involved: Bootstrap Theme - HEAD\n\n- We added the ability to send a notification email to a member when their post has been approved by the Admin from the Manage Posts page in the Admin.\n\n- We updated the Google Recpatcha field in order to optimize its display on mobile devices. Widget Involved: Bootstrap Theme - Function - Google ReCaptcha on Sign up Page\n\n- We improved the Member Import feature in the Admin to allow the Admin to match the fields in the import file with the corresponding fields in the database and add the ability to create new fields before importing the members.\n\n- We fixed an issue which was affecting the ability to load  the Favorites page in the Member Dashboard area on mobile devices in some cases. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We created a Website Conflict to notify Admins when the HTACCESS file of their site is empty.\n\n- We fixed an issue which was preventing the system from updating the member profile URL after saving the Quick Edit form for the member on the Search Results page in the Admin.\n\n- We released the Personal Post Feed Add-On, click here for more information. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We created two new Design Settings called \"Element Background\" and \"Element Border\" for the About Website and Join Offer homepage sections. Widgets Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We created a new widget called \"Bootstrap Theme - Module - Member Private Chat\" in order to support the Private Chat message Add-On on member profile and post details sidebars.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076721",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076721"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/personal-post-feed"
+    }
+  ],
+  "lastmod": "2021-01-04T22:09:38+05:30",
+  "scraped_at": "2026-10-18T13:47:35.220586"
+}

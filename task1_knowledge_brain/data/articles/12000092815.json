@@ -1,0 +1,23 @@
+{
+  "article_id": "12000092815",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092815-03-17-2023-software-updates",
+  "title": "03/17/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/17/2023 - Software Updates"
+  ],
+  "content": "## 03/17/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000092815\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Social Media Login Add-Ons from respecting the \"Reload Same Web Page After Express Member Registration - Exception List\" Advanced Setting after completing a member sign up in some cases. Widget Involved: Bootstrap Theme - Success Page - Free Member Sign Up\n\n- We fixed an issue which was preventing the Froala WYSIWYG form fields from respecting the \"Min/Max Character\" form field validation setting in some cases.\n\n- We updated the display of content saved in date form fields to support a wider range of years.\n\n- We improved the UI when creating or editing Autosuggest Rules in the Admin to URL-decode all URLs displayed in the tool.\n\n- We fixed an issue which was affecting the display of the member sub-categories dropdown field in the \"Website - Lead Form - Get Matched\" form in some cases. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We fixed an issue which was preventing the system from respecting the \"After Sign Up, Set Account Status As\" Membership Plan Setting for sites using an Off-Site Payment Gateway in some cases.\n\n- We fixed an issue which was preventing content from being saved properly in the Custom Homepage Content Design Settings when saving the Froala WYSIWYG content in \"code view\".\n\n- We updated the Private Member Chat Add-On in order to prevent the chat message font color from changing to white after replying to a chat from the Member Dashboard. Widget Involved: Bootstrap Theme - Custom Appearance Settings",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000092815",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092815"
+    }
+  ],
+  "lastmod": "2023-03-21T19:55:47+05:30",
+  "scraped_at": "2026-10-18T13:50:48.499537"
+}

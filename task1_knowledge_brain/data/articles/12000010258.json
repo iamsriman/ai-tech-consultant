@@ -1,0 +1,97 @@
+{
+  "article_id": "12000010258",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000010258-setting-up-verifone-as-your-payment-gateway",
+  "title": "Setting Up Verifone As Your Payment Gateway",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Setting Up Verifone As Your Payment Gateway"
+  ],
+  "content": "## Setting Up Verifone As Your Payment Gateway\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000010258\n\nFor the best results Stripe is the recommended payment gateway . However, for those who would like to setup 2checkout as their payment gateway, follow the steps below after entering payment gateway credentials . Setup The Instant Notification Settings After logging in to the account, click on the 'Instant Notification' Setting icon on the top navigation: In the Global Settings field, enter the following URL, replacing \" www.domain.com \" with the domain of the website: http:// www.domain.com /checkout/notifications/2checkout For example, if the domain of the website is www.marys-website.com then the following URL must be entered into this field: http:// www.marys-website.com /checkout/notifications/2checkout Click on  \"Apply\"  and  \"Save Settings\" button: Setup The Checkout Options Click  the \"Account\" button in the top navigation area and then the \"Site Management\" button below: Fill out all of the options on this page with the information relevant to the website. In the \"Direct Return\" section of the options, select \"Header Redirect\": Click on the \"Save Changes\" button in the bottom-right portion of the screen to save these settings. After completing this, the 2Checkout account should be all setup to accept payments through Brilliant Directories websites.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12009083297/original/blob1472668766587.png?1472668766",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Verifone As Your Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12005754973/original/blob1464723533146.png?1464723529",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Verifone As Your Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12005754941/original/blob1464723501964.png?1464723498",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Verifone As Your Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12009083334/original/blob1472668839706.png?1472668840",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Verifone As Your Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12005761090/original/blob1464736750676.png?1464736747",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up Verifone As Your Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000010258",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000010258"
+    },
+    {
+      "text": "recommended payment gateway",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843"
+    },
+    {
+      "text": "entering payment gateway credentials",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830"
+    },
+    {
+      "text": "www.domain.com",
+      "url": "http://www.domain.com"
+    },
+    {
+      "text": "www.domain.com",
+      "url": "http://www.domain.com"
+    },
+    {
+      "text": "www.marys-website.com",
+      "url": "http://www.marys-website.com"
+    },
+    {
+      "text": "www.marys-website.com",
+      "url": "http://www.marys-website.com"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/a/tickets/new"
+    }
+  ],
+  "lastmod": "2026-07-15T21:55:03+05:30",
+  "scraped_at": "2026-10-18T13:40:19.639648"
+}

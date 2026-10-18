@@ -1,0 +1,117 @@
+{
+  "article_id": "12000090120",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090120-url-forwarding-or-redirects-using-cloudflare-rules",
+  "title": "URL Forwarding or Redirects using Cloudflare Rules",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "URL Forwarding or Redirects using Cloudflare Rules"
+  ],
+  "content": "## URL Forwarding or Redirects using Cloudflare Rules\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090120\n\nDomain forwarding is a technique for making all of the URLs of a primary domain available from additional domains by redirecting all of the requests made to the additional domains to the same URL on the primary domain. Unlike other techniques such as domain masking, which causes the content of a primary domain appear to also be present on additional domains, domain forwarding redirects all traffic to the primary domain, avoiding duplicate content penalties that can negatively impact the SEO of the primary domain. For example, implementing domain forwarding from olddmain.com to newdomain.com will cause the following URLs:\n\n```\nhttps://www.olddomain.com https://www.olddomain.com/members https://www.olddomain.com/join\n```\n\nTo redirect to:\n\n```\nhttps://www.newdomain.com https://www.newdomain.com/members https://www.newdomain.com/join\n```\n\nOne easy and free way to accomplish this is using Cloudflare's Page Rules tool. For the remaining of this guide, we will refer to the URL that is being redirected as the Old Domain and the destination URL as the New Domain. 1. First, connect the old domain to Cloudflare by following the steps in this guide .\n\n2. Navigate to the Cloudflare account for the domain the URL forwarding is going to be set up.\n\n3. Make sure the old root domain has a valid A Record and create a CNAME record that points the www subdomain to olddomain.com. Also, make sure that these records are listed as \"Proxied\" in the \"Proxy status\" column:\n\n4. Navigate to Rules > Page Rules:\n\n5. Under Page Rules, click \"Create Page Rule\":\n\n6. Enter the old domain, followed by /*. By using the asterisk (/*) character, the rule will impact all URLs of the domain , such as /members, / join , and all others:\n\n7. Select \"Forwarding URL\" from the \"Pick a Setting\" drop-down menu, and choose between \"301 - Permanent Redirect\" or \"302 - Temporary Redirect\".  The vast majority of users will want to select the \"#10 - Permanent Redirect\" option:\n\n8. Enter the destination URL, followed by /$1 . The /$1 is necessary for the new domain to receive the URL that was entered for the old domain. For example, if a user requested olddomain.com/members, they would be redirected to newdomain.com/members .  If the /$1 was not present, olddomain.com/members would simply be redirected to newdomain.com:\n\nIn order to successfully cover both the www version and the non-www version of your Old Domain, please create two separate rules - the WWW version and the non-WWW version. WWW Version:\n\nNON-WWW Version:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115415568/original/dG5vZAHGVROJzGstkb1N8g9s-VUh5BEDbw.png?1664821312",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128257289/original/xddUfvruoot2vPcqS2P__VvXiPsp9XMItQ.jpeg?1689174289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128257304/original/TqWcrDPtwwqLr2SrEeqn4dCI0jk5INrqWQ.png?1689174302",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128257321/original/5-6mQ2sgYwCwMJJ6HEeepI1aeZjGXESEWQ.jpeg?1689174319",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115415954/original/jL-T3Lk_OwXkcojBVw1uUQntj1w1V0a2ZA.png?1664821781",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128257347/original/yZzK7wjSkgaxMhmq4HUmLIDp5TSMydTVJQ.jpeg?1689174337",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128257354/original/vkoAiaNQz_GjUEe6h1tpDcB_-2EsB6CtUA.png?1689174352",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128257370/original/USTOjKPKnBr_OTahIcOQItyqQTazqjo0Pw.png?1689174365",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128257394/original/X_yDt__zeCqmngx9s3n3vk9v0AggrIjdPg.png?1689174380",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'URL Forwarding or Redirects using Cloudflare Rules' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090120",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090120"
+    },
+    {
+      "text": "First, connect the old domain to Cloudflare by following the steps in this guide",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000084176-connecting-site-to-cloudflare"
+    },
+    {
+      "text": "newdomain.com/members",
+      "url": "https://newdomain.com/members"
+    },
+    {
+      "text": "olddomain.com/members",
+      "url": "https://olddomain.com/members"
+    }
+  ],
+  "lastmod": "2026-07-15T03:08:57+05:30",
+  "scraped_at": "2026-10-18T13:50:18.758069"
+}

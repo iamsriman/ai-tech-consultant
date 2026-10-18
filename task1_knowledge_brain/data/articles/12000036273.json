@@ -1,0 +1,307 @@
+{
+  "article_id": "12000036273",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036273-facebook-login-add-on",
+  "title": "Facebook Login Add-On",
+  "category": "Add-On Documentation",
+  "folder": "One-Click Facebook Login",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "One-Click Facebook Login",
+    "Facebook Login Add-On"
+  ],
+  "content": "## Facebook Login Add-On\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000036273\n\nThe One-Click Facebook Login add-on gives users the ability to easily register and login to the website using their existing Facebook account. This seamlessly integrates with the default login and registration system. Existing users can add or remove their linked Facebook account at any time from within their member dashboard on the website.\n\n\n## How To Get This Add-On\n\n\n- Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club\n\n- Purchase Individually: One-Click Facebook Login Add-On\n\n\n## Overview\n\n\nIn this article, we'll go over the process of setting up the One-Click Facebook Login Add-On. By following the outlined instructions, the admin will be able to integrate the Facebook Login Add-On into the platform, allowing users to utilize this login method.\n\n\n## Requirements\n\n\n- SSL Certificate: Facebook requires the website to have an SSL Certificate installed for security precautions.\n\n- Facebook Developer Account: Estimated Setup Time – 5 minutes. Learn More\n\n\n## Configuration Steps\n\n\nBefore the admin is able to use this great tool on the website, first create a Developer's account on Facebook. Please follow these steps in order to continue. Make sure to visit this link to get started:\n\n\n### Create Facebook Developer Account\n\n\nhttps://developers.facebook.com/products/facebook-login/\n\nMake sure to be logged in to a Facebook account, otherwise, it will ask to create an account.\n\nhttps://www.facebook.com\n\nOnce logged in please click on My Apps:\n\nClick On Create App\n\nIn the next pop up, name the app and provide a contact email:\n\nFor Use Cases select: Authenticate and request data from users with Facebook login\n\nSelect the business portfolio you want to connect to this app, if you do not have one to use yet choose I don't want to connect a business portfolio yet. Otherwise, click on \"Create Business Portfolio\" and provide the necessary info:\n\nOnce the portfolio is created, verification will be required. Click on \"Start Verification\" to proceed now, or \"Verify Later\" to take care of it at the end.\n\nCheck both requirements (Business Verification and App Review) by clicking on the hyperlinks:\n\nReview the summary and click on \"Create App\":\n\nAfter the app has been created, it will be redirected to the Dashboard. Click on the Use Cases option:\n\nClick on the CUSTOMIZE button:\n\nSelect \" Quickstart \" and then the \" Web \" option:\n\nEnter the site URL, click on Save , then click on \"Continue\" for the next steps.\n\nNext go to APP SETTINGS > BASIC to add the website's information.\n\nThe App ID and The App secret key are added automatically.\n\nAdd the App Domains that will be using the App ID, website's Privacy Policy URL and T erms of Service URL.\n\nFor the User data deletions select Data deletions callback URL and add the domain /unsync-fb, as shown in the image below and be sure to select the best category that describes the website and click on Save Changes:\n\nScroll down, and make sure to complete the Data Protection Officer Contact Information if it applies to the website and save these changes.\n\nOnce those steps are completed, please go to App Review click on Next .\n\nGo to Use cases page. Look for Authentication and account creation and click on Customize :\n\nConfirm the advanced access for both public_profile and email , if any is missing click on Add. After, Click on \"Ready for Testing\":\n\nOn the Uses Cases page click again on the Go to Settings button:\n\nMake sure to turn on the option to Login with the Javascript SDK , also make sure to  add the domain in the Allowed Domains for the JavaScript SDK field ( very important! ):\n\nSave the changes.\n\nOnce all is ready, you can click on Publish. In the Business verification section, click on Start Verification :\n\nStart the verification process or go back to the dashboard. Go to App Settings - Basic Settings and copy the App ID and App secret key :\n\nPaste the App ID in the Facebook App ID field (1) and the App Secret ID in the Facebook App Secret ID (2) :\n\nNOTE : The Facebook App Secret ID is now required by Facebook for data deletion request callback.\n\n\n## Frontend\n\n\nThe admin also has the option to Enable the Facebook Login per membership plan.\n\nThese next steps are to activate the Facebook Login per plan:\n\n1. Once the setup has been completed, the admin will need to go to Finance - Membership Plans and edit the plan that will have the Facebook Login option enabled:\n\n2. Click on Member's Dashboard Tab and make sure this is set to YES:\n\n3. Make sure to Save.\n\nOnce this is set to Yes the login form will contain this option:\n\nIf it's set to No, they will not have the ability to use the Facebook login but they will be able to use their Facebook account to sign up.\n\nAlso, if there isn't a key in the field, this option will never show up on the login form.\n\n\n## Additional Information\n\n\n» Using Facebook Login",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540714/original/8My69VjG70kFgG3Xm6g6xwXMiWO_96PPIg.png?1784843890",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540815/original/TqwBte2XvJ-9NeCyYpMrnJcgsRkSvd7Pfw.png?1784843979",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540830/original/er_3ff6DETVkTTRPbT8XDyqkj6ebOa_KXw.png?1784844023",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540865/original/OhMz7zuOc6y7ZrXdML61umfvy4f-Gnm-5g.png?1784844084",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182540940/original/yANQK95f8vJnx3mpcGqvT5deupJZmscWBA.png?1784844226",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541063/original/btSoWvgNV-4tLWrRzTrphrTdKVuhekwg0g.png?1784844429",
+      "alt": null,
+      "caption": "Once the portfolio is created, verification will be required. Click on \"Start Verification\" to proceed now, or \"Verify Later\" to take care of it at the end.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'. Context: Once the portfolio is created, verification will be required. Click on \"Start Verification\" to proceed now, or \"Verify Later\" to take care of it at the end.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541123/original/AIfYb8M4lmqsxinqEgZr-sZ5dU65S9B62w.png?1784844563",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541143/original/8Sq_HPdZ4vZdneQNgrUe7H-pH_zFVY8iYw.png?1784844631",
+      "alt": null,
+      "caption": "Review the summary and click on \"Create App\":",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'. Context: Review the summary and click on \"Create App\":",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541197/original/i9Mdz12EktwfDlvXWe5nAQpcwnlk3lCYrA.png?1784844683",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541293/original/hO6IdIkl62WjnMmrNwNipY405DJV7SJrng.png?1784844720",
+      "alt": null,
+      "caption": "Select \"Quickstart\" and then the \"Web\" option:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'. Context: Select \"Quickstart\" and then the \"Web\" option:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541332/original/UJ2j3eTyoBGimXdYABN_7q-RzjY_nitvyg.png?1784844797",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541343/original/JE9LGVODnSSWu2SNvAb1DSN7QR22P-rr2Q.png?1784844826",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541428/original/2GeZmNu0g4IbwGztR3RSOHcmyYTHq0LwBw.png?1784844972",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541612/original/97hOYSrzWfriHrnhq8rmRAOJP3O-o2r4-A.png?1784845312",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541628/original/VRHnY-kQFg6WbTRLoesDSYA63QBD0oZmCQ.png?1784845395",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156213437/original/uEzov5QAgYuolTNcjxvOuhr6TvM7iiyGPg.png?1738251078",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541794/original/yBjSdScbXpEEP3NKPWpGIiZMTdWEWIzpOg.png?1784845599",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541867/original/Tvj05X1VUq7rInHyejXOgV5M8BZPRc7XgA.png?1784845682",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541881/original/t9WAds0arsXuVBnZGYuvVRkegry8OA36ZQ.png?1784845748",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541937/original/ceYb5nj8n0oKxHzsb6cXkovwkrUjfAuxmQ.png?1784845902",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182541992/original/G_FZDrbCFHDReG-Or3CzcKv3W3QlTqvgQQ.png?1784845966",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182542058/original/LGmNEOMZkzM7Pu5XttVZjD143dwZBpHhdA.png?1784846075",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182542265/original/h4o89QyYpMbRPMFNTzliW0Ocxbb0DWz5Og.png?1784846539",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106653838/original/2HZSggzYAbyMENGHSOblY1swW-DDB6SgWA.png?1647969438",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182874798/original/ltZ1L2TpZDkaHlujsD7xMzUWO9jHyf0QfQ.png?1785425661",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103994574/original/DH4VRv-NUbkt-Q0i4EwG45dzy1sw8KOyWQ.png?1642805273",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074119941/original/Q3Or_ajSZSIjYI4T8oTvemnSzMR0ujuggw.png?1582033699",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Facebook Login Add-On' in section 'Add-On Documentation' / 'One-Click Facebook Login'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000036273",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036273"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "One-Click Facebook Login Add-On",
+      "url": "https://www.brilliantdirectories.com/one-click-facebook-login"
+    },
+    {
+      "text": "SSL Certificate",
+      "url": "https://www.brilliantdirectories.com/ssl-secure-website"
+    },
+    {
+      "text": "Learn More",
+      "url": "http://bootstrap.brilliantdirectories.com/solution/articles/12000036273-facebook-login"
+    },
+    {
+      "text": "https://developers.facebook.com/products/facebook-login/",
+      "url": "https://developers.facebook.com/products/facebook-login/"
+    },
+    {
+      "text": "https://www.facebook.com",
+      "url": "https://www.facebook.com"
+    },
+    {
+      "text": "",
+      "url": "https://developers.facebook.com/apps/"
+    },
+    {
+      "text": "data deletion request callback.",
+      "url": "https://developers.facebook.com/docs/development/create-an-app/app-dashboard/data-deletion-callback"
+    },
+    {
+      "text": "» Using Facebook Login",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000069282"
+    }
+  ],
+  "lastmod": "2026-08-28T22:06:18+05:30",
+  "scraped_at": "2026-10-18T13:41:53.260059"
+}

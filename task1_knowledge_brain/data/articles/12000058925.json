@@ -1,0 +1,55 @@
+{
+  "article_id": "12000058925",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058925-unblock-email-address-tool",
+  "title": "Unblock Email Address Tool",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Unblock Email Address Tool"
+  ],
+  "content": "## Unblock Email Address Tool\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000058925\n\n\n## Unblock Email Tool\n\n\nWhen our email system sends emails to an address several times and they bounce back, that email address gets blocked automatically from having emails sent there in the future.\n\nThis is the primary reason people express that they are not receiving notification emails to the Admin email address.\n\nThis is why in the General Settings Tab we added a button to test the Website Default Email address. Check if an Email account is working properly with this tool and if it is blocked by our Email platform unblock it.\n\nClick on the Send Test Email to Ensure Email is Working button and the system will start to verify that this email address is working correctly.\n\nOnce this process is completed it will display the following message:\n\nIf this message appears the email account should now be unblocked and working normally.\n\nIf the following message appears:\n\nThis means that the tool still could not unblock this email address and we will have to proceed with further troubleshooting.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133632892/original/PibEJ1FBENy8yMbVDYfHOkr7CPmLAJ8amg.png?1698866263",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unblock Email Address Tool' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104989494/original/Rgn_PeyGgSemSuxIfrGfABOEmZ30ZLocjA.png?1644788592",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unblock Email Address Tool' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12052968847/original/z5dCqQKeg_7y7-5Ozfwayy4F9Lrh23KGew.png?1562102638",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Unblock Email Address Tool' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000058925",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058925"
+    },
+    {
+      "text": "General Settings Tab",
+      "url": "https://support.brilliantdirectories.com/a/solutions/articles/12000042195"
+    }
+  ],
+  "lastmod": "2023-11-02T00:47:47+05:30",
+  "scraped_at": "2026-10-18T13:45:09.836847"
+}

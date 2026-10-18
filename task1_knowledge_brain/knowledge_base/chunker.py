@@ -23,6 +23,8 @@ class DocumentChunk:
     text: str
     has_screenshot: bool = False
     screenshot_urls: str = ""
+    source_type: str = "help_center"
+    verified_by: str = ""
 
     def to_metadata(self) -> Dict[str, str | int | float | bool]:
         """Returns a flat dictionary strictly compatible with ChromaDB metadata requirements."""
@@ -37,6 +39,8 @@ class DocumentChunk:
             "total_chunks": self.total_chunks,
             "has_screenshot": self.has_screenshot,
             "screenshot_urls": self.screenshot_urls[:500],  # Chroma metadata length safety
+            "source_type": self.source_type,
+            "verified_by": self.verified_by,
         }
 
 

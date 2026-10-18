@@ -1,0 +1,67 @@
+{
+  "article_id": "12000048091",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048091-how-to-add-confidence-boosters-to-checkout-sign-up-pages",
+  "title": "How to Add Confidence Boosters to Checkout Sign Up Pages",
+  "category": "Toolbox",
+  "folder": "Sidebar Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Sidebar Manager",
+    "How to Add Confidence Boosters to Checkout Sign Up Pages"
+  ],
+  "content": "## How to Add Confidence Boosters to Checkout Sign Up Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048091\n\nConfidence boosters help users feel more confident about their purchase in the last few seconds when they might just regret adding their card.\n\nEnsuring the potential client that the website uses secure payment methods to collect from their card and reminding them about features they will get as soon as they join will help prevent the bounce rate at the checkout page and make sure more people complete the cycle of becoming a customer.\n\nIn this article, we provide the code and instructions in order to implement a confidence booster in the checkout pages to increase conversions.\n\nConfidence Booster:\n\n\n## Step 1 - Add the Images\n\n\nDownload the images provided at the end of the article and add them to the image manager.\n\nAdditional Information:\n\n» Content » Media Manager\n\n\n## Step 2 - Create a Custom Widget\n\n\nCreate a custom widget and copy and paste the following code into it:\n\n```\n<div class=\"module\" style=\"background:white;\"> <center><img src=\"/images/secure-checkout.jpg\"></center> </div> <div class=\"module\"> <h4>A COMMUNITY YOU CAN TRUST</h4> <ul style=\"list-style:none;\" class=\"nopad font-lg line-height-xl\"> <li><i class=\"fa fa-check fa-fw text-primary\"></i>Join Thousands of Happy Users</li> <li><i class=\"fa fa-check fa-fw text-primary\"></i>Helpful Videos &amp; Documentation</li> <li><i class=\"fa fa-check fa-fw text-primary\"></i>Hassle-Free – Quick &amp; Easy Setup</li> <li><i class=\"fa fa-check fa-fw text-primary\"></i>Nothing to Install or Download</li> <li><i class=\"fa fa-check fa-fw text-primary\"></i>Top-Rated Help &amp; Support </li> <li><i class=\"fa fa-check fa-fw text-primary\"></i>And So Much More...</li> </ul> </div> <div class=\"module\"> <h4 class=\"nomargin\">EXCEEDING EXPECTATIONS</h4> <div class=\"tmargin line-height-xl\"> <img src=\"/images/testimonial.jpg\" class=\"pull-right img-thumbnail lmargin\"> <span> \"Brilliant Directories far exceeded our initial expectations with so many additional tools, features and ways to generate revenue. We truly couldn't manage our business without them! </span> <p> </p><p> Allison P. - Sydney, Australia </p> </div> <div class=\"clearfix\"></div> </div>\n```\n\nAdditional Information:\n\n» Toolbox » Widget Manager - Read the section of the article titled: \" Creating a New Widget \"\n\n\n## Step 3 - Add the Widget to a Sidebar\n\n\nCreate a custom sidebar and add the custom widget to the sidebar.\n\nAdditional Information:\n\n» Toolbox » Sidebar Manager\n\n\n## Step 4 - Add Sidebar to the Checkout Page\n\n\nAdd the newly created sidebar to the checkout page of the membership plan, to do this go to Finance >> Membership Plans, find the membership plan, and click edit:\n\nFind Sign Up Page Sidebar setting and select the new sidebar created:\n\nAdditional Information:\n\n» How To Edit Checkout Pages",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079649668/original/Hmkv5fGujtp9Scesd0FRPvLRsy5V28KKtA.png?1594131538",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Confidence Boosters to Checkout Sign Up Pages' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088606012/original/-JYBIgRNrGW1nAcJZC7EPgR4c4JzxZqvjw.png?1612907376",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Confidence Boosters to Checkout Sign Up Pages' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088606039/original/4ahtnOKSz7EjVaZBIj1fwnhdZDUuW2iPqA.png?1612907436",
+      "alt": null,
+      "caption": "Find Sign Up Page Sidebar setting and select the new sidebar created:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Confidence Boosters to Checkout Sign Up Pages' in section 'Toolbox' / 'Sidebar Manager'. Context: Find Sign Up Page Sidebar setting and select the new sidebar created:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048091",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048091"
+    },
+    {
+      "text": "Content » Media Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000876"
+    },
+    {
+      "text": "Toolbox » Widget Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000025507"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "How To Edit Checkout Pages",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000078267"
+    }
+  ],
+  "lastmod": "2025-12-24T20:27:33+05:30",
+  "scraped_at": "2026-10-18T13:43:27.584298"
+}

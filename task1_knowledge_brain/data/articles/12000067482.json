@@ -1,0 +1,23 @@
+{
+  "article_id": "12000067482",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067482-02-14-20-software-updates",
+  "title": "02/14/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/14/20 - Software Updates"
+  ],
+  "content": "## 02/14/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000067482\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We further optimized the loading of the View Members page in the Admin when the Multi-Member Manager Add-On is active on a Site.\n\n- We updated the Member CSV Import Tool in order to support a country_name and country_code value both being present when importing members.\n\n- We fixed an issue which was preventing the system from saving the \"Form Settings\" of forms in the Admin in some cases.\n\n- We updated the RSS Feed for Posts Add-On in order to support special characters in content.\n\n- We updated the Form Manager page in order to display the report_post_form form only when the Report This Page Add-On is activated on a site.\n\n- We added a new Admin Role Permission to control whether or not the stats on the top of the Admin Dashboard page should display.\n\n- We updated the design of the \"Lead Details\" page in member accounts. Widget Involved: Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- We deprecated the enable_new_sitemap_generator A dvanced Settings it was no longer being used.\n\n- We updated the text \"Linked Member Feature\" to \"Linked Post Type\" on the Homepage Section Order Options section in the Design Settings page.\n\n- We updated the Member Import Tool to add support for special characters in member import files.\n\n- We deprecated the account_type column on the users_data and list_professions tables in the directory database. Widgets Involved: Bootstrap Theme - Account - Profile Photo Upload Bootstrap Theme - Form - Member Signup Page\n\n- We fixed an issue which was causing the system to display an error message when updating a member's information from the \"Quick Edit\" form found on the Member Account Details page in the Admin.\n\n- We fixed an issue which was preventing the proper SEO information on Post Details pages on the Front-End of sites.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000067482",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067482"
+    }
+  ],
+  "lastmod": "2024-05-09T11:32:49+05:30",
+  "scraped_at": "2026-10-18T13:46:04.215538"
+}

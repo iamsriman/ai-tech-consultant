@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095658",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095658-09-01-2023-software-updates",
+  "title": "09/01/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/01/2023 - Software Updates"
+  ],
+  "content": "## 09/01/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095658\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Froala WYSIWYG from rendering on the frontend of sites after updating the \"Remove Attributes When Pasting Text\" Advanced Setting in some cases.\n\n- We fixed an issue with the Member Image Importer tool which was preventing the system from importing logo images correctly using the \"Select all\" bulk action.\n\n- The \"Listing - Write a Review\" form now supports the \"Redirect to Another Page\" option for the \"What Happens After Form Submitted\" form setting. Widget Involved: Account - Save Actions\n\n- We updated the Newsletter Form validation logic in order to allow the submission of emails with the \"+\" symbol as part of the email address. Widget Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- We added a an option to sort results by newest and oldest on the \"View Unsubscribe List\" page in the Admin. This page also now shows the most recently unsubscribed email addresses first by default.\n\n- We updated the Admin Accounts page in the Admin area to prevent regular Admins from removing Owner Admins from a site.\n\n- We updated the \"Limit Canonical Tags To One Country\" Advanced Setting in order to remove the country from all member search results pages when active. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the system from respecting the login_direct_url URL parameter when added to the verify link in the welcome-basic email template.\n\n- We fixed an issue which was preventing the system from including the members which have the \"Max. Sub-Level Categories Member Can Select\" Membership Plan setting set to \"all\" in the total count value for each Member Category on the Member Categories page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095658",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095658"
+    }
+  ],
+  "lastmod": "2023-09-05T00:56:31+05:30",
+  "scraped_at": "2026-10-18T13:52:40.838179"
+}

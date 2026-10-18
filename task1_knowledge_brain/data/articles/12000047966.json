@@ -1,0 +1,23 @@
+{
+  "article_id": "12000047966",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047966-08-03-18-software-updates",
+  "title": "08/03/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/03/18 - Software Updates"
+  ],
+  "content": "## 08/03/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000047966\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- Now the Top, Sub and Sub-sub Category dropdowns in the lead match form will be sorted alphabetically by default. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We fixed the issue which was preventing the display of values selected in custom Checkbox Fields added to forms.\n\n- We deprecated the \"Match Leads\" link of the Actions box in the Search Members page on the Admin Area, as this was part of the legacy Lead system.\n\n- We added the ability for an Admin to designate the URL they want the claim listing link on profile pages to link to on a per-Product basis.  This allows a site to have multiple different Claim Listing Products for different types of users that require different product description pages.  In order to use this new feature navigate to Admin >> Finance >> Products >> Edit >> Pricing Tab. This new feature require the purchased of the Claimable Business Listings Add-On.\n\n- We fixed an issue which was affecting the normal functionality of the Sub Sub Sidebar Search widgets. Widgets Involved: Bootstrap Theme - Search Module - Sub + Sub-Sub Bootstrap Theme - Search Module - Sub_Sub_Sub_Location\n\n- We fixed the issue which was causing Static Pages to load widgets on the page 3 times in some cases.\n\n- Now when an Admin logs in to a Member's account from the Admin Area, the system will redirect the Members to the /account/home instead of /account/account/home.\n\n- We fixed an issue which was affecting the Invoice Tax customization applied to some sites when a Member purchases a lead. Widget Involved: Bootstrap Theme - Account - Leads Details Page - Purchase Button\n\n- Radio Button Fields in the Admin will now be displayed side by side instead of stacked one on top of the other.\n\n- We fixed an issue which was causing the price of a lead to change during purchase for some currencies.\n\n- The Downloadable PDF Invoices Add-On has been released.\n\n- We added URL validation in order to prevent duplicate URLs from being created across different types of features of a site.  Now the following sections of the Admin cannot save a URL for one feature when it has already been saved for another: Add/Edit Web Pages, Post Settings, Member Categories.\n\n- We fixed an issue which was affecting the normal behavior of the Detect Visitor Location Add-On causing the Location Fields to be erroneously filled as Antarctica in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue that was causing members who request to delete their account from the Member Dashboard to be shown a blank screen after making the request. Widgets Involved: Bootstrap Theme - Account - Delete Account Bootstrap Theme - Function - API\n\n- We fixed an issue which was preventing the End Subscription button on the Member Details Page in the Admin Area from functioning properly in some cases.\n\n- The Member Categories page in the Admin Area has been fully refactored and the UI has been updated.  We improved the search and filter capabilities as well no longer requiring a page refresh when saving changes.\n\n- The Website Currency Setting and the Feature Currency Setting have now been unified into a single Website Currency setting on the Settings >> General Settings >> Configuration tab.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000047966",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047966"
+    }
+  ],
+  "lastmod": "2018-08-04T03:48:50+05:30",
+  "scraped_at": "2026-10-18T13:43:26.674319"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000105318",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105318-07-11-2025-software-updates",
+  "title": "07/11/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/11/2025 - Software Updates"
+  ],
+  "content": "## 07/11/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105318\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Deprecated the Bootstrap Theme - Module - Member Twitter Feed widget due to Twitter / X not currently supporting the functionality.\n\n- Updated the Schema Markup for Event Posts to use the meta description as a fallback when no post description is available for a post. Widget Involved: Bootstrap Theme - Detail Page - Schema Markup - Event Post Type\n\n- The Business Data import functionality now respects the \"Enable Profile Photo Upload\" Membership Plan setting when importing members. Member images will no longer be imported if a member is imported into a Membership Plan that does not allow uploading profile images.\n\n- Fixed an issue that prevented the Multi-Photo Post Type search results from displaying the correct sort options title after performing a category search in some cases. Widget Involved: Search - Group - Search Query\n\n- Emails sent using the \"Send Test Email\" feature on the Send Newsletter page will now be recorded in the Email Outbox.\n\n- Fixed an issue that prevented the \"Order Results By\" Post Type Setting from working properly when automatching leads to members when the members are set to display in a Random order.\n\n- Updated internal HTTP requests to specify a custom User-Agent to better identify their source. Widgets Involved: Bootstrap Theme - Account - Manage Digital Products System - Froala Upload Read Images\n\n- Fixed an issue that prevented the leads logic from matching direct leads with members when submitted on member profile pages in some cases. Widget Involved: System - SaveForm",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105318",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105318"
+    }
+  ],
+  "lastmod": "2025-07-14T22:06:23+05:30",
+  "scraped_at": "2026-10-18T13:56:22.102274"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108142",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108142-04-03-2026-software-updates",
+  "title": "04/03/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/03/2026 - Software Updates"
+  ],
+  "content": "## 04/03/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108142\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a new self-service Website Dashboard tool for website management, allowing the transfer of Business Data credits and VIP Add-Ons between websites, as well as viewing resource limits directly from the Website Dashboard page in the Admin.\n\n- Fixed an issue that caused email previews to display differently from actual sent emails in the Admin Panel due to additional styling being loaded in the preview window.\n\n- Fixed an issue that prevented the \"Actions\" dropdown menu from displaying correctly on the Payment History table on the Billing page in the Member Dashboard. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Fixed an issue that caused the bookmark counter number to be invisible when a listing was bookmarked by a member in some cases. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Fixed an issue that prevented photos from displaying in photo album search results on mobile devices. Widget Involved: Bootstrap Theme - Single Post Page\n\n- Fixed an issue that prevented changes from being applied to a customized post type form when the form name variable was modified on the Form Manager page in the Admin.\n\n- Fixed an issue that caused the system to duplicate the website email signature when sending emails from the Admin in some cases.\n\n- Fixed an issue that prevented YouTube Shorts videos from displaying on video post detail pages. Widget Involved: Bootstrap Theme - Single Post Page\n\n- Updated the Profile Logo upload workflow to support configurable aspect ratios. Members now see the cropping tool when uploading a logo in the Member Dashboard, and Admins can choose between an open ratio and fixed options such as 1:1 and 3:4 for Logos in the Image Settings. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- Added accessibility labels to the \"Add to Favorites\" button across the website for improved screen reader compatibility. Widget Involved: Bootstrap Theme - Display - Add To Favorites Button\n\n- Fixed an issue that caused the page to jump to the top when clicking \"Load More\" on search results in both list and grid views.\n\n- Fixed an issue that caused the country name to display on the search results page when the \"Only Search within Primary Country\" setting was enabled.\n\n- Fixed an issue that caused the Froala WYSIWYG toolbar to scroll out of view when editing content in Design Settings pop-ups in the Admin Panel.\n\n- Fixed an issue that caused the Recent Member Articles widgets to display articles with a publish date set in the future. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Articles with Sidebar\n\n- Fixed an issue that caused the system to create incorrect URL redirects when a member profile did not have a profile filename saved.\n\n- Fixed an issue that displayed an incorrect error message when searching for members with no matching results in the Admin.\n\n- Fixed an issue that caused the Google Auto-Detect Location feature to reload slowly on Android devices in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that caused JavaScript errors when connecting a custom domain to a website in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108142",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108142"
+    }
+  ],
+  "lastmod": "2026-04-07T06:18:53+05:30",
+  "scraped_at": "2026-10-18T13:58:43.592844"
+}

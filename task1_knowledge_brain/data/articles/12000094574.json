@@ -1,0 +1,27 @@
+{
+  "article_id": "12000094574",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094574-06-23-2023-software-updates",
+  "title": "06/23/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/23/2023 - Software Updates"
+  ],
+  "content": "## 06/23/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000094574\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We removed the lead_price variable from the Brilliant Directories Zapier App as changing the value of this variable does not currently have an impact on leads.\n\n- We fixed an issue which was preventing the Recent Members homepage widget from returning results when the \"Only Show Members with Photo\" setting was active in some cases. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We updated the Font Picker Selector fields on the Design Settings page in the Admin to have all of the most recently added Google Fonts.\n\n- We fixed an issue which was preventing the system from returning accurate location search results for members when the \"Strict Country & State Match\" search setting was disabled on the site in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was preventing the Admin Bar from displaying in the frontend on sites using Cloudfare in some cases.\n\n- We updated the Google Analytics integration to use Google Analytics 4 IDs. Click here for more information. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the \"Full Screen Page Width\" Page Setting from working properly when using the Events Calendar widget on the homepage in some cases. Widget Involved: Bootstrap Theme - Homepage\n\n- We updated the Froala WYSIWYG code to the latest version currently available (4.0.19).\n\n- We implemented an update in order to hide the member phone number on member search results pages when the Members Only Content Add-On is active and the logged in member has a status different than \"active\". Post Type Involved: Member Listings",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000094574",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094574"
+    },
+    {
+      "text": "here",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682660"
+    }
+  ],
+  "lastmod": "2023-06-27T00:37:36+05:30",
+  "scraped_at": "2026-10-18T13:52:24.473234"
+}

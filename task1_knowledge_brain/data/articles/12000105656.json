@@ -1,0 +1,23 @@
+{
+  "article_id": "12000105656",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105656-08-08-2025-software-updates",
+  "title": "08/08/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/08/2025 - Software Updates"
+  ],
+  "content": "## 08/08/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105656\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the \" Featured Blog Articles Slider Hover/Active Background Color\" Design Setting from working properly in some contexts on the frontend. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Updated the help text description for form fields when creating Menus in the Admin.\n\n- Released a set of minor fixes for the new Universal Search in the Admin.\n\n- Fixed an issue that prevented the \"Respect Membership Plan Search Priority?\" Post type Setting from working properly on Event Search Results when the Auto-Recurring Events Add-On was active. Widget Involved: Search - Post - Search Query\n\n- Implemented performance optimizations and bug fixes for the Import Business Data tool in Admin.\n\n- Fixed an issue that prevented the Advanced Setting keyword search from returning accurate results in some cases.\n\n- Updated the \"Clone Account\" feature on the Search Members page in the Admin to also clone member profile images along with the member's data.\n\n- Added a \"Create\" dropdown in the Admin to quickly create members, posts, subscriptions and coupon codes from any page in the Admin area.\n\n- Created a new Design Setting for the Website Announcement Message Add-On called \"Show Close Button\". When enabled, site visitors can close the announcement message on the frontend.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105656",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105656"
+    }
+  ],
+  "lastmod": "2025-08-11T20:47:53+05:30",
+  "scraped_at": "2026-10-18T13:56:27.574694"
+}

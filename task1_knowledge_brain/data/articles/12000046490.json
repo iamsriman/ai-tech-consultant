@@ -1,0 +1,27 @@
+{
+  "article_id": "12000046490",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046490-06-22-18-software-updates",
+  "title": "06/22/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/22/18 - Software Updates"
+  ],
+  "content": "## 06/22/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046490\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added a new text label for the Lead Form. Text label name: member_lead_form_send_message Widget Involved: Bootstrap Theme - Module - Member Contact Form\n\n- We fixed an issue that was causing the billing cycle of new paid members to be \"Semiannually\".\n\n- We added support for placeholder text for the Select Dropdown field type in the Form Builder.\n\n- Now Admins have the ability to delete Subscriptions and Invoices from the Transaction History page in the Admin. In order to use this new feature, navigate to Admin >> Finance >> Transaction History >> Actions. The options to Delete Subscription and Delete Invoice are now available.\n\n- We fixed an issue with the Member Upgrade module that was causing the Product a member upgraded from to not be cancelled in some cases.\n\n- We fixed an issue that was causing duplicate results on Search Results pages using the Insta-Load Search Results Add-On.\n\n- We updated the Text Label for the County location Type in the Multi-Location Listing Add-On. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We added the ability to render Menus using a shortcode like is available for Forms and Widgets. E.g: [menu=pricing_menu]\n\n- We updated the pop-up actions in the Admin. Now all Admin pages are using the most recent version of the Fancybox library, fixing conflicts with some browser extensions and providing a more unified user interface.\n\n- We added Consent Management (GDPR) support for the Lead, Contact Us, and Newsletter forms. Click here for more information. Widgets Involved: Bootstrap Theme - Function - Save Form Bootstrap Theme - Module - Newsletter Actions\n\n- We updated the Admin Signature field on the Admin Account Page to use the Froala Editor instead of TinyMCE (deprecated).\n\n- We fixed an issue with the URL handling of the Image Import Tool in some cases.\n\n- The Post Settings code boxes now have the ability to render Widgets, Menus, and Forms using shortcodes. EG: [widget=My Custom Widget].\n\n- We made a Security Update to one of the core files that loads every time a frontend page of a website is requested\n\n- We added functionality to automatically terminate all Products and cancel all unpaid and past-due invoices when a member clicks the \"Close my Account\" button in the Member Dashboard. Also, we added the same functionality when an Admin deletes a member from the Admin are.\n\n- We fixed an issue that was affecting Member Profile Pages on sites that are running legacy versions of the software.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046490",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046490"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000042446-europe-s-general-data-protection-regulation-gdpr-compliance"
+    }
+  ],
+  "lastmod": "2018-06-23T07:20:42+05:30",
+  "scraped_at": "2026-10-18T13:43:01.339839"
+}

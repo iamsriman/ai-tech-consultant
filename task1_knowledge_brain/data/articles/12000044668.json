@@ -1,0 +1,27 @@
+{
+  "article_id": "12000044668",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044668-05-18-18-software-updates",
+  "title": "05/18/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/18/18 - Software Updates"
+  ],
+  "content": "## 05/18/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000044668\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added the ability to change the About / Join links of the About Website and Join Offer widgets through the Design Settings of the Admin area. In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Homepage Layout Tab. Widget Involved: Bootstrap Theme - Display - About Website and Join Offer\n\n- We fixed an issue which was causing that members located in Greece to not appear on the Locations page of sites. Widget Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- The Google Translate Add-On is now fully controlled by the new Add-On Manager. Widget Involved: Bootstrap Theme - Header - Right\n\n- We implemented small changes to the Member Search Permissions in the Edit Product section of the Admin. Widgets Involved: Search - Member - Search Query Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Homepage Featured Members\n\n- We fixed an issue which was affecting the normal behavior of the Click-to-Call Add-On on member profile pages.\n\n- We added the ability for coupon codes made in the Easy Coupon Codes Add-On to be used for upgrades as well as for new signups.  We also added the ability to restrict coupon codes to specific products and also choose which codes apply to new sign ups or upgrades.  For more information click here . Widgets Involved: Bootstrap Theme - Account - Upgrade Page 1 Bootstrap Theme - Form - Membership Payment Options\n\n- We added a new Design Setting to control the border-radius CSS value through the Admin Panel (round vs square corners for design elements). In order to use this new feature, navigate to the Admin >> Settings >> Design Settings >> Additional Design Settings area. Widgets Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Autosuggest Javascript Generator\n\n- We fixed an issue which was affecting the normal behavior of the Member Categories page in the Admin area.\n\n- We fixed a design issue which was affecting the Transaction History page when a site Administrator uses the Add Credit Card functionality for a member.\n\n- We added the ability to generate a new password for site Administrators through the Admin Account Page.  Also we added an additional security feature which requires all Administrator usernames to be formatted as an email address and be unique.\n\n- We fixed an issue which was preventing the Recent Articles with Sidebar homepage widget from displaying without a sidebar. Widget Involved: Bootstrap Theme - Display - Recent Articles with Sidebar\n\n- We updated the design of the Theme Preview tab in the Design Settings page on the Admin area.\n\n- We updated the Sorting functionality of the Member Search Results page when a radius-based location search was performed and a user chooses to sort the results by name. Widget Involved: Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000044668",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044668"
+    },
+    {
+      "text": "here",
+      "url": "https://support.brilliantdirectories.com/solution/articles/12000032881-coupon-codes-everything-you-need-to-know"
+    }
+  ],
+  "lastmod": "2018-05-19T02:15:55+05:30",
+  "scraped_at": "2026-10-18T13:42:41.142194"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000038122",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000038122-12-01-17-software-updates",
+  "title": "12/01/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/01/17 - Software Updates"
+  ],
+  "content": "## 12/01/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000038122\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We updated the lead form in order to be based on the new Add-On Manager. Widgets Involved: Bootstrap - Contact Member Category Dropdowns Bootstrap - Contact Member Lead Map\n\n- We made a few security enhancements to the Widget Library page in the Admin.\n\n- We improved the Website Timezone Field in the General Settings page of the Admin to make sure the timezone selected is accurate in all cases.\n\n- We fixed an issue that was affecting the Year Established field in the Listing Details form in the Member Dashboard. Now this will be displayed only when a member selects an option from the Dropdown field, and will no longer save \"0\" by default. This update will be available for all new sites.  If you are having this issue on your already-launched site, please contact Support and request that this update be installed..\n\n- We made an improvement to the \"Send Newsletter\" section in the Admin.  Now the Contact Tag section will only display options that already have contacts available.\n\n- We made several security enhancements to the Form Manager page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000038122",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000038122"
+    },
+    {
+      "text": "Support",
+      "url": "http://bootstrap.brilliantdirectories.com/support/tickets/new"
+    }
+  ],
+  "lastmod": "2017-12-02T01:25:01+05:30",
+  "scraped_at": "2026-10-18T13:42:04.710932"
+}

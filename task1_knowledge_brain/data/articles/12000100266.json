@@ -1,0 +1,175 @@
+{
+  "article_id": "12000100266",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100266-member-tags-tag-groups",
+  "title": "Member Tags & Tag Groups",
+  "category": "My Members",
+  "folder": "Smart List",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Smart List",
+    "Member Tags & Tag Groups"
+  ],
+  "content": "## Member Tags & Tag Groups\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100266\n\nMember Tags are designed to give the website owner more control over member management. With Member Tags, it is possible to add specific tags to members, making it easier than ever to organize and categorize them according to unique criteria.\n\n\n## Key Features\n\n\n- Customizable Tags: Create and assign tags to members based on attributes, behaviors, interests, or any custom parameters.\n\n- Smartlists Creation: Group members with similar tags to form dynamic smartlists, allowing for targeted communication and streamlined management.\n\n- Enhanced Control: Easily filter, search, and manage members by tags, ensuring quick access to update member information as needed.\n\n- Improved Engagement: Tailor interactions and marketing efforts by targeting specific groups, improving engagement and satisfaction.\n\n\n## How to Add Member Tags & Tag Groups\n\n\n- Go to My Members\n\n- Click on Smart Lists & Tags\n\n- Move to the Member Tags tab\n\n- Click on the \"New Member Tag +\" button\n\nA pop up will show to enter the Tag name and select a Tag Group.\n\n- Enter a Tag name\n\n- Select a Tag Group\n\n- Click on \"Yes, Continue\" to add the tag\n\n\n### Actions\n\n\nOnce the Tag has been created, it can be deleted or edited. Hover over the Actions button to delete the tag:\n\n\n### Edit\n\n\nClick on Edit to change the name or reassign to a different Tag Group:\n\n\n## Finding the Member Tag ID\n\n\nTo locate the Member Tag ID , navigate to the Member Tags section in the admin panel. Each tag will be listed along with its corresponding ID number, which can be used for filtering and automation.\n\n\n## Tag Groups\n\n\nBy default, all websites include a default tag group named Custom Tags . This core group cannot be edited or deleted. . However, additional Tag Groups can be added for more granular control.\n\nTo add a Tag Group, follow these steps:\n\n- Go to My Members .\n\n- Click on Smart Lists & Member Tags\n\n- Move to the Tag Groups tab and click on \"New Tag Group +\"\n\n\n### Actions\n\n\nTo delete a Tag Group hover over the \"Actions\" button and click on \"Delete\":\n\nA pop up will show when deleting a tag group to delete all associated tags or reassign them to a new tag group:\n\n\n### Edit Tag Group\n\n\nIt is also possible to edit the tag group and change the name:\n\n\n## How to Add/Remove Tags\n\n\nMember tags can be removed or added individually or through bulk actions.\n\n\n### Bulk Assign/Remove Member tags\n\n\n- Go to My Members.\n\n- Click on Search Members.\n\n- Use any of the available options to filter the results: My Members » Search Members Overview\n\n- Choose the Add/Remove Tags option from the Bulk Actions For Search Members Section\n\nAdd or remove a tag:\n\nSelect one or more tags to add/remove:\n\n\n### Assign/Remove Tags to Individual Members\n\n\n- Go to My Members.\n\n- Click on Search Members.\n\n- Use the Quick Edit Module For Members option and select the tag(s) to be added or removed\n\n\n### Assign Tags to Member Imports\n\n\nIt is possible to assign a spepreventsag to each member import; this helps segmenting lists, prevent duplicates and allows the admin to organize each import into specific groups.\n\nSteps to assign tags during data ingestion can be found in the How To Import Members Via CSV File guide.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878025/original/N2taEO4AZ7hP9lv7f6v4ZNiI3arppSbkOw.png?1761971827",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878103/original/U56xjKfHJFfFZHai_pGhN4Hh9pjBdJp7Dw.png?1761973023",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878106/original/YsSJxWdxLSwnSPE29Mxezb7m5venx3S45g.png?1761973065",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878116/original/MrJnbJUiZLu0_pLVkJ9BUxOq3L_vBH9uUA.png?1761973176",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878117/original/QJsispL1iNGbYZFlP6utjfFrhxTzFeSr9A.png?1761973187",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878145/original/xyqSnmnHSxcLlRqj9XeLVlC9DpdrUa2mag.png?1761973257",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878168/original/pkAL8163TSY9LGz8cZ8bHHiL3nFrNGqpCg.png?1761973425",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878176/original/v8YtVfikYvIrPcovHo0NtMbfHVosf2p4yg.png?1761973455",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878183/original/ndbd_pF7bPIb04xUMgbAKXFBlmtGYzjVeQ.png?1761973497",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878192/original/RAdUh6QrEgQP0UjGq8e1N0BoFpWggiqueQ.png?1761973530",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169878194/original/nnrJfgLWm25rHMUVER2Lz1vfyQV_eU9wrQ.png?1761973573",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144651932/original/-SHa1BGVylB0gRzESNXgf8d0-7cjPIybzw.png?1718117908",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144652369/original/f21-sXFwHCeaU5PhRfzWMMB5XwDBFul4KQ.png?1718118182",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144652587/original/Bo_XZuoKPE3GpjSeFRMg1mt8xJt0cwdmjg.png?1718118296",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144652762/original/fpmYrZRUSE9apr5gZf5QiDoD8jE3s8TjSw.png?1718118417",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Tags & Tag Groups' in section 'My Members' / 'Smart List'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100266",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100266"
+    },
+    {
+      "text": "My Members » Search Members Overview",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000045147"
+    },
+    {
+      "text": "Bulk Actions For Search Members Section",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078616"
+    },
+    {
+      "text": "Quick Edit Module For Members",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "How To Import Members Via CSV File",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000558475"
+    }
+  ],
+  "lastmod": "2026-06-15T23:57:37+05:30",
+  "scraped_at": "2026-10-18T13:54:21.129666"
+}

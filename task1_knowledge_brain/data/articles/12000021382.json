@@ -1,0 +1,82 @@
+{
+  "article_id": "12000021382",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021382-bulk-delete-or-move-all-members-from-a-specific-membership-plan",
+  "title": "Bulk Delete Or Move All Members From A Specific Membership Plan",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Bulk Delete Or Move All Members From A Specific Membership Plan"
+  ],
+  "content": "## Bulk Delete Or Move All Members From A Specific Membership Plan\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000021382\n\nThis article explains how to delete all members from a membership plan or move them to another membership plan. This is a great feature, especially when importing members. It is best practice to import new members into a dedicated, empty membership plan. This ensures that if any issues arise during the import process, the batch can be safely bulk-deleted without affecting existing users. Once the data is verified, these members can easily be transferred to their active membership plans. Deleting Members To delete all members from a specific membership plan, please follow these instructions: Go to Finance » Membership Plans. Click \"Actions\" and select \"Delete\": Select one of the following options: - Only delete members from this membership plan. - Delete membership plan and all its members. Click \"Yes, Continue\". All members in that membership plan will be deleted. Moving Members To move members from one membership plan to another, please follow these instructions: Go to Finance » Membership Plans. Click o \"Actions\" and select \"Move Members\": Select the membership plan to which the members will be moved and click \"Continue\": Click \"Yes, Continue\": This action moves all members to the new membership plan. However, it is important to note that the system does not automatically create new subscriptions as part of this process. To assign different subscriptions under the new plan, the existing subscriptions must be canceled before new subscriptions are created manually. The steps for creating new subscriptions are outlined in this guide.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181398417/original/l9mCoQC0Qe1Li9rYIQtGk9WQ7k0tWDmvPQ.png?1783006186",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Delete Or Move All Members From A Specific Membership Plan' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154507134/original/sZbkaTuGxybci-5aHfD7iBJpFAntGHoIrg.png?1735229443",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Delete Or Move All Members From A Specific Membership Plan' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092390517/original/s0Tq2rKxGVykZXqgpemD7mJv-HPC1lQHng.png?1620595117",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Delete Or Move All Members From A Specific Membership Plan' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181398625/original/cvyCaaZU0LZrCr1YHo3t_5EfZtBOnyPyWQ.png?1783006385",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Delete Or Move All Members From A Specific Membership Plan' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154516553/original/ZDtE8lx3kPITp3IOJdqwEGHrSve5ncJkYw.jpeg?1735241042",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Delete Or Move All Members From A Specific Membership Plan' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092390539/original/6a-0F8tzJgli8w4FAz_1IJ2vDDLs8QhZpA.png?1620595262",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Delete Or Move All Members From A Specific Membership Plan' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000021382",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021382"
+    },
+    {
+      "text": "The steps for creating new subscriptions are outlined in this guide.",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008873-how-to-manually-bill-a-member-create-a-subscription-for-a-member"
+    }
+  ],
+  "lastmod": "2026-07-02T21:06:10+05:30",
+  "scraped_at": "2026-10-18T13:40:47.037752"
+}

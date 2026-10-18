@@ -1,0 +1,23 @@
+{
+  "article_id": "12000090541",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090541-10-28-22-software-updates",
+  "title": "10/28/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/28/22 - Software Updates"
+  ],
+  "content": "## 10/28/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090541\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Member Import feature to assign the Listing Type selected in the \"Pre-select Listing Type\" Membership Plan setting when there is no listing_type specified for a member in a CSV member import file.\n\n- The Predictive Keyword Search Add-On is now compatible with the \"Post Keyword Search Options\" Post Type setting.\n\n- We fixed an issue which was preventing some lead information from being sent in emails using the \"Resend Email\" option when manually matching leads in the Admin in some cases.\n\n- We fixed an issue with the Tax & VAT Manager Add-On which was preventing the system from displaying the tax data on invoices after using a coupon code in some cases.\n\n- We added Tiktok, Snapchat and Whatsapp as Social Media settings in the General Settings of the Admin. Widget Involved: Bootstrap Theme - Social Media Links\n\n- We added \"account\" as a reserved word when generating setting URLs for pages and other content.\n\n- We updated the Froala WYSIWYG on the frontend of sites to support adding an \"ID\" to header elements (H1 ,H2, etc) when right-clicked on in the editor.\n\n- We updated the logic of the \"Www or Non-www\" Advanced setting in order to automatically update the HTACCESS File after updating the value of the setting.\n\n- The Revenue column data on the Search Members page in the Admin is now compatible with Admin Roles.\n\n- We fixed an issue which was affecting the ability to search for members using keywords that contain apostrophes.\n\n- We fixed an issue with the Quick Edit Member form which was causing the system to add backslashes after saving quotes or double quotes.\n\n- We fixed an issue which was causing the Private Member Chat Add-On from to get stuck on the \"Processing\" message after sending a chat message from the Member Dashboard in some cases.\n\n- We fixed an issue which was causing the system to display the name of the member who was viewing another member's profile page instead of the correct member's name in the heading text of the \"About\" Me\" section in some cases. Widget Involved: Bootstrap Theme - Account - Checklist Wizard Bootstrap Theme - Account - Sidebar",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090541",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090541"
+    }
+  ],
+  "lastmod": "2022-11-01T00:26:53+05:30",
+  "scraped_at": "2026-10-18T13:50:22.828473"
+}

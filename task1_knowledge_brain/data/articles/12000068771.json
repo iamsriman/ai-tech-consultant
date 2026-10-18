@@ -1,0 +1,23 @@
+{
+  "article_id": "12000068771",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068771-03-20-20-software-updates",
+  "title": "03/20/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/20/20 - Software Updates"
+  ],
+  "content": "## 03/20/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000068771\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue when searching for posts by keyword when the \"Post Keyword Search Option\"s setting is set to \"Search All Post Data \" in some cases.\n\n- We fixed an issue which was causing the events calendar to not show events on the correct date due to a difference between the user's timezone and the timezone set for the site.. Widget Involved: Bootstrap Theme - Function - Events Calendar JSON Array\n\n- We added the \"Daily Income\" and \"Year to Date Income\" reports to the Income Reports section on the Transaction History page in the Admin.\n\n- We fixed an issue which was preventing the Search Results URL of Membership Plans from resolving properly on sites running PHP 7.\n\n- We fixed an issue which was causing a conflict between the data entered for as a Static Page for a member search results page and the SEO Template created for the member search results page.\n\n- We fixed an issue with the One-Click Social Login Add-On which was causing required fields on the paid signup form to be bypassed if the social login modal is canceled. Widget Involved: Bootstrap Theme - Display - Email Action Create Paid\n\n- We updated the \"Front-End Display\" setting on the \"Member Categories\" page in the Admin to impact the display order of Top and Sub Categories across all search modules and the Dynamic Category Filter Add-On.\n\n- We added a Free Trial Message at the top of the Admin in order to display a message that will inform the Admins of the site when the Free Trial is coming to an end.\n\n- We updated the Detect Visitor Location Add-On so that it will now prompt the user that the website would like to use their location after clicking on a new icon in the location search fields on a site instead of prompting them immediately once the website loads. Widgets Involved: Bootstrap Theme - Footer - Scripts Bootstrap Theme - Function - Google Location Suggest\n\n- We updated the Price Slider field present in some post search modules in order to hide it when the Price Slider Min and Price Slider Max settings are both set it to \"0\" on the Edit Post Type page in the Admin.  We also added support for Price Slider settings in cloned Post Types. Widgets Involved: Bootstrap Theme - Homepage Search - Classifieds Search Bootstrap Theme - Homepage Search - Jobs Search Bootstrap Theme - Homepage Search - Products Search Bootstrap Theme - Homepage Search - Property Search Bootstrap Theme - Module - Classifieds Search Bootstrap Theme - Module - Jobs Search Bootstrap Theme - Module - Products Search Bootstrap Theme - Module - Property Search\n\n- We added the \"Line-Height\" option to the Froala WYSYWYG in the Admin.\n\n- We added the ability to search by date range on the Activity Tracker page in the Admin.\n\n- We fixed an issue which was preventing the SSL Add-On from installing completely when initiated from the Admin in some cases.\n\n- We fixed an issue which was preventing members from being able to accept or delete reviews in the Member Dashboard area in some cases. Widgets Involved: Bootstrap Theme - Account - Reviews Bootstrap Theme - Account - Reviews Details Page\n\n- We created a new Integration Setting in order to enable/disable email notifications when a member receives a chat message through the Private Member Chat Add-On.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000068771",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068771"
+    }
+  ],
+  "lastmod": "2020-03-21T03:24:13+05:30",
+  "scraped_at": "2026-10-18T13:46:15.510989"
+}

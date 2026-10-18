@@ -1,0 +1,185 @@
+{
+  "article_id": "12000046936",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046936-account-details-section-for-members",
+  "title": "Account Details Section For Members",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "Account Details Section For Members"
+  ],
+  "content": "## Account Details Section For Members\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046936\n\nNavigation Path:\n\nAdmin Dashboard » My Members » Search Members » Actions Dropdown » Account Details\n\nThe Account Details section provides a comprehensive administrative view of an individual member record. It is organized into seven tabs, each covering a distinct area of member data.\n\nThe seven tabs are:\n\n- Overview\n\n- Transactions\n\n- Subscriptions\n\n- Profile Analytics\n\n- Member Content\n\n- Activity\n\n- Member Reviews\n\n\n## Overview\n\n\nThe Overview tab presents a consolidated summary of the selected member's core account information, organized into the following sections:\n\n- Contact Information — Displays the member's name, email address, phone number, and address details.\n\n- Membership Information — Displays the member's assigned plan, account status, join date, and related account-level settings.\n\n- Lead Activity Stats — Displays an at-a-glance summary of lead-related activity associated with the member's profile.\n\n- Internal Admin Notes — Displays any notes entered for this member via the Internal Admin Notes field in the Quick Edit Module . These notes are visible only to administrators and are not displayed to the member or site visitors.\n\n⚠ NOTE — Overview Is Read-Only: No fields in the Overview tab are editable from this view. To modify contact or account information, use the Quick Edit module or the member's full Edit Profile section.\n\n\n## Transactions\n\n\nThe Transactions tab displays the complete payment and transaction history for the selected member. The layout and data format mirrors the global Transaction History view found under Finance , but is filtered to show records belonging to the selected member only.\n\nThe CC Info button allows the administrator to view and edit the credit card information on file for the selected member.\n\nReference: CC Info\n\nThe New Order button allows the administrator to create a new order for the selected member directly from within the Transactions tab.\n\n⚠ BEHAVIORAL NOTE — Button Availability Is Conditional: The New Order button is only displayed when no active subscription exists for the member. When an active subscription is present, the transaction history is displayed without the New Order button. If a member's subscription has lapsed or was never created, the New Order button will appear in its place, allowing the administrator to initiate a new subscription for that member.\n\n\n## Subscriptions\n\n\nThe Subscriptions tab displays the complete subscription history for the selected member, including the active subscription record, billing cycle, next invoice date, and any coupon code applied at the time of signup (if applicable).\n\nSelecting a coupon code displayed in this tab opens the coupon's configuration details.\n\nThe following subscription management actions are available via the Actions dropdown within this tab:\n\nAction Description Edit Subscription Allows modification of the member's active subscription settings. Cancel Subscription Initiates the cancellation of the member's active subscription.\n\nReferences: Edit Subscription · Cancel Subscription\n\n⚠ NOTE — Cancellation Date Display: When a subscription is cancelled, the Next Invoice Date field in the subscription record is replaced by the cancellation date. This is the system's indicator that no further billing cycles are scheduled for that subscription.\n\n\n## Profile Analytics\n\n\nThe Profile Analytics tab displays page visit statistics for the selected member's public profile, including visit counts broken down by month, year, and total cumulative visits.\n\n⚠ ADD-ON REQUIRED — Member Profile Analytics: This tab is only visible when both of the following conditions are met:\n\n- The Member Profile Analytics add-on is active on the site.\n\n- The \"Enable Profile Statistics\" setting is enabled within the member's assigned Membership Plan settings.\n\nIf either condition is not met, the Profile Analytics tab will not appear in the Account Details section for that member.\n\n\n## Member Content\n\n\nThe Member Content tab displays all posts created by the selected member, including content that has not yet been published. The layout and available actions mirror the global Manage Posts view found under My Content , but is filtered to show only posts belonging to the selected member.\n\n⚠ NOTE — Unpublished Content Is Visible Here: This tab surfaces all content records for the member regardless of publication status. Unpublished, draft, and pending posts are displayed alongside published content. This is the recommended view for auditing a specific member's full content output\n\n\n## Activity\n\n\nThe Activity tab displays a chronological log of all recorded activity events for the selected member. The layout mirrors the global Activity Tracker found under Dashboard , but is scoped entirely to the selected member's account.\n\nActivity records logged in this tab may include login events, profile updates, content submissions, and other system-tracked interactions associated with the member.\n\n\n## Member Reviews\n\n\nThe Member Reviews tab displays all reviews that have been submitted by site users for the selected member's profile. The layout mirrors the global Member Reviews view found under My Members , but is filtered to show only reviews associated with the selected member.\n\n⚠ NOTE — Review Management: Reviews can be moderated from this tab in the same manner as the global Member Reviews section. Any moderation actions taken here apply only to reviews associated with the selected member.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181026536/original/Vt4DEkR4cTSn48WKzGWUCW_51fTg2xAWbA.png?1782399211",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125655851/original/z2M9IFWWVRQg594eLgbpFF0f2B7V5c0hXQ.png?1684427890",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125655835/original/9FqB-NGn7YCfw_c6BweMLxuBRj4DEw_8Jg.png?1684427869",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091351387/original/x1q-rXEDKVXDwl9ZVkyIo-XtEy2Syr-x8A.png?1618431152",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104131968/original/vc2coHNq6Pg2K0D3UcJCfWqIjg5Kl0hOlA.png?1643127647",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104132036/original/IfwEZmJnPTjZA_qR2YvHooxPtUhPNQvDLw.png?1643127745",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104139059/original/v3uEH3goZDDfKIosnd1LsNcshG9VL0fXIw.png?1643135247",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105087394/original/Di_DhZjSj_ZdXPfGZDET8NFurtqEfrgTcw.png?1644944245",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092764166/original/gDpSrw8vP31M6ixquQozweloR8gTvTrV7A.png?1621298724",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092764258/original/IeaROAHp2rpjM1lhntqGq2sRrV5LiL6FyA.png?1621298896",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091351766/original/JZcJfd_PvmZbL8XniVrnj1RBTn9L52D3ag.png?1618431811",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091351845/original/Z4NcFZlgLybkd5RAuV8cuZ8PiU-v9y7JQQ.png?1618431966",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091351958/original/MRfh2ut3JTAuhswsflTX36Zi0ghBgowJ9Q.png?1618432131",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Details Section For Members' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046936",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046936"
+    },
+    {
+      "text": "Quick Edit Module",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "Transaction History",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046232"
+    },
+    {
+      "text": "CC Info",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000011521"
+    },
+    {
+      "text": "Edit Subscription",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069505"
+    },
+    {
+      "text": "Cancel Subscription",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728"
+    },
+    {
+      "text": "Member Profile Analytics",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000619186"
+    },
+    {
+      "text": "Manage Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035550"
+    },
+    {
+      "text": "Activity Tracker",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030831"
+    },
+    {
+      "text": "Member Reviews",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046951"
+    },
+    {
+      "text": "",
+      "url": "https://trello.com/c/mkpoMlkb/11093-project-subscriptions-tab-add-when-the-subscription-was-cancelled-notify#:~:text=%22HERE%22%20link%3A-,Loading...,-Thank%20you!"
+    },
+    {
+      "text": "",
+      "url": "https://trello.com/c/mkpoMlkb/11093-project-subscriptions-tab-add-when-the-subscription-was-cancelled-notify#:~:text=%22HERE%22%20link%3A-,Loading...,-Thank%20you!"
+    }
+  ],
+  "lastmod": "2026-06-25T20:23:40+05:30",
+  "scraped_at": "2026-10-18T13:43:09.536817"
+}

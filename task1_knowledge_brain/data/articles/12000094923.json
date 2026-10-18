@@ -1,0 +1,23 @@
+{
+  "article_id": "12000094923",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094923-07-14-2023-software-updates",
+  "title": "07/14/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/14/2023 - Software Updates"
+  ],
+  "content": "## 07/14/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000094923\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the Froala Pre-Made Elements to show in the footer of the site when visiting the Private Member Chat Add-On page in the Member Dashboard in some cases. Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue which was preventing the homepage \"recent reviews\" content section from respecting the \"Full Screen Page Width\" Web Page Setting. Widget Involved: Bootstrap Theme - Display - Recent Reviews\n\n- The \"Recent Article with Sidebar\" and \"Blog Articles with Sidebar\" widgets are now compatible with the \"Hide Sidebar On Mobile?\" and the \"Hide Entire Section On Mobile?\" Design Settings. To use these new features, navigate to the Admin >> Settings >> Design Settings >> Homepage Tab >> Select Content to Display >> Edit Settings. Widgets Involved: Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles with Sidebar\n\n- We created a new Design Setting called \"Location Icon\". This setting will allow Admins to change the icon that displays in location search fields when the Detect Visitor Location is active on a site. Widget Involved: Bootstrap Theme - Footer - Scripts - Input Clear Content Scripts\n\n- The actions of marking an invoice as \"Paid\" or \"Unpaid\" in the Admin are now recorded in the Activity Tracker.\n\n- We updated the workflow of collecting payments from the Past Due tab on the Transaction History page in the Admin. The system will now apply member credits first before collecting any payments due for \"past due\" invoices in the Admin.\n\n- We fixed an issue which was preventing the system from displaying the \"Serves this Area\" text for members on location search results pages when the type of location that was searched for is set to be \"Bounds\" in the Advanced Settings of the site.\n\n- We updated the logic of the member category dropdowns in the \"Website - Lead Form - Get Matched\" form to display the \"No Options Available\" text for the Sub and Sub-Sub Level Category dropdown fields if there are no categories of that type available to be selected. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- The Member Limit module in the Admin Dashboard is now compatible with whitelabeling the Admin.\n\n- We fixed an issue with the Member Profile Analytics Add-On which was preventing the system from correctly tracking member lead form submissions on profile pages in some cases. Widget Involved: Bootstrap Theme - Display - Contact Form Thank You Message\n\n- We fixed an issue which was preventing the ChatGPT Content Creator Add-On settings from working as expected in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000094923",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094923"
+    }
+  ],
+  "lastmod": "2023-08-17T04:05:49+05:30",
+  "scraped_at": "2026-10-18T13:52:30.049722"
+}

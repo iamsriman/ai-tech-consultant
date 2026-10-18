@@ -1,0 +1,23 @@
+{
+  "article_id": "12000073391",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073391-08-14-20-software-updates",
+  "title": "08/14/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/14/20 - Software Updates"
+  ],
+  "content": "## 08/14/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000073391\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from displaying the Front-End Admin Bar after clicking on the \"Visit My Website\" link from the Admin Menu.\n\n- We fixed an issue which was causing the system to display \"unpaid\" non-subscription invoices on the Billing Details page in the Member Dashboard.\n\n- We fixed an issue with paying invoices from the Billing Details page in the Member Dashboard when using Paypal Website Payments Pro as the Payment Gateway.\n\n- We fixed an issue which was causing the system to return inaccurate member results when searching for members in individual countries in the United Kingdom in some cases. Widget Involved: Search - Member - Search Query\n\n- We updated the Predictive Keyword Search Add-On in order to make it compatible with the search_results_require_complete_profile A dvanced Setting.\n\n- We fixed a display issue which was causing the \"Crop & Upload\" button on the Member Profile Images page in the Member Dashboard to be partially hidden on mobile devices in some cases. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was preventing the system from displaying the Hero Section Settings, Display Settings, SEO Meta Tags and Social Media Share Details sections in the sidebar when editing or creating a Web Page in the Admin in some cases.\n\n- We fixed an issue which was preventing Admins from creating additional folders using the Media Manager tool in the Admin.\n\n- We updated the design of the Permalink Input field in the Edit Web Page area of the Admin.\n\n- When using the \"forgot password\" workflow for Admin accounts, the system will now first make sure the email address for the account is not blocked from receiving emails before sending.\n\n- We fixed an issue with the Member Import feature which was causing the system to import members to incorrect categories in some cases.\n\n- We fixed an issue which was causing the system to delete claim listing members when signing up for a paid Membership Plan failed.\n\n- We updated the Stripe Payment Gateway integration to reduce unnecessary payment intents / authorizations from being created when members make purchases in the Member Dashboard.\n\n- We updated the Sidebar Manager to now support Custom Sidebars as well as Default Sidebars, much like the Widget Manager and Form Manager.\n\n- We added the ability to clone multi-image posts in the Member Dashboard area. Widget Involved: Bootstrap Theme - Account - Feature Header Bootstrap Theme - Account - Photo Albums datatable\n\n- We added the ability to use decimal values when setting prices for the Pay Per Post Add-On. Also, we created a new General Setting called \"Website Currency Number Format\" in order to specify the desired format to display currencies. In order to use this new feature, navigate to the Admin >> Settings >> General Settings >> Configuration tab.\n\n- We updated the Stripe Payment Gateway logic in order to force the credit card input fields to always use the HTTPS protocol in the Admin, even when an SSL Certificate is not installed on the site.\n\n- We updated the Import Member page in order to make it compatible with the admin_account_view Advanced Setting.\n\n- We fixed an issue which was preventing users from deleting individual images from a multi-image post in the Member Dashboard area in some cases. Widget Involved: Bootstrap Theme - Account - Photo Albums Upload Form",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000073391",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073391"
+    }
+  ],
+  "lastmod": "2020-08-15T03:12:08+05:30",
+  "scraped_at": "2026-10-18T13:47:00.225265"
+}

@@ -1,0 +1,82 @@
+{
+  "article_id": "12000099435",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099435-post-types-api-how-to-edit-post-types-data-with-api-calls",
+  "title": "Post Types API - How to Edit Post Types Data with API Calls",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "Post Types API - How to Edit Post Types Data with API Calls"
+  ],
+  "content": "## Post Types API - How to Edit Post Types Data with API Calls\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099435\n\nUsing the API there are 5 Post Type actions that can be achieved:\n\n- GET - /api/v2/data_categories/get/{data_id}\n\n- POST - /api/v2/data_categories/create\n\n- POST - /api/v2/data_categories/custom_fields\n\n- PUT - /api/v2/data_categories/update\n\n- DELETE - /api/v2/data_categories/delete\n\nWe will break down these actions and explain how to achieve an end results with each one. The examples shown in this article are completed using https://www.postman.com/\n\nFor all actions, add the API Key to the Headers:\n\n1. GET - /api/v2/data_categories/get/{data_id}\n\nRead the data of a single Post Type based on the Data ID.\n\n- Choose GET as the method\n\n- Replace the {{api_url}} for the website url\n\n- Replace the {id} with the actual post type ID\n\nUsing this action is simple, add the url above but replace {id} with the actual post type ID. This will fetch the post types information from the website.\n\n2. POST - /api/v2/data_categories/create Add a Post Type to the database.\n\n- Choose POST as the method\n\n- In the Body select x-www-form-urlencoded\n\n- Enter data\n\n3. POST - /api/v2/data_categories/custom_fields\n\nGet all fields available for the Post Type.\n\n- Choose POST as the method.\n\n- In the Body select x-www-form-urlencoded\n\n- Then add the data_id of the Post Type\n\n4. PUT - /api/v2/data_categories/update\n\nUpdate a Post Type record and their related data from the database.\n\n- Choose PUT as the method\n\n- In the Body select x-www-form-urlencoded\n\n- Then add the new data for the Post Type\n\n5. DELETE - /api/v2/data_categories/delete\n\nUse this action URL to delete a Post Type, replace {id} with the Post Type ID that will be removed from the website.\n\n- Choose DELETE as the method\n\n- Replace the {id} with the data_id that will be deleted\n\n- In the Params add the data_id to delete",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12141952643/original/zaBiJELGN3zBwk_XnGxttAEw0PEM5Mx_UA.png?1713458135",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Types API - How to Edit Post Types Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12142167610/original/GJklGXt8w6JCigS2q8SAZyGS4O4n8zROxQ.png?1713885298",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Types API - How to Edit Post Types Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12142172139/original/wl0cssU-toaKdfTqJesZ5VupguHSvv1KKA.png?1713889273",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Types API - How to Edit Post Types Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12142172756/original/fD0IFA43U4pBdMWmS5pKZQSjbsWy5-KBKA.png?1713889771",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Types API - How to Edit Post Types Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12142173253/original/sb-h4BE8igihgJNCxG-liVsqG7hdQceWgQ.png?1713890289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Types API - How to Edit Post Types Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12142173472/original/eZdUVhBYo6Jm3BuHOkrzZCabWhmCixrgzg.png?1713890449",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Post Types API - How to Edit Post Types Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099435",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099435"
+    },
+    {
+      "text": "https://www.postman.com/",
+      "url": "https://www.postman.com/"
+    }
+  ],
+  "lastmod": "2024-04-23T22:13:50+05:30",
+  "scraped_at": "2026-10-18T13:53:51.497717"
+}

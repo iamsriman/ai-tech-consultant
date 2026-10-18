@@ -1,0 +1,23 @@
+{
+  "article_id": "12000098982",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098982-03-22-2024-software-updates",
+  "title": "03/22/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/22/2024 - Software Updates"
+  ],
+  "content": "## 03/22/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098982\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We released an update in order to add the ability for Admins to purchase, increase and auto-install Website Boost Add-Ons (Bandwidth, Disk Space, and Member Limits) from the Admin.\n\n- We created a new Advanced Setting called \"Show Chatbot in the Admin\". This setting controls how the Brilliant Directories Helpbot displays in the Admin of a site.\n\n- We deprecated the an older Beta Chatbot which was displaying in the Admin of some sites.\n\n- We fixed an issue which was affecting the ability to bulk match members with leads from the Match Leads page in the Admin.\n\n- We updated the Brilliant Directories API in order to support \"YYYYMMDDHHmmss\" and \"YYYYMMDD\" date formats when creating Event Posts via API.\n\n- We fixed an issue which was preventing the system from returning accurate results on member search result pages when the \"Require Complete Profiles\" setting was active in some cases.\n\n- We fixed an issue with the Member Import logic which was preventing the system from auto-importing member cover images in some cases.\n\n- We fixed an issue which was causing the system to overwrite the value of the \"review_added\" variable when trying to create a review for a member via the API.\n\n- We fixed an issue which was causing the Search Member page in the Admin to not load completely after performing a search using the \"Find Duplicates\" search filter in some cases.\n\n- We fixed an issue with the member Webhooks which was preventing the system from sending the Member's Category information to the webhook endpoint in some cases.\n\n- We fixed an issue which was preventing the system from returning accurate member search results when the \"Strict City Match\" setting was active in some cases. Widgets Involved: Bootstrap - Contact Member Lead Map Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098982",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098982"
+    }
+  ],
+  "lastmod": "2024-03-25T23:43:15+05:30",
+  "scraped_at": "2026-10-18T13:53:44.754532"
+}

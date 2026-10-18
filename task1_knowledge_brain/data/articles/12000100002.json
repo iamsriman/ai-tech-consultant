@@ -1,0 +1,27 @@
+{
+  "article_id": "12000100002",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100002-05-24-2024-software-update",
+  "title": "05/24/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/24/2024 - Software Update"
+  ],
+  "content": "## 05/24/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100002\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Admin Roles logic from working as expected in some cases.\n\n- We made several small bug fixes and improvements to the new Send Newsletter functionality in the Admin.\n\n- We updated the Manage Posts page in the Admin to show a confirmation modal when a post is set to be Published by an Admin but doing so would cause the member to surpass the Max. Free Post limit set in their Membership Plan settings.\n\n- We created two new Homepage Design Settings called \"Display Star Rating\" and \"Only Display Members with Star Ratings?\" for the Recent and Featured Member widgets used on the homepage. The \"Display Star Rating\" setting will control whether or not a member's review Star Rating will display on the homepage widgets. The \"Only Display Member with Star Ratings?\" setting will require members to have a review score in order for them to display in the widget. Widgets Involved: Bootstrap Theme - Display - Recent Members Bootstrap Theme - Function - Overall Member Rating\n\n- The emails sent by the system after submitting the Contact Us form is now compatible with the \"Website 'From' Email Address\" Setting.\n\n- We created a new Advanced Setting called \"Website Homepage URL\". This setting controls the URL of the homepage of the website (/home by default).\n\n- We fixed an issue which was affecting the ability to search by keywords on the Match Leads page in the Admin. We also updated the category dropdowns on the Match Leads page to make them keyword-searchable dropdown. Widget Involved: Search - Member - Search Query Get Match Lead Search Ui\n\n- We fixed an issue which was preventing the Search Members page in the Admin from returning accurate results after performing a search using the \"Complete Profile\" option in combination with the Location field in some cases.\n\n- We fixed an issue which was preventing the Member Search Results page on the frontend from returning accurate results when using the \"Dynamic Category Filtering\" Add-On while the \"Dynamic Category Filter - Broad Match\" Advanced Setting was deactivated in some cases. Widget Involved: Search - Member - Search Query\n\n- We updated the Sell Digital Products & Services Add-On to add the ability to support recurring subscriptions and donation payments in addition to the one-time and free payments. Click here for more information. Widget Involved: Bootstrap Theme - Account - Manage Digital Products",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100002",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100002"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000057707-sell-digital-products-services"
+    }
+  ],
+  "lastmod": "2024-05-28T20:37:40+05:30",
+  "scraped_at": "2026-10-18T13:54:04.134973"
+}

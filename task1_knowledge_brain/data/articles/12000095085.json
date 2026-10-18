@@ -1,0 +1,100 @@
+{
+  "article_id": "12000095085",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095085-creating-content-using-rss-feed-and-zapier",
+  "title": "Creating Content Using RSS Feed and Zapier",
+  "category": "Developer Hub",
+  "folder": "No-Code API Workflows (Zapier, Pabbly & Others)",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "No-Code API Workflows (Zapier, Pabbly & Others)",
+    "Creating Content Using RSS Feed and Zapier"
+  ],
+  "content": "## Creating Content Using RSS Feed and Zapier\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095085\n\nZapier is a powerful automation tool that allows owners to connect various apps and services to automate tasks and processes. In this article, we'll provide the steps to create content using Zapier and an RSS feed. This method is useful for automatically populating the website with fresh content from external sources, making the content more dynamic and engaging.\n\n1. Setting up the RSS Feed\n\nBefore we begin, ensure that there is an RSS feed URL from a trusted source that may want to used to import content. Many websites and blogs have RSS feeds, which contain the latest posts and updates.\n\n2. Create/Login to a Zapier account and create a new Zap\n\nIf there's not a Zapier account already, head over to the Zapier website and sign up for a free or premium account. Once logged into Zapier, click on the \"Make a Zap\" button to create a new automation workflow.\n\n3. Set up the Trigger\n\nFor the trigger app, search and select \"RSS by Zapier\". Under the trigger event, choose \"New Item in Feed\" to indicate that's what is going to trigger the automation each time a new blog is added to the RSS feed.\n\n4. Connect the RSS Feed\n\nNext, connect the RSS feed by providing the URL to be used. Zapier will fetch the latest items from the feed to set up the trigger. In this example, we will be using CNN's world news RSS feed but feel free to use one of the choices:\n\nhttp://rss.cnn.com/rss/edition_world.rss\n\n5. Test the Trigger\n\nOnce the RSS feed is connected, Zapier will fetch a sample blog post from the feed to ensure the trigger is working correctly. Verify the test data and continue to the next step.\n\n6. Set Up the Action\n\nNow it's time to specify what action will occur when a new blog post is detected in the RSS feed. Search and select \"Brilliant Directories\" as the action app. Choose \"Create Post\" to tell Zapier that's going to create a new blog post on the site but feel free to choose any other feature available on the website.\n\n7. Connect the Brilliant Directories Account\n\nTo proceed, provide the necessary credentials to enable Zapier to access the account.\n\n8. Configure the Blog Post Details\n\nNow, it's time to map the data from the RSS feed to the corresponding fields in Brilliant Directories. Select the appropriate fields for the following post details as they are important in order to create the post:\n\n- Post Title\n\n- Post Type\n\n- Post Content\n\n- Post Author\n\n- Post Publish Date\n\nThe rest of the fields are optional!\n\n9. Test the Action\n\nZapier will perfomr a test run to ensure that the data from the RSS feed is correctly mapped to the Brilliant Directories fields. Review the test results to make sure everything is working as expected.\n\nIf done correctly, the content will show up in Manage Post within the admin area:\n\n10. Enable the Zap and sit back and Enjoy!\n\nOnce satisfied with the results, it's time to enable the Zap! Please give it a name and turn it on to start the automation. The Zap will be live and whenever a new blog post is added to the RSS feed, Zapier will automatically create a corresponding post on the Brilliant Directories website. This process will save time and effort, keeping the website content up-to-date without manual intervention.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181294652/original/Z2FPcitNMsRwMOaZuzbQh1_hkMRmuiDFsg.png?1782857790",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Creating Content Using RSS Feed and Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181294700/original/IsSfcZqcsz9O0OlagliskUZZP4342yUG0g.png?1782857929",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Creating Content Using RSS Feed and Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181294791/original/loUyqfJpicJViKyI-jqCsifO9IW7T5psYQ.png?1782858029",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Creating Content Using RSS Feed and Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181294826/original/ikyb3xNrczL3vYqb2JXnrEjjhEMjoVjANA.png?1782858089",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Creating Content Using RSS Feed and Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181294883/original/JJsDkDaCl3GxCBJ8PqMSVn-ZkcgGwkmeQg.png?1782858246",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Creating Content Using RSS Feed and Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181294901/original/327b3Pvbr_7SuvqtGzoRMRaWJpsMwf_VEA.png?1782858321",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Creating Content Using RSS Feed and Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181294905/original/CPPWVL3moCXBa0_sv7G383H6BHg9DZTNtw.png?1782858353",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Creating Content Using RSS Feed and Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128949451/original/tDB843RjZUJyC3J2-Q25XgM252JjgVxBPA.png?1690387017",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Creating Content Using RSS Feed and Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095085",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095085"
+    },
+    {
+      "text": "http://rss.cnn.com/rss/edition_world.rss",
+      "url": "http://rss.cnn.com/rss/edition_world.rss"
+    }
+  ],
+  "lastmod": "2026-07-01T03:56:13+05:30",
+  "scraped_at": "2026-10-18T13:52:31.871034"
+}

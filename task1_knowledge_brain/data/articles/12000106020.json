@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106020",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106020-09-12-2025-software-updates",
+  "title": "09/12/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/12/2025 - Software Updates"
+  ],
+  "content": "## 09/12/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106020\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the automated Billing Emails from being sent as expected in some cases.\n\n- Fixed an issue that prevented the Search Members page from loading after clicking a Smart Lists link in the Admin in some cases.\n\n- Fixed an issue with the \"Migrate City - Zip Code Service Areas\" Installer not completing in some cases.\n\n- Fixed an issue that prevented the Events Search Results page from returning accurate results after performing a date range search in some cases. Widget Involved: Search - Post - Search Query\n\n- Fixed an issue that caused members scheduled for cancellation to still be charged on their close date in some cases.\n\n- Fixed an issue that caused the system to redirect to a 404 error when visiting the /about/contact page if the \"Member Dashboard URL: Contact Details Form\" setting was customized.\n\n- Fixed an issue that caused the system to hide member profile page content when the website is using Razor Pay as the Payment Gateway in some cases.\n\n- Fixed an issue that prevented the Website Announcement Bar Add-On from displaying properly on mobile devices when the Main Menu is disabled.\n\n- Deprecated the \"Alternate Title for Comment Section\" Post Type setting on the Edit Post Page in the Admin. Widgets Involved: Bootstrap Theme - Photo Album Page Bootstrap Theme - Single Post Page\n\n- Updated the Coupon Codes functionality to respect the website timezone when validating coupon codes with expiration dates on the frontend. Widget Involved: Bootstrap Theme - Function - Form Promotion Code Validation\n\n- Updated the layout of the Resources Module on the Dashboard page in the Admin.\n\n- Improved the Local Business schema markup on the frontend. Widget Involved: Bootstrap Theme - Member Profile - Display Member Address\n\n- Improved the website accesibility scores on third party tools like PageSpeed Insights. Widget Involved: Bootstrap Theme - Member Results\n\n- Fixed an issue that prevented the One-Time Purchase Webhook from receiving the full data when triggered after purchasing a lead in the Member Dashboard.\n\n- Updated the Google Maps Autosuggest logic to improve the accuracy of location searches on the frontend of sites. Widget Involved: Bootstrap Theme - Function - Google Location Suggest",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106020",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106020"
+    }
+  ],
+  "lastmod": "2025-09-20T06:46:12+05:30",
+  "scraped_at": "2026-10-18T13:56:38.817706"
+}

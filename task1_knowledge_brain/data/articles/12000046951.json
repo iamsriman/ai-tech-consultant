@@ -1,0 +1,396 @@
+{
+  "article_id": "12000046951",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046951-interactions-member-reviews",
+  "title": "Interactions » Member Reviews",
+  "category": "Interactions",
+  "folder": "Member Reviews",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Reviews",
+    "Interactions » Member Reviews"
+  ],
+  "content": "## Interactions » Member Reviews\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046951\n\n\n## Member Reviews in the Admin\n\n\nThe Member Reviews module allows administrators to manage reviews submitted through the website. From this section, reviews can be filtered, moderated, edited, and deleted, while also providing access to review settings and notification preferences.\n\n\n### Review Filters\n\n\nUse the available filters to quickly locate and manage reviews.\n\n• Review Status – Filter reviews by their current status.\n\n• Overall Rating – Filter reviews based on star ratings.\n\n• Date Range – Filter reviews by submission date.\n\n• Keyword – Search reviews containing specific words or phrases.\n\n• Email Address – Search by the review submitter's email address or the member who received the review.\n\n\n### Bulk Review Options\n\n\nMultiple reviews can be selected and updated at the same time. Available statuses include:\n\n- Pending\n\n- Accepted\n\n- Declined\n\n- Waiting for Admin\n\n\n### Review Status Database Values\n\n\nFor Developers: The corresponding values below are how review statuses are saved in the database.\n\n- Pending = 0\n\n- Accepted = 2\n\n- Declined = 3\n\n- Waiting for Admin = 4\n\n\n## Member Review Settings\n\n\nA shortcut to the Review Settings module is available from the Member Reviews page. This module includes settings related to:\n\n- General review settings\n\n- Profile page display\n\n- Search results design\n\n- Notification preferences\n\nThis button will open the review settings module, which is very similar to the Post Settings section of the admin.\n\nAn in-depth overview of this module can be reviewed at the following link: Edit Post Settings\n\n\n### General Settings\n\n\nHere are the general settings for the post type, allowing the admin to configure and customize the reviews.\n\n\n### 1. Protect this Post Type?\n\n\nThis option will only become available if the Members-Only Content add on is active on the site.\n\n\n### 2. URL Permalink\n\n\nIf desired, update the URL of the post type search results.\n\n\n### 3. Make 'Email' and 'Name' Fields Readonly\n\n\nWhen a member writes or replies to another member's review, the system automatically fills in the name, last name, company and email fields. These fields are set to “read-only” by default.\n\nTo make the fields editable, change the setting to \"No\"\n\n\n### Additional Settings\n\n\nThis section includes additional settings such as Display Map When Entering Location Information, Enable Results for Global Website Search and Trigger Webhook for Initial Save or Every Save\n\n\n### 4 . Type of Post\n\n\nThis will display the post type.\n\n\n### 5. Enable Results for Global Website Search\n\n\nAllow the reviews to be part of the Global Website Search, Add-on is required.\n\n\n### 6. Trigger Webhook for Initial Save or Every Save?\n\n\nSet when a Webhook will be triggered when a review is submitted.\n\n\n### Profile Page Design\n\n\nMove to this tab to set up the information regarding how the reviews will be displayed on the member public profile.\n\n\n### 1. Profile Page Tab Title\n\n\nChange the title that will be displayed on the front-end tab.\n\n\n### 2. Profile Page Tab Order\n\n\nChoose the position of the profile page tab by selecting a number from the dropdown. Each position will show the name of the selected post type. All positions with no post type assigned are available to choose from.\n\n\n### 3. Number of Posts Displayed in Tab\n\n\nSet the number of reviews to be displayed in the member's profile.\n\n\n### 4. Profile Page Code\n\n\nThe header, page loop, and footer codes of the Profile Page design can be edited. However, we do not recommend changing these options unless it's handled by a developer or someone with knowledge of web development. If desired, after updating the code, it can be switched back to default. Click on this article for more information: How to Customize the Default Post Types Code\n\n\n### Search Results Design\n\n\nEdit and set up the search results settings for reviews in this section.\n\n\n### 1. Search Results Page Title - H1\n\n\nEdit the text for the post type title.\n\n\n### 2. Search Results Page Sub-Title - H2\n\n\nIf desired, add a subtitle.\n\n\n### 3. Search Results per Page\n\n\nThis controls how many total results will appear on a search results page by default.\n\n\n### 4. Search Results Code\n\n\nThe option to edit the header, loop, and footer codes of the search results design is available as well.\n\n\n### Additional Settings\n\n\nDifferent options will become available when clicking on the dropdown.\n\n\n### 1. Pagination Display Options\n\n\nSelect how pagination is displayed on search result pages, either standard, hidden pagination, or Insta-Load pagination using the Add-On.\n\n\n### 2. Order Results By\n\n\nIt controls the display order of items based on a database field. Please find more information on How To Change Search Results Sorting Options here.\n\n\n### 3. Enable Search Results Cache\n\n\nSet to YES (recommended) to cache search results and load subsequent matching search results more quickly.\n\nSet to NO to always query the database for all searches.\n\nNote: This cannot be enabled if \"Order Results By\" is set to \"Random\".\n\n\n### 4. Respect Membership Plan Search Priority?\n\n\nMembership Plan Search Results Priority can be set up in the Search Visibility tab on each plan.\n\n\n### 5. Sidebar To Use\n\n\nName of the Sidebar that will be displayed on the search result pages, either custom or default.\n\n\n### 6. Sidebar Search Module\n\n\nChoose which search widget you would like to display in the sidebar of search results for this post type. This will only work if in the Sidebar Manager the sidebar has the Bootstrap Theme - Search Module - Dynamic Sidebar Search widget. This widget loads the search widget specified on each post type.\n\n7. Sidebar Position on Mobile Devices\n\nChoose to display the sidebar below (Bottom), above (Top) the results on search results pages, or hide it only on mobile devices (phones and tablets).\n\n\n### 8. Display Google Map Option on Search Results Pages\n\n\nSelecting \"Yes\" will display a map icon at the top of search results pages. Clicking on this icon will display the search results as pins on a Google Map.\n\n\n### 9. Start Results View In\n\n\nChoose either list view, map view, or grid view if you have the Grid View Search Results Add-On.\n\n\n### 10. Display Expired Posts in Search Results\n\n\nIf YES, will display expired posts on search results pages.\n\n\n### Notifications\n\n\nThe main difference from other post type settings is the Notifications tab, where it is possible to enable or disable the following email notifications:\n\n\n### Admin Notifications\n\n\nNotify Admin when review submitted?\n\nWhen enabled it will send the admin-review-notification Email Template to the Default Website Email address when a review is submitted.\n\nNotify the Admin that a review has been responded to?\n\nWhen enabled, send out a notification to the Admin that a review has been responded to.\n\n\n### Member Notifications\n\n\nNotify Member when they receive a review?: Turning on this setting will send the recommendation-member Email Template to the member's email address when they receive a review. Please note this does not apply if admin needs to manually approve review.\n\n\n### Submitter Notifications\n\n\nNotify the submitter of a review that it has been received?: Sends the recommendation-visitor Email Template to the submitter of a review after it has been received.\n\nNotify the submitter of a review that it has been approved?: Sends the recommendation-accepted Email Template to the submitter of a review after it has been published.\n\nNotify the submitter of a review that it has been responded to?: Sends the recommendation-submitter-replied Email Template to the submitter of a review after it has received a reply from the member.\n\n\n## Review Module\n\n\n- Review ID.\n\n- Actions drop-down. ( Explained below )\n\n- Date the review was submitted.\n\n- IP Address of the review submitter. It can be blocked if it ends up being a SPAM submission.\n\n- Quick Edit options for the member:\n\n\n## Actions\n\n\nThis section will allow the admin edit or delete the review submitted:\n\n- Edit review: While we do not recommend editing reviews, the option is there for all directory owners to control what gets published on the website.\n\n- Delete review: One can quickly delete any undesired review on the website.\n\n\n## Review Details\n\n\nThe last section of this module includes the details of the review:\n\nThis would include:\n\n- Status\n\n- Rating Overview\n\n- Title\n\n- Full review\n\n- Name of the review submitter\n\n- Email of the review submitter\n\nFrom here the status of the review can be changed manually:\n\nIf the status is changed manually, 4 new options will show up:\n\n- Do not send email notifications\n\n- Email Member about this update\n\n- Email Reviewer about this update\n\n- Email Member and Reviewer about this update\n\n\n## Member Reviews on the Profiles\n\n\nMembers can leave reviews on profiles by clicking the “ Write a Review ” button. This feature allows users to share their experiences and feedback directly on the member’s profile. It will display within their profile and search results page.\n\n\n### Leaving a Review\n\n\nTo leave a review, visitors can visit the member's profile and click on the \"Write a Review\" button.\n\nWhich will open up the Reviews form:\n\n\n### Update Reviews URL\n\n\nBy default, the slug URL of the reviews is /writeareview but if the admin wishes to update this they can follow the instructions below.\n\nTo change this default URL go to:\n\nSettings > Advanced Settings > Default Member Review URL\n\nThe admin can provide a new slug for the reviews.\n\n\n### Uploading Images to a Review\n\n\nIf the option for Image Upload With Reviews is enabled in the Membership Plan > Profile Page :\n\nThe user will get to a second screen that allows them to upload images:\n\n\n### How the Reviews will Display on Member's Profile\n\n\nAll reviews are then shown in the \"Reviews\" tab and the star rating is shown above the \"Write a Review\" button. Reviews are displayed allowing one decimal place for review totals:\n\nReviews will have their designated search results page /reviews where visitors can check all the reviews that have been submitted to the site:\n\n\n### Click to View Reviews for a Specific Member\n\n\nAs well, visitors can click directly on the overall rating to view all the reviews for a member, this can be in the Search Results or in their profiles:\n\nIt will open a new page where it will display all the reviews for the member selected.\n\n\n### Time Format of the Review\n\n\nThe date format showing on the reviews search results page will correspond to the one selected under Settings » General Settings » Localization :",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110388002/original/vlTG-Bn44dBJRlljdqk3mBCEeAzAPt1T5A.png?1655343035",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110388043/original/XpbeI5LvT5PM7KzC0G3MEqtFkFPftoPOTQ.png?1655343186",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110388065/original/XcCh8-ukW7XRrr6QcXIC803vjo3VytTUlQ.png?1655343248",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110388076/original/crYyv1I6xJX8TRegHEYtlhMwm6jOfKK3Qw.png?1655343320",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169782881/original/rNdyTeF-KwUlneTNVc1go8kbIKhAtERqlQ.png?1761833129",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169782833/original/j25qKboTn0Y0TIRcCoWGNWqiDfNaJAz_8w.png?1761833081",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169782175/original/4uoi30q4sCZdNIB7HhXTnFE_8Jv-LsN29w.png?1761832483",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169783104/original/PI7zm9_WRBMIJAlI__ClvKKE3B22gbf6uQ.png?1761833330",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158262664/original/CBkL2ZFozN0UqaB6FByTx2F2TO-CTgdNXw.png?1741788526",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158263441/original/hB1DyyPl-yi0CVCHe0U0I2__wVMSaYIGYA.png?1741789150",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158448808/original/5ok13S9F08z_pEz0zvGbdnezEinNaD9q9w.png?1742171657",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158448831/original/9xvluEC8dLgZWI8oEyUHf4h4nLhKn60XQQ.png?1742171852",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158448893/original/Ev7CsIytJ1RPYt2fm4jeoFZhhJsPS7Qhog.png?1742171998",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158448944/original/MHa07sGSFPAiqCOPDWRrSHP__gPNlWuuRQ.png?1742172099",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158448999/original/bknp8rqLym9BzElx_j1G043bw8yS2ZON0g.png?1742172367",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158449020/original/n3EWAfihq1grGYZrrbzgibHjMua7xsIjaA.png?1742172482",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158449037/original/TpOrikD2iyoGsbm8k3SPXxzi_rCnW_-J5Q.png?1742172518",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090072943/original/QgGuRQ2eYsD33iHwARnApE5TkJD23Uj3eA.png?1615909342",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090073065/original/Yr2_sZeC70Syau7IZidLML7B6geDeuHXlA.png?1615909473",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090073164/original/lwF0W_7_Zm6Wf_C_9L2JV-vXWoAFUzk9JQ.png?1615909580",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090073251/original/iRDKfWfHdiDTsrUqSIc5-KqxbQEItHcv8Q.png?1615909686",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090073563/original/M1lY_p8YQ4F5JB1kaG8rKbqbz-wrgpTDBw.png?1615909938",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090073659/original/GTzHXGI_Q7uvz_Msl3gq5Bz0SEGh0SCsdA.png?1615909999",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090073625/original/ZSqbrPOeL0KsHoE6gO5gL-Hoa6eo02YSIQ.png?1615909982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090073746/original/ZasKXnfUAQjkf81XxdMa45piPLFkc2fqzA.png?1615910064",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090073787/original/rf1p8U9n0yoBhkvmp25ahlw4SMwHnQQS5A.png?1615910102",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158449297/original/kbldHyRS_WujU9uNYgDutw8DrP3S6nKp7g.png?1742173597",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116692513/original/j36gQ7srA2-zh5aYh0nNhr480zxW0yF20w.png?1667339291",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113110413/original/c0r3u9zLA2rVFlueN0LyGFt_jetYPWPJqQ.png?1660602616",
+      "alt": null,
+      "caption": "Context: If the option forImage Upload With Reviewsis enabled in theMembership Plan > Profile Page:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'. Context: Context: If the option forImage Upload With Reviewsis enabled in theMembership Plan > Profile Page:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113110512/original/xqA6nkNAWoyJ2SlnR82VmFlM20-bNYboSw.png?1660602868",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158449332/original/6UEfKHQSaoz4BBxrV4Ic8d1n9irtRh6aTQ.png?1742173807",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102670104/original/6pdpvyVWrT8T_t2wforR4nxrSJhpkRtx3A.png?1640103632",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158449162/original/kw02MThSBjVnRzEyBc1yZWP-hzQCCslvLg.png?1742172995",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158449166/original/0h4t3mq_C-IM6lAB328eDRcIny3QqGoEig.png?1742173033",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156220022/original/TfhUxv6sI91C_diYsSJVaDojbFPYxNrLTg.png?1738256798",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12102669887/original/p1Dc8CGMx3jHrlTWQlI0seS_UigLUMOccA.png?1640103415",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Interactions » Member Reviews' in section 'Interactions' / 'Member Reviews'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046951",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046951"
+    },
+    {
+      "text": "Edit Post Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053202"
+    },
+    {
+      "text": "Members-Only Content add on",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682638"
+    },
+    {
+      "text": "How to Customize the Default Post Types Code",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080220"
+    },
+    {
+      "text": "Insta-Load pagination",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035436"
+    },
+    {
+      "text": "How To Change Search Results Sorting Options",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000024824"
+    },
+    {
+      "text": "Search Visibility tab",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049274"
+    },
+    {
+      "text": "Sidebar Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "Image Upload With Reviews",
+      "url": "https://www.brilliantdirectories.com/add-photos-to-member-reviews"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049272"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049272"
+    },
+    {
+      "text": "Membership Plan > Profile Page",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049272"
+    },
+    {
+      "text": "Settings » General Settings » Localization",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000042159"
+    }
+  ],
+  "lastmod": "2026-06-23T00:37:32+05:30",
+  "scraped_at": "2026-10-18T13:43:12.148699"
+}

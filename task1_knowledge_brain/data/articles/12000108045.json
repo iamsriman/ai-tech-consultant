@@ -1,0 +1,383 @@
+{
+  "article_id": "12000108045",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045-api-reference-table-of-contents",
+  "title": "API Reference - Table of Contents",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Table of Contents"
+  ],
+  "content": "## API Reference - Table of Contents\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108045\n\nBrilliant Directories API Reference Last updated July 2026 Complete technical reference for the Brilliant Directories REST API. Use these endpoints to create, read, update, and delete data on your directory website programmatically. Getting Started Getting Started Guide — Authentication, rate limiting, pagination, filtering, sorting, errors, and the fields endpoint. Standard API Endpoints Core API resources available to all API keys by default. Users user Users Clicked Link users_clicks Leads leads Single Image Posts data_posts Multi Image Posts users_portfolio_groups Album Photos users_portfolio Users Reviews users_reviews Post Types data_categories Unsubscribed unsubscribe_list Widgets data_widgets Advanced API Endpoints Extended API resources for advanced integrations. These endpoints require the Advanced API permission to be enabled on your API key. Categories & Tags Categories (Professions) list_professions Category Groups category_group Tags tags Tag Groups tag_groups Tag Types tag_types Tag Relationships rel_tags Member Extensions User Metadata users_meta User Settings users_setting User Photos users_photo User Favorites users_favorite User Locations users_locations Service Areas service_areas Users Portfolio Tags users_portfolio_tags User Types user_types User Services rel_services User Invite Logs user_invite_log Comments & Lead Matches Comments comments Lead Matches lead_matches Forms & Submissions Forms form Form Fields form_fields Form Inquiries form_inquiries User Submitted Forms user_submitted_forms Contacts & Communication Contacts contacts Contact Links contacts_bridge Messages messages Chat Messages chat_message_items Chat Threads chat_message_threads Notes notes Email System Email Templates email_templates Email Campaigns email_schedule Email Automation Settings email_automation_settings Email Auto Logs email_auto_log Email Auto Sent email_auto_sent Email Lists email_list Email Logs email_log Email Outbox email_outbox Email Outbox Logs email_outbox_log Subscriptions & Transactions Membership Plans subscription_types Post Transactions post_transactions Marketing Offers marketing_offers Content Management Data Types data_types Data Flows data_flows Data Flow Actions data_flow_actions Widget Placements data_widgets_rel Sidebars sidebars Menus menus Menu Items menu_items Redirects redirect_301 Smart Lists smart_lists Website Configuration Website Labels website_labels Label Translations website_labels_translation Design Settings website_design_settings Website Contacts website_contacts Website Notifications website_notifications Image Settings image_settings Site Info site_info Website Settings website_settings Refresh Cache website_settings Reference & Lookup Tables Read-only reference data used throughout the platform. While CRUD endpoints exist, these tables are typically accessed via GET operations only. Countries list_countries States list_states Services list_services Pages list_seo SEO Templates list_seo_template Location Cities location_cities Location States Mapping location_states Universal Search Cache universal_search_cache Admin & System Internal admin and system management resources. These endpoints are typically used for platform-level operations and integrations. Admin Roles admin_roles Admin Role Permissions admin_role_permissions Admin Role Plugin Permissions admin_role_plugins_permissions API Keys bd_api_keys Backup History bd_history Webhooks bd_webhooks Business Data Logs business_data_logs Business Data Tasks business_data_api_task Installer Groups installer_groups Installer Steps installer_steps Password Retrieval Sessions password_retrieval_sessions Plugin Records plugin_records Activity & Logging Append-only log tables that record platform activity. Typically accessed via GET operations only. Users Activity Log users_log",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started Guide",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    },
+    {
+      "text": "Users",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108047"
+    },
+    {
+      "text": "Users Clicked Link",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108048"
+    },
+    {
+      "text": "Leads",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108049"
+    },
+    {
+      "text": "Single Image Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108050"
+    },
+    {
+      "text": "Multi Image Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108051"
+    },
+    {
+      "text": "Album Photos",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108052"
+    },
+    {
+      "text": "Users Reviews",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108053"
+    },
+    {
+      "text": "Post Types",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108054"
+    },
+    {
+      "text": "Unsubscribed",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108055"
+    },
+    {
+      "text": "Widgets",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108056"
+    },
+    {
+      "text": "Categories (Professions)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108057"
+    },
+    {
+      "text": "Category Groups",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108058"
+    },
+    {
+      "text": "Tags",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108059"
+    },
+    {
+      "text": "Tag Groups",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108060"
+    },
+    {
+      "text": "Tag Types",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108061"
+    },
+    {
+      "text": "Tag Relationships",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108062"
+    },
+    {
+      "text": "User Metadata",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108063"
+    },
+    {
+      "text": "User Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108064"
+    },
+    {
+      "text": "User Photos",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108065"
+    },
+    {
+      "text": "User Favorites",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108066"
+    },
+    {
+      "text": "User Locations",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108067"
+    },
+    {
+      "text": "Service Areas",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108068"
+    },
+    {
+      "text": "Users Portfolio Tags",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108069"
+    },
+    {
+      "text": "User Types",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108070"
+    },
+    {
+      "text": "User Services",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108071"
+    },
+    {
+      "text": "User Invite Logs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108072"
+    },
+    {
+      "text": "Comments",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108073"
+    },
+    {
+      "text": "Lead Matches",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108074"
+    },
+    {
+      "text": "Forms",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108075"
+    },
+    {
+      "text": "Form Fields",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108076"
+    },
+    {
+      "text": "Form Inquiries",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108077"
+    },
+    {
+      "text": "User Submitted Forms",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108078"
+    },
+    {
+      "text": "Contacts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108079"
+    },
+    {
+      "text": "Contact Links",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108080"
+    },
+    {
+      "text": "Messages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108081"
+    },
+    {
+      "text": "Chat Messages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108082"
+    },
+    {
+      "text": "Chat Threads",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108083"
+    },
+    {
+      "text": "Notes",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108084"
+    },
+    {
+      "text": "Email Templates",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108093"
+    },
+    {
+      "text": "Email Campaigns",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108094"
+    },
+    {
+      "text": "Email Automation Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108095"
+    },
+    {
+      "text": "Email Auto Logs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108096"
+    },
+    {
+      "text": "Email Auto Sent",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108097"
+    },
+    {
+      "text": "Email Lists",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108098"
+    },
+    {
+      "text": "Email Logs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108099"
+    },
+    {
+      "text": "Email Outbox",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108100"
+    },
+    {
+      "text": "Email Outbox Logs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108101"
+    },
+    {
+      "text": "Membership Plans",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108102"
+    },
+    {
+      "text": "Post Transactions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108103"
+    },
+    {
+      "text": "Marketing Offers",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108104"
+    },
+    {
+      "text": "Data Types",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108105"
+    },
+    {
+      "text": "Data Flows",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108106"
+    },
+    {
+      "text": "Data Flow Actions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108107"
+    },
+    {
+      "text": "Widget Placements",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108108"
+    },
+    {
+      "text": "Sidebars",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108109"
+    },
+    {
+      "text": "Menus",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108110"
+    },
+    {
+      "text": "Menu Items",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108111"
+    },
+    {
+      "text": "Redirects",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108112"
+    },
+    {
+      "text": "Smart Lists",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108113"
+    },
+    {
+      "text": "Website Labels",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108114"
+    },
+    {
+      "text": "Label Translations",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108115"
+    },
+    {
+      "text": "Design Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108116"
+    },
+    {
+      "text": "Website Contacts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108117"
+    },
+    {
+      "text": "Website Notifications",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108118"
+    },
+    {
+      "text": "Image Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108119"
+    },
+    {
+      "text": "Site Info",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108659"
+    },
+    {
+      "text": "Website Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108661"
+    },
+    {
+      "text": "Refresh Cache",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108660"
+    },
+    {
+      "text": "Countries",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108120"
+    },
+    {
+      "text": "States",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108121"
+    },
+    {
+      "text": "Services",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108122"
+    },
+    {
+      "text": "Pages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108123"
+    },
+    {
+      "text": "SEO Templates",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108124"
+    },
+    {
+      "text": "Location Cities",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108125"
+    },
+    {
+      "text": "Location States Mapping",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108126"
+    },
+    {
+      "text": "Universal Search Cache",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108127"
+    },
+    {
+      "text": "Admin Roles",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108128"
+    },
+    {
+      "text": "Admin Role Permissions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108129"
+    },
+    {
+      "text": "Admin Role Plugin Permissions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108130"
+    },
+    {
+      "text": "API Keys",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108131"
+    },
+    {
+      "text": "Backup History",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109011"
+    },
+    {
+      "text": "Webhooks",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108132"
+    },
+    {
+      "text": "Business Data Logs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108133"
+    },
+    {
+      "text": "Business Data Tasks",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108134"
+    },
+    {
+      "text": "Installer Groups",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108135"
+    },
+    {
+      "text": "Installer Steps",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108136"
+    },
+    {
+      "text": "Password Retrieval Sessions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108137"
+    },
+    {
+      "text": "Plugin Records",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108138"
+    },
+    {
+      "text": "Users Activity Log",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108139"
+    }
+  ],
+  "lastmod": "2026-07-02T09:49:00+05:30",
+  "scraped_at": "2026-10-18T13:57:25.859155"
+}

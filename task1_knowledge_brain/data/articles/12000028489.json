@@ -1,0 +1,91 @@
+{
+  "article_id": "12000028489",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028489-how-to-change-the-name-tab-title-url-of-a-post-type",
+  "title": "How To Change The Name, Tab Title & URL Of A Post Type",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How To Change The Name, Tab Title & URL Of A Post Type"
+  ],
+  "content": "## How To Change The Name, Tab Title & URL Of A Post Type\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000028489\n\nTo change the title of a post type, please do the following:\n\nGo to Content >> Edit Post Settings\n\nFind the post type that needs to be renamed and click on Edit , for this, we are going to use the Classified Post Type as an example.\n\n\n## Post Type Name\n\n\nIn the General Settings Tab (Add an unique name for the post):\n\n\n## URL Permalink\n\n\nUpdate the URL to match the name:\n\n\n## Profile Page Tab Title\n\n\nProfile Page Design Tab (This is the title that is going to show up on the Member's Profile):\n\n\n## Search Results Page Title\n\n\nSearch Results Design (This title is going to appear when accessing the actual search results visible to the visitors and other members)\n\nLastly, click on Save Changes.\n\n\n### Confirm Changes\n\n\nWhen Saving the Post Type, a message will display to confirm this change: \"The URL of this Post Type is being changed from classifieds to brilliant-classifieds. This action will also update the slug URL of all associated posts.\"\n\nThis means that already created posts showing under the URL  /classifieds now are going to display under /brilliant-classiffieds.\n\nMake sure to always refresh the cache of the website to see the changes: Refreshing Live Site\n\n\n## Changed Title and URL\n\n\nThe new Title and URL will be automatically updated and display on the front end.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185005646/original/BtmxC9KeCCZQDPUWmxffSXM85k6NZDqGXA.png?1789066758",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Name, Tab Title & URL Of A Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185005696/original/h9-ObQ7TrdloFS7wp4ktYT0Sxhnv7lpq_Q.png?1789066799",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Name, Tab Title & URL Of A Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185005708/original/kmqKmf7A3QnWUUObsEcu8AtSh5grTDi8xQ.png?1789066828",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Name, Tab Title & URL Of A Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185005746/original/YLO-t-0-AC9gqNfiNXwTK6G-inZU8Nq7LQ.png?1789066878",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Name, Tab Title & URL Of A Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185005777/original/mqVV2cW6l-8nFVDrVqQyA-DfFr-nZbPNlA.png?1789066930",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Name, Tab Title & URL Of A Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185005872/original/fAwVobIMr1kMafVjXNrJY__jwzzzXD6c6w.png?1789066993",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Name, Tab Title & URL Of A Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185005927/original/mQ-qSH3qNzNC54ccr9GVLJZuX513FQ9N1w.png?1789067090",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Change The Name, Tab Title & URL Of A Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000028489",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028489"
+    },
+    {
+      "text": "Refreshing Live Site",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000070151"
+    }
+  ],
+  "lastmod": "2026-09-11T00:34:58+05:30",
+  "scraped_at": "2026-10-18T13:41:07.780173"
+}

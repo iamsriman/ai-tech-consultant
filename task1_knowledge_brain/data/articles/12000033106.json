@@ -1,0 +1,64 @@
+{
+  "article_id": "12000033106",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000033106-how-to-edit-the-top-header-menu",
+  "title": "How to Edit the Top Header Menu",
+  "category": "Toolbox",
+  "folder": "Menu Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Menu Manager",
+    "How to Edit the Top Header Menu"
+  ],
+  "content": "## How to Edit the Top Header Menu\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000033106\n\nThe Top Header Menu is the bar that appears at the very top of every Brilliant Directories website, typically displaying contact details and quick links. This article covers editing its content and links.\n\nTo edit the content in the Top Header Menu or add additional links, follow the steps below.\n\n1. Go to Toolbox >> Menu Manager and click Customize on the Top Header Menu :\n\n2. In the Customize view, update the menu item's text and add a link if needed.\n\nThe text can include the following dynamic variables:\n\n- The variable %%%website_phone%%% outputs the phone number entered under Settings >> General Settings >> General :\n\n- The variable %%Profession%% outputs the Profession Name value entered under Settings >> General Settings >> General .\n\nTo add or disable the search module that appears in the header, refer to this article: Show Header Search",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180302071/original/uqnuxvX4-SMVUzdV8IsVqQDJ-Azr0t0iSw.png?1781233957",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Top Header Menu' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180302203/original/9FiPyguxJrtpvzOAb8bzwx59BRMEc7ZLmw.png?1781234230",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Top Header Menu' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180302327/original/IMET1MNfPxZn1laYvql5te29WQz-hoFfQQ.png?1781234589",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Top Header Menu' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180302396/original/j5mnTnZSXUHhdRhBN_L_S2j0uZ6zp1BqYA.png?1781234793",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Top Header Menu' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000033106",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000033106"
+    },
+    {
+      "text": "Show Header Search",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044980"
+    }
+  ],
+  "lastmod": "2026-06-12T08:56:49+05:30",
+  "scraped_at": "2026-10-18T13:41:29.842698"
+}

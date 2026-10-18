@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109090",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109090-members-searchable-by-default-dashboard-installer",
+  "title": "Members Searchable by Default - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Members Searchable by Default - Dashboard Installer"
+  ],
+  "content": "## Members Searchable by Default - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109090\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Members Searchable by Default Does\n\n\nThis installer makes sure new membership plans are set to let visitors find members in search by default. It works on the search_membership_permissions column of the subscription_types table (the site's membership plans) and sets that column's default value to visitor .\n\nThere are two cases. If the search_membership_permissions column does not exist yet, the installer adds it as a VARCHAR(255) column that is NOT NULL with a default of visitor . If the column already exists, the installer changes it so its default value becomes visitor . This sets the default applied to new membership plans; it changes the column definition, not the values already saved on the existing plans.\n\n\n## Why It Appears\n\n\nThe installer checks the database definition of the search_membership_permissions column on subscription_types and looks for a non-empty default value. If no default value is set, the installer is offered. If a default is already in place, it reports that everything is OK and does not appear.\n\n\n## Why It Matters\n\n\nThe search membership permission controls who can find a plan's members through site search. Setting the default to visitor means that when a new membership plan is created, its members are searchable by site visitors out of the box, which is the expected behavior for most directories. The setting can still be changed on any individual plan.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site is missing this default, Members Searchable by Default appears in the list. Click Install .\n\n- After it completes, click Check For Updates again to confirm the entry is gone.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The default value for the search membership permission is now set to visitor , so newly created membership plans start out searchable by visitors. Existing plans keep whatever setting they already had.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109090",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109090"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:40+05:30",
+  "scraped_at": "2026-10-18T13:59:39.606756"
+}

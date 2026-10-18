@@ -1,0 +1,33 @@
+{
+  "article_id": "12000071030",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071030--webp-image-uploads",
+  "title": ".WebP Image Uploads",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    ".WebP Image Uploads"
+  ],
+  "content": "## .WebP Image Uploads\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000071030\n\nThe Upload All Images As WebP advanced setting automatically converts supported uploaded images to WebP format. WebP images can help reduce file size and improve website performance across supported areas of the platform.\n\nThis setting is intended for website image optimization. Some email-related upload areas preserve the original image format instead of converting images to WebP, because not all email clients display WebP images reliably.\n\n\n## Where To Find This Setting\n\n\nTo locate this setting, go to:\n\n- Settings >> Advanced Settings\n\n- Search for: Upload All Images As WebP\n\n- When enabled, supported image uploads are automatically converted to WebP format.\n\n\n## How WebP Image Uploads Work\n\n\nWhen the Upload All Images As WebP setting is enabled, supported uploaded images are converted to WebP during the upload process.\n\nThis means common image formats, such as JPG and PNG, may be saved as WebP after upload in supported areas of the platform.\n\nThis can help improve site performance by reducing image file size while keeping images suitable for website display. WebP images are usually 25–35% smaller than JPEGs and even more compared to PNGs (especially for photos).\n\nSmaller files = faster loading pages and less bandwidth usage.\n\n\n## Email Image Upload Compatibility\n\n\nImages uploaded directly into Compose Email and the Email Template editor are not converted to WebP even if the advanced setting is enabled.\n\nThese email editors preserve the original uploaded file format so images display more reliably across email clients.\n\nThis means:\n\n- JPG files remain JPG files\n\n- PNG files remain PNG files\n\n- GIF files remain GIF files\n\nThis applies to image uploads inside the affected email editors, including:\n\n- File picker uploads\n\n- Drag-and-drop uploads\n\n- Clipboard paste uploads\n\n\n## Where WebP Conversion Applies\n\n\nUpload Area WebP Conversion Behavior Website page editors Uses the Upload All Images As WebP setting Member-area editors Uses the Upload All Images As WebP setting Post body editors Uses the Upload All Images As WebP setting Compose Email editor Original image format is preserved Email Template editor Original image format is preserved",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179540130/original/awGC0sCl_SVfaS8Ycce7cNFPwuglHAqmHA.png?1779985123",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for '.WebP Image Uploads' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000071030",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071030"
+    }
+  ],
+  "lastmod": "2026-05-28T22:24:31+05:30",
+  "scraped_at": "2026-10-18T13:46:41.509468"
+}

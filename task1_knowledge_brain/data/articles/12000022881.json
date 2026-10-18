@@ -1,0 +1,27 @@
+{
+  "article_id": "12000022881",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000022881-understanding-seo-variables",
+  "title": "Understanding SEO Variables",
+  "category": "My Content",
+  "folder": "SEO Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "SEO Templates",
+    "Understanding SEO Variables"
+  ],
+  "content": "## Understanding SEO Variables\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000022881\n\n\n## Overview\n\n\nSEO variable names are variables that appear between percent signs ( % ) and are pre-processed before being output to the web page. Several formatting options control how a variable's value is displayed.\n\n\n## Percent Sign Formats\n\n\nThe examples below use the website_name variable, with a stored value of brilliant directories website (all lowercase).\n\n\n### Single Percent Sign\n\n\nFormat: %website_name%\n\nThe variable is output exactly as stored, in lowercase: brilliant directories website .\n\n\n### Single Percent Sign + First Capital Letter\n\n\nFormat: %Website_name%\n\nCapitalizing the first letter of the variable name capitalizes the first letter of each word in the output: Brilliant Directories Website .\n\n\n### Double Percent Sign\n\n\nFormat: %%website_name%%\n\nWrapping the variable in double percent signs pluralizes the output.\n\n\n### Double Percent Sign + First Capital Letter\n\n\nFormat: %%Website_name%%\n\nCombines both effects — the output is both pluralized and capitalized, following the same capitalization rule described above.\n\n\n### Triple Percent Sign\n\n\nFormat: %%%website_name%%%\n\nThe stored value is printed exactly as entered — capital letters remain capital, lowercase letters remain lowercase, with no automatic capitalization or pluralization applied.\n\n\n## Postfix Variable Parameters\n\n\nVariable formats can be extended by postfixing them with a method: %variable_name~method% . Regular formatting (single, double, or triple percent signs) still applies when a method is used.\n\nPostfix Effect ~ao Pre-processes the variable on the front end only, not for administrators. ~as Adds an apostrophe for possession (e.g., \"women\" becomes \"women's\"). ~na Displays the variable name in plain text instead of pre-processing it — %variable_name~na% displays as %variable_name% rather than its value. ~ut Pre-processes the variable and additionally strips special characters (e.g., slashes) to make the output URL-safe.\n\n\n## Related Reading\n\n\nThe full list of available variables is covered in the \" SEO Variables List \" article.\n\n\n## Special Note Regarding Variable Names\n\n\nSEO variable names should not match an existing database column name, since this creates a naming conflict. The following names should be avoided when naming a custom SEO variable:\n\ntype , old_filename , new_filename , updated_by , name , icon , keywords , order , group_name , database , first_name , last_name , email , company , phone_number , fax_number , address1 , address2 , zip_code , zip , state_code , country_code , state_ln , country_ln , website , twitter , facebook , linkedin , blog , active , token , position , profession , additional , link , link_order , user_id , comments , data_name , data_type , form , form_name , search_results , h1 , h2 , post_type , widget , widget_name , status , title , section , filename , quote , experience , affiliation , awards , published , education , softwares , fees , about_me , featured , testimonial , preferred , work_experience , rep_matters , speaking_engagements , current_position , additional_fields , lat , lon , post_title , post_caption , post_category , post_image , post_price , post_tags , group_category , property_status , property_type , property_beds , property_baths , property_price",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000022881",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000022881"
+    },
+    {
+      "text": "SEO Variables List",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000101103-seo-variables-list"
+    }
+  ],
+  "lastmod": "2026-09-08T13:30:49+05:30",
+  "scraped_at": "2026-10-18T13:40:50.905688"
+}

@@ -1,0 +1,188 @@
+{
+  "article_id": "12000082071",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082071-how-to-display-additional-member-information-in-the-member-search-results-position-top-category-s",
+  "title": "How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)"
+  ],
+  "content": "## How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082071\n\nOverview\n\nBy default, each member card in the search results displays the following information:\n\nStar Rating — displayed when the member has received at least one rating. Short Description or About Snippet — a brief text summary pulled from the member's profile. Phone Number — displayed when the member's Membership Plan is configured to show it. Badges — displayed when the member is verified, has a plan-level search results badge, or is listed in all locations.\n\nThree additional fields can be enabled through Advanced Settings to display further member information within each search result card:\n\nPosition — the member's job title or role. Top-Level Category — the member's primary category. Sub-Categories — the member's specialties or sub-level categories.\n\n\n## Part 1 — Default Search Result Fields\n\n\n\n### Star Rating\n\n\nA star rating is displayed on the member's search result card when the member has received at least one review rating. If no ratings exist for the member, this field does not appear.\n\n\n### Short Description or About Snippet\n\n\nThe Short Description field is available within the member's Contact Details form. When populated, its content is displayed in the member's search result card.\n\nIf the Short Description field is left blank, the system automatically falls back to displaying a snippet from the member's About section instead.\n\nIf both the Short Description and About fields are empty, no text snippet is displayed in the search result card.\n\n\n### Phone Number\n\n\nThe phone number is displayed on the search result card when the member's Membership Plan is configured to show it. Clicking the phone number button initiates a call attempt on the visitor's device.\n\n⚠ NOTE — Phone Number Visibility Is Controlled by Membership Plan: The phone number field will not appear in search results unless the member's assigned Membership Plan has the phone number display setting enabled. This is configured at the plan level, not at the individual member level.\n\n\n### Badges\n\n\nBadges are displayed on a member's search result card under any of the following conditions:\n\n- The member has been set to Verified status.\n\n- The member's Membership Plan has a Search Results Badge configured.\n\n- The member is set to be Listed in All Locations .\n\nReferences: How to Verify a Listing · Member Profile Badges · All Locations Badge Image\n\n\n## Part 2 — Enabling Additional Fields in Advanced Settings\n\n\nThree additional fields can be enabled to display further member information in search result cards. These settings are managed from Advanced Settings .\n\nNavigation Path: Admin Dashboard » Settings » Advanced Settings\n\nThe three settings and their system variables are:\n\n\n### Show Member Position In Member Search Results\n\n\nDisplays the member's Position (job title or role) on their search result card.\n\n- System Variable: member_position_in_results\n\n\n### Show Top Category In Member Search Results\n\n\nDisplays the member's assigned Top-Level Category on their search result card.\n\n- System Variable: top_category_in_results\n\n\n### Show Sub-Categories In Member Search Results\n\n\nDisplays the member's assigned Sub-Categories (Specialties) on their search result card.\n\n- System Variable: sub_category_in_results\n\n\n## Part 3 — Text Labels\n\n\nThe text labels below control the display names used for each of the three additional fields in the search results. These are editable under Settings » Text Labels.\n\nReference: Settings » Text Labels\n\n\n### Member Position Label\n\n\nControls the label displayed before the member's position value in the search result card.\n\n- System Variable: search_results_position_label\n\n\n### Member Search Results Category Label\n\n\nControls the label displayed before the member's top-level category value in the search result card.\n\n- System Variable: search_results_category_label\n\n\n### Sub-Category Labels (Specialties)\n\n\nTwo text labels control the display of sub-category values in the search result card, one for singular and one for plural usage.\n\nLabel System Variable Usage Service [service] Singular label — used when one sub-category is displayed. Service Plural service_plural Plural label — used when more than one sub-category is displayed.\n\n\n## Part 4 — If the Additional Fields Are Not Displaying\n\n\nIf the three additional fields enabled in Advanced Settings are not appearing in the search results, the search results code template may need to be reset to its default state.\n\n⚠ CRITICAL CAUTION — Resetting Post Types Code: The Reset to Default Post Types Code action restores the search results code template to its original default state. Any custom modifications previously made to the search results post type code will be overwritten. This action should only be taken after confirming that no intentional customizations exist in the current search results code, or after those customizations have been backed up.\n\nReference: How to Reset to Default Post Types Code",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098153505/original/t0N1588DHTvphLVbiPoKR_xtgdY9YRbq7Q.png?1631586903",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158677576/original/6yaeFenMyykLjQaxjX-NjjA2Ro3pg5py4w.jpeg?1742490487",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158677958/original/or3T43ib3M6f2Q5l6WcDGrcdkGLJN56bcA.png?1742490886",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158677601/original/D2Tpi3TQmjxoou1k02EBPvZIJCoXM4i3Gw.jpeg?1742490497",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158678152/original/3LAdaHth6xJeG32QzhTlzK-bxDOXQVy51g.png?1742491036",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158678179/original/TnQnxwN9qjWfJ8VmLFQ9eMDjdH6ydbylLQ.png?1742491061",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181011557/original/EWNLr67Fei0BDqamWj5OM_7MZnl8lVcH3Q.png?1782383586",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098153470/original/RXy4zcTcaJ6qCsXe89Y_m9xXNSelxvw96A.png?1631586774",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098153385/original/8TQnYvfm3mRAfvvdnmIrQ2KkAg4DoONeOg.png?1631586495",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098153205/original/KC7qNBZn4O9RHD8xCqbXIK2wPvTFJAu4ww.png?1631585946",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098153317/original/hOu4yxaXWnpKJNdXYfRoPzfHX7UC2h_3cw.png?1631586254",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098188623/original/ly1Zar-V2y5JI1qxw7cJDiK9Nrl5BR3CIw.png?1631633137",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098189142/original/QsCON1GsBINCkplKXGEuzmgjHiyiT_GMUg.png?1631633601",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098189189/original/dqloOFWAUcjpcXJoByFnJtateTsnx5bGIg.png?1631633672",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098189154/original/9woga8neUWkG6he9GTs_h9Jzdh2iKBItSQ.png?1631633632",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098203058/original/SMUnz69L3XyLzMKw3cVvuPMZuX422oIa1w.png?1631651902",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Display Additional Member Information in the Member Search Results (Position, Top Category & Sub Categories)' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082071",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082071"
+    },
+    {
+      "text": "How to Verify a Listing",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000021982"
+    },
+    {
+      "text": "Member Profile Badges",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000055542"
+    },
+    {
+      "text": "All Locations Badge Image",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000043370#section-12-all-locations-badge-image"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000682673"
+    },
+    {
+      "text": "How to Reset to Default Post Types Code",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000016280"
+    }
+  ],
+  "lastmod": "2026-06-25T16:15:22+05:30",
+  "scraped_at": "2026-10-18T13:48:58.219735"
+}

@@ -1,0 +1,69 @@
+{
+  "article_id": "12000103396",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103396-widgets-api-how-to-edit-widgets-data-with-api-calls",
+  "title": "Widgets API - How to edit widgets data with API Calls",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "Widgets API - How to edit widgets data with API Calls"
+  ],
+  "content": "## Widgets API - How to edit widgets data with API Calls\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103396\n\nThe API allows getting, creating, updating, deleting, rendering, and posting widgets on the website. However, only one widget can be updated at a time.\n\n\n## Available API Endpoints\n\n\nBelow is a list of the available endpoints for Widgets:\n\nhttps://example.com/api/v2/data_widgets/get/{id}\n\nhttps://example.com/api/v2/data_widgets/create\n\nhttps://example.com/api/v2/data_widgets/update\n\nhttps://example.com/api/v2/data_widgets/delete\n\nhttps://example.com/api/v2/data_widgets/render\n\nUsing the API, the following actions can be performed:\n\n\n### Get a Widget\n\n\nRead the data of a single widget based on the widget_id.\n\nLegacy widgets are not returned. The Default widgets included in a /get list response are limited to those supported by the current version of the software. Default widgets that belong only to legacy versions are no longer included, so API responses may contain fewer widgets than in previous versions. This is expected and does not affect the Widget Manager or any existing website. Widgets that support the current version along with older versions are still returned. The filter checks whether the current version is included in the widget's supported versions, not whether it is the only supported version. Customized widgets are also returned regardless of the versions they list, and reading a single widget by its widget_id is not filtered.\n\nEndpoint :\n\nGET https://example.com/api/v2/data_widgets/get/{id}\n\ncurl -H \"Authorization: YOUR_API_KEY\" \\\n  \"https://example.com/api/v2/data_widgets/get/{id}\" Example Request: GET https://example.com/api/v2/data_widgets/get/?property=widget_id&property_value=29 Query Parameters: property The property key (eg., widget_id). property_value The value associated with the property.\n\nExample Response:\n\n{\n    \"status\": \"success\",\n    \"message\": [\n        {\n            \"widget_id\": \"29\",\n            \"widget_name\": \"Hello World\",\n            \"widget_data\": \"<p class=\\\"hello\\\"><?php echo \\\"hello world\\\";?></p>\",\n            \"widget_style\": \".hello{color:green}\",\n            \"date_updated\": \"2025-02-13 10:32:20\",\n            \"revision_timestamp\": \"2025-02-13 11:32:20\",\n            \"widget_javascript\": \"<script>alert(hello world\\\");</script>\",\n        }\n    ],\n    \"total\": \"1\",\n    \"current_page\": 1,\n    \"total_pages\": 1\n}\n\n\n### Create a Widget\n\n\nAdd a new widget to the database. Parameter Notes : The widget_id will be assigned by the system.\n\nEndpoint :\n\nPOST https://example.com/api/v2/data_widgets/create\n\ncurl -H \"Authorization: YOUR_API_KEY\" \\\n  \"https://example.com/api/v2/data_widgets/create\"\n\nExample Request:\n\n{\n  \"widget_name\": \"Hello World\",\n  \"widget_data\": \"<p class=\"hello\"><?php echo \"hello world\";?></p>\",\n  \"widget_style\": \".hello{color:red}\",\n  \"widget_javascript\": \"<script>alert(hello world\");</script>\"\n}\n\nQuery Parameters:\n\nwidget_name The name of the widget. widget_data HTML + PHP. widget_style CSS. widget_javascript JS.\n\nExample Response:\n\n{\n    \"status\": \"success\",\n    \"message\": {\n        \"widget_id\": \"28\",\n        \"widget_name\": \"Hello World\",\n        \"widget_data\": \"<p class=\\\\\\\"hello\\\\\\\"><?php echo \\\\\\\"hello world\\\\\\\";?></p>\",\n        \"widget_style\": \".hello{color:red}\",\n        \"date_updated\": \"2025-02-13 10:11:19\",\n        \"widget_javascript\": \"<script>alert(hello world\\\");</script>\",\n    }\n}\n\n\n### Update a Widget\n\n\nUpdate a widget record and their related data from the database. Parameter Notes : Use widget_id or widget_name .\n\nEndpoint :\n\nPUT https://example.com/api/v2/data_widgets/update\n\ncurl -H \"Authorization: YOUR_API_KEY\" \\\n  \"https://example.com/api/v2/data_widgets/update\"\n\nExample Request:\n\n{\n  \"widget_id\": 28,\n  \"widget_name\": \"Hello Amazing World\",\n  \"widget_data\": \"<p class=\"hello\"><?php echo \"hello world\";?></p>\",\n  \"widget_style\": \".hello{color:green}\",\n  \"widget_javascript\": \"<script>alert(hello world\");</script>\"\n}\n\nQuery Parameters:\n\nwidget_id The ID of the widget. widget_name The name of the widget. widget_data HTML + PHP. widget_style CSS. widget_javascript JS.\n\nExample Response:\n\n{\n    \"status\": \"success\",\n    \"message\": {\n        \"widget_id\": \"28\",\n        \"widget_name\": \"Hello Amazing World \",\n        \"widget_data\": \"<p class=\\\"hello\\\"><?php echo \\\"hello world\\\";?></p>\",\n        \"widget_style\": \".hello{color:green}\",\n        \"date_updated\": \"2025-02-13 10:11:19\",\n        \"revision_timestamp\": \"2025-02-13 11:11:19\",\n        \"widget_html_element\": \"\",\n        \"widget_javascript\": \"<script>alert(hello world\\\");</script>\",\n    }\n}\n\n\n### Delete a Widget\n\n\nDelete a widget and their related data from the database.\n\nParameter Notes : Use widget_id or widget_name .\n\nEndpoint :\n\nDELETE https://example.com/api/v2/data_widgets/delete\n\ncurl -H \"Authorization: YOUR_API_KEY\" \\\n  \"https://example.com/api/v2/data_widgets/delete\"\n\nExample Request:\n\n{\n  \"widget_id\": 28\n}\n\nQuery Parameters:\n\nwidget_id The ID of the widget. widget_name The name of the widget.\n\nExample Response:\n\n{\n    \"status\": \"success\",\n    \"message\": \"data_widgets record was deleted\"\n}\n\n\n### Render a Widget\n\n\nRender widget content of specific widget. Parameter Notes : Use widget_id or widget_name . The widget needs to be customized to get the widget output.\n\nEndpoint :\n\nPOST https://example.com/api/v2/data_widgets/render\n\ncurl -H \"Authorization: YOUR_API_KEY\" \\\n  \"https://example.com/api/v2/data_widgets/render\"\n\nExample Request:\n\n{\n  \"widget_id\": 31,\n  \"widget_name\": \"Bootstrap Theme - Homepage Search - Yellow Pages Search\"\n}\n\nQuery Parameters:\n\nwidget_id The ID of the widget. widget_name The name of the widget.\n\nExample Response:\n\n{\n    \"name\": \"Bootstrap Theme - Homepage Search - Yellow Pages Search\",\n    \"output\": \"    <div class=\\\"col-xs-12 col-sm-12 col-md-6 search_box fpad img-rounded center-block\\\">\\r\\n                <div class=\\\"clearfix\\\"></div>\\r\\n        <form class=\\\"fpad form-horizontal website-search\\\" name=\\\"frm1\\\" action=\\\"/search_results\\\">\\r\\n\\t\\t\\t            <div class=\\\"form-group nomargin hidden-sm hidden-xs col-lg-5\\\">\\r\\n                <label>What do you need:</label>\\r\\n            </div>\\r\\n\\t\\t\\t            <div class=\\\"input-group input-group-lg bmargin col-lg-7 large-autosuggest\\\">\\r\\n                <span class=\\\"input-group-addon\\\">\\r\\n                    <i class=\\\"fa fa-fw fa-search\\\"></i>\\r\\n                </span>\\r\\n                <input type=\\\"text\\\" class=\\\"member_search form-control input-lg large-autosuggest-input\\\" name=\\\"q\\\"     id=\\\"keywordSuggest\\\" value=\\\"\\\" placeholder=\\\"Name or Keyword\\\">\\r\\n            </div>\\r\\n            <div class=\\\"clearfix\\\"></div>\\r\\n\\t\\t\\t            <div class=\\\"form-group nomargin hidden-sm hidden-xs col-lg-5\\\">\\r\\n                <label>\\r\\n                    Search by location:\\r\\n                </label>\\r\\n            </div>\\r\\n\\t\\t\\t            <div class=\\\"input-group input-group-lg bmargin col-lg-7\\\">\\r\\n                <span class=\\\"input-group-addon\\\">\\r\\n                    <i class=\\\"fa fa-fw fa-location-arrow\\\"></i>\\r\\n                </span>\\r\\n                <input type=\\\"text\\\" class=\\\"googleSuggest googleLocation form-control input-lg\\\" name=\\\"location_value\\\" id=\\\"location_google_maps_homepage\\\" value=\\\"\\\" placeholder=\\\"City or Post Code\\\" autocomplete=\\\"off\\\">\\r\\n            </div>\\r\\n            <div class=\\\"col-lg-offset-5 col-lg-7 nopad\\\">\\r\\n                <button type=\\\"submit\\\" class=\\\"btn-block btn btn-lg btn_home_search\\\">Search Now</button>\\r\\n            </div>\\r\\n            <div class=\\\"clearfix\\\"></div>\\r\\n        </form>\\r\\n        <div class=\\\"clearfix\\\"></div>\\r\\n    </div>\\r\\n\"\n}",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12157134686/original/2BjFad03PhEuvLEebYNmG8iIBgmGSFSKzA.png?1739891846",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Widgets API - How to edit widgets data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12157134648/original/B6h-5Ql1tcwcfehNzxxVOCodSNapyt6a9A.png?1739891831",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Widgets API - How to edit widgets data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12157134648/original/B6h-5Ql1tcwcfehNzxxVOCodSNapyt6a9A.png?1739891831",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Widgets API - How to edit widgets data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12157135658/original/RVGaGOkgZFO3TEp2cBd5MxQsoW_OKUOyqQ.png?1739892494",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Widgets API - How to edit widgets data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12157142477/original/c78HXBsAWpMhonpJEhg_6Z7orkpOK75fXw.png?1739897484",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Widgets API - How to edit widgets data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103396",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103396"
+    }
+  ],
+  "lastmod": "2026-08-25T21:15:01+05:30",
+  "scraped_at": "2026-10-18T13:55:42.404367"
+}

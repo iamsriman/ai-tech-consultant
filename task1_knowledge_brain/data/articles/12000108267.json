@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108267",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108267-04-17-2026-software-updates",
+  "title": "04/17/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/17/2026 - Software Updates"
+  ],
+  "content": "## 04/17/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108267\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a new API endpoint that allows the website's cache to be refreshed programmatically, with support for targeting specific cache areas such as widgets, settings, pages, CSS, menus, and sidebars, as well as optional LiteSpeed cache purging.\n\n- Added a new %post_category% variable that can be inserted into SEO templates to display the selected category name on when performing a search on Post Search Result pages.\n\n- Updated the Activity Tracker to record changes made through the API, so actions performed via API are now included in the audit trail alongside those made through the Admin Panel.\n\n- Improved the performance of the payment processing flow during the member signup process, reducing the total loading time of the Order Summary and the card validation step.\n\n- Fixed an issue that prevented geolocation error messages from being translatable, causing messages such as \"Your local browser settings have prevented location targeting\" to always display in English regardless of the site's language settings. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that caused the Hidden Member Profiles search permissions to be ignored when the Members Only Add-On was not enabled, allowing members to see profiles in search results that should have been restricted. Widget Involved: Search - Member - Search Query\n\n- Fixed an issue that caused the active subscriptions table in the Member Dashboard's billing section to break its layout when the Google Translate Add-On was active, making the table columns unreadable.\n\n- Fixed an issue that caused the \" Protect Login Page From iFrame \" setting to block all pages from being embedded in an iFrame when enabled, instead of only protecting the login page. Widget Involved: Bootstrap Theme - Member Login Page\n\n- Fixed an issue that prevented the DIFF tab from appearing when editing custom widgets in the Admin in some cases.\n\n- Fixed an issue that caused the system to display the main menu instead of the logged-in member menu for logged-in members in some cases. Widget Involved: Bootstrap Theme - Header - Main Menu\n\n- Fixed an issue that allowed the Admin to save the \"Customize Listing URL\" field as empty when editing a member profile, even when the option to prevent automatic URL updates was enabled.\n\n- Fixed an issue that caused reviewer names and photos to sometimes appear in Google search previews for member profile pages instead of the profile owner's name and photo. Post Type Involved: Member Reviews\n\n- Fixed an issue that caused the Google Search Assist Add-On to interfere with API requests to the member search endpoint, preventing external integrations from receiving the expected response.\n\n- Fixed an issue that caused the search module on category dropdowns to display sub-level categories in alphabetical order instead of respecting the \" Default Category Sort Order\" setting configured on the Admin Panel in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108267",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108267"
+    }
+  ],
+  "lastmod": "2026-04-20T23:41:46+05:30",
+  "scraped_at": "2026-10-18T13:58:46.402778"
+}

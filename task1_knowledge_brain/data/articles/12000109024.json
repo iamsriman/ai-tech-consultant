@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109024",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109024-install-private-member-chat-dashboard-installer",
+  "title": "Install Private Member Chat - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Install Private Member Chat - Dashboard Installer"
+  ],
+  "content": "## Install Private Member Chat - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109024\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Install Private Member Chat Does\n\n\nThis installer prepares the website’s database for the Private Member Chat add-on, which lets members exchange direct messages on the site. It creates the storage that chat conversations live in and brings that storage up to the current specification. It does not change anything visible on the website by itself, and it does not turn the chat feature on. It only sets up the database structures the add-on needs.\n\n- Creates two new database tables: chat_message_threads , which stores one row per conversation (who started it, who is participating, its status, and when it was created and last updated), and chat_message_items , which stores the individual messages inside each conversation.\n\n- Ensures the message content column uses a storage type (LONGBLOB) that can hold the full range of characters, including emojis, so messages containing emojis save correctly.\n\n- Adds two informational columns to the conversations table: origin_ip (the IP address a conversation was started from) and request_uri (the page address it was started on).\n\n\n## Why It Appears\n\n\nThe installer shows up when the database is missing any part of this structure. Specifically, it has pending steps when:\n\n- The chat_message_items and chat_message_threads tables do not exist yet, which is typical for sites that have never set up the Private Member Chat add-on, or\n\n- The tables exist from an earlier installation but the message content column still uses an older storage type that cannot reliably hold emojis, or\n\n- The conversations table is missing the newer origin_ip and request_uri columns.\n\nIf the site set up the chat tables a while ago, only the later refinement steps may appear. That is normal for older installations and nothing to worry about.\n\n\n## Why It Matters\n\n\nWithout these tables, the Private Member Chat add-on has nowhere to save conversations, so installing them is a prerequisite for the feature to work. If the site's members already use chat, the emoji update prevents messages containing emojis from saving incorrectly, and the two new columns let the system record where each conversation was started. If the add-on is not in use, running the installer is still harmless: it creates empty tables and leaves everything else on the site untouched.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Install Private Member Chat appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Install Private Member Chat does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The new tables start out empty and only fill as members start conversations through the Private Member Chat add-on. If the tables already existed, any messages stored in them are preserved: the update adjusts a column type and adds columns, and it does not delete or rewrite existing chat data. There is nothing to verify afterward. If the add-on is in use, chat continues to work as before, now with emoji support and conversation origin tracking in place.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109024",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109024"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:38+05:30",
+  "scraped_at": "2026-10-18T13:59:17.903958"
+}

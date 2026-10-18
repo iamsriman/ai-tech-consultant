@@ -1,0 +1,23 @@
+{
+  "article_id": "12000082879",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082879-10-08-21-software-updates",
+  "title": "10/08/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/08/21 - Software Updates"
+  ],
+  "content": "## 10/08/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082879\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Export Member Data Add-On from exporting custom fields whose name starts with a number.\n\n- We created a new Advanced Setting called \"Enable Lazy Load Images\". Enabling this setting will activate the lazy load feature for images and improve page load times.  Currently this setting will only impact the homepage of sites, but will be applied to other pages as well in future updates. Widgets Involved: Bootstrap Theme - Homepage - Hero Divider Bootstrap Theme - Homepage - Featured Blog Posts Slider Bootstrap Theme - Display - Top Categories Bootstrap Theme - Display - Sub Level Categories Bootstrap Theme - Display - Recent Videos Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Discussions Bootstrap Theme - Display - Recent Digital Products Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Articles\n\n- We fixed an issue which was preventing the Recent Events widget from displaying recurring event posts in some cases. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We fixed an issue with the Post Types \"Can View\" setting which was causing the system to display the corresponding post type tab on member profile pages even if the member has not published a post of that type in some cases.\n\n- We fixed an issue which was preventing the system to send 3rd party SMS member notifications to indirect lead matches.\n\n- The Activity Tracker will now log any time a member changes their Membership Level through the Member Dashboard. Widget Involved: Bootstrap Theme - Success Page - Paid Member Upgrade\n\n- We updated the Billing Reminder Emails Add-On to add the option to select the specific billing cycles which will trigger email notifications.\n\n- We fixed an issue with the Tax & VAT Manager Add-On which was preventing the system to apply the tax for some members in the United Kingdom.\n\n- The Member Geocoder Tool in the Admin will now properly URL encode locations with special characters.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082879",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082879"
+    }
+  ],
+  "lastmod": "2021-10-09T00:05:05+05:30",
+  "scraped_at": "2026-10-18T13:49:02.302577"
+}

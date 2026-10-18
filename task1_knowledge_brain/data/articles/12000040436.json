@@ -1,0 +1,23 @@
+{
+  "article_id": "12000040436",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000040436-01-26-18-software-updates",
+  "title": "01/26/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/26/18 - Software Updates"
+  ],
+  "content": "## 01/26/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000040436\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- An issue that was affecting the proper display of the Free Signup Page on some sites has been resolved.\n\n- Now all Search Feature Modules for all Post Types have the option to search by 'All Categories' in the Category dropdown. Widgets Involved: Bootstrap Theme - Homepage Search - Blog Article Search Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Homepage Search - Photo Album Search Bootstrap Theme - Module - Event Search\n\n- We fixed an issue which was affecting the display of videos in the Member Dashboard that had been marked as Favorites by a member. Widget Involved: Bootstrap Theme - Function - Add to Favorites Button\n\n- The crop image module has been deprecated from version 3 of the software (sites launched prior to 2015). Widget Involved: Profile Photo and Logo Upload\n\n- We fixed an issue that was causing the system to display a false message that a credit card was accepted when in fact it was declined in some situations.  It is now always displaying the correct message when a credit card payment is declined.\n\n- We released an update to the Search Engine used in the Search Member section of the Admin.\n\n- We fixed an issue which was affecting the Articles Sidebar widget on the homepage. Widgets Involved: Bootstrap Theme - Display - Recent Blog Articles with Sidebar\n\n- We did several updates to the Click-To-Call Members and Member Profile Analytics Add-Ons to improve their performance. Widgets Involved: Bootstrap Theme - Member Profile - Display Phone Number Bootstrap Theme - Member Profile - Header\n\n- We refactored one of the core files that loads every time a frontend page of a website is requested in order to make it process more quickly.  We also removed several lines of code that were present to support pages that have since been deprecated.\n\n- We fixed an issue that was affecting the normal behavior of the Google Sitemap Generator Add-On.\n\n- The Bookmark my Favorites Add-On is now fully based on the new Addon Manager. Widgets Involved: Bootstrap Theme - Account - Sidebar Bootstrap Theme - Member Profile - Header",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000040436",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000040436"
+    }
+  ],
+  "lastmod": "2018-01-27T04:07:15+05:30",
+  "scraped_at": "2026-10-18T13:42:15.852566"
+}

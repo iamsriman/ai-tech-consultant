@@ -1,0 +1,23 @@
+{
+  "article_id": "12000073261",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073261-08-07-20-software-updates",
+  "title": "08/07/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/07/20 - Software Updates"
+  ],
+  "content": "## 08/07/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000073261\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Stripe Payment Gateway integration to reduce duplicate payment intents / authorizations from being created in the payment process.\n\n- We created a new text label for \"/about/terms\" in order to easily update this URL in multiple places at once. Widgets Involved: Bootstrap Theme - Footer - Terms of Use Bootstrap Theme - Form - Agree Terms Conditions Text Label: about_terms_url\n\n- We updated the Chat Message modal on member contact pages in order to add the ability to upload images through the Froala WYSIWYG . Widget Involved: Form - Froala Editor Javascript\n\n- We created a new Advanced Setting called display_trascription_options to choose whether or not the Transcription Options setting displays when editing a form field. The setting will also continue top be displayed when a value has already been saved..\n\n- The system will now log the change in the Activity Tracker when an Admin edits a member's billing subscription from the member account page in the Admin.\n\n- We fixed an issue which was causing the system to still create a member when the member uses a 100% coupon code but entered an invalid credit card during the signup process.\n\n- We fixed an issue with the Lead Module which was causing the system to not ignore the \"Maximum Matches\" lead setting in some cases.\n\n- We fixed an issue which was causing the width of Froala WYSIWYG's to expand when entering a lot of text without spaces or line breaks in some cases. The text will now automatically break onto a new line instead.\n\n- We fixed an issue which was causing category dropdown fields in search modules to not work properly after choosing a language with special characters in the Google Translate Add-On.\n\n- We removed the predefined link list when creating or editing a link using the Froala WYSIWYG. Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue which was causing the Sub + Sub-Sub + Location search module widget to not automatically select the searched categories after completing the search. Widget Involved: Bootstrap Theme - Search Module - Sub_Sub_Sub_Location\n\n- We updated the purchase lead modal in order to prevent members from accidentally buying a lead multiple times by abandoning the purchase in the middle of the process. Widget Involved: Bootstrap Theme - Account - Leads Details Page - Purchase Button\n\n- Member review responses can now contain line breaks. Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue which was causing the system to display plain text javascript code on member results pages when the \"Display Google Map Option on Search Results Pages\" post setting is set to \"No\" in some cases. Widget Involved: Bootstrap Theme - Search Results Map\n\n- We moved the Country Settings link from the Admin Menu to the Payment Gateways page under the Additional Settings dropdown.\n\n- We added the ability to refresh the Google Recaptcha field when a member signup fails on checkout pages.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000073261",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073261"
+    }
+  ],
+  "lastmod": "2020-08-10T22:35:14+05:30",
+  "scraped_at": "2026-10-18T13:46:59.296988"
+}

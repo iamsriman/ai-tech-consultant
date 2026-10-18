@@ -1,0 +1,90 @@
+{
+  "article_id": "12000074682",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074682-how-to-customize-the-member-profile-url-structure",
+  "title": "How To Customize The Member Profile URL Structure",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Customize The Member Profile URL Structure"
+  ],
+  "content": "## How To Customize The Member Profile URL Structure\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000074682\n\nBy default the URL structure of member profiles is: Country Name / City Name / Top Level Category / Member Name\n\n\n## Editing Member URL Structure\n\n\nThe way to customize this structure is by navigating in the admin.\n\n- Settings tab\n\n- click on Advanced Settings\n\nInside the advanced setting search for the setting:\n\nMember Profile URL Structure\n\nSystem Variable: member_profile_url_structure\n\nTo add a new value select the plus sign next to the variable name:\n\nTo alter the structure of the URL drag and drop each variable to the correct place:\n\nOnce the Member Profile URL structure is customized, click Save to update this for all new members that register to the site.\n\nImportant: Updating the structure does not immediately rewrite every existing member URL. The structure applies when a new URL is generated or an existing URL is regenerated, including when a member saves Contact Details and the URL is not locked. When the profile URL changes through the standard update process, a 301 redirect is created from the old URL to the new URL.\n\n\n### Member Name Structure\n\n\nThe member_name element can also be structured in a way to show \"First Name - Last Name\" or \"Last Name - First Name\" with the advanced setting:\n\nFirst And Last Name Order In Profile Page URL\n\nSystem Variable: first-last-name-order-in-profile-url\n\n\n### Available URL Elements\n\n\n- country_name\n\n- city_name\n\n- top_level_category\n\n- member_name\n\n- country_short_name\n\n- state_name\n\n- state_short_name\n\n- member_id\n\n- postal_code\n\n\n## How Member Names Become URLs\n\n\nWhen the system generates a URL from a member name, it formats the name or title for use in the URL:\n\n- Straight and curly apostrophes are removed.\n\n- Most other punctuation, symbols, and spaces become hyphens. Repeated hyphens are combined into a single hyphen.\n\n- Underscores are preserved.\n\n- Accented and non-Latin letters retain their existing handling. Some characters may appear as percent-encoded values in a copied URL.\n\nOriginal member name Generated name or title portion Ruby’s Clay Studio rubys-clay-studio Ruby's Clay Studio rubys-clay-studio Art • Studio art-studio Studio_Name studio_name\n\nThese examples show only the name or title portion. The full URL also follows the configured URL structure, and a duplicate URL may require an additional identifier.\n\n\n## Existing and Custom Member URLs\n\n\nThe formatting rules apply during URL generation or regeneration. A platform update does not automatically rewrite all stored URLs.\n\nA locked custom profile URL is protected from automatic regeneration. The Quick Edit module includes the URL lock and an option to fetch a URL from the active SEO template. Review the generated URL before saving a deliberate change.\n\nThe same formatting applies to automatically generated URLs for imported members and to URLs regenerated with the URL update option in Bulk Actions .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105280337/original/Cw7PLBfeP3v2vsiAsEuhjFlU1hGVKXW8ww.png?1645315382",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Member Profile URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164637856/original/tMfN_eEEaxTG_Lr7SZvFcxN9-NqjG_XGqQ.png?1753131391",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Member Profile URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164638325/original/23zMWj_BxG0XJMqOe6bKxcAnj6W_ORIkUg.png?1753132000",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Member Profile URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152434243/original/jWmXS0Ubk9xlSqmsMyzVVLGpZy_zIxWywA.gif?1731461851",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Member Profile URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164638339/original/72sJxETnBw0LQEg3Y5AMTvpK0wLVh6MbYQ.png?1753132019",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Member Profile URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164638393/original/vRpWcDUWIKhWwCVhrUUrwHDGekWvqAqt3A.png?1753132069",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Customize The Member Profile URL Structure' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000074682",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074682"
+    },
+    {
+      "text": "Advanced Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047895"
+    },
+    {
+      "text": "Quick Edit module",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "Bulk Actions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078616"
+    }
+  ],
+  "lastmod": "2026-09-15T23:39:01+05:30",
+  "scraped_at": "2026-10-18T13:47:12.501369"
+}

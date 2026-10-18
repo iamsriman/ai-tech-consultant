@@ -1,0 +1,89 @@
+{
+  "article_id": "5000682654",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682654-content-seo-templates",
+  "title": "Content » SEO Templates",
+  "category": "My Content",
+  "folder": "SEO Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "SEO Templates",
+    "Content » SEO Templates"
+  ],
+  "content": "## Content » SEO Templates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682654\n\n\n## Overview\n\n\nSEO settings, variables, and related data can be managed across both dynamic and static features of the site. All SEO settings are optimized by default, but the system supports customization at multiple levels to adapt SEO behavior to specific needs.\n\nNot all SEO variables apply to every page, some are only available on specific page types (e.g., content pages, category pages, profile pages), since availability depends on the page type. Because of this, tracking which variables apply to which pages, membership features, content pages, or profiles can be complex. This article outlines the three levels at which SEO can be managed.\n\n\n## The Three Levels of SEO Management\n\n\nNOTE — Priority order: When settings overlap, more specific levels override more general ones. Member SEO settings take priority over Page SEO settings, and Page SEO settings take priority over the SEO Template .\n\n\n### 1st Level: SEO Template\n\n\nThe broadest level. Changes made here affect the overall SEO template for all members, categories, pages, and other dynamic content system-wide.\n\nFurther detail is available in the \" How To Edit The SEO Settings Of Dynamic (Search Results) Pages \" article.\n\n\n### 2nd Level: SEO Pages (Web Page SEO Settings)\n\n\nAffects the SEO of a specific static page and its contents. Web Page SEO settings have higher priority than the SEO Template.\n\nFurther detail is available in the \" How To Edit The SEO & Social Media Elements Of A Static Web Page \" article.\n\n\n### 3rd Level: SEO Members (Member SEO Settings)\n\n\nAffects only the specified member — for example, how a profile page displays, which SEO settings are enabled or disabled for that profile, and the member's custom URL. Member SEO settings have higher priority than both Page SEO and the SEO Template.\n\nTo access these settings:\n\n- Navigate to My Members > Search Members .\n\n- Locate the member.\n\n- Hover over Actions , then click Quick Edit .\n\nFurther detail is available in the \" How To Edit The SEO & Social Media Elements Of A Member's Profile Page \" article.\n\n\n## Troubleshooting: Changes Not Taking Effect\n\n\nIf changes do not appear to work correctly after being made, clearing the site cache is recommended:\n\nHow To Refresh The Cache Of The Website\n\n\n## SEO Variable Syntax\n\n\nCRITICAL: All SEO variables must be wrapped in percent signs. A variable written as %variable_name% is read correctly by the system. The same text written as variable_name , without the percent signs, is treated as plain text and will not function as a variable.\n\nPercent signs are reserved exclusively for SEO variables. Custom text that is not a variable should not be wrapped in percent signs.\n\n\n## Related Reading\n\n\nAdditional detail on available variables is covered in the \" Understanding SEO Variables \" article.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184632272/original/-x2Mdfp0o0FOCGb9R58YsIN_pm2IxRbjpg.jpeg?1788428140",
+      "alt": null,
+      "caption": "The broadest level. Changes made here affect the overall SEO template for all members, categories, pages, and other dynamic content system-wide.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » SEO Templates' in section 'My Content' / 'SEO Templates'. Context: The broadest level. Changes made here affect the overall SEO template for all members, categories, pages, and other dynamic content system-wide.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184632286/original/xctz7ZOQHv7Hyg9hBiXDzvFryH3v5xlDHQ.jpeg?1788428156",
+      "alt": null,
+      "caption": "The broadest level. Changes made here affect the overall SEO template for all members, categories, pages, and other dynamic content system-wide.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » SEO Templates' in section 'My Content' / 'SEO Templates'. Context: The broadest level. Changes made here affect the overall SEO template for all members, categories, pages, and other dynamic content system-wide.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184632340/original/pntY18JDYxwJ0himhtKKo-UcaL2VVItZNg.jpeg?1788428224",
+      "alt": null,
+      "caption": "Affects the SEO of a specific static page and its contents.Web Page SEO settings have higher priority than the SEO Template.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » SEO Templates' in section 'My Content' / 'SEO Templates'. Context: Affects the SEO of a specific static page and its contents.Web Page SEO settings have higher priority than the SEO Template.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184632352/original/8CcsNtGQNpemAdXuzJoB5zssXtWf5gflIA.jpeg?1788428235",
+      "alt": null,
+      "caption": "Affects the SEO of a specific static page and its contents.Web Page SEO settings have higher priority than the SEO Template.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » SEO Templates' in section 'My Content' / 'SEO Templates'. Context: Affects the SEO of a specific static page and its contents.Web Page SEO settings have higher priority than the SEO Template.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184632420/original/rvYveDs2o1X8zNSseJYbOxja_qDkJZcajA.jpeg?1788428288",
+      "alt": null,
+      "caption": "Context: To access these settings:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » SEO Templates' in section 'My Content' / 'SEO Templates'. Context: Context: To access these settings:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682654",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682654"
+    },
+    {
+      "text": "How To Edit The SEO Settings Of Dynamic (Search Results) Pages",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682653"
+    },
+    {
+      "text": "How To Edit The SEO & Social Media Elements Of A Static Web Page",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682651"
+    },
+    {
+      "text": "How To Edit The SEO & Social Media Elements Of A Member's Profile Page",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682652"
+    },
+    {
+      "text": "How To Refresh The Cache Of The Website",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000070151"
+    },
+    {
+      "text": "Understanding SEO Variables",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000022881"
+    }
+  ],
+  "lastmod": "2026-09-03T15:10:52+05:30",
+  "scraped_at": "2026-10-18T13:39:02.974313"
+}

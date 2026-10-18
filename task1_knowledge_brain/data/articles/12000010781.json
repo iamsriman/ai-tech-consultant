@@ -1,0 +1,96 @@
+{
+  "article_id": "12000010781",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000010781-manually-approve-new-member-signups",
+  "title": "Manually Approve New Member Signups",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Manually Approve New Member Signups"
+  ],
+  "content": "## Manually Approve New Member Signups\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000010781\n\nThis article explains the step-by-step process for manually approving new members.\n\nThe platform allows configuring member approval settings for each membership plan. To enable this functionality for each membership plan, follow the instructions below: 1. Go to Finance » Membership Plans. 2. Find the membership plan and click \"Edit\" Manually approving 'General User' or 'Free' membership plans is highly recommended. In the 'Signups & Upgrades' tab , there is a setting called \"After Sign Up, Set Account Status As\". Select the option called \"On Hold, Requires Admin Approval\" When this option is chosen, if members sign up, their accounts will remain On Hold and will not be visible until the admin manually approves them. The last step of the setup will be to choose the 'Sign Up Email Sent', select the one called \"Welcome-manual-review\". Editing email templates is not recommended. If an email template must be edited, follow the steps below: Manually Approving Members 1. To approve members, go to Members » Search Members. 2. The status of the member will be \"On Hold\". 3. Click Actions » Quick Edit. 4. Change the \"Account Status\" to \"Active Account\", and save the changes. When the status is 'On Hold' and it is changed to 'Active', the system prompts the administrator to send an email notification. NOTE: The email template sent above is called: user-approved-by-admin . It can be found under Emails » Email Templates. The member's status will now be 'Active. As soon as the status changes, the member will be visible on the front end of the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092141383/original/3G7htJXaTw6-0OzDdUWp4UTqvKLBdxvywA.png?1620096070",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Approve New Member Signups' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181387521/original/uB3dbZm76psuWmuA-TfaMOBhtrkVtyYuRw.png?1782997558",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Approve New Member Signups' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092141421/original/SGgR5UXcruQyYt9W8fZE8AgbJPrfMmW_nA.png?1620096201",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Approve New Member Signups' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092141453/original/mH6DbqPdoSfhXwZ9IOSU5fN_iPRbWHBUGw.png?1620096289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Approve New Member Signups' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181387833/original/wH8366XuHFbEqTd-ci0TbtsigX1ICush6A.png?1782997878",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Approve New Member Signups' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181387906/original/YT7PWKrqmkHG56wty4b9phMmFBXuwMs8IQ.png?1782997937",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Approve New Member Signups' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181387988/original/7oCVDHr7L9lyjaPo_jQkAKECD78jQ1gBCg.png?1782998007",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Approve New Member Signups' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181388134/original/4mtvFZGBr1HdtM1M0uZn84TSW6OxA1hbpg.png?1782998130",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Approve New Member Signups' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000010781",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000010781"
+    }
+  ],
+  "lastmod": "2026-07-02T18:47:17+05:30",
+  "scraped_at": "2026-10-18T13:40:21.201571"
+}

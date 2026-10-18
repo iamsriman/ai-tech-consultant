@@ -1,0 +1,58 @@
+{
+  "article_id": "12000043027",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043027-setting-up-payfast-south-africa-as-your-payment-gateway",
+  "title": "Setting Up PayFast (South Africa) As Your Payment Gateway",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Setting Up PayFast (South Africa) As Your Payment Gateway"
+  ],
+  "content": "## Setting Up PayFast (South Africa) As Your Payment Gateway\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000043027\n\nFor Brilliant Directories users in S outh Africa , PayFast is the recommended payment gateway solution. To configure PayFast as the payment gateway, the Merchant ID and Merchant Key from the PayFast account are required. For the most recent information about locating these credentials, refer to the PayFast documentation on this topic . Creating the PayFast Sandbox Environment Before processing live transactions, test payments can be completed using the PayFast sandbox environment. To access the sandbox, navigate to https://sandbox.payfast.co.za and sign in using the PayFast account email address. After signing in, the sandbox environment provides a Merchant ID, Merchant Key, Buyer Email, and Buyer Pass for testing purposes. These credentials should be saved, as they will be required during the test payment process. Making Test Transactions Next, select PayFast as the payment gateway in the Brilliant Directories Admin by navigating to Finance >> Payment Settings and selecting PayFast: Enter the Merchant ID and Merchant Key provided by the PayFast sandbox account, then set Enable Test Mode to Yes . After saving the credentials, a test payment can be processed. To complete a test payment, create a member account on the website using the standard registration process. The member should be redirected to PayFast and automatically logged into the test account. If automatic login does not occur, the Buyer Email and Buyer Pass provided by the PayFast sandbox account can be used to access the test account manually. After completing the test payment in PayFast, the member should be redirected back to the website and see a successful payment confirmation message. Once testing has been completed successfully and the website is ready to accept live payments, update the payment gateway settings by replacing the sandbox Merchant ID and Merchant Key with the live PayFast credentials, and set Enable Test Mode to No . Accepting Credit Cards PayFast accounts can accept both international and domestic Visa and Mastercard payments. However, PayFast account verification is required before credit card payments can be accepted. For more information, refer to the PayFast account verification documentation . Issuing Refunds PayFast does not provide an automatic or programmatic method for issuing refunds. As explained in the PayFast documentation , refunds must be requested by contacting PayFast Support. IMPORTANT NOTE: The Brilliant Directories Admin area includes an option to mark payments as refunded. When PayFast is used as the payment gateway, this option only updates the transaction status for internal reporting purposes and does not initiate an actual refund through PayFast. When processing a refund, it is recommended to first request the refund through PayFast. After the refund has been confirmed by PayFast, the invoice can then be marked as refunded using the Refund option in the Brilliant Directories Admin area. This provides an internal record that the payment was refunded. Minimum & Maximum Transaction Amounts The minimum and maximum transaction amounts available through PayFast vary depending on the account. These limits can be reviewed by navigating to Settings >> Payment Methods within the PayFast account. At the time this article was written, recently launched and verified accounts allowed Credit Card, EFT, Debit Card, and Masterpass payments with a minimum transaction amount of R 5.00 and a maximum transaction amount of R 10,000.00 per transaction. Other payment methods may have different limits. When testing transactions or configuring pricing on a website, PayFast account transaction limits should be considered to help prevent processing errors.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181853162/original/c9hVH7DC_Ua9eVJuIZh6pOs2fHQGPT_-uA.png?1783724831",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up PayFast (South Africa) As Your Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12032785293/original/-t77fsLjzFkU7NgIdGyDhXKKsGvWJa4ARw?1523065018",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up PayFast (South Africa) As Your Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000043027",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043027"
+    },
+    {
+      "text": "PayFast documentation on this topic",
+      "url": "https://support.payfast.co.za/article/102-where-is-my-merchant-id-and-key"
+    },
+    {
+      "text": "https://sandbox.payfast.co.za",
+      "url": "https://sandbox.payfast.co.za"
+    },
+    {
+      "text": "PayFast account verification documentation",
+      "url": "https://payfast.kayako.com/article/74-how-do-i-verify-my-account"
+    },
+    {
+      "text": "PayFast documentation",
+      "url": "https://support.payfast.co.za/article/55-how-do-i-refund-a-payment"
+    }
+  ],
+  "lastmod": "2026-07-11T05:12:51+05:30",
+  "scraped_at": "2026-10-18T13:42:29.121654"
+}

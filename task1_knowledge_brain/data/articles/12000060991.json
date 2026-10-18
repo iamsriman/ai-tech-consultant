@@ -1,0 +1,27 @@
+{
+  "article_id": "12000060991",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060991-08-23-19-software-updates",
+  "title": "08/23/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/23/19 - Software Updates"
+  ],
+  "content": "## 08/23/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000060991\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added a setting to include the \"Website Signature\" in all automatic emails sent by the System. In order to use this new feature, navigate to the Admin >> Settings >> General Settings >> Settings >> Default Email Signature section.\n\n- We released the Homepage Background Slider Add-On. Click here for more information. Widget Involved: Bootstrap Theme - Display - Background Slideshow\n\n- We fixed an issue which was causing the system to send the \"Direct Match\" email template rather than \"Indirect Match\" email template when bulk matching a lead to members in the Leads >> Manage Leads area of the Admin.\n\n- We implemented a security update to prevent \"Demo\" Admin accounts from saving code to fields in the General Settings and Design Settings area of the Admin.\n\n- We fixed a display issue which was causing Multi-Line Text Input field in the \"About\" member form to not display at the correct size when it does not have the Froala WYSIWYG Editor class assigned to it.\n\n- We deprecated the ReCaptcha Checkbox field type on the Toolbox >> Form Manager page in the Admin.\n\n- We improved the member sub-sub category search filter in the Admin in order to also search a sub-sub category's associated top level and parent sub category as well.\n\n- We added the ability to include the name of the forms that are used on a frontend page when using the \"Show Widgets\" overlay option when viewing the page as the Admin of the site. To see this overlay, click on the \"Show Widget\" button after clicking on \"Visit Site\" from the Admin area.\n\n- We added the ability to add notes when manually starting a billing subscription for a member in the Admin.\n\n- The dates displayed in the \"Date Updated\" column of the \"301 Redirect\" page in the Admin will now respect the date format selected on the General Settings page of the Admin.\n\n- We fixed an issue that was preventing the Billing Address information submitted on /checkout pages from being saved in some cases.\n\n- We fixed an issue which was affecting the ability to accept payments using the Pay-Per Post Add-On when the site is using 2Checkout as Payment Gateway.\n\n- We fixed an issue which was causing the Recent Job widget to display an SQL query in some cases. Widget Involved: Bootstrap Theme - Display - Recent Jobs",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000060991",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000060991"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/homepage-background-slider-add-on"
+    }
+  ],
+  "lastmod": "2019-08-24T04:34:45+05:30",
+  "scraped_at": "2026-10-18T13:45:25.833449"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000087040",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087040-04-22-22-software-updates",
+  "title": "04/22/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/22/22 - Software Updates"
+  ],
+  "content": "## 04/22/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087040\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added a \"Select All\" button to the Forms Inbox page in the Admin when performing a search.\n\n- We created a new CSS class called \"readonly\". This class will grey out any form field it is applied to and set the cursor pointer to \"not allowed\".\n\n- We updated the My Websites page in the Admin to display a \"Free Trial\" banner when the Admin Account does not have an active Free Trial.\n\n- We updated the Activity Tracker to log when a Tax/VAT Rule is added or saved in the Admin.\n\n- The Community Comments Add-On is now compatible with Webhooks. When a comment is added to a post, the Webhook will be triggered. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- We updated the RSS Feed for Posts Add-On to only include the posts which appear on post search results pages rather than displaying all available posts.\n\n- We fixed an issue which was preventing the system from displaying the Post Limit Banner notification on single-image Post Types in some cases.\n\n- We added Webhook support for the Quick Edit form on the Search Members page in the Admin.\n\n- The Reviews Post Type is now compatible with the RSS Feed for Posts Add-On.\n\n- We released the File Upload for Forms Add-On - please see this article for more information. Widgets Involved: System - SaveForm Bootstrap Theme - Function - Form Account - Save Actions Bootstrap Theme - Module - Newsletter Actions Bootstrap - Lead Form - Extra Settings\n\n- We fixed an issue which was preventing the system from displaying the Google Map on member profile pages in some cases. Post Type Involved: Listing\n\n- We fixed an issue with the \"Website - Lead Form - Get Matched\"  form which was hiding the \"Location\" field when a member was logged in to their account in some cases. Widget Involved: Bootstrap - Contact Member Lead Map\n\n- We fixed an issue which was causing the system to create duplicate entries when submitting the \"Website - Lead Form - Get Matched\" form if the recaptcha field is was present in the form in some cases. Widget Involved: Bootstrap Theme - Function - Form\n\n- We fixed an issue with the Export Member Data Add-On which was causing the system to create an empty export file when exporting members in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087040",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087040"
+    },
+    {
+      "text": "please see this article",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000087004"
+    }
+  ],
+  "lastmod": "2022-04-25T22:28:10+05:30",
+  "scraped_at": "2026-10-18T13:49:44.917516"
+}

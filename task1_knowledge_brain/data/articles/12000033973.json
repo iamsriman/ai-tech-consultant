@@ -1,0 +1,103 @@
+{
+  "article_id": "12000033973",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000033973-how-to-add-a-video-in-a-sidebar",
+  "title": "How to Add a Video in a Sidebar",
+  "category": "Toolbox",
+  "folder": "Sidebar Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Sidebar Manager",
+    "How to Add a Video in a Sidebar"
+  ],
+  "content": "## How to Add a Video in a Sidebar\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000033973\n\nThis article describes the steps necessary for adding a video to any website sidebar.\n\nFor this example, the site is a Real Estate/Property site, and the video we will add is of a house. The video we are adding is to promote a new house, recently put on the market.\n\nThis can be used to sell promotional ad space for existing profiles and external companies.\n\nResults:\n\n\n## Step 1 - Create A New Widget:\n\n\nIn the HTML tab, add the EMBED code for the video below the \"<div style=...>\":\n\n```\n<div style=\"margin: 10px 0px 10px 0px;\"> INSERT EMBED CODE HERE </div>\n```\n\nIt is also possible to add text and links to the sidebar:\n\n```\n<h3> New Property on the Market - Sold by <a href=\"LINK URL HERE\"><b>John Doe</b></a> </h3>\n```\n\nAdditional Information:\n\n» Toolbox » Widget Manager\n\n\n## Step 2 - Find the Sidebar to Display the New Video Widget\n\n\nGo to Toolbox » Sidebar Manager » Select the Sidebar, click Edit or Customize :\n\nFor this example, we are using the Posts Search Result Sidebar. Inside the Sidebar, find the name of the new widget and drag-and-drop the widget:\n\nNow click on Save Changes .\n\nExternal Resources:\n\n» CSS Margin » HTML YouTube Videos",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079594453/original/XNpfmBLGOjahSPyRMaKfDwMNJr27DoxMwQ.png?1594043032",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add a Video in a Sidebar' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093126657/original/u5Mgbwnhq323_SwNYcF-dMZbWmNRlhVDLQ.png?1621958008",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add a Video in a Sidebar' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079594780/original/26Qc8C_OPj2f8CwpVsbZ_7huHcs0mLp42w.png?1594043376",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add a Video in a Sidebar' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079595518/original/ZtpZY01RzHg8DpuB8SW8thVtqiUXMPa5Lg.png?1594044046",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add a Video in a Sidebar' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079594880/original/C_emdJLDm6OEeGtFc1D6bUtbsGvmqPRU1A.png?1594043486",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add a Video in a Sidebar' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093126792/original/0QKJQw3gF3yXrlnpANAUCOnaVvxd46UMhw.png?1621958125",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add a Video in a Sidebar' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095917127/original/ihS-5yobIjFjIG-DtzsbJfVMihCBFTXX4Q.png?1627064515",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add a Video in a Sidebar' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000033973",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000033973"
+    },
+    {
+      "text": "Toolbox » Widget Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000025507"
+    },
+    {
+      "text": "» CSS Margin",
+      "url": "https://www.w3schools.com/css/css_margin.asp"
+    },
+    {
+      "text": "",
+      "url": "https://www.w3schools.com/html/html_youtube.asp"
+    },
+    {
+      "text": "» HTML YouTube Videos",
+      "url": "https://www.w3schools.com/html/html_youtube.asp"
+    }
+  ],
+  "lastmod": "2025-12-24T20:31:21+05:30",
+  "scraped_at": "2026-10-18T13:41:33.668988"
+}

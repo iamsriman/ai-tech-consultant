@@ -1,0 +1,23 @@
+{
+  "article_id": "12000044454",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044454-05-11-18-software-updates",
+  "title": "05/11/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/11/18 - Software Updates"
+  ],
+  "content": "## 05/11/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000044454\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was affecting the normal behavior of the Sidebar Recent Reviews widget. Widget Involved: Bootstrap Theme - Module - Recent Reviews\n\n- We added the ability to send an SMS message when a lead has been matched with a member through an integration with 3rd party email-to-SMS provders like Text Magic. This new feature will only available if the site has installed the Automatic Lead Matching Add-On. In order to activate this new feature, navigate to the Admin >> Leads >> Leads Settings >> Click on Any Action >> Additional Notifications >> Third Party / SMS tab, you will find the option under the Title \"3rd Party Lead Matched Notifications\".\n\n- We implemented a patch to the SSL-secured version of the Admin Panel.\n\n- We fixed an issue with the Categories Search Module for the Event Feature. Widgets Involved: Search - Post - Search Query\n\n- We refactored several widgets in preparation for the upcoming release of a new method of editing Text Labels through the front end of a website. Widgets Involved: Bootstrap Theme - Account - Leads Bootstrap Theme - Account - Reviews Bootstrap Theme - Account - Menu Tabs Bootstrap Theme - Account - Upgrade Page 1 Bootstrap Theme - Account - Upgrade Actions Bootstrap Theme - Account - Checklist Wizard Bootstrap Theme - Account - Member Dashboard Bootstrap Theme - Account - Select Locations Bootstrap Theme - Account - Leads Information Bootstrap Theme - Account - Leads Details Page Bootstrap Theme - Account - Delete All Locations Bootstrap Theme - Account - Status Notifications Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Account - Lead Purchase Summary Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Photo Albums datatable Bootstrap Theme - Account - Leads - New Lead System Bootstrap Theme - Account - Feature Publishing Limit Bootstrap Theme - Account - Photo Albums Order Photos Bootstrap Theme - Account - Photo Albums Upload Module Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Account - Leads - New Lead System DataTables Bootstrap Theme - Account - Photo Albums Publishing Limit Alert Bootstrap Theme - Account - Leads Details Page - Purchase Button\n\n- We added the ability to Show/Hide the Sub Category selection checkboxes in the Listing Details section of the Member Dashboard. In order to use this new feature, navigate to Admin >> Finance >> Mange Products >> Edit Products >> Post Publishing tab, there you can check/uncheck the Specialty checkbox to show/hide the Sub Category selection checkboxes in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We fixed an issue the Transaction Type search filter on the Search Members page in the Admin area.\n\n- We added the ability to upload images to the body of an Email Template in the Admin area. Widget Involved: System - Froala Upload Read Images\n\n- We fixed an issue which was causing social media links to not appear on Member Profile Pages in some cases. Widget Involved: Bootstrap Theme - Member Profile - Overview Tab\n\n- We fixed an issue that was affecting the functionality of the Member Fetch Image Module when a website is both using and SSL Certificate, and not using the www subdomain.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000044454",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044454"
+    }
+  ],
+  "lastmod": "2018-05-12T03:44:49+05:30",
+  "scraped_at": "2026-10-18T13:42:38.650331"
+}

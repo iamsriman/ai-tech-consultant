@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106422",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106422-10-17-2025-software-updates",
+  "title": "10/17/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/17/2025 - Software Updates"
+  ],
+  "content": "## 10/17/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106422\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the Website URL form field validation from working properly on the frontend in some cases. Widget Involved: Bootstrap Theme - Function - Form\n\n- Updated the Stripe payment gateway integration workflows for 3D Secure credit cards.\n\n- Fixed an issue that affected the ability to update the status of reviews on the Member Reviews page in the Admin in some cases. Widget Involved: Account - Save Actions\n\n- Fixed an issue that prevented the \"View Setting\" link for the Require Complete Profile setting on the General Settings page from showing the Advanced Setting directly.\n\n- Released the new AI Newsletter Creator to enhance the workflow of creating Email Templates in the Admin.\n\n- Fixed an issue that caused the system to charge the incorrect amount when using the Quick Create action buttons in the Admin in some cases.\n\n- Fixed an issue that prevented member upgrades from working properly when a member did not have a credit card on file, specifically when using Stripe as the payment gateway and the \"Use AVS Billing Address Fields\" Advanced Setting was active.\n\n- Fixed an issue that prevented the schema m arkup on post detail pages from working properly when the post title contained double quotes. Widget Involved: Bootstrap Theme - Detail Page - Schema Markup - Event Post Type Bootstrap Theme - Detail Page - Schema Markup - Jobs Post Type Bootstrap Theme - Detail Page - Schema Markup - Product Post Type Bootstrap Theme - Detail Page - Schema Markup - Property Listing Post Type Bootstrap Theme - Detail Page - Schema Markup - Video Post Type Bootstrap Theme - Detail Page - Schema Markup - Community Article Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article\n\n- Added the \"Create Newsletter\" button to the \"What do you want to do today\" module on the Dashboard page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106422",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106422"
+    }
+  ],
+  "lastmod": "2025-10-20T21:51:40+05:30",
+  "scraped_at": "2026-10-18T13:56:47.358271"
+}

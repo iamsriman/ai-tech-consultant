@@ -1,0 +1,23 @@
+{
+  "article_id": "12000029403",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000029403-05-12-17-software-updates",
+  "title": "05/12/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/12/17 - Software Updates"
+  ],
+  "content": "## 05/12/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000029403\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue related to the Coupon Code feature on Checkout pages.\n\n- We fixed an issue related to the member login form not allowing multiple login attempts correctly. Widget Involved: Bootstrap Theme - Function - Form\n\n- The %subscription_name% variable is now available to be used when sending Email Templates to members from the Search Members page in the Admin area.\n\n- The wording in the Payment Options section of Checkout pages can now be modified via text labels. Widget Involved: Bootstrap Theme - Form - Membership Payment Options\n\n- We updated the \"Invalid Template Name\" error message when saving an Email Template in order to provide more information about what the error in the template name is and how to fix it.\n\n- We fixed an issue with images appearing as broken when viewing the Photo Albums Features in the Manage Post Section of the Admin.\n\n- We fixed an issue with the \"Edit\" button in the Manage Posts section of the Admin not forwarding the user directly to edit the post.\n\n- We updated the Breadcrumbs URLs on Details pages of Posts to change dynamically based on the name of the Post Type. Features Updated: Articles Events Jobs Blogs Coupons Photo Albums Properties Products Videos Classifieds Audio Files\n\n- The language in the \"Add Credit Card\" alert in the Billing Details section of the menu dashboard can now be edited via text labels.\n\n- We added a new Advanced Setting that allows the software to show all of the Member Categories on the \"Browse Categories\" page and in search feature dropdowns no matter if a member has selected the category or not.  Enabling this Advanced Setting speeds up the loading of pages that list categories in this way as the system does not have to check the database to see if at least one member has selected the category before displaying it.  However, enabling this Advanced Setting will display categories that do not have any members in them, resulting in searches for these categories returning no results. Advanced Setting: fast_search Widget Involved: Bootstrap Theme - Category Groups - Member Categories",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000029403",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000029403"
+    }
+  ],
+  "lastmod": "2017-05-14T01:21:15+05:30",
+  "scraped_at": "2026-10-18T13:41:11.822944"
+}

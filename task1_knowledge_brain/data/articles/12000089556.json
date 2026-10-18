@@ -1,0 +1,104 @@
+{
+  "article_id": "12000089556",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089556-how-to-make-a-link-with-a-member-s-ref-id-in-the-url",
+  "title": "How to Make a Link with a Member's ref_id in the URL",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "How to Make a Link with a Member’s ref_id in the URL"
+  ],
+  "content": "## How to Make a Link with a Member’s ref_id in the URL\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089556\n\nWith the Member Credits System add-on, it is possible to assign referral credits to members who refer to new sign-ups.\n\nWhen the \" Assign Referral Credits to Members Who Refer New Sign Ups \" setting is enabled under Membership Plan Settings:\n\nAn additional field on the checkout page of the membership plan will display, with the default wording \" Did Someone Refer You? Enter Referral ID Below \":\n\nWhen the ID number of the member is specified here, the member will receive the credit amount specified under the \" C redits Assigned to Referring Member \" membership plan setting:\n\nIt is possible to auto-populate the member ID# on this checkout form, using a dynamic link that would display as Custom Dashboard Content .\n\nTo accomplish this, first, create a new widget under Widget Manager:\n\nUsing the following snippet of code:\n\n<a href=\"/<?php echo $w['default_checkout_url']?>/<?php echo $subscription['custom_checkout_url']; ?>?referral_id=<?php echo $user_data['user_id'];?>\">Referral Link</a><br><br> Very important note: The code above contains a dynamic URL. This means the system will recognize automatically the membership plan URL and there is no need to create one widget per membership plan. The same widget can be placed on all of them. Now that the widget is created using the code specified above, it can be called on the preferred membership plans using the Custom Dashboard Content: Which would display on the member dashboard as shown below: This link will auto-populate the Referral ID field on the checkout form as shown below: NOTE: If the member that's logged in tried to use this link a message will appear letting them know they're already logged in. This link is meant to be copied and then shared with others that don't have an account yet, and take them to the checkout page and automatically load the member referral link.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113503584/original/QJ_9dxv-5CF-LwESIAi03_W3phzPC6T7QQ.png?1661341034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Make a Link with a Member's ref_id in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113503634/original/IMAEGXYVXXesUWvzYDo_Sq4DFXt-WTpOyA.png?1661341112",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Make a Link with a Member's ref_id in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113503687/original/W4CU0hC5Cr4IP2-khzo4pqZqCvcSpEdqZg.png?1661341216",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Make a Link with a Member's ref_id in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113504228/original/p8oDOBsLDR01JdtfPvDGpXhalgy-j0tvzg.png?1661341862",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Make a Link with a Member's ref_id in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113505051/original/Cbb1fG3bd9yni7cVnNMw7ZaQnnYbMmfPIw.png?1661342780",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Make a Link with a Member's ref_id in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113774286/original/FrFuVX7aEjZHMWueL-4b_8Ul4Bfr3B1Jxw.png?1661876228",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Make a Link with a Member's ref_id in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113774318/original/EAMnd1J5ngCgJef5jBKCYj1Qnk15Myppsg.png?1661876260",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Make a Link with a Member's ref_id in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12113505243/original/uM1sv6PTgwB3u9g48pgH1lljRgWvxbvjng.png?1661342978",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Make a Link with a Member's ref_id in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089556",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089556"
+    },
+    {
+      "text": "Member Credits System",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086306"
+    },
+    {
+      "text": "Custom Dashboard Content",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054643"
+    }
+  ],
+  "lastmod": "2024-07-04T19:58:37+05:30",
+  "scraped_at": "2026-10-18T13:50:10.133037"
+}

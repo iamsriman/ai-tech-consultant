@@ -1,0 +1,33 @@
+{
+  "article_id": "12000038355",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000038355-displaying-member-sub-level-categories-getmembersubcategory-function-",
+  "title": "Displaying Member Sub Level Categories (getMemberSubCategory Function)",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Displaying Member Sub Level Categories (getMemberSubCategory Function)"
+  ],
+  "content": "## Displaying Member Sub Level Categories (getMemberSubCategory Function)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000038355\n\nThe getMemberSubCategory() function retrieves a member's Sub-Level and Sub-Sub-Level Categories in a variety of formats, making it easier to display category information throughout the website.\n\nThe function can be used in widgets, profile pages, search results, post pages, and other compatible areas where member category information is available.\n\n\n## Function Overview\n\n\nThe getMemberSubCategory() function accepts five arguments in the following order:\n\n\n### 1. user_id\n\n\nSpecifies the member whose categories will be returned.\n\nThe value depends on the page where the function is being used.\n\nPage Variable Member Search Results $user_data['user_id'] Member Profile $user['user_id'] Post Details $post['user_id'] Post Search Results $post['user_id'] Group Search Results $p['user_id'] Group Details $group['user_id']\n\nAn integer Member ID can also be supplied directly.\n\n\n### 2. $subType\n\n\nControls which category levels are returned.\n\nValue Description \"sub\" Returns only Sub-Level Categories. \"subsub\" Returns only Sub-Sub-Level Categories. \"all\" Returns both Sub-Level and Sub-Sub-Level Categories.\n\n\n### 3. $startQuery\n\n\nControls the order in which categories are returned.\n\nValue Description \"first\" Returns categories in ascending ID order. \"last\" Returns categories in descending ID order. \"random\" Returns categories in random order.\n\n\n### 4. $numCategories\n\n\nControls how many categories are returned.\n\nAccepted values:\n\n- Any whole number (for example: 1 , 2 , 5 )\n\n- \"all\" to return every matching category\n\n\n### 5. $format\n\n\nControls the output format.\n\nValue Description \"text\" Returns a comma-separated text string. \"linked\" Returns a comma-separated list where each category is wrapped in an HTML <a> tag. \"array\" Returns an associative array where the category name is the key and the category URL is the value.\n\n\n## Example\n\n\nAssume a member has the following categories:\n\n- Cake Pound Angel Food Brownie\n\n- Pound\n\n- Angel Food\n\n- Brownie\n\n- Ice Cream Vanilla Chocolate Strawberry\n\n- Vanilla\n\n- Chocolate\n\n- Strawberry\n\n- Candy Taffy Jelly Bean Gummy\n\n- Taffy\n\n- Jelly Bean\n\n- Gummy\n\nUsing the following code:\n\nCopy echo getMemberSubCategory($user['user_id'], \"sub\", \"first\", \"all\", \"text\");\n\nReturns:\n\nCopy Cake, Ice Cream, Candy\n\nUsing the following code:\n\nCopy $subCategoryArray = getMemberSubCategory($user['user_id'], \"subsub\", \"last\", 3, \"array\");\n\nReturns:\n\nCopy array(\n    \"Gummy\" => \"/gummy\",\n    \"Jelly Bean\" => \"/jelly-bean\",\n    \"Taffy\" => \"/taffy\"\n)\n\n\n## Category Sort Order\n\n\nThe categories returned by the function follow the Sort Order configured in the Member Categories section of the Admin Area.\n\n\n## Displaying a Sub-Category Under the Member Name\n\n\nA common implementation replaces the top-level category that appears under the member's name on the member profile page. This is done by editing the Bootstrap Theme - Member Profile - Header widget and replacing the line that outputs $topCategory with a getMemberSubCategory() call, for example:\n\nCopy echo getMemberSubCategory($user['user_id'], \"sub\", \"first\", \"all\", \"text\") . \"<br /></span>\";\n\nWhen this customization is in place, the Advanced Setting Hide Top-Level Category On Member Profile Page must be left OFF , which is its default.\n\nThat setting hides the profile-header element that holds the category text, and it is the same element the customization repurposes to hold the sub-category. With both applied at once, the sub-category is still generated into the page but is never displayed, leaving a blank space under the member's name. The widget edit alone is what removes the top-level category from the header, so the setting is not needed alongside it.\n\nSub-categories in member search results are controlled separately, by the Advanced Setting Show Sub-Categories In Member Search Results . That setting has no effect on the member profile page.\n\n\n## Additional Notes\n\n\nThe examples above demonstrate common implementations of the getMemberSubCategory() function. The arguments can be combined as needed to return different category levels, ordering, quantities, and output formats depending on the desired implementation.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12111876958/original/VPwtzFasNhWtMTqnrelShWucMGCPv76RmA.png?1658247912",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Displaying Member Sub Level Categories (getMemberSubCategory Function)' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000038355",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000038355"
+    }
+  ],
+  "lastmod": "2026-07-15T02:31:40+05:30",
+  "scraped_at": "2026-10-18T13:42:05.492995"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107707",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107707-02-20-2026-software-updates",
+  "title": "02/20/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/20/2026 - Software Updates"
+  ],
+  "content": "## 02/20/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107707\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the Detect Visitor Location Add-On from working properly on the frontend of sites in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that prevented the system from loading the version history module options on Web Pages and Edit Post Settings pages in the Admin in some cases.\n\n- Released a new Brilliant Directories API endpoint, /user/subscriptions. This endpoint can be used to return information about member subscriptions.\n\n- Released a security update to the Login page in the Admin.\n\n- Fixed an issue that prevented the system from returning accurate results when searching an Event Post Type with a specific date range when the Auto-Recurring Event Add-On was not active on the website.\n\n- Fixed an issue that caused the system to inaccurately apply rate limiting to some Admin account login attempts, preventing them from logging in temporarily in some rare cases.\n\n- Implemented a performance update to the Member Profile Analytics Add-On tracking used on the frontend of sites.\n\n- Fixed a Google Maps issue that affected the ability to add Ireland as a service area for members in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- Fixed an issue that prevented the Member Reviews page in the Admin area from loading properly if reviews contained certain special characters in some cases.\n\n- Updated the image importing functionality for multi-image post types to respect the order of images imported for the posts.\n\n- The \"Top - Sub\" and \"Top - Sub - Sub-Sub\" Dynamic Category widgets are now compatible with the \"Dynamic Category Filtering - Only Show categories which belong to the Top Category\" Advanced Setting.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107707",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107707"
+    }
+  ],
+  "lastmod": "2026-02-23T23:18:04+05:30",
+  "scraped_at": "2026-10-18T13:57:16.904871"
+}

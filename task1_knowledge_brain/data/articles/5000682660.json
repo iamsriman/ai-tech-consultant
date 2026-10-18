@@ -1,0 +1,177 @@
+{
+  "article_id": "5000682660",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682660-installing-google-analytics-tracking-code-easy-method-",
+  "title": "Installing Google Analytics Tracking Code (easy method)",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Installing Google Analytics Tracking Code (easy method)"
+  ],
+  "content": "## Installing Google Analytics Tracking Code (easy method)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682660\n\n```\nImportant Notices: 1. If you have not yet installed Google Analytics 4 on your Brilliant Directories website, follow the steps in this article to copy and paste a Google Analytics 4 ID into the General Settings of your website. If you need to set up GA4, please see: Google Instructions: How to Set Up GA4 2. If you are still using Google Analytics 3, which is a Google Analytics ID that begins with UA-XXX, tracking has been deprecated and no longer works. You'll want to migrate to Google Analytics 4. If you need to migrate from GA3 to GA4, please see: Google Instructions: Migrate GA3 to GA4 3. If you've already manually added Google Analytics 4 Code to your website's HEAD or via Google Tag Manager , then no further action is required and the steps in this article DO NOT need to be followed. -- Manually Embed Google Analytics 4 Code (advanced method) -- Google Tag Manager Method\n```\n\n\n## How to Copy Google Analytics 4 ID\n\n\nNOTE: Also see Google's instructions for finding and copying your GA4 ID number: https://support.google.com/analytics/answer/9539598\n\n- Sign in to your Google Analytics account .\n\n- Click Admin in the side menu of your website property.\n\n- At the top of the page, search for \"Measurement ID\" Copy the code and paste it into the Google Analytics 4 field.\n\n\n## Adding the Google Analytics 4 ID\n\n\n- Go to Settings » General Settings and click on the tab named Integrations :\n\n- Enter the ID into the Google Analytics 4 field: e.g.: G-XXXXXXX This field works only with Google Analytics 4.\n\n\n## If You're Still Using Google Analytics 3 ID (UA-XXX)\n\n\nIf the deprecated GA3 ID has been added previously, this ID will appear in a read-only field with an alert:\n\n\" You're using a deprecated version of Google Analytics 3 \"\n\nIf you need to migrate your GA3 to GA4, please see: Google Instructions: Migrate GA3 to GA4\n\nThis field cannot be edited, there is only the additional field below to add the new GA4 ID.\n\nWhen the new GA4 ID is entered and saved the website will no longer show the old ID and start using only the new field:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159694554/original/Kqa5FBTiG7F4NnBh0OHY3FevVSHycSJb3Q.png?1744235543",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Installing Google Analytics Tracking Code (easy method)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127280769/original/-gw4OFb-FE-iDTSTZi3YeO9OdDO9RISC2w.png?1687397238",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Installing Google Analytics Tracking Code (easy method)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127281374/original/b5FFBvStWs39BzqnpwiT2kUYJBezmv9YlA.png?1687399568",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Installing Google Analytics Tracking Code (easy method)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127485242/original/niI1WT_O1ABewU3AH7WbfRTEP9cUQm2PFQ.png?1687814180",
+      "alt": null,
+      "caption": "\"You're using a deprecated version of Google Analytics 3\"",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Installing Google Analytics Tracking Code (easy method)' in section 'Settings' / 'General Settings'. Context: \"You're using a deprecated version of Google Analytics 3\"",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127484900/original/kaDdP0kEQVS4iFx1VH55wAlQqVV1saHTgA.png?1687813714",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Installing Google Analytics Tracking Code (easy method)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682660",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682660"
+    },
+    {
+      "text": "Google Instructions: How to Set Up GA4",
+      "url": "https://support.google.com/analytics/answer/9304153"
+    },
+    {
+      "text": "Google Instructions: Migrate GA3 to GA4",
+      "url": "https://support.google.com/analytics/answer/9744165#zippy=%2Cin-this-article"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "Manually Embed Google Analytics 4 Code (advanced method)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093352"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "Google Tag Manager Method",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "https://support.google.com/analytics/answer/9539598",
+      "url": "https://support.google.com/analytics/answer/9539598"
+    },
+    {
+      "text": "Google Analytics account",
+      "url": "https://analytics.google.com/"
+    },
+    {
+      "text": "Admin",
+      "url": "https://support.google.com/analytics/answer/6132368"
+    },
+    {
+      "text": "Google Instructions: Migrate GA3 to GA4",
+      "url": "https://support.google.com/analytics/answer/9744165#zippy=%2Cin-this-article"
+    }
+  ],
+  "lastmod": "2025-04-10T03:23:02+05:30",
+  "scraped_at": "2026-10-18T13:39:07.982197"
+}

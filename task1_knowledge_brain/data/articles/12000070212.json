@@ -1,0 +1,90 @@
+{
+  "article_id": "12000070212",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070212-errors-connecting-to-main-database-or-website-database",
+  "title": "Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE"
+  ],
+  "content": "## Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000070212\n\n\n## Viewing The Website From The Website URL / Domain\n\n\nAccessing a website directly through its domain may occasionally result in error messages or status notifications. These messages vary depending on factors like server connectivity, DNS propagation, or account status. This article outlines the most common messages that may appear on the public site or in the admin area, along with what each message indicates and the recommended next steps in each scenario.\n\n\n### Cloud Error\n\n\nWhen the website experiences a error, the error screen that looks like this:\n\nNormally, if a server is having a connection issue or is temporarily receiving a lot of traffic, the website visitors might see this message. In this case, the temporary connection error will resolve itself and within 60 seconds the page will refresh and should display the website.\n\n\n### Website Server Transfer\n\n\nThere are specific cases where the website is being moved to another server, in that case, the computer might have a cached version of the DNS record on the computer and may not be viewing the most recent version of the website. In this case, this is the message:\n\nIn this case, we recommend using a tool called http://www.geopeeker.com that will load the most recent version of the website.\n\nIf after 1 hour, this message is still appearing, we recommend following the directions here: [ https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/clearing-the-dns-cache-on-your-computer ] to flush the DNS cache on the computer.\n\n\n### Suspended or Deleted Website\n\n\nWhen the website is disconnected from the software, this message will appear:\n\nThis may happen if the account is very past due, and or it was requested that the website be shut down.\n\nIf this message is an error, we recommend contacting our support staff by clicking on the link so we can work to restore the website.\n\n\n## Viewing The Website In The Admin\n\n\nWhen logging into the website admin, a more detailed explanation of what the exact website error is will be shown to help our support staff troubleshoots the issue. The following errors will only be shown to administrators who are logged into the website admin that is experiencing the error and will not be shown to normal website visitors.\n\n\n### Temporary Connection Issue\n\n\nIf there is a temporary connection issue connecting to the website due to a server being overloaded with traffic at that very moment, this message will be shown:\n\nThe web page will auto-refresh every 60 seconds until the issue is resolved, so in most cases, the issue will resolve itself within that time, so we recommend to let the page refresh until admin page is visible.\n\n\n### Incorrect Database Password\n\n\nIf there is a connection issue with the website's database due to the password being changed or some other malfunctioning existing with the database, one of these two messages will appear:\n\n\n### Database Does Not Exist\n\n\nWhen there are database issues, the issue will present as follows:\n\nNOTE: The majority of the time these messages appear is when an administrator goes into Cpanel and makes updates to the databases. In this case, contact Support to get assistance.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076958550/original/Jkk-26CA5_uEhTLAWHzLkqxQ_Qa1TuvEig.png?1588642353",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076958552/original/erpFjcM12kIqt4P9zjYncKMo-D9f1cTbzA.png?1588642368",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076958619/original/tGmamR3liCgxHijT7LnBdezZ4crG-_-xUQ.png?1588642526",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076958860/original/BYCVjN05hNGfgA4AH2BMfu276nDOib4zGw.png?1588643526",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076958937/original/Vvery-TNtLa2qBR09itq7gBQOBhSvegJmw.png?1588643850",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12076958967/original/IyZYieyVa0ZvN_-V3tbgdtB8mq58dn1pAw.png?1588643940",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Errors Connecting to MAIN DATABASE OR WEBSITE DATABASE' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000070212",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070212"
+    },
+    {
+      "text": "http://www.geopeeker.com",
+      "url": "http://www.geopeeker.com"
+    },
+    {
+      "text": "https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/clearing-the-dns-cache-on-your-computer",
+      "url": "https://www.a2hosting.com/kb/getting-started-guide/internet-and-networking/clearing-the-dns-cache-on-your-computer"
+    },
+    {
+      "text": "contact Support",
+      "url": "https://support.brilliantdirectories.com/support/tickets/new"
+    }
+  ],
+  "lastmod": "2025-06-06T04:44:04+05:30",
+  "scraped_at": "2026-10-18T13:46:36.151786"
+}

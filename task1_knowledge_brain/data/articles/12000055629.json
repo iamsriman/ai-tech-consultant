@@ -1,0 +1,31 @@
+{
+  "article_id": "12000055629",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055629-03-15-19-software-updates",
+  "title": "03/15/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/15/19 - Software Updates"
+  ],
+  "content": "## 03/15/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000055629\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The show_dashboard_manage_listing Product Setting will now hide the Manage Listing menu items in the Account Sidebar Menu in the Member Dashboard Area. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- Images displayed in the Feature Blog Article Slider Add-On will now display at their original aspect ratio, centered on the page rather than stretched to fit the container. Widget Involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider\n\n- We fixed an issue which was preventing the Member Login form from displaying an error message when incorrect login credentials were used. Widget Involved: Bootstrap Theme - Function - Form\n\n- We released the Private Member Chat Add-On. Click here for more information. Widgets Involved: Bootstrap Theme - Account - Listing Forms Controller Bootstrap Theme - Account - Sidebar Bootstrap Theme - Member Profile - Contact Page\n\n- We fixed an issue which was preventing Posts from being marked as \"Featured\" using the Pin Featured Posts Add-On in some cases.\n\n- We added a Search Filter field to the Front-End Text-Label Editor.\n\n- We implemented an update to all forms to prevent the saving of extraneous data in the database when the form is submitted.\n\n- The Export Member Data Add-On will now optionally include the Paid Revenue, Past-Due and Refund information for each Member when members are exported.\n\n- We fixed an issue with the Member Export Data Add-On which was causing Member Export files to show duplicate information in some cases.\n\n- The Date Picker, Category Dropdown, and Star Rating fields are now fully compatible with the \"Required\" Field Setting in the Form Manager. Widgets Involved: Bootstrap - Contact Member Category Dropdowns Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - End Date Picker Bootstrap Theme - Start DateTime Picker Bootstrap Theme - End DateTime Picker Bootstrap Theme - Form - Display Rating Options Bootstrap Theme - Form - Group Categories Select Controller Bootstrap Theme - Form - Lead Prefer Reply Day Bootstrap Theme - Form - Lead Prefer Reply Time Bootstrap Theme - Form - Post Categories Select Controller\n\n- We fixed an issue which was causing the Profile Image uploader to change the file extension of uploaded images to .png in some cases. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue which was affecting the member signup process on checkout pages when the One-Click Social Login Add-On is enabled but the Facebook or Google credentials have not yet been setup.\n\n- We created a new Search Filter field in the Manage Post page in the Admin Area in order to filter results based on the Status of the Post.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000055629",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055629"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/private-member-chat-add-on"
+    },
+    {
+      "text": "",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/1137/custom-widget-required-fields/diff#chg-Bootstrap%20Theme%20-%20Form%20-%20Lead%20Prefer%20Reply%20Day%20%28ID%202264%29/html.php"
+    }
+  ],
+  "lastmod": "2019-03-16T04:22:55+05:30",
+  "scraped_at": "2026-10-18T13:44:39.069132"
+}

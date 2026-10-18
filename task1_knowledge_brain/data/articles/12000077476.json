@@ -1,0 +1,23 @@
+{
+  "article_id": "12000077476",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077476-02-05-21-software-updates",
+  "title": "02/05/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/05/21 - Software Updates"
+  ],
+  "content": "## 02/05/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077476\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the layout of the Global Website Search and Personal Post Feed sidebar search modules to match with the design of the other search modules on the frontend of sites. Widgets Involved: Bootstrap Theme - Module - Global Website Search + Location Bootstrap Theme - Module - Personal Post Feed Bootstrap Theme - Module - Personal Post Feed + Location\n\n- We fixed an issue which was impacting the \"Hide Parent Account\" Membership Plan setting, causing the setting to work in reverse in some cases.\n\n- We updated the logic when creating/editing an Admin Account in order to make the Account Role field required.\n\n- We fixed an issue which was preventing the system from displaying members on search results pages when the new \"Members Search Visibility Options\" is disabled on sites in some cases.\n\n- We added the ability to send an email to members once their profile is manually approved by an Admin in the Quick Edit modal on the Search Members page in the Admin.\n\n- We fixed an issue which was preventing the system from updating the font family on the member upgrade page in the member dashboard area in some cases.\n\n- We implemented an update in order to correctly format email addresses with special characters when manually sending an email from the Admin.\n\n- We fixed an issue which was preventing the system from loading the Favorites count for members in some cases. Widget Involved: Bootstrap Theme - Display - Add to Favorites Button\n\n- We fixed an issue which was preventing the system from displaying the correct price slider values when using the Post Search Modules on the homepage of sites in some cases. Widgets Involved: Bootstrap Theme - Homepage Search - Classifieds Search Bootstrap Theme - Homepage Search - Digital Products Search Bootstrap Theme - Homepage Search - Jobs Search Bootstrap Theme - Homepage Search - Products Search Bootstrap Theme - Homepage Search - Property Search\n\n- The One-Click Social Login Add-On has been separated into two separate Add-Ons: the One-Click Facebook Login and One-Click Google Login.\n\n- We updated the Activity Tracker Add-On logic in order to display the text \"Member Deleted\" on the \"Updated By\" column data when a member has been deleted from a site.\n\n- We fixed an issue which was affecting the ability to load the billing address state data after changing the country when entering the credit card information on the Member Dashboard area. Widget Involved: Bootstrap Theme - Account - Upgrade Page 2\n\n- We fixed an issue which was preventing the Members Only functionality from working properly when the Page Type of a Web Page has been set as \"Member Search Results\" in the Web Page Builder in some cases. Widget Involved: Bootstrap Theme - Member Results\n\n- We fixed an issue which was affecting the ability to display the SEO variables when using 2 percentage symbols (%%) instead of 3 in some cases.\n\n- We moved the \"Block Spam Keyword\" field to the top of the Integrations tab on the General Settings page in the Admin.\n\n- We updated the Form Manager page in order to highlight when a custom form has the same content as the corresponding default form.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077476",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077476"
+    }
+  ],
+  "lastmod": "2021-02-09T05:13:38+05:30",
+  "scraped_at": "2026-10-18T13:47:48.096223"
+}

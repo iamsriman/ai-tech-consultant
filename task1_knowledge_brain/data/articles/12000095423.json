@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095423",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095423-08-18-2023-software-updates",
+  "title": "08/18/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/18/2023 - Software Updates"
+  ],
+  "content": "## 08/18/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095423\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to reset the SPF record when visiting the Domain Manager page in the Admin if the SPF record did not exactly match the default record.  Now it will just check that the required default components are present in the SPF record and will only reset the record if they are not.\n\n- We fixed an issue which was preventing the Admin Dashboard page from loading some modules on the first load in some cases.\n\n- We fixed an issue with the Form Manager which was preventing the data saved to field types that utilize \"Label\" and \"Database Variable\" options (Select Dropdowns, Checkboxes, Radio buttons, etc) from being shown as selected when revisiting the form in the Member Dashboard.\n\n- The Recent Top and Sub Categories widgets are now compatible with the \"Show Categories with No Members\" setting. Widgets Involved: Bootstrap Theme - Display - Sub Level Categories Bootstrap Theme - Display - Top Categories\n\n- We updated the Brilliant Directories Zapier App to improve the field labels when creating and updating Members, Leads and Posts.\n\n- We added support for the \"Apple Touch Icon\". When bookmarking a page or adding the webpage to the home screen of an Apple device, the favicon of the site will now be used by default. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the \"Use Google Maps to Geocode Lead Location\" Lead API field to be compatible with the \"Location Search Suggestions\" Localization Setting.\n\n- We fixed an issue which was preventing the system from displaying the correct search results title after performing a location search for postal codes in certain locations. Widget Involved: Bootstrap Theme - Function - Google Location Suggest",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095423",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095423"
+    }
+  ],
+  "lastmod": "2023-08-23T22:07:45+05:30",
+  "scraped_at": "2026-10-18T13:52:37.345300"
+}

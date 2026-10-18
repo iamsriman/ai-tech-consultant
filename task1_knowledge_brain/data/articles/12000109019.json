@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109019",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109019-search-results-cache-system-dashboard-installer",
+  "title": "Search Results Cache System - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Search Results Cache System - Dashboard Installer"
+  ],
+  "content": "## Search Results Cache System - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109019\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Search Results Cache System Does\n\n\nThis installer tunes four existing database tables so the platform can quickly and reliably tell when their contents last changed. That change tracking is what the platform's search results caching relies on. It makes two kinds of adjustments:\n\n- Adds database indexes to the last-modified timestamp columns of four tables: the modtime column of users_data (the member data), and the revision_timestamp columns of data_categories (the directory categories), subscription_types (the membership plans), and website_design_settings (the design settings). An index lets the database check these timestamps quickly instead of scanning entire tables.\n\n- Makes those timestamps keep themselves current. It adjusts the definition of those same four columns so the database automatically refreshes the timestamp whenever a row is edited (in database terms, ON UPDATE CURRENT_TIMESTAMP). From then on, the last-modified time stays accurate on its own.\n\nOnly table definitions are changed. The installer does not edit, delete, or move any of the member records, categories, membership plans, or design settings stored in those tables.\n\n\n## Why It Appears\n\n\nIt appears when at least one of those four timestamp columns is missing its index, or when at least one of them is not yet set to refresh automatically when a row changes. This is an age-related condition: databases created before these column definitions became the platform standard will not have them yet, which is normal for older sites. Each step inspects the actual table definitions in the database and only offers to run when something is missing.\n\n\n## Why It Matters\n\n\nCaching search results only works well if the platform can cheaply answer one question: has any of the underlying data changed since the cached results were saved? The four tables this installer touches hold member data, categories, membership plans, and design settings. With indexed, self-updating last-modified timestamps, that freshness check becomes a fast lookup. To be clear about the magnitude: this is a performance and reliability improvement behind the scenes. It does not change what appears in the site's search results, only how efficiently the platform can keep cached results current.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Search Results Cache System appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Search Results Cache System does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website, and all of the data in those four tables remains exactly as it was. Going forward, the last-modified timestamps on member data, categories, membership plans, and design settings refresh automatically whenever those records are edited. There is nothing to verify or configure; if confirmation is wanted, click Check For Updates again and the entry will be gone. The update simply brings the tables in line with the current platform standard, so there is nothing that would need to be undone.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109019",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109019"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:47+05:30",
+  "scraped_at": "2026-10-18T13:59:13.870613"
+}

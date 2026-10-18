@@ -1,0 +1,23 @@
+{
+  "article_id": "12000072554",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000072554-07-10-20-software-updates",
+  "title": "07/10/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/10/20 - Software Updates"
+  ],
+  "content": "## 07/10/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000072554\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the \"Below Header Banner Ad\" widget to not show the selected banner ad image in some cases.\n\n- We fixed an issue which was preventing the Coming Soon form from being submitted due to a security check error in some cases. Widget Involved: Bootstrap Theme - Function - Save Form\n\n- We added the ability to upload images through the Froala WYSIWYG when using the Private Member Chat Add-On. Widget Involved: Form - Froala Editor Javascript\n\n- The last time a form was modified now displays for each form on the Form Manager page in the Admin.\n\n- We fixed an issue which was preventing Admins from accessing the \"Smart Lists\" page in the Admin.\n\n- We updated the Admin Role information in order to easily identify \"Custom\" or \"Default\" Roles from the Manage Admins page. The Role Name on this page is now a clickable link if the Role can be viewed or customized according to the Role Permissions of the Admin viewing the page.\n\n- We updated the name of the \"Website Conflicts\" module to \"Website Alerts\" in the Admin.\n\n- We updated the Stripe Payment Gateway logic in order to reduce redundant API calls and avoid erroneous transaction statuses for payments.\n\n- We fixed an issue which was causing the system to displays the \"Cancel Active Billing Subscription\" modal when changing the status of a member to \"Canceled\" even when the member does not have an active subscription.\n\n- We updated the \"Go to Dashboard\" Admin Permission to always be marked as checked when creating or editing Admin Roles.\n\n- We fixed an issue which was causing the \"After Sign Up, Set Account Status As\" Membership Plan setting to display an incorrect value when a Membership Plan has been cloned in some cases.\n\n- We fixed an issue which was preventing the system from setting the correct status for an invoice when a one-time transaction fails when using the PayPal Website Payments Pro Payment Gateway.\n\n- We updated the text labels used by the Sub + Sub-Sub Location search module widget. Widget Involved: Bootstrap Theme - Search Module - Sub_Sub_Sub_Location\n\n- We added validation to the Membership Plan page in order to display an error message if the Membership Plan account type is set as \"Paid\" and the billing cycle fields are set to \"0\".\n\n- We fixed an issue which was causing the \"Post Search Results Layout\" design setting to not work properly when changing the value of the setting to \"Start in Grid View\" in some cases. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We fixed an issue which was preventing the Customer Details from being sent to Stripe when processing a payment in some cases.\n\n- We updated the Email Templates functionality to support custom fields used in the Newsletter Signup form to then be used in the newsletter-signup-user Email Template.\n\n- We updated the validation on paid signup pages in order to prevent the form from submitting if the credit card information is incomplete when using Stripe as Payment Gateway.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000072554",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000072554"
+    }
+  ],
+  "lastmod": "2020-07-13T23:10:46+05:30",
+  "scraped_at": "2026-10-18T13:46:51.801470"
+}

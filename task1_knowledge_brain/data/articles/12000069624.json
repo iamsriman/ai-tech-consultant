@@ -1,0 +1,200 @@
+{
+  "article_id": "12000069624",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069624-workaround-how-to-add-specific-banner-ads-to-a-specific-static-page",
+  "title": "Workaround: How to Add Specific Banner Ads to a Specific Static Page",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Workaround: How to Add Specific Banner Ads to a Specific Static Page"
+  ],
+  "content": "## Workaround: How to Add Specific Banner Ads to a Specific Static Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069624\n\nImportant Note: This is a workaround article, before going over this option make sure to check these 2 articles:\n\n1. To add Banners to the Header, Below Header, Footer and Sidebar sections throughout the site: Settings » Design Settings » Banner Ad Design\n\n2. To add a Header banner consider adding a hero section, which allows to add a Hero banner to the header of a Static Page: How To Add A Hero Section On Static Pages\n\n\n## Adding Banners to a Specific Static Page\n\n\nTo display different custom banners on a Header banner, Below Header banner and Footer Banner, it is necessary to create custom widgets that will display in those specific locations.\n\nIn order to check on which page the banners will display and to select which banners, custom logic to each of those widgets will be required. Please bear in mind that this is a more advanced set up and that the help of a developer might be necessary.\n\nHowever, on this article, we will look for a simplified workaround to add banners below the H1 and H2 section , the Footer and Sidebar of a specific Static Page. This will not apply a banner to the Header section since that will require the custom logic mentioned above.\n\nNavigate to the Content » Edit WebPages section and open the page to add the banner.\n\nIf banners have already been placed on Banner Ad Design section, and want to hide these on this specific page follow the instructions on this article: Hiding Banner Ads On a Specific Static Page\n\n\n### Recommended Banner Sizes\n\n\nRemember to use the recommended image sizes for each of these banners:\n\n- Header and Footer: Recommended Max. Width 970 Pixels\n\n- Sidebar: Recommended Max. Width 360 Pixels\n\n\n## Method 1: Turn a Custom Image into Banner Ad\n\n\nSince it is only possible to add a Banner in the Header section using the Banner Ad Design tool, we recommend adding an image to the top of the page, this will display the banner below the H1 and H2, but on top of the rest of the page content.\n\n\n### Add a Banner Below The H1 and H2 Section\n\n\n1. Upload the image to be displayed as a banner. The recommended size for this banner is 970 x 90 pixels:\n\n2. Insert the image before the text:\n\nClick HERE to learn more about how to add an image on a web page.\n\n3. Click on the image to resize it to be 970px wide:\n\n4. Center the image:\n\n5. Click on the image to add a link:\n\nAdd a Banner to the Footer\n\nThe same logic will apply to the footer. However the banner image needs to be added at the bottom of the page content. Simply scroll all the way down and add an image at the bottom of the page. Then follow the steps 3, 4 & 5 explained above.\n\nThis is what the page will look like:\n\n\n## Method 2: Use a Custom Widget\n\n\nBanner Ads are composed of an image and a link. This is a simplified code to display a banner:\n\n<a href=“enter-the-full-url-link”>\n<img src=“enter-the-full-image-filename”>\n</a>\n\nThe href section is where the link needs to be added, in this case, the banner will be linked to https://www.brilliantdirectories.com . That looks like this:\n\n<a href=“ https://www.brilliantdirectories.com ”> <img src=“enter-the-full-image-filename”> </a>\n\nIn order to add the image, first upload the file to the Media Manager. Here is a helpful article to learn more: Content » Media Manager Upload Image .\n\nOnce the image has been uploaded, right-click on it and select Copy URL .  We recommend to copy only the relative path, which is the link information after the .com This will avoid conflicts if the site's domain gets changed:\n\nAdd the relative path to the code structure, which in this example would look like this:\n\n<a href=“ https://www.brilliantdirectories.com” > <img src=“ images/bd-banner.png ”> </a>\n\nWith this code, create a custom widget . For this example, a custom widget called Banner Ad for a specific page was added.\n\nCopy the shortcode to add this widget to the Static Page . The image can be used as a below H1 H2 , footer or sidebar banner.\n\nAdd a Custom Sidebar Banner\n\nCreate a custom sidebar , and simply add the new widget to this sidebar in the Toolbox » Sidebar Manager\n\nOnce the custom sidebar is ready, Add this Sidebar On The Static Page\n\nAdd a Footer Banner using the Footer Code Section\n\nAdding the widget to the Footer section will allow to keep this banner using the full width of the page in case it's add it in a sidebar.\n\nThis is what a page would look like with the 3 banners in place:\n\nIt's possible to add the banner code directly to the  Advanced tab >> Footer Content or create a custom widget and then add that widget:\n\nAdding just the widget or the code without any attribute or CSS class will display the banner left-aligned by default.\n\nTo center align this banner, put it inside a div like this:\n\n<div align=\"center\"> [widget=Footer Banner for specific page] </div>",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125282708/original/pJZZZ-FRkFUye-9rle3a83Qc7RxJkx5khA.png?1683752161",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821208/original/BI97IDcD74TZfnxQF-OhjWUrLNZNLhHIfQ.png?1682977185",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821210/original/PpQwPaZYfNX4MIIzG6JoSKT8kC6J1_dv_A.png?1682977199",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821218/original/wf0Nm4Yb1ApQO8Ealojrzz8JXlnX2B7M1Q.png?1682977208",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821220/original/fBZ-8iNNWmm3uVbdNXCgUI4jeS4tPRqUuQ.png?1682977217",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821240/original/85x3eI-vr4uXHRToN78Q1OEzF8WvwcXw6A.png?1682977229",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821242/original/vp8w2Fib9RYv_4-1vSaO5YUdHoS19ePHXA.png?1682977241",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821252/original/GCdHvaufSgfk801GIEzWoTX8UijqcKLxaw.jpeg?1682977253",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821279/original/gv2gWU1iOwQEzv4hR7em0jG4IJIy7Exryg.jpeg?1682977265",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125285241/original/FQp9YdS4bMCBPj1wYBWmMdAqFfPKdcfQqQ.png?1683755351",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124821325/original/ii7059yb55BCqEiJ_vMikcNO8cVtrisetQ.jpeg?1682977289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125282710/original/pZnZ9hl3BIM84ykIli5hCtHYqIOBYbBiWw.jpeg?1683752162",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Workaround: How to Add Specific Banner Ads to a Specific Static Page' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069624",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069624"
+    },
+    {
+      "text": "Settings » Design Settings » Banner Ad Design",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019194"
+    },
+    {
+      "text": "How To Add A Hero Section On Static Pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000065187"
+    },
+    {
+      "text": "Content » Edit WebPages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047120"
+    },
+    {
+      "text": "Banner Ad Design",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019194"
+    },
+    {
+      "text": "Hiding Banner Ads On a Specific Static Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000054624"
+    },
+    {
+      "text": "Banner Ad Design",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000019194"
+    },
+    {
+      "text": "HERE",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000050864"
+    },
+    {
+      "text": "https://www.brilliantdirectories.com",
+      "url": "https://www.brilliantdirectories.com"
+    },
+    {
+      "text": "https://www.brilliantdirectories.com",
+      "url": "https://www.brilliantdirectories.com"
+    },
+    {
+      "text": "Content » Media Manager Upload Image",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000000876"
+    },
+    {
+      "text": "https://www.brilliantdirectories.com”",
+      "url": "https://www.brilliantdirectories.com%E2%80%9D"
+    },
+    {
+      "text": "create a custom widget",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000025507"
+    },
+    {
+      "text": "add this widget to the Static Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051582"
+    },
+    {
+      "text": "custom sidebar",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047136"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "Add this Sidebar On The Static Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047142"
+    },
+    {
+      "text": "create a custom widget",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000051582-how-to-call-a-widget-on-a-custom-page"
+    }
+  ],
+  "lastmod": "2025-09-03T20:27:56+05:30",
+  "scraped_at": "2026-10-18T13:46:28.344636"
+}

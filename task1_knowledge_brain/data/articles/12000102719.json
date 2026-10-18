@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102719",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102719-12-06-2024-software-updates",
+  "title": "12/06/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/06/2024 - Software Updates"
+  ],
+  "content": "## 12/06/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102719\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We made several small bug fixes and improvements to the Import Business Data tool in the Admin.\n\n- We fixed an issue which was preventing the \"Get Directions\" button on the Post Location Map widget from working properly in some cases. Widget Involved: Bootstrap Theme - Module - Post Location Map\n\n- We fixed an issue which was preventing Admins from using the Export Posts functionality in some cases.\n\n- We fixed an issue which was preventing the Stock Photo Library from working properly after performing a search in some cases.\n\n- We fixed an issue which was preventing the %subscription_name% email variable from working properly when composing individual emails in the Admin.\n\n- We updated the Text Labels module to add support for several additional languages. Widgets Involved: Bootstrap Theme - Text Labels - Label Info Query Bootstrap Theme - Text Labels - Save Actions\n\n- We updated the content of the subscription downgrade email template. Email Template Involved: downgrade\n\n- We fixed an issue which was affecting the ability to delete member categories from the Member Categories page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102719",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102719"
+    }
+  ],
+  "lastmod": "2024-12-13T02:54:16+05:30",
+  "scraped_at": "2026-10-18T13:55:24.556028"
+}

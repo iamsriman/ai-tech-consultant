@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091483",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091483-12-30-22-software-updates",
+  "title": "12/30/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/30/22 - Software Updates"
+  ],
+  "content": "## 12/30/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091483\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from displaying accurate Suggested Matches when manually matching leads to members from the Admin in some cases. Widget Involved: Get Match Lead Search UI\n\n- We fixed an issue which was preventing the system from respecting the \"Show Order Summary on Signup Form\" Membership Plan Setting when a site did not have the Easy Coupon Codes Add-On. Widget Involved: Bootstrap Theme - Form - Membership Payment Options\n\n- We added the new Search Subscriptions page in the Admin.  This can be accessed by navigating to Finance >> Search Subscriptions from the Admin area of a site.\n\n- We fixed an issue which was preventing the Facebook Website Chat Add-On from loading properly on the frontend of sites in some cases. Widget Involved: Bootstrap Theme Framework\n\n- We fixed an issue which was preventing the Member Leads Smartlist from being exported correctly from the Admin in some cases.\n\n- We fixed an issue with the Zapier integration which was affecting the ability to create and update member profile photos, logos, cover photos, and member categories.\n\n- The action of deleting a post from the Member Dashboard is now being logged in the Activity Tracker.\n\n- We fixed an issue which was causing the system to return an error message when trying to delete a member credit card from the Member Dashboard in some cases.\n\n- We updated the Form Manager in the Admin to accept the underscore symbol \"_\" as a valid character when editing the \"Database Variable Name\" of options for Checkbox, Dropdown and Multichoice Radio form field types.\n\n- We fixed an issue which was causing the system to display a member login form on Web Pages made in the Web Page Builder in the Admin, even when the page has been set to disable CSS Stylesheets and hide the Header and Footer content. Widget Involved: Bootstrap Theme - Favorites - Modal\n\n- We fixed an issue which was preventing the system from respecting the Time Format setting on search results pages for the \"Event\" Post Type when the \"Auto-Recurring Events\" Add-On is not active on the site.\n\n- We fixed an issue which was preventing the system from saving non-latin characters for the \"URL Permalink\" Post Type Setting found on the \"Edit Post Settings\" page in the Admin.\n\n- We fixed an issue which was affecting the ability to close a member account from the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Delete Account",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091483",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091483"
+    }
+  ],
+  "lastmod": "2023-01-16T19:26:48+05:30",
+  "scraped_at": "2026-10-18T13:50:35.627838"
+}

@@ -1,0 +1,63 @@
+{
+  "article_id": "12000109758",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109758-settings-domain-manager-dns-records",
+  "title": "Settings » Domain Manager » DNS Records",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Settings » Domain Manager » DNS Records"
+  ],
+  "content": "## Settings » Domain Manager » DNS Records\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109758\n\nThe DNS tab in Settings > Domain Manager shows the records used by the website domain. Depending on where DNS is hosted, this tab is either an editor for the connected zone or a read-only view of public records.\n\n\n## Identify which mode is available\n\n\nDNS arrangement Available behavior Connected Cloudflare account and matching domain Read and edit records in the connected Cloudflare zone, including supported proxy controls. Brilliant Directories nameservers and an available hosted zone Read and edit the domain's BD-hosted DNS records. Third-party DNS with the domain pointed at the BD site Inspect public records. Make changes at the external DNS provider.\n\nThe tab may be absent when the website still uses a free platform address or the domain has no supported connection to inspect. Check Domain first.\n\nOn a website whose address is a subdomain, such as members.example.com , the tab shows the parent domain's zone ( example.com ). If the subdomain has been given its own separate DNS zone, its records are not listed here; manage them at the DNS provider for that zone.\n\n\n## Search and inspect editable records\n\n\n- Open Settings > Domain Manager > DNS .\n\n- Review All DNS records .\n\n- Use the search box to find a name or value.\n\n- Filter by record type when needed.\n\n- If a required record is not listed, click the Show all button below the list (for example, Show all 31 records ). The default view lists the most relevant records first; a search or type filter always includes every matching record.\n\nRefresh reloads the record list. Copy controls help transfer an exact value without retyping it. Records can also be sorted by their name or type.\n\n\n### Brilliant Directories DNS example: selfautomated.com\n\n\nA BD-hosted DNS zone filtered to CNAME records. Use the record filter and search to locate the required entry.\n\n\n### Cloudflare DNS example: demotailwind.com\n\n\nThis is a separate domain using the Cloudflare editor. It illustrates the alternative DNS arrangement, rather than the next step for selfautomated.com. On a Cloudflare-connected site, the DNS tab also shows the Cloudflare connection, Point your domain with a different DNS host , and Email delivery records above the record list.\n\nThe connected Cloudflare DNS editor exposes the proxy controls. Website records are proxied in this example; sender-authentication records remain Direct.\n\n\n## Add or change a record\n\n\n- Confirm that the displayed zone is the intended domain.\n\n- Choose the add-record action, or the edit action on the existing record.\n\n- Select the required record type: A, AAAA, CNAME, TXT, or MX.\n\n- Enter the name and value supplied by the service being configured.\n\n- For supported Cloudflare address records, choose Through Cloudflare or Direct as appropriate.\n\n- Save the record.\n\n- Refresh the list and confirm the saved values.\n\nThe add-record form shown here returns to the selfautomated.com example with Brilliant Directories DNS. Expand Add a record to enter the values supplied by the service being configured.\n\nFor MX changes that require a specific priority, use the authoritative DNS provider’s full DNS editor. The basic record form does not expose a separate priority field. To move incoming email to a different provider, follow the checks in Mailboxes and Email Routing .\n\nWebsite pointing records should use the site-specific instructions in the connection guide . Email-authentication records should use the values generated in Emails > Sender Authentication . Avoid generic examples for either task.\n\nChanges affect the live domain. Editing or deleting a record can interrupt the website, email, or another service. Keep the original values and remove only the intended record. Do not proxy mail-service or sender-authentication records that need Direct / DNS only access.\n\n\n## Inspect public records at another provider\n\n\n- Open Public DNS records .\n\n- Click Check again .\n\n- Review the record's purpose, value, and Seen by result.\n\n- Make any required correction at the DNS provider.\n\n- Return to the tab and recheck after the provider publishes the change.\n\nThe public view compares answers from Google and Cloudflare resolvers for the records it checks, including nameservers, web addresses, mail servers, SPF, other TXT records, DKIM, DMARC, and DNSSEC delegation records. Google + Cloudflare indicates agreement; Needs attention can indicate a missing record or differing answers. This view does not enumerate every possible hostname or grant editing access to the provider's zone.\n\nSuccess means the intended value is saved in the authoritative DNS editor and the public checks reflect the required configuration. Public resolvers can temporarily disagree while cached answers expire.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668519/original/DLQnxppZlQiMHdvR9Y2FzbXj-nyHI0Nu8w.png?1790182276",
+      "alt": "A BD-hosted DNS zone filtered to CNAME records, with the search box and type filter marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » DNS Records' (Settings > Domain Manager): A BD-hosted DNS zone filtered to CNAME records, with the search box and type filter marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668522/original/gCzF0RswFXv1UQfFA07A7Tsmt-dP__PqHw.png?1790182277",
+      "alt": "The connected Cloudflare DNS editor, with the Traffic column marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » DNS Records' (Settings > Domain Manager): The connected Cloudflare DNS editor, with the Traffic column marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668518/original/QKuk0rIgMupS3FVLZQbhwT_I88h07d0vGQ.png?1790182274",
+      "alt": "The Add a record form, with Add record marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » DNS Records' (Settings > Domain Manager): The Add a record form, with Add record marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109758",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109758"
+    },
+    {
+      "text": "Mailboxes and Email Routing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760"
+    },
+    {
+      "text": "the connection guide",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    },
+    {
+      "text": "Emails > Sender Authentication",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090615"
+    }
+  ],
+  "lastmod": "2026-09-23T22:27:50+05:30",
+  "scraped_at": "2026-10-18T14:00:06.380397"
+}

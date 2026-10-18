@@ -1,0 +1,46 @@
+{
+  "article_id": "12000027134",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027134-turning-off-auto-pluralization-for-seo-templates-adding-an-extra-s-",
+  "title": "Turning Off Auto-Pluralization For SEO Templates (Adding An Extra \"S\")",
+  "category": "My Content",
+  "folder": "SEO Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "SEO Templates",
+    "Turning Off Auto-Pluralization For SEO Templates (Adding An Extra \"S\")"
+  ],
+  "content": "## Turning Off Auto-Pluralization For SEO Templates (Adding An Extra \"S\")\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000027134\n\n\n## Overview\n\n\nAutomatic pluralization (the system adding an \"s\" within SEO templates) can be disabled for a site.\n\n\n## Steps\n\n\n- Navigate to Admin > Settings > Advanced Settings .\n\n- Search for disable_plural_text .\n\n- Switch the setting to ON to turn off pluralization.\n\n- Click Save Changes .\n\nNOTE: The setting name is disable_plural_text , but it is switched ON to disable pluralization, not off. The ON state activates the \"disable\" behavior.\n\n\n## Default Website Language\n\n\nWhen the Default Website Language is set to a language other than English, and the Use same language for text labels and email templates option is enabled, the system automatically disables auto-pluralization to ensure accurate text display.\n\n\n## Related Reading\n\n\nAdditional details on available variables are covered in the \" Understanding SEO Variables \" article.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184799928/original/Qz2StWghxvI1dNhQfZduV9Xj2AxGT-cM6Q.png?1788783894",
+      "alt": null,
+      "caption": "Context: Steps",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Turning Off Auto-Pluralization For SEO Templates (Adding An Extra \"S\")' in section 'My Content' / 'SEO Templates'. Context: Context: Steps",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184799953/original/FSFNQcFaqtjrH24wUknadD3fScPykW_xKA.png?1788783930",
+      "alt": null,
+      "caption": "When theDefault Website Languageis set to a language other than English, and theUse same language for text labels and email templatesoption is enabled, the system automatically disables auto-pluralization to ensure accurate text display.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Turning Off Auto-Pluralization For SEO Templates (Adding An Extra \"S\")' in section 'My Content' / 'SEO Templates'. Context: When theDefault Website Languageis set to a language other than English, and theUse same language for text labels and email templatesoption is enabled, the system automatically disables auto-pluralization to ensure accurate text display.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000027134",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027134"
+    },
+    {
+      "text": "Understanding SEO Variables",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000022881"
+    }
+  ],
+  "lastmod": "2026-09-07T17:55:57+05:30",
+  "scraped_at": "2026-10-18T13:41:01.183676"
+}

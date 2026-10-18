@@ -1,0 +1,23 @@
+{
+  "article_id": "12000058047",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058047-06-07-19-software-updates",
+  "title": "06/07/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/07/19 - Software Updates"
+  ],
+  "content": "## 06/07/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000058047\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Admin Dashboard from loading on sites with 10,000 or more invoices.\n\n- We added a search filter field to the \"Select Form to Use\" field on the Edit Post Settings page in the Admin.\n\n- We fixed an issue which was preventing all of the text from showing in some modals in the Admin.\n\n- We released an update to several widgets and PHP files to make them compatible with PHP 7.  We will be updating all existing servers to use PHP 7 in the coming months.\n\n- We updated the logic used in the Admin to determine whether to use http or https protocol, depending on whether or not an SSL Certificate is installed on a site.\n\n- We updated the Easy Coupon Codes Add-On message in order to display a more accurate notification message depending on the type of coupon a member applies to their purchase. Widget Involved: Bootstrap Theme - Function - Form Promotion Code Validation\n\n- We added a confirmation modal when an Admin chooses to delete a Single Web Page one at a time and when using a bulk action.\n\n- We fixed a UI issue which was causing the Admin Sidebar Menu to not display properly after the Compose Email modal is closed.\n\n- We fixed an issue which was preventing the Review Submitter name from displaying in the Email Template sent after an Admin or Member approves a review. Widget Involved: Bootstrap Theme - Account - Reviews\n\n- We excluded the URL of the submission Form from being checked by the SPAM Form Protector Add-On when a form is submitted.\n\n- We added the ability to enable/disable forms in bulk on the Form Manager page in the Admin.\n\n- We fixed an issue which was causing Pay Per Post Add-On to get stuck on the \"Processing Order\" message if the Member making the purchase did not have full credit card information on file.\n\n- We fixed an issue which was affecting the ability to select dates in the past using the Events Date Picker field in the Event Search Module. Widgets Involved: Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Module - Event Search\n\n- We fixed an issue which was preventing fields from being saved properly when a Default Form is initially customized.\n\n- We fixed an issue which was causing the system to show the \"Limit Post Reached\" error message when editing an existing post that was not over the post limit.\n\n- We fixed an issue which was preventing the full Transaction History totals from being displayed throughout the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000058047",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058047"
+    }
+  ],
+  "lastmod": "2019-06-08T20:34:57+05:30",
+  "scraped_at": "2026-10-18T13:45:01.218526"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000104830",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104830-06-13-2025-software-updates",
+  "title": "06/13/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/13/2025 - Software Updates"
+  ],
+  "content": "## 06/13/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104830\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Added a help note to the Membership Plan field in the Member Quick Edit modal to clarify that changing membership plans does not modify or cancel subscriptions.\n\n- Created the \"Manage Offers\" page in the Admin. This feature allows site owners to promote popular tools to their members and optionally use affiliate links. Click here for more information. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- Fixed an issue that affected the ability to send the \"Refund\" Email Template after successfully processing refunds from the Admin.\n\n- Fixed an issue that prevented exporting Newsletter Smart Lists in some cases.\n\n- Added Bulgarian, Chinese (Hong Kong), Danish, Czech, English (GB), English (AU), Greek, Hungarian, Norwegian, and Serbian to the Default Website Languages, along with Text Label and Email Template support for those languages.\n\n- Fixed an issue with the Import Business Data tool that caused the system to import business data records with inaccurate state / province information in some cases.\n\n- Updated the Contact Details form to prevent saving \"lat\" and \"lon\" geocode information for members when the form is saved from the Member Dashboard without a location selected.\n\n- Added a version history system to the Web Page Builder page in the Admin, allowing Admins to roll back changes to the 10 previous saves.\n\n- Fixed an issue that prevented the \" User Subscription Name \" from returning accurate information through the \"Members Imported / Added / Updated / Deleted Via Admin\" Webhook.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104830",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104830"
+    },
+    {
+      "text": "here",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104741"
+    }
+  ],
+  "lastmod": "2025-06-16T20:03:50+05:30",
+  "scraped_at": "2026-10-18T13:56:15.415408"
+}

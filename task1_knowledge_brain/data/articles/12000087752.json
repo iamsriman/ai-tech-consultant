@@ -1,0 +1,23 @@
+{
+  "article_id": "12000087752",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087752-06-17-22-software-updates",
+  "title": "06/17/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/17/22 - Software Updates"
+  ],
+  "content": "## 06/17/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087752\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from removing the content of the \"Events Calendar Sub Title\" Design Setting in some cases.\n\n- When an Admin's IP is blocked on the frontend of a site and then unblocked and whitelisted, that action will now be recorded in the Activity Tracker.\n\n- We fixed an issue which was preventing the \"member_lead_match_link\" Email Template variable from working properly after customizing an email template in some cases.\n\n- We created a new form field type for the Form Manager called \"Calendar - Date & Time Picker\".\n\n- We fixed an issue which was preventing the system from respecting the \"required\" form field setting when submitting forms from the frontend of sites in some cases. Widget Involved: System - SaveForm\n\n- We updated the Additional Notifications section header text that is displayed when creating or editing Custom Lead Actions in the Admin.\n\n- We updated the logic when deleting a member from the Admin to also delete any active billing subscriptions related to the member as well.\n\n- We fixed an issue which was preventing the Insta-Load Search Results Add-On from working properly when using the \"Grid View\" for search results in some cases.\n\n- We fixed an issue with the Multi-Location Add-On which was preventing the system from saving the correct location type when a member selected a service area in some rare cases. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- Actions taken on the Member Categories page in the Admin are now being logged in the Activity Tracker.\n\n- We fixed an issue with the Automatic Lead Matching Add-On which was preventing the system from auto-matching leads to additional members when the \"Get Replies from more members\" option is set \"Yes\" in some cases.\n\n- We fixed an issue with the Dynamic Category Filtering Add-On which was preventing the system from returning accurate results after selecting more than one category checkbox in some cases. Widget Involved: Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087752",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087752"
+    }
+  ],
+  "lastmod": "2022-06-20T22:54:20+05:30",
+  "scraped_at": "2026-10-18T13:49:55.440457"
+}

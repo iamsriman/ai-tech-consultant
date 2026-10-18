@@ -1,0 +1,23 @@
+{
+  "article_id": "12000070205",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070205-05-01-20-software-updates",
+  "title": "05/01/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/01/20 - Software Updates"
+  ],
+  "content": "## 05/01/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000070205\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to send the incorrect upgrade email when a member upgrades their Membership Plan in some cases.\n\n- We fixed an issue that was preventing the system from storing a member's credit card information when signing up for a paid Membership Plan with a 100% coupon code in some cases.\n\n- We fixed an issue which was affecting the ability to enable/disable forms on the Form Manager page in the Admin.\n\n- We updated the Activity Tracker logic in order to log the Membership Plan Name and ID when a new member signs up on a site.\n\n- We updated the Froala WYSIWYG in the Admin and Front-End to add image style options to the editor's menu. Available styles include: square, rounded, circle. Widget Involved: Form - Froala Editor Javascript\n\n- We added the ability to hide individual member search results sort options if the corresponding text label for the option is empty. Widget Involved: Bootstrap Theme - Member Results - Sorting Options\n\n- We updated the \"Write a Review\" form in order to pre-fill the name and email address fields when viewing the form as a logged-in member.\n\n- We added two new Design Settings called \"Overlay Visibility\" and \"Overlay Color\". These settings will help Admins to set an overlay color and opacity for the homepage hero image. In order to use these new settings, navigate to the Admin >> Settings >> Design Settings >> Homepage Layout tab >> Homepage Search Settings. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We created a new advanced setting called disable_self_leads. Setting this to 1 will prevent members from sending leads to themselves. Widget Involved: Bootstrap Theme - Member Profile - Contact Page\n\n- We fixed an issue which was causing the Live Design Tool to redirect to the homepage after clicking the \"Close\" button.\n\n- The About Website and Join Offer fields on the Design Settings page now use the Froala WYSIWYG. Widget Involved: Bootstrap Theme - Display - About Website and Join Offer\n\n- We fixed issue which was causing the Recent Events widget to update the search results pagination when the widget has been added to a custom member search results page. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We updated the Events Search Results logic in order to prevent event posts that do not have a start date specified from displaying in search results. Widgets Involved: Search - Post - Search Query Bootstrap Theme - Display - Recent Events Bootstrap Theme - Function - Events Calendar JSON Array\n\n- We fixed an issue which was causing the system to display an error message when a member signs up and the allow_duplicate_member_emails Advanced Setting is set to 1.\n\n- We updated the search results pagination in order to display five elements and keep it in one single line on mobile devices. Widget Involved: Bootstrap Theme - Pagination\n\n- We fixed an issue which was affecting the ability to process PayPal transactions in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000070205",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070205"
+    }
+  ],
+  "lastmod": "2020-05-05T05:48:47+05:30",
+  "scraped_at": "2026-10-18T13:46:35.318739"
+}

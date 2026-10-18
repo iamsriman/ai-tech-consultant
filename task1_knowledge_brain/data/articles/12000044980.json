@@ -1,0 +1,355 @@
+{
+  "article_id": "12000044980",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044980-design-settings-header-search",
+  "title": "Design Settings » Header Search",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Header Search"
+  ],
+  "content": "## Design Settings » Header Search\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000044980\n\n\n## Header Search\n\n\nThere are different variations to the Header Search, edit this setting by navigating to: SETTINGS >> DESIGN SETTINGS >> Header Design\n\n\n### Visual Guide of Header Settings\n\n\n\n### Keyword + Location (default)\n\n\nWhat Keywords is this field looking for?\n\n- Company Name / Individual Name\n\n- Categories (Top >> Sub >> Sub Sub) Something important for to know is that there is a priority on how these categories are displayed. Example: If there is a Top Category called \"Music Academy\" and a Sub Category \"Music Masterclass\", the Top Category \"Music Academy\" will show up in Search Results, both categories have the same word at the beginning \"Music\" so the system will pick the one with the higher priority, in this case the Top Category, also a keyword search that is an *exact match* for the name of a category will *only* return results in that category. We also recommend reading All About The Keyword Auto-Suggest For Member Searches to provide a more detailed search for the visitors.\n\n- The Search Member Keywords Add-on It will index all text on  the members’ profile pages including custom text areas and form fields.\n\nIMPORTANT : The Keyword field is not going to provide results from Membership Features, there are specific modules for these.\n\n\n### Hide Header Search\n\n\nNo Search is going to appear on the Header.\n\n\n### Only Location Search\n\n\nThis mode will only look for location.\n\n\n### Only Keyword Search\n\n\nSearches only for Keywords.\n\n\n### Display Header Banner Ad\n\n\nThis option will remove the search completely, instead it is going to use the Banner Ad designated on the Banner Ad Design .\n\n\n### Show Social Media Links\n\n\nThe Social Media details that added on ( SETTINGS >> GENERAL SETTINGS >> SOCIAL MEDIA ) are going to display in this section.\n\n\n### Specific Membership Features Search\n\n\nThese are Search Modules for specific Membership Features, this will be determined by the needs of the site. These search modules will only search for the name of the post.\n\n\n### Blog Articles Search\n\n\nThis module searches for Blog posts.\n\n\n### Classifieds Search\n\n\nThis module searches for Classified posts and includes a location module.\n\n\n### Coupon Search\n\n\nThis module searches for Coupon posts\n\n\n### Event Search\n\n\nThis module searches for Event posts\n\n\n### Job Search\n\n\nThis module searches for Job posts\n\n\n### Member Articles Search\n\n\nThis module searches for Member Community Article posts\n\n\n### Product Search\n\n\nThis module searches for Product posts\n\n\n### Property Search\n\n\nThis module searches for Property posts\n\n\n### Video Search\n\n\nThis module searches for Property posts\n\n\n### Global Website Search\n\n\nIf the Website has the Global Website Search Addon active the following 2 search modules will appear as options:\n\nTo learn more about this Addon, navigate to the following link:\n\nGlobal Website Search",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590729/original/gBuCUrLBH11CH27cGU9gws7SNrN9f53f7g.png?1698797911",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133584378/original/i5Odpic8L1CRvmWdY8MxUZA3qHQJXQynqQ.png?1698786156",
+      "alt": null,
+      "caption": "Context: What Keywords is this field looking for?",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'. Context: Context: What Keywords is this field looking for?",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133584409/original/tvrn0gPRWj_8erlfWE1j_3qDydoIilxG5Q.png?1698786185",
+      "alt": null,
+      "caption": "Context: What Keywords is this field looking for?",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'. Context: Context: What Keywords is this field looking for?",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133584504/original/BTDIfypUNfRUT4qkJBKj74qH629VAOq3Fw.png?1698786275",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133584466/original/pxYwFPfBWfsuGlkPlrLrWShMk_o7NKKpdQ.png?1698786242",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590584/original/LDcDmAuVlIySR6O_mGPIzn2XRszjr9YZFA.png?1698797599",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590602/original/nf93ijWcxkSjAlPAz2kNz6494YejjW0uwQ.png?1698797708",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590492/original/fbVWcpIB0P8hAxtca08LOYFVr6XTKtbfdg.png?1698797443",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590523/original/3AKvfKP5YWpJgKwgYQj3r_6-LVVqdLNOrQ.png?1698797496",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590581/original/ETw5Z3XnAL0Yn1-Nz1Irv9BuHfBWKqxMuA.png?1698797587",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590585/original/nZy8VmUUTRO3G1PlC1WNocA-QQ6XktXBWw.png?1698797613",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590641/original/JVK5Rt-tDBBIC6YX6-KusVCzCYPtxDKEEQ.png?1698797761",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590644/original/TltDSsLo_eZmlFqqi1NdB3ycZ2SX9GS0Aw.png?1698797803",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590814/original/8kARa1p1AOAfifseoxH8Z2pBbo12rpN-Kg.png?1698798162",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590839/original/22k0ZDH97HsxEwCYiHzESCk1vVgqsd3BZQ.png?1698798190",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590855/original/iu_ljxtgiQrPQvqzDdzaHdVyRvSwy5Xeaw.png?1698798292",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590876/original/9rfhM1en-G2_-kqyX4pJBKirxZl0RpnDfw.png?1698798359",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590906/original/UyKX-PEbLu7ubE-PzOIMqv3D-SzvhvLhqA.png?1698798430",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133590950/original/FL24oHu4dbiCJaJMu2j9n7cdrEgjYj19Fw.png?1698798467",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591049/original/qPU5rQk_AwkbAF00MqVdyl6AJWR70mzZmA.png?1698798743",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591054/original/tVHq53eJEwuyiXq8s_8VJ7Mwfu8Vny4qTQ.png?1698798772",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591104/original/SI0Dj6ZoxzIT6O73EETAFYqBVxKwZZ4f7Q.png?1698798869",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591065/original/DKCiVhj-N_CSgUX7lOoJYvTKMDwoaotyXQ.png?1698798833",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591125/original/MyoqAFUvikCe3vM5xMfQIFWqjzv29SPNZw.png?1698798921",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591127/original/dtTqaXa6AUiKVJb6ahAqdvxHsHMM7CQSaw.png?1698798949",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591138/original/diYfvFkRNC59uFVQwfvHLIsbHqJ6q1zfWA.png?1698799022",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591143/original/dXTbHuRJ-_HTQPmYCOPsPpEGnGyJ3qPTHg.png?1698799044",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591151/original/aUONtcdMwXNxDWutr0P6mZQ_OzJNKCw1Ww.png?1698799104",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591146/original/HBnfEdBE824NLy00ROFLFJzEWaUI0gRB1w.png?1698799088",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591161/original/Njrk-qem0bwnBfcHE1Y0GFCl8vA6eRmsPQ.png?1698799143",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591173/original/1IjIsVIBiICRnwQcBNqleEQaSxCRtzfFfA.png?1698799170",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591222/original/1oQwTkinxeli5jnpdytTqwGmWdiTohbEfw.png?1698799311",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591223/original/ql11jx3Yg3JdeKEVgP0RWzcbnk1n2giKdA.png?1698799335",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591233/original/F_0hwv9RE7srxjttEViNwno9139k9PIn2g.png?1698799383",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133591245/original/Skz7_al_fas2u1I7d0CHRm8_2O8CKSY9kg.png?1698799401",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Header Search' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000044980",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044980"
+    },
+    {
+      "text": "All About The Keyword Auto-Suggest For Member Searches",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004676"
+    },
+    {
+      "text": "Search Member Keywords Add-on",
+      "url": "https://www.brilliantdirectories.com/search-member-keywords"
+    },
+    {
+      "text": "Banner Ad Design",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019194"
+    },
+    {
+      "text": "Global Website Search",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073931"
+    }
+  ],
+  "lastmod": "2023-11-01T06:16:08+05:30",
+  "scraped_at": "2026-10-18T13:42:45.993209"
+}

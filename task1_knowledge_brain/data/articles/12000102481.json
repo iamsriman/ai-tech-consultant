@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102481",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102481-11-22-2024-software-updates",
+  "title": "11/22/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/22/2024 - Software Updates"
+  ],
+  "content": "## 11/22/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102481\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue that was preventing the system from displaying the correct \"publish date\" for Blog Posts in the RSS Feed.\n\n- We updated the Froala WYSIWYG to add the ability to drag and drop <table> elements within the editor. Additionally, we added the ability to copy table content in Froala Editors.\n\n- We fixed an issue that was affecting the ability to assign a Group Tag to a Member Tag when creating Member Tags in the Admin.\n\n- We fixed an issue which was preventing site visitors from selecting the State/Province option when creating a new member profile using mobile devices in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We updated the Import Business Data Tool to add the ability to search by business name.\n\n- We added the ability to upload SVG image files in Froala WYSIWYG editors in the Admin and on the Frontend. Widget Involved: Bootstrap Theme - Form - Froala Editor Actions\n\n- We fixed an issue which was preventing the system from using the \"Default From Email Name\" variable for notification emails sent by the system when the Contact Us form was submitted in some cases.\n\n- We fixed an issue which was preventing the \"Migrate City - Zip Code Service Areas\" installer from completing properly in the Installer module in the Admin Dashboard in some cases.\n\n- We updated the Brilliant Directories Zapier App to not require the Lead Status and Lead Email fields when updating Leads using the App. Additionally, we implemented a set of minor fixes to the triggers logic using the Zapier App.\n\n- We fixed an issue which was preventing the system from filtering the fields as expected when searching for the keyword \"lead\" when editing the settings of a Membership Plan on the Admin in some cases.\n\n- We updated the Match Lead page in the Admin to always display the member to whom a lead was submitted as the first suggested result when manually matching a lead in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102481",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102481"
+    }
+  ],
+  "lastmod": "2024-11-25T22:53:11+05:30",
+  "scraped_at": "2026-10-18T13:55:18.268171"
+}

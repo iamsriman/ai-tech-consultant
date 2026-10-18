@@ -1,0 +1,37 @@
+{
+  "article_id": "12000072585",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000072585-how-to-whitelist-and-allow-3rd-party-iframes-to-be-embedded-within-the-froala-text-editor",
+  "title": "How to Whitelist and Allow 3rd Party iFrames to be embedded within the Froala Text Editor",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How to Whitelist and Allow 3rd Party iFrames to be embedded within the Froala Text Editor"
+  ],
+  "content": "## How to Whitelist and Allow 3rd Party iFrames to be embedded within the Froala Text Editor\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000072585\n\nBy default, the platform supports iframes from Youtube, Vimeo, Facebook, and SoundCloud. The rest of the platforms that provide sharable content through iframes are blocked, for security purposes, by the platform.\n\nThe way to bypass this is by adding a comma-separated list of URLs that provide the iframe content, to the advance setting:\n\nAllowed Iframe Sources\n\nSystem Variable: iframe_source_whitelist\n\nOnce the URL of the website providing the iframe has been added, the content should immediately show up once the iframe is shared on the site.\n\nImportant : sharing content through iframes should be supported by any froala editor of the site.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647284/original/7p2aa2xyL4Q0zmsU51wXipNhkDyeYGT2LQ.png?1753161105",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Whitelist and Allow 3rd Party iFrames to be embedded within the Froala Text Editor' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000072585",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000072585"
+    },
+    {
+      "text": "froala",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019667"
+    }
+  ],
+  "lastmod": "2025-07-22T10:41:49+05:30",
+  "scraped_at": "2026-10-18T13:46:53.379873"
+}

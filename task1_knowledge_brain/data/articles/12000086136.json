@@ -1,0 +1,91 @@
+{
+  "article_id": "12000086136",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086136-troubleshooting-no-sub-or-sub-sub-level-categories-displaying-in-the-member-dashboard-forms",
+  "title": "Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms"
+  ],
+  "content": "## Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086136\n\nBy default, the Sub and the Sub-Sub Level Categories will display under the Additional Details tab under Member Dashboard:\n\nIf these categories are not displaying as is shown above, this may due to a couple of reasons.\n\n\n## 1) No Sub or Sub-Sub Level Categories Added to the Site Yet\n\n\nThis sounds simple but it is always a good idea to double-check if there are any Sub and the Sub-Sub Level Categories added to the site. The easiest way to check this would be under My Members >> Member Categories in the admin:\n\n\n## 2) The Top-Level Category Member Selected Does Not Have Any Sub or Sub-Sub Level Categories Assigned\n\n\nThere could be a scenario where the site indeed has Sub and the Sub-Sub Level Categories but the one member selected under their Contact Details form does not.\n\nLet's use real examples. The member down below selected the Top-Level Category called Virtual Events:\n\nBut if we use the built-in filter to search for the Sub-Level Categories with a parent category (Top-Level Category) Virtual Events, we can see that there aren't any:\n\nAnother way to visualize this would be checking the default /categories page:\n\n\n## 3) Specialties Option Was Not Enabled Under the Membership Plan Post Publishing Tab\n\n\nUnder Membership Plan settings >> Post Publishing tab, \"Specialties\" option might not be enabled yet:\n\n\n## 4) The Category Selection Widget Was Deleted From Listing - Additional Details - Member Form\n\n\nThe widget named \" Bootstrap Theme - Account - Select Categories \" can be found on the default Listing - Additional Details - Member form and is necessary for members to select their specialties:\n\n\n## 5) Custom Code Related Issues\n\n\nThere might be an instance where the category options are not displaying due to custom code added to the site. To make sure this is not the case, please refer to the article down below that talks about the basic troubleshooting steps user can take:\n\nBeginner’s Guide To Troubleshooting Website Errors",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105548672/original/Qvqinj_ETOVisUVzr99Qm7ZCQ3Nnzz6bNg.png?1645735966",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105548439/original/cjzZvLEZUpc1mojQb8W2Ntvv3VW_Rj1MCw.png?1645735578",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105548756/original/PZUkeQdOILNrwXdOre22xSnrVQ8rek69bQ.png?1645736043",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105548820/original/9aNukW5soOak_daHBXSEWxwsq0XGb4tmBw.png?1645736150",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105548898/original/5suX-XYpoE3cgeB6nEpqxcMAp_UxkMtD5w.png?1645736224",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105549051/original/Cwx02XOdPE2DP6aLDUr45CWdI4HMwjbZnw.png?1645736444",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105549261/original/EVYAsLP0cp_03aNFP5bUdNJy1eDlRDCTzA.png?1645736714",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Troubleshooting: No Sub or Sub-Sub Level Categories Displaying in the Member Dashboard Forms' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086136",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086136"
+    },
+    {
+      "text": "Beginner’s Guide To Troubleshooting Website Errors",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082053"
+    }
+  ],
+  "lastmod": "2024-06-18T06:45:04+05:30",
+  "scraped_at": "2026-10-18T13:49:29.550713"
+}

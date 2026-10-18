@@ -1,0 +1,55 @@
+{
+  "article_id": "12000069504",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069504-showing-related-posts-by-category",
+  "title": "Showing Related Posts by Category",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "Showing Related Posts by Category"
+  ],
+  "content": "## Showing Related Posts by Category\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000069504\n\n\n## How Does It Work ?\n\n\nThis default widget will display related posts inside the sidebar of your P ost Detail page s.\n\nBy default, it will display FIVE(5) related posts:\n\nIn this example, we use the Properties but this widget will work with all the post types inside: Content » Edit Post Settings.\n\n\n## How To Enable It :\n\n\nLook for the \" Bootstrap Theme - Display - Related Posts by Category \" sidebar widget inside Toolbox » Sidebar Manager » Post Single Page:\n\nDrag and drop the widget into the order:\n\nAdditional Information :\n\n» Toolbox » Sidebar Manager\n\n\n## How Posts are Determined to be Related:\n\n\nThe widget will follow the exact order outlined below to display Related Posts -\n\n- User Category Post Match: This means that the system will look for other posts within the same Post Type (Properties) that have the same post type category selected from the Member posting (Jane Doe). - For Properties, it will only skip the category filter and search for Property posts from Jane Doe.\n\n- User Post Match: This means that the system will look for other posts within the same Post Type (Properties) from the Member Posting (Jane Doe).\n\n- Post & Category Match: This means that the system will look for other posts within the same Post Type (Properties) that have the same post type category selected from all Members that have published this Post Type.\n\n- Other Match for Same Post Types: This means that the system will look for other posts within the same Post Type (Properties) from all Members that have published this Post Type.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12142649258/original/1hfIJJxqUXRmJ_Sqv8YFgI2Swm-0ELmNEA.jpeg?1714669219",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Showing Related Posts by Category' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107083165/original/lwPhbtqclbARXg_AgH5eFY4HWaNwf7VAzw.png?1648771405",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Showing Related Posts by Category' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107083211/original/RFVt5_Did_0cnwlc0LTg1f-YSx6tPpxhiA.png?1648771568",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Showing Related Posts by Category' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000069504",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069504"
+    },
+    {
+      "text": "» Toolbox » Sidebar Manager",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000673365-toolbox-%C2%BB-sidebar-manager"
+    }
+  ],
+  "lastmod": "2024-05-02T22:31:20+05:30",
+  "scraped_at": "2026-10-18T13:46:26.678994"
+}

@@ -14,6 +14,7 @@ from .sitemap_parser import SitemapParser, SitemapEntry
 from .rate_limiter import PoliteRateLimiter
 from .checkpoint import CrawlCheckpoint
 from task1_knowledge_brain.multimodal.image_extractor import ArticleData, ArticleParser, ExtractedImage
+from task1_knowledge_brain.multimodal.image_describer import ImageDescriber
 
 logger = logging.getLogger(__name__)
 
@@ -32,6 +33,7 @@ class PoliteCrawler:
         rate_limiter: Optional[PoliteRateLimiter] = None,
         checkpoint: Optional[CrawlCheckpoint] = None,
         parser: Optional[ArticleParser] = None,
+        image_describer: Optional[ImageDescriber] = None,
     ):
         self.data_dir = Path(data_dir)
         self.articles_dir = self.data_dir / "articles"
@@ -40,6 +42,7 @@ class PoliteCrawler:
         self.rate_limiter = rate_limiter or PoliteRateLimiter(min_delay=0.4, max_delay=0.8)
         self.checkpoint = checkpoint or CrawlCheckpoint(self.data_dir / "crawler_checkpoint.json")
         self.article_parser = parser or ArticleParser()
+        self.image_describer = image_describer or ImageDescriber(self.data_dir / "image_descriptions_cache.json")
         self.sitemap_parser = SitemapParser()
 
     def fetch_page_html(self, url: str) -> str:
@@ -74,6 +77,14 @@ class PoliteCrawler:
                 lastmod=entry.lastmod,
                 scraped_at=datetime.utcnow().isoformat(),
             )
+            # Enrich screenshot metadata before persistence/chunking. Failures
+            # in description generation must not discard the parsed article.
+            try:
+                self.image_describer.enrich_article_images(
+                    article_data.images, article_data.title, article_data.category, article_data.folder
+                )
+            except Exception as image_error:
+                logger.warning("Image enrichment failed for article %s (%s)", article_id, type(image_error).__name__)
 
             # Save structured article JSON
             article_file = self.articles_dir / f"{article_id}.json"

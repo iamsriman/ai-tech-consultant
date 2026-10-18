@@ -1,0 +1,336 @@
+{
+  "article_id": "12000048476",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476-account-dashboard",
+  "title": "Account Dashboard",
+  "category": "Dashboard Overview",
+  "folder": "Dashboard Links & Modules",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Dashboard Links & Modules",
+    "Account Dashboard"
+  ],
+  "content": "## Account Dashboard\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048476\n\nIt is really important to know where to find the Site ID. Especially when an admin account has multiple sites, this information needs to be included when submitting a new support ticket.\n\nTo find the Site ID, log into the admin , and look at the top left corner of the page, click on the website logo website, a pop-up will show on the top left corner, this will display the website name, ID, status and license linked to this site, as well as the domain that's currently connected:\n\nAt the top right corner, there will be an option button to \"View My Websites\" . Alternatively, click on the \"Manage Websites\" link.\n\nThis will display all websites linked to this particular admin account (active, cancelled and pending activation). This section also includes a list of the Add-ons pending activation , as well as the Quick Start videos and at the bottom, there is also a shortcut link to contact support .\n\n\n## Website Snapshot\n\n\nThe Admin Dashboard now always displays a website snapshot/preview for each site, providing users with a quick visual reference directly from the Account Dashboard. Once the To-Do List is completed, the Website Snapshot remains visible for easy access to the website at any time.\n\nAccount Dashboard Header\n\nThe Account Dashboard header provides quick access to key navigation areas, including My Websites, Support, notifications, and account settings. It centralizes essential tools and alerts, allowing efficient management of websites and account activity from a single location.\n\n\n### My Websites\n\n\nSelecting My Websites redirects to the main Account Dashboard page. This page displays all associated websites and provides options to manage, activate, or create new sites.\n\n\n### Support\n\n\nSelecting the Support button opens a dropdown menu with access to support resources and assistance options. The menu includes links to view support tickets, use the BD Helpbot, watch setup videos, search help articles, or create a new support ticket.\n\nMore information about the Support portal: Using the Support Center\n\n\n### View Support Tickets\n\n\nSelecting View Support Tickets redirects to the support ticket dashboard. This page displays all submitted tickets and provides the option to open a new support ticket if none currently exist\n\n\n### BD Helpbot\n\n\nSelecting BD Helpbot opens an interactive support chat window in Beta mode. This feature provides automated assistance for questions and troubleshooting, with the option to create a standard support ticket if needed.\n\n\n### Quick Setup Video Guides\n\n\nSelecting Quick Setup Video Guides opens a page featuring step-by-step tutorial videos for setting up and customizing a website. The page provides organized video resources covering topics such as design, payments, membership plans, and general configuration.\n\n\n### Search Help Articles\n\n\nSelecting Search Help Articles redirects to the Help Center search page. This page allows browsing and searching through documentation articles to find guidance and detailed instructions.\n\n\n### Create Support Ticket\n\n\nThe Create Support Ticket page displays a contact form to submit a new support request. It includes fields to select the website, choose a ticket type, enter a subject and details, and optionally attach files before submitting the ticket.\n\n\n### Activity Feed\n\n\nSelecting the Activity Bell icon opens a side panel displaying real-time website updates and notifications. If no activity is available, the panel provides an option to enable notifications or configure settings.\n\n\n### DDC\n\n\nSelecting DDC displays information about Directory Discount Club membership benefits. This includes access to grandfathered discount rates on lifetime sites and VIP Add-Ons.\n\nDirectory Discount Club\n\n\n### User Account\n\n\nSelecting the account email (signed in as dashboard@documentation.com) opens a dropdown menu with account-related options. This menu provides access to referral settings, notification preferences, dark mode, and the option to sign out.\n\n\n### Refer & Earn 50%\n\n\nSelecting Refer & Earn 50% redirects to the Referral Program page. This page provides details about earning 50% commissions, explains how the program works, and includes options to join the program or access the affiliate login.\n\n\n### Notification Settings\n\n\nSelecting Notification Settings opens the page to manage website activity alerts. This page allows configuration of notification frequency and selection of specific notification types to enable or disable.\n\n\n### Dark Mode\n\n\nSelecting Dark Mode allows administrators to switch the interface theme from light to dark. This option provides flexibility to choose the preferred visual display style.\n\n\n## Account Snapshot\n\n\nThis section shows a snapshot of the website stats.\n\n- The Active Sites section displays the total number of currently active websites in the portfolio. It provides a quick overview of all live sites under the account.\n\n- The Total Revenue section displays the combined revenue generated across all active websites. Revenue may include amounts from sites using different currencies.\n\n- The T otal Members section displays the combined number of members across all active websites. It provides a quick overview of total user accounts within the portfolio.\n\n\n## New Website Button\n\n\nThis button leads to the Brilliant Directories Compare Pricing Plans page.\n\n\n## My Active Sites\n\n\nSelecting My Active Sites displays a list of all currently active websites within the account. This section allows management and access to each live site.\n\nThis section includes information pertaining to each individual site:\n\n- Sort Dropdown – Displays sorting options for the website list (Site ID Highest/Lowest, Name A–Z/Z–A, Revenue Highest/Lowest, Members Highest/Lowest).\n\n- Website Count Indicator – Displays the total number of websites associated with the account.\n\n- Role Filter – Filters websites by assigned role (Owner or Collaborator).\n\n- Search Field (Filter Name or ID) – Filters websites by website name or Site ID.\n\n- View Toggle (Grid/List) – Switches between grid view and list view display formats.\n\n- Site ID Badge – Displays the unique Site ID assigned to the website.\n\n- Website Preview Thumbnail – Displays a visual preview of the website homepage.\n\n- Website Name – Displays the internal website name.\n\n- Website URL – Displays the primary domain associated with the website.\n\n- Start Date – Displays the website creation or activation date.\n\n- Role Badge – Displays the assigned role (Owner or Collaborator).\n\n- Environment Label – Displays the environment classification (e.g., Internal).\n\n- Total Revenue – Displays cumulative revenue generated by the website.\n\n- Total Members – Displays the total number of registered members.\n\n- Add-Ons Status – Displays active add-ons associated with the website.\n\n- Business Credits Indicator – Displays available and total business credits.\n\n- Manage Site Button – Provides access to the website’s Admin Dashboard.\n\n- More Options Dropdown – Provides additional actions (Contact Support).\n\n\n## More Options Dropdown\n\n\nThe More Options dropdown provides quick access to additional tools and actions for each website.\n\n\n### View Limits\n\n\nSelecting View Limits opens a resource usage panel for the selected site. This includes: Members, Email Sends, Business Credits, Storage, Bandwidth This feature allows users to monitor their current usage and understand how close they are to their plan limits.\n\n\n### Contact Support\n\n\nSelecting Contact Support provides direct access to support resources.\n\nThis option allows users to: open the support center, submit a support ticket, and get assistance related to the selected site.\n\nMove to Another Site\n\nMove to Another Site allows users to transfer resources between websites within the same account. Previously, transfers required contacting support, now they are self-managed.\n\n\n### Transfer Business Credits\n\n\nTransfer custom amounts of Business Credits between sites. Specify exactly how many credits to move between sites. This is useful for reallocating credits based on each site’s needs.\n\nTransfer VIP Add-Ons\n\nMove the entire VIP Add-Ons package to another site, including all included features. Individual add-ons cannot be transferred separately, so everything is moved together as a complete package.\n\n\n### Ready to Activate\n\n\nSelecting Ready to Activate displays websites that have been created but are not yet live. This section allows activation of sites when ready to launch.\n\n\n## Inactive Sites\n\n\nSelecting Inactive Sites displays websites that are currently not active. This section provides options to re-activate eligible sites or contact support if needed.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180020872/original/EWngNivweIkHlAL6Bx6ubl_N1Oj-VOrqMg.png?1780871848",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180020905/original/kTKcM5IVToaDxajqStB_s6YBWIJcci899A.png?1780871940",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174773757/original/-OFBgfxPaYfyI8bqJQn6VELLjQRFvEbCmQ.png?1771282092",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180810754/original/AAg4HNEG5LsS-L7Bx-cMC-tpQB8Rz3WMBQ.png?1782135637",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174773858/original/YrmFjq9vFWbjQznrpFfx9eUYElzBzVpYpw.png?1771282254",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174774285/original/rX9jH2aa_9h-ztGeaTSKrMuPHVdOxX7Alg.png?1771283193",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174798574/original/7O1AqpHnVx5p0iqAB_7omQ4wbiTMu55pgQ.png?1771338237",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174774563/original/EUHbRX521ZxjuTpKf7nAkvStdVdYN2vWoQ.png?1771283413",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174774628/original/9a6iwzZDb4qJfcmbaBiO0jP3jtjS2uAYUg.png?1771283550",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174791371/original/iQfu3_yk_6N7d85DCKxcOSaE17uhoT-MRg.png?1771327719",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174774756/original/7j6mT2uZJd7tyyF-760wuVVLGxx8XlyGgA.png?1771283850",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174791483/original/ayM-dZU7TcnvbZXniVJKVLkwDdCDpNqmUw.png?1771327915",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175411835/original/9x3_A6vopHHL2dudcRDTwTmKGhVU4uRssQ.png?1772504172",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174791637/original/msogLBYCh4rc195f1Q84Ziu81uvtQHfgkA.png?1771328222",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174799253/original/oxFeIn1kGFZLEF9QihN-XqygXRREQeimHw.png?1771338897",
+      "alt": null,
+      "caption": "Context: Notification Settings",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'. Context: Context: Notification Settings",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174799348/original/M-pTCrYLGP7D6MWQvzp6cMPpgeyZldIVgA.png?1771338982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174791846/original/EluJJQCCNDxQsgnc2iDrZusfZXjmPQ67eQ.png?1771328676",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174792153/original/ZKbxlxs4mRTdGh7tfABFdhMzhsW33KJfyA.png?1771329295",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175414165/original/5UDF3n0_WeIR3lCZHWZliGQpbtqE_0JBBA.png?1772510519",
+      "alt": null,
+      "caption": "Context: My Active Sites",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'. Context: Context: My Active Sites",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174792293/original/nHoPeEC9Dk0tCZbbdLcrGEZqdFrdt3ewfA.png?1771329541",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177063529/original/rKy4xzqpDpG5HFCuOlNPgyum7sDOKGdy7Q.png?1775525870",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177063683/original/M136NSw3DCRMsUTdAYDq-WPrriLemuzHNQ.png?1775526161",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177063808/original/iBHifyD1hVHTiqMUAXTAC3vXDG-JCSfoIQ.png?1775526415",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177099794/original/H8XXPHsUpssDj68qnqU_8Amdv-clANjeeA.png?1775575786",
+      "alt": null,
+      "caption": "Move to Another Site allows users to transfer resources between websites within the same account.Previously, transfers required contacting support, now they are self-managed.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'. Context: Move to Another Site allows users to transfer resources between websites within the same account.Previously, transfers required contacting support, now they are self-managed.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177063912/original/BdgIcWgr5CrnT9uHh-qdKrt8exOMw-SBcg.png?1775526688",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12177064033/original/WIpzdhkZAkG3puHP25LHdcMORnXhmVVlRQ.png?1775527009",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12175413818/original/Nso9YCSyOG_fxai6S5g4J9k9qEwKJGeTkw.png?1772509514",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174792345/original/No6Bg6xAG-Xe8Nxgxcf53Pr3mXx68bSkaA.png?1771329626",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Account Dashboard' in section 'Dashboard Overview' / 'Dashboard Links & Modules'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048476"
+    },
+    {
+      "text": "admin",
+      "url": "https://managemydirectory.com"
+    },
+    {
+      "text": "\"Manage Websites\"",
+      "url": "https://ww2.managemydirectory.com/admin/websiteDashboard.php"
+    },
+    {
+      "text": "Add-ons pending activation",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057921-manage-add-ons"
+    },
+    {
+      "text": "Quick Start videos",
+      "url": "https://ww2.managemydirectory.com/admin/websiteDashboard.php?view=videos"
+    },
+    {
+      "text": "contact support",
+      "url": "https://ww2.managemydirectory.com/admin/websiteDashboard.php?view=tickets&action=new"
+    },
+    {
+      "text": "Using the Support Center",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/folders/5000264973"
+    },
+    {
+      "text": "View Support Tickets",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000107674"
+    },
+    {
+      "text": "Help Center",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions"
+    },
+    {
+      "text": "Create Support Ticket",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000001966"
+    },
+    {
+      "text": "Activity Bell icon",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000107265"
+    },
+    {
+      "text": "Directory Discount Club",
+      "url": "https://www.brilliantdirectories.com/directory-discount-club"
+    },
+    {
+      "text": "Refer & Earn 50%",
+      "url": "https://www.brilliantdirectories.com/refer-a-friend"
+    },
+    {
+      "text": "Notification Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000107265"
+    },
+    {
+      "text": "Compare Pricing Plans",
+      "url": "https://www.brilliantdirectories.com/online-directory-pricing"
+    },
+    {
+      "text": "Ready to Activate",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081625"
+    }
+  ],
+  "lastmod": "2026-06-23T01:04:00+05:30",
+  "scraped_at": "2026-10-18T13:43:34.307731"
+}

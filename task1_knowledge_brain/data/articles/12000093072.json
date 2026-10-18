@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093072",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093072-03-31-2023-software-updates",
+  "title": "03/31/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/31/2023 - Software Updates"
+  ],
+  "content": "## 03/31/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093072\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Froala WYSIWYG to the latest version available.\n\n- We created a new Setting called \"Hour of Day to Collect Recurring Payments\". Once an hour of the day is selected, the system will attempt to collect all recurring subscription invoices during the selected hour. Choosing a time here will also sync the billing system with the Website Timezone selected in the website's settings. To use this new setting, navigate to the Admin >> Settings >> General Settings >> Localization tab.\n\n- The Google Map Search Results Add-On is now compatible with the \"Default Center Map Location\" Advanced Setting. Widget Involved: Bootstrap Theme - Search Results Map\n\n- We added a \"Hide on Mobile\" option to the \"Sidebar Position on Mobile Devices\" Post Type Setting.  When the option is selected, the system will hide the sidebar on search results pages for the Post Type on mobile devices. Widgets Involved: Bootstrap Theme - Member Results Bootstrap Theme - Single Post Page\n\n- We updated the One-Click Social Media Add-Ons in order to use the most recent libraries available. Widgets Involved: Bootstrap Theme - Account - Member Dashboard Bootstrap Theme - Display - Email Action Create Paid Bootstrap Theme - Display - Facebook Action Create Bootstrap Theme - Display - Facebook Action Login Bootstrap Theme - Display - Google Action Create Bootstrap Theme - Display - Google Action Login Bootstrap Theme - Display - tittle signup free form Bootstrap Theme - Login Form - Display Social Login Links\n\n- The Unsubscribed form and the Private Member Chat Add-On are now compatible with Webhooks. Widget Involved: Bootstrap Theme - Unsubscribe Email Page\n\n- We fixed an issue which was preventing the Froala WYSIWYG Pre-Made Elements from working properly when more then one Froala editor of this type is called on the same page.\n\n- We fixed an issue which was preventing the system from displaying the verification email link in the \"basic-validation\" and \"welcome-basic\" email templates in some cases.\n\n- We updated the \"Last Active\" data on the Admin Accounts page in the Admin to display the last time a Website Admin logged in to that specific website rather than showing the last time they logged in to their Admin account in general.\n\n- We disabled the keyboard navigation feature (left and right keyboard) when viewing albums on the details pages of Multi-Photo Post Type. Widget Involved: Bootstrap Theme - Photo Album Page\n\n- We added the ability to only enable the Homepage Background Slider Add-On on desktop devices. To use this new option, navigate to the Admin >> Settings >> Design Settings >> Homepage tab >> Image Slider Settings. Widget Involved: Bootstrap Theme Framework\n\n- We fixed an issue which was preventing the system from displaying the lead email details after creating leads using the API in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093072",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093072"
+    }
+  ],
+  "lastmod": "2023-04-03T23:04:00+05:30",
+  "scraped_at": "2026-10-18T13:50:50.090941"
+}

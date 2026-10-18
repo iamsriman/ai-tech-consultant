@@ -1,0 +1,77 @@
+{
+  "article_id": "12000079598",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079598-admin-sessions",
+  "title": "Admin Sessions",
+  "category": "Settings",
+  "folder": "Admin Accounts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Admin Accounts",
+    "Admin Sessions"
+  ],
+  "content": "## Admin Sessions\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000079598\n\nThis article explains how to view and manage active admin sessions from the Admin Accounts section of the admin area.\n\nAdmin sessions show when an admin account is currently logged in, when the account was last active, and how many active sessions are connected to that admin account.\n\n\n## Overview\n\n\nAdmin sessions help website owners and authorized admins monitor admin account access. This is useful when an admin password has been changed, an admin account may have been accessed from an unknown device, or an admin should be logged out of all active sessions.\n\nChanging the password from the Account Dashboard's Change Password page signs the admin out of every session. A password changed any other way, such as through a forgot password email link, may not end sessions that are already signed in. The admin session tools make it possible to log out active sessions for an admin account in that case.\n\n\n## How to Access Admin Sessions\n\n\n- Go to Settings >> Admin Accounts .\n\n- Find the admin account that should be reviewed.\n\n- Use the account information shown in the admin account row to review the admin’s recent activity.\n\n- Use the Actions dropdown (marked 1 in the screenshot below) to reach the session options (marked 2): Logout All Sessions and Show Active Sessions .\n\n\n## Admin Account Session Details\n\n\nThe Admin Accounts page displays useful account and session details for each admin account. The numbers in the screenshot below match this list. Available details may include:\n\n- Status: Shows whether the admin account is active.\n\n- Email Address: Shows the email address connected to the admin account.\n\n- Last Active: Shows the most recent activity timestamp for the admin account.\n\n- Last Active IP: Shows the IP address from the admin’s most recent activity.\n\n- Default Login Website: Shows the default website connected to the admin account.\n\n- Logged In: Shows how many active sessions the admin currently has on the website.\n\n- Admin Role: Shows the admin role assigned to the account.\n\n\n### Logged In Sessions\n\n\nThe Logged In value shows how many active sessions are currently connected to the admin account.\n\nFor example:\n\n```\nLogged In: 1 Session\n```\n\nThis means the admin account currently has one active session on the website.\n\nIf the admin is logged in from multiple browsers, devices, or locations, more than one session may display.\n\n\n### Last Active\n\n\nThe Last Active timestamp shows the most recent activity recorded for the admin account. This can help confirm when an admin account was last used in the admin area.\n\nIf the timestamp or activity looks unfamiliar, the website owner or authorized admin may want to review the account, change the password, and log out active sessions.\n\n\n### Last Active IP\n\n\nThe Last Active IP value shows the IP address connected to the admin’s most recent activity. This can be used as an additional reference when reviewing admin account access.\n\nNote: IP addresses can change depending on the admin’s network, device, location, VPN, or internet provider.\n\n\n## Show Active Sessions\n\n\nThe Show Active Sessions option displays active session details for the selected admin account.\n\nTo view active sessions:\n\n- Go to Settings >> Admin Accounts .\n\n- Find the admin account that should be reviewed.\n\n- Click the Actions dropdown for that admin.\n\n- Select Show Active Sessions .\n\nThe Logged in Session List popup opens with the number of active sessions in its title. Each row is one active session, with these columns:\n\n- Website: The Site ID and domain the session is signed in to. The session being used to view the list is highlighted and labelled Current Session .\n\n- Browser: The browser the session was opened in, such as Chrome.\n\n- IP Address: The IP address the session signed in from.\n\n- Date: The Login Date (when the session signed in) and the Last Active Date (the most recent activity in that session).\n\n- Log out: Ends that one session and removes its row from the list.\n\n\n### Session Times and the Website Time Zone\n\n\nThe Login Date and Last Active Date (1) are shown in the website’s own time zone, followed by the time zone abbreviation, for example 2026-09-23 17:10:16 PDT on a Pacific Time website or EDT on an Eastern Time website. The time zone comes from the Website Time Zone setting under Settings >> General Settings >> Localization , the same clock shown as Website Time at the top of the admin area.\n\nA session’s Login Date should match the time the admin actually logged in, converted to the website’s time zone. The Last Active value on the Admin Accounts page uses the same clock, so it matches the Last Active Date of the most recent session.\n\nTip: checking an unfamiliar session. Before treating a session as someone else’s login, compare its Login Date with when the admin remembers logging in, keeping in mind the time zone shown after the time, and compare its Browser and IP Address with the admin’s own devices. If the session is still unexplained, change the admin’s password and use Log out (2) or Logout All Sessions .\n\n\n## Logout All Sessions\n\n\nThe Logout All Sessions option logs the selected admin account out of all active sessions. This is useful when an admin password has been changed, a device should no longer stay logged in, or the admin account may have been accessed by an unwanted user.\n\nTo log out all active sessions for an admin:\n\n- Go to Settings >> Admin Accounts .\n\n- Find the admin account that should be logged out.\n\n- Click the Actions dropdown for that admin.\n\n- Select Logout All Sessions .\n\n- Confirm the action when prompted.\n\nAfter this action is completed, the selected admin account will be logged out of all active sessions. The admin will need to log in again to access the admin area.\n\n\n## When to Logout All Sessions\n\n\nLogging out all admin sessions is recommended in situations where access should be reset or secured.\n\nCommon examples include:\n\n- An admin password was changed after a security concern.\n\n- An admin account was accessed from an unfamiliar device or location.\n\n- An admin forgot to log out on a shared or public device.\n\n- An admin should no longer remain logged in after permissions were changed.\n\n- An admin account appears to have more active sessions than expected.\n\n\n## Activity Tracker\n\n\nAdmin session activity can also be reviewed from the Activity Tracker.\n\n- Website Notifications / Activity Tracker\n\nTo review admin-related activity:\n\n- Go to Dashboard >> Activity Tracker .\n\n- Use the Admin Area filter to view admin-related activity.\n\n- Use the keyword search to filter by Admin Account , when needed.\n\nThe Activity Tracker can help review admin activity connected to logins, sessions, and admin-area actions.\n\n\n## Important Notes\n\n\n- Changing the password from the Account Dashboard's Change Password page signs the admin out of every session. A password changed another way may not end existing sessions.\n\n- Use Logout All Sessions to force an admin account to log out of all active sessions.\n\n- The Logged In value shows how many active sessions are currently connected to the admin account.\n\n- The Last Active timestamp shows the most recent activity recorded for the admin account.\n\n- The Last Active IP value can help identify recent access, but IP addresses may change depending on the admin’s network or location.\n\n- Admin session activity can also be reviewed from the Activity Tracker.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186357124/original/62LupkRnaWN5z2EkZTwYDPKE8V-LYl6ikw.png?1791317374",
+      "alt": "Admin Accounts row with the Actions dropdown open, showing Logout All Sessions and Show Active Sessions at the bottom.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Sessions' (Settings > Admin Accounts): Admin Accounts row with the Actions dropdown open, showing Logout All Sessions and Show Active Sessions at the bottom.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186357125/original/Uojx8jke31qeM4ww4oH1MMXCxYNirVU9jA.png?1791317376",
+      "alt": "Admin account row with numbered badges on the Actions button, email, last active, last IP, default website, session count and admin role.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Sessions' (Settings > Admin Accounts): Admin account row with numbered badges on the Actions button, email, last active, last IP, default website, session count and admin role.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186357126/original/oviPvSfYWlBdjxMgGD5YgoXE5vTQvegvvA.png?1791317377",
+      "alt": "Admin Accounts row with the Actions dropdown open and Show Active Sessions highlighted at the bottom of the menu.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Sessions' (Settings > Admin Accounts): Admin Accounts row with the Actions dropdown open and Show Active Sessions highlighted at the bottom of the menu.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186357127/original/Y2Cl-pyyb1juIgNHnDv_Dm1wAYM79VyGLA.png?1791317378",
+      "alt": "Logged in Session List popup showing the site, browser, login and last active dates (1) and a red Log out button (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Sessions' (Settings > Admin Accounts): Logged in Session List popup showing the site, browser, login and last active dates (1) and a red Log out button (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186357129/original/Vzqe-iEDUZSk1aClbVW2uqM7fxHArLcK9A.png?1791317379",
+      "alt": "Admin Accounts row with the Actions dropdown open and Logout All Sessions highlighted in the menu.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Admin Sessions' (Settings > Admin Accounts): Admin Accounts row with the Actions dropdown open and Logout All Sessions highlighted in the menu.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000079598",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079598"
+    },
+    {
+      "text": "Website Notifications / Activity Tracker",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000005145"
+    },
+    {
+      "text": "Change Password",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109949"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:12+05:30",
+  "scraped_at": "2026-10-18T13:48:34.481306"
+}

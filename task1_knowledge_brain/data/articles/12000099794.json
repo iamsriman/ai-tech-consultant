@@ -1,0 +1,27 @@
+{
+  "article_id": "12000099794",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099794-05-10-2024-software-updates",
+  "title": "05/10/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/10/2024 - Software Updates"
+  ],
+  "content": "## 05/10/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099794\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from returning the correct amount of \"Eligible Members for Geocode Method\" when switching between the different geocoding methods on the Member Geocode page in the Admin.\n\n- We updated the way we store Admin account cookies when logging in to the Admin area to prevent more cookies than necessary from being stored.\n\n- We fixed an issue which was affecting the ability to match leads to members in bulk on the Match Lead page in the Admin in some cases.\n\n- We added a new default CSS class called \"btn-outline\". This class will add an \"outlined button\" style when applied to elements on a site. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We added a new unique default CSS class to each row in the table that displays data in the \"Overview\" tab on member profile pages. This CSS class is dynamically named based on the Database Variable Name of the corresponding field in the member form that is displaying the data on the member profile page.  This will make targeting specific form fields displayed in the Overview tab of profile pages much easier.\n\n- We fixed an issue which was preventing the system from importing the last sub or sub-sub category in a member category CSV field in some cases.\n\n- We added the ability to save \"[me=xxxx]\" shortcodes in menu link fields in the Menu Manager.\n\n- We updated the Member Snapshot area on the Admin Dashboard to display the number of members who \"Joined Today\" in addition to the previous 7 and 30 days.\n\n- We fixed an issue which was preventing the \"pretty URL\" member search results pages for the the country \" Côte d'Ivoire\" from working properly in some cases. Widgets Involved: Bootstrap Theme - Category Groups - Member Locations Bootstrap Theme - Function - Display Breadcrumbs\n\n- We released the new version of the Send Newsletter module in the Admin - click here for more information.\n\n- We fixed an issue which was preventing the system from updating an invoice to the \"Paid\" status after successfully creating a subscription manually from the Admin when using Stripe as the Payment Gateway in some cases.\n\n- We fixed an issue which was affecting the ability for members to view their own Review detail pages when the \"Prevent Reviews for Own Profile\" Advanced Setting was active in some cases. Widget Involved: Bootstrap Theme - Member Profile - Submit Review\n\n- We implemented an update in order to prevent the Google Maps JS files from being loaded twice on the Search Members page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099794",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099794"
+    },
+    {
+      "text": "here",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070238-emails-%C2%BB-newsletter-overview"
+    }
+  ],
+  "lastmod": "2024-05-20T07:13:48+05:30",
+  "scraped_at": "2026-10-18T13:53:59.980090"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000066395",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000066395-01-17-20-software-updates",
+  "title": "01/17/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/17/20 - Software Updates"
+  ],
+  "content": "## 01/17/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000066395\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the Contact Us Form to show a connection error when submitting the form in some cases. Widget Involved: Bootstrap Theme - Function - Save Form\n\n- We made some small updates to the design of the Menu Manager and Form Manager pages in the Admin.\n\n- We updated the Profile Photo tab in the Member Dashboard to show a modal popup when uploading a Profile Photo, Logo, or Cover photo in order to make the process more intuitive. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We fixed an issue with the 301 Redirect module which was causing the site to become unresponsive for a moment when updating the 301 redirects in some cases.\n\n- We updated the logic of the Text Labels page in the Admin to display previously hidden Text Labels.\n\n- We fixed an issue which was preventing the \"X\" button from displaying correctly in location and keyword search fields in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We fixed an issue which was affecting the ability to save the \"About\" form when using the Froala Editor \"Code View\" feature in some cases. Widget Involved: Bootstrap Theme - Function - Form\n\n- The Froala placeholder \"Type something\" is now fully compatible with Text Labels. Widget Involved: Form - Froala Editor Javascript\n\n- We added a link to a free online image cropping tool on the General Settings >> Brand Images tab of the Admin for site owners that want an easy way to crop their images before uploading them here.\n\n- We added the \"None Selected\" dropdown option for the \"Dashboard Header Custom HTML \" and \"Dashboard Footer Custom HTML\" Membership Plan settings.\n\n- We fixed an issue which was causing Brand Images to appear as broken after updating a site's domain in some cases.\n\n- We added an extra confirmation modal when executing bulk actions on the Widget Manager page in the Admin.\n\n- We fixed an issue which was causing post search results pages to return inaccurate results after performing a location search for a country in some cases. Widget Involved: Search - Group - Search Query Search - Post - Search Query\n\n- We removed the \"Admin Only\" checkbox from the \"One Time Setup Fee\" field when editing the Membership Plan settings in the Admin.\n\n- We added the ability to search for a member's Sub-Accounts on the \"Search Members\" page in the Admin. To do so, search for the parent member's ID using this format: #1 (for the member with ID number 1).\n\n- We fixed an issue which was affecting the style of the \" Upload Photo\" button when a member clones a Post. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We fixed an issue which was causing the Stripe Payment Gateway to charge an incorrect amount when a member upgrades using a Promo Code.\n\n- Now when \"Enable Chat Messages\" is set to \"No\" in the Membership Plan settings, the members in this plan will no longer see the \"Chat Messages\" item in their Member Dashboard, even if they had previously sent and received Chat Messages. Widget Involved: Bootstrap Theme - Account - Sidebar",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000066395",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000066395"
+    }
+  ],
+  "lastmod": "2020-01-18T03:35:16+05:30",
+  "scraped_at": "2026-10-18T13:46:00.011938"
+}

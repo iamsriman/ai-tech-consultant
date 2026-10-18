@@ -1,0 +1,55 @@
+{
+  "article_id": "12000005055",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005055-google-location-administrative-levels",
+  "title": "Google Location Administrative Levels",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Google Location Administrative Levels"
+  ],
+  "content": "## Google Location Administrative Levels\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000005055\n\nBrilliant Directories supports five primary location types, each of which can use either Bounds or Radius searches.\n\nThis article explains how each search method works, how they affect search results, and how to configure the search behavior for each location type.\n\n\n## What Are Bounds and Radius Searches?\n\n\nThe platform supports the following searchable location types (alternate names may be used in some countries):\n\n- Countries\n\n- States (Provinces)\n\n- Counties\n\n- Cities (Towns, Suburbs, etc.)\n\n- ZIP / Postal Codes\n\nEach location type can be configured to use either a Bounds search or a Radius search.\n\nBy default:\n\n- Countries, States, and Counties use Bounds searches.\n\n- Cities and ZIP / Postal Codes use Radius searches.\n\n\n## Radius Searches\n\n\nA Radius search uses the latitude and longitude at the center of the selected location and returns all members within the configured search radius.\n\nBy default, the search radius is 50 miles , although this value can be modified in the website's Advanced Settings .\n\n\n## Bounds Searches\n\n\nA Bounds search returns members located within the geographic boundary of the selected location.\n\nGoogle defines these boundaries using a bounding box that encloses the selected area.\n\n\n## Example\n\n\nSearching for the ZIP Code 90210 demonstrates the difference between the two search methods.\n\nWith a Radius search, the system uses the latitude and longitude at the center of the ZIP Code and returns all members within the configured search radius.\n\nWith a Bounds search, the system returns members located within the geographic boundary of the ZIP Code.\n\nTo better understand the area included in a Google bounding box, the following tool can be used:\n\nhttp://www.mapdevelopers.com/geocode_bounding_box.php\n\n\n## Smart Default Behavior\n\n\nAlthough Google defines locations using bounding boxes, Brilliant Directories applies additional filtering for larger administrative areas.\n\nFor example, Country , State , and County searches return only members located within the selected administrative area, even if the Google bounding box extends beyond its actual boundaries.\n\nFor example, searching for Los Angeles County returns only members located within Los Angeles County.\n\n\n## Displaying Distance in Search Results\n\n\nDistance information (such as 2.1 mi away ) is available only when using Radius searches.\n\nBecause Radius searches use a fixed center point, the system can calculate the distance between the searched location and each member listing.\n\nFor example, the following search results display the distance from the center of ZIP Code 90210 .\n\nWhen Bounds searches are used for Cities or ZIP / Postal Codes, distance information is not displayed because there is no single reference point from which to calculate the distance.\n\n\n## Configuring Bounds and Radius Searches\n\n\nTo change the search behavior for each location type:\n\n- Log in to the website's Admin Area.\n\n- Navigate to Settings → Advanced Settings .\n\n- Search for bounds .\n\n- Update the desired location search settings.\n\nThe following settings are available:\n\n- Neighborhood – Rarely used. Modifying this setting is generally not recommended.\n\n- ZIP / Postal Code – Controls ZIP / Postal Code searches.\n\n- Locality – Controls City searches.\n\n- Administrative Area Level 2 – Controls County searches.\n\n- Administrative Area Level 1 – Controls State or Province searches.\n\nCountry searches are always treated as Bounds searches and cannot be changed.\n\n\n## Google Administrative Levels\n\n\nAlthough only five primary settings appear in the Admin Area, Google Maps recognizes 24 different location types . Each of these location types inherits one of the five primary search settings listed above.\n\nFor example, if a search result URL indicates the location type sublocality_level_3 , that search behavior is controlled by the Locality setting.\n\nThe following chart shows how Google's additional location types map to each primary search setting.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12071664475/original/PPv5vLQWFFG5l81Iwq4jOa_bKs5LPwwX0w.png?1577808726",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Location Administrative Levels' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181295196/original/nDbIPoZIsnnYCCkMwoKgSeKcqhOLZ8BhVQ.png?1782859050",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Location Administrative Levels' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12071664476/original/uDnlRFc6rq5Z1RpADH5z1U7LFp5IQnb6Jw.png?1577808726",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Location Administrative Levels' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000005055",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005055"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5040356708/original/blob1444167048469.png?1444167052"
+    }
+  ],
+  "lastmod": "2026-07-01T04:07:39+05:30",
+  "scraped_at": "2026-10-18T13:39:50.085454"
+}

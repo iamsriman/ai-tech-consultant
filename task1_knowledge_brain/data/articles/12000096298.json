@@ -1,0 +1,23 @@
+{
+  "article_id": "12000096298",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096298-10-13-2023-software-updates",
+  "title": "10/13/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/13/2023 - Software Updates"
+  ],
+  "content": "## 10/13/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096298\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the \"Save Changes\" button from working properly on the HTACCESS and Robots File pages in the Admin on certain screen sizes.\n\n- We updated the preloaded image on each page to use the local image source (rather than an ImageKit or other CDN source) when the image is in .webp format. Doing so improves scores in 3rd party tools like GTMetrix and Google Pagespeed.\n\n- We fixed an issue which was preventing the system from executing API calls from the Website API Documentation page in the Admin.\n\n- We added error handling when the date_added field is sent in an unsupported format to the a site's Leads API endpoint.\n\n- We updated the logic of the \"Match Leads\" button on the Lead Details page in the Admin to make it compatible with the \"CC Lead Emails To\" setting in the Quick Edit form for members.\n\n- We fixed an issue which was causing city breadcrumbs on member search results pages to redirect to the incorrect URL in some cases.\n\n- We updated the Media Manager in the Admin to give users access to images from the Pexel Free Stock Photo library.\n\n- We updated the \"Pay Invoice\" workflow on the Member Dashboard in order to skip checking the member's credit card on file if they have enough credits to pay for the entire invoice.\n\n- We implemented an update in order to always display a member's available credits in the \"Order Summary\" modal when paying invoices through the frontend of a site.\n\n- We fixed an issue which was causing the system to charge the full amount for a paid member signup when they input a coupon code on in some rare cases.\n\n- We fixed an issue which was causing the system to mark leads as \"Accepted\" even though the purchase process had not been completed in some cases. Widget Involved: Bootstrap Theme - Account - Leads Details Page - Purchase Button\n\n- We added the ability to edit the filename and \"alt\" attribute of post images from the Manage Posts page in the Admin. To use this new feature, navigate to the Admin >> My Content >> Manage Post >> Actions >> Edit Image Data. Post Type Involved: Website Blog Article Job Listing Event Discussion Coupon Community Article\n\n- We updated the Smart Lists page in the Admin to pre-select the relevant search filters after clicking on a Smart List link.\n\n- We fixed an issue which was preventing the system from saving Hebrew text on the Validation Options Error Message fields in the Form Manager.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096298",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096298"
+    }
+  ],
+  "lastmod": "2023-10-17T01:53:39+05:30",
+  "scraped_at": "2026-10-18T13:52:59.222845"
+}

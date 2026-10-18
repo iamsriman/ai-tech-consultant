@@ -14,6 +14,7 @@ from typing import Any, Dict, List, Optional
 import httpx
 
 from .retriever import KnowledgeRetriever, RetrievedDocument
+from task1_knowledge_brain.config import anthropic_model, load_project_environment
 from task1_knowledge_brain.human_loop.ticket_manager import TicketManager, ExpertTicket
 
 logger = logging.getLogger(__name__)
@@ -25,9 +26,8 @@ STRICT RULES:
 1. Grounding: Answer strictly using facts from the provided sources. Do NOT make up settings, menus, or features.
 2. Honesty: If the documentation does not contain enough information to answer the question, state honestly:
    "I don't know based on the provided documentation."
-3. Citations: At the end of your response, list the exact Article Title and URL where the answer is found.
-4. Screenshots: If the sources include screenshots that show the UI steps, explicitly mention and link the screenshot URLs so users can see the exact settings in their admin area.
-5. Tone: Concise, professional, and clear for founders and webmasters.
+3. Citations and screenshots are returned separately by the API. Never invent or output citations, URLs, or screenshot links.
+4. Tone: Concise, professional, and clear for founders and webmasters.
 """
 
 
@@ -40,6 +40,11 @@ class QueryAnswer:
     citations: List[Dict[str, Any]] = field(default_factory=list)
     screenshots: List[str] = field(default_factory=list)
     ticket_id: Optional[str] = None
+    model_used: str = "none"
+    fallback_used: bool = False
+    input_tokens: Optional[int] = None
+    output_tokens: Optional[int] = None
+    generation_error: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -50,6 +55,11 @@ class QueryAnswer:
             "citations": self.citations,
             "screenshots": self.screenshots,
             "ticket_id": self.ticket_id,
+            "model_used": self.model_used,
+            "fallback_used": self.fallback_used,
+            "input_tokens": self.input_tokens,
+            "output_tokens": self.output_tokens,
+            "generation_error": self.generation_error,
         }
 
 
@@ -63,7 +73,7 @@ class BDQueryEngine:
         retriever: Optional[KnowledgeRetriever] = None,
         ticket_manager: Optional[TicketManager] = None,
         vector_store: Optional["BDVectorStore"] = None,
-        model_name: str = "claude-3-5-haiku-20241022",
+        model_name: Optional[str] = None,
         min_confidence_threshold: float = 0.35,
     ):
         # Backward compatibility: tests may pass vector_store directly
@@ -71,16 +81,12 @@ class BDQueryEngine:
             retriever = KnowledgeRetriever(vector_store)
         self.retriever = retriever or KnowledgeRetriever()
         self.ticket_manager = ticket_manager or TicketManager()
-        self.model_name = model_name
-        self.min_confidence_threshold = min_confidence_threshold
-        self.api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-        self.retriever = retriever or KnowledgeRetriever()
-        self.ticket_manager = ticket_manager or TicketManager()
-        self.model_name = model_name
+        load_project_environment()
+        self.model_name = model_name or anthropic_model()
         self.min_confidence_threshold = min_confidence_threshold
         self.api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 
-    def _call_claude(self, prompt: str) -> str:
+    def _call_claude(self, prompt: str) -> Dict[str, Any]:
         """Calls Anthropic Claude API via httpx."""
         url = "https://api.anthropic.com/v1/messages"
         headers = {
@@ -98,7 +104,93 @@ class BDQueryEngine:
             resp = client.post(url, headers=headers, json=payload)
             resp.raise_for_status()
             data = resp.json()
-            return data["content"][0]["text"]
+            text = "\n".join(block["text"] for block in data.get("content", []) if block.get("type") == "text")
+            if not text:
+                raise ValueError("Anthropic returned no text content")
+            usage = data.get("usage", {})
+            return {"text": text, "input_tokens": usage.get("input_tokens"), "output_tokens": usage.get("output_tokens")}
+
+    @staticmethod
+    def _terms(text: str) -> set[str]:
+        stop = {"how", "what", "where", "when", "why", "who", "do", "does", "did", "can", "could", "would", "i", "we", "you", "my", "the", "a", "an", "to", "for", "of", "in", "on", "and", "or", "is", "are", "with", "using", "brilliant", "directories", "please", "tell", "about", "custom", "inside", "next", "week", "system", "website", "site", "set", "up", "install", "configure", "access", "using", "bd", "kernel"}
+        words = {w for w in re.findall(r"[a-z0-9]+", text.lower()) if len(w) > 2 and w not in stop}
+        normalized = set()
+        for word in words:
+            if len(word) > 5 and word.endswith("ies"):
+                word = word[:-3] + "y"
+            elif len(word) > 4 and word.endswith("s") and not word.endswith("ss"):
+                word = word[:-1]
+            normalized.add(word)
+        return normalized
+
+    @staticmethod
+    def _evidence_text(doc: RetrievedDocument) -> str:
+        if doc.source_type == "verified_expert":
+            marker = "## Verified Solution\n"
+            if marker not in doc.text or "[SOURCE_TYPE: VERIFIED_EXPERT]" not in doc.text.upper():
+                return ""
+            answer_body = doc.text.split(marker, 1)[1].split("[SOURCE_TYPE:", 1)[0]
+            return f"{doc.category} {doc.folder} {answer_body}"
+        return f"{doc.title} {doc.category} {doc.folder} {doc.text}"
+
+    def _evidence_overlap(self, question: str, doc: RetrievedDocument) -> int:
+        return len(self._terms(question) & self._terms(self._evidence_text(doc)))
+
+    def _title_overlap(self, question: str, doc: RetrievedDocument) -> int:
+        return len(self._terms(question) & self._terms(f"{doc.title} {doc.category} {doc.folder}"))
+
+    def _evidence_relevant(self, question: str, doc: RetrievedDocument) -> bool:
+        # Similarity ranks candidates; lexical coverage is a separate evidence
+        # check and is not interpreted as a calibrated probability.
+        question_terms = self._terms(question)
+        overlap = self._evidence_overlap(question, doc)
+        # Do not let the Q&A label/query embedded in old synthetic expert rows
+        # make itself relevant. Expert records require trusted provenance.
+        if doc.source_type not in {"help_center", "verified_expert"}:
+            return False
+        # A lone shared keyword is too weak to establish that evidence answers
+        # the question (for example, an unrelated article mentioning one noun).
+        return len(question_terms) >= 2 and overlap >= 2
+
+    def _evidence_coverage(self, question: str, docs: List[RetrievedDocument]) -> float:
+        """Lexical evidence coverage for the legacy confidence field (not a probability)."""
+        terms = self._terms(question)
+        if not terms:
+            return 0.0
+        best = 0
+        for doc in docs:
+            if doc.source_type == "verified_expert":
+                body = doc.text.split("## Verified Solution\n", 1)[-1].split("[SOURCE_TYPE:", 1)[0]
+                evidence = f"{doc.category} {doc.folder} {body}"
+            else:
+                evidence = f"{doc.title} {doc.category} {doc.folder} {doc.text}"
+            best = max(best, len(terms & self._terms(evidence)))
+        return round(best / len(terms), 4)
+
+    @staticmethod
+    def _anthropic_failure_message(error: Exception) -> str:
+        if isinstance(error, httpx.TimeoutException):
+            return "Anthropic request timed out"
+        if isinstance(error, httpx.HTTPStatusError):
+            response = error.response
+            if response.status_code == 429:
+                return "Anthropic rate limit reached"
+            if response.status_code == 401:
+                return "Anthropic rejected the API credential (HTTP 401)"
+            if response.status_code == 403:
+                return "Anthropic denied this API request (HTTP 403)"
+            if response.status_code >= 500:
+                return "Anthropic server error"
+            detail = ""
+            try:
+                payload = response.json().get("error", {})
+                detail = f"{payload.get('type', '')} {payload.get('message', '')}".lower()
+            except Exception:
+                pass
+            if response.status_code == 402 or "credit" in detail or "billing" in detail:
+                return "Anthropic account has insufficient credits or a billing issue"
+            return f"Anthropic rejected the request (HTTP {response.status_code})"
+        return f"Anthropic request failed ({type(error).__name__})"
 
     def _deterministic_grounded_answer(
         self,
@@ -160,12 +252,18 @@ class BDQueryEngine:
             category_filter = None
 
         # 1. Retrieve candidate chunks
+        if not question or not question.strip():
+            raise ValueError("Question must not be empty")
         docs = self.retriever.retrieve(
             query=question,
             top_k=top_k,
             min_score=self.min_confidence_threshold,
             category_filter=category_filter,
         )
+        docs = [d for d in docs if self._evidence_relevant(question, d)]
+        # Prefer a source that covers more of the question's key terms; use
+        # vector distance only to order candidates with equal evidence coverage.
+        docs.sort(key=lambda d: (self._evidence_overlap(question, d), self._title_overlap(question, d), d.score), reverse=True)
 
         # 2. Check if evidence is insufficient
         if not docs:
@@ -187,9 +285,11 @@ class BDQueryEngine:
                 citations=[],
                 screenshots=[],
                 ticket_id=ticket.ticket_id,
+                model_used="deterministic_grounded",
+                fallback_used=True,
             )
 
-        top_score = docs[0].score
+        evidence_coverage = self._evidence_coverage(question, docs)
         citations = self.retriever.get_unique_citations(docs)
         all_screenshots: List[str] = []
         for d in docs:
@@ -205,11 +305,22 @@ class BDQueryEngine:
             f"Please answer the user's question accurately based on the context above."
         )
 
+        model_used = "deterministic_grounded"
+        fallback_used = True
+        input_tokens = output_tokens = None
+        generation_error = None if self.api_key else "ANTHROPIC_API_KEY is not configured"
         if self.api_key:
             try:
-                raw_answer = self._call_claude(user_prompt)
+                model_result = self._call_claude(user_prompt)
+                raw_answer = model_result["text"]
+                input_tokens = model_result.get("input_tokens")
+                output_tokens = model_result.get("output_tokens")
+                model_used = self.model_name
+                fallback_used = False
             except Exception as e:
-                logger.error(f"Error calling Claude API: {e}. Falling back to grounded generator.")
+                # Exception text may contain request details; avoid logging secrets.
+                logger.error("Anthropic request failed (%s); using explicitly identified grounded fallback.", type(e).__name__)
+                generation_error = self._anthropic_failure_message(e)
                 raw_answer = self._deterministic_grounded_answer(question, docs)
         else:
             raw_answer = self._deterministic_grounded_answer(question, docs)
@@ -230,18 +341,34 @@ class BDQueryEngine:
                     "A human expert task has been created to answer this question."
                 ),
                 has_answer=False,
-                confidence=top_score,
-                citations=citations,
-                screenshots=all_screenshots[:3],
+                confidence=evidence_coverage,
+                citations=[],
+                screenshots=[],
                 ticket_id=ticket.ticket_id,
+                model_used=model_used,
+                fallback_used=fallback_used,
+                input_tokens=input_tokens,
+                output_tokens=output_tokens,
+                generation_error=generation_error,
             )
+
+        if fallback_used:
+            # The deterministic fallback answers from its single source block;
+            # return only that article's citation and screenshots.
+            citations = self.retriever.get_unique_citations(docs[:1])
+            all_screenshots = list(docs[0].screenshot_urls) if docs else []
 
         return QueryAnswer(
             query=question,
             answer=raw_answer,
             has_answer=True,
-            confidence=top_score,
+            confidence=evidence_coverage,
             citations=citations,
             screenshots=all_screenshots[:4],
             ticket_id=None,
+            model_used=model_used,
+            fallback_used=fallback_used,
+            input_tokens=input_tokens,
+            output_tokens=output_tokens,
+            generation_error=generation_error,
         )

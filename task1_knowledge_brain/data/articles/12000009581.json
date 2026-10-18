@@ -1,0 +1,51 @@
+{
+  "article_id": "12000009581",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009581-how-does-auto-matching-work-lead-settings-general-settings-",
+  "title": "How Does Auto-Matching Work? (Lead Settings » General Settings)",
+  "category": "Add-On Documentation",
+  "folder": "Automatic Lead Matching",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Automatic Lead Matching",
+    "How Does Auto-Matching Work? (Lead Settings » General Settings)"
+  ],
+  "content": "## How Does Auto-Matching Work? (Lead Settings » General Settings)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000009581\n\nThe following documentation is exclusively for the \"Auto-Matching or Advanced Leads Package\".\n\nAuto-matching relies on the auto-matching settings and the search inputs submitted by the users of the website. Here are some of the core concepts of how auto-matching works:\n\n- The engine will only match members that match the criteria. If the member is allowed to select a location, say San Francisco, and only 2 members are located in San Francisco, only those two candidates will be matched (assuming they match the additional criteria set by the user such as categories).\n\n- Membership Level Sort Order is taken into consideration. This means if there are three premium members in San Francisco, these three premium members will always be auto-matched ahead of the free members that are also located in San Francisco.\n\n- For accurate auto-matching, allowing for category inputs and location inputs is key. Not requiring a location or specialty to be entered limits the engine.\n\n- Essentially the auto-matching functionality is the same as the member search functionality on the website. The system runs a search just like the users would, and starts to auto-match leads always going from top to bottom.\n\nAuto-Matching Lead Settings\n\nEdit the auto-matching lead settings by going to Leads » Manage Lead » General Settings :\n\nOr within the \" Auto-Match Workflows \" screen:\n\n\n## Data Flows Settings\n\n\nThere are 5 additional settings for the automatic matching functionality.\n\n- Search Radius : Members within this radius are eligible to be automatically matched to leads.\n\n- Maximum Matches: This setting controls how many members can be matched to a single lead. Set this to \"3\", and a maximum of 3 members will be matched. If no one meets the search criteria, no one will be matched and the lead will be flagged as \"Pending\".\n\n- Maximum Acceptances: This controls how many members can accept a lead. This is particularly helpful if the maximum matches is set to 5+ members, but don't want the website users to be bombarded with emails from the visitors. Once the maximum lead acceptance is reached, the lead status will change to \"Sold Out\".\n\n- Notify Admin If Member Email Invalid: Select \"Yes\" if you would like to send an email notification to the Admin when a lead has been matched to a member that does not have a valid email address.\n\n- Admin Notification Email Template: Select the email template to send to the Admin if a lead is matched to a member that does not have a valid email address.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162151428/original/HyIsP7PaF-QD327Or_nQSeOtjgtoerk7rw.png?1748751236",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does Auto-Matching Work? (Lead Settings » General Settings)' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162151496/original/cN2CyfQsQF7a9CyDdv8az_aT7eS2a0S07g.png?1748751295",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does Auto-Matching Work? (Lead Settings » General Settings)' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162151522/original/O0XrTbF_S5bmLmlQAvpQT0GrafAoy0GhzA.png?1748751502",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Does Auto-Matching Work? (Lead Settings » General Settings)' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000009581",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009581"
+    }
+  ],
+  "lastmod": "2025-06-01T10:03:59+05:30",
+  "scraped_at": "2026-10-18T13:40:15.822267"
+}

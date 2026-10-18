@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104941",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104941-06-20-2025-software-updates",
+  "title": "06/20/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/20/2025 - Software Updates"
+  ],
+  "content": "## 06/20/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104941\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that was preventing Admins from saving changing on the Post Settings and Web Page Builder pages in the Admin in some cases.\n\n- Fixed an issue that prevented the system from adding cities as service areas in the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- Added a \"Scroll to Bottom\" button for Multi-Photo Post Types to make it easier to jump to the bottom when editing long posts. Widget Involved: Bootstrap Theme - Account - Photo Albums Upload\n\n- Added the ability to display the \"Status\" of Admin Invites on the Admin Accounts and Account Dashboard pages in the Admin.\n\n- Fixed an issue that prevented the system from sending the \"New Payment Received\" email notification after a \"One-Time\" purchase (EG a lead, digital product, etc).\n\n- Fixed an issue that prevented members from using the \"Bookmark My Favorites\" Add-On after logging into a website via a verification link.\n\n- Implemented performance optimizations and bug fixes for the Import Business Data tool in Admin.\n\n- Fixed an issue that prevented Digital Products set to \"Custom Donation Amount\" from accepting credits as payment, even when the \"Allow Use of Existing Credits for Purchase\" setting was enabled.\n\n- Fixed an issue that was preventing members from saving data when the Member Dashboard URLs were customized in some cases.\n\n- Updated the \"Header Search\" Design Setting in the \"Header Mobile-View Settings\" section to include a new option called \"Compact on Mobile\" . This option displays a search icon next to the menu icon on mobile; when clicked, it toggles the search header open. Widget Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Header - Main Menu\n\n- Added new Website & Organization schema that now loads on all frontend pages to improve SEO and enhance structured data for better visibility in search engine results. Widgets Involved: Bootstrap Theme - Footer - Scripts Bootstrap Theme - Social Media Links Bootstrap Theme Framework",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104941",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104941"
+    }
+  ],
+  "lastmod": "2025-06-24T01:17:22+05:30",
+  "scraped_at": "2026-10-18T13:56:17.193830"
+}

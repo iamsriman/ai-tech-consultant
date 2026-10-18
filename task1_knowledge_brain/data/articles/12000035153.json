@@ -1,0 +1,23 @@
+{
+  "article_id": "12000035153",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035153-09-08-17-software-updates",
+  "title": "09/08/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/08/17 - Software Updates"
+  ],
+  "content": "## 09/08/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000035153\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue with the \"Album\" features (Products, Properties, Classifieds, Photo Albums). If a member does has not created a post for one of these features and the member clicks on \"View Posts\" in the member dashboard for the feature, the system will not redirect to the \"Add Post\" page, but will instead navigate to the \"View Posts\" page with no posts listed..\n\n- We improved the process of selecting which forms to use in the different sections of the Member Dashboard. Now, when editing a Product, the form selection dropdowns will only show forms that contain the word \"Listing\" in their name.  This will eliminate the common issue of website owners choosing forms that are not compatible with the Member Dashboard.\n\n- Now all the Streaming Widgets have the ability to control which members can display recent posts on the homepage. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Display - Recent Videos\n\n- We fixed an issue that was affecting the Favorite Feature in the Member Dashboard. Widget Involved: Bootstrap Theme - Function - Add to Favorites Button\n\n- We updated one of our billing functions in order to display the symbol for Indian Rupees instead of \"Rs\" when this currency is selected for the website.\n\n- Now the placeholder text of Category dropdowns in the Get Matched form are based on text labels. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We fixed an issue that was affecting the member dashboard menu on mobile devices. Widgets Involved: Bootstrap Theme - Account - Sidebar Bootstrap Theme - Account - Select Locations\n\n- We added support to display a link when a field is set as a Website Address on the Listing - Additional Details Form.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000035153",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035153"
+    }
+  ],
+  "lastmod": "2017-09-08T22:13:45+05:30",
+  "scraped_at": "2026-10-18T13:41:45.384043"
+}

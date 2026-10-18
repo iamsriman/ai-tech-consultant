@@ -1,0 +1,150 @@
+{
+  "article_id": "12000003535",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003535-how-to-setup-a-third-party-email-application-to-access-the-email-accounts",
+  "title": "How To Setup A Third Party Email Application To Access The Email Accounts",
+  "category": "Emails",
+  "folder": "Email Accounts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email Accounts",
+    "How To Setup A Third Party Email Application To Access The Email Accounts"
+  ],
+  "content": "## How To Setup A Third Party Email Application To Access The Email Accounts\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000003535\n\nTo set upTo setup a 3rd party email client (Outlook, Thunderbird, Macmail, Gmail, etc) to access the account, follow these steps to find out the proper settings to use: Navigate to Emails >> Email Accounts: Click on the \" Add/Edit Email Addresses \" button: Locate the email address to connect with the 3rd party email application and click on \" Connect Devices \": Mail Client Configuration\n\nThis section provides instructions on how to configure email connection settings.\n\n\n### Automatic Connection\n\n\nBelow is a collection of tutorials for configuring specific email applications. The appropriate protocol should be selected based on the email application in use.\n\nFor Mac devices such as iPhone, iPad, or macOS, Mail.app, select the iOS option. For any Windows device, including those using Windows Live Mail, select the corresponding Windows option.\n\n\n### Manual Connection\n\n\nAdditionally, 'Manual Settings' are provided for configuring applications not included in the listed tutorials:\n\n\n## Domain Connection Method\n\n\nIt is necessary to identify the domain connection method being used to complete the email configuration.\n\nThis information can be found in the Domain Manager.\n\nIf the connection method is listed as 'NS', it indicates the use of nameservers.\n\nIf it displays 'Cloudflare', 'CNAME', or any other value, the CNAME method is being used.\n\n\n### Nameservers Domains\n\n\nIf the site is connected via nameservers , the 'Incoming' and 'Outgoing' server details provided in the Secure SSL/TLS Settings table should be used:\n\n\n### CNAME Domains\n\n\nIf the domain was connected using a CNAME r ecord (meaning it is hosted with the domain registrar or Cloudflare, not with BD), and the 'Incoming Server' and 'Outgoing Server' details provided by cPanel are not working, use the secure target URL displayed in the Domain Manager as both the incoming and outgoing server address instead:\n\n\n## Connection Example with IOS\n\n\nWe will use the \"Automatic Connection\" for this example.\n\nClick on the IMAP over SSL/TLS option:\n\nGo to your device's \"System Settings\", and type \"Email\".\n\nThen select \"Internet Accounts\", and click on \"Add Account\":\n\nSelect the \"Mail Account\" option:\n\nSince the domain is connected via a CNAME record, the 'Secure Target URL' displayed in the Domain Manager should be used as both the 'Incoming Mail Server' and the 'Outgoing Mail Server'.\n\nRefer to the 'Email Setup for CNAME Domains' section above for guidance.\n\nAdd the email address and password.\n\nThen add the Incoming and Outgoing Mail Server.\n\nSelect the applications that should be enabled for use with this account.\n\nOpen the Mail application on the device; the email account will appear in the left sidebar.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12145529312/original/fmDajUNNtmi8NwG2YeCNoi6ejz-xpZhALw.png?1719523554",
+      "alt": null,
+      "caption": "Navigate to Emails >> Email Accounts:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'. Context: Navigate to Emails >> Email Accounts:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146366005/original/Us_mUbncT-wYrnlKutDLeT55axgNrJuzFQ.png?1721068750",
+      "alt": null,
+      "caption": "Click on the \"Add/Edit Email Addresses\" button:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'. Context: Click on the \"Add/Edit Email Addresses\" button:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163665906/original/V6dLa55tbF6Mbe6_-cgqBbJfYHND5D2dAA.png?1751387905",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163666282/original/H2kYm0tVHP5LPPo35chG-p2LT3prPnQEPA.png?1751388158",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163666297/original/Cxd4vZRONLGmdfiSpLCWznprSwaNgWT56g.png?1751388184",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163670649/original/FDZgfhgJzo5s3X-d2_pUcqwy09SOH8R8Hg.png?1751391901",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163670299/original/OFMLDdzu4hMSr3oWxDU2X1qCJgHNKuxOSg.jpeg?1751391473",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163666407/original/TIJpOCVJOIpn1SmYP1R1xklCnNnnq3zPWg.png?1751388288",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163668102/original/57xxD6f9ijItj-PKzY2AXT-LXSgmAy7HLw.png?1751389436",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163669496/original/YMCm6_cjyOybuwEswx2Pl-U25dIlu8W6pA.png?1751390790",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163667888/original/EF4Omt8A4ebZ_OKUk4R5sUmvE8xjGZIfEA.png?1751389301",
+      "alt": null,
+      "caption": "Select the \"Mail Account\" option:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'. Context: Select the \"Mail Account\" option:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163667058/original/rAa-vpn2aFkOML6n40HFkVeqttF10GzRmw.png?1751388723",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163667489/original/65GqTRTd84J2jwwV7Ro4UzZIyWZaye6V5w.png?1751388970",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163667616/original/FK0ium5L4mzFYUmJgWVqz7pUDKQ6AbmRbg.png?1751389070",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Setup A Third Party Email Application To Access The Email Accounts' in section 'Emails' / 'Email Accounts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000003535",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003535"
+    }
+  ],
+  "lastmod": "2025-07-01T23:22:12+05:30",
+  "scraped_at": "2026-10-18T13:39:44.800518"
+}

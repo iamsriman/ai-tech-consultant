@@ -1,0 +1,23 @@
+{
+  "article_id": "12000055194",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055194-03-01-19-software-updates",
+  "title": "03/01/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/01/19 - Software Updates"
+  ],
+  "content": "## 03/01/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000055194\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing Custom Forms to not display in the dropdowns on the Profile Tab in the Edit Member Product section of the Admin.\n\n- We made an update to require that Admin Usernames are unique, valid email address.\n\n- We updated the logic of the Member Related Searches widget to make it work more seamlessly with the preferred_domain Advanced Setting. Widget Involved: Bootstrap Theme - Module - Member Related Searches\n\n- Now the Member Reviews Sidebar widget will show 1 star as a minimum rating for a member. Widget Involved: Bootstrap Theme - Module - Recent Reviews\n\n- We added a new setting to the Edit Post section in the Admin Area called Respect Membership Level Search Priority setting.  This setting will first group posts by the Search Priority of the member who made the post before sorting them by the selected sort order. In order to use this new feature, navigate to Admin >> Content  >> Edit Post Settings >> Search Results Design tab. Widgets Involved: Search - Post - Search Query Search - Group - Search Query\n\n- We updated the display of checkbox options selected by a member when a custom checkbox field is added to a member form.  The selected options will now display on the member's profile page always followed by a comma and a space. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was causing the system to set the wrong Member Status if the signup process did not complete successfully in some cases.\n\n- We refactored the code of the Manage Product page in the Admin in order to reduce the load time of the page.\n\n- We updated the UI of the Email Templates page in the Admin.\n\n- We fixed an issue which was causing Checkout pages to show a connection error in some cases.\n\n- We fixed an issue which was affecting the Detect Visitor Location Add-On in some cases.\n\n- We implemented a couple of minor fixes to the View Leads page in the Admin.\n\n- We fixed an issue which was preventing the Member Profile Analytics Add-On from collecting data properly in some cases.\n\n- We fixed an issue which was causing the Member Related Searches widget to show inaccurate location links in some cases.\n\n- We updated the Post Auto-Suggest feature to include the location information of posts displayed as autosuggestions in a keyword search field.\n\n- Now the Manage Leads page in the Member Dashboard is fully based on text labels. New Text Labels: leads_no_data_available, leads_showing_no_data_info, leads_showing_no_data_info. Widget Involved: Bootstrap Theme - Account - Leads - New Lead System DataTables\n\n- We fixed an issue which was affecting searches for members in New Zealand in some cases. Widget Involved: Search - Member - Search Query\n\n- We removed an extra space which was showing below of the Member Results on the /listing page. Feature Involved: Listing\n\n- We updated the Newsletter signup Form to be fully compatible with the Spam Form Protector Add-On. Widget Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- We fixed an issue which was affecting the ability to Clone Email Templates in some cases.\n\n- The system will now return a 404 error page as expected when trying to view a /checkout page that does not exist.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000055194",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055194"
+    }
+  ],
+  "lastmod": "2019-03-09T01:15:03+05:30",
+  "scraped_at": "2026-10-18T13:44:35.306435"
+}

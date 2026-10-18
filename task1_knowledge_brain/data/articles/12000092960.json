@@ -1,0 +1,23 @@
+{
+  "article_id": "12000092960",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092960-03-24-2023-software-updates",
+  "title": "03/24/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/24/2023 - Software Updates"
+  ],
+  "content": "## 03/24/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000092960\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from populating the sub-sub categories dropdown options in member search widgets in some cases. Widgets Involved: Bootstrap Theme - Search Module - Top_Sub_Sub-Sub_Category Bootstrap Theme - Search Module - Top_Sub_Sub-Sub_Location\n\n- We fixed an issue which was preventing some form fields from displaying properly when purchasing a lead from the Member Dashboard in some cases.\n\n- We fixed an issue which was preventing the system from respecting the \"Notify the submitter of a review that it has been approved?\" Review Post Type Setting after a member approved a review from the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Reviews\n\n- We updated the Google Website Translator Add-On to improve the display on mobile devices. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We updated the Recent Reviews homepage widget in order to make the \"View All\" button compatible with the \"URL Permalink\" Review Post Type Setting. Widget Involved: Bootstrap Theme - Display - Recent Reviews\n\n- We fixed an issue which preventing the sort options on the Search Members page in the Admin from working properly after filtering members by category.\n\n- We fixed an issue with the display of the AdBlock Detector Add-On on member signup pages. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We updated the Froala WYSIWYG when editing Static Pages in the Admin in order to prevent images from being resized when switching in and out of code view.\n\n- The \"/login/retrieval\" page can be now edited from the Web Page Builder in the Admin.\n\n- We fixed an issue which was causing the \"Sort by Most Likes\" member search results sort option from working properly in some cases. Widget Involved: Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000092960",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092960"
+    }
+  ],
+  "lastmod": "2023-03-28T00:10:44+05:30",
+  "scraped_at": "2026-10-18T13:50:49.336811"
+}

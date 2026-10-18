@@ -1,0 +1,23 @@
+{
+  "article_id": "12000089928",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089928-09-16-22-software-updates",
+  "title": "09/16/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/16/22 - Software Updates"
+  ],
+  "content": "## 09/16/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089928\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the Billing Reminder Emails Add-On which was affecting the ability to send past-due email notifications in some cases.\n\n- We added a keyword search filter on the Edit Post Settings and Lead Settings pages in the Admin.\n\n- We fixed an issue which was preventing members from visiting a static page after setting the page to \"Only Allow Members\" in some cases. Widget Involved: Bootstrap Theme - Static Web Page\n\n- We updated the layout of the Membership Plan Search Results URL setting on the Membership Plans page in the Admin.\n\n- We added the ability to create member subscriptions through the Admin even when a Payment Gateway is not setup on the site.\n\n- We updated the Website URL form field type to add the option to display the URL as a clickable button with custom text on the frontend of sites.\n\n- We added the ability to sort by member ID on the Search Members page in the Admin.\n\n- We fixed an issue which was preventing the New Zealand Clickable Map from returning accurate results when searching the \"Bay of Plenty\" region. Widgets Involved: Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Function - Google Location Suggest Bootstrap Theme - Homepage Search - Clickable New Zealand Map\n\n- We implemented several security updates across the platform. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We updated the display of H2 titles on post search results pages to use the custom title set in the static page if one exists for the URL, and fall back to the title set in the Post Type settings if a static page does not exist for the URL. Widget Involved: Bootstrap Theme - Display - Member Feature Search Results H1\n\n- We fixed an issue which was preventing the system from using the Member Search Results Grid View layout when visiting a Membership Plan search results URL in some cases.\n\n- We updated how the Top Category and Sub Category selection process works in the Member Dashboard.  Previously, the Top Category always had to be selected in the Contact Details form, and then Sub Categories could be selected in the Listing Details form.  Now both the Top Category and Sub Category selection fields can be in the same form if the Admin of the site chooses.  If they are in the same form, selecting a Top Category in the form will dynamically update the available Sub Categories in the same form so the member can select from them. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We created a new Advanced Setting called \"Enable Embedly in Frontend Froala Editors\". When this setting is active, the system will include the Embedly functionality in all of the Froala Editors of all types used throughout the website. Widget Involved: Bootstrap Theme - Display - Recent Members Post Types Involved: Articles Website Blog Article Video Property Product Photo Album Job Listing Event Coupon Classified Soundcloud Post\n\n- We fixed an issue which was preventing calendars from appearing for \"Date\" and \"Date & Time picker\" fields when the \"Front-End Optimization: Load Latest JavaScript Files on Frontend of Website\" Advanced Setting was active on a site in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - DateTimePicker Scripts",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089928",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089928"
+    }
+  ],
+  "lastmod": "2022-09-19T22:55:25+05:30",
+  "scraped_at": "2026-10-18T13:50:15.404117"
+}

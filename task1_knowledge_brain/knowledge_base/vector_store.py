@@ -15,7 +15,10 @@ from .chunker import DocumentChunk
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_CHROMA_DIR = Path("task1_knowledge_brain/data/chroma_db")
+TASK1_ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = TASK1_ROOT / "data"
+# Canonical Task 1 data location; independent of the caller's working dir.
+DEFAULT_CHROMA_DIR = DATA_DIR / "chroma_db"
 COLLECTION_NAME = "bd_knowledge_base"
 
 
@@ -31,6 +34,7 @@ class SearchResult:
     score: float
     has_screenshot: bool
     screenshot_urls: str
+    source_type: str
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -44,6 +48,7 @@ class SearchResult:
             "score": self.score,
             "has_screenshot": self.has_screenshot,
             "screenshot_urls": self.screenshot_urls,
+            "source_type": self.source_type,
         }
 
 
@@ -55,20 +60,21 @@ class BDVectorStore:
     def __init__(self, persist_directory: Path = DEFAULT_CHROMA_DIR):
         self.persist_directory = Path(persist_directory)
         self.persist_directory.mkdir(parents=True, exist_ok=True)
+        existing_database = (self.persist_directory / "chroma.sqlite3").exists() and (self.persist_directory / "chroma.sqlite3").stat().st_size > 0
 
-        try:
-            self.client = chromadb.PersistentClient(path=str(self.persist_directory))
-        except Exception as e:
-            logger.error(f"Failed to open persistent ChromaDB at {self.persist_directory}: {e}")
-            # Fallback to a fresh temporary directory to keep the app running
-            fallback_dir = self.persist_directory.parent / "chroma_db_fallback"
-            fallback_dir.mkdir(parents=True, exist_ok=True)
-            logger.info(f"Using fallback ChromaDB directory at {fallback_dir}")
-            self.client = chromadb.PersistentClient(path=str(fallback_dir))
-        self.collection = self.client.get_or_create_collection(
-            name=COLLECTION_NAME,
-            metadata={"hnsw:space": "cosine"},
-        )
+        # Never silently switch databases: the caller must see initialization
+        # errors rather than receive empty or unrelated retrieval results.
+        self.client = chromadb.PersistentClient(path=str(self.persist_directory))
+        if existing_database:
+            try:
+                self.collection = self.client.get_collection(name=COLLECTION_NAME)
+            except Exception as exc:
+                raise RuntimeError(f"Existing Chroma database at {self.persist_directory} has no usable {COLLECTION_NAME} collection") from exc
+        else:
+            self.collection = self.client.get_or_create_collection(
+                name=COLLECTION_NAME,
+                metadata={"hnsw:space": "cosine"},
+            )
 
     def add_chunks(self, chunks: List[DocumentChunk], batch_size: int = 100) -> int:
         """
@@ -119,6 +125,8 @@ class BDVectorStore:
             where_filter = {"article_id": article_id_filter}
 
         # Ensure n_results does not exceed collection count
+        if n_results < 1 or not query_text.strip():
+            return []
         count = self.collection.count()
         if count == 0:
             return []
@@ -143,8 +151,8 @@ class BDVectorStore:
         distances = results.get("distances", [[]])[0] if "distances" in results else [0.0] * len(ids)
 
         for chunk_id, doc, meta, dist in zip(ids, docs, metadatas, distances):
-            # Chroma with cosine distance returns distance d in [0, 2], similarity score = 1 - (d / 2)
-            similarity = round(max(0.0, 1.0 - (dist / 2.0)), 4) if dist is not None else 1.0
+            # Chroma cosine distance is 1 - cosine_similarity.
+            similarity = round(max(0.0, min(1.0, 1.0 - dist)), 4) if dist is not None else 0.0
             search_results.append(
                 SearchResult(
                     chunk_id=chunk_id,
@@ -157,6 +165,9 @@ class BDVectorStore:
                     score=similarity,
                     has_screenshot=bool(meta.get("has_screenshot", False)),
                     screenshot_urls=str(meta.get("screenshot_urls", "")),
+                    source_type=str(meta.get("source_type") or (
+                        "help_center" if str(meta.get("url", "")).startswith("https://support.brilliantdirectories.com/support/solutions/articles/") else "legacy_unknown"
+                    )),
                 )
             )
 

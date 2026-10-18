@@ -1,0 +1,23 @@
+{
+  "article_id": "12000105418",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105418-07-18-2025-software-updates",
+  "title": "07/18/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/18/2025 - Software Updates"
+  ],
+  "content": "## 07/18/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105418\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the \"Affiliate Program Integrations\" module from working properly after completing a signup via the \"One-Click Google Login\" Add-On in some cases. Widget Involved: Bootstrap Theme - Conversion Tracking Codes\n\n- Updated the Widget Name validation when saving widgets on the Widget Manager page in the Admin.\n\n- Added the ability to clone member accounts from the Search Members page in the Admin.\n\n- Fixed an issue that affected the ability to use the \"Re-Import\" feature on the Business Data Page in the Admin in some cases.\n\n- Updated the Multi-Photo Post clone action to also clone the post images, not just the post data, when cloning posts from the Member Dashboard.\n\n- Updated the lead notification emails to use the formatted location address when leads are created via the API.\n\n- Updated the Froala WYSIWYG editors used for editing Email Templates in the Admin to only allow a set of email-safe inline style attributes. Style Attributes Allowed: 'color', 'background-color', 'font-family', 'font-size', 'font-style', 'font-weight', 'letter-spacing', 'line-height', 'text-align', 'text-decoration', 'text-indent', 'text-transform', 'direction', 'vertical-align', 'white-space', 'word-spacing', 'margin', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left', 'padding', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left', 'border', 'border-top', 'border-right', 'border-bottom', 'border-left', 'border-color', 'border-style', 'border-width', 'border-radius', 'display', 'width', 'min-width', 'max-width', 'height', 'min-height', 'max-height', 'background', 'background-image', 'background-repeat', 'background-position', 'table-layout', 'border-collapse', 'border-spacing', 'list-style-type', 'clear', 'float', 'text-shadow', 'opacity', 'word-break'\n\n- Updated the \"Admin Subscription / Invoice Action\" Webhook to include both the previous and new values when triggered.\n\n- Added two new Design Settings to control the display of verified members and their badge in the Recent Featured Members homepage widget: \"Only Display 'Verified' Members?\" and \"Display Verified Badge?\"\n\n- Updated the Email Froala WYSIWYG in the Admin to automatically remove all \"id\" and \"class\" attributes. Additionally, we removed the image caption feature to further improve compatibility with email clients.\n\n- Added support for two additional billing cycle options: Biennially (billed every 2 years) and Triennially (billed every 3 years). Widgets Involved: Bootstrap Theme - Account - Upgrade Page 1 Bootstrap Theme - Digital Products - Type of Product Module Bootstrap Theme - Form - Membership Payment Options Bootstrap Theme - Function - Form Promotion Code Validation\n\n- Fixed an issue where some members were not being returned as search results for all locations that they should in some cases. Widget Involved: Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105418",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105418"
+    }
+  ],
+  "lastmod": "2025-07-21T23:17:27+05:30",
+  "scraped_at": "2026-10-18T13:56:23.131363"
+}

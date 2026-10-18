@@ -1,0 +1,113 @@
+{
+  "article_id": "5000682673",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673-settings-text-labels",
+  "title": "Settings » Text Labels",
+  "category": "Settings",
+  "folder": "Text Labels",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Text Labels",
+    "Settings » Text Labels"
+  ],
+  "content": "## Settings » Text Labels\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682673\n\n\n## Overview\n\n\nCustomizing the text used throughout a site is useful, but it can become a long process when the same text must be changed repeatedly across many different pages of the site.\n\nFor example, the word \"company\" is used on many pages throughout the site, but some website owners may prefer a different word, such as \"startup,\" depending on the site.\n\nThe good news is that a single update can change the same word everywhere it appears across the site. This feature is called Text Labels .\n\n>> How To Locate Text Labels On The Front End Of A Website\n\n\n## Using Text Labels\n\n\nThe following steps outline how to access and update all Text Labels on the site:\n\n- Navigate to Settings » Text Labels.\n\n- Enter the text to be replaced into the search field: Typing in this field automatically filters the list of Text Labels to show only matching results:\n\n- Once the Text Label is located, replace the existing text in the field with the new text, then save the changes.\n\n\n### Sorting and Last Edited Date\n\n\nEach Text Label in the list includes a line showing when it was last edited. A sort dropdown above the list allows the results to be ordered by name (A to Z or Z to A) or by last edited date (most recent first or oldest first).\n\nSorting by most recently edited is a quick way to identify which Text Labels have changed and when, which is useful when reviewing a recent wording update on a site.\n\n\n## Text Label Pluralization\n\n\nBy default, if a Text Label is surrounded by two percentage signs, the system pluralizes the value by adding an \"s.\"\n\nMore information regarding how percentage signs work can be found in the article below:\n\nUsing Text Labels with Percentage Shortcode\n\nSome Text Labels have a Plural Version variable; when that is the case, the system uses that value instead.\n\nExample: By default, the system adds an \"s\" to the end of the word \"client\" when using the plural version of the following Text Label:\n\nIf a different value is needed instead of \"Clients,\" the Plural Version of the Text Label can be used; the system will use this value instead:\n\nNote : When the Default Website Language is set to a language other than English and the \" Use same language for text labels and email templates \" option is enabled, the system automatically disables auto-pluralization to ensure accurate text display.\n\n\n## Additional Functionality\n\n\nText Labels include the ability to copy the variable name and reset the field.\n\n\n### Copy Text Labels\n\n\nText Label variable names can be copied:\n\n\n### Reset Text Labels\n\n\nAll Text Labels can also be restored to their default value:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184994825/original/P_7D_IohA9x-tIBUrIpVMkMeOdw1yA1r8w.png?1789057161",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184994922/original/ttgpLwdG4sJoWh4uH-GGeIWFnwGx6h4tcQ.png?1789057233",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184995716/original/nUXkNOQBEARBF0IMqzt043uHLpioNOUu6g.png?1789058073",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184994951/original/DmjovrIhDitX2BxL8fzwDHANkhZXPoF9Ag.png?1789057274",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184995121/original/wBuCEF8Fjw8gbxKJJjDZQ-yJLxe__GOp5w.png?1789057465",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184995144/original/3gM_6sR3SWyxHxc_01o9o8I6s0ZG-9xuOg.png?1789057507",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184995199/original/TkuvykVVMm4s1frJ1rLp1fxB_BeTGUjATw.png?1789057574",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184995236/original/J0ZXbV7qPGs5n2__f96DXe2tjiORdMiDkg.png?1789057605",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184995281/original/SR6WYOVMSuWFh7CLmcXFwChc7cEGqhmBig.png?1789057623",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » Text Labels' in section 'Settings' / 'Text Labels'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673"
+    },
+    {
+      "text": "How To Locate Text Labels On The Front End Of A Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055818"
+    },
+    {
+      "text": "Using Text Labels with Percentage Shortcode",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000001005"
+    }
+  ],
+  "lastmod": "2026-09-10T22:04:39+05:30",
+  "scraped_at": "2026-10-18T13:39:12.681815"
+}

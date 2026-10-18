@@ -1,0 +1,23 @@
+{
+  "article_id": "12000090018",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090018-09-23-22-software-updates",
+  "title": "09/23/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/23/22 - Software Updates"
+  ],
+  "content": "## 09/23/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090018\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to display members as having credits when they did not on the Search Members page in the Admin. This was only a display issue on this page and did not impact the usage of credits on any websites.\n\n- We added \"connect\" as a reserved word when generating URLs for pages and all types of content.\n\n- We optimized the query used to fetch member data throughout the system to reduce page load times.\n\n- We fixed an issue which was causing the system to load the Lazyload JS file twice on the frontend of sites. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We fixed an issue which was preventing Social Share buttons from displaying properly on member profile pages in some cases. Widget Involved: Bootstrap Theme - Member Profile - Google Maps Footer\n\n- We fixed an issue which was affecting the ability to save Froala WYSIWYG content when using Froala's \"Code View\" when editing Web Pages from the Admin.\n\n- We fixed an issue which was causing the system to remove the sub categories selected by a member after saving the Member Contact tab in the Member Dashboard in some cases.\n\n- We fixed an issue which was causing the system to duplicate members on member search results pages in some cases.\n\n- We fixed an issue with the Google Sitemap Generator Add-On which was causing the system to include the default URL for member search results pages even after it had been updated from the Admin.  Now the correct, updated URL will be included in sitemap files.\n\n- We implemented several security updates to prevent XSS injections throughout the software. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- We created a new Advanced Setting called \"Front-End Optimization: Mobile Preloader\".  When this setting is enabled, the first web page visited from a mobile device will display a brief \"loading\" message which will improve Pagespeed scores.\n\n- We fixed an issue which was affecting the ability to search for member who submitted the \"Listing - Verify Account\" form on the Search Members page in the Admin.\n\n- We fixed an issue which was preventing checkbox form field data to be passed on to the associated Webhook when submitting a member form from within the Member Dashboard.\n\n- The Top Level Category field in the Member Dashboard is now compatible with the Default Category Sort Order setting.\n\n- We fixed an issue which was preventing the system from respecting the \"Complete Profile Fields\" Advanced Setting when \"file\" is the only content saved in the Advanced Setting. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We fixed an issue which was preventing the Photo Albums Banner from working properly in some cases. Widget Involved: Bootstrap Theme - Banner - Photo Albums Ad\n\n- We fixed an issue which was causing the Membership Plan of the logged-in member to display improperly in the upper-right corner of pages when the Google Website Translator Add-On was active on a site in some cases. Widget Involved: Bootstrap Theme - Header - Member Links\n\n- The Membership Plan name displayed for each member on the Search Members page in the Admin is now compatible with special characters.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090018",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090018"
+    }
+  ],
+  "lastmod": "2022-09-27T00:35:50+05:30",
+  "scraped_at": "2026-10-18T13:50:17.165279"
+}

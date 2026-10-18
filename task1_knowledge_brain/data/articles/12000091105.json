@@ -1,0 +1,97 @@
+{
+  "article_id": "12000091105",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091105-member-api-how-to-edit-member-data-with-api-calls",
+  "title": "Member API - How to Edit Member Data with API Calls",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "Member API - How to Edit Member Data with API Calls"
+  ],
+  "content": "## Member API - How to Edit Member Data with API Calls\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091105\n\nNow that our connection is all set and our Zap is published, we can update the spreadsheet created and this will create members on the site dynamically.\n\nHow to Connect to the API: Google Sheets Example\n\nThe examples shown in this article are completed using https://www.postman.com/ .\n\n\n## Updating Member Data\n\n\nThe API's main function is to add members to the database, it does not trigger a welcome emails because the member did not actually sign up on the site.\n\nWe have created a parameter that can be sent with the API request to trigger the email being sent, based on the settings of the membership plan. The idea is not to always trigger the signup email to be sent, only when the parameter is sent with the request.\n\nThe parameter:\n\nsend_email_notifications\n\nIs set to 1 so the system will now trigger the emails after a successful create user request:\n\nWhen updating a members information using the api, only one member can be updated at a time.\n\nUsing the following URL:\n\n/api/v2/user/update\n\nMake sure that the member data that is to be updated keeps the original user_id of the member, this is important because the id is tied to the member in the database.\n\nWith the same user_id you can then add the fields and the new information.\n\nItems to take in consideration with the user UPDATE\n\n- In order to add new services (sub and sub-sub level categories) for the current top level category add the parameter: create_new_categories = 1\n\n- Sub and sub-sub categories have to match the parent top category and sub-subs have to match the parent sub.\n\n- Email can only be a duplicate is allowed in the site settings: allow_duplicate_member_emails\n\n- Combo of email + password can never be the same for 2 members.\n\n- Token can't be a duplicate and needs to follow the correct format, it needs to be alphanumerical and 32 characters.\n\n- All of the values passed for all fields have to be an accepted value. Use our member import template as a guide for accepted default values: How To Import Members Via CSV File\n\n- When referencing a category name in the API, use single quotes. For example, if the top category is Adults and the subcategory is 25-30 , enclose the subcategory name in single quotes '25-30' to ensure it is properly recognized.\n\n- When updating member data such as website, booking link, or social media URLs, the system will validate each URL to ensure it follows a proper format. If a URL is not in a valid format, it will be skipped during the update process. Valid URL format example : http://www.example.com or https://www.example.com\n\n- An existing Stripe customer can be linked to a member that already exists on the site using the stripe_customer_id parameter. See Linking a Stripe Customer ID to an Existing Member below.\n\n- When an update changes a member's profile URL, a 301 redirect is created automatically from the old URL to the new one, the same way the admin member edit screen does. Previously the API changed the URL without creating a redirect, so the old address returned a 404. To skip the redirect on a single request, include create_301_redirect=0 .\n\nThe subscription_id and profession_id have to created within the site before they can be used or updated via spreadsheet. This means the membership plan and categories must already exist within the site in order for the api call to work properly.\n\n>> Finance » Membership Plans Overview\n\n>> How To Import Categories Via CSV File\n\n\n## Linking a Stripe Customer ID to an Existing Member\n\n\nWhen a member's subscription was originally created outside Brilliant Directories, but through the same Stripe account connected to the site, the existing Stripe customer can be linked to that member so the saved card is charged automatically at renewal. No direct database changes are required.\n\nThe parameter is stripe_customer_id , and the accepted value must match the format cus_ followed by alphanumeric characters only (eg: cus_ABC123xyz789).\n\nTwo details are easy to miss: the request method must be PUT , and user_id is sent in the request body rather than at the end of the URL.\n\nCopy curl -X PUT \"https://www.example.com/api/v2/user/update\" \\\n  -H \"x-api-key: API_KEY\" \\\n  -d \"user_id=1048\" \\\n  -d \"stripe_customer_id=cus_ABC123xyz789\"\n\nThe request is validated before anything is written:\n\n- A value that does not match the cus_ format is rejected.\n\n- A Stripe customer ID already attached to a different member is rejected, so the same customer cannot be linked twice.\n\n- If the member already has a different Stripe customer ID on file, the request is rejected unless overwrite_stripe_customer_id = 1 is sent with it.\n\n- If the member has no billing client record yet, one is created automatically.\n\nRenewal billing does not read payment_method_id. Writing a payment_method_id value into member metadata does not link a saved card to a subscription. That value is stored by the site's own checkout for display purposes only. Linking an existing Stripe customer to a member is done with stripe_customer_id as shown above. The chosen payment method must also be set as the default on that customer in Stripe.\n\nThe related parameters subscription_start_date and billing_cycle are accepted only when a member is created or imported, not on update. Members that already hold an active subscription keep their existing renewal schedule. For members that do not exist on the site yet, all three values can be supplied together through the member import: How To Import Members Via CSV File\n\n\n## Member Credits\n\n\nMember Credits can be edited via the API, there are 2 parameters and 3 actions to perform:\n\n- credit_action parameter: use to add , deduct or override member credits.\n\n- credit_amount parameter: is required to specifying the amount of member credits that will be added, deducted or overridden.\n\n\n## Verify User Credentials Action\n\n\nThis API endpoint is used to verify user credentials. It is easy and cost-effective for websites that provide support for SSO directly.\n\n- api/v2/user/login",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114527519/original/fwl-jhptki1W9--XxTt6-Gp1K3ltxqWBIw.png?1663252662",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member API - How to Edit Member Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116091137/original/ZfUbDVWZ3n4kFaR8ldvgt_0x3V6QhJPngw.png?1666111342",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member API - How to Edit Member Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12118947005/original/43Gj8QlCY8IIdXo3eckY9d52wc9ZO6KGYQ.png?1671722354",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member API - How to Edit Member Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12150710098/original/zxiKeZIjsGYptiS-M6UI3aq3caXWhezWPQ.png?1728498726",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member API - How to Edit Member Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12118948995/original/J_9OCUMX2parMP_2oCNpRQ8rY9vsjiPQyg.png?1671724369",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member API - How to Edit Member Data with API Calls' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091105",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091105"
+    },
+    {
+      "text": "How to Connect to the API: Google Sheets Example",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000088716"
+    },
+    {
+      "text": "https://www.postman.com/",
+      "url": "https://www.postman.com/"
+    },
+    {
+      "text": "How To Import Members Via CSV File",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000558475"
+    },
+    {
+      "text": "Finance » Membership Plans Overview",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000048836"
+    },
+    {
+      "text": "How To Import Categories Via CSV File",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000558401"
+    },
+    {
+      "text": "How To Import Members Via CSV File",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000558475"
+    },
+    {
+      "text": "Member Credits",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000086306-member-credits-system"
+    }
+  ],
+  "lastmod": "2026-08-18T21:37:22+05:30",
+  "scraped_at": "2026-10-18T13:50:30.357254"
+}

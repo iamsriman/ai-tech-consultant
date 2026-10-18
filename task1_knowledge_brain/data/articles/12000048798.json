@@ -1,0 +1,51 @@
+{
+  "article_id": "12000048798",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048798-how-to-edit-the-default-search-results-url-of-post-types-events-classifieds-etc-",
+  "title": "How to Edit the Default Search Results URL of Post Types (Events, Classifieds, Etc.)",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How to Edit the Default Search Results URL of Post Types (Events, Classifieds, Etc.)"
+  ],
+  "content": "## How to Edit the Default Search Results URL of Post Types (Events, Classifieds, Etc.)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048798\n\nTo change the default URL of a post type, please follow the steps below.\n\nGo to My Content >>  Edit Post Settings. Search and click Edit for the post type that needs to be updated.\n\nScroll down, find the URL Permalink field, and update the URL as desired.\n\nImportant: Make sure to not have any spaces or special characters in the new URL.\n\nWhen Saving the Post Type, a message will display to confirm this change: \"The URL of this Post Type is being changed from classifieds to brilliant-classifieds. This action will also update the slug URL of all associated posts.\"\n\nThis means that already created posts showing under the URL  /classifieds now are going to display under /brilliant-classiffieds.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184883564/original/xRZHTjcYJEWEtH595GMzYQM2cIacv_Ynew.png?1788903994",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Default Search Results URL of Post Types (Events, Classifieds, Etc.)' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184883194/original/lAvNhO06yfw822t1HQGcbBOpk6S3ItrcWw.png?1788903566",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Default Search Results URL of Post Types (Events, Classifieds, Etc.)' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184883495/original/rV5QaELJlOxRSgUeFv0dilR6sfY9KrdcqA.png?1788903952",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Default Search Results URL of Post Types (Events, Classifieds, Etc.)' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048798",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048798"
+    }
+  ],
+  "lastmod": "2026-09-09T03:16:40+05:30",
+  "scraped_at": "2026-10-18T13:43:36.834965"
+}

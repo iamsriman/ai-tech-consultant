@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108203",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108203-04-10-2026-software-updates",
+  "title": "04/10/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/10/2026 - Software Updates"
+  ],
+  "content": "## 04/10/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108203\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Added support for county-level location search for US-based directories using the Business Data tool in the Admin.\n\n- Added \"Most Views\", \"Least Views\", \"Most Likes\", and \"Least Likes\" sort options to the Manage Posts page in the Admin.\n\n- Released a security update to the default API key permissions, restricting new and existing keys to standard endpoints only. Additionally, renamed \"Tables\" to \"Endpoints\" throughout the API permissions interface for clearer terminology.\n\n- Updated the long date format to remove the comma for non-US date formats, improving the display of dates on the sign-up page and throughout the site.\n\n- Fixed an issue that caused an error when connecting a custom domain, preventing the domain from being updated properly in some cases.\n\n- Fixed an issue that caused the Automatic Lead Matching Add-On to include inactive members (cancelled or on hold) when matching leads submitted via the API. Widget Involved: Search - Member - Search Query\n\n- Fixed an issue that caused certain content in some Design Settings fields to render incorrectly in the Admin.\n\n- Fixed an issue that prevented certain short words like \"Pro\" from being used as a top-level category name. Members can now use \"Pro\" as a category without encountering a 404 error on the search results page.\n\n- Fixed an issue that caused the \"More Options\" dropdown menu to be cut off on the last website record on the Website Dashboard page in the Admin.\n\n- Fixed an issue that caused the \"Result\" text to display incorrectly on Post Search Results pages in some cases, showing the wrong word instead of the correct singular or plural form of the configured label. Widget Involved: Bootstrap Theme - Post Results - Sorting Options\n\n- Fixed an issue that caused an extra \"Continue to next section\" button to appear during the Pay Per Post purchase workflow when a member added a new credit card during the payment process.\n\n- Fixed an issue that prevented the search results map from loading on sites using the updated Google Places API. Widget Involved: Bootstrap Theme - Search Results Map\n\n- Released a security update to the Admin Accounts page in the Admin Panel to prevent unauthorized modifications to other admin accounts.\n\n- Fixed an issue that prevented the \"Sub Account Form Submitted\" webhook from firing when a sub-account was created from the Member Dashboard, including when using the Copy Master Account Details feature. Widget Involved: Bootstrap Theme - Account - Feature Edit\n\n- Fixed an issue that caused the Billing Details page to display incorrectly on mobile devices, making the billing table difficult to use on small screens. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Fixed an issue that caused the \"Find Unused URL\" button to stop working on the 301 Redirects page in the Admin.\n\n- Fixed an issue that caused content created with BD Butler to contain deeply nested elements, which prevented changes from saving properly in the content editor in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108203",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108203"
+    }
+  ],
+  "lastmod": "2026-04-14T09:25:11+05:30",
+  "scraped_at": "2026-10-18T13:58:45.412305"
+}

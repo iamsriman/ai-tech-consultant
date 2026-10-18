@@ -1,0 +1,156 @@
+{
+  "article_id": "12000109264",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109264-bd-butler-scheduled-ai-tasks-skills-and-routines",
+  "title": "BD Butler: Scheduled AI Tasks, Skills and Routines",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "BD Butler: Scheduled AI Tasks, Skills and Routines"
+  ],
+  "content": "## BD Butler: Scheduled AI Tasks, Skills and Routines\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109264\n\nBD Butler can create website content as a one-time task or automatically on a recurring schedule.\n\nScheduled tasks run in the background through Brilliant Directories. The website admin does not need to remain open, and the computer does not need to stay turned on while a task is running.\n\nThis article expands on the main BD Butler article and covers the Tasks, Skills, and Routines available inside BD Butler PRO.\n\n- [Read] BD Butler\n\n- [WATCH] AI Website Automation: Schedule Content Creation\n\n- [WATCH] Scheduled AI Tasks: Create Website Content While You Sleep\n\n\n## Understanding Skills, Tasks and Routines\n\n\nBD Butler uses three connected components:\n\n- Skill: A predefined job BD Butler knows how to complete, such as creating a blog article, event, or job listing.\n\n- Routine: A saved Task that runs repeatedly according to a selected schedule.\n\n- Task: A single execution of a selected Skill.\n\nFor example, the Create a Job Listing Skill can be run once as a Task or saved as a Routine that searches for and creates new job listings every week.\n\n\n## Available Skills\n\n\nThe following 3 built-in Skills are currently available.\n\n\n### Create a Blog Article\n\n\nResearches a topic related to the website and creates an article that can include:\n\n- SEO-focused written content\n\n- An article image\n\n- Internal links to related website content\n\n- Links to relevant external sources\n\n- Post and SEO details\n\n\n### Create an Event Post\n\n\nSearches for a real upcoming event and creates an event post using information from the event’s official source.\n\nThe instructions can focus the search by:\n\n- Location\n\n- Industry\n\n- Event type\n\n- Audience\n\n- Date range\n\n\n### Create a Job Listing\n\n\nSearches for an active job opportunity and creates a formatted job listing.\n\nThe instructions can focus the search by:\n\n- Job title\n\n- Industry\n\n- Location\n\n- Experience level\n\n- Employer type\n\nWhen information is available, the generated listing can also include compensation details and a link to the employer’s official job page.\n\n\n## Create a New Task\n\n\n- Click the New Task tab.\n\n- Select the Skill to run: Blog, Event, Job\n\n- Enter a nickname for the Task.\n\n\n## Add Custom Instructions\n\n\nCustom instructions tell BD Butler what type of content to create.\n\nThis field is optional. Without additional instructions, BD Butler can review the website name, URL, menus, categories, footer links, and recent content to determine a relevant topic.\n\nAdding instructions provides greater control over the results.\n\n\n### Blog Article Example\n\n\nCreate articles about preparing for a first half marathon. Cover training plans, recovery, nutrition, and choosing a running coach.\n\n\n### Event Post Example\n\n\nFind upcoming small-business networking events in Austin, Texas. Only include events with an official registration page.\n\n\n### Job Listing Example\n\n\nFind active remote marketing manager positions at software companies in the United States.\n\nInstructions can also define the preferred structure, including:\n\n- Article length\n\n- Sections to include\n\n- Locations to target\n\n- Topics to avoid\n\n- Preferred audience\n\n- Whether FAQs or bullet points should be included\n\n- Internal or external linking preferences\n\nFor recurring Routines, use instructions broad enough to produce different results during future runs while remaining focused on the same subject.\n\n\n## Choose the Number of Posts\n\n\nSelect how many items BD Butler should create during each run.\n\nAvailable quantities include:\n\n- 1 post (2 credits)\n\n- 2 posts (4 credits)\n\n- 3 posts (6 credits)\n\nA maximum of three posts can be created during one Task. Keeping each run within this limit helps maintain consistent research and content quality.\n\nFor a Routine, the selected quantity will be created each time the Routine runs.\n\nFor example, a weekly Routine set to create three blog articles will attempt to create three new articles during every weekly run.\n\n\n## Choose Draft or Published Status\n\n\nSelect how the generated content should be saved.\n\n\n### Publish Live\n\n\nThe content is published automatically after the Task is completed successfully.\n\nBefore using this option with a recurring Routine, run the Task at least once in draft mode and review the results.\n\n\n### Save as Draft\n\n\nThe content is created but does not appear publicly until it is reviewed and published manually.\n\nDraft mode is recommended when testing a new Skill, prompt, or recurring Routine.\n\n\n## Choose the Post Author\n\n\nSelect the member or admin account that will be assigned as the author of the generated content.\n\nThe selected author will appear as the content owner when the post is created. One author can be selected for each Task or Routine.\n\n\n## Schedule the Task\n\n\nA Task can run once or be placed on a recurring schedule.\n\n\n### Run Once Now\n\n\nRuns the Task one time immediately.\n\nThis option is useful for:\n\n- Testing new instructions\n\n- Reviewing the type of content produced\n\n- Creating a single article, event, or job listing\n\n- Confirming the selected author and post status\n\n\n### Hourly\n\n\nRuns the Task approximately once every hour.\n\n\n### Daily\n\n\nRuns the Task approximately once each day.\n\n\n### Weekly\n\n\nRuns the Task on selected days of the week.\n\nDifferent Routines can be assigned to different days. For example:\n\n- Monday: Industry blog articles\n\n- Wednesday: Upcoming events\n\n- Friday: New job listings\n\nScheduled Tasks may run up to approximately 15 minutes before or after the selected time. This built-in offset helps distribute scheduled processing and means a Routine may not always begin at the exact minute shown.\n\n\n## Set the Number of Runs\n\n\nRecurring Routines can continue until they are manually stopped or can be limited to a specific number of runs.\n\nA run limit can be useful for short content campaigns.\n\nOnce the selected number of runs has been completed, the Routine stops automatically.\n\n\n## Manage Existing Routines\n\n\nSaved Routines can be managed from the Routines list.\n\nAvailable actions can include:\n\n- Start or stop a Routine\n\n- Edit the Routine settings\n\n- Run the Routine manually\n\n- Clone the Routine\n\n- Review previous runs\n\n\n### Edit a Routine\n\n\nEditing a Routine changes the settings used during its next run.\n\nThis can be used to update:\n\n- Custom instructions\n\n- Content quantity\n\n- Author\n\n- Publishing status\n\n- Schedule\n\n- Run limit\n\nPreviously completed Tasks and content are not changed.\n\n\n### Clone a Routine\n\n\nCloning creates a copy that can be adjusted without changing the original Routine. For example, an existing job listing Routine can be cloned to target a different city, job title, or experience level.\n\n\n### Run a Routine Manually\n\n\nA saved Routine can be run manually without waiting for its next scheduled time. This creates an additional Task using the Routine’s current settings.\n\n\n## Completed\n\n\nThe Completed tab provides a history of AI Tasks that are finished, currently processing, or were stopped before completion.\n\nEach task card can display:\n\n- The task nickname\n\n- The selected Skill\n\n- Whether it was a manual or scheduled run\n\n- The date and time it started\n\n- The processing time\n\n- The number of credits used\n\n- The admin account that initiated the task\n\n- The current task status\n\nAlthough the tab is labeled Completed , it also includes tasks that are still running or were stopped.\n\n\n### Filter the Task List\n\n\nUse the available filters to locate a specific task.\n\nThe status dropdown includes:\n\n- Any Status\n\n- Done\n\n- Running\n\n- Stopped\n\nEnter a task nickname in the Filter by name field to narrow the results further.\n\nClick Refresh to check for updated task statuses.\n\n\n### Running Tasks\n\n\nA task that is still processing displays a blue Running status.\n\nRunning tasks include a Stop button that can be used to cancel the task before it finishes.\n\nThe BD Butler window and browser do not need to remain open while a task is processing. Return to the Completed tab later and click Refresh to check its progress.\n\n\n### Completed Tasks\n\n\nA successfully completed task displays a green Done status.\n\nCompleted task cards can also show:\n\n- How long the task took to complete\n\n- How many credits were used\n\n- A Re-Run button\n\n- An arrow for opening additional task details and results\n\nUse Re-Run to repeat the task using the same configuration.\n\n\n### Stopped Tasks\n\n\nA canceled task displays a red Stopped status.\n\nThe task card includes a message confirming that the task was canceled. When applicable, it will also confirm that no credits were used.\n\nStopped tasks can be run again by clicking Re-Run .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182580649/original/NUPFMB5fSofO3AiSglqfzqeA9zslyOt4_g.gif?1784911443",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182580735/original/8KkIgNP-4Gtnw7a7OC49BJnLrkor-ko73A.png?1784911579",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182582318/original/ZnJCjyABUW2Bp8fLgO974gfLaKEhM4aBEw.png?1784913148",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182582571/original/k4-8StSnzI_bQ_9uOCtpz5ig6pgKtrmRZw.png?1784913378",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182584742/original/XXYYD-df-7N648eCZZktIaMvcvi6hkC45g.png?1784915543",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182584762/original/E9RE4QieSgm2skB1nPW1Y8YJbG6rFnVRlw.png?1784915567",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182584772/original/31d6ZsZC7uZqvqxnKVYKSl7wU_5lWf2uKQ.png?1784915588",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182585239/original/lq-sdzcLg2PruXcJk69lonzbShTM1NPuDQ.png?1784915923",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182585459/original/VDFZHr1xuVXPI_ycd-2tdVBhrlWwggclNw.png?1784916034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182585535/original/tw9LPzpXF0Pk7HK6xGYNPhWB9DTBO6Kt2w.png?1784916142",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182601123/original/6i6gdka-kqxL1giMDRZApAdRya_rrQZ3yA.png?1784939437",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182601157/original/x6GJL_Yj2UJKi7NkrfgpMzjH3AwPNgbI0Q.png?1784939658",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'BD Butler: Scheduled AI Tasks, Skills and Routines' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109264",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109264"
+    },
+    {
+      "text": "[Read] BD Butler",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000107806"
+    },
+    {
+      "text": "[WATCH] AI Website Automation: Schedule Content Creation",
+      "url": "https://www.brilliantdirectories.com/blog/ai-website-automation-schedule-content-creation-with-bd-butler-skills-routines"
+    },
+    {
+      "text": "[WATCH] Scheduled AI Tasks: Create Website Content While You Sleep",
+      "url": "https://www.brilliantdirectories.com/blog/scheduled-ai-tasks-create-website-content-while-you-sleep-skills-routines"
+    },
+    {
+      "text": "creates an article",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000034913"
+    },
+    {
+      "text": "event post",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000002335"
+    },
+    {
+      "text": "job opportunity",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000002337"
+    }
+  ],
+  "lastmod": "2026-07-25T06:06:02+05:30",
+  "scraped_at": "2026-10-18T13:59:51.287295"
+}

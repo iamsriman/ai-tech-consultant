@@ -1,0 +1,23 @@
+{
+  "article_id": "12000103667",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103667-02-28-2025-software-updates",
+  "title": "02/28/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/28/2025 - Software Updates"
+  ],
+  "content": "## 02/28/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103667\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Resolved an issue preventing the countries header accordion from functioning correctly on the /locations page when country names contained special characters. Widgets Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- Corrected an issue where Date Picker fields failed to operate when the \"Allow Selecting a Post Start/Publish Date in the Past\" Advanced Setting was disabled. Widget Involved: Bootstrap Theme - Footer - Scripts - DateTime Scripts\n\n- Implemented minor bug fixes and enhancements to the Import Business Data tool in the Admin.\n\n- Updated the Update and Create Reviews API endpoints to be compatible with the \"Reviews with Photos\" Add-On.\n\n- Fixed an issue where the Google Sitemap Generator Add-On generated invalid URLs when filenames contained special characters.\n\n- Made several improvements to the Setup Wizard modal on the Dashboard page in the Admin.\n\n- Expanded the Brilliant Directories API to support search functionality for Member Reviews, Single-Image Post Types, and Multi-Photo Post Types.\n\n- Deactivated the Google Search Assist Add-On for all \"Search\" API endpoint responses.\n\n- Introduced a new set of CSS classes for alerts, badges, and label HTML tags for the frontend of sites. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Improved image upload performance through the Froala WYSIWYG editor. Widget Involved: Bootstrap Theme - Form - Froala Editor Actions\n\n- Added a new text label, \"Claim Listing Icon,\" to allow customization of the claim listing icon on member profile pages.\n\n- Resolved an issue preventing the \"Migrate City - Zip Code Service Areas\" installer from functioning correctly when run from the Installer Module on the Admin Dashboard page.\n\n- Corrected an issue where the Reviews \"Overall Rating\" link failed to work in the Recent Members homepage widget. Widget Involved: Bootstrap Theme - Function - Overall Member Rating",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103667",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103667"
+    }
+  ],
+  "lastmod": "2025-03-04T06:21:58+05:30",
+  "scraped_at": "2026-10-18T13:55:45.484153"
+}

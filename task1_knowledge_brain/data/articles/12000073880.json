@@ -1,0 +1,23 @@
+{
+  "article_id": "12000073880",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073880-08-28-20-software-updates",
+  "title": "08/28/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/28/20 - Software Updates"
+  ],
+  "content": "## 08/28/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000073880\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to display the wrong currency format on the Finance Snapshot section of the Admin Dashboard.\n\n- The Admin menu item previously called \"Payment Gateways\" is now called \"Payment Settings\".\n\n- We removed the \"signed_in\" parameter from the Google Maps API request which was causing sites to display a warning message in the browser console. Widgets Involved: Bootstrap Theme - Form - Lead Google Location Bootstrap Theme - Function - Google Location Suggest Website - Contact Member Lead Map Bootstrap - Contact Member Lead Map\n\n- We fixed an issue which was causing content on profile pages to be considered \"Members Only\" when the \"Hide Header on Profile\" Membership Plan setting was set to \"Yes\" in some cases. Widget Involved: Bootstrap Theme - Member Profile - Member Tabs lazyLoad\n\n- We created a new Advanced Setting called \"Froala Allowed Empty Tags\" in order to allow empty HTML tags to be added to Froala WYSIWYGs without being removed automatiically. Widget Involved: Form - Froala Editor Javascript\n\n- We standardized the colors used for modals in the Admin to make them all uniform.\n\n- We implemented a set updates to fix minor issues on the Advanced Settings, Text Labels and 301 Redirect pages in the Admin.\n\n- We fixed an issue which was causing the Quick Edit modal to close immediately after being opened on the Search Members page in the Admin due to a conflict with some browser extensions in Chrome Browser.\n\n- We fixed an issue which was preventing content from being saved in the Member Dashboard when a forward slash ( / ) was added to the iframe_source_whitelist Advanced Setting.\n\n- We deprecated the \"Hide Not Active Countries\" Advanced Setting as it no longer served a purpose in supported versions of the software.\n\n- We added the ability to deselect member categories in the search feature on the Search Members page in the Admin.\n\n- We removed the Clickable-Maps options from the \"Search Type\" Design Setting when the \"Homepage Clickable Maps\" Add-On is not active on a site. Previously they would be shown as deactivated options.\n\n- We updated the Pay Per Post Add-On logic in order to prompt the user to buy a post credit when publishing an existing unpublished post without sufficient credits.\n\n- We updated the logic of the Invite Admin feature to set a limit of 3 invite email links per batch on the Admin Account page in the Admin.\n\n- We updated the datatable when viewing posts in the Member Dashboard area to be fully compatible with Text Labels. Widget Involved: Bootstrap Theme - Account - Feature Body\n\n- The Member Password Reset module is now compatible with Text Labels New Labels: password_updated_success credentials_expired change_password_already_logged_in request_password_reset\n\n- We updated the \"Add New\" button text when creating a new post in the Member Dashboard area to display text with the words capitalized exactly as they were entered in the Admin. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- We updated the Activity Tracker to use the text \"Membership Plan\" instead of \"Membership Level\" when a Membership Plan is updated or created in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000073880",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073880"
+    }
+  ],
+  "lastmod": "2020-09-01T00:02:30+05:30",
+  "scraped_at": "2026-10-18T13:47:02.788162"
+}

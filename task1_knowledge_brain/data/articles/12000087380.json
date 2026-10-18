@@ -1,0 +1,23 @@
+{
+  "article_id": "12000087380",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087380-05-20-22-software-updates",
+  "title": "05/20/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/20/22 - Software Updates"
+  ],
+  "content": "## 05/20/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087380\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the meta robots tag of the frontend of sites to include attributes that support image and video previews on Google and Bing search result pages. Widget Involved: Bootstrap Theme - HEAD\n\n- We created a new Text Label that displays at the top of the page after a member creates a new Multi-Photo Post from the Member Dashboard. Text Label Involved: photo_album_created_message\n\n- We fixed an issue which was preventing the \"Complete/Incomplete Profiles\" search criteria from working properly in the Admin in some cases. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We updated the Member Reviews functionality to make the \"Get copy of member review Email\" Advanced Setting compatible with the \"Hide Reviews Star Rating Options\" Membership Plan setting. Widget Involved: Bootstrap Theme - Reviews - Copy Member Review Email\n\n- We implemented several security updates to prevent XSS injections on the frontend of sites.\n\n- The invoice_pdf_link email variable will now work with either 1 or 3 \"%\" symbols when called in email templates.\n\n- We updated the Member Login form to add support for the \"Security - Google reCaptcha\" form field type. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We fixed an issue which was causing the system to display an empty space at the top of pages when viewed on mobile devices if the \"Public Visitor Main Menu\" Design Setting was set to \"Hide Menu\". Widget Involved: Bootstrap Theme - Header - Main Menu\n\n- We created a new One-Click Google Login setting called \"Plugin Name\". This field is mandatory when setting up a new Google login app on the site. To use this new setting, navigate to the Admin >> Settings >> General Settings >> Integrations >> Google Developers section.\n\n- We optimized the SQL query used when searching members to speed up the loading time of member search results pages on the frontend of sites.\n\n- We added the ability to delete files uploaded using the File Uploads for Forms Add-On.  Files can now be deleted from from the Member Leads, Member Reviews, and Form Inquiries pages in the Admin.\n\n- We updated the layout of the \"Country Code + Phone Number\" form field type to display the flag and phone code of each country in the dropdown. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We updated the Activity Tracker to log when a Sidebar is added or saved in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087380",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087380"
+    }
+  ],
+  "lastmod": "2022-05-24T21:36:38+05:30",
+  "scraped_at": "2026-10-18T13:49:48.308691"
+}

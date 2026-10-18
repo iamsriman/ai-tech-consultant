@@ -1,0 +1,23 @@
+{
+  "article_id": "12000048333",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048333-08-17-18-software-updates",
+  "title": "08/17/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/17/18 - Software Updates"
+  ],
+  "content": "## 08/17/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048333\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added the ability to show the Member Account Sidebar Menu across all Front-End pages when a Site Member is logged in. This feature is only available for mobile devices as a way to make a more convenient, app-like user experience. Widgets Involved: Bootstrap Theme - Account - Sidebar Bootstrap Theme - Header - Main Menu Bootstrap Theme Framework\n\n- We made several small updates to the UI of viewing posts made by a member in the Member Dashboard. Widget Involved Bootstrap Theme - Account - Photo Albums datatable\n\n- We fixed an issue with Events Search results when a user selects a Category that has a space at the beginning or end of its name. Widgets Involved: Bootstrap Theme - Form - Post Categories Select Controller Bootstrap Theme - Module - Event Search\n\n- We fixed an issue which was affecting the ability to update the Domain of a site in some cases.\n\n- We fixed the issue that was affecting the proper reporting of Bandwidth and Disk Space Usage stats on the Admin Dashboard.\n\n- We fixed the issue that was preventing Site Admins from uploading brand images to the Admin Area using the Safari browser when an SSL is not installed on the site.\n\n- The Main Menu icon and the Member Account Menu icon are now text labels when viewed on small screen sizes, making them easy to update to other Font Awesome icons or plain text if desired. New Text labels: mobile_main_menu_icon, mobile_profile_sidebar_icon. Widgets Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Header - Main Menu\n\n- Now the Bootstrap Theme - Start Date Picker and the Bootstrap Theme - End Date Picker can be used in any form as a way of only selecting a date (as opposed to a date and time). Widgets Involved: Bootstrap Theme - End Date Picker Bootstrap Theme - Start Date Picker Bootstrap Theme - Footer - Scripts\n\n- We fixed an issue which was preventing the Add Credit Card Modal from loading in the Admin >> Transaction History >> Past Due Tab when an SSL is installed on a site.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048333",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048333"
+    }
+  ],
+  "lastmod": "2018-08-22T01:36:26+05:30",
+  "scraped_at": "2026-10-18T13:43:32.773173"
+}

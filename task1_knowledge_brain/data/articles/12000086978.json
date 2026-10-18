@@ -1,0 +1,118 @@
+{
+  "article_id": "12000086978",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086978-what-are-listing-types-and-the-differences-between-company-vs-individual-profiles",
+  "title": "What are Listing Types and the Differences Between Company vs. Individual Profiles",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "What are Listing Types and the Differences Between Company vs. Individual Profiles"
+  ],
+  "content": "## What are Listing Types and the Differences Between Company vs. Individual Profiles\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086978\n\nListing Type is a setting and a default form field on the Listing - Contact Details - Member form that allows users to choose what type of listing their profiles should be:\n\nThis setting holds a specific functionality:\n\nIf a member selects the Personal / Individual option, their First Name + Last Name and their Profile Photo will be used on their public profiles.\n\nIf a member selects the Company / Organization option, their Company Name + Profile Logo will be used on their public profiles.\n\nUsing the member above as an example, we can see their First Name, Last Name, and Company Name information in the screenshot. The screenshot below shows the member's Profile Photo related information:\n\nAnd below are the differences between profile views, depending on which listing type is selected:\n\nPersonal / Individual Profile Company / Organization Profile\n\nThe listing type of a member can also be specified in the Admin, under Search Members >> Quick Edit Module :\n\n\n## Text Labels for Listing Types\n\n\nDepending on the type of directory site, it may be necessary to customize the labels for different listing types to better align with the site's purpose. While the functionality for \"Individual\" and \"Company\" listing types remains unchanged as explained above, the display names can be modified through text labels.\n\nTo update these labels:\n\n- Navigate to Settings > Text Labels in the admin panel.\n\n- Use the search bar to locate the following text labels: listing_type_individual listing_type_company\n\n- listing_type_individual\n\n- listing_type_company\n\nThese labels can then be edited to reflect the desired terminology for the site.\n\n\n## How To Automatically Assign a Specific Listing Type To Membership Plans\n\n\nIt is possible to auto-assign a specific listing type to a membership plan so any members who sign up for that membership plan will have this setting pre-selected. To accomplish this, navigate to Finance >> Membership Plans and click Edit on preferred membership plan:\n\nAnd search for the wording \" pre-select listing type \" in the search module and select the preferred option under the Pre-select Listing Type setting:\n\nThis will pre-select the listing type when a member signs up for this specific membership plan but these members still will be able to change their listing types later on via their Member Dashboard.\n\nTo not allow members to change their listing type, first, identify the Contact Details Form being used for this membership plan under Member's Dashboard tab and click on Edit Form :\n\nAnd customize the form to change the Type of Field of the listing_type field from Dropdown List to be Hidden Field :\n\nPre-selecting a listing type via membership plan and making this field a hidden field will make sure these members will always be a specific listing type. This can be a very helpful workaround if a membership plan is dedicated to only businesses.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107684345/original/uDq458kEc0v7UmoUb0Cjszp5iEvCi_cugg.png?1649947447",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107684785/original/_NQ9BfRiuXzNwAkpoAhUtpedmsgLb2BniQ.png?1649947844",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107684944/original/gTH8ecBHmZzQCSrAZDdrVAZTtDLbp2coOg.png?1649948019",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107684962/original/vHBb97Czl-HgjCT3PklM7ikzXdF0nx1cBw.png?1649948025",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107685469/original/bBdXwalUvTIVD5BiYwsEzQvxVq_UPwJ0OA.png?1649948488",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154163714/original/t7dZULQiR_HMfUxpu_o11Zm2bt7CRCw3Cg.png?1734475450",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107685672/original/HU69z4eYpKKaRtxaEs_ls5H4Ihy2t1haSw.png?1649948671",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107685744/original/y_RBeTxH7y9aX0YsjvvoqhoYvH9EeZL0cw.png?1649948747",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107686567/original/8p5iJVgTH-NkthE9XGtHiu2AH9OoOOEzhQ.png?1649949137",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107686665/original/fzfZGNn5IGUjdVAGikGk-XTXBuSvtkfaVw.png?1649949248",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'What are Listing Types and the Differences Between Company vs. Individual Profiles' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086978",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086978"
+    },
+    {
+      "text": "Search Members >> Quick Edit Module",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000046940"
+    }
+  ],
+  "lastmod": "2024-12-18T04:14:24+05:30",
+  "scraped_at": "2026-10-18T13:49:38.319113"
+}

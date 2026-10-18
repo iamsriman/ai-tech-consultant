@@ -1,0 +1,23 @@
+{
+  "article_id": "12000105901",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105901-08-29-2025-software-updates",
+  "title": "08/29/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/29/2025 - Software Updates"
+  ],
+  "content": "## 08/29/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105901\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Updated the Bootstrap Theme - Category Groups - Member Categories widget to include a keyword search field. Also added support for filtering top and sub-categories by using the category parameter in the URL (e.g., /categories?category=Keyword). Widgets Involved: Bootstrap Theme - Category Groups - Member Categories Bootstrap Theme - Sub Category Groups - Member Categories\n\n- Added the ability to create custom \"Business Toolkit\" offers on the Mange Offers page in the Admin. Widget Involved: Bootstrap Theme - Account - Business Toolkit\n\n- Fixed an issue that prevented the system from respecting the Billing Email Settings when creating an invoice using the \"Quick Create\" action buttons in the Admin.\n\n- Added the ability to create a secondary hero section on the homepage, allowing users to easily include additional content next to the Hero Title without custom coding. Use the new feature here: Admin >> Settings >> Design Settings >> Homepage >> Secondary Hero Content (Optional) section Widgets Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Homepage Bootstrap Theme - Homepage Search - Filtered Search Bootstrap Theme - Homepage Search - Hero Message with Button Links Bootstrap Theme - Homepage Search - Hero Message with Link Bootstrap Theme - Homepage Search - Keyword Search Bootstrap Theme - Homepage Search - Member Login Form Bootstrap Theme - Homepage Search - Show Lead Form\n\n- Fixed an issue that caused discrepancies between individual invoice amounts and the Daily Admin Report email sent to the Admin of the site each day.\n\n- Added support for selecting Billing Cycles without enabling the \"Email Member\" setting when editing the Billing Email Settings in the Admin.\n\n- Created a new Design Setting called \"Header Menu Item Alignment\". This new settings allows the Top Header Mini Nav Menu to support dropdown menu items. Widgets Involved: Bootstrap Theme - Header - Main Menu Bootstrap Theme - Header - Right Bootstrap Theme - Header - Member Links\n\n- Updated the Main Title Text and Sub-Title Text Homepage Design Settings > Primary Hero Content Section to support using widget shortcodes for rendering widgets on the frontend. Widgets Involved: Bootstrap Theme - Homepage Search - Hero Message with Link Bootstrap Theme - Homepage Search - Hero Message with Button Links Bootstrap Theme - Homepage",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105901",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105901"
+    }
+  ],
+  "lastmod": "2025-09-01T00:43:03+05:30",
+  "scraped_at": "2026-10-18T13:56:36.214886"
+}

@@ -1,0 +1,69 @@
+{
+  "article_id": "12000078433",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078433-how-to-disable-enable-a-widget",
+  "title": "How To Disable/Enable a Widget",
+  "category": "Toolbox",
+  "folder": "Widget Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Widget Manager",
+    "How To Disable/Enable a Widget"
+  ],
+  "content": "## How To Disable/Enable a Widget\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078433\n\nDisabling a custom widget keeps it saved on the website but prevents the system from using it on the live site. This makes disabling a reversible alternative to deletion: the widget remains available and can be re-enabled at any time.\n\nNOTE: Only custom widgets can be disabled and enabled — default widgets don't have this option.\n\n\n## Disabling a Widget\n\n\nTo disable a custom widget, navigate to Toolbox >> Widget Manager and click Disable in the Actions dropdown:\n\nOnce clicked, a confirmation pop-up will appear:\n\nOnce confirmed, the widget is highlighted in red and a \" DISABLED \" tag is added to it:\n\n\n## Re-Enabling a Widget\n\n\nTo re-enable a widget, click Enable in the Actions dropdown:\n\n\n## Filtering Enabled and Disabled Widgets\n\n\nTo filter between enabled and disabled widgets, use the Enabled / Disabled filter dropdown:\n\nIMPORTANT: If two customized widgets on a site have the exact same name, the widget with the greater ID number is used. To prevent conflicts and confusion, rename or disable the version of the widget that should not be used on the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184958309/original/jRJPZVXznjcc9DM-SMEuHqzwuCVtwLJCtQ.png?1789005522",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable/Enable a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180345729/original/aC9EprGrM02w3B4OF9oHYN7T0nK_KcQA0g.png?1781291204",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable/Enable a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184958397/original/KaFA49vfCWjlg1SoC7CruBs2UmxbAmcxcQ.png?1789005700",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable/Enable a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184958467/original/i5TVA1Yj8zEwBdlEuc08pdfeQkxrkImYRA.png?1789005758",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable/Enable a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184958472/original/ZX0inj0jo8ZrU3pQNDm_utJq7PJL6hRRRg.png?1789005799",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Disable/Enable a Widget' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078433",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078433"
+    }
+  ],
+  "lastmod": "2026-09-10T07:33:25+05:30",
+  "scraped_at": "2026-10-18T13:48:06.455032"
+}

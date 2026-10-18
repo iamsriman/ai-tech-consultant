@@ -1,0 +1,262 @@
+{
+  "article_id": "12000019667",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019667-froala-text-editor-versions-and-their-upload-functionalities",
+  "title": "FROALA Text Editor: Versions and their Upload Functionalities",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "FROALA Text Editor: Versions and their Upload Functionalities"
+  ],
+  "content": "## FROALA Text Editor: Versions and their Upload Functionalities\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000019667\n\nWhen creating a post, such as a blog article, there is a Froala Text Editor which allows modifying styles such as the font size, font colors, boldness, and more.\n\nThere are different text editor versions available that either restrict or allow for image upload and video embed.\n\nThese can be used and applied individually via the FORM MANAGER to the respective forms for the members' \"ABOUT ME\" section and all post types such as coupons, properties, classifieds, member articles, website blog articles, etc. This form field type is only supported for forms used within the Member Dashboard.\n\nThis provides the ability to control if members can add images and video embeds into the text editor input fields of posts and their \"ABOUT ME\" section.\n\nThe Froala Editor currently supports 38 languages , check which languages are supported: https://www.froala.com/wysiwyg-editor/languages.\n\nThe Froala Editor is going to use the language that is set in the Settings >> General Settings >> Localization tab >> Default Website Language.\n\n\n## How To Enable Froala Editors\n\n\nThere are three built-in versions of the Froala Text Editor. You can add any of them to a form, and each one controls things like whether users can upload images or embed YouTube videos.\n\nFor details on where each editor is used throughout the site and what features they include, click the link below:\n\nEverything About WYSIWYG Editors\n\n\n## Available Text Editors\n\n\nThere are\n\n\n### Froala Text Editor - Basic\n\n\n- No image upload, video embed, or source code editor\n\n- Basic text editor with limited options to edit font size, colors, styles, and create bullet checklists.\n\nThe Basic Froala Text Editor includes the following styling options:\n\n- Bold\n\n- Italic\n\n- Underline\n\n- Font Size\n\n- Paragraph Format\n\n- Line Height\n\n- Text Color\n\n- Background Color\n\n- Clear Formatting\n\n- Ordered List\n\n- Unordered List\n\n- Insert Horizontal Line\n\n- Insert a Link\n\nThe basic editor only provides basic font formatting. The user CANNOT:\n\n- Upload images\n\n- Embed videos\n\n- Edit source code\n\n- Insert a table\n\n\n### Froala Editor Basic Screenshot\n\n\n\n### Froala Text Editor - Image Upload\n\n\n- Allows image upload, video embed, and source code editor\n\n- Allowed image formats: gif, jpeg, jpg, png, JPEG, JPG, SVG, PNG, webp, and pdf.\n\nIt includes the same styling options as the Basic Froala Editor AND it includes the ability to:\n\n- Upload images and GIFs\n\n- Embed YouTube videos\n\n- Insert a Table\n\n- Edit source code\n\n- Decrease or Increase Indent\n\n\n### Image Upload Froala Editor Screenshot\n\n\n\n### Froala Text Editor - Image Upload + Pre-Made Elements\n\n\n- Allows image upload, video embed, source code editor, and Pre-Made Elements\n\n- Allowed image formats: gif, jpeg, jpg, png, JPEG, SVG, JPG, PNG, webp, and pdf.\n\n- It enables the Pre-Made Elements module.\n\nIt includes the same styling options as the Basic Froala Editor AND it includes the ability to:\n\n- Upload images and GIFs\n\n- Embed YouTube videos\n\n- Edit source code\n\n- Insert and style web links\n\n- Choose the font type.\n\n- Add Pre-Made Elements\n\n\n### Image Upload + Pre-Made Elements Froala Editor Screenshot\n\n\nFroala Text Editor - Access Media Manager\n\n\n### FROALA EDITOR - ACCESS MEDIA MANAGER\n\n\nAccess Media Manager Froala Editor Screenshot\n\nThe Admin Froala Editor allows users to retrieve images from the Media Manager when editing an article. The image below points to the extra option to select and retrieve images that already exist in the website's media manager.\n\n*  If members have access to the admin text editor, we strongly recommend setting up the Public Froala Editor rather than the Admin Froala Editor for security reasons (members would be able to see all images ever uploaded to the media manager).\n\nIt will also enable the Pre-Made Elements module:\n\nFroala Editor Usage To add any of the Froala Text Editor to a form, please follow these instructions: 1. Go to TOOLBOX >> FORM MANAGER >> SELECT A FORM TO EDIT If the form is not already active/customized, search the form by name and customize it: 2. Select the Froala Editor from the drop-down: 3. Click on \"Save Changes\" * To confirm that the \"Access Media Manager - Froala Text Editor\" is working as expected, log in as the admin member and click on the \"add image\" icon. The FOLDER icon should be displayed: By clicking on the folder icon, it will open a pop up with all the media manager images that have been uploaded: Include Images in Admin Blog Articles To add an image inside the body of a blog article please follow these instructions: 1. Log in as a member that has the ability to write admin blog articles. 2. Click on \"New Website Blog Article\": 3. Inside the WYSIWYG editor click on the image icon:\n\n2. Click on \"Drop Image\" Select the image and click on \"Open\". The image will be uploaded in the article and it will display as follows:\n\nAdditional Image Options Align Image \"left\", \"Center\" or \"right\" Add a link and style to it. And much more! Click HERE to learn more about the different editor features. Embedding Youtube and Vimeo Videos To embed a video in a blog article please follow these instructions: 1. Log in as a member that has the ability to write admin blog articles. 2. Click on \"Add New Blog\" 3. Click on the \"Video\" icon:\n\n4. Paste the link to the video. An acceptable format is: https://youtu.be/BoOt6bJNVR8\n\n5. Click on \"Insert\" 6. The video will now display in the blog article:\n\n\n## Adding Embedly to a Froala Editor\n\n\nThere is an option to enable an Embedly button on any of the Froala Editors.\n\nList of the Embedly providers: https://embed.ly/providers\n\nIn order to enable this option, please go to Settings >> Advanced Settings >> Enable Embedly in Frontend Froala Editors.\n\nIt will include Embedly embeddable content in all of the Froala Editors of each type used throughout the website.\n\nThey can be selected here:\n\nThe Embedly button will show up on the Froala Editor selected above:\n\n\n## Remove HTML Attributes\n\n\nThere is an advanced setting that allows removing the HTML attributes when pasting text from another source into the Froala:\n\nNote: This will apply to all Froalas including the ones on the admin.\n\n\n## Froala Markdown\n\n\nMarkdown is an easy-to-use markup language that is used with plain text to add formatting elements (headings, bulleted lists, URLs) to plain text without the use of a formal text editor or the use of HTML tags.\n\nhttps://www.markdownguide.org/\n\nThis can be enabled for the following individual Froala classes:\n\n- Froala Text Editor - Admin\n\n- Froala Text Editor - Basic\n\n- Froala Text Editor - Image Upload\n\n- Froala Text Editor - Image Upload + Pre-Made Elements\n\n- Froala Text Editor - Access Media Manager",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107845062/original/YITDhoVEJfg88n0oJoWzteOZ1imXMdoXHQ.png?1650387159",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107845717/original/eEgp_DjiYVU-GEJbtBRnA4J1wTDIgc2ARw.png?1650387861",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107845547/original/Ax1ozk3T0r56iTIwaopmWvNxyj1lxRZELg.png?1650387681",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171083676/original/aOv_jB6wlhUgvt70s-gTy41OcVkXq67fVA.png?1764115196",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107845427/original/lcNf30lpiFK5YzP6jkdYP7Pagy6dd6rKuQ.png?1650387539",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105087226/original/A5oVXeDn3ZbC8Q9gM4lBIECZld1jiagD-A.png?1644944119",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103139907/original/UmPeMGgbsH2ETGBcZQkezMpsxZeHu6RWxQ.png?1641305836",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107844169/original/acChYhfUFy29iVfc8I_nLK1uASsSnsIdvQ.png?1650386196",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084184998/original/KjTpWCT__21BpidPG4xlKmIu6T-gIXqczg.png?1603816794",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662682/original/wtgdDvX1rxVCW2EPVMrjQ8ap9_XfnMWB-g.png?1615055317",
+      "alt": null,
+      "caption": "By clicking on the folder icon, it will open a pop up with all the media manager images that have been uploaded:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'. Context: By clicking on the folder icon, it will open a pop up with all the media manager images that have been uploaded:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089662693/original/_Zze8x6mo4_3DLs2CBiPk6n4-FkJIwZMBA.png?1615055434",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103138132/original/JM41j1WJH3CL6wMM7SzAAXG5fxTJYLf4Iw.png?1641304125",
+      "alt": null,
+      "caption": "2. Click on \"Drop Image\"Select the image and click on \"Open\".The image will be uploaded in the article and it will display as follows:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'. Context: 2. Click on \"Drop Image\"Select the image and click on \"Open\".The image will be uploaded in the article and it will display as follows:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084185182/original/rK6rzZp8QOfN-0XzF2VLVCXKXFpkjxBsKg.png?1603816949",
+      "alt": null,
+      "caption": "2. Click on \"Drop Image\"Select the image and click on \"Open\".The image will be uploaded in the article and it will display as follows:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'. Context: 2. Click on \"Drop Image\"Select the image and click on \"Open\".The image will be uploaded in the article and it will display as follows:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084185394/original/KYRlc7LM3c-B0uG6c_4o_WfVB2k_b43rEg.png?1603817118",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084185632/original/h6O5OdLq-04YAX6ueNXTptqTyA1bx1wAEA.png?1603817351",
+      "alt": null,
+      "caption": "Context: 2. Click on \"Add New Blog\"",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'. Context: Context: 2. Click on \"Add New Blog\"",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084185748/original/Tprnm85eRKNcH9ySztN1S_AQr7wl9qc7MQ.png?1603817471",
+      "alt": null,
+      "caption": "4. Paste the link to the video. An acceptable format is:https://youtu.be/BoOt6bJNVR8",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'. Context: 4. Paste the link to the video. An acceptable format is:https://youtu.be/BoOt6bJNVR8",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12084185826/original/WaY8dea2wIKyGm_6wF8axvZu07SaCCjN2Q.png?1603817549",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115146807/original/06YxpSaHj0bDmfHV6RQWKPu7IQ9y_VSp8w.png?1664296990",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115146933/original/0mWmn7Il-M7CTG554TF3t-lw3lLdd-jviA.png?1664297105",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126978550/original/JbhNuv_GRoOo4cfgTN1RJ0_gerPcYxQr7Q.png?1686846623",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168284293/original/Z0CCB-KakYn32wxbhBWKE4bvx-H9vB8o-Q.jpeg?1759248639",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12168002279/original/mD1XV3xr6nwLn5wm1kx7DN2MM1Zz8Er4wA.png?1758739890",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'FROALA Text Editor: Versions and their Upload Functionalities' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000019667",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019667"
+    },
+    {
+      "text": "FORM MANAGER",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046441"
+    },
+    {
+      "text": "",
+      "url": "https://www.froala.com/wysiwyg-editor/languages"
+    },
+    {
+      "text": "https://www.froala.com/wysiwyg-editor/languages.",
+      "url": "https://froala.com/wysiwyg-editor/languages/"
+    },
+    {
+      "text": "Everything About WYSIWYG Editors",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000050711"
+    },
+    {
+      "text": "Pre-Made Elements",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074302"
+    },
+    {
+      "text": "Pre-Made Elements",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000074302"
+    },
+    {
+      "text": "HERE",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000050711"
+    },
+    {
+      "text": "https://youtu.be/BoOt6bJNVR8",
+      "url": "https://youtu.be/BoOt6bJNVR8"
+    },
+    {
+      "text": "https://embed.ly/providers",
+      "url": "https://embed.ly/providers"
+    },
+    {
+      "text": "https://www.markdownguide.org/",
+      "url": "https://www.markdownguide.org/"
+    }
+  ],
+  "lastmod": "2026-07-10T06:45:05+05:30",
+  "scraped_at": "2026-10-18T13:40:36.457389"
+}

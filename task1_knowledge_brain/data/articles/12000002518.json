@@ -1,0 +1,147 @@
+{
+  "article_id": "12000002518",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002518-adding-seo-content-to-a-specific-member-search-results-page-turn-dynamic-pages-into-static-pages",
+  "title": "Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages",
+  "category": "My Content",
+  "folder": "SEO Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "SEO Templates",
+    "Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages"
+  ],
+  "content": "## Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000002518\n\n\n## Overview\n\n\nThe SEO data for all member search results pages in general, including how to add additional content to the body of all member search results pages of a certain type ( all country search results pages or all main category search results pages for example ) is covered in the article below:\n\nEditing The SEO Of Member Search Results Pages\n\nIn some cases, you may also want to edit the SEO settings and/or content of one specific member search results page without affecting all of the other member search results pages of the same type.\n\nFor example, perhaps I want to add some additional content only for the member search results page for the main category \" Restaurants \", but I do not want this content added for any other main category search results pages in any other city.\n\nThe Top Category pages use the SEO Template:\n\nSearch Results - Members - Main Category Only\n\nTemplate ID #201\n\nInstead of editing the SEO template which will affect all Top Category search results pages it's possible to take the page:\n\nexample.com/ restaurants\n\nAnd add specific SEO data for restaurants .\n\nTo do this, we need to first create a new static page for this specific search results page.\n\n\n## \"Pretty\" URL vs \"Not So Pretty\" URL\n\n\nNot all search results pages can be turned into a static page. ONLY pretty URL search results pages work for this process.\n\nAccepted \" Pretty \" URL:\n\nhttps://directoryup.com/los-angeles \" Not So Pretty \" URL:\n\nhttps://directoryup.com/search_results?location_value=Los%20Angeles%2C%20CA&city=Los%20Angeles&county_sn=Los%20Angeles%20County&adm_lvl_1_sn=CA&stateSearchLN=California&country_sn=US&location_type=locality&stateSearch=CA&swlat=33.7036519&nelat=34.3373061&swlng=-118.6681759&nelng=-118.1552891&lat=34.0549076&lng=-118.242643&faddress=Los%20Angeles%2C%20CA%2C%20USA&place_id=ChIJE9on3F3HwoAR9AhGJW_fL-I\n\nHowever the instructions below will impact both the \"Pretty\" URL and \"Not So Pretty\" URL versions of a member search results pages (for SEO purposes).\n\nMore on Pretty vs Not So Pretty URLs: Editing The SEO Of Member Search Results Pages\n\n\n## Creating The Static Page\n\n\nFirst, login to the Admin area of the site and then click on the \"Visit Website\" link at the top of the screen:\n\nThis will display the website with the Admin Bar on the front end:\n\nNext, navigate to the \"Pretty\" URL version of the member search results page that will be edited. In this example, the \"Pretty\" URL version of the page is located at /united-states/houston/home-services/ .\n\nOnce on the page, click on the \"Create Static Page\" icon in the left Admin navigation bar:\n\nIf this page has already been created, the icon will change from \" Create Static Page \" to \" Edit Static Page \":\n\nNext, enter the permalink of this page into the Permalink/URL field:\n\nFrom here, continue to fill out all of the other fields:\n\nMake sure that the Page Type is \" Member Search Results \":\n\nFor more information about each of these fields and what impact they will have on the live webpage, please see the \" Editing SEO Elements \" section of this article .\n\nOnce this is complete save the changes. Now navigate to the same page on the front end of the website to see the new custom content and SEO Elements reflected on the page:\n\nNow there are different options for how the content will display on the page. Select these options in the Display Options Tab under Custom HTML Placement:\n\nThese are a couple examples of what it looks when selecting:\n\nInside Tab - is the default option, this will display in a new tab, \"Read More\":\n\nAbove Member Results - will display the custom content on top of the Results page:\n\nOnce the page gets created make sure to edit the SEO data of the page: How To Edit The SEO & Social Media Elements Of A Static Web Page",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091849366/original/YmDrsINYDzfDNkv7YjndINbZXfDc4dtvGw.png?1619489144",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105255806/original/JbnWTqzRIHw33ZcHR4Ig2VK-xg2m2idTCA.png?1645216283",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105255936/original/briBKB9NIAH8JRXs5Z1le-uCuE0zwAVe6Q.png?1645216581",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105257496/original/cTrHUM6lBrOEItgXwO8XjmfVYAWYXjtMPQ.png?1645219300",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103471413/original/pSV0aqKAZRSPVK6bPNquZGg1dCFH9vXipg.png?1641914874",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103471399/original/fpjdlPWiJ1BONSrH8186ktyKtlHQ-fUMDA.png?1641914856",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103471475/original/kYWCDgdY5NlFYxMh9RjGw49JGbY8FuIZNg.png?1641914941",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105260020/original/IW2lZ_tPb_uM6Kh3sOU8Fz5gZVr_IQ_62w.png?1645225172",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103471757/original/ftEBwERJZHTywWDNXtgrz3GeSxRmBiCUoA.png?1641915193",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103472951/original/_KGLpDyylSIczDdXCh79F5YIZTTUi7sGVA.png?1641916223",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103473031/original/pX27aLpt_cKbKE5RJOo-4jlFcD2f2P8CBw.png?1641916304",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding SEO & Content To A Specific Member Search Results Page - Turn Dynamic Pages Into Static Pages' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000002518",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002518"
+    },
+    {
+      "text": "Editing The SEO Of Member Search Results Pages",
+      "url": "http://bootstrap.brilliantdirectories.com/solution/articles/5000682656"
+    },
+    {
+      "text": "https://directoryup.com/los-angeles",
+      "url": "https://directoryup.com/los-angeles"
+    },
+    {
+      "text": "https://directoryup.com/search_results?location_value=Los%20Angeles%2C%20CA&city=Los%20Angeles&county_sn=Los%20Angeles%20County&adm_lvl_1_sn=CA&stateSearchLN=California&country_sn=US&location_type=locality&stateSearch=CA&swlat=33.7036519&nelat=34.3373061&swlng=-118.6681759&nelng=-118.1552891&lat=34.0549076&lng=-118.242643&faddress=Los%20Angeles%2C%20CA%2C%20USA&place_id=ChIJE9on3F3HwoAR9AhGJW_fL-I",
+      "url": "https://directoryup.com/search_results?location_value=Los%20Angeles%2C%20CA&city=Los%20Angeles&county_sn=Los%20Angeles%20County&adm_lvl_1_sn=CA&stateSearchLN=California&country_sn=US&location_type=locality&stateSearch=CA&swlat=33.7036519&nelat=34.3373061&swlng=-118.6681759&nelng=-118.1552891&lat=34.0549076&lng=-118.242643&faddress=Los%20Angeles%2C%20CA%2C%20USA&place_id=ChIJE9on3F3HwoAR9AhGJW_fL-I"
+    },
+    {
+      "text": "Editing The SEO Of Member Search Results Pages",
+      "url": "http://bootstrap.brilliantdirectories.com/solution/articles/5000682656"
+    },
+    {
+      "text": "this article",
+      "url": "http://bootstrap.brilliantdirectories.com/solution/articles/5000682656--bootstrap-editing-the-seo-of-member-search-results-pages"
+    },
+    {
+      "text": "How To Edit The SEO & Social Media Elements Of A Static Web Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682651"
+    }
+  ],
+  "lastmod": "2023-08-26T05:05:09+05:30",
+  "scraped_at": "2026-10-18T13:39:40.070379"
+}

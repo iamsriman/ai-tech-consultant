@@ -1,0 +1,55 @@
+{
+  "article_id": "12000058144",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058144-how-to-export-member-categories",
+  "title": "How To Export Member Categories",
+  "category": "My Members",
+  "folder": "Member Categories",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Member Categories",
+    "How To Export Member Categories"
+  ],
+  "content": "## How To Export Member Categories\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000058144\n\nExisting member categories can be exported as a CSV file under My Members >> Member Categories >> Member Category Actions dropdown >> Export Categories :\n\nClicking on this option will display a confirmation module:\n\nWhen the process is completed, a Success message will be displayed and the categories file would be downloaded:\n\nWhat is included in this export: This file exports the category structure (Top, Sub, and Sub-Sub category names, IDs, and settings). It does not include a list of members or which categories they are assigned to.\n\nIf looking to export member data, review \" How to Export Members \" documentation.\n\nGood to know: This action simply creates a safe backup/copy of your categories. The live website categories will remain exactly as they are.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171252454/original/QwfNKS-Q9kbjrFh6QRE1yOIVlsXfA706hA.png?1764550876",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Export Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090677219/original/v7Ep6z4ITkppoHi45J8OZ6lTklkd6mVKSQ.png?1617116555",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Export Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093194718/original/p2FAHdRq9oevCH-0vRbvBG2eh92TAzO2Ig.png?1622056616",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Export Member Categories' in section 'My Members' / 'Member Categories'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000058144",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000058144"
+    },
+    {
+      "text": "How to Export Members",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000039479"
+    }
+  ],
+  "lastmod": "2026-06-09T17:07:23+05:30",
+  "scraped_at": "2026-10-18T13:45:02.959457"
+}

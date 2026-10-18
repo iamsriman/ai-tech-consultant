@@ -1,0 +1,51 @@
+{
+  "article_id": "12000020138",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000020138-add-custom-tabs-to-member-profile-pages-using-html",
+  "title": "Add Custom Tabs to Member Profile Pages Using HTML",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Add Custom Tabs to Member Profile Pages Using HTML"
+  ],
+  "content": "## Add Custom Tabs to Member Profile Pages Using HTML\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000020138\n\nImportant This article is intended for developers. This method only works when at least one default navigation tab is already displayed on the member profile page. If no default tabs are available, additional custom development is required to create custom tabs. To add a custom tab, edit the following widget: Bootstrap Theme - Member Profile - Member Tabs Lazyload Step 1: Add the Navigation Tab The following example adds a new Facebook tab when the member has a Facebook URL. Copy <?php if ( $user [ 'facebook' ] != \"\" ) { ?> <li> <a data-toggle = \"tab\" role = \"tab\" href = \"#35\" rel = \"nofollow\" aria-controls = \"t35\" > Facebook </a> </li> <?php } ?> Step 2: Add the Tab Content Next, add the content that will be displayed when the custom tab is selected. Copy <div id = \"35\" class = \"tab-pane\" role = \"tabpanel\" > <div id = \"my_id\" style = \" display: inline ;padding: 0 ; \" > <?php echo $user [ 'facebook' ]; ?> </div> </div> The content inside the <div> can be replaced with any custom HTML, PHP, widgets, or other supported content. The value used in the href attribute of the navigation tab ( #35 ) must match the id attribute of the corresponding content container ( id=\"35\" ). Summary Creating a custom profile tab requires two components: A navigation tab added to the member profile tabs. A matching content container with the same ID. Once both components use the same identifier, selecting the tab displays the associated content.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089141830/original/jSSY-4-XVA7J08qkGPnOZghVrD6IR8lhAQ.png?1614031933",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Add Custom Tabs to Member Profile Pages Using HTML' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129062442/original/xwAKAI5nRKiWmBZ1ASW-viqh_J5c2S9QFw.png?1690561449",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Add Custom Tabs to Member Profile Pages Using HTML' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129062444/original/6ylMCkK5FZTmZsSKtB2iIaZI_fk34q0vYg.png?1690561456",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Add Custom Tabs to Member Profile Pages Using HTML' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000020138",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000020138"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:16+05:30",
+  "scraped_at": "2026-10-18T13:40:42.964878"
+}

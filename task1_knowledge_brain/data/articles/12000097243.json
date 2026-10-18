@@ -1,0 +1,23 @@
+{
+  "article_id": "12000097243",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097243-11-17-2023-software-updates",
+  "title": "11/17/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/17/2023 - Software Updates"
+  ],
+  "content": "## 11/17/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097243\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We optimized our integrations with the Google Maps APIs to make them more efficient and reduce the overall cost of their usage. Widget Involved: Bootstrap Theme - Function - Google Location Suggest Bootstrap Theme - Search Results Map\n\n- We updated the Post Search Results pages when they start in \"Grid View\" to remove the split-second the results would show in \"List View\" before transitioning to \"Grid View\".. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We fixed an issue which was preventing the Member & Post CSV Import tools from auto-importing the images from the import file in some cases.\n\n- We fixed an issue which was preventing the correct error message from displaying when trying to collect a payment from the Admin using incorrect credit card information in some cases.\n\n- We fixed an issue which was preventing the \"Show 'Recent Transactions' Module\" Membership Plan setting from being set to \"Yes\".\n\n- We updated the \"Default 'FROM' Email Address\" setting layout on the General Settings page in the Admin.\n\n- We fixed an issue which was preventing the Media Manager from returning all of the available images when trying to select an \"Invoice Logo\" image from the General Settings page in the Admin.\n\n- We fixed an issue which was preventing the Activity Tracker page in the Admin from displaying the correct data in the \"Updated By\" column in some cases.\n\n- We released a new version of the Brilliant Directories App in Zapier. This version includes the ability to create \"Triggers\" from a Brilliant Directories website and some additional minor fixes.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097243",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097243"
+    }
+  ],
+  "lastmod": "2023-11-20T20:30:04+05:30",
+  "scraped_at": "2026-10-18T13:53:08.512724"
+}

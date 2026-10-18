@@ -1,0 +1,23 @@
+{
+  "article_id": "12000097618",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097618-12-15-2023-software-updates",
+  "title": "12/15/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/15/2023 - Software Updates"
+  ],
+  "content": "## 12/15/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097618\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from collecting past due invoices using member credits from the Admin area in some cases.\n\n- We updated the Twitter icon in order to use the new X icon on the frontend. Widgets Involved: Bootstrap Theme - Social Media Links Bootstrap Theme - Member Profile - Display Website Links\n\n- The action of deleting a sub-account from the Member Dashboard is now being logged in the Activity Tracker. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- We fixed an issue which was preventing the Express Member Registration Add-On from reloading the same page as expected after the login / registration was completed in some cases. Widgets Involved: Bootstrap Theme - Success Page - Free Member Sign Up\n\n- We fixed an issue which was preventing the \"List View\" and \"Box View\" buttons in the Media Manager from working properly in some cases.\n\n- We fixed an issue which was affecting the display of special characters in a post's title when using the \"RSS Feed for Posts\" Add-On.\n\n- We added a new Design Setting called \"Photo Quality\". This setting adds the ability to select the quality of the images used in homepage widgets. To use this new setting, navigate to the Admin >> Settings >> Design Settings >> Homepage tab >> Select Content to Display. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Digital Products Bootstrap Theme - Display - Recent Discussions Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties\n\n- We added the \"aria-label\" attribute to all default <select> dropdown fields on the frontend of sites. This attribute is required for accessibility purposes and will increase scores in 3rd party tools like Google PageSpeed and GTMetrix. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We fixed an issue which was preventing the \"Hero Title Text Font Size\" Design Setting from being applied as expected in some cases. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We added support for Youtube Short, Youtube Live, TikTok, and DailyMotion videos when creating a video post from the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Data Post Meta Bootstrap Theme - Display - Recent Videos Bootstrap Theme - Display - Related Posts by Category Bootstrap Theme - HEAD Bootstrap Theme - Single Post Page Post Type Involved: Videos\n\n- We fixed an issue which was preventing the system from displaying the \"Post Search Results Placeholder\" image on Post Search Results pages in some cases.\n\n- We fixed an issue which was affecting the ability to login as a member during the process of purchasing a Digital Product posted to the site in some cases. Widget Involved: Bootstrap Theme - Function - Form\n\n- We fixed an issue which was preventing the system from exporting members using the Export Member Data Add-On in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097618",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097618"
+    }
+  ],
+  "lastmod": "2023-12-19T01:59:22+05:30",
+  "scraped_at": "2026-10-18T13:53:14.281755"
+}

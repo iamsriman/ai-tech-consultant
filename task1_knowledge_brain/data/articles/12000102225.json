@@ -1,0 +1,207 @@
+{
+  "article_id": "12000102225",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102225-how-to-delete-a-member-through-the-api-using-zapier",
+  "title": "How to \"DELETE\" a Member through the API using Zapier",
+  "category": "Developer Hub",
+  "folder": "No-Code API Workflows (Zapier, Pabbly & Others)",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "No-Code API Workflows (Zapier, Pabbly & Others)",
+    "How to \"DELETE\" a Member through the API using Zapier"
+  ],
+  "content": "## How to \"DELETE\" a Member through the API using Zapier\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102225\n\nThis article shows an example of how a Google Spreadsheet can be used to delete member data using the site's API.\n\n\n### Checklist Before Moving Forward With This Example\n\n\n1) Make sure to generate a unique API Key using the documentation down below as a guideline. Please make sure to save the API Key in a safe place as it is not accessible after it has been created:\n\nHow To Generate an API Key\n\n2) Make sure to have a Google Spreadsheet ready. This spreadsheet should have at least one row of the member data information shown below:\n\nPlease note the following required fields in order to delete member data:\n\n- user_id\n\n- company or first_name / last_name to recognize who is being deleted\n\n\n### Connecting Google Sheets with Zapier\n\n\nLog in to the Zapier account and click on + Create and click on Zaps :\n\nor Click on Zaps\n\nClick on + Create then click on New Zap:\n\nClick on Trigger and search for Google Sheet:\n\nThe Trigger event should be set to \"New or Updated Spreadsheet Row.\" After logging into the Google account, clicking on \"Continue\" will proceed.\n\nSelect the Spreadsheet that has the member information with the respective Worksheet. If necessary, select a Trigger Column or leave as \"any column\" and click on Continue:\n\nClick on Continue with Selected Record. The Spreadsheet information will display as a preview:\n\n\n### Connecting the API with Zapier\n\n\nA new set of options will appear, select the option for Brilliant Directories:\n\nThe Action Event should be set to \"Delete User.\" A Brilliant Directories account can be chosen if one has been used before, or a new account can be connected.\n\nIf this is the first time, click on Connect a new account and a popup will show up. Add the website URL and the API Key , and click Yes, Continue to Brilliant Directories:\n\nOnce finished, click Continue.\n\n\n### Configuring the User Information\n\n\nClick on Continue.\n\nClick on the vertical dots and select Custom.\n\nSelect user_id. Hit Continue.\n\nZapier will display the question, 'Do you also want to delete the member's images?' Click 'Yes' if the images need to be deleted. We recommend selecting 'Yes' to avoid leaving unused images on the site.\n\nClick on Test Step:\n\nThe User is now deleted, click on Publish to have the Zap active.\n\nAdd a name to the Zap to find it easily:\n\nIf done correctly, the member will be removed from the website.\n\nClick on Transfer existing data if there is a need to delete the members right away. For automatic deletion, simply waiting a few minutes for the trigger \"New or Updated Spreadsheet Row\" to take action is all that's needed.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093443/original/WgjmzNmqqC1Jg44WNoNaMdVgTKVHsevnvA.png?1730859211",
+      "alt": null,
+      "caption": "2) Make sure to have a Google Spreadsheet ready. This spreadsheet should have at least one row of the member data information shown below:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'. Context: 2) Make sure to have a Google Spreadsheet ready. This spreadsheet should have at least one row of the member data information shown below:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149715372/original/IFqb_2Gl6MSr_sn5mI8HOeluIAr3VGauCw.png?1726762728",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149715300/original/w6uczFGeMLRqpd9dBmGzkuo4FPYSoeS7KA.png?1726762649",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149715295/original/0ksTQIwl9I_Es1ztkoa3hG6U8dG_ezaQDw.png?1726762630",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149196948/original/nZZXjY2yCyB6EscuKzQTJCn7s43jpjdV1g.gif?1725922583",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149715953/original/RMLfdTyU45RSX8GLR1r5vEuiygt6psSKoQ.png?1726763377",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093481/original/pT-9KAp833V2fnokCOgyoTCfUrW2JvMj6Q.png?1730859336",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093519/original/9qGiDLE-nfJ-4iebDRZNKVO8_8_oUNn8iQ.png?1730859378",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149197936/original/HbY9BUDAxqa5-u31-Gp34W4D-MEdmwtmXg.gif?1725924212",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093663/original/q5Psr9HF9o51FX6xvU5Ocli8VtXsfZFRYg.png?1730859766",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093696/original/Kxy3zLUqK3rsK-6TZIUscDol8ifjer6jCQ.png?1730859826",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093703/original/1J1ddlQXEBdWzfD_Er7cxoLoL-eIKbHTaQ.png?1730859874",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093762/original/KOJOrzlMBU_IBNdwg30e5z9c533oZXybQg.png?1730860177",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093917/original/11ShpXBveUE1rAJqaOqK5fJfSyh-pGt--w.png?1730860564",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152093962/original/EihBl7nKS6ef_HpjDfIpPj51f4kzOTh0TQ.png?1730860701",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152094257/original/EhuPPgPVwzk-Zq61i_7GSmNgEMX-3dc5mg.png?1730861535",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152094142/original/CQ7u9kMXAjn_H9aXkBqSVT4OFNrFb0FVcA.png?1730861148",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152095084/original/9judhwlZXjzMX1CIpnlGYKAtngGVfzHI0g.png?1730864393",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149720915/original/g0L337R9nxxuHQJgrXrN-9gqc6-XwghjmQ.png?1726769130",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"DELETE\" a Member through the API using Zapier' in section 'Developer Hub' / 'No-Code API Workflows (Zapier, Pabbly & Others)'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102225",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102225"
+    },
+    {
+      "text": "How To Generate an API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088768/#generate-api"
+    },
+    {
+      "text": "Log in to the Zapier",
+      "url": "https://zapier.com/"
+    },
+    {
+      "text": "API Key",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000088768"
+    }
+  ],
+  "lastmod": "2024-11-06T09:10:00+05:30",
+  "scraped_at": "2026-10-18T13:55:11.649699"
+}

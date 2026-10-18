@@ -1,0 +1,204 @@
+{
+  "article_id": "12000085245",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085245-streaming-widgets-add-more-than-2-widgets-from-the-same-post-type",
+  "title": "Streaming Widgets: Add more than 2 widgets from the same post type",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Streaming Widgets: Add more than 2 widgets from the same post type"
+  ],
+  "content": "## Streaming Widgets: Add more than 2 widgets from the same post type\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000085245\n\n\n## Case of Use\n\n\nIt is possible to add more than one widget from the same post type as a homepage streaming widget. This is super important when the post types were cloned and the owner of the site wants to stream the new posts on the homepage.\n\nFor example, let's say the Member Articles post type was cloned 2 times, so there are 3 posts types total:\n\n- Member Articles (Default)\n\n- Member Articles (Clone 1)\n\n- Member Articles (Clone 2)\n\nIn the \"Select Content to Display\", there is only one option to select the \"Member Articles\" post type. So, this will apply to one of the post types but the section cannot be cloned to add the other 2:\n\n\n## Steps to Follow\n\n\nIn order to add the other 2 post types to the homepage, some customization is required but it can be done by following the steps below:\n\n\n### 1. Copy the Streaming Widget\n\n\nGo to Toolbox >> Widget Manager . Search for: \" Bootstrap Theme - Display - Recent \".\n\nIt will show all widgets that will stream content on the homepage, such as coupons, products, events, reviews, properties, classifieds, etc.\n\nUsing the \"Member Articles\" as an example, customize the \" Bootstrap Theme - Display - Recent Articles \" widget.\n\nClick on Actions >> Customize:\n\nIt will show the widget code, copy the name of the widget: Bootstrap Theme - Display - Recent Articles\n\nThen go to Toolbox >> Widget Manager >> Right-click on \"Open link in new tab \".\n\nNOTE: It is important to open it on a new tab because we are going to need both tabs open.\n\n5. Click on \" New Widget \":\n\n6. Paste the widget name. We recommend editing the name of the widget to match the post type name.\n\nFor example, if the cloned post type is called \"Member Articles Clone 1\", then the name can be \"Bootstrap Theme - Display - Recent Articles Clone 1\"\n\n7. Go back to the first tab and copy the default code:\n\nTip : To select all content, click inside the text box and press CTRL + A or Command + A, then press CTRL + C\n\n8. Then go to the new widget page and paste the code.\n\nIt should look like this:\n\n\n### 2. Customize the New Widget\n\n\nIn a tab separate from the two for the widgets, go to My Content >> Edit Post Settings.\n\nCopy the name of the cloned post type . For example:\n\nGo back to the second open tab with the new widget and in the feature URL, add the name of the post type .\n\nCopy the URL of the post type:\n\nGo back to the new widget and paste the Feature URL here. Note: Do not include the forward slash ( / ) in the URL field. Adding it may prevent the system from recognizing the post type’s URL correctly.\n\nNow edit the Title that will show up on the homepage for the new post type.\n\nThis code can be found between lines 200 and 215. This will vary depending on the post type widget. The recent articles (example) is on line 203.\n\nTIP: An easy way to find it is by clicking inside the code box and then press CTRL + F. Then type \"$titleStyleColor\" and press enter:\n\nScroll down to the last option highlighted and add the title you want. NOTE : Make sure the title has ( ' ' )\n\nExample:\n\n- Before: <?php echo $wa['custom_120'] ;?>\n\n- After: <?php echo 'Recent Articles Clone 1';?>\n\nThen save the changes and click on Actions >> Copy Shortcode :\n\n\n### Add the New Streaming Widget to the Homepage\n\n\nGo to Settings >> Design Settings >> Homepage >> Select Content to Display >> Add New Section :\n\nClick on the arrow (See the image below) and select the Custom Content 1.\n\nNOTE: If the site is using the custom content already, select the next custom content available (2, 3, 4 or 5).\n\nClick on Edit Settings:\n\nPaste the widget shortcode we copied on the step 9 and save the changes.\n\nExample: [widget=Bootstrap Theme - Display - Recent Articles Clone 1]\n\nThe new streaming widget will show up on the Homepage:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103799631/original/3S4Yp_1bavd4It80IBEHU4aJGu4EAUHwoQ.png?1642524036",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103799927/original/16A3S4xGSZ9YkMQamKeSO4jIwyJ5Y-aiOA.png?1642524361",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103800131/original/KA-KZvaaTMjCKRBtlwPot8L7nFpyb-rLXg.png?1642524536",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103800326/original/GREnol4ttLOXT8WVAD70Iomh2oxfOyglqA.png?1642524754",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103800390/original/GPeARUMLB3CtFKSLSKG5bSc7qA_FnOTFPg.png?1642524813",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103800553/original/SnQCqBiSjcy7fcE0oG8y9GXZwD1RbTuUTw.png?1642524940",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103800734/original/KTi25oXY_m_PgvNk1AW4ipiVuixcrOvXLQ.png?1642525131",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103800940/original/Y0RmACtEFcy4MBm_J6N_F3Uj10L_-52ruA.png?1642525346",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104133470/original/w-c7re3kAeRjW1B7_kjoo7NA0UulxbQLzQ.png?1643129265",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104133365/original/0-BbHj0C1ttc30asnld5BkyeO-43LMFggA.png?1643129201",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104133648/original/-s-vSMWTwxvkvMl2ufiOqypO48lIwTWlvA.png?1643129461",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104133623/original/1YlLE564yYN1bzSLTlwbthYm5ePnHRt_ag.png?1643129433",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104133964/original/CC2ksKbO-qtySMxgDRV2Mtwb9pUo6tMwYA.png?1643129806",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104133846/original/WxM3EUTehr6W6PrIRqp4QS-RiSNQMBAvOA.png?1643129643",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104132707/original/x7r3kKXUcxt6dUGKGOuO7prkCsdn2cz4cQ.png?1643128509",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104132810/original/P7sJT1T1dqAPnAdbcWDjTiRdPFXJZkMooQ.png?1643128624",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104132903/original/OKpvxyoofbvLpf166cC20HALIKOSOOCAyw.png?1643128678",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104132998/original/HeNXInNnugijpVFzDPV0HSzzDlwdnlxXWw.png?1643128784",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104133049/original/STmDdVUxsSZmFXoETY_e5ywBneOKikU78g.png?1643128848",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104134840/original/kkoxKkD8AeMR0NMnnGHy8u5o4UQHH7MKsA.png?1643130649",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Streaming Widgets: Add more than 2 widgets from the same post type' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000085245",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085245"
+    }
+  ],
+  "lastmod": "2025-11-04T21:02:55+05:30",
+  "scraped_at": "2026-10-18T13:49:22.615791"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000086279",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086279-03-04-22-software-updates",
+  "title": "03/04/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/04/22 - Software Updates"
+  ],
+  "content": "## 03/04/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086279\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from displaying special characters in page meta data in some cases. Widget Involved Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the system from generating PDF Invoices from the Member Dashboard area.\n\n- We fixed an issue which was preventing the Read More tab on Search Results pages from correctly handling special characters in URLs in some cases.\n\n- We fixed an issue when a member selects sub-categories in the Member Dashboard area which was preventing the system from respecting the \"Max. Sub-Level Categories Member Can Select\" setting in some cases. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We updated the logic of the Select2 Dropdowns in order to load the JS files after the page loads. This will help t o reduce the load time of pages and increase scores in 3rd party tools like GTMetrix and Google Pagespeed. Widgets Involved: Bootstrap - Contact Member Category Dropdowns Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We fixed an issue with the Billing Reminder Email Add-On which was preventing the system from sending the billing reminder emails when the billing cronjob is run each morning in some cases.\n\n- We fixed an issue with Newsletter Signup Forms which was preventing the system from sending the values of custom variables in notification emails after the form is submitted. Widget Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- We added the ability to display alternate field label text for form fields depending on the context in which the form in displayed. To use this new feature, navigate to the Admin >> Toolbox >> Form Manager >> Edit >> Edit Form Fields >> Display Settings.\n\n- We fixed an issue which was preventing the system from respecting the \"Show Street Address\" Membership Plan Setting when displaying member profile schema meta data. Post Type Involved: Member Reviews\n\n- We created a new form field type called \"Price Field\". This field allows Admins to add price-formatted fields to a form without any additional code. These fields automatically add the currency prefix and currency suffix of the site to the number entered into the field, and will format the number based on the localization settings of the site.\n\n- We fixed an issue which was preventing the system from displaying the Top Category select dropdown on the Contact Details tab of the Member Dashboard when editing a sub-accounts profile.\n\n- We updated the logic of the \"Upgrade Page Header Content\", \"Description Why Members Should Upgrade to This Plan\", \"Dashboard Header Content\" and \"Dashboard Footer Content\" Membership Plan settings to support widget, form and sidebar shortcodes in their values.\n\n- We fixed an issue with the Express Sign Up functionality which was causing the system to display a reCatpcha error after submitting the sign up form in some cases.\n\n- We fixed an issue with the Express Sign Up functionality which was preventing the system from creating the member account after updating the \"Member Signup Page URL\" in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086279",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086279"
+    }
+  ],
+  "lastmod": "2022-03-07T01:09:59+05:30",
+  "scraped_at": "2026-10-18T13:49:31.058112"
+}

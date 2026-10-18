@@ -1,0 +1,73 @@
+{
+  "article_id": "12000078317",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078317-cancellations-from-owner-s-perspective",
+  "title": "Cancellations from Owner's perspective",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Cancellations from Owner's perspective"
+  ],
+  "content": "## Cancellations from Owner's perspective\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078317\n\nTo learn more about the cancellation process from a member's perspective, please read: Cancellations from a Member's Perspective .\n\nWhen a member cancels an account, the site admin receives a copy of the cancellation email sent to that member:\n\nThis email is automatically sent to the Default Website Email configured under Settings » General Settings:\n\n\n## Important Notes:\n\n\nWhen a member cancels an account, the system automatically terminates all active subscriptions to prevent future charges.\n\nWhen the member status is \" CANCELLED \", the profile will not appear in search results as well as their streaming content such as videos, articles, photos, etc.\n\n“It is recommended to leave the member's status as ‘ DELETED ’ rather than removing the account completely from the site, just in case the member wants to come back later or the admin wants to contact them in the future.\n\nIf the member returns, the admin can change the status to \" Active \" again. To do this, click Actions » Quick Edit:\n\nThen select ‘Active Account’ from the Account Status field:\n\nIf the admin does not wish to receive an email notificationafter a member cancellation, enable the following advanced setting: not_receive_email_after_cancellation",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850657/original/muvNlnq1KvIU3h8DOGehOw4yYVIheeOCtA.png?1615429009",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cancellations from Owner's perspective' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166154497/original/BH7cHIViyw9Cv2oi0h429-pyXvAIh9PWhA.png?1755698579",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cancellations from Owner's perspective' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166154576/original/S5qiQHHcswg-fvIjO0HdNfWjfvOPIehNNQ.png?1755698647",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cancellations from Owner's perspective' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166154626/original/jc68aAi2OzuN4ok73XQ968VBHYE36WC_Nw.png?1755698697",
+      "alt": null,
+      "caption": "Context: If the admin does not wish to receive an email notificationafter a member cancellation, enable the following advanced setting:not_receive_email_after_cancellation",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cancellations from Owner's perspective' in section 'Finance' / 'General Billing'. Context: Context: If the admin does not wish to receive an email notificationafter a member cancellation, enable the following advanced setting:not_receive_email_after_cancellation",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166154706/original/K_kETXu65PTgMUMolqGg7PU6qCBDQjGowg.png?1755698797",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cancellations from Owner's perspective' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078317",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078317"
+    },
+    {
+      "text": "Cancellations from a Member's Perspective",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034561"
+    }
+  ],
+  "lastmod": "2026-06-10T21:48:49+05:30",
+  "scraped_at": "2026-10-18T13:48:00.826839"
+}

@@ -1,0 +1,77 @@
+{
+  "article_id": "12000083229",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083229-stripe-credentials-how-to-rotate-key",
+  "title": "Stripe Credentials - How to Rotate Key",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Stripe Credentials - How to Rotate Key"
+  ],
+  "content": "## Stripe Credentials - How to Rotate Key\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000083229\n\nThis article outlines the steps to roll an API key in a Stripe account. Rolling a key involves replacing the current API key with a new one to enhance security. The process includes generating a new key in the Stripe Dashboard, updating the application with the new key, and deactivating the old key once functionality is confirmed. This practice safeguards the account from unauthorized access.\n\n\n## Login to Your Account\n\n\nLet's begin by logging into the Stripe account first . Look for the \"Developers\" view under Settings >> Developers >> Manage API Keys. Then, follow the steps below:\n\n\n## Step 1: Click on the three dots next to the key and click Rotate Key\n\n\n\n## Step 2: Select the time to rotate the key\n\n\nWe recommend selecting \" now \" if you are not using the previous API key in another application.\n\n\n## Step 3: Stripe will display the new API Key\n\n\nVERY IMPORTANT NOTE: This API Key must be copied from Stripe into the Brilliant Directories Admin >> Payment Settings or to a safe place. Stripe, for security purposes, will only display this key once. If failed to save the key as suggested, the same steps need to be repeated.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181962991/original/vQqIPER6aq-fjclHqmqSvpFLZkjb-EWy2g.png?1783970795",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Stripe Credentials - How to Rotate Key' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181963005/original/PcoK4-lx6PePV_jBEZmR_HPvXnnyf4Ek7g.png?1783970826",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Stripe Credentials - How to Rotate Key' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181963105/original/TOoowSTsxrMNLE_u3auKmOBYLvBlE2s7XA.png?1783970938",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Stripe Credentials - How to Rotate Key' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181963155/original/u0V7ojv85p6gdaK4tYtJrVaoVTmLyyNW1Q.png?1783970982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Stripe Credentials - How to Rotate Key' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181963269/original/CfNjzgKQNJF9hKtp6ZzHANrzLShH6Mm63Q.png?1783971143",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Stripe Credentials - How to Rotate Key' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000083229",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083229"
+    },
+    {
+      "text": "logging into the Stripe account first",
+      "url": "https://dashboard.stripe.com/login"
+    },
+    {
+      "text": "Admin >> Payment Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830"
+    }
+  ],
+  "lastmod": "2026-07-14T01:02:39+05:30",
+  "scraped_at": "2026-10-18T13:49:07.896257"
+}

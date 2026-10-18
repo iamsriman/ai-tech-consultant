@@ -1,0 +1,159 @@
+{
+  "article_id": "12000076482",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076482-how-to-create-a-download-link-with-a-button",
+  "title": "How to Create a Download Link With a Button",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "How to Create a Download Link With a Button"
+  ],
+  "content": "## How to Create a Download Link With a Button\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076482\n\nIn this article, we will be going over how to create a download link with the button on a webpage.\n\nThis can be extremely helpful when creating a webpage that offers an Ebook or any kind of PDF download.\n\n\n## Uploading a PDF file via Media Manager\n\n\nTo accomplish this, simply navigate to My Content >> Media Manager >> Click the \" Upload Image or PDF \" button:\n\nClick or Drop Files to Upload :\n\nAnd click Back to All Media after the upload is completed:\n\nThen right-click on the file and select Copy URL :\n\nCopy the relative URL:\n\n\n## Creating a Download Link with a Button\n\n\nNavigate to My Content >> Web Page Builder >> Click on \" New Web Page \" or click \" Edit \" on the existing page:\n\nOn this new web page or on the existing page, drag and drop Button Link from Pre-Made Elements :\n\nOnce the button is added, click on Edit Link :\n\nInsert the copied PDF link, change the button label, then select Update .\n\nAdd a unique URL to the page and click on Save Web Page :\n\nThis is how it would function on the front end when clicked:\n\nPDF can be downloaded by clicking on the download icon:\n\n\n## Bonus Step (Optional) - How to Force Instant Download When Button is Clicked\n\n\nThis file also can be downloaded on the fly without opening a new tab as shown below:\n\nTo accomplish this, click on the Code View icon on Web Page Builder:\n\nAnd include the download attribute just before the closing \" > \" as shown below, then save your changes again:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124822517/original/Yt7mv3ZU-NQL2BsWio3UGdL3CX-Ln3pmeg.jpeg?1682978778",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125285730/original/1tygozLXs8PjKpLdBh1nUNrbB73k4PpKuw.png?1683755969",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125285872/original/Scw9JNHpBO5g0Al6FJBQ2Q9LZpaKKkfQ7Q.png?1683756081",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125285959/original/Bha2e4QMUxclGjy9THAIzpsnDf0TNfj7Sw.png?1683756189",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125285929/original/QFoDwVjbbQsTtXiQ-oOPaje8EXJZqDGmcA.png?1683756173",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124822563/original/6AqkQGlpn2ff0ea5Jd6-MwzRuzqDA3oncw.png?1682978825",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973073/original/cg5OJZQzEuNqh8VpiLM3yY_VO5CU6NHDqA.png?1783981709",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973082/original/44Wd0iN-7-4jQoWGIkadKG9vtfYR-aFDKA.png?1783981728",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973123/original/vUZq_Y8sf4e11xDuUzDkkWGdATw2MFybwQ.png?1783981851",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973354/original/7E9AXZZQQQ_IXs9XVCfBS1O2fys6wFNiCw.png?1783981982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125286447/original/1i5oXsox_5ng0uTxzM_yU8I_G-E9hB-o7Q.png?1683756980",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124822606/original/DxOuLYjDYDRcje7Oa4MJE8HOgp4aiy6zZA.jpeg?1682978884",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125286583/original/aFcsNmi52Wr3uFlA3GAMLv8UZvHzta8BWg.png?1683757332",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973375/original/OKCh3w3lfrHQN7UsmDQwzG57Walp6vEkyQ.png?1783982058",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973441/original/tYAUatNt75d-StoC0zoW6JY7Xyv-eveBRw.png?1783982159",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Create a Download Link With a Button' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076482",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076482"
+    }
+  ],
+  "lastmod": "2026-07-14T04:06:47+05:30",
+  "scraped_at": "2026-10-18T13:47:29.460798"
+}

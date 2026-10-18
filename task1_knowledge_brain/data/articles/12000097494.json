@@ -1,0 +1,51 @@
+{
+  "article_id": "12000097494",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097494-how-to-replace-blue-twitter-bird-icon-logo-with-x-icon",
+  "title": "How to Replace Blue Twitter Bird Icon/Logo with X Icon",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "How to Replace Blue Twitter Bird Icon/Logo with X Icon"
+  ],
+  "content": "## How to Replace Blue Twitter Bird Icon/Logo with X Icon\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097494\n\nFollow these steps to replace the Twitter bird icon with the X icon for the website social media links as well as for the members overview tab.\n\n1. Copy the following snippet of code:\n\n<script>\n  $(document).ready(function() {\n    // Select and update <a> tags with specific <i> class\n    $(\"a:has(> i.fa.fa-twitter)\").html('<img loading=\"lazy\" class=\"talign img-circle\" width=\"75\" height=\"75\" alt=\"TwitterX\" src=\"/images/twitterX.png\">')\n      .addClass('image-icon')\n      .css('background', '#000');\n  });\n</script>\n\n2. Go to Settings - Design settings - Custom CSS/HEAD tab and paste the code in the Additional Footer Code section:\n\nThe icon will then be reflected on the website:\n\nAs well as in member profiles:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135534501/original/TeNUX39vG2jTi6ZabCOF4gvyR7-EHrI5XQ.png?1701953014",
+      "alt": "image",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Replace Blue Twitter Bird Icon/Logo with X Icon' in section 'Get Started Here' / 'Common Questions & Troubleshooting'. Label: image.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135534528/original/aw22YurYIoYFHx3oChstK0m-dCZrmcRjNw.png?1701953047",
+      "alt": "image",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Replace Blue Twitter Bird Icon/Logo with X Icon' in section 'Get Started Here' / 'Common Questions & Troubleshooting'. Label: image.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135534542/original/qhfevXFot-uKonNZ1WWOjIxK2l2-d4_M1A.png?1701953087",
+      "alt": "image",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Replace Blue Twitter Bird Icon/Logo with X Icon' in section 'Get Started Here' / 'Common Questions & Troubleshooting'. Label: image.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097494",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097494"
+    }
+  ],
+  "lastmod": "2024-01-03T23:50:14+05:30",
+  "scraped_at": "2026-10-18T13:53:11.025684"
+}

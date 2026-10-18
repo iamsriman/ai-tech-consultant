@@ -1,0 +1,27 @@
+{
+  "article_id": "12000049683",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049683-09-28-18-software-updates",
+  "title": "09/28/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/28/18 - Software Updates"
+  ],
+  "content": "## 09/28/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000049683\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The View Details link (shows the details of the product associated with the invoice) on the Transaction History page in the Admin Area will now only display if there is a product linked to the invoice.  Invoices for leads will not display this link as there is no associated product.\n\n- We fixed a UI issue which was preventing Admins from adding more Sub Level Categories in some cases.\n\n- The Coming Soon Form is now completely based on Text Labels. New Text Labels: coming_soon_label, is_coming_soon_label, pre_register_label, pre_register_fill_info, pre_register_submit_label. Widget Involved: Bootstrap Theme - Coming Soon Page\n\n- We fixed an issue which was preventing the system from showing the correct image for the Posted by Author Snapshot widget used on Feature Details pages. Widget Involved: Bootstrap Theme - Module - Posted by Author Snapshot\n\n- We fixed an issue with the allow_duplicate_member_emails Advanced Setting which was allowing members to signup with the same email account when they should be prevented from doing so in some cases.\n\n- We created a new Recent Widget in order to show a site's Sub Level Categories on the homepage. The settings for this widget can be found on the Design Settings page in the Admin area. Widget Involved: Bootstrap Theme - Display - Sub Level Categories\n\n- Now the Display Top Level Categories widget is fully based on Text Lables. Widget Involved: Bootstrap Theme - Display - Top Categories\n\n- We fixed an issue which was preventing Admins from entering Payment Gateway credentials for BluePay if the credentials contained certain characters.\n\n- We fixed an issue which was affecting the sort order of the Auto-Recurring Event Add-On in some cases. Widget Involved: Bootstrap - Search - Lazy Loader tabs\n\n- We added support for Special Characters in locations URLs. Now the system will automatically encode/decode the URLs of all location types. Widgets Involved: Bootstrap Theme - Category Groups - Member Locations Bootstrap Theme - Function - Display Breadcrumbs Bootstrap Theme - Module - Member Related Searches Search - Member - Search Query website_save_location_system\n\n- We updated the language of the success message when an Admin sends an email from the Admin area.\n\n- We released a Security Update that will make sure unsecure default Admin passwords are changed the next time an Admin logs into their account.\n\n- We updated the Froala WYSIWYG for the Blog Article Form in order add the ability to upload images directly through the Froala Editor.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000049683",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049683"
+    },
+    {
+      "text": "",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/653/bd-locations-url-encode/diff#chg-Bootstrap%20Theme%20-%20Function%20-%20Display%20Breadcrumbs%20%28ID%201914%29/html.php"
+    }
+  ],
+  "lastmod": "2018-10-02T00:35:51+05:30",
+  "scraped_at": "2026-10-18T13:43:50.514691"
+}

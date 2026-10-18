@@ -1,0 +1,23 @@
+{
+  "article_id": "12000092101",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092101-02-10-2023-software-updates",
+  "title": "02/10/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/10/2023 - Software Updates"
+  ],
+  "content": "## 02/10/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000092101\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the RSS Feed for Posts Add-On from working properly in some cases.\n\n- We updated the logic of the \"Form Error Recpatcha\" Text Label in order to support double quotes as part of the label value. Widget Involved: System - SaveForm\n\n- We fixed an issue with the Dynamic Category Filtering Add-On which was causing the system to display some sub and sub-sub categories without text in some cases.\n\n- We updated the Sub Accounts Add-On to set the sub-account status to \"Not Active\" when the parent account has been set as \"Past Due\". The sub-account status will change to \"Active\" when the parent account succesfully pay for the past due invoice.\n\n- We added the ability to support a blank space at the beginning of the Currency Suffix and to the end of the Currency Prefix when editing these settings in the \"Localization\" tab of the General Settings page in the Admin.\n\n- We updated the new Domain Manager page in the Admin to improve validations in several places.\n\n- We fixed an issue which was preventing the \"Display Star Rating on Post Detail Page\" Post Comments setting from working properly on the frontend in some cases.\n\n- We added a default set of German language Text Labels.  Admins can now choose to apply and edit English, Spanish, French, and German Text Labels.\n\n- We added a \"learn more\" link to the Google Analytics ID setting field on the General Settings page in the Admin.\n\n- The \"Top and Sub\" and \"Top, Sub, and Sub-Sub\" Dynamic Category Filters are now compatible with the \"Broad Match\" search option for the \"Category Keyword Searches\" setting found in the Search Settings tab of the General Settings page in the Admin.\n\n- We added Albanian as an available Default Website Language.\n\n- We fixed an issue which was preventing imported images from showing properly when using the \"View All\" filter on the Member Images page in the Admin.\n\n- We fixed an issue which was preventing the \"Copy to Clipboard\" button on the Widget Manager page to not work properly in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000092101",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092101"
+    }
+  ],
+  "lastmod": "2023-02-14T02:53:27+05:30",
+  "scraped_at": "2026-10-18T13:50:44.562576"
+}

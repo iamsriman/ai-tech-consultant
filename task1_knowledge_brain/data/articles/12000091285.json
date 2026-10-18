@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091285",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091285-12-09-22-software-updates",
+  "title": "12/09/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/09/22 - Software Updates"
+  ],
+  "content": "## 12/09/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091285\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the the \"/login\" page in order to display a message if the user is already logged in as a member rather than simply hiding the login form. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We created a new field for the default \"Feature - Digital Products\" form called \"Send Email Notification to Post Publisher After Purchase?\" The Email Template selected in this field will be sent to the email address of the member who posted the Digital Product when a user purchases the product. Widget Involved: Bootstrap Theme - Form - Digital Product - Template Email\n\n- We added validation to the Form Manager to force the \"listing_type\" field to only accept \"Individual\" and \"Company\" as possible options as allowing other options can cause issues for the site.\n\n- We removed the \"Emoji Free\" text when the emoji picker is active in Froala WYSIWYG editors on the frontend of sites.\n\n- We updated the Froala WYSIWYG to the latest version currently available (4.0.16).\n\n- We updated the Froala WYSIWYG for Email Templates in order to set a separate width and height as image attributes to ensure image compatibility with email clients like Outlook, Thunderbird, etc.\n\n- We fixed an issue with the Dynamic Category Filtering Add-On which was causing the system to redirect to the incorrect URL after using the search filter in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091285",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091285"
+    }
+  ],
+  "lastmod": "2022-12-13T00:18:30+05:30",
+  "scraped_at": "2026-10-18T13:50:33.003050"
+}

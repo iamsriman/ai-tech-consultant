@@ -1,0 +1,23 @@
+{
+  "article_id": "12000092480",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092480-03-03-2023-software-updates",
+  "title": "03/03/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/03/2023 - Software Updates"
+  ],
+  "content": "## 03/03/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000092480\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was affecting the ability to set the background color to some homepage sections from the Design Settings page in the Admin.\n\n- We released an update in order to improve the page load times in the Admin.\n\n- We updated the UI of the /locations and /categories pages to add the ability to collapse the content in the Country and Top Categories  panels. Widgets Involved: Bootstrap Theme - Category Groups - Member Categories Bootstrap Theme - Category Groups - Member Locations\n\n- We added a new Menu Item setting called \"Hide Item\". When setting is activated for a menu item, the system will hide it when the menu is displayed on the frontend.\n\n- We added a new set of Member Search Result Sort Options called \"Sort by Most Likes\" and \"Sort by Least Likes\" available to sites that have the \"Bookmark My Favorites\" Add-On. Widgets Involved: Search - Member - Search Query Bootstrap Theme - Member Results - Sorting Options\n\n- We updated the default favicon HTML tag on the frontend of sites to remove an attribute that is no longer supported by browsers. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the Search Subscriptions page in the Admin to display the \"next invoice date\" instead of the \"next due date\" when viewing subscriptions.\n\n- We added a new element to the $user array called full_name_short. This new element displays the first 19 characters of the full_name element in the $user array.\n\n- We fixed an issue which was preventing the system from displaying the Live Design Tool on the frontend of sites after clicking on the \"Live Design Tool\" link from the Design Settings page in the Admin.\n\n- We created a new set of \"Hero Title Text\" Design Settings called \"Main Title Text Align\" and \"Sub-Title Text Align\". These new settings control the alignment of the Main Title and Sub Title of the Hero Section of the homepage. To use these new settings navigate to the Admin >> Settings >> Design Settings >> Homepage tab >> Hero Title Text section. Widgets Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Homepage\n\n- We updated the Website Activity Tracker in the Admin in order to correctly display the \"Billing\" category for billing related records.\n\n- We fixed an issue which was preventing the system from respect the \"Redirect Page After Sign Up\" Membership Plan setting when the \"Enable HTTP Security Header\" Advanced Setting was active on a site in some cases. Widget Involved: Bootstrap Theme - Success Page - Free Member Sign Up",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000092480",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092480"
+    }
+  ],
+  "lastmod": "2023-03-07T05:09:24+05:30",
+  "scraped_at": "2026-10-18T13:50:46.955777"
+}

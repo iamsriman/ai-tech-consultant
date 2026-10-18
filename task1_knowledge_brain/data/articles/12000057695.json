@@ -1,0 +1,23 @@
+{
+  "article_id": "12000057695",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057695-05-24-19-software-updates",
+  "title": "05/24/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/24/19 - Software Updates"
+  ],
+  "content": "## 05/24/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000057695\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We moved the \"Search Engine Visibility\" setting from being an Advanced Setting to being a General Setting.  To find the setting, navigate to the Admin >> Settings >> General Settings >> Configuration Tab.\n\n- We fixed an issue which was affecting the ability to edit widgets in the Admin using the link for the widget seen when editing a Sidebar in the Sidebar Manager.\n\n- We updated the aesthetics of the Coupon Codes, Country Settings, and Form Inquiries pages in the Admin.\n\n- We added a Keyword Filter Search field to the Add-Ons Status page in the Admin.\n\n- We added the \"Add-On Available\" tag to the Multi-Location Listings and Click-To-Call Members Add-Ons on the Edit Products page in the Admin.\n\n- We fixed an issue which was causing the System to send several emails if the Compose Email modal was opened in a New tab.\n\n- We fixed an issue which was preventing the Email Signature from being included when sending a Newsletter Test from the Send Newsletter page in the Admin.\n\n- We fixed an issue which was affecting the Redirect Action after an Admin deletes a Single 301 Redirect Rule in the Admin.\n\n- We created new Design Settings that allow the Admin to Show Categories with or without Photos in the Recent Categories widget. In order to use this new feature navigates to the Admin >> Settings >> Design Settings >> Homepage Layout tab >> Homepage Section Order Options box. Widgets Involved: Bootstrap Theme - Display - Sub Level Categories Bootstrap Theme - Display - Top Categories\n\n- We refactored the function which retrieves Member Subcategories on the Member Search Results page in order to reduce the page load time.\n\n- We fixed an issue which was causing the Member Upgrades page to show an incorrect \"Save Message Label\" when a Quarterly Price was the only recurring option available for the upgrade. Widget Involved: Bootstrap Theme - Account - Upgrade Page 1\n\n- We fixed an issue which was affecting the ability to submit the Get Matched form on Member Profile Pages. Widget Involved: System - SaveForm\n\n- We fixed an issue which was causing Post location information to be saved with the location information of the Member even when a Location was correctly entered for the post.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000057695",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057695"
+    }
+  ],
+  "lastmod": "2019-05-27T23:27:04+05:30",
+  "scraped_at": "2026-10-18T13:44:56.272752"
+}

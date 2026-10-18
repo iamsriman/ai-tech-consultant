@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108815",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108815-06-12-2026-software-updates",
+  "title": "06/12/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/12/2026 - Software Updates"
+  ],
+  "content": "## 06/12/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108815\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released an optional API permission that allows a member's login token to be returned by the API for custom integrations. This option is turned off by default and must be enabled per API key.\n\n- Added new date format options that use a period as the separator (for example, dd.mm.yyyy) to the global date settings in the Admin, supporting regions that use this format.\n\n- Improved the Site Transfer Wizard in the Admin to make moving a website to a new server easier, including cPanel support and a smoother Cloudflare connection process.\n\n- Enhanced the server transfer process in the Admin to automatically detect how a website's domain is pointed (CNAME or A record) and adjust the guided steps accordingly, reducing friction when moving a site to a new server.\n\n- Improved the billing experience so that when a subscription is cancelled, the plan no longer shows a next billing date and the related actions (ending, pausing, or buying boosts) are correctly disabled. Additionally, the proration amount and date shown when reactivating a plan were corrected.\n\n- Fixed an issue that allowed account forms to be saved while bypassing required fields in some cases. Required fields are now properly enforced before a form can be submitted. Widget Involved: Bootstrap Theme - Function - Form\n\n- Fixed an issue that caused empty member search result pages to be treated as valid, indexable pages by search engines instead of returning a 404 error, which could cause search engines to crawl empty / thin pages.\n\n- Fixed an issue that caused the help chat bubble to move out of place when scrolling on the Form Manager page in the Admin. It now stays anchored to the bottom corner of the screen.\n\n- Fixed an issue that caused the Compose Email window in the Admin to close completely when selecting an image from the file manager, instead of inserting the selected image into the email.\n\n- Fixed an issue that caused GIF downloads from the Stock Photos library (GIPHY) to time out when inserting them through the content editor in the Admin. GIFs now import quickly as animated images.\n\n- Fixed an issue that caused the events listing and search pages to display an incorrect starting number in the \"Showing X - Y of Z Results\" label (showing 0 instead of 1) in some cases. Widget Involved: Bootstrap Theme - Post Results - Sorting Options\n\n- Fixed an issue that caused the Bookmark \"Saves\" counter to be visible to logged-out visitors on member profile and post pages. The counter now only appears for logged-in members.\n\n- Released a security update to the Membership Plan upgrade logic. Members can no longer switch to a membership plan that is set as non-searchable and has sign-ups disabled.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108815",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108815"
+    }
+  ],
+  "lastmod": "2026-06-15T22:53:34+05:30",
+  "scraped_at": "2026-10-18T13:59:05.661799"
+}

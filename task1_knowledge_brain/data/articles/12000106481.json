@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106481",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106481-10-24-2025-software-updates",
+  "title": "10/24/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/24/2025 - Software Updates"
+  ],
+  "content": "## 10/24/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106481\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue with removing the post types to search when editing autosuggest rules on the \"Keyword Autosuggest Rules\" page in the Admin in some cases.\n\n- Added new search filters and sort options to the Form Manager page in the Admin.\n\n- Fixed an issue that affected the ability for members to remove the credit card on file in some cases.\n\n- Fixed an issue that prevented the Member Reviews page in the Member Dashboard from loading properly in some cases. Wdigets Involved: Bootstrap Theme - Account - Reviews Datatable Bootstrap Theme - Account - Reviews Details Page\n\n- Fixed an issue that affected the alignment of the Summary and Promo Box modules when viewing checkout pages on mobile devices. Widget Involved: Bootstrap Theme - Function - Order Summary\n\n- Added the \"Default\" value for all settings on the Advanced Settings page in the Admin.\n\n- Updated the Membership Plan keyword search in the Admin to include the ability to search by Membership Plan ID.\n\n- Fixed an issue that caused the system to display an error message after submitting post forms in the Member Dashboard when the expired post workaround was active and the \"Date Format\" setting was set to \"YYYY/MM/DD\".\n\n- Updated all default schema widgets to be compatible with the \"Front-End Optimization: Use Content Delivery Network (CDN) for Images\" Advanced Setting.\n\n- Created a new Review Setting called \"Make 'Email' and 'Name' Fields Readonly\". When enabled, the Email and Name fields on the Reviews form will be set as \"readonly\", making their values uneditable once populated automatically.\n\n- Fixed an issue that affected the ability to disable the \"Slide 1\" image when the Homepage Background Slider Add-On is active on the homepage of a website. Widget Involved: Bootstrap Theme - HEAD\n\n- Added the ability to sort Smart List results by creation date on the \"Smart Lists & Tags\" page in the Admin.\n\n- Updated the Froala Text Editor form fields to support the \"Placeholder Text\" Form Field Setting.\n\n- Fixed an issue where deleting Top Level categories from the Member Categories page in the Admin leaving “orphaned” Sub Level categories even when the option to delete all Sub Level categories was selected.\n\n- Added tracking for spam submissions on checkout pages to the Activity Tracker.\n\n- Fixed an issue that prevented the \"Follow Comments\" feature on post details pages from working properly in some cases. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- Fixed an issue that prevented the \"Enable Right-to-Left CSS Layout Adjustment\" Advanced Setting from working properly on email and password form fields. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- Updated the Stripe payment gateway integration workflows for 3D Secure credit cards.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106481",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106481"
+    }
+  ],
+  "lastmod": "2025-10-27T21:51:03+05:30",
+  "scraped_at": "2026-10-18T13:56:49.030036"
+}

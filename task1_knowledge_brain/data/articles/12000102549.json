@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102549",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102549-11-29-2024-software-updates",
+  "title": "11/29/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/29/2024 - Software Updates"
+  ],
+  "content": "## 11/29/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102549\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue that was preventing the Chat Message UI on the Member Dashboard from displaying properly on mobile devices.\n\n- We updated the Compose Email modal to always reference the \"Default From Email Name\" and \"Website 'FROM' Email Address\" when composing emails in the Admin.\n\n- We updated the Froala WYSIWYG editor to the latest version available.\n\n- We fixed an issue that was preventing the Leads API from correctly auto-matching members with leads in some cases.\n\n- We updated the passwords fields powered by the Form Manager to add a \"Show Password\" icon in both the frontend and the Admin.\n\n- We fixed an issue that was preventing the system from including the correct tax amount when performing a member signup when using Stripe as Payment Gateway.\n\n- We updated the RSS Feed For Post Add-On to use the Website Name as the RSS Head Title when the RSS Feed Title Label is empty.\n\n- We implemented a security update when customizing and saving Forms in the Admin.\n\n- We fixed an issue which was preventing the Business Data Importer tool from auto-importing the business record images in some cases.\n\n- We updated the Admin Activity Tracker to include the details of the exact changes made when saving the Design Settings page in the Admin.\n\n- We fixed an issue which was preventing the system from saving the content of the File Upload Field when the field is part of a custom form saving data in a custom table in the website's database. Widget Involved: System - SaveForm\n\n- We fixed an issue that was preventing the lead variables from rendering in the \"Email Submitted\" modal on the Member Leads page in the Admin.\n\n- We released a new version of the Brilliant Directories Zapier a pp to include include triggers for all new items created (member, lead, review, unsubscribed, post).",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102549",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102549"
+    }
+  ],
+  "lastmod": "2024-12-02T21:45:10+05:30",
+  "scraped_at": "2026-10-18T13:55:20.959616"
+}

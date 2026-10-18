@@ -1,0 +1,60 @@
+{
+  "article_id": "12000000583",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000583-database-administration",
+  "title": "Database Administration",
+  "category": "Developer Hub",
+  "folder": "MYSQL Database",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "MYSQL Database",
+    "Database Administration"
+  ],
+  "content": "## Database Administration\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000000583\n\nThe MySQL Database Manager allows direct access to the website database for querying, updating, and deleting records.\n\nImportant Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.\n\n\n## Access the Database Manager\n\n\n- Navigate to Developer Hub .\n\n- Select MySQL Database .\n\n- Select the desired database from the left navigation panel.\n\n- Select the table to query.\n\n- Select the SQL tab.\n\n- The SQL editor is now ready to execute queries.\n\n\n## Retrieve Data\n\n\nThe SELECT statement retrieves information without modifying the database.\n\n\n### Retrieve all members\n\n\n```\nSELECT * FROM users_data;\n```\n\nThe asterisk ( * ) returns every column in the selected table.\n\n\n### Retrieve specific columns\n\n\n```\nSELECT first_name, last_name, email FROM users_data;\n```\n\nOnly the selected columns are returned.\n\n\n### Filter results with WHERE\n\n\nRetrieve members assigned to membership level 1.\n\n```\nSELECT first_name, last_name, email FROM users_data WHERE subscription_id = 1;\n```\n\n\n### Filter multiple conditions with AND\n\n\nRetrieve active members assigned to membership level 1.\n\n```\nSELECT first_name, last_name, email FROM users_data WHERE subscription_id = 1 AND active = 2;\n```\n\n\n### Exclude values with NOT\n\n\n```\nSELECT first_name, last_name, email FROM users_data WHERE NOT subscription_id = 1;\n```\n\nThe same result can be achieved using:\n\n```\nSELECT first_name, last_name, email FROM users_data WHERE subscription_id != 1;\n```\n\n\n### Match one of multiple values with OR\n\n\n```\nSELECT first_name, last_name, email, subscription_id FROM users_data WHERE subscription_id != 1 OR active = 2;\n```\n\n\n### Retrieve a range with BETWEEN\n\n\n```\nSELECT first_name, last_name, email FROM users_data WHERE subscription_id BETWEEN 1 AND 4;\n```\n\nThis query returns members assigned to membership levels 1 through 4.\n\n\n### Match specific values with IN\n\n\n```\nSELECT first_name, last_name, email FROM users_data WHERE subscription_id IN (1,2,3,4);\n```\n\nThe IN operator is useful when matching several specific values.\n\n\n## Update Data\n\n\nThe UPDATE statement modifies existing records.\n\n\n### Update membership levels\n\n\nThe following example changes every member assigned to membership level 1 to membership level 2 .\n\n```\nUPDATE users_data SET subscription_id = 2 WHERE subscription_id = 1;\n```\n\n\n### Update records matching multiple conditions\n\n\nThe following example updates only active members.\n\n```\nUPDATE users_data SET subscription_id = 3 WHERE subscription_id = 0 AND active = 2;\n```\n\nThe same filtering operators used with SELECT ( WHERE , AND , OR , IN , and BETWEEN ) can also be used with UPDATE .\n\n\n## Delete Data\n\n\nThe DELETE statement permanently removes records.\n\n\n### Delete members from a membership level\n\n\n```\nDELETE FROM users_data WHERE subscription_id = 5;\n```\n\n\n### Delete records matching multiple conditions\n\n\n```\nDELETE FROM users_data WHERE subscription_id = 5 AND active != 2;\n```\n\nOnly records matching every condition are removed.\n\n\n## Summary\n\n\nThe SQL statements most commonly used for database administration are:\n\nStatement Purpose SELECT Retrieve data UPDATE Modify existing records DELETE Permanently remove records\n\nAlways verify the affected records with a SELECT query before executing an UPDATE or DELETE statement.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181046489/original/qBTpryn029mpwwYvjnK7FBmmi-n7ITy-nQ.png?1782417030",
+      "alt": null,
+      "caption": "Context: Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Database Administration' in section 'Developer Hub' / 'MYSQL Database'. Context: Context: Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181046578/original/H6aIm-_abIKW7Qd7-bkVr0TefGlDEd4EPA.png?1782417140",
+      "alt": null,
+      "caption": "Context: Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Database Administration' in section 'Developer Hub' / 'MYSQL Database'. Context: Context: Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181046645/original/OBd0ngQj-FV-BU6c0zusrGOArsIc6hfWHA.png?1782417213",
+      "alt": null,
+      "caption": "Context: Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Database Administration' in section 'Developer Hub' / 'MYSQL Database'. Context: Context: Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181046698/original/ZIkV1kuN18Jd7cUEspg4uLyPIwez9LPKUw.png?1782417281",
+      "alt": null,
+      "caption": "Context: Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Database Administration' in section 'Developer Hub' / 'MYSQL Database'. Context: Context: Changes made directly to the database are permanent in most cases. Before executing any SQL statement, create a complete database backup and verify that the query targets the intended records.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000000583",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000583"
+    }
+  ],
+  "lastmod": "2026-06-26T01:30:37+05:30",
+  "scraped_at": "2026-10-18T13:39:21.984126"
+}

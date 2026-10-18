@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101408",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101408-09-06-2024-software-update",
+  "title": "09/06/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/06/2024 - Software Update"
+  ],
+  "content": "## 09/06/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101408\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the \"My Support Tickets\" filter field in the Admin Dashboard from returning accurate results in some cases.\n\n- We fixed an issue which was affecting the ability to add a city as Service Areas from the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We implemented several Admin security updates.\n\n- We fixed an issue which was preventing cloned newsletter forms from including new newsletters signups if the email address had already been submitted in another copy of the newsletter form. Widget Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- We fixed an issue that was causing free Membership Plans to display payment options on the upgrade page, even though the plans had been set as free in some rare cases. Widget Involved: Bootstrap Theme - Account - Upgrade Page 2\n\n- We fixed an issue which was preventing public frontend forms from saving the checkbox form fields values to a custom table in the database. Widget Involved: System - SaveForm\n\n- We fixed an issue which was preventing Multi-Photo Post Type forms in the Member Dashboard from working properly after adding a custom \"End DateTime Picker - Group\" widget field to the form when the Date Format of the site was set as \"YYYY/MM/DD\".\n\n- We fixed an issue affecting paid member signups using 3D Secure credit cards when Stripe was set as the Payment Gateway in some cases.\n\n- We fixed an issue which was preventing the ChatGPT Content Creator Add-On from working properly with the Froala WYSIWYG editor on the Send Newsletter page in the Admin.\n\n- We updated the Froala WYSIWYG editor to the latest version available.\n\n- We fixed an issue which was preventing the \"Type of Employment\" dropdown filter on the Job Listing Search Module from retaining its selected value after a search. Widget Involved: Bootstrap Theme - Module - Jobs Search\n\n- We fixed an issue preventing the Review snippet structured code from working properly when the \"Hide Reviews Star Rating Options\" Membership Plan Setting was active. Post Type Involved: Member Reviews\n\n- We fixed an issue with the Tax & VAT Manager Add-On which was preventing the system from including the tax rule when a member tried to upgrade their Membership Plan in some cases.\n\n- We updated the homepage streaming widgets to accurately reflect the Website Time Zone set for the site when displaying data. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Audios Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Discussions Bootstrap Theme - Display - Recent Videos\n\n- We fixed an issue which was preventing the system from respecting the \"Make Category Fields Required?\" Lead Setting when submitting a lead in some cases. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We fixed an issue with Smart Lists that was preventing the system from sending the \"stringify\" values of fields to webhook endpoints after connecting a Smart List to a webhook.\n\n- We fixed an issue which was preventing the Open Graph URL meta tag from working properly after performing a search in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the system from displaying the order summary on checkout pages in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101408",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101408"
+    }
+  ],
+  "lastmod": "2024-09-09T21:34:26+05:30",
+  "scraped_at": "2026-10-18T13:54:56.027488"
+}

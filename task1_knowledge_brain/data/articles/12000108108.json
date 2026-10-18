@@ -1,0 +1,35 @@
+{
+  "article_id": "12000108108",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108108-api-reference-widget-placements",
+  "title": "API Reference - Widget Placements",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Widget Placements"
+  ],
+  "content": "## API Reference - Widget Placements\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108108\n\n← Back to API Reference | Getting Started Widget Placements Widget Placements define where individual widgets appear within sidebars and page layouts on your directory site. Each record associates a widget with a sidebar or post type page, controls its display order, and tracks its active status. Model name in URL: data_widgets_rel — DB table: data_widgets_rel Default values & admin-level visibility: /get responses merge platform Default values (an uncustomized record is returned from the platform Defaults with is_default: true ) and, based on the admin account that created the API key, honor the same visibility rules as the parent sidebar’s Sidebar Manager rules: placements belonging to a non-whitelisted sidebar return a 403 permission error, and forbidden records are silently filtered out of list responses. See Getting Started for details. The Widget Placement Object Field Type Description rel_id integer Unique placement ID (primary key, read-only) widget_id string Name or identifier of the widget being placed required on create data_id string ID of the post type or page context where this widget appears required on create page_type string Page template type this placement applies to (EG profile , search ); empty for all active integer Whether this placement is active and the widget is rendered: 1 active, 0 inactive required on create display_order integer Sort order position of this widget within its sidebar; lower numbers appear first required on create date_updated string Date this placement was last updated (format: YYYYMMDDHHMMSS ) updated_by string Username or identifier of the admin who last updated this placement sidebar_id integer ID of the sidebar this widget is placed in; 0 if not sidebar-specific required on create website_id integer Site ID for multi-site contexts; 0 for the current site revision_timestamp timestamp Timestamp of the last modification to this record (auto-managed) List Widget Placements GET /api/v2/data_widgets_rel/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/data_widgets_rel/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"rel_id\": \"1112\",\n      \"widget_id\": \"Bootstrap Theme - Module - Newsletter Sign Up Form\",\n      \"data_id\": \"20\",\n      \"page_type\": \"\",\n      \"active\": \"1\",\n      \"display_order\": \"2\",\n      \"date_updated\": \"\",\n      \"updated_by\": \"\",\n      \"sidebar_id\": \"0\",\n      \"website_id\": \"0\",\n      \"revision_timestamp\": \"2017-02-14 18:24:37\"\n    },\n    {\n      \"rel_id\": \"1111\",\n      \"widget_id\": \"Bootstrap Theme - Banner - Responsive Size\",\n      \"data_id\": \"20\",\n      \"page_type\": \"\",\n      \"active\": \"1\",\n      \"display_order\": \"1\",\n      \"date_updated\": \"\",\n      \"updated_by\": \"\",\n      \"sidebar_id\": \"0\",\n      \"website_id\": \"0\",\n      \"revision_timestamp\": \"2017-02-14 18:24:37\"\n    }\n  ],\n  \"total\": \"245\",\n  \"current_page\": 1,\n  \"total_pages\": 10,\n  \"next_page\": \"MipfKjI=\"\n} Retrieve a Widget Placement GET /api/v2/data_widgets_rel/get/{rel_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/data_widgets_rel/get/1112\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"rel_id\": \"1112\",\n      \"widget_id\": \"Bootstrap Theme - Module - Newsletter Sign Up Form\",\n      \"data_id\": \"20\",\n      \"page_type\": \"\",\n      \"active\": \"1\",\n      \"display_order\": \"2\",\n      \"date_updated\": \"\",\n      \"updated_by\": \"\",\n      \"sidebar_id\": \"0\",\n      \"website_id\": \"0\",\n      \"revision_timestamp\": \"2017-02-14 18:24:37\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Widget Placement POST /api/v2/data_widgets_rel/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/data_widgets_rel/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"widget_id=My+Custom+Widget\" \\\n  -d \"data_id=1\" \\\n  -d \"sidebar_id=3\" \\\n  -d \"active=1\" \\\n  -d \"display_order=5\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"rel_id\": \"1200\",\n    \"widget_id\": \"My Custom Widget\",\n    \"data_id\": \"1\",\n    \"page_type\": null,\n    \"active\": \"1\",\n    \"display_order\": \"5\",\n    \"date_updated\": null,\n    \"updated_by\": null,\n    \"sidebar_id\": \"3\",\n    \"website_id\": null,\n    \"revision_timestamp\": null\n  }\n} Update a Widget Placement PUT /api/v2/data_widgets_rel/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/data_widgets_rel/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"rel_id=1200\" \\\n  -d \"display_order=2\" \\\n  -d \"active=0\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"rel_id\": \"1200\",\n    \"widget_id\": \"My Custom Widget\",\n    \"data_id\": \"1\",\n    \"page_type\": null,\n    \"active\": \"0\",\n    \"display_order\": \"2\",\n    \"date_updated\": null,\n    \"updated_by\": null,\n    \"sidebar_id\": \"3\",\n    \"website_id\": null,\n    \"revision_timestamp\": \"2026-04-03 10:00:00\"\n  }\n} Delete a Widget Placement DELETE /api/v2/data_widgets_rel/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/data_widgets_rel/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"rel_id=1200\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"data_widgets_rel record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108108",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108108"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-07-02T11:26:29+05:30",
+  "scraped_at": "2026-10-18T13:58:15.278102"
+}

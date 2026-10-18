@@ -1,0 +1,41 @@
+{
+  "article_id": "12000013438",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013438-how-bandwidth-and-storage-usage-is-calculated",
+  "title": "How Bandwidth and Storage Usage Is Calculated",
+  "category": "Add-On Documentation",
+  "folder": "10GB of additional Bandwidth & Storage Boost",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "10GB of additional Bandwidth & Storage Boost",
+    "How Bandwidth and Storage Usage Is Calculated"
+  ],
+  "content": "## How Bandwidth and Storage Usage Is Calculated\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000013438\n\nIn the Dashboard Area of every Brilliant Directories website, there is an indication of the storage that is currently being used and the bandwidth that has been used for the current calendar month: Our server network utilizes the CentOS / WHM / cPanel stack to manage hosting accounts and calculate bandwidth and storage usage data. To measure bandwidth, cPanel & WHM combines the amount of bytes of an incoming data request with the outgoing transferred data (the response to that request). cPanel & WHM obtains this data from the Apache logs. These logs include the following amounts of bandwidth: The total bandwidth that the incoming request that solicited the content used. The total bandwidth that the complete response used (the sum of the size of the content plus the header). For more information about how bandwidth usage data is calculated, and why it may differ from data obtained using other tools, please see the full documentation on this topic here: Apparent Discrepancies in Bandwidth Usage Statistics",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174859000/original/kOcVJLL3w5JAibsOO85KveKKyt4e3v0fYw.png?1771428467",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How Bandwidth and Storage Usage Is Calculated' in section 'Add-On Documentation' / '10GB of additional Bandwidth & Storage Boost'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000013438",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013438"
+    },
+    {
+      "text": "",
+      "url": "https://documentation.cpanel.net/display/ALD/Apparent+Discrepancies+in+Bandwidth+Usage+Statistics"
+    },
+    {
+      "text": "Apparent Discrepancies in Bandwidth Usage Statistics",
+      "url": "https://docs.cpanel.net/knowledge-base/accounts/apparent-discrepancies-in-bandwidth-usage-statistics/"
+    }
+  ],
+  "lastmod": "2026-02-18T20:57:49+05:30",
+  "scraped_at": "2026-10-18T13:40:24.296046"
+}

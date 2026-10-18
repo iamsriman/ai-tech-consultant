@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104132",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104132-04-11-2025-software-updates",
+  "title": "04/11/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/11/2025 - Software Updates"
+  ],
+  "content": "## 04/11/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104132\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Deprecated the \"Display Map When Entering Location Information\" Post Type Setting when editing the \"Member Reviews\" Post Settings in the Admin.\n\n- Dates on the Manage Posts page now always follow the format specified in the \"Date Format\" General Setting.\n\n- Implemented an update to only display the \"Limit Reached\" validation message once when selecting member sub-categories on the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- Updated the API Documentation page to allow copying the example endpoint URLs.\n\n- Disabled the \"Membership Plan Setting URL\" setting when the \"Account Type\" Setting is set to \"Claim\" when editing Membership Plans in the Admin.\n\n- Updated the Membership Plans page in the Admin to display the \"Location Limit\" text when the Multi-Location Listing Add-On is enabled.\n\n- Fixed an issue that prevented \"Section 15\" from being deleted from the \"Select Content To Display\" area on the Design Settings page in the Admin.\n\n- The \"Bootstrap Theme - Banner - 300_250 Rotating\" and the \" Bootstrap Theme - Banner - 250_250 Rotating \" widgets are now available to add to sidebars using the Sidebar Manager page in the Admin.\n\n- Fixed an issue that was preventing the \"Bookmark My Favorites\" Add-On from working properly in some cases. Widget Involved: Bootstrap Theme - Display - Add to Favorites Button\n\n- Fixed an issue that was causing Digital Product posts to be duplicated while creating a new post in some cases. Widget Involved: Bootstrap Theme - Digital Products - Type of Product Module\n\n- Fixed an issue that was preventing the \"Close My Account\" feature from working properly in some cases. Additionally, actions to close or reactivate a member account are now logged in the Activity Tracker.\n\n- Added support for using a Restricted Key for the Stripe Payment Gateway in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104132",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104132"
+    }
+  ],
+  "lastmod": "2025-04-15T19:54:07+05:30",
+  "scraped_at": "2026-10-18T13:55:58.101454"
+}

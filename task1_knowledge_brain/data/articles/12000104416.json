@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104416",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104416-05-09-2025-software-updates",
+  "title": "05/09/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/09/2025 - Software Updates"
+  ],
+  "content": "## 05/09/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104416\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Implemented a security update for the \"Forms Submitted\" search filter field in the Admin.\n\n- Updated the Profile Statistics UI in the Member Dashboard to highlight the current year being viewed.\n\n- Fixed an issue preventing the phone_number field from exporting correctly when using the Member Export Data Add-On in some cases.\n\n- Renamed the \"Strict Country & State Match\" setting to \"Enforce State & Country Borders\" . Also updated its description to more accurately reflect its functionality and to distinguish it from other “Strict” location settings on the General Settings page in the Admin.\n\n- Updated the \"RSS Feed for Posts\" Add-On to support special characters and emojis.\n\n- Updated the \"Member Reviews\" SEO Template to support all member profile variables.\n\n- Fixed an issue that prevented the \" Listing - Additional Details - Member \" form from being submitted when the Member Sub-Categories field was set as required , but no sub-categories were available to display. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- Fixed an issue with editing Leads and Member Reviews from the Admin when using custom versions of the related forms in some cases.\n\n- Updated the Admin Bar when visiting a website as an Admin to include a link for directly editing posts from a Post Details page.\n\n- Fixed an issue that prevented the \"Override Post Location\" Advanced Setting from working properly in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104416",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104416"
+    }
+  ],
+  "lastmod": "2025-05-13T05:14:53+05:30",
+  "scraped_at": "2026-10-18T13:56:05.511757"
+}

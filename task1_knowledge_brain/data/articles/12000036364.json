@@ -1,0 +1,23 @@
+{
+  "article_id": "12000036364",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036364-10-13-17-software-updates",
+  "title": "10/13/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/13/17 - Software Updates"
+  ],
+  "content": "## 10/13/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000036364\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We remove some unnecessary code from the Recent Properties Widget. Widget Involved: Bootstrap Theme - Display - Recent Properties\n\n- The Coming Soon Form is now working as expected. Widgets Involved: Bootstrap Theme - Coming Soon Page Bootstrap Theme - Function - Save Form\n\n- We fixed an issue that was affecting the settings of the Profile Tab on the Edit Products section. Widgets Involved: Bootstrap Theme - Account - Sidebar\n\n- We fixed an issue in the View Events of the Member Dashboard section, before the events were being labeled as Expired, right now is working as expected. Widgets Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- The issue that was displaying the erroneous currency symbol on the signup pages has been resolved.\n\n- We fixed some minor issues that were affecting the behavior of the Payment Gateways Page in the Site Admin.\n\n- We improved the Success Modal Message on the Signup Pages.\n\n- We fixed some minor issues that were affecting the behavior of the Transaction History Page in the Site Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000036364",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000036364"
+    }
+  ],
+  "lastmod": "2017-10-13T21:50:08+05:30",
+  "scraped_at": "2026-10-18T13:41:54.160935"
+}

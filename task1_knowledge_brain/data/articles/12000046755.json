@@ -1,0 +1,39 @@
+{
+  "article_id": "12000046755",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046755-06-29-18-software-updates",
+  "title": "06/29/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/29/18 - Software Updates"
+  ],
+  "content": "## 06/29/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046755\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We released the AdBlock Detector Add-On. Click here for more information. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We released the Free Trial Period Add-On. Click here for more information. Widget Involved: Bootstrap Theme - Form - Membership Payment Options\n\n- We fixed an issue which was causing errors in some cases when a visitor used the date filter when searching for Events.\n\n- We added a UI update to the Consent Management (GDPR) Tools to display better on smaller screens.\n\n- We fixed an issue with the default post limit set in the Recent Articles homepage widget. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We fixed an issue which was creating new members as \"Active\" before the payment was confirmed as completed.  This affected external payment gateways such as PayPal Standard.\n\n- We released the Limit Posts per Member Add-On. Click here for more information. Widgets Involved: Bootstrap Theme - Account - Feature Edit Bootstrap Theme - Account - Photo Albums Publishing Limit Bootstrap Theme - Account - Photo Albums Publishing Limit Alert\n\n- We added the option to accept Quarterly Payments for paid products. In order to use this new feature, navigate to the Admin >> Finance >> Manage Products >> Edit >> Pricing tab. Widgets Involved: Bootstrap Theme - Form - Membership Payment Options Bootstrap Theme - Account - Upgrade Page 1\n\n- We released the Limit Max Photos Per Album Add-On. Click here for more information. Widgets Involved: Bootstrap Theme - Account - Photo Albums Upload Bootstrap Theme - Account - Photo Albums Upload Form\n\n- We added a Member Profile Stats and a Member Content tab to the Members Details page in the Admin area.  This shows the profile stats and posts published by the selected member.  In order to use this new feature, navigate to the Admin >> Members >> Search Members >> Actions >> Account Details.\n\n- We fixed an issue with the Members Only Content Setting which was impacting the Edit Post Setting page in the Admin area.\n\n- We added the ability to automatically change the status of a member from \"Active\" to \"Past-Due\" (similar to \"Not-Active\" or \"On Hold\") when a member logs into their account and at least one of their subscription payments is past-due.  Once the member pays the past-due invoice, the status of the member will be set as \"Active\" again. In order to activate this new feature, set the Advanced Setting auto_suspend_accounts to 1. Widgets Involved: Bootstrap Theme - Member Login Page\n\n- We fixed an issue that was affecting the category dropdowns of search features on sites that are running legacy versions of the software. Widget Involved: Website - Main Footer Scripts\n\n- The language of the Event Calendar feature and datepicker fields is now controlled by the Language Setting found on the General Settings page of the Admin area. Widgets Involved: Bootstrap Theme - Footer - Scripts Bootstrap Theme - Module - Event Search\n\n- We fixed an issue which was affecting the normal behavior of the Lead Setting Page when the Automatic Lead Matching Add-On is active.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046755",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046755"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/adblock-detector-add-on"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/membership-free-trial-period"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/limit-posts-per-member-add-on"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/limit-max-photos-per-album-add-on"
+    }
+  ],
+  "lastmod": "2018-06-30T03:46:49+05:30",
+  "scraped_at": "2026-10-18T13:43:07.831814"
+}

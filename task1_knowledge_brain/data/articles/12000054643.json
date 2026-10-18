@@ -1,0 +1,100 @@
+{
+  "article_id": "12000054643",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054643-adding-dashboard-header-footer-custom-html",
+  "title": "Adding Dashboard Header-Footer Custom HTML",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Adding Dashboard Header-Footer Custom HTML"
+  ],
+  "content": "## Adding Dashboard Header-Footer Custom HTML\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000054643\n\nThis article explains how to add  Custom Header and Footer content to the Member's Dashboard.\n\nThe system allows different header and footer widgets to be assigned to each membership plan.\n\nThe final result will look like this:\n\nBy default, this section can be activated by using the Froala Editor or selecting a custom widget.\n\nIt is best to use the Froala Editor, which fully supports rich content like links, media embeds, custom colors, and different fonts.\n\nThis article explains how to use both the custom widget and the Froala Editor.\n\n\n## Using the Froala Editor\n\n\n1. Go to Finance » Membership Plans » Member's Dashboard  tab. Scroll down to the \"Custom Dashboard Content\" section  and select \"Use text Editor\" in the Dashboard Header Content option.\n\n2. Add the desired content, such as images, videos, or links.\n\n3. Save the changes.\n\nFollow the same steps if additional content needs to be added to the Dashboard Footer Content.\n\n\n## Using a Custom Widget\n\n\nFollow these steps:\n\n1. Go to Toolbox » Widget Manager.\n\n2. Click  \"New Widget + \"\n\n3. Add the Widget's Name. Use a widget name that reflects its purpose, making it easier to remember what the widget is for . In this example, the widget is titled 'Custom Header - Dashboard' to clearly identify its function.\n\n4. Add the Widget Code.\n\n5. Make sure the Type of Widget is a \"Widget\".\n\n6. Save the changes.\n\n7. Then go to Finance » Membership Plans » Member's Dashboard tab. Scroll down to the \"Custom Dashboard Content\" section and select the custom widget created. Save the changes:\n\nIn the member's dashboard the widget will appear at the top because we created a widget for the header section:\n\nFollow the same steps to add a footer widget, but select 'Dashboard Footer Custom HTML' in Step 7.\n\nFor additional questions or help setting this up, submit a ticket to support@brilliantdirectories.com or create a ticket HERE .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392543/original/mDxqLC4sjVI4Jlo_sGGSMHU2jrp5TMF8QA.png?1620606147",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Dashboard Header-Footer Custom HTML' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392568/original/opReuX2U4Fjc9EtNykkdvW-iGTXUQek1Ww.png?1620606253",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Dashboard Header-Footer Custom HTML' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392581/original/9oqxL2wUO8XVP4_yNyuy5Y8F4inNtGiEXQ.png?1620606323",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Dashboard Header-Footer Custom HTML' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392928/original/enKWd08PKQhSCnipDCg41wJKmKbjEJ2Vbw.png?1620607944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Dashboard Header-Footer Custom HTML' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392945/original/dfJ4P7I9ZQgve6hDqVK6hcXMxlbZtuGoiQ.png?1620607979",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Dashboard Header-Footer Custom HTML' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154973119/original/sX64dLmX_p5OFCd-NO9DUOVLA3bx-Q0Usg.png?1736259766",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Dashboard Header-Footer Custom HTML' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392798/original/qLmOmO3mvp5G5DF1LQIwTHDJ7bnj40cFOA.png?1620607468",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Dashboard Header-Footer Custom HTML' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092392955/original/ZHVqpYFagT8mcYCmvOadwxZ_M4IkE_oYKw.png?1620608021",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Adding Dashboard Header-Footer Custom HTML' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000054643",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054643"
+    },
+    {
+      "text": "HERE",
+      "url": "https://support.brilliantdirectories.com/a/tickets/new"
+    }
+  ],
+  "lastmod": "2026-07-02T21:18:10+05:30",
+  "scraped_at": "2026-10-18T13:44:32.952849"
+}

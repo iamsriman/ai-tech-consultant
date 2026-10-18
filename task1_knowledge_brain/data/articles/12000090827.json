@@ -1,0 +1,27 @@
+{
+  "article_id": "12000090827",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090827-11-11-22-software-updates",
+  "title": "11/11/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/11/22 - Software Updates"
+  ],
+  "content": "## 11/11/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090827\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the Grid View Search Results Add-On which was causing the comments counter to overlap with the favorites counter in the grid view of post search results in some cases.\n\n- The \"Enter reply to review here\" text when replying to a review in the Member Dashboard is now a Text Label.\n\n- We updated the default layout of member search results pages to move the \"phone number\" button under the \"send message\" button. Post Type Involved: Listing\n\n- We fixed an issue which was preventing members from purchasing leads from the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Success Page - Lead Purchase\n\n- We fixed an issue which was preventing the system from allowing some SEO Templates to be customized in some cases.\n\n- We fixed an issue with the image lazy load logic which was preventing the system from displaying member images on member search results pages after clicking on the \"Load More Results\" button in some cases.\n\n- We implemented a security update to the member images upload logic in the Member Dashboard to prevent unwanted files from being uploaded.\n\n- We added tooltip message when editing Membership Plans to inform users that changing the prices of the Membership Plan will not impact existing subscriptions.\n\n- The \"Search Box/Call to Action\" button fields are now textareas instead of regular input fields when editing them on the Design Settings page in the Admin.\n\n- We implemented an update in order to not load the Grid View Search Results JS libraries when visiting a site using a mobile device as this view is not available in that context.\n\n- We updated the logic of the lead match query in order to exclude members which have the email with the following format: user_id@emaildomain.com . This email format is only used for members that are imported without an email address and therefor should not be matched to leads.\n\n- We fixed an issue with the Form Manager which was preventing the signup form validations from working properly in some cases.\n\n- We fixed an issue which was affecting the ability to set an expiration date for Muli-Photo Post Types in the Member Dashboard.\n\n- We created a new Design Setting called \"Open New Tab\". When this setting is enabled, the link URL for the Homepage Hero Divider will open in a new tab when the user clicks on the link. Widget Involved: Bootstrap Theme - Homepage - Hero Divider\n\n- We fixed an issue which was affecting the ability to display the AM/PM selection button when using the Calendar - Date & Time Picker form fields on the frontend.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090827",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090827"
+    },
+    {
+      "text": "user_id@emaildomain.com",
+      "url": "mailto:user_id@emaildomain.com"
+    }
+  ],
+  "lastmod": "2022-11-14T23:51:14+05:30",
+  "scraped_at": "2026-10-18T13:50:26.208606"
+}

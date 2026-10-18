@@ -1,0 +1,60 @@
+{
+  "article_id": "12000030821",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030821-lead-settings-receiving-indirect-leads-automatic-lead-matching-",
+  "title": "Lead Settings » Receiving Indirect Leads (Automatic Lead Matching)",
+  "category": "Add-On Documentation",
+  "folder": "Automatic Lead Matching",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Automatic Lead Matching",
+    "Lead Settings » Receiving Indirect Leads (Automatic Lead Matching)"
+  ],
+  "content": "## Lead Settings » Receiving Indirect Leads (Automatic Lead Matching)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000030821\n\nTo edit the general settings for \" Receiving Indirect Leads \" when using the Advanced Lead Matching package go to: Interactions » Member Leads » Automatch Workflows » \" Edit \"  and click on the \" Receiving Indirect Leads \" tab:\n\n\n## Available Settings within \"Receiving Indirect Leads\"\n\n\nThese settings control what happens when a lead is matched to a qualified member automatically (indirectly).\n\nA Lead can be matched to a member automatically if it is submitted through the \"Get Matched\" page of the website and “Automatically Match Leads To Qualified Members\" is set to \" Yes \" in the General Lead Settings tab.\n\n\n### Should Members Receive Indirect Leads\n\n\nSelect \" ON \" to allow members to receive leads that are automatically (indirectly) matched to them.\n\nSelect \" OFF \" to not allow members to receive leads that are automatically matched to them.\n\nIf \"Automatically Match Leads To Qualified Members\" is set to \"Yes\" in the General Lead Settings tab, it is recommended to set this to \"Yes\" for most websites.\n\n\n### Member Notification Type\n\n\nSelect \" Preview \" to send the member who received the lead a portion (preview) of the information submitted in the lead, rather than all of the information submitted in the lead. This preview will typically contain the content of the lead, but will not contain the contact information (phone and email) of the person who submitted the lead. Members will have to accept or purchase the lead in order to see the complete information of the lead.\n\nSelect \" Complete \" to send all of the information submitted in the lead immediately without the need to accept or purchase the lead.\n\n\n### Label Indirect Leads As\n\n\nSelect \" Pending \" for each indirect match to count only against the \"Maximum Matches\" number set in the General Lead Settings tab. Select \"Accepted\" for each indirect match to count against both the \"Maximum Matches\" and the \"Maximum Acceptances\".\n\nIf \" Preview \" is selected as the \"Member Notification Type\" above, then \"Pending\" is the recommended choice. If \"Complete\" is selected as the \"Member Notification Type\" above, then \"Accepted\" is the recommended choice.\n\n\n### Preview Email Template\n\n\nSelect the email template to send to the member if \"Preview\" is selected above.\n\n\n### Complete Email Template\n\n\nSelect the email template to send to the member if \"Complete\" is selected above.\n\n\n### Copy Admin On This Email\n\n\nSend a copy of the \"Preview Email Template\" or \"Complete Email Template\" to the Admin email address(es) when it is sent to a member.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116693118/original/rdGBmdSXiz4YR8STvA3RXjzYMcSt6yEqvw.png?1667340476",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Lead Settings » Receiving Indirect Leads (Automatic Lead Matching)' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116693152/original/SR-1_7FDrPJH2pHIZrCmaQPOLI27uuc1Og.png?1667340519",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Lead Settings » Receiving Indirect Leads (Automatic Lead Matching)' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115155274/original/NQlJyLy6f3QLOp4yPFq9-P0v8QKsTKtHuA.png?1664306528",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Lead Settings » Receiving Indirect Leads (Automatic Lead Matching)' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115155295/original/PV8s11YcFayIBPYS-0nv4QMEOnuca8ek1w.png?1664306575",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Lead Settings » Receiving Indirect Leads (Automatic Lead Matching)' in section 'Add-On Documentation' / 'Automatic Lead Matching'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000030821",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030821"
+    }
+  ],
+  "lastmod": "2025-04-05T00:42:28+05:30",
+  "scraped_at": "2026-10-18T13:41:14.929594"
+}

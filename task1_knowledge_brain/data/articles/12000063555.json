@@ -1,0 +1,23 @@
+{
+  "article_id": "12000063555",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063555-10-04-19-software-updates",
+  "title": "10/04/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/04/19 - Software Updates"
+  ],
+  "content": "## 10/04/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000063555\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the Properties Search Module to show an error message after an Admin clicked on the \"Show Widgets\" button when viewing the website as an Admin. Widget Involved: Bootstrap Theme - Module - Property Search\n\n- We released an update to reduce the load time of the \"Income Forecast\" modal on the Transaction History page in the Admin.\n\n- We removed the \"Details Page Design\" tab from the Listing, Specialties, Reviews and My Favorites post types in the Admin as this tab does not have any use in these contexts.\n\n- We fixed an issue which was causing the \"Recent Blog Articles with Sidebar\" homepage widget to show an incorrect published date in some cases. Widget Involved: Bootstrap Theme - Display - Recent Blog Articles with Sidebar\n\n- We fixed an issue which was causing the Member Dashboard to show the \"Profile Photo\" tab as incomplete even when the member had already uploaded a profile photo or logo. Widget Involved: Bootstrap Theme - Account - Checklist Wizard\n\n- We fixed an issue with the enable_local_member_urls Advanced Setting which was causing breadcrumbs on profile pages to link to a 404 page in some cases. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- We updated the Activity Tracker page in the Admin to improve its loading time and search accuracy.\n\n- We updated the Website URL field type in the Form Manager to automatically trim blank spaces before and after a URL entered into a field of this type to prevent errors with the resulting link on profile pages. Widget Involved: Bootstrap Theme - Function - Form\n\n- We fixed an issue which was preventing the \"Pay Now\" button for invoices to not work properly on the Billing Details page in the Member Dashboard in some cases.\n\n- We updated the Statement Descriptor sent by Stripe to be the Website Name.\n\n- We updated the User Interface for authorizing a payment when Stripe is set as the payment gateway and the member making a payment is using a credit card that requires additional authorization for every transaction.\n\n- We fixed an issue which was preventing Admins from collecting on past due invoices when Stripe is set as the Payment Gateway in some cases.\n\n- We fixed an issue with the override_post_location setting which was preventing location information from being saved for posts that do not have lat and lon values in the for used for its post type.\n\n- We added a \"Members Only\" badge on the \"Edit Post Settings\" and \"Edit Web Pages\" sections of the Admin to help identify the post types and wethat have been set as \"Members Only\".\n\n- We fixed an issue which was preventing the success message from displaying properly for new member signups on sites using a payment gateway other than Stripe in some cases.\n\n- We updated the Newsletter Forms in order to display the correct text label if a site visitor enters an email address that already exists as a contact. Forms Updated: Website - Newsletter Footer Website - Newsletter Sidebar",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000063555",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063555"
+    }
+  ],
+  "lastmod": "2019-10-07T23:25:04+05:30",
+  "scraped_at": "2026-10-18T13:45:36.459233"
+}

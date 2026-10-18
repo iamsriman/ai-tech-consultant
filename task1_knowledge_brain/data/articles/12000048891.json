@@ -1,0 +1,203 @@
+{
+  "article_id": "12000048891",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048891-finance-membership-plans-sign-ups-upgrades",
+  "title": "Finance » Membership Plans - Sign Ups & Upgrades",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Finance » Membership Plans - Sign Ups & Upgrades"
+  ],
+  "content": "## Finance » Membership Plans - Sign Ups & Upgrades\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048891\n\nThis article covers all settings available in the ‘Sign Ups & Upgrades’ tab:\n\n\n## Set Pricing Options for This Plan\n\n\nMembership Plans can be \" Free \" or \" Paid \", but if the site has the Claimable Business Listings add-on enabled, a third option called ‘Claim’ will appear.\n\nSome settings vary depending on the account type. For example, selecting the \"Free\" option will hide settings that only apply to paid membership plans. Below is a more detailed explanation:\n\n\n### 1. Account Type\n\n\nSelect whether this membership plan will be Free, Paid, or Claim The claim option will only appear if the claim listing add-on is purchased or if the Vip Add-ons are active on the website.\n\nFor more information about this add-on, read this article: Claim Listings In-Depth - Add-on .\n\nNOTE: When the account type is saved as \" Claim \", the system will disable the \"Sign-Up Page\" URL.\n\nTo set up a Free Membership Plan, we recommend reading the following documentation: Setting up Free Membership Plan .\n\n\n### 2. Preferred Payment Term\n\n\nSelect the preferred payment term (monthly, yearly, etc.). The chosen option will be  pre-selected on the checkout page.\n\n\n### 3. Monthly Price\n\n\nEntering a value greater than 0 will enable this payment option.\n\nFor example, by typing \"10\", the system will display this amount on the checkout page and will automatically charge members each month. Keep in mind that some payment gateways such as PayPal Standard and PayFast, handle the recurring subscriptions in a different way. These gateways generate an unpaid invoice but the payment won't be attempted until members log in to their account and pay from there.\n\nThe on-site payment gateways will charge their accounts automatically.\n\n\n### 4. Quarterly Price\n\n\nEntering a value greater than 0 will enable this payment option.\n\nThe system will create an option for members to sign up and pay every three months. This subscription is recurring as well.\n\n\n### 5. Semi-Yearly Price\n\n\nMembers will be billed every 6 months if they select this option.\n\nEntering a value greater than 0 will enable this payment option. This is a recurring subscription.\n\n\n### 6. Yearly Price\n\n\nMembers who select this option will be billed every 12 months.\n\nEntering a value greater than 0 will enable this payment option. This subscription is recurring as well.\n\nTo set up recurring subscriptions, we recommend reading the following documentation: Setting up Recurring Payments\n\nIf the website’s currency format or currency suffix/prefix needs to be changed, see this article: Settings » General Settings » Localization\n\n\n### 7. Biennial Price (billed every 2 years)\n\n\nMembers will be billed every 24 months if they select this option.\n\nEntering a value greater than 0 will enable this payment option. This subscription is recurring as well.\n\n\n### 8. Triennial Price (billed every 3 years)\n\n\nMembers will be billed every 36 months if they select this option.\n\nEntering a value greater than 0 will enable this payment option. This subscription is recurring as well.\n\n\n### 9. One-time Setup Fee\n\n\nThis option will work for two purposes:\n\n- Charge a Setup fee in addition to the membership price: To do this, type the \"Setup Amount\"  and also select at least one of the options 5, 6, 7, and 8.\n\n- Charge only a one-time payment: Leave blank options 5, 6, 7, and 8, and only add the one-time payment amount. For more information about setting this up, read this article: Setting up One Time Payments .\n\n\n### 10. Price to Purchase Leads\n\n\nFor membership plans that will purchase leads, enter the amount members must pay in order to purchase the lead.\n\nIf the membership plan is free, charging for leads is recommended. If it is paid we recommend setting up a cheaper amount or allowing them to receive leads for free.\n\n\n### 11. Successful Sign Up / Upgrade Conversion Tracking Code Widget\n\n\nThere are many 3rd party tools that require placing a tracking code on \"success pages\" in order to track sales, sign-ups, conversions, and more.\n\nIt is possible to place a tracking code for the \"success pages\" into each membership plan or in a specific widget that will apply to all membership plans.\n\nFor more information, see the following article: Adding Affiliate Tracking & Conversion Codes\n\nThe custom widget can be selected from the dropdown:\n\nFor settings (12-17), refer to the main article about the add-on: Free Trial Period Add-On\n\n\n### 12. Enable Free Trial Period\n\n\n\n### 13. Number of Free Trial Days\n\n\n\n### 14. Free Trial Additional Options\n\n\n\n### 15. Enable Free Trial Period for Upgrades/Downgrades\n\n\n\n### 16. Number of Free Trial Days Upgrades/Downgrades\n\n\n\n### 17. Free Trial Additional Options\n\n\n\n## Sign Up Settings\n\n\n\n### 1. Disable Signups For This Membership Plan\n\n\nIf set to \"yes\", no public signup page will exist for this membership plan. This option is useful for an Admin Membership plan that visitors should not sign up for.\n\nIf the account type is set as \"Claim,\" the option will show greyed-out and will be disabled by default.\n\n\n### 2. Sign Up Email Sent\n\n\nThis is the email the members will receive right after they signed up. This email is sent automatically by the system.\n\nBy default, the system will only show 3 master system templates and all custom email templates.\n\n- If the membership plan is Free, select the email template: Welcome- basic - [Action-required] verify your email.\n\n- If the membership plan is Paid, select the email template: Welcome- paid - Welcome to our family\n\n- If administrators manually verify members, select the email template: Welcome- Manual-Review - Welcome to our family\n\nSend Copy of Email to Default Website Email Address: If this setting is checked (Default), the system will send a copy of this email to the owner of the site (Default Website Email Address).\n\nImportant Note: If the Send Copy of Email to Default Website Email Address checkbox setting is checked and if the member clicks on the Resend Verification Email via their member dashboard, the copy of the email will be sent out to the default website email address (each time the button is clicked).\n\nIf this setting is unchecked, only the member will receive this verification email each time the button is clicked.\n\n\n### 3.  After Sign Up, Set Account Status As\n\n\nThis option will determine the status of the members as soon as they sign up.  In the past, this was an Advanced Setting that worked for all membership plans at once, but now, the status can be selected on each membership plan.\n\nThe following three options are available:\n\n- Active Account. This will activate the account immediately after the member signs up making the account publicly visible right away.\n\n- Inactive Account. Requires Email Verification.  This will make sure the account is not active until the email address is verified, once they click on the verify email link, the account will be visible.\n\n- On Hold, Requires Admin Approval. When members sign up, they are going to be on hold and not visible. Member approvals can be managed under » Search Members, then click on Actions » Quick Edit. Change the Account Status to Active Account. The system will ask if the member needs to be notified:\n\nNOTE: The email template sent above is called: user-approved-by-admin.\n\nIt can be found under Emails » Email Templates.\n\nAn article about this setting can be found here: Manually Approve New Member Signups.\n\n\n### 4. Sign Up Page Sidebar\n\n\nThis is the sidebar that will appear on the checkout page, right next to the new member contact information and credit card fields.\n\nNote : Do NOT select any of the default sidebars: Homepage with Map, Lead Page Sidebar, Member Profile Page, Member Search Result, Post Search Result, and Post Single Page.\n\nThese sidebars are not recommended because they contain links, and the members can be redirected to other pages and navigate away from the checkout page. It is better to create a new sidebar for checkout pages.  Make sure that it does not have any links.\n\nAn article about this setting can be found here: How to Add Confidence Boosters to Checkout Sign Up Pages\n\n\n### 5. Sign Up Page Sidebar Position\n\n\nChoose the position of the sign up page sidebar (right or left).\n\n\n### 6. Pre-Select Top Category\n\n\nSelect if a member will have a \"Top Category\" selected when they sign up.\n\nKeep in mind that they can change this selection. However, it will be pre-selected when they see the Contact Details form for the first time.\n\nRefer to the image below to see where the pre-selection will be located.\n\n\n### 7. Pre-select Listing Type\n\n\nSelect if a member will have a \"Listing Type\" selected when they sign up.\n\nKeep in mind that they can change this selection. However, it will be pre-selected when they see the Contact Details form for the first time.\n\n\n### 8. Redirect Page After Sign Up\n\n\nThis is the web page members are redirected to after they Sign Up.\n\nDefault: /account/home\n\n\n### 9.  Redirect Page After Login\n\n\nThe default option is: /account/home. Changing the default link is not recommended, it could cause issues when members try to log in.\n\n\n### 10. Show Order Summary on Signup Form\n\n\nChoose whether the order summary will display or not. Also, select on which side of the order summary the promo input will display (only with the Easy Coupon Codes Add-on ). The order summary will display the tax information only if the VAT and Tax Manager Add-on is enabled.\n\n\n### 11.  Member Sign up Page URL\n\n\nBy default, the signup URL uses the membership plan ID, which is a number. With this setting, change the default URL to a custom URL.\n\nImportant Note: The wording \" upgrade \" is a reserved word and can't be used as a signup page URL.\n\n\n### 12.  Sign Up Form\n\n\nSelect the form new members use to sign up for this plan. Only forms that suit the plan are listed, so a plan cannot be pointed at a form that would break its checkout page. A form is only offered as an option if its name starts with \"Member - Sign Up\".\n\n- Paid plan: Only forms that collect payment are listed. On a site that uses an external payment gateway (for example PayFast), only external-gateway forms are listed. On other sites, only the forms with a credit card field are listed.\n\n- Free plan: Only forms without any payment area are listed.\n\n- Claim plan: Every form is listed and the field is locked, because public sign ups are disabled for Claim plans.\n\nThe list updates as soon as the Account Type is changed, before the plan is saved. A new membership plan starts as a Paid plan, so its list starts with the paid forms.\n\nIf the plan already has a form saved that does not suit it (for example, a free sign up form saved on a paid plan), that form stays selected and is labeled \" (not recommended for this plan) \". The saved form is never changed automatically. To fix the plan, select a suitable form and click Save Changes.\n\nFor settings (13-17), refer to the main article about the add-on: Member Credits System\n\n\n### 13.  Display Available Credits Inside Member's Dashboard?\n\n\n\n### 14.  Reward Credits to Assign After Sign Up:\n\n\n\n### 15.  Reward Credits After Successful Membership Plan Change:\n\n\n\n### 16.  Assign Referral Credits to Members Who Refer New Sign Ups:\n\n\n\n### 17.  Credits Assigned to Referring Member:\n\n\n\n## Change Plan - Upgrade/Downgrade Settings\n\n\nFor more information about this functionality, please see this article: How to Set up Upgrade/Downgrade Options for Membership Plans\n\n\n### 1. Upgrade Email Sent\n\n\nSelect the email template sent after a member upgrades to this membership plan\n\n\n### 2. After Upgrading To This Plan, Set Account Status As\n\n\nSet the status of the profile after upgrading; these are the 4 options:\n\n1. Active Account\n\n2. Inactive Account\n\n3. Same Status Before Upgrading\n\n4. On Hold, Requires Admin Approval\n\n\n### 3. Show Order Summary on Upgrade Form\n\n\nIf YES, the upgrade page will show the order summary and the Coupon Code field:\n\n\n### 4. Select Upgrade/Downgrade Options\n\n\nChoose the membership plans that the members can upgrade or downgrade to.\n\n\n### 5. Upgrade Page Header Content\n\n\nAdd content to display in the header of the upgrade page.\n\n\n### 6. Description Why Members Should Upgrade to This Plan\n\n\nExplain why the members should upgrade to this membership plan.\n\nFor details about the upgrade/downgrade settings, review this article: How To Setup Upgrade/Downgrade Options Inside Membership Plans\n\nFor instructions on setting up a free membership plan, see the following documentation.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093126401/original/HXw6HGJjegAjCAxevDsp_qrxobRs7zsehA.png?1621957736",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184537963/original/JPR_CtjTKHiEjE29SPQVil_Al2FcTEDmmQ.png?1788291231",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093126301/original/n3i_sMFvmdOOQ6CHyNtb0OeS8qGnZgAAIQ.png?1621957652",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12040127085/original/7KCyoUN7UhZy_Hcgy_UlfJC4QHJBLKO8oA?1536019806",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086346146/original/we6Jk4moj4A4XplipngaTMOnT_Wd_qycYw.png?1608047497",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185972654/original/KcxBnX1HtPk-KzfYM6DfOPMh0W2J50mbKQ.png?1790704157",
+      "alt": "Sign Up Settings section of the membership plan with the settings numbered 1 to 17",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Membership Plans - Sign Ups & Upgrades' (Finance > Membership Plans): Sign Up Settings section of the membership plan with the settings numbered 1 to 17",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121995333/original/syUFp42kLqjPt2qnxnzmeXzatMjbyUKYJQ.jpeg?1677695014",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12106962210/original/_7jGih6aQStaDUiiB_4OgbsnQuHEJuD9zw.png?1648581490",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088884182/original/XKC1fqZ0T0k7XXAWFgCgXIrnRcH6U2zE2Q.png?1613488411",
+      "alt": null,
+      "caption": "Context: The following three options are available:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'. Context: Context: The following three options are available:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165149774/original/gPld4pfvhqzWxR7-uN385MpT4PYBsgTmww.png?1753970082",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12165151970/original/7cLSU_8K3krzuLKjdmXIYHWXiFJ1Ke1nAA.png?1753972229",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans - Sign Ups & Upgrades' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048891",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048891"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000028644"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000028644"
+    },
+    {
+      "text": "Claimable Business Listings",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000028644"
+    },
+    {
+      "text": "claim listing add-on",
+      "url": "https://www.brilliantdirectories.com/claimable-business-listings-add-on"
+    },
+    {
+      "text": "Vip Add-ons",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Claim Listings In-Depth - Add-on",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028644"
+    },
+    {
+      "text": "Setting up Free Membership Plan",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046487"
+    },
+    {
+      "text": "on-site payment gateways",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000082007"
+    },
+    {
+      "text": "Setting up Recurring Payments",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046485"
+    },
+    {
+      "text": "Settings » General Settings » Localization",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042159"
+    },
+    {
+      "text": "Setting up One Time Payments",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043478"
+    },
+    {
+      "text": "Adding Affiliate Tracking & Conversion Codes",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009295"
+    },
+    {
+      "text": "Free Trial Period Add-On",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046572"
+    },
+    {
+      "text": "Manually Approve New Member Signups.",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000010781"
+    },
+    {
+      "text": "How to Add Confidence Boosters to Checkout Sign Up Pages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048091"
+    },
+    {
+      "text": "Easy Coupon Codes Add-on",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032881"
+    },
+    {
+      "text": "VAT and Tax Manager Add-on",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076725"
+    },
+    {
+      "text": "Member Credits System",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000086306-member-credits-system"
+    },
+    {
+      "text": "How to Set up Upgrade/Downgrade Options for Membership Plans",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000008978-how-to-setup-upgrade-downgrade-options-for-membership-plans"
+    },
+    {
+      "text": "How To Setup Upgrade/Downgrade Options Inside Membership Plans",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008978"
+    }
+  ],
+  "lastmod": "2026-09-29T23:19:57+05:30",
+  "scraped_at": "2026-10-18T13:43:39.942810"
+}

@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108081",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108081-api-reference-messages",
+  "title": "API Reference - Messages",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Messages"
+  ],
+  "content": "## API Reference - Messages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108081\n\n← Back to API Reference | Getting Started Messages Messages are internal communications between site visitors or administrators. They can be associated with a member account or a lead, and support threading via the parent_id field. Messages are used by contact forms, inquiry systems, and direct admin messaging. Model name in URL: messages — DB table: messages The Message Object Field Type Description id integer Unique message ID (primary key, read-only) user_id integer ID of the member associated with this message name string Display name of the message sender subject text Message subject line date string Date the message was sent (format: YYYYMMDDHHmmss ) body text Full message body content status integer Read status: 1 unread, 0 read type string Message type identifier (EG contact , inquiry ) lead_id integer Associated lead ID ( 0 if not linked to a lead) recipient string Recipient type: member or admin token string Unique message token for reference parent_id integer ID of parent message for threaded replies ( 0 for top-level) List Messages GET /api/v2/messages/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/messages/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"1\",\n      \"user_id\": \"42\",\n      \"name\": \"John Smith\",\n      \"subject\": \"Inquiry about membership\",\n      \"date\": \"20240301120000\",\n      \"body\": \"Hello, I would like more information about your services.\",\n      \"status\": \"1\",\n      \"type\": \"contact\",\n      \"lead_id\": \"0\",\n      \"recipient\": \"admin\",\n      \"token\": \"abc123def456\",\n      \"parent_id\": \"0\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Retrieve a Message GET /api/v2/messages/get/{id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/messages/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"1\",\n      \"user_id\": \"42\",\n      \"name\": \"John Smith\",\n      \"subject\": \"Inquiry about membership\",\n      \"date\": \"20240301120000\",\n      \"body\": \"Hello, I would like more information about your services.\",\n      \"status\": \"1\",\n      \"type\": \"contact\",\n      \"lead_id\": \"0\",\n      \"recipient\": \"admin\",\n      \"token\": \"abc123def456\",\n      \"parent_id\": \"0\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Message POST /api/v2/messages/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/messages/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"user_id=42\" \\\n  -d \"name=John+Smith\" \\\n  -d \"subject=Inquiry+about+membership\" \\\n  -d \"date=20240301120000\" \\\n  -d \"body=Hello%2C+I+would+like+more+information+about+your+services.\" \\\n  -d \"status=1\" \\\n  -d \"type=contact\" \\\n  -d \"recipient=admin\" \\\n  -d \"token=abc123def456\" \\\n  -d \"lead_id=0\" \\\n  -d \"parent_id=0\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"2\",\n    \"user_id\": \"42\",\n    \"name\": \"John Smith\",\n    \"subject\": \"Inquiry about membership\",\n    \"date\": \"20240301120000\",\n    \"body\": \"Hello, I would like more information about your services.\",\n    \"status\": \"1\",\n    \"type\": \"contact\",\n    \"lead_id\": \"0\",\n    \"recipient\": \"admin\",\n    \"token\": \"abc123def456\",\n    \"parent_id\": \"0\"\n  }\n} Update a Message PUT /api/v2/messages/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/messages/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=2\" \\\n  -d \"status=0\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"2\",\n    \"user_id\": \"42\",\n    \"name\": \"John Smith\",\n    \"subject\": \"Inquiry about membership\",\n    \"date\": \"20240301120000\",\n    \"body\": \"Hello, I would like more information about your services.\",\n    \"status\": \"0\",\n    \"type\": \"contact\",\n    \"lead_id\": \"0\",\n    \"recipient\": \"admin\",\n    \"token\": \"abc123def456\",\n    \"parent_id\": \"0\"\n  }\n} Delete a Message DELETE /api/v2/messages/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/messages/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=2\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"messages record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108081",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108081"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:45+05:30",
+  "scraped_at": "2026-10-18T13:57:58.052205"
+}

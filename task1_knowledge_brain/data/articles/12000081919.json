@@ -1,0 +1,23 @@
+{
+  "article_id": "12000081919",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081919-09-03-21-software-updates",
+  "title": "09/03/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/03/21 - Software Updates"
+  ],
+  "content": "## 09/03/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000081919\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the logic of the Member Reviews module to not consider \"0 star\" reviews when calculating the average review score for a member.\n\n- We fixed an issue which was causing the system to display an empty space at the bottom of the homepage of sites that are using the Homepage Clickable Maps Add-On in some cases.\n\n- We updated the Default Website Language setting in order to include Dutch as one of the options.\n\n- We fixed an issue which was preventing the system from displaying the hero section and custom content when the page is set as the \" Post Search Results\" page type and \"Only Apply to Main Page\" is selected.\n\n- We fixed an issue which was causing custom \"visitor-lead-accepted\" email templates to reference the lead's name instead of the member's name as intended.\n\n- We fixed an issue with the image caption feature in Froala WYSIWYG editors which was allowing users to edit image captions on the frontend of sites on Chromium web browsers.\n\n- We fixed an issue that was causing the system to hide custom \"member_first_name\" fields on /checkout pages when a Free Trial is enabled for the Membership Plan and it is set to not collect credit card details for the free trial.\n\n- We updated the validation logic of the Form Manager in order to ensure there are not multiple fields with the same \"Database Variable\" value when creating and editing forms.\n\n- We moved the Members-Only settings for the Listings Post Type from the \"Edit Post settings\" area to the Membership Plan Settings. This will allow the owner of a site to have more control over which specific members' data should be treated as \"Members Only\".  To use these new settings navigate to the Admin >> Finance >> Membership Plans >> Edit >> Search Visibility tab. Widget Involved: Bootstrap Theme - Member Profile Bootstrap Theme - Member Profile - Submit Review Bootstrap Theme - Member Profile - Contact Page Bootstrap Theme - Display - Members Only Message\n\n- We updated the logic of the Menu Manager in order to speed up the process of saving menus.\n\n- The Member Reviews module is now compatible with the Predictive Keyword Search Add-On.\n\n- We fixed an issue which was affecting the ability to display the dropdown values on Post Detail pages , causing the system to display variable names instead of the corresponding label in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000081919",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081919"
+    }
+  ],
+  "lastmod": "2021-09-06T21:32:37+05:30",
+  "scraped_at": "2026-10-18T13:48:54.218971"
+}

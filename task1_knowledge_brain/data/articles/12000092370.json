@@ -1,0 +1,23 @@
+{
+  "article_id": "12000092370",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092370-02-24-2023-software-updates",
+  "title": "02/24/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/24/2023 - Software Updates"
+  ],
+  "content": "## 02/24/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000092370\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the tooltip text on the Webhooks page in the Admin.\n\n- We updated the Restore Backup functionality on the Design Settings page in the Admin to make it process more quickly.\n\n- The Recent Members and Featured Members homepage widgets are now compatible with the \"Hide Parent Account Sub-Account\" Membership Plan setting. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We fixed an issue which was preventing newsletters to continue to send the next day after the daily limit had been reached for the day in some cases.\n\n- The member sub and sub-sub category selection widget used in Member Dashboard forms is now compatible with the \"Required Field?\" form field setting. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We fixed an issue which was causing the system to validate a form field as required even though the form field was not set to be required in some cases.\n\n- We updated the keyword filter fields on several pages in the Admin to remove any whitespace at the beginning or at the end of the entered keywords to prevent searches from not returning results as expected.\n\n- We fixed an issue which was preventing the Web Page Builder URL validation from working properly in some cases when creating a new web page.\n\n- The action of creating a new member via API is now compatible with the \"Reward Credits to Assign After Sign Up\" Membership Plan setting.\n\n- We added the ability to support \"0.00\" values in \"Price\" form fields. Widget Involved: Bootstrap Theme - Group Post Form Patch\n\n- We updated the Currency Prefix and Currency Suffix fields in the General Settings in the Admin to allow saving blank values.\n\n- We fixed an issue which was preventing videos from Youtube from being embedded on sites when the \"Enable HTTP Security Headers (CSP)\" Advanced Setting was enabled in some cases. Widget Involved: Bootstrap Theme - Function - CSP Headers\n\n- We fixed an issue which was preventing members from being manually matched to leads in the Admin in some cases.\n\n- We fixed an issue which was preventing some SEO Templates from being customized in the Admin in some cases.\n\n- We created a new Post Type Setting called \"Display Expired Posts in Search Results\".  When this setting is enabled, the posts that are currently expired will appear in search results if a user searches for a date range in which the posts were not expired. Widgets Involved: Search - Group - Search Query Search - Post - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000092370",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000092370"
+    }
+  ],
+  "lastmod": "2023-02-27T22:50:52+05:30",
+  "scraped_at": "2026-10-18T13:50:46.180504"
+}

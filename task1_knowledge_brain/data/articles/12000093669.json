@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093669",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093669-changelog-october-2017",
+  "title": "Changelog - October 2017",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - October 2017"
+  ],
+  "content": "## Changelog - October 2017\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093669\n\nNew Features:\n\n- We added new functionality to the \"Admin Account\" Page in the Admin area. Now the system tracks the IP from which an Admin logged in most recently.\n\n- Website Admins can now see the current version of the software being used on their website in the upper-right portion of the Admin Area.  The current version is \"Bootstrap Theme Framework v.4.0\"\n\n- We updated the Domain Manager Page in the Site Admin in order to support special characters in the domain by automatically converting it to punycode format.\n\n- We added a new module to the Member Dashboard area called Add Content .  This module allows members to publish content with just one click, rather than navigating to the current location in the sidebar. To activate this new module, navigate to the Admin Area >> Finance >> Manage Products >> Click on the Edit Button of the Product, navigate to the Additional Settings tab and search for the Show Add Content in Dashboard setting\n\nEnhancements / Fixes:\n\n- We made an improvement in the Member Cancellation Request Module: now Admins can see cancellation requests submitted by members in the Form Inquiry Module (where other contact form submissions display in the Admin). Also, on the Search Members page, all members who have requested to cancel will be highlighted in red.\n\n- Now the Reviews Information and the member distance will be included on the Insta-Load Search Results. Also we fixed an issue that was affecting the Insta-Load Add- On on the Reviews Page.\n\n- We released a Update for the Add-On Module which improves the loading speed of Add-Ons and reduces server load.\n\n- The issue that was displaying the erroneous currency symbol on member signup pages has been resolved.\n\n- We fixed some minor issues that were affecting the behavior of the Payment Gateways Page in the Site Admin.\n\n- We fixed some minor issues that were affecting the behavior of the Transaction History Page in the Site Admin.\n\n- Bug fixes to the Leads Module, Reviews Module, Google Location System, Add-on Manager System, and Member System.\n\n- In all, more than 25 bugs were fixed throughout the software.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093669",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093669"
+    }
+  ],
+  "lastmod": "2023-05-09T04:18:13+05:30",
+  "scraped_at": "2026-10-18T13:51:19.943591"
+}

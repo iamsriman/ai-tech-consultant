@@ -1,0 +1,27 @@
+{
+  "article_id": "12000076828",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076828-01-08-21-software-updates",
+  "title": "01/08/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/08/21 - Software Updates"
+  ],
+  "content": "## 01/08/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076828\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing dropdowns in the form from working properly when creating a new Membership Plan in some cases.\n\n- The \"My Saved Member\" text on the Member Dashboard is now a Text Label. Widget Involved: Bootstrap Theme - Account - Sidebar Text Label Involved: my_saved_members\n\n- We implemented a security update for the Insta-Load Search Results Add-On to prevent SQL injections. Widget Involved: Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Member Profile - Member Tabs lazyLoad Bootstrap Theme - Pagination\n\n- We updated the Form Manager to support HTML entities in the \"Separate Option with Commas\" field when editing a checkbox field in a form.\n\n- We released the Tax and VAT Manager Add-On, click here for more information.\n\n- The Predictive Keyword Search Add-On is now compatible with the \"Hide Parent Account\" Membership Plan setting.\n\n- We updated the display of Billing Transaction data on the Activity Tracker page in the Admin.\n\n- We created a new Post setting called \"Enable Results for Global Website Search\". This setting will control whether or not the post type will be included in the results of searches using the Global Website Search Add-On.\n\n- The \"Go Back to Parent Account\" text shown when logged in as a Sub-Account is now a Text Label. Widget Involved: Bootstrap Theme - Account - Sidebar Text Label Involved: back_to_parent_account\n\n- The Reviews datatable in the Member Dashboard is now compatible with Text Labels. Widget Involved: Bootstrap Theme - Account - Reviews Datatable\n\n- We updated the Multi-Location Listing Add-On in order to show an alert notification when the member reaches the limit set for the \"Max. Location Limit\" Membership Plan setting. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue which was causing the system to save default latitude and longitude data for a member even when they have not entered any location information for their profile.\n\n- We now display a \"Custom Widget Page\" tag on pages in the Web Page Builder that have been set as \"Custom Widget Web Page\".\n\n- We fixed an issue which was preventing Admins from sending an email using the \"Compose Email\" feature if the email address contained a special character in some cases.\n\n- We fixed an issue which was causing the system to allow one additional lead to be submitted than the number specified in the \"Maximum Lead Inquiries per Day\" Leads Setting. Bootstrap Theme - Function - Save Form\n\n- We created a new Advanced Setting called \"Froala Plain Paste\". When this is enabled the Froala WYSIWYG will strip all of the rich formatting from content pasted from external sources. Widget Involved: Form - Froala Editor Javascript\n\n- Using the \"Invite Admin via Email\" action in the Admin is now being logged in the Activity Tracker.\n\n- The Reset Password Form is now compatible with Text Labels.\n\n- We created a new Advanced Setting called \"Hide Search Results Header and Footer When No Results\" in order to hide the Header and Footer on search results pages when there are no results. Widgets Involved: Bootstrap Theme - Member Results Bootstrap Theme - Single Post Page\n\n- We fixed an issue which was preventing the Import Members feature from importing the Top Category of the members in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076828",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076828"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/tax-vat-manager"
+    }
+  ],
+  "lastmod": "2021-01-11T19:55:49+05:30",
+  "scraped_at": "2026-10-18T13:47:39.334955"
+}

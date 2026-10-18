@@ -1,0 +1,131 @@
+{
+  "article_id": "12000009392",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009392-how-to-match-a-lead-member-contact-form",
+  "title": "How to Match a Lead » Member Contact Form",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "How to Match a Lead » Member Contact Form"
+  ],
+  "content": "## How to Match a Lead » Member Contact Form\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000009392\n\nIf the website is set to automatically send leads when a member is contacted directly there is no further action required unless the lead will also be sent out to additional members. Access this setting in \" Lead Settings \". If \" Receiving Direct Leads \" is set to \" No \", the admin will be required to manually \" Match \" the lead to the member that is to receive this inquiry. » Automatic Lead Matching Documentation ---------------- To match a lead navigate to Interactions » Member Leads in the Admin. Sort through any \" Pending \" leads inside the Admin: To confirm the source, use the Origin Page field: * By clicking on the link following \"Origin Page\" it will redirect to the profile page of the member that was contacted.* If the member that was contacted does not match the right criteria for the lead, change the Match of that particular lead within the \" Actions \" drop-down menu: The following fields make it easy to search for other members by: Top Level Category Sub Level Category Sub-sub Level Category Name/Company Location Suggested Matches If the \" Automatic Lead Matching \" add-on is active, the system will automatically match members. However, if the add-on is deactivated, the admin must manually match leads. When a lead requires manual matching, the system will prioritize and display at the top of the list the member whose profile the lead was submitted to. For example, if the lead came from John Smith's profile, he will appear first in the \"Suggested Matches\" results: To change the status of the lead to accepted, scroll to the bottom, in the \" Status \" drop-down, the available options are shown: To match the lead scroll down to the members list, and select the \" Match \" action from the drop-down: When matching the \" Suggested Matches \" with the lead our recommendation is to always select \" Send Custom Preview Email and set as Pending \". Sending the complete email will provide the email and phone number in the email itself, giving the members no reason to interact with the website. There is also the option to match these suggested members with the bulk actions. Click on the first checkbox to select all members, or checkmark each member : Once all of the members that should be matched are selected, scroll down and click Match Leads: To match all selected members click on Yes, continue:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179416681/original/35LdHZqeEIojXbGlLwa-jvfYRBBvI0lZ_Q.png?1779817751",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179416712/original/rB97_1THEWSlNN_eQHSMl8TLeOGsNBdQ8w.png?1779817768",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179416743/original/t8zewgOn8UEPHnOdoFx55MWuSYjaz6yiPw.png?1779817802",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092389237/original/hMTm8-jZy8bWDKEhftS5lGaWRhud5-x55Q.png?1620589020",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149244498/original/NtMOLLgSp9EIEzWSsJiVTGlDLw20DmNOFQ.png?1725987736",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085075099/original/I6lfucE3Ku5QXF2O2LzCoCAQEXfHbJfV-w.png?1605587815",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12085075101/original/6g3A5jglCNpGwv08h19FaOBQQwAP0cGIlw.png?1605587819",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12142294208/original/SQzr9qcJI1LjurCqszjY3o2pBpdhFfjK6Q.png?1714057189",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12142294327/original/VQ3rmJ4yIeIR9qAxC5IiEA36D3Abdul4qA.png?1714057240",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12116336235/original/Ur7H_kms-KS46qkwe42exRjiQfaB-35X5g.png?1666641471",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12118606437/original/dRBZPBBBKebvOn1mT4nVHkderHmhVQ_6fw.png?1671058371",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Match a Lead » Member Contact Form' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000009392",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009392"
+    },
+    {
+      "text": "Automatic Lead Matching Documentation",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/folders/12000002580"
+    },
+    {
+      "text": "Automatic Lead Matching",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000007994"
+    }
+  ],
+  "lastmod": "2026-05-26T23:20:52+05:30",
+  "scraped_at": "2026-10-18T13:40:14.272769"
+}

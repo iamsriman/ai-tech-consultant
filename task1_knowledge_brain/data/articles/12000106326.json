@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106326",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106326-10-10-2025-software-updates",
+  "title": "10/10/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/10/2025 - Software Updates"
+  ],
+  "content": "## 10/10/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106326\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that caused public form submissions to get stuck on the \"Processing Request...\" message in some cases. Widget Involved: Bootstrap Theme - Function - Form\n\n- Added the Item Schema List for Single Image Posts, Multi-Photo Posts, Reviews, and Member Search Result pages on the frontend. Widget Involved: Bootstrap Theme - Member Results Bootstrap Theme - Single Post Page Post Type Involved: Articles Coupons Blog Articles Videos Job Listings Events Audio Files Discussions Reviews Properties Products Classifieds Photo Albums Digital Products Member Listings\n\n- Added new Design Settings called \"Menu Font Weight\" and \"Dropdown Font Weight\" to control the font weight of the main menu and dropdown menu items on the frontend. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- The Referral Input form field on checkout pages is now compatible with the \"Required Field?\" form field setting. Widget Involved: Bootstrap Theme - Form - Referral Input\n\n- Added the \"System Name\" of menus next to the \"Menu Name\" in the dropdown values for the \"Public Visitor Main Menu\" and \"Logged-In Member Main Menu\" Design Settings in the Admin.\n\n- Fixed an issue that affected the display of the Member Upgrade page on the Member Dashboard when using mobile devices. Widget Involved: Bootstrap Theme - Account - Upgrade Page 1\n\n- Fixed an issue that was causing the system to display the the \"Showing 1 to 47 of 47 entries\" info twice on the SEO Templates page in the Admin.\n\n- Updated the text that displays in the modal when purchasing Pay Per Post in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Manage Digital Products\n\n- Updated the General Settings dropdowns to display \"(Default)\" for the default value of each setting.\n\n- Created a new Membership Plan setting called \"Verify Listing\" to control the display of the Verified Member Link on the Member Dashboard. The previous \"Verify Listing\" Advanced Setting has been deprecated. Widget Involved: Bootstrap Theme - Account - Member Dashboard\n\n- Added new search filters and sort options to the Web Page Builder page in the Admin.\n\n- Added new Design Settings for the Discussions Recent Widget: \"Enable Carousel Slider?\" and \"Hide on Mobile\" These settings allow enabling the carousel slider and hiding the section on mobile devices for the \"Recent Discussions\" homepage section. Widget Involved: Bootstrap Theme - Display - Recent Discussions\n\n- Added the ability to sort the content of the Top and Sub Categories Recent Homepage sections by category ID. Widgets Involved: Bootstrap Theme - Display - Sub Level Categories Bootstrap Theme - Display - Top Categories\n\n- The \"Donation Payment Type\" module on the Digital Products Details page is now compatible with Text Labels.\n\n- Updated the \"Default Member Search URL\" validation setting on the General Settings page in the Admin.\n\n- Updated the \"Include Website Logo\" Email Template setting to \"Include Default Template w/Logo\". Added options to display the website logo at the Top, Center, Right, or choose to send emails with no template or logo.\n\n- Added Omani (OMR) currency as a supported Website Currency.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106326",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106326"
+    }
+  ],
+  "lastmod": "2025-10-13T01:15:47+05:30",
+  "scraped_at": "2026-10-18T13:56:45.715161"
+}

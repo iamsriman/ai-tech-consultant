@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109081",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109081-remap-api-permissions-to-new-v2-slugs-dashboard-installer",
+  "title": "Remap API Permissions to new v2 slugs - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Remap API Permissions to new v2 slugs - Dashboard Installer"
+  ],
+  "content": "## Remap API Permissions to new v2 slugs - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109081\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Remap API Permissions to new v2 slugs Does\n\n\nThis installer updates saved API permission records so they point at the current v2 API endpoint names. Several endpoints were renamed, and this installer rewrites the stored endpoint paths from the old names to the new ones. It only rewrites the endpoint path on each permission row; the per-row allow and deny decisions are preserved.\n\nIt works on the bd_api_key_permissions table and remaps these four endpoint path prefixes:\n\n- /api/v2/category/ becomes /api/v2/list_professions/\n\n- /api/v2/business_data_task/ becomes /api/v2/business_data_api_task/\n\n- /api/v2/forms/ becomes /api/v2/form/\n\n- /api/v2/tags_data/ becomes /api/v2/tags/\n\nIf the site does not have the bd_api_key_permissions table, the installer has nothing to migrate and skips.\n\n\n## Why It Appears\n\n\nThe installer counts the permission rows whose endpoint_path still starts with one of the four old prefixes above (it calls these orphan rows). It appears whenever that count is greater than zero, meaning at least one saved API permission still references a legacy endpoint name. If the table does not exist, or no rows reference the old slugs, the installer does not appear.\n\nThis is a legacy condition tied to API keys configured before the endpoints were renamed. Seeing it does not mean anything is broken; it means one or more of the site's API permission rows still uses the old endpoint names.\n\n\n## Why It Matters\n\n\nAPI permissions are matched by endpoint path. When an endpoint is renamed, a permission row still pointing at the old path no longer lines up with the live endpoint, so the allow or deny decision on that row may not apply as intended. Remapping the paths keeps the existing permission decisions attached to the correct, current endpoints. Skipping the installer leaves those rows referencing endpoint names that no longer exist.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Remap API Permissions to new v2 slugs appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once no rows reference the old slugs.\n\nIf Remap API Permissions to new v2 slugs does not appear in the list, the website is already up to date, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The API keys and their allow and deny settings are preserved; only the endpoint path recorded on each affected permission row is updated to the new name. The installer reports how many rows it migrated, broken down by each old-to-new prefix.\n\nThe installer re-counts the orphan rows before running and remaps only the rows that still reference the old slugs, so it is safe to run even if part of the update was already applied earlier. If no orphan rows remain, it reports that the migration was already applied and makes no changes.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109081",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109081"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:44+05:30",
+  "scraped_at": "2026-10-18T13:59:32.348418"
+}

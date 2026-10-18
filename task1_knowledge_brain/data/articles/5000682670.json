@@ -1,0 +1,76 @@
+{
+  "article_id": "5000682670",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682670-how-to-edit-change-default-language-of-websites",
+  "title": "How To Edit/Change Default Language of Websites",
+  "category": "My Content",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Additional Tips & Tutorials",
+    "How To Edit/Change Default Language of Websites"
+  ],
+  "content": "## How To Edit/Change Default Language of Websites\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682670\n\n\n## Utilizing the Google Website Translator Add-On\n\n\nPlease note that for multi-lingual websites, we recommend using the \" Google Website Translator \" add-on. This tool allows visitors to seamlessly switch between different languages, providing a more user-friendly experience.\n\n\n## Changing the Language via the Localization Settings\n\n\nWhen changing the Default Website Language under Settings » General Settings » Localization , if the Use same language for text labels and email templates option is checked, the system will automatically translate all the text labels and the email templates on the site to the selected language.\n\nNote : Changing the default language does not automatically translate every element on the website. Some content will require manual updates. For more details, refer to the section below.\n\n\n## Manually Updating Untranslated Elements\n\n\nWhile the system automates many translations like text labels and email templates, certain parts of the website—such as menus and post types must be updated manually. Below, we will go over the key areas that require manual translation and the best practices for ensuring a consistent multilingual experience.\n\n\n### Edit Language via Menu Manager\n\n\nThere are a few wordings on the site that can be edited via Toolbox >> Menu Manager:\n\nTo learn more information regarding what these default menus are and how to customize them, please refer to the article below:\n\nMenu Manager Overview\n\n\n### Edit Language via Post Settings\n\n\nEditing the names, URLs, H1 and H2s, and the categories of the Posts Types such as coupons, videos, photos, articles and more can be done through the My Content >> Edit Post Settings:\n\nTo learn more information on how to make these edits, refer to the article below:\n\nEdit Post Settings Overview",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156828618/original/w918ejBtPt_pxrrdBUIwXP_q4w-2t3i-_g.png?1739319365",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit/Change Default Language of Websites' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156800083/original/s1XEN3ldpp4OpivZF3NZWe5ZD3T2bDt0jw.png?1739290799",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit/Change Default Language of Websites' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171374544/original/kcubuRK1C3FedVvaOn78q0CHcOwZ7lSJxw.png?1764711375",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit/Change Default Language of Websites' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171374624/original/1WDn9mNjjofWlYAkFNWOJr-GnpDBoAvoBQ.png?1764711442",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Edit/Change Default Language of Websites' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682670",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682670"
+    },
+    {
+      "text": "Google Website Translator",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000044521"
+    },
+    {
+      "text": "Settings » General Settings » Localization",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000042159"
+    },
+    {
+      "text": "Menu Manager Overview",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000034716"
+    },
+    {
+      "text": "Edit Post Settings Overview",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000053202"
+    }
+  ],
+  "lastmod": "2025-12-03T03:16:40+05:30",
+  "scraped_at": "2026-10-18T13:39:11.150218"
+}

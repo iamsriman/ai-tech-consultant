@@ -1,0 +1,95 @@
+{
+  "article_id": "12000093352",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093352-manually-embed-google-analytics-4-code-advanced-method-",
+  "title": "Manually Embed Google Analytics 4 Code  (advanced method)",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Manually Embed Google Analytics 4 Code  (advanced method)"
+  ],
+  "content": "## Manually Embed Google Analytics 4 Code  (advanced method)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093352\n\n```\nImportant Notice: If you have already pasted your Google Analytics 4 ID into the General Settings of your website (recommended method), no further action is required and the steps in this article DO NOT need to be followed. Installing Google Analytics Tracking Code (easy method)\n```\n\nInside Google Analytics 4 Admin settings, copy the code in the \"INSTALL MANUALLY\" section.\n\nThis code would then be pasted inside Settings > Design Settings > Custom HEAD/CSS > Additional HEAD :\n\nThis would complete the process and the data would then be sent over to Google.\n\nHowever this is an outdated method of adding Google Analytics and we recommend removing this code and adding the Measurement ID into the new GA4 field inside the Integrations tab of the General Settings.\n\nInstalling Google Analytics Tracking Code (easy method)\n\nTo add the ID go to:\n\nSettings > General Settings > Integrations > Google Analytics ID",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127383590/original/1bKyk7LJD-mfucf6sydCOY8MjwC8XTThMg.png?1687546404",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Embed Google Analytics 4 Code  (advanced method)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127383362/original/B9gJx0vQl_oDeegYpok12JhXRtIWu6LhUw.png?1687546117",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Embed Google Analytics 4 Code  (advanced method)' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127322760/original/_L5x7mpwcvbA0nKGm7kAwWdhDOKIx44lUg.png?1687453442",
+      "alt": null,
+      "caption": "Context: Settings > General Settings > Integrations > Google Analytics ID",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Manually Embed Google Analytics 4 Code  (advanced method)' in section 'Settings' / 'General Settings'. Context: Context: Settings > General Settings > Integrations > Google Analytics ID",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093352",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093352"
+    },
+    {
+      "text": "Installing Google Analytics Tracking Code (easy method)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682660"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078670"
+    },
+    {
+      "text": "Installing Google Analytics Tracking Code (easy method)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682660"
+    }
+  ],
+  "lastmod": "2023-07-14T03:21:36+05:30",
+  "scraped_at": "2026-10-18T13:50:56.140628"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000097879",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097879-01-12-2024-software-updates",
+  "title": "01/12/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/12/2024 - Software Updates"
+  ],
+  "content": "## 01/12/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097879\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Events RSS Feed from displaying the most recent events when the RSS Feed for Post Add-On is active in some cases.\n\n- We fixed an issue which was preventing the \"Banner - 728_15\" widget from adding the proper padding underneath the widget when displayed on the frontend in some cases. Widget Involved: Bootstrap Theme - Banner - 728_15\n\n- We fixed an issue which was affecting the ability to display the Form Preview from the Admin area when the Stock Photo Library Add-On is active in some cases.\n\n- The \"Back To Dashboard\" Text when visiting the Chat Message page in the Member Dashboard is now a Text Label. Text Label Involved: back_to_dashboard\n\n- We are now including the \"subscription_created_date\" variable in the export file when exporting member data from the Transaction History page in the Admin.\n\n- The actions of \"Invite an Admin Via Email\", \"Accept Admin Invitation\", and \"Remove Admin From Website\" are now being logged in the Activity Tracker.\n\n- We fixed an issue which was preventing the \"Display Expired Post in Search Results\" setting from working properly when visiting Events search results pages in some cases. Widget Involved: Search - Post - Search Query\n\n- We updated the Froala WYSIWYG to the latest version available.\n\n- We fixed an issue which was preventing the Webhook Schedule functionality from working properly in some cases.\n\n- We fixed an issue which was preventing the Search Members page in the Admin from returning accurate results when using the \"Forms Not Submitted\" filter dropdown.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097879",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097879"
+    }
+  ],
+  "lastmod": "2024-01-15T21:20:46+05:30",
+  "scraped_at": "2026-10-18T13:53:23.324882"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000028121",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028121-04-07-17-software-updates",
+  "title": "04/07/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/07/17 - Software Updates"
+  ],
+  "content": "## 04/07/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000028121\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- Fixed a CSS issue that was affecting the Homepage Member Login Form\n\nWidget Involved:\n\nBootstrap Theme - Homepage Search - Member Login Form\n\n- Released a new Sidebar Search Module. The \"Bootstrap Theme - Search Module - Location Search\" widget will make searches based only on location.\n\nWidget Involved:\n\nBootstrap Theme - Search Module - Location Search\n\n- Released the 3rd major update related to the Text Labels Project. With this update, we have achieved 90% conversion of hard coded text to text labels in Default Widgets.  (Too many widgets to list!)\n\n- Released an update to the Member Dashboard Checklist Wizard.  This update fixes the issue of the tabs at the top of the Member Dashboard pages to display strangely on non-standard display resolutions.\n\nWidgets Involved:\n\nBootstrap Theme - Account - Checklist Wizard\n\nBootstrap Theme - Custom Appearance Settings\n\n- We made an update to the Comments section of the Details settings tab for the different Member Post types.  This can now be fully utilized - just add the embedded comments code from the provider of your choice and it will begin displaying in the Comments section of the Details page of all posts of that type.\n\nWidgets Involved:\n\nBootstrap Theme - Photo Album Page\n\nBootstrap Theme - Single Post Page\n\n- Update to the 404 Error handling functionality in order to make it work better with erroneous Member Post URLs.\n\n- The Promo Code Feature is ready to be purchased and installed on all Bootstrap websites using their own payment gateway. Click here for more information.\n\nWidget Involved:\n\nBootstrap Theme - Signup Page Layout - Promo Code Input.\n\n- Fixed an issue with the member login redirect module.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000028121",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028121"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000027986-easy-coupon-codes"
+    }
+  ],
+  "lastmod": "2017-04-08T01:43:41+05:30",
+  "scraped_at": "2026-10-18T13:41:06.140742"
+}

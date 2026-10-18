@@ -1,0 +1,91 @@
+{
+  "article_id": "12000063347",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063347-edit-checkout-pages-translate-billing-country-or-state-fields-dropdown",
+  "title": "Edit Checkout Pages: Translate Billing Country or State Fields Dropdown",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Edit Checkout Pages: Translate Billing Country or State Fields Dropdown"
+  ],
+  "content": "## Edit Checkout Pages: Translate Billing Country or State Fields Dropdown\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000063347\n\n\n## Editing States or Provinces\n\n\nTo edit states or provinces, contact support by clicking here and request that the Advanced Setting ‘Use Custom States / Provinces List’ be enabled.\n\nThe system will use the website's local list of states/provinces in the drop-down menu when this setting is enabled.\n\nThis setting is useful when a custom list of states is required or to translate the states and provinces to a different language. When this is turned on, the admin can modify the states directly in the MySQL Database.\n\n\n## Editing Countries\n\n\nCurrently, the only way to translate country names is through the database.\n\nNote: Contacting support is not required for this process.\n\n\n## Steps to Edit Countries and States / Provinces\n\n\n1. Go to Developer Tools » MySQL Database:\n\n2. Click the \"Directory\" option in the left sidebar. This will open the available tables that are inside the \"Directory\" folder:\n\n3. In the left sidebar, find the table called \" list_countries \" to edit the Countries . And find the table called \" list_states \" to edit States and Provinces .\n\n4. Double-click the country name that needs to be translated (Step 2 below) and press Enter when finished.\n\nChanges are saved automatically.\n\nFor example, to translate a country name into Spanish:\n\nTo go to the next page, click here:\n\nOnce the translation or editing has been completed, close the database and return to the Admin Dashboard » Refresh Live Website.\n\n\n## State Drop-downs\n\n\nIf the \"Country\" field is hidden in the form (for example, in the Checkout or Sign Up pages), the State/Province dropdown will not load any values unless a default country value is defined.\n\nThis happens because the State field is dynamically populated based on the Country field selection . If the country is not selected or preset, the system doesn't know which states to load.\n\nHow to Fix:\n\nFor example, if the state dropdown should show U.S. states, but the Country field is hidden, add the country code as the default value (US) to that field:\n\nYou can do this in the Form Manager:\n\n- Go to Settings > Form Manager .\n\n- Find the Member - Sign Up form (or the form you're editing).\n\n- Locate the country_code field (even if it's hidden).\n\n- Click the Gear icon to open the Field Settings.\n\n- Add US as the Default Value .\n\n- Save the form.\n\nOnce set, the state dropdown will correctly populate with U.S. states even if the Country field is hidden.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092393507/original/shGswcGbBwvUppVPVqMicgS1oLbnAKy6Ow.png?1620610268",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Translate Billing Country or State Fields Dropdown' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105383568/original/ukK30ereDEEoCx8E-2OFV5WfdxlJKZxrMg.png?1645474960",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Translate Billing Country or State Fields Dropdown' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12057538390/original/lZWP1M_RQk9jc3qwuiAGdwftTl4Dds9StQ.png?1569946259",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Translate Billing Country or State Fields Dropdown' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12057538558/original/gV9masTx99ngqnrEQFraodXOdCC4BDnNzQ.png?1569946441",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Translate Billing Country or State Fields Dropdown' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12057538984/original/GvhZkvsF3VSXKo4osRtX7voIs_pP7pPZKg.gif?1569946908",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Translate Billing Country or State Fields Dropdown' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12057538598/original/el59ttVR4wvo4wAzaHyCZCq82j6s3maERw.png?1569946505",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Translate Billing Country or State Fields Dropdown' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162912282/original/q0yvBMnCNjxp7-9RxgB1nZQA5EyFl3lh0Q.png?1750086048",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Translate Billing Country or State Fields Dropdown' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000063347",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063347"
+    },
+    {
+      "text": "clicking here",
+      "url": "https://support.brilliantdirectories.com/support/login"
+    }
+  ],
+  "lastmod": "2026-06-10T21:30:47+05:30",
+  "scraped_at": "2026-10-18T13:45:35.672487"
+}

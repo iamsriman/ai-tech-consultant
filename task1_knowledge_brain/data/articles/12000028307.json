@@ -1,0 +1,146 @@
+{
+  "article_id": "12000028307",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028307-how-to-edit-the-member-listing-post-type",
+  "title": "How to Edit the Member Listing Post Type",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How to Edit the Member Listing Post Type"
+  ],
+  "content": "## How to Edit the Member Listing Post Type\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000028307\n\nThe Member Listings are found under the Post Types but the settings available for the Member Listings differ from the Content Post Types.\n\nMember Listings don't have a Details Page tab - this is because the listings are profiles and not posts. All of the content for the profile is on the Profile Page Design tab.\n\nThere isn't a Categories field because all the member categories are managed in My Members > Member Categories .\n\nThe forms for the listings are selected within the Membership Plans: Membership Plans > Assign Profile Forms .\n\nLastly, the URL for the search results settings is in the General Settings » Search Settings .\n\n\n## Editing Member Listings\n\n\nGo to My Content >> Edit Post Settings >> Find:  Member Listing and click on Edit:\n\nWhen clicking on \"Edit\" for the Member Listing Post Type, there are 3 available tabs with different settings:\n\n- General Settings\n\n- Profile Page Design\n\n- Search Results Design\n\n\n## General Settings Tab\n\n\n\n### 1. Member-Only Access\n\n\nThis option will only become available if the Members-Only Content add-on is active on the site.\n\n\n### 2. Type of Post\n\n\nThis option controls from which post type the system will take the data to show the proper results. It is not recommended to change this setting because this may stop the feature from working properly.\n\n\n### 3. Display Map When Entering Location Information?\n\n\nThis option controls if the Map is visible under the Contact Details form when members enter their information.\n\n\n### 4. Enable Results for Global Website Search:\n\n\nGlobal Website Search add-on required.\n\n\n## Profile Page Design Tab\n\n\nMove to this tab to set up the information regarding how the information of the members will be displayed on the members public profiles.\n\n\n### 1. Profi le Page Tab Title\n\n\nChange the title that will be displayed on the front end tab.\n\n\n### 2. Profile Page Tab Order\n\n\nChoose the position of the profile page tab by selecting a number from the dropdown.\n\n\n### 3. Profile Page Code\n\n\nThe header, page loop, and footer codes of the Profile Page design can be edited. However, we do not recommend changing these options unless it's handled by a developer or someone with knowledge of web development. If desired, after updating the code, it can be switched back to default. Click on this article for more information: How to Customize the Default Post Types Code.\n\n\n## Search Results Design Tab\n\n\nEdit and set up the search results settings for the member listings.\n\n\n### 1. Search Results Page Title - H1\n\n\nEdit the text for the post type title.\n\n\n### 2. Search Results Page Sub-Title - H2\n\n\nIf desired, add a subtitle.\n\n\n### 3. Search Results per Page\n\n\nThis controls how many total results will appear on a search results page by default.\n\n\n### 4. Search Results Code\n\n\nThe option to edit the header, loop and footer codes of the search results design is available as well. Here's an article for more information on How to Customize the Default Post Types Code\n\n\n## Additional settings:\n\n\nDifferent options will become available when clicking on the dropdown, edit them accordingly:\n\n1. Post Keyword Search Options\n\nAdvanced setting to control the Keyword Search Options. The \"Search Default Fields\" option also searches member description fields. Please see this article for the Expanded Keyword Search Add-On.\n\n2. Pagination Display Options\n\nSelect how pagination is displayed on search result pages, either standard, hidden pagination or Insta-Load pagination using the Add-On.\n\n3. Order Results By\n\nIt controls the display order of items based on a database field. Please find more information on How To Change Search Results Sorting Options here.\n\n\n### 4. When Sorting Members - Respect Membership Plan “Search Priority”\n\n\nin the search results pages, when a user sorts the results, this setting will determine if the membership priority setting is applied to the results of the sort criteria.\n\nHow to Change Search Results Sorting Options\n\n\n### 5. Enable Search Results Cache\n\n\nSet to YES (recommended) to cache search results and load subsequent matching search results more quickly. This will help the site's performance because it will load faster. Set to NO to always query the database for all searches. Since the system needs to search for the query each time, it will load slower. NOTE: This cannot be enabled if \"Order Results By\" (Above) is set to \"Random\". In this case, it will be set to NO automatically.\n\n\n### 6. Sidebar To Use\n\n\nName of the Sidebar displayed on the search result pages, either custom or default.\n\n\n### 7. Sidebar Search Module\n\n\nChoose which search widget you would like to display in the sidebar of search results for this post type.\n\n\n### 8. Sidebar Position on Mobile Device\n\n\nChoose to display the sidebar below (Bottom), above (Top) the results on search results pages, or hide it only on mobile devices (phones and tablets).\n\n\n### 9. Display Google Map Option on Search Results Pages\n\n\nSelecting \"Yes\" will display a map icon at the top of search results pages. Clicking on this icon will display the search results as pins on a Google Map.\n\n\n### 10. Custom Search Engine Widget Name\n\n\nCreate a custom search widget and use it on the search results page. This will require customization",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127318743/original/b29_g2e4i6ye-hWymGuyo7SW0qj8vx8doQ.png?1687449585",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Member Listing Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12122714287/original/aCDR_HdiFBIqPdqIdHk1whvdl0FF9RM-ag.png?1678982353",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Member Listing Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12122714594/original/U3-M58upMpvFg247f4K7_YPL1SbdUmfVXQ.png?1678982683",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Member Listing Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12122714809/original/4BOdSayM4aIoC9A1uQZEbfRk-kG3h9RcoA.png?1678982945",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Member Listing Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140416157/original/Z66FCoehxCD91SCDsKAKhZDzTbBOfDmmgA.png?1710860713",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Member Listing Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140416386/original/cNhOF_eZLnvNHmpxpPmTq73ym9BCPLPRvw.png?1710860844",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Edit the Member Listing Post Type' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000028307",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028307"
+    },
+    {
+      "text": "My Members > Member Categories",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000046949"
+    },
+    {
+      "text": "Membership Plans > Assign Profile Forms",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000006663"
+    },
+    {
+      "text": "General Settings » Search Settings",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000074107"
+    },
+    {
+      "text": "Members-Only Content",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000682638"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000073931"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000073931"
+    },
+    {
+      "text": "Global Website Search",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000073931"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000073931"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000073931"
+    },
+    {
+      "text": "How to Customize the Default Post Types Code.",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000080220"
+    },
+    {
+      "text": "How to Customize the Default Post Types Code",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000080220"
+    },
+    {
+      "text": "Expanded Keyword Search",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034876"
+    },
+    {
+      "text": "Insta-Load pagination",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000035436"
+    },
+    {
+      "text": "How To Change Search Results Sorting Options",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000024824"
+    },
+    {
+      "text": "How to Change Search Results Sorting Options",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000024824"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000024824"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000024824"
+    }
+  ],
+  "lastmod": "2024-10-21T21:20:41+05:30",
+  "scraped_at": "2026-10-18T13:41:06.971597"
+}

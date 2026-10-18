@@ -1,0 +1,23 @@
+{
+  "article_id": "12000083399",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083399-11-05-21-software-updates",
+  "title": "11/05/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/05/21 - Software Updates"
+  ],
+  "content": "## 11/05/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000083399\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added Croatian as a Default Website Language.\n\n- We updated the Stripe Payment Gateway logic in order prevent uncaptured payments after submitting the Paid Member Signup form when the site has activated the \" Use AVS Billing Address Fields\" Advanced Setting.\n\n- We fixed an issue with the layout of the member profiles pages which was causing the system to not alternate the white and grey colors between each field when displaying the member data in some cases.\n\n- We fixed an issue which was preventing the system from displaying the Facebook Member Feed Widget when the Facebook Chat Add-On is on the same page in some cases. Widget Involved: Bootstrap Theme - Module - Member Facebook Feed\n\n- We fixed an issue which was causing the system to display PHP warnings when using the \"Show Widget\" feature when viewing the site as an Admin.\n\n- We created a new Advanced Setting called \"Default Checkout URL\". This setting can be used to customize the default /checkout/ URL for member signup pages.\n\n- We fixed an issue which was preventing the system from counting post views when the post had a \"/\" included in its custom URL.\n\n- We updated lead emails to properly encode special characters in the \"Origin Page\" URL included in lead emails sent to members. Widget Involved: Bootstrap Theme - Function - Form\n\n- We added the ability to upload \".xlsm\" files through the Media Manager page in the Admin.\n\n- We fixed an issue with the Homepage Design Settings which was preventing the system from setting the custom content background color properly in some cases. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was preventing the Form Manager from displaying Form Previews when the \"Protect Login Page from Iframe\" Advanced Setting was active on a site.\n\n- We fixed an issue with the form field clone logic which was preventing the system from saving all of the cloned fields after saving changes on the Form Manager page in the Admin.\n\n- We fixed an issue which was preventing the system from loading the correct SEO Template data after customizing the \"Post URL Structure\" Advanced Setting in some cases.\n\n- We fixed an issue which was affecting the ability to Export Member Categories from the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000083399",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000083399"
+    }
+  ],
+  "lastmod": "2021-11-06T23:23:31+05:30",
+  "scraped_at": "2026-10-18T13:49:09.671115"
+}

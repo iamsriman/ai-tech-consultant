@@ -1,0 +1,23 @@
+{
+  "article_id": "12000044048",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044048-05-04-18-software-updates",
+  "title": "05/04/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/04/18 - Software Updates"
+  ],
+  "content": "## 05/04/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000044048\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We made an update to the Coupons search results functionality to prevent expired coupon posts from displaying in some cases. Widget Involved: Search - Post - Search Query\n\n- We released a security update to the File Manger and Sitemap Generator functionality in the Admin area, implementing more restrictive permissions to the related directories and files when they are edited.\n\n- We made an update to the Google Sitemap Generator Add-On to resolve an issue related to URLs containing special characters returning 404 errors.\n\n- The new Payfast payment gateway functionality was updated to fix an issue with subscriptions that were manually generated through the Admin area.\n\n- We made an update to the Member Profile Analytics Add-On in order to properly track clicks when a visitor clicks on the Map View Option on the Member Search Results pages. Widgets Involved: Bootstrap Theme - Google Pins Locations Bootstrap Theme - Search Results Map",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000044048",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044048"
+    }
+  ],
+  "lastmod": "2018-05-05T04:32:37+05:30",
+  "scraped_at": "2026-10-18T13:42:37.090156"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107479",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107479-01-23-2026-software-updates",
+  "title": "01/23/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/23/2026 - Software Updates"
+  ],
+  "content": "## 01/23/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107479\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that affected the ability to add PayPal Express / Standard as a payment gateway in some cases.\n\n- Fixed an issue that prevented Admins from activating products from their Account Dashboard in some cases.\n\n- Fixed an issue that prevented the Setup Wizard on the Admin Dashboard from recognizing the payment gateway step as complete in some cases.\n\n- Updated the UI of the validation message when importing members via a CSV file in the Admin.\n\n- Fixed an issue that prevented members from updating their credit card information from the Billing Information page when using Stripe as the payment gateway in some cases.\n\n- Fixed an issue that affected the ability to create new forms in the Admin.\n\n- Fixed an issue that prevented the Quick Edit Member form on the Search Members page in the Admin from working properly in some cases.\n\n- Fixed an issue that affected the ability to display the top-level category name in breadcrumbs on search results pages in some cases.\n\n- Fixed an issue that prevented the Google Bulk Geocoder page in the Admin area from loading properly when a site using a directoryup.com subdomain added their own Google Maps API credentials.\n\n- Added support for Rumble , Wistia , and TED Talk videos for the Video Post Type.\n\n- Implemented an update to only redirect form submissions when the “What Happens After Form Submitted?” Form Setting is set to “Redirect To Another Page” for forms powered by the Form Manager. Widget Involved: Bootstrap Theme - Function - Form\n\n- Fixed an issue that prevented the ability to export Business Data records on the Business Data page in some cases.\n\n- Fixed an issue that caused Form Inbox exports to be incorrectly formatted in some cases.\n\n- Fixed an issue that prevented Email Template edits in the Compose Email modal from working properly in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107479",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107479"
+    }
+  ],
+  "lastmod": "2026-01-27T00:45:42+05:30",
+  "scraped_at": "2026-10-18T13:57:11.226816"
+}

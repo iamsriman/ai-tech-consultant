@@ -1,0 +1,23 @@
+{
+  "article_id": "12000043788",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043788-04-27-18-software-updates",
+  "title": "04/27/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/27/18 - Software Updates"
+  ],
+  "content": "## 04/27/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000043788\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We did a small aesthetic update to the layout of the Frontend Design Settings Live Tool.\n\n- We fixed an issue with the Member Export Data Add-On when an Admin tried to export results filtered by the member transaction types.\n\n- We fixed an issue that was affecting the search results of the Event Post Feature. Widgets Involved: Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Display - Recent Events\n\n- We resolved an issue related to folder permissions preventing images from being uploaded to the Image Manager in the Admin or the Sitemap Generator Add-On updating sitemaps properly.\n\n- We made an update to the Banner Ads tab in the Design Settings page of the Admin to resolve an issue of the preview of Banner Ads not displaying properly in some instances.\n\n- We resolved an issue that was preventing the Insta-Load Search Results Add-On from functioning properly on some member location search results pages.\n\n- We updated the Date Field Type in the Form Manager to properly respect the default_jquery_date_format A dvanced Setting. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We fixed the issue which was affecting the normal behavior of the Upgrade Member functionality.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000043788",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043788"
+    }
+  ],
+  "lastmod": "2018-04-28T02:41:20+05:30",
+  "scraped_at": "2026-10-18T13:42:35.535592"
+}

@@ -1,0 +1,37 @@
+{
+  "article_id": "12000001776",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001776-importing-tricks-importing-csv-files-with-special-characters",
+  "title": "Importing Tricks - Importing CSV Files With Special Characters",
+  "category": "My Members",
+  "folder": "Import Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Import Members",
+    "Importing Tricks - Importing CSV Files With Special Characters"
+  ],
+  "content": "## Importing Tricks - Importing CSV Files With Special Characters\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000001776\n\nThe database of all Brilliant Directories sites is collated in UTF-8 format (utf8-general-ci). This is the most universal format available today and allows for nearly all special characters in nearly all languages to be stored in the database correctly.\n\nHowever, most desktop spreadsheet programs do a very poor job of handling files collated in UTF-8 format (for example, legacy versions of desktop office applications on macOS and Windows).\n\nThankfully, Google Sheets , the free spreadsheet application offered by Google, natively handles data in UTF-8 format, making it a good tool to use for creating import files that contain special characters.\n\n\n## How To Format The Import File In UTF-8 Using Google Sheets\n\n\n- Create a new spreadsheet in Google Sheets\n\n- Click on File >> Import\n\n- Find the existing CSV file already uploaded to Google Drive, or upload it through this dialog by selecting the \"Upload\" option\n\n- Click on \"Import\"\n\n- Click on \"Open now\" once complete\n\nNext, the data must be downloaded as a CSV file.. This CSV file will be natively encoded in UTF-8 format.\n\nTo download the CSV file, c lick on File >> Download as >> Comma-separated values.\n\nThe file that has been downloaded is a CSV file with the correct UTF-8 format.  If this file is opened in Excel or a similar spreadsheet program, the values may look different - this is because desktop spreadsheet programs do not handle UTF-8 files well as mentioned above.\n\nCRUCIAL WARNING: Do not save the file if it is opened in a desktop spreadsheet program after download. Saving the file locally will likely strip the UTF-8 encoding and corrupt the special characters again.\n\nNext, import the file to the site as normal, and all of the special characters should remain intact.\n\n\n## Google Sheets Limitations\n\n\nThe only downside to using Google Sheets is that it has a limitation on the amount of data a single sheet can handle at a time (currently 2 million cells per spreadsheet).\n\nFor large files that contain more than 2 million cells of data, they just have to be broken down into smaller files to be processed correctly.\n\nFor example, if the import file contains 8 columns, Google Sheets can process up to 250,000 rows per individual spreadsheet file: 8 columns x 250,000 rows = 2,000,000 cells.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000891963/original/blob1453407900837.png?1453407918",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Importing Tricks - Importing CSV Files With Special Characters' in section 'My Members' / 'Import Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000001776",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001776"
+    },
+    {
+      "text": "Google Sheets",
+      "url": "https://www.google.com/sheets/about/"
+    }
+  ],
+  "lastmod": "2026-06-11T15:33:27+05:30",
+  "scraped_at": "2026-10-18T13:39:28.609526"
+}

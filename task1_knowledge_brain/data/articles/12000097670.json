@@ -1,0 +1,23 @@
+{
+  "article_id": "12000097670",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097670-12-22-2023-software-updates",
+  "title": "12/22/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/22/2023 - Software Updates"
+  ],
+  "content": "## 12/22/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097670\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from loading the image on Post Details pages for Video posts in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the system from loading the correct data for the \" meta description\" tag on member profile pages in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the \"Refresh Live Website\" functionality from working properly after saving widgets in some cases.\n\n- We fixed an issue with the \"Member Credits System\" Add-On that was causing the system to grant a member credits when upgrading, even when an error occurred during the upgrade process in some cases. Widget Involved: Bootstrap Theme - Function - Order Summary\n\n- We fixed an issue which was affecting the ability to complete the paid signup process after applying a coupon code discount in some cases.\n\n- We added the ability to auto-fetch member images and auto-geocode the member when importing members via CSV file or when using the Brilliant Directories API.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097670",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097670"
+    }
+  ],
+  "lastmod": "2023-12-27T00:00:35+05:30",
+  "scraped_at": "2026-10-18T13:53:15.098402"
+}

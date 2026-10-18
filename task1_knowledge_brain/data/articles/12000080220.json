@@ -1,0 +1,118 @@
+{
+  "article_id": "12000080220",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080220-how-to-customize-the-default-post-types-code",
+  "title": "How to Customize the Default Post Types Code",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How to Customize the Default Post Types Code"
+  ],
+  "content": "## How to Customize the Default Post Types Code\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080220\n\nAll Brilliant Directories sites start without any custom Post Type code saved in the database - the default code is built into the system from the beginning.\n\nHowever, many users choose to customize how Member Post Types (like articles, coupons, or videos) are displayed to better match their website’s design and needs.\n\n\n## Find Post Type\n\n\nNavigate to My Content >> Edit Post Settings and click on Edit for the post type to be customized.\n\nMove to the tab where the code needs to be edited: Profile Page Design, Search Results or Page Detail and click on the View/Edit Code button, the system will load the default code.\n\nEdit the code accordingly and save the changes:\n\nIf the custom code is deleted and the user clicks on save changes, confirmation will be asked to remove the custom code, otherwise it will cause duplicate content due that it matches the default.\n\n\n## Reviews Post type\n\n\nTo customize the code for reviews, navigate to Interactions >> Reviews and click on the Member review settings:\n\n\n## Restore Backup\n\n\nTo go back to a previous version of the code, use the Select Revision tool.\n\nSelect the Date & Time to go back to a previous version of the Post Code:\n\nClick on \"Load Revision\": Save the changes:\n\n\n### Reset Default Post Code\n\n\nTo learn how to Reset to Default Post Types Code, click on this article: How to Reset to Default Post Types Code",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127610438/original/xb-SoBnvD8RI3Ujiz3Tozkp-t4WYa41cUA.png?1687985572",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12114598055/original/boMkHx9iXNXCXRk3H292yWZodKfi3XsOMg.png?1663366192",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094086492/original/GFTJu0lrE5ttsw64OsEQPj1vTijIbX15lA.jpeg?1623754521",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094086524/original/8lwg0z1mjF2I2XsN4eKjBgP3G5Az9XHDvw.jpeg?1623754553",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162977882/original/4lb1IHOoPOgDVGFkVqn36XDow4G5jsdBDA.png?1750173949",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162977954/original/wJ_HhDX-SaWGDUTHwafYWASW1i7p_bHC5w.png?1750173999",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161245558/original/zMPfQrjjOcoBexREZJmot9hJCcZwQDTBzw.png?1747143136",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161245626/original/CHr9hgRuyK2dHrQ5Zka6mWTfg83XhCqCtw.png?1747143170",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161245695/original/7a532ZVHTWcF1J9g4jD_ny0KzkOp9o_mmA.png?1747143216",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161245833/original/z7-eYey_WUMbp3NQ5wdGwQYiyeWub67PPA.png?1747143324",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Customize the Default Post Types Code' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080220",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080220"
+    },
+    {
+      "text": "How to Reset to Default Post Types Code",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000016280"
+    }
+  ],
+  "lastmod": "2025-06-17T20:56:43+05:30",
+  "scraped_at": "2026-10-18T13:48:39.953519"
+}

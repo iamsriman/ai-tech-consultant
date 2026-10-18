@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108078",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108078-api-reference-user-submitted-forms",
+  "title": "API Reference - User Submitted Forms",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - User Submitted Forms"
+  ],
+  "content": "## API Reference - User Submitted Forms\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108078\n\n← Back to API Reference | Getting Started User Submitted Forms User Submitted Forms tracks which members have submitted specific forms on your directory website. Each record links a user ID to a form name and records the timestamp of submission. This is useful for tracking profile completion, onboarding steps, and whether a member has submitted a particular form at least once. Model name in URL: user_submitted_forms — DB table: user_submitted_forms The User Submitted Forms Object Field Type Description id integer Unique record ID (primary key, read-only) user_id integer ID of the member who submitted the form form_name string Machine name of the form that was submitted submitted_at timestamp Date and time the form was submitted (auto-set on create) List User Submitted Forms Records GET /api/v2/user_submitted_forms/get Returns a paginated list of user submitted form records. Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/user_submitted_forms/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"tablesExists\": true,\n      \"id\": \"1\",\n      \"user_id\": \"1210\",\n      \"form_name\": \"contact_general_user\",\n      \"submitted_at\": \"2024-11-03 23:19:35\"\n    },\n    {\n      \"tablesExists\": true,\n      \"id\": \"2\",\n      \"user_id\": \"1208\",\n      \"form_name\": \"profile\",\n      \"submitted_at\": \"2025-12-22 11:14:34\"\n    },\n    {\n      \"tablesExists\": true,\n      \"id\": \"3\",\n      \"user_id\": \"1\",\n      \"form_name\": \"blog_article_fields\",\n      \"submitted_at\": \"2024-11-22 18:40:04\"\n    }\n  ],\n  \"total\": \"45\",\n  \"current_page\": 1,\n  \"total_pages\": 15,\n  \"next_page\": \"MipfKjM=\"\n} Retrieve a User Submitted Form Record GET /api/v2/user_submitted_forms/get/{id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/user_submitted_forms/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"tablesExists\": true,\n      \"id\": \"1\",\n      \"user_id\": \"1210\",\n      \"form_name\": \"contact_general_user\",\n      \"submitted_at\": \"2024-11-03 23:19:35\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a User Submitted Form Record POST /api/v2/user_submitted_forms/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/user_submitted_forms/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"user_id=42\" \\\n  -d \"form_name=profile\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"910082\",\n    \"user_id\": \"42\",\n    \"form_name\": \"profile\",\n    \"submitted_at\": null\n  }\n} Update a User Submitted Form Record PUT /api/v2/user_submitted_forms/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/user_submitted_forms/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=910082\" \\\n  -d \"form_name=profile_updated\" Delete a User Submitted Form Record DELETE /api/v2/user_submitted_forms/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/user_submitted_forms/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=910082\"",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108078",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108078"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-07-02T09:49:20+05:30",
+  "scraped_at": "2026-10-18T13:57:55.034058"
+}

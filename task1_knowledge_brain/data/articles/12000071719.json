@@ -1,0 +1,80 @@
+{
+  "article_id": "12000071719",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071719-how-to-create-a-new-form",
+  "title": "How To Create A New Form",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How To Create A New Form"
+  ],
+  "content": "## How To Create A New Form\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000071719\n\nIn this article, we will be going over the process of how to create a new form.\n\nTo accomplish this, navigate to Toolbox >> Form Manager and click on the \" New Form + \" button:\n\nWhen clicked, the system will display a pop-up where the new Form Nickname and Form Variable Name can be added:\n\nSome Rules Regarding the Form Nickname and Form Variable Name :\n\n- Form Nickname has to be unique, meaning that it should not match an existing form\n\n- Only spaces, \"-\" and \"_\" will be accepted in the Form Nickname\n\n- Form Variable Name needs to be at least 3 characters\n\n- Only lowercase characters and \"_\" will be accepted for Form Variable Name\n\nWhen clicking on Save & Continue, the system will display this newly created form with some default fields:\n\nThe new form is then launched and comes with 9 basic fields:\n\n- Title\n\n- Name\n\n- Email\n\n- Phone\n\n- Message/Text Area\n\n- GDPR Consent Checkboxes ( How To Enable )\n\n- Recaptcha\n\n- Honeypot (Protects against SPAM)\n\n- Submit Message Button\n\nImportant Note: As default, this new form will have the same \"Form Settings\" as the Contact Us form so submitting it will add the submitted data to the Emails >> Form Inquiries\n\nAdditional Information:\n\n» How To Embed a Form in a Web Page\n\n» Emails » Form Inquiries\n\nThe form can be further customized by adding, removing, or editing the existing fields:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819450/original/QsVH_eFi7yL2-x1ubI7sdRgzfoI23rEGdg.png?1761872301",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A New Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090908384/original/q4z_nocpsI8kXlnu1-ECcCEq4vslS0rPFg.png?1617652366",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A New Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129558429/original/9q6mpD2KKa3WPWgQnSMKgWRE6jy8k2VGdQ.png?1691509640",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A New Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097279052/original/3sHiq_-k6G4ge7LjjHrXaTqduIT8Cklz7Q.png?1629824475",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Create A New Form' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000071719",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071719"
+    },
+    {
+      "text": "GDPR",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000042446"
+    },
+    {
+      "text": "How To Enable",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000044937"
+    },
+    {
+      "text": "Recaptcha",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000019817"
+    },
+    {
+      "text": "How To Embed a Form in a Web Page",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000059296"
+    },
+    {
+      "text": "Emails » Form Inquiries",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000673655"
+    }
+  ],
+  "lastmod": "2025-10-31T06:28:27+05:30",
+  "scraped_at": "2026-10-18T13:46:47.875616"
+}

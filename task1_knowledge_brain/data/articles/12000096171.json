@@ -1,0 +1,33 @@
+{
+  "article_id": "12000096171",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096171-homepage-hero-divider-code-html-snippet-of-homepage-hero-divider-code-with-icons",
+  "title": "Homepage Hero Divider Code - HTML Snippet of Homepage Hero Divider Code with Icons",
+  "category": "Developer Hub",
+  "folder": "HTML Code Snippets from Standard BD Website Theme",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "HTML Code Snippets from Standard BD Website Theme",
+    "Homepage Hero Divider Code - HTML Snippet of Homepage Hero Divider Code with Icons"
+  ],
+  "content": "## Homepage Hero Divider Code - HTML Snippet of Homepage Hero Divider Code with Icons\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096171\n\nThis article provides a sample HTML structure for the Homepage Hero Divider section included in the standard Brilliant Directories website theme.\n\nThe example demonstrates the default layout, including the responsive column structure, Font Awesome icons, headings, descriptive text, and call-to-action buttons used in the Hero Divider.\n\nThe following HTML snippet represents the default markup for the Homepage Hero Divider.\n\n```\n<!-- Start: Main hero divider container --> <div class=\"content-container homepage_steps\"> <!-- Start: Main responsive container --> <div class=\"container\"> <!-- Start: Search Members Column --> <div class=\"col-sm-12 col-md-4 text-center sm-bmargin homepage_step_1\"> <!-- Icon indicating search functionality --> <p> <i class=\"fa fa-search\"></i> </p> <!-- Title for the search members section --> <h2 class=\"bold sm-nomargin h3\"> Search Members </h2> <!-- Description text for search members --> <p class=\"sm-bmargin\"> Browse To Find Members </p> <!-- Action button to initiate search --> <a class=\"btn btn-success xs-center-block\" href=\"/search_results\"> Search Members </a> <!-- Utility: Clear floats --> <div class=\"clearfix\"></div> </div> <!-- Utility: Responsive layout adjustment for mid-size screens --> <div class=\"clearfix hidden-lg hidden-md\"></div> <!-- Start: Review Members Column --> <div class=\"col-sm-12 col-md-4 text-center sm-bmargin sm-tmargin homepage_step_2\"> <!-- Icon indicating review functionality --> <p class=\"sm-tmargin\"> <i class=\"fa fa-star\"></i> </p> <!-- Title for the review members section --> <h2 class=\"bold sm-nomargin h3\"> Review Members </h2> <!-- Description text for review members --> <p class=\"sm-bmargin\"> Compare Members You Find </p> <!-- Action button to initiate review --> <a class=\"btn btn-success xs-center-block\" href=\"/search_results\"> Review Members </a> <!-- Utility: Clear floats --> <div class=\"clearfix\"></div> </div> <!-- Utility: Responsive layout adjustment for mid-size screens --> <div class=\"clearfix hidden-lg hidden-md\"></div> <!-- Start: Contact Members Column --> <div class=\"col-sm-12 col-md-4 text-center sm-bmargin sm-tmargin homepage_step_2\"> <!-- Icon indicating contact functionality --> <p class=\"sm-tmargin\"> <i class=\"fa fa-comments\"></i> </p> <!-- Title for the contact members section --> <h2 class=\"bold sm-nomargin h3\"> Contact Members </h2> <!-- Description text for contact members --> <p> Connect with Members You Like </p> <!-- Action button to initiate contact --> <a class=\"btn btn-success xs-center-block\" href=\"/search_results\"> Contact Members </a> <!-- Utility: Clear floats --> <div class=\"clearfix\"></div> </div> </div> <!-- End: Main responsive container --> </div> <!-- End: Main hero divider container -->\n```\n\nThis code can be used as a reference when creating custom homepage layouts, modifying the Hero Divider, or identifying the HTML elements and CSS classes used by the standard Brilliant Directories theme.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132163564/original/t4vajv7AStW_CguGZC1bfGSXeqAP_mvVFg.png?1696283082",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Homepage Hero Divider Code - HTML Snippet of Homepage Hero Divider Code with Icons' in section 'Developer Hub' / 'HTML Code Snippets from Standard BD Website Theme'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096171",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096171"
+    }
+  ],
+  "lastmod": "2026-06-27T04:28:08+05:30",
+  "scraped_at": "2026-10-18T13:52:53.350486"
+}

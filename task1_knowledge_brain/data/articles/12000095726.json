@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095726",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095726-php-code-snippet-to-check-when-a-member-user-is-logged-in-and-matches-another-user-value-such-as-a-m",
+  "title": "PHP code snippet to check when a member/user is logged in AND matches another user value (such as a membership plan ID)",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "PHP code snippet to check when a member/user is logged in AND matches another user value (such as a membership plan ID)"
+  ],
+  "content": "## PHP code snippet to check when a member/user is logged in AND matches another user value (such as a membership plan ID)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095726\n\nThe following examples demonstrate how to display content only when a member is logged in and matches specific user criteria, such as a Membership Plan ID.\n\nThe examples first verify that a member is logged in, retrieve the member's information, and then display content based on the member's subscription_id .\n\n\n## Example: Display Content for a Specific Membership Plan\n\n\nThe following example displays content only for members whose Membership Plan ID is 1 .\n\nCopy <?php // Check whether a member is logged in if (user::isUserLogged( $_COOKIE )) { // Retrieve the currently logged-in member's data $loggedInUser = getUser ( $_COOKIE [ 'userid' ], $w ); // Display content for Membership Plan ID 1 if ( $loggedInUser [ 'subscription_id' ] == 1 ) { ?> ENTER CONTENT FOR MEMBERSHIP PLAN ID 1 <?php }\n} ?>\n\nReplace ENTER CONTENT FOR MEMBERSHIP PLAN ID 1 with the content that should be displayed to members assigned to Membership Plan ID 1 .\n\n\n## Example: Display Different Content for Multiple Membership Plans\n\n\nThe following example displays different content depending on the logged-in member's Membership Plan ID.\n\nCopy <?php // Check whether a member is logged in if (user::isUserLogged( $_COOKIE )) { // Retrieve the currently logged-in member's data $loggedInUser = getUser ( $_COOKIE [ 'userid' ], $w ); // Membership Plan ID 1 if ( $loggedInUser [ 'subscription_id' ] == 1 ) { ?> ENTER CONTENT FOR MEMBERSHIP PLAN ID 1 <?php } // Membership Plan ID 2 elseif ( $loggedInUser [ 'subscription_id' ] == 2 ) { ?> ENTER CONTENT FOR MEMBERSHIP PLAN ID 2 <?php } // Membership Plan ID 3 elseif ( $loggedInUser [ 'subscription_id' ] == 3 ) { ?> ENTER CONTENT FOR MEMBERSHIP PLAN ID 3 <?php } // All other Membership Plans else { ?> ENTER CONTENT FOR ALL OTHER MEMBERSHIP PLANS <?php }\n} ?>\n\nReplace each placeholder with the content that should be displayed for the corresponding Membership Plan ID. The else block can be used to display content for members who do not match any of the specified plans.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095726",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095726"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:21+05:30",
+  "scraped_at": "2026-10-18T13:52:45.196463"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000097789",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097789-01-05-2024-software-updates",
+  "title": "01/05/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/05/2024 - Software Updates"
+  ],
+  "content": "## 01/05/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097789\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing Admins from activating pending sites from the Website Dashboard when the \"Admin Account View\" Advanced Setting is set to \"general\" in some cases.\n\n- We updated the Member Export Data Add-On in order to include the \"lead_id\" of each lead in the exported CSV file.\n\n- We fixed an issue which was preventing the system from rendering the Website Name in the Compose Email modal in the Admin when the Website Name contained an apostrophe in some cases.\n\n- We updated Reviews Search Results pages to support filtering the results by using the \"userid\" parameter in the URL.  This will only show reviews for the member whose ID is referenced in the parameter. For example, this would show reviews for the member with the ID 123: https://mywebsite.com/reviews?userid=123 Widget Involved: Search - Reviews - Search Query\n\n- We fixed an issue which was preventing the system from loading the content of a form field in the Member Dashboard when the form field data contains a percentage symbol \"%\" in some cases. Widget Involved: Bootstrap Theme - Function - Form\n\n- We added the ability to save price \"Price\" and \"Year Built\" form fields as blank when creating or editing Posts from the Member Dashboard.\n\n- We fixed an issue which was preventing the \"post_promo\" field from being imported when importing Posts via CSV file through the Admin.\n\n- We fixed an issue which was preventing the Yes/No form field label from being transcoded to the proper text label in the Admin in some cases.\n\n- We created a new Advanced Setting called \"Years Field Type - Ending Year\". This setting allows the Admin of a site to specify the year that the \"years\" field type in the the Form Manager should end with.\n\n- We fixed an issue which was affecting the ability to collect past due payments from the Transaction History page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097789",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097789"
+    },
+    {
+      "text": "https://mywebsite.com/reviews?userid=123",
+      "url": "https://mywebsite.com/reviews?userid=123"
+    }
+  ],
+  "lastmod": "2024-01-10T01:23:16+05:30",
+  "scraped_at": "2026-10-18T13:53:21.484258"
+}

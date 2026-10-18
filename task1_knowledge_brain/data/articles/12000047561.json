@@ -1,0 +1,143 @@
+{
+  "article_id": "12000047561",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047561-my-members-search-members-actions-dropdown",
+  "title": "My Members »  Search Members »  Actions Dropdown",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "My Members »  Search Members »  Actions Dropdown"
+  ],
+  "content": "## My Members »  Search Members »  Actions Dropdown\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000047561\n\n\n## Navigation Path\n\n\nAdmin Dashboard » My Members » Search Members\n\nThe Actions dropdown is accessible from the Search Members results table. Each member record includes an Actions menu that provides direct access to essential account management functions.\n\n\n## Actions Dropdown - Available Options\n\n\nThe Actions menu contains the following options for each member record:\n\n- Account Details\n\n- View Live Profile\n\n- Quick Edit\n\n- Login as Member\n\n- Compose Email\n\n- Payment History\n\n- Change Password\n\n- Delete Account\n\n- Clone Account\n\n\n### Account Details\n\n\nSelecting this option displays a structured account overview for the selected member, including key profile and account-level information.\n\nFull reference: Account Details\n\n\n### View Live Profile\n\n\nSelecting this option opens the member's live public-facing profile as it appears on the front end of the site. This allows administrators to verify how the profile is currently rendered for visitors.\n\n\n### Quick Edit\n\n\nSelecting this option opens the Quick Edit module, which allows direct updates to member information without navigating away from the Search Members screen.\n\nFull reference: Quick Edit\n\n\n### Login as Member\n\n\nSelecting this option allows the site administrator to access the selected member's dashboard view by logging in as that member. This is used for troubleshooting or verification of member-level permissions and visibility.\n\n\n### Compose Email\n\n\nSelecting this option opens the Compose Email module. The selected member's email address is auto-populated in the recipient field. A message can then be drafted and sent directly from within the dashboard.\n\nFull reference: Compose Email\n\n\n### Payment History\n\n\nSelecting this option opens the Payment/Transaction History view for the selected member, displaying a record of financial activity associated with that account.\n\nFull reference: Transactions\n\n\n### Change Password\n\n\nSelecting this option opens the Change Password module, where a new password can be assigned to the selected member account.\n\n\n### Delete Account\n\n\nSelecting this option initiates the member deletion workflow. A confirmation module appears before any data is removed, presenting the following configuration options that must be set prior to finalizing the deletion:\n\nThere are a few options that need to be set before a member is deleted from the site:\n\n- Delete Member - Confirms the permanent removal of the member account.\n\n- Delete Profile Images and Files - Determines whether all images and files attached to the member record are also removed.\n\n- Delete Member Posts - Removes all content posts published by the member.\n\n- Re-assign Posts to another Member - If posts are not being deleted, this option transfers them to a designated existing member.\n\n⚠ CRITICAL CAUTION — Irreversible Action: Member deletion is permanent. All four configuration options in the confirmation module must be deliberately reviewed before proceeding. Failure to configure the post re-assignment option when posts are retained may result in orphaned content.\n\n\n### Clone Account\n\n\nSelecting this option creates a duplicate of the selected member account. The following profile data is carried over to the cloned account:\n\n- Contact Details\n\n- Additional Details\n\n- Profile Photo, Logo, and Cover Photo\n\n- About Me\n\n⚠ CRITICAL CAUTION — Billing Data Is Not Cloned: Billing information is excluded from the cloning process. Each cloned member account requires a new subscription to be created separately in order to properly associate credit card and payment details with the new account.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181026124/original/7CebQP5mYGVR1HqndjdGTz_Zi6K9JOk3Zw.png?1782398929",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164355910/original/36obQPUUHH7v7vP_S0gsBDGy9L15E56Fcw.png?1752610653",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126475086/original/MDEvyEeJKZ6XgysD42kGd_EMRwV5QVojtA.png?1686017133",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090571434/original/vPIxrVTwC0KmPUhxNN3oyugvtKJhirs_lw.png?1616890963",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163104181/original/LYQFwJiWLqa_m4ULO2IqNrSG9o5yzsvI_w.png?1750352239",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090571457/original/9FhjhHXDIMjBbA9_rWSVlHkFep8DSvCxQw.png?1616891124",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090571495/original/lLRtGxs-jifzqYBeFE7ezSVvxB14Nd81gA.png?1616891286",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126475091/original/gacttSpawxP8I-PbhPcEmRLUBbH32CTxCg.png?1686017152",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090571528/original/gWR0Gs-4RgmBy2pm6j8g0sVfpve9EFW5gg.png?1616891567",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164367544/original/8gC4v3sgC84_j1QYvn_ChhPW4JUiYhRUsw.png?1752627620",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164367515/original/XMh_4fdGyn-PciNGURHzFGQgg5FR5sRg2g.png?1752627557",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'My Members »  Search Members »  Actions Dropdown' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000047561",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047561"
+    },
+    {
+      "text": "Account Details",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046936"
+    },
+    {
+      "text": "Quick Edit",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "Compose Email",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076567"
+    },
+    {
+      "text": "Transactions",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000011521"
+    },
+    {
+      "text": "a new subscription to be created separately",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000008873"
+    }
+  ],
+  "lastmod": "2026-06-25T20:19:01+05:30",
+  "scraped_at": "2026-10-18T13:43:19.517459"
+}

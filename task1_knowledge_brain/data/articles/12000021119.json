@@ -1,0 +1,33 @@
+{
+  "article_id": "12000021119",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021119-automatic-ip-address-blocking-the-firewall-on-this-server-is-blocking-your-connection",
+  "title": "Automatic IP Address Blocking - The firewall on this server is blocking your connection",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Automatic IP Address Blocking - The firewall on this server is blocking your connection"
+  ],
+  "content": "## Automatic IP Address Blocking - The firewall on this server is blocking your connection\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000021119\n\nUnderstanding IP Blocks and Site Accessibility The Brilliant Directories platform includes automated security measures to help protect websites from malicious activity. One of these measures is an IP address blocking system, which temporarily restricts access from IPs that exhibit potentially harmful behavior. Important note: when an IP is blocked, the website itself remains online and accessible to all other users — the issue is limited to the specific blocked IP address. This is a screenshot of the firewall message: In approximately 95% of cases, an IP address is blocked because automated systems detect behavior consistent with attempts to exploit vulnerabilities. These blocks are implemented automatically to prevent potential security breaches and to maintain overall server integrity. In about 5% of cases, blocks occur due to false positives — typically triggered by repeated failed login attempts or other unusual access patterns. These are some of the most common triggers: 10 failed login attempts within a 1-hour period 10 failed login attempts to an email account within a 1-hour period 5 failed email sending attempts using the domain name 5 failed login attempts to cPanel within 1 hour 5 failed login attempts via SSH within 1 hour (usually limited to use by developers or server administrators) When a block occurs, the website continues to operate normally for all other users. The block applies only to the specific IP address that triggered the activity threshold. If access is unintentionally restricted, switching to a different network often restores access. Please also contact support@brilliantdirectories.com so that we can help review and resolve the block. These measures are in place to ensure long-term platform reliability and security for all directory websites.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162210242/original/ps3n2P7hVv2ihFiv2WYJ6c7dmB8ZAplXCA.png?1748882044",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Automatic IP Address Blocking - The firewall on this server is blocking your connection' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000021119",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021119"
+    }
+  ],
+  "lastmod": "2025-06-02T22:08:48+05:30",
+  "scraped_at": "2026-10-18T13:40:46.229037"
+}

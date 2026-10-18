@@ -1,0 +1,23 @@
+{
+  "article_id": "12000086474",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086474-03-11-22-software-updates",
+  "title": "03/11/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/11/22 - Software Updates"
+  ],
+  "content": "## 03/11/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086474\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to display an empty Admin Login page after trying to update the Admin Password in some cases.\n\n- We deprecated the \"/favorites\" search results page related to the \"Bookmark My Favorites\" Add-On that did not have any functionality but could cause issues for sites that want to use this URL for other purposes.\n\n- We added a new Member Quick Edit Setting called \"Listing Custom FOOTER Code\". This setting allows an Admin to add custom Footer code to an individual member's profile page. In order to use this new setting, navigate to the Admin >> My Members >> Search Members >> Actions >> Quick Edit >> Advanced Options tab.\n\n- We implemented a security update to add backend validation to ensure only the fields that are supposed to be in a form can be submitted through forms on the frontend of sites.\n\n- We updated the SEO Templates system in order to load SEO Data on post details pages even when the Post URL is customized directly in the database.\n\n- The \"Sub Category Groups - Member Categories\" widget on the \"/categories\" page is now compatible with the \"Default Category Sort Order\" setting. Widget Involved: Bootstrap Theme - Sub Category Groups - Member Categories\n\n- We added the ability to search and sort by Member Credits on the Search Members page in the Admin.\n\n- We fixed an issue with the Select2 Dropdowns which was preventing the system from saving Billing Address data from the Member Dashboard area in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We updated the Tickets module on the Account Dashboard page in the Admin to add the ability to reply to a ticket which has been already closed.\n\n- We fixed a UI issue which was causing the Website Header background color to overlap with the background of the member image when logged in as a member. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We added the ability to search by Complete/Incomplete Profiles on the Search Members page in the Admin. To activate this search criteria, the \"Require Complete Profiles\" Advanced Setting must be active on the site.\n\n- We fixed the display of member keyword search fields when a member search module is included in the sidebar of profile pages.\n\n- We updated the Design Settings page in the Admin to make the \"Select Content to Display\" settings compatible with mobile devices.\n\n- We updated the \"Serves This Area\" text label in order to hide the section in which it appears completely if the Text Label is blank. Post Type Involved: Listing\n\n- We updated the design of error messages that appear below form fields when the content of the field does not pass validation to use the color selected for the \"Danger Button\" setting in the Design Settings of the site. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We created a new Advanced Setting called \"All Location Features For Pretty URL Search Results Pages API Key\", to load a separate Google Maps API Key used for server-side requests. This is now mandatory when the \"Enable All Location Features for \"Pretty URL\" Search Results Pages\" setting is enabled for the site.\n\n- We fixed an issue with the Form Manager which was causing the system to save the form incorrectly after adding a \"Multiple Choice Radios\" form field in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086474",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086474"
+    }
+  ],
+  "lastmod": "2022-03-14T23:48:48+05:30",
+  "scraped_at": "2026-10-18T13:49:34.024729"
+}

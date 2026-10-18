@@ -1,0 +1,108 @@
+{
+  "article_id": "5000682661",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682661-settings-domain-manager",
+  "title": "Settings » Domain Manager",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Settings » Domain Manager"
+  ],
+  "content": "## Settings » Domain Manager\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682661\n\nThe Domain Manager brings together the website address, domain connection, SSL certificate, email authentication, DNS records, and hosting information. Open Settings > Domain Manager to check the site's status or connect a different address.\n\n\n## Example: a free website address\n\n\nExample on a free directoryup.com address: the tab row (1) shows Domain , SSL , Cloudflare , Diagnostics , Speed , and Usage . Additional tabs appear when a custom domain and its services are available.\n\n\n## Example: a custom domain with Brilliant Directories DNS\n\n\nThis separate example uses selfautomated.com , registered at GoDaddy and connected through Brilliant Directories nameservers. It shows the additional controls available for a custom domain.\n\nThe full tab row (1), the registrar, GoDaddy (2), and the Brilliant Directories nameservers (3) on selfautomated.com.\n\n\n## Start with the status summary\n\n\nThe summary can show Everything looks good , Almost there , or Needs attention . Read the accompanying message and open the relevant tab for the specific finding. The summary can change as background checks finish; a working domain connection does not by itself confirm that email authentication and SSL are ready.\n\nEmail findings count toward the summary. Every row on the Emails tab that needs attention, such as a missing incoming-mail provider, an unpublished DKIM record for the mail provider, or an unsigned mailbox signature, is counted, and the summary message gives the number of items, such as Your email needs attention — 1 item to the left . The Emails tab shows the same number as an alert badge, so the summary and the tab agree. A mailbox signature row marked No mailboxes is not counted, because nothing is sent unsigned from a domain with no mailboxes on the Brilliant Directories server. See Emails and sender authentication .\n\nThe summary on selfautomated.com after the background checks finish: Everything looks good (1) and its message (2). The Emails tab (3) carries no alert badge because no email row needs attention; when one does, the tab shows the same count as the summary.\n\nFreshness labels indicate when information was checked. Use Check again on the relevant card after changing a record or resolving an issue.\n\nThe Power Ups panel beside the website preview lists related services and add-ons, such as Cloudflare, VIP Add-Ons, and Enhanced Hosting. A service already in use is marked Active ; Activate opens the in-app checkout for an add-on the site does not have.\n\nThe status summary (1) and the Power Ups panel (2) on selfautomated.com: VIP Add-Ons is Active , and Enhanced Hosting offers Activate .\n\n\n## What each tab does\n\n\nTab Purpose Domain Check the address, registrar, expiration, connection method, nameservers, and record details. Connect or change the domain and choose the web address style. SSL Check the security certificate and secure website connection. Install or recheck a certificate when the corresponding action is available. Emails Check the sending address, SPF, DKIM, and sender authentication. Mailboxes Check incoming mail routing and manage supported website mailboxes. DNS Manage records for a connected Cloudflare zone or BD-hosted DNS, or inspect public records when DNS is hosted elsewhere. Cloudflare Connect the Cloudflare account and manage the available Cloudflare settings. Diagnostics Inspect detailed connection and certificate findings and website update information. Speed Run a website performance check and review saved results. Usage Review resource usage, available limits, and supported storage cleanup options.\n\nThe available tabs depend on the website's address, DNS connection, SSL status, and administrator permissions. A free directoryup.com address does not show all the same domain and email controls as a custom domain. Speed checks require a suitable HTTPS connection. Resource-related tabs also depend on access permissions.\n\n\n## Read the Domain tab\n\n\nDomain Information identifies the current address and the company where the domain is registered. Renewals are completed with the registrar. An unknown registration value means the lookup did not supply that information; check with the registrar before assuming the domain has expired.\n\nDomain Connection Details explains how the relevant addresses reach the website. Use Details to inspect individual addresses and the copy controls to copy the record values shown for this site. The root domain, www , and a separate subdomain can have different results.\n\nRepair connection address regenerates the site's unique connection target. That target does not normally change, so use this action only when Brilliant Directories support asks for it.\n\n\n## Connect or change the website address\n\n\n- Open the Domain tab.\n\n- Click Connect my domain name or Change my domain name , depending on the current address.\n\n- Follow the applicable stages: Choose An Address , Check It , Point Domain , and Switch Over .\n\nThe complete walkthrough is in How to Connect a Domain to a Brilliant Directories Website . For an existing live site, complete the domain-change checklist before switching.\n\n\n## Choose the web address style\n\n\nWeb address style controls whether the preferred website address includes \" www.\" . Click Change beside that row and review the available choice. This preference is separate from DNS pointing. A true subdomain, such as members.example.com , should not receive an extra www. prefix. See the www and non-www guide .\n\n\n## After a change\n\n\nConfirm that the selected address opens the intended website, then check SSL and Emails . If DNS is managed outside the connected services, add the records shown at that provider. Rechecking does not change a third-party provider's records or make a cached DNS answer expire sooner.\n\nContinue with SSL , Emails and sender authentication , DNS records , Cloudflare , Mailboxes , Diagnostics , Speed , or Usage .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415533/original/x_f2-GOYeR_br6Kl0Gki_NCmjW1E3DQkaw.png?1791392564",
+      "alt": "Domain Manager on a free directoryup.com address with its tab row marked (1): Domain, SSL, Cloudflare, Diagnostics, Speed and Usage.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager' (Settings > Domain Manager): Domain Manager on a free directoryup.com address with its tab row marked (1): Domain, SSL, Cloudflare, Diagnostics, Speed and Usage.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415534/original/npt9RlJ4syOoEnS5mWBX0BYLoqunDsV65w.png?1791392566",
+      "alt": "Domain Manager for selfautomated.com with the full tab row (1), the GoDaddy registrar row (2) and the Brilliant Directories nameservers row (3) marked.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager' (Settings > Domain Manager): Domain Manager for selfautomated.com with the full tab row (1), the GoDaddy registrar row (2) and the Brilliant Directories nameservers row (3) marked.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358602/original/tOyDSstykDVWbWRqbd2ucSrwxYY7z5qY7g.png?1791318604",
+      "alt": "Domain Manager with the Everything looks good summary (1), the domain status card (2) and the Emails tab (3).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager' (Settings > Domain Manager): Domain Manager with the Everything looks good summary (1), the domain status card (2) and the Emails tab (3).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415540/original/79ydQ0gaf5z5-2s-c3iSFdOFVEsco9l_rw.png?1791392568",
+      "alt": "Domain Manager side panel with the Everything looks good summary (1) and the Power Ups panel (2) showing VIP Add-Ons active and Enhanced Hosting with Activate.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager' (Settings > Domain Manager): Domain Manager side panel with the Everything looks good summary (1) and the Power Ups panel (2) showing VIP Add-Ons active and Enhanced Hosting with Activate.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682661",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682661"
+    },
+    {
+      "text": "Emails and sender authentication",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090615"
+    },
+    {
+      "text": "How to Connect a Domain to a Brilliant Directories Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    },
+    {
+      "text": "domain-change checklist",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102627"
+    },
+    {
+      "text": "the www and non-www guide",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080325"
+    },
+    {
+      "text": "SSL",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090590"
+    },
+    {
+      "text": "Emails and sender authentication",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090615"
+    },
+    {
+      "text": "DNS records",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109758"
+    },
+    {
+      "text": "Cloudflare",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109759"
+    },
+    {
+      "text": "Mailboxes",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760"
+    },
+    {
+      "text": "Diagnostics",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109761"
+    },
+    {
+      "text": "Speed",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109762"
+    },
+    {
+      "text": "Usage",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098735"
+    }
+  ],
+  "lastmod": "2026-10-14T03:16:52+05:30",
+  "scraped_at": "2026-10-18T13:39:08.737628"
+}

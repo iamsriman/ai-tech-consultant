@@ -1,0 +1,23 @@
+{
+  "article_id": "5000686561",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000686561-how-the-users-meta-table-works",
+  "title": "How the users_meta Table Works",
+  "category": "Developer Hub",
+  "folder": "MYSQL Database",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "MYSQL Database",
+    "How the users_meta Table Works"
+  ],
+  "content": "## How the users_meta Table Works\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000686561\n\nThe users_meta table stores custom data associated with other database tables. It allows Brilliant Directories to save custom form fields, stored variables, and other dynamic values without modifying the original database schema.\n\nCommon sources of data stored in the users_meta table include:\n\n- Custom Forms\n\n- Custom Stored Variables\n\n- Additional fields added to existing forms\n\n- Other custom data that does not exist as a default column in the database\n\nWhen queried through the Brilliant Directories framework, data stored in the users_meta table is merged with the related database records, allowing custom fields to appear alongside the standard table columns.\n\n\n## Example\n\n\nAssume the system includes a default form named Member Technology with the following fields:\n\n- Years of Experience\n\n- Programming Language\n\n- Favorite Programming Language\n\n- Spoken Languages\n\n- Native Spoken Language\n\nIf additional custom fields are added to this form, such as:\n\n- Project Management (Git, SVN, HG...)\n\n- Sites Used for Knowledge (Stack Overflow, Ask Ubuntu, Udemy, Lynda...)\n\n- Personal Website\n\n- Nickname\n\nThe default table structure does not need to change. Instead, the custom values are stored in the users_meta table and associated with the appropriate record.\n\n\n## How the Relationship Works\n\n\nThe users_meta table uses four primary columns to associate custom data with other database tables:\n\nColumn Purpose database Identifies the related database table (for example, users_data or data_posts ). database_id Identifies the specific record within the related table. key Stores the custom field name. value Stores the corresponding value for the custom field.\n\n\n## Query Process\n\n\nWhen a table is queried, the Brilliant Directories framework automatically checks the users_meta table for matching records.\n\nThe process works as follows:\n\n- The requested table is queried (for example, users_data ).\n\n- The system searches the users_meta table for records where the database column matches the queried table.\n\n- The database_id column is used to match the corresponding record in the original table.\n\n- Matching key and value pairs are merged into the query results, allowing custom fields to appear as part of the returned dataset.\n\nThe following example illustrates how records are stored within the users_meta table:\n\n(Existing image)\n\nWhen the subscription_types table is queried, the framework retrieves the standard table columns and then merges any matching custom fields stored in the users_meta table.\n\nThe following image demonstrates the resulting query output:\n\n(Existing image)\n\nEach value stored in the key column becomes the name of a custom field, while each corresponding value stored in the value column becomes the data returned for that field.\n\n\n## Summary\n\n\nWhenever a database table is queried through the Brilliant Directories framework, the system automatically checks the users_meta table for related custom data before returning the results.\n\nThe relationship between the tables is based on the following columns:\n\n- database — Identifies the related table.\n\n- database_id — Identifies the related record.\n\n- key — Defines the custom field name.\n\n- value — Stores the custom field value.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000686561",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000686561"
+    }
+  ],
+  "lastmod": "2026-06-26T01:14:15+05:30",
+  "scraped_at": "2026-10-18T13:39:17.418037"
+}

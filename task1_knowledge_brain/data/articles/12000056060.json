@@ -1,0 +1,31 @@
+{
+  "article_id": "12000056060",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056060-03-30-19-software-updates",
+  "title": "03/30/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/30/19 - Software Updates"
+  ],
+  "content": "## 03/30/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000056060\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We created a new Design Setting that allows a choice between showing the content of Profile Pages in tabs (default) or stacked without tabs. In order to use this new feature navigate to Admin >> Settings >> Design Settings >> Design Settings Tab>> Additional Design Settings section. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We improved the logic of the /locations page in order to show more accurate results for cities and countries. Widget Involved: Bootstrap Theme - Category Groups - Member Locations\n\n- We fixed an issue with the naming convention of the member profile photos and logos created for social media sharing.\n\n- We changed the name of the \"Enable Insta-Load Search Results\" option to \"Pagination Display Options\" on the Edit Post Settings Page in the Admin. Admins can now choose to use the Insta-Load Search Results Add-On, Standard Pagination or Hide the Pagination. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We improved the logic of the Expanded Keyword Search Add-On in order to include custom data and show more accurate results.\n\n- We fixed an issue which was preventing the last day of an Event from displaying on the Event Calendar in some cases.\n\n- We updated the Text Label of the View All Button in the Recent Reviews widget. Widget Involved: Bootstrap Theme - Display - Recent Reviews\n\n- We updated the UI of the View All Button in the Recent Top Categories Widget. Widget Involved: Bootstrap Theme - Display - Top Categories\n\n- The \"Not Active Account\" box in the Member Dashboard and the \"View My CV\" Form Field are now fully compatible with the Front-End Edit Text Label feature. Widget Involved: Bootstrap Theme Framework\n\n- We updated the Google Maps API Usage Status Checker on the Admin dashboard in order show a more specific API status message for different API responses.\n\n- We fixed an issue which was causing the Export Member Data Add-On to show an incorrect format for some data.\n\n- We released the Featured Members on Homepage Add-On. Click here for more information.\n\n- We created a new Product Setting in order to disable signup pages for specific Products. Enabling this setting will prevent members from signing up for the Product.  In order to use this new Feature navigates to the Admin >> Finance >> Manage Products >> Edit >> Pricing Tab.\n\n- We improved the Validation for the Parent ID field on the Quick Edit Form in the Admin Search Results page when the Multi-Member Manager Add-On is active on a Site.  This validation will prevent infinite sub account loops and sub-sub accounts from being accidentally set.\n\n- The \"Full-Width Page\" setting on the Edit Web Pages section of the Admin is now only available when the Page Type setting is set as \"Single Web Page\".\n\n- We deprecated the yellow warning messages at the top of Admin pages and created a new Website Conflicts section which contains these notifications. This new feature can be found in the top-right section of Admin pages.\n\n- We fixed an issue with members using 100% coupon off coupon codes in some cases.\n\n- We fixed an issue which was causing menus to show empty <li> HTML tags when the Menu does not have any content.\n\n- We added logic to prevent any 2 members from having the same profile page URL in all cases.\n\n- We added the ability for the Pay Per Post Add-On to set a Post Max Limit without charging a price for an additional post if desired. In order to use this new feature, navigate to the Admin >> Finance >> Manage Products >> Edit >> Post Publishing tab. Widget Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Feature Header Bootstrap Theme - Account - Photo Albums\n\n- We released the \"Report This Page\" Add-On. Click here for more information. Widget Involved: Bootstrap Theme - Function - Google ReCaptcha on Sign up Page\n\n- We updated the \"Bookmark My Favorites\" Add-On to show the total number of times a page has been bookmarked next to the bookmark icon. In order to use this new feature navigates to the Admin >> Setting >> Design Setting >> Search Results section. Widgets Involved: Bootstrap Theme - Display - Add to Favorites Button Bootstrap Theme - Custom Appearance Settings",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000056060",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056060"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/feature-members-on-homepage-add-on"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/report-this-page-add-on"
+    }
+  ],
+  "lastmod": "2019-04-03T21:31:23+05:30",
+  "scraped_at": "2026-10-18T13:44:43.223031"
+}

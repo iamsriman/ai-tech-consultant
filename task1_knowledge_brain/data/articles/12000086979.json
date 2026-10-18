@@ -1,0 +1,110 @@
+{
+  "article_id": "12000086979",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086979-ampify",
+  "title": "Ampify",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Ampify"
+  ],
+  "content": "## Ampify\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086979\n\n\n## Overview\n\n\nWe have created a partnership with Ampify.io in order to provide all BD users the option of using this service to turn member profile pages into Ampify ready pages.\n\nhttps://marketplace.brilliantdirectories.com/partner/amp-faster-websites\n\nAdd an AMP-compliant version of the site that’s lightweight and designed to give mobile visitors a lightning-fast, smooth, and engaging page experience. Ampify is built on top of Google’s AMP framework, it maximizes the Core Web Vitals score, thus providing better SEO and a 30% increase in search traffic on average.\n\nAMP pages are allowed in the top stories carousel, and are pre-loaded from Google’s fast CDN servers by default — leading to near-instant load times, which visitors can easily experience firsthand.\n\n\n## Getting the Ampify ID\n\n\nReach out to Ampify and inquire about getting an Account ID using the link below:\n\nhttps://marketplace.brilliantdirectories.com/partner/amp-faster-websites\n\nAmpify will provide the ID and that will need to be added into the advanced setting we have created for this integration.\n\nGo to Advanced Settings and search:\n\nAmpify Account Id\n\nSystem Variable: ampify_account_id\n\nEnter the Ampify Account Id provided by the Ampify team to enable this integration which will add a amphtml link to the member's profile pages.\n\nAmpify is used to create an Accelerated Mobile Page (AMP) compliant version of the website. AMP-compliant websites are lightweight and designed to give mobile visitors a fast, smooth, and engaging experience.\n\n\n## Using Ampify\n\n\nAfter adding the ID this integration will add an amphtml link to the member's profile pages:\n\nTo take a sneak peak to ensure everything is setup, navigate to a member's profile page. This amphtml link is accessible through the Page Source of the profile.\n\nTo view the AMP version of this page, click the amphtml link click on the profile url, this will open up a page that looks like this:\n\nThis means that the page is being processed by the Ampify servers. This process can take up to one hour in some cases.\n\nOnce the page has been processed by Ampify, click the amphtml link again from the Page Source, to see the ampify version of the member's profile page:\n\n\n## Google and AMP Pages\n\n\nGoogle Search indexes AMP pages to provide a fast, reliable web experience. When an AMP page is available, it can be featured on mobile search as part of rich results and carousels. While AMP itself isn't a ranking factor, speed is a ranking factor for Google Search.\n\nUnderstand how AMP looks in search results\n\nTest the validity of the AMP page using this tool:\n\nGoogle AMP Test",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107733714/original/dpuFgMY1DfNiglaYKMvyGoHTv9s4n7aAog.png?1650063981",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Ampify' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647505/original/I4Om4EALtLvZ2Up1_UYg2zC-iomJJGLtbg.png?1753161677",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Ampify' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107742562/original/wfDhdiIe5L7D0XEox04Nhqsfuc5chrUNrg.png?1650117342",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Ampify' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107742812/original/EUmvSpDjf8uj7VBM9_n8xg1R_JXj8by-hA.png?1650118433",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Ampify' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107742935/original/v87TzhvAqZDeaT3mbi6AOxmGW67AtVzBLw.png?1650119034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Ampify' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107743020/original/tnjjAFkHfWG3bOd8ct6KQSzu4X6vRItKCg.png?1650119419",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Ampify' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086979",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086979"
+    },
+    {
+      "text": "",
+      "url": "https://ampify.io/brilliant-directories-amp/"
+    },
+    {
+      "text": "",
+      "url": "https://ampify.io/brilliant-directories-amp/"
+    },
+    {
+      "text": "https://marketplace.brilliantdirectories.com/partner/amp-faster-websites",
+      "url": "https://marketplace.brilliantdirectories.com/partner/amp-faster-websites"
+    },
+    {
+      "text": "https://marketplace.brilliantdirectories.com/partner/amp-faster-websites",
+      "url": "https://marketplace.brilliantdirectories.com/partner/amp-faster-websites"
+    },
+    {
+      "text": "",
+      "url": "https://ampify.io/brilliant-directories-amp/"
+    },
+    {
+      "text": "",
+      "url": "https://ampify.io/brilliant-directories-amp/"
+    },
+    {
+      "text": "Understand how AMP looks in search results",
+      "url": "https://developers.google.com/search/docs/advanced/experience/about-amp"
+    },
+    {
+      "text": "Google AMP Test",
+      "url": "https://search.google.com/test/amp?utm_source=support.google.com/webmasters/&utm_medium=referral&utm_campaign=%207320015"
+    }
+  ],
+  "lastmod": "2025-07-22T10:51:20+05:30",
+  "scraped_at": "2026-10-18T13:49:39.252855"
+}

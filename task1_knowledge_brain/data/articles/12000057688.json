@@ -1,0 +1,89 @@
+{
+  "article_id": "12000057688",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057688-google-maps-issues-billing-errors",
+  "title": "Google Maps Issues: Billing Errors",
+  "category": "Settings",
+  "folder": "Google Maps Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Google Maps Troubleshooting",
+    "Google Maps Issues: Billing Errors"
+  ],
+  "content": "## Google Maps Issues: Billing Errors\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000057688\n\nBilling problem shown in the admin. When billing is not active on the Google Cloud project, the Google Maps API Status card on the dashboard shows a red Billing problem on your Google project for the affected key, and the red Google Maps Error button appears at the top of admin pages. Clicking either opens a details window with the billing fix steps. After billing is active, click Test key in that window to clear the alert. See Google Maps Issues: Index for how the alert works.\n\nCHECK ERROR CODE: Google Maps Issues: Index\n\nIf Google Maps locations aren't loading on the homepage or search modules even though the Initial Set Up Steps have been completed, it's most likely because the site is missing the billing information.\n\nThis can be easily fixed by logging into the Google API Console:\n\n>> https://console.cloud.google.com/apis\n\nNext Steps:\n\n1. Once logged in, in the dashboard, click on the \"Navigation Menu\":\n\n2. From there select \"Billing\":\n\n3. Now either edit or add a payment method:\n\nIf there is a valid card on file, the account may need to be \" Activated \":\n\nOther important things to check:\n\nYou may have multiple projects in your Google Cloud account. Make sure that the billing is enabled for the project that has the Google Maps API key that was added on your site: https://cloud.google.com/billing/docs/how-to/modify-project .\n\nTo make sure that the billing is enabled on this project go to: https://console.cloud.google.com/billing\n\nOn the sidebar menu, scroll down and click on Manage Account , here all the projects in this Google Cloud account appear, make sure all have the billing enabled by clicking on the 3 dots next to each project:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12073724718/original/sJZrPjNmIF-yYKnBWWJJWfo6UQkpUtqvPA.png?1581203345",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Billing Errors' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12073724732/original/fsHcpJ1ICsPcSt9gE3BkeoHHD3Rw58L6Tg.png?1581203406",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Billing Errors' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12073724735/original/OdpPWktBbaNG4eeXumzfbnqXVfyro5gCBg.png?1581203463",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Billing Errors' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095180803/original/GdjMeCXZjBUM2Z0IXTcJlMeSL_SD7MUMvQ.png?1625689724",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Billing Errors' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137377343/original/iM5EotfK4IWRWBrvTZIurfXXr5LuLBRbyw.png?1705538896",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Billing Errors' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000057688",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057688"
+    },
+    {
+      "text": "Google Maps Issues: Index",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097715"
+    },
+    {
+      "text": "Google Maps Issues: Index",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097715"
+    },
+    {
+      "text": "https://console.cloud.google.com/apis",
+      "url": "https://console.cloud.google.com/apis"
+    },
+    {
+      "text": "https://cloud.google.com/billing/docs/how-to/modify-project",
+      "url": "https://cloud.google.com/billing/docs/how-to/modify-project"
+    },
+    {
+      "text": "https://console.cloud.google.com/billing",
+      "url": "https://console.cloud.google.com/billing"
+    }
+  ],
+  "lastmod": "2026-09-29T22:41:56+05:30",
+  "scraped_at": "2026-10-18T13:44:54.640526"
+}

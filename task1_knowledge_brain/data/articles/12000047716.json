@@ -1,0 +1,23 @@
+{
+  "article_id": "12000047716",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047716-07-27-18-software-updates",
+  "title": "07/27/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/27/18 - Software Updates"
+  ],
+  "content": "## 07/27/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000047716\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was preventing the \"Cancel\" button in the Collect Payment Modal in the Admin area from working properly.\n\n- Newsletter Form (Newsletter Footer and Newsletter Module) error messages are now based on text labels. New labels: unique_email_address,valid_email_error.\n\n- We fixed an issue which was causing the Post Meta Details Sidebar widget to not display properly on the Details pages of Product posts. Widget Involved: Bootstrap Theme - Module - Post Meta Details\n\n- We fixed an issue that was causing the incorrect Product Level ID to display when editing a Promo Code.\n\n- We added the ability to hide the SSL Admin Banner Message on the Admin Area.\n\n- We fixed an issue which was causing the Phone Number button on Member Profile Pages to be hidden in some cases. Widget Involved: Bootstrap Theme - Member Profile - Header\n\n- We fixed an issue that was preventing the Subscriptions tab from displaying when viewing a member's Account Details page in the Admin area in some cases.\n\n- We fixed an issue which was causing the Export Member Data Add-On to freeze in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000047716",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047716"
+    }
+  ],
+  "lastmod": "2018-07-28T03:21:30+05:30",
+  "scraped_at": "2026-10-18T13:43:20.288404"
+}

@@ -1,0 +1,31 @@
+{
+  "article_id": "12000009585",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009585-understanding-actions-data-flows",
+  "title": "Understanding Actions / Data Flows",
+  "category": "Add-On Documentation",
+  "folder": "Automatic Lead Matching",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Automatic Lead Matching",
+    "Understanding Actions / Data Flows"
+  ],
+  "content": "## Understanding Actions / Data Flows\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000009585\n\nThis documentation covers features specific to the Automatic Lead Matching add-on.\n\nAutomatic Lead Matching Add-On\n\n\n## What Is It?\n\n\nThe Automatic Lead Matching add-on upgrades the default Leads system by introducing customizable Lead Actions—rules that control how leads are handled for different membership levels.\n\nThe standard Basic Leads Package includes:\n\n- Instant delivery for direct lead requests\n\n- Limit on how many members can accept a lead\n\n- Admin email alerts when new leads come in\n\nWith this add-on, custom Lead Actions can be created and assigned to individual membership levels, giving full control over how leads are distributed and managed.\n\nKey Features:\n\n- Auto-Match Control: Decide which members can receive leads automatically.\n\n- Custom Email Templates per Membership Level : Send different email content to free vs. paid members—thank paying members and encourage free users to upgrade.\n\n- Member Lead Acceptance Alerts : Get notified when a member accepts a lead—ideal timing to follow up or promote upgrades. Automate a thank-you or upsell email.\n\n- Sold-Out Lead Notifications: Get alerted when a member tries to claim a lead that’s already been sold. Trigger an automatic email explaining what happened and how to avoid it.\n\nThese features are exclusive to the Automatic Lead Matching add-on and designed to help automate lead distribution while maximizing upsell opportunities and overall lead management efficiency.\n\n\n## Create New Data Flows\n\n\nLearn about the default lead action and on how to create custom lead actions: Default Lead Action & Creating New Lead Actions",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000009585",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009585"
+    },
+    {
+      "text": "Automatic Lead Matching Add-On",
+      "url": "https://www.brilliantdirectories.com/advanced-leads-module-with-auto-matching"
+    },
+    {
+      "text": "Default Lead Action & Creating New Lead Actions",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000009583"
+    }
+  ],
+  "lastmod": "2025-06-01T05:29:46+05:30",
+  "scraped_at": "2026-10-18T13:40:17.372657"
+}

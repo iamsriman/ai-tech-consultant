@@ -1,0 +1,318 @@
+{
+  "article_id": "12000032881",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032881-easy-coupon-codes",
+  "title": "Easy Coupon Codes",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Easy Coupon Codes"
+  ],
+  "content": "## Easy Coupon Codes\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000032881\n\n\n## Overview\n\n\nWant to generate more revenue and grow the website community? The Easy Coupon Codes add-on is an incredibly simple way to give members additional discounts when signing up to the website.\n\nProvide the members with percentage-based and dollar-value discount codes and track the usage of all of the active coupon codes. Coupons can even be created with set start and expiration dates!\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Easy Coupon Codes\n```\n\nWhat can be done with this add-on?\n\n- Track usage to see which codes are converting best.\n\n- Create marketing campaigns with coupon code discounts.\n\n- Increase the reach by distributing coupon codes to affiliate marketers.\n\n- Increase member signups by motivating them to save money using coupon codes.\n\n- Promote the discount codes on coupon sharing websites to increase online visibility.\n\n- Use coupon codes for member upgrades. Free to Paid or Paid --> Paid Memberships.\n\n- Use coupons for one-time purchase as well such as: leads, pay per post, and digital products.\n\n- Membership plans, choose if it will only work with certain billing cycles: monthly, yearly, semi-annually etc.\n\n\n## Enabling the Add-On\n\n\nThe coupon codes add-on is found in the admin, under Finance » Coupon Codes :\n\nNOTE: This tab will appear only if the Coupon codes add-on is active or if the VIP Add-Ons are enabled on the website.\n\nThe admin can filter active or expired coupons by choosing the option here:\n\nTo create a coupon, click on the \" New Coupon Code \" button at the top right:\n\nIt will open the \" Add Coupon Code \" form:\n\n\n### Enter Coupon Code\n\n\nAdd the name of the coupon:\n\nFor example: If it is a Facebook promo code with a 20% off, we do recommend to use a word and number that specify what it is for.\n\n\n### Type of Discount\n\n\nThere are 3 types of discounts:\n\n- Percentage Discount : Ex.10% off, 30% off, 50%.\n\n- Fixed Value : $10 discount, $30 discount, $50 discount, $95 discount.\n\n- Price Override : The amount entered will override the membership price.\n\n\n### Enter Value of Discount\n\n\nIn this field, type the percentage, value or new price for the coupon. This will work with the type of discount that was selected in the Type of Discount setting. ** For percent-based discounts, enter value between 0 and 100. **\n\n\n### Maximum Uses\n\n\nIf \"0\" is used for the coupon will can be used unlimited times. If a number greater than 0 is entered, the system will only allow that amount of uses.\n\nEx: To only allow 5 people to use the coupon, type \"5\" and then the 6th person who enters the coupon code will get an error if they try to use it in the signup page.\n\n\n### Coupon Code Start Date\n\n\nThe start date will only apply for Coupons. So leave it blank and the coupon can be used right away. If a date is added, the coupon can only be used after that date.\n\nNOTE : This setting does not control the start date of the order itself. **\n\n\n### Expiration Date\n\n\nThe expiration date will only apply for Coupons. If this setting is left blank the coupon will not expire. If a date is added, the coupon will expire on that specific date.\n\nNOTE : This setting does not control the expiration date of the order itself. **\n\n\n### What Can This Code Be Used For?\n\n\nThere are 4 options:\n\n- Sign Ups & Upgrades Select which paid plans & cycles this code will work with.\n\n- Lead Purchases Select which plans can use this code for lead purchases.\n\n- Digital Products Select which plans can use this code for digital product purchases.\n\n- Pay-Per-Post Select which plans can use this code for pay-per-post purchases.\n\nWhen using the one time coupons, the option to add the code will appear in the checkout popup:\n\n\n### When Can This Code Be Used?\n\n\nThis is a NEW option added in our latest update. Now the coupon codes can be used for member upgrades as well (Free to Paid or Paid to Paid Memberships).\n\nKeep in mind that existing members cannot use codes that are only for NEW SIGN UPS.\n\n\n### Apply to Recurring Payments?\n\n\nIf YES , applies a discount to all recurring payments. If NO , only applies a discount to the first payment.\n\nExample:\n\n- To give them a permanent discount of 30%, choose: Y es .\n\n- To apply the discount only for the first payment, choose: No .\n\nNOTE: There is no way to give them 2 months off when the system takes the payments automatically. If the admin wants to do something like it should be done manually. The order will need to be stopped after the 2nd month and then a new order will need to be created with the full price.\n\n\n### Required Card When $0.00?\n\n\nIf set to YES , the billing information will be required upon sign up.\n\nIf set to NO , it will allow the new sign ups to proceed without adding billing information in the sign-up form.\n\n\n### Select Billing Cycles This Code Will Work With:\n\n\n\n### Select Membership Plans This Code Will Work With:\n\n\nIn this section, select the Membership plans that the coupon code to work with. On the right top side, there is a \"Search by Keyword\" option.\n\nThis is really helpful when there are more than 3 membership plans, this way it's easier to find them without scrolling down.\n\n- If the coupon code needs to work with ALL products, leave all UNCHECKED.\n\n- If the coupon code needs to ONLY work with one of them, please check it.\n\n\n### Internal Admin Notes\n\n\nIn this section, add any notes related to the coupon.\n\nEx: 30% OFF Facebook Code.\n\n\n## Adding the Coupon in the URL\n\n\nIt is also possible to automatically include the coupon code in the signup URL.\n\nThe format is the following:\n\ndomain/checkout/membership_plan_url/?refcode= name of the coupon .\n\nExample: https://addons.directoryup.com/checkout/2/?refcode=discount\n\nUsage Tracking\n\nUnder the Usage section it will display the Maximum Number of Uses selected, as well as the number of times this coupon has been used:\n\nRevenue\n\nUnder the Revenue section it will display the amount of money that the coupon has generated:\n\nIMPORTANT NOTES:\n\n- We recommend displaying only the monthly or yearly membership levels while using coupon codes because if the member uses the coupon code for 100% off the first time in a yearly membership, they will get a free year.\n\n- If the admin chooses \"Admin Only\" in all the payment options in a specific membership level (There is no payment option available) the system will use the preferred payment option:\n\nWhen the member uses a coupon code, they will see a message right under the order summary that says if the coupon is recurring or not.\n\nNOTE: The Order Summary needs to be enabled in the Membership Plan settings for the Promo Code field to display in the checkout page for that plan.\n\nThese messages are Text Labels and the admin can edit them under Settings » Text Labels:\n\nNOTE: The text label will be displayed depending on the type of discount (Selected in step 2 above).\n\n- Use Non-Recurring Help Text Label and Recurring Help Text Label for: » Percentage Discounts and Fixed Value promo codes.\n\n- Use Promo Code Override Recurring Label and Promo Code Override Non-Recurring Label for: » Price Override promo codes.\n\nOnce a coupon code has been used it will display in the Transaction History, in the Finance section. The transaction will indicate the member and a link to the coupon that was used by this member:\n\n\n## Who is this for?\n\n\nThe Easy Coupon Codes add-on is for website owners and businesses who are ready to drive sales and increase conversions.\n\nThis is the add-on is perfect if the answer is “ Yes ” to at least one of the following questions:\n\n- Do you want more members to join your website?\n\n- Do you want to generate more revenue from paying members?\n\n- Do you want to increase your brand’s online visibility?\n\n- Do you want a strategic tool to help market your website?\n\n- Do you want to track conversions from affiliate partners?",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153119680/original/u9clwJOi-SGGNweYgqAKCtcNmY2DZ8K-bQ.png?1732633984",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153119751/original/76kYTf_wkwtaBtLAgb39YvbNM7bI_Ud_xw.png?1732634016",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153119763/original/M8P49nl4SxDdNgRp2chp9FgR35_iOhO5VA.png?1732634038",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148829698/original/SccQvBFsrHXFh3Jim0yoczqAO0Mzwb7vWg.png?1725320675",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148829707/original/CGZGlh8YweoFIeo4KCZDrm1-0-X1YNZZIQ.png?1725320695",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148829708/original/r-k3IyU_hYSIv9GsSgNmz3c_kyQeNgorrw.png?1725320713",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148829711/original/m_iwAKc8BJpB-Jf47GiWhayZF2ySeBISUw.png?1725320724",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148868413/original/HIDujpLSiiYQrVbn7n6RzIVAPBv8N8_hHA.png?1725376952",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148868496/original/jT5yOm9fPyy4Y4pCpey2tPyMdOjzlnjXPw.png?1725377014",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148868513/original/uzR_FYv4lP0FI0dN0CJ1AEOlyz1PrK48nQ.png?1725377028",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168628/original/eD78Tlc5cz5LXHeO9uXk-KsCR6Wwk7kRSQ.png?1685464479",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126169034/original/OTbpeO_N4wY7RZ0vzhWXfz0TzHNA92g32Q.png?1685464882",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126169038/original/gAhZGda16Z3J2XSn4xZj7Tl2Yu0H-ECYlA.png?1685464888",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127198647/original/H4LljWNACIlFA2vX7A0NWEEuNXdb167dtA.png?1687279246",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127198653/original/CFdtxFQaUoMvEHeHh3sXkimfe9RdxB71ng.png?1687279264",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126188761/original/9DdKBsjPO_qAlopsA47n4xG81Y2xg1eAdA.png?1685487649",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167393/original/T8O3xbJ1rzX0Jg8nYde7SRgupAHWtn0ZBw.png?1685463395",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167429/original/7Aj-VHLo7pq6Iz2aONciyOIuXKI1lt_6Fw.png?1685463427",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148868660/original/0ryxdTtL2s-LLlGq50KdJaHtWlPPgLlnRA.png?1725377131",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092495863/original/AxYqbuo1ubQ2PuVw2VtOSirwJdytRsIHuQ.png?1620747931",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092495927/original/jV6uheWyeFguF4ik6Wnn8hi1OjULxmUUfg.png?1620747988",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167717/original/yfGrPo8pMS_rBZ0Na9O0Jh8s3P9Z3wvf8g.png?1685463688",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167891/original/Fuk4TXgfosyZ0gAdYDi4d0r6dAJVsLWDvQ.png?1685463838",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126167914/original/k7ZUsvg7aV-wqT9wgsiIbYGaHrNKrNtYrw.png?1685463871",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12135765697/original/j7_gxozW7nkefakFlTytZpU0vFK3SrvDsQ.png?1702397624",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153119864/original/_PrrdLdpOfdMJN99dqJediOzmlTT6kfiBA.png?1732634084",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153119912/original/kHlG3w5PYA3D7l_tmvElBsn5cSVEKZshUg.png?1732634097",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092496125/original/yneR5GLEa-5boZop3anmLzDpXilSQwyk9g.png?1620748262",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12082974973/original/pcnrJiy87VFEo90fui949RRQxhUPA8-hiw.png?1601348812",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126168549/original/JNFyBx5OrKkatmfHZujX-N8CoEJ5CmmMcQ.png?1685464446",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097037244/original/r6DC5GX3ZInhR44MJFSigCLG7ZLh1Hr2qA.png?1629321706",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Easy Coupon Codes' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000032881",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032881"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Easy Coupon Codes",
+      "url": "https://www.brilliantdirectories.com/easy-coupon-codes-add-on"
+    },
+    {
+      "text": "https://addons.directoryup.com/checkout/2/?refcode=discount",
+      "url": "https://addons.directoryup.com/checkout/2/?refcode=discount"
+    }
+  ],
+  "lastmod": "2026-08-28T21:53:13+05:30",
+  "scraped_at": "2026-10-18T13:41:28.152986"
+}

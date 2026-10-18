@@ -1,0 +1,85 @@
+{
+  "article_id": "12000097715",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097715-google-maps-issues-index",
+  "title": "Google Maps Issues: Index",
+  "category": "Settings",
+  "folder": "Google Maps Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Google Maps Troubleshooting",
+    "Google Maps Issues: Index"
+  ],
+  "content": "## Google Maps Issues: Index\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097715\n\nThere are 3 errors that can cause momentary interruptions to the Google Maps integration:\n\n- Missing an API\n\n- Missing HTTP Referrers\n\n- Billing Errors\n\nThese errors can be identified using the browsers INSPECT TOOL:\n\n\n## The Google Maps Error Alert in the Admin\n\n\nWhen Google refuses the Google Maps key, a red Google Maps Error button appears at the top of every admin page. The Google Maps API Status card on the dashboard (under My Website Resources ) shows the same result. The card has two rows, because the site uses two separate keys:\n\n- Website key : used for maps and location search on the website. This key is tested in the browser.\n\n- Server key : used for member geocoding and imports. This key is tested from the server.\n\nEach row shows its own result, such as Billing problem on your Google project , Google does not recognise this key , Maps JavaScript API is not enabled , or Google Maps key is working . Clicking a row, or the red Google Maps Error button, opens a details window that explains what Google reported and lists numbered fix steps.\n\n\n### Red, Amber and Green Results\n\n\nThe website key is tested from the admin first. When Google refuses the key only because the admin address is not in the key's website restrictions (normal for a key restricted to the website's own domain), the same test runs again on the website's live domain, exactly the way visitors use the key. That answer replaces the admin result, so a restricted key now shows a definite green or red result instead of amber.\n\n- Red : Google reported a real problem with the key, such as billing turned off, a key Google does not recognise, a required API that is not enabled, or Google refuses your key on your website when the live domain is missing from the key's website restrictions. The details window names Google's reason and lists the fix steps. Only red results raise the Google Maps Error button.\n\n- Amber ( Maps blocked on this admin page ): Google refused the key on the admin address and the live-domain test got no answer, because the domain is not connected to the site yet, does not resolve, or did not answer within about 20 seconds. This is not treated as an error and raises no alert. Check the website's own maps and location search directly, or test again once the domain is connected.\n\n- Green : Google accepted the key. Google Maps key is working means it was accepted on the admin address; Maps work on your website means it was accepted on the live domain (the admin address is refused, which only affects maps inside the admin).\n\nThe dashboard card shows the admin result first and switches to the live-domain result as soon as it arrives.\n\n\n### Testing the Keys on the Integrations Tab\n\n\nBoth keys can also be tested where they are entered: Settings > General Settings > Integrations , below the Google Maps Javascript API Key field.\n\n- Website key : tested when the tab opens, again shortly after typing stops in the key field, and again after Save Changes . A key that has only been typed is tested from the admin; if Google refuses it only on the admin address, the row reads Blocked on this admin page - save to test it on your website . Once saved, the key is also tested on the live domain as described above. A value that is not shaped like a Google key is flagged without asking Google (keys start with AIza and are 39 characters long).\n\n- Server key : tested from Brilliant Directories servers; the key itself is never sent to the browser. When no server key is saved, the row shows a grey No server key saved . A server key is only needed to geocode members during an import and for service-area search pages.\n\n- Edit both keys - Save & test : opens the same key editor as the details window. Each Test link re-runs that row's test.\n\nClicking a result opens the details window with Google's reason, the fix steps and the key editor. A key Google refuses in the editor is not saved.\n\n\n### What the Details Window Offers\n\n\n- Google Cloud Console : opens the Google Cloud Credentials page in a new tab.\n\n- Test key : tests the website key with Google right now. When Google accepts the key, the Google Maps Error button clears immediately. The server key row has no Test key button; that key is re-checked when an admin page loads.\n\n- Your Google Maps Settings : the website key, the server key and the Use Places API (New) switch can be edited right in the window. Click Save & test and each key is tested with Google first. A key Google refuses is not saved. Leaving the server key empty keeps the saved server key. The switch is the same setting as Enable New Google Maps Places API in Advanced Settings.\n\nPlaces API (New) switch. The Use Places API (New) switch can only be turned on when the key works with Places API (New). If the switch will not turn on, the key most likely does not have Places API (New) enabled in Google Cloud. Enable it as described in Google Maps: Add APIs , wait a few minutes, and try again.\n\n\n### How the Alert Clears\n\n\nAfter a fix, the alert clears itself. Admin pages re-check the keys about every 10 minutes and the Google Maps Error button fades once Google accepts the key. Test key or Save & test clears it immediately. A remembered error lasts at most 7 days. Placeholder sites on a directoryup.com address never show the alert, because the keys are checked only on live domains.\n\n\n## Missing an API\n\n\nSTEPS TO FIX: Google Maps Issues: Missing an API\n\n\n## Missing HTTP Referrers\n\n\nSTEPS TO FIX: Google Maps Issues: Editing HTTP Referrers\n\n\n## Billing Errors\n\n\nSTEPS TO FIX: Google Maps Issues: Billing Errors\n\n**** Google requires that all Maps API Keys have a credit card on file for any charges that the API usage may incur. That is due to a change in their policy, beginning on June 11, 2018, Google requires all users to add billing information to their account in order to activate Google Maps API keys.\n\nHowever, Google gives all users enough free credits each month so that the vast majority of websites will never have to pay anything for this service.\n\nIn fact, with this update Google is actually giving users even more free credit than before.  The only difference is that they now ask for billing information during the setup process rather than after a user consumes all of their free credits.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137360212/original/eC2Xaii_ZpFCwDr2SufHP_m8TY1NmHNcOw.png?1705517519",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Index' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358697/original/4xdp09cAvgyHqNEYrs_welLQk5H1S596CA.png?1791318680",
+      "alt": "The Integrations tab's Google Maps key tester, with numbered Website key and Server key result rows and the Edit both keys link.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Maps Issues: Index' (Settings > Google Maps Troubleshooting): The Integrations tab's Google Maps key tester, with numbered Website key and Server key result rows and the Edit both keys link.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137360157/original/xH2a_qWXeDSRZ0juwF31FP6l6U9gT-eI7Q.png?1705517473",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Index' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137372873/original/Mo4hswtTM0u-1Oy5z2l14VjQ_kEmu83eIA.png?1705530531",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Index' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12137374993/original/i3gvkEHrzgSgs09X0aO7XNl70d97Qax4TA.png?1705533604",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps Issues: Index' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097715",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097715"
+    },
+    {
+      "text": "Google Maps: Add APIs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055835"
+    },
+    {
+      "text": "Google Maps Issues: Missing an API",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000055835"
+    },
+    {
+      "text": "Google Maps Issues: Editing HTTP Referrers",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057655"
+    },
+    {
+      "text": "Google Maps Issues: Billing Errors",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057688"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:30+05:30",
+  "scraped_at": "2026-10-18T13:53:17.614534"
+}

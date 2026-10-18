@@ -1,0 +1,23 @@
+{
+  "article_id": "12000043026",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043026-04-06-18-software-updates",
+  "title": "04/06/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/06/18 - Software Updates"
+  ],
+  "content": "## 04/06/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000043026\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- Now the \"Recurring Subscriptions\" title heading on the Billing Details Page in the Member Dashboard is based on Text Labels. Text Labels: subscription_history additional_label\n\n- The Specialties Option in the Post Publishing tab when editing a Product in the Admin is now able to be selected and deselected again.\n\n- We fixed an issue which was affecting the normal behavior of the Recent Events  homepage widget. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We fixed an issue that was affecting the Member Dashboard Menu when a member visits the site using a mobile device. WIdget Involved: Bootstrap Theme - Account - Sidebar\n\n- We fixed an issue that was preventing Primary Admin accounts from editing other Admin accounts.\n\n- We added additional security checks to the Post Images upload system. Widgets Involved: Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Footer - Scripts\n\n- PayFast is now available as a supported payment gateway for customers in South Africa. Widget Involved: Bootstrap Theme - Account - Notifications Controller\n\n- We implemented a new search criteria in the Search Member page in the Admin: Transaction Types.  This will allow Admins to search members by the status of transactions associated with each member such as \"Paid\", \"Refunded\", \"Upcoming\" and \"Past Due\". Also, we added the ability to change the status of a member through a bulk action using a drop-down at the bottom of the Search Member page.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000043026",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000043026"
+    }
+  ],
+  "lastmod": "2018-04-07T07:48:59+05:30",
+  "scraped_at": "2026-10-18T13:42:28.383611"
+}

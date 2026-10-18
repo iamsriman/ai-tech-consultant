@@ -1,0 +1,33 @@
+{
+  "article_id": "12000096170",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096170-header-code-html-snippet-of-default-website-header",
+  "title": "Header Code - HTML Snippet of Default Website Header",
+  "category": "Developer Hub",
+  "folder": "HTML Code Snippets from Standard BD Website Theme",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "HTML Code Snippets from Standard BD Website Theme",
+    "Header Code - HTML Snippet of Default Website Header"
+  ],
+  "content": "## Header Code - HTML Snippet of Default Website Header\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096170\n\nThis article provides a sample HTML structure for the default Website Header included in the standard Brilliant Directories website theme.\n\nThe example demonstrates the default layout and commonly used HTML elements, CSS classes, and responsive components that make up the website header, including the logo area, navigation, search form, and mobile menu.\n\nThe following HTML snippet represents the default markup for the Website Header.\n\n```\n<!-- Header container starts --> <div class=\"header\"> <!-- Main container starts --> <div class=\"container\"> <!-- Row starts --> <div class=\"row vmargin\"> <!-- Website logo section starts --> <div class=\"col-md-5 tpad xs-nopad xs-hpad sm-text-center xs-bmargin header-left-container\"> <!-- Logo with title and slogan --> <a class=\"logo vpad xs-nomargin xs-nopad\" title=\"My New Website\" href=\"/\"> <i class=\"fa fa-user-circle pull-left hidden-sm hidden-xs bmargin\"></i> <!-- Icon for the website --> <span class=\"logo_title\">My New Website</span> <!-- Website title --> <span class=\"tpad slogan\">The #1 Website To Find Members Anywhere</span> <!-- Website slogan --> </a> <!-- Clearfix to clear the float values --> <div class=\"clearfix\"></div> </div> <!-- Website logo section ends --> <!-- Header right section starts --> <div class=\"col-md-7 text-right sm-text-center header-right-container nolpad xs-hpad\"> <!-- Mini navigation starts --> <ul class=\"mini-nav nobmargin list-inline xs-nopad xs-tmargin vpad\"> <li class=\"bmargin xs-nomargin\"><span class=\"bmargin\"> (800) 555-5555</span></li> <li class=\"bmargin xs-nomargin\"><a href=\"/about/contact\" class=\"hpad bmargin\">Contact Us</a></li> <li class=\"bmargin xs-nomargin\"><a href=\"/login\" class=\"rpad bmargin\">Member Login</a></li> <li class=\"bmargin norpad xs-nopad xs-vmargin\"><a href=\"/join\" class=\"btn btn_get_listed bold\">Members - Get Listed Today</a></li> </ul> <!-- Mini navigation ends --> <!-- Clearfix to clear the float values --> <div class=\"clearfix\"></div> <!-- Search form starts --> <form action=\"/search_results\" name=\"frm1\" class=\"form-inline website-search\"> <!-- Search by name or keyword input group --> <div class=\"input-group input-group-sm bmargin sm-autosuggest\"> <span class=\"input-group-addon hidden-md\"><i class=\"fa fa-search\"></i></span> <span class=\"input-group-sm input_wrapper\"><input type=\"text\" placeholder=\"Name or Keyword\" value=\"\" name=\"q\" class=\"member_search form-control input-sm\" autocomplete=\"off\"></span> </div> <!-- Search by city or postcode input group --> <div class=\"input-group input-group-sm bmargin\"> <span class=\"input-group-addon hidden-md\"><i class=\"fa fa-location-arrow\"></i></span> <span class=\"input-group-sm input_wrapper\"><input type=\"text\" placeholder=\"City or Post Code\" value=\"\" name=\"location_value\" class=\"googleSuggest googleLocation form-control\"></span> </div> <!-- Search button --> <input type=\"submit\" value=\"Search\" class=\"btn btn-sm btn_search bmargin xs-btn-block bold\"> </form> <!-- Search form ends --> </div> <!-- Header right section ends --> </div> <!-- Row ends --> </div> <!-- Main container ends --> <!-- Mobile menu container starts --> <div class=\"mobile-main-menu\"> <ul class=\"sidebar-nav\"> <li class=\"hasChildren\"><a href=\"/home\">Home</a><div class=\"clearfix\"></div></li> <li class=\"hasChildren\"><a href=\"/search_results\">Member Directory</a><div class=\"clearfix\"></div></li> <li class=\"hasChildren\"><a href=\"/about\">How It Works</a><div class=\"clearfix\"></div></li> <li class=\"hasChildren\"><a href=\"/blog\">Latest News</a><div class=\"clearfix\"></div></li> <li class=\"hasChildren\"><a href=\"/join\">Join Today</a><div class=\"clearfix\"></div></li> </ul> </div> <!-- Mobile menu container ends --> <!-- Main navigation starts --> <nav class=\"navbar navbar-default \"> <div class=\"container container-fluid\"> <!-- Navbar header starts --> <div class=\"navbar-header\"> <!-- Mobile menu toggle button --> <button type=\"button\" class=\"navbar-toggle collapsed main_menu\" data-toggle=\"collapse\" aria-label=\"main_menu\"> <i class=\"fa fa-bars fa-fw\"></i> </button> </div> <!-- Navbar header ends --> <!-- Tablet menu starts --> <div class=\"tablet-menu collapse navbar-collapse nopad\" id=\"bs-main_menu\"> <ul class=\"tablet-menu-ul nav navbar-nav nav-justified\"> <li class=\"\"><a href=\"/home\">Home</a></li> <li class=\"\"><a href=\"/search_results\">Member Directory</a></li> <li class=\"\"><a href=\"/about\">How It Works</a></li> <li class=\"\"><a href=\"/blog\">Latest News</a></li> <li class=\"\"><a href=\"/join\">Join Today</a></li> </ul> </div> <!-- Tablet menu ends --> </div> </nav> <!-- Main navigation ends --> </div> <!-- Header container ends -->\n```\n\nThis code can be used as a reference when creating custom header layouts, modifying the default website header, or identifying the HTML elements and CSS classes used by the standard Brilliant Directories theme.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132163569/original/oEMJvFWllqu-jeqiSvuH8yF90SHRRLSxfQ.png?1696283114",
+      "alt": null,
+      "caption": "The following HTML snippet represents the default markup for the Website Header.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Header Code - HTML Snippet of Default Website Header' in section 'Developer Hub' / 'HTML Code Snippets from Standard BD Website Theme'. Context: The following HTML snippet represents the default markup for the Website Header.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096170",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096170"
+    }
+  ],
+  "lastmod": "2026-06-27T04:28:53+05:30",
+  "scraped_at": "2026-10-18T13:52:52.465410"
+}

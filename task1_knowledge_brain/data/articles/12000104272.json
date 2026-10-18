@@ -1,0 +1,118 @@
+{
+  "article_id": "12000104272",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104272-error-reporting-for-php-and-widgets-forms-and-menus",
+  "title": "Error Reporting for PHP and Widgets, Forms, and Menus",
+  "category": "Toolbox",
+  "folder": "Widget Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Widget Manager",
+    "Error Reporting for PHP and Widgets, Forms, and Menus"
+  ],
+  "content": "## Error Reporting for PHP and Widgets, Forms, and Menus\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104272\n\nError handling has been improved across all BD websites, including widgets, forms, and menus.\n\nInstead of pages or features failing to load silently, regular users will now see clear and friendly messages when something doesn’t work as expected. Admins get more detailed information to help identify and resolve issues quickly. For more complex situations, our support team continues to receive full technical details to provide additional help.\n\nThe PHP errors will show up on these sections:\n\n- Widgets\n\n- Forms\n\n- Menus\n\n\n## Minor Errors\n\n\nThese are the kinds of errors that will break certain functionality, like a search bar, but not the entire page.\n\n\n### Website Member/User for Widgets\n\n\nIn this example, the header search module is missing. Users won't see the error, the section will simply not appear.\n\n\n### Website Admins for Widgets\n\n\nThere will be more information available when a website admin is logged in. The widget name and/or PHP error will be displayed.\n\n\n### Website Member/User for Forms\n\n\nIn this example, the Website - Contact Us form is missing. Users won't see the error, the page will simply show blank.\n\n\n### Website Admins for Forms\n\n\nThere will be more information available when a website admin is logged in. The form name and/or PHP error will be displayed.\n\n\n### Website Member/User for Menus\n\n\nIn this example, the footer menu is missing. Users won't see the error, the section will simply not appear.\n\n\n### Website Admins for Menus\n\n\nThere will be more information available when a website admin is logged in. The menu name and/or PHP error will be displayed.\n\n\n### Edit Mode\n\n\nThis also appears when the website is in \"edit mode\" accessible through the admin bar.\n\n» How to Locate Widgets, Sidebars, Menus, and Forms Via Admin Bar\n\n\n## Critical Errors\n\n\nThese kinds of errors will shut down an entire site or page.\n\nThese errors will automatically notify our technical team so they can investigate the issue.\n\n\n### Website Member/User\n\n\nThere will be a message indicating that the site cannot load the page with an option to return to the homepage.\n\n\n### Website Admins\n\n\nThere will be more information available when a website admin is logged in. The widget name and/or PHP error will be displayed.\n\n\n### Brilliant Directories Support\n\n\nOur technical and support teams will be able to see in-depth information about the error so we can quickly resolve the fatal error presented by the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160884055/original/98vrPFTr8OzSG7TclmHUlqrXTFc2JV6jJQ.png?1746497857",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160882608/original/t0de5HB_WIMvfRtxY8C4vpZglUHdBdXCUw.png?1746493786",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161496255/original/RZu_hX3ZhbnKZAlhg_xo-shedx2QSPc7Dg.png?1747603631",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161496245/original/zodG-1RxrZFUG7qAdt3oUR-Ntp502sZOiQ.png?1747603591",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161496362/original/d2kJ5pLAW_yq7Y8PgIIkrmyvm9HJfFl29Q.png?1747604244",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161496381/original/Ia6VPFdeuxOBnIMda92M8d3X1DHVxPUtWA.png?1747604324",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160882611/original/irclxZUH27fbkGOzGkrYXmbTZRBjP5ipUg.png?1746493795",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160883588/original/tjZX0R4Ci41244tGL9qXJa5Nkano1TUelA.jpeg?1746496769",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160884103/original/JiiY-OzNUxF13lE2we94a3YV7xXNpcoODQ.jpeg?1746498012",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160882321/original/Fsdlxa1CVsHg5Z6Bc2kVInS4tHolMkdBxw.png?1746493216",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Error Reporting for PHP and Widgets, Forms, and Menus' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104272",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104272"
+    },
+    {
+      "text": "How to Locate Widgets, Sidebars, Menus, and Forms Via Admin Bar",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051553"
+    }
+  ],
+  "lastmod": "2026-09-10T07:40:31+05:30",
+  "scraped_at": "2026-10-18T13:56:02.389743"
+}

@@ -1,0 +1,65 @@
+{
+  "article_id": "12000101331",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101331-how-to-optimize-the-bandwidth-usage-of-a-site",
+  "title": "How to Optimize the Bandwidth Usage of a Site",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "How to Optimize the Bandwidth Usage of a Site"
+  ],
+  "content": "## How to Optimize the Bandwidth Usage of a Site\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101331\n\n\n## How to Optimize the Bandwidth Usage of a Site\n\n\nHigh bandwidth usage can affect website performance and can require additional capacity. The tools below help measure traffic and reduce unnecessary transfer.\n\n\n### Viewing Bandwidth Usage\n\n\n\n### Domain Manager\n\n\nOpen Settings > Domain Manager > Usage for the current usage summary. The displayed limit includes the website license and any capacity purchased through the VIP Add-Ons Club or Bandwidth Boost Add-Ons .\n\nThe Usage tab compares current consumption with the website’s plan limits.\n\n\n### cPanel\n\n\nOpen Developer Hub > cPanel Dashboard , then select Bandwidth under Metrics. cPanel includes historical totals and separates traffic such as HTTP, FTP, IMAP, POP3, and SMTP.\n\n\n### AWStats\n\n\nAWStats identifies traffic sources and the bandwidth each source consumed. See Identifying Sources of Bandwidth Usage with AWStats .\n\n\n### General Strategies\n\n\n\n### Set Up Cloudflare\n\n\nCloudflare can cache static files and filter unwanted traffic, reducing requests to the origin server. See Connecting a Site to Cloudflare .\n\n\n### Optimize Images\n\n\nImageKit can resize and optimize images for the requesting device. See Use a Content Delivery Network for Images .\n\n\n### Remove Unneeded Screenshot Previews\n\n\nDisable screenshot previews in admin areas where they are not useful, including Dashboard, Web Page Builder, Edit Post Settings, Form Manager, and Domain Manager.\n\n\n### Address Specific Traffic Sources\n\n\nUse AWStats before blocking traffic. For sites using Cloudflare, its WAF custom rules can restrict selected countries or request patterns. Other sites can use the Block Traffic by Country tool.\n\nRestore the default crawler rules or add deliberate custom rules through the robots.txt documentation . Blocking legitimate search crawlers can reduce indexing.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668551/original/mTOt576FMgjIQ4_oz3gJLDCTkWNFDJ0HQA.png?1790182305",
+      "alt": "Usage tab with the member, bandwidth, storage, and daily email allowances marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How to Optimize the Bandwidth Usage of a Site' (Get Started Here > Common Questions & Troubleshooting): Usage tab with the member, bandwidth, storage, and daily email allowances marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101331",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101331"
+    },
+    {
+      "text": "VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Bandwidth Boost Add-Ons",
+      "url": "https://www.brilliantdirectories.com/website-bandwidth-boost-add-on"
+    },
+    {
+      "text": "Identifying Sources of Bandwidth Usage with AWStats",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101333"
+    },
+    {
+      "text": "Connecting a Site to Cloudflare",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084176"
+    },
+    {
+      "text": "Use a Content Delivery Network for Images",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087030"
+    },
+    {
+      "text": "WAF custom rules",
+      "url": "https://developers.cloudflare.com/waf/custom-rules/create-dashboard/"
+    },
+    {
+      "text": "Block Traffic by Country",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098368"
+    },
+    {
+      "text": "robots.txt documentation",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075850-developer-hub-robots-file"
+    }
+  ],
+  "lastmod": "2026-09-23T22:32:09+05:30",
+  "scraped_at": "2026-10-18T13:54:51.642772"
+}

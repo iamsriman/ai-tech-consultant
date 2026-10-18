@@ -1,0 +1,23 @@
+{
+  "article_id": "12000054260",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054260-02-08-19-software-updates",
+  "title": "02/08/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/08/19 - Software Updates"
+  ],
+  "content": "## 02/08/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000054260\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added Danish as a new language option that can be selected for the Google Map Language setting in the Admin.\n\n- We removed the \"Image Filter\" link when we right-click on an image file in the Admin Media Manager.  We also added the \"Copy File URL\" link when a user right-clicks on a PDF file.\n\n- The Admin Account last login date is now based on the Website Time Zone setting ( General Settings >> Configuration tab >> \"Website Time Zone\" ) instead of the server's timezone.\n\n- We deprecated the ability to edit the sort order of images in Photo Album Posts (Classifieds,Products,Photo Albums,Properties) on mobile devices as it was causing usability issues when scrolling on the page.  The sort order can still be edited on all other devices. Note: This ability was available when the lazy_load A dvanced Settings was set as 0. Widgets Involved: Bootstrap Theme - Account - Photo Albums Bootstrap Theme - Account - Photo Albums Sort\n\n- We fixed an issue with the Members-Only Access setting on the Edit Post Settings page in the Admin.   This setting is available when the Members-Only Content Add-On is active on a Site. Widget Involved: Bootstrap Theme - Photo Album Page\n\n- We fixed an issue with the Spam Form Protector that was preventing members from signing up on a website in some cases.\n\n- We fixed an issue which was preventing an email notification from being sent to a user when they signup for a site's Newsletter. Widget Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- We fixed an issue with the Google Recaptcha used on the Get Matched form of sites in some cases. Widgets Involved: Bootstrap Theme - Form - Lead Prefer Reply Day Bootstrap Theme - Form - Lead Prefer Reply Time System - SaveForm\n\n- We released a large security updated which adds additional encryption to multiple layers of the Brilliant Directories infrastructure.\n\n- We fixed an issue which was causing the Recent Events widget to not display the newest event posts even when the Display Order settings was set to display the Newest Event first.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000054260",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000054260"
+    }
+  ],
+  "lastmod": "2019-03-09T01:14:06+05:30",
+  "scraped_at": "2026-10-18T13:44:29.820119"
+}

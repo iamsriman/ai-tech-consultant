@@ -1,0 +1,27 @@
+{
+  "article_id": "12000031474",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000031474-06-23-17-software-updates",
+  "title": "06/23/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/23/17 - Software Updates"
+  ],
+  "content": "## 06/23/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000031474\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added an extra validation in the General Settings Page - now the fields \"Default Website Email\" and \"Email Domain\" are checking if the values entered have a correct email syntax before the values can be saved.\n\n- The Member Leads Page in the Member Dashboard has been refactored and now has a new design. We added pagination and a search to this page to manage large numbers of leads much more easily. All new sites launched from today on will have this option activated by default.  If your license was purchased before this week, you can activate it by following these instructions: Navigate to the site Admin >> Settings >> Advanced Settings and search for the activate_dashboard_leads_pagination setting and change the value to 1. Widgets Involved: Bootstrap Theme - Account - Leads Bootstrap Theme - Account - Leads - New Lead System DataTables Bootstrap Theme - Account - Leads Details Page - New Lead System Bootstrap Theme - Account - Sidebar\n\n- Now the Update Billing page in the Member Dashboard is based on Text Labels. Widgets Involved: WHMCS2 - Bootstrap Theme - Account - Update Billing\n\n- This week we made some updates to the workflow of how Default Widgets are customized.  These updates are intended to prevent a website owner from accidentally creating a custom version of a Default Widget when not necessary, which will help ensure all websites are using the most up-to-date code at all times. For more information click here .\n\n- The display text in the following widgets are now based on Text Labels: Widgets Involved: Bootstrap Theme - Homepage Search - Keyword Search Bootstrap Theme - Account - Profile Image Upload Bootstrap Theme - Display - Post Location Modal",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000031474",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000031474"
+    },
+    {
+      "text": "here",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/12000025662-customizing-widgets"
+    }
+  ],
+  "lastmod": "2017-06-24T00:18:40+05:30",
+  "scraped_at": "2026-10-18T13:41:23.571757"
+}

@@ -1,0 +1,42 @@
+{
+  "article_id": "12000099165",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099165-member-me-shortcode",
+  "title": "Member \"[me=]\" Shortcode",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Member \"[me=]\" Shortcode"
+  ],
+  "content": "## Member \"[me=]\" Shortcode\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099165\n\nThere is shortcode for all member variables for logged in members viewing the website content. These are variables that can be used with % signs rather than echoing values in the $user[] array for referencing these values.\n\nUse shortcodes like [me= first_name ] to dynamically display member information right on their dashboard or in any text label.\n\n\n## Member \"[me=]\" Shortcode Example\n\n\nUsing the Dashboard Header Content add in the message:\n\nThis shows up on the front end with the member name:\n\n\n## Member \"[me=]\" Keys\n\n\nPossible keys that can be used with => [ me= xxxxx ]:\n\nuser_id first_name last_name email company phone_number address1 address2 city zip_code state_code state_ln country_code country_ln website twitter youtube facebook linkedin blog quote experience affiliation awards about_me featured modtime subscription_id filename active token ref_code signup_date cookie last_login position instagram credentials bitly profession_id facebook_id google_id verified pinterest nationwide cv work_experience rep_matters gmap listing_type lat lon parent_id no_geo user_consent search_description geo_state sign_up_origin clientid is_subscription_active free_stock_images filename_hidden seo_page_title_hidden seo_page_keywords_hidden seo_page_description_hidden seo_social_page_title_hidden seo_social_page_description_hidden orderid productids invoiceid country_sn state_sn all_subcategories service full_name full_name_short country_name state_name name location user_location user_location profession_name profession gmap_zoom member_since signup_date_format service_name photo_file logo_file cover_photo image_main_file member_login_link default_category_image plus user_meta, meaning any other field created on forms related to user like contact details, listing details about_me...",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12141831308/original/8JFXs1Q9mWDOIpqTbTNQxwpt97VPMUgC2g.png?1713286444",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member \"[me=]\" Shortcode' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12141831152/original/ZoODHE134ofRmfdMlvZHlLlcMIDEivI2vQ.png?1713286290",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member \"[me=]\" Shortcode' in section 'Developer Hub' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099165",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099165"
+    }
+  ],
+  "lastmod": "2024-06-26T06:44:34+05:30",
+  "scraped_at": "2026-10-18T13:53:49.803660"
+}

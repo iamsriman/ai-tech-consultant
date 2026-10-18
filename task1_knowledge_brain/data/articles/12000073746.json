@@ -1,0 +1,126 @@
+{
+  "article_id": "12000073746",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073746-how-to-limit-signups-to-one-country-uk-example-",
+  "title": "How to Limit Signups to One Country (UK example)",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "How to Limit Signups to One Country (UK example)"
+  ],
+  "content": "## How to Limit Signups to One Country (UK example)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000073746\n\nIn this article, we are going to explain how to hide ‘UK’ as a country and select England, Northern Ireland, Scotland, and Wales instead.\n\nThe location system is based on the Google Maps structure and Google Maps treats the UK as a \"Country\" and England, Northern Ireland, Scotland and Wales as \"States\" (even though technically they are sub-countries of the UK).\n\nThis is what it looks by default:\n\nThis is how it will look after editing the form:\n\nNote : There is no automated way to 100% prevent members not in the country from signing up.\n\n\n## Customizing the Form\n\n\n1. Navigate to Toolbox » Form Manager.\n\n- If the website is using an on-site payment gateway like Stripe, PayPal Payments Pro, Authorize.net, PayPal Payflow, or eWay, edit this form \" whmcs_signup_paid \".\n\n- If the website is using an off-site payment gateway like PayPal Standard, 2Checkout, or PayFast, edit this other form: \"whmcs_signup_external \".\n\n2. At the top right there is a search bar, Conduct a search for \"Paid\", select the correct form based on the information in Step 1, and then click Actions » Customize :\n\n3. Find the field with database variable country_code and update the following settings:\n\nField Type: Hidden Field\n\nLabel Name: GB\n\nSystem Variable: country_code\n\n4. Then find the field with database variable state_code and edit the following sections:\n\nField Type: Dropdown List (select Custom HTML option here for non-UK scenarios)\n\nLabel Name: %%%cc_country%%% (The value to use for non-UK scenarios is provided below)\n\nSystem Variable: state_code\n\nEnter CSS Class: form-control\n\nDisplay Options: Set all to YES\n\nHow this form field looks for UK scenarios:\n\nAs shown in the screenshot above, if 'Dropdown List' is selected as a field type, a button called \"ADD OPTION\" will be displayed at the bottom. Here the respective country values can be inserted. For this to work as expected, make sure to use the Database Variable names specified in the image above.\n\nFor non-UK scenarios, this might take a very long time to add each state and their respected database variable. As a work-around, a widget can be created with these values and this widget can be called on this form field instead. To accomplish this, create a new widget with the following information (the US states example):\n\n<label class=\"vertical-label bd-text\">States</label>\n<select name=\"state_code\" class=\"form-control\" style=\"margin-bottom: 7px;\" id=\"state-chained\">\n    <option value=\"\">(Select from List)</option>\n    <option value=\"AL\">Alabama</option>\n    <option value=\"AK\">Alaska</option>\n    <option value=\"AZ\">Arizona</option>\n    <option value=\"AR\">Arkansas</option>\n    <option value=\"CA\">California</option>\n    <option value=\"CO\">Colorado</option>\n    <option value=\"CT\">Connecticut</option>\n    <option value=\"DE\">Delaware</option>\n    <option value=\"DC\">District Of Columbia</option>\n    <option value=\"FL\">Florida</option>\n    <option value=\"GA\">Georgia</option>\n    <option value=\"HI\">Hawaii</option>\n    <option value=\"ID\">Idaho</option>\n    <option value=\"IL\">Illinois</option>\n    <option value=\"IN\">Indiana</option>\n    <option value=\"IA\">Iowa</option>\n    <option value=\"KS\">Kansas</option>\n    <option value=\"KY\">Kentucky</option>\n    <option value=\"LA\">Louisiana</option>\n    <option value=\"ME\">Maine</option>\n    <option value=\"MD\">Maryland</option>\n    <option value=\"MA\">Massachusetts</option>\n    <option value=\"MI\">Michigan</option>\n    <option value=\"MN\">Minnesota</option>\n    <option value=\"MS\">Mississippi</option>\n    <option value=\"MO\">Missouri</option>\n    <option value=\"MT\">Montana</option>\n    <option value=\"NE\">Nebraska</option>\n    <option value=\"NV\">Nevada</option>\n    <option value=\"NH\">New Hampshire</option>\n    <option value=\"NJ\">New Jersey</option>\n    <option value=\"NM\">New Mexico</option>\n    <option value=\"NY\">New York</option>\n    <option value=\"NC\">North Carolina</option>\n    <option value=\"ND\">North Dakota</option>\n    <option value=\"OH\">Ohio</option>\n    <option value=\"OK\">Oklahoma</option>\n    <option value=\"OR\">Oregon</option>\n    <option value=\"PA\">Pennsylvania</option>\n    <option value=\"RI\">Rhode Island</option>\n    <option value=\"SC\">South Carolina</option>\n    <option value=\"SD\">South Dakota</option>\n    <option value=\"TN\">Tennessee</option>\n    <option value=\"TX\">Texas</option>\n    <option value=\"UT\">Utah</option>\n    <option value=\"VT\">Vermont</option>\n    <option value=\"VA\">Virginia</option>\n    <option value=\"WA\">Washington</option>\n    <option value=\"WV\">West Virginia</option>\n    <option value=\"WI\">Wisconsin</option>\n    <option value=\"WY\">Wyoming</option>\n</select>\n\nThen call this widget on the form field using its shortcode method . This is what the end result would look like:\n\n5. Find the field with label </div><div class=\"col-lg-6\"> and change the value to </div><div class=\"col-lg-12\"> :\n\nNow, the default \"State Field\"will not appear and the \"Country\" field will show these 4 options: England, Northern Ireland, Scotland, and Wales.\n\n\n## Member Forms\n\n\nThere are steps that can help prevent members from saving an address outside the target country in the Contact Details form.\n\nFirst, edit the Contact Details form and add the \" readonly \" class to the following fields:\n\n- address1\n\n- city\n\n- zip_code\n\nThis can also be added to the state_ln and country_ln fields, but these are not editable by default.\n\nDoing this makes the fields uneditable through the UI:\n\nNote : If the user is a more advanced technical user, they will still be able to modify the page source through the browser to force different values for these fields, but this is unlikely to affect typical users.\n\nNext, navigate to the General Settings » Localization tab. Set the Primary Country to the site's target country and set \"Location Search Suggestions\" to \"Only Search Within Primary Country\":\n\n» How to Localize the Website\n\nThis will limit Google Maps results to locations within the selected country when a member enters their location in the Contact Details form in the Member Dashboard.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092393826/original/lTqQkm4D28ZwsKKH_hc1KApcagsitogYMg.png?1620611596",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12081698724/original/w9VRJUN-MuxAz2x6N8qwypXUH4K1VZfLDw.png?1598560943",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092698763/original/tswmFhXFnWM7dEaoYT6z08IhvzUCkmt9lg.png?1621184873",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092698903/original/GQh_KhhZTa5wY50tlPUEA5rfFv229ACNPQ.png?1621185610",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096320824/original/itJ2OPk5k6e1ukDxqqAofzAHbvD2xqwbWQ.png?1627944091",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096321152/original/mj24ffqKhCkaREvzzI9MNAlbxcYpRhxfig.png?1627944872",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096321295/original/rHkUEtAlSCy1CmBUE0j0RvvHIKTOaE_vSg.png?1627945255",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12081660648/original/va2_5c4eYuMVWfAzU04-ui9bp1Xkq2Kd4A.png?1598501661",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109089246/original/BloFvt9pY_j7mK4MmoqPkMU1MM5Hnp_FZw.jpeg?1652803245",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109089266/original/KB9_hXaxWyS6BtBwpjN-ecsPXk6SKouH6w.jpeg?1652803288",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Limit Signups to One Country (UK example)' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000073746",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073746"
+    },
+    {
+      "text": "create a new widget",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078432"
+    },
+    {
+      "text": "shortcode method",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051582"
+    },
+    {
+      "text": "How to Localize the Website",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000003018"
+    }
+  ],
+  "lastmod": "2026-06-16T20:05:57+05:30",
+  "scraped_at": "2026-10-18T13:47:01.894725"
+}

@@ -1,0 +1,27 @@
+{
+  "article_id": "12000068610",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068610-03-13-20-software-updates",
+  "title": "03/13/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/13/20 - Software Updates"
+  ],
+  "content": "## 03/13/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000068610\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to display \"0\" when a custom checkbox field was displayed on member profile pages.\n\n- We fixed an issue with the Admin Menu which was causing the system to display the Autosuggest Settings link when the Add-On was not activate on a site.\n\n- We fixed an issue which was causing the system to display the wrong member images on the \"Members Chat\" page in the Member Dashboard when the 2 parties to the conversation were a parent account and one of its sub accounts.\n\n- We updated the Website Activity Tracker in order to log the member email address and ID when a member is deleted from a site. We also added the ability to log the form variable name every time a member submits a form in the Member Dashboard area.\n\n- We updated the SPAM Form Protector Add-On to not apply to paid member sign ups as there are other checks already in place to prevent SPAM signups. We also improved the error message when a form submission is blocked by the Spam Form Protector on free signup forms in order to display more detailed information when and Administrator is viewing the site.\n\n- We added the ability to include the \"Insert Table\" feature for the Froala WYSYWYG when editing single Web Pages in the Admin.\n\n- We fixed an issue with the Bookmark Counter Add-On which was causing the system to not record the the correct number of clicks when a user clicks the Bookmark button multiple times in quick succession.\n\n- We added the ability to change the Parent Member of a Sub-Account and transfer ownership of posts between members through the bulk actions on the Search Members page in the Admin.\n\n- We added the ability for members to update their Billing Address separately from their profile address.  Their billing address appears on invoices and is associated with their credit card on file.  This can now be done from the Billing Details page in the Member Dashboard area.\n\n- We improved the logic of the Member Categories Import tool in order to support special characters and fix a bug with importing Top Level Categories.\n\n- We fixed an issue which was causing the Origin Page URL field on the Lead Details page in the Member Dashboard to be formatted incorrectly in some cases. Widget Involved: Bootstrap Theme - Display - Lead Origin URL\n\n- We fixed an issue which was affecting the ability to search for members by keyword in some cases.\n\n- We released the Hidden Member Profiles Add-On. Click here for more information.\n\n- We added a new Membership Plan setting for the Advanced Post Moderation Add-On called \"Post Moderation Settings\"  This new setting will allow to set how posts are published on a per-Post Type basis for each Membership Plan, granting even more granular control than before. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- We fixed an issue which was causing the system to create members even when the signup process fails when Stripe is set as the Payment Gateway in some cases.\n\n- We updated the \"Resend Email Verification\" button that appears at the top of the Member Dashboard when a member is not yet active in order to show a verification alert after the button has been clicked and the verification email has been re-sent successfully. Widgets Involved: Bootstrap Theme - Account - Sidebar Bootstrap Theme Framework\n\n- We fixed an issue which was preventing the system from displaying Transaction History data for individual members on the Member Account Details page in the Admin in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000068610",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068610"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/hidden-member-profiles-add-on"
+    }
+  ],
+  "lastmod": "2020-03-16T23:27:09+05:30",
+  "scraped_at": "2026-10-18T13:46:13.726274"
+}

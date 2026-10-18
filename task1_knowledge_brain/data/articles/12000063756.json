@@ -1,0 +1,23 @@
+{
+  "article_id": "12000063756",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063756-10-11-19-software-updates",
+  "title": "10/11/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/11/19 - Software Updates"
+  ],
+  "content": "## 10/11/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000063756\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the \"Pay Per Post\" Add-On which was preventing the \"Pay\" button from redirecting the user to the payment page when the site did not have an SSL certificate installed.\n\n- We fixed a display issue which was causing the \"Additional Settings\" dropdown on Post Settings pages in the Admin to be misaligned after being clicked on certain screen sizes.\n\n- We removed the hreflang HTML tag from the \"Bootstrap Theme - HEAD\" widget. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the \"Highlight Member Result\" Add-On to add some extra padding between the member image and the highlight border when a member search result is highlighted.\n\n- We fixed an issue which was preventing the \"Sort by Z-A\" option for Recent Top and Sub Category widget from working properly when the \"Show Categories with Photos\" setting was enabled as well. Widgets Involved: Bootstrap Theme - Display - Top Categories Bootstrap Theme - Display - Sub Level Categories\n\n- We added the ability to override the Member and Post Search Results Layout design setting by adding a request parameter in the URL of a search results page. Use the view=grid parameter to change the search results layout to grid view and view=map to change it to map view on the fly. Widget Involved: Bootstrap Theme - Footer - Scripts\n\n- We fixed an issue which was results that contained an apostrophe in the name from displaying in the Predictive Keyword Search dropdown of keyword search fields. Widget Involved: Bootstrap Theme - Function - API\n\n- We fixed an issue with the Members Only Add-On which was preventing post details pages from being set as Members Only in some cases. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We fixed an issue with the Member Import feature which was preventing the \"Name\" column from being imported  correctly in some cases.\n\n- We deprecated the \"Members Only\" option on the General Settings page in the Admin as this is now enabled by updating the setting on individual website pages and the Post Settings pages in the Admin instead.\n\n- We fixed an issue which was preventing the system from marking invoices as paid even when the invoices have been paid successfully using 2Checkout as the payment gateway.\n\n- We fixed an issue which was affecting the ability to use the \"View Code\" feature of the Froala WYSYWYG in the Edit Web Pages section of the Admin in some cases.\n\n- We updated the \"Send Newsletter\" page in the Admin to now show a notification when an email will not be sent to certain contacts on the list and the reason why.\n\n- The \"form-control\" class is now applied by default to all form fields displayed through the Form Manager to ensure custom form fields display properly on the frontend of all websites.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000063756",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063756"
+    }
+  ],
+  "lastmod": "2019-10-12T05:26:55+05:30",
+  "scraped_at": "2026-10-18T13:45:37.252016"
+}

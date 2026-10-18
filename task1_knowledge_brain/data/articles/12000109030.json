@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109030",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109030-fix-member-experience-field-dashboard-installer",
+  "title": "Fix Member Experience Field - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Fix Member Experience Field - Dashboard Installer"
+  ],
+  "content": "## Fix Member Experience Field - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109030\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Fix Member Experience Field Does\n\n\nMember profiles include an experience field (years of experience). On older sites, that field could display a 0 on the profile page of any member who never filled it in, because the database stored an empty answer as the number zero instead of leaving it blank. This installer corrects how the field is stored and clears out those stray zeros.\n\nSpecifically, it makes two changes to the users_data table in the site's database:\n\n- Adjusts the experience column so its default value is empty (NULL) rather than 0, while keeping it a standard whole-number column.\n\n- Updates any member records where the experience value is currently 0, setting them to empty.\n\nNothing is deleted. Members who entered a real number of years keep their value unchanged; only zeros are converted to blank.\n\n\n## Why It Appears\n\n\nThe installer shows up when either of these is true for the site:\n\n- The experience column in the database still uses an older structure whose default value is 0 (or is not a whole-number column).\n\n- At least one member record still stores a 0 in the experience field.\n\nThis is a legacy condition. Sites created on older versions of the platform used the old column structure, so seeing this installer usually just means the database dates from before the fix, not that anything is broken.\n\n\n## Why It Matters\n\n\nThis is a small display-quality fix. Profiles of members who never entered their years of experience stop showing a 0 for that field, which reads like the member claimed zero years of experience. Members who did enter a value are unaffected. Not running it leaves those profiles showing the 0.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Fix Member Experience Field appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Fix Member Experience Field does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nCheck a member profile that previously showed a 0 for experience; the field should now be blank instead. Members with a real value still show it. The change is one-time and safe: it only adjusts the column's default and converts zeros to blank, and no other profile content is touched. The one thing to be aware of is that a member who deliberately typed 0 into the field will now show nothing there, which matches how the platform treats an unanswered field.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109030",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109030"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:31+05:30",
+  "scraped_at": "2026-10-18T13:59:23.146176"
+}

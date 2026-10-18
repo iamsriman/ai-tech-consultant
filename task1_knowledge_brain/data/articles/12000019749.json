@@ -1,0 +1,249 @@
+{
+  "article_id": "12000019749",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019749-guide-6-how-to-edit-main-menu-dropdown-links",
+  "title": "Guide 6. How to Edit Main Menu & Dropdown Links",
+  "category": "Get Started Here",
+  "folder": "Quick Setup Guides",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Quick Setup Guides",
+    "Guide 6. How to Edit Main Menu & Dropdown Links"
+  ],
+  "content": "## Guide 6. How to Edit Main Menu & Dropdown Links\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000019749\n\nWhere Can I Access This Tool? Inside Toolbox » Menu Manager: What are the Default Menu Options? By default, the Menu Manager comes with 5 different menu options. Header Main Menu Accessible via / home Pricing Page Menu Is accessible via / join Footer Menu Is accessible on any page by the default Header Mini Nav Is accessible via / home Login Page Links Is accessible via /login How Can I Edit These Menus? By simply clicking on \" Customize \" under Actions on the preferred menu element. In this instance, let's make changes to the \" Main Menu \" Add an additional link by clicking on the \"New Link+\" button: Once the text and the URL are added click \" Save Changes \". Once saved, the edited menu will start appearing above the Default Menus , an indication of its being a Custom Menu : When clicked on \"Edit\" on Custom Menus: Under \"Actions\" there is a drop-down option called  \"Edit Menu\": Once clicked, a module will display where the Nickname and System Name can be assigned for the menu: Additionally, Custom Menus will have few options under Actions: Clicking Disable will disable this custom menu and its default version will be used on the website. This is very helpful for troubleshooting purposes: Clicking Clone will clone this custom menu and will assign a custom Menu Name and Shortcode: Clicking Copy Shortcode will copy the shortcode of this custom menu, with this copied shortcode, it is easy to call the menu on the preferred location like in a webpage or a widget ( How To Call A Menu On A Webpage ). Clicking Delete will delete this custom menu. How To Create Dropdown Menus Indent the child element under the parent field, this can be accomplished by dragging the menu element under another: After the new drop-downs are saved the menu will display a green button to expand and hide the options: The drop-down menu shows up in the front end: More Editing Options For Menu Links All menu links come with a \" Settings \" button that allows for further changes : Link Title Text Menu Item Inline Attribute Outer <li> Inline Attribute Menu Item CSS Class Outer <li> CSS Class Additional checkbox options: Open in new window - This setting will indicate if the link should open in a new tab or not. Add rel=\"nofollow\" - This setting will indicate if search engines should follow this link or not. Open Link - Open the URL of the menu item in a new tab. Hide Item - This setting will hide the menu item from appearing on the front end but keep it inside the Menu.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128422033/original/Bq0zymkHru_FsOxzLEJt7a742fM-2TZNaQ.png?1689466321",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423065/original/FI6mfWmd76sJFB5zFagOi8acHxciU44lSw.png?1689471148",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423084/original/gr35Dn21A656N-JVykMfuVa5JdiWSqzEvA.png?1689471280",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423094/original/RjqCnna5sva8jiYRRCbPcVzn626ZXS36wQ.png?1689471312",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423100/original/cw0t91GnAzFgI1OBfpdc-0SApALp8yHFkw.png?1689471392",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423132/original/CUaSfmcpF_VwfTxvfDxkSNAH0WdbvwNZJQ.png?1689471431",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423163/original/S8_JSjmxqaC-vLyAIMXRwZo9lFq93tWzQg.png?1689471502",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423217/original/bXTaxFLl9N5Xe8NwhZb2dK7GoIfWA7QRgw.png?1689471968",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423233/original/pf5bbhcG8NbkX8BMZTlz3khRK8-C-Xip_Q.png?1689472125",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093729178/original/hQjrfZaIzZnVDT5g_Wb-fSsme8EDX2tlhg.jpeg?1623109945",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093729183/original/c0I8PWftc0BjFTZ1i9UGCt9gN2QuIfSqkA.jpeg?1623109946",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093729176/original/YLNx2NqlYgG7LSEbMI-q6BB83oeg7dQYEQ.jpeg?1623109944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093729172/original/Tnh_DwUAoGmUrjQd_dhC8oK_rRBiA9MqcA.png?1623109941",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093729186/original/i-VD2EJ_SFWIb_DBklp66aTKJ2mwUABA4w.jpeg?1623109947",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093729174/original/GzcO81-1dUlvn1SBHbZ0KVHkBAG83w_mgA.jpeg?1623109943",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093729175/original/LNh5dvGGZKR3qmOKnT4KqOqxWDUiNc0D0Q.jpeg?1623109944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423451/original/ADoEnc8EAQzJJ_izX1-Zu0wgxpmlwdxvLA.png?1689473276",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423479/original/go_Rj3eVeqN269gaJFv1ckMbIBwZCZevCg.gif?1689473525",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423522/original/eUxKspw9N7icR1ISQ6CCPX80DPYwgU8QEw.png?1689473576",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128423583/original/0COSDy8rEiafF2KC3Y22v8wJ7FL51UzwNw.png?1689473758",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12128685789/original/3eSB6f5x_pjVJzaB5M90L9zFNmfNVPzXvA.png?1689886896",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Guide 6. How to Edit Main Menu & Dropdown Links' in section 'Get Started Here' / 'Quick Setup Guides'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000019749",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019749"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093124743/original/y2VSAx0vwFjxJkW0nmGPOK51enS3s7JCoA.png?1621956078"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093124770/original/aQ9uVYJ3TxX0SuC5SyiNH6nO0I27bDat6A.png?1621956094"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080490210/original/mxA183k-f0uRYQv-IXxUyv4fIBdPTtJknA.png?1595948737"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080490236/original/OhZOYfiy_lk3EZ1k0pdl23qKLO3q7lq1Ow.png?1595948759"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093124891/original/WO1UGUB3YdcUVzeZa-aGlA6JYKK-arCWjw.png?1621956210"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093125243/original/6fxpL9LOFSVfuDR--P94d3boPOl_zdTQpg.png?1621956536"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093125387/original/bGGxsm4PlynDR1QilRTwG62ELtLzYM3trQ.png?1621956646"
+    },
+    {
+      "text": "How To Call A Menu On A Webpage",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034726"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052181"
+    }
+  ],
+  "lastmod": "2025-06-05T21:00:49+05:30",
+  "scraped_at": "2026-10-18T13:40:39.712959"
+}

@@ -7,7 +7,9 @@ from contextlib import asynccontextmanager
 import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from task1_knowledge_brain.api import routes as api_routes
 from task1_knowledge_brain.api.routes import router as api_router
+from task1_knowledge_brain.syncer.scheduler import DailySyncScheduler
 
 logging.basicConfig(
     level=logging.INFO,
@@ -19,7 +21,11 @@ logger = logging.getLogger("knowledge_brain")
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     logger.info("Starting Knowledge Brain API Service...")
+    scheduler = DailySyncScheduler(syncer=api_routes.daily_syncer)
+    app.state.daily_sync_scheduler = scheduler
+    scheduler.start()
     yield
+    scheduler.stop()
     logger.info("Shutting down Knowledge Brain API Service...")
 
 

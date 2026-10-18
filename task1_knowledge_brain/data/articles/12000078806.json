@@ -1,0 +1,99 @@
+{
+  "article_id": "12000078806",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078806-how-to-display-custom-post-fields-in-the-post-details-page",
+  "title": "How To Display Custom Post Fields In the Post Details Page",
+  "category": "Toolbox",
+  "folder": "Sidebar Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Sidebar Manager",
+    "How To Display Custom Post Fields In the Post Details Page"
+  ],
+  "content": "## How To Display Custom Post Fields In the Post Details Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078806\n\nThis article explains how to display custom post field values on the post details page.\n\nCustom post fields can be added to a post form and displayed on the front-end post details page using the Post Meta Details widget.\n\n\n## Overview\n\n\nWhen a custom field is added to a post form, the field can collect additional information from members when they create or edit a post.\n\nThe widget used for displaying post field details is:\n\n```\nBootstrap Theme - Module - Post Meta Details v2.0\n```\n\nTo display that custom field value on the post details page, the field must be set to display on the view page, and the correct widget must be added to the post details layout.\n\n\n## Step 1: Customize the Post Form\n\n\nStart by editing the form used by the post type.\n\n- Go to Toolbox >> Form Manager .\n\n- Find the form connected to the post type.\n\n- Click Customize if the form has not been customized yet.\n\n- Click Edit if the form has already been customized.\n\nThe form editor will open so custom fields can be added or updated.\n\n- How To Customize a Form\n\n\n## Step 2: Add the Custom Post Field\n\n\nAdd the custom field that should display on the post details page.\n\nExamples of custom post fields include:\n\n- Event location\n\n- Price\n\n- Service area\n\n- Start date\n\n- Requirements\n\n- Contact instructions\n\n- Download link\n\nAfter adding the field, review the field label, database variable, field type, and required field settings.\n\n\n## Step 3: Enable Display View for the Field\n\n\nFor the custom field value to display on the post details page, Display View must be enabled for the field.\n\n- Open the custom field settings.\n\n- Find the Display Settings for the field.\n\n- Enable Display View .\n\n- Save the form changes.\n\nImportant: If Display View is not enabled, the field value may be saved with the post but will not display on the post details page.\n\n\n## Step 4: Add the Post Meta Details Widget to the Sidebar\n\n\nThe custom post field values can be displayed in the sidebar of the post details page by adding the Post Meta Details widget to the post sidebar.\n\n- Go to Toolbox >> Sidebar Manager .\n\n- Find the Post Single Page sidebar.\n\n- Click Customize if the sidebar has not been customized yet.\n\n- Click Edit if the sidebar has already been customized.\n\n- Find the widget named Bootstrap Theme - Module - Post Meta Details v2.0 .\n\n- Drag and drop the widget into the sidebar layout.\n\n- Click Save Changes .\n\n- Toolbox » Sidebar Manager\n\nThe custom post field values will display in the sidebar when viewing the post details page.\n\n\n## Alternative: Add the Widget to the Post Details Content\n\n\nThe Post Meta Details widget can also be added directly inside the post details page layout using the widget shortcode.\n\n- Content » Edit Post Settings\n\nUse the following shortcode:\n\n```\n[widget=Bootstrap Theme - Module - Post Meta Details v2.0]\n```\n\nWhen this shortcode is added to the post details layout, the custom field values can display below the main body of the post instead of in the sidebar.\n\n\n## Where the Custom Field Values Display\n\n\nCustom post field values can display in different areas depending on where the widget is added.\n\nLocation Setup Result Post sidebar Add the widget to the Post Single Page sidebar. Custom post fields display in the sidebar of the post details page. Post details content area Add the widget shortcode to the post details layout. Custom post fields display below the main post content.\n\n\n## Important Notes\n\n\n- The custom field must be added to the correct post form.\n\n- Display View must be enabled for the field.\n\n- The post must have a saved value for the custom field before it can display on the post details page.\n\n- The Bootstrap Theme - Module - Post Meta Details v2.0 widget must be added to the sidebar or post details layout.\n\n- If the field is blank for a post, there may be no value to display.\n\n- Custom fields may display differently depending on the field type and the post details page layout.\n\n\n## Common Reasons the Field Does Not Display\n\n\n- Display View is not enabled: Open the field settings and enable Display View .\n\n- The wrong form was edited: Confirm the custom field was added to the form used by the correct post type.\n\n- The widget was not added: Add Bootstrap Theme - Module - Post Meta Details v2.0 to the sidebar or post details layout.\n\n- The post field is empty: Edit the post and add a value to the custom field.\n\n- The sidebar is not assigned: Confirm the correct sidebar is being used by the post details page.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184448064/original/bLmLtKGahUSV2pNXHeZgLV-IB2IPOz9fPQ.png?1788188967",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Post Fields In the Post Details Page' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184419689/original/gG2cWoGN21RxlrzEbE9NSWmVixC3rLrgAA.png?1788144068",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Post Fields In the Post Details Page' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184444721/original/Iq20_7BLgl9HOdAzZ2hWVBcXlDScSg7DNw.png?1788185955",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Post Fields In the Post Details Page' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184444857/original/pQ-lErFGnbOAQfgKWpW-B1iG-d6p-Yxytg.png?1788186053",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Post Fields In the Post Details Page' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184446132/original/aHJR9GobaVY2EOxtUAQjO_lDalZEML_2lw.png?1788187181",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Post Fields In the Post Details Page' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184447040/original/Z96Cm4VHTq02vLEC2GjkHsyhYdTH4ogpLg.png?1788188001",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Post Fields In the Post Details Page' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184448144/original/FCv1bYgmJL5ai_nTzi2hQkohhibVJBdWpw.png?1788189064",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Display Custom Post Fields In the Post Details Page' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078806",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078806"
+    },
+    {
+      "text": "How To Customize a Form",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078290"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "Content » Edit Post Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000053202"
+    }
+  ],
+  "lastmod": "2026-08-31T20:41:46+05:30",
+  "scraped_at": "2026-10-18T13:48:15.225435"
+}

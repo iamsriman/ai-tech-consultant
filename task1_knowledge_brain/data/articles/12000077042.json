@@ -1,0 +1,33 @@
+{
+  "article_id": "12000077042",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077042-how-to-enable-paste-plain-text-option-in-froala-wysiwyg-html-editor",
+  "title": "How To Enable Paste Plain Text Option In Froala WYSIWYG HTML Editor",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "How To Enable Paste Plain Text Option In Froala WYSIWYG HTML Editor"
+  ],
+  "content": "## How To Enable Paste Plain Text Option In Froala WYSIWYG HTML Editor\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077042\n\nIn order to activate the Paste Plain Text Option in the Froala WYSIWYG HTML Editor navigate to Settings >> Advanced Settings:\n\nFroala Plain Paste\n\nSystem Variable: froala_plain_paste\n\nBy default this setting is turned off, when this option is enabled, the Froala WYSIWYG HTML Editor filters the pasted content and keeps only plain text by removing all its rich formatting.\n\nThe advanced setting froala_plain_paste will impact the following classes:\n\n- .froala\n\n- .froala-editor\n\n- .froala-editor-admin\n\n- .froala-editor-user-upload\n\nBy default it's active for:\n\n- .chat-froala\n\n- .text-only-froala",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647452/original/NkrJMzCwejeEc5jX8oTeLPjaqsmAEPpqYA.png?1753161459",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Enable Paste Plain Text Option In Froala WYSIWYG HTML Editor' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077042",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077042"
+    }
+  ],
+  "lastmod": "2025-07-22T10:47:42+05:30",
+  "scraped_at": "2026-10-18T13:47:43.387059"
+}

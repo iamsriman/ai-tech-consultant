@@ -1,0 +1,102 @@
+{
+  "article_id": "5000682657",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682657-how-to-activate-staging-mode-coming-soon-splash-page-as-the-homepage",
+  "title": "How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage"
+  ],
+  "content": "## How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682657\n\nA \"Coming Soon Page\" is a landing page when the site is under construction, this mode can be used when the site is under development or if the site is still not ready to be launched. Go to SETTINGS and select GENERAL SETTINGS, the setting will be inside \" General\". Click on the Website Status dropdown, and select “Staging Mode”: A “coming soon” splash page will now be used when a user tries to visit the website domain:\n\nNOTE: Switching the site to \"Staging Mode\" will apply a \"noindex, nofollow\" directive to all pages, preventing them from being crawled until the site is returned to \"Live Mode\".\n\nEditing the Coming Soon Page As soon as \"Staging Mode (shows pre-registration form on homepage)\" is selected a link will appear: ** Clicking on this link opens up the web page, this web page is only available through this link. It will not be found inside My Content >> Web Page Builder. ** IMPORTANT: If you DO NOT see the \"EDIT COMING SOON PAGE\" link, you may need to enable an update from your main admin dashboard area. Learn More Here This page comes with all of the standard web page functionality. Including: Froala Editor Pre-Made Elements Hero Section Seo Settings",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133632839/original/m5euLRnBvgGwylliMjWKvHKbCeDMbLGQRg.png?1698866213",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099129728/original/gH2nh807NWsTe2Oo3SY2HKw7RtBvlP71VA.png?1633443867",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099129837/original/S8QKG26yunN4AkvztUpquTLtbe4tQd4n8Q.png?1633443986",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099129891/original/IDEcnXWTKH96EXlokTEqCCu7FNCGLnhFDg.png?1633444034",
+      "alt": null,
+      "caption": "** Clicking on this link opens up the web page, this web page is only available through this link. It willnotbe found inside My Content >> Web Page Builder.**IMPORTANT: If you DO NOT see the \"EDIT COMING SOON PAGE\" link, you may need to enable an update from your main admin dashboard area.Learn More",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage' in section 'Settings' / 'General Settings'. Context: ** Clicking on this link opens up the web page, this web page is only available through this link. It willnotbe found inside My Content >> Web Page Builder.**IMPORTANT: If you DO NOT see the \"EDIT COMING SOON PAGE\" link, you may need to enable an update from your main admin dashboard area.Learn More",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110004975/original/GzsLYAz7U1_pb6dZw9AonIsbIwkh03xf_w.png?1654627884",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12099132267/original/OyrULLcoWzq6zrwyN57f4KMFztbWxUPpdw.png?1633445828",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Activate \"Staging Mode\" / \"Coming Soon\" Splash Page as the Homepage' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682657",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682657"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000009173"
+    },
+    {
+      "text": "Learn More Here",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049125"
+    },
+    {
+      "text": "Froala Editor",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000050711"
+    },
+    {
+      "text": "Pre-Made Elements",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000074302"
+    },
+    {
+      "text": "Hero Section",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000065187"
+    },
+    {
+      "text": "Seo Settings",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000682651"
+    }
+  ],
+  "lastmod": "2024-10-29T22:06:15+05:30",
+  "scraped_at": "2026-10-18T13:39:05.660738"
+}

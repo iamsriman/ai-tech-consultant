@@ -1,0 +1,23 @@
+{
+  "article_id": "12000037478",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037478-11-10-17-software-updates",
+  "title": "11/10/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/10/17 - Software Updates"
+  ],
+  "content": "## 11/10/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000037478\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue that was affecting the normal behavior of the Member Images Importer.\n\n- We fixed an issue that was affecting the Profile Member Tabs when the order of the tabs were changed from their defaults. Widget Involved: Bootstrap Theme - Member Profile - Member Tabs lazyLoad\n\n- We released an update to speed up the loading of Add-Ons and reduce related server load.\n\n- We moved all of the Design Settings in the Admin related to Search Results into one single section called Search Results Design. To find this new section, navigate to the Admin Area >> Settings >> Design Settings >> Design Settings tab.  Here you will find the new Search Results Design section.\n\n- Now the Google Search Assist Add-On can be Enabled / Disabled through a setting located in the Search Results Design section in the Design Settings. Widget Involved: Bootstrap Theme - Member Results - No Results\n\n- The system now to tracks the IP address members signed up and last logged in from.  There is also now a button in the \"Search Members\" section of the Admin that leads to a page where IPs can be blocked from accessing the site.  This update will help to identify any sources of spam member signups and provide a method to block their source from accessing the site. To find this new update, navigate to the Site Admin >> Members >> Search Members. Widget Involved: Bootstrap Theme - Member Login Page (ID 1349)/html.php Forms Involved: Sign up - Free Member  Form WHMCS - Paid Signup.\n\n- We released a security update for the Multi-Member Manager Add-On. Widget Involved: Bootstrap Theme - Account - Sidebar (ID 1323)/html.php\n\n- We re-enabled the ability to clone a Static Web Page in the Site Admin.\n\n- The One-Click Social Login Add-On is now Available. Widgets Involved: Bootstrap Theme Framework Bootstrap Theme - Success Page - Free Member Sign Up Bootstrap Theme - Account - Member Dashboard Bootstrap - Search - Lazy Loader tabs\n\n- The Members Only Message widget is now based on text labels. Widget Involved: Bootstrap Theme - Display - Members Only Message",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000037478",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037478"
+    }
+  ],
+  "lastmod": "2017-11-11T00:48:25+05:30",
+  "scraped_at": "2026-10-18T13:41:59.996739"
+}

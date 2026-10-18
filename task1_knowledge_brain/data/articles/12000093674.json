@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093674",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093674-changelog-march-2018",
+  "title": "Changelog - March 2018",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "Changelog - March 2018"
+  ],
+  "content": "## Changelog - March 2018\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093674\n\nNew Features:\n\n- Site Admins have now the ability to manually change the parent of existing Sub Accounts through the Admin area (this applies to the Multi-Member Manager Add-On). In order to assign the Parent ID, follow these instructions: Login to the Admin >> Members >> Search Members >> Actions >> Quick Edit >> Listing Settings tab Here there is now a new field to assign the Parent ID. Note: This field will only appear if the site has activated the Multi-Member Manager Add On.\n\n- We added 2 new fields to the Get Matched Form. These new fields will help site visitors to specify the preferred day and time to be contacted by the member.\n\n- We refactored how the system handles the automatic creation of 301 Redirects when the URL of member profiles or content changes. This update will prevent the creation of infinite redirect loops that have been caused by this module in the past.\n\n- Now Admin Moderators can only update their own Admin credentials.\n\n- We created an easy to show/hide the Front-End Design Setting Tool when an Site Admin vistis a website as Admin.\n\nEnhancements / Fixes:\n\n- We fixed an issue which was affecting the normal behavior of the USA Map Widget when clicking on the state of New York.\n\n- Now when an Admin uses the Front End Live Design Tool the system will hide the Admin Bar in the front end of a site.\n\n- We refactored several widgets in order to be prepared for the upcoming release of a new method of editing Text Labels throughout the front end of a website.\n\n- We fixed an issue which was affecting the normal behavior of the 3rd Party Notifications setting when the Automatch Lead Add-On is active on a site.\n\n- We added the ability to install the Multi-Member Manager Add-On from the Admin Status Checker page in the Admin.\n\n- We made several improvements and bug fixes for the Auto-recurring Events Add-On.\n\n- We fixed an issue which was affecting the display of custom fields in the Sign Up forms.\n\n- We fixed an issue which was affecting the behavior of the Widget Manager page in the Site Admin in some rare cases.\n\n- We improved how the system renders the Froala WYSIWYG styles in the Front-End Pages.  Some Froala styles that forced CSS that was incompatible with the default CSS styles on website were removed.\n\n- We made an improvement to the Billing Details page seen when logged in to members' account.  The columns in the Invoices section have been reordered and the table no longer requires scrolling to view all of the information.\n\n- Now the Member Image Fetch Tool supports JPEG image file extensions.\n\n- We fixed an issue which was affecting the Search Results Page when the Search Results Layout was set to Grid View. We moved the \"Keyword Search\" Menu Item from the Settings Tab to the Developers Tab in the Admin Menu and changed the name of the menu item to \"Autosuggest Settings\".\n\n- We fixed an issue which was affecting the normal behavior of the Recent Events Widgets when the Recurring Events Add-On is active.\n\n- We made an improvement to how the system handles all search result pages when the Insta-Load Add-On is active.\n\n- The issue that was affecting the Start and End Date Picker when the Recurring Event Add-On is active is already fixed.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093674",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093674"
+    }
+  ],
+  "lastmod": "2023-05-09T04:23:51+05:30",
+  "scraped_at": "2026-10-18T13:51:24.059069"
+}

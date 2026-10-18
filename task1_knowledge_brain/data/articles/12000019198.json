@@ -1,0 +1,78 @@
+{
+  "article_id": "12000019198",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019198--publish-date-functionality-for-the-admin-blog",
+  "title": "\"Publish Date\" Functionality For The  Admin Blog",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "\"Publish Date\" Functionality For The  Admin Blog"
+  ],
+  "content": "## \"Publish Date\" Functionality For The  Admin Blog\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000019198\n\nWhat Is A Publish Date? A publish date allows to set a future post date for the admin blog articles. Some users prefer to add multiple articles to their blog in one session, but do not want the articles to get published at the same time, nor do they want to log back in to \"Publish\" an article and make it live on their website. With the \"Publish Date\" functionality website admins can now set the date they wish articles to be published on their website. Important: This functionality is exclusively supported for the \"Admin Blog\" feature (the feature which uses the \"Feature - Blog Articles\" form). The primary reason this is not available to the member blog feature is that members would be able to cheat the system and re-publish articles allowing their articles to always show first on the website. How To Set A Future Publish Date For An Admin Blog Post To set a future publish date for the admin blog articles please follow these instructions: Go to My Members - Search Members \"Login\" as the admin blog contributor or whichever member has access to the \"Blog\" post type Click on \"Add Blog Article\" Set the article to \"Publish\" - \"Yes\". Remember, if the blog has been set to a future publish date, the article will not go live until the publish date. To set a Publish Date click on the \"Publish Date\" field to open up the calendar. Select the desired date to have the article published on the website: Add the content of the article Click on \"Save Changes\" How Does The System Allow The Publish Date To Work With The Blog Feature? The \"Publish\" functionality works exclusively with the \"Blog\" feature. The system uses the same variable as \"events\" and \"classifieds\". All three forms use \"post_status\", however the functionality is quite different. For \"Events\" and \"Classifieds\", the \"post_status\" variable will publish the post on the website immediately regardless of the date selected. This is how the variable looks like in the form manager: This is how that variable looks like on the front end for events and classifieds: This is how \"post\"status\" displays on the front end for the Blog feature:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090276773/original/UdAHjmVHg5b_4ik99MfFJHJ0Hhz1aTHxPw.png?1616332474",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for '\"Publish Date\" Functionality For The  Admin Blog' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090276820/original/-2aG7HetPuC3E9OKBAtuRVXZeZ2xFv_pPA.png?1616332757",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for '\"Publish Date\" Functionality For The  Admin Blog' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090276827/original/9WZp-f6nyxqxaiGLVU6hlv8bmuR-_M8FUQ.png?1616332811",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for '\"Publish Date\" Functionality For The  Admin Blog' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090276856/original/c7A50z4JK9p9CtfeI4w0gziBloDppRJdVg.png?1616332951",
+      "alt": null,
+      "caption": "This is how the variable looks like in the form manager:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for '\"Publish Date\" Functionality For The  Admin Blog' in section 'My Content' / 'Edit Post Settings'. Context: This is how the variable looks like in the form manager:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12010569801/original/blob1476134146080.png?1476134173",
+      "alt": "blob1476134146080.png",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in '\"Publish Date\" Functionality For The  Admin Blog' (My Content > Edit Post Settings): blob1476134146080.png",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090276889/original/M2LUd-Dmxmb6WCtYhf9JobG3kz2Q4X9Q0A.png?1616333038",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for '\"Publish Date\" Functionality For The  Admin Blog' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000019198",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019198"
+    }
+  ],
+  "lastmod": "2021-03-21T18:58:58+05:30",
+  "scraped_at": "2026-10-18T13:40:31.325584"
+}

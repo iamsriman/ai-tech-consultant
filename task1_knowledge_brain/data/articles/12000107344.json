@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107344",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107344-01-09-2026-software-updates",
+  "title": "01/09/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/09/2026 - Software Updates"
+  ],
+  "content": "## 01/09/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107344\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that prevented the Keyword filter from working properly on the Edit Post Settings page in the Admin.\n\n- Fixed an issue that affected the ability to accept or decline reviews on the Member Reviews page in the Admin in some cases.\n\n- Fixed an issue that prevented the \" Price\" field powered by the Form Manager from revalidating automatically after successfully entering a valid value on the frontend.\n\n- Improved the \"Member Dashboard: Home URL\" Advanced Setting validation to prevent saving the setting with an empty value on the Advanced Settings page in the Admin.\n\n- Updated the display of the \"Cancel Subscription\" button on the Billing Information tab in the Member Dashboard.\n\n- Fixed an issue that affected the ability to sign up for a free-trial plan when using a credit card that required 3D authentication on sites using Stripe as the payment gateway in some cases.\n\n- The Search Members page in the Admin is now compatible with the \"Strict Postal Code Match\" and \"Strict City Match\" settings.\n\n- Added the ability to set a custom URL for a post by saving the URL to a form field with the variable name \"custom_filename\" when creating or editing posts from the Member Dashboard.\n\n- Updated the Brilliant Directories /user/get API endpoint to return a snippet of data about the credit card the member has on file.\n\n- Implemented a performance update to reduce the number of requests sent to the Google Maps API when visiting \"Pretty URL\" search results pages for locations on the frontend of a site.\n\n- Fixed an issue that prevented the form field validation logic from working properly on checkout pages when a site did not have an SSL certificate installed. Widget Involved: Bootstrap Theme - Function - API\n\n- Implemented a set of minor fixes to the Real Time Notification system in the Admin.\n\n- Fixed an issue that prevented Member Dashboard URLs from working properly when the Member Dashboard URLs Settings were left empty in some cases.\n\n- Fixed an issue that affected the ability to schedule Newsletter Campaigns in the Admin in some cases.\n\n- Updated the alert message modal when publishing or un-publishing free posts when the Pay Per Post Add-On is active on a website.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107344",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107344"
+    }
+  ],
+  "lastmod": "2026-01-13T03:51:45+05:30",
+  "scraped_at": "2026-10-18T13:57:09.474316"
+}

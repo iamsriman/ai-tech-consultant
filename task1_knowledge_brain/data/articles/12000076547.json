@@ -1,0 +1,108 @@
+{
+  "article_id": "12000076547",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076547-using-the-custom-widget-as-web-page-page-type-for-the-web-page-builder",
+  "title": "Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder"
+  ],
+  "content": "## Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076547\n\nUse Custom Widget as Web Page it's a tool to create a page from scratch that excludes Brilliant Directories code and styling completely.\n\nFollow these steps to learn how to use a custom widget as a Web Page:\n\n1. Create a Widget :\n\nNavigate to Toolbox >> Widget Manager >> New Widget +. Click on the following article for more details on How To Create a New Widget\n\n2. Create a Static Page :\n\nGo to My Content >> Web Page Builder >> New Web Page +. For detailed instructions on this, click on this article How to Create a New Static Page\n\n3. Select the Page Type :\n\nOnce the Page has been created, move to the Page Details tab and select the page type as \" Custom Widget as a Web Page\" :\n\n4. Choose the Widget to Render :\n\nClick on \"Select Widget to render:\" and choose from the drop-down the custom widget to render.\n\nAdvanced Tip For Developers:\n\nThe Select Content Type setting will allow users to specify the content type\n\nThis should only be selected if the content type needed is known, otherwise can be left as default. If the content type is not listed, the header at the top of the custom widget can be customized with the content type of choice.\n\nLastly, click on Save Changes\n\nImportant Note:\n\nThese pages can be excluded from the Sitemap if needed by checking the Exclude from Sitemap option under Page Options.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091795568/original/PwhkNiLC_W_VfyP5rqr-v2dj3SQLwsFdSQ.png?1619405897",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12124301460/original/vyUfhKXgCLl71_9QBT9ML7ur0JWmyBAUPQ.png?1681927615",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181972898/original/JjVcHWeHkWSzv1kQbfrZwHQ4axTmZzp7og.png?1783981547",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107639600/original/l-5E6FcwmGOijUyVvBePWD0xeENdS5pMjQ.png?1649868141",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107639637/original/3TCGGzmdmD29dVHLBFdUtKdDu_STSr3Hww.png?1649868200",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107639717/original/gR8uyUsPUMhZN8k5PfqR8Pow_h-ZBDAneA.png?1649868280",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107639753/original/teBiQ4xAOTyxLBmXpVHMVQ3yUptFq9lpYA.png?1649868345",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181972931/original/dTHeF2QflFTpqQ9OGxLKeZSM8QHUjNA_Fg.png?1783981615",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076547",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076547"
+    },
+    {
+      "text": "How To Create a New Widget",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078432"
+    },
+    {
+      "text": "How to Create a New Static Page",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000047125"
+    },
+    {
+      "text": "Sitemap",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682659"
+    }
+  ],
+  "lastmod": "2026-07-14T03:57:00+05:30",
+  "scraped_at": "2026-10-18T13:47:31.181035"
+}

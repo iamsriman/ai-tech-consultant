@@ -1,0 +1,23 @@
+{
+  "article_id": "12000085833",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085833-02-11-22-software-updates",
+  "title": "02/11/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/11/22 - Software Updates"
+  ],
+  "content": "## 02/11/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000085833\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The \"Transactions\" and \"Subscriptions\" tabs on the Member Overview page in the Admin are now compatible with Admin Roles.  A Role that does not have permission to access Finance >> Billing History will not be able to see these tabs either.\n\n- We fixed an issue which was preventing Admins from editing the form field settings after cloning a \"Member CV / Brochure Upload\" form field in the Form Manager in some cases.\n\n- We updated the logic of the \"Post Meta Details\" sidebar widget to ignore the display of data from Section Title, Custom HTML, reCpatcha, Honeypot, Help Alert Box and Hidden Fields form field types on Post Detail Pages on the frontend of sites. Widget Involved: Bootstrap Theme - Module - Post Meta Details v2.0\n\n- We fixed an issue which was causing the system to display a comma \",\" in the H1 search results title after conducting a search using the Dynamic Category Filter Add-On in some cases. Widget Involved: Search - Member - Search Query\n\n- We updated how menus are rendered on the frontend of sites to reduce the loading time of pages.\n\n- We fixed an issue which was preventing the system from including the expected members when generating a Smart List from the Search Members page in the Admin.\n\n- We implemented several security updates to prevent XSS injections in several areas of the software.\n\n- We fixed an issue which was preventing email functions from running correctly in custom widgets in some cases.\n\n- The Member Categories displayed in the \"Specialties\" tab on member profile pages now respect the \"Default Category Sort Order\" setting.\n\n- We minified the \"websiteScripts.js\" file which loads on the frontend of sites to i mprove page load times and increase the scores on 3rd party tools like Google Pagespeed, GTMetrix, etc.\n\n- We updated the Post Comments functionality to add the ability to search by keyword and sort comments by \"Most Replies\", \"Newest Replies\" and \"Oldest Replies\".",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000085833",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085833"
+    }
+  ],
+  "lastmod": "2022-02-14T23:06:45+05:30",
+  "scraped_at": "2026-10-18T13:49:27.894691"
+}

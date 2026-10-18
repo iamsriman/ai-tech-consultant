@@ -1,0 +1,23 @@
+{
+  "article_id": "12000056459",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056459-04-12-19-software-updates",
+  "title": "04/12/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/12/19 - Software Updates"
+  ],
+  "content": "## 04/12/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000056459\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing Checkout pages to not function properly when the the Newsletter Signup form was displaying on the page. Widgets Involved: Bootstrap Theme - Footer\n\n- We fixed an issue which was causing textareas in the Admin that have code highlighting turned on to not scroll smoothly in some cases.\n\n- We fixed an issue with the alignment of the success message when deleting a Menu Item in the Menu Manager in the Admin.\n\n- We fixed an issue which was affecting the use of the \"Insert Image\" feature of the WYSIWYG when editing a web page in the Admin.\n\n- We fixed an issue which was causing Members to have their status set as Past Due automatically when they had a Past Due invoice related to a lead rather than their membership.\n\n- The Lead Form title is now fully compatible with the Front-End Text Label Editor tool. Widget Involved: Bootstrap Theme - Lead Submission Form Title\n\n- We fixed an issue with the Google Sitemap Generator Add-On which was creating empty Sitemap Files when a website does not have Member Categories or Sub-Level Categories.\n\n- We improved the UI of member Profile Pages when one or more of the Send Message, Show Phone Number, and Write a Review buttons are disabled for the member's Product. Widget Involved: Bootstrap Theme - Member Profile - Header\n\n- We added the ability to show the Website Timezone below Date, Time, and Datetime picker field. In order to enable this new feature, navigate to the Admin >> Settings >> General Settings >> Configuration Tab. Widgets Involved: Bootstrap Theme - End Date Picker Bootstrap Theme - End DateTime Picker Bootstrap Theme - Start Date Picker Bootstrap Theme - Start DateTime Picker\n\n- We fixed an issue with the Media Manager Tool in the Admin which was prompting the user to download a JSON file when a new folder was created.\n\n- We added the ability to edit the H1 title on post search results pages. New text labels: default_search_listings_text, h1_for_label, search_results_location_operand, results_for_separator. Widget Involved: Bootstrap Theme Framework\n\n- We minified some default JS files used on the frontend of sites in order to speed up the loading of these pages. Widgets Involved: Bootstrap Theme - Account - Location Options Bootstrap Theme - Coming Soon Page Bootstrap Theme - Display - Events Calendar Bootstrap Theme - Footer - Scripts Bootstrap Theme - HEAD\n\n- We fixed an issue with the Bookmark my Favorites Add-On which was causing favorites text to overlap when search results were displayed in Grid View. Widget Involved: Bootstrap Theme - Custom Appearance Settings",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000056459",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000056459"
+    }
+  ],
+  "lastmod": "2019-04-17T23:45:25+05:30",
+  "scraped_at": "2026-10-18T13:44:46.413510"
+}

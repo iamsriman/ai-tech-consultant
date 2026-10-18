@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104072",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104072-04-04-2025-software-updates",
+  "title": "04/04/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/04/2025 - Software Updates"
+  ],
+  "content": "## 04/04/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104072\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that was preventing the Google reCAPTCHA form field from displaying correctly when used multiple times on the same page. Widget Involved: Bootstrap Theme - Function - Form\n\n- Fixed an issue that was preventing members from adding Nebraska, USA as a Service area From the Member Dashboard in some cases. Widgets Involved: Bootstrap Theme - Function - Google Location Suggest Bootstrap Theme - Account - Select Locations\n\n- Fixed an issue that was preventing users from importing 301 Redirects on the Admin in some cases.\n\n- Updated the Google Maps integration for compatibility with the new version of the Places API. Widgets Involved: additional_locations_google_maps_module Bootstrap - Contact Member Lead Map Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Account - Select Locations Bootstrap Theme - Function - Google Location Suggest\n\n- Implemented performance optimizations and bug fixes for the Import Business Data tool in Admin.\n\n- Fixed an issue that was preventing the Stock Photo Library Add-On from working properly when initiating a Private Chat with a member. Widget Involved: Form - Froala Editor Javascript\n\n- Fixed an issue that was preventing the breadcrumbs from working properly on Static Pages in some cases. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- Created a new Advanced Setting called \"Whitelist Domains Allowed to IFrame This Website\". This setting controls which domains can embed the site in an iframe. Widgets Involved: Bootstrap Theme - Function - CSP Headers Bootstrap Theme - Member Login Page\n\n- Fixed an issue that was preventing the Member Search Results page from returning accurate results after performing a location search in some cases. Widget Involved: Search - Member - Search Query\n\n- Fixed an issue that occasionally caused Digital Product Posts to be duplicated when cloned from the Member Dashboard. Widget Involved: Bootstrap Theme - Function - Form\n\n- Fixed an issue that was preventing the \"Member Review Details Page URL\" Advanced Setting from working properly after updating it in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104072",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104072"
+    }
+  ],
+  "lastmod": "2025-04-07T22:52:12+05:30",
+  "scraped_at": "2026-10-18T13:55:56.136713"
+}

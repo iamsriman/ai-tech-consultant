@@ -1,0 +1,81 @@
+{
+  "article_id": "12000109759",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109759-settings-domain-manager-cloudflare-connection-and-settings",
+  "title": "Settings » Domain Manager » Cloudflare Connection and Settings",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Settings » Domain Manager » Cloudflare Connection and Settings"
+  ],
+  "content": "## Settings » Domain Manager » Cloudflare Connection and Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109759\n\nThe Cloudflare tab connects a Cloudflare-managed domain to Domain Manager. A connected account can support website pointing, DNS record management, email-authentication publication, and Cloudflare settings from the BD admin area.\n\n\n## Before starting\n\n\n- Use a custom domain that exists in an accessible Cloudflare account.\n\n- Have permission to authorize that account and domain.\n\n- Keep a record of the current DNS and email settings.\n\n- Use Sign in with Cloudflare to authorize your account and connect your domain to Domain Manager. For a free directoryup.com address, use the domain connection wizard to authorize Cloudflare and choose a custom domain.\n\nFor creating the Cloudflare zone and moving nameservers, see Connecting a Site to Cloudflare . Authorizing Domain Manager is separate from registering a domain or changing its nameservers.\n\n\n## Connect a domain while changing the website address\n\n\n- Open the domain connection wizard.\n\n- Select Use a domain from my Cloudflare account .\n\n- Sign in and authorize the intended account.\n\n- Filter the domain list and select the intended domain.\n\n- Choose the main address or enter the required subdomain.\n\n- Click Use this address to prepare its DNS records.\n\n- Review Switch Over , then complete its separate confirmation.\n\nA domain whose main address is already in use can still offer an available subdomain. Selecting the main address also points the root domain; selecting a subdomain leaves other addresses on that domain unchanged.\n\nThe Cloudflare connection wizard offers the main domain or a subdomain after authorization.\n\n\n## Alternative: connect an account for the current domain\n\n\nUse these steps when the website already has its domain and Cloudflare still needs to be connected. If the wizard above already connected the account, continue to the next section.\n\n- Open Settings > Domain Manager > Cloudflare .\n\n- Click Sign in with Cloudflare .\n\n- Sign in to the appropriate Cloudflare account.\n\n- Review and authorize the requested access.\n\n- Return to Domain Manager.\n\n- Confirm that Connected to Cloudflare shows the intended domain.\n\nIf sign-in cannot find the domain or authorization is unavailable, check the account and domain access before making changes. Do not continue using a connection associated with a different domain. A connection made earlier with a Cloudflare API token shows An API token under Signed in using , with a Switch to signing in with Cloudflare link. New connections use Cloudflare sign-in only.\n\nA successful authorization identifies demotailwind.com as the connected Cloudflare domain.\n\n\n## Point the website and publish email records\n\n\n- Review the connected domain and the website's displayed target.\n\n- Use Point my domain at my website when that action is needed.\n\n- Review the resulting connection status.\n\n- Under Email delivery records , use Add my email records to Cloudflare when offered.\n\n- Open Emails and recheck sender authentication.\n\nFor changing the website to a different domain, follow the separate connection wizard . Pointing records and switching the website's primary address are distinct actions.\n\n\n## Manage DNS records\n\n\nUse the DNS tab to inspect, add, edit, or delete supported records. Through Cloudflare sends supported website traffic through the Cloudflare proxy. Direct exposes the underlying DNS destination. Email-related records must use the mode required by the mail provider; sender-authentication CNAME records should remain Direct. See DNS Records .\n\n\n## Review Cloudflare settings\n\n\nSet recommended defaults applies the Domain Manager's recommended configuration. Review the current settings and the confirmation before applying it, especially when the domain already has a custom configuration.\n\n- Always use https controls redirection to HTTPS.\n\n- Security level & bot fighting controls the available security level.\n\n- Minimum encryption version sets the lowest accepted TLS version.\n\nThe recommended defaults enable Always use https and insecure-image HTTPS rewrites, select Full encryption, set minimum TLS to 1.2 and security to Medium, enable HTTP/3, faster repeat visits, Brotli, Early Hints, and Smart Tiered Cache, and turn off Hotlink protection. Bot Fight Mode is not changed by this action. Check the result for any setting the Cloudflare account does not allow to be updated.\n\nThe Settings card with the recommended values shown: Always use https on, security level Medium, and minimum TLS 1.2. Set recommended defaults applies them in one step.\n\n\n## Page caching\n\n\n- Find Page caching .\n\n- Review the displayed caching behavior.\n\n- Set the offered cache lifetime within the supported 30–3600 second range.\n\n- Click Turn on page caching .\n\n- Review the saved status.\n\nUse Clear cached pages when cached pages need to be refreshed. Check important public and signed-in workflows after changing caching behavior.\n\nPage caching has its own lifetime and activation controls. This example shows caching turned off.\n\n\n## Advanced settings\n\n\nClick Show beside Advanced settings to inspect HTTP/3, faster repeat visits, compression, Early Hints, Smart Tiered Cache, encryption mode, insecure-image handling, Bot Fight Mode, and hotlink protection. Availability and allowed changes can depend on the Cloudflare account and the current site configuration.\n\nFull (strict) requires a trusted certificate for the website hostname on the origin server. Review SSL > Certificate on your server before changing encryption mode. If the panel refuses an unsafe change, resolve the stated prerequisite instead of forcing the setting at another screen.\n\nShow expands the advanced settings. Encryption mode, marked, is the one setting here that can take the website offline if it is wrong; Full is recommended. Unavailable controls depend on the Cloudflare connection.\n\n\n## Disconnect\n\n\nDisconnect stops Domain Manager from managing Cloudflare. Existing DNS records remain in place, and existing Cloudflare settings and proxying continue until separately changed. Reconnect the account to resume management from Domain Manager.\n\nThe wizard can publish website sender-authentication records without creating incoming mailboxes or their MX records. Review Mailboxes separately if the domain will receive email.\n\nA completed setup shows the correct connected domain, the expected website connection, and verified email-authentication records. Test the website and email after applying any settings.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668506/original/PW2lGVRbP_p6EvsumjH-aWieLKF_QZeYQQ.png?1790182270",
+      "alt": "The Cloudflare connection wizard offers the main domain or a subdomain after authorization.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Cloudflare Connection and Settings' (Settings > Domain Manager): The Cloudflare connection wizard offers the main domain or a subdomain after authorization.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668493/original/mcuRK8XAXsKsWEMz6JwEGScO6iPSQ8yjng.png?1790182268",
+      "alt": "A successful authorization identifies demotailwind.com as the connected Cloudflare domain.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Cloudflare Connection and Settings' (Settings > Domain Manager): A successful authorization identifies demotailwind.com as the connected Cloudflare domain.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668517/original/xTzv4uGPtjpJy1Dtn0YpEqwHrNVV__j2nw.png?1790182272",
+      "alt": "The Cloudflare Settings card showing the recommended values, with Set recommended defaults marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Cloudflare Connection and Settings' (Settings > Domain Manager): The Cloudflare Settings card showing the recommended values, with Set recommended defaults marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668492/original/Bc4LFZ_TR0RmVYH7EGY7GNbiE5Cgxq7gIQ.png?1790182267",
+      "alt": "Page caching controls, with Turn on page caching marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Cloudflare Connection and Settings' (Settings > Domain Manager): Page caching controls, with Turn on page caching marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668491/original/RBWj9ar5J5bOcEtQvBy5p6uzpuYLbJdgXA.png?1790182266",
+      "alt": "Advanced settings, with Encryption mode marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Cloudflare Connection and Settings' (Settings > Domain Manager): Advanced settings, with Encryption mode marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109759",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109759"
+    },
+    {
+      "text": "Connecting a Site to Cloudflare",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084176"
+    },
+    {
+      "text": "connection wizard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    },
+    {
+      "text": "DNS Records",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109758"
+    }
+  ],
+  "lastmod": "2026-09-28T20:10:51+05:30",
+  "scraped_at": "2026-10-18T14:00:07.283261"
+}

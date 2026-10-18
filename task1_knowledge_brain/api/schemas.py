@@ -4,13 +4,23 @@ Provides typed schemas for queries, citations, tickets, settings checking, and s
 """
 
 from typing import Any, Dict, List, Optional
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class QueryRequest(BaseModel):
     query: str = Field(..., description="User or agent natural language question", min_length=3)
     top_k: int = Field(default=4, ge=1, le=10, description="Number of source chunks to retrieve")
     category_filter: Optional[str] = Field(default=None, description="Optional category filter (e.g. 'Emails')")
+
+    @field_validator("query", mode="before")
+    @classmethod
+    def strip_and_require_query(cls, value):
+        if not isinstance(value, str):
+            return value
+        value = value.strip()
+        if len(value) < 3:
+            raise ValueError("query must contain at least 3 non-whitespace characters")
+        return value
 
 
 class CitationItem(BaseModel):
@@ -30,6 +40,11 @@ class QueryResponse(BaseModel):
     citations: List[CitationItem] = []
     screenshots: List[str] = []
     ticket_id: Optional[str] = None
+    model_used: str = "none"
+    fallback_used: bool = False
+    input_tokens: Optional[int] = None
+    output_tokens: Optional[int] = None
+    generation_error: Optional[str] = None
 
 
 class SettingsCheckRequest(BaseModel):
@@ -84,6 +99,8 @@ class SyncResponse(BaseModel):
     updated_count: int
     removed_count: int
     message: str
+    unchanged_count: int = 0
+    failed_count: int = 0
 
 
 class HealthResponse(BaseModel):

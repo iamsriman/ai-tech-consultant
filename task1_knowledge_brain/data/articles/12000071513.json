@@ -1,0 +1,23 @@
+{
+  "article_id": "12000071513",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071513-06-12-20-software-updates",
+  "title": "06/12/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/12/20 - Software Updates"
+  ],
+  "content": "## 06/12/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000071513\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the member upgrade feature which was preventing the \"One-Time Setup Fee\" from being charged in some cases.\n\n- We updated the \"Add Single Member\" button on the Import Members page in the Admin so that an Admin account that has the \"Import Members\" Permission will be able to add a single member as well.\n\n- We updated the window Admins are allowed to refund transactions from the Admin area to 365 days for the Stripe payment gateway and to 180 days for the PayPal payment gateway.\n\n- We fixed an issue which which was preventing the Form Manager from saving newly-added fields when customizing a form for the first time.\n\n- We fixed an issue that was preventing the Admin sidebar menu from closing when clicking on the \"X\" button to close the menu when viewing the frontend of a site as an Admin.\n\n- We updated Text Labels so they are fetched directly from the database rather than relying on a cache file.  This ensures that new labels added to the system will work immediately on all sites and did not have any impact on performance in our testing.\n\n- We fixed an issue which was preventing the Export Categories Tool from exporting categories with duplicate names in some cases.\n\n- We fixed an issue with the Import Categories Tool which was preventing imported Sub-Level categories from being associated with the correct Top Category in some cases.\n\n- We fixed a design issue which was causing the search field in the Service Area module in the Member Dashboard to overlap with the content below when viewing the site on mobile devices. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We fixed an issue with the \"Install New Updates\" module which was causing the \"Check For Updates\" process to get stuck when completing some updates.\n\n- We fixed an issue which was preventing the \"Display Tab Total\" Design Setting from working properly on Member Profile pages in some cases. Widget Involved: Bootstrap Theme - Member Profile - Member Tabs\n\n- We fixed an issue which was preventing ZenMembers Admin accounts from being able to see custom widgets on the Widget Manager page in the Admin.\n\n- We fixed an issue with PayPal Payment Gateway which was causing payment transactions with the \"Paid\" status in PayPal to have a different status on the Transaction History page in the Admin in some cases.\n\n- We updated the logic of the Form Manager when creating a new form in order to launch it with some basic fields to use as a template when creating a new form.\n\n- We fixed an issue which was affecting the ability to clone posts from the Member Dashboard area when using the Pay Per Post Add-On in some cases. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- We removed the \"Add-On Available\" labels from the Edit Post Types and Edit Membership Plan pages in the Admin.\n\n- We fixed an issue which was causing Lead Email Templates to display a PHP warning in some cases.\n\n- We fixed an issue with the \"Forgot Password\" Feature for Admin accounts which was causing it to return a blank page when used in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000071513",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071513"
+    }
+  ],
+  "lastmod": "2020-06-15T23:29:25+05:30",
+  "scraped_at": "2026-10-18T13:46:44.716392"
+}

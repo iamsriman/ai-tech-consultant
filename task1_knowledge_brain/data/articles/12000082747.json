@@ -1,0 +1,23 @@
+{
+  "article_id": "12000082747",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082747-10-01-21-software-updates",
+  "title": "10/01/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/01/21 - Software Updates"
+  ],
+  "content": "## 10/01/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082747\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed a javascript issue in the Web Page Builder that was throwing an error when setting the page type as \"Custom Widget as Web Page\" in some cases.\n\n- We fixed an issue which was preventing the system from rendering the sub-level category data in the metadata of pages in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed a display issue with the Photo Albums Banner Ad functionality when there was only one image uploaded to a multi-image post. Widget Involved: Bootstrap Theme - Banner - Photo Albums Ad\n\n- We updated the Admin Menu in order to display a notification tag when there are comments pending Admin approval.\n\n- We fixed an issue which was preventing the system from respecting the \"Show Banner Ads On Profile\" Membership Plan setting on member profile and post detail pages. Widget Involved: Bootstrap Theme - Banner - 320_50 Bootstrap Theme - Banner - 728_15 Bootstrap Theme - Banner - 970_90 Bootstrap Theme - Banner - Header - 970_90 Bootstrap Theme - Banner - Photo Albums Ad Bootstrap Theme - Banner - Responsive Size Bootstrap Theme - Banner - Responsive Size 2 Bootstrap Theme - Banner - Responsive Size 3 Bootstrap Theme - Banner - Responsive Size 4 Bootstrap Theme - Banner - Responsive Size 5\n\n- We added Vietnamese as a Default Website Language option.\n\n- We fixed an issue which was causing the main menu of a site to overlap with the \"Live Design Tool\" save button when the main menu behavior is set to \"Stick at Top\".\n\n- We fixed an issue with the \"Copy From Parent Account\" logic for Sub-Accounts which was removing \"+\" symbols from the email address of the member.\n\n- We removed the bulk-action checkboxes from the SEO Templates page in the Admin.\n\n- We fixed an issue which was preventing the system from loading the Favorites page when accessed from some pages in the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We updated the Menu Manager page in the Admin in order to prevent multiple menus from having the same system name.\n\n- We fixed an issue which was causing the system to add an additional \"\\\" after adding a regex rule in the Validation Options for a form field in the Forms Manager in the Admin.\n\n- We fixed an issue which was causing post search results pages to display a console error which preventing the Lazy Load button from working properly in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082747",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082747"
+    }
+  ],
+  "lastmod": "2021-10-02T04:48:30+05:30",
+  "scraped_at": "2026-10-18T13:49:00.679133"
+}

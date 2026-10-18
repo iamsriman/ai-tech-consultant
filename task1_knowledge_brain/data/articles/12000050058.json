@@ -1,0 +1,23 @@
+{
+  "article_id": "12000050058",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050058-10-05-18-software-updates",
+  "title": "10/05/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/05/18 - Software Updates"
+  ],
+  "content": "## 10/05/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000050058\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was affecting the URLs of countries. Widgets Involved: Bootstrap Theme - Category Groups - Member Locations Bootstrap Theme - Function - Display Breadcrumbs Bootstrap Theme - Module - Member Related Searches\n\n- We fixed an issue which was preventing the setting to hide/show a Member's Specialties on the Featured Member and Recent Members widget from working properly.. Widgets Involved: Bootstrap Theme - Display - Homepage Featured Members Bootstrap Theme - Display - Recent Members\n\n- We fixed an issue which was causing the Member Search Module to not include all results within the specified radius around a searched location in some cases. Widget Involved: Search - Member - Search Query\n\n- Now sites that use an external payment gateway (PayPal Standard, Payfast, 2Checkout) can give members the option to signup with the One-Click Social Login Add-On. Forms Involved: WHMCS - External Signup\n\n- Admins now have the ability to independently install an SSL certificate through the Admin of their site once they have purchased the Add-On.\n\n- We fixed an issue that was preventing the Admin Sidebar from appearing after clicking \"Visit Website\" from the Admin area.\n\n- We applied a UI update to the Member Categories page in the Admin area and subsequently fixed some small issues related to the update.\n\n- We applied a Security Update to the Save Form widget. Widget Involved: Bootstrap Theme - Function - Save Form\n\n- We fixed an issue which was affecting the ability to display Text Labels with apostrophes on /checkout pages.\n\n- We created a new setting which will Enable/Disable the Auto-Recurring Events Add-On. In order to use this new setting, navigate to Admin >> Content >> Edit Post Settings >> Events >> Edit >> General Settings tab . Widgets Involved: Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Display - Recent Events Bootstrap Theme - End Date Picker Bootstrap Theme - Footer - Scripts Bootstrap Theme - Recurring - Recurring Type Bootstrap Theme - Start Date Picker Search - Post - Search Query\n\n- We updated the success page after an Admin creates a new subscription for a member from the Admin area.\n\n- We applied a Security Update to the Edit Post Settings page in the Admin Area.\n\n- We made an update to the Reviews Module in the Member Dashboard Area.  We added the ability to hide/show the Member Rating Options to the member review form, and each individual Rating Option can now be hidden by deleting the content of the corresponding Text label. Widgets Involved: Bootstrap Theme - Account - Notifications Controller Bootstrap Theme - Form - Display Rating Options Bootstrap Theme - Member Profile - Read Review",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000050058",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000050058"
+    }
+  ],
+  "lastmod": "2018-10-06T06:08:45+05:30",
+  "scraped_at": "2026-10-18T13:43:53.769246"
+}

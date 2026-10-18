@@ -1,0 +1,94 @@
+{
+  "article_id": "12000046485",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046485-setting-up-recurring-payments",
+  "title": "Setting up Recurring Payments",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Setting up Recurring Payments"
+  ],
+  "content": "## Setting up Recurring Payments\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046485\n\nThis article explains how to configure recurring membership payments, including monthly, quarterly, semi-annual, and yearly billing cycles, as well as recurring subscriptions with optional one-time setup fees.\n\nSometimes, admins want to add a one-time payment + a recurring subscription or they might only want a regular subscription.\n\nIf this is the case, follow these simple steps to set it up correctly:\n\n1. Go to Finance » Membership Plans and click Edit:\n\n2. Then go to the \"Sign Ups & Upgrades\" tab. Scroll down and add the price of the recurring options:\n\nDo the same if need to set up a \"One-time setup fee\" option + recurring payments.\n\n3. Make sure the \"Account type\" says \"Paid\".\n\nWhen the price has been set up, scroll up and click the \"Sign Up Page\" button:\n\nMake sure the price is showing up correctly in the \"Checkout\" Form:\n\nTo create one-time payments, read this article: Setting up One Time Payments .\n\nIf Free Membership Plans need to be created, read this documentation: Setting up Free Membership Plans .\n\nIf need to edit the amounts displayed on the /join page, read these articles: Side-By-Side Pricing Plans: How To Link Membership Plans To The Price Matrix Guide 5. How to Edit Public Pricing Page (the /join page)",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12172838167/original/8Nz0FBu__jRS1jXRlzaJ2pm-aPY9Lw0hdQ.png?1767713254",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting up Recurring Payments' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117393234/original/9suNNENZ_dWesE4GLyaRmiQ14-wsfVHcsA.png?1668690553",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting up Recurring Payments' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117393260/original/YM4bncLLXRrMjeaWAQsFNwhT1BDXpQv4JQ.png?1668690593",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting up Recurring Payments' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12117393291/original/3YJOTQjjK0P7MRT0oQ_RU6V2iWAj2YVS9w.png?1668690607",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting up Recurring Payments' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092390908/original/Eq2yBSb8wyy-6Vwx4SUVAsTRVci1UNUIww.png?1620597965",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting up Recurring Payments' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092390922/original/0tco7OHRFm5rH0bkEipO6SE1bg-gmXzMcw.png?1620598106",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting up Recurring Payments' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046485",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046485"
+    },
+    {
+      "text": "Setting up One Time Payments",
+      "url": "https://support.brilliantdirectories.com/solution/articles/12000043478"
+    },
+    {
+      "text": "Setting up Free Membership Plans",
+      "url": "https://support.brilliantdirectories.com/solution/articles/12000046487"
+    },
+    {
+      "text": "Side-By-Side Pricing Plans: How To Link Membership Plans To The Price Matrix",
+      "url": "https://support.brilliantdirectories.com/a/solutions/articles/12000046485"
+    },
+    {
+      "text": "Guide 5. How to Edit Public Pricing Page (the /join page)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000068749"
+    }
+  ],
+  "lastmod": "2026-07-02T21:49:14+05:30",
+  "scraped_at": "2026-10-18T13:42:59.788529"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000084569",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084569-12-17-21-software-updates",
+  "title": "12/17/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/17/21 - Software Updates"
+  ],
+  "content": "## 12/17/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084569\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Manage Post page in the Admin from displaying the options in the \"Actions\" column properly when the member had certain special characters as part of their name in some cases.\n\n- We updated the recent homepage widgets to include the \"width\" and \"height\" attributes for <img> elements. Widgets Involved: Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Header - Left\n\n- We updated the recent homepage widgets to include the \"loading\" attribute and set \"lazy\" as the default value for <img> elements, reducing the loading time of the homepage and increasing pagespeed scores. Widgets Involved: Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Display - Related Posts by Category\n\n- We updated the applicable default forms to use the new \"Security - HoneyPot Field\" and \"Security - Google reCaptcha\" form field types in place of the previous widgets / custom code used for those fields. Forms Involved: Website - Contact Us Listing - Write Review Website - Lead Form - Get Matched Website - Newsletter Signup Form Website - Newsletter Footer Member - Sign Up - Free Member - Sign Up - Paid\n\n- We fixed an issue which was preventing the system from loading the CSS stylesheet file on Post Details pages in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- We added support for custom meta data fields on Multi-Image Post forms, like the ones used in the \"Feature - Blog Articles\" form by default. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed updated the workflow for deleting custom forms to ensure all data related to the form is removed from the database and improve the user experience.\n\n- We fixed an issue which was allowing the Membership Plan Settings to be saved without a Membership Plan Name.\n\n- The system is now using a minified version of the \"websiteScripts.js\" file to improve page load times and 3rd party pagespeed scores.\n\n- We added back the \"recommendation-member\" email template.\n\n- We fixed an issue which was preventing the \"Listing - Profile Photo & Logo\" option from displaying in the \"Forms Submitted\" and \"Forms not Submitted\" filters on the Search Members page in the Admin.\n\n- We updated the logic of the \"Dynamic Category Filtering\" Add-On widgets to always redirect to the member search results page, even if the filters are being used on other pages.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084569",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084569"
+    }
+  ],
+  "lastmod": "2021-12-20T19:12:42+05:30",
+  "scraped_at": "2026-10-18T13:49:16.029614"
+}

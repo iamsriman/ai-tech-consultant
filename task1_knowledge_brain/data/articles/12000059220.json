@@ -1,0 +1,23 @@
+{
+  "article_id": "12000059220",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059220-07-12-19-software-updates",
+  "title": "07/12/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/12/19 - Software Updates"
+  ],
+  "content": "## 07/12/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059220\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing manual billing subscriptions for members from being started from the Admin  in some cases.\n\n- We updated the Private Member Chat Add-On to show the member you are chatting with in each thread when viewing your threads in the Member Dashboard.\n\n- We fixed an issue which was preventing the Event Date Picker field from work properly when the date format is set to \"DD/MM/YY\" and the Auto-Recurring Events Add-On is active.\n\n- We fixed an issue that was causing member searches for subcategories to not show accurate results using some member search widgets. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was preventing Admins from deleting invoices in Admin Area in some cases.\n\n- We added the Jordanian Dinar as an available website currency.\n\n- We fixed an issue which was causing settings for the Easy Coupon Codes Add-On to be reset after saving a Product in the Admin in some cases.\n\n- We fixed an issue that was affecting the ability to select the \"State\" field when adding a new Contact in the Admin.\n\n- We updated the display of titles in the Recent Reviews sidebar widget to allow the text to break when it is too long to display in a single line. Widget Involved: Bootstrap Theme - Module - Recent Reviews\n\n- We created a new Design Setting that allows the Admin to hide the Homepage Divider on mobile devices. In order to use this new setting, navigate to the Admin >> Settings >> Design Settings >> Homepage Layout tab >> Homepage Divider Settings. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We fixed an issue which was preventing the Member Categories Search Filter fields on search results pages from loading correctly in some cases. Widget Involved: Bootstrap Theme - Function - Form\n\n- We fixed an issue which was preventing the \"Filter By Form\" field on the Form Inquiries page in the Admin from displaying options when there was only 1 form to filter by.\n\n- We fixed an issue that was preventing the \"getMemberSubCategory\" function from returning results when \"all\" was set as the second parameter when calling the function.\n\n- We added formatting to the Lead Count number shown in the Admin Sidebar.\n\n- We added \"Top + Sub + Sub-Sub Member Category\" as a new Sidebar Search Module widget.\n\n- We fixed an issue which was preventing the system from including the Menu CSS Class field when Cloning an existent menu.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059220",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059220"
+    }
+  ],
+  "lastmod": "2019-07-15T21:43:07+05:30",
+  "scraped_at": "2026-10-18T13:45:12.049621"
+}

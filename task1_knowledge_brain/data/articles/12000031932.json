@@ -1,0 +1,23 @@
+{
+  "article_id": "12000031932",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000031932-07-07-17-software-updates",
+  "title": "07/07/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/07/17 - Software Updates"
+  ],
+  "content": "## 07/07/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000031932\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The Yes/No Field Type in the Form Builder, the Service Areas portion of the Member Dashboard (Multi-Location Listings Add-On), the Add / Edit Post area of the Member Dashboard, and the Select Categories Module in the Member Dashboard are now based on Text Labels. Widgets Involved: Bootstrap Theme - Account - Select Locations Bootstrap Theme - Account - Checklist Wizard Bootstrap Theme - Account - Feature Single Photo Upload Bootstrap Theme - Account - Photo Albums Bootstrap Theme - Account - Photo Albums datatable Bootstrap Theme - Account - Select Categories Bootstrap Theme - End DateTime Picker Bootstrap Theme - Footer - Scripts Bootstrap Theme - Start DateTime Picker Form - Froala Editor Javascript\n\n- We added some additional functionality to how categories are displayed on the front end of a website. There is now an Advanced Setting called fast_search.  When this is set to 1, all categories of a website will display in the /categories page and in category dropdowns in member search features, regardless of whether or not a member will be found in that category.  This speeds up the loading of the /categories page as well as the category dropdowns since the software does not need to check whether or not there are members that have selected those categories. If fast_search is set to 0 (as it is by default) only categories that at least one member has selected will display on the /categories page and in category dropdowns in member search features. Widgets Involved: Bootstrap Theme - Category Groups - Member Categories.\n\n- We fixed an issue with the display of the Time and Date in the Admin area.\n\n- We refactored one of the core files that loads whenever a front end page of a website is requested in order to make it process faster.  We also removed several lines of code that were present to support pages that have since been deprecated.\n\n- The issue of the \"Include Website Logo\" option in the Edit Email Template section not impacting the final email that is sent has been resolved. Widgets Involved: Default Email Template",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000031932",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000031932"
+    }
+  ],
+  "lastmod": "2017-07-07T23:59:07+05:30",
+  "scraped_at": "2026-10-18T13:41:25.109808"
+}

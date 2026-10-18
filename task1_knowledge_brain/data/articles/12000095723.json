@@ -1,0 +1,51 @@
+{
+  "article_id": "12000095723",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095723-how-to-get-members-through-the-api",
+  "title": "How to \"GET\" members through the API",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "How to \"GET\" members through the API"
+  ],
+  "content": "## How to \"GET\" members through the API\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095723\n\nIn this article, we will be going over how to \"get\" members using the /get API  by email or any other column using these query parameters.\n\n\n## Important Note\n\n\nThis process can also be used for leads APIs and posts to search a lead or post by a column.\n\n\n## How to \"get\" Members\n\n\nIt is possible to \"get\" the member by email or any other column using the following query:\n\ncurl --location 'https://stufebruary18997.directoryup.com/api/v2/user/get?property=email&property_value=sample%40sample.com' \\ --header 'X-Api-Key: a4dec6f5434c48b4c8d128567923e040'\n\n\n## Pagination\n\n\nBy default, the system displays up to 100 results per page. If needed, the number of results can be adjusted by entering any value between 20 and 100 in the \" limit \" field.\n\nThe unique values of next_page and last_page can be used in the page field to load the corresponding next or last page of results.\n\n\n## Multiple Properties\n\n\nIt is possible to include multiple properties when searching for data through the API.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133362593/original/5_CWP0O2HDpq6X32GTjs3c6LD0jQuZAkYg.png?1698340362",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"GET\" members through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12150785924/original/l7T5oIaf46oH6F3K1UAyICxw6pd5wM3AiQ.png?1728592358",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"GET\" members through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155860481/original/HAmZOcctUM5qAkFmCl585LXtGioDy34WwQ.png?1737645898",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to \"GET\" members through the API' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095723",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095723"
+    }
+  ],
+  "lastmod": "2025-11-05T14:54:59+05:30",
+  "scraped_at": "2026-10-18T13:52:42.489654"
+}

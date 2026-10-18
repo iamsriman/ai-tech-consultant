@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102911",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102911-12-27-2024-software-updates",
+  "title": "12/27/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/27/2024 - Software Updates"
+  ],
+  "content": "## 12/27/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102911\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue that was causing the system to display the \"Activate Add-Ons\" button on the Business Data page in the Admin when the Add-On is already activate on the site in some cases.\n\n- We fixed an issue which was preventing the system from correctly encoding the member location URLs when importing members using the Business Data Tool.\n\n- We fixed an issue which was preventing the field mapping logic from working properly when importing members via CSV file in some cases.\n\n- We implemented a security update to the member post creation logic in the Member Dashboard.\n\n- We implemented a security update to the Add New Member modal on the Search Members page in the Admin.\n\n- We updated the member location field validation on the Contact Details form in the Member Dashboard to revalidate the required fields after selecting a new location from the Google Maps search field. Widget Involved: Bootstrap Theme - Form - Member Google Location\n\n- We fixed an issue which was causing the system to return a 404 error when the URL of a static web page ended with \"/\" in some cases.\n\n- We updated the \"Delete Unused Image\" tool in the Admin Dashboard to run more quickly and only require a single pass through the images on the site rather than multiple passes.\n\n- We updated the display of the About Me form data on member profile pages in order to respect the order and display setting of the fields.\n\n- We added the ability to sort by \"My Saved Templates\" when searching for Email Templates on the Email Templates page in the Admin.\n\n- We fixed an issue which was affecting the ability to upload \".pptx\" file using the Media Manager in the Admin in some cases.\n\n- We fixed an issue which was preventing the system from displaying the Post Limit Reached Modal after updating the status of a post from \"Unpublished\" to \"Published\" in the Member Dashboard area.\n\n- We fixed an issue which was preventing the \" Sort By\" setting for the \" Recent Sub-Level Categories\" homepage section  from working properly in some cases. Widget Involved: Bootstrap Theme - Display - Sub Level Categories\n\n- We fixed an issue which was preventing the \"Click here to return to the homepage\" link from working properly when the \"You cannot submit a review for your own profile\" Advanced Setting was active in some cases. Widget Involved: Bootstrap Theme - Member Profile - Submit Review\n\n- We fixed an issue that was preventing the \"Required\" logic from working properly for the \"Start Date\" field when both \"Start Date\" and \"End Date\" are set to be required on the \"Feature - Events\" Form in some cases. Widget Involved: Bootstrap Theme - Start Date Picker",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102911",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102911"
+    }
+  ],
+  "lastmod": "2024-12-30T21:49:18+05:30",
+  "scraped_at": "2026-10-18T13:55:28.944122"
+}

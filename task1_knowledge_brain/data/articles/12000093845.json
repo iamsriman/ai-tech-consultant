@@ -1,0 +1,23 @@
+{
+  "article_id": "12000093845",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093845-05-12-2023-software-updates",
+  "title": "05/12/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/12/2023 - Software Updates"
+  ],
+  "content": "## 05/12/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093845\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Member Profile Analytics Add-On in order to make the Member Profile Statistics view in the Member Dashboard more compatible with mobile devices.\n\n- We updated the Recent and Featured Members homepage widgets in order to display the correct text label for Top or Sub Categories, depending on which is being displayed. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- We fixed an issue with the Recent Review widget which was slowing down the loading of the homepage when the \"Limit One Review Per Member\" Recent Review Setting was active. Widget Involved: Bootstrap Theme - Display - Recent Reviews\n\n- We updated the display of the Manage Leads page in the Member Dashboard to hide Name and Location data of leads that have not yet been \"accepted\" if the corresponding field has the \"Lead Previews\" Display Setting set to \"Off\" in the \"Website - Lead Form - Get Matched\" form. Widget Involved: Bootstrap Theme - Account - Leads - New Lead System DataTables\n\n- We added the ability to update the \"Join Date\" of members from the Search Members page in the Admin. To use this new feature, navigate to the Admin >> My Members >> Search Members >> Actions >> Quick Edit >> Account Details tab.\n\n- We updated the layout of all Date Range Picker search fields in the Admin.\n\n- We updated the text of the success message modal after a user purchases a Digital Product on the frontend of the site. Text Labels Involved: free_success_label digital_product_order_complete_label\n\n- We added placeholder text to the Post Categories dropdown field when editing member posts in the Member Dashboard. Widgets Involved: Bootstrap Theme - Form - Group Categories Select Controller Bootstrap Theme - Form - Post Categories Select Controller Text Labels Involved: category_group_label_option category_post_label_option\n\n- We added the ability to display an icon for verified members on the Search Members page in the Admin.\n\n- We added the ability to display the Internal Admin Notes for members when visiting the Member Account Details page in the Admin.\n\n- We created two new widgets called \"Bootstrap Theme - Homepage Search - Extra Code Above\" and \"Bootstrap Theme - Homepage Search - Extra Code Below\" in order to easily add content above and below of the homepage search module without customizing important widgets. Widget Involved: Bootstrap Theme - Homepage\n\n- We fixed an issue which was preventing data to be assigned to the proper default field when importing members via CSV file in some cases.\n\n- We fixed an issue with the \"RSS Feed for Posts\" Add-On which was preventing XML Parsers from correctly reading the <media> tag value for images from the RSS feed in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093845",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093845"
+    }
+  ],
+  "lastmod": "2023-05-15T23:47:00+05:30",
+  "scraped_at": "2026-10-18T13:52:16.715185"
+}

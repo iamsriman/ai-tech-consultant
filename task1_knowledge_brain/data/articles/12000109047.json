@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109047",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109047-07-03-2026-software-updates",
+  "title": "07/03/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/03/2026 - Software Updates"
+  ],
+  "content": "## 07/03/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109047\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released Kazakh as a new supported language, including full translations for website labels and email templates.\n\n- Released a new \" Card View\" design option for the Recent content widgets displayed on the homepage, presenting each item as a modern flat card with the image on top and the content below. This setting can be changed by navigating to Admin >> Design Settings >> Homepage Tab >> Section Settings >> Display Post Setting. Widgets Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Homepage\n\n- Released a new Advanced Setting called \"Use Card-Based Layout on Member Upgrade Page\" that switches the Member Upgrade page to a card-style layout. Widget Involved: Bootstrap Theme - Account - Upgrade Page 1\n\n- Updated the member upgrade flow to be compatible with the Free Trial Add-On. Widgets Involved: Bootstrap Theme - Account - Upgrade Page 1 Bootstrap Theme - Account - Upgrade Page 2\n\n- Added source tracking for outgoing emails, allowing Admins to see which area of the system generated each email in the Email Outbox in the Admin . Widget Involved: System - SaveForm\n\n- Improved the Google location search in the Admin when searching for members and matching leads , so selecting a suggested location now retrieves complete location data for more accurate results.\n\n- Improved validation of the member type field (Company/Individual) when saving member information in the Admin, API and the Member Dashboard, preventing invalid values from being saved.\n\n- Fixed an issue that prevented newsletters from being created in the Admin on some websites.\n\n- Fixed an issue that caused the Activity Tracker and Webhook notifications to include inconsistent data when importing business data in the Admin.\n\n- Fixed an issue that caused blank member profiles to be created when importing members with missing required fields in the Admin . The import now stops and clearly identifies the rows that need correction.\n\n- Fixed an issue that caused dates to display incorrectly in the Revision History dropdowns in the Admin .",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109047",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109047"
+    }
+  ],
+  "lastmod": "2026-07-05T03:50:04+05:30",
+  "scraped_at": "2026-10-18T13:59:27.261393"
+}

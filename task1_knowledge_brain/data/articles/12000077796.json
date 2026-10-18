@@ -1,0 +1,23 @@
+{
+  "article_id": "12000077796",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077796-02-12-21-software-updates",
+  "title": "02/12/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/12/21 - Software Updates"
+  ],
+  "content": "## 02/12/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077796\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the layout when creating/editing forms in the Admin.\n\n- The GDPR Consent Fields functionality is now a free Add-On.\n\n- We fixed an issue which was preventing the system from charging One-Time payments when manually adding a recurring subscription for a member from the Admin Area in some cases.\n\n- We fixed an issue with the \"Fetch From SEO Template\" feature when using the Quick Edit Member form causing it to not return a properly formatted profile page URL in some cases.\n\n- We fixed an issue which was preventing Admins from logging out of their account from the Payments Gateway page in the Admin area.\n\n- We fixed an issue which was preventing the system from creating records in the Contact Tag page after a user submits both the Contact Us and the Newsletter form in some cases. Widget Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- We added the time each member joined the directory to the existing \"Join Date\" shown on the Search Members page in the Admin.\n\n- We updated the error message when trying to refund a payment after changing the Payment Gateway credentials of the site in order to return a more detailed description of the issue.\n\n- We fixed an issue which was preventing the members from deleting Multi-Photo Posts when special characters were included in Text Labels used on the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Photo Albums datatable\n\n- We fixed an issue which was preventing members from removing posts or members they had bookmarked from the Member Dashboard area in some cases. Widget Involved: Bootstrap Theme - Function - Add to Favorites Button\n\n- We implemented a security update in order to prevent malicious entries when using the Member Profile Analytics Add-On on the Front-End of sites.\n\n- We created a new Text Label for the member signup Success Message when using the Free Trial Period Add-On. Text Label Involved: payment_successful_free_trial\n\n- We deprecated the Newsletter Font Color Design Setting as it was no longer being used. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We updated the design of the SEO Settings tab when editing Web Pages and SEO Templates in the Admin.\n\n- We moved the \"Request More Reviews\" button from the bottom of Review Details pages to the Manage Reviews page in the Member Dashboard area . Widget Involved: Bootstrap Theme - Account - Reviews Datatable\n\n- We fixed an issue which was causing Homepage Search modules to be misaligned when the homepage search module layout was set to \"Horizontal\" in some cases. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We updated the Member CSV Import workflow to assume custom fields added to the import file should be imported according to the column headers in the file.   As such, the \"Directory Property\" for these custom fields will be pre-filled with the name of the custom field instead of requiring it to be done manually.\n\n- We created a new Design Setting called \"Enable Module Shadow\" in order to add a drop shadow to the modules on the frontend of sites. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We created a new Advanced Setting called \"Froala Emojis\". When  this setting is active, the system will enable the Emojis menu on Froala WYSIWYGs on the frontend of sites. Widget Involved: Form - Froala Editor Javascript",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077796",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077796"
+    }
+  ],
+  "lastmod": "2021-02-15T20:55:59+05:30",
+  "scraped_at": "2026-10-18T13:47:49.659803"
+}

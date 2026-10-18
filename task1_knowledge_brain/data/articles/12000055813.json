@@ -1,0 +1,23 @@
+{
+  "article_id": "12000055813",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055813-03-22-19-software-updates",
+  "title": "03/22/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/22/19 - Software Updates"
+  ],
+  "content": "## 03/22/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000055813\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Member Profile Analytics Add-On from saving data properly in some cases. Widget Involved: Bootstrap Theme - Member Profile\n\n- We implemented a set of small aesthetic changes to the Google Map Controls shown on maps on the frontend of websites to remove unnecessary options that limit the viewport of the map. Widgets Involved: Bootstrap Theme - Search Results Map Bootstrap Theme - Module - Post Location Map\n\n- The issue which was affecting the ability to accept/decline Member Reviews in the Admin using certain mobile devices has been fixed.\n\n- We renamed some Banner Ad Titles on the Design Settings Page in the Admin Area in order to make the intended use of each banner ad field more clear.\n\n- We fixed an issue which was causing the \"About\" WYSIWYG in the Member Dashboard to not respect the image alignment when the content was displayed on live profile pages. Widget Involved: Bootstrap Theme - Member Profile - Overview Tab\n\n- We created a new Product Setting that hides or shows Banner Ads when a member is viewing their Member Dashboard. In order to use this new feature, navigate to the Admin >> Finance >> Manage Products >> Edit >> Additional Settings tab.\n\n- We removed some extra space which was showing on Feature Search Results pages when the Google Map Search Results Add-On is active on a Site. Widget Involved: Bootstrap Theme - Search Results Map\n\n- We fixed an issue which was preventing members from being able to click on the Main Menu icon when viewing the Chat Messages page on mobile devices. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We added the ability to re-open a message thread after a thread has been reported and closed by a member.\n\n- The Billing Details page in the Member Dashboard section is now fully based on Text Labels. Widget Involved: Bootstrap Theme - Billing - Invoice Purchase Confirmation\n\n- We improved the Member Search Results SQL logic in order to return more accurate results for keyword searches. Widget Involved: Search - Member - Search Query\n\n- We added the ability to attempt collection on multiple Past-Due Invoices simultaneously from the Transaction History page in the Admin. In order to use this new feature, navigate to the Admin >> Finance >> Transaction History >> Past Due tab .\n\n- We updated the Error Messages when an Admin User tries to manually collect payments from the Transaction History Page in the Admin.\n\n- We fixed an issue which was preventing profile pages from reading the default version of a form when a corresponding custom form of the same name was disabled.\n\n- We added an Alert Message to the Widget Manager page in the Admin when a member of our team temporarily disables the custom widgets on a site to troubleshoot an issue reported by the site's owner.\n\n- We fixed an issue which was preventing the Pagination on the Manage Post Page in the Admin from working properly.\n\n- We refactored the code of the Member Import page in the Admin Area in order to be able to support large CSV import files.\n\n- We removed the Actions Dropdown for the Listing, Reviews, Specialties and Favorites features on the Edit Post Settings page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000055813",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055813"
+    }
+  ],
+  "lastmod": "2019-04-03T21:36:10+05:30",
+  "scraped_at": "2026-10-18T13:44:39.860010"
+}

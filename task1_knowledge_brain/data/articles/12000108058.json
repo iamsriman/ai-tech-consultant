@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108058",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108058-api-reference-category-groups",
+  "title": "API Reference - Category Groups",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Category Groups"
+  ],
+  "content": "## API Reference - Category Groups\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108058\n\n← Back to API Reference | Getting Started Category Groups Category Groups are top-level containers for organizing categories into logical sections. Each category group can be associated with a specific database and used to group related categories together for display and filtering purposes. Model name in URL: category_group — DB table: category_group The Category Group Object Field Type Description group_id integer Unique category group ID (primary key, read-only) group_filename string URL-friendly slug for this group group_name string Display name of the category group group_desc text Description of the category group database string The database/table this group is associated with (EG list_services ) revision_timestamp timestamp Last modified timestamp (auto-updated) List Category Group Records GET /api/v2/category_group/get Returns a paginated list of category group records. Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/category_group/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"group_id\": \"1\",\n      \"group_filename\": \"member\",\n      \"group_name\": \"Member\",\n      \"group_desc\": \"\",\n      \"database\": \"list_services\",\n      \"revision_timestamp\": \"2014-10-30 16:00:55\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Retrieve a Category Group Record GET /api/v2/category_group/get/{group_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/category_group/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"group_id\": \"1\",\n      \"group_filename\": \"member\",\n      \"group_name\": \"Member\",\n      \"group_desc\": \"\",\n      \"database\": \"list_services\",\n      \"revision_timestamp\": \"2014-10-30 16:00:55\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Category Group Record POST /api/v2/category_group/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/category_group/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"group_name=Home+Services\" \\\n  -d \"group_filename=home-services\" \\\n  -d \"group_desc=Categories+for+home+service+providers\" \\\n  -d \"database=list_services\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"group_id\": \"2\",\n    \"group_filename\": \"home-services\",\n    \"group_name\": \"Home Services\",\n    \"group_desc\": \"Categories for home service providers\",\n    \"database\": \"list_services\",\n    \"revision_timestamp\": null\n  }\n} Update a Category Group Record PUT /api/v2/category_group/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/category_group/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"group_id=2\" \\\n  -d \"group_name=Home+and+Garden+Services\" \\\n  -d \"group_desc=Categories+for+home+and+garden+professionals\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"group_id\": \"2\",\n    \"group_filename\": \"home-services\",\n    \"group_name\": \"Home and Garden Services\",\n    \"group_desc\": \"Categories for home and garden professionals\",\n    \"database\": \"list_services\",\n    \"revision_timestamp\": \"2026-04-03 23:14:31\"\n  }\n} Delete a Category Group Record DELETE /api/v2/category_group/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/category_group/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"group_id=2\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"category_group record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108058",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108058"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:26+05:30",
+  "scraped_at": "2026-10-18T13:57:37.392920"
+}

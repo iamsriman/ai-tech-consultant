@@ -1,0 +1,50 @@
+{
+  "article_id": "12000071183",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071183-google-maps-verify-domain",
+  "title": "Google Maps: Verify Domain",
+  "category": "Settings",
+  "folder": "Google Maps Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Google Maps Troubleshooting",
+    "Google Maps: Verify Domain"
+  ],
+  "content": "## Google Maps: Verify Domain\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000071183\n\nAccording to Google guidelines:\n\n\"If you already own a domain name (such as example.com), and you want to use this domain name as the name of your Cloud Endpoints service, you must prove that you are authorized to use the domain.\"\n\nLogin here to get these keys: https://console.cloud.google.com/apis\n\nFor additional support regarding these verification keys and setting this up in your console contact Google Support: Maps API Google Support\n\n\n### We recommend using the Meta Tag option -\n\n\nTo add the Meta Tag go to:\n\nSettings » Design Settings » Custom CSS/HEAD » Add it inside the Additional Head Code",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12078036459/original/LnG1qm_t5xwILWO4ZidEaZAT2PFfkfJwPA.png?1591114488",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Verify Domain' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105619829/original/VLjOCQlPcvM_bKn9CNp4lFLaEAtCiBacng.png?1645925393",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Google Maps: Verify Domain' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000071183",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000071183"
+    },
+    {
+      "text": "https://console.cloud.google.com/apis",
+      "url": "https://console.cloud.google.com/apis"
+    },
+    {
+      "text": "Maps API Google Support",
+      "url": "https://console.cloud.google.com/support"
+    }
+  ],
+  "lastmod": "2023-07-15T07:38:03+05:30",
+  "scraped_at": "2026-10-18T13:46:43.148344"
+}

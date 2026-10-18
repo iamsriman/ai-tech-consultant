@@ -1,0 +1,109 @@
+{
+  "article_id": "12000024824",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000024824-how-to-change-search-results-sorting-options",
+  "title": "How to Change Search Results Sorting Options",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How to Change Search Results Sorting Options"
+  ],
+  "content": "## How to Change Search Results Sorting Options\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000024824\n\nNavigate to MY CONTENT > EDIT POST SETTINGS and click on \" Edit \" for the post type in which the sorting order will be changed:\n\nMove to the Search Results Design tab:\n\nScroll down and expand the Additional Settings and open up the \" Order Results By \":\n\n\n## Sort Order Options\n\n\nCustomizing the sort order for member and post type search results can be found in the Post Settings in the admin dashboard. The available sorting options depend on whether the results are listings/profiles or member-published posts.\n\n\n### Member Listings\n\n\n- Member Name A-Z\n\n- Member Name Z-A\n\n- Member/Post ID (Oldest First)\n\n- Member/Post ID (Newest First)\n\n- Sort by Last Name A-Z (If no last name is present, it will use the company name as the last name)\n\n- Sort by Last Name Z-A (If no last name is present, it will use the company name as the last name)\n\n- Number of Reviews\n\n- Random Order *\n\n\n### Member Posts\n\n\n- Date Posted (Earliest Date Last)\n\n- Date Posted (Earliest Date First)\n\n- Start Date (Earliest Date Last) - If Applicable\n\n- Start Date (Earliest Date First) - If Applicable\n\n- End Date (Earliest Date Last) - If Applicable\n\n- End Date (Earliest Date First) - If Applicable\n\n- Post ID (Smallest to Largest)\n\n- Post ID (Largest to Smallest)\n\n- Post Title A - Z\n\n- Post Title Z - A\n\n- Advanced - Edit in Search Widget\n\n- Random Order *\n\n\n### Selecting Random Order\n\n\nWhen the order is set to \" Random \", the results will be randomized once and then maintained for all pages of results for that search. Viewing results pages 2, 3, 4, etc of the search will not show newly randomized results - the order will be maintained on all of these pages of results, even when navigating back and forth between them. Once a new search is performed or the user navigates back to the original page of results, the order will be freshly randomized again.\n\nThe Random option will apply to all types of searches except radius-based location searches, which always order by distance from the searched location.\n\nSearching by category, keyword or nothing will have random results.\n\n\n### Membership Plan “Search Priority”\n\n\nAdditionally, the setting \"When Sorting Members - Respect Membership Plan “Search Priority” will respect the \"Search Results Priority\" logic based on the Membership Plan settings.\n\n\n## Location Searches & Sort Order\n\n\nWhen doing a radius-type location search (cities and zip codes by default) it will return members in order of distance from the searched location.\n\nSelecting any of the front-end options will override the distance and results will be returned based on the chosen filter:\n\n\n## Search Results Sort Order Options\n\n\nWhenever a search is conducted, the results are automatically filtered and sorted according to the selected option. Additionally, members and visitors can choose their preferred sorting option directly from the front end of the website.\n\nThere are 6 available filters on the front end:\n\n- Sort Results\n\n- Sort by Most Reviews\n\n- Sort by Name A-Z\n\n- Sort by Name Z-A\n\n- Sort By Last Name A-Z\n\n- Sort By Last Name Z-A\n\n\n## Sort Order Text Labels\n\n\nIf the admin does not want one of the available sort options to show on the front end, the corresponding Text Label needs to be left blank by deleting the text:\n\nThese are the text labels that can be edited or deleted:\n\n- Label Name: Default sort label\n\nSystem Variable: default_sort_label\n\n- Label Name: Most reviews sort label\n\nSystem Variable: most_reviews_sort_label\n\n- Label Name: Az sort label\n\nSystem Variable: az_sort_label\n\n- Label Name: Za sort label\n\nSystem Variable: za_sort_label\n\nPlease refer to this article to learn more about text labels: Settings » Text Labels In this example, after deleting the text labels for \" Sort by Name/Last Name \", these options no longer shows in the front end of the site:\n\n\n## Important Note\n\n\n- At this time, the ability to compare members in search results on the front end is not available.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127318949/original/ERDYTOtTkiG3rq5oOXTGbjXWwJImC6bomg.png?1687449815",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12096869764/original/IhII1wbRo1vwfaI88rcjaZgIm_0jHOjy5w.png?1629029649",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12146908052/original/kQ9uHNsHvIadZc5p5T5pSvfbe7lCgyWs0w.png?1721923515",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12122712703/original/u36NJdquMwu9bNvkmvScp3BFYtwvJAEVWg.png?1678980780",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159093712/original/BTXUyp4Z5L8O0DJLAKLqqyzMkCtjaRKXGQ.png?1743186241",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12159093875/original/tNe_RijaRRfZnrQJEJnvkTpQb-rl32Dyeg.png?1743186300",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12158961058/original/q0FI3Okl87tJg9agnIl8m0UhdannhyqylA.png?1743010978",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098050463/original/wfD_nuytmbdupWdBEFBBMXkzZwE_J3217w.png?1631305115",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090361492/original/iE71qWCCrnVxHB8LIzzyeBAUbdGJZDVrZg.png?1616498591",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Change Search Results Sorting Options' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000024824",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000024824"
+    },
+    {
+      "text": "Settings » Text Labels",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673"
+    }
+  ],
+  "lastmod": "2025-10-29T04:13:45+05:30",
+  "scraped_at": "2026-10-18T13:40:53.249453"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000079344",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079344-04-30-21-software-updates",
+  "title": "04/30/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/30/21 - Software Updates"
+  ],
+  "content": "## 04/30/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000079344\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from displaying some fields on the Basic Information tab in the Member Dashboard area when the \"Free Trial Additional Options\" Membership Plan setting was set to \"No Credit Card For Free Trial\" in some cases.\n\n- We fixed an issue which was causing the Froala WYSIWYG in the Admin  to convert \"&reg\" to the \"®\" HTML special character in some cases.\n\n- We fixed an issue which was affecting the ability to clone web pages on the Web Page Builder page in the Admin.\n\n- We fixed an issue which was preventing the system from correctly exporting the Member Categories and Newsletter Contacts in some cases.\n\n- We fixed an issue which was causing the system to create incorrect 301 redirects after updating the Member Profile URL Structure Advanced Setting in some cases.\n\n- We fixed an issue which was preventing the system from displaying the Post Search Results Placeholder image for the Videos Post Type on Search Results and the Manage Post page in the Admin in some cases.\n\n- We implemented an update in order to accept encoded spaces when values in Website URL fields in forms built with the Form Manager.\n\n- We updated the UI of the Admin Sessions module on the Admin Accounts page in the Admin.\n\n- We fixed an issue which was causing cloned Sidebars to display multiple empty widgets options when the Sidebar it was cloned from only had one widget in some cases.\n\n- We fixed an issue which was causing the system to displays an error message when trying to claim a listing using the Claimable Business Listing Add-On in some cases.\n\n- We created a new Coupon Code setting called \"Require Card When $0.00?\".  This allows an Admin to choose whether or not the billing fields appear when using the coupon for a member signup or upgrade.\n\n- We fixed an issue which was causing the recent events widget to display expired events in some cases. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We fixed an issue which was preventing the lead match search in the Admin to not return all relevant suggested matches in some cases. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was causing profile links in the Predictive Keyword Search Add-On to not work properly in some cases.\n\n- We updated the version of the Facebook SDK used on the frontend of sites. Widget Involved: Bootstrap Theme Framework\n\n- We fixed an issue which was preventing the system from exporting Smartlist results and erroneously displaying the Smartlist size as 0 in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000079344",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000079344"
+    }
+  ],
+  "lastmod": "2021-05-04T02:51:47+05:30",
+  "scraped_at": "2026-10-18T13:48:30.650120"
+}

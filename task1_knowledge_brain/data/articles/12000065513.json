@@ -1,0 +1,76 @@
+{
+  "article_id": "12000065513",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065513-how-to-prevent-and-minimize-unwanted-spam-sign-ups-to-free-membership-plans",
+  "title": "How to Prevent and Minimize Unwanted (spam) Sign Ups to Free Membership Plans",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "How to Prevent and Minimize Unwanted (spam) Sign Ups to Free Membership Plans"
+  ],
+  "content": "## How to Prevent and Minimize Unwanted (spam) Sign Ups to Free Membership Plans\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000065513\n\nSites that offer a free sign-up option for a public listing or profile are susceptible to unwanted registrations. This is a common occurrence across the internet and typically originates from SEO-focused actors attempting to place backlinks to external sites across as many directories as possible.\n\nThe following strategies can be applied individually or in combination to reduce or eliminate unwanted free sign-ups.\n\n\n## Strategy 1 — Block IP Addresses\n\n\nIdentifying and blocking the IP address associated with unwanted sign-ups is the most direct first response to an active spam event.\n\nTo apply this strategy:\n\nNavigate to My Members » Search Members in the admin dashboard. Locate the unwanted member listing in the results table. Identify the IP Joined From value displayed in that member's record. Block the identified IP address using the IP blocking tool. Delete all listings created by that IP address.\n\nReference: Block An IP Address From The Website\n\n\n## Strategy 2 — Require Admin Moderation for Free Sign-Ups\n\n\nEnabling admin moderation for free membership plans places all new free sign-ups into a pending hold status. Each account must be manually reviewed and approved by the administrator before becoming active on the site. This prevents spam listings from ever appearing publicly.\n\nNavigation Path: Admin Dashboard » Finance » Membership Plans » Sign Ups & Upgrades\n\nReference: Manually Approve New Member Signups\n\n\n## Strategy 3 — Remove Website and Social Media Link Fields from Free Plans\n\n\nFree member profiles that allow website and social media link fields are a primary target for SEO spammers. The motivation behind the majority of spam sign-ups is not genuine participation; it is the placement of backlinks to external sites within publicly indexed profiles.\n\nRemoving website and social media link fields from free membership plan profiles eliminates the primary incentive for this type of spam. Link-posting privileges can then be reserved exclusively for paid membership tiers, where members have a demonstrable interest in their listing. This approach keeps the directory cleaner, protects the site's reputation with search engines, and increases the perceived value of paid plan features.\n\n⚠ NOTE — Field Restrictions Are Configured Per Membership Plan: Website and social media link fields are controlled at the Membership Plan level. Changes made to field visibility on a free plan do not affect paid plans. Each plan's field configuration must be reviewed independently.\n\n\n## Strategy 4 — Remove Free Membership Plans Entirely\n\n\nIf spam volume is persistent and the other strategies are insufficient, removing free membership plans entirely and replacing them with a nominal paid entry point (such as a $1.00 joining fee) eliminates the possibility of free sign-ups altogether. With no free plan available, automated spam sign-up tools have no viable entry point.\n\n⚠ NOTE — Impact on Legitimate Sign-Up Volume: Introducing any paid requirement at the point of sign-up may reduce the overall volume of new registrations, including legitimate ones. This trade-off should be evaluated against the volume and severity of spam activity on the site before this strategy is implemented.\n\n\n## Strategy 5 — Customize Checkout Page URLs\n\n\nAll membership plans are assigned default checkout URLs following a sequential numeric pattern (e.g., checkout/1 , checkout/2 ). This predictable structure allows automated tools to iterate through plan URLs and discover free or legacy plans that are no longer publicly linked but still technically accessible.\n\nCustomizing the checkout URLs of free membership plans to non-sequential, non-predictable values removes this attack surface. Plans that are inactive, hidden, or not intended for public access should have their URLs changed as a baseline precaution.\n\nReference: Edit Checkout Pages: How To Edit Checkout URL\n\n\n## Strategy 6 — Block Traffic by Country\n\n\nIf spam sign-ups are originating predominantly from specific geographic regions, the Block Traffic by Country tool can be used to restrict site access from those regions entirely.\n\nReference: Block Traffic by Country\n\n⚠ NOTE — Broader Impact of Country Blocking: Blocking traffic by country restricts all site access from the selected regions, not only sign-up attempts. Legitimate visitors, potential members, and existing members from blocked regions will also be unable to access the site. This strategy is most appropriate when spam is clearly concentrated in specific regions and the site does not serve or target those regions.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181027106/original/cgiZNfff8e2tjg4-0ABKFGOAM9zZj5NDFg.png?1782399719",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Prevent and Minimize Unwanted (spam) Sign Ups to Free Membership Plans' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126474907/original/E2t5v5mboAYm0FyAdmKbUoKCqrv6ziHgwQ.png?1686016627",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Prevent and Minimize Unwanted (spam) Sign Ups to Free Membership Plans' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126474904/original/hYbi70WJfrALTdPwLdmsOB-se0RwveLA5Q.png?1686016611",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Prevent and Minimize Unwanted (spam) Sign Ups to Free Membership Plans' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12166040265/original/1oNjwCg7c7MKy_diuJ15DF4FfjtEdG8T0Q.png?1755547101",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Prevent and Minimize Unwanted (spam) Sign Ups to Free Membership Plans' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000065513",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065513"
+    },
+    {
+      "text": "Block An IP Address From The Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008504"
+    },
+    {
+      "text": "Manually Approve New Member Signups",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000010781"
+    },
+    {
+      "text": "Edit Checkout Pages: How To Edit Checkout URL",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084213"
+    },
+    {
+      "text": "Block Traffic by Country",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098368"
+    }
+  ],
+  "lastmod": "2026-06-25T20:32:03+05:30",
+  "scraped_at": "2026-10-18T13:45:47.781015"
+}

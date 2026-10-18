@@ -1,0 +1,135 @@
+{
+  "article_id": "12000074107",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074107-settings-general-settings-search-settings",
+  "title": "Settings » General Settings » Search Settings",
+  "category": "Settings",
+  "folder": "General Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "General Settings",
+    "Settings » General Settings » Search Settings"
+  ],
+  "content": "## Settings » General Settings » Search Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000074107\n\n\n## The Search Settings\n\n\nThis article explains the Search Settings in the General Settings Tab and all the settings within this tab.\n\n\n### Visual Guide of the Search Settings\n\n\nFull visual list of the Search Settings Tab:\n\n\n### 1. Default Member Search URL\n\n\nBy default, the Member Search Results pages use the URL \"search_results\". If needed, this URL can be easily modified with this setting.\n\n\n### 2. Require Complete Profiles\n\n\nThis setting will hide from the search results in any member that hasn't completed the following information Name, Top-Level Category, Profile Photo, and Address: Require Complete Profiles - How To Hide Incomplete Profiles\n\n\n### 3. Show Categories with No Members\n\n\nThis setting will either hide or display Categories that are empty. So if there are no members on that Category it can be hidden or displayed\n\n\n### 4. Default Category Sort Order\n\n\nSelect the order in which the website's categories are displayed in the category search widgets, streaming widgets and the category static page.\n\nCategory Name (A–Z)\n\nSorts categories alphabetically in ascending order.\n\nExample: Auto Repair, Cleaning Services, Restaurants.\n\nCategory Name (Z–A)\n\nSorts categories alphabetically in descending order.\n\nExample: Restaurants, Cleaning Services, Auto Repair.\n\nSort Order ASC\n\nSorts categories by the custom sort order number you (or the system admin) assigned to them, from lowest to highest.\n\nExample: Category with sort order 1 appears first, then 2, and so on.\n\nSort Order DESC\n\nSorts categories by the custom sort order number, from highest to lowest.\n\nExample: Category with sort order 10 appears before 5 and 1.\n\nID ASC\n\nSorts categories by their database ID (a unique number assigned when the category was created), from lowest to highest.\n\nOlder categories (created first) will appear before newer ones.\n\nID DESC\n\nSorts categories by their database ID, from highest to lowest.\n\nNewer categories (created last) will appear before older ones.\n\nIn short:\n\nName (A–Z / Z–A) = Alphabetical.\n\nSort Order ASC/DESC = Uses the custom ordering field.\n\nID ASC/DESC = Based on when the category was created in the system.\n\n\n### 5. Default Search & Lead Auto-Match Radius\n\n\nWhen doing a radius-based location search (zip codes and cities by default), members within this distance from the center of the searched location will be returned as results. This radius is also used when lead auto-matching is enabled to identify members that fall within the auto-match parameters.\n\nThis article explains this setting more in detail: Bounds And Radius Location Searches\n\n\n### 6. Strict Postal Code Match\n\n\nChoose ENABLED to only include results within the searched Postal Code. Choose DISABLED to include areas outside the searched Postal Code but are still within the radius limit.\n\n\n### 7. Strict City Match\n\n\nChoose ENABLED to only include results within the searched City. Choose DISABLED to include areas outside the searched City but are still within the radius limit.\n\n\n### 8. Enforce State & Country Borders\n\n\nChoose ENABLED to only include results within a searched State/Province & Country. Choose DISABLED to include results outside the searched State/Province & Country but still within the search radius.\n\n\n### 9. Category Keyword Searches\n\n\nChoose the method to be used for the Search by Keywords.  The Strict Match will only include members in a category that exactly matches the searched keyword,  the Broad Match will include those results and additional related matches.\n\n\n### 10. Google Search Assist\n\n\nThis option is available with the Google Search Assist Add-on.\n\nBy default this option is disabled, this displays only results from the directory. Enable this option to fill empty search result pages with Google search results.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161367155/original/cBNFd3NBeqkgJnbU5kMaSc3SY7LDRcHwjQ.png?1747310880",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086041387/original/LMx0fST6wtfbHDsuNKzl6JLumjN33KU5hg.png?1607446344",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12121726340/original/iX2bXdpZZ9ElN05NvRFkyyQWgarkUGAZ1g.png?1677171376",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086041417/original/g3S5KmYBeSbQXphhKB0DHXkOrzSp3VaWzQ.png?1607446368",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086041427/original/RkeV5fvikF76Uajjk9VthqbWbPeboCwLxA.png?1607446390",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093127630/original/db7eO25Bzd24GH2IOFl2Z0yxW7SexmkvVQ.png?1621958855",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086041431/original/2GUBpSQyNG15-CYWgeTp4PugMWayXvdudg.png?1607446401",
+      "alt": null,
+      "caption": "Context: 6. Strict Postal Code Match",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'. Context: Context: 6. Strict Postal Code Match",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12086041442/original/GzKoLQQJiFW-uoxKaWYDtxTVhdxrFMq4mA.png?1607446426",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12161367176/original/7mYCxlzAMwiEww5GckCEPl1qnzIKjHFBUQ.png?1747310922",
+      "alt": null,
+      "caption": "Context: 8. Enforce State & Country Borders",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'. Context: Context: 8. Enforce State & Country Borders",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12093127484/original/1CBJ05zpiWqkKF4ZJADBvKZJvtYINJG-Zw.png?1621958714",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094789651/original/bNgqKK8qKKi1j-ykuwhnqjmTnrdc0pwLmA.png?1624985116",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Settings » General Settings » Search Settings' in section 'Settings' / 'General Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000074107",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074107"
+    },
+    {
+      "text": "Require Complete Profiles - How To Hide Incomplete Profiles",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000053996"
+    },
+    {
+      "text": "Bounds And Radius Location Searches",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000682675"
+    },
+    {
+      "text": "Google Search Assist Add-on.",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030827"
+    }
+  ],
+  "lastmod": "2025-08-20T06:39:14+05:30",
+  "scraped_at": "2026-10-18T13:47:06.205815"
+}

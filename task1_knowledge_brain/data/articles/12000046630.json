@@ -1,0 +1,239 @@
+{
+  "article_id": "12000046630",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046630-design-settings-button-colors",
+  "title": "Design Settings » Button Colors",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Button Colors"
+  ],
+  "content": "## Design Settings » Button Colors\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000046630\n\n\n## Button Colors\n\n\nThis article reviews the available button colors for the website, the colors set here will affect all the buttons with that specific CSS class, across the entire website. The available CSS classes are: Primary, Success, Info, Warning, Danger, Default\n\nTo edit these colors navigate to\n\n- Settings\n\n- Design Settings\n\n- General\n\n- Button Colors\n\n\n## Visual Guide of the Button Colors\n\n\n\n### Button Corner Style\n\n\nThe available options are Rounded , Square, or Circle corners:\n\n\n### Rounded Corners\n\n\n\n### Square Corners\n\n\n\n### Circle Corners\n\n\n\n### Primary Button Background & Primary Button Text\n\n\n\n### Success Button Background & Success Button Text\n\n\n\n### Info Button Background & Info Button Text\n\n\n\n### Warning Button Background & Warning Button Text\n\n\n\n### Danger Button Background & Danger Button Text\n\n\n\n### Default Button Background & Default Button Text\n\n\n\n## Bookmark Favorites Button Settings\n\n\nThese settings are part of the Bookmark My Favorites Add-On .\n\nEnable Bookmark Counter\n\nFavorite Icon\n\nFavorite Icon Active Color\n\n\n## Favorite Icon Disabled Color\n\n\n\n## How To Identify What Button is Used in the Front-End\n\n\nButtons are used throughout your site for a wide variety of functions, making it difficult to document every instance where a specific button appears. Instead of attempting to list every location, this guide focuses on helping users identify which button is being used by examining its class in the front end. By inspecting a button's class, it can be determined which color scheme or design settings apply to it.\n\nFor those unfamiliar with the inspect tool, this resource provides a quick overview:\n\nHow to Use Inspect Tool in Any Browser\n\n\n### Primary Button\n\n\nThe class btn-primary is applied to this button. Below is an example from the front end:\n\n\n### Success Button\n\n\nThe class btn-success is applied to this button. Below is an example from the front end:\n\n\n### Info Button\n\n\nThe class btn-info is applied to this button. Below is an example from the front end:\n\n\n### Warning Button\n\n\nThe class btn-warning is applied to this button. Below is an example from the front end:\n\n\n### Danger Button\n\n\nThe class btn-danger is applied to this button. Below is an example from the front end:\n\n\n### Default Button\n\n\nThe class btn-default is applied to this button. Below is an example from the front end:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134516961/original/iS6QaqDqkkqMdnGth-EJlEYncdCDvtWB-A.png?1700102885",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134517130/original/iT1YWH2zGYbubhqZ_C6Kvv4YPccZ2QDmWA.png?1700103612",
+      "alt": null,
+      "caption": "Context: Rounded Corners",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: Context: Rounded Corners",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134516994/original/tV-9pRn_OqWvxeM2fvc5YOpQJxi31z9p_g.png?1700103081",
+      "alt": null,
+      "caption": "Context: Rounded Corners",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: Context: Rounded Corners",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134517069/original/8E2K-tFtA5HD-9vXAWKXSIg_R3lYiDKxoQ.png?1700103257",
+      "alt": null,
+      "caption": "Context: Square Corners",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: Context: Square Corners",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134517096/original/KKv2g2yN-Icu-vUGp6Ai9y0KyXv-E0apxg.png?1700103340",
+      "alt": null,
+      "caption": "Context: Square Corners",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: Context: Square Corners",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134517145/original/l6CW6PZv8E75Ub3-QKIwCwlD-_7Mlin_3Q.png?1700103702",
+      "alt": null,
+      "caption": "Context: Circle Corners",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: Context: Circle Corners",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134517155/original/jqrLJn2JSN6n5eL5vCZOOu2lvgtT7_gOJQ.png?1700103753",
+      "alt": null,
+      "caption": "Context: Circle Corners",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: Context: Circle Corners",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698749/original/HU5huJBBcEbLWTvT6XcR9l-U-5I22EGJxg.png?1617154220",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698756/original/OFZZ58Ma4iJgwGYOiRCXXfeBMtdPARJhWQ.png?1617154235",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698758/original/IeZUtxrBJZtl9h8uDdFLsHkDYtbdZsvudA.png?1617154251",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698783/original/AB0t5yU0CUrFR-yplHZ4JGx4kQGbSMgO7Q.png?1617154335",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698791/original/7Q81i41MSSoTVPuoxxvVarGebzbw28a8mA.png?1617154348",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698794/original/2Yovelm2tFe-giIygywcWCdDbx4IY632nw.png?1617154367",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698901/original/Zrsm5emqIrOlOvuk0LSRB02FNRfx7uktJQ.png?1617154859",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698892/original/ijs2b5PEeVSZsN0il9LSfNN29zj8LiC6bQ.png?1617154849",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698834/original/L8bcJqlZ90GlbQh9bjTov_fGyUEwVX1Xdw.png?1617154564",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090698848/original/M1EmfI8GK79YMVHdRX__7QKlUk45vgFqFg.png?1617154604",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156022284/original/I7ZbpgCGoFbEmwCDSoOjpmFyrWzcvgtSEg.png?1737993497",
+      "alt": null,
+      "caption": "The classbtn-primaryis applied to this button. Below is an example from the front end:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: The classbtn-primaryis applied to this button. Below is an example from the front end:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156022399/original/EY9t6NpiJoQTeb86k84Wt7fTbSsCV3pk9Q.png?1737993593",
+      "alt": null,
+      "caption": "The classbtn-successis applied to this button. Below is an example from the front end:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: The classbtn-successis applied to this button. Below is an example from the front end:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156022458/original/cFMmCdX3OZvTV-9h_HMaUfTDP0O5FGXJ3w.png?1737993624",
+      "alt": null,
+      "caption": "The classbtn-infois applied to this button. Below is an example from the front end:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: The classbtn-infois applied to this button. Below is an example from the front end:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156022627/original/Eg4wM8gNgLyspNcnEAAkEcunjVqxWB2eVQ.png?1737993727",
+      "alt": null,
+      "caption": "The classbtn-warningis applied to this button. Below is an example from the front end:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: The classbtn-warningis applied to this button. Below is an example from the front end:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156022650/original/dSjHPE93grpgIKK9FpL_1I84vKCHlLf9bA.png?1737993753",
+      "alt": null,
+      "caption": "The classbtn-dangeris applied to this button. Below is an example from the front end:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: The classbtn-dangeris applied to this button. Below is an example from the front end:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156022665/original/eCW7vDKLCYPaY_5R7H3jo-RhqM8AzF7Jyg.png?1737993762",
+      "alt": null,
+      "caption": "The classbtn-defaultis applied to this button. Below is an example from the front end:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Button Colors' in section 'Settings' / 'Design Settings'. Context: The classbtn-defaultis applied to this button. Below is an example from the front end:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000046630",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046630"
+    },
+    {
+      "text": "Bookmark My Favorites Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049688"
+    },
+    {
+      "text": "How to Use Inspect Tool in Any Browser",
+      "url": "https://zapier.com/blog/inspect-element-tutorial/"
+    }
+  ],
+  "lastmod": "2025-01-27T21:35:38+05:30",
+  "scraped_at": "2026-10-18T13:43:07.047426"
+}

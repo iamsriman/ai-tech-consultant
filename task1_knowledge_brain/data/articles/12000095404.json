@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095404",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095404-understanding-the-impact-of-updating-a-brilliant-directories-website-domain",
+  "title": "Understanding the Impact of Updating a Brilliant Directories Website Domain",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Understanding the Impact of Updating a Brilliant Directories Website Domain"
+  ],
+  "content": "## Understanding the Impact of Updating a Brilliant Directories Website Domain\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095404\n\n\n## Understanding the Impact of Changing a Website Domain\n\n\nChanging a live website's domain updates the public address used throughout the platform. Domain Manager checks the replacement address before the final switch, requests a new security certificate when Managed SSL is active, and rewrites platform links to the new address. External services and existing email arrangements still require review.\n\n\n### Before the Change\n\n\n- Confirm that the new domain or subdomain can be pointed to the website.\n\n- Identify where DNS and email are hosted.\n\n- Record existing MX, SPF, DKIM, and other service records before changing nameservers.\n\n- Plan a permanent redirect from the old domain when traffic and search visibility must be preserved.\n\n\n### Connect the New Address\n\n\nOpen Settings > Domain Manager and start the connection flow. Its stages are Choose An Address , Check It , Point Domain , and Switch Over . The final Switch to this address action changes the live website address.\n\n\n### Email and Sender Authentication\n\n\nIf the old domain's mailboxes were hosted in the website's cPanel account, addresses on that old domain do not automatically become mailboxes on the new domain. Open Mailboxes in Domain Manager to review hosted accounts, or configure the new domain with the external mail provider.\n\nOpen Emails > Sender Authentication and add or verify the records shown for the new domain. The switch moves the website's default From address to the new domain when it used the old domain or a placeholder, keeping the part before the @; an address at another domain is left unchanged. Confirm that the resulting address is active.\n\n\n### SSL\n\n\nDomain Manager requests a certificate after the switch when managed SSL is available. Open SSL and use Check again to review the current state. A third-party certificate can require separate installation and renewal.\n\n\n### External Integrations\n\n\n- Allow the new domain in the Google Maps API key restrictions.\n\n- Add the new domain to Google reCAPTCHA.\n\n- Update allowed redirect URLs for Google and Facebook sign-in.\n\n- Update ImageKit or another image CDN.\n\n- Add and verify the new property in Google Search Console, then submit its sitemap.\n\n- Update Google Analytics and any other analytics, advertising, webhook, or OAuth configuration tied to the old domain.\n\n\n### After the Change\n\n\nTest public pages, member registration, payments, forms, maps, social sign-in, outgoing mail, incoming mail, and old-domain redirects. DNS and certificate updates can take time to become visible everywhere.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095404",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095404"
+    }
+  ],
+  "lastmod": "2026-09-23T22:32:02+05:30",
+  "scraped_at": "2026-10-18T13:52:36.544756"
+}

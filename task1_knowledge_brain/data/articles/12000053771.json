@@ -1,0 +1,23 @@
+{
+  "article_id": "12000053771",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053771-01-25-19-software-updates",
+  "title": "01/25/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/25/19 - Software Updates"
+  ],
+  "content": "## 01/25/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000053771\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The Remove Card button text on the Billing Details page in the Member Dashboard is now a Text Labels. New text label: account_clear_credit_card.\n\n- We improved the logic of the Restore Defaults button on the Autosuggest Settings page in the Admin Area.\n\n- We fixed an issue which was affecting the normal behavior of the Signup Pages when the GDPR module have been activated on a Site.\n\n- Now if a Custom Form has been disabled, it will not been displayed in the Select Form To Use setting on the Edit Post Settings page in the Admin Panel.\n\n- Now if an Admin clicks on the \"View Live Profile\" option in the Actions dropdown for a member on the \"Search Members\" page in the Admin, it will only redirect to the member's profile page if the member is Active and therefor their live profile will be viewable.  Otherwise it will show a message explaining that the profile page is not viewable due to the member not being Active.\n\n- We updated the UI of the Multi-Locations Listings Add-On in the Member Dashboard area. Widget Involved: Bootstrap Theme - Account - Select Locations\n\n- We added Google Recaptcha validation to the Default External Paid Signup form. Form Involved: Member - Sign Up - Paid - External Gateway (whmcs_signup_external)\n\n- We fixed an issue which was affecting the display of the Sub Level Categories widget on the homepage when viewing on a mobile device. Widget Involved: Bootstrap Theme - Display - Sub Level Categories\n\n- We updated the Revenue column on the \"Search Members\" page in the Admin Area in order to show the Past Due amount for a Member.\n\n- Now the Featured Blog Article slider is fully controlled by the Add-On Manager. Form Involved: Feature - Blog Articles (blog_article_fields)\n\n- We fixed an issue which was affecting the ability of a Member to accept a Lead in some cases. Widget Involved: Bootstrap Theme - Account - Leads Details Page - Purchase Button\n\n- We improved the validation of the Soundcloud URL field to ensure it has a valid Soundcloud URL when saving the post. Form Involved: Feature - Soundcloud (soundcloud_fields)\n\n- Now the search_results_require_complete_profile A dvanced Setting will also check if a Member has a Profile Photo or Logo Photo before displaying them on a Search Results page. Widget Involved: Search - Member - Search Query\n\n- We added Schema Markup classes for Breadcrumbs links displayed on the frontend of websites. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000053771",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053771"
+    }
+  ],
+  "lastmod": "2019-03-09T01:13:31+05:30",
+  "scraped_at": "2026-10-18T13:44:27.463812"
+}

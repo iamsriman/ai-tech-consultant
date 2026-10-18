@@ -1,0 +1,110 @@
+{
+  "article_id": "12000015920",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000015920-setting-up-paypal-express-standard-free-as-the-payment-gateway",
+  "title": "Setting Up PayPal Express/Standard (Free) As The Payment Gateway",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Setting Up PayPal Express/Standard (Free) As The Payment Gateway"
+  ],
+  "content": "## Setting Up PayPal Express/Standard (Free) As The Payment Gateway\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000015920\n\nFor the best results, it is recommended to use the Stripe payment gateway . Before setting up a payment gateway, review this article to learn about the differences between Stripe and PayPal Express/Standard . Enter the Gateway Credentials However, if PayPal Standard (Free) is preferred, complete the steps below after entering the payment gateway credentials by going to Finance >> Payment Settings >> Select  PayPal Express/Standard: Then add the credentials: For assistance in locating the PayPal API Username, API Password, and API Signature, refer to the official PayPal documentation . IMPORTANT: This guide applies only to PayPal Standard (Free). If the PayPal account is a paid Business account that uses PayPal Payflow, refer to the PayPal Payflow setup guide instead. Instant Payment Notification (IPN) URL After PayPal Standard has been activated as the website's payment gateway, the IPN URL can be found on the Payment Gateways page in the Admin. If the IPN URL cannot be located, it can be created using the following format by replacing www.domain.com with the website's domain: https://www. domain.com /checkout/notifications/paypalipn For example, if the website domain is www.marys-website.com , the IPN URL would be: http://www. marys-website.com /checkout/notifications/paypalipn Configure the Instant Payment Notification (IPN) Settings NOTE: PayPal provides several account layouts, so the screenshots and navigation shown below may differ depending on the account. If the available options do not match the screenshots, contact PayPal Support for assistance enabling IPN notifications using the IPN URL described above. The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016. Sign in to the PayPal account and open Seller Preferences from the left navigation menu. Alternatively, access the Seller Preferences page directly: https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-display-handler&tab_id=SELLER_PREFERENCES Select Update next to Instant Payment Notifications . Select Choose IPN Settings . Complete the following steps: Enter the IPN URL into the Notification URL field. Select Receive IPN messages . Click Save .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181852946/original/ke0_eTxINEnd9yWkGlDbuK0UvwFZyHh4-g.png?1783724206",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up PayPal Express/Standard (Free) As The Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181852885/original/I1yrD2VAw3NR2gb2yXx4LMwvMAThl6Bwig.png?1783723836",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up PayPal Express/Standard (Free) As The Payment Gateway' in section 'Finance' / 'Payment Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12009079645/original/blob1472662204625.png?1472662204",
+      "alt": null,
+      "caption": "Context: The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up PayPal Express/Standard (Free) As The Payment Gateway' in section 'Finance' / 'Payment Settings'. Context: Context: The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12009079704/original/blob1472662284451.png?1472662284",
+      "alt": null,
+      "caption": "Context: The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up PayPal Express/Standard (Free) As The Payment Gateway' in section 'Finance' / 'Payment Settings'. Context: Context: The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12009079732/original/blob1472662321028.png?1472662321",
+      "alt": null,
+      "caption": "Context: The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up PayPal Express/Standard (Free) As The Payment Gateway' in section 'Finance' / 'Payment Settings'. Context: Context: The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12009079836/original/blob1472662520936.png?1472662520",
+      "alt": null,
+      "caption": "Context: The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Setting Up PayPal Express/Standard (Free) As The Payment Gateway' in section 'Finance' / 'Payment Settings'. Context: Context: The screenshots below were captured using a U.S. PayPal Standard (Free) account during the fourth quarter of 2016.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000015920",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000015920"
+    },
+    {
+      "text": "recommended to use the Stripe payment gateway",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843"
+    },
+    {
+      "text": "Stripe and PayPal Express/Standard",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000043160"
+    },
+    {
+      "text": "entering the payment gateway credentials",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673830"
+    },
+    {
+      "text": "official PayPal documentation",
+      "url": "https://developer.paypal.com/api/nvp-soap/apiCredentials/"
+    },
+    {
+      "text": "PayPal Payflow setup guide",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000005977-setting-up-paypal-payflow"
+    },
+    {
+      "text": "https://www.domain.com/checkout/notifications/paypalipn",
+      "url": "http://www.domain.com/checkout/notifications/paypalipn"
+    },
+    {
+      "text": "http://www.marys-website.com/checkout/notifications/paypalipn",
+      "url": "http://www.marys-website.com/checkout/notifications/paypalipn"
+    },
+    {
+      "text": "https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-display-handler&tab_id=SELLER_PREFERENCES",
+      "url": "https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-display-handler&tab_id=SELLER_PREFERENCES"
+    }
+  ],
+  "lastmod": "2026-07-11T04:32:25+05:30",
+  "scraped_at": "2026-10-18T13:40:28.301592"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109761",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109761-settings-domain-manager-diagnostics",
+  "title": "Settings » Domain Manager » Diagnostics",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Settings » Domain Manager » Diagnostics"
+  ],
+  "content": "## Settings » Domain Manager » Diagnostics\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109761\n\nThe Diagnostics tab in Settings > Domain Manager runs additional website checks and shows relevant certificate and update details. It helps identify the next action when a general status message is not enough to explain a problem.\n\n\n## Before starting\n\n\nThe administrator must have permission to view website resources. Review the Domain and SSL findings first so an address or certificate problem is not confused with a pending software update.\n\n\n## Run the checks\n\n\n- Open Settings > Domain Manager > Diagnostics .\n\n- Find Is anything on this website broken? .\n\n- Click Check everything .\n\n- Wait for the results.\n\n- Expand the relevant details for any reported finding.\n\nThe checks cover website launch status, purchased items awaiting installation, certificate problems, and pending updates. A result describes the checks available to this tool; it is not a full audit of every custom page or integration.\n\n\n## Review certificate attempts\n\n\nCertificate attempt history appears when relevant records are available. Review the latest result and expand the detail when needed. Repeated earlier attempts can help explain what happened, while the current SSL result shows the website's present certificate state.\n\n\n## Use an offered repair\n\n\nDepending on the finding, the page may offer Fix these for me or Run the certificate self-heal . Read the explanation and confirmation before applying the action. Re-run the checks afterward and verify the public website.\n\n\n## Review pending updates\n\n\n- Find Updates waiting for your website .\n\n- Click Check for updates .\n\n- Review the listed updates.\n\n- Choose the specific update or Install all when that is intended.\n\n- Read and confirm the installation prompt.\n\n- Recheck after installation completes.\n\nInstallation applies changes to the website. The confirmation identifies changes that cannot be undone from this screen. Review the update list before proceeding.\n\nIf a repair fails or the public website remains affected, contact support with the site ID, domain, exact result, and the action already attempted. Avoid repeatedly running a repair without reviewing its latest result.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109761",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109761"
+    }
+  ],
+  "lastmod": "2026-09-23T15:44:20+05:30",
+  "scraped_at": "2026-10-18T14:00:09.164347"
+}

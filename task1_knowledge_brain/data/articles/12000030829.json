@@ -1,0 +1,165 @@
+{
+  "article_id": "12000030829",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829-multi-location-listing",
+  "title": "Multi-Location Listing",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Multi-Location Listing"
+  ],
+  "content": "## Multi-Location Listing\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000030829\n\nGive members more exposure in the directory! The Multi-Location Listing add-on allows members to list themselves in additional geographical locations.\n\nWhen members select these additional locations, website visitors will see more results when they conduct searches in the directory – providing members with increased visibility.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Multi-Location Listings Add-On\n```\n\n\n## Enabling the Add-On\n\n\nTo add this as a feature for a membership level, simply navigate to Finance >> Membership Plans:\n\nClick on Edit Settings for the membership level that will have this feature activated:\n\nClick on Search Visibility tab :\n\nScroll down to the Multi-Location / Service Area Settings area, set the \"Location Types Member Can Select\" and the \" Maximum Number of Locations \" option to anything above 0. This will determine the number of service areas each member can add.  Make sure to also choose the types of locations members can choose as service areas in the \" Location Types \" setting:\n\nWhen this feature has been activated in the membership level, the member's back-end will have this extra option:\n\nFrom here, members will have the option to add additional locations to their profiles by entering the locations here:\n\nTo edit the wording of country, state, county, city and/or postal code please go into the text labels and search for these keywords:\n\n- service_label_city\n\n- service_label_country\n\n- service_label_county\n\n- service_label_state\n\n- service_label_zip\n\nFully deleting the wording in the text label will hide the option for the members, in the example below we removed \" County \" from the service_label_county text label and it no longer appears:\n\nAdmins will be able to search for member's service area in the Search Members section:\n\nImportant : The check box to include service areas in the admin search will not show until a location is added to the search criteria.\n\n\n## List in All Locations\n\n\nThe admin as well has the option to include any of the members in ALL the locations around the world. This means any time someone searches for any location around the world they should appear as long that they fit the category criteria as well.\n\nGo to My Members > Search Members and click on Quick Edit for the member will appear in all locations:\n\nClick on the Listing Settings and enable this option here:\n\n\n## Display Service Areas in the Member Profile:\n\n\nTo display the service areas in the member profile pages, go to Finance >> Membership Plans:\n\nClick on Edit Settings for the membership level that will display this on their profiles:\n\nClick on the Profile Page tab, then select the position in which the service areas will display in the overview tab. Click on the dropdown and select List Service Areas :\n\nThe list of service areas will display on the position selected:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103144927/original/k6fQLgR-A2YDcFAiYUjKw1ZlGmmlXGFIZg.png?1641310012",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103144763/original/2KN-XUQIREI2G8Z-Ngp9nZbDfNy6BraGFA.png?1641309871",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125005659/original/kQEkCI0EaD_plwbdIv_bD6nQXsaRQKWn2g.png?1683237386",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132209400/original/nCnLS2J0wJodHckfym5aQQNYvrIk8lGj2w.png?1696346458",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091277389/original/wxmeY3JwCGdEky_LBw_ziXfNFFyQWXramQ.png?1618323489",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091277704/original/7Ju1GKJKtYAiyiKLEnjFBg-fQoUx7nHl4g.png?1618323771",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103146154/original/4-mK_fCXNZDf9qVhbKphMr3c_RCmYDkAfg.png?1641311086",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091278089/original/JWXjNY_3VND47krwrFhl8pk-Ql3QMQqChw.png?1618324108",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103146028/original/potruFiKiOTze9phQd2IuFAjLoZ1vhx53w.png?1641310994",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091847619/original/PRoclVY80Vb8dogfy4k-SWncL0x8tFSfdQ.png?1619483666",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091847630/original/l6j98WqtCGnPTgU0vt2poDqN4PVP8p78PA.png?1619483705",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103144938/original/MheGer504TW2s-7FNVMQgbL6Jd8Dkdng8g.png?1641310023",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103144758/original/pTvp4eJ9yjT2qWf2z8knhlsFczokRZoi4Q.png?1641309863",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103145215/original/b_ua_59PUXQhtBuEoeTAw2J7WCcN3I8v7g.png?1641310240",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Multi-Location Listing' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030829"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Multi-Location Listings Add-On",
+      "url": "https://www.brilliantdirectories.com/multi-location-listings-add-on"
+    },
+    {
+      "text": "text labels",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682673-settings-%C2%BB-text-labels"
+    },
+    {
+      "text": "Finance >> Membership Plans:",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000049272"
+    }
+  ],
+  "lastmod": "2026-08-28T22:06:05+05:30",
+  "scraped_at": "2026-10-18T13:41:18.908009"
+}

@@ -1,0 +1,113 @@
+{
+  "article_id": "12000044148",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044148-how-to-geocode-members-sync-members-with-google-maps",
+  "title": "How To Geocode Members - Sync Members with Google Maps",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "How To Geocode Members - Sync Members with Google Maps"
+  ],
+  "content": "## How To Geocode Members - Sync Members with Google Maps\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000044148\n\nWhat Is Geocoding?\n\nGeocoding is the process of assigning latitude and longitude coordinates to member listings based on their address data. This step is required for members to become searchable by location on the site's Google Maps-powered location search engine.\n\nThe Geocoder submits each member's available location data to the Google Maps search engine, which cross-references that data against its location database and returns the most accurate coordinate match it can identify. The accuracy of the result is directly proportional to the completeness and specificity of the location data provided.\n\n⚠ CRITICAL PREREQUISITE — Google Maps API Integration Required: The Geocode tool will not function unless the Google Maps API integration has been fully configured on the site. This must be completed before initiating any geocoding process. ? Reference: Google Maps API Setup\n\n\n## Step 1 - Prepare Import Location Fields\n\n\nFor geocoding to produce accurate results, the member CSV import file should be populated with the following location fields before import. Incomplete or vague location data at the import stage will result in lower coordinate accuracy and potential geocode errors that require manual correction afterward.\n\nReference: How To Import Members Via CSV File\n\n\n### Recommended Fields (Full Accuracy)\n\n\nField Notes address1 Required for street-level precision. Without it, coordinates default to zip code, city, or state center. city Strongly recommended. zip_code Strongly recommended. state_code Use either state_code or state_name — both are not required. country_code Use either country_code or country_name — both are not required. state_name Optional if state_code is present. country_name Optional if country_code is present.\n\n⚠ NOTE — Code vs. Name Fields: The system will geocode correctly using either the _code variants or the _name variants for state and country. When both are present, the system will use what is available. Providing both sets does not cause errors.\n\n\n### Minimum Required Fields (Baseline Accuracy)\n\n\nIf full location data is not available, the following three fields represent the minimum for reliable geocoding. Google Maps recognizes this combination successfully in approximately 99% of cases:\n\n- city\n\n- state_code\n\n- country_code\n\n⚠ NOTE — Acceptable Substitutions: In some cases, address1 alone can substitute for city , and zip_code alone can substitute for city . However, these substitutions are not guaranteed to resolve with the same reliability as the three-field minimum set above.\n\n\n### Identifying Members Missing Coordinates\n\n\nMembers that are missing latitude and longitude coordinates will display a red \"Find Geocode\" indicator next to their location in the Search Members results. These members will not appear in location-based search results until geocoding is completed.\n\n\n## Step 2 - Launch the Batch Geocoder Tool\n\n\n- Navigate to My Members » Search Members in the admin dashboard.\n\n- Click the \"Sync Members With Google Maps\" button.\n\n- The Batch Geocoder Tool will open.\n\n\n## Step 3- Geocoding Options\n\n\nThree geocoding options are available. Each processes location data at a different level of specificity. The selection determines which address component is used as the primary coordinate reference for every member in the batch.\n\nOption Processing Speed Location Precision Recommendation Street Address Slowest Highest — uses the most specific available location data ✅ Recommended Zip / Postal Code Moderate Moderate — skips street address, uses postal code only Use if street data is unavailable City Fastest Lowest — skips street address, uses city center coordinates Use only if postal and street data are absent\n\n⚠ CRITICAL CAUTION — Choose the Right Option Before Starting: The geocoding option selected applies to the entire batch. Street Address is the recommended option in all cases where address data was included in the import. Selecting Zip / Postal Code or City when street-level data is available will result in less precise coordinates being permanently assigned to affected listings, requiring manual correction afterward.\n\n⚠ CRITICAL CAUTION — Processing Time: Depending on the total number of members being geocoded and the option selected, the batch process may take several minutes to complete. The process runs in the background. Do not close the browser tab or navigate away from the tool while the batch is processing, as this may interrupt the operation.\n\n\n## Step 4- Review Geocode Errors\n\n\nIf any member's location data is incomplete, misspelled, or does not match a recognized location in the Google Maps database, the Geocoder will flag that member as an error rather than assigning approximate coordinates.\n\nFlagged members are displayed in a list on the right side of the Geocoding module.\n\nTo resolve a geocode error for an individual member:\n\n- Locate the member in the error list on the right side of the module.\n\n- Enter a corrected or more specific address into the address bar for that member.\n\n- The location fields will auto-populate based on the corrected address entered.\n\n- Confirm the updated coordinates are applied to that listing.\n\n⚠ CRITICAL CAUTION — Manual Correction Required: Members with geocode errors will not have latitude and longitude coordinates assigned. These members will remain unsearchable by location until their location data is manually corrected and geocoded individually. Errors are not resolved automatically on subsequent batch runs unless the underlying location data in the member record is first corrected.\n\n\n## Step 5 - Confirm Results\n\n\nOnce the geocoding process completes, all successfully processed members will display assigned latitude and longitude coordinates in the Search Members view. Members that previously showed the red \"Find Geocode\" indicator will no longer display it once coordinates have been successfully assigned.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129687639/original/my03rb_0zt_ZkBVAAh8vxiWaAaRc7zAI4w.png?1691686328",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160016004/original/UQC7nPEr624bitrrLpLRy0HDmvvQhh_vBw.png?1744819682",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181026401/original/ruE5ExmTdSKinkOo6lWegHlqb8GpTWm23A.png?1782399110",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098505930/original/prD5_Trp2TdY5GgxplEFvOuWfYndbEvZOg.png?1632243269",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160024481/original/eQpmxRX_5YTDdQyuhwGqG27Yf_hJeiE3qA.png?1744825650",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098506106/original/pZBQ9T_-dkoLdlGf3UUOvmRNsgvlNB3uBA.png?1632243464",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090079294/original/dg5z2YLn67kc_HkKSTpuOB97cVwHltL5Gg.png?1615912851",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090079368/original/yLMmNWMW-zRcUKVLkQGYZsHz8NMwON1QPA.png?1615912944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143239088/original/XYisioAV_i3WKgs2Adzssrnx4eaPsiT8cA.png?1715699376",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Geocode Members - Sync Members with Google Maps' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000044148",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000044148"
+    },
+    {
+      "text": "Google Maps API Setup",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019818"
+    },
+    {
+      "text": "How To Import Members Via CSV File",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558475"
+    }
+  ],
+  "lastmod": "2026-06-25T20:21:53+05:30",
+  "scraped_at": "2026-10-18T13:42:37.840105"
+}

@@ -19,6 +19,7 @@ class RetrievedDocument:
     text: str
     score: float
     screenshot_urls: List[str]
+    source_type: str = "legacy_unknown"
 
     def to_citation(self) -> Dict[str, str | float]:
         return {
@@ -76,6 +77,7 @@ class KnowledgeRetriever:
                     text=r.text,
                     score=r.score,
                     screenshot_urls=screenshots,
+                    source_type=getattr(r, "source_type", "legacy_unknown"),
                 )
             )
 
@@ -105,7 +107,8 @@ class KnowledgeRetriever:
 
         return "\n".join(formatted_blocks)
 
-    def get_unique_citations(self, docs: List[RetrievedDocument]) -> List[Dict]:
+    @staticmethod
+    def get_unique_citations(docs: List[RetrievedDocument]) -> List[Dict]:
         """Returns unique articles cited in the retrieved documents."""
         seen_articles = set()
         citations = []

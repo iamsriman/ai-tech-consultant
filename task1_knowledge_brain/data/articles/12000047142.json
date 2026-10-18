@@ -1,0 +1,114 @@
+{
+  "article_id": "12000047142",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047142-webpage-builder-page-details-tab-page-options-tab",
+  "title": "Webpage Builder: Page Details Tab & Page Options Tab",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Webpage Builder: Page Details Tab & Page Options Tab"
+  ],
+  "content": "## Webpage Builder: Page Details Tab & Page Options Tab\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000047142\n\nNavigate to My Content >> Web Page Builder >> then click \" Edit \" for the existing page or click the New Web Page button to create a new web page:\n\nWithin the web page editor, the following options will be available in the sidebar:\n\n\n## Page Details Tab\n\n\nThis section allows users to control key attributes of a page and update its accessibility or structure.\n\n\n### 1. Internal Nickname\n\n\nThis is an internal reference name for the page. It is not visible to users on the front end, but it helps with organization and searchability.\n\n\n### 2. Page Type\n\n\nSelect the type of page you are creating. Learn more about page types here: What Page Types Can I Use?\n\n\n### 3. Protect This Page?\n\n\nEnable this setting to restrict access to members only. This requires the Members-Only add-on.\n\n\n## Page Options Tab\n\n\nUse this tab to customize the layout, visibility, and structure of the page using the following options.\n\n\n### 1. Show Sidebar\n\n\nChoose which sidebar to display on the page.\n\n\n### 2. Sidebar Position\n\n\nSet whether the sidebar appears on the left or right side of the page.\n\n\n### 3. Sidebar Position on Mobile Devices\n\n\nSet where the sidebar appears when the page is viewed on a phone:\n\n- Top : the sidebar is shown above the page content.\n\n- Bottom : the sidebar is shown below the page content. This is the default.\n\n- Hide : the sidebar is not shown on phones.\n\nThis setting applies to screens narrower than 768 pixels. Tablets and phones turned sideways are usually wider than that, so they keep the desktop layout. Desktop screens are not affected.\n\n\n### 4. Display Settings\n\n\nCustomize the page’s appearance with these options:\n\n\n### Full Screen Page Width\n\n\nExpands the page content to fill the entire width of the browser window, removing any margins.\n\n\n### Hide Banner Ad Modules\n\n\nRemoves any banner advertisements that would normally display on the page.\n\n\n### Hide Header\n\n\nHides the entire header section of the website on this specific page.\n\n\n### Hide Footer\n\n\nPrevents the footer from appearing at the bottom of the page.\n\n\n### Hide Top Header Menu\n\n\nRemoves the top navigation menu from the page.\n\n\n### Hide Main Menu\n\n\nHides the main navigation menu that is typically displayed at the top of the site.\n\n\n### Click-Enlarge Images\n\n\nAllows users to click images to view a larger version in a pop-up window.\n\n\n### 5. Advanced Options\n\n\nThese options provide more advanced control of the web page, such as search engine indexing and stylesheet behavior.\n\n\n### Apply NoIndex, NoFollow\n\n\nThis setting prevents the page from appearing in the sitemap and stops search engines from indexing it. If the page is set to Members Only, this option is enabled by default. More information: Members-Only Pages\n\n\n### Disable Default CSS Stylesheets\n\n\nPrevents the page from inheriting the default CSS styles. Learn more: How to Override and Edit Default CSS Stylesheets\n\n\n### Disable Screenshot Preview\n\n\nPrevents a screenshot preview of the page from appearing in the Web Page Builder.\n\n\n### 6. Breadcrumbs\n\n\nEnable breadcrumb navigation to improve user experience. Learn more here: Common Breadcrumb Variables .\n\nThe accepted format for custom breadcrumbs is:\n\nBlog | /blog > Partner | https://example.com > My Page\n\nFormat rules:\n\n> — Separates each breadcrumb level.\n\n| — Assigns a URL to the breadcrumb immediately before it. Both relative URLs (such as /blog ) and absolute URLs (such as https://example.com ) are supported.\n\nHow it works:\n\n- The text before the | is the breadcrumb label that will be displayed.\n\n- The URL after the | is the destination for that breadcrumb.\n\n- Each > creates the next level in the breadcrumb trail.\n\n- The final breadcrumb can be plain text without a URL if it represents the current page.\n\nExample:\n\nBlog | /blog > Partner | https://example.com > My Page\n\nThis will generate the following breadcrumb trail:\n\nHome > Blog > Partner > My Page\n\nWhere:\n\n- Blog links to /blog\n\n- Partner links to https://example.com\n\n- My Page is the current page and is not linked.\n\nNote: Do not include Home in your custom breadcrumb string, as it is added automatically by the system.\n\n\n## Pre-Made Elements\n\n\nPre-built content elements are available for use in custom web pages and landing pages. They can be used to create a wide variety of custom landing pages.\n\nMore info: Web Page Builder » Pre-Made Elements\n\n\n## Additional Information\n\n\nWeb pages can include sidebars. See: How to Create a Sidebar",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185608087/original/SktxnjAu1HT5Q4GhLKG6TUh3GRTz3wW1rw.png?1790103111",
+      "alt": "New Web Page button in the Web Page Builder",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Webpage Builder: Page Details Tab & Page Options Tab' (My Content > Web Page Builder): New Web Page button in the Web Page Builder",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185614903/original/j3Q1FWe4vs2xwAp60zlFCnZKkaYiL0814w.png?1790108432",
+      "alt": "Page Details and Page Options tabs and Pre-Made Elements in the web page editor sidebar",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Webpage Builder: Page Details Tab & Page Options Tab' (My Content > Web Page Builder): Page Details and Page Options tabs and Pre-Made Elements in the web page editor sidebar",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181731545/original/i9pjiJZxKZkLnamaeg_9HvasfmXkBbA7eA.png?1783553906",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Webpage Builder: Page Details Tab & Page Options Tab' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185605988/original/e7Xo1ACezg6Ok_23gRDvoUjotawy6UWKig.png?1790101145",
+      "alt": "Page Options tab with settings numbered 1 to 6",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Webpage Builder: Page Details Tab & Page Options Tab' (My Content > Web Page Builder): Page Options tab with settings numbered 1 to 6",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12151714491/original/nCjzHbXPDFBeQT0JZaSmRw0nVtT9y_hIRQ.png?1730214647",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Webpage Builder: Page Details Tab & Page Options Tab' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185614909/original/cNYPirnygxXYs2oUk_TC52JfIngKkp4lKA.png?1790108434",
+      "alt": "Pre-Made Elements panel in the web page editor",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Webpage Builder: Page Details Tab & Page Options Tab' (My Content > Web Page Builder): Pre-Made Elements panel in the web page editor",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000047142",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047142"
+    },
+    {
+      "text": "Edit",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047120"
+    },
+    {
+      "text": "New Web Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047125"
+    },
+    {
+      "text": "What Page Types Can I Use?",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/12000000921--bootstrap-what-are-page-types"
+    },
+    {
+      "text": "Members-Only",
+      "url": "https://www.brilliantdirectories.com/members-only-content-add-on"
+    },
+    {
+      "text": "Members-Only Pages",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682638"
+    },
+    {
+      "text": "How to Override and Edit Default CSS Stylesheets",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000559709"
+    },
+    {
+      "text": "Common Breadcrumb Variables",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000078817-common-breadcrumb-variables-to-be-used-on-the-website"
+    },
+    {
+      "text": "Web Page Builder » Pre-Made Elements",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074302"
+    },
+    {
+      "text": "How to Create a Sidebar",
+      "url": "https://bootstrap.brilliantdirectories.com/solution/articles/12000047136"
+    }
+  ],
+  "lastmod": "2026-09-23T01:51:33+05:30",
+  "scraped_at": "2026-10-18T13:43:17.029984"
+}

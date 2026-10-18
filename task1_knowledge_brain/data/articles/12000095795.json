@@ -1,0 +1,37 @@
+{
+  "article_id": "12000095795",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095795-link-directly-to-specific-tabs-on-member-profile-pages-using-the-tab-s-id-in-the-url",
+  "title": "Link Directly to Specific Tabs on Member Profile Pages Using the Tab's #ID in the URL",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Link Directly to Specific Tabs on Member Profile Pages Using the Tab's #ID in the URL"
+  ],
+  "content": "## Link Directly to Specific Tabs on Member Profile Pages Using the Tab's #ID in the URL\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095795\n\nThis article provides a JavaScript snippet that allows you to activate specific tabs on a webpage when the page loads, based on the hash in the URL.\n\nThe script checks if there's a hash in the URL, and if there is, it activates the corresponding tab and tab pane, while deactivating all others.\n\nOne key feature of this script is that it prevents the page from automatically scrolling down to the activated tab, keeping the viewport at the top of the page. This can be particularly useful for pages with long content, where you want to highlight a specific section without disrupting the user's navigation.\n\nPlace this code in the footer of the SEO Template or Custom Footer Code in Design Settings.\n\n```\n<script> $(document).ready(function() { var url = document.location.toString(); if (url.match('#')) { var hash = url.split('#')[1]; $('.nav-tabs a[href=\"#' + hash + '\"]').on('click', function(e) { e.preventDefault(); }).tab('show'); $('.tab-pane').removeClass('active'); $('#' + hash).addClass('active'); } }); </script>\n```\n\nOnce the JavaScript snippet mentioned above is added to the footer, go to the member profile and open Inspect Mode.\n\nHow to use Inspect Element\n\nLocate the <a> element for the tab. It will have a href value like #div4 Now the tab's ID can be appended to the profile URL like below:\n\nhttps://example.com/united-states/beverly-hills/sample-category/john-smith#div16\n\nWhen this URL is used, the script will automatically open the tab without scrolling, showing only that specific tab’s content.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156395738/original/63oMcP8YW0o33wshsUEjZN7dUTEVOpRL9g.png?1738616155",
+      "alt": null,
+      "caption": "Locate the <a> element for the tab. It will have a href value like #div4Now the tab's ID can be appended to the profile URL like below:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Link Directly to Specific Tabs on Member Profile Pages Using the Tab's #ID in the URL' in section 'Developer Hub' / 'Additional Tips & Tutorials'. Context: Locate the <a> element for the tab. It will have a href value like #div4Now the tab's ID can be appended to the profile URL like below:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095795",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095795"
+    },
+    {
+      "text": "How to use Inspect Element",
+      "url": "https://zapier.com/blog/inspect-element-tutorial/"
+    }
+  ],
+  "lastmod": "2025-02-04T02:28:35+05:30",
+  "scraped_at": "2026-10-18T13:52:48.092165"
+}

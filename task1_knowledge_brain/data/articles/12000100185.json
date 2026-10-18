@@ -1,0 +1,330 @@
+{
+  "article_id": "12000100185",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100185-design-settings-homepage-select-content-to-display-streaming-discussions",
+  "title": "Design Settings » Homepage » Select Content to Display » Streaming Discussions",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Homepage » Select Content to Display » Streaming Discussions"
+  ],
+  "content": "## Design Settings » Homepage » Select Content to Display » Streaming Discussions\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100185\n\n\n## Settings Documentation for Streaming Discussions\n\n\nThis document provides detailed descriptions of the settings available for configuring the streaming discussions section on the platform. Each setting allows for customization to meet specific needs and preferences.\n\nTo edit these settings, navigate to:\n\n- In the Admin Sidebar Open Settings\n\n- Select Designs Settings\n\n- Open The Homepage Tab\n\n- Open The Module Select Content to Display\n\n- Select the Streaming Discussions Option\n\n\n## Visual Guide of the  Streaming Discussions\n\n\nThese are the available settings for the Streaming Discussions section:\n\n\n## 1. Recent Discussions Title\n\n\nThis setting allows the administrator to set the title for the recent discussions section. The title can be customized by entering the desired text in the provided input field.\n\n\n## 2. Title Color\n\n\nThe title color setting enables the customization of the title's color. Administrators can choose a color by inputting the desired color code or using the color picker tool provided.\n\n\n## 3. Display Options\n\n\nThis setting controls the number of recent discussions displayed. Administrators can select from a range of options, from 1 to 24 results. Additionally, the layout can be adjusted to show a specific number of results per row, ranging from 2 to 4 results per row.\n\n\n## 4. Enable Carousel Slider?\n\n\nThis setting control the layout of the Streaming Discussions section. If enabled the Streaming section will display as a carousel, with arrows at each side, instead of displaying the Streaming Discussions in a grid layout, they will appear in the carousel. If set to No, the Streaming Members will be displayed in the default grid view.\n\n\n## 5. Hide On Mobile?\n\n\nThis setting controls whether or not the Streaming Discussions section will display on mobile devices. If enabled, this section will not appear on mobile devices. If the setting is set to No, the Streaming Discussions section will appear on mobile devices accessing the website.\n\n\n## 6. Linked Post Type\n\n\nThis setting allows the administrator to select the type of content linked to the recent discussions. Options include events, job listings, coupons, videos, SoundCloud posts, website blog articles, community articles, and discussions.\n\n\n## 7. Only Show Posts with Photos\n\n\nAdministrators can choose to display only those posts that have photos. This setting ensures that posts without photos are excluded from the recent discussions list.\n\n\n## 8. Image Quality\n\n\nThis setting controls the quality of the images displayed in the recent discussions. Administrators can choose between thumbnail size and large size.\n\n\n## 9. Show \"View All\" Button\n\n\nThe \"View All\" button allows users to see all recent discussions. This setting can be toggled on or off using the dropdown menu.\n\n\n## 10. Hide If No Posts Exist\n\n\nThis setting allows administrators to choose whether the recent discussions section should be hidden if no posts exist. It can be enabled or disabled using the dropdown menu.\n\n\n## 11. Only Include Posts from Active Members\n\n\nThis setting specifies whether only posts from active members should be included. Administrators can choose to include posts from active members only or from all members.\n\n\n## 12. Include Posts from Non-Searchable Members\n\n\nThis setting allows administrators to choose whether to include posts from non-searchable members. It can be enabled or disabled using the dropdown menu.\n\n\n## 13. Include Posts from Members in These Plans\n\n\nThis setting allows administrators to limit the displayed posts to specific membership plans. Administrators can select the desired membership plans from the provided list.\n\n\n## 14. Display Order\n\n\nThe display order setting determines the order in which recent discussions are shown. Options include newest first, oldest first, or random order. This can be customized by selecting the desired option from the dropdown menu.\n\n\n## 15. Limit One Post per Member?\n\n\nThis setting specifies whether only one post per member should be displayed. Administrators can choose to display one post per member or allow multiple posts from the same member.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144285146/original/HwkZkSDzYt6cBv5Eia9tXSMlM3ogppwNbw.png?1717515684",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144285258/original/UxB6rVSXEpnwM9JorIKg2GZgO8JR82jsJw.png?1717515763",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169037401/original/o7fI7rQf2nb91siiaNECShKfJLhdKA-HCQ.png?1760544142",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169037468/original/oVfNtLsbijqw8tYQ9Afyt6FugjfrhHbJfQ.png?1760544263",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038557/original/oB2LcXDmViSjCyWXnZLwsK45crGWfLOVow.png?1760545050",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144285697/original/SqLIUVMKK-Eh02-oLuCPnBdXCcL2M-BltQ.png?1717516110",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038589/original/zXQTsfYdU5BH00jv-wkwM4w1HIO4UhV1_w.png?1760545107",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144285984/original/Si7EezS91YRxf7ofrIA5kdny9MxeyfCD1Q.png?1717516260",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038602/original/wiugoJIA_dQiYY1w7mv3inInz9pZRqnOfA.png?1760545133",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144285987/original/ICGA6Fco0uURQzLh4Q6zAMN3KUOfHfOSaw.png?1717516269",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169039027/original/2Hcn_SuEs93mvYZ0TPJhcQzGm7dhJwiaQg.png?1760545538",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169039484/original/6mTac2fyo2qfwFR6TgzlSxmTlBcENzgJ0g.png?1760545983",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169109121/original/zBzyoU1M3t1z_nAYfjDnMaaN4p1KR8IJnA.png?1760637922",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169039568/original/Cnr3DXJPLAu1rusaBrvL69HtM3eGbWCnlg.png?1760546077",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038623/original/FVWsnY3SE_I59gQL1N4pRDLzoAkeGQWmKg.png?1760545195",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144286187/original/s02aKdz0ShAq_BnLAjAiwCCYGC72DCwpwg.png?1717516449",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038635/original/6aIplCLJvoZJeYmwrYD4cHwEDyjedtoXXg.png?1760545215",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144286223/original/Mcikkg98K_rALYuNL47AU7XEts21Uw9Etg.png?1717516493",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038652/original/kQh07Cw4ZBxXI-_pyCuLwSjG1WdsinMSUw.png?1760545233",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144286261/original/my6DKXf0jLRtE7o_3iT4YRWsMBbG7cECLQ.png?1717516537",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038756/original/UcgF8Gp11aZRrNB7uqTV8T6jtR9srh_nAw.png?1760545324",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144286467/original/C4MuzpGesqZ8qd1kZa9PqzGZQq8Y4M8Gxg.png?1717516708",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038786/original/sMrcToC9eKuyfcVVbes4iX_32iJcTLN07A.png?1760545335",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144287048/original/8qfDX9p9sU7l4l0GWK4OVgO-Iqvq3oD-iw.png?1717517065",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038801/original/SLgkDVeY4kYWzOvLCH_FkjVXYAxkxSwjAw.png?1760545347",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144287074/original/ACHTEyBi6dIjPIkMePGwye8L8pbPput-tg.png?1717517069",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038833/original/E-1An3yysDJRqrueWSb5atFz3Cemk8bYfw.png?1760545362",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144287076/original/zIPcrRGkh8Q51xXJhI_yyIya9B7KKPUBrQ.png?1717517074",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038846/original/sWAQDO7O6liSS7D_npwKoigxNnzvy9LrTw.png?1760545391",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144287081/original/N-kRzGxEUnXe6HknhFRIYoChc_X_FrNpUA.png?1717517078",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038851/original/SDCnhqIqh_Ic974EvAPSpWIdXEDMg8N4vA.png?1760545406",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144287090/original/9LVDQ2dR_WAqQE-rmnwx8pfxUhMvxyDKjQ.png?1717517081",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169038888/original/78cfHRbF_YNHXzjbqGmUgcB6tlsmwPD-Ow.png?1760545424",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144287090/original/9LVDQ2dR_WAqQE-rmnwx8pfxUhMvxyDKjQ.png?1717517081",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Discussions' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100185",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100185"
+    }
+  ],
+  "lastmod": "2025-10-16T23:35:31+05:30",
+  "scraped_at": "2026-10-18T13:54:11.937772"
+}

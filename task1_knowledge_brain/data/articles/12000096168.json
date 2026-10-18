@@ -1,0 +1,33 @@
+{
+  "article_id": "12000096168",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096168-footer-code-html-snippet-of-website-footer",
+  "title": "Footer Code - HTML Snippet of Website Footer",
+  "category": "Developer Hub",
+  "folder": "HTML Code Snippets from Standard BD Website Theme",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "HTML Code Snippets from Standard BD Website Theme",
+    "Footer Code - HTML Snippet of Website Footer"
+  ],
+  "content": "## Footer Code - HTML Snippet of Website Footer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096168\n\nThis article provides a sample HTML structure for the default Website Footer included in the standard Brilliant Directories website theme.\n\nThe example demonstrates the default layout and commonly used HTML elements, CSS classes, and responsive components that make up the website footer, including the footer navigation, social media links, call-to-action button, and copyright section.\n\nThe following HTML snippet represents the default markup for the Website Footer.\n\n```\n<!-- Start Footer Section --> <div class=\"footer\"> <!-- Start Footer Container --> <div class=\"container\"> <!-- Start Footer Row --> <div class=\"row\"> <!-- Start Footer Menu --> <ul class=\"footer_menu sm-text-center\"> <!-- About Section --> <li class=\"col-md-5\"> <span class=\"head\">About</span> <ul> <li> <span class=\"content\">Create professional directory websites with Brilliant Directories. The best directory software - Brilliant Directories.</span> </li> </ul> </li> <!-- Website Links Section --> <li class=\"col-md-2 col-md-offset-1\"> <span class=\"head\">Website</span> <ul> <li><a href=\"/about\">How It Works</a></li> <li><a href=\"/join\">List Your Company</a></li> </ul> </li> <!-- Search Links Section --> <li class=\"col-md-2\"> <span class=\"head\">Search</span> <ul> <li><a href=\"/categories\">Browse Categories</a></li> <li><a href=\"/locations\">Browse Locations</a></li> </ul> </li> <!-- Support Links Section --> <li class=\"col-md-2\"> <span class=\"head\">Support</span> <ul> <li><a href=\"/login/retrieval\">Password Retrieval</a></li> <li><a href=\"/about/contact\">Contact Us</a></li> </ul> </li> <!-- Social Media Links Section --> <li class=\"col-md-5 vpad vmargin sm-text-center\"> <div itemscope=\"\" itemtype=\"http://schema.org/WebSite\"> <meta itemprop=\"name\" content=\"All-In-One Demo - Brilliant Directories\"> <link href=\"//www.demobootstrap.com\" itemprop=\"url\"> <div class=\"list-social-links\"> <!-- Contact Icon --> <a class=\"network-icon contact\" href=\"/about/contact\" title=\"Contact Us All-In-One Demo - Brilliant Directories\"> <i class=\"fa fa-envelope\"></i> </a> <!-- Facebook Icon --> <a class=\"network-icon facebook\" itemprop=\"sameAs\" href=\"https://www.facebook.com/groups/BrilliantDirectories/\" target=\"_blank\" title=\"All-In-One Demo - Brilliant Directories Facebook\"> <i class=\"fa fa-facebook\"></i> </a> <!-- Google+ Icon --> <a class=\"network-icon googleplus\" itemprop=\"sameAs\" rel=\"publisher\" href=\"https://www.brilliantdirectories.com\" target=\"_blank\" title=\"All-In-One Demo - Brilliant Directories Google\"> <i class=\"fa fa-google-plus\"></i> </a> <!-- Twitter Icon --> <a class=\"network-icon twitter\" itemprop=\"sameAs\" href=\"https://www.brilliantdirectories.com\" target=\"_blank\" title=\"All-In-One Demo - Brilliant Directories Twitter\"> <i class=\"fa fa-twitter\"></i> </a> <!-- Pinterest Icon --> <a class=\"network-icon pinterest\" itemprop=\"sameAs\" href=\"https://www.brilliantdirectories.com\" target=\"_blank\" title=\"All-In-One Demo - Brilliant Directories Pinterest\"> <i class=\"fa fa-pinterest-p\"></i> </a> <!-- LinkedIn Icon --> <a class=\"network-icon linkedin\" itemprop=\"sameAs\" href=\"https://www.brilliantdirectories.com\" target=\"_blank\" title=\"All-In-One Demo - Brilliant Directories LinkedIn\"> <i class=\"fa fa-linkedin\"></i> </a> <!-- YouTube Icon --> <a class=\"network-icon youtube\" itemprop=\"sameAs\" href=\"https://www.youtube.com/user/BrilliantDirectories\" target=\"_blank\" title=\"All-In-One Demo - Brilliant Directories YouTube\"> <i class=\"fa fa-youtube\"></i> </a> <!-- Instagram Icon --> <a class=\"network-icon instagram\" itemprop=\"sameAs\" href=\"https://www.brilliantdirectories.com\" target=\"_blank\" title=\"All-In-One Demo - Brilliant Directories Instagram\"> <i class=\"fa fa-instagram\"></i> </a> <div class=\"clearfix\"></div> </div> </div> </li> <!-- Call to Action Button --> <li class=\"col-md-6 col-md-offset-1 vpad vmargin\"> <a href=\"/join\" class=\"btn btn_footer_get_listed btn-lg btn-block bold center sm-block\" style=\"white-space:normal\">List Your Business Now <i class=\"fa fa-plus fa-fw\"></i></a> </li> </ul> <!-- Footer Terms and Conditions Section --> <div class=\"col-md-12 fpad fmargin small text-center footer_terms\"> © 2023 <a title=\"All-In-One Demo - Brilliant Directories\" href=\"/\">All-In-One Demo - Brilliant Directories</a> All Rights Reserved. <div class=\"inline-block\"> <a title=\"Terms of Use - All-In-One Demo - Brilliant Directories\" href=\"/about/terms\">Terms of Use</a> | <a title=\"Privacy Policy - All-In-One Demo - Brilliant Directories\" href=\"/about/privacy\">Privacy Policy</a> </div> </div> </div> </div> </div>\n```\n\nThis code can be used as a reference when creating custom footer layouts, modifying the default website footer, or identifying the HTML elements and CSS classes used by the standard Brilliant Directories theme.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132163578/original/JrKGtzx3-ZvUUg2WU-Xr372zNqZL1r88gg.png?1696283152",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Footer Code - HTML Snippet of Website Footer' in section 'Developer Hub' / 'HTML Code Snippets from Standard BD Website Theme'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096168",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096168"
+    }
+  ],
+  "lastmod": "2026-06-27T04:29:41+05:30",
+  "scraped_at": "2026-10-18T13:52:51.620454"
+}

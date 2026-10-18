@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109016",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109016-remove-duplicate-table-indexes-dashboard-installer",
+  "title": "Remove Duplicate Table Indexes - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Remove Duplicate Table Indexes - Dashboard Installer"
+  ],
+  "content": "## Remove Duplicate Table Indexes - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109016\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Remove Duplicate Table Indexes Does\n\n\nA database index is like the index at the back of a book: it lets the database jump straight to the rows it needs instead of reading every row in a table. Over years of platform updates, a table can occasionally end up with two indexes that cover exactly the same columns. The extra copy adds no speed benefit, but the database still has to maintain it every time a row is added or changed, and it takes up disk space.\n\nThis installer scans every table in the website's main database and, wherever it finds two or more indexes covering the identical set of columns, keeps one and removes the redundant copies. Specifically, it lists the indexes on each table, compares their column lists, treats indexes with the exact same columns in the same order as duplicates, and drops the extra ones with a standard database command (ALTER TABLE ... DROP INDEX).\n\nRemoving an index does not change the data stored in the tables. The site's members, posts, settings, and all other content are untouched, and because an identical index remains in place for every one that is removed, lookups stay just as fast.\n\n\n## Why It Appears\n\n\nThis installer only appears when the scan actually finds at least one duplicate index in the database. That situation is most common on older websites, where different platform updates over the years may have added an index that already existed under another name. If the database has no duplicates, the installer stays hidden.\n\n\n## Why It Matters\n\n\nThis is housekeeping rather than a dramatic change. Each duplicate index takes up some disk space and adds a small amount of extra work on every insert or update, because the database maintains every index on a table. Removing the duplicates trims that overhead and slightly reduces database size. It will not make the pages noticeably faster on its own, and it removes nothing the site actually uses.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Remove Duplicate Table Indexes appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Remove Duplicate Table Indexes does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nNothing on the website looks or behaves differently afterward. Searches and page loads continue to work exactly as before, because one copy of every index is kept, and no content or settings are affected. A confirmation appears that the duplicate indexes were removed. Click Check For Updates again and the entry disappears once the scan finds no remaining duplicates. There is nothing to verify or configure afterward, and the installer is safe to run whenever it appears.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109016",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109016"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:45+05:30",
+  "scraped_at": "2026-10-18T13:59:11.265057"
+}

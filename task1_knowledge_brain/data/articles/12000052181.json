@@ -1,0 +1,144 @@
+{
+  "article_id": "12000052181",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052181-style-options-for-menu-links",
+  "title": "Style Options For Menu Links",
+  "category": "Toolbox",
+  "folder": "Menu Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Menu Manager",
+    "Style Options For Menu Links"
+  ],
+  "content": "## Style Options For Menu Links\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000052181\n\nIn the Toolbox » Menu Manager article, editing options for menu links were covered. This article provides examples of how to style menu items and related options.\n\n\n## How Can These Options Be Accessed?\n\n\nIn the Edit view for any menu, a Settings button is attached to every menu link:\n\nClicking this option opens additional editing settings:\n\n\n## Format to Use:\n\n\n\n### Link Title Text\n\n\nThis setting can be used to add an additional SEO boost to the link by defining its meta title .\n\nInput:\n\nAdditional Information:\n\n>> HTML title attribute (W3Schools)\n\n\n### Menu Item Inline Attribute\n\n\nThis setting can be used to add preferred style attributes to the <li> element.\n\nInput:\n\nFront-end view:\n\n\n### Outer <li> Inline Attribute\n\n\nThis setting can be used to add preferred style attributes to the <a> element.\n\nInput:\n\nFront-end view:\n\nAdditional Information:\n\n>> HTML inline CSS (W3Schools)\n\n\n### Menu Item CSS Class\n\n\nThis setting can be used to add a preferred CSS class to the <a> element.\n\nInput:\n\nFront-end view:\n\n\n### Outer <li> CSS Class\n\n\nThis setting can be used to add a preferred CSS class to the <li> element.\n\nInput:\n\nFront-end and HTML view:\n\n\n### Additional Checkboxes\n\n\n- Open in a new window – Indicates whether the link opens in a new browser tab.\n\n- Add rel=\"nofollow\" – Indicates whether search engines should follow the link. This option is useful when the linked page is not ready or is in a staging environment.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12088607010/original/ADWuEhm8B5Li7FJwMR1FCR9bzOsSFq82TA.png?1612908769",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080492140/original/zw4-X9-O8lKAV-HPcv4UaQRagy506wYO_Q.png?1595950872",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080492272/original/4LK4Fnh1LgdUoKjziKrxhV0-GTD8IfXW9Q.png?1595951043",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080492514/original/hAGqbGfhYas9iyko3B4UrO8vetxZx_ioTQ.png?1595951432",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080492653/original/ZE0Od1aUKIgt2B56r-7-P_PMyieoHx8ogg.png?1595951615",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080493307/original/oYx21I9_Z_VXNLsPwJMZSa3Tw1SHchZomA.png?1595952529",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080493298/original/6aJmUctjBEslZbPo4MFW30lx95GX-iQD5g.png?1595952510",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080493501/original/QOmPXfnhqJe0356jOv_k1-wntoVTuJQnyw.png?1595952871",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080493515/original/egXsYpdU_FSwtcZ8cZTIWI_S1Alk2WGj8A.png?1595952893",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080493660/original/K9odJIGh9FKBG1POPwJ7rcMaEhppXImRZQ.png?1595953057",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080493639/original/GvSIO6PuS4da7xwJoyZO-ra3-HqYLY0pcQ.png?1595953034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12080493792/original/G0rh-SnQtMsm_cLWER52vIki9Fcr8sMuDw.png?1595953213",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Style Options For Menu Links' in section 'Toolbox' / 'Menu Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000052181",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052181"
+    },
+    {
+      "text": "Toolbox » Menu Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000034716"
+    },
+    {
+      "text": "HTML title attribute",
+      "url": "https://www.w3schools.com/tags/att_title.asp"
+    },
+    {
+      "text": "HTML inline CSS",
+      "url": "https://www.w3schools.com/html/html_css.asp"
+    }
+  ],
+  "lastmod": "2026-01-06T01:22:04+05:30",
+  "scraped_at": "2026-10-18T13:44:15.454427"
+}

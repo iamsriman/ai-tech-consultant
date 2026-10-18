@@ -1,0 +1,135 @@
+{
+  "article_id": "12000000821",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000821-all-about-service-areas-multi-location-add-on",
+  "title": "All About Service areas / Multi Location Add-on",
+  "category": "Add-On Documentation",
+  "folder": "Multi-Location Listing",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Multi-Location Listing",
+    "All About Service areas / Multi Location Add-on"
+  ],
+  "content": "## All About Service areas / Multi Location Add-on\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000000821\n\nService areas are additional locations outside of their immediate geographical location that members would like to be listed in search results for.\n\nFor example, if I am a Wedding Planner that lives in New Jersey, but I service weddings that are in New York City, I would like to be found when a visitor searches for Wedding Planners in New York.\n\n\n## How do Service Areas work?\n\n\nThere are 5 types of locations that can act as service areas (with the alternate names used in some countries in parenthesis):\n\n- Countries\n\n- States (provinces)\n\n- Counties\n\n- Cities (towns, suburbs, etc)\n\n- Zip Codes (postcodes / postal codes)\n\n\n### Choosing a smaller service area\n\n\nIf a member is listed in a service area of one of the types above, they will appear in search results for any location that is larger than it and contains it. If a member is listed in a larger service area, then they will appear in search results for any locations that it contains. For example, if I am listed in the zip code 90210, my selected service area looks like this (ordered from largest location type to smallest):\n\nSince the member is listed in the zip code 90210, then I will be one of the search results for any of those larger locations: \"United States\", \"California\", \"Los Angeles County\", and \"Beverly Hills\". However, I will NOT show up in search results for a zipcode 50 miles away from 90210, a city far away from 90210, any county that is not \"Los Angeles County\", any state that is not \"California\", or any country that is not \"United States.\n\n\n### Choosing a larger service area\n\n\nIf a member chooses one of the larger service areas, it can be very powerful as they will be listed in many more location searches.  If a member chooses a country, state, or county as a service area, they will be listed in search results for those locations, and ALL location searches within it.\n\nFor example, if the member chooses the service area of the United States, they will appear in search results for \"United States\", any state within the United States (California, New York, Texas, etc), any county within the United States (Los Angeles County, Kings County, Dallas County, etc), any city within the United States (Los Angeles, New York City, Dallas, etc), and any zip code within the United States (90210, 10118, 75211, etc).  In other words, ANY location that is searched for in the United States will return me as a result.\n\nHowever, they will NOT appear in search results for other countries or any locations within those countries.\n\n\n### Bounds and radius searches\n\n\nThe way service areas are treated in search results is set with the same Bounds and Radius location search settings used in the rest of the system. In other words, if zip codes and cities are set as \"radius\" searches, a member will appear in search results if the center of the city or zip code they have chosen as a service area is within 50 miles of the center of the city or zip code that was searched for.\n\n\n### Radius example\n\n\nFor example, let's take a look at a map of the city of Los Angeles and the surrounding area.  The center of the city or Los Angeles is about 10 miles away from the center of the city of Pasadena: We have a member on our website who is located in Las Vegas, Nevada, as we can see from his profile page: This member has also chosen the city of Los Angeles, California as a service area as we can see from his Member Dashboard: If we do a search for Pasadena, California, this member will appear in the search results because his chosen service area (Los Angeles) is within 50 miles of the searched location (Pasadena), the search results will include the \"Serves Los Angeles\" indicating that this result is showing Services Area set by the member: The search result gives us all of the information we need to know how and why this member is appearing as a result. Let's break it down a little bit: It shows his location as Las Vegas, Nevada, which is correct as we saw in the screenshot above. It shows him as being located \"219.8 mi away\".  This is accurate because we are searching for Pasadena, California, and he is located in Las Vegas, Nevada. He is not located within a 50-mile radius of Pasadena, California as we would normally see with a city search. But he is appearing her because he \"Serves This Area\", which is within 50 miles of Pasadena. Bounds example Country, state, and county locations are set as \"Bounds\" searches by default (please see this article for more information about radius versus bounds ). Bounds searches are much simpler to understand.  If I choose a Service Area that is treated as \"Bounds\", I will be returned in search results for any locations which are inside the bounds of my service area, and I will also appear in search results for any locations that my service area is contained by. For example, if I choose \"Los Angeles County\" (the county which contains Los Angeles, California) as a service area, I will appear in searches for any location inside of Los Angeles County, Los Angeles County itself, and all locations which contain Los Angeles County. I will appear in search results for: 90210 (zip code inside of Los Angeles County) Los Angeles (city inside of Los Angeles County) Los Angeles County (the service area itself) California (the state that Los Angeles County is contained by) United States (the country that Los Angeles County is contained by) I will NOT appear in search results for: 10118 (zip code outside of Los Angeles County) Miami (city outside of Los Angeles County) Santa Clara County (county that is NOT Los Angeles County) Florida (state that does not contain Los Angeles County) Canada (country that does not contain Los Angeles County) Service Areas Admin Settings For a member to add service areas to their profile, their membership plan must allow them to do so. To enable service areas for a membership plan, please follow these steps: Navigate to Finance >> Membership Plans in the Admin area of the site Click on \"Edit Settings\" for a membership plan Click on the Search Visibility tab: Scroll down to the Multi-Location / Service Area Settings area. Choose the types of locations members can select as service areas in the \"Location Types\" setting: Set the \"Max. Location Limit\" to anything above 0.  This will determine the number of service areas each member can add. Enter 'all' to auto-list members in all locations: Display Service Areas on Profile Pages To display service areas on profile pages it needs to be specified in which position of the member profile this information will be displayed. This setting is also managed in the membership plan settings.  Go to: Navigate to Finance >> Membership Plans in the Admin area of the site Click on the Profile Pages tab >> Select What Displays in the \"Overview\" Tab Choose the Position to display the Service Areas: Here's how the service areas are displayed on member profiles: NOTE FOR MAC USERS: The import feature only accepts UTF-8 which is a universal format for all countries. Excel for Mac does not save in UTF-8. The file has to be UTF-8. So to overcome this, the admin will need open their spreadsheet in either Numbers or Google Sheets to convert and export the final CSV file to UTF-8 encoding. Excel for Mac does not natively support the import or export of UTF-8 encoded files, nor does TextEdit on Mac.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091847806/original/QDOf6rK7sPe26ZoOiWyRlDrFRomrODTrrA.png?1619484381",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5040777085/original/blob1444343549613.png?1444343558",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091847837/original/v2Mgyo8xgzlP2OILyXtW5z-gMrxDRVkVWw.png?1619484613",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091847842/original/ZKmX5BJjaHK6-UVGkCePhPwQnM24ZrpI3A.png?1619484672",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115786139/original/Wp-AMPWREoU838wy8F6UvW3QkHtGJRR3-g.png?1665514934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133529225/original/cAt4xeyTEd1xiyifPGgyzyTYSBGLzXg-Dw.png?1698709590",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132206290/original/_lj4N4mDIZ1lfXE3EgZYO4TnreN3k-jpKg.png?1696344130",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132206502/original/EBsKKlhy_dvirh8ySbVXcI_QYb-LugGV1g.png?1696344370",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12132206429/original/H2VP9M4sOf_ONNXTRpMDwNk5zGXbeQ9qDA.png?1696344292",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134779051/original/AcFuZH9XzgGl-oKgsStckb6mkA1IPJOdiQ.png?1700595822",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134778623/original/3FneLtryvS1dbVLtG875aeUzHf8DDbTvGA.png?1700595315",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'All About Service areas / Multi Location Add-on' in section 'Add-On Documentation' / 'Multi-Location Listing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000000821",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000821"
+    },
+    {
+      "text": "Bounds and Radius location search settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000682675-settings-%C2%BB-advanced-settings-%C2%BB-bounds-and-radius-location-searches"
+    },
+    {
+      "text": "radius versus bounds",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/5000673066"
+    },
+    {
+      "text": "",
+      "url": "http://bootstrap.brilliantdirectories.com/helpdesk/tickets/new"
+    }
+  ],
+  "lastmod": "2023-11-22T01:17:15+05:30",
+  "scraped_at": "2026-10-18T13:39:22.770037"
+}

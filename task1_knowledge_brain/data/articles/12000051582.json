@@ -1,0 +1,51 @@
+{
+  "article_id": "12000051582",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051582-how-to-call-a-widget-on-a-custom-page",
+  "title": "How To Call a Widget On a Custom Page",
+  "category": "Toolbox",
+  "folder": "Widget Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Widget Manager",
+    "How To Call a Widget On a Custom Page"
+  ],
+  "content": "## How To Call a Widget On a Custom Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000051582\n\nThis article explains how to display a widget on a custom static page using a widget shortcode.\n\nWidgets are reusable blocks of code that can display content, features, forms, menus, search tools, member data, and other website elements. A widget can be added to a custom page by copying and pasting its shortcode into the page content area.\n\n\n## Widget Shortcode Format\n\n\nWidget shortcodes use the following format:\n\n```\n[widget=Widget Name Here]\n```\n\nExample:\n\n```\n[widget=Bootstrap Theme - Module - Newsletter Sign Up Form]\n```\n\nImportant: The widget name in the shortcode must match the widget name exactly.\n\n\n## How to Copy a Widget Shortcode\n\n\nThe widget shortcode can be copied from the Widget Manager.\n\n- Go to Toolbox >> Widget Manager .\n\n- Find the widget that should be added to the custom page.\n\n- Click the Actions dropdown for the widget.\n\n- Select Copy Shortcode .\n\nThe widget shortcode will be copied and can now be added to a custom page.\n\n\n## Alternative: Copy the Shortcode From Inside the Widget\n\n\nThe shortcode can also be copied from inside the widget details.\n\n- Go to Toolbox >> Widget Manager .\n\n- Open the widget that should be added to the custom page.\n\n- Find the widget shortcode near the bottom of the widget details.\n\n- Copy the shortcode.\n\n\n## How to Add the Widget to a Custom Page\n\n\nAfter copying the widget shortcode, add it to a custom static page.\n\n- Go to Content >> Web Page Builder .\n\n- Create a new web page or edit an existing custom page.\n\n- Paste the widget shortcode into the page content area where the widget should display.\n\n- Click Save Web Page .\n\nThe widget will display on the custom page where the shortcode was added.\n\n\n## Where Widgets Can Be Added\n\n\nWidget shortcodes can be added to custom static pages and other content areas that support shortcodes.\n\nCommon examples include:\n\n- Static web pages\n\n- Custom landing pages\n\n- Custom homepage sections\n\n- Custom widgets\n\n- Content areas inside the Web Page Builder\n\n\n## Important Notes\n\n\n- The widget name must match exactly inside the shortcode.\n\n- If the widget name is changed, the shortcode may also need to be updated.\n\n- Some widgets are designed for specific page types and may not display correctly on every custom page.\n\n- Custom widgets can also be called using the same shortcode format.\n\n- After saving the page, view the page on the front end to confirm the widget displays correctly.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182716927/original/afYjXjtRz6-W3ruXLRxZcCtwRZjUZFVJGQ.png?1785204968",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget On a Custom Page' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182716929/original/zYrJfiyC37Yv9W0-9lzVQKjerBc1IvyvKA.png?1785204986",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget On a Custom Page' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182716930/original/URLvXTZQ66hM5TH7vGnygOv8pXsZtqta2A.png?1785205009",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How To Call a Widget On a Custom Page' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000051582",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000051582"
+    }
+  ],
+  "lastmod": "2026-07-28T07:47:05+05:30",
+  "scraped_at": "2026-10-18T13:44:07.950734"
+}

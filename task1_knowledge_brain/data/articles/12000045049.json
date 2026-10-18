@@ -1,0 +1,451 @@
+{
+  "article_id": "12000045049",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045049-design-settings-main-menu-design",
+  "title": "Design Settings » Main Menu Design",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Main Menu Design"
+  ],
+  "content": "## Design Settings » Main Menu Design\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000045049\n\n\n## Main Menu Design\n\n\nThis article goes over the Main Menu Design settings and how to edit the Main Menu of the website. To access this section navigate to:\n\n- Settings\n\n- Design Settings\n\n- General\n\n- Main Menu Design\n\n\n## Visual Guide of the Main Menu Design\n\n\n\n### 1. Display Main Menu\n\n\nThis setting controls if the Main Menu of the website is displayed or not.\n\n\n### 2. Menu Behavior\n\n\nThe different options to choose from are:\n\n- Standard\n\n- Stick to Top\n\n- Stick to Bottom\n\n- Locked When Scrolling\n\n\n### Standard:\n\n\n\n### Stick to Top\n\n\n\n### Stick to Bottom\n\n\n\n### Stick to Top When Scrolling\n\n\n\n### 3. Public Visitor Main Menu\n\n\nThis setting controls the menu displayed for visitors of the website, visitors being people viewing the website without logging in. Very important to note that only the default or an exact clone of the Header Main Menu is going to work on this area. Other Menus listed on Toolbox >> Menu Manager are not going to work since these are not designed for this area.\n\n\n### 4. Logged In Member Main Menu\n\n\nThis setting controls the Members Main Menu, which will only be displayed when members are logged in to the website. Very important to note that only the default or an exact clone of the Header Main Menu is going to work on this area. Other Menus listed on Toolbox >> Menu Manager are not going to work since these are not designed for this area.\n\nUse this Menu option to add links just for members.\n\n\n### 5. Menu Font Family\n\n\nThis setting controls the Font of the Main Menu, to review the available fonts check out the following link: https://fonts.google.com/ ....\n\n\n### 6. Menu Link Font Size\n\n\nThis setting controls the font size in the menu, 16 px is our recommended size.\n\n\n### 7. Menu Font Weight\n\n\nThis setting controls the font weight in the menu:\n\n\n## Main Menu Colors\n\n\nThese setting control the colors of the website's Main Menu.\n\n\n### 8. Menu Bar Background\n\n\nThis setting controls the background color of the website's Main Menu\n\n\n### 9. Menu Link Color\n\n\nThis setting controls the text color for the links in the website's Main Menu.\n\n\n### 10. Menu Link Hover Color\n\n\nThis setting controls the hover color of the Text of the website's Main Menu\n\n\n### 11. Drop-Down Background\n\n\nThis setting controls the background color of the drop-down elements of the website's Main Menu\n\n\n### 12. Drop-Down Link Color\n\n\nThis setting controls the link color for menu elements inside the drop-down menus of the website's Main Menu\n\n\n### 13. Drop-Down Weight\n\n\nThis setting controls the weight of the text for menu elements inside the drop-down menus of the website's Main Menu",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005324/original/3ST00O2DsP64neJVkLsUvmRlrBcIuxG1Ig.png?1760500702",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005356/original/-MOfCCZRtFw364s-J7vlO4ZoxjeN91HGLg.png?1760500763",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134172660/original/IVTdJUjiEwekfCV3iaRCJxuVqmO__ghQMA.png?1699497778",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005439/original/_-GW37luxFzBVVZMHLWhrUo-26uzdKgZOA.png?1760500929",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134172679/original/bSdpj639N99eUkBNqYE5bazTxOLyeju_oA.png?1699497860",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005402/original/OqdWFD4DQwViB6Dp0unpfMKD0EzsT5cjbA.png?1760500843",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134172721/original/On4l4RvMG4nJTm0mEf7GmpPB1lMwEzt1eA.png?1699497986",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005433/original/5YRFEI6gzwKpzzHtKIBl3XTcRTgAwljg0Q.png?1760500868",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134172810/original/hG-KzgEmCc469pKkG1EMFQFyQoTMpAc2dQ.png?1699498175",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005434/original/eq7JJieOW-YjQuUrJYB5XNE3bxaB0M5tBw.png?1760500896",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134172822/original/8ucRLnjtzWhwd6yOMylwUCJupJRlaTJqlA.png?1699498269",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005369/original/7WGh8JDs3y5-vFzrgpXzisY8aK77qn1tNg.png?1760500818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134172858/original/k7oylWHmj8VqxmBEkugtYlJ9JDOGrt5ChQ.png?1699498416",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005503/original/xnMERYGJIqDktNXm4Pdjtacf8xdysTdHWw.png?1760501220",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134172907/original/h310WyxcjAJDarv06JedWZ6pm06zbgPTSA.png?1699498579",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005508/original/XLf4JU0TJOX41FSbUOES0vO6GAspSeiIJw.png?1760501249",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134173022/original/XpcRjS-GG1JWGgbKvxAA6UjdMAJUDT8QUw.png?1699498977",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005510/original/DnF_AhzqPnz3BdHyeaUu4-D4zacDVx5LCw.png?1760501282",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134173065/original/vxhknyv6VwtaLYck-iAzuh5H8z2Mvs-UGg.png?1699499189",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005516/original/hraURcf7i8wiYwN8vPUlhNaF6NryYnvAHQ.png?1760501313",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134173092/original/PK71ISS5zMonGza1aRJcsQfoZ-zqe1I8AQ.png?1699499378",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005955/original/DSsxrK3oNEClS2MQd_osmzdPy2sTwfFQvA.png?1760502351",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169006037/original/qoi45ZTCwVrCl09sCBhgNCiXY9BDCflNEQ.png?1760502628",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005960/original/C2lw2lhDHDax-BHPIo7u0XXTTAL__z7kPA.png?1760502380",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005990/original/eLiAihztaYj1j56E3es2lxM4ckQNubZmeA.png?1760502548",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005962/original/Tll08rYARApNyOrRvRwQ9GmnJo89pXTcQg.png?1760502405",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169025639/original/iB8X9NvH3AGSr4lQLpBcyZq4SAZHJGddDQ.png?1760534377",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005979/original/hIAk1lNS6g5XrGwkS1fjDDGbfiR731R7fQ.png?1760502487",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169025560/original/q4piLb6aQMWBdhVzy7_AUMdBzQpAntnCVw.png?1760534323",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005567/original/6LzaDyCPwQ5ItXOoZexWfyrlYuW3AxnxZg.png?1760501424",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134173104/original/N4uXNhtt_RP0A7-y7o7dbKxW1j2QwSdoTg.png?1699499446",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005624/original/u_EWKyohnJJYV_naqZKI_HwUMOoNFUVd4g.png?1760501486",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134173184/original/2TtVjQoI0gCgYsi_91ylvBaulNKNU2agCQ.png?1699499772",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005639/original/nBvC3u2rJ7qQANuP2NcKmoVdgfRh-Mbt5w.png?1760501513",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134173242/original/GPhVYGDV_uEaYGNG0PpMo6NUDRvvPIQezA.png?1699499905",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005677/original/wlBcb6KphsQ5gC4auabyP2vL1BVT6mDEQg.png?1760501556",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134173285/original/5N8U_LksoYRI8kETRl2KgZBbORz_bhBUYQ.png?1699500111",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005690/original/BCWDeNwlsQ8tvtrgciHW6Fsj3Z6iIoqnUw.png?1760501592",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134173329/original/uYsqqLnCZkTOWwalheNbOA4zO9-kU3dUWw.png?1699500248",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005742/original/dcImcIcvlVdHFz-O-zSryXIzi243fLcm7w.png?1760501718",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005888/original/DDvjFdaK6D0X7VHu6dbFFTs4uzBM6AGWfw.png?1760502170",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005745/original/v4437pnwUe-LfMjLX-JmaYQvSnL8zZcoqg.png?1760501755",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169025702/original/t4U5Fc6_K2Di4_5kFaM-rgedvssLvOCYFA.png?1760534441",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005756/original/zhisb8DmitOh2zZ7cS3hSJGqrKXGaPJPzw.png?1760501786",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005824/original/Gp97nM2IAutXY404miihVjiM360_Ma7RVA.png?1760502002",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169005758/original/ueL6d2mX0110zF60m8Ym3o_2QFKZsy4MQA.png?1760501818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169025765/original/x9wDJ07djmnduWoEjF-u2WCXfWlu58bm5Q.png?1760534496",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Main Menu Design' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000045049",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045049"
+    },
+    {
+      "text": "https://fonts.google.com/",
+      "url": "https://fonts.google.com/"
+    }
+  ],
+  "lastmod": "2025-10-15T18:51:44+05:30",
+  "scraped_at": "2026-10-18T13:42:48.605712"
+}

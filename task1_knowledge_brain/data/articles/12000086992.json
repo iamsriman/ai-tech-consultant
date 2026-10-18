@@ -1,0 +1,27 @@
+{
+  "article_id": "12000086992",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086992-04-15-22-software-updates",
+  "title": "04/15/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/15/22 - Software Updates"
+  ],
+  "content": "## 04/15/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000086992\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the Member Profile Analytics Add-On which was causing the system to strip out the spaces in the \"click name\" of events.\n\n- We created a new Web Page setting called \"Exclude from Sitemap\" for \"Custom Widget as a Web Page\" pages. Enabling this setting will exclude the page from the sitemap when it is next generated.\n\n- We created a new Web Page setting called \"Select Content Type (advanced)\".  This setting allows the Admin to select the content type that should be returned by the server when the page is loaded. This setting is only available for web pages with the Page Type \"Custom Widget as a Web Page\".\n\n- We updated the layout of the lead details page in the Member Dashboard area when using the \"Print Lead\" button view. Widget Involved: Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- We created a new Advanced Setting called \"Dynamic Category Filter - Broad Match\" which impacts the behavior of the \"Dynamic Category Filter: Add-On.  Enabling this setting (it is enabled by default) will return members listed in ANY of the categories selected in the filter. Disabling this setting will only return members listed in ALL of the selected categories. Widget Involved: Search - Member - Search Query\n\n- We fixed an issue which was preventing the system from deleting the \"Alt. Field Label\" Display Settings when editing a form in the Form Manager.\n\n- We optimized how sites load default CSS files, which improves the scores on 3rd party tools like GTMetrix and Google Pagespeed. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the Import Member via CSV functionality to respect the \"Join Date (signup_date)\" value when this is present in the import file.\n\n- We fixed an issue which was causing the system to not respect the form field order after saving a form in the Form Manager in some cases.\n\n- We updated the Monthly Income Reports found on the Transaction History page in the Admin to include a \"Taxes\" column in the report.\n\n- We fixed an issue which was preventing the Facebook Share button on member profile pages from working properly in some cases. Widget Involved: Bootstrap Theme - Module - Social Share\n\n- We fixed an issue which was preventing the system from ignoring \"Disabled\" Sidebars on the frontend of sites in some cases.\n\n- The date_added variable used in the \"recommendation-accepted\" email template is now compatible with the \"Date Format\" setting.\n\n- The invoice_pdf_link variable can now be used in member signup and upgrade email templates.\n\n- We created a new Advanced Setting called \"Front-End Optimization: Enable Resource Delivery via CDN\". Enabling this setting will cause default CSS and Javascript files to be delivered via our internal \"optimizecdn.com\" CDN, powered by Cloudflare. We also added the \"Front-End Optimization: Use Content Delivery Network (CDN) for Images\" Advanced Setting. Adding an imagekit.io URL for a website to this setting cause all images on the site to be optimized and delivered via Imagekit. Each of these settings will help to reduce  the load time of  pages and increase scores in 3rd party tools like GTMetrix and Google Pagespeed. Please see the article here for more information. Widgets Involved: Bootstrap Theme - HEAD Bootstrap Theme - Footer - Scripts Bootstrap Theme - Footer - Scripts - User Search Scripts Bootstrap Theme - Footer - Scripts - Lazyload",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000086992",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000086992"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000084601"
+    }
+  ],
+  "lastmod": "2022-04-18T22:07:38+05:30",
+  "scraped_at": "2026-10-18T13:49:40.388725"
+}

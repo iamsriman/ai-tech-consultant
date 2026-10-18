@@ -1,0 +1,23 @@
+{
+  "article_id": "12000095561",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095561-08-25-2023-software-updates",
+  "title": "08/25/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/25/2023 - Software Updates"
+  ],
+  "content": "## 08/25/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095561\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from correctly installing the Private Member Chat Add-On in some cases.\n\n- We updated the the Keyword Search field on the \"Member Leads\" page in the Admin to search for matches in the lead_location field as well.\n\n- We created a new Advanced Setting called \"Member Login Session Active Minutes\". This new setting allows an Admin to enter the number of minutes members will remain logged into their account. Default is 7 days (10800 minutes).\n\n- We updated the logic of the Forms Submission page in the Admin to make the \"Submission Time\" display in the \"Time Format\" set for the site in the General Settings >> Localization tab.\n\n- We fixed an issue with the \"Enable Receiving Reviews\" Membership Plan Setting which was preventing it from saving properly when an Admin which does not have permission to view the setting was saving the Membership Plan settings.\n\n- We fixed an issue which was preventing the Ampify Integration from working properly on the frontend of sites in some cases.\n\n- We fixed an issue which was removing members from their selected Sub Categories after saving the Listing - Additional Details - Member form in some cases.\n\n- We updated the Google Maps Integration in order to load the map resources via HTTPS instead of HTTP protocol in all cases. Widgets Involved: Bootstrap Theme - Display - Post Location Modal Bootstrap Theme - Member Profile - Overview Tab Bootstrap Theme - Module - Post Location Map Profile Overview Tab with lat and lon\n\n- We updated the Multi-Member Manager (Sub-Account) Add-On in order to improve the validation logic and prevent the creation of sub-accounts with the same combination of email address and password as the parent member. Widgets Involved: Bootstrap Theme - Function - Copy Master Sub Accounts Info website_users_data_type_save_form\n\n- We optimized the SQL query used when performing a search to speed up the loading time of member search results pages on the frontend of sites. Widgets Involved: Search - Reviews - Search Query Search - Post - Search Query Search - Member - Search Query Search - Group - Search Query Bootstrap Theme - Function - API Bootstrap Theme - Display - Recent Reviews\n\n- The action of updating the member password is now being logged in the Activity Tracker.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095561",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095561"
+    }
+  ],
+  "lastmod": "2023-08-28T23:31:31+05:30",
+  "scraped_at": "2026-10-18T13:52:40.019514"
+}

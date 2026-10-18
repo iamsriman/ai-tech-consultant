@@ -1,0 +1,27 @@
+{
+  "article_id": "12000093344",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093344-04-21-2023-software-updates",
+  "title": "04/21/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/21/2023 - Software Updates"
+  ],
+  "content": "## 04/21/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000093344\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the HTTPR lead webhook variable from printing properly when the \"Enable HTTP Security Headers (CSP)\" Advanced Setting was active in some cases. Widget Involved: System - SaveForm\n\n- We updated the layout of the of Web Page Builder in the Admin to display a recent screenshot of each page.\n\n- We updated the logic of the Lead System in order to populate the Email Recipient field with the content of the \"CC Lead Emails to\" field found in the Member Quick Edit form as well when manually matching leads to members from the Admin.\n\n- We created a new Banner Ad Design Setting in order to choose whether or not to display the \"Below Header Banner Ad\" on the homepage. Widget Involved: Bootstrap Theme - Banner - Header - 970_90\n\n- We added the ability to sort member transactions by \"Sales Representative Name\" on the Transaction History page in the Admin. In order to enable this feature, activate the \"Enable Sales Rep Field in Edit Members Form\" Advanced Setting in the Admin.\n\n- The full_name email variable is now available for use in the recommendation_accepted email template. Widget Involved: Bootstrap Theme - Account - Reviews\n\n- We fixed an issue which was causing the system to include multiple slashes in a row when generating member profile URLs in some cases.\n\n- We fixed an issue which was preventing the \"Recent Event Display Order\" Design Setting from working properly when selecting the \"Start Date\" option in some cases.\n\n- We updated the Member Image Import Tool in the Admin in order to add the ability to import images for posts which were imported via CSV file.\n\n- We fixed an issue which was preventing the system from logging emails sent manually from from the Admin in the Activity Tracker in some cases.\n\n- We added a new additional URL for post RSS Feeds which includes the post's primary image URL as well. The new RSS Feed URL with Images: yourdomain123.com/postTypeURL/rss-image . This works on websites that are using the \"RSS Feeds for Posts\" Add-On.\n\n- We implemented several security updates across the platform.\n\n- We fixed an issue which was preventing payments from being collected properly in some cases when a member used a 3D Secure credit card on a website using Stripe as the payment gateway.\n\n- We updated the text of the success message modal after purchasing a Pay Per Post from the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Feature Body datatable Bootstrap Theme - Account - Photo Albums datatable",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000093344",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093344"
+    },
+    {
+      "text": "yourdomain123.com/postTypeURL/rss-image",
+      "url": "https://yourdomain.com/postTypeURL/rss-image"
+    }
+  ],
+  "lastmod": "2025-02-02T15:53:10+05:30",
+  "scraped_at": "2026-10-18T13:50:55.339452"
+}

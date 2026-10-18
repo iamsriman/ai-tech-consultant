@@ -1,0 +1,23 @@
+{
+  "article_id": "12000087105",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087105-04-29-22-software-updates",
+  "title": "04/29/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/29/22 - Software Updates"
+  ],
+  "content": "## 04/29/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087105\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from correctly displaying the Unsubscribed link URL in Email Templates in some cases.\n\n- We updated the Recent and Module Review widgets to not display any stars when the average review score total is equal to 0. Widgets Involved: Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Module - Recent Reviews\n\n- We fixed an issue which was preventing the system from respecting the capitalization of Text Labels in the Member Dashboard area. Widgets Involved: Bootstrap Theme - Account - Select Categories Bootstrap Theme - Account - Photo Albums Upload Form Bootstrap Theme - Account - Photo Albums Bootstrap Theme - Account - Feature Header Bootstrap Theme - Account - Feature Body datatable\n\n- We fixed an issue which was preventing the system from displaying currency decimal values when using the \"Price Field\" form field type on forms in the Member Dashboard in some cases.\n\n- We deprecated the \"URL Permalink\" and \"Number of Posts Displayed on Tab\" Post Type Settings when editing the Listing Post Type in the Admin as these fields do not apply to this Post Type.\n\n- We updated the logic of the Reviews Search Results page to show the \"No Search Results\" label when there are no results to show.\n\n- We renamed the \"Froala Text Editor\" form field type to \"Froala Text Editor - Basic\".\n\n- We updated the \"Default Website Language\" setting in order to include \"English - Australia\" and \"English - Great Britain\" as options.\n\n- We created a new set of settings for the Private Member Chat Add-On. Enabling the \"Send Email Notification to Admin When Private Chat Reported?\" setting will cause the system to send an email notification to the Admin when a member flags / reports a private chat. Enabling the \"Send Copy of Email to Default Website Email Address\" setting will cause the system to send a copy of member private chat notification emails to the Admin as well. On sites that have the Private Member Chat Messages Add-On can find these settings in the Admin >> General Settings >> Integrations tab.\n\n- We renamed the \"Member CV / Brochure\" form field type to \"File Upload Field\".\n\n- We fixed an issue with the Manage Posts page in the Admin which was preventing the system from displaying results when a keyword search contained an apostrophe in some cases.\n\n- The \"Whoops!\" text when displaying the notification modal when a lead is submitted without all required information is now a text label. Widget Involved: Bootstrap - Contact Member Lead Map Text Label Involved: swal_whoops\n\n- We fixed an issue with the Unsubscribed Emails list which was causing the system to add a duplicate email address to the list even if the email address already existed on the list. Widget Involved: Bootstrap Theme - Unsubscribe Email Page\n\n- We added a \"Select All\" button to the Member Reviews page in the Admin when performing a search.\n\n- We updated the \"Database Variable\" form field setting to not allow whitespaces when entering a value for the field.\n\n- We fixed an issue which was preventing the system from adding the \"Security - Honeypot Field\" to forms in some cases.\n\n- We updated the \"Security - Google reCaptcha\" field to fix an issue that was preventing it from validating properly in default forms. Widgets Involved: Bootstrap Theme - Function - Save Form System - SaveForm",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087105",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087105"
+    }
+  ],
+  "lastmod": "2022-05-01T02:47:03+05:30",
+  "scraped_at": "2026-10-18T13:49:45.776594"
+}

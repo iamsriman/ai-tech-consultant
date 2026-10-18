@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109086",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109086-install-jobs-post-support-dashboard-installer",
+  "title": "Install Jobs Post Support - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Install Jobs Post Support - Dashboard Installer"
+  ],
+  "content": "## Install Jobs Post Support - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109086\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Install Jobs Post Support Does\n\n\nThis installer gives the site's posts a dedicated place to store a job value and moves any job data that was previously kept in generic storage into that new place. It changes where this data lives; it does not delete the posts.\n\nIt runs two steps:\n\n- Adds the job column : a post_job column (VARCHAR(255)) is added to the data_posts table so each post can store a job value directly.\n\n- Moves existing job data : any post_job values stored in the generic users_meta table are copied into the new post_job column on the matching post. It writes only to posts whose post_job value is still empty, so it will not overwrite a value a post already has, and each users_meta row is removed after it is processed.\n\n\n## Why It Appears\n\n\nThe installer runs two separate checks and appears if either one still needs work. It shows up when the data_posts table is missing the post_job column, or when the users_meta table still holds post_job values that have not been moved into that column.\n\nThese are legacy conditions. Databases created before the job value was stored directly on the post record will see this installer offered; newer sites already have the column in place.\n\n\n## Why It Matters\n\n\nStoring a post's job value directly on the post, rather than in the generic meta table, is how newer post templates and features read it. Until the data is moved into the dedicated column, features that expect to find it there will not see it. Running the installer brings the storage in line with what those features expect while preserving the existing job values.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Install Jobs Post Support appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once all steps are done.\n\nIf it does not appear in the list, the site already has the column and data in place, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website on its own. The posts gain a job field, ready to be used by the templates and features that read it, and any job data that already existed is preserved in the new column.\n\nBoth steps re-check before acting: the column step reports that the column already exists rather than adding a duplicate, and the migration step only fills posts whose job value is still empty. That makes the installer safe to run again. Click Check For Updates after installing and the entry disappears once both checks pass.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109086",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109086"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:36+05:30",
+  "scraped_at": "2026-10-18T13:59:36.413625"
+}

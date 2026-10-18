@@ -1,0 +1,63 @@
+{
+  "article_id": "12000018932",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000018932-toolbox-sidebar-applications",
+  "title": "Toolbox » Sidebar Applications",
+  "category": "Toolbox",
+  "folder": "Sidebar Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Sidebar Manager",
+    "Toolbox » Sidebar Applications"
+  ],
+  "content": "## Toolbox » Sidebar Applications\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000018932\n\nWhat is a Sidebar A sidebar is a container that holds widgets, typically displayed to the side of web pages. Common examples of widgets placed in sidebars include banner ads, search modules, and newsletter signup modules. The Brilliant Directories platform comes with a set of predefined sidebars that can be modified and updated according to the website's needs. Sidebar Examples Post Details Pages:\n\nStatic Pages:\n\nMember Search Results:\n\nAdditional Information: Sidebar Setup Steps For Membership Features/ Post Types How To Add A Sidebar To A Static Page How To Create A Sidebar This is IMPORTANT INFORMATION about Sidebars: Sidebars are containers, not positioning tools. A sidebar simply wraps around a group of widgets that will be used together. Despite the name, a sidebar does not place its widgets on the left or right side of a page; that placement comes from CSS applied on the page where the sidebar is used. Any sidebar can be called with a shortcode. To use a sidebar on a static page, or on any page that does not offer a built-in sidebar option (as the membership features do), add the shortcode with the sidebar's name. For example, for a sidebar named myCustomSidebar, add [ sidebar = name_sidebar ] to the page, placing the code closest to where the sidebar should appear. If needed, style it with CSS to look correct or to mimic a sidebar on a different page. The same sidebar can look different on different pages. Because sidebars carry no positioning CSS of their own, using a sidebar on one page does not guarantee it will look the same on another.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090374750/original/ZUUVU_slCr2GbaMjAFOj0WKr5ymi8KrZdw.png?1616512242",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Sidebar Applications' in section 'Toolbox' / 'Sidebar Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079431309/original/xGsq9z91u0h9YUF3IKCcGrVE2FGAPiK75Q.png?1593624281",
+      "alt": null,
+      "caption": "Member Search Results:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Sidebar Applications' in section 'Toolbox' / 'Sidebar Manager'. Context: Member Search Results:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090374808/original/8iPT0g3eLVQRU2FqXWXB48Q-ckdvH2sgcQ.png?1616512312",
+      "alt": null,
+      "caption": "Additional Information:Sidebar Setup Steps For Membership Features/ Post TypesHow To Add A Sidebar To A Static PageHow To Create A SidebarThis isIMPORTANT INFORMATIONabout Sidebars:Sidebars are containers, not positioning tools.A sidebar simply wraps around a group of widgets that will be used toget",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Toolbox » Sidebar Applications' in section 'Toolbox' / 'Sidebar Manager'. Context: Additional Information:Sidebar Setup Steps For Membership Features/ Post TypesHow To Add A Sidebar To A Static PageHow To Create A SidebarThis isIMPORTANT INFORMATIONabout Sidebars:Sidebars are containers, not positioning tools.A sidebar simply wraps around a group of widgets that will be used toget",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000018932",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000018932"
+    },
+    {
+      "text": "Sidebar Setup Steps For Membership Features/ Post Types",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/5000681822"
+    },
+    {
+      "text": "How To Add A Sidebar To A Static Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000002791"
+    },
+    {
+      "text": "How To Create A Sidebar",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047136"
+    }
+  ],
+  "lastmod": "2026-06-13T05:25:21+05:30",
+  "scraped_at": "2026-10-18T13:40:29.760564"
+}

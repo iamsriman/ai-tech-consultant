@@ -1,0 +1,23 @@
+{
+  "article_id": "12000082191",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082191-09-17-21-software-updates",
+  "title": "09/17/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/17/21 - Software Updates"
+  ],
+  "content": "## 09/17/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082191\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to delete a post's URL from the database after customizing its URL from the Admin in some cases.\n\n- We fixed an issue which was preventing the system from displaying the \"Listing - Verify Account\" form submissions on the Forms Inbox page in the Admin.\n\n- We fixed an issue which was causing the post details page to display the \"Post Not Public or Active\" message when the Post Type's form has the \"Post Status\" field setup as a dropdown (select) field.\n\n- We fixed an issue which was preventing the Post Meta Details v2.0 widget from displaying custom form field data on the frontend of sites in some cases.\n\n- We implemented an update in order to display the \"0\" zero number on the site when showing data from numeric checkbox fields.  Previously \"0\" would just show as blank. Widget Involved: System - SaveForm\n\n- Using the Delete Invoice action on the Transaction History page in the Admin is now being logged in the Activity Tracker.\n\n- We fixed an issue with the Main Menu display logic which was causing sub-menus to display text out of the sub-menu's background in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the ability to display members' \"About Me\" data in the Featured Members and Recent Members homepage widgets when selected in the Display Settings. Widget Involved: Bootstrap Theme - Display - Recent Members\n\n- The Email Address and Phone Number field types on the Form Manager are now compatible with the \"Use Field Label as Placeholder Text?\" form field setting.\n\n- We fixed an issue which was preventing the system from displaying the Post Meta Data Title in some cases.\n\n- We implemented an update in order to correctly display currency symbols when importing members in the Admin.\n\n- We fixed an issue which was preventing the system from displaying the Overview tab on member profile page even when there is data to display in some cases.\n\n- Saving the Quick Edit Member form on the Search Members page in the Admin is now being logged in the Activity Tracker.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082191",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082191"
+    }
+  ],
+  "lastmod": "2021-09-21T03:51:38+05:30",
+  "scraped_at": "2026-10-18T13:48:59.066543"
+}

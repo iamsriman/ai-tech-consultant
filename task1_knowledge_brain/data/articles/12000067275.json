@@ -1,0 +1,23 @@
+{
+  "article_id": "12000067275",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067275-02-07-20-software-updates",
+  "title": "02/07/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/07/20 - Software Updates"
+  ],
+  "content": "## 02/07/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000067275\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Transaction History page in order to show the words \"Deleted Member\" for invoices related to a member that has been deleted from the site.\n\n- We fixed an issue with the Insta-Load Search Results Add-On which was causing the system to load results one-by-one when the Recurring Events Add-On is activate on a site.\n\n- We fixed an issue which was preventing the system from displaying information in searchable tables in the Member Dashboard when using the \"Show Label\" or \"Show Widgets\" view of a page when logged in as an Admin.\n\n- We updated the Edit Post Settings page in the Admin in order to show a clickable link for the \"URL Permalink\" column values.\n\n- We fixed an issue which was preventing the system from executing the \"Fix Member Cover Photo\" Software Update from the New Updates section of the Admin Dashboard.\n\n- We fixed an issue which was causing search results pages to show as blank when using \"view\" is present as a URL parameter in some cases.\n\n- We fixed a display issue with the Domain Manager page which was causing error text to overlap the description text in some cases.\n\n- We updated the display of the h1 text on the \"connect with this member\" page on the front-end of sites. Widgets Involved: Bootstrap Theme - Lead Submission Form Title Bootstrap Theme - Member Profile - Contact Page\n\n- We fixed an issue with the Free Trial Period Add-On which was allowing members to be created with invalid credit card info in some cases.\n\n- We updated the logic of the Members-Only Content Add-On in order to allow members to view the details pages of their own posts regardless of the \"Post Publishing\" settings for their Membership Plan. Widgets Involved: Bootstrap Theme - Photo Album Page Bootstrap Theme - Single Post Page\n\n- We updated the Social Login and Social Signup buttons in order to comply with branding guidelines from Google and Facebook. Widgets Involved: Bootstrap Theme - Display - Facebook Action Login Bootstrap Theme - Display - Google Action Login Bootstrap Theme -Login Form - Display Social Login Links\n\n- We fixed an issue with the Clone Post Types feature which was preventing the system from properly cloning the \"Type of Feature\" field of the Post Type in some cases.\n\n- We released the Photo Albums Search Results Image Slider Add-On. Widgets Involved: Bootstrap - Search - Lazy Loader tabs Bootstrap Theme - Member Profile Bootstrap Theme - Single Post Page Post Types Involved: Classifieds Photo Albums Products Properties\n\n- We fixed an issue which was affecting the ability to process a paid member signup when using PayPal as the payment gateway in some cases.\n\n- We updated the design of the Recent Reviews homepage widget in order to support longer member names. Widget Involved: Bootstrap Theme - Display - Recent Reviews\n\n- We updated the logic of the URL validation in the Admin in order to include more information for error messages related to duplicate URLs.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000067275",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067275"
+    }
+  ],
+  "lastmod": "2020-02-11T03:33:52+05:30",
+  "scraped_at": "2026-10-18T13:46:02.515523"
+}

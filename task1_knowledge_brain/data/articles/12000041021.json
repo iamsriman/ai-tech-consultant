@@ -1,0 +1,23 @@
+{
+  "article_id": "12000041021",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000041021-02-09-18-software-updates",
+  "title": "02/09/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/09/18 - Software Updates"
+  ],
+  "content": "## 02/09/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000041021\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue that was affecting the aesthetics of the Reply of a Member Review functionality.\n\n- We enhanced the function that handles the Preview functionality of Email Templates in the Admin area to include the logo of the site when enabled.\n\n- We made an improvement to the function that handles the Social Media URLs in order to automatically format social media links on profile pages even when the format of the link was not entered as required in the Member Dashboard. Widget Involved: Bootstrap Theme - Member Profile - Display Website Links\n\n- We fixed an issue that was affecting the View Details link of Lead invoices in the Transaction History page of the Admin.\n\n- We fixed an issue which was affecting the login functionality of sub-accounts (Multi-Member Manager Add-On).\n\n- We fixed an issue which was affecting the normal behavior of the Bookmark my Favorites Add-On in some instances. Widget Involved: Bootstrap - Search - Lazy Loader tabs\n\n- We refactored several widgets in order to be prepared for the upcoming release of a new method of editing Text Labels through the front end of a website. Widgets Involved: Bootstrap Theme - Homepage Search - Blog Article Search Bootstrap Theme - Homepage Search - Classifieds Search Bootstrap Theme - Homepage Search - Coupons Search Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Homepage Search - Filtered Search Bootstrap Theme - Homepage Search - Jobs Search Bootstrap Theme - Homepage Search - Keyword Search Bootstrap Theme - Homepage Search - Member Article Search Bootstrap Theme - Homepage Search - No Top Level Category Bootstrap Theme - Homepage Search - Photo Album Search Bootstrap Theme - Homepage Search - Postal Code Search Bootstrap Theme - Homepage Search - Products Search Bootstrap Theme - Homepage Search - Property Search Bootstrap Theme - Homepage Search - Sub + Sub-Sub Bootstrap Theme - Homepage Search - Sub + Sub-Sub + Location Bootstrap Theme - Homepage Search - Sub Category Only Bootstrap Theme - Homepage Search - Sub and Location Only Bootstrap Theme - Homepage Search - Sub-Sub Search Bootstrap Theme - Homepage Search - Top Level + Location Bootstrap Theme - Homepage Search - Top Level Category Only Bootstrap Theme - Homepage Search - Top and Sub Category Only Bootstrap Theme - Homepage Search - Videos Search Bootstrap Theme - Homepage Search - Yellow Pages Search\n\n- We released the new Lead Price by Category Add-On. Widget Involved: Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- We hid PayFast from the list of available payment gateways as it has not yet been released.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000041021",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000041021"
+    }
+  ],
+  "lastmod": "2018-02-09T23:45:14+05:30",
+  "scraped_at": "2026-10-18T13:42:17.457618"
+}

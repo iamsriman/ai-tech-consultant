@@ -1,0 +1,191 @@
+{
+  "article_id": "12000087004",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087004-file-uploads-for-forms",
+  "title": "File Uploads for Forms",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "File Uploads for Forms"
+  ],
+  "content": "## File Uploads for Forms\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000087004\n\n\n## Overview\n\n\nBy default, members can only upload one file when filling out their Additional Details form to be displayed on their profile page.\n\nThe File Uploads for Forms add-on extends this functionality to any and all forms on the website. Adding the file upload field to any form will allow users to upload supported file types to the website with their form submission.\n\nThe File Upload field is a tool for members to upload files; How to Use and or Modify the File Upload Field.\n\nThis is a field most commonly found in the Listing - Additional Details - Member form. However with this add-on it is available to all other forms on the site.\n\n\n### Supported Files\n\n\nThe files supported by the member upload tool are:\n\n- Image Files - gif, jpeg, jpg, png, svg, webp\n\n- PDFs\n\n- .txt files\n\n- .rft files\n\n- Word Documents\n\n- Excel Documents\n\n- Powerpoint Documents\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: File Uploads For Forms\n```\n\n\n## Adding Upload Fields\n\n\nInside the Form Manager select the form that will allow members or users to add additional files. The process is the same for all forms.\n\nIn this example the Feature - Events form is being used:\n\nClick on \" Add Field+ \", this will create a blank field.\n\n- For the \"Type of Field\" drop-down select: File Upload Field\n\n- Add a Label Name and a System Variable (the form will automatically fill in the variable, however, it is possible to add in a custom one).\n\n- (ONLY REQUIRED WHEN INCLUDING MULTIPLE FILE UPLOAD FIELDS IN THE SAME FORM) Next, click on the \" Gear Icon \" and add the following: Additional Field CSS Class : filestyle_uploadcv Outer Element ID : This field needs to be unique on each cv field, so please do not add \"upload_field\", because this is the ID of the default field. Since a unique ID needs to be added, adding a number after the default field will work as well. Example: upload_field_events\n\nOnce the form is saved the field will show in the Form Preview.\n\nThe Display Settings are also very helpful when enabled, each setting has a specific function.\n\n- Input View - allows the person to fill out the form.\n\n- Display View - displays the field/input on the front-end of the site.\n\n- Lead Preview - shows in the Lead Preview emails.\n\n- Include In - includes the field in emails associated with the form.\n\n- Table View - shows up in the admin when viewing the information in tables.\n\nIn-depth information about these fields is found within this article: In-Depth Look into Form Fields and their Settings .\n\n\n## Member Dashboard Forms\n\n\nThese are the forms that appear in the member dashboard. These include forms like the Post Types, Verify Listing, Contact Details, Additional Details and About forms.\n\nThe example below uses the Feature - Events form, the field was added below the \" Cost to Attend \" field:\n\nOnce the file has been uploaded the member will have the option to view the file and remove the file. These are two new text labels:\n\n- View File System Variable: view_my_file\n\n- Remove File System Variable: remove_my_file\n\n\n### Viewing the File\n\n\nThe widget, Post Meta Details v2.0 , needs to be part of the sidebar in order to see the file; How To Display Custom Post Fields In The Post Details Page .\n\nThe button to \"View File\" is available in the sidebar for anyone viewing the post.\n\n\n## Admin Forms\n\n\nThese are the forms that appear on the front end of the site. These include forms like the Contact Us, Get Matched, Newsletter and the Signup forms.\n\nThe example below uses the Bootstrap Get Matched form, the field was added below the \" Phone Number \" field:\n\nWhen this form is submitted the file will be visible within the admin dashboard, specifically where the form lands.\n\nFor leads that is the Member Leads folder:\n\nIf it's the Contact Us form, it will appear in the Forms Inbox . It is visible by clicking on \" View Full Inquiry\" :\n\nThis link will open the image file in a separate tab for the admin forms:\n\n\n## Deleting Files\n\n\nThis is the method for the website owner to permanently delete the file from the system.\n\n\n### Member Forms\n\n\nLook for the \"Remove File\" button:\n\n\n### Admin Forms\n\n\nLook for the red, Delete File , text:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107805796/original/_ig2psa3RsiTNwUhVUq-o7BIcELSnxJnZA.png?1650340026",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107842214/original/v3pH5qbZlduqN1oZexFmZJiOgH0huUNaog.png?1650384142",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12108764317/original/0I78Ar0ptFyj5d7QW71MpfQBxJ5wVW60IA.png?1652199635",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107842927/original/wK6sccsV4k-ELGFaQ48ITYjut4yWvXGT5A.png?1650384895",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107805080/original/ARIDZQ3XJSbbJZsPgruPCud03EUHe5hNhg.png?1650337515",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107958766/original/18vwDf8mOdb5swPAS_Je0Jw1TEn1mGFnuA.png?1650558284",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107958798/original/7ih8D7DUNly76IIAs0VB1LcxMWf_cQI8zA.png?1650558350",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107805046/original/hpz8GNVsc3m3j0vMLWy5lvx67t45zAI79A.png?1650337326",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107959294/original/8t66Zdl7SASvq0bcBN-8AV9j-HGcGAG0lQ.png?1650558957",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109517819/original/5SUV4qSMK1GhToKIVbJkuFI-y3Zpi0E3aA.png?1653583934",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107959418/original/gILp__btSEiWEFY5SfcwGaJJf-mY8mUmRA.png?1650559153",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109996274/original/OyXGnxu6C2IhqdMRTVnXJjoVOK-aH-l2bg.png?1654617125",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107959494/original/B5luhi2LLaH9sqK-ypIjsm5ED8KoOtd7LA.png?1650559241",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109996376/original/WKbX4Bj4LBouO2XJoHJJVQJW9THMo2K__Q.png?1654617240",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109996515/original/ssYB39wFHj9HCJATkyjdYPyiDSK-7vq_lw.png?1654617394",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12109996516/original/M6fmi-g94oCnHwlcrFizpppjse_L-BUzFw.png?1654617402",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'File Uploads for Forms' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000087004",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087004"
+    },
+    {
+      "text": "How to Use and or Modify the File Upload Field.",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000026216"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "File Uploads For Forms",
+      "url": "https://www.brilliantdirectories.com/file-uploads-for-forms-add-on"
+    },
+    {
+      "text": "In-Depth Look into Form Fields and their Settings",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000059251"
+    },
+    {
+      "text": "How To Display Custom Post Fields In The Post Details Page",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078806"
+    }
+  ],
+  "lastmod": "2026-08-28T21:59:46+05:30",
+  "scraped_at": "2026-10-18T13:49:41.491275"
+}

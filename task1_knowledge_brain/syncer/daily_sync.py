@@ -1,176 +1,153 @@
-"""
-Daily Sitemap Differential Synchronization for Task 1: Knowledge Brain.
-Detects added, updated, and removed articles in the Brilliant Directories Solution Center.
-Guarantees safety: NEVER deletes articles if sitemap fetching or parsing fails.
-"""
-
+"""Conservative, retryable sitemap synchronization for Task 1."""
 from dataclasses import dataclass, asdict
-from datetime import datetime
+from datetime import datetime, timezone
 import hashlib
 import json
 import logging
+import os
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set
+import threading
+from typing import Any, Dict, List, Optional
 
 from task1_knowledge_brain.scraper.sitemap_parser import SitemapParser, SitemapEntry
 from task1_knowledge_brain.scraper.crawler import PoliteCrawler
 from task1_knowledge_brain.knowledge_base.chunker import HierarchyAwareChunker
-from task1_knowledge_brain.knowledge_base.vector_store import BDVectorStore
+from task1_knowledge_brain.knowledge_base.vector_store import BDVectorStore, DATA_DIR
 
 logger = logging.getLogger(__name__)
 
 
 @dataclass
 class SyncReport:
-    status: str  # "success", "aborted", "skipped"
+    status: str
     timestamp: str
     added_articles: List[str]
     updated_articles: List[str]
     removed_articles: List[str]
     message: str
+    unchanged_count: int = 0
+    failed_articles: Optional[List[str]] = None
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
 
 
 class DailySitemapSyncer:
-    """
-    Synchronizes local article cache and ChromaDB vector store with the live sitemap.
-    """
-
-    def __init__(
-        self,
-        sitemap_parser: Optional[SitemapParser] = None,
-        crawler: Optional[PoliteCrawler] = None,
-        chunker: Optional[HierarchyAwareChunker] = None,
-        vector_store: Optional[BDVectorStore] = None,
-    ):
+    """Apply a complete sitemap snapshot; require two complete misses to delete."""
+    def __init__(self, sitemap_parser=None, crawler=None, chunker=None, vector_store=None,
+                 snapshot_path: Optional[Path] = None):
         self.sitemap_parser = sitemap_parser or SitemapParser()
         self.crawler = crawler or PoliteCrawler()
         self.chunker = chunker or HierarchyAwareChunker(target_chunk_size=600)
         self.vector_store = vector_store or BDVectorStore()
+        self.snapshot_path = Path(snapshot_path or DATA_DIR / "sync_snapshot.json")
+        self._sync_lock = threading.Lock()
 
     @staticmethod
-    def compute_content_hash(text: str) -> str:
-        """Computes a SHA-256 hash of article text to detect meaningful changes."""
-        return hashlib.sha256(text.encode("utf-8")).hexdigest()
+    def _hash(article) -> str:
+        raw = json.dumps(article.to_dict(), sort_keys=True, ensure_ascii=False)
+        return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+    def _load_snapshot(self) -> Dict[str, Any]:
+        try:
+            return json.loads(self.snapshot_path.read_text(encoding="utf-8"))
+        except FileNotFoundError:
+            return {"urls": [], "missing": {}, "observed_on": None}
+
+    def _save_snapshot(self, data: Dict[str, Any]) -> None:
+        self.snapshot_path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = self.snapshot_path.with_suffix(self.snapshot_path.suffix + ".tmp")
+        tmp.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        os.replace(tmp, self.snapshot_path)
 
     def sync(self, max_updates: Optional[int] = None) -> SyncReport:
-        """
-        Executes a safe daily differential sync.
-        CRITICAL RULE: If sitemap fetching or parsing encounters ANY error,
-        the sync aborts immediately without touching or deleting any existing articles.
-        """
-        timestamp = datetime.utcnow().isoformat()
-
-        # Step 1: Safe fetch and parse of sitemap
+        if not self._sync_lock.acquire(blocking=False):
+            return SyncReport("skipped", datetime.now(timezone.utc).isoformat(), [], [], [],
+                              "Another sitemap sync is already running.", 0, [])
         try:
-            logger.info("Daily Sync: Fetching and parsing live sitemap...")
-            entries = self.sitemap_parser.parse()
-            remote_articles = self.sitemap_parser.get_articles_only(entries)
+            return self._sync_locked(max_updates)
+        finally:
+            self._sync_lock.release()
 
-            if not remote_articles or len(remote_articles) < 100:
-                # Sanity check: Help center has >1,000 articles. If fewer than 100 parsed, abort!
-                msg = f"Sitemap parsing yielded suspiciously low article count ({len(remote_articles)}). Aborting sync for data safety."
-                logger.error(msg)
-                return SyncReport(
-                    status="aborted",
-                    timestamp=timestamp,
-                    added_articles=[],
-                    updated_articles=[],
-                    removed_articles=[],
-                    message=msg,
-                )
+    def _sync_locked(self, max_updates: Optional[int] = None) -> SyncReport:
+        stamp = datetime.now(timezone.utc).isoformat()
+        def abort(msg, failed=None):
+            return SyncReport("aborted", stamp, [], [], [], msg, 0, failed or [])
+        try:
+            entries = self.sitemap_parser.get_articles_only(self.sitemap_parser.parse())
+            if len(entries) < 100:
+                return abort(f"Incomplete sitemap snapshot ({len(entries)} article URLs; minimum 100). No changes applied.")
+            urls = [e.loc for e in entries]
+            ids = [str(e.article_id or "") for e in entries]
+            if any(not x for x in ids) or len(urls) != len(set(urls)) or len(ids) != len(set(ids)):
+                return abort("Sitemap contains missing or duplicate article URLs/IDs. No changes applied.")
+            previous = self._load_snapshot()
+            old_urls = set(previous.get("urls", []))
+            if old_urls and len(urls) < max(100, int(len(old_urls) * .90)):
+                return abort(f"Sitemap shrank from {len(old_urls)} to {len(urls)} URLs; refusing a potentially partial snapshot.")
+        except Exception as exc:
+            logger.exception("Sitemap snapshot failed")
+            return abort(f"Sitemap fetch/parse failed ({type(exc).__name__}: {exc}); no changes applied.")
 
-        except Exception as e:
-            msg = f"Sitemap fetch/parse failed: {e}. Aborting sync safely without deleting any data."
-            logger.critical(msg)
-            return SyncReport(
-                status="aborted",
-                timestamp=timestamp,
-                added_articles=[],
-                updated_articles=[],
-                removed_articles=[],
-                message=msg,
-            )
+        remote = {str(e.article_id): e for e in entries}
+        local = {str(a.article_id): a for a in self.crawler.load_all_saved_articles()}
+        additions = [key for key in remote if key not in local]
+        updates = [key for key in remote if key in local and remote[key].lastmod != local[key].lastmod
+                   and (remote[key].lastmod is not None or local[key].lastmod is not None)]
+        unchanged = len(remote) - len(additions) - len(updates)
+        work = additions + updates
+        if max_updates is not None:
+            work = work[:max_updates]
+        succeeded_add, succeeded_update, failed = [], [], []
+        for article_id in work:
+            entry = remote[article_id]
+            try:
+                article = self.crawler.crawl_article(entry)
+                if not article:
+                    raise RuntimeError("crawler returned no article")
+                chunks = self.chunker.chunk_article(article)
+                if not chunks:
+                    raise ValueError("replacement article yielded no indexable chunks")
+                # Commit replacement first; preserve old vectors on any crawl/chunk failure.
+                self.vector_store.add_chunks(chunks)
+                current = self.vector_store.collection.get(where={"article_id": article_id}, include=[])
+                fresh = {c.chunk_id for c in chunks}
+                stale = [cid for cid in current.get("ids", []) if cid not in fresh]
+                if stale:
+                    self.vector_store.collection.delete(ids=stale)
+                (succeeded_add if article_id in additions else succeeded_update).append(article_id)
+            except Exception as exc:
+                failed.append(article_id)
+                logger.exception("Sync failed for article %s", article_id)
 
-        # Step 2: Index remote articles by ID
-        remote_map: Dict[str, SitemapEntry] = {}
-        for entry in remote_articles:
-            if entry.article_id:
-                remote_map[entry.article_id] = entry
+        incomplete = len(work) < len(additions) + len(updates) or bool(failed)
+        if incomplete:
+            return SyncReport("partial", stamp, succeeded_add, succeeded_update, [],
+                              "Snapshot changes were processed partially; deletion snapshot was not advanced.",
+                              unchanged, failed)
 
-        # Step 3: Load existing local inventory
-        local_articles_list = self.crawler.load_all_saved_articles()
-        local_map = {art.article_id: art for art in local_articles_list}
-        logger.info(
-            f"Daily Sync: {len(remote_map)} articles in sitemap, {len(local_map)} local articles currently saved."
-        )
-
-        added: List[str] = []
-        updated: List[str] = []
-        removed: List[str] = []
-
-        # Step 4: Detect Added and Updated
-        for art_id, remote_entry in remote_map.items():
-            if art_id not in local_map:
-                added.append(art_id)
-            else:
-                local_art = local_map[art_id]
-                # Compare lastmod
-                if remote_entry.lastmod and local_art.lastmod and remote_entry.lastmod != local_art.lastmod:
-                    updated.append(art_id)
-
-        # Step 5: Detect Removed (Local exists, but no longer present in remote sitemap)
-        for art_id in local_map:
-            if art_id not in remote_map:
-                removed.append(art_id)
-
-        logger.info(
-            f"Daily Sync Diff: {len(added)} new, {len(updated)} updated, {len(removed)} removed."
-        )
-
-        # Step 6: Process Removed articles (Safely remove from ChromaDB and disk)
-        for art_id in removed:
-            self.vector_store.delete_article(art_id)
-            art_file = self.crawler.articles_dir / f"{art_id}.json"
-            if art_file.exists():
-                art_file.unlink()
-            logger.info(f"Removed article {art_id} from ChromaDB and local disk.")
-
-        # Step 7: Process Updated articles (Delete old chunks first, then re-index)
-        processed_updates = updated[:max_updates] if max_updates else updated
-        for art_id in processed_updates:
-            entry = remote_map[art_id]
-            # 1. Delete old chunks from ChromaDB
-            self.vector_store.delete_article(art_id)
-            # 2. Re-crawl
-            new_art = self.crawler.crawl_article(entry)
-            if new_art:
-                # 3. Re-chunk and re-index
-                new_chunks = self.chunker.chunk_article(new_art)
-                self.vector_store.add_chunks(new_chunks)
-                logger.info(f"Updated article {art_id} with {len(new_chunks)} fresh chunks.")
-
-        # Step 8: Process New articles
-        processed_added = added[:max_updates] if max_updates else added
-        for art_id in processed_added:
-            entry = remote_map[art_id]
-            new_art = self.crawler.crawl_article(entry)
-            if new_art:
-                new_chunks = self.chunker.chunk_article(new_art)
-                self.vector_store.add_chunks(new_chunks)
-                logger.info(f"Added new article {art_id} with {len(new_chunks)} chunks.")
-
-        report = SyncReport(
-            status="success",
-            timestamp=timestamp,
-            added_articles=processed_added,
-            updated_articles=processed_updates,
-            removed_articles=removed,
-            message=(
-                f"Sync complete. Added {len(processed_added)}, "
-                f"updated {len(processed_updates)}, removed {len(removed)}."
-            ),
-        )
-        return report
+        today = datetime.now().astimezone().date().isoformat()
+        old_ids = {str(Path(u).name) for u in previous.get("urls", [])}
+        old_ids = {x.split("-", 1)[0] for x in old_ids}
+        present_ids = set(remote)
+        missing = dict(previous.get("missing", {}))
+        # Count at most one complete observation per local day.
+        if previous.get("observed_on") != today:
+            for article_id in (old_ids | set(missing)) - present_ids:
+                missing[article_id] = int(missing.get(article_id, 0)) + 1
+            for article_id in present_ids:
+                missing.pop(article_id, None)
+        removed = []
+        for article_id, misses in list(missing.items()):
+            if misses >= 2:
+                # Collection deletion uses metadata filter; preserve source files if DB deletion fails.
+                self.vector_store.collection.delete(where={"article_id": article_id})
+                file_path = self.crawler.articles_dir / f"{article_id}.json"
+                if file_path.exists():
+                    file_path.unlink()
+                removed.append(article_id)
+                del missing[article_id]
+        self._save_snapshot({"urls": urls, "missing": missing, "observed_on": today, "updated_at": stamp})
+        return SyncReport("success", stamp, succeeded_add, succeeded_update, removed,
+                          f"Sync complete: added {len(succeeded_add)}, updated {len(succeeded_update)}, unchanged {unchanged}, removed {len(removed)}, failed 0.",
+                          unchanged, [])

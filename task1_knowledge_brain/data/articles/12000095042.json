@@ -1,0 +1,27 @@
+{
+  "article_id": "12000095042",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095042-07-21-2023-software-updates",
+  "title": "07/21/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/21/2023 - Software Updates"
+  ],
+  "content": "## 07/21/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095042\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The Actions dropdown on the Billing page in the Member Dashboard is now hidden when the Downloadable PDF Invoices Add-On is not active on the site.\n\n- We added additional checks to the workflow of members purchasing leads to prevent a member from purchasing the same lead twice in rare cases. Widget Involved: Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- We fixed an issue which was preventing members from updating their posts from the Member Dashboard when the auto expire post workaround was implemented for a Post Type in some cases.\n\n- We fixed an issue with the Media Manager which was preventing the system from loading file thumbnails properly after using the \"Load More\" button.\n\n- We added the ability to support periods in the Post Categories field when editing Post Type settings in the Admin.\n\n- We added the ability to fetch all member and post images at once using the \"Member Images\" import tool in the Admin.\n\n- We created a new Advanced Setting called \"Prompt visitors to share their location automatically on page load?\"  When enabled, the system will prompt all visitors to share their location as soon as they visit the website rather than after clicking on the icon in location search fields. The \"Detect Visitor Locations\" Add-On is required for this setting. Widgets Involved: Bootstrap Theme - Footer - Scripts - Input Clear Content Scripts Bootstrap Theme - Function - Google Location Suggest\n\n- We created a new Advanced Setting called \"Member Verify URL\".  This new setting allows the Member Dashboard URL used in the member verification process to be editable. By default this URL is \"promote/verify\". Widgets Involved: Bootstrap Theme - Account - Member Dashboard Bootstrap Theme - Account - Sidebar\n\n- We implemented a performance update in order to prevent the system from loading the fancybox scripts multiple times on the Member Reviews search results page. Widget Involved: Bootstrap Theme - Account - Reviews Details Page Post Type Involved: Reviews\n\n- We implemented an update in order to hide the \"expand accordion\" arrows on the /categories page on the frontend of sites if the parent category does not have any child categories to display. Widget Involved: Bootstrap Theme - Category Groups - Member Categories\n\n- We implemented a performance update in order to reduce the load time when visiting the Admin Dashboard and Search Members pages in the Admin.\n\n- We updated the \"Member Signup Page URL\" Membership Plan setting validation to make sure that an existing signup page URL can't be saved in the field.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095042",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095042"
+    },
+    {
+      "text": "auto expire post",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000089516"
+    }
+  ],
+  "lastmod": "2023-07-25T00:52:11+05:30",
+  "scraped_at": "2026-10-18T13:52:30.915832"
+}

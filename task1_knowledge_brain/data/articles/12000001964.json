@@ -1,0 +1,121 @@
+{
+  "article_id": "12000001964",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001964-how-to-post-a-video",
+  "title": "How to Post a Video",
+  "category": "My Content",
+  "folder": "Manage Posts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Manage Posts",
+    "How to Post a Video"
+  ],
+  "content": "## How to Post a Video\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000001964\n\nTo post a video, access the Member Dashboard and locate the Videos post type in the left sidebar or Videos under Publish Content . Click the option available to add a new post.\n\nIMPORTANT: If the Videos option is not visible in the member dashboard, the post type must be enabled for the specific membership plan under the post publishing tab: Finance » Membership Plans - Post Publishing\n\n\n## Form Fields\n\n\nContent can be added to the post including a title, description, and link, as detailed below:\n\n- Publish Status: Publish content to the site or save it as a draft.\n\n- Video Title: Enter the title of the video.\n\n- Category: Select the appropriate category for the video.\n\n- Image: Upload an image to represent the video. If the site has the Stock Photo Library add-on it will appear under the Upload Image button.\n\n- Video Link: Provide the video URL. (YouTube + YouTube Shorts, Vimeo, Dailymotion, Rumble, TikTok, TedTalk, and Wistia links are natively supported).\n\n- Keywords: Enter relevant keywords separated by commas.\n\n- Description: Provide a brief description of the video content.\n\n\n## Video Link Requirements\n\n\n\n### Using the Share Link\n\n\nWhen providing the video link, ensure the Share link is used rather than the browser URL:\n\nClick Copy to obtain the correct link. If the link is copied directly from the browser, the thumbnail may not generate properly, resulting in a missing image in the Video Streaming Widget or the /videos search results page.\n\n\n### Rumble Videos\n\n\nFor videos hosted on Rumble, utilize the link provided in the Embed IFRAME URL field:\n\n\n## Managing Saved Video Posts\n\n\nOnce the videos are added, the user will see the videos, actions and statistics (this option appears if site has the Member Profile Analytics Add-on).\n\n- Once created, the post will display its current Status : Published, Draft, or Expired .\n\n- The number of views and bookmarks will be visible if the corresponding add-ons are active on the site.\n\n- Create a new video + New Video .\n\n- Click on the Actions button to View, Edit, Clone or Delete. Member Dashboard Features\n\nThe following options are available within the management section of the dashboard:\n\n- Entries per Page : A dropdown to select the number of visible entries (5, 10, 25, or 50).\n\n- Sorting Options : Sort posts by Newest, Oldest, Updated (First/Last), or Start Date (First/Last).\n\n- Status Filter : Filter results by Published, Draft, or Expired status.\n\n- Keyword Filter : Displays video posts containing the specified keyword.\n\n\n## Public Video Search Page\n\n\nEach post type has a designated search results page accessible on the front end:\n\nExample URL: http://example.com/videos\n\nNote : To enable this post type for a specific membership plan, visit Finance » Membership Plans - Post Publishing .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174275700/original/LEcUKCbXZ9TcRZcVZmRqCOTBXgg57HCotQ.png?1770300608",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174275846/original/5hkGVedBVeqeJi9kcj9XT_NjNYWQJakKWA.png?1770300784",
+      "alt": null,
+      "caption": "Context: Video Link Requirements",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'. Context: Context: Video Link Requirements",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148045805/original/wgZS6KLBGiHsFzI5RJFqowBZcxgjC8da8w.png?1723852554",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148045810/original/tSR2Gae-2DI7DIDzlyyoT3ygLPqysowCbQ.png?1723852587",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12147266159/original/x1tID6gs3JNS0SDMF3Fh3s0F9y8LcmuYrQ.png?1722527644",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174276850/original/ruBW4z9D9mVdKkthE4v6Krh_K1ka0SkDOw.png?1770301427",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174277042/original/snz554H2-4hkkVC8KM8UcJhQcLTVddiaHA.png?1770301508",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174277224/original/4F_So6U47oFVb_1C6cPQtZytY3aGs8MQyA.png?1770301698",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174277337/original/mFV7AhxBSDEUeS4kpNswLb4mKuzlOrZG_Q.png?1770301820",
+      "alt": null,
+      "caption": "Note: To enable this post type for a specific membership plan, visitFinance » Membership Plans - Post Publishing.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Post a Video' in section 'My Content' / 'Manage Posts'. Context: Note: To enable this post type for a specific membership plan, visitFinance » Membership Plans - Post Publishing.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000001964",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001964"
+    },
+    {
+      "text": "Finance » Membership Plans - Post Publishing",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000048893"
+    },
+    {
+      "text": "Stock Photo Library",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096709"
+    },
+    {
+      "text": "Member Profile Analytics",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000619186"
+    },
+    {
+      "text": "Finance » Membership Plans - Post Publishing",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000048893"
+    }
+  ],
+  "lastmod": "2026-04-14T21:47:32+05:30",
+  "scraped_at": "2026-10-18T13:39:30.169029"
+}

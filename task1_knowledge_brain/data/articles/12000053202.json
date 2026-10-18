@@ -1,0 +1,234 @@
+{
+  "article_id": "12000053202",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053202-content-edit-post-settings",
+  "title": "Content » Edit Post Settings",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "Content » Edit Post Settings"
+  ],
+  "content": "## Content » Edit Post Settings\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000053202\n\nThe Edit Post Settings folder is where post types can be edited, deleted, and cloned.\n\nThere are 13 default post types included with the website:\n\n- Community Article\n\n- Website Blog Article\n\n- Video\n\n- Property\n\n- Product\n\n- Photo Album\n\n- Job Listing\n\n- Event\n\n- Coupon\n\n- Classified\n\n- Soundcloud\n\n- Member Listings\n\n- Discussions\n\nThe main Edit Post Settings page features four clickable elements:\n\n1. Preview: Redirects to the post search results page.\n\n2. Number of created posts: Redirects to the Manage Posts section for the specific post type. Refer to this article for more information: Content » Manage Post\n\n3. URL Permalink: Redirects to the post search results page.\n\n4. Form to Use: Opens the specific form associated with the post type for editing. To learn more about the Form Manager, click the following article: Toolbox » Form Manager\n\nUpon clicking \"Edit\" for a post type, four tabs are available with distinct settings: General Settings, Profile Page Design, Search Results Design, and Detail Page Design.\n\n\n## General Settings Tab\n\n\nThe general settings for the post type are as follows:\n\n\n### 1. Protect this Post Type?\n\n\nThis option is only available if the Members-Only Content add-on is active on the site.\n\n\n### 2. URL Permalink\n\n\nUpdates the URL of the post type search results. Refer to this article for details on How To Change The Name, Title & URL Of A Post Type .\n\n\n### 3. Post Sidebar Icon\n\n\nSelects the icon used to represent this post type in the member dashboard sidebar menu.\n\n\n### 4. Select Form to Use\n\n\nDetermines the form used when publishing a post. Click the hyperlink to access and edit the form.\n\n\n### 5. Post Categories\n\n\nCertain post types, such as properties, coupons, and events, include pre-set categories. Refer to this article for more details on How To Add Or Edit Categories For Post Types (Events, Coupons, Properties, Etc) .\n\n\n### 6. Additional Settings\n\n\nSettings vary by post type. The following are available for the \"Classifieds\" post type:\n\n\n### 7. Post Approval\n\n\nRequires the Advanced Post Moderation add-on. Note that \"Post Publishing\" settings within each Membership Plan will override the selected option.\n\n\n### 8. Price Slider Min + Max Value\n\n\nCertain post types, such as Classifieds, include sliders in search widgets to allow price range selection. Refer to this link to learn how to Edit The Min & Max Value of Price Sliders .\n\n\n### 9. Enable Price Slider\n\n\nActivates the price slider for relevant post types.\n\n\n### 10. Enable Photo Gallery Videos\n\n\nEnables video integration for multi-photo albums. Refer to the following article for more information: How to Add Videos to Multi-Photo Post Types .\n\n\n### 11. Display Map When Entering Location Information?\n\n\nThis setting controls the display of the map. Helpful information can be found in this article: Google Maps: Reducing Usage and Costs .\n\n\n### 12. Enable Results for Global Website Search\n\n\nRequires the Global Website Search add-on.\n\n\n### 13. Trigger Webhook for Initial Save or Every Save?\n\n\nDetermines when a Webhook is triggered upon post creation by a member.\n\n\n## Profile Page Design Tab\n\n\nUse this tab to configure how posts are displayed on public member profiles.\n\n\n### 1. Profile Page Tab Title\n\n\nModifies the title displayed on the front-end tab.\n\n\n### 2. Profile Page Tab Order\n\n\nSets the position of the profile page tab via the dropdown menu. Each position displays the name of the assigned post type. Available positions are those with no assigned post type.\n\n\n### 3. Number of Posts Displayed in Tab\n\n\nSets the quantity of posts to be displayed. Information is displayed on the live member profile as follows:\n\n\n### 4. Profile Page Code\n\n\nThe header, page loop, and footer codes for the Profile Page design can be modified. However, changes are only recommended for developers or individuals with web development expertise. Codes can be restored to default if necessary. Refer to this article for further information: How to Customize the Default Post Types Code .\n\n\n## Search Results Design Tab\n\n\nConfigure search results settings for a specific post type within this section.\n\n\n### 1. Search Results Page Title - H1\n\n\nEdits the text for the post type title.\n\n\n### 2. Search Results Page Sub-Title - H2\n\n\nAdds an optional subtitle.\n\n\n### 3. Search Results per Page\n\n\nControls the default number of results appearing on a search results page.\n\n\n### 4. Search Results Code\n\n\nAllows for editing the header, loop, and footer codes of the search results design. Refer to this article for more information: How to Customize the Default Post Types Code .\n\n\n### 5. Additional settings\n\n\nVarious options are available within the dropdown menu for further customization:\n\n\n### 6. Post Keyword Search Options\n\n\nAdvanced settings to control keyword search functionality. The \"Search Default Fields\" option also includes post description fields. Refer to this article regarding the Expanded Keyword Search add-on.\n\n\n### 7. Pagination Display Options\n\n\nSelects the pagination style for search results: standard, hidden, or Insta-Load pagination (requires add-on).\n\n\n### 8. Order Results By\n\n\nControls the display order of items based on a specific database field. Further information is available here: How To Change Search Results Sorting Options .\n\n\n### 9. Enable Search Results Cache\n\n\nSetting this to YES (recommended) caches search results to improve load times for subsequent matching searches. Setting this to NO ensures the database is queried for every search. Note: This cannot be enabled if \"Order Results By\" is set to \"Random.\"\n\n\n### 10. Respect Membership Plan Search Priority?\n\n\nMembership Plan Search Results Priority is configured within the Search Visibility tab of each plan.\n\n\n### 11. Sidebar To Use\n\n\nSpecifies the sidebar (custom or default) to be displayed on search results pages.\n\n\n### 12. Sidebar Search Module\n\n\nSelects the search widget to display in the search results sidebar. This requires the sidebar in the Sidebar Manager to utilize the Bootstrap Theme - Search Module - Dynamic Sidebar Search widget. This widget loads the search module specified for each post type.\n\n\n### 13. Sidebar Position on Mobile Device\n\n\nDetermines the sidebar's position on mobile devices (phones and tablets): Bottom (below results), Top (above results), or Hidden.\n\n\n### 14. Enable Search Results Photo Album Slider\n\n\nIf set to YES, search results for this feature will include a carousel displaying post photos.\n\n\n### 15. Display Google Map Option on Search Results Pages\n\n\nSelecting \"Yes\" displays a map icon at the top of search results pages. Clicking this icon displays results as pins on a Google Map.\n\n\n### 16. Custom Search Engine Widget Name\n\n\nAdds a widget to utilize a custom search engine.\n\n\n### 17. Start Results View In\n\n\nSelect list view, map view, or grid view (requires the Grid View Search Results add-on).\n\n\n### 1 8. Display Expired Posts in Search Results\n\n\nIf set to YES, expired posts will be displayed on search results pages.\n\n\n## Detail Page Design Tab\n\n\nThis section allows for the configuration of various settings for the post detail page.\n\n\n### 1. Detail Page Code\n\n\nAdditional custom codes can be added to this field. Code modification is not recommended unless a developer is managing the site. Refer to this article for more information: How to Customize the Default Post Types Code .\n\n\n### 2. Allow Live Links In The Post Body\n\n\nIf set to ON, members are permitted to include links within the post body. This can be toggled for each post type.\n\n\n### 3. Sidebar to Use\n\n\nSpecifies the sidebar to be displayed on search results pages.\n\n\n### 4. Insert Additional Code for Embeds, Schema Markup, etc. (will render directly after page template code)\n\n\nAny additional code required for the comments section should be pasted here.\n\n\n## Additional Actions\n\n\nHover over specific items to reveal further actions:\n\n\n### 1. Clone\n\n\nSelecting this option creates a duplicate of the post type. In the example below, the Discussion post type has been cloned.\n\n\n### 2. Copy RSS Link\n\n\nThis option is only visible if the RSS Feed for Posts add-on is active.\n\n\n### 3. Delete\n\n\nPrior to deleting a post type that contains existing posts, an option to transfer those posts to another post type will be presented.\n\nOnce the destination post type is selected, all posts will be transferred.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273228/original/o6_2ziNWR3CAn3B7vqh87WqNMtAsoIE_vg.png?1770297700",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273283/original/CVZ55sO2fVdlVTV7C2ZRi2JCx8MBKhUb0w.png?1770297781",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273368/original/0qT1OZ6DOciDPAYwUZK7txPUqjPfUkiJxw.png?1770297892",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273488/original/ddMxPuuNHYhkJWA3LqM3lI2CDksNmmpT2Q.png?1770298015",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273530/original/9-7A6PezU2zzKquHdQWXFXtduqsx8Xbe6Q.png?1770298060",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12079931256/original/-pVuA3aTdr9CA71Bzj_6VwMzgj24rdaGmQ.png?1594730238",
+      "alt": null,
+      "caption": "Sets the quantity of posts to be displayed.Information is displayed on the live member profile as follows:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'. Context: Sets the quantity of posts to be displayed.Information is displayed on the live member profile as follows:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273590/original/CTHd994UP96m29uni9L2qMFthMKbwJBs3A.png?1770298131",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273876/original/_4jiBSmpYQbt8n44_df7T68j9EPtUIbqHQ.png?1770298483",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12145946432/original/XJBaNIurH2hvkRdCFfOfGYKd0fRYLEXNQA.png?1720371138",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273947/original/ZoIJyRp9hHIp_CX9ReFZwMwFmZq2bhIF3Q.png?1770298583",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174273997/original/ig4U3m-cvjXs5L3V8njyjKaTQt3YS1mj6g.png?1770298661",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174274034/original/RI0fGWi7lcT4GDHvsXKZvcbaXeZ-kAScug.png?1770298721",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174274055/original/HgMVMhKkPaeCCZhHx7wfiXjKSh4yFPG8gQ.png?1770298759",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12174274080/original/D9govfpUltkXxSqTBzUEc6_j9IA6zMBrSQ.png?1770298821",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Edit Post Settings' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000053202",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000053202"
+    },
+    {
+      "text": "Content » Manage Post",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000035550"
+    },
+    {
+      "text": "Toolbox » Form Manager",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000046441"
+    },
+    {
+      "text": "Members-Only Content",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/5000682638"
+    },
+    {
+      "text": "How To Change The Name, Title & URL Of A Post Type",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028489"
+    },
+    {
+      "text": "How To Add Or Edit Categories For Post Types (Events, Coupons, Properties, Etc)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001792"
+    },
+    {
+      "text": "Advanced Post Moderation",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000062070"
+    },
+    {
+      "text": "Edit The Min & Max Value of Price Sliders",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032539"
+    },
+    {
+      "text": "How to Add Videos to Multi-Photo Post Types",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000077558"
+    },
+    {
+      "text": "Google Maps: Reducing Usage and Costs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069934"
+    },
+    {
+      "text": "Global Website Search",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000073931"
+    },
+    {
+      "text": "Webhook",
+      "url": "https://bootstrap.brilliantdirectories.com/a/solutions/articles/12000083005"
+    },
+    {
+      "text": "How to Customize the Default Post Types Code",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000080220"
+    },
+    {
+      "text": "How to Customize the Default Post Types Code",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000080220"
+    },
+    {
+      "text": "Expanded Keyword Search",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000034876"
+    },
+    {
+      "text": "Insta-Load pagination",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000035436"
+    },
+    {
+      "text": "How To Change Search Results Sorting Options",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000024824"
+    },
+    {
+      "text": "Search Visibility",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000049274"
+    },
+    {
+      "text": "Sidebar Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000673365"
+    },
+    {
+      "text": "Grid View Search Results",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000052777"
+    },
+    {
+      "text": "How to Customize the Default Post Types Code",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000080220"
+    },
+    {
+      "text": "RSS Feed for Posts",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000051938"
+    }
+  ],
+  "lastmod": "2026-02-05T19:21:39+05:30",
+  "scraped_at": "2026-10-18T13:44:23.916684"
+}

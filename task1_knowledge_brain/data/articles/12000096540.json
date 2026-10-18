@@ -1,0 +1,23 @@
+{
+  "article_id": "12000096540",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096540-10-27-2023-software-updates",
+  "title": "10/27/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/27/2023 - Software Updates"
+  ],
+  "content": "## 10/27/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096540\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Search Members page in the Admin from returning accurate results after conducting a search with the location filter in some cases.\n\n- We fixed an issue which was preventing the \"Outer Element ID\" form field setting from working properly for Froala WYSIWYG fields on the frontend of sites.\n\n- We updated the Featured Members Homepage widget in order to display in a more uniform format when displaying the name of the site members.\n\n- We added the ability to support the \"ICO\" file extension for the Favicon file upload field on the General Settings page in the Admin. We also added the ability to display the MIMETYPE information for the favicon element on the frontend. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the Articles and Blog Article Markup Schema from displaying the correct \"modified\" date in some cases. Widgets Involved: Bootstrap Theme - Detail Page - Schema Markup - Community Article Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article\n\n- The<body> element on the frontend of sites will now have a different class added to it depending on whether or not the user viewing the page is logged in as a member.  This allows the owner of a site to more easily target elements on a page based on whether or not the user is logged in to an account.\n\n- We updated the Digital Product Invoices in order to include the Post Type name as part of the invoice item description.\n\n- We fixed an issue which was affecting the ability to export data from the Transaction History page in the Admin in some cases.\n\n- We fixed an issue with the Lead System which was preventing leads from being marked as \"Sold Out\" after reaching the Maximum Accepted Matches set in the Lead Settings.\n\n- We updated the Froala WYSIWYG code to the latest version currently available (4.1.3).\n\n- We added the ability to create a Custom Webhook endpoint for each Smart List on the Webhooks page in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096540",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096540"
+    }
+  ],
+  "lastmod": "2023-10-30T23:53:22+05:30",
+  "scraped_at": "2026-10-18T13:53:01.880235"
+}

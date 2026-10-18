@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091553",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091553-01-06-23-software-updates",
+  "title": "01/06/23 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/06/23 - Software Updates"
+  ],
+  "content": "## 01/06/23 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091553\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Detect Visitor Location button on the location fields from working properly in some cases. Widgets Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We added the ability to sort the subscriptions by ID and implemented some minor fixes to the Search Subscriptions page in the Admin.\n\n- We fixed an issue which was preventing the system from saving a static page after the Page Type has been set as \"Custom Widget as a Web Page\" in some cases.\n\n- We fixed an issue with the 301 Redirect Import logic which was causing imported 301 redirects to not work as expected in some cases.\n\n- We fixed an issue with the \"Post URL Structure\" Advanced Setting which was preventing the system from including the member's name as part of the URL when the member's name contained an apostrophe.\n\n- We added additional security when member credit card information is saved from the Member Dashboard.\n\n- We added the ability to upload GIF files to the Froala WYSIGYG editors on the frontend and in the Admin. Widget Involved: Bootstrap Theme - Form - Froala Editor Actions\n\n- We implemented several security updates across the platform.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091553",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091553"
+    }
+  ],
+  "lastmod": "2023-01-10T03:19:14+05:30",
+  "scraped_at": "2026-10-18T13:50:37.188336"
+}

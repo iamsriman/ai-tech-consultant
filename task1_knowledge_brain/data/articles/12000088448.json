@@ -1,0 +1,23 @@
+{
+  "article_id": "12000088448",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088448-07-08-22-software-updates",
+  "title": "07/08/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/08/22 - Software Updates"
+  ],
+  "content": "## 07/08/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088448\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the workflow when creating Multi-Photo Posts from the Member Dashboard to always refresh the page after an image has been uploaded, even if the button in the modal is not clicked. Widgets Involved: Bootstrap Theme - Account - Photo Albums Upload Bootstrap Theme - Account - Photo Albums Upload Form\n\n- We updated the layout of the Member Leads page in the Admin to hide the lead status and lead category filters with a toggle when there are pending leads. This will enhance the UI of this page when viewed on smaller screens.\n\n- We fixed an issue which was affecting the ability to import members via CSV file when each member in the file contained a large amount of data in some cases.\n\n- We added the ability to send data from a Smart List to a Webhook endpoint. To use this new feature, navigate to the Admin >> My Members >> Smart Lists >> Actions >> Send to Webhook.\n\n- We fixed an issue which was affecting the ability to open the HTACCESS File page in the Admin in some cases.\n\n- Paying an invoice from the Member Dashboard will now trigger the Paid Plan Signup Webhook.\n\n- We fixed an issue with Member Review submissions which was causing the system to send the recommendation-member email template when a user submits a review, even if the \"Require All Reviews To be Approved by Admin First\" Membership Plan setting was active. Widget Involved: Account - Save Actions\n\n- We fixed an issue which was affecting the display of the /categories page after entering and then deleting a keyword from the search filter on the page in some cases. Widget Involved: Bootstrap Theme - Category Groups - Member Categories\n\n- We updated the Member Review Submitted and Lead Submitted Webhooks to include the member_first_name, member_last_name, member_email, member_company_name, member_phone_number, sms_member_phone, sms_member_phone_plus, review_id, lead_id, lead_match_id variables when sending data to the Webhook. Widgets Involved: Account - Save Actions System - SaveForm\n\n- We updated the Social Share widget to load the social share buttons after the page loads. This will help to improve page load times and scores from 3rd party tools. Widget Involved: Bootstrap Theme - Module - Social Share",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088448",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088448"
+    }
+  ],
+  "lastmod": "2023-04-20T01:10:47+05:30",
+  "scraped_at": "2026-10-18T13:49:57.862557"
+}

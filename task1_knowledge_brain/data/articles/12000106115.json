@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106115",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106115-09-19-2025-software-updates",
+  "title": "09/19/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/19/2025 - Software Updates"
+  ],
+  "content": "## 09/19/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106115\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Improved overall website performance scores on third-party tools such as PageSpeed Insights. Widgets Involved: Bootstrap Theme - Form - Display Rating Options Bootstrap Theme - Header - Main Menu Bootstrap Theme - HEAD\n\n- Updated the validation message displayed when uploading files via a File Upload Field added to forms in the Form Manager.\n\n- Updated the Stock Photo Library Add-On to only load JS files when requested. Widget Involved: Form - Froala Editor Javascript\n\n- Added a new set of classes to the phone number and member website link sections on member profile pages, making it easier to target specific elements with CSS. New classes: table-display-phone, table-display-website, table-display-social-links. Widgets Involved: Bootstrap Theme - Member Profile - Display Phone Number Bootstrap Theme - Member Profile - Display Website Links\n\n- Fixed an issue that prevented the Billing - Checkout SEO Template from being saved when the \"Default Member Signup URL\" Advanced Setting was customized.\n\n- Importing members via the Business Data Importer tool will now trigger the \"Members Imported / Added / Updated / Deleted Via Admin\" webhook.\n\n- Fixed an issue that prevented the automated Billing Emails from being sent as expected in some cases.\n\n- Fixed an issue with the \"Joined Via\" filter used on the Search Members page in the Admin not returning the expected results in some cases.\n\n- Fixed an issue that prevented the system from recognizing the Post Image Title and Post Image Description variables when importing posts via CSV file in the Admin.\n\n- Updated the Post Publishing tab layout when editing Membership Plans in the Admin to include the \"Only assign to website admin\" warning for the Website Blog Articles post type.\n\n- Fixed an issue that prevented the \"Only Assign Credits when referred by another member\" setting from remaining checked after saving the Membership Plan settings in the Admin.\n\n- Fixed an issue that prevented the Private Chat Message Add-On from working properly when sending chat messages in the Member Dashboard if the \"Display Translation Tool\" Design Setting was activated in some cases. Widget Involved: Form - Froala Editor Javascript\n\n- Fixed an issue that prevented PDF file thumbnails from loading when using the \"Load More\" button on the Media Manager page on the Admin in some cases.\n\n- Fixed an issue that prevented the \"Confirm Link\" from working properly in the welcome-basic Email Template after successfully signing up as a member using the One-Click Facebook Social Login Add-On.\n\n- Updated the User Stats Email Template variables to display as expected in the email preview modal in the Admin.\n\n- Added a new \"User Clicks\" endpoint to the Brilliant Directories API.  Using this API endpoint, Admins can create, update, delete and read member statistics data.\n\n- Updated the UI of the Admin Dashboard page to add several new sections.\n\n- Fixed an issue that prevented the \"Post - Photo Album\" webhook from sending photo details after submitting the Upload Photos tab when editing Multi-Photo Posts in the Member Dashboard.\n\n- Added a new set of Webhook Actions: \"Post - Photo Album Deleted\" and \"Post - Standard Deleted.\" These webhooks are triggered after deleting posts in the Admin and Member Dashboard.\n\n- Improved how the Predictive Keyword Search Add-On returns results on the frontend. Widget Involved: Bootstrap Theme - Function - API",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106115",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106115"
+    }
+  ],
+  "lastmod": "2025-09-23T21:00:32+05:30",
+  "scraped_at": "2026-10-18T13:56:40.519697"
+}

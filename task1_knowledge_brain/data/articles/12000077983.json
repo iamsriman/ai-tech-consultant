@@ -1,0 +1,135 @@
+{
+  "article_id": "12000077983",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077983-edit-checkout-pages-add-edit-remove-input-fields",
+  "title": "Edit Checkout Pages: Add, Edit & Remove Input Fields",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Edit Checkout Pages: Add, Edit & Remove Input Fields"
+  ],
+  "content": "## Edit Checkout Pages: Add, Edit & Remove Input Fields\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000077983\n\n\n## Overview\n\n\nWe do not recommend removing default fields from checkout pages because it may cause issues with member sign-ups and payment gateway requirements.\n\nThe sign-up forms must first be customized before fields can be added or removed. Go to Toolbox » Form Manager.\n\nThe form that needs to be customized depends on the payment gateway used. These can be On-site (Integrated) and Off-site (Hosted) payment gateways. The article: Supported Payment Gateways will help to determine which payment gateway is being used. Review the \"Type of Gateway\".\n\n\n### Example\n\n\n\n## Forms to Edit Based on Gateway Type:\n\n\nIf the type of gateway is On-Site, edit the following forms:\n\n- signup_free\n\n- whmcs_signup_paid\n\nIf the type of gateway is Off-Site,  edit the following forms:\n\n- signup_free\n\n- whmcs_signup_external\n\nNote: We recommend hiding the field instead of removing it completely (Step 6 below).\n\nTo learn more about form fields, see this article: In-Depth Look Into Form Fields And Their Settings\n\n\n## Adding the \"First Name\" Field\n\n\nBy default, paid signups won't have a first name field. Members can add that information in the Contact Details form.\n\nHowever, if for some reason it needs to be added, then a new field can be created and must use the database variable \" member_first_name \", like the example below:\n\nNote: Do not use the variable \"first_name\" because it is already used in the 'Card Name' field and it will cause issues. The correct one to use is \"member_first_name\" .\n\nWhen the field is added, it will look like this:\n\nTo add the First Name on the Member - Sign Up - Free form, you can use first_name as used in the Listing - Contact Details - Member Form .\n\n\n## Saving Billing Address in Member Profiles\n\n\nThere is an advanced setting called \" save_user_data_billing_information \" that will allow to use the billing address information entered during the signup process as the member's profile address as well.\n\nThe only exception would be the missing first_name in paid signup forms.\n\nThis field can be added by following the instructions above: Adding the \"First Name\" field .\n\n\n## Editing the Countries\n\n\nCountries can be restricted on checkout pages\n\nIf the website will only be for people in the US, then enable the United States only as a \"Featured or Active Country\" and set all other countries to \"Not Active\". That will cause that only the United States will display as an option in the form:\n\nRelated Articles About the Country Field\n\n- Adding/Removing Countries from the Dropdown List\n\n- How to Translate Country Names\n\n\n## How to Include a Free Trial Period\n\n\nThis is an add-on that can be purchased directly on Brilliant Directories website .\n\nFind more information in this article: Free Trial Period Add-On\n\n\n## How to Enable Coupon/Promo Codes\n\n\nThis is an add-on that can be purchased directly on Brilliant Directories website.\n\nFind more information on this article: How To Set up Coupon Codes (Promo Codes)\n\n\n## More About Editing Sign Up Pages\n\n\n- Overview Article\n\n- How to Edit Titles, Text & Language On Sign Up Pages\n\n- How To Add a Sidebar to Sign Up Pages",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089144170/original/sYEbnE8pZMQnEy3yxnSm_uaeodLJSxU-6A.png?1614036860",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Add, Edit & Remove Input Fields' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103463911/original/TWKwHIdEbQ9a5L8LIaijTKZCN_Oxz-9iFQ.png?1641907477",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Add, Edit & Remove Input Fields' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103464028/original/Es-94Pah0liECfq9vZvN8lQEjWG2HmbLBg.png?1641907601",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Add, Edit & Remove Input Fields' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12103464045/original/S6op7CxdkIdjJrfKz80-tBAdLbs5u1XeUQ.png?1641907637",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Add, Edit & Remove Input Fields' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089144194/original/nZpmB24JhBVkSrJGKTm0kN7AJwFaE1H_Dg.png?1614036907",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Add, Edit & Remove Input Fields' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089776987/original/ldRrf_8jPC23P87JWIBYFv8PtpD3J4Z1rg.png?1615308541",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Add, Edit & Remove Input Fields' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089144192/original/ieBbdVAtmF2wfJLaFvWP-0IDFW3TyE_0rA.png?1614036906",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Checkout Pages: Add, Edit & Remove Input Fields' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000077983",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077983"
+    },
+    {
+      "text": "Supported Payment Gateways",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843"
+    },
+    {
+      "text": "In-Depth Look Into Form Fields And Their Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059251"
+    },
+    {
+      "text": "Adding/Removing Countries from the Dropdown List",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047893"
+    },
+    {
+      "text": "How to Translate Country Names",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000063347"
+    },
+    {
+      "text": "website",
+      "url": "https://www.brilliantdirectories.com/membership-free-trial-period"
+    },
+    {
+      "text": "Free Trial Period Add-On",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046572"
+    },
+    {
+      "text": "website.",
+      "url": "https://www.brilliantdirectories.com/easy-coupon-codes-add-on"
+    },
+    {
+      "text": "How To Set up Coupon Codes (Promo Codes)",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000032881"
+    },
+    {
+      "text": "Overview Article",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078267"
+    },
+    {
+      "text": "",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077984"
+    },
+    {
+      "text": "How to Edit Titles, Text & Language On Sign Up Pages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077984"
+    },
+    {
+      "text": "How To Add a Sidebar to Sign Up Pages",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000077982"
+    }
+  ],
+  "lastmod": "2026-06-10T02:40:35+05:30",
+  "scraped_at": "2026-10-18T13:47:53.622736"
+}

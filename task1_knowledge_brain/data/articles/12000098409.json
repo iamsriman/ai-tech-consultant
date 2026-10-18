@@ -1,0 +1,23 @@
+{
+  "article_id": "12000098409",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098409-02-09-2024-software-updates",
+  "title": "02/09/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/09/2024 - Software Updates"
+  ],
+  "content": "## 02/09/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098409\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the \"Select Services\" field from working properly when it is set to be \"required\", and the Top Category field is present in the same form. Widget Involved: Bootstrap Theme - Account - Select Categories\n\n- We improved the security of some Banner Ad widgets on the frontend of sites. Widget Involved: Bootstrap Theme - Banner - Responsive Size\n\n- We fixed an issue which was preventing the \"Qualifying Recipients\" on the Newsletter Summary modal in the Admin from displaying the correct number of recipients in some cases.\n\n- We deprecated the \"Create New Admin\" feature on the Admin Accounts page in the Admin. Moving forward Admin Accounts can be created and/or invited to a site by using the \"Invite Admin via Email\" option.\n\n- We fixed an issue which was preventing the Service Areas data of members from being sent to the Webhook endpoint when syncing a Smart List to a Webhook in some cases.\n\n- We fixed an issue with the Search Members page in the Admin which was preventing the system from returning results when performing a search that contained special characters in some cases.\n\n- We fixed an issue which was causing the system to delete the member's filename after updating the member via the API.\n\n- We updated the the Member Reviews overall rating average to round to the nearest tenth of a star. EG: 4.1 instead of 4. Widget Involved: Bootstrap Theme - Function - Overall Member Rating\n\n- We added the ability for members to use the Stock Photo Library Add-On to add an image to a member chat when the Private Member Chat Add-On is active on a site. Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue with the \"Sync Members with Google Maps\" functionality in the Admin when a Country, Latitude, and Longitude was the only data available for the member.\n\n- We optimized how data is logged for the \"Send Newsletter\" functionality to increase performance and reduce the resources required to store the data.\n\n- We fixed an issue which was preventing the system from sending the Profile Photo URL of a member when syncing a member Smart List to a Webhook.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098409",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098409"
+    }
+  ],
+  "lastmod": "2024-02-20T04:43:10+05:30",
+  "scraped_at": "2026-10-18T13:53:33.841523"
+}

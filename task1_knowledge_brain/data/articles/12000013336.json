@@ -1,0 +1,82 @@
+{
+  "article_id": "12000013336",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013336-member-signups-errors-and-notifications",
+  "title": "Member Signups - Errors and Notifications",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Member Signups - Errors and Notifications"
+  ],
+  "content": "## Member Signups - Errors and Notifications\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000013336\n\nThis article explains what the system does when a member tries to sign up for a Free or Paid Membership Plan but for various reason, the system does not allow listing creation..\n\n\n## Paid Membership Plans\n\n\nIf a person enters incorrect credit card information on the paid signup form, the payment will be rejected by the payment gateway and an error message displaying the payment gateway response will appear: The visitor will then have the opportunity to update their credit card information and try submitting the form again. In the past, the system created the member and the account was marked as past due. However, now, the member's account will not be created until the payment is completed. Admin Notifications The system will track the failed sign-ups in the Activity Tracker. 1. Find these and other billing-related log entries by navigating to Dashboard » Activity Tracker. 2. TThen go to the Filters section. 3. Filter the results by \" Finance \". 4. The category of these messages will be \" Failed Transaction \". 5. The description will show the signup details such as the name on the card, email, membership plan, billing cycle, and address. 6. The 'Failed Signup Reason' will appear at the bottom.. This is the most important part of the message because it shows the exact reason the payment failed. The system will also send an email notification of the failed sign-up to the Default Website Email: The system will only send these email notifications when there is a failed paid signup attempt.. If they tried to sign up for a free membership, then no notification will be sent. It is recommended to contact the member by email if the signup was unsuccessful.  This will give the admin an opportunity to offer assistance with the signup process. Note: The system does not consider blocked words added into the \"Block Spam Keywords\" add-on. This add-on only applies to free membership signup forms.. Free Membership Plans There are different reasons why a free member cannot sign up on the website. For example, if they enter a word added to the 'Block Spam Keywords' list: The system won't allow the member to create an account because the submission will be identified as spam: The error will be displayed in the Dashboard » Activity Tracker. In this case, the error was caused by a blocked spam word, so the exact word will be displayed in the description: There are other errors that may prevent account creation. So It is recommended to review the 'Failed Signup Reason' as it will explain the exact cause of the issue. For more information about the signup process from the member's perspective, please see this article: Member Signups from the Member's Perspective .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850268/original/fWAWAZmvIxOdhk5nxhvjP_qmdiR4bGIUmw.png?1615427485",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Signups - Errors and Notifications' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850360/original/zBrLc8wl5xFkV7T_B3ij3TR70DXzvT2wyQ.png?1615427761",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Signups - Errors and Notifications' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850387/original/rnmVMj6eohftZU3gTFWvHiOlKHE6QF4aag.png?1615427892",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Signups - Errors and Notifications' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12074698933/original/JmWEi1QhN_y9tiW0ba6KbG6gS3abXgfXEQ.png?1583254364",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Signups - Errors and Notifications' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850473/original/OEj7onealtFB2IF0gjnq5cnXH-vtt5n-nA.png?1615428214",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Signups - Errors and Notifications' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089850475/original/ktykbibzlbvVS0Pn1uPsuAlQkoiTOfznEQ.png?1615428268",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Signups - Errors and Notifications' in section 'Finance' / 'General Billing'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000013336",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013336"
+    },
+    {
+      "text": "Member Signups from the Member's Perspective",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673889"
+    }
+  ],
+  "lastmod": "2026-06-10T02:13:13+05:30",
+  "scraped_at": "2026-10-18T13:40:23.522385"
+}

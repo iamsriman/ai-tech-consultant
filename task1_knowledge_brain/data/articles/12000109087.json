@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109087",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109087-clean-erroneous-forms-data-dashboard-installer",
+  "title": "Clean Erroneous Forms Data - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Clean Erroneous Forms Data - Dashboard Installer"
+  ],
+  "content": "## Clean Erroneous Forms Data - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109087\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Clean Erroneous Forms Data Does\n\n\nThis installer removes a placeholder email address that ships as the default recipient on some forms. When a new site is set up, certain forms are created with a stock recipient address, and if that address is still in place, real inquiries would be sent to it instead of to the site's own configured recipients.\n\nSpecifically, it looks at the forms table for any form whose form_email_recipient column equals seogeeks01@gmail.com and clears that field, setting form_email_recipient to an empty value. It does not delete the forms and does not change any recipient address already set on the site; it only clears the built-in placeholder address.\n\n\n## Why It Appears\n\n\nThe installer counts the rows in the forms table where form_email_recipient is seogeeks01@gmail.com . If one or more forms still carry that placeholder, the installer is offered. If none do, it reports that the site's forms are up to date and does not appear.\n\n\n## Why It Matters\n\n\nLeaving the placeholder recipient in place means form submissions could be routed to an address that is not the site's own. Clearing it ensures those forms are set to deliver live inquiries and contact information to the site's own configured recipients rather than the stock address.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If any form still has the placeholder recipient, Clean Erroneous Forms Data appears in the list. Click Install .\n\n- After it completes, click Check For Updates again to confirm the entry is gone.\n\n\n## After Running\n\n\nThe placeholder address is cleared from the affected forms. Review those forms and set the site's own recipient address where needed so inquiries reach the right inbox. Because the installer re-checks for the placeholder every time it runs, it is safe to run again; if no form still carries it, there is nothing to change.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109087",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109087"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:21+05:30",
+  "scraped_at": "2026-10-18T13:59:37.255590"
+}

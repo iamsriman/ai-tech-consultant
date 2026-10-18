@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101866",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101866-10-11-2024-software-updates",
+  "title": "10/11/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/11/2024 - Software Updates"
+  ],
+  "content": "## 10/11/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101866\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was affecting the ability to use emojis in Email Templates sent from the Admin in some cases.\n\n- We fixed an issue that was affecting the ability to sort members by most revenue or most credits on the Search Members page in the Admin.\n\n- We created a new Advanced Setting called \"Member Dashboard URL: Changelisting\". This setting can be used to customize the default \"Manage Account\" page URL in the Member Dashboard. Widgets Involved: Bootstrap Theme - Account - Menu Tabs Bootstrap Theme - Account - Sidebar\n\n- We created a new Advanced Setting called \"Member Dashboard URL: Billing\". This setting can be used to customize the default \"Billing Information\" page URL in the Member Dashboard. Widgets Involved: Bootstrap Theme - Account - Menu Tabs Bootstrap Theme - Account - Sidebar\n\n- We created a new Advanced Setting called \"Member Dashboard URL: Password\". This setting can be used to customize the default \"Change Member Password\" page URL in the Member Dashboard. Widgets Involved: Bootstrap Theme - Account - Menu Tabs Bootstrap Theme - Account - Sidebar\n\n- Values saved in Select Dropdown, Radio and Checkbox form fields are now displaying correctly when referenced in the Email Template sent after a user submits a Newsletter Signup form on a site. Widget Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- We added Indonesian as a Default Website Language.\n\n- We fixed an issue that was preventing the Pay Per Post Add-On from working properly when the \"Post Approval\" Post Type Setting is set as \"Admin Moderate All Post\" in some cases.\n\n- We fixed an issue which was affecting the \"Featured\" posts filter on the Manage Posts page in the Admin.\n\n- We improved the File Upload Field validation code used in forms on the frontend of sites.\n\n- We fixed an issue that was preventing the Homepage Property Search form from displaying the correct custom \"Property Status\" options in some cases. Widget Involved: Bootstrap Theme - Homepage Search - Property Search\n\n- We improved the loading speed and UI of the Business Data page in the Admin.\n\n- We fixed an issues that was causing multiple copies of the same email notification to be sent to the Admin email address when a lead was matched to a member.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101866",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101866"
+    }
+  ],
+  "lastmod": "2024-10-14T23:38:03+05:30",
+  "scraped_at": "2026-10-18T13:55:06.559029"
+}

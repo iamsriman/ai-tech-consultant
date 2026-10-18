@@ -1,0 +1,27 @@
+{
+  "article_id": "12000057694",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057694-05-17-19-software-updates",
+  "title": "05/17/19 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/17/19 - Software Updates"
+  ],
+  "content": "## 05/17/19 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000057694\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We made an update so that an Admin will be redirected to the Member Categories page after importing Member Categories in the Admin.  Previously it was redirecting the user back to the Member Category Import Tool instead.\n\n- We implemented a speed enhancement by only calling of the Facebook SDK on the frontend of websites on pages where it is required. Widget Involved: Bootstrap Theme Framework\n\n- We released the Sell Digital Downloads Add-On. Click here for more information. Widgets Involved: Bootstrap Theme - Account - Member Dashboard Bootstrap Theme - Account - Sidebar Bootstrap Theme - Group Post Form Patch Bootstrap Theme - Success Page - Lead Purchase\n\n- We updated the aesthetics of the Member Reviews, Send Newsletter, Manage Leads, Email Templates Preview, Import Member Categories, and View Contacts pages in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000057694",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057694"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/directory-software-plugins-add-ons"
+    }
+  ],
+  "lastmod": "2019-05-27T23:19:24+05:30",
+  "scraped_at": "2026-10-18T13:44:55.459069"
+}

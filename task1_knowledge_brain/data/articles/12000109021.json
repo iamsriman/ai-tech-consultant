@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109021",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109021-email-unsubscribed-page-installer-dashboard-installer",
+  "title": "Email Unsubscribed Page Installer - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Email Unsubscribed Page Installer - Dashboard Installer"
+  ],
+  "content": "## Email Unsubscribed Page Installer - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109021\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Email Unsubscribed Page Installer Does\n\n\nThis installer restores the Email Unsubscribed page, the page a person lands on after using an unsubscribe link in one of the website's emails. It creates one new static page on the site and changes nothing else. Specifically:\n\n- The page is named Unsubscribed Page and is registered with the special page type \"unsubscribed\", which is how the platform recognizes it as the unsubscribe landing page.\n\n- Its content is a single widget, Bootstrap Theme - Unsubscribe Email Page , which displays the unsubscribe confirmation that visitors see.\n\n- The page is created in active status, ready to use. No other pages, widgets, email templates, or settings are touched.\n\n\n## Why It Appears\n\n\nIt appears when the site's database contains no page of the \"unsubscribed\" type. The platform expects this page to exist, so if it is missing it was most likely deleted at some point, EG during a cleanup of pages that looked unused. This installer exists to recover it. If the site already has an unsubscribed page, the installer stays hidden, so it can never create a duplicate or overwrite a customized version.\n\n\n## Why It Matters\n\n\nUnsubscribe links in the emails the website sends need somewhere to take people. If this page is missing, the site has no dedicated page to show a recipient who has just unsubscribed. Running the installer restores that landing page, so recipients see a clear confirmation instead of a dead end. It affects only what unsubscribing visitors see; it does not change how unsubscribes themselves are processed or alter any email templates.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Email Unsubscribed Page Installer appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Email Unsubscribed Page Installer does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nA new static page named Unsubscribed Page appears in the site's list of web pages, where it can be reviewed and edited like any other static page. Its content comes from the widget named Bootstrap Theme - Unsubscribe Email Page , so to adjust the confirmation wording, that widget is the place to look. Nothing else on the site is modified, so there is nothing further to check. Because it is a normal static page, any future edits to it work the same way as on the other pages.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109021",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109021"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:29+05:30",
+  "scraped_at": "2026-10-18T13:59:15.413280"
+}

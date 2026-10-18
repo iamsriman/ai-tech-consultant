@@ -1,0 +1,233 @@
+{
+  "article_id": "5000682659",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682659-google-sitemap-generator",
+  "title": "Google Sitemap Generator",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Google Sitemap Generator"
+  ],
+  "content": "## Google Sitemap Generator\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682659\n\nOverview The Google Sitemap Generator add-on greatly improves the directory website’s SEO by creating XML sitemaps. These sitemaps help search engines like Google and Bing better index all of the pages that make up the membership website. NOTE: Keep in mind that submitting your sitemap to the Google Console doesn't ensure that all pages will get indexed by Google. This article explains more about this: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview Not all pages in a sitemap have value to Google. Learn more about thin pages here: https://developers.google.com/search/docs/advanced/guidelines/thin-content This add-on will update the sitemap dynamically so search engines are automatically notified when the site has been updated. How To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Google Sitemap Generator Add-On Enabling the Add-On For most users, following the instructions in this section will accomplish exactly what they need - create a new XML sitemap that can be submitted to search engines so they are aware of all of the pages of the website. If the admin wants to have more granular control over each individual sitemap that is created or updated, please see the section below called \"Advanced Sitemap Generation\". Below are the steps to find the sitemap generator settings. Create Sitemap File Login to the Admin area of the site for the Sitemap Generator settings. Navigate to Toolbox » Sitemap Generator Click on the \" Generate Sitemap \" button: The admin will see a message that a sitemap is being generated.  Depending on the size of the site and how many members it might have, this could take anywhere from a few seconds to a few minutes to complete.  Please do not navigate away from this page while it is processing. Once it is complete, the admin will see a success message.  Click on \"Close Window\": The admin will now see a link for the XML sitemap that they can submit to search engines.  They can copy this link directly or click on the \"Copy to Clipboard\" button to copy the link to the clipboard: The admin can now create a cron job that automatically updates the sitemap of the site: The admin will have these different options for how often the sitemap is automatically regenerated: every day, every 7 days, or every 30 days: Submit the sitemap to the search engines Here are instructions to submit the XML sitemap link to 2 of the most popular search engines: Submit a sitemap to Google Submit a sitemap to Bing Advanced Sitemap Generation If the admin would like to have more control of which kinds of URLs are included in the XML sitemap, we have some advanced controls available.  In order to understand how to best use these, it is first necessary to understand a bit about how the Sitemap Generator works. How the Sitemap Generator works: The Sitemap Generator will create a record of every page of the website in a formatted XML sitemap file that can be submitted to search engines. The Sitemap Generator does this by creating separate XML files based on each of the SEO Templates (note: there are a few SEO Templates that no sitemap file is created for, such as the payment pages for example), and a separate file for all of the Static Pages on the website, this last one will also include any member category or post category page that has been converted into a static page. However, search engines will generally only accept a single XML sitemap file to be submitted for a website. Since a separate XML file is created for each SEO Template and a separate one for static pages, a total of 40+ separate sitemap files will be created.  In order to submit all of these individual XMLS sitemap files, the Sitemap Generator also creates what is called a \"Sitemap Index File\", which is the actual file that is submitted to search engines. Exclusions to the Sitemap: Any Web Page with the \"Apply NoIndex, NoFollow\" setting checked is not included in the sitemap: If \"Add \"NOFOLLOW\" to Member Web Links?\" and \"Hide Member Profile from Search Engines?\" are set to \"YES\" within the Membership Plans: If the Noindex Review & Connect Pages setting is turned on (Settings >> Advanced Settings >> URL Rules tab), the members' write-a-review pages and connect (contact) pages are left out of the sitemap, including pages that use a custom URL for either one. Those pages already tell search engines not to index them, so leaving them out keeps the sitemap limited to pages that can appear in search results. The change takes effect the next time the sitemap is generated. In Advanced Controls, the Write a Review and Contact Form SEO Templates are still listed, but with no Sitemap File. If the site has the Hidden Member Profiles add-on ( click here for add-on information ), it will hide all Non-Searchable members: Sitemap Index File As of the writing of this article, search engines generally allow up to 50,000 URLs to be in a single sitemap file.  However, since many sites on the platform can have many more than 50,000 URLs, the Sitemap Generator will create several smaller XML sitemap files and one master file called a \"sitemap index file\". The sitemap index file is a single XML file that contains links to all of the smaller sitemap files which contain the URLs of the website.  When submitting the sitemap to search engines, the admin will submit the sitemap index file. For more information, please see this article from Google on the topic . Advanced Controls To display all of the individual sitemap files that can be generated and added to the Sitemap Index File, click on the \"Advanced Controls\" button: Clicking this button will display a list of all of the SEO Templates that sitemap files can be generated from, along with some additional information and actions: Generate or Update a Sitemap File for a Single SEO Template To generate or update the sitemap file for a single SEO Template, locate the SEO Template the admin would like to generate for, and click on the \"Add / Update Sitemap\" button next to it: After doing this, the system will generate a sitemap file for just that SEO Template and add the updated sitemap file to the Sitemap Index File.  A link to the sitemap file for that SEO Template will then appear: Generate or Update Sitemap Files for Multiple Selected SEO Templates To generate or update the sitemap files for more that one SEO Template at a time, simply check the box next to all of the chosen SEO Templates: After checking these boxes, scroll down and click on the \"Bulk Add / Update\" button: After the system finishes processing the request, the admin will then see a link for each file here: Doing this will update the sitemaps for those SEO templates and update the Sitemap Index File with the latest URLs as well. Once the admin has generated or updated the sitemap files of their choice, they can submit the sitemap file shown at the top of the page to search engines: SEO Templates That Will Generate More Than 50,000 URLs As mentioned above, search engines will generally accept a sitemap file that has a maximum of 50,000 URLs per file.  For larger sites, there can be more than 50,000 URLs generated for a single SEO Template.  If this is the case, the system will generate a file for the first 50,000 URLs, and then continue generating another file for the next 50,000 URLs, and so on. If this happens for an SEO Template, the admin will see multiple sitemap file links for the SEO Template (Sitemap File 1, Sitemap File 2, etc), instead of seeing a single sitemap file link as shown below: All of these additional sitemap files are automatically added to the Sitemap Index File as soon as they are generated.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610183/original/iMap_s5geJbqqjN-k1DTPmWjrK3e5Iot5Q.png?1790104733",
+      "alt": "Generate Sitemap button in the Sitemap Generator Tool",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Generate Sitemap button in the Sitemap Generator Tool",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610184/original/2JNpZN-tFZLAMt7yJrM28RmiOUEHRHP8ng.png?1790104735",
+      "alt": "Sitemap Created success message with the Close Window button",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Sitemap Created success message with the Close Window button",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610186/original/81TOCRTRGyJLTMtwVU07zmiAkEG-HApj0Q.png?1790104738",
+      "alt": "Sitemap link to submit to search engines with the Copy to Clipboard button",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Sitemap link to submit to search engines with the Copy to Clipboard button",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610187/original/yJmB9BIc-m35m1x2SpCrgEV-sEgRczXuQg.png?1790104744",
+      "alt": "Automatic sitemap update setting",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Automatic sitemap update setting",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610189/original/CzpS4js8rDsHuJGBdiHjZxsUwbosnaZuqg.png?1790104746",
+      "alt": "Automatic update options: Never, Every day, Every 7 days, Every 30 days",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Automatic update options: Never, Every day, Every 7 days, Every 30 days",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185606766/original/BLXGaabbVUKwLWCJ4k8GnizrzAsKOe79wA.png?1790101863",
+      "alt": "Apply NoIndex, NoFollow checked under Advanced Options on the Page Options tab",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Apply NoIndex, NoFollow checked under Advanced Options on the Page Options tab",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185606772/original/i3zSY_dvnW8IN7HH-FfUO3_18hFTxjn77Q.png?1790101869",
+      "alt": "Hide Member Profile from Search Engines and Add NOFOLLOW to Member Web Links set to ON on the Search Visibility tab",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Hide Member Profile from Search Engines and Add NOFOLLOW to Member Web Links set to ON on the Search Visibility tab",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185606746/original/KdWCz7wbz7X5QbWwDwQc7NRwn-jRMqXb3w.png?1790101857",
+      "alt": "Noindex Review and Connect Pages set to ON on the URL Rules tab of Advanced Settings",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Noindex Review and Connect Pages set to ON on the URL Rules tab of Advanced Settings",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185606776/original/xTuEi5Dj3r7DpunmKwdOd63sJy0W3oeXDQ.png?1790101871",
+      "alt": "Are These Members Searchable and Can Unregistered Visitors View These Members settings on the Search Visibility tab",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Are These Members Searchable and Can Unregistered Visitors View These Members settings on the Search Visibility tab",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610190/original/9tAnYpstsk4U-DWuVHHX46b7oIX-kKLs7g.png?1790104749",
+      "alt": "Show Advanced Controls button",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Show Advanced Controls button",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610203/original/6AVd8O41LnAmIMZ7hmFtuTHLLGPPPreiWg.png?1790104755",
+      "alt": "SEO Template list in Advanced Controls",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): SEO Template list in Advanced Controls",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610221/original/8sI-l41LF97i1TDaNiifK7j7zU5KZKQb9A.png?1790104757",
+      "alt": "Add / Update Sitemap button for a single SEO Template",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Add / Update Sitemap button for a single SEO Template",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610227/original/ogP0zHYZbGq5ONuhDk803QS3e6uPp7RWZA.png?1790104760",
+      "alt": "Sitemap File link for the updated SEO Template",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Sitemap File link for the updated SEO Template",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610230/original/1wQaOTMIU4FR1FYgdtJypEONZQIO9w_FKw.png?1790104766",
+      "alt": "Checkboxes selected for several SEO Templates",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Checkboxes selected for several SEO Templates",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610233/original/ZtTpJ92Ub_cz2PUVXEDx1lirKkAwDgdL0g.png?1790104768",
+      "alt": "Bulk Add / Update button",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Bulk Add / Update button",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610236/original/AsQ2E0IjukPXJw1VIhz1Xmu95D0L9d_ICA.png?1790104771",
+      "alt": "Sitemap File links for each updated SEO Template",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Sitemap File links for each updated SEO Template",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610239/original/y0bVqEDeAu81Wgu_TA3Gvvm-Dc8b59_FOw.png?1790104777",
+      "alt": "Sitemap to submit to search engines at the top of the page",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): Sitemap to submit to search engines at the top of the page",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185610246/original/VQtRN6H-Z83UFiDfbP84lWnyrksZBmc5Zw.png?1790104779",
+      "alt": "A single Sitemap File link for an SEO Template",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Google Sitemap Generator' (Add-On Documentation > Add-On Documentation): A single Sitemap File link for an SEO Template",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682659",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682659"
+    },
+    {
+      "text": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"
+    },
+    {
+      "text": "https://developers.google.com/search/docs/advanced/guidelines/thin-content",
+      "url": "https://developers.google.com/search/docs/advanced/guidelines/thin-content"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Google Sitemap Generator Add-On",
+      "url": "https://www.brilliantdirectories.com/google-sitemap-generator-add-on"
+    },
+    {
+      "text": "Submit a sitemap to Google",
+      "url": "https://support.google.com/webmasters/answer/183668?hl=en"
+    },
+    {
+      "text": "Submit a sitemap to Bing",
+      "url": "https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed"
+    },
+    {
+      "text": "SEO Templates",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682654--bootstrap-seo-levels-template-page-member-"
+    },
+    {
+      "text": "Static Pages",
+      "url": "http://bootstrap.brilliantdirectories.com/support/solutions/articles/5000682651--bootstrap-how-to-edit-the-seo-elements-of-a-static-web-page-on-your-site"
+    },
+    {
+      "text": "member category",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000002518"
+    },
+    {
+      "text": "post category page that has been converted into a static page.",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000071552"
+    },
+    {
+      "text": "click here for add-on information",
+      "url": "https://www.brilliantdirectories.com/hidden-member-profiles-add-on"
+    },
+    {
+      "text": "article from Google on the topic",
+      "url": "https://support.google.com/webmasters/answer/75712?hl=en"
+    }
+  ],
+  "lastmod": "2026-09-23T00:50:57+05:30",
+  "scraped_at": "2026-10-18T13:39:07.236298"
+}

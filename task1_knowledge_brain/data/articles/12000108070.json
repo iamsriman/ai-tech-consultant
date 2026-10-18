@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108070",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108070-api-reference-user-types",
+  "title": "API Reference - User Types",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - User Types"
+  ],
+  "content": "## API Reference - User Types\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108070\n\n← Back to API Reference | Getting Started User Types User Types defines the membership tiers available on the directory, such as paid member plans and general user accounts. Each record maps a type name to a subscription plan and controls whether that type is active and visible during signup. Model name in URL: user_types — DB table: user_types The User Types Object Field Type Description type_id integer Unique user type ID (primary key, read-only) type_name string Display name for this membership type (EG Members , General Users ) type_filename string Internal filename/slug identifier for this type (EG pro , users ) active integer Whether this user type is active ( 0 = inactive, 1 = active) signup_order integer Display order of this type during member signup (lower numbers appear first; 0 = not shown) subscription_type string Subscription plan identifier associated with this type (EG pro , user ) List User Type Records GET /api/v2/user_types/get Returns a paginated list of user type records. Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/user_types/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"tablesExists\": true,\n      \"type_id\": \"1\",\n      \"type_name\": \"Members\",\n      \"type_filename\": \"pro\",\n      \"active\": \"1\",\n      \"signup_order\": \"2\",\n      \"subscription_type\": \"pro\"\n    },\n    {\n      \"tablesExists\": true,\n      \"type_id\": \"6\",\n      \"type_name\": \"General Users\",\n      \"type_filename\": \"users\",\n      \"active\": \"1\",\n      \"signup_order\": \"0\",\n      \"subscription_type\": \"user\"\n    }\n  ],\n  \"total\": \"2\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Retrieve a User Type Record GET /api/v2/user_types/get/{type_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/user_types/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"tablesExists\": true,\n      \"type_id\": \"1\",\n      \"type_name\": \"Members\",\n      \"type_filename\": \"pro\",\n      \"active\": \"1\",\n      \"signup_order\": \"2\",\n      \"subscription_type\": \"pro\"\n    }\n  ],\n  \"total\": \"2\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a User Type Record POST /api/v2/user_types/create Creates a new membership type definition. Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/user_types/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"type_name=Premium Members\" \\\n  -d \"type_filename=premium\" \\\n  -d \"active=1\" \\\n  -d \"signup_order=1\" \\\n  -d \"subscription_type=premium\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"type_id\": \"7\",\n    \"type_name\": \"Premium Members\",\n    \"type_filename\": \"premium\",\n    \"active\": \"1\",\n    \"signup_order\": \"1\",\n    \"subscription_type\": \"premium\"\n  }\n} Update a User Type Record PUT /api/v2/user_types/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/user_types/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"type_id=7\" \\\n  -d \"type_name=Elite Members\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"type_id\": \"7\",\n    \"type_name\": \"Elite Members\",\n    \"type_filename\": \"premium\",\n    \"active\": \"1\",\n    \"signup_order\": \"1\",\n    \"subscription_type\": \"premium\"\n  }\n} Delete a User Type Record DELETE /api/v2/user_types/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/user_types/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"type_id=7\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"user_types record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108070",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108070"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:36+05:30",
+  "scraped_at": "2026-10-18T13:57:47.701483"
+}

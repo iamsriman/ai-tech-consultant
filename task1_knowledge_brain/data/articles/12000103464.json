@@ -1,0 +1,23 @@
+{
+  "article_id": "12000103464",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103464-02-14-2025-software-updates",
+  "title": "02/14/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/14/2025 - Software Updates"
+  ],
+  "content": "## 02/14/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000103464\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- We updated the Brilliant Directories App in Zapier to add the ability to send email notifications after updating the status of a member review.\n\n- We updated the Transaction History page in the Admin to display additional information (name, email address, and member ID) for deleted members.\n\n- We fixed an issue that prevented the \"Preview\" Email Template feature from working with the Email Template Translation functionality in some cases.\n\n- We fixed an issue that prevented the \"Subject\" of email templates from being translated after sending an email in some cases.\n\n- We fixed an issue that prevented the Credits History page from working properly on the Member Dashboard in some cases.\n\n- We fixed an issue that prevented the system from returning accurate results after performing a location search for \"Taipei, Taiwan\" on the frontend of sites. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue that prevented Vimeo video thumbnails from being displayed on the frontend of sites in some cases. Post Type Involved: Videos\n\n- We updated the \"Member Credit System\" Add-On to apply a member's credits when manually creating a paid subscription for that member from the Admin.\n\n- We fixed an issue that prevented the \"Delete Unused Image\" tool in the Admin from working properly in some cases.\n\n- We fixed an issue that prevented the Google Sitemap Generator Add-On from working properly in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000103464",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103464"
+    }
+  ],
+  "lastmod": "2025-02-17T23:40:50+05:30",
+  "scraped_at": "2026-10-18T13:55:43.439604"
+}

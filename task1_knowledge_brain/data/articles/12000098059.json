@@ -1,0 +1,23 @@
+{
+  "article_id": "12000098059",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098059-01-26-2024-software-updates",
+  "title": "01/26/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/26/2024 - Software Updates"
+  ],
+  "content": "## 01/26/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098059\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- The action of deleting a Member Review from the Admin is now being logged in the Activity Tracker.\n\n- We fixed an issue which was preventing the member upgrade email template from displaying the correct upgraded membership plan name in some cases.\n\n- We fixed an issue which was preventing the Featured Blog Article Slider widget from rendering the blog post images when the Enable Lazy Load Images is disabled. Widget Involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider\n\n- We updated the Name / Keyword field on the Search Members page in the Admin in order to add the ability to search by member token as well.\n\n- We fixed an issue which was affecting the ability to customize the Photo Profile & Logo Form on the Form Manager page in the Admin.\n\n- We updated the create and update actions for members in Zapier in order to include the \"Services\" field.\n\n- We added a new field called \"Member Type\" to the Search Members page in the Admin. This field allows an Admin tp search members by type of listing (Company or Individual).\n\n- We released a new version of the Brilliant Directories App in Zapier. This version includes the ability to create, update, and delete Member Reviews from a Brilliant Directories website and some additional minor fixes.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098059",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098059"
+    }
+  ],
+  "lastmod": "2024-01-29T00:31:16+05:30",
+  "scraped_at": "2026-10-18T13:53:27.609572"
+}

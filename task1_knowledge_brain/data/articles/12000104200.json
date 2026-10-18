@@ -1,0 +1,23 @@
+{
+  "article_id": "12000104200",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104200-04-18-2025-software-updates",
+  "title": "04/18/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/18/2025 - Software Updates"
+  ],
+  "content": "## 04/18/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000104200\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that was preventing users from deleting files uploaded through a File Upload field in a form built using the Form Manager in some cases.\n\n- Implemented an update to not display the time of an event if there is no time data selected when using the Simple Events Calendar Add-On. Widget Involved: Bootstrap Theme - Function - Events Calendar JSON Array\n\n- Fixed an issue that prevented languages read Right-to-Left from displaying properly when replying to messages on the Form Inbox page in the Admin.\n\n- Implemented a security update when saving data in the Admin.\n\n- Updated internal error handling to display a user-friendly error message when the system encounters an error on the frontend of a site.\n\n- Fixed an issue where the Froala WYSIWYG editor in the Admin would stretch outside of the defined space when entering a long, unbroken string.\n\n- The Digital Product Sales History table on the Member Dashboard is now compatible with Text Labels. Widget Involved: Bootstrap Theme - Account - Manage Digital Products\n\n- Updated the Admin login page to automatically remove email addresses from the block list and display a message explaining why the email was previously blocked.\n\n- Fixed an issue where the member search logic failed to consider keyword and category dropdown filters after performing a search with a location filter, when the \"New Google Maps Places API\" was enabled for a site. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Updated the member search logic to include \"City\" and \"Zip Code\" values for Service Areas saved by members when performing a location search. Widget Involved: Search - Member - Search Query\n\n- Improved performance of saving to and retrieving data from the API log of a site.\n\n- Updated the Froala WYSIWYG to the latest version.\n\n- Fixed an issue that prevented the member name link in the breadcrumb structure from working properly in some cases. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- Fixed an issue that was preventing Google Maps from returning the correct data for the \"Address 1\" form field in some cases. Widgets Involved: Bootstrap - Contact Member Lead Map Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Account - Select Locations Bootstrap Theme - Function - Google Location Suggest\n\n- Fixed an issue that prevented selecting the \"post_image\" variable when importing Multi-Photo Posts via CSV file in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000104200",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000104200"
+    }
+  ],
+  "lastmod": "2025-04-21T23:35:34+05:30",
+  "scraped_at": "2026-10-18T13:56:00.277524"
+}

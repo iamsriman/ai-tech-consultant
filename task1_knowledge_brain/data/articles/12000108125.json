@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108125",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108125-api-reference-location-cities",
+  "title": "API Reference - Location Cities",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Location Cities"
+  ],
+  "content": "## API Reference - Location Cities\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108125\n\n← Back to API Reference | Getting Started Location Cities The Location Cities table stores the list of cities used for location-based search and SEO page generation on a directory site. Each record maps a city name to its state and country codes, enabling the platform to generate city-specific browse pages and filter search results by location. This is primarily a reference table used for GET operations; while CRUD endpoints are available, city records are typically managed through the admin panel. Model name in URL: location_cities — DB table: location_cities The Location City Object Field Type Description locaiton_id integer Unique city location ID (primary key, read-only). Note: field name contains a typo in the database schema ( locaiton_id not location_id ). city_ln string Full city name (EG New York , Los Angeles ); max 255 characters city_filename string URL-friendly slug for the city (EG new-york , los-angeles ); max 255 characters state_sn string State/region short code (EG NY , CA ); references location_states.state_sn ; max 255 characters country_sn string Country short code (EG US , CA ); references list_countries.country_code ; max 255 characters List Location Cities GET /api/v2/location_cities/get Returns a paginated list of location city records. Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/location_cities/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"locaiton_id\": \"1\",\n      \"city_ln\": \"New York\",\n      \"city_filename\": \"new-york\",\n      \"state_sn\": \"NY\",\n      \"country_sn\": \"US\"\n    },\n    {\n      \"locaiton_id\": \"2\",\n      \"city_ln\": \"Seal Beach\",\n      \"city_filename\": \"seal-beach\",\n      \"state_sn\": \"CA\",\n      \"country_sn\": \"US\"\n    }\n  ],\n  \"total\": \"229\",\n  \"current_page\": 1,\n  \"total_pages\": 10,\n  \"next_page\": \"MipfKjI=\"\n} Retrieve a Location City Record GET /api/v2/location_cities/get/{locaiton_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/location_cities/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"locaiton_id\": \"1\",\n      \"city_ln\": \"New York\",\n      \"city_filename\": \"new-york\",\n      \"state_sn\": \"NY\",\n      \"country_sn\": \"US\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Location City Record POST /api/v2/location_cities/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/location_cities/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"city_ln=Austin\" \\\n  -d \"city_filename=austin\" \\\n  -d \"state_sn=TX\" \\\n  -d \"country_sn=US\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"locaiton_id\": \"230\",\n    \"city_ln\": \"Austin\",\n    \"city_filename\": \"austin\",\n    \"state_sn\": \"TX\",\n    \"country_sn\": \"US\"\n  }\n} Update a Location City Record PUT /api/v2/location_cities/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/location_cities/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"locaiton_id=230\" \\\n  -d \"city_filename=austin-tx\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"locaiton_id\": \"230\",\n    \"city_ln\": \"Austin\",\n    \"city_filename\": \"austin-tx\",\n    \"state_sn\": \"TX\",\n    \"country_sn\": \"US\"\n  }\n} Delete a Location City Record DELETE /api/v2/location_cities/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/location_cities/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"locaiton_id=230\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"location_cities record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108125",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108125"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:02:13+05:30",
+  "scraped_at": "2026-10-18T13:58:30.349638"
+}

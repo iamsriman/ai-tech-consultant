@@ -1,0 +1,23 @@
+{
+  "article_id": "12000099142",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099142-import-members-active-variable",
+  "title": "Import Members: \"active\" Variable",
+  "category": "Developer Hub",
+  "folder": "Quick FAQ",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Quick FAQ",
+    "Import Members: \"active\" Variable"
+  ],
+  "content": "## Import Members: \"active\" Variable\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099142\n\nIn an import file for Brilliant Directories, the variable \" active \" decides the Active status of members. This controls whether the profile will not be visible on the front-end of the website and the search results.\n\nHere's a quick breakdown of the \" active \" status values:\n\n- 1 = Inactive (as in they signed up for a free account but have not verified their email address)\n\n- 2 = Active\n\n- 3 = Cancelled / Account Closed\n\n- 4 = On Hold (usually the status an Admin would assign to temporarily suspend an account)\n\n- 5 = Past Due\n\nRemember, you can always change a member's active status later from the admin dashboard.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099142",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099142"
+    }
+  ],
+  "lastmod": "2024-04-06T04:35:48+05:30",
+  "scraped_at": "2026-10-18T13:53:48.079435"
+}

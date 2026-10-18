@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109328",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109328-07-31-2026-software-updates",
+  "title": "07/31/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/31/2026 - Software Updates"
+  ],
+  "content": "## 07/31/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109328\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a new Draft System that automatically saves your changes while editing content (Create / Edit Web Pages) and restores them when you return to the page, preventing data loss from accidental navigation or browser crashes.\n\n- Released the ability to add custom fields to the \"Upload Photos tab\" form used when editing a multi-image post. This allows members to store additional details for each uploaded photo. Additionally, introduced a new Post Type Setting called \"Per-Photo Custom Fields Form\" that can be configured for each Multi-Photo Post Type . Widgets Involved: Bootstrap Theme - Account - Edit Uploaded Photos Bootstrap Theme - Account - Photo Albums Upload\n\n- Updated the Member Import tool and the API to accept a Subscription Start Date and Billing Cycle fields, allowing imported members to have billing schedules specified during import.\n\n- Added a new Advanced Setting called \"Sub Accounts / Additional Locations Account Area URL Slug\" that allows the Sub Accounts URL slug in the member account area to be customized.\n\n- Fixed an issue that caused email address fields to be treated as case-sensitive, which could prevent members from completing checkout or matching their existing account when their email was typed with different capitalization.\n\n- Fixed an issue that caused required name fields on member profiles to accept invisible-only characters, allowing profiles to be saved with a blank name.\n\n- Fixed an issue that caused form confirmation emails to be sent from the Admin Notification Email Address in some cases.\n\n- Fixed an issue that caused the upgrade checkout to skip the credit card step when a 100%-off coupon reduced the total to $0.00, ignoring the coupon's \"Require Credit Card When $0.00\" Coupon Code Setting.\n\n- Fixed an issue that prevented members from creating Sub-Accounts in some cases on websites that did not have the Limit Posts Per Member Add-On installed.\n\n- Fixed an issue that caused click-tracking on member profiles to break links using non-web formats such as SMS and WhatsApp buttons on sites using the Profile Statistics Add-On . Widget Involved: Bootstrap Theme - Function - API\n\n- Fixed an issue that caused certain API responses to include unintended additional member data as well.\n\n- Fixed an issue that prevented the Pending Approval post list from loading in the Manage Posts section of the Admin on websites with large amounts of data.\n\n- Fixed an issue that prevented the MySQL, File Manager, IP Blocker and Email Accounts links in the Admin cPanel section from opening, showing a redirect error instead.\n\n- Fixed an issue that caused the private message inbox to appear empty for members on websites with large amounts of data.\n\n- Fixed an issue that prevented saved drafts from being cleared after creating a new web page with BD Butler , causing old draft content to appear when creating another page.\n\n- Fixed an issue that caused per-category ratings to be saved with a default value instead of the submitted values when creating or updating reviews through the BD MCP server.\n\n- Fixed an issue that prevented Google Maps and reCAPTCHA from working on some DirectoryUp websites.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109328",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109328"
+    }
+  ],
+  "lastmod": "2026-08-04T03:55:29+05:30",
+  "scraped_at": "2026-10-18T13:59:53.898164"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000099717",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099717-05-03-2024-software-updates",
+  "title": "05/03/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "05/03/2024 - Software Updates"
+  ],
+  "content": "## 05/03/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099717\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Open Graph image (og:image) value on Post Details and Profile pages on the frontend of the sites to ensure the best image is loaded for these pages. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the member signup process from working properly on sites running PHP 5.4 in some cases.\n\n- We fixed an issue which was causing the Pay Per Post workflow to redirect users to the Member Dashboard after successfully purchasing a Post when the \"URL Permalink\" Post Type setting had been customized. Widget Involved: Bootstrap Theme - Success Page - Pay Per Post\n\n- We fixed an issue which was preventing Member Search Results pages from respecting the \"When Sorting Members - Respect Membership Plan Search Priority\" Post Type setting in some cases. We also fixed an issue which preventing the Member Search Results page form correctly sorting members after performing a location search in some cases. Widget Involved: Search - Member - Search Query\n\n- We added the ability to upload .txt and .rtf files through the Media Manager in the Admin and \"File Upload\" fields in the Form Manager .\n\n- We implemented an security update to the Admin Login page.\n\n- The system will now always send an email notification when an Admin selects the option to send an email notification when updating the status of a review from the Member Reviews page in the Admin.\n\n- We updated the display of reviews on the Member Profile and Reviews Search Results pages to not show an image when the user that left the review is not a member of the site. Feature Involved: Review\n\n- We updated the Member Billing page in the Member Dashboard to always show the \"Billing Address\" button, even if the member does not have a credit card on file.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099717",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099717"
+    }
+  ],
+  "lastmod": "2024-05-06T22:47:26+05:30",
+  "scraped_at": "2026-10-18T13:53:57.654013"
+}

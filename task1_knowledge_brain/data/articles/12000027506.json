@@ -1,0 +1,23 @@
+{
+  "article_id": "12000027506",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027506-03-24-17-software-updates",
+  "title": "03/24/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/24/17 - Software Updates"
+  ],
+  "content": "## 03/24/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000027506\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- The issue related to the \"Congratulations\" message in the Checkout Pages has been resolved.\n\nWidget Involved: Bootstrap Theme - Footer.\n\n- We added the ability to add a \"Hero Image\" with text and a link rather than a search type.\n\nWidgets Involved:\n\nBootstrap Theme - Admin - Design Settings.\n\nBootstrap Theme - Homepage.\n\nBootstrap Theme - Homepage Search - Hero Message with Link\n\nDesign Settings Involved:\n\nHomepage Layout >> Search Type >> Hero Message With Link\n\n- The duplicated twitter feed issue on Member Profile Pages has been fixed.\n\nWidget Involved:\n\nBootstrap Theme - Module - Member Twitter Feed.\n\n- We updated the keyword search field Autosuggest functionality in order to support the following updates: Show Posts as Suggestions even if the owner of the suggested post belongs to a Non-Searchable Subscription Level. Show suggested Top Category Images\n\n- Show Posts as Suggestions even if the owner of the suggested post belongs to a Non-Searchable Subscription Level.\n\n- Show suggested Top Category Images\n\nWidget Involved:\n\nBootstrap Theme - Function - API",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000027506",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027506"
+    }
+  ],
+  "lastmod": "2017-03-25T01:46:19+05:30",
+  "scraped_at": "2026-10-18T13:41:02.820012"
+}

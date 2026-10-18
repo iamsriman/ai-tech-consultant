@@ -1,0 +1,37 @@
+{
+  "article_id": "12000099791",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099791-add-a-bot-to-the-robots-txt-file-ahrefs-example-",
+  "title": "Add a Bot to the Robots.txt File (Ahrefs Example)",
+  "category": "Developer Hub",
+  "folder": "Robots File",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Robots File",
+    "Add a Bot to the Robots.txt File (Ahrefs Example)"
+  ],
+  "content": "## Add a Bot to the Robots.txt File (Ahrefs Example)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099791\n\nA Robots.txt file controls which web crawlers are allowed to access a website. This article demonstrates how to allow a third-party crawler using Ahrefs as an example.\n\n\n## Adding a Web Robot to the site\n\n\nTo allow a third-party crawler, add the appropriate directives to the Robots.txt file.\n\nThe ROBOTS.TXT file can be accessed through:\n\n- Navigate to Developer Hub.\n\n- Select Robots File.\n\nThe following example allows the Ahrefs crawler. Add these directives to the beginning of the Robots.txt file:\n\nUser-agent: AhrefsSiteAudit\nAllow: /\n\nUser-agent: AhrefsBot\nAllow: /\n\nSelect Save Changes to apply the update. In this example, Ahrefs will be allowed to crawl the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143087681/original/YHig6LDjnMelLMI-YLVtl7TuXxmQUiCxWw.png?1715393863",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Add a Bot to the Robots.txt File (Ahrefs Example)' in section 'Developer Hub' / 'Robots File'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099791",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099791"
+    },
+    {
+      "text": "ROBOTS.TXT",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075850"
+    }
+  ],
+  "lastmod": "2026-06-26T01:01:25+05:30",
+  "scraped_at": "2026-10-18T13:53:59.172216"
+}

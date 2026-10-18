@@ -1,0 +1,27 @@
+{
+  "article_id": "12000102627",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102627-checklist-when-changing-the-domain-of-a-live-website",
+  "title": "Checklist when Changing the Domain of a Live Website",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Checklist when Changing the Domain of a Live Website"
+  ],
+  "content": "## Checklist when Changing the Domain of a Live Website\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102627\n\nChanging an existing website's domain affects its address, email identity, and services that authorize a specific domain. Use this checklist before and after the Switch Over stage in Settings > Domain Manager .\n\n\n## Before the switch\n\n\n- Confirm access to the new domain's registrar and DNS provider.\n\n- Record the current DNS and mail-provider settings.\n\n- Preserve access to existing mailboxes and back up any messages that must be retained. Confirm the mailbox migration plan before changing a domain used for BD-hosted email.\n\n- Plan old-domain redirects separately. Changing the website address does not, by itself, establish a redirect from every old address.\n\n- List integrations restricted to the old domain, including Google Maps, reCAPTCHA, Google/Facebook login, payment callbacks, image delivery, and other connected services.\n\n- Confirm the Managed SSL entitlement or the plan for installing a third-party certificate.\n\n\n## Connect the new address\n\n\n- Open Settings > Domain Manager > Domain .\n\n- Click Change my domain name .\n\n- Follow the connection walkthrough through address validation and DNS pointing.\n\n- Review the old and new addresses on Switch Over .\n\n- Confirm the switch only when the new address and remaining consequences are understood.\n\n\n## After the switch\n\n\n- Open the new address to confirm the intended website loads.\n\n- Check SSL for the new hostname.\n\n- Check Emails > Sender Authentication for the new domain.\n\n- Complete any manual SPF or DKIM instructions shown.\n\n- Confirm the default sending address and the administrative contact email. The switch moves a sending address that used the old domain or a placeholder to the new domain, keeping the part before the @; an address at another domain is left unchanged.\n\n- Confirm incoming mail routing in Mailboxes and at the mail provider.\n\n- Test sending and receiving email.\n\n- Update domain-restricted integrations at their providers.\n\n- Test maps, protected forms, social login, checkout, and important member workflows.\n\n- Update branding, externally stored links, and relevant search/analytics properties.\n\n- Verify the old-domain redirect if one was configured.\n\nThe completion screen lists What to do next : the email records, the security certificate request, and the integration keys that need the new domain. It can report that email records were already published when the connected DNS service accepted them. Still check the Emails result and test delivery. A changed domain does not automatically update every external provider's authorized-domain list.\n\nCompletion means the new website loads securely, outgoing authentication and incoming mail work, the required integrations pass their checks, and any intended old-domain redirects work.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102627",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102627"
+    },
+    {
+      "text": "the connection walkthrough",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000019271"
+    }
+  ],
+  "lastmod": "2026-09-23T22:06:05+05:30",
+  "scraped_at": "2026-10-18T13:55:23.662805"
+}

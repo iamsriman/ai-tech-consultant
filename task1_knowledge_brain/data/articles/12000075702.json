@@ -1,0 +1,62 @@
+{
+  "article_id": "12000075702",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075702-express-member-registration",
+  "title": "Express Member Registration",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Express Member Registration"
+  ],
+  "content": "## Express Member Registration\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075702\n\n\n## Overview\n\n\nMany websites have enabled features exclusively for their logged-in members. But what happens if a new user doesn’t have an account on the website?\n\nInstead of directing new users to the registration page, they can now instantly create a free account directly from the login pop-up. This eliminates hurdles by making it easier and faster for new users to join the community!\n\n\n### This is a Free Add-On and Enabled on All Websites\n\n\n\n## Enabling the Add-On\n\n\nTo enable this the admin will need to go to Setting - General Settings . Scroll down until this option is visible to enable it or search for it:\n\nExpress Sign Up Membership Plan\n\nThe options given to the admin in the drop down will vary depending on how many FREE membership plans there are and which one the admin chooses for the members to express sign up to.\n\n\n### Important\n\n\nIn order for this add-on to be enable the directory must have an SSL certificate installed!\n\n\n## Start with Express Registration Tab Selected\n\n\nThe \" Start with Express Registration Tab Selected \" setting will display the Signup form before the default Login form.\n\nOnce enabled, any unregistered users can sign up from the login form:\n\n\n## Redirect Login Rules\n\n\nThe admin has access to an advanced setting to select where the redirect from the login pages go to.\n\nThe admin will need to enter a comma-separated list of pages (/login,/about,etc) where if a member logs in from those pages, they will always be redirected to the page defined in their membership level setting.\n\nOtherwise, after logging in from any other pages, the current page will refresh after logging in so that the member remains on the current page. TIP: Leave empty for all logins to always redirect to the membership level redirect page. Use \"/login\" to ALWAYS redirect a login from the /login page, but after logging in from another page, it will refresh that page.\n\n\n### Social Login Compatibility\n\n\nThe Express Member Registration Add-On is fully compatible with the Facebook Login Add-On and the Google Login Add-On.\n\nIf either of these add-ons is enabled, new members can also create an account by signing in with their Facebook or Google account directly from the Express Member Registration form, providing an even faster registration experience.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182542474/original/s-WTwIbr7hD_M_PxHmntoQsNNgJ3heUOjA.png?1784846952",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Express Member Registration' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182542515/original/bJxHVPhjWX2y227blqbVn-D7VUhH3BtP9w.png?1784847020",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Express Member Registration' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12182874485/original/wN41rriCO1H5l1oDekTQJGYc1z0Pe-SnSQ.png?1785425466",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Express Member Registration' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075702",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075702"
+    },
+    {
+      "text": "SSL certificate",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000050089"
+    },
+    {
+      "text": "Facebook Login Add-On",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036273-facebook-login-add-on"
+    },
+    {
+      "text": "Google Login Add-On.",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036962-google-login-add-on"
+    }
+  ],
+  "lastmod": "2026-08-28T21:54:44+05:30",
+  "scraped_at": "2026-10-18T13:47:23.236342"
+}

@@ -1,0 +1,91 @@
+{
+  "article_id": "12000082053",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082053-beginner-s-guide-to-troubleshooting-website-errors",
+  "title": "Beginner's Guide to Troubleshooting Website Errors",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Beginner’s Guide to Troubleshooting Website Errors"
+  ],
+  "content": "## Beginner’s Guide to Troubleshooting Website Errors\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000082053\n\nIn this article, we will be going over the most common troubleshooting steps a site owner can follow in case experiencing an issue or when updates are not displaying on the front-end right away.\n\nMost of these errors can be solved by following these troubleshooting steps:\n\n\n## Refresh The Live Website\n\n\nTo make sure the website is not serving a cached version, utilize the built-in Refresh Live Website tool that every Brilliant Directories site offer. Refreshing the cache of the website makes sure that recent changes that have been made to widgets, forms, and other elements of the website through the Admin Area are reflected in the website's cache.\n\nImportant Note: We highly recommend refreshing the live website after following any of the troubleshooting steps specified down below.\n\n\n## Clear Browser Cache\n\n\nThe browsers may not realize the changes made on the website right away and this might cause them to display an older version of the website.\n\nIn these instances, clearing the cache of the browser will ensure users that they are seeing the latest version of the website.\n\nTo learn how to clear cache for browsers, refer to the article down below:\n\nClearing Cache & Cookies for Browsers\n\n\n## Disable Browser Plugins\n\n\nIn instances where the issue can be experienced on one browser but not on others, the issue might be caused by the browser extensions that may be active. One of the most common extensions that are known to cause issues on Brilliant Directories sites would be Grammarly.\n\nTo learn how to disable the browser plugins, refer to the 3rd party article down below:\n\nHow To Disable Plugins/Add-Ons/Extensions In Multiple Browsers\n\n\n## Disable All Custom Widgets\n\n\nIt is often that the issue being reported may be caused by a default widget that is customized or a brand new widget created by a site owner.\n\nTo make sure if a custom widget(s) is causing the issue or not, follow the steps down below to learn how to disable them:\n\nHow To Disable/Enable A Widget\n\nThe above documentation shows how to disable/enable a widget one by one which can be helpful in the instances where there are not many custom widgets. If there are pages of custom widgets, the best approach would be taking bulk action on them:\n\nBulk Actions For Widgets\n\nTo learn more detailed information about how to troubleshoot widgets, refer to the article down below:\n\nSteps To Identify Which Custom Widget/Code Is Causing An Issue\n\n\n## Remove Any Code From Custom CSS / HEAD Section Temporarily\n\n\nThe Custom CSS / HEAD section is part of the design settings where custom CSS, HEAD and Footer code can be added to the website.\n\nThere may be instances where the issue is caused due the to code added in this area. To troubleshoot this, temporarily remove all the code added to each of these sections and save the changes. Make sure to save the code added to a text editor before deleting them.\n\n\n## Backup and Delete .htaccess File\n\n\nA bad .htaccess file may cause server issues on websites. To troubleshoot this, access to the .htaccess file under Developer Hub and temporarily delete all the code added:\n\nAfter deleting the code, click on the Restore Default and Save Changes.\n\n\n## How to Get Better Support\n\n\nIf following the steps specified above do not resolve the issue, we highly recommend submitting a ticket to support@brilliantdirectories.com or via HERE .  Here is how to write a better support request:\n\n- Always be polite and no matter how upset or frustrated the situation may be, do not use harsh language\n\n- Provide step by step guide on how to replicate the issue\n\n- Include an URL of the pages where the issue can be experienced\n\n- Include screenshots or screen recordings showing and explaining the issue\n\n- Describe the troubleshooting steps taken so far\n\n- When the problem cannot be reproduced by the support team (EG a button that does nothing or a save that silently fails), attach a HAR file and a Console screenshot from the affected browser, as explained in How to Capture a HAR File and Console Screenshot for Support",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098040021/original/eXd-etoNA_NkJF_IKfCqgI_0irDJAbKPyQ.png?1631289060",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Beginner's Guide to Troubleshooting Website Errors' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098041467/original/0_XoB8mdCxBDRw5bqiIYXZGyOJMj-f78dg.png?1631291253",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Beginner's Guide to Troubleshooting Website Errors' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12098041640/original/lUUnWGNjwtfb7sd5mOt8EIcwGvM-S5RTrA.png?1631291574",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Beginner's Guide to Troubleshooting Website Errors' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000082053",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000082053"
+    },
+    {
+      "text": "Refresh Live Website",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000070151"
+    },
+    {
+      "text": "Clearing Cache & Cookies for Browsers",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000064301"
+    },
+    {
+      "text": "How To Disable Plugins/Add-Ons/Extensions In Multiple Browsers",
+      "url": "https://support.box.com/hc/en-us/articles/360044196613-How-To-Disable-Plugins-Add-Ons-Extensions-In-Multiple-Browsers"
+    },
+    {
+      "text": "How To Disable/Enable A Widget",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078433"
+    },
+    {
+      "text": "Bulk Actions For Widgets",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078437"
+    },
+    {
+      "text": "Steps To Identify Which Custom Widget/Code Is Causing An Issue",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075875"
+    },
+    {
+      "text": ".htaccess",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000047896"
+    },
+    {
+      "text": "support@brilliantdirectories.com",
+      "url": "mailto:support@brilliantdirectories.com"
+    },
+    {
+      "text": "HERE",
+      "url": "https://support.brilliantdirectories.com/a/tickets/new"
+    },
+    {
+      "text": "How to Capture a HAR File and Console Screenshot for Support",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109959"
+    }
+  ],
+  "lastmod": "2026-10-01T05:40:53+05:30",
+  "scraped_at": "2026-10-18T13:48:56.597106"
+}

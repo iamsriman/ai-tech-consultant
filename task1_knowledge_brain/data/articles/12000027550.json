@@ -1,0 +1,27 @@
+{
+  "article_id": "12000027550",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027550-upload-files-with-a-unique-name-to-leverage-browser-caching",
+  "title": "Upload Files With A Unique Name To Leverage Browser Caching",
+  "category": "My Content",
+  "folder": "Media Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Media Manager",
+    "Upload Files With A Unique Name To Leverage Browser Caching"
+  ],
+  "content": "## Upload Files With A Unique Name To Leverage Browser Caching\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000027550\n\n\n## What is Browser Caching?\n\n\nWhen someone visits a website, one of the biggest factors in how smooth the experience feels is how quickly the pages load. One of the most effective ways to improve load speed is by taking advantage of the browser’s built-in caching system.\n\nWhen a visitor loads a page, the browser pulls in all of the images, videos, HTML, CSS, and JavaScript needed to display it. If the visitor has been to the site before, the browser may already have the larger files stored locally in its cache. When those files are already saved on the device, the browser does not download them again, which makes the page load much faster.\n\nTo support this, Brilliant Directories automatically applies optimized browser-caching rules based on the software and the file types typically used on a website.\n\nIMPORTANT EXCEPTION: If a file is replaced with a new version using the same filename (for example, logo.jpg ), a visitor who already has the old version cached will not see the update right away. The updated file appears only once the cached version expires or the visitor manually clears the browser cache.\n\n\n## Best of Both Worlds: Cache Older Files, Download Updated Files\n\n\nThe exception above is avoided by uploading each updated file under a new filename.\n\nFor example, a site has a file named logo.jpg . On the first visit, the browser saves logo.jpg to its cache, so later visits load faster without re-downloading it. If a new version of the logo is uploaded under the same logo.jpg name, the browser keeps serving the cached copy, because it assumes it already has that file.\n\nThe fix is to rename the updated file before uploading it:\n\n- Prepare the updated file.\n\n- Give it a filename distinct from the original — for example, logo.1.jpg , logo1.jpg , or my-logo.jpg .\n\n- Upload the renamed file.\n\nBecause the filename is different, the browser treats it as a new file, downloads it immediately, and displays the updated image.\n\nFor a deeper technical breakdown, Google's HTTP Caching documentation provides a detailed explanation.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000027550",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000027550"
+    },
+    {
+      "text": "HTTP Caching",
+      "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching"
+    }
+  ],
+  "lastmod": "2026-07-31T14:31:41+05:30",
+  "scraped_at": "2026-10-18T13:41:03.730210"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107245",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107245-01-02-2026-software-updates",
+  "title": "01/02/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "01/02/2026 - Software Updates"
+  ],
+  "content": "## 01/02/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107245\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- The text of the submit button shown when a member makes a purchase using the Pay Per Post Add-On on a site using the PayPal Express/Standard payment gateway is now compatible with Text Labels.\n\n- Fixed an issue that caused the system to display an inaccurate “Account Scheduled to Close” banner in the Member Dashboard after canceling a paid account whose subscription had only a one-time payment and no recurring payments. Widgets Involved: Bootstrap Theme - Account - Delete Account Bootstrap Theme Framework\n\n- The “Require Credit Card When $0.00?” Coupon Code setting is now compatible with Leads, Pay Per Post, and Digital Product transaction types.\n\n- Fixed an issue that caused the system to save the signup_date column data incorrectly when creating new members via the API.\n\n- The \"Please enter a valid number\" message shown when validating Number Form Fields powered by the Form Manager is now a Text Label.\n\n- Fixed an issue that prevented Canonical links from working properly on member search results pages in some cases. Widgets Involved: Bootstrap Theme - HEAD Bootstrap Theme - Pagination\n\n- Updated the Post Type settings in the Admin to only show the “Price Slider Minimum Value” and “Price Slider Maximum Value” settings when the “Enable Price Slider?” setting is enabled for the Post Type.\n\n- Fixed an issue that prevented the Recent Featured Members and Recent Members widgets on the frontend from displaying review rating stars as expected in some cases. Widget Involved: Bootstrap Theme - Display - Recent Members Bootstrap Theme - Function - Overall Member Rating\n\n- Implemented a security update to track and block repeated invalid Admin login attempts, and prevent abuse of the \"Compose Email\" functionality in the Admin.\n\n- Added options to “Select All” and “Unselect All” for the Type and Category dropdown filters on the Activity Tracker page in the Admin.\n\n- Fixed an issue that prevented the system from correctly sending buyer data to the webhook endpoint after successfully purchasing a Digital Product on the frontend of a site in some cases.\n\n- Fixed an issue that caused the system to charge a member subscription on the scheduled cancellation date in some cases.\n\n- Added a description to the \" Post Approval \" Post Type Setting when editing Post Types in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107245",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107245"
+    }
+  ],
+  "lastmod": "2026-01-06T04:07:21+05:30",
+  "scraped_at": "2026-10-18T13:57:05.137729"
+}

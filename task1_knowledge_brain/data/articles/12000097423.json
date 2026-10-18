@@ -1,0 +1,23 @@
+{
+  "article_id": "12000097423",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097423-12-01-2023-software-updates",
+  "title": "12/01/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/01/2023 - Software Updates"
+  ],
+  "content": "## 12/01/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097423\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from respecting the \"Pre-Selected Sub Level Category\" Lead Setting when displaying Sub and Sub-Subs Categories inn the \"Website - Lead Form - Get Matched\" form in some cases. Widget Involved: Bootstrap - Contact Member Category Dropdowns\n\n- We fixed an issue which was preventing the Events Calendar from working properly on mobile devices in some cases. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We fixed an issue which was causing the system to display an incorrect invoice date on the Transaction History page in the Admin when using a 100% discount coupon code for digital product purchases.\n\n- The \"Listing - Change Password\" form validation messages are now Text Labels.\n\n- We fixed an issue which was preventing the system from loading the location data of leads when editing leads in the Admin.\n\n- We fixed an issue which was preventing the \"Back to Parent Account\" button from displaying in the Member Dashboard area after logging into sub-account when using Chrome-based web browsers. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We updated the Froala WYSIWYGs used in the Admin and frontend of sites to integrate the Giphy gif library and Pixaby free stock photo library in addition to the existing integration with the Pexels library.\n\n- We updated the Media Manager in the Admin to give users access to animated gifs from the Giphy Free Stock Files library.\n\n- The Email Subject and Email Body fields now supports emojis when creating or updating Email Templates in the Admin.\n\n- We updated how Google Maps interacts with the \"Address 1\" fields in the Member Dashboard to properly format addresses in Germany with the street number after the street name. Widget Involved: Bootstrap Theme - Form - Member Google Location\n\n- We implemented an update in order to return a 404 status code when visiting a Pretty URL member search results page which does not exist and the \"Google Search Assist\" add-on is enabled on the site.\n\n- We fixed an issue which was preventing the Reviews tab from displaying on member profile pages when the \"Hidden Member Profile Settings\" are enabled and a member views their own profile page.\n\n- We fixed an issue which was preventing member search results pages from returning accurate results when searching for cities in the United Kingdom in some cases. Widget Involved: Search - Member - Search Query\n\n- We disabled the CSS tab when editing the Bootstrap Theme Framework widget as adding CSS to this widget does not render properly. Custom CSS can be added to all pages on the frontend of a site by including it in the \"Custom CSS/HEAD\" section of the Design Settings page in the Admin.\n\n- We updated the Activity Tracker to save the details of what was changed for each field when an Admin saves a Web Page or SEO Template in the Admin.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097423",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097423"
+    }
+  ],
+  "lastmod": "2023-12-05T17:21:19+05:30",
+  "scraped_at": "2026-10-18T13:53:10.186163"
+}

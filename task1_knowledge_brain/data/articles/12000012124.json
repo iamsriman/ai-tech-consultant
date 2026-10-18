@@ -1,0 +1,91 @@
+{
+  "article_id": "12000012124",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000012124-edit-404-error-pages",
+  "title": "Edit 404 Error Pages",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Edit 404 Error Pages"
+  ],
+  "content": "## Edit 404 Error Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000012124\n\nWhen a requested URL does not correspond to an existing page on the website, the server returns a “404 Not Found” error, indicating that the page cannot be located. Common triggers for this error include:\n\n- A visitor clicks a link on another site that leads to a non-existent page on the directory.\n\n- A URL that previously existed has been deleted or moved.\n\n- A visitor mistypes a URL.\n\n- A bot or crawler (such as from Google Search Console, Bing Webmaster Tools, etc.) attempts to access a URL in error.\n\nWhen any of these events occur, the website responds with the 404 error code and displays a designated “404 error page” (the content served when the page cannot be found).\n\nHow to Create a Custom 404 Page Navigate to My Content >> New Web Page Add a unique Permalink (e.g., \"my404\") Set the page type as “ Single Web Page ”. Save the page. Once created, the 404 page can be styled and populated with whatever content and links are appropriate for the site. Alternatively, ask the BD Butler to create a unique 404 page design.\n\n\n## Selecting the Default 404 Error Page\n\n\nWithin the platform’s advanced settings, there is an option labelled Default 404 Error Page . Using the dropdown menu, select the newly created web page (or any existing page) to serve as the designated 404 error page.\n\nDefault 404 Error Page\n\nerror_404\n\n\n## How Does a Brilliant Directories Website Handle 404 Error Pages?\n\n\nHistorically, all Brilliant Directories-powered websites used the homepage as the 404 error page. While using the homepage can work for human visitors (because they can potentially find their destination via the homepage), the homepage is typically one of the heaviest pages in terms of bandwidth—often loading multiple megabytes.\n\nWhen non-human traffic (such as bots or crawlers) triggers 404 errors and is served the homepage each time, this can consume excessive bandwidth and server resources. To mitigate this, the system now uses a minimal default 404 error page that:\n\n- Presents a simple notification that the requested page cannot be found.\n\n- Includes a link to the homepage for genuine users who may wish to continue browsing.\n\n- Uses significantly less bandwidth (on the order of ~1 KB) compared to loading the full homepage.\n\nThis change helps reduce unnecessary server load arising from erroneous URL requests while still providing a user-friendly experience for legitimate visitors.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143986220/original/n1CKX0Rnd8mzC5ejs8AQCLzqFnJM0pEnqQ.png?1716989623",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit 404 Error Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733313/original/ZfpEpAuIAqkFqeZorpEpIz1oOyWLo1fw8Q.png?1783556930",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit 404 Error Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733323/original/pbl0U7BqhUMIrOIb3Ubj1-G54U_aofIlBw.png?1783556972",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit 404 Error Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152847481/original/ZbNj74fpCJ3BTsoMT2e7gn5jyafQXebs5g.png?1732124551",
+      "alt": null,
+      "caption": "Once created, the 404 page can be styled and populated with whatever content and links are appropriate for the site.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit 404 Error Pages' in section 'My Content' / 'Web Page Builder'. Context: Once created, the 404 page can be styled and populated with whatever content and links are appropriate for the site.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733250/original/mdVU2bR9tjsEe9Z4y-RJVNu5UB0aKnA0Fg.png?1783556841",
+      "alt": null,
+      "caption": "How to Create a Custom 404 PageNavigate to My Content >> New Web PageAdd a unique Permalink (e.g., \"my404\")Set the page type as “Single Web Page”.Save the page.Once created, the 404 page can be styled and populated with whatever content and links are appropriate for the site.Alternatively, ask theBD",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit 404 Error Pages' in section 'My Content' / 'Web Page Builder'. Context: How to Create a Custom 404 PageNavigate to My Content >> New Web PageAdd a unique Permalink (e.g., \"my404\")Set the page type as “Single Web Page”.Save the page.Once created, the 404 page can be styled and populated with whatever content and links are appropriate for the site.Alternatively, ask theBD",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181733237/original/iinCvSWU15t1asFLxvLu21pDKsGCCIhCFQ.png?1783556814",
+      "alt": null,
+      "caption": "How to Create a Custom 404 PageNavigate to My Content >> New Web PageAdd a unique Permalink (e.g., \"my404\")Set the page type as “Single Web Page”.Save the page.Once created, the 404 page can be styled and populated with whatever content and links are appropriate for the site.Alternatively, ask theBD",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit 404 Error Pages' in section 'My Content' / 'Web Page Builder'. Context: How to Create a Custom 404 PageNavigate to My Content >> New Web PageAdd a unique Permalink (e.g., \"my404\")Set the page type as “Single Web Page”.Save the page.Once created, the 404 page can be styled and populated with whatever content and links are appropriate for the site.Alternatively, ask theBD",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171643542/original/HdGlvtw4yPJUqHL74oyKYz9huB5r4ZI0-Q.png?1765216943",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit 404 Error Pages' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000012124",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000012124"
+    },
+    {
+      "text": "BD Butler",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000107806"
+    }
+  ],
+  "lastmod": "2026-07-09T06:01:15+05:30",
+  "scraped_at": "2026-10-18T13:40:22.699408"
+}

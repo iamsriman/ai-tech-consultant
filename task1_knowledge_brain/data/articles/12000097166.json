@@ -1,0 +1,33 @@
+{
+  "article_id": "12000097166",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097166-11-10-2023-software-updates",
+  "title": "11/10/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/10/2023 - Software Updates"
+  ],
+  "content": "## 11/10/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097166\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We created a new Text Label called \"Send Chat Message Text\". This new label will replace the \"Send Message\" button text on Member Profile pages using the Private Member Chat Add-On. Widget Involved: Bootstrap Theme - Member Profile - Header\n\n- We fixed an issue which was preventing the Post Search Result pages from respecting the \"Post Search Results Sidebar Alignment\" Design Setting on some iPad models. Widget Involved: Bootstrap Theme - Single Post Page\n\n- We fixed an issue which was preventing the Homepage Search Modules from loading the content of the member category dropdowns after clicking on the \"Back\" browser button on some browser versions. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We updated the Form Manager to not require the \"Database Variable Name\" field for \"Section Title\" fields when saving forms in the Admin.\n\n- The system adds and entry in the Activity Tracker when a member purchases a free Digital Product.\n\n- We fixed an issue which was affecting the ability to delete Forms in the Form Manager in some rare cases.\n\n- We updated the logic of keyword searches on the frontend of sites to check against the \"Label\" of options in \"Select Field\" Field Types (Checkboxes, Dropdown List, Multi Choice Radios) rather than the \"Database Variable\" of the options.  This will help ensure that what members see when selecting an option is what will be used in keyword searches that involve that field.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134489214/original/pHE99jZUzIlC3cv8ntv_VIduGBmc4eEYEQ.png?1700065907",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for '11/10/2023 - Software Updates' in section 'Get Started Here' / 'Changelog - Software Updates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097166",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097166"
+    }
+  ],
+  "lastmod": "2023-11-15T22:03:02+05:30",
+  "scraped_at": "2026-10-18T13:53:07.658741"
+}

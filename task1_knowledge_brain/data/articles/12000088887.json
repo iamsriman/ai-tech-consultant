@@ -1,0 +1,101 @@
+{
+  "article_id": "12000088887",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088887-api-overview-and-testing-the-api-from-admin-area",
+  "title": "API Overview and Testing the API From Admin Area",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Overview and Testing the API From Admin Area"
+  ],
+  "content": "## API Overview and Testing the API From Admin Area\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088887\n\nIn this article, we will be going over the different API endpoints that can be used with the BD API.\n\nThe REST API system of the site allows developers to read, create, update and delete data from the website’s database using HTTP requests.\n\nAll HTTP requests are secured with an encrypted API Key, which must be sent in the X-Api-Key header. In addition, every request must be made with the corresponding HTTP request method specified below ( GET , POST , PUT , or DELETE ). If a request is sent using an HTTP request method that is not allowed for a given API endpoint, a 405 error (Invalid Request Method) will be returned. Please see the sections below for more details on these requirements.\n\nImportant Note: API log entries are no longer stored in the system’s database, as they can consume a significant amount of storage space over time.\n\n\n## API Endpoints\n\n\n\n### Users\n\n\nCreate, read, update, and delete users from the database.\n\n- GET /api/v2/user/get/{user_id} Read the data of a single user based on the user_id.\n\n- POST /api/v2/user/create Add a new user to the database.\n\n- PUT /api/v2/user/update Update a user record and their related data from the database.\n\n- DELETE/api/v2/user/delete Delete a user and their related data from the database.\n\n- POST/api/v2/user/search Search users and their related data from the database.\n\n- POST/api/v2/user/transactions Read the user transactions based on the user_id or client_id.\n\n- POST/api/v2/user/login Check user login credentials.\n\n\n### Users Clicked Link\n\n\nCreate, read, update, and delete users clicked links from the database\n\n- GET /api/v2/users_clicks/get/{click_id} Read the data of a single user clicked link based on the click_id.\n\n- POST /api/v2/users_clicks/create Add a new user clicked link to the database.\n\n- PUT /api/v2/users_clicks/update Update a user clicked link record and their related data from the database.\n\n- DELETE /api/v2/users_clicks/delete Delete a user clicked link and their related data from the database.\n\n\n### Leads\n\n\nCreate, read, update, match, and delete leads from the database\n\n- GET /api/v2/leads/get/{lead_id} Read the data of a single lead based on the lead_id.\n\n- POST /api/v2/leads/create Add a new lead to the database.\n\n- POST /api/v2/leads/match\n\n- Match a batch of emails or IDs into a specific lead.\n\n- PUT /api/v2/leads/update Update a lead record and their related data from the database.\n\n- DELETE/api/v2/leads/delete Delete a lead and their related data from the database.\n\n\n### Single Image Posts\n\n\nCreate, read, update, and delete single image posts from the database\n\n- GET /api/v2/data_posts/get/{post_id} Read the data of a single image post based on the post_id.\n\n- POST /api/v2/data_posts/create Add a new single image post to the database.\n\n- PUT /api/v2/data_posts/update Update a single image post record and their related data from the database.\n\n- DELETE /api/v2/data_posts/delete Delete a single image post and their related data from the database.\n\n- POST /api/v2/data_posts/search Search single image posts and their related data from the database.\n\n\n### Multi Image Posts\n\n\nCreate, read, update, and delete multi-image posts from the database\n\n- GET/api/v2/users_portfolio_groups/get/{group_id}\n\n- Read the data of a multi-image post based on the group_id.\n\n- POST/api/v2/users_portfolio_groups/create\n\n- Add a new multi-image post to the database.\n\n- PUT/api/v2/users_portfolio_groups/update Update a multi-image post record and their related data from the database.\n\n- DELETE/api/v2/users_portfolio_groups/delete Delete a multi-image post and their related data from the database.\n\n- POST/api/v2/users_portfolio_groups/search Search multi-image posts and their related data from the database.\n\n\n### Album Photos\n\n\nCreate, read, update, and delete album images from the database\n\n- GET /api/v2/users_portfolio/get/{photo_id} Read the data of a single album image based on the photo_id.\n\n- POST /api/v2/users_portfolio/create Add a new album image to the database.\n\n- PUT /api/v2/users_portfolio/update Update an album photo record and their related data from the database\n\n- DELETE /api/v2/users_portfolio/delete Delete an album photo and their related data from the database\n\n\n### Users Reviews\n\n\nCreate, read, update, and delete user reviews\n\n- GET /api/v2/users_reviews/get/{review_id} Read the data of a user review based on the review_id.\n\n- POST /api/v2/users_reviews/create Add a new user review to the database.\n\n- PUT /api/v2/users_reviews/update Update a user review record and their related data from the database.\n\n- DELETE /api/v2/users_reviews/delete Delete a user review and their related data from the database.\n\n- POST /api/v2/users_reviews/search Search reviews and their related data from the database.\n\n\n### Post Types\n\n\nCreate, read, update, and delete post types from the database\n\n- GET /api/v2/data_categories/get/{data_id} Read the data of a single post type based on the data_id.\n\n- POST /api/v2/data_categories/create Add a post type to the database.\n\n- POST /api/v2/data_categories/custom_fields Get all fields available for the post type.\n\n- PUT /api/v2/data_categories/update Update a post type record and their related data from the database.\n\n- DELETE /api/v2/data_categories/delete Delete a post type and their related data from the database.\n\n\n### Unsubscribed\n\n\nCreate, read, update, and delete unsubscribed emails from the database.\n\n- GET /api/v2/unsubscribe_list/get/{id} Read the data of a single unsubscriber by ID.\n\n- POST /api/v2/unsubscribe_list/create Add an unsubscriber to the database.\n\n- PUT /api/v2/unsubscribe_list/update Update an unsubscribe list record and their related data from the database.\n\n- DELETE /api/v2/unsubscribe_list/delete Delete an unsubscribe record and its related data from the database.\n\n\n### Widgets\n\n\nCreate, read, update, render, and delete widgets from the database.\n\n- GET /api/v2/data_widgets/get/{widget_id} Read the data of a single widget based on the widget_id.\n\n- POST /api/v2/data_widgets/create Add a new widget to the database.\n\n- PUT /api/v2/data_widgets/update Update a widget record and its related data from the database.\n\n- DELETE /api/v2/data_widgets/delete Delete a widget and its related data from the database.\n\n- POST /api/v2/data_widgets/render Render widget content of a specific widget.\n\n\n## API Endpoints details\n\n\n\n### /api/v2/user/get/{user_id}\n\n\nHTTP request method: GET\n\nThis endpoint accepts GET requests to read the data stored in the site’s database related to a single user.\n\nThe {user_id} is the user_id value stored in the users_data table in the site’s database. Data related to the specified user will be returned in JSON format.\n\nExample cURL request to this endpoint:\n\ncurl -X 'GET' \\ 'https://mywebsite.com/api/v2/user/get/1' \\ -H 'accept: application/json' \\ -H 'X-Api-Key: myapikey' /api/v2/user/create HTTP request method: POST This endpoint accepts POST requests to add a new user to the site’s database. The Content-Type of all requests to this endpoint must be application/x-www-form-urlencoded. This endpoint will accept data for any column found in the users_data table, as well as data for columns that do not exist in that table.  Any data sent for columns that do not exist will be stored in the users_meta table. Three pieces of data are required for a successful request: email, password, and subscription_id. Example cURL request to this endpoint: curl -X 'POST' \\ 'https://mywebsite.com/api/v2/user/create' \\ -H 'accept: application/json' \\ -H 'X-Api-Key: myapikey' \\ -H 'Content-Type: application/x-www-form-urlencoded' \\ -d 'last_login=20220714122910&google_id=1234567890-abc123def456.apps.googleusercontent.com&blog=https%3A%2F%2Fwww.blog.com&youtube=https%3A%2F%2Fwww.youtube.com%2Fyour_name&search_description=I'\\''m%20the%20best%20developer%20on%20the%20planet...%20and%20very%20humble.&facebook=https%3A%2F%2Fwww.facebook.com%2Fyour_name&active=2&verified=0&position=Developer&experience=2016&about_me=%3Cp%3EExtra%20information%20about%20me%3C%2Fp%3E&zip_code=90210&city=Beverly%20Hills&country_ln=United%20States&lon=-118.4003563&featured=0&modtime=2022-07-14%2013%3A29%3A10&user_id=&rep_matters=Open%20from%208am%20-%207%20pm&affiliation=All%20credit%20cards%20accepted&state_ln=California&instagram=https%3A%2F%2Fwww.instagram.com%2Fyour_name&cv=forms%2F12-cv-1657841003.png&twitter=https%3A%2F%2Fwww.twitter.com%2Fyour_name&facebook_id=samplememberfb&last_name=Smith&listing_type=Individual&signup_date=20220714122910&country_code=US&awards=Nobel%20Peace%20Prize&nationwide=0&first_name=John&phone_number=555-555-555&pinterest=https%3A%2F%2Fwww.pinterest.com%2Fyour_name&website=https%3A%2F%2Fwww.mywebsite.com&state_code=CA&password=mypassword123&quote=Work%20Hard%2C%20Play%20Hard&credentials=Masters%20Degree%20in%20Computer%20Science&email=sample%40member.com&company=Google&address1=123%20Broadway%20Ave&subscription_id=1&linkedin=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fyour_name&address2=Apartment%20%23555&profession_id=1&lat=34.0736204' /api/v2/user/delete HTTP request method: DELETE This endpoint accepts DELETE requests to delete a user and their related data from the site’s database. The Content-Type of all requests to this endpoint must be application/x-www-form-urlencoded. To successfully process a DELETE request, the user_id and delete_images variables must be specified.  The user_id value for the member is found in the users_data table of the website.  If the value of delete_images is set to 1, the image files related to the member will also be deleted from the site. If the value of delete_images is anything other than 1, the member’s related image files will not be deleted. Example cURL request to this endpoint: curl -X 'DELETE' \\ 'https://mywebsite.com/api/v2/user/delete' \\ -H 'accept: application/json' \\ -H 'X-Api-Key: myapikey' \\ -H 'Content-Type: application/x-www-form-urlencoded' \\ -d 'user_id=1&delete_images=1' /api/v2/user/search HTTP request method: POST This endpoint accepts POST requests to do a search for members with the same search criteria as if doing a search from the homepage. The results can be multiple members. Example cURL request to this endpoint: curl -X 'SEARCH' \\ 'https://mywebsite.com/api/v2/user/search' \\ -H 'accept: application/json' \\ -H 'X-Api-Key: myapikey' \\ -H 'Content-Type: application/x-www-form-urlencoded' \\ /api/v2/user/transactions HTTP request method: POST This endpoint accepts POST requests to do a search for all transactions from one member. The results can be multiple transactions in a JSON array. Example cURL request to this endpoint: curl -X 'TRANSACTIONS' \\ 'https://mywebsite.com/api/v2/user/transactions' \\ -H 'accept: application/json' \\ -H 'X-Api-Key: myapikey' \\ -H 'Content-Type: application/x-www-form-urlencoded' \\ Response Messages Each request returns a JSON string with the response along with one of several response codes. Example response: { \"status\": \"error\", \"message\": \"API Key is invalid\" } The key “status” can have one of 2 values: error, or success. The value of the “message” when the status is “error” will explain the reason for the error. When the “status” is “success”, the “message” will either contain an object for requests to the /api/v2/get/{user_id} endpoint, or more details about the successful request for other endpoints. Some examples regarding this can be found down below. Error Response: { \"status\": \"error\", \"message\": \"No password specified for the user\" } Success Response: { \"status\": \"success\", \"message\": { \"website\": \"https://mywebsite.com\", \"key\": \"My API Key Name\" } } Response Codes Here is the list of HTTP response codes that may be returned for requests. 200 { \"status\": \"success\", \"message\": { \"website\": \"https://mywebsite.com\", \"key\": \"My API Key Name\" } } 400 { \"status\": \"error\", \"message\": \"API Key is invalid\" } 405 { \"status\": \"error\", \"message\": \"Invalid Request Method\" } 429 { \"status\": \"error\", \"message\": \"Too many API requests per minute\" } API Testing Page Find all API Modules and Endpoints.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12162700189/original/c_kyB7DmhHibVf63DhXxXRkL4Pn4Iahcnw.png?1749657837",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'API Overview and Testing the API From Admin Area' in section 'Developer Hub' / 'Generate API Key - API Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088887",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088887"
+    },
+    {
+      "text": "Users",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000103947"
+    },
+    {
+      "text": "Users Clicked Link",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000106153"
+    },
+    {
+      "text": "Leads",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091106"
+    },
+    {
+      "text": "Single Image Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093239"
+    },
+    {
+      "text": "Multi Image Posts",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000093239"
+    },
+    {
+      "text": "Album Photos",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000104780"
+    },
+    {
+      "text": "Users Reviews",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097913"
+    },
+    {
+      "text": "Post Types",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099435"
+    },
+    {
+      "text": "Unsubscribed",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102546"
+    },
+    {
+      "text": "Widgets",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000103396"
+    },
+    {
+      "text": "/api/v2/user/get/{user_id}",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000095723-how-to-get-members-through-the-api"
+    },
+    {
+      "text": "/api/v2/user/create",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000088716-zapier-api-actions-google-sheets-example"
+    },
+    {
+      "text": "/api/v2/user/delete",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000102225-how-to-delete-a-member-through-the-api-using-zapier"
+    },
+    {
+      "text": "/api/v2/user/search",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000102884-how-to-search-for-members-through-the-api"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000102884-how-to-search-for-members-through-the-api"
+    },
+    {
+      "text": "/api/v2/user/transactions",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000102978-how-to-get-member-transactions-information-through-the-api"
+    },
+    {
+      "text": "API Testing Page",
+      "url": "https://ww2.managemydirectory.com/admin/apiSettings/documentation"
+    }
+  ],
+  "lastmod": "2025-09-30T21:42:14+05:30",
+  "scraped_at": "2026-10-18T13:50:03.903674"
+}

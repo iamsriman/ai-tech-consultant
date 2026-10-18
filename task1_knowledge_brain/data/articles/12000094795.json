@@ -1,0 +1,27 @@
+{
+  "article_id": "12000094795",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094795-07-07-2023-software-updates",
+  "title": "07/07/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/07/2023 - Software Updates"
+  ],
+  "content": "## 07/07/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000094795\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We released an update to support prorated paid Membership Plan upgrades and downgrades.  In order to use this new feature navigate to the Admin >> Settings >> Advanced Settings >> Enable Prorated Plan Changes. See the documentation here for more information. Widgets Involved: Bootstrap Theme - Account - Upgrade Page 2 Bootstrap Theme - Function - Order Summary\n\n- We updated the help text of the \"Require Complete Profile\" setting on the General Settings page in the Admin.\n\n- We updated the text shown in the submit button on paid checkout pages after applying a coupon code which will make the purchase price 0. Widget Involved: Bootstrap Theme - Function - Order Summary\n\n- We fixed an issue which was preventing the system from displaying currency symbols correctly for custom price fields in the Member Dashboard and lead emails in some cases\n\n- We fixed an issue which was causing the system to display the name of a Payment Gateway during the process when manually creating a subscription for a member from the Admin when the website does not have a Payment Gateway connected.\n\n- We implemented an update in order to not load the JS code related to the Member Profile Analytics Add-On on profile pages when the \"Enable Profile Statistics\" Membership Plan Setting is not active. Widget Involved: Bootstrap Theme - Display - Contact Form Thank You Message Bootstrap Theme - Listing Search Results Statistics Bootstrap Theme - Member Profile - Statistics Bootstrap Theme - Module - Posted by Author Snapshot\n\n- We fixed an issue which was preventing the system from displaying the correct domain expiration data on the Domain Manager page in the Admin in some cases.\n\n- We fixed an issue with the Related Post by Category widget which was causing the system to display posts from members who do not currently have permission to make posts of that type. Widget Involved: Bootstrap Theme - Display - Related Posts by Category\n\n- We increased the maximum results per page to 500 on the Member Images page in the Admin.\n\n- We updated the Member Categories page in the Admin to maintain the user's place in the pagination after saving changes.\n\n- We fixed an issue which was preventing the currency symbol from displaying correctly in the Recent Classifieds and Recent Products homepage widgets in some cases. Widget Involved: Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Products",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000094795",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000094795"
+    },
+    {
+      "text": "here",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000094635"
+    }
+  ],
+  "lastmod": "2023-07-11T23:09:33+05:30",
+  "scraped_at": "2026-10-18T13:52:29.180465"
+}

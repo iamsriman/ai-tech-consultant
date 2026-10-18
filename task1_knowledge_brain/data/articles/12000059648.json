@@ -1,0 +1,166 @@
+{
+  "article_id": "12000059648",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059648-in-depth-look-into-each-form-field-type",
+  "title": "In-Depth Look Into Each Form Field Type",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "In-Depth Look Into Each Form Field Type"
+  ],
+  "content": "## In-Depth Look Into Each Form Field Type\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000059648\n\n\n## What Are Field Types?\n\n\nThe Field Type setting determines how a form field displays on the front end.\n\nField types can be found under Edit View for any form:\n\n\n## Select Fields\n\n\n\n### Checkboxes\n\n\nTo add options to a checkbox field, click Add Option .\n\nSpecify the option display name and database variable. The database variable is created automatically but can be edited if needed.\n\nFront-end view:\n\n\n### Drop-down List\n\n\nThe same logic used for checkboxes applies to drop-down lists.\n\nFront-end view:\n\n\n### Multiple Choice Radios\n\n\nThe same logic used for checkboxes applies to radio buttons.\n\n\n### Yes or No\n\n\nImportant Note: For all select-type fields (Checkboxes, Radio Buttons, and Drop-down Lists), keyword searches will match the saved field label content.\n\n\n## Text Inputs\n\n\n\n### Custom HTML\n\n\n\n### Email Address\n\n\n\n### Section Title\n\n\nImportant Note: Required Field and Database Variable settings are not applicable for this field type.\n\n\n### Submit Form Button\n\n\nImportant Note #1: Required Field and Database Variable settings are not applicable for this field type.\n\nImportant Note #2: We recommend using Bootstrap button classes. Reference:\n\nBootstrap Buttons\n\nIn the example above, btn btn-danger was used to style the button.\n\n\n## Fancy Fields\n\n\n\n### File Upload Field\n\n\nImportant:\n\n- Maximum file size: 10 MB\n\n- Default availability: Listing – Additional Details – Member form\n\n- This field can be used on other forms with the File Uploads for Forms add-on.\n\nAdditional Information:\n\nHow to Use or Modify the Member Upload CV or Brochure Field\n\n\n### Froala Text Editors\n\n\n- Froala Text Editor – Basic\n\n- Froala Text Editor – Image Upload\n\n- Froala Text Editor – Image Upload + Pre-Made Elements\n\n- Froala Text Editor – Access Media Manager\n\nFull details are available here:\n\nFroala Text Editor: Versions and Upload Capabilities",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12110314650/original/ffNJDym9_RpFAQjKCQBx0yxhm93f31p8HQ.png?1655225916",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095102871/original/J7oZ7a6I-CuzZmYnzjYkYNjrMtq555pxSg.png?1625581565",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095103087/original/v8p8ykKsIH5qmg57NpyUOvcsG68NnNuWrg.gif?1625581719",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095103222/original/_AZyytWQcrQa-T6gTaDpq1BZuYeFfCs1OQ.png?1625581837",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095103383/original/HfKaLs5AomDtOj3zPfCOJZT7lNmx_Ajq-g.png?1625581985",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095103297/original/_x8bQGKn1GZqiupxt9932aRYE2edpvzxOA.png?1625581909",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12095103496/original/S_d0P3EZ2D02FchkYfNb85XHFn9E2CvrbA.png?1625582071",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090919347/original/PMtqfpjmTpsyJeq89OCt5gHhTuuHsOvRbQ.png?1617673736",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090919104/original/56jHOBONJ52ylWObN7tbtFsRlUHRkmWVtw.png?1617673297",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090919394/original/QZQsbouWgevObty1_YgNr5B524lUHUBz_w.png?1617673779",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12081107264/original/M2dptRGY6FDFJUnh-t3oYldn4rdphUQmaw.png?1597304157",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094101147/original/olKIgMF983OBuw1qbJt5Y-KO3bYsC4BdlA.png?1623768968",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12094101661/original/GnsM7A18ygPLJ56YhdsGxWnWCvjicOJkfw.png?1623769355",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12108766001/original/GqrI0vW-SHnUfjQ3nb0AFl1S_IZhqI4KuQ.png?1652201707",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'In-Depth Look Into Each Form Field Type' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000059648",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000059648"
+    },
+    {
+      "text": "Bootstrap Buttons",
+      "url": "https://www.w3schools.com/bootstrap/bootstrap_buttons.asp"
+    },
+    {
+      "text": "File Uploads for Forms",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000087004"
+    },
+    {
+      "text": "How to Use or Modify the Member Upload CV or Brochure Field",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000026216-how-to-use-and-or-modify-the-member-upload-cv-or-brochure-field"
+    },
+    {
+      "text": "Froala Text Editor: Versions and Upload Capabilities",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000019667"
+    }
+  ],
+  "lastmod": "2026-01-06T01:40:45+05:30",
+  "scraped_at": "2026-10-18T13:45:16.745778"
+}

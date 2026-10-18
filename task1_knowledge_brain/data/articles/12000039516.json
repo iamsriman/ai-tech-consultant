@@ -1,0 +1,23 @@
+{
+  "article_id": "12000039516",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039516-12-29-17-software-updates",
+  "title": "12/29/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/29/17 - Software Updates"
+  ],
+  "content": "## 12/29/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000039516\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We refactored one of the core files that loads every time a frontend page of a website is requested in order to make it process faster.  We also removed several lines of code that were present to support pages that have since been deprecated.\n\n- We fixed an issue that was affecting the normal behavior of the US MAP Search Widget. Widget Involved: Bootstrap Theme - Homepage Search - Clickable USA Map\n\n- We improved the CSS of the Edit Package Data Flow Lightbox (Lead Settings section) in the Admin.\n\n- We released version 2 of the Add-On Manager System.\n\n- We improved the Restore Default Code Module in the Edit Post Setting section on the Admin in order to remove the blank lines that were added when the code was restored from default.\n\n- We removed the Recaptcha Update Message from the Admin when the Software Version is lower than 4.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000039516",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000039516"
+    }
+  ],
+  "lastmod": "2017-12-29T21:23:14+05:30",
+  "scraped_at": "2026-10-18T13:42:09.929375"
+}

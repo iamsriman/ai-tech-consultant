@@ -1,0 +1,105 @@
+{
+  "article_id": "12000001005",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001005-using-text-labels-with-percentage-shortcode",
+  "title": "Using Text Labels with Percentage Shortcode",
+  "category": "My Content",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Additional Tips & Tutorials",
+    "Using Text Labels with Percentage Shortcode"
+  ],
+  "content": "## Using Text Labels with Percentage Shortcode\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000001005\n\nIn this article you are going to learn more about the text Labels, these are variables that appear between percent signs (%) and are pre-processed before being outputted to the web page.\n\nBrilliant Directories offers several ways of customizing how they will look on the page:\n\n\n## Single Percent Sign:\n\n\n\n### Example: %website_name%\n\n\nFor this examples we will use the website_name variable with the value brilliant directories website\n\nIf we use a single percent sign like this:\n\nWe would get the following on the homepage\n\nIn this example, notice that all letters are lower case .\n\n\n## Single Percent Sign + First Capital Letter\n\n\n\n### Example: %Website_name%\n\n\nIf we use a single percent sign with the first letter of the variable capitalized like this:\n\nWe would get the following:\n\nNotice that the first letter for all words is now capitalized .\n\n\n## Double Percent Sign\n\n\n\n### Example: %%website_name%%\n\n\nIf we use a double percent sign like this:\n\nWe would get the following:\n\nNotice that the words are now plural\n\n\n## Double Percent Sign + First Capital Letter\n\n\n\n### Example: %%Website_name%%\n\n\nIf we use a double percent sign with the first letter of the variable capitalized like this:\n\nWe would get the following:\n\n\n## Triple Percent Sign\n\n\nLastly there is the triple percent sign, which just means that any value stored in the Text Labels will be printed EXACTLY like it is. Capital letters will remain capital letters, lower case will remain lower case and so on.\n\nNotice that all words are capitalized and plural . You can find most of this variables in the Text Labels section of your Backend Admin. Simply going to Settings -> Text Labels and you will see their Variable Name in the variable option.\n\n\n## PostFix Variable Parameters\n\n\nWith the mentioned information above, you can also extend the functionality of the distinct Text Label formats by postfixing them with the following variable parameters:\n\nThe methods can be used when calling any \"%variable_name%\" in the system. The way to call a method is the following: %variable~method%. All the regular functionality of the variables like double or triple \"%\" signs is still available when using methods.\n\n~ao - It is meant for admins and when used with a Text Label it will pre-process the variable in the frontend but not for admins. To use it change the variable from %variable% to %variable~ao% (~ao is postfixed to it)\n\n~as - It is used to add the apostrophe for the possession of nouns. So by using %variable~as% you would change a value of women to women's\n\n~na - It is used to show the variable in plain text (not pre-processed). So using %variable~na% will show %variable% instead of the actual value.\n\n~ut - It is used for special cases where we use URL like text (eg: Slashes). When we use %variable~ut%, it will still pre-process the variable, but in addition to this, it will also remove any special characters for the URL format.\n\n\n## Special Note regarding Text Labels\n\n\nWith the following information about Text Labels set, there is another point that needs to be made regarding Text Labels. You will need to avoid naming a Text Labels the same as a column on the database. For example, the following is a list of columns names found in the database that you should not use as Text Labels:\n\ntype, old_filename, new_filename, updated_by, name, icon, keywords, order, group_name, database, first_name, last_name, email, company, phone_number, fax_number, address1, address2, zip_code, zip, state_code, country_code, state_ln, country_ln, website, twitter, facebook, linkedin, blog, active, token, position, profession, additional, link, link_order, user_id, comments, data_name, data_type, form, form_name, search_results, h1, h2, post_type, widget, widget_name, status, title, section, filename, quote, experience, affiliation, awards, published, education, softwares, fees, about_me, featured, testimonial, preferred, work_experience, rep_matters, speaking_engagements, current_position, additional_fields, lat, lon, post_title, post_caption, post_category, post_image, post_price, post_tags, group_category, property_status, property_type, property_beds, property_baths, property_price\n\nThis is because they will have a conflict between each other.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000265745/original/Code1.png?1452004778",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000265792/original/Code11.png?1452004824",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000265881/original/Code2.png?1452004935",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000265930/original/Code21.png?1452004999",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000266055/original/code3.png?1452005154",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000266095/original/code31.png?1452005167",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000266125/original/code4.png?1452005225",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12000266188/original/code41.png?1452005298",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12171375600/original/nBq3yhOileNfAEVKRPcVLjUXEBEvtBr_iw.png?1764712312",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Using Text Labels with Percentage Shortcode' in section 'My Content' / 'Additional Tips & Tutorials'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000001005",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001005"
+    }
+  ],
+  "lastmod": "2025-12-03T03:22:03+05:30",
+  "scraped_at": "2026-10-18T13:39:25.214517"
+}

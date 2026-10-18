@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109393",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109393-08-07-2026-software-updates",
+  "title": "08/07/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/07/2026 - Software Updates"
+  ],
+  "content": "## 08/07/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109393\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released a new Advanced Setting, \"Auto-Save Drafts\". Disabling this setting turns off the automatic draft-saving system for page edits in the Admin. The feature is enabled by default.\n\n- Updated the \"Members Imported / Added / Updated / Deleted Via Admin\" webhooks to include the member's Subscription ID and subscription plan name in the payload.\n\n- Updated the Froala WYSIWYG editor used across the platform to the latest version, improving stability and security. Widget Involved: Bootstrap Theme - HEAD\n\n- Improved the security of the Member Profile Statistics Add-On by adding stricter validation of tracked click data and safer display of statistics in the Member Dashboard.\n\n- Fixed an issue that caused auto-saved drafts from one website to be offered on a different website when an Admin managed multiple websites.\n\n- Fixed an issue that caused the main newsletter editor to close when closing the image upload window while replacing an image in the AI Newsletter Creator in the Admin .\n\n- Fixed an issue that caused custom web pages to be marked as not indexable by search engines in some cases, even when the page's no-index setting was disabled. Widget Involved: Bootstrap Theme - HEAD\n\n- Fixed an issue that caused Media Manager entries in the Admin Activity Tracker to be recorded in UTC instead of the website's timezone.\n\n- Fixed an issue that caused the Transactions tab of a member's profile in the Admin to display invoices belonging to a previously deleted member in some cases.\n\n- Fixed an issue that allowed Admin users without the Billing History permission to view a member's transaction history from the Payments tab in the Admin if accessed directly.\n\n- Fixed an issue that caused a website's robots.txt file to be emptied or lose its existing rules when the Enhanced Hosting package was activated in some cases.\n\n- Fixed an issue that prevented Member Credits from being re-evaluated when collecting on invoices generated prior to a change to the Billing Credit Settings of a site being saved.\n\n- Fixed an issue that caused category page URLs created through the API or bulk imports to drop non-English characters.\n\n- Fixed an issue that caused the .htaccess and robots.txt file editors in the Admin to remove backslashes and corrupt special characters when saving.\n\n- Fixed an issue that prevented creating a subscription starting on the current date when adding a new customer order in the Admin in some cases.\n\n- Fixed an issue that prevented Stripe credentials from being saved in the Admin in some cases. The system now displays a clear error message and automatically resolves the underlying problem.\n\n- Fixed an issue that caused the canonical and Open Graph URLs on post category pages to contain malformed characters in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- Fixed an issue that prevented SSL certificates from being installed for a site when one of its additional subdomains failed validation. The system now automatically excludes the failing domain and retries the installation.\n\n- Added delivered and bounced tracking details for addresses that were added as CC and BCC recipients to the Activity column in the Email Outbox .",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109393",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109393"
+    }
+  ],
+  "lastmod": "2026-08-10T23:36:12+05:30",
+  "scraped_at": "2026-10-18T13:59:57.061946"
+}

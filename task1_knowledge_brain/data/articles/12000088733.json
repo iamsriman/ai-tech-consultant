@@ -1,0 +1,23 @@
+{
+  "article_id": "12000088733",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088733-07-22-22-software-updates",
+  "title": "07/22/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/22/22 - Software Updates"
+  ],
+  "content": "## 07/22/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000088733\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We updated the Activity Tracker to log when an Admin manually unblocks an IP from the Admin area.\n\n- We fixed an issue which was causing the \"Show Sidebar\" setting for Streaming Events to display twice when editing the events calendar settings in some cases.\n\n- We implemented several security updates to prevent XSS injections in several areas of the software.\n\n- We updated the layout of the Admin Accounts page in the Admin area to add a maximum height to each Admin's section in the table to prevent the sections from getting too long when the Admin account is associated with several different websites.\n\n- We fixed an issue which was preventing the system from loading the default form fields when editing reviews and leads when the site has custom review and lead forms that have been disabled. We also removed Google reCaptcha fields from displaying when editing reviews and leads as well.\n\n- We updated the layout of the \"Phone Country Codes\" Advanced Setting in the Admin. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- We updated the \"Show Only Sub-Sub Categories On Member Profiles\" Advanced Setting to support displaying only Sub Categories as an additional option.\n\n- We updated the display of Pricing Options in the Membership Plan settings after the \"Website Currency Number Format\" General Setting is changed.\n\n- We fixed an issue which was preventing the system from displaying the Sales History data for the \"Website - Digital Product\" post type in some cases.\n\n- We updated the \"Post - Standard\" and \"Post - Photo Albums\" webhooks to include the post_image, revision_count and post_image_full_url variables when sending data to the webhooks. The revision_count variable will count how many times a post has been saved by a member from the Member Dashboard.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000088733",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000088733"
+    }
+  ],
+  "lastmod": "2022-07-25T23:58:30+05:30",
+  "scraped_at": "2026-10-18T13:50:01.328144"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000022882",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000022882-default-post-variable-cheatsheet",
+  "title": "Default Post Variable Cheatsheet",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Default Post Variable Cheatsheet"
+  ],
+  "content": "## Default Post Variable Cheatsheet\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000022882\n\nFor developers, adding and editing PHP post variables is possible. By default, the platform includes variables that can be echoed using PHP within Post templates.\n\nThere are two categories that all Post Types fall into. The variable list below are used by PHP developers to echo default values that are supported by Standard Post Types and Multi-Photo Post Types.\n\n\n### Standard Post Types\n\n\nThese post types only support a single feature photo uploaded for the post. Additional photos can be added into description of the post using the text editor when creating the post.\n\nExamples:\n\n- Community Articles\n\n- Website Blog Articles\n\n- Events\n\n- Job Listings\n\n- Coupons\n\n\n### Multi-Photo Post Types\n\n\nThese post types support uploading multiple photos to create a photo gallery for the post. And this post type also supports adding additional photos into the description of the post using the text editor when creating the post - similar to the Standard Post Types.\n\nExamples:\n\n- Photo Albums\n\n- Classified Listings\n\n- Property Listings\n\n- Product Listings\n\n\n## Standard Post Types\n\n\nVariable Attribute Description Type post_id Post ID Integer post_title Post Title Text Input post_content Post Content Froala Text Editor post_category Post Category Dropdown Select post_filename Post URL System Generated VARCHAR post_image Post Image URL System Generated VARCHAR post_price Price of Item Numerical post_date Date Post Created Timestamp post_tags Post Keywords Text Input post_status Publish Status Yes/No post_live_date Date Post Created Timestamp user_id ID of Member Integer post_expire_date End/Expire Date Timestamp post_start_date Start/Publish Date Timestamp lat Latitude Location Numerical lon Longitude Location Numerical post_location Post Location Textarea country_sn Country Location Text Input state_sn State Location Text Input\n\n\n## Group Post Types\n\n\nVariable Attribute Description Type post_id Post ID Integer user_id ID of Member Integer group_name Post Title Text Input group_desc Post Body Froala group_location Post Location Textarea group_date Date Created Timestamp group_filename Post URL System Generated VARCHAR group_status Publish Status Timestamp group_category Post Category Dropdown Select lat Latitude Location Numerical lon Longitude Location Numerical user_id ID of Member Integer post_tags Post Keywords Text Input property _ status Status of Property Posts String property_type Type of Property Posts Numerical property_price Price for Property Posts Numerical property_beds Number of Beds in Property Posts Numerical property_baths Number of Beds in Property Posts Numerical property_sqr_foot Square Footage for Property Posts Numerical post_location Post Location Textarea country_sn Country Location Text Input state_sn State Location Text Input",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000022882",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000022882"
+    }
+  ],
+  "lastmod": "2026-09-03T03:19:03+05:30",
+  "scraped_at": "2026-10-18T13:40:51.718741"
+}

@@ -1,0 +1,35 @@
+{
+  "article_id": "12000008058",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008058-the-email-variables-used-with-the-leads-module",
+  "title": "The Email Variables Used with the  Leads Module",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "The Email Variables Used with the  Leads Module"
+  ],
+  "content": "## The Email Variables Used with the  Leads Module\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000008058\n\nThe Leads Module includes several variables that can be used when creating or customizing lead-related email templates. These variables allow you to automatically insert lead information, member details, login links, and other dynamic content into your emails. The following variables power the Basic Lead Module, and can be used when creating custom lead emails. Important note: When using lead variables, make sure to enter them exactly as shown below. Some variables require a single percentage sign (%variable%), while others require three percentage signs (%%%variable%%%). Using the wrong format may prevent the variable from displaying correctly in the email. For more information about variables, please see: » Understanding Variables Variables Member Access Variables These variables help members quickly access their account or view a lead. %member_login_link% Automatically logs the member into their dashboard without requiring them to enter their username or password. %member_lead_match_link% Takes the member directly to the specific lead associated with the email without requiring them to log in manually. This is the recommended variable for lead notification emails because it provides the fastest way for members to review, accept, or purchase leads. Lead Information Variables These variables display information submitted by the website visitor when creating the lead. %%%details%%% Displays the lead information fields configured in the Get Matched form. The information displayed by this variable can be customized by editing the fields included in the Get Matched form. %%%lead_id%%% Displays the Lead ID number. This is commonly used in administrative notifications to make it easier to locate a specific lead within the admin area. %%%lead_name%%% Displays the name of the website visitor who submitted the lead. %%%lead_email%%% Displays the email address entered by the website visitor. Important: This variable will display the visitor's email address even if the lead is configured as a Preview Lead. For this reason, it is typically only used in emails sent to the website visitor and is not included in member lead notification emails by default. %%%lead_phone%%% Displays the phone number entered by the website visitor. Like the lead email variable, this will display the phone number regardless of whether the lead is set to Preview or Complete. %%%lead_location%%% Displays the location entered by the website visitor when submitting the lead. Member Information Variables These variables display information about the member who was matched with the lead. %%%full_name%%% Displays the member's name. For Individual Accounts, the member's first and last name will be displayed. For Company Accounts, the company name will be displayed. %%%user_id%%% Displays the member's User ID number. %%%location%%% Displays the location of the matched member. Website Variables %%%website_name%%% Displays the website name. This variable is commonly used in email subject lines and email signatures to reinforce branding and recognition. Security Token Variables These variables return secure system tokens that can be used when creating custom links or integrations. %token% Displays the secure token associated with the lead. %user_token% Displays the secure token associated with the matched member. Custom Login Link Example The following link automatically logs the member into their account and takes them directly to the lead details page: <a href=\"http://%protocol_website_url%/login/token/%user_token%/leads\">\n    Login to your account to view this lead\n</a>\n\nAdditional Information: » How to Edit Email Templates » Emails » Email Templates » New Email Template",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000008058",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008058"
+    },
+    {
+      "text": "» Understanding Variables",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000022881"
+    },
+    {
+      "text": "How to Edit Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000003538"
+    },
+    {
+      "text": "Emails » Email Templates » New Email Template",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000045575"
+    }
+  ],
+  "lastmod": "2026-06-08T20:59:01+05:30",
+  "scraped_at": "2026-10-18T13:40:07.464302"
+}

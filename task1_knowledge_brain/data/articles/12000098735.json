@@ -1,0 +1,50 @@
+{
+  "article_id": "12000098735",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098735-settings-domain-manager-usage-and-storage-cleanup",
+  "title": "Settings » Domain Manager » Usage and Storage Cleanup",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Settings » Domain Manager » Usage and Storage Cleanup"
+  ],
+  "content": "## Settings » Domain Manager » Usage and Storage Cleanup\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098735\n\nThe Usage tab in Settings > Domain Manager shows how much of the website's plan is in use and provides a storage breakdown and cleanup tools.\n\n\n## Before starting\n\n\nThe administrator must have permission to view website resources. Download any export or backup files that must be retained before running cleanup.\n\n\n## Review plan usage\n\n\n- Open Settings > Domain Manager > Usage .\n\n- Review How much of your plan you are using .\n\n- Click Refresh to update the displayed figures.\n\nThe card includes members, the current month's bandwidth, and storage. A sent-email allowance appears where applicable; it can be daily or monthly depending on the site's email arrangement. Private-server administrators may also see Server usage . Use Increase Limit beside an allowance to review options for more capacity.\n\nThe Usage tab compares current consumption with the website’s plan limits.\n\n\n## Measure storage\n\n\n- Find What is using your storage .\n\n- Click Measure .\n\n- Review the returned breakdown before choosing a cleanup action.\n\nStorage measurement helps distinguish files, mail, and database use. A mailbox consuming space needs a different response from old export files.\n\nMeasure storage before choosing a cleanup action. The displayed figures are an example from an internal test website. The folder breakdown depends on the server; where it is unavailable, the panel says Folder detail is not available on this server and still reports the database and email totals.\n\n\n## Use the cleanup tools\n\n\nAction What it removes Delete unused images Image files no longer referenced by members, posts, or listings. Delete old export files Saved CSV and spreadsheet export files. Download any files still needed first. Delete backup files Backup archives stored in the website account. Server-level backups are separate.\n\nCleanup permanently removes files. The Domain Manager cannot undo these deletions. Read the selected action’s scope and retain any necessary files before confirming.\n\n- Select the cleanup action that matches the measured storage use.\n\n- Review its confirmation message.\n\n- Confirm only the intended deletion.\n\n- Wait for the action to finish.\n\n- Review the refreshed storage measurement.\n\nThese cleanup controls are intended for the named file categories, rather than deleting member records, web pages, or database content. For high bandwidth use, see How to Optimize the Bandwidth Usage of a Site . For mailbox storage, use Mailboxes .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668551/original/mTOt576FMgjIQ4_oz3gJLDCTkWNFDJ0HQA.png?1790182305",
+      "alt": "Usage tab with the member, bandwidth, storage, and daily email allowances marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Usage and Storage Cleanup' (Settings > Domain Manager): Usage tab with the member, bandwidth, storage, and daily email allowances marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668549/original/Y3JzwNvVATNtfx1Cfosg1iNqH4U7X2mxIw.png?1790182303",
+      "alt": "Storage breakdown with Measure and the Cleanup tools marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » Usage and Storage Cleanup' (Settings > Domain Manager): Storage breakdown with Measure and the Cleanup tools marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098735",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098735"
+    },
+    {
+      "text": "How to Optimize the Bandwidth Usage of a Site",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101331"
+    },
+    {
+      "text": "Mailboxes",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760"
+    }
+  ],
+  "lastmod": "2026-09-23T22:27:44+05:30",
+  "scraped_at": "2026-10-18T13:53:40.607098"
+}

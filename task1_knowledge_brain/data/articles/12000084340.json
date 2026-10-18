@@ -1,0 +1,23 @@
+{
+  "article_id": "12000084340",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084340-12-03-21-software-updates",
+  "title": "12/03/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/03/21 - Software Updates"
+  ],
+  "content": "## 12/03/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084340\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added an \"All My Sites\" link in the Admin Header Menu, next to the website name in the Admin. Clicking on this link leads to the Admin's Account Dashboard.\n\n- We updated the Instragram icon used by default throughout sites.\n\n- We fixed an issue which was causing the Dynamic Category Filter Add-Ons to redirect to the wrong URL when other search features were present on the same page in some cases.\n\n- We updated the logic of the Match Lead details page to show a \"Processing\" modal after a lead is matched manually.\n\n- We removed the ability to delete the \"Review Title\" field or disable the \"Required\" setting for it when editing the \"Listing - Write Review\" form in the Admin. This field is required in all cases for the proper functioning of the Reviews system.\n\n- We updated the Web Page Builder to auto-select the \"Apply NoIndex, NoFollow\" setting if a web page has been set as \"Only Allow Members\" or \"Only Allow Digital Product Buyers\" access. Search engines will not be able to reach these protected pages, making this setting appropriate in all cases.\n\n- We fixed an issue which was preventing the Search Members page from loading after conducting a search using the \"Forms Submitted\" and \"Forms Not Submitted\" criteria in some cases.\n\n- When a member purchases a Lead, Pay Per Post, or a Digital Product and the \"Use AVS Billing Address Fields\" Advanced Setting is active, the system will now send the Billing Address data along with the credit card details to the payment gateway. Widget Involved: Bootstrap Theme - Account - Leads Details Page - Purchase Button\n\n- We removed the ability to edit the \"URL Permalink\" setting for the Sub Account Post Type as this setting has no impact on a site.\n\n- We added new Webhooks to support the creation and saving of Member Posts.\n\n- We added a new Webhook to support members added individually or via import through the Admin area.\n\n- We created a new form field type called \"Security - Honeypot Field\". This field allows a form to add honeypot SPAM protection without any additional code.\n\n- We created a new form field type called \"Security - Google reCaptcha\". This field allows a form to add a Google Recatpcha element without any additional code.\n\n- Custom Web Pages created for member search results now work for both \"pretty\" and \"not-so-pretty\" URL versions of search results pages.\n\n- We added Thai as a Default Website Language.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084340",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084340"
+    }
+  ],
+  "lastmod": "2021-12-04T06:19:03+05:30",
+  "scraped_at": "2026-10-18T13:49:14.464107"
+}

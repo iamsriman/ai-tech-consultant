@@ -1,0 +1,103 @@
+{
+  "article_id": "12000013793",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013793-connect-an-email-account-to-microsoft-outlook",
+  "title": "Connect An Email Account to Microsoft Outlook",
+  "category": "Emails",
+  "folder": "Email FAQ",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email FAQ",
+    "Connect An Email Account to Microsoft Outlook"
+  ],
+  "content": "## Connect An Email Account to Microsoft Outlook\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000013793\n\nThe instructions below provide a general outline of how to connect an email account created in your cPanel account to Microsoft Outlook 2016 (desktop application).  Connecting an account to other versions of Microsoft Outlook may look slightly different, but the general settings should remain the same. Click on File >> Add Account: Select Manual setup or additional server types and click on \"Next\": Select \"POP or IMAP\" and click on \"Next\": The information for this step can be obtained from cPanel as shown in this article . Enter the the following information: Your Name: (the name you want to display the email is from when sending emails) Email Address: (the email address you created in cPanel) Account Type: POP3 Incoming mail server: (the \"Incoming Server\" recommended for this email account in cPanel) Outgoing mail server: (the \"Outgoing Server\" recommended for this email account in cPanel) User Name: (the full email address) Password: (the password you used when creating the email account) Click on \"More Settings\": Click on the \"Outgoing Server\" tab and check the \"My outgoing server (SMTP) requires authentication\" checkbox, select \"Use same settings as my incoming mail server\" and click on \"OK\": Click on \"Next\": Outlook will run a test to make sure email can be received and sent using those credentials.  If it is successful, it should look like it does below.  Click on \"Close\": You should then see a success message.  Click on \"Finish\" to complete the setup.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008002886/original/blob1470076468785.png?1470076469",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connect An Email Account to Microsoft Outlook' in section 'Emails' / 'Email FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008002921/original/blob1470076516545.png?1470076517",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connect An Email Account to Microsoft Outlook' in section 'Emails' / 'Email FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008003129/original/blob1470076920040.png?1470076920",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connect An Email Account to Microsoft Outlook' in section 'Emails' / 'Email FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008003695/original/blob1470078147530.png?1470078148",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connect An Email Account to Microsoft Outlook' in section 'Emails' / 'Email FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008003206/original/blob1470077086072.png?1470077086",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connect An Email Account to Microsoft Outlook' in section 'Emails' / 'Email FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008003709/original/blob1470078166883.png?1470078167",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connect An Email Account to Microsoft Outlook' in section 'Emails' / 'Email FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008003264/original/blob1470077186912.png?1470077187",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Connect An Email Account to Microsoft Outlook' in section 'Emails' / 'Email FAQ'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000013793",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013793"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008002886/original/blob1470076468785.png?1470076469"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008002921/original/blob1470076516545.png?1470076517"
+    },
+    {
+      "text": "",
+      "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12008003129/original/blob1470076920040.png?1470076920"
+    },
+    {
+      "text": "this article",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003535"
+    }
+  ],
+  "lastmod": "2026-06-18T20:25:26+05:30",
+  "scraped_at": "2026-10-18T13:40:25.139698"
+}

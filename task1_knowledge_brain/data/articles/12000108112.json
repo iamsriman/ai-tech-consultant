@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108112",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108112-api-reference-redirects",
+  "title": "API Reference - Redirects",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Redirects"
+  ],
+  "content": "## API Reference - Redirects\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108112\n\n← Back to API Reference | Getting Started Redirects Redirects define 301 permanent redirect rules on your directory site. Each record maps an old URL path to a new destination URL, enabling you to manage URL changes after content moves, slug updates, or site restructuring without breaking inbound links. Model name in URL: redirect_301 — DB table: 301_redirects The Redirect Object Field Type Description redirect_id integer Unique redirect ID (primary key, read-only) id integer Legacy secondary identifier; typically 0 for system-generated redirects type string Category of the redirect source (EG profile , post , category , custom ) required on create old_filename string The old URL path being redirected from, relative to the domain root (EG old-slug/member-name ) required on create new_filename string The new destination URL path to redirect to (EG new-category/new-member-name ) required on create date_added string Timestamp when this redirect was created (format: YYYYMMDDHHMMSS ) db_id integer Database record ID of the source content object (EG user ID, post ID) this redirect was generated from updated_by string Username or system identifier that created or last updated this redirect List Redirects GET /api/v2/redirect_301/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/redirect_301/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"redirect_id\": \"7\",\n      \"id\": \"0\",\n      \"type\": \"profile\",\n      \"old_filename\": \"united-states/los-angeles/top-level-category/sample-member\",\n      \"new_filename\": \"neurofeedback/portugal/lisbon/alges/active-life/sample-member-iii\",\n      \"date_added\": \"20210301062133\",\n      \"db_id\": \"1\",\n      \"updated_by\": \"\"\n    },\n    {\n      \"redirect_id\": \"8\",\n      \"id\": \"0\",\n      \"type\": \"custom\",\n      \"old_filename\": \"old-page-slug\",\n      \"new_filename\": \"new-page-slug\",\n      \"date_added\": \"20230615094500\",\n      \"db_id\": \"0\",\n      \"updated_by\": \"admin\"\n    }\n  ],\n  \"total\": \"24\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Retrieve a Redirect GET /api/v2/redirect_301/get/{redirect_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/redirect_301/get/7\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"redirect_id\": \"7\",\n      \"id\": \"0\",\n      \"type\": \"profile\",\n      \"old_filename\": \"united-states/los-angeles/top-level-category/sample-member\",\n      \"new_filename\": \"neurofeedback/portugal/lisbon/alges/active-life/sample-member-iii\",\n      \"date_added\": \"20210301062133\",\n      \"db_id\": \"1\",\n      \"updated_by\": \"\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Redirect POST /api/v2/redirect_301/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/redirect_301/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"type=custom\" \\\n  -d \"old_filename=old-about-page\" \\\n  -d \"new_filename=about-our-company\" \\\n  -d \"updated_by=api\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"redirect_id\": \"25\",\n    \"id\": null,\n    \"type\": \"custom\",\n    \"old_filename\": \"old-about-page\",\n    \"new_filename\": \"about-our-company\",\n    \"date_added\": null,\n    \"db_id\": null,\n    \"updated_by\": \"api\"\n  }\n} Update a Redirect PUT /api/v2/redirect_301/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/redirect_301/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"redirect_id=25\" \\\n  -d \"new_filename=about-us\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"redirect_id\": \"25\",\n    \"id\": null,\n    \"type\": \"custom\",\n    \"old_filename\": \"old-about-page\",\n    \"new_filename\": \"about-us\",\n    \"date_added\": null,\n    \"db_id\": null,\n    \"updated_by\": \"api\"\n  }\n} Delete a Redirect DELETE /api/v2/redirect_301/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/redirect_301/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"redirect_id=25\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"redirect_301 record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108112",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108112"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:02:03+05:30",
+  "scraped_at": "2026-10-18T13:58:18.697642"
+}

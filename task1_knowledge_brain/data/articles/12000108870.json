@@ -1,0 +1,23 @@
+{
+  "article_id": "12000108870",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108870-06-19-2026-software-updates",
+  "title": "06/19/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/19/2026 - Software Updates"
+  ],
+  "content": "## 06/19/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108870\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Released new API endpoints that return the full member category tree for a directory — including top, sub, and sub-sub categories — with an option to include the number of members in each category. In addition, the system now supports safely deleting a category through the API, with a safeguard that first reports how many members and subcategories would be affected before allowing a full removal.\n\n- Released BD Butler PRO , an upgraded version of the BD Butler AI assistant that adds purchasable AI credits with automatic refills, saved chat history, and support for multiple separate conversations.\n\n- Made the BD Butler AI assistant available on the Member Search and Transaction History pages in the Admin, allowing Admins to ask about member and revenue insights directly from those pages.\n\n- Improved the BD Butler experience when editing Web Pages, Email Templates , and Newsletters in the Admin by moving the BD Butler button directly into the content editor's toolbar. Along with this, the separate \"Upload Images\" button was removed to streamline the toolbar.\n\n- Added activity tracking for the Media Manager in the Admin, so the system now records when images are uploaded or deleted, along with which Admin performed each action.\n\n- Improved the image optimization process for profile logo and cover image uploads in the Member Dashboard, bringing them in line with the optimization already applied to profile images for faster loading and better quality. Widget Involved: Bootstrap Theme - Account - Profile Image Upload\n\n- Updated the getSiteInfo API endpoint to include the site's checkout page URL slug, making it easier to retrieve directly from the API.\n\n- Fixed an issue that caused the system to remove saved revision history for widgets, page templates, content blocks, and SEO pages when saving changes, so the \"Load Revision\" option could lose previous versions in some cases.\n\n- Fixed an issue that caused the previous and next page links in blog and search result pagination to include extra, malformed web address information in some cases. Widgets Involved: Bootstrap Theme - HEAD Bootstrap Theme - Pagination\n\n- Fixed an issue that prevented embedded videos, such as Vimeo and YouTube, from expanding to the full width of their container on post detail pages, causing them to display at a small fixed size. Widget Involved: Bootstrap Theme - HEAD - JS - Libraries\n\n- Fixed an issue that caused the \"Scroll to Message Field\" button in Private Member Chat to position the top of the message box behind the site's fixed header, hiding part of the text field.\n\n- Fixed an issue that caused deleting a category through the API to leave behind orphaned category associations instead of fully removing them.\n\n- Fixed an issue that caused the Business Data Tool to create a new category even when that option had not been selected.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108870",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108870"
+    }
+  ],
+  "lastmod": "2026-06-22T23:19:12+05:30",
+  "scraped_at": "2026-10-18T13:59:06.439777"
+}

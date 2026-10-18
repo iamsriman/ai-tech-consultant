@@ -1,0 +1,23 @@
+{
+  "article_id": "12000033182",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000033182-07-28-17-software-updates",
+  "title": "07/28/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/28/17 - Software Updates"
+  ],
+  "content": "## 07/28/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000033182\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue that was affecting the creation of certain Post Detail Pages.\n\n- We fixed an issue that was causing the number of newsletters subscribers in the Admin area to be displayed incorrectly in some cases.\n\n- The Events Calendar Widget is now based on Text Labels. Widgets Involved: Bootstrap Theme - Display - Events Calendar Bootstrap Theme - Function - Events Calendar JSON Array\n\n- We updated the display of member names in the \"Search Members\" area of the Admin to be consistent with their display on the front end of websites based on whether the member is an \"Individual\" or a \"Company\".\n\n- We added support for the \"Website Address\" field type in the Form Manager. This field type will now automatically create a link from the content entered in this field rather than displaying the content as plain text.\n\n- We fixed an issue that was affecting the Request Review Feature. Widgets Involved: Bootstrap Theme - Account - Input Invite Emails\n\n- We made an update to improve the functionality of the Advanced Setting allow_duplicate_member_emails .  It is now working as expected.\n\n- We updated the functionality of the Advanced Setting fast_search and it is now working as expected. Widgets Involved: Bootstrap Theme - Category Groups - Member Categories\n\n- The New Bulk Image Importer has been updated and now works properly with the latest version of the image system.  This can be found by navigating to Members >> Member Images in the Admin area\n\n- We fixed an issue with the member search functionality that was causing keyword searches that began with a number to return incorrect results. Widgets Involved: Search - Member - Search Query",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000033182",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000033182"
+    }
+  ],
+  "lastmod": "2017-07-31T22:12:22+05:30",
+  "scraped_at": "2026-10-18T13:41:30.607802"
+}

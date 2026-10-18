@@ -1,0 +1,154 @@
+{
+  "article_id": "12000100652",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100652-edit-member-url-dashboard-internal-pages",
+  "title": "Edit Member URL Dashboard Internal Pages",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Edit Member URL Dashboard Internal Pages"
+  ],
+  "content": "## Edit Member URL Dashboard Internal Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100652\n\nThis documentation explains how to edit all URLs within the member dashboard area through the Advanced Settings section:\n\n/account /home /contact /profile /resume /about /locations /leads /promote/verify /changelisting /billing /password /upgrade\n\n\n### Member Dashboard URL: Home\n\n\nThe portion URL of the Member Dashboard that will display when a member is on their Member Dashboard Home Page.\n\n\n### Member Dashboard URL: Contact Details Form\n\n\nA portion of the URL used when a member fills out the \"Contact Details\" form in the Member Dashboard.\n\n\n### Member Dashboard URL: Profile Photo\n\n\nA portion of the URL used when a member uploads their Profile Photo, Logo, and/or Cover Photo in the Member Dashboard.\n\n\n### Member Dashboard URL: Listing Details Form\n\n\nA portion of the URL used when a member fills out the \"Listing Details\" form in the Member Dashboard.\n\n\n### Member Dashboard URL: About Form\n\n\nA portion of the URL used when a member fills out the \"About\" form in the Member Dashboard.\n\n\n### Member Dashboard URL: Service Areas\n\n\nA portion of the URL used when a member selects Service Areas in the Member Dashboard.\n\n\n### Member Dashboard URL: Account\n\n\nThe root URL of the Member Dashboard that will display when a member is logged in to their account. By default this URL is /account/.\n\n\n### Member Dashboard URL: Leads Page\n\n\nThe portion of the URL of the Member Dashboard that will display when a member is viewing their Leads page in their Account. By default this URL is leads.\n\n\n### Member Dashboard URL: Verify Listing\n\n\nPortion of the URL that will display when a member is verifying their account in the Member Dashboard. By default is promote/verify.\n\n\n### Member Dashboard URL: Upgrade\n\n\nPortion of the URL that will display when a member is upgrading their account in the Member Dashboard. By default is /upgrade.\n\n\n### Member Dashboard URL: Changelisting\n\n\nPortion of the URL that will display when a member clicks on the Manage Account link in the Member Dashboard. By default is /changelisting.\n\n\n### Member Dashboard URL: Password\n\n\nPortion of the URL that will display when a member wants to modify their password in their account on the Member Dashboard. By default, it is /password.\n\n\n### Member Dashboard URL: Billing\n\n\nPortion of the URL that will display when a member visits the Billing Information section of their account on the Member Dashboard. By default, it is /billing.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156444675/original/Ycio-bOr9ySYIzoj7rxIDT0dw550uAXUeg.png?1738685959",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647872/original/Kkd1s7--n8QsKueUsmiisBapI9zcopJLOQ.png?1753162897",
+      "alt": null,
+      "caption": "The portion URL of the Member Dashboard that will display when a member is on their Member Dashboard Home Page.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'. Context: The portion URL of the Member Dashboard that will display when a member is on their Member Dashboard Home Page.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647843/original/sHMdjdT2FPwZ1zqU80HodLlcwlQSP3OhmA.png?1753162757",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647864/original/UCCk03wYoYWjvdv5KhJqJ84snjHbUVgAqg.png?1753162821",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647880/original/Ib_xFk2LlLpEgnSpnfjhHgwIqyovS8wDyg.png?1753162944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647915/original/4U1gEeiZLV67NM1YMnkvGhepVYd4wfc7_g.png?1753162988",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647937/original/vdQBPZi5a62IogISwtXDrOY8JSjcTkRqFQ.png?1753163034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647976/original/EpaKS5I7GU6qGp9q5GkBgv5HHZIdT8fHxg.png?1753163164",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164648002/original/gIDe553icHwoIKnKV4zBTsgilSwqEYdUtQ.png?1753163220",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164648011/original/jXIl-C0W0EVnYyHwbM1vIPBptUO8zrDSBg.png?1753163293",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164648017/original/B9EeIW6gpdjITTHRE801gqWJ9YCLDMcE7Q.png?1753163335",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164648029/original/nm1xnn2vyxowdr_RWNKutaTr0YY1SSCcdw.png?1753163404",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164648050/original/247REuX3RVonhkAb0NvVDlhf1TMKIsX1tg.png?1753163455",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164648064/original/Uc09TIqlsWDYGyEXhWy7FI-htSnX2wlpsQ.png?1753163495",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Member URL Dashboard Internal Pages' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100652",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100652"
+    },
+    {
+      "text": "Advanced Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047895"
+    }
+  ],
+  "lastmod": "2025-07-22T11:21:41+05:30",
+  "scraped_at": "2026-10-18T13:54:36.467584"
+}

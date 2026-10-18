@@ -1,0 +1,23 @@
+{
+  "article_id": "5000682662",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682662-how-to-connect-a-subdomain",
+  "title": "How To Connect A Subdomain",
+  "category": "Developer Hub",
+  "folder": "cPanel Dashboard",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "cPanel Dashboard",
+    "How To Connect A Subdomain"
+  ],
+  "content": "## How To Connect A Subdomain\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000682662\n\n\n## How to Connect a Subdomain\n\n\nA subdomain is an address such as members.example.com . It can be used as the primary address of another Brilliant Directories website or can point to an external service.\n\n\n### Use a Subdomain for a Brilliant Directories Website\n\n\n- Open Settings > Domain Manager on the Brilliant Directories website that will use the subdomain.\n\n- Start the domain connection flow and choose A domain name I own .\n\n- Enter the complete subdomain, such as members.example.com . Do not add www before a true subdomain; if it is typed, the wizard removes it.\n\n- Select Check this address .\n\n- During Point Domain , add the CNAME record shown by Domain Manager wherever the parent domain's DNS is managed.\n\n- Select Check again .\n\n- After the record is recognized, select Continue .\n\n- Review the current and proposed addresses.\n\n- Select Switch to this address .\n\n- Confirm Yes, switch it .\n\n- Wait for completion, then open the subdomain over HTTPS to verify the result.\n\nIf the parent domain uses Brilliant Directories nameservers, Point Domain reports We manage the DNS for the subdomain. There is nothing to add; the record is created during the switch. If the parent domain's DNS is on Cloudflare, the stage can offer Add this record for me or Set it up for me to add the record automatically. If the DNS is managed by a registrar or another provider, add the CNAME at that provider.\n\n\n### Point a Subdomain to an External Service\n\n\nWhen the parent domain uses Brilliant Directories nameservers, open Developer Hub > cPanel Dashboard > Zone Editor , select Manage for the domain, and create the record required by the external service. A CNAME commonly points a name such as media.example.com to another host name.\n\nWhen the parent domain uses external DNS, create the record at that DNS provider instead. The external service supplies the exact record type and destination.\n\nDNS changes often work within minutes but can take longer to update globally.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000682662",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682662"
+    }
+  ],
+  "lastmod": "2026-09-23T22:32:00+05:30",
+  "scraped_at": "2026-10-18T13:39:09.574623"
+}

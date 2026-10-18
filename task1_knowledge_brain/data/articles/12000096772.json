@@ -1,0 +1,23 @@
+{
+  "article_id": "12000096772",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096772-11-03-2023-software-updates",
+  "title": "11/03/2023 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/03/2023 - Software Updates"
+  ],
+  "content": "## 11/03/2023 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000096772\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing Select2 Dropdowns from showing correctly on the frontend on some iPhone models. Widget Involved: Bootstrap Theme - HEAD\n\n- We fixed an issue which was preventing the Activity Tracker page from displaying the data in the \"Updated By\" column in some cases.\n\n- We fixed an issue which was affecting the ability to save changes in a Froala Editor when making edits using the Code View in some cases.\n\n- We created a new General Setting called \"Website 'From' Email Address\". This setting allows Admins to enter the email address that the system will use to send outbound emails from the website. Also, we created the \"Admin Notification Email Address\" setting.  This is the email address to which the system will send \"Admin Notification\" emails.\n\n- We updated the Member Profile Forms Webhooks in order to include the member profile URL, profile photo URL, logo URL, and cover photo URL as part of the data sent to the Webhook endpoint.\n\n- We fixed an issue which was preventing the Member Related Search widget from links correctly when the state name contained an apostrophe in some cases. Widget Involved: Bootstrap Theme - Module - Member Related Searches\n\n- We updated the Digital Product tab layout when editing Coupon Codes in order to include the Post Type name next to the Digital Product name.\n\n- We updated the Canonical URL of search results pages in order to make it compatible with the \"Default Member Search URL\" setting.\n\n- The Sidebar Member Contact form on member profile pages is now compatible with the Members-Only Access Membership Plan setting. This feature requires the \"Members Only Content\" Add-On. Widget Involved: Bootstrap Theme - Module - Member Contact Form\n\n- We fixed an issue which was affecting the ability to export member data from the Search Member page in the Admin in some cases.\n\n- We created a new Membership Plan Setting called \"Show 'Recent Transactions' Module\". This new setting adds the ability to display the member's most recent transactions on the Member Dashboard. Widget Involved: Bootstrap Theme - Account - Member Dashboard\n\n- We updated the \"Edit Coupon Code\" modal in the Admin in order to move the \"Required Credit Card When $0.00\" Coupon Code Setting to the Sign Ups & Upgrades tab as the setting only applies to those transactions.\n\n- We created a new Transaction History Search Filter field called \"Search Product Name\". This new field adds the ability to search the content of the data in the \"Product column.\n\n- We fixed an issue which was preventing the Froala Editor from correctly updating the \"width\" and \"height\" image attributes after updating or resizing an image in the editor.\n\n- We created a new Member Status called \"Incomplete\". This status will be assigned when a member signs up initially and the payment for their signup is processing. If there is an error during the signup process that we are not accounting for, the member will not be set as \"Active\" without paying.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000096772",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000096772"
+    }
+  ],
+  "lastmod": "2023-11-06T23:43:01+05:30",
+  "scraped_at": "2026-10-18T13:53:04.356863"
+}

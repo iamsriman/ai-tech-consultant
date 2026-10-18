@@ -1,0 +1,51 @@
+{
+  "article_id": "12000089516",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089516-how-to-add-expire-end-dates-to-single-image-posts-such-as-jobs-articles-coupons-blogs",
+  "title": "How to Add Expire/End Dates to Single-Image Posts such as Jobs, Articles, Coupons & Blogs",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "How to Add Expire/End Dates to Single-Image Posts such as Jobs, Articles, Coupons & Blogs"
+  ],
+  "content": "## How to Add Expire/End Dates to Single-Image Posts such as Jobs, Articles, Coupons & Blogs\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000089516\n\nIn this article, we will be going over the process of how to add end/expiration dates for single-image post types like Events, Jobs, Articles, Coupons, and Blog Articles.\n\nThe way to accomplish it is by adding a hidden field controlled by the admin. With this method, the admin of the website can add a Hidden Field into the Single-image post's custom form and set the number of days until the post is set to expire. Once a post is created and the number of defined days has passed, then the post will be automatically marked as expired and no longer display in the website's search results. The member cannot edit or modify this expiration date.\n\nTo accomplish this, navigate to Toolbox >> Form Manager and customize one of the following forms:\n\n-Feature - Jobs\n\n-Feature - Member Articles\n\n-Feature - Coupons\n\n-Feature - Blog Articles\n\n-Feature - Events\n\nFor this example, we are going to edit the Member Articles form.\n\nClick on the Add Field button :\n\nThis will generate a blank field:\n\nFill in the information as it can be seen down below and click Save Changes :\n\n- Field Type Select: Hidden Field\n\n- Field Label Name Type: Expired\n\n- Database Variable Enter the following variable: post_date_interval\n\n- Default Field Value: Enter the number of days until this post expires. In this example we are using the number \"30\", representing 30 days from the publish date.\n\nNOTES:\n\n- If the post does not have a post_expire_date but does have a post_date_interval value, it will expire X number of days (based on the value of post_date_interval) after the post start date.\n\n- By default, the events form will have a field for the member to set the expiration date. If they do not select an expiration date, then the system will use the post_date_interval value. This is the form that needs to be edited: Feature - Events\n\n- When a member copies a post with the Copy button in the member's post list, the copy gets its own expiration date, counted from the copy's start date (or from the day the copy is made when no start date is set). Editing an existing post keeps its current expiration date.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180233784/original/_lh6BzM6vP3b30J76vm2XMcC-aark9QgCA.png?1781135830",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Single-Image Posts such as Jobs, Articles, Coupons & Blogs' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180233788/original/hL_7FuHBtRuLw1ONgrBVh37Yj6ymRKii5g.png?1781135858",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Single-Image Posts such as Jobs, Articles, Coupons & Blogs' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180233902/original/0wz5LWXowK7WRaNqxWGSZi20AoMwcMl_TQ.png?1781136084",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Expire/End Dates to Single-Image Posts such as Jobs, Articles, Coupons & Blogs' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000089516",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089516"
+    }
+  ],
+  "lastmod": "2026-09-29T22:43:45+05:30",
+  "scraped_at": "2026-10-18T13:50:09.194695"
+}

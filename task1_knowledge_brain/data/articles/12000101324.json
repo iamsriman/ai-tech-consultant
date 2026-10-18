@@ -1,0 +1,23 @@
+{
+  "article_id": "12000101324",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101324-08-30-2024-software-update",
+  "title": "08/30/2024 - Software Update",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/30/2024 - Software Update"
+  ],
+  "content": "## 08/30/2024 - Software Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101324\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the Send Newsletter feature which was preventing the system from updating the status of a campaign to \"Sent\" after the campaign was completed in some cases.\n\n- We implemented an update to display the default member photo and logo image on member profiles when the \"Enable Profile Photo Upload\" and \"Enable Logo Upload\" Membership Plan settings are disabled. Widget Involved: Bootstrap Theme - Account - Sidebar\n\n- We implemented several Admin security updates.\n\n- We fixed an issue which was preventing the \"Limit Canonical Tags To One Country\" setting from working properly in some cases.\n\n- We added a new CSS class called \"featured-post\". This CSS can be used to target the \"featured\" / \"pinned\" posts on post search results pages. Post Type Involved: Classified Comunity Article Coupon Digital Product Discussion Event Job Listing Photo Album Product Property Souncloud Video Website Blog Article\n\n- We fixed an issue causing the GDPR Consent Fields checkboxes to display slightly misaligned in the member lead contact modal in some cases. Widget Involved: Bootstrap Theme - Form - Lead Consent Checkboxes\n\n- We fixed an issue which was preventing the Search Members page from returning results after performing a location search using the \"Include Service Areas\" checkbox in some cases.\n\n- We fixed an issue that was preventing the \"Prioritize Profile Cover Photo as Social Share Image\" Advanced Setting from working properly on the frontend of sites in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the Match Lead page in the Admin to always display the member to whom a lead was submitted as the first suggested result when manually matching a lead in the Admin.\n\n- We fixed an issue which was preventing the Brilliant Directories API from fetching custom member data as expected.\n\n- We improved the performance of the member search when using the \"Find Duplicates\" filter field on the Search Members page in the Admin.\n\n- We fixed an issue which was preventing \"Date\" and \"Date & Time Picker\" form fields from working properly when the \"Date Format\" is set to \"YYYY/MM/DD\" in some cases. Widget Involved: Bootstrap Theme - Footer - Scripts - DateTime Scripts\n\n- We updated the Business Data Importer in the Admin to allow searching for locations in both English and the language of the website.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101324",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101324"
+    }
+  ],
+  "lastmod": "2024-09-02T22:56:15+05:30",
+  "scraped_at": "2026-10-18T13:54:49.117797"
+}

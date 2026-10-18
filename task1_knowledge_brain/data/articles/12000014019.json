@@ -1,0 +1,53 @@
+{
+  "article_id": "12000014019",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000014019-manage-your-website-s-email-accounts-with-microsoft-365",
+  "title": "Manage Your Website's Email Accounts With Microsoft 365",
+  "category": "Emails",
+  "folder": "Email FAQ",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email FAQ",
+    "Manage Your Website's Email Accounts With Microsoft 365"
+  ],
+  "content": "## Manage Your Website's Email Accounts With Microsoft 365\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000014019\n\n\n## Manage a Website's Email Accounts with Microsoft 365\n\n\nMicrosoft 365 can host email for a domain connected to a Brilliant Directories website. Microsoft supplies the DNS records that verify the domain and route mail to its service.\n\n\n### 1. Add and Verify the Domain in Microsoft 365\n\n\n- Open Settings > Domains in the Microsoft 365 admin center.\n\n- Add the root domain without www .\n\n- Copy the TXT verification record supplied by Microsoft.\n\n- Add that record wherever the domain's live DNS is managed, then complete Microsoft's verification.\n\nMicrosoft references: Add a custom domain and add DNS records at a DNS provider .\n\n\n### 2. Find Where DNS Is Managed\n\n\nIf the domain uses Brilliant Directories-managed DNS, open Settings > Domain Manager . Hosted email routing is available under Mailboxes ; see Manage Mailboxes and Email Routing . DNS records can also be managed through Developer Hub > cPanel Dashboard > Zone Editor when that option is available.\n\nIf the domain uses Cloudflare, GoDaddy, Namecheap, or another provider's nameservers, add the Microsoft records at that provider. Records added in cPanel do not affect a domain whose live DNS is hosted elsewhere.\n\n\n### 3. Add the Microsoft 365 Records\n\n\nCopy the exact values from the Microsoft 365 admin center. Common records include:\n\nType Common host Purpose TXT @ or root Verifies domain ownership. MX @ or root Routes incoming mail to Microsoft 365. CNAME autodiscover Helps Outlook locate mailbox settings. TXT @ or root Authorizes Microsoft 365 in SPF.\n\nMicrosoft can also require CNAME or SRV records for Teams, device enrollment, and other services. Add only the records displayed for the domain and enabled services. See Microsoft's external DNS record reference .\n\n\n### 4. Change Mail Routing\n\n\nCreate the Microsoft 365 mailboxes before changing MX. Replace obsolete MX records with the Microsoft value and priority shown in the admin center. Leaving conflicting MX records can split or misdirect incoming mail.\n\nMicrosoft 365 requires the exact mail server hostname supplied in its admin center. Opening this form does not change routing.\n\n\n### 5. Configure SPF\n\n\nA domain should publish one SPF TXT record. If SPF already exists, merge the required authorized senders into that record instead of adding a second SPF record. Follow Microsoft's SPF guidance .\n\n\n### 6. Verify and Test\n\n\nUse Microsoft's record check, then test sending and receiving. If verification fails, confirm the host/name, destination, priority, spaces, duplicate SPF records, old MX records, and the authoritative DNS provider.\n\n\n### Service Boundaries\n\n\nMicrosoft manages its mailboxes, billing, passwords, and account access. Brilliant Directories provides DNS or routing controls only when the domain uses supported Brilliant Directories-managed services.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668540/original/FA_dgaghiJLGRwQKPmtH5tIpU0vym8E77g.png?1790182295",
+      "alt": "The Microsoft 365 choice, with the Mail server hostname field marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Manage Your Website's Email Accounts With Microsoft 365' (Emails > Email FAQ): The Microsoft 365 choice, with the Mail server hostname field marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000014019",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000014019"
+    },
+    {
+      "text": "Add a custom domain",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain?view=o365-worldwide"
+    },
+    {
+      "text": "add DNS records at a DNS provider",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide"
+    },
+    {
+      "text": "Manage Mailboxes and Email Routing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760"
+    },
+    {
+      "text": "Microsoft's external DNS record reference",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/external-domain-name-system-records?view=o365-worldwide"
+    },
+    {
+      "text": "Microsoft's SPF guidance",
+      "url": "https://learn.microsoft.com/en-us/defender-office-365/email-authentication-spf-configure"
+    }
+  ],
+  "lastmod": "2026-09-28T23:46:46+05:30",
+  "scraped_at": "2026-10-18T13:40:26.628096"
+}

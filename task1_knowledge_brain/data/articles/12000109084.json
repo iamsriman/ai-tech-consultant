@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109084",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109084-create-billing-table-indexes-dashboard-installer",
+  "title": "Create Billing Table Indexes - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Create Billing Table Indexes - Dashboard Installer"
+  ],
+  "content": "## Create Billing Table Indexes - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109084\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Create Billing Table Indexes Does\n\n\nThis installer adds database indexes to the site's billing database so that billing activity lookups run faster. It changes how the data is indexed for searching; it does not add, remove, or rewrite any of the site's billing records.\n\nIt works on a single table in the billing database, the tblactivitylog table (the billing activity log), and checks three columns on it:\n\n- date : a standard index is added so activity can be filtered and sorted by date quickly.\n\n- userid : a standard index is added so activity for a specific member can be looked up quickly.\n\n- description : a FULLTEXT index is added, which is the index type built for searching text content, so descriptions can be searched efficiently.\n\nThe installer connects to the site's separate billing database (the _billing database) to do this. If the site does not have a billing database, the installer does nothing.\n\n\n## Why It Appears\n\n\nThe installer checks each of the three columns on tblactivitylog and appears whenever a column exists but does not yet have its index. In other words, it shows up when the billing activity log is missing one or more of the date , userid , or description indexes. If the billing database is not present, or all three indexes already exist, the installer does not appear.\n\nThis is a legacy condition. Billing databases created before these indexes became standard will see the installer offered, while newer sites already have the indexes in place. Seeing it does not mean anything is broken.\n\n\n## Why It Matters\n\n\nIndexes let the database find rows without scanning the whole table. Adding them to the billing activity log makes date-based, member-based, and text searches against that log faster, which is a performance improvement rather than a change to what the log contains. Skipping the installer will not break billing, but billing activity lookups on a large log stay slower than they need to be.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Create Billing Table Indexes appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once all indexes are in place.\n\nIf Create Billing Table Indexes does not appear in the list, the website is already up to date, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The billing activity log keeps all of its existing records; only the way that table is indexed for searching changes. There is nothing to reconfigure afterward.\n\nThe installer re-checks each column before adding its index and only adds the indexes that are still missing, so it is safe to run even if part of the update was already applied earlier.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109084",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109084"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:26+05:30",
+  "scraped_at": "2026-10-18T13:59:34.770671"
+}

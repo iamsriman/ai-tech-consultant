@@ -1,0 +1,46 @@
+{
+  "article_id": "12000000921",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000921-web-page-page-types-",
+  "title": "Web Page \"Page Types\"",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Web Page \"Page Types\""
+  ],
+  "content": "## Web Page \"Page Types\"\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000000921\n\nWhen editing a static page (or creating a new static page), the Page Info tab will show a dropdown of options for the \"Page Type\".\n\nThese are used to tell the system how the page should be handled (including how some functions and variables will be used).\n\n\n### Page Types\n\n\n\n### Single Web Page\n\n\nThis will tell the system that this page is a static page. Content-type pages can use images, call widgets, and more. This is the type that is most likely to be used.\n\n\n### Post Search Results\n\n\nThis page type is designated for post search results (coupons, events, properties, etc.)\n\nMember Search Results\n\nThis is typically assigned to the search results page, mostly related to members (e.g.: /california or /doctors/california, etc).\n\nCustom Widget as a Web Page\n\nWhen choosing this type of page, it will load only the content of the selected widget and no other code provided by Brilliant Directories. All design settings and the BD framework will be hidden in the Page Options tab; instead, a dropdown with the custom widgets will become available. See:\n\nUsing the \"Custom Widget as Web Page\" Page Type for the Web Page Builder\n\nPassword Retrieval Page\n\nEvery Brilliant Directories website will come with a default URL called /login/retrieval, where members can receive an email to update their password if they forget it. This option allows you to customize the elements on this page.\n\nUnsubscribe Page Every Brilliant Directories website includes a default URL at /unsubscribed, where members and visitors can unsubscribe from the newsletter.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181397234/original/sWPuwdNAnLdaSL2AhyLBZ0nRF5XYCTtRag.png?1783005296",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page \"Page Types\"' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181397406/original/-Ox3z22lzuG4t7TBhQsTu5ZII12anPFugg.png?1783005492",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page \"Page Types\"' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000000921",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000921"
+    },
+    {
+      "text": "Using the \"Custom Widget as Web Page\" Page Type for the Web Page Builder",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076547"
+    }
+  ],
+  "lastmod": "2026-07-02T20:48:25+05:30",
+  "scraped_at": "2026-10-18T13:39:24.423953"
+}

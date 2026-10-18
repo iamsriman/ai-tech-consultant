@@ -1,0 +1,51 @@
+{
+  "article_id": "12000109411",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109411-content-web-page-builder-draft-system-autosave-",
+  "title": "Content » Web Page Builder » Draft System (Autosave)",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Content » Web Page Builder » Draft System (Autosave)"
+  ],
+  "content": "## Content » Web Page Builder » Draft System (Autosave)\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109411\n\nWhile editing a page in the Web Page Builder, the system automatically saves work in progress as a draft every few seconds. If the tab closes accidentally, the browser crashes, or the editor is closed before clicking Save, the changes aren't lost, the draft is offered back so editing can continue right where it left off.\n\nThis article explains how the draft system works, what counts as a change, and how to discard one.\n\n\n## How It Works\n\n\nAs edits are made in the Web Page Builder, the system silently saves a draft copy of the page every 2 seconds. A status badge next to the Save button reflects the current state, for example:\n\n- Saving Draft — the draft is being written\n\n- Draft saved Just now — the latest changes are saved as a draft\n\n\n## What Counts as a Change\n\n\nThe draft system captures any edit made in the page editor, including:\n\n- Typing or editing text (including single keystrokes, like adding a space)\n\n- Rearranging or restyling content\n\n- Inserting an image\n\n- Inserting a video\n\n- Changing Page Details and Page Options settings\n\nAny of these will trigger the autosave and update the draft badge.\n\n\n## Drafts Don't Go Live\n\n\nSaving a draft is not the same as publishing. Nothing written to a draft ever appears on the live, front-facing page until Save is explicitly clicked on the page.\n\nThis means edits can be made freely, experimenting, stepping away, or losing connection mid-edit, without any risk of half-finished changes showing up for site visitors. Clicking Save publishes the changes and clears the auto-saved draft, since it's no longer needed once the page is saved.\n\n\n## Discarding a Draft\n\n\nTo discard a draft, click the \"Discard Draft\" button. This deletes the draft and reverts the page back to its last saved (original) state.\n\n\n## How to Disable This Functionality\n\n\nIf needed, this functionality can be disabled under Settings » Advanced Settings by disabling the Auto-Save Drafts advanced setting.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184266684/original/rdYdaja2knUExRTYXP2oZZYevPNtgOExgg.png?1787824823",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder » Draft System (Autosave)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184266700/original/r5Gi9tUptuRcBktLbU9BDU1RgCNzIpxJDA.png?1787824848",
+      "alt": null,
+      "caption": "To discard a draft, click the\"Discard Draft\"button. This deletes the draft and reverts the page back to its last saved (original) state.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder » Draft System (Autosave)' in section 'My Content' / 'Web Page Builder'. Context: To discard a draft, click the\"Discard Draft\"button. This deletes the draft and reverts the page back to its last saved (original) state.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183902884/original/CHSTAKy4ErRvk5Q6nb5nobyL0CVRmPZWbA.png?1787218657",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Content » Web Page Builder » Draft System (Autosave)' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109411",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109411"
+    }
+  ],
+  "lastmod": "2026-08-27T15:39:24+05:30",
+  "scraped_at": "2026-10-18T13:59:57.928563"
+}

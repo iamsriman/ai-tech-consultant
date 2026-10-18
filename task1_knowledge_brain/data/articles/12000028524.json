@@ -1,0 +1,23 @@
+{
+  "article_id": "12000028524",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028524-04-21-17-software-updates",
+  "title": "04/21/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/21/17 - Software Updates"
+  ],
+  "content": "## 04/21/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000028524\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added a security update on our checkout pages. Widget Involved: WHMCS2 - Signup Page Layout\n\n- We fixed an issue that was affecting the Lazy Load for Member Reviews on profile pages. In order to get this new update, navigate to Content >> Edit Post Settings >> Review in the Admin area of your site.  From here, click on the Profile Page tab and use the Restore Default Code Feature towards the bottom of the page.  This will copy the most recent default code into the feature.\n\n- We did a small text update on the Design Settings. Now in Homepage Layout >> Search Settings >> Search Type we changed the name of the \"Filtered Search\" to \"Top + Sub + Location Search\" to better align with the naming conventions of the other features. Widget Involved: Bootstrap Theme - Admin - Design Settings\n\n- We fixed the issue that the Account Menu would be hidden when the Main Menu is not being displayed on mobiles devices. Widgets Involved: Bootstrap Theme - Custom Appearance Settings Bootstrap Theme - Header\n\n- We added new SEO Variables for Member Search Pages, the new SEO Variables are: %zip_code% and %country_code%. To use these new variables, edit an SEO Template that is used for Member Search Results Pages and add these new variables wherever you would like them to be used.  Please note that %zip_code% and %country_code% variables will only display on the search results page if the user has entered information for these location types as part of their search. Widgets Involved: Search - Member - Search Query Bootstrap Theme - Function - Google Location Suggest\n\n- We fixed an issue that was affecting the Sitemap Generator not adding all individual sitemap files to the Sitemap Index file.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000028524",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028524"
+    }
+  ],
+  "lastmod": "2017-04-21T21:07:46+05:30",
+  "scraped_at": "2026-10-18T13:41:08.609381"
+}

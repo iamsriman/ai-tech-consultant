@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106673",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106673-11-14-2025-software-updates",
+  "title": "11/14/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/14/2025 - Software Updates"
+  ],
+  "content": "## 11/14/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106673\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Improved several default schema markup widgets. Widgets Involved: Bootstrap Theme - Static Web Page Bootstrap Theme - Member Results Bootstrap Theme - Member Profile - Contact Page Bootstrap Theme - Member Profile - Submit Review Bootstrap Theme - Member Profile - Read Review Bootstrap Theme - Member Profile - Display Member Address Bootstrap Theme - Global Website - Schema Markup Bootstrap Theme - Member Results Bootstrap Theme - Single Post Page Post Types Involved: Listings Member Reviews\n\n- Updated the Advanced Settings page in the Admin to show the default values of each field along with a button to reset the value of each setting to default.\n\n- Cloning a member from the Search Members page in the Admin will now also clone data saved for the member in custom form fields as well.\n\n- Fixed an issue that prevented the system from respecting the “Member Credits: Select Transaction Types Credits Can Be Applied To” Advanced Setting when creating new subscriptions in the Admin.\n\n- Added a documentation link next to the Stripe credit card type when viewing a member’s credit card information in the Admin.\n\n- Updated the robots meta tag to \"noindex, nofollow\" by default on individual member review search result pages when no results are available to display.\n\n- Added an icon picker to the Email Froala Editor in the Admin.\n\n- Fixed an issue with filtering member transactions by Membership Plan on the Transaction History page in the Admin.\n\n- Removed legacy code that would attempt to migrate credit card date to Stripe from other payment gateways when paying invoices in the Admin. Stripe no longer allows this via their API.\n\n- Created a new Advanced Setting called \"Front-End Optimization: Lazyload Iframe Embeds \". When enabled, embedded iframes will be lazy-loaded, and the full iframe will be loaded when it enters the browser viewport. Enabling this improves page load times and Google pagespeed scores. Widget Involved: Bootstrap Theme - Footer - Scripts - User Search Scripts\n\n- Fixed an issue that prevented the “Localize Canonical Tags”, “Reduce Category Canonical Tags” and “ Limit Canonical Tags to One Country” Advanced Settings from working as expected on the frontend of sites in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- Fixed an issue that prevented forms from redirecting to the URL specified in the form's settings after it was submitted on the frontend of a site in some cases.\n\n- Released a security update to the forms in the Member Dashboard to prevent members from saving content not allowed by their Membership Plan's settings.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106673",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106673"
+    }
+  ],
+  "lastmod": "2025-11-17T22:16:04+05:30",
+  "scraped_at": "2026-10-18T13:56:54.794709"
+}

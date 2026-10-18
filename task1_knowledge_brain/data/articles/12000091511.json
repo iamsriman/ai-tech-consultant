@@ -1,0 +1,125 @@
+{
+  "article_id": "12000091511",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091511-finance-search-subscriptions",
+  "title": "Finance » Search Subscriptions",
+  "category": "Finance",
+  "folder": "Search Subscriptions",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Search Subscriptions",
+    "Finance » Search Subscriptions"
+  ],
+  "content": "## Finance » Search Subscriptions\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091511\n\nThe Search Subscriptions page provides the admin with a set of filters to search and edit subscriptions for all site members.\n\nThis page can be found by navigating to Finance » Search Subscriptions (1) in the admin area of a site. The filters (2) are at the top of the page.\n\nThese are the available filters to search for subscriptions:\n\n- Search by Member Name or Member ID\n\n- Member Email\n\n- Date Created\n\n- Next Due Date\n\n- Subscription Date Ended\n\n- Subscription ID\n\n- Invoice ID\n\n- Membership Plan (Product)\n\n- Member Status\n\n- Subscription Status\n\n- Billing Cycle*\n\n- Coupon Code Used\n\nWhen searching by billing cycles, the admin can select more than one option here:\n\nIn the results, hovering over the member's name (1) will display information about the member along with several links to take actions on the member (2):\n\nAccount Details: Links to the member's Account Details page, which contains an overview of information about the specific member.\n\nQuick Edit: Edit several attributes of the member without logging into their account.\n\nCompose Email: Send an email to the member. Use an existing email template or send a custom email.\n\nUpdate Credit Card: Update the payment method associated with this member.\n\nView Live Profile: View the live profile of the member as seen by visitors to the website.\n\nLogin as Member: Login to the member's dashboard as if they logged in to their account.\n\nPayment History: See the complete billing history of this member.\n\nChange Password: Assign a new password for the member.\n\nClicking the ID (1) will show all transactions related to this subscription:\n\nThe Next Payment (1) and Subscription (2) columns will display important information about the next due date and the current membership plan. An ended subscription shows None as its next payment:\n\nClicking the payment count in the History column (1), such as 1 Paid , will open the Payments Received tab in the Transaction History , filtered to this subscription:\n\nHover over the Actions drop-down menu (1) to Edit the Subscription or End the Subscription (2):\n\nEnd Subscription opens the Cancel Subscription? window, which warns that ending the subscription stops all future payments. It includes an optional Reason for cancelling box (up to 1,000 characters) to record why the subscription is being cancelled. Click Yes, continue to end the subscription, or No, cancel to close the window. Leaving the reason blank ends the subscription exactly as before.\n\nOnce a subscription is ended, its Status shows Ended , and the History column can show the date it ended. When a reason was entered, the History column also shows a Reason: line with that text. The steps for every way to end a subscription are in How Do I Cancel Payment Subscriptions - Orders .\n\nEdit Subscription opens the Edit Member Subscription window, where the following can be changed:\n\n- Enter Payment Amount\n\n- Billing Cycle\n\n- Next Payment Due Date\n\n- Internal Subscription Notes , to record notes with this subscription\n\nWhen the subscription has past due or upcoming invoices, the window also shows Delete Past Due / Upcoming Invoices? (with the number of invoices). It defaults to Yes , which is recommended because invoices are created 14 days before the recurring due date. Continue & Save Changes saves the changes, and Cancel, Do Not Save Changes closes the window without saving.\n\nFor additional questions or help setting this up, please submit a ticket to support@brilliantdirectories.com or create a ticket HERE .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415542/original/z8zKzE7PNNhs15bVdBSkmHHUsuY94sgdRw.png?1791392570",
+      "alt": "Search Subscriptions selected in the Finance menu (1) and the subscription search filters (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): Search Subscriptions selected in the Finance menu (1) and the subscription search filters (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415543/original/FbjjNynyLQbxk-N6g5YKNpdhjhrbYk9Zkg.png?1791392571",
+      "alt": "Billing Cycles filter (1) open on Search Subscriptions, with a checkbox for each billing cycle (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): Billing Cycles filter (1) open on Search Subscriptions, with a checkbox for each billing cycle (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370048/original/Q5eTXWxaLhC8Ypr65tMVWhfWjoLq65Uh-A.png?1791333898",
+      "alt": "Hovering over a subscription's member (1) opens a card with the member's ID, status, email and action links (2).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): Hovering over a subscription's member (1) opens a card with the member's ID, status, email and action links (2).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367463/original/fSkAmEnpA657B69u8NSwLKZxBbBki1bl7w.png?1791330011",
+      "alt": "The subscription ID link (1) in the Created column, which opens all transactions for that subscription.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): The subscription ID link (1) in the Created column, which opens all transactions for that subscription.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367464/original/gUpwoG2UsoRu3gJyB8yDMYAV_iJ2D1xmkQ.png?1791330012",
+      "alt": "The Next Payment (1) and Subscription (2) columns of a subscription row; an ended subscription shows None as its next payment.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): The Next Payment (1) and Subscription (2) columns of a subscription row; an ended subscription shows None as its next payment.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370049/original/x4GrKhF6XEMY6B26JYyu1ifX46uISXCzdw.png?1791333899",
+      "alt": "The History column (1) of an active subscription, showing the 1 Paid link and the total paid.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): The History column (1) of an active subscription, showing the 1 Paid link and the total paid.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186730100/original/dyCyleqUt2DUYsoC8435euaxfpC8huMnyw.png?1791925381",
+      "alt": "Search Subscriptions Actions menu with Edit Subscription and End Subscription",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): Search Subscriptions Actions menu with Edit Subscription and End Subscription",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367604/original/N8rd9uJLNgY7VOJ-Mn6jOq8rHG_IjBWDjw.png?1791330200",
+      "alt": "Cancel Subscription window with the optional Reason for cancelling box",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): Cancel Subscription window with the optional Reason for cancelling box",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186370050/original/Sv1_T40xHnwaDVIcTcUO2dzmf61iDCOr2Q.png?1791333900",
+      "alt": "Edit Member Subscription window with Enter Payment Amount (1), Billing Cycle (2), Next Payment Due Date (3) and Internal Subscription Notes (4).",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Finance » Search Subscriptions' (Finance > Search Subscriptions): Edit Member Subscription window with Enter Payment Amount (1), Billing Cycle (2), Next Payment Due Date (3) and Internal Subscription Notes (4).",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091511",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091511"
+    },
+    {
+      "text": "Transaction History",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046232-finance-transaction-history-step-by-step-"
+    },
+    {
+      "text": "Edit the Subscription",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069505-how-to-edit-update-subscriptions-for-members-with-recurring-subscriptions"
+    },
+    {
+      "text": "End the Subscription",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728"
+    },
+    {
+      "text": "How Do I Cancel Payment Subscriptions - Orders",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728"
+    },
+    {
+      "text": "HERE",
+      "url": "https://support.brilliantdirectories.com/support/tickets/new"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:26+05:30",
+  "scraped_at": "2026-10-18T13:50:36.408791"
+}

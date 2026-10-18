@@ -1,0 +1,131 @@
+{
+  "article_id": "12000084601",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084601-optimizing-website-performance",
+  "title": "Optimizing Website Performance",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Optimizing Website Performance"
+  ],
+  "content": "## Optimizing Website Performance\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084601\n\nHere at Brilliant Directories, we're continuously optimizing the software to make pages load as fast as possible without affecting functionality.  As our development team continues to release 100 - 150 new updates each month to add new functionality, make the platform easier to use, and maximize security, we always have an eye on site speed and suggestions.\n\nWe have projects on our immediate roadmap that are focused on optimizing database queries and minimizing the server response time to make pages load faster than ever and improve those scores even more. This is an aspect of the software we are always iterating on and will continue to make it a priority moving forward.\n\nHere are some of the strategies we have implemented to optimize the performance of our sites.\n\n\n## Built-In Performance Measures\n\n\nThe platform implements several performance strategies at the core level:\n\n- Compression : Gzip compression is enabled to reduce asset sizes.\n\n- Asset minification : JavaScript and CSS files stored on Brilliant Directories servers are minified.\n\n- Efficient routing : Redirects and rewrites are kept to a minimum to streamline page-load paths.\n\n- Browser caching : Static assets are cached so that fewer resources need to be downloaded on repeat visits.\n\n- Backend optimization : SQL queries and PHP code are refined to lower server response times.\n\n- Code refactoring : Non-critical JavaScript is deferred where possible, reducing initial load times.\n\n\n## Key Factors That Influence Performance\n\n\nThese are some of the factors that we should have in mind when analyzing the site loading speed and a few recommendations to improve the scores if needed:\n\n- There will always be a relationship between the size and number of images on a page and the speed in which that page will load.  This can be seen in the example above, our all-in-one demo site uses a homepage slider, having several HD images that are rotating instead of just one, like the yellow pages demo to the right will impact the site loading speed. Try to always keep images within the recommended sizes.\n\n- The more features and functionality is present, the longer the page will take to load.  Going back to the example above, our all-in-one demo site has more homepage streaming widgets on the homepage than our yellow pages demo site , this will also impact the speed at which this page loads.\n\n- Try adding and removing features or streaming widgets to find the right balance between page load times and the content on the page that fits the needs of the website.\n\n- Check with support to see if the website is using PHP 7 or 5.4.  Moving to PHP 7 will help with speed. This is a very seamless transition, if the site's custom widgets are compatible we recommend upgrading to the latest version of PHP.\n\n- If the site is already using PHP 7, there is one more option to optimize the site speed, which is PHP-FPM. PHP-FPM (FastCGI Process Manager) is a web tool used to speed up the performance of a website. It is much faster than traditional CGI-based methods and has the ability to handle tremendous loads simultaneously. This is still in a beta version , but we offer this as an option to test it out.\n\nLet's take the last two sites we compared and add a couple of our demo sites as an example:\n\nTo better understand the comparison image here is a breakdown of what each of these sites includes.\n\n\n### Newly Launched Site\n\n\nThis site's homepage has a single static hero image, a Keyword + Location Search, and the About Website / Join Offer homepage widget.\n\n\n### Yellow Pages Demo\n\n\nIn addition to that content, the Newly Launched Site has on the homepage, this site also has the following:\n\n- Streaming Members Homepage widget\n\n\n### All-In-One Demo\n\n\nIn addition to that content, the Newly Launched Site has on the homepage, this site also has the following:\n\n- Streaming Members Homepage widget\n\n- Streaming Top Categories Homepage widget\n\n- Streaming Blog Articles with Sidebar\n\n\n## Optional Performance Enhancement Settings\n\n\nFor sites that are not performing as quickly as desired, the following strategies can provide further improvement.\n\n\n### Resource CDN\n\n\nThe advanced setting Front-End Optimization: Enable Resource Delivery Via CDN allows CSS / JS resources that are referenced on all pages to be served from https://www.optimizecdn.com . If set to OFF, the system will use relative paths from the domain, but if turned ON, it speeds up the delivery of resources vs. the relative path of the domain name.\n\nTo activate the setting, go to Settings >> Advanced Settings:\n\n\n### Image CDN\n\n\nThe Front-End Optimization: Use Content Delivery Network (CDN) For Images advanced setting allows user to enter a URL to use a service like imagekit.io to serve images from an image CDN with automatic optimization and real-time transformation. Images that are served from a relative path will be updated to include your inputted CDN. For example, an image that is set to /images/logo.png will be served from https://ik.imagekit.io/your-account-id/images/logo.png .\n\nTo activate the setting, go to Settings >> Advanced Settings:\n\n\n### External CDN (e.g., Cloudflare)\n\n\nAnother great option is to use CDN like Cloudflare to both reduce page load time and reduce the bandwidth used by the site.  Cloudflare caches the images and files used by the website in its servers around the world and serves those resources to users from a location close to them.  This is a free tool that can help speed up the loading of web pages for users around the world.\n\n\n## Front-End Optimization Features\n\n\n\n### Mobile Preloader\n\n\nWhen the advanced setting Front-End Optimization: Mobile Preloader (front_end_optimization_mobile_preloader) is enabled, the first page visited from a mobile device will display a brief loading screen. This feature helps improve perceived page speed and performance metrics. The loading screen appears only once per device during the initial visit and does not display again while navigating the site from the same device.\n\nAn example of this behavior is illustrated in the GIF below:\n\nTo activate the setting, go to Settings >> Advanced Settings:\n\n\n### Lazyload iframe Embeds\n\n\nThe Front-End Optimization: Lazyload iframe Embeds advanced setting defers the loading of embedded iframe content, such as videos, audio players, and social media widgets, until the visitor scrolls near the embed or interacts with it. This reduces initial page weight and improves load times, especially on content-heavy pages. To activate the setting, go to Settings >> Advanced Settings:\n\n\n### Convert User Uploaded Images to WebP\n\n\nThe Front-End Optimization: Convert User Uploaded Images to WebP advanced setting automatically converts uploaded images to WebP format and optimizes them to reduce file sizes and improve performance.\n\nWhen enabled, images uploaded through the member dashboard (such as profile photos, logos, and post images) are converted to WebP and compressed based on the selected quality level (default: 80%).\n\nThis setting is enabled by default and does not apply to Media Manager uploads, images added via the editor (Froala), or admin-uploaded images.\n\nTo activate the setting, go to Settings >> Advanced Settings:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12107656864/original/rmUJDV_bjPOUdIHwCNbXAh7b-QyGm7xgkQ.png?1649898749",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Optimizing Website Performance' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170834819/original/oq6JBDH00W_jbyn-hV22EoC0CLSoiIGDGQ.png?1763651711",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Optimizing Website Performance' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170834935/original/qen6EN9fyqcnzSJ4qmCAoPx5EsaeV8qZjw.png?1763651845",
+      "alt": null,
+      "caption": "To activate the setting, go to Settings >> Advanced Settings:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Optimizing Website Performance' in section 'Get Started Here' / 'Common Questions & Troubleshooting'. Context: To activate the setting, go to Settings >> Advanced Settings:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115191801/original/_haWhNDD2VgHB1jXKzsstnTSByybmgIyMA.gif?1664370261",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Optimizing Website Performance' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12115191400/original/0STF1pokhKW__X1AhahH-eR6IxfgGUrlSg.png?1664369866",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Optimizing Website Performance' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170835279/original/UGqmRFRAh8FXOyX1G3iunyfAmEIUTmxpkQ.png?1763652155",
+      "alt": null,
+      "caption": "The Front-End Optimization: Lazyload iframe Embedsadvanced setting defers the loading of embedded iframe content, such as videos, audio players, and social media widgets, until the visitor scrolls near the embed or interacts with it. This reduces initial page weight and improves load times, especial",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Optimizing Website Performance' in section 'Get Started Here' / 'Common Questions & Troubleshooting'. Context: The Front-End Optimization: Lazyload iframe Embedsadvanced setting defers the loading of embedded iframe content, such as videos, audio players, and social media widgets, until the visitor scrolls near the embed or interacts with it. This reduces initial page weight and improves load times, especial",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12176470036/original/njmDUigZrmrp9i35XYNmdTy2ngpkeaXy4g.png?1774403802",
+      "alt": null,
+      "caption": "To activate the setting, go to Settings >> Advanced Settings:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Optimizing Website Performance' in section 'Get Started Here' / 'Common Questions & Troubleshooting'. Context: To activate the setting, go to Settings >> Advanced Settings:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084601",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084601"
+    },
+    {
+      "text": "recommended sizes.",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000000238"
+    },
+    {
+      "text": "",
+      "url": "https://www.demobootstrap.com/"
+    },
+    {
+      "text": "all-in-one demo site",
+      "url": "https://www.demobootstrap.com/"
+    },
+    {
+      "text": "yellow pages demo site",
+      "url": "https://local.demobootstrap.com/"
+    },
+    {
+      "text": "streaming widgets",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000078086"
+    },
+    {
+      "text": "Front-End Optimization: Enable Resource Delivery Via CDN",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087024"
+    },
+    {
+      "text": "https://www.optimizecdn.com",
+      "url": "https://www.optimizecdn.com"
+    },
+    {
+      "text": "Front-End Optimization: Use Content Delivery Network (CDN) For Images",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000087030"
+    },
+    {
+      "text": "https://ik.imagekit.io/your-account-id/images/logo.png",
+      "url": "https://ik.imagekit.io/your-account-id/images/logo.png"
+    },
+    {
+      "text": "CDN like Cloudflare",
+      "url": "https://www.cloudflare.com/learning/performance/more/speed-up-the-web/"
+    },
+    {
+      "text": "The Front-End Optimization: Lazyload iframe Embeds",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000106650"
+    }
+  ],
+  "lastmod": "2026-03-30T07:45:59+05:30",
+  "scraped_at": "2026-10-18T13:49:16.844065"
+}

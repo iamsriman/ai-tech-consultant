@@ -1,0 +1,23 @@
+{
+  "article_id": "12000090094",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090094-09-30-22-software-updates",
+  "title": "09/30/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/30/22 - Software Updates"
+  ],
+  "content": "## 09/30/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090094\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the member forms logic which was preventing the system from redirecting the member to the Member Dashboard after saving all of the available member forms in some cases.\n\n- We created a new Advanced Setting called \"Default Member Password Retrieval URL\".  This new setting allows the URL used for the Member Password Retrieval process to be editable. By default this URL is \"/login/retrieval\".\n\n- We created a new Website URL form field setting called \"Open New Tab\". When this setting is enabled for a field, the URL will open in a new tab when a user clicks on the link.\n\n- We implemented an update in order to reduce the amount of SQL queries and improved the page load time in the Admin.\n\n- We fixed an issue which was preventing the Featured Blog Article Slider Add-On from working properly when the \"Front-End Optimization: Load Latest JavaScript Files on Frontend of Website\" Advanced Setting was active on a site in some cases. Widget Involved: Bootstrap Theme - Homepage - Featured Blog Posts Slider\n\n- Form fields validated for email addresses now accept \"+\" and \"-\" symbols in the email addresses.\n\n- We fixed an issue which was preventing the credit card saved to a member's account from being removed if the Payment Gateway of a site was changed after the credit card was saved originally.\n\n- We fixed an issue which was preventing the system from generating some member-related links in email templates when the email template was sent as part of a newsletter campaign in some cases.\n\n- We updated the layout of the \"Sync Members with Google Maps\" page in the Admin.\n\n- We updated the default Robots.txt File in order to prevent search engines from attempting to index URL's that start with \"/api\", as these are protected URLs.\n\n- We fixed an issue which was preventing the Website and Booking Link form fields on the \"Listing - Contact Details - Member\" from respecting the \"Display View\" form field settings in some cases. Widget Involved: Bootstrap Theme - Member Profile - Display Website Links\n\n- We fixed an issue which was preventing  Member Search Results pages from returning accurate results in some cases.\n\n- We updated the Twitter and Facebook Activity Feed widgets to display the content from these 3rd party sites after the rest of the page loads to improve page load times and Pagespeed scores. Widgets Involved: Bootstrap Theme - Module - Member Facebook Feed Bootstrap Theme - Module - Member Twitter Feed Bootstrap Theme - Module - Social Share\n\n- We added SnapChat, TikTok, and WhatsApp URLs as default fields in the \"Listing - Contact Details - Member\" form. We also added the ability to display the links on the member profile page. Widgets Involved: Bootstrap Theme - Deprecated - Member Profile - Display - Member Contact Details Bootstrap Theme - Member Profile - Display Website Links\n\n- The \"delete post\", \"publish post\", \"unpublish post\", \"assign new author\", \"customize post URL\", and \"set a post as featured\" actions on the Manage Posts page are now logged in the Activity Tracker. Customizing an SEO Template and deleting a Static Page are also now logged in the Activity Tracker as well.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090094",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090094"
+    }
+  ],
+  "lastmod": "2022-10-04T01:06:54+05:30",
+  "scraped_at": "2026-10-18T13:50:17.965202"
+}

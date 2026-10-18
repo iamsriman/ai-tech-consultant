@@ -1,0 +1,27 @@
+{
+  "article_id": "12000048602",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048602-08-24-18-software-updates",
+  "title": "08/24/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/24/18 - Software Updates"
+  ],
+  "content": "## 08/24/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048602\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was preventing sites from displaying the login form in some cases. Widget Involved: Bootstrap Theme - Member Login Page\n\n- We created a Help Center Page in the Admin Area. This page makes several resources from our Support Center available directly from the Admin of a site. In order to access to this new page, click on the link to the Help Center in the top-right corner of every Admin page.\n\n- We fixed an issue which was preventing visitors from using the Facebook share button on mobile devices. Widget Involved: Bootstrap Theme - Module - Social Share\n\n- We made several updates to the UI of Post search results and details pages. Features Involved: Articles Blog Articles Events Videos Coupons Jobs Photo Albums Classified Ads Products Properties\n\n- We added the ability to show/hide the Profile Steps, Dashboard Progress Bar, Manage Listing and Account Listing sections of the Member Dashboard. These can be customized on the Product level, allowing members of different Products to have unique dashboard experiences. In order to use this new feature, navigate to the Admin >> Finance >> Manage Products >> Edit >> Additional Settings tab. Widgets Involved: Bootstrap Theme Framework Bootstrap Theme - Account - Member Dashboard\n\n- We added the \"Insert Horizontal Line\" option  to the Froala WYSIWYG editor. Widget Involved: Form - Froala Editor Javascript\n\n- We fixed an issue with the Post Search results page when a user selects a Category that has a space at the beginning or end of its name. Widget Involved: Bootstrap Theme - Function - Post Category Dropdown Controller\n\n- We fixed an issue which was affecting the ability to click on pins on the Google Map displayed on member search results pages when using a mobile device. Widget Involved: Bootstrap Theme - Search Results Map\n\n- We fixed an issue which was affecting the \"Close Account\" functionality in the member dashboard in some cases. Widget Involved: Bootstrap Theme - Function - API\n\n- We deprecated the Withdrawal Account page from the Admin Area.\n\n- We resolved an issue that was preventing the next due date of a subscription from updating when an invoice was manually marked as \"Paid\" without an associated transaction.\n\n- We added the ability to show/hide the Billing links in the Member Dashboard area. This will be helpful for sites that are non-profits or otherwise have no use for billing. In order to use this new feature, navigate to the Admin >> Finance >> Manage Products >> Edit >> Additional Settings tab. Widgets Involved: Bootstrap Theme - Account - Member Dashboard Bootstrap Theme - Account - Sidebar\n\n- We applied a UI update to the Leads and Reviews links in the Member Sidebar Menu in the Member Dashboard area. Widgets Involved: Bootstrap Theme - Account - Menu Tabs Bootstrap Theme - Account - Reviews Bootstrap Theme - Account - Sidebar",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048602",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048602"
+    },
+    {
+      "text": "Bootstrap Theme - Module - Social Share",
+      "url": "https://bitbucket.org/bdexecs/bd-widgets/pull-requests/674/fbpopupsharemobile/diff#chg-Bootstrap%20Theme%20-%20Module%20-%20Social%20Share%20%28ID%201359%29/html.php"
+    }
+  ],
+  "lastmod": "2018-08-25T00:28:01+05:30",
+  "scraped_at": "2026-10-18T13:43:35.255974"
+}

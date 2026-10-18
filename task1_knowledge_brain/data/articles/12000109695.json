@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109695",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109695-authorize-net-payment-gateway-frequently-asked-questions",
+  "title": "Authorize.net Payment Gateway - Frequently Asked Questions",
+  "category": "Finance",
+  "folder": "Payment Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Payment Settings",
+    "Authorize.net Payment Gateway - Frequently Asked Questions"
+  ],
+  "content": "## Authorize.net Payment Gateway - Frequently Asked Questions\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109695\n\n1. If I update my Authorize.Net payment gateway to a new Authorize.Net account in BD, then for existing recurring members whose payment information is currently stored within Brilliant Directories, would BD continue to have access to the existing stored payment credentials after I configure the new Authorize.Net gateway? Yes. The cards are stored encrypted in your site's billing system. Saving new Authorize.Net credentials only updates the gateway's own settings (the Login ID and Transaction Key). It does not change any member's stored card or any member's subscription.\n\n2. When an existing member's next recurring invoice becomes due, would BD submit that member's existing stored payment information through the new Authorize.Net gateway, without requiring the member to re-enter their card information? Yes. Each renewal is charged by sending the member's stored card to whichever Authorize.Net credentials are configured at the time the invoice is charged. Once the new credentials are saved, renewals go to the new account with nothing required from members.\n\n3. If the existing stored payment information remains valid, would recurring billing therefore continue normally through the new gateway? It should, as long as the new Authorize.Net account accepts the charges. That depends on the new account's own settings, which we can't see from our side, so before switching we recommend confirming these three things in the new account:\n\n- It accepts charges submitted without a card security code (CVV). Security codes are never stored, so renewals are always sent without one. If the new account declines transactions that have no security code, renewals would be declined.\n\n- Its address verification (AVS) filter won't decline renewal charges. On your current account, every renewal comes back with address verification marked as not applicable, so address checks have not been applied to your renewals so far.\n\n- Every card brand your members use is enabled. This includes American Express, which about a third of your members with a stored card use, and which some merchant accounts require enabling separately.\n\nIf one of these settings did cause declines, the fix would be adjusting that setting in the new Authorize.Net account. Members would not need to re-enter their cards.\n\n4. Under what circumstances, if any, would an existing recurring member be required to re-enter or update their payment information solely because the Authorize.Net gateway account was changed?\n\nFor members with a stored card, none. Changing the account does not remove or invalidate their stored cards.\n\n5. Please distinguish this from an underlying processor change on the same Authorize.Net gateway. My question specifically concerns replacing the existing Authorize.Net gateway account in BD with an entirely new Authorize.Net gateway account and new gateway credentials.\n\nA processor change behind your existing Authorize.Net account keeps the same Login ID and Transaction Key, so nothing changes on the Brilliant Directories side and billing continues as it does today.\n\nReplacing the account with a new Authorize.Net account and new credentials is the scenario covered above: stored cards stay in your site's billing system, and renewals start going to the new account.\n\nOn the ARB point: Brilliant Directories does not use Authorize.Net's recurring billing (ARB) subscriptions. Your site keeps its own renewal schedule and sends each renewal to Authorize.Net as an individual charge, so the ARB data that can't be migrated is not something your site relies on.\n\nIf you do decide to switch, it's done by editing the existing Authorize.net entry under Finance > Payment Settings in your admin and replacing the Login ID and Transaction Key.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109695",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109695"
+    }
+  ],
+  "lastmod": "2026-09-13T02:50:46+05:30",
+  "scraped_at": "2026-10-18T14:00:04.691710"
+}

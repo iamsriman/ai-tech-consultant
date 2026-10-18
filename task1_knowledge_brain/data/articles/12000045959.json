@@ -1,0 +1,27 @@
+{
+  "article_id": "12000045959",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045959-06-15-18-software-updates",
+  "title": "06/15/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/15/18 - Software Updates"
+  ],
+  "content": "## 06/15/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000045959\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was affecting the aesthetics of the Reviews page in the Admin area when the User Consent Tools are activate on a site. Widget Involved: Bootstrap Theme - Form - Review Consent Checkboxes\n\n- We fixed an issue with the One Click Social Login and the Claimable Business Listings Add-Ons that was causing a duplicate member to be created when a user tried to claim a Listing using a social media account.\n\n- We fixed an issue which was affecting the normal behavior of the Include Posts from Non-Searchable Members setting in the Homepage Section Order area of the Design Settings page in the Admin area. Widgets Involved: Bootstrap Theme - Display - Recent Articles Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Classifieds Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Photo Albums Bootstrap Theme - Display - Recent Products Bootstrap Theme - Display - Recent Properties Bootstrap Theme - Display - Recent Videos\n\n- We released the AdBlock Detector Add-On. For more information click here . Widgets Involved: Bootstrap Theme - Footer - Scripts\n\n- We made an aesthetic update to the Front-End Label Edit tool.\n\n- We added the ability to sort Recent Events search results based on the Product Level like the other Recent Homepage widgets do. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We fixed an issue which was affecting the display of the Date Range Calendar field in the Transaction History Page in the Admin area.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000045959",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000045959"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/adblock-detector-add-on"
+    }
+  ],
+  "lastmod": "2018-06-18T23:45:42+05:30",
+  "scraped_at": "2026-10-18T13:42:56.884225"
+}

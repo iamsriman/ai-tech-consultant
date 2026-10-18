@@ -1,0 +1,23 @@
+{
+  "article_id": "12000105212",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105212-07-04-2025-software-updates",
+  "title": "07/04/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/04/2025 - Software Updates"
+  ],
+  "content": "## 07/04/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000105212\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- The Business Toolkit page is now compatible with Text Labels.\n\n- Fixed an issue that prevented the breadcrumbs \"position\" schema item from displaying the correct value in some cases. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- Updated the display of member profile pages to hide the Overview tab completely when all of the Overview Tab Section Subscription Settings are set to \"Hide Section\".\n\n- Added the ability to update the member profile URL after changing the Listing Type via bulk actions on the Search Members page in the Admin.\n\n- Added the ability to disable Link Branding for emails from the Domain Manager page in the Admin. This is now disabled by default on all newly launched sites as some users were experiencing issues opening these links in emails.\n\n- Fixed an issue that prevented the Manage Posts page in the Admin from working properly in some cases.\n\n- Created a new Email Template variable called last_login_format , which displays the member's last login date formatted based on the Date Format specified in the site's General Settings.\n\n- Fixed a display issue on the Send Newsletter page in the Admin when the newsletter's name to was longer than the provided space.\n\n- Updated the font sizes available in all Froala WYSIWYG dropdowns.\n\n- Fixed an issue that prevented the Reviews page related to member profile pages from returning accurate results when the Insta-Load Search Results Add-On was activated. Widget Involved: Search - Reviews - Search Query\n\n- Fixed an issue that prevented the \"Sort by Most Views\" option from working properly on the Search Members page in the Admin in some cases.\n\n- Updated the Easy-Coupon Codes Add-On logic to display a more accurate text label after applying a coupon code for a one-time payment subscription. Widget Involved: Bootstrap Theme - Function - Form Promotion Code Validation Text Label Involved: Promocode One Time Help Text Label\n\n- Updated the display of the Advanced Settings page in the Admin.\n\n- Fixed an issue that was causing Froala fields to include extra HTML tags in email notifications after submitting a form through the Member Dashboard.\n\n- Updated the \"Daily Admin Report\" sent via the Billing Reminders Email Add-On to only include information for invoices related to the billing cycles selected in the Billing Email Settings .\n\n- Improved the form validation logic for the Verify Business form in the Member Dashboard . Widget Involved: Bootstrap Theme - Account - Verify Listing\n\n- Fixed an issue when filtering by \"Today\" using the date filter on the Send Newsletter page in the Admin.\n\n- Fixed an issue that prevented the Private member Chat Add-On from working properly in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000105212",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000105212"
+    }
+  ],
+  "lastmod": "2025-07-08T00:10:11+05:30",
+  "scraped_at": "2026-10-18T13:56:20.060844"
+}

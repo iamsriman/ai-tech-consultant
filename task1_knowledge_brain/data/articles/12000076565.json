@@ -1,0 +1,112 @@
+{
+  "article_id": "12000076565",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076565-create-lead-magnet-landing-page",
+  "title": "Create Lead Magnet Landing Page",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "Create Lead Magnet Landing Page"
+  ],
+  "content": "## Create Lead Magnet Landing Page\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076565\n\nLead magnets are a great way to collect email addresses and other contact information from potential customers in exchange for a free resource, such as an eBook, checklist, guide, or PDF download.\n\nIn this example, we'll create a simple lead magnet funnel where visitors submit their email address through a form and are then redirected to a page where they can download a free resource.\n\nOn the Download Page there is going to be a button to download the Free Resource provided as a pdf:\n\nThis tutorial covers the following steps:\n\n- Upload the PDF resource.\n\n- Create a download page.\n\n- Create and configure a lead capture form.\n\n- Create a success page and embed the form.\n\n\n## Upload PDF\n\n\nNavigate to: My Content → Media Manager\n\nUpload the PDF file that visitors will receive after submitting the form.\n\n\n## Create Download Page\n\n\nPlease see: How to Create a Download Link With a Button\n\nCreate a new webpage by navigating to:\n\nContent → Web Page Builder → New Web Page\n\nConfigure the page:\n\n- Page Name: Download Page\n\n- URL: download-page\n\n- Title: Enter your desired title\n\n- Subtitle: Optional\n\nAdd any content you would like visitors to see before downloading the resource.\n\nExample:\n\nAdd a button that links directly to the uploaded PDF file. When clicked, visitors will be able to download the resource.\n\n\n## Clone Contact Us Form\n\n\nClone the contact us form and remove the fields that are not necessary. In this example we are just going to use the email field and security fields.\n\nChange the name of the submit button to: Gain Access To Our E-Book Now\n\nOnce saving the form select:  Select the option Redirect to Another Page in the What happens after form submitted drop down as shown below\n\nAdd the URL of the Download page, in this scenario it is: \"/download-page\".\n\n\n## Create Success Page\n\n\nGo to Content >> Web Page Builder >> \"Click on New Web Page +\".\n\nAdd a name to the Page.\n\nAdd the URL of the page, for this example we are going to add:  \"success-page\".\n\nAdd Title and Subtitle .\n\nDesign the Content Of the Page, see this example:\n\nMake sure to add the link of the form so the form can be rendered on the page, this is how the system will track the email of the submitter:\n\n[form=lead_magnet]",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284493/original/Z7Co9COfI0gOvN7eIyf8OrYJ2dhGzjPxVQ.png?1687410717",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Lead Magnet Landing Page' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284497/original/U8La-IapiUlfOkC5E_XGIGk7cuvb6LpULw.png?1687410727",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Lead Magnet Landing Page' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127484584/original/rDCKgSAqWLMMLbGNnmP5Mg8nO-G_cb-myQ.gif?1687813332",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Lead Magnet Landing Page' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127485184/original/UAdQLbwbtw6o9xDFf3LZLWPi-tQx7NFiBg.png?1687814037",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Lead Magnet Landing Page' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127485239/original/iLtQaW03jZPEhYlqOLk0j9YRe3hX8d7eEQ.png?1687814167",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Lead Magnet Landing Page' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284508/original/FiF2Dwc9_xvc18QqLNCbjzGI5AdK0JK9_Q.png?1687410783",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Lead Magnet Landing Page' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284511/original/yamSaM0G8G-t7qr3UXVjSXGHgZhBbYSkJw.png?1687410793",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Lead Magnet Landing Page' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284521/original/Zx3ZdaNyBTXqEF187kIaEqvhftp1z_Kbaw.png?1687410803",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Create Lead Magnet Landing Page' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076565",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076565"
+    },
+    {
+      "text": "My Content → Media Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000000876-my-content-%C2%BB-media-manager"
+    },
+    {
+      "text": "How to Create a Download Link With a Button",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000076482"
+    },
+    {
+      "text": "Content → Web Page Builder → New Web Page",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000047125-how-to-create-a-new-static-page"
+    },
+    {
+      "text": "Clone the contact us form",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036713"
+    }
+  ],
+  "lastmod": "2026-06-11T02:42:03+05:30",
+  "scraped_at": "2026-10-18T13:47:32.068582"
+}

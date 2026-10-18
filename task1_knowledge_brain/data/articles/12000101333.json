@@ -1,0 +1,98 @@
+{
+  "article_id": "12000101333",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101333-identifying-sources-of-bandwidth-usage-with-awstats",
+  "title": "Identifying Sources of Bandwidth Usage with AWStats",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Identifying Sources of Bandwidth Usage with AWStats"
+  ],
+  "content": "## Identifying Sources of Bandwidth Usage with AWStats\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000101333\n\nAWStats, a powerful web analytics tool integrated into cPanel, offers a wealth of information about a website's traffic. Let's delve into how to leverage AWStats to pinpoint traffic sources and identify which ones are consuming the most bandwidth.\n\n\n## Accessing AWStats\n\n\n- In the Admin area of the website, navigate to the Developer Hub > cPanel Dashboard to log into your cPanel\n\n- Navigate to the \"Metrics\" section and click on the \"AWStats\" icon\n\n- Select the domain you want to analyze from the dropdown menu and click \"View.\"\n\n- At the top of the screen, there is an option to choose the \"Reported Period\". Choose \"Monthly\" and the month and year to view.  The current month will be selected by default.\n\n\n## Identifying Sources of Bandwidth Consumption\n\n\nOnce in the AWStats interface, there is a lot of information about the traffic to the website.  The following sections are the most important when trying to find the primary sources of bandwidth consumption.\n\n\n### \"Summary\" Section\n\n\nThis section gives a high level overview of how much traffic a site received from humans (\"Viewed traffic\") and bots (\"Not Viewed Traffic\").\n\n\n### Key Takeaways / Action Items\n\n\nOne critical piece of information here is the \"Bandwidth\" column, which gives an indication of how much bandwidth has been consumed by humans vs bots.\n\nIf the majority of the traffic is coming from humans, checking the \"Locales\" and \"Hosts\" sections below will provide more information about the specific sources of that traffic and if there are opportunities to block specific IPs or countries.\n\nIf the majority of the traffic is coming from bots, the \"Robots/Spiders visitors\" section below will list the specific bots that are consuming the traffic.  This will help identify bots that can be blocked in the robots.txt file to prevent future bandwidth usage.\n\n\n### \"Locales\" Section\n\n\nThis section provides a breakdown of visitors based on their geographical location. You'll see the number of visits and the percentage of total traffic each country contributes.\n\n\n### Key Takeaways / Action Items\n\n\nIf a lot of visitors are coming from outside of the website's target market, blocking traffic from outside of those countries can have a large impact on the bandwidth usage of the site.\n\n\n### \"Hosts\" Section\n\n\nThis is a list of IP addresses that have accessed the site. This can help identify the specific IPs, companies, organizations, or internet service providers (ISPs) consuming bandwidth on the site.\n\n\n### Key Takeaways / Action Items\n\n\nSpecific IPs can sometimes consume an outsized portion of a site's bandwidth. Use a tool like https://www.ip2location.com/ to search for a specific IP and find information about what country it is from, if it is associated with a specific company or ISP, and more.\n\nIf a single IP is identified to be consuming a large amount of bandwidth and it is not a desirable source of traffic, the IP can be blocked .\n\nNote: If a website is using Cloudflare, Securi, or other DNS hosts that act as a proxy, the IPs listed here will be from the DNS host rather than the original user that made the request.  More information about the IPs accessing the site can be found in the DNS host account.\n\n\n### \"Robots/Spiders visitors\" Section\n\n\nThis section shows the \"user agent\" of bots that have visited the site, and how much bandwidth has been consumed by each bot.\n\n\n### Key Takeaways / Action Items\n\n\nIf the \"Summary\" section described above indicates that most of the bandwidth usage of the website is coming from bots, this section will help identify which specific bots are consuming the bandwidth so a decision can be made whether to block them or not.\n\nOnce an undesirable bot is identified, it can be blocked in the robots.txt file .\n\nThe default robots.txt file blocks ALL bots except for Google, Yahoo, Bing, and Twitter / X. Using the default robots.txt rules is recommended for most websites and will prevent a large number of undesirable bots from crawling the site and consuming bandwidth.\n\nImportant : Facebook has a bot called \"facebookexternalhit\". This bot must be allowed in the robots.txt file in order for pages on the website to be shared on Facebook. However, this bot is known for consuming an enormous amount of bandwidth, far beyond what is required to share content on Facebook, and is blocked by default. Find more information about the facebookexternalhit bot .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148827045/original/ZsEpk-4A2jayYAr2iu1IgAMhquQh52pofw.png?1725311626",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Identifying Sources of Bandwidth Usage with AWStats' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148827040/original/rPNrSnWgu1QF2TASUwlcHgWwKmg-yME9Yw.png?1725311591",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Identifying Sources of Bandwidth Usage with AWStats' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148871882/original/wiqCb0c0VaLQTITvZdEqv4Rfvh6HbbX6pA.png?1725379570",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Identifying Sources of Bandwidth Usage with AWStats' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148871892/original/CYu5G1EYUAlhQWmtF1-iiBFK4iggsKZXPQ.png?1725379579",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Identifying Sources of Bandwidth Usage with AWStats' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148871906/original/dlFLfMM3srDWt83AKY76XDST-Ecl4aNBcg.png?1725379591",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Identifying Sources of Bandwidth Usage with AWStats' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12148871912/original/uWouE1KUzE87uDFH0pVCCL18HQPT5sq9cQ.png?1725379600",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Identifying Sources of Bandwidth Usage with AWStats' in section 'Get Started Here' / 'Common Questions & Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000101333",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000101333"
+    },
+    {
+      "text": "blocking traffic from outside of those countries",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098368"
+    },
+    {
+      "text": "https://www.ip2location.com/",
+      "url": "https://www.ip2location.com/"
+    },
+    {
+      "text": "the IP can be blocked",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008504"
+    },
+    {
+      "text": "robots.txt file",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075850"
+    },
+    {
+      "text": "facebookexternalhit bot",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100532"
+    }
+  ],
+  "lastmod": "2024-09-03T21:36:44+05:30",
+  "scraped_at": "2026-10-18T13:54:52.502470"
+}

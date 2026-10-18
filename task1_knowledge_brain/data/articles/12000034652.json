@@ -1,0 +1,27 @@
+{
+  "article_id": "12000034652",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034652-08-25-17-software-updates",
+  "title": "08/25/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/25/17 - Software Updates"
+  ],
+  "content": "## 08/25/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000034652\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added a new Banner Ad into our Manage Banner Advertisements Module called the Below Header Banner Ad.  When enabled, this will show a new Banner Ad just below the Header of the Site. To modify this new feature, navigate to the Site Admin >> Settings >> Design Settings >> Click on Banner Ad Design.\n\n- We created a new Advanced Setting named max_text_editor_size in order to increase the max size (MB) that can be uploaded via Froala Editor, the default value is 10 (10 MB). Widget Involved: Form - Froala Editor Javascript\n\n- The enable_localized_search advanced setting has now been updated to remove the country from  the Related Search widget which is found in the sidebar of profile pages. Widget Involved: Bootstrap Theme - Module - Member Related Searches\n\n- The Promo Code Add-On is now based on Text Labels. Widget Involved: Bootstrap Theme - Signup Page Layout - Promo Code Input\n\n- We fixed an issue that was affecting the Feature Account Body widget when the Recurring Events Add-On has been activated on a site. Widget Involved: Bootstrap Theme - Account - Feature Body\n\n- The issue that was showing a 404 Error after clicking on the link for a post displayed in the Autosuggest options of the keyword search field in the header has been resolved. Widget Involved: Bootstrap Theme - Function - API\n\n- We recently released an update to the Finance >> Transaction History page in the Admin.  This update includes additional functionality including the ability to cancel invoices that are set to be charged a future date, enhanced search capabilities, new reports, and more.\n\n- We updated the Event Calendar Script in order to show the date accurately no matter what Time Zone has been set in the General Setting of a Site.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000034652",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034652"
+    },
+    {
+      "text": "",
+      "url": "http://www.managemydirectory.com/admin/billingHistory.php"
+    }
+  ],
+  "lastmod": "2017-08-25T22:26:08+05:30",
+  "scraped_at": "2026-10-18T13:41:37.616023"
+}

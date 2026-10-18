@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108084",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108084-api-reference-notes",
+  "title": "API Reference - Notes",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Notes"
+  ],
+  "content": "## API Reference - Notes\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108084\n\n← Back to API Reference | Getting Started Notes Notes are short internal annotations that can be attached to any record in the system, such as a member profile, order, lead, or task. They are used by site administrators to log activity, track history, and leave internal comments. Notes are not visible to end users. Model name in URL: notes — DB table: NOTES The Note Object Field Type Description NOTE_ID integer Unique note ID (primary key, read-only) DB_ID integer ID of the record this note is attached to DB string Table name of the record this note is attached to (EG users_data , orders ) NOTE text Full text content of the note DATE_ADDED string Date the note was created (format: YYYYMMDDHHmmss ) NOTE_BY string Username or identifier of who created the note revision_timestamp timestamp Timestamp of last record modification (auto-managed) List Notes GET /api/v2/notes/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/notes/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"NOTE_ID\": \"2\",\n      \"DB_ID\": \"24\",\n      \"DB\": \"users_data\",\n      \"NOTE\": \"Email with subject: Welcome to our directory - Sent\",\n      \"DATE_ADDED\": \"20240301120000\",\n      \"NOTE_BY\": \"admin\",\n      \"revision_timestamp\": \"2024-03-01 12:00:00\"\n    }\n  ],\n  \"total\": \"106\",\n  \"current_page\": 1,\n  \"total_pages\": 5,\n  \"next_page\": \"MipfKjI=\"\n} Retrieve a Note GET /api/v2/notes/get/{NOTE_ID} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/notes/get/2\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"NOTE_ID\": \"2\",\n      \"DB_ID\": \"24\",\n      \"DB\": \"users_data\",\n      \"NOTE\": \"Email with subject: Welcome to our directory - Sent\",\n      \"DATE_ADDED\": \"20240301120000\",\n      \"NOTE_BY\": \"admin\",\n      \"revision_timestamp\": \"2024-03-01 12:00:00\"\n    }\n  ],\n  \"total\": \"106\",\n  \"current_page\": 1,\n  \"total_pages\": 5\n} Create a Note POST /api/v2/notes/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/notes/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"DB_ID=100\" \\\n  -d \"DB=users_data\" \\\n  -d \"NOTE=Followed+up+with+member+via+phone\" \\\n  -d \"DATE_ADDED=20240301120000\" \\\n  -d \"NOTE_BY=admin\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"NOTE_ID\": \"107\",\n    \"DB_ID\": \"100\",\n    \"DB\": \"users_data\",\n    \"NOTE\": \"Followed up with member via phone\",\n    \"DATE_ADDED\": \"20240301120000\",\n    \"NOTE_BY\": \"admin\",\n    \"revision_timestamp\": null\n  }\n} Update a Note PUT /api/v2/notes/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/notes/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"NOTE_ID=107\" \\\n  -d \"NOTE=Followed+up+with+member+via+phone+-+resolved\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"NOTE_ID\": \"107\",\n    \"DB_ID\": \"100\",\n    \"DB\": \"users_data\",\n    \"NOTE\": \"Followed up with member via phone - resolved\",\n    \"DATE_ADDED\": \"20240301120000\",\n    \"NOTE_BY\": \"admin\",\n    \"revision_timestamp\": \"2024-03-02 09:15:00\"\n  }\n} Delete a Note DELETE /api/v2/notes/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/notes/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"NOTE_ID=107\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"notes record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108084",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108084"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:01:47+05:30",
+  "scraped_at": "2026-10-18T13:58:00.816678"
+}

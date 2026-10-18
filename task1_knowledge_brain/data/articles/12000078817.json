@@ -1,0 +1,123 @@
+{
+  "article_id": "12000078817",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078817-common-breadcrumb-variables-to-be-used-on-the-website",
+  "title": "Common Breadcrumb Variables to be used on the Website",
+  "category": "My Content",
+  "folder": "SEO Templates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "SEO Templates",
+    "Common Breadcrumb Variables to be used on the Website"
+  ],
+  "content": "## Common Breadcrumb Variables to be used on the Website\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078817\n\nA breadcrumb is a navigational aid used on websites to show the user's location. On Brilliant Directories, these are automatically generated on different sections of the software and can be edited if desired.\n\nThese are the most common variables and areas where breadcrumbs can be edited:\n\n\n## 1. Static Web Pages\n\n\nNavigate to My Content >> Web Page Builder >> Search for the desired web page to add/edit the breadcrumbs and click on Edit:\n\nOnce on the page, move to the Page Options tab and add/edit the breadcrumbs:\n\nThe accepted format for custom breadcrumbs under Web Page Builder is:\n\nBlog | /blog > Partner | https://example.com > My Page\n\nFormat rules:\n\n> — Separates each breadcrumb level.\n\n| — Assigns a URL to the breadcrumb immediately before it. Both relative URLs (such as /blog ) and absolute URLs (such as https://example.com ) are supported.\n\nHow it works:\n\n- The text before the | is the breadcrumb label that will be displayed.\n\n- The URL after the | is the destination for that breadcrumb.\n\n- Each > creates the next level in the breadcrumb trail.\n\n- The final breadcrumb can be plain text without a URL if it represents the current page.\n\nExample:\n\nBlog | /blog > Partner | https://example.com > My Page\n\nThis will generate the following breadcrumb trail:\n\nHome > Blog > Partner > My Page\n\nWhere:\n\n- Blog links to /blog\n\n- Partner links to https://example.com\n\n- My Page is the current page and is not linked.\n\nNote: Do not include Home in your custom breadcrumb string, as it is added automatically by the system.\n\nDo not forget to save the changes.\n\nHere is a list of some of the common variables that can be used to edit the web page breadcrumbs for static pages on the site:\n\n1. %website_name%\n\n2. %%Profession%\n\n3. %website_url%\n\n4. %industry%\n\nExample:\n\nCategory Page\n\n\n## 2. Member SEO Templates\n\n\nTo edit the breadcrumbs of member SEO templates, navigate to My Content >> SEO Templates >> Choose a SEO template and click on Edit:\n\nMove to the Page Options tab and edit them accordingly:\n\nThese are dynamic pages. Once the details have been edited in one SEO template, the changes will be reflected on multiple search results pages as well. A good example would be editing the SEO of a top-level category; this would affect the search result pages of all top-level categories as well.\n\n- Profile Page SEO templates from ID #100 to ID #103: These are the pages that show member profiles.\n\n- Member search results #200's IDs: Pages that will show based on a search by either category or location.\n\nHere is a list of some of the common variables that can be used to edit the member SEO breadcrumbs of the dynamic pages of the site:\n\n1. %country_name% – The name of the country that relates to this page\n\n2. %city% OR %city_name% – The name of the city that relates to this page\n\n3. %profession% – The name of the top-level category that relates to this page\n\n4. %full_name% – The full name of the member that relates to this page\n\n5. %service_name% – The name of the sub-level category that relates to this page\n\n6. %company% – The name of the member's company that relates to this page\n\n7. %location% – The city and state associated with the listing\n\n8. %industry% – The industry variable entered on the Settings >> General Settings >> Industry tab\n\nExamples:\n\nSEO Template ID #100:\n\nSEO Template #216:\n\n\n## 3. Post Types SEO Templates\n\n\nNavigate to My Content >> SEO Templates >> Choose one of the post SEO templates and click on Edit:\n\nThe changes will be reflected on either post search results pages or post detail pages.\n\n- Post Search Results SEO Templates #300 and #301: Pages that will show based on a search by post type.\n\nFor the post search results SEO breadcrumbs, it is recommended to only use the %%Data_name%% variable:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180675303/original/vrp9qNYzKRcA2lp8QBB5KClYtblRxd1Cvg.png?1781820808",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183903028/original/F8_cCZoXlrPRjAh4UVFSrhYv9Z2W2T51MA.png?1787218930",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180675343/original/-oVdckIor8RV6YoQOwlzNFZsvUoty4OQCw.png?1781820917",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180675364/original/JsIawfpQkvCMW_hR4uAJDap-Jnyq9ThSWw.png?1781820944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183903065/original/bSeVgq9Z0KN48xk9Ry294IaEkLiRxXJxyw.png?1787218982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090907834/original/pUcaPaXUmztWHynvQran_VY-fIypnsKpxA.png?1617651399",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180675421/original/nKwcnOLbq6IocBDd-eriOMtFrdpeKGeb_w.png?1781821075",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183903105/original/Ny34EHsw2AgMjMntdki1StYx_yI5WDCqKA.png?1787219034",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180675492/original/PlevfgPLiwry2B0GvTWI6OAZyll84iTZkQ.png?1781821153",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183903139/original/xLfVz6MelXF4HJw6tVpVQgDcRd2IOeZpDQ.png?1787219112",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180675517/original/1pAibfLfWbpDYw6eWBSu-N2FA2qK3p_Wrw.png?1781821231",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Common Breadcrumb Variables to be used on the Website' in section 'My Content' / 'SEO Templates'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078817",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078817"
+    }
+  ],
+  "lastmod": "2026-08-20T15:15:18+05:30",
+  "scraped_at": "2026-10-18T13:48:16.803053"
+}

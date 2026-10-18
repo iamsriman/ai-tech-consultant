@@ -1,0 +1,23 @@
+{
+  "article_id": "12000102080",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102080-10-25-2024-software-updates",
+  "title": "10/25/2024 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/25/2024 - Software Updates"
+  ],
+  "content": "## 10/25/2024 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102080\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the \"Show Widgets\" feature from working properly on claimable member profile pages in some cases.\n\n- We updated the \"Decline Lead\" button in the Member Dashboard to trigger a pop-up modal to confirm the action. Widget Involved: Bootstrap Theme - Account - Leads Details Page - New Lead System\n\n- The Homepage Recent Events widget is now compatible with the \"Display Expired Post in Search Results\" Post Type Setting. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- Member Sub and Sub-Sub Categories are now searchable by ID on the Member Categories page in the Admin.\n\n- We implemented a security update in the Admin area.\n\n- We updated the URL validation for Web Pages created in the Web Page Builder in the Admin to treat \"checkout\" as a reserved word.\n\n- We fixed an issue which was preventing the system from respecting the \"Require Credit Card When $0.00?\" Coupon Code Setting on checkout pages in some cases. Widget Involved: Bootstrap Theme - Function - Order Summary\n\n- We improved the compatibility of the frontend display of sites with the \"Text Direction\" Advanced Setting. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We updated Multi-Photo Post Type search results to add support for a custom expiration date field and mark posts as \"Expired\" on the Manage Posts page in the Admin.\n\n- We fixed an issue which was causing the system to display broken images when displaying posts in the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Account - Feature Body datatable\n\n- We created a new Text Label called \"Member Signup Success Message (No Email Sent to Member)\". This label will render on the member signup success modal when the \"Sign Up Email Sent\" Membership Plan Setting is set to \"Do not Send an Email\" instead of the regular success message. Widgets Involved: Bootstrap Theme - Success Page - Free Member Sign Up Bootstrap Theme - Success Page - Paid Member Sign Up\n\n- We added a limit to the number of characters that can be saved  for the title and description of images uploaded to Multi-Image Post Types. Widget Involved: Bootstrap Theme - Account - Edit Uploaded Photos\n\n- We updated the display of the Google Login button on the member login page on the frontend of sites. Widget Involved: Bootstrap Theme - Display - Google Action Login\n\n- We fixed an issue which was preventing the Main Menu from displaying properly on some custom browser display sizes in some cases. Widget Involved: Bootstrap Theme - Header - Main Menu\n\n- We updated the UI of the Smart List and Tags page in the Admin to add pagination and make it load more quickly.\n\n- We fixed an issue that was causing the system to use member credits even though a 100% coupon code was applied when performing a member upgrade.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102080",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102080"
+    }
+  ],
+  "lastmod": "2024-11-04T20:23:06+05:30",
+  "scraped_at": "2026-10-18T13:55:09.115626"
+}

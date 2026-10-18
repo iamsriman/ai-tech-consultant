@@ -1,0 +1,23 @@
+{
+  "article_id": "5000686298",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000686298-common-variable-list",
+  "title": "Common Variable List",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Common Variable List"
+  ],
+  "content": "## Common Variable List\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000686298\n\nThe following is a list of all the variables used on the system and in what cases (pages, parts of the system) they are used. The list is almost complete and will be updated while the variables are updated to their specific scopes:\n\nPAGE TYPE COMMON VARIABLES USED ON THIS PAGE TYPE content $w data_post $w, $user, $post data_category $w, $dc, $profs account $w, $user payment $w, $subscription profile $w, $user, $user_data, $subscription, $profession, $service\n\nSYSTEM ARRAYS USAGE $w (Used on all pages, general website information) $s (Member Categories) $r (Membership Feature Reviews) $p (Post and group information) $g (Similar to $group) $post (Post information) $user (Used where single user data appears like a Member's Profile page) $user_data (Used where there is data for multiple members like a Search Results page) $profs (Brings filters like country, state, zipcode, top level, sub level...) eg: Search Results $data_results (Search Results) $dc (Post Settings information - meta information about a Post Type) $page (Everything related to current page) $group (Everything related to \"Groups\" - Post Types where each post has multiple images) $photo (Everything related to Member logos and profile photos) $subscription (Product Settings - meta data related to a Member's Product) $profession (Everything related to Member Main Categories) $service (Everything related to Member Sub Categories) $lead (Everything related to Leads) $review (Data related to the Member review process - $r is more common) $label (Text Labels) $_COOKIE (HTTP Cookie Data) $_SERVER (Information about the Server) $_REQUEST (HTTP Request Data) $_FILES (HTTP File Uploaded Data) $_GET (HTTP GET Data)",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000686298",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000686298"
+    }
+  ],
+  "lastmod": "2025-10-21T03:00:06+05:30",
+  "scraped_at": "2026-10-18T13:39:15.780659"
+}

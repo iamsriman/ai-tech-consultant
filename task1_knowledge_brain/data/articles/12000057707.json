@@ -1,0 +1,468 @@
+{
+  "article_id": "12000057707",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057707-sell-digital-products-services",
+  "title": "Sell Digital Products & Services",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Sell Digital Products & Services"
+  ],
+  "content": "## Sell Digital Products & Services\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000057707\n\nGenerate additional revenue from members by selling digital products and services directly through the website.\n\nSell ebook downloads, banner ad placements, marketing services and more. The website will automatically charge the member’s credit card. The user will receive a confirmation email and be redirected to a confirmation/download page.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Sell Digital Products & Services Add-On\n```\n\nIMPORTANT: This post type should only be activated for the admin membership plan, not for directory members. This feature is directly linked to the website payment gateway so any purchases made will be paid to the admin.\n\nNOTE: In order to utilize this add-on, the website requires a secure HTTPS connection. Get an SSL Certificate HERE if the website does not currently have one.\n\nNOTE: Users must be logged in to an account to get a Digital Product. This is required for all types of digital products: free, paid and recurrent.\n\n\n## Enabling the Add-On\n\n\nGo to Finance - Membership Plans:\n\nSelect the Admin membership level:\n\nGo to Post Publishing tab and scroll down to activate the Website - Digital Products Feature:\n\n\n## Adding Digital Products\n\n\nLog into the Admin profile and using the left sidebar find the Website - Digital Products to a new Digital Product:\n\n\n### Digital Products Form\n\n\nFill out the Digital products form. Here's a list of the fields available in this form:\n\n- Publish content on the site or save it as a draft.\n\n- Add the Title of the Digital Product.\n\n- Payment Type - Select if the product will be free, one time payment, recurrent or a custom donation.\n\n- Add the \"Buy Button Text\" - Call to action\n\n- Add a Price - Product can be set as $0 and it would be free and no CC would be required.\n\n- Select the Available Quantity.\n\n- Redirect the members after a purchase to a \"thank you\" page or a custom page within the web pages.\n\n- Select the email template it will be sent. There is a default email template called: Digital Product Purchase Complete, it is the default email template. This one can be used it or create a new one. Website admins can make use of the variable %group_name% to incorporate the title of the digital product into the email template.\n\n- Select the email template that will be sent to the publisher(Admin) of the digital product. There is a default email template called: Digital Product Purchase Complete, it is the default email template. This one can be used it or create a new one.\n\n- Enter related keywords.\n\n- Add a description\n\nNOTE: If the Credits System Add-on is enabled, there will be two additional fields appearing in the form:\n\n- Credits to Add After Purchase: Buyers will receive this credit amount one time after initial purchase. Leave blank if no credits are granted.\n\n- Allow Use of Existing Credits for Purchase?: Select 'Yes' to allow buyers to use existing credits towards this purchase, or 'No' to require the use of a payment method.\n\nOnce all of the details have been saved, add the images to the Digital Product feature.\n\nUpload as many images as needed.\n\n- Title\n\n- Description\n\n- Rotate Image\n\n- Delete\n\nArrange the Photo Display Order:\n\nAll Digital Products (drafts or published) will be displayed in the member dashboard. To View, Edit, Clone or Delete the Digital Product click on the Actions drop-down to display the available options:\n\n\n### Digital Products URL\n\n\nFind the Digital Products using the URL:\n\nyoursite.com/ digital-products\n\n\n### Thank You Page\n\n\nIf a Thank You page was selected, make sure to also protect the page. This can also be done for any static page.\n\nIn the Web Page Builder go to the static page and in the Page Details select Protect Page and only Allow Digital Products Buyers, then choose the digital products that are associated to this page.\n\nThis allows to select multiple Digital products so this will Restrict this page to be only visible for the buyers of the selected Digital Products.\n\nIf a user tries to access the page without having purchased the product a message will appear letting indicating that they don't have access to this page:\n\n\n## Use Cases\n\n\nThis feature should be used by the website owner. It should not be available as a regular post type for the members because the money will go directly to the site owner, so members won't be able to accept funds.\n\nExamples of use :\n\n- eBooks, Whitepapers and Digital Downloads\n\n- Banner Ad Spots, Email Blasts and Press Releases\n\n- Ticket Sales, Donations and Fundraising\n\n- Class or course access.\n\n- Profile Optimization, Monthly Boosts and Mentions\n\n- Consulting, Paid Services and more\n\nThere are some options :\n\n- Create a Thank you Page where they can download content after they pay.\n\n- Create an Email Template where they receive the information (Download link, embedded YouTube Video, Embedded SoundCloud Audio, a form, etc.).\n\nThese options will depend on what the admin wants to sell to the members, whether that is to create only a static page, only an email template or both of them.\n\nIn this case, we are going to create a static page called: SEO-purchase\n\nThis is a simple example, but it's possible to add all the desired content.\n\n- The link which is seo-purchase\n\n- Add a Title at the top.\n\n- Some text and the Download Button.\n\nUpload a PDF file, as it's shown, the name is \"PDF_example .pdf \"\n\nThen go to the static page that was just created and add the link:\n\nFor the page to be limited to buyers of this Digital product, select this option in order to restrict this page:\n\nThe link should be the following:\n\nYoursite.com/images/name of the image.pdf\n\nTo learn how to create a custom static page with a downloadable PDF, please see the link below:\n\nHow to link a PDF to a Static Page\n\n\n## Digital Products Checkout Process and Payment Types\n\n\nThe checkout process for a user will depend on the payment type selected for the Digital product. (See Digital Products Form field 3).\n\nBy default, the Payment Type will be set to One-Time Payment, but the admin can choose:\n\n- Free product\n\n- One-Time Payment\n\n- Recurring Subscription\n\n- Custom Donation\n\nHere's an example of the checkout process for each payment type:\n\n\n### Free Product\n\n\nHere's an example of the checkout process to get a free product:\n\n\n### One Time Payment\n\n\nThis is the type of payment selected by default on the form. This will allow the user to purchase the product by paying a one-time fee:\n\nThe next screen will show the Review Order, where the customer will be able to enter a promo code if available, and check the Total amount due to be processed:\n\nImportant : in order for someone to be able to purchase a PAID digital product they must be logged in as a member. If the member as a credit card on file or have available credits those will be used automatically. If there's no card on file, the system will first ask for the card information, then process the payment.\n\nIf a member that didn't purchase the digital product tries to access the digital download page they will get this message with a link to purchase the Digital Product:\n\n\n### Recurring Subscription\n\n\nThe payment type also allows the admin to choose a recurrent subscription, when this option is selected additional fields appear in the form to choose what will be the payment cycles and the amount that will be charged.\n\nThe options available are: monthly, quarterly, semi-annually, and annually. Multiple cycles can be enabled, at least one option must be selected.\n\nThe checkout process for recurring subscriptions goes as follows:\n\nThe user will have the option to choose the cycle they want to subscribe for this product:\n\n*If credits or are available these will be automatically applied towards the total cost of the purchase, this is valid for the default Digital Products post type as well as its cloned versions.\n\n\n### Custom Donation Amount\n\n\nThis option allows the user to name the amount they would like to pay, or donate. When this payment type is selected in the form, additional fields will appear that will allow the admin to choose the cycles that will be available:\n\nFor the Donation payment type, the user will name the amount that they wish to donate as well as the cycle depending on what was enabled by the admin:\n\nIn this Review Order the promo code option does not appear for donations, as this is meant to be a contribution:\n\n\n### Credits to Add After Purchase\n\n\nIf the Credits System Add-on is enabled, there will be two additional fields appearing in the form:\n\nCredits to Add After Purchase: Buyers will receive this credit amount one time after initial purchase. Leave blank if no credits are granted.\n\nIf the admin adds and amount to the Credits to Add After Purchase. The checkout process will remain the same, the member will only see the available credits in their dashboard after the purchase:\n\nNOTE: The member must belong to a plan that has the credits display on the dashboard enabled.\n\nSince there's no mention of this credits being added to the member profile during the checkout process, it is up to the admin to mention this in their Digital Product Title or description.\n\nAllow Use of Existing Credits for Purchase?: Select 'Yes' to allow buyers to use existing credits towards this purchase, or 'No' to require the use of a payment method.\n\nIf credits are available and this setting is set to 'yes'  these will be automatically applied towards the total cost of the purchase, this is valid for the default Digital Products post type as well as its cloned versions.\n\n\n## Sales History\n\n\nWhen a Digital Product is purchased, these sales will be found inside the Digital Products >> Sales History tab in the admin profile:\n\nIt can also be found in the billing section of the member who purchased the digital product:\n\nHover over the Actions button to view the available options:\n\n- View Invoice: Click to view the invoice.\n\n- Download the Invoice: Select this option to quickly download the invoice.\n\n- Copy Invoice Link : Click to copy the Invoice Link.\n\n- View Product Page: Click here to be taken to the digital product details page\n\n- Cancel Subscription: * This option is only available for recurrent subscriptions Select this to stop the subscription.\n\nIf the digital product had a recurrent subscription it will also show in the Billing Information >> Subscriptions Tab. In this section, if the member has a membership plan subscription it will show under the \"Primary Membership Subscription\". And the digital products will appear under the \"Additonal Subscriptions\" which includes a search filter:\n\nNOTE: If the memebrship plan subscription was created through the admin, it will appear at the bottom as an \"additional subscription\".  The Primary Memebership will only show plans that were chosen by the user through the signup page or the upgrade page.\n\nThe information regarding the purchase will also display in the member's payment history in the admin and the invoice.\n\nIt shows the title of the post followed by a hyphen and the post type name:\n\n\n## Digital Products Search Box On The Homepage\n\n\nIf the admin wants to sell digital products on the homepage we recommend to select in Homepage Search Settings the Digital Products Search module:\n\nIf the admin cloned the Digital Products Post type, they can select here which one they want to connect:\n\n\n## Video",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097588168/original/g72QhlMtYE4DXzDLJU8zNL516LtV6l2zAA.png?1630450216",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105896637/original/-zbhDPlt4_beZcomdIH2wPPVzg6BuOUHUw.png?1646420374",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092056963/original/9UcOwnPdOSUZCh-hGhTTh4x3d1351OMveQ.png?1619835623",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156572736/original/Orf13Cx4F9F80rWdOM6dIAq7ulZJvfWS4A.png?1738860707",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143631826/original/kDFkt37_nUdDuOZw8jchyglVJce8RTKj7Q.png?1716338452",
+      "alt": null,
+      "caption": "Fill out the Digital products form. Here's a list of the fields available in this form:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'. Context: Fill out the Digital products form. Here's a list of the fields available in this form:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143737437/original/FHVG1rbVgsNQYzO5hsCEcp-rSPfF9HFXrw.png?1716482735",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125863144/original/_Ok0kFcTMQCSbDklMRkAPazesQjIeBrmyQ.png?1684855691",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125867346/original/ye8ImQ15ZdXFIBoCIoCK2Si-WlYix4qZqQ.png?1684859450",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125867427/original/jWEg3Vnm-1apHNFiAnU9vVrUr1dXBJIgmg.png?1684859553",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125867628/original/ANnw4-brG95EHR7EEgPvbM7ndntoLt54lw.png?1684859754",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12125868527/original/GLjnTxH3UGVDgnkSIZcMTufyBKNLob6yUg.png?1684860607",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12155863369/original/n51Ejm4rogpJtoqy2FjJVC-DNNpg9mkGGA.png?1737647816",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12149452637/original/xku6KYe4AdXQYbstfv3batvlaIUCKGqAjA.png?1726266633",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092057047/original/aetmnEQhQXRMg9zJuBqXTjzt5LbkbqlAGA.png?1619836485",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092057071/original/9Dv3ckKyDI0oyZuIfT1wsmiNGQVKGEzAWQ.png?1619836745",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092057078/original/vNflaLsRDpsxeKthXB7aRRHwWsZ6qy59gA.png?1619836801",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092057082/original/MEB4cOjD7l6g_YFo1bPTxKWveMXYxY_RJA.png?1619836836",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092057091/original/Szys-YQ2QNIaxqI8VdHVnq_DOjfDTzz9kg.png?1619836894",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143631949/original/THwHO9Wor3TzZoyqL4_CYII_PgDcuDpkKg.png?1716338720",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143697781/original/_U0bWYp5rxvSD5kea2q9wDqKdtwts_S36Q.png?1716425828",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143697720/original/2g_6yUP_sWUHDM1h2WDXRbUys5sTexN7Jw.png?1716425786",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143697719/original/mez5UvL1bF91ndXzwytfztD64TBRs4tprQ.png?1716425751",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143700505/original/R21kC28dRlbD0OjRmqVi8vyGe6Thvl267A.png?1716434474",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143698026/original/SNXhGZhC_PV3KZBfZNqy0ocziBN-YtW43g.png?1716426391",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143698081/original/CmkD9sNyvSOMQ2XcKI5M1gvAo33A56sp-w.png?1716426522",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12133569553/original/qO9yJAowyZ-qqs1ifcCLL3CDX7NvguWKog.png?1698770661",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143700647/original/zvbrdVwHLjqOQoxWdRX0YbufhikvYzAyLA.png?1716435237",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143736038/original/5ljNWY2Wz5y2PPIakbjxXQ6PPVUvrLfI2w.png?1716481159",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143736125/original/y5jzp3p38mh47tPCGv5do47VgEvx5FdhYQ.png?1716481276",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143736320/original/42dxg6rKh43zUGYcrvridvrNkQyS_bqkjw.png?1716481502",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143701740/original/B2G734jo7NQEXmKwecl0eQgF1qg1AZEGkA.png?1716438620",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143701862/original/dGS3NU_12QfJd8mkYm8iUYQ_7-7W4TKs_Q.png?1716439012",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143701890/original/xkXxRwtUprDItdhyOtzUFTWtR0O4NNDrgA.png?1716439134",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143701955/original/aQAb_0tmE02uLsT5VNlMDtUuFys6cU4PQw.png?1716439328",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143737437/original/FHVG1rbVgsNQYzO5hsCEcp-rSPfF9HFXrw.png?1716482735",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143737895/original/NWCD79dVHLfQM_pqITmVffOilagv5Dio0w.png?1716483131",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143700480/original/bJSwqXJG8H6awk5LV5iWnAK1wUTNA2o8DQ.png?1716434333",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143735882/original/smT44-XmDDVUdC334LY94I9RqV3vXgzTwQ.png?1716480917",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143735542/original/hHLWZIofTKwj9sIijEL9-_-qEM1lVhlIug.png?1716480621",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143735606/original/7u1aYAbAjS3rihP5C80cZ8RAQQe5pplZuw.png?1716480654",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143938920/original/_P8EBecfjzvhwavBc8o7CyvLZmJnOH2ALw.png?1716918014",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143735950/original/LA_aMlCKTcnifc04sgZiPfXSra95VTB0TQ.png?1716481020",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12143735899/original/d0DJi0-9J9zVfpXsJKMoOvwHc_VM1ZhM9g.png?1716480944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092057181/original/geLCAYYGLpVsbN4e5_4rUSvqTjmZEOqXxQ.png?1619837598",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092057184/original/mggPPPNkcT7rR2MoB_CONMP4zmOM02alig.png?1619837633",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Sell Digital Products & Services' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000057707",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000057707"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Sell Digital Products & Services Add-On",
+      "url": "https://www.brilliantdirectories.com/sell-digital-downloads-add-on"
+    },
+    {
+      "text": "HERE",
+      "url": "https://www.brilliantdirectories.com/ssl-secure-website"
+    },
+    {
+      "text": "Credits System Add-on",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000086306"
+    },
+    {
+      "text": "How to link a PDF to a Static Page",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037888"
+    },
+    {
+      "text": "promo code",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000032881"
+    },
+    {
+      "text": "credits",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000086306"
+    },
+    {
+      "text": "Credits System Add-on",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000086306"
+    },
+    {
+      "text": "credits",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000086306"
+    }
+  ],
+  "lastmod": "2026-08-28T22:08:45+05:30",
+  "scraped_at": "2026-10-18T13:44:57.176185"
+}

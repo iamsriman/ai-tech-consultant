@@ -1,0 +1,23 @@
+{
+  "article_id": "12000080188",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080188-06-11-21-software-updates",
+  "title": "06/11/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/11/21 - Software Updates"
+  ],
+  "content": "## 06/11/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080188\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the Predictive Keyword Search Add-On from working properly on the Front-End of sites in some cases.\n\n- We updated the scripts of the AdBlock Detector Add-On to increase compatibility with current browser versions.\n\n- We fixed an issue with the Pay Per Post Add-On which was preventing the \"Paid\" confirmation modal from displaying after updating the status of an existing post was changed from \"Draft\" to \"Published\" in some cases.\n\n- We updated the layout of the Get Matched form in order to display an identifier to the placeholder text when a field has been marked as \"Required\" and the \"Hide Field Labels\" Lead Setting is active on a site. Widget Involved: Bootstrap - Lead Form - Extra Settings\n\n- We are now hiding the \"Page Options\" tab after a user changes the Page Type setting of a web page to \"Custom Widget as Web Page\" in the Web Page Builder in the Admin.\n\n- We fixed an issue which was causing the Member Profile sidebar to look misaligned when the sidebar design is set to \"Slim\" in some cases. Widget Involved: Bootstrap Theme - Module - Posted by Author Snapshot\n\n- The Save History link is now part of the Actions dropdown on the Widget Manager page of the Admin.\n\n- We added the \"Hidden On Mobile\" option in the \"Table Row Design\" dropdown in the Froala WYSIWYGs used in the Admin.\n\n- We fixed an issue which was preventing the system from loading the Default Member Profile Photo or Default Member Logo on member search results pages in some cases.\n\n- We added the ability to support periods in URLs when manually creating 301 Redirect rules in the Admin.\n\n- We fixed an issue which was preventing the system from displaying the leads dropdown data when editing a lead on the Member Leads page in the Admin.\n\n- We updated the code validation of the CSS fields across the Admin in order to identify possible code errors when saving.\n\n- We fixed an issue which was preventing the Admin Roles logic from hiding the certain elements within Admin pages when it should in some cases.\n\n- The Website Dashboard page in the Admin is now fully compatible with the \"Admin Account View\" Advanced Setting.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080188",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080188"
+    }
+  ],
+  "lastmod": "2021-06-14T22:46:15+05:30",
+  "scraped_at": "2026-10-18T13:48:39.164883"
+}

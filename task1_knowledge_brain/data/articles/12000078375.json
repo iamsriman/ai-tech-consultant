@@ -1,0 +1,54 @@
+{
+  "article_id": "12000078375",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078375-generating-a-new-google-maps-api-key",
+  "title": "Generating a New Google Maps API Key",
+  "category": "Settings",
+  "folder": "Google Maps Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Google Maps Troubleshooting",
+    "Generating a New Google Maps API Key"
+  ],
+  "content": "## Generating a New Google Maps API Key\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078375\n\nA new Google Maps API key may be needed when setting up Google Maps for a new website, adding another Brilliant Directories license, or replacing an existing key that is not working correctly.\n\nThis article shows how to generate a new API key in Google Cloud. After the key is created, it should be restricted to the correct website domain and limited to the required Google Maps APIs.\n\n\n## Step 1 - Open the Google Cloud Credentials Page\n\n\nLog in to the Google account connected to Google Cloud and open the Credentials page:\n\nOpen Google Cloud Credentials\n\nMake sure the correct Google Cloud project is selected at the top of the page before creating the new key.\n\n\n## Step 2 - Create a New API Key\n\n\n- Click Create Credentials .\n\n- Select API Key .\n\n- Google will generate a new API key.\n\n- Copy the new API key.\n\nThe new key can now be restricted and added to the Brilliant Directories website.\n\n\n## Step 3 - Add HTTP Referrers\n\n\nAfter creating the new API key, add the approved website referrers so Google knows which domains are allowed to use the key.\n\nThis usually includes the live website domain and the Brilliant Directories admin domain.\n\nGoogle Maps: Edit HTTP Referrers .\n\n\n## Step 4 - Add API Restrictions\n\n\nAfter adding the referrers, restrict the key to the Google Maps APIs used by the website.\n\nThis helps make sure the key is only used for the needed Google Maps services.\n\nGoogle Maps: Add APIs .\n\n\n## Step 5 - Add the New Key in Brilliant Directories\n\n\n- Log in to the Brilliant Directories admin.\n\n- Go to Settings .\n\n- Click General Settings .\n\n- Search for Google Maps .\n\n- Click the Integrations tab.\n\n- Paste the new Google Maps API key into the Google Maps API key field.\n\n- Save the changes.\n\nThe new Google Maps API key is now connected to the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179115264/original/ODSf_x6HqTftJx717GyOHBtS-ZJA38vCaA.png?1779237816",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Generating a New Google Maps API Key' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12179115424/original/JfuLqh1NzqqBjEglxAMV-2GD3cTqu8U2EQ.png?1779238007",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Generating a New Google Maps API Key' in section 'Settings' / 'Google Maps Troubleshooting'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078375",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078375"
+    },
+    {
+      "text": "Open Google Cloud Credentials",
+      "url": "https://console.cloud.google.com/apis/credentials"
+    },
+    {
+      "text": "Google Maps: Edit HTTP Referrers",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000057655"
+    },
+    {
+      "text": "Google Maps: Add APIs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000055835"
+    }
+  ],
+  "lastmod": "2026-05-20T06:16:59+05:30",
+  "scraped_at": "2026-10-18T13:48:01.661390"
+}

@@ -1,0 +1,50 @@
+{
+  "article_id": "12000090590",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090590-settings-domain-manager-ssl",
+  "title": "Settings » Domain Manager » SSL",
+  "category": "Settings",
+  "folder": "Domain Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Domain Manager",
+    "Settings » Domain Manager » SSL"
+  ],
+  "content": "## Settings » Domain Manager » SSL\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090590\n\nThe SSL tab in Settings > Domain Manager checks the website's security certificate and HTTPS connection. It also provides the available installation, detection, and repair actions.\n\nExample certificate status on a directoryup.com website with the Managed SSL add-on: the You have Managed SSL card (1) offers Reinstall it and Turn off https . Custom-domain certificate details and available actions depend on the website configuration.\n\n\n## Before starting\n\n\nConfirm that the domain points to the intended website. Managed installation and renewal require an active Managed SSL add-on. A certificate purchased elsewhere must first be installed for the correct domain; see Install 3rd Party SSL .\n\n\n## Read the certificate details\n\n\n- Open Settings > Domain Manager .\n\n- Select SSL .\n\n- Click Check again after a recent certificate or DNS change.\n\nField Meaning Issued by The certificate issuer. A self-signed certificate is not equivalent to a certificate trusted by ordinary browsers. Valid until The expiration date of the certificate currently detected, how long remains, and when a managed certificate renews. See When the certificate renews . Covers this address Whether the certificate includes the website hostname. Website loads securely Whether visitors receive the website over HTTPS. Admin area is secure The security of the admin connection, which is checked separately from the public website.\n\nIf no certificate is installed for the website, the page reports that condition instead of presenting another hostname's certificate as the site's certificate.\n\n\n## Install or repair Managed SSL\n\n\n- Find the You have Managed SSL card.\n\n- If the card reports a problem, click Install my certificate when offered.\n\n- Wait for the installation process to finish.\n\n- Click Check again to review the current result.\n\n- Open the public website over HTTPS.\n\nA healthy Managed SSL connection offers Reinstall it as a repair action. Routine renewal is automatic; a healthy certificate does not need repeated reinstallations. If the add-on is unavailable, Add Managed SSL opens the available purchase flow for eligible administrators.\n\n\n## When the certificate renews\n\n\nA Managed SSL certificate renews itself; nothing needs to be bought or reinstalled for a routine renewal. The Valid until row shows the expiration date and how long remains, such as It expires in about 2 months. For a certificate issued through the Managed SSL add-on by ZeroSSL, the same row also gives the expected renewal date: It renews itself automatically around a date 15 days before the expiration date. A certificate that is close to expiring but has not reached that date yet is not overdue.\n\nThe Valid until row on a Managed SSL website: the certificate expires on December 18, 2026, and renews itself automatically around December 3, 2026.\n\nOther automatically renewed certificates, such as those served by Cloudflare or issued by Let's Encrypt, show It renews itself automatically. without a date, because their renewal schedule is not predicted.\n\n\n### If a renewal is overdue\n\n\nWhen a Managed SSL add-on certificate from ZeroSSL is still not renewed three days after its expected renewal date, the tab reports it:\n\n- The Valid until row shows a Renew soon status and reads It was due to renew around that date and has not yet.\n\n- A The certificate has not renewed yet warning gives the due date and the days left before expiration, and explains that installing it again from this page usually completes the renewal.\n\n- The You have Managed SSL card reports that something looks wrong and offers Install my certificate .\n\n- Click Install my certificate on the You have Managed SSL card.\n\n- Wait for the installation to finish, then click Check again .\n\n- If the certificate still has not renewed after a day or two, contact support with the website address and the dates shown.\n\n\n## Detect an existing third-party certificate\n\n\n- Install the certificate for the website using the third-party SSL instructions.\n\n- Return to the SSL tab.\n\n- Click I already installed a certificate — check for it when offered.\n\n- Confirm the detected hostname and secure connection.\n\n\n## Cloudflare has two certificate connections\n\n\nFor a proxied Cloudflare site, visitors connect to Cloudflare, which then connects to the website's server. The visitor-facing certificate and the server certificate can have different issuers and expiration dates.\n\nExpand Certificate on your server when that section appears. Its Trusted or Not trusted result helps explain which Cloudflare encryption settings are suitable. Full (strict) requires a valid, trusted server certificate for the hostname; resolve the reported certificate problem before selecting that mode.\n\n\n## When the check still shows a problem\n\n\nRead the specific warning: an expired certificate, wrong hostname, missing certificate, and failed connection require different fixes. Confirm domain pointing first. If installation finishes but the public site still shows a certificate error, include the hostname and the exact warning when contacting support. Diagnostics provides additional certificate detail.\n\nTurning off HTTPS changes the website connection. Use Turn off https only when that change is intended. It is not a routine response to an installation warning.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186368897/original/szLRQmAUOX2r-hbnmB6vaZHH-ktexk2kDQ.png?1791332386",
+      "alt": "SSL tab on a directoryup.com website with the You have Managed SSL card marked (1), above the certificate details.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » SSL' (Settings > Domain Manager): SSL tab on a directoryup.com website with the You have Managed SSL card marked (1), above the certificate details.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358607/original/vRLawTh27johc1axZpSdrkmu8VjvbuWe9A.png?1791318605",
+      "alt": "Domain Manager SSL tab with the Valid until row highlighted, showing the expiry date and the expected automatic renewal date.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Settings » Domain Manager » SSL' (Settings > Domain Manager): Domain Manager SSL tab with the Valid until row highlighted, showing the expiry date and the expected automatic renewal date.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090590",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090590"
+    },
+    {
+      "text": "Install 3rd Party SSL",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000069456"
+    },
+    {
+      "text": "Diagnostics",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109761"
+    }
+  ],
+  "lastmod": "2026-10-14T03:17:23+05:30",
+  "scraped_at": "2026-10-18T13:50:23.646231"
+}

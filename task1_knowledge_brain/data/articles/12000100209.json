@@ -1,0 +1,339 @@
+{
+  "article_id": "12000100209",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100209-design-settings-homepage-select-content-to-display-streaming-photo-albums",
+  "title": "Design Settings » Homepage » Select Content to Display » Streaming Photo Albums",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "Design Settings » Homepage » Select Content to Display » Streaming Photo Albums"
+  ],
+  "content": "## Design Settings » Homepage » Select Content to Display » Streaming Photo Albums\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000100209\n\n\n## Settings Documentation for Photo Albums\n\n\nThis document provides detailed descriptions of the settings available for configuring the streaming photo albums section on the platform. Each setting allows for customization to meet specific needs and preferences.\n\nTo edit these settings, navigate to:\n\n- In the Admin Sidebar Open Settings\n\n- Select Designs Settings\n\n- Open The Homepage Tab\n\n- Open The Module Select Content to Display\n\n- Select The Streaming Photo Albums Option\n\n\n## Visual Guide of the  Streaming Photo Albums\n\n\nThese are the available settings for the Streaming Photo Albums section:\n\n\n## 1. Recent Photo Albums Title\n\n\nThis setting allows the administrator to set the title for the recent photo albums section. The title can be customized by entering the desired text in the provided input field.\n\n\n## 2. Title Color\n\n\nThe title color setting enables the customization of the title's color. Administrators can choose a color by inputting the desired color code or using the color picker tool provided.\n\n\n## 3. Display Options\n\n\nThis setting controls the number of recent photo albums displayed. Administrators can select from a range of options, from 1 to 24 results. Additionally, the layout can be adjusted to show a specific number of results per row, ranging from 2 to 4 results per row.\n\n\n## 4. Enable Carousel Slider\n\n\nThe carousel slider option allows recent photo albums to be displayed in a sliding carousel format. This can be toggled on or off using the provided dropdown menu.\n\n\n## 5. Hide On Mobile\n\n\nThis setting allows administrators to choose whether the recent photo albums section should be hidden on mobile devices. It can be enabled or disabled using the dropdown menu.\n\n\n## 6. Linked Post Type\n\n\nThis setting allows the administrator to select the type of content linked to the recent photo albums. Options include classified, photo album, property, product.\n\n\n## 7. Only Show Posts with Photos\n\n\nAdministrators can choose to display only those posts that have photos. This setting ensures that posts without photos are excluded from the recent photo albums list.\n\n\n## 8. Image Quality\n\n\nThis setting controls the quality of the images displayed in the recent photo albums. Administrators can choose between thumbnail size and large size.\n\n\n## 9. Show \"View All\" Button\n\n\nThe \"View All\" button allows users to see all recent photo albums. This setting can be toggled on or off using the dropdown menu.\n\n\n## 10. Hide If No Posts Exist\n\n\nThis setting allows administrators to choose whether the recent photo albums section should be hidden if no posts exist. It can be enabled or disabled using the dropdown menu.\n\n\n## 11. Only Include Posts from Active Members\n\n\nThis setting specifies whether only posts from active members should be included. Administrators can choose to include posts from active members only or from all members.\n\n\n## 12. Include Posts from Non-Searchable Members\n\n\nThis setting allows administrators to choose whether to include posts from non-searchable members. It can be enabled or disabled using the dropdown menu.\n\n\n## 13. Include Posts from Members in These Plans\n\n\nThis setting allows administrators to limit the displayed posts to specific membership plans. Administrators can select the desired membership plans from the provided list.\n\n\n## 14. Display Order\n\n\nThe display order setting determines the order in which recent photo albums are shown. Options include newest first, oldest first, and random order. This can be customized by selecting the desired option from the dropdown menu.\n\n\n## 15. Limit One Post per Member?\n\n\nThis setting specifies whether only one post per member should be displayed. Administrators can choose to display one post per member or allow multiple posts from the same member.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144382988/original/gPe9epCz2HBgV_O7IY5iKeDfxQLCBbyJvA.png?1717624842",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383074/original/wgMSNCoWhtXnLC0t1IilAzhlOxJGEINOsw.png?1717624982",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383187/original/17s3jKhQGDqHflqqFo8GmNYMSLqEyJwr-g.png?1717625289",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383192/original/xYMCyHeAvfwy1o5k3pouz5S0z_XK1-o_zg.png?1717625294",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383195/original/yhTeBYWbW_vzVU5c8NoAj8y7-ac2rqxB0A.png?1717625299",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383292/original/SHJUqrAlDi_qtiWamNeiGuTU1c-bRweneQ.png?1717625378",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383205/original/z5mRX-_CZ1DwDxWC3UvDKch3ZgD4jT7ViQ.png?1717625314",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383326/original/2X4lOF1xQw_qzOmzm8blruRCL_CQFS0RRA.png?1717625427",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383335/original/W_yLR5K_bupK3t-9DxHXPDQIFTNot7zPTQ.png?1717625469",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383362/original/LcctUmI0JU_V8TVcQggx4tvkzF8U3Q-WNA.png?1717625530",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383348/original/rzPVxT6rEfNSON_c9pwMy9uRSSm2U5gJYQ.png?1717625479",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383386/original/UOtQQALGscl4zj_WMnFUv4VHxWuvEfNhCA.png?1717625591",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383528/original/U1VkVX3x_c1Sz5jnghc5Mgemw0CWxiR6_A.png?1717625935",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383405/original/NE_rkp8rBPWWx7eYCx3D-VDEdhSfPylr4g.png?1717625633",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383540/original/dMZ-uuBvk6dL7Szz_EJdj5f9uD2v7jHkPg.png?1717625980",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383582/original/lOyCYJKUVWZB-VThI4U0GpGduiPfW4Tc5w.png?1717626042",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383553/original/VoLRsUMhs4XvK1aVSL0OknIqGGSSbY1enA.png?1717626001",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383619/original/zaj_irZ-5fS7TYyqQ3eTN9wMCpSMfIBuRQ.png?1717626085",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383585/original/Aq-hG1cVq-CLwbxY82ImYsddVxhR05BiLg.png?1717626051",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383632/original/3SZzfXIyFAlvasKc6glzrfP2u8LKHTb7yw.png?1717626120",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383625/original/uYllwhy1Rxd3lkAehvZhKud8sDfQfmpPMQ.png?1717626093",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383714/original/HcEkhHGs5jkMWG-Hu1WYMjtQLOG_ZBw5Jg.png?1717626278",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383648/original/pfj-TXLp8oGpiV-O4xzCG3fu3JsHiOM9ow.png?1717626172",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383726/original/RqW4r8XiE_1qosgUqEGZ0ufCGeLb9sBkbw.png?1717626307",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383652/original/0kF8ZS2gcBqFfMwiNY4h5rgKfn9-iudDjw.png?1717626185",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383760/original/lkSrEupcjsMXdX8X6Xo7PUdeF51nynHVRg.png?1717626355",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383728/original/VnMP4k2hEVO8yQeMCh8XmiVnPc7-5MA7sg.png?1717626315",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383779/original/k6FnzFdwbnmIW4HgxklDvZoh_7wOxrRurQ.png?1717626395",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383766/original/zK0hO6ka5uJlF2sFCmP8v4-OSKYDCc8eyQ.png?1717626364",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383816/original/om3svBB17lpP6JyAjeBom9km7j69u2evEQ.png?1717626439",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383787/original/BNyHTDFRhY8V7JYxoYUkgP0kKDw36K2yNw.png?1717626407",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383824/original/d05mnSZ99Gos3gJ59b5F7xwdj4KPrq_Onw.png?1717626470",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383819/original/hunpE_0SWixYUsmVn_6hFiIJnGym_MsoUg.png?1717626446",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383876/original/r7YkLTwGnh65szkx9wy3mMcb-jyOnt3gUw.png?1717626504",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12144383826/original/JWHfk7_QqJe15MBbySisbA-mWzRPMF8N9g.png?1717626478",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Design Settings » Homepage » Select Content to Display » Streaming Photo Albums' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000100209",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000100209"
+    }
+  ],
+  "lastmod": "2024-06-06T03:58:34+05:30",
+  "scraped_at": "2026-10-18T13:54:14.659566"
+}

@@ -1,0 +1,94 @@
+{
+  "article_id": "12000067747",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067747-leads-lead-emails",
+  "title": "Leads » Lead Emails",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "Leads » Lead Emails"
+  ],
+  "content": "## Leads » Lead Emails\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000067747\n\nThe Lead Module connects website visitors with website members. When a visitor submits a request to contact a member, the following email notifications and actions take place.\n\n\n## Emails Sent Out\n\n\n- Website Member Receives an email notification when a visitor submits a lead inquiry.\n\n- Website Visitor Receives a confirmation email indicating that their request has been received and that they can expect a response from the business or professional shortly.\n\n- The Directory admin Receives a notification email whenever a new lead is submitted through the website.\n\nThese emails include the information submitted through the lead form, along with the originating page where the request was submitted.\n\nIf custom form fields have been added, they can also be displayed in the email when enabled within the form settings.\n\nFor more information about this please refer to this article: In-Depth Look Into Form Fields And Their Settings\n\nThere are 2 options when sending the members their new lead information:\n\n- member-lead-preview: Sends members a preview of the lead message rather than the full contact details. The email includes a secure login link that instantly signs the member into their account, where they can choose to accept or decline the lead.\n\n- member-lead-complete: Sends members the visitor’s complete message and contact details directly in the email. Because the full lead information is delivered immediately, members are not required to log in or formally accept the lead. As a result, lead acceptance tracking is not available when using this option.\n\nThese email templates are responsive and automatically adapt to mobile devices.\n\nEmail templates can be customized by navigating to: Emails » Email Templates\n\nTo learn more about editing email templates, refer to the following articles:\n\n» How To Edit Email Templates\n\n» Fluid Images for Email Templates",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089590097/original/kiVgja1xz-CFt0ufDD1x6ONDPZCPsEtvJA.png?1614884091",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Leads » Lead Emails' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089590070/original/zSiQMiKI87x_yw-unPTlQt1xsdq6B8SlXg.png?1614884076",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Leads » Lead Emails' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089590142/original/3uVvdJgnmMpbgYeNB7z4mXaMBKnZGLffYQ.png?1614884148",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Leads » Lead Emails' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284309/original/w89886THkRLTjOOosju8xHs1gbkKpzEfzw.jpeg?1687410318",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Leads » Lead Emails' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127284316/original/54ezBstmYG55NEzLxBwBLrP5Z63JvSkZqA.jpeg?1687410331",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Leads » Lead Emails' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089590304/original/8IealWfMfs9v2x4J5NqUFIIvsaSzRzZK0g.png?1614884359",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Leads » Lead Emails' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000067747",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000067747"
+    },
+    {
+      "text": "In-Depth Look Into Form Fields And Their Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000059251"
+    },
+    {
+      "text": "How To Edit Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000003538"
+    },
+    {
+      "text": "» Fluid Images for Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000066198"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/a/tickets/new"
+    }
+  ],
+  "lastmod": "2026-06-03T00:36:02+05:30",
+  "scraped_at": "2026-10-18T13:46:07.639228"
+}

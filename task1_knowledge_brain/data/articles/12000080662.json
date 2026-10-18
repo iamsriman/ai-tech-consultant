@@ -1,0 +1,23 @@
+{
+  "article_id": "12000080662",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080662-07-09-21-software-updates",
+  "title": "07/09/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "07/09/21 - Software Updates"
+  ],
+  "content": "## 07/09/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000080662\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We implemented an update in order to hide the hard-coded parenthesis in the \"Website - Lead Form - Get Matched\" form if the Text Label \"Required Label\" is empty. Widget Involved: Bootstrap - Lead Form - Extra Settings\n\n- We removed a duplicate modal alert that displayed when exporting data from the Contacts and Forms Inbox pages in the Admin.\n\n- We fixed an issue which was causing the Google Sitemap Generator Add-On to include URLs for the \"Write A Review\" page for a member even when the member had the Reviews feature disabled for their Membership Plan.\n\n- We fixed a issue which was causing the signup box on the homepage to overlap with the Hero Divider module when the \"Require User Consent To Store Data (GDPR)\" setting was enabled in some cases. Widgets Involved: Bootstrap Theme - Homepage Search - Member Login Form Bootstrap Theme - Member Login Page\n\n- We updated the SQL queries required to load the homepage of sites and to load forms on pages to further increase loading speeds.\n\n- We fixed an issue which was causing the system to display a random header menu after selecting the \"Hide Menu\" option in the \"Public Header Menu\" Design Setting. Widget Involved: Bootstrap Theme - Header - Right\n\n- We fixed an issue which was causing erroneous data to display for custom checkbox fields on member profile pages in some cases.\n\n- We fixed an issue which was preventing Admins from moving members between Membership Plans when using the bulk actions on the Search Members page in the Admin.\n\n- We fixed an issue which was preventing the system from displaying the Search Members page in the Admin when the \" Enable Sales Rep Field in Edit Members Form\" Advanced Setting was enabled in some cases.\n\n- We fixed an issue which was preventing the Form Manager from saving a field when the name of the field was pasted from the clipboard and the \"Type of Field\" was set as \"Section Title\" in some cases.\n\n- We implemented an updated in order to display the number of profile views for each member below the Actions Dropdown on the Search Members page in the Admin.  This functionality is available when the \"Member Profile Analytics\" Add-On is active on the site and the member's Membership Plan has this functionality enabled.\n\n- We fixed an issue which was preventing the system from displaying results in the correct order on post search results pages when using the Grid View in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000080662",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000080662"
+    }
+  ],
+  "lastmod": "2026-07-15T03:08:51+05:30",
+  "scraped_at": "2026-10-18T13:48:46.369267"
+}

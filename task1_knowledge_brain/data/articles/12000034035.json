@@ -1,0 +1,37 @@
+{
+  "article_id": "12000034035",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034035-how-to-change-email-mx-records",
+  "title": "How To Change Email MX Records",
+  "category": "Emails",
+  "folder": "Email Accounts",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Email Accounts",
+    "How To Change Email MX Records"
+  ],
+  "content": "## How To Change Email MX Records\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000034035\n\n\n## How to Change Email MX Records\n\n\nMX records determine where incoming email for a domain is delivered. The mail provider supplies the required destination and priority values.\n\nCreate mailboxes before changing MX. New incoming messages begin routing to the new provider as soon as its MX record takes effect.\n\n\n### Domain Manager Mailboxes\n\n\nWhen the Mailboxes tab offers provider changes for Brilliant Directories-hosted DNS or a connected Cloudflare zone, open Settings > Domain Manager > Mailboxes . Use the routing option in that area when the mailbox service must be changed. For the complete mailbox workflow, see Manage Mailboxes and Email Routing . Keep a copy of the current MX, SPF (TXT), and autodiscover records from the DNS tab first. After the change, confirm in the DNS tab that only the new provider's MX records remain and that the SPF and autodiscover records are still present, and restore anything missing from the copy.\n\nThe Mailboxes tab offers the supported incoming-mail providers before the MX change is confirmed.\n\n\n### cPanel Alternative\n\n\nIf the DNS zone is managed through the website's cPanel account:\n\n- Open Developer Hub > cPanel Dashboard .\n\n- Open Zone Editor and select Manage for the domain.\n\n- Filter the records by MX .\n\n- Edit or replace the existing MX destination and priority with the values supplied by the new mail provider.\n\n- Remove obsolete or conflicting MX records only after the new provider confirms the correct record set.\n\nIf the domain uses Cloudflare or another external DNS provider, change the MX records at that provider or through a supported connected Domain Manager workflow, rather than in cPanel.\n\nDNS changes often appear within a few hours but can take longer to update globally.\n\nAfter the change, recheck the mail provider in Domain Manager and send a test message to confirm that new mail reaches the intended mailbox.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668539/original/X_mzqGTAsl6kvQGKy0U-hkcRIHqw_bGFcA.png?1790182293",
+      "alt": "Change your email provider, with the four provider choices marked",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'How To Change Email MX Records' (Emails > Email Accounts): Change your email provider, with the four provider choices marked",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000034035",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034035"
+    },
+    {
+      "text": "Manage Mailboxes and Email Routing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109760"
+    }
+  ],
+  "lastmod": "2026-09-23T22:32:06+05:30",
+  "scraped_at": "2026-10-18T13:41:35.421656"
+}

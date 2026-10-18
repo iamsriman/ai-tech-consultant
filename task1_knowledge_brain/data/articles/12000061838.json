@@ -1,0 +1,186 @@
+{
+  "article_id": "12000061838",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000061838-cookie-consent-tool-osano",
+  "title": "Cookie Consent Tool Osano",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Cookie Consent Tool Osano"
+  ],
+  "content": "## Cookie Consent Tool Osano\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000061838\n\n\n## Introduction to Integrating Third-Party Cookie Consent\n\n\nTo integrate a third-party Cookie Consent on the website, the following steps should be followed.\n\n\n### Step 1: Create an Account with Osano\n\n\nVisit the third-party website: https://www.osano.com/plans/cookie-consent .\n\nSelect the Free Account option.\n\nOnce the account is created, click on Cookie Consent .\n\nHit the Create Button with the + Icon .\n\nClick on the Customization tab.\n\n\n### Step 2: Customize the Cookie Consent Dialog Box\n\n\nCustomize the Consent Dialog Box.\n\nClick on  the <> Get Code button.\n\nClick on Copy .\n\n\n### Step 3: Add Code to Brilliant Directories\n\n\nGo to the Brilliant Directories Admin Dashboard.\n\nNavigate to Toolbox , then click on Widget Manager . Next, search for the widget Bootstrap Theme - Cookie Consent Code and enter the snippet in the HTML editor. Finally, click on Save Changes .\n\n\n### Step 4: Classify Scripts and Cookies\n\n\nGo back to Osano and click on Scripts .\n\nThe scripts and cookies must be classified. For guidance on how to classify them, refer to the article on Osano and watch the accompanying video to fully understand how to use the tool. Cookie Consent: Full Product Overview\n\nThe majority of the scripts are classified by Osano, but for those that are not recognized, Essential and the domain name of the site can be added.\n\n\n### Step 5: Verify Cookie Vendors\n\n\nUse a tool like https://www.cookie.is/ to see what are the official vendors of the cookies. Once the cookies are classified click on Save Changes .\n\n\n### Step 6: Finalize and Publish Changes\n\n\nClick on Publish to push all the updates made.\n\nSelect Clear and Publish and hit Publish .\n\n\n### Step 7: Set Cookie Consent Listener\n\n\nHover the mouse on Discovery/Listener and select Strict .\n\nSelect Yes on the confirmation pop up. Then click on Save Changes .\n\n\n### Step 8: Troubleshooting\n\n\nIf the banner is not visible on the website, it may be due to the browser saving a cached version of the site that doesn't include the banner.\n\nClearing the browser cache and cookies or opening the website in a private or incognito window may resolve this issue. It is recommended to always test in a private or incognito browser after publishing changes.\n\n\n## Additional Osano Documentation and Videos\n\n\n- CMP-Setup-Guide\n\n- Classification-of-Scripts-and-Cookies\n\n- Full Product Walkthrough (Cookie Consent)\n\n- Classifications of Cookie and Scripts Overview\n\n\n## Related Articles\n\n\n- How to Add a Cookie Consent Tool\n\n- Cookie Consent Tool – CookiePal",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152498894/original/c0d_i1HgyasOxUsjUng4ksIos2F8N8ljuA.png?1731543580",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152498984/original/-6HrrgnH75Tj62qOmub4CksSMD_HFtNyLg.png?1731543767",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152498985/original/Li7JA1ah8K2paWorOyrHlLRWiNR-vmDMyA.png?1731543772",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152499135/original/co6NdxHCJWa6T48_2RtXr6jj_JS8Gw3-9A.png?1731544160",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152499133/original/lM7hyj8faAIhoGdtbXaYyFIATjyN6feekQ.png?1731544152",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152499131/original/hLZnctseoyiM0MsERw6qf5doRtb7Vmq10A.png?1731544146",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152861183/original/3E7oyAoyRXib52VWAIv2Lx7uFQ1vEbWfKQ.gif?1732139488",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152500082/original/_XOK32N0Nh2uckeFSKzW4e_LPS1ceZFUDg.png?1731546048",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152500186/original/nbEdnFFh80QOns4DDAMqzE7Na48QBKU1LA.png?1731546385",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152500348/original/Lf5wUPMWzi6BdJg6MLHzJWD8HzDTcnmOaw.png?1731546647",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152500485/original/abS0tysCYI5XzAbfvFtHKJGIE0pski47wQ.png?1731546962",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152500546/original/tP087OkzUgO-s1YM-NjHOeBz6EpfA4e2fA.png?1731547047",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152500601/original/Vy49_vaXy_SUd15s8ZS8H6rn7mrMs2RKrw.png?1731547183",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152501270/original/UYgCf1WI59sXfMWhdBM9TP03q3mUrJ_UWw.jpeg?1731548584",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Cookie Consent Tool Osano' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000061838",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000061838"
+    },
+    {
+      "text": "https://www.osano.com/plans/cookie-consent",
+      "url": "https://www.osano.com/plans/cookie-consent"
+    },
+    {
+      "text": "Cookie Consent: Full Product Overview",
+      "url": "https://docs.osano.com/hc/en-us/articles/29113578921748-Cookie-Consent-Full-Product-Overview-2024"
+    },
+    {
+      "text": "https://www.cookie.is/",
+      "url": "https://www.cookie.is/"
+    },
+    {
+      "text": "CMP-Setup-Guide",
+      "url": "https://docs.osano.com/hc/en-us/articles/22472106973332-CMP-Setup-Guide"
+    },
+    {
+      "text": "Classification-of-Scripts-and-Cookies",
+      "url": "https://docs.osano.com/hc/en-us/articles/22472106973204-Classification-of-Scripts-and-Cookies"
+    },
+    {
+      "text": "Full Product Walkthrough (Cookie Consent)",
+      "url": "https://docs.osano.com/hc/en-us/articles/29113578921748-Cookie-Consent-Full-Product-Overview-2024"
+    },
+    {
+      "text": "Classifications of Cookie and Scripts Overview",
+      "url": "https://docs.osano.com/hc/en-us/articles/29281507964180-Cookie-Consent-Classification-Overview-2024"
+    },
+    {
+      "text": "How to Add a Cookie Consent Tool",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000102536-how-to-add-cookie-consent"
+    },
+    {
+      "text": "Cookie Consent Tool – CookiePal",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000105171-cookie-consent-tool-%E2%80%93-cookiepal"
+    }
+  ],
+  "lastmod": "2025-07-03T22:41:46+05:30",
+  "scraped_at": "2026-10-18T13:45:30.793391"
+}

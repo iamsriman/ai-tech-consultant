@@ -1,0 +1,23 @@
+{
+  "article_id": "12000090430",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090430-10-21-22-software-updates",
+  "title": "10/21/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "10/21/22 - Software Updates"
+  ],
+  "content": "## 10/21/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000090430\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing the system to display the About Me section heading on member profile pages even when the member did not have any content saved for this section in some cases.\n\n- We fixed an issue which was preventing the \"Edit On-Page Text Labels\" feature from functioning properly on the frontend of sites in some cases.\n\n- We updated the Ampify Integration to only load the ampify tag on the member profile pages and not the member review or member lead submission pages.\n\n- We fixed an issue with the submission of the \"Website - Lead Form - Get Matched\" form which was causing it to get stuck displaying the \"Processing Request\" message in some cases. Widget Involved: Bootstrap Theme - Function - Form\n\n- We updated the \"Send Newsletter\" functionality in order to display an option to resume the sending of the campaign if the user's connection to the Admin is lost during the sending of a campaign.\n\n- We added a new \"Checkout Pages\" setting to the \"Sidebar Alignment\" section of the Design Settings in the Admin.  This setting will control how sidebars will display on member signup pages by default.  This default can also be overridden by the Membership Plan settings for each individual Membership Plan.\n\n- We updated the logic of the Article and Blog Article Schema Markup widgets in order to remove double quotes from the post body content as these quotes can break the functionality of the schema markup. Widgets Involved: Bootstrap Theme - Detail Page - Schema Markup - Community Article Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article\n\n- We updated the Embedly feature for Admin Froala editors that was causing embedded content to overflow out of its container in some cases.\n\n- We created a new Advanced Setting called \"Default Member Review URL\". This new setting allows an Admin to edit the URL of member review submission pages. By default the URL is \"writeareview\".\n\n- We fixed an issue with the Predictive Keyword Search Add-On which was preventing the \"Limit\" setting on each autosuggest rule from being respected in some cases. Widget Involved: Bootstrap Theme - Function - API\n\n- We fixed an issue which was affecting the ability to import members via CSV file through the Admin in some cases.\n\n- We updated the Brilliant Directories API in order to add the ability to create, update, delete, match and read Leads data.\n\n- The name of the member shown in the \"About\" heading on member profile pages is now a Text Label. Text Label Involved: about_me_user_full_name\n\n- The title text that is automatically added to images when they are added to multi-image posts is now a Text Label.  The title that is added automatically can be disabled completely by saving the Text Label as blank. Widget Involved: Bootstrap Theme - Account - Photo Albums Upload Form Bootstrap Theme - Photo Album Page Label Involved: photo_album_default_title_photo",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000090430",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000090430"
+    }
+  ],
+  "lastmod": "2022-10-24T22:49:52+05:30",
+  "scraped_at": "2026-10-18T13:50:22.034702"
+}

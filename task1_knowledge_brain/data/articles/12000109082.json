@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109082",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109082-install-locations-for-posts-dashboard-installer",
+  "title": "Install Locations for Posts - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Install Locations for Posts - Dashboard Installer"
+  ],
+  "content": "## Install Locations for Posts - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109082\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Install Locations for Posts Does\n\n\nThis installer gives the site's posts and post groups a dedicated place to store a location value, moves any location data that was previously kept in generic storage into that new place, and (despite the name) also adds a dedicated video field to posts. It changes where this data lives; it does not delete the posts.\n\nConcretely, it runs three steps:\n\n- Adds the location column : a post_location column (VARCHAR(255)) is added to the data_posts table (individual posts) and to the users_portfolio_groups table (post groups). The column is added only to whichever of these two tables is missing it.\n\n- Moves existing location data : any post_location values that were stored in the generic users_meta table (for either posts or post groups) are copied into the new post_location columns, and the old users_meta rows for that key are then removed.\n\n- Adds the video column : a post_video column (VARCHAR(255)) is added to the data_posts table, any existing post_video values in users_meta are copied into it, and those users_meta rows are removed.\n\n\n## Why It Appears\n\n\nThe installer runs three separate checks and appears if any one of them still needs work. Specifically, it shows up when the data_posts or users_portfolio_groups table is missing the post_location column, when the users_meta table still holds post_location values that have not been moved into the new columns, or when the data_posts table is missing the post_video column.\n\nThese are legacy conditions. Databases created before location and video were stored directly on the post record will see this installer offered; newer sites already have these columns in place.\n\n\n## Why It Matters\n\n\nStoring a post's location and video directly on the post (and group) record, rather than in the generic meta table, is how newer post templates, search, and mapping features read that data. Until the data is moved into the dedicated columns, features that expect to find it there will not see it. Running the installer brings the storage in line with what those features expect. The existing location and video values are preserved during the move, not discarded.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Install Locations for Posts appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once all steps are done.\n\nIf it does not appear in the list, the website already has these columns and data in place, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website on its own. The posts and post groups gain a location field, and the posts gain a video field, both ready to be used by the templates and features that read them. Any location or video data already present is preserved in the new columns.\n\nThe location column step re-checks each table before making a change and adds the column only where it is still missing, so that part is safe if it runs again. Click Check For Updates after installing and the entry disappears once all three checks pass.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109082",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109082"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:38+05:30",
+  "scraped_at": "2026-10-18T13:59:33.054705"
+}

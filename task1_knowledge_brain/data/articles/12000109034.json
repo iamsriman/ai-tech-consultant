@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109034",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109034-api-updates-dashboard-installer",
+  "title": "API Updates - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "API Updates - Dashboard Installer"
+  ],
+  "content": "## API Updates - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109034\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What API Updates Does\n\n\nThis installer makes one small maintenance change to the database table the site uses to log API activity. It updates the column that stores each API call’s response so it matches the platform’s current definition, which can hold long response text and the full range of Unicode characters. Specifically, it changes the api_response column in the bd_api_logs table to the TEXT data type with utf8mb4 encoding. No data is deleted, no other tables are touched, and nothing on the live website changes.\n\n\n## Why It Appears\n\n\nIt appears when the site’s database has the bd_api_logs table but its api_response column still uses a data type other than TEXT, which means the table was created under an older definition. This is a legacy condition: sites whose API log table was created after the current definition shipped already have the correct column type. If the site does not have the bd_api_logs table at all, there is nothing to update and the installer stays hidden.\n\n\n## Why It Matters\n\n\nThe bd_api_logs table records the responses returned by API calls made to the site, which is useful when troubleshooting an API integration. A column with an older, more limited data type can cut off long responses or mishandle special characters, leaving incomplete log entries. After this update the column can store the full response text, including 4-byte Unicode characters such as emoji. This is a minor consistency fix: it improves the reliability of the site’s API logs and has no effect on how the website looks or behaves for visitors.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, API Updates appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf API Updates does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nA success message confirms the column was changed. There is nothing visible to verify on the website, because the change affects only how one internal logging column stores data. Existing log entries remain in place, and if the API is used, new log entries will record response text under the updated column definition. The change is a safe, one-time adjustment to a column definition and does not remove any data.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109034",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109034"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:20+05:30",
+  "scraped_at": "2026-10-18T13:59:26.416318"
+}

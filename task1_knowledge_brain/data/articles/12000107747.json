@@ -1,0 +1,23 @@
+{
+  "article_id": "12000107747",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107747-02-27-2026-software-updates",
+  "title": "02/27/2026 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/27/2026 - Software Updates"
+  ],
+  "content": "## 02/27/2026 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000107747\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Added a new Advanced Setting called “Enable Spam Detection for Chat Messages”. Enabling this applies the Spam Form Protector Add-On to the messages sent in the Private Member Chat Add-On .\n\n- Added a new Advanced Setting called “Disable Screenshot Previews” to control whether website screenshot previews are displayed across the Admin.\n\n- Fixed an issue that prevented the system from displaying the “Add Post Type” button in the Member Dashboard when creating a new post if the “Limit Posts Per Member” Add-On had previously been active on the website in some cases.\n\n- Fixed an issue that caused the “Cancel Member Account on End of Billing Period” feature to allow members to select a cancellation date that had already passed in some cases. Widget Involved: Bootstrap Theme - Account - Delete Account\n\n- Created a new set of Post Comment settings called “Allow Users to Edit Their Comments” and “Allow Users to Delete Their Comments” , along with corresponding time-limit fields (set in days) to allow members to edit and delete post comments on the frontend of the site. Widget Involved: Bootstrap Theme - Function - Comment Handling\n\n- Fixed an issue that affected the ability to delete members using the bulk actions feature on the Search Members page in the Admin in some cases.\n\n- Fixed an issue that prevented the Add to Calendar widget UI from displaying properly on slim sidebars when the “Website Body Width” Design Setting was set to “Standard (Default)” in some cases. Widget Involved: Bootstrap Theme - Display - Add to Calendar\n\n- Updated the Private Member Chat threads data table to assign a CSS class to each row based on its corresponding chat thread status.\n\n- Fixed an issue that prevented the system from displaying the “Hero Section” on the homepage when recent post type widgets were used inside the “Custom Content 1” section in some cases.\n\n- Implemented an update to fix parsing errors in the website schema markup feature. Widgets Involved: Bootstrap Theme - Detail Page - Schema Markup - Community Article Bootstrap Theme - Detail Page - Schema Markup - Event Post Type Bootstrap Theme - Detail Page - Schema Markup - Jobs Post Type Bootstrap Theme - Detail Page - Schema Markup - Product Post Type Bootstrap Theme - Detail Page - Schema Markup - Property Listing Post Type Bootstrap Theme - Detail Page - Schema Markup - Video Post Type Bootstrap Theme - Detail Page - Schema Markup - Website Blog Article Bootstrap Theme - Global Website - Schema Markup Bootstrap Theme - Member Profile - Contact Page Bootstrap Theme - Member Profile - Display Member Address Bootstrap Theme - Member Profile - Read Review Bootstrap Theme - Member Profile - Submit Review Bootstrap Theme - Static Web Page\n\n- Fixed an issue that prevented the system from sending the Chat ID when triggering the “Chat Message Actions” webhook.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000107747",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000107747"
+    }
+  ],
+  "lastmod": "2026-03-02T23:03:16+05:30",
+  "scraped_at": "2026-10-18T13:57:17.825280"
+}

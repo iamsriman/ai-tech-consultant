@@ -1,0 +1,33 @@
+{
+  "article_id": "12000095514",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095514-member-login-session-active-minutes",
+  "title": "Member Login Session: Active Minutes",
+  "category": "Settings",
+  "folder": "Advanced Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Advanced Settings",
+    "Member Login Session: Active Minutes"
+  ],
+  "content": "## Member Login Session: Active Minutes\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000095514\n\nA login session is the period of time between a user logging in and logging out of the website.\n\nSometimes the users end the session on their own by logging out manually but there is an advanced setting to enter the number of minutes (without commas) a session will stay active for a member when they are logged into the website.\n\nAfter this number of minutes, the member will be asked to log in again.\n\nMember Login Session: Active Minutes System Variable: member_login_session_active_minutes\n\nThe default is 7 Days which is 10080 minutes.\n\nDays Minutes 7 10080 15 21600 30 43200\n\nIf a number is not set or the setting is set to 0, it will default to 7 days.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12164647654/original/4yGY03P9x_JmXppxjpUZE7Y08PVus6CRlw.png?1753162172",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Member Login Session: Active Minutes' in section 'Settings' / 'Advanced Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000095514",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000095514"
+    }
+  ],
+  "lastmod": "2025-07-22T10:59:34+05:30",
+  "scraped_at": "2026-10-18T13:52:39.165171"
+}

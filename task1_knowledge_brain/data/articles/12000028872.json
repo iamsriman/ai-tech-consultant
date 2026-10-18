@@ -1,0 +1,23 @@
+{
+  "article_id": "12000028872",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028872-04-28-17-software-updates",
+  "title": "04/28/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "04/28/17 - Software Updates"
+  ],
+  "content": "## 04/28/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000028872\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We added a new Widget to display a message if the Post Search Results Engine does not return results. Widgets Involved: Bootstrap Theme - Post Results - No Results Bootstrap Theme - Single Post Page\n\n- The issue that was affecting the member login redirects from the Admin area when the Product Setting >> Redirect Page After Login setting is customized has been solved.\n\n- We fixed a minor issue that was affecting the Account Profile Statistics Page. Widgets Involved: Bootstrap Theme - Account - Listing Statistics Bootstrap Theme - Member Profile - Statistics\n\n- We made an update to the Email Templates Layout.\n\n- We minified several CSS and Javascript files and updated all widgets and core files that call them.  This will improve the load time of all web pages and increase your website's score in 3rd party toold like Google Pagespeed, GTMetrix, etc. Widgets Involved: Bootstrap Theme - Account - Photo Albums Upload Module Bootstrap Theme - Account - Reviews Bootstrap Theme - Account - Select Locations Bootstrap Theme - Account - Select Locations Bootstrap Theme - Account - Sidebar Bootstrap Theme - Autosuggest Javascript Generator Bootstrap Theme - Coming Soon Page Bootstrap Theme - Display - Events Calendar Bootstrap Theme - Footer - Script Bootstrap Theme - HEAD Bootstrap Theme - Homepage Search - Classifieds Search Bootstrap Theme - Homepage Search - Clickable Australia Map B ootstrap Theme - Homepage Search - Clickable Canada Map Bootstrap Theme - Homepage Search - Clickable Europe Map Bootstrap Theme - Homepage Search - Clickable Germany Map Bootstrap Theme - Homepage Search - Clickable New Zealand Map Bootstrap Theme - Homepage Search - Clickable South Africa Map Bootstrap Theme - Homepage Search - Clickable UK Map Bootstrap Theme - Homepage Search - Clickable USA Map Bootstrap Theme - Homepage Search - Coupons Search Bootstrap Theme - Homepage Search - Jobs Search Bootstrap Theme - Homepage Search - Products Search Bootstrap Theme - Homepage Search - Property Search Bootstrap Theme - Module - Classifieds Search Bootstrap Theme - Module - Event Search Bootstrap Theme - Module - Jobs Search Bootstrap Theme - Module - Products Search Bootstrap Theme - Module - Property Search Bootstrap Theme - Photo Album Page\n\n- We implemented a new update in order to call a more optimized image where applicable in all Streaming Widgets, Feature Posts, and Photo Album Posts. Widgets Involved: Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Events Bootstrap Theme - Display - Recent Coupons Bootstrap Theme - Display - Recent Blog Articles with Sidebar Bootstrap Theme - Display - Recent Blog Articles Bootstrap Theme - Display - Recent Articles with Sidebar Bootstrap Theme - Display - Recent Articles.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000028872",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000028872"
+    }
+  ],
+  "lastmod": "2018-04-19T01:43:54+05:30",
+  "scraped_at": "2026-10-18T13:41:11.041989"
+}

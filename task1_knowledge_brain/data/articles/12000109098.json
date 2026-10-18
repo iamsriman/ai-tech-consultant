@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109098",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109098-revision-count-post-types-update-dashboard-installer",
+  "title": "Revision Count - Post Types Update - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Revision Count - Post Types Update - Dashboard Installer"
+  ],
+  "content": "## Revision Count - Post Types Update - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109098\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Revision Count - Post Types Update Does\n\n\nThis installer makes three small database structure changes that newer post type features rely on. It adds a save-counter column to the post tables and relaxes two real estate fields so they can be left empty. It changes how data is stored, it does not delete or rewrite the posts.\n\nThe three steps do the following:\n\n- Revision count column : adds a revision_count column (BIGINT, default 0) to both the data_posts table and the users_portfolio_groups table, placed after the state_sn column. This column counts how many times a post has been saved.\n\n- Property square footage : changes the property_sqr_foot column on the users_portfolio_groups table to DECIMAL(10,2) that allows empty (NULL) values, so the field can be left blank.\n\n- Property price : changes the property_price column on the users_portfolio_groups table to DECIMAL(20,2) that allows empty (NULL) values, so the field can be left blank. If the site does not have a property_price column at all, this step reports nothing to run and is skipped.\n\n\n## Why It Appears\n\n\nThe installer runs three status checks against the database structure and appears whenever at least one still has work to do. In plain terms, it shows up when revision_count is missing from either data_posts or users_portfolio_groups , when the property_sqr_foot column does not yet allow empty values, or when the property_price column does not yet allow empty values.\n\nThese are legacy conditions. Databases created before these column updates became standard will see the installer offered. Seeing it does not mean anything is broken, it means the database predates one or more of these structure updates.\n\n\n## Why It Matters\n\n\nThe revision_count column gives the platform a place to track how many times a post has been saved, which post type features use. Allowing the property square footage and property price fields to hold empty values means members can leave those fields blank instead of being forced to enter a number, which matters for real estate style post types. Skipping the installer will not break the current site, but it leaves the database on the older structures that these features expect.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Revision Count - Post Types Update appears in the list. Click Install .\n\n- After it completes, click Check For Updates again. The entry disappears once all steps are done.\n\nIf Revision Count - Post Types Update does not appear in the list, the website is already up to date. The module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The updates are internal database structure changes: the posts keep their existing data, the new revision_count column starts at 0, and the two property fields can now be saved empty. There is nothing to reconfigure afterward.\n\nThe revision count step re-checks both tables before adding the column, and the two property field steps re-apply the same column definition, so the installer is safe to run even if part of the update was applied earlier. Click Check For Updates again and the entry disappears once all three checks pass.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109098",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109098"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:46+05:30",
+  "scraped_at": "2026-10-18T13:59:46.365124"
+}

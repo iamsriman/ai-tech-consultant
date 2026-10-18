@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109027",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109027-add-support-for-spanish-text-labels-dashboard-installer",
+  "title": "Add Support For Spanish Text Labels - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Add Support For Spanish Text Labels - Dashboard Installer"
+  ],
+  "content": "## Add Support For Spanish Text Labels - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109027\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Add Support For Spanish Text Labels Does\n\n\nText labels are the editable words and phrases the website displays, stored in a database table called website_labels . This installer gives that table dedicated columns for translated versions of each label. Although the name mentions only Spanish, it actually covers three languages in separate steps: Spanish, French, and German.\n\n- Adds a result_es column for Spanish label text, a result_fr column for French, and a result_de column for German.\n\n- For each language, it then fills in the platform’s standard translations for every label on the site that matches a standard platform label, so the common built-in labels arrive already translated.\n\n- Labels that are custom to the site (ones the platform’s master label list does not contain) get the new columns too, but their translation fields start empty until the wording is provided manually.\n\n\n## Why It Appears\n\n\nThe installer appears when the website_labels table is missing one or more of the three language columns. Each language is its own step with its own check, so a site that already has the Spanish column but not the French or German ones will still see this installer until all three are in place. This is a legacy condition: sites created before multi-language label support existed will typically have all three steps pending, and that is expected.\n\n\n## Why It Matters\n\n\nThese columns are the groundwork for presenting the site’s text in Spanish, French, or German. Without them, there is nowhere to store a translated version of a label. Running the installer does not switch the website’s language on its own; it gives every label a place to hold its translations and pre-fills the standard ones, so multi-language features have complete data to draw from.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Add Support For Spanish Text Labels appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Add Support For Spanish Text Labels does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nVisitors will not see any change. In the Text Labels area of the admin, each label now has Spanish, French, and German values available, with the platform’s standard translations already filled in for the built-in labels. If the site uses custom labels, review them and add translations for any language to be offered, since those fields start empty. The existing English label text is not modified by this installer.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109027",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109027"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:20+05:30",
+  "scraped_at": "2026-10-18T13:59:20.596607"
+}

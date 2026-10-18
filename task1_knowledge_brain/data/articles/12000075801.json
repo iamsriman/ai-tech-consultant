@@ -1,0 +1,23 @@
+{
+  "article_id": "12000075801",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075801-11-20-20-software-updates",
+  "title": "11/20/20 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/20/20 - Software Updates"
+  ],
+  "content": "## 11/20/20 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000075801\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from displaying the expected information in the \"Bootstrap Theme - Module - Post Meta Details v2.0\" widget used on Post details pages in some cases. Widget Involved: Bootstrap Theme - Module - Post Meta Details v2.0\n\n- We fixed an issue which was affecting the ability to use the Member Export Data Add-On causing the system to get stuck on the processing step in some cases.\n\n- We fixed an issue which was causing the system to display the comments made on one post to display on all posts in some cases.\n\n- We added a new Design Setting to control whether or not the \"View Listing\" and \"Send Message\" buttons display for each result on member search results pages. Widget Involved: Bootstrap Theme - Custom Appearance Settings\n\n- We updated our Font Family files to include new Google fonts on the Design Settings page in the Admin.\n\n- We fixed an issue which was preventing users from visiting Reviews Details pages. Instead, the system displayed a \"Members Only\" error message, even when the user should be able to access the page. Widget Involved: Bootstrap Theme - Member Profile - Submit Review\n\n- We fixed an issue which was causing the system to match leads submitted through the site's \"Get Matched\" form with the logged-in member who submitted the lead rather than using the expected lead matching logic. Widget Involved: System - SaveForm\n\n- We updated the logic of the Front-End Text Labels in order to speed up the site loading time when using the Text Label Edit tool on the frontend of sites.\n\n- We fixed an issue which was preventing the \" Reduce Category Canonical Tags\" Advanced Setting from working properly in some cases. Widget Involved: Bootstrap Theme - HEAD\n\n- We updated the Sub-Sub Level Category dropdowns placeholder text to use a unique Text Label instead of the same one used for the Sub Level category. Widgets Involved: Bootstrap Theme - Homepage Search - Sub + Sub-Sub Bootstrap Theme - Homepage Search - Sub + Sub-Sub + Location Bootstrap Theme - Homepage Search - Sub-Sub Search Bootstrap Theme - Homepage Search - Top Sub SubSub Category Bootstrap Theme - Search Module - Keyword_Top_Sub_Sub-Sub Bootstrap Theme - Search Module - Keyword_Top_Sub_Sub-Sub_Location Bootstrap Theme - Search Module - Top_Sub_Sub-Sub_Category Bootstrap Theme - Search Module - Top_Sub_Sub-Sub_Location\n\n- We updated the layout of the Coupon Codes, Manage Leads and Form Inbox pages to match the aesthetic of other related areas of the Admin.\n\n- We updated the logic of the Keyword Search field on the Manage Leads page in the Admin to include the lead message and lead note fields when doing a lead search.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000075801",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000075801"
+    }
+  ],
+  "lastmod": "2020-11-21T04:15:16+05:30",
+  "scraped_at": "2026-10-18T13:47:23.982643"
+}

@@ -1,0 +1,67 @@
+{
+  "article_id": "12000078795",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078795-form-settings-overview",
+  "title": "Form Settings Overview",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "Form Settings Overview"
+  ],
+  "content": "## Form Settings Overview\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078795\n\nImportant Note: These form settings are only available for Custom Forms . This option does not display for Default Forms.\n\nTo reach the Form Settings, click Edit on the preferred custom form:\n\nIn the Edit view, the Form Settings option is in the top right:\n\nThis article covers each of these settings and how they function.\n\nOnce Edit Form Settings is clicked, a module with three tabs displays:\n\n\n## Submission Settings\n\n\nControls what happens after a form is submitted, such as the redirect or the message shown to the user.\n\nSubmission Settings\n\n\n## Email Notifications\n\n\nControls the email notifications sent when a form is submitted, including recipients and message content.\n\nEmail Notifications\n\n\n## Developer Settings\n\n\nControls advanced options such as the database table the submission posts to and the form's system name.\n\nDeveloper Settings",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819375/original/xQM3pogCthPnaaTj1fTJZXkMcwtSGmvClA.png?1761871997",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Form Settings Overview' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12129558268/original/56ZYL-1IFaH5X6Ge1wc-xtaLYjEsf7gufw.png?1691509472",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Form Settings Overview' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090802227/original/sTZD9BmP51IVZKCIO1usab30wNzwQmpZ1A.png?1617304978",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Form Settings Overview' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078795",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078795"
+    },
+    {
+      "text": "Custom Forms",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078290"
+    },
+    {
+      "text": "Submission Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078794"
+    },
+    {
+      "text": "Email Notifications",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000076388"
+    },
+    {
+      "text": "Developer Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078825"
+    }
+  ],
+  "lastmod": "2026-06-16T01:35:35+05:30",
+  "scraped_at": "2026-10-18T13:48:14.458497"
+}

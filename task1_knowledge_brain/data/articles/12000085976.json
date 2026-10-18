@@ -1,0 +1,27 @@
+{
+  "article_id": "12000085976",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085976-02-18-22-software-updates",
+  "title": "02/18/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "02/18/22 - Software Updates"
+  ],
+  "content": "## 02/18/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000085976\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was causing a double execution of PHP code in a widget after setting a web page as the type \"Custom Widget as Web Page\" in some cases.\n\n- We fixed an issue with Sidebar Search modules which was causing the pages that loaded those modules to draw \"focus\" on the location search field in the module after loading the page. Widget Involved: Bootstrap Theme - Footer - Scripts - Input Clear Content Scripts\n\n- We updated the logic of the members signup webhook to include the \"user_id\" of the newly created member to be sent after signing up on a /checkout page.\n\n- We fixed an issue which preventing the system from displaying commas in form Section Title fields in some cases.\n\n- We updated the Predictive Keyword Search Add-On to add support for the \"Post Keyword Search Options\" Post Type setting and return the same results as the Search Result Pages for the same keywords.\n\n- We released the new Member Credits System Add-On. Click here for more information.\n\n- We fixed an issue which was preventing the system from saving special characters in multi-image post image titles in some cases. Widgets Involved: Bootstrap Theme - Account - Edit Uploaded Photos Bootstrap Theme - Account - Photo Albums Upload\n\n- We updated the One-Click Facebook Login Add-On to add a \"Data Deletion Request Callback\". This is called whenever an app user removes the website's connection to their account and requests that the data be deleted from the website. To use this feature its necessary to add a \"Facebook App Secret ID\" in the Admin >> Settings >> General Settings >> Integrations.\n\n- We added the ability to upload .otf files through the Media Manager in the Admin.\n\n- We fixed an issue with multi-image Post Type thumbnails on search results which was causing the system to display the same thumbnail on multiple posts in some cases. Widget Involved: Bootstrap Theme - Search Results - Display Image Slider\n\n- We added an \"every 4 weeks\" option to the Auto-Recurring Events Add-On.\n\n- We fixed an issue which was allowing sub-accounts to log in to the parent member's account when both accounts share the same email address in some cases.\n\n- We updated the logic of member search results in order to prevent members with a status other than \"Active\" from seeing restricted search results.\n\n- We fixed an issue which was preventing users from copy/pasting content into form fields in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000085976",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000085976"
+    },
+    {
+      "text": "here",
+      "url": "https://www.brilliantdirectories.com/member-credits-system"
+    }
+  ],
+  "lastmod": "2022-02-21T03:22:08+05:30",
+  "scraped_at": "2026-10-18T13:49:28.710084"
+}

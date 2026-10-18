@@ -1,0 +1,23 @@
+{
+  "article_id": "12000031120",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000031120-06-16-17-software-updates",
+  "title": "06/16/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "06/16/17 - Software Updates"
+  ],
+  "content": "## 06/16/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000031120\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We added the functionality to send a confirmation email when a visitor signs up for the Newsletter on a site.  All new sites launched from today on will have this option activated by default.  If your license was purchased before this week, you can activate it by following these instructions: Navigate to the site Admin >> Toolbox >> Form Manager Search for the Newsletter Form >> Edit Form Settings Activate Email Settings Use this email template: newsletter-signup-user Forms Involved: Website - Newsletter Footer Website - Newsletter Sidebar Widgets Involved: Bootstrap Theme - Module - Newsletter Actions\n\n- The \"Send Verification Email\" Box is now based on text labels. Forms Involved: Bootstrap Theme Framework\n\n- The Account Notification Manger as now based on a text label. Widgets Involved: Bootstrap Theme - Account - Status Notifications",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000031120",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000031120"
+    }
+  ],
+  "lastmod": "2017-06-17T01:38:10+05:30",
+  "scraped_at": "2026-10-18T13:41:21.928770"
+}

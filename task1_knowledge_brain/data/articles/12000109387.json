@@ -1,0 +1,105 @@
+{
+  "article_id": "12000109387",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109387-how-to-add-custom-fields-to-the-manage-images-form",
+  "title": "How to Add Custom Fields to the \"Manage Images\" Form",
+  "category": "My Content",
+  "folder": "Edit Post Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Edit Post Settings",
+    "How to Add Custom Fields to the \"Manage Images\" Form"
+  ],
+  "content": "## How to Add Custom Fields to the \"Manage Images\" Form\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109387\n\nThe Manage Images form appears by default when publishing or editing multi-image post types such as Photo Albums and Products, providing a per-photo edit section.\n\n\n### Steps to Add Custom Fields\n\n\n- Access Edit Post Settings. Navigate to Edit Post Settings > Edit view and locate the Per-Photo Custom Fields Form setting under General Settings.\n\n- Locate the default form. A default form already exists, named \"Feature - Photo Fields\" ( photo_fields ), which can be customized.\n\n- Open Form Manager. Navigate to Toolbox > Form Manager , search for \"Feature - Photo Fields,\" and select customize (or Edit , if the form has already been customized).\n\n- Add a new field. Select the Add Field + button to create a new custom field.\n\n- Configure and save. Complete the required field details, then select Save Changes .\n\n- Verify selection. Confirm the customized form is selected under Edit Post Settings .\n\nThe new field will be available in the front-end when editing the images of a post:\n\n\n### Critical Cautions\n\n\nNaming restriction: Only forms containing \"Feature - Photo Fields\" in the name will appear under the Per-Photo Custom Fields Form setting in Edit Post Settings .\n\nDisplay restriction: Custom fields created through this process are for internal use only for members. These fields will not display on the front-end detail page of the published post.\n\nPost type prerequisite: The Per-Photo Custom Fields Form setting will not appear under Edit Post Settings unless the Type of Post field is set to Post - Photo Album .",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183296553/original/av5ewwO8X7-8I3EBvsAmO0WcOgPOBICkxw.png?1786125249",
+      "alt": null,
+      "caption": "The Manage Images form appears by default when publishing or editing multi-image post types such as Photo Albums and Products, providing a per-photo edit section.",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'. Context: The Manage Images form appears by default when publishing or editing multi-image post types such as Photo Albums and Products, providing a per-photo edit section.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183297431/original/UfWXXM6PMXz3N_kObXCQ1wDpUn7xaOpF8A.png?1786126042",
+      "alt": null,
+      "caption": "Context: Steps to Add Custom Fields",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'. Context: Context: Steps to Add Custom Fields",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183297478/original/jf4-lvrFeDZSYZyXb4yI1Z2NCJlL9rtuPg.png?1786126059",
+      "alt": null,
+      "caption": "Context: Steps to Add Custom Fields",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'. Context: Context: Steps to Add Custom Fields",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183297488/original/tfGLVkDQ4o-OvdtVk7-R-MTmWxm3D9w7HA.png?1786126069",
+      "alt": null,
+      "caption": "Context: Steps to Add Custom Fields",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'. Context: Context: Steps to Add Custom Fields",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183297493/original/QYviGmYq104c8_-iwqaGmveDr2l9DGo3ew.png?1786126081",
+      "alt": null,
+      "caption": "Context: Steps to Add Custom Fields",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'. Context: Context: Steps to Add Custom Fields",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183297499/original/cIqmG0thFxcyysA0Xtv_8ouGwy-P5J37Dw.png?1786126090",
+      "alt": null,
+      "caption": "Context: Steps to Add Custom Fields",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'. Context: Context: Steps to Add Custom Fields",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183297505/original/uauwzS6XEAxp0Vc7eWEiSSuYomVIrjsK0g.png?1786126099",
+      "alt": null,
+      "caption": "Context: Steps to Add Custom Fields",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'. Context: Context: Steps to Add Custom Fields",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183297034/original/FsNTLiEFVg1qFd0mvCBKs3Nc2SYzPmZm0w.png?1786125701",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183297203/original/vMIyvAOc3SXV2qKE2Vw7THldCxhsWswGBA.png?1786125846",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Fields to the \"Manage Images\" Form' in section 'My Content' / 'Edit Post Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109387",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109387"
+    }
+  ],
+  "lastmod": "2026-08-07T23:43:28+05:30",
+  "scraped_at": "2026-10-18T13:59:56.259453"
+}

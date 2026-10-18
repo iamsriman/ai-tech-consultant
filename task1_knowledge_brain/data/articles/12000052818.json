@@ -1,0 +1,23 @@
+{
+  "article_id": "12000052818",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052818-12-28-18-software-updates",
+  "title": "12/28/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/28/18 - Software Updates"
+  ],
+  "content": "## 12/28/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000052818\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We fixed an issue which was changing the UI of the Leads form on the homepage when a Member was viewing it while logged in to their account. Widgets Involved: Bootstrap Theme - Lead Submission Form Title Hide Replies From Additional Members Option\n\n- We updated the Spam Form Protector Add-On in order to apply the same protection to the Signup Forms.\n\n- We added a prompt to also delete the images and files uploaded by the member when a member is deleted from the Search Member page in the Admin Area.\n\n- We fixed an issue which was affecting the ability to upload and view PDF documents using the Media Manager in the Admin.\n\n- Admins now have additional options of how to display posts to site visitors that are not logged in to a member account when the Members Only Content Add-On is active on a site.   We added the ability to select if a Post will be \"Available for All Users\", \"Protect Details Page and Search Results\" or \"Only Protect Details Pages\" on the Edit Post Setting page. Widgets Involved: Bootstrap Theme - Photo Album Page Bootstrap Theme - Single Post Page\n\n- We fixed an issue which was preventing Admins from customizing a Default Form in some cases.\n\n- We fixed an issue which was causing Products Level display Pricing Information even though the Product Account Type is set as Free on the Manage Products page in the Admin Area.\n\n- Products will no longer display any previously-selected billing cycle options on the Manage Products page in the Admin when the product is currently set to be free..\n\n- We fixed an issue that was preventing the \"About\" section from displaying on member profile pages in some cases. Widget Involved: Bootstrap Theme - Member Profile - Overview Tab\n\n- The Category Dropdown Field in Sidebar and Homepage Search Modules will now be hidden automatically if an Admin has not added any categories to the Post Type on the Post Settings Page. Widgets Involved: Bootstrap Theme - Module - Property Search Bootstrap Theme - Module - Products Search Bootstrap Theme - Module - Photo Albums Search Bootstrap Theme - Module - Member Article Search Bootstrap Theme - Module - Jobs Search Bootstrap Theme - Module - Event Search Bootstrap Theme - Module - Coupons Search Bootstrap Theme - Module - Classifieds Search Bootstrap Theme - Module - Blog Articles Search Bootstrap Theme - Module - Audio Search Bootstrap Theme - Homepage Search - Property Search Bootstrap Theme - Homepage Search - Videos Search Bootstrap Theme - Homepage Search - Products Search Bootstrap Theme - Homepage Search - Photo Album Search Bootstrap Theme - Homepage Search - Member Article Search Bootstrap Theme - Homepage Search - Jobs Search Bootstrap Theme - Homepage Search - Events Search Bootstrap Theme - Homepage Search - Coupons Search Bootstrap Theme - Homepage Search - Classifieds Search Bootstrap Theme - Homepage Search - Blog Article Search Bootstrap Theme - Function - Post Category Dropdown Controller Bootstrap Theme - Form - Group Categories Select Controller",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000052818",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000052818"
+    }
+  ],
+  "lastmod": "2018-12-29T01:56:57+05:30",
+  "scraped_at": "2026-10-18T13:44:20.501586"
+}

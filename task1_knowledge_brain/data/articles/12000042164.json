@@ -1,0 +1,23 @@
+{
+  "article_id": "12000042164",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042164-03-09-18-software-updates",
+  "title": "03/09/18 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "03/09/18 - Software Updates"
+  ],
+  "content": "## 03/09/18 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000042164\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We removed the pagination from the Country Settings page in the Admin.\n\n- We fixed an issue which was affecting the normal behavior of the 3rd Party Notifications setting when the Automatch Lead Add-On is active on a site.\n\n- We added the ability to install the Multi-Member Manager Add-On from the Admin Status Checker page in the Admin.\n\n- We made several improvements and bug fixes foro the Auto-recurring Events Add-On. Widgets Involved: Search - Post - Search Query Bootstrap Theme - Pagination Bootstrap Theme - Footer - Scripts\n\n- We fixed an issue which was affecting the normal behavior of the function that retrieves the Member's Sub-Categories on the Member Search Results and Profile pages.\n\n- We fixed an issue that was affecting the normal behavior of the Local Radius Widget. Widget Involved: Bootstrap Theme - Search Module - Local Radius Search\n\n- We added 2 new fields to the Get Matched Form. These new fields will help site visitors to specify the preferred day and time to be contacted by the member. Forms Involved: Bootstrap Theme - Get Matched\n\n- We refactored several widgets in preparation for the upcoming release of a new method of editing Text Labels throughout the front end of a website. Widgets Involved: Bootstrap Theme - Form - Member Google Location Bootstrap Theme - Display - About Website and Join Offer Bootstrap Theme - Display - Homepage Featured Members Bootstrap Theme - Display - Members Only Message Bootstrap Theme - Display - Recent Jobs Bootstrap Theme - Display - Recent Members Bootstrap Theme - Display - Recent Reviews Bootstrap Theme - Email - New Review Notification Bootstrap Theme - Member Login Page Bootstrap Theme - Member Profile - Badges Bootstrap Theme - Member Profile - Header Bootstrap Theme - Member Results - Sorting Options Bootstrap Theme - Reviews - Copy Member Review Emai Bootstrap Theme - Signup Page Layout - Promo Code Input Bootstrap Theme - Unsubscribe Email Page Bootstrap - Contact Member Lead Map\n\n- We fixed an issue which was affecting the display of custom fields in the Sign Up forms.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000042164",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000042164"
+    }
+  ],
+  "lastmod": "2018-03-12T23:19:41+05:30",
+  "scraped_at": "2026-10-18T13:42:22.677962"
+}

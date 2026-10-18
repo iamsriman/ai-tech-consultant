@@ -1,0 +1,120 @@
+{
+  "article_id": "12000078616",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078616-bulk-actions-for-search-members-section",
+  "title": "Bulk Actions For Search Members Section",
+  "category": "My Members",
+  "folder": "Search Members",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Members",
+    "Search Members",
+    "Bulk Actions For Search Members Section"
+  ],
+  "content": "## Bulk Actions For Search Members Section\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078616\n\nNavigation Path\n\nAdmin Dashboard » My Members » Search Members\n\nThe Bulk Actions tool allows administrators to apply account-level changes to multiple member records simultaneously. Bulk actions are initiated from the Search Members section and apply to all members selected within a given operation.\n\n\n## Part 1 — Selecting Members for a Bulk Action\n\n\nBefore a bulk action can be applied, the target member records must be selected. Two selection methods are available:\n\n\n### Method A — Select All Results on the Current Page\n\n\nClick the checkbox located directly below the Bulk Actions dropdown. This selects all member records currently displayed on the active page of the Search Members results table.\n\nTo extend the selection across all records returned by the current search filter (not just the current page), click \"Select All # Results\" after activating the page checkbox.\n\n\n### Method B — Select Members Individually\n\n\nClick the checkbox next to each individual member record in the results table to manually select specific members for the bulk action.\n\n\n## Part 2 — Applying a Bulk Action\n\n\nOnce the target members are selected:\n\n- Click the Bulk Actions dropdown in the Search Members toolbar.\n\n- Select the desired action from the list.\n\n- Click Apply .\n\n\n## Part 3 — Bulk Actions Reference\n\n\nThe following twelve bulk actions are available in the Search Members Bulk Actions dropdown. Each action applies to all currently selected member records.\n\n\n### 1. Update Account Status\n\n\nApplies a new Account Status value to all selected member records simultaneously.\n\n⚠ CRITICAL CAUTION — Status Change Does Not Affect Billing: Changing Account Status via bulk action does NOT cancel, pause, or modify any active billing subscriptions for the selected members. Subscription management must be handled independently. Members set to \"Not Active\" or \"Cancelled\" via this tool may still be actively billed if their subscriptions are not separately cancelled.\n\nAccount Status value definitions: Quick Edit Module — Account Status\n\n\n### 2. Update Verified Status\n\n\nApplies a verified or unverified status to all selected member records simultaneously. Members with verified status display a verification badge on their public profile.\n\nReference: How To Verify A Listing\n\n\n### 3. Update Listing Type\n\n\nUpdates the Listing Type designation for all selected member records. Two Listing Type options are available:\n\nListing Type Profile Display URL Format Individual Member's first and last name Based on first and last name (e.g., /john-doe ) Company Company name Based on company name (e.g., /doe-consulting-group )\n\nThis setting controls both how a member's identity is displayed on their public profile and how the profile URL slug is generated.\n\n\n### URL Update Option\n\n\nWhen applying a Listing Type change via bulk action, the system presents an option to update the profile URLs to reflect the new Listing Type.\n\nWhen this option regenerates profile URLs, the current formatting rules apply to the name: apostrophes are removed, most other punctuation and spaces become hyphens, and underscores are preserved. Existing URLs are not rewritten merely because a platform update was released. See How To Customize The Member Profile URL Structure for the formatting examples and URL lock behavior.\n\n⚠ CAUTION — URL Change Behavior: If the URL update option is selected, the system will automatically generate a 301 redirect from each affected member's old profile URL to the new URL. This preserves SEO value and prevents broken links. However, if external systems, marketing materials, or third-party integrations reference the old URLs directly, those references will need to be updated manually. The 301 redirect handles browser and search engine traffic but does not update hardcoded references outside the platform. ⚠ CAUTION — Company Name Field Required for Company Listing Type: If the Listing Type is changed to Company but the member record does not have a Company Name populated, the URL generation will fail to produce a meaningful slug. Verify that all selected members have a Company Name on file before bulk-updating to Company Listing Type.\n\n\n### 4. Update Top-Level Category\n\n\nReassigns the top-level member category for all selected member records simultaneously. The available categories are drawn from the list configured under My Members » Member Categories .\n\n\n### 5. Update All Category Levels\n\n\nReass igns one or more category levels for all selected member records simultaneously. When this action is selected, a configuration module appears presenting the following three category fields: # Field Description 1 Top-Level Category Reassigns the primary top-level category for all selected members. 2 Sub-Category Reassigns the sub-category for all selected members. 3 Sub-Sub-Category Reassigns the sub-sub-category for all selected members.\n\nOnly the fields that require updating need to be populated. Fields left blank in the module are ignored, the corresponding category level on each selected member record remains unchanged.\n\n\n### 6. Update Join Date\n\n\nModifies the recorded join date for all selected member records simultaneously.\n\n⚠ NOTE — Applies to All Selected Members: This action sets a single join date value across all selected records. There is no per-member date assignment within a single bulk action. To assign different join dates to different members, separate bulk action operations must be run for each distinct date value.\n\n\n### 7. Update Membership Plan\n\n\nReassigns the Membership Plan for all selected member records simultaneously.\n\n⚠ CRITICAL CAUTION — Plan Change Does Not Affect Billing: Changing the Membership Plan via bulk action does NOT modify or cancel any existing subscription associated with the selected members. The plan designation in the member record will change, but subscription billing continues under the original plan terms unless separately updated in the subscription management system.\n\n\n### 8. Add/Remove Tags\n\n\nAdds or removes Member Tags for all selected member records simultaneously. The administrator selects whether the operation is an addition or removal, then selects the specific tag or tags to apply.\n\n\n### 9. Add/Remove Credits\n\n\nAdjusts the credit balance for all selected member records simultaneously. The administrator specifies whether the operation adds or removes credits and enters the credit amount to apply.\n\n\n### 10. Change Post Ownership\n\n\nReassigns all posts owned by the selected member records to a different specified member. This action transfers content ownership in bulk and does not delete any posts.\n\n\n### 11. Change Parent Member\n\n\n⚠ ADD-ON REQUIRED — Multi-Member Manager: This action is only available when the Multi-Member Manager add-on is active on the site. If this add-on is not active, the Change Parent Member option will not appear in the Bulk Actions dropdown.\n\nWhen available, this action assigns a new parent member to all selected member records, or removes the existing parent assignment. This converts the selected members into sub-accounts under the designated parent, or returns them to standalone account status.\n\n⚠ CRITICAL CAUTION — Eligibility Restriction for Parent Assignment: Only Active members who share the same Membership Plan AND have the \"Sub Accounts\" feature enabled in their plan settings are eligible to be assigned as a parent. Members not meeting both criteria will not appear as assignable parent options.\n\nReference: Multi-Member Manager\n\n\n### 12. Delete Members\n\n\nPermanently deletes all selected member records. When the Delete Members action is selected, a configuration modal appears before any deletion is executed. The following options must be reviewed and set before confirming the action:\n\n# Option Description 1 Delete Members Toggle must be enabled to confirm the deletion action. 2 Delete Sub-Accounts Under Members? If selected members have associated sub-accounts, the administrator chooses whether to delete or retain them. 3 Delete Member Profile Images & Files? Determines whether images and files attached to the selected member records are also permanently deleted. 4 Delete Member Posts? Determines whether posts created by the selected members are deleted or retained. 5 Reassign Posts to Another Member If posts are being retained rather than deleted, this option transfers them to a designated existing member.\n\nAfter all options are configured, a final confirmation prompt is displayed before the deletion is executed.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180869859/original/_tRDT2L86DB4Td1Y-P-JCpDwdXpOI6qdzA.png?1782213545",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Actions For Search Members Section' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180869897/original/QVwtTP2-a3l3EFRy_zg-9eN4Ikd-dG00sA.png?1782213603",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Actions For Search Members Section' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180869921/original/PElVFkXD9H3pVlKzAO9i_mrVwKUA34dhNA.png?1782213647",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Actions For Search Members Section' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180870572/original/YdHI0bhbPW2M80Zki6-W4enoxNe4BZGcMA.png?1782214435",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Actions For Search Members Section' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12163774457/original/XNFuYXOebUjzOfEum4f6XlB0_DmrgdRoog.png?1751544380",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Actions For Search Members Section' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180870867/original/fzIdznmIBnLild5c2nyFP0MzUh7xcxBeOg.png?1782214901",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Actions For Search Members Section' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12160452373/original/mJNrTQuH7ToAAWCfTrnjmR4xq9hkJhizQA.jpeg?1745614618",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Actions For Search Members Section' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12154746526/original/IEA61u8ZDnGz9-j-uE_5poj-E7Opnmndsg.png?1735829410",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Bulk Actions For Search Members Section' in section 'My Members' / 'Search Members'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078616",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078616"
+    },
+    {
+      "text": "Quick Edit Module — Account Status",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046940"
+    },
+    {
+      "text": "How To Verify A Listing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000021982"
+    },
+    {
+      "text": "How To Customize The Member Profile URL Structure",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000074682"
+    },
+    {
+      "text": "Member Tags",
+      "url": "https://support.brilliantdirectories.com/en/support/solutions/articles/12000100266"
+    },
+    {
+      "text": "Multi-Member Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030828"
+    },
+    {
+      "text": "Multi-Member Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000030828"
+    }
+  ],
+  "lastmod": "2026-09-15T23:42:47+05:30",
+  "scraped_at": "2026-10-18T13:48:10.523383"
+}

@@ -1,0 +1,98 @@
+{
+  "article_id": "12000098368",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098368-block-traffic-by-country",
+  "title": "Block Traffic by Country",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Block Traffic by Country"
+  ],
+  "content": "## Block Traffic by Country\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000098368\n\nSay goodbye to unwanted website traffic and hello to a more secure and personalized website with the Block Traffic by Country website add-on.\n\nEasily prevent visitors from specific countries from accessing the front-end of your website, enhancing security and tailoring the website experience to the target audience. Ensure that only the desired audience can access the website.\n\nThis add-on identifies a visitor's country based on their IP address. And based on the geo-location of the IP address , the rules set with the add-on will control a visitor's ability to access the website.\n\nKey Features & Benefits :\n\n- Allow traffic from all countries except specified countries\n\n- Allow traffic only from specific countries\n\n- Website visitor location determined by their IP address\n\n- Enhance security by preventing traffic from countries known for malicious activity\n\n- Reduce spam by blocking traffic from countries notorious for spamming\n\n- Tailor content based on the geographic location of your visitors\n\n- More easily comply with regional regulations by restricting access to specific countries\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Block Website Traffic By Country Add-On\n```\n\n\n## Using the Add-On\n\n\nGo to: General Settings > Localization > Block Traffic by Country\n\nThis will allow website owners to block unwanted traffic from entire countries.\n\nThere are 3 options:\n\n- Disable Setting\n\n- Only Allow Traffic From\n\n- Block Traffic From\n\n\n### Disable Setting\n\n\nThis will deactivate the setting from allowing or blocking specific countries. Sign ups from all countries are allowed.\n\n\n### Only Allow Traffic From\n\n\nThis will set the countries that are allowed to sign up on the website. If the country is not in the list, users in those countries will not be allowed to sign up on the website.\n\n\n### Block Traffic From\n\n\nThis will decide the countries that are not allowed to sign up on the website. If the country is not on the list, users in those countries can sign up on the website..\n\n\n## Adding Countries\n\n\nClick on the white space and a Country List will appear:\n\nScroll or type in the country:\n\nSelect the country to add it to the list:\n\n\n## Removing Countries\n\n\nUse the \" X \" to remove a country from the list:\n\n\n## Blocked Countries\n\n\nWhen a country is blocked from the website, there is a 403 Forbidden warning:\n\n\n## API Requests Are Not Blocked\n\n\nRequests to the website's API (addresses that begin with /api/v2/ ) are not blocked by this add-on. Integrations such as BD Butler, Zapier and n8n keep working even when their requests come from a country that is blocked, or from a country that is not on the \"Only Allow Traffic From\" list. API requests still need a valid API key. All other pages are still blocked or allowed by the country rules.\n\nWebsites that already use this add-on. The API exemption is added to the website's .htaccess file when the country rules are regenerated. That happens when the Block Traffic by Country settings are changed and saved, not when the tab is saved without a change, and not when the website cache is refreshed. To add the exemption to an existing website, go to Settings >> General Settings >> Localization , add a country to the list (or remove one), click Save Changes , then put the list back the way it was and click Save Changes again. Websites that set up the add-on after this change receive the exemption automatically.\n\n\n## Important Notes\n\n\n- Even if your website only serves a single country or market, sometimes your members and visitors are accessing your website while traveling or from other locations. Be cautious when deciding to block countries.\n\n- If you're working with staff or team members abroad, make sure you're not blocking their access to your website.\n\n- Sometimes search engines like Google, Bing and other tools need to crawl your website from IP addresses and countries that you may have blocked. So use the tool as needed and with intent.\n\n- Remember, you can always block and unblock countries temporarily based on your needs.\n\n- The most practical use of this add-on is to block traffic from countries that are delivering spam to your website. When the spam stops, you may choose to unblock and allow the country again.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138729760/original/fsaOA593CDPU6yUuVvSuy8MZR5-OX_TRhg.png?1707930744",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Block Traffic by Country' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138731296/original/xl9m59hsvphpsEzGD1AFredFRHbnGRkU-g.png?1707931993",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Block Traffic by Country' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138733171/original/d9gXI30rZOdURB6gm1zKk1WFtJ7mxP1HKQ.png?1707933868",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Block Traffic by Country' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138733216/original/MNnnw8a27twGSZPznf78KifqW0jGAVnBfA.png?1707933909",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Block Traffic by Country' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138733354/original/Wmqk5wvp_wnZyUMDiHvaXRE1bCh7hoAgjQ.png?1707934085",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Block Traffic by Country' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138733403/original/Mx4RoUJb_ylwJBneeyEAQ6W_SrFIXNPXUg.png?1707934149",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Block Traffic by Country' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12138736778/original/chp13resLPO43z3mn2MQDhkjymgapU3NUg.png?1707937970",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Block Traffic by Country' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000098368",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000098368"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Block Website Traffic By Country Add-On",
+      "url": "https://www.brilliantdirectories.com/block-website-traffic-by-country"
+    }
+  ],
+  "lastmod": "2026-09-29T22:42:57+05:30",
+  "scraped_at": "2026-10-18T13:53:32.171468"
+}

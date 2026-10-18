@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109033",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109033-install-billing-reminder-email-settings-dashboard-installer",
+  "title": "Install Billing Reminder Email Settings - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Install Billing Reminder Email Settings - Dashboard Installer"
+  ],
+  "content": "## Install Billing Reminder Email Settings - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109033\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Install Billing Reminder Email Settings Does\n\n\nThis installer sets up the configuration the site needs for automated billing reminder emails. It creates the database table that stores the reminder rules (if the site does not have it yet) and then fills in the platform’s standard set of rules. It only adds what is missing, so nothing already present is changed or removed.\n\n- Creates the email_automation_settings table in the site’s database if it does not already exist.\n\n- Copies the platform’s standard billing reminder rules into that table. Each rule defines how many days from the related billing event the email is sent, whether the email goes to the member, whether a copy goes to the site admin, and whether a PDF attachment is included.\n\n- Skips any rule that already exists in the table (matched by rule name), so rules that have already been customized keep their current settings. No rows are deleted or overwritten.\n\n\n## Why It Appears\n\n\nThe site is missing part of this configuration. Either the email_automation_settings table does not exist in the site’s database at all, which is common on older sites created before this feature was added, or the table exists but one or more of the platform’s standard rules are missing from it. The status check compares the table against the platform’s master list of rules, rule by rule, and the installer appears if any rule is absent.\n\n\n## Why It Matters\n\n\nBilling reminder emails rely on these stored rules to know when to send, who to notify, and whether to attach a PDF. Until the rules are installed, that configuration does not exist on the site. Running the installer puts the standard rules in place with the platform’s default values. The installation does not send any emails by itself; it only installs the settings, which can be reviewed and adjusted in the admin area afterward.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has pending steps, Install Billing Reminder Email Settings appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once all steps are done.\n\nIf Install Billing Reminder Email Settings does not appear in the list, the website is already up to date — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nA confirmation message appears that reads “Billing Automation Settings Add-on Installed”. Nothing changes on the live website, and no emails are sent as part of the installation. The new rules are stored with the platform’s default values, so this is a good time to review the billing reminder email settings in the admin area and adjust the timing, recipients, and PDF attachment option for each rule. The installer is safe to run on any site: it only adds missing data and never edits or deletes existing rules.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109033",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109033"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:34+05:30",
+  "scraped_at": "2026-10-18T13:59:25.652501"
+}

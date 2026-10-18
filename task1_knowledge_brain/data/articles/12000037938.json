@@ -1,0 +1,23 @@
+{
+  "article_id": "12000037938",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037938-11-24-17-software-updates",
+  "title": "11/24/17 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/24/17 - Software Updates"
+  ],
+  "content": "## 11/24/17 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000037938\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n\n## Updates:\n\n\n- We removed an unwanted character that was appearing in the success message when a member saved a post. Widget Involved: Bootstrap Theme - Account - Feature Edit\n\n- We implemented several general fixes and improvements to the Member Import Images module.\n\n- We fixed an issue that was affecting the normal behavior of the Multi-Location Listings Add-On. Widgets Involved: Bootstrap Theme - Account - Select Locations\n\n- We implemented a limit on the number of members that can be matched with a lead.  If a site is using the Basic Lead package (the default package that comes with all licenses), the limit will be 100 matches.  If a site is using the upgraded Automatic Lead Matching package, the limit will be 1500 matches.\n\n- We fixed an issue that was affecting the normal behavior of the Easy Coupon Codes Add-On.\n\n- We fixed an issue that was affecting the Details Page of Member Reviews. Widget Involved: Bootstrap Theme - Member Profile - Submit Review\n\n- Now the text in the Get Matched form is fully based on Text Labels.\n\n- We fixed an issue that was affecting the alignment of the Social Media login buttons on mobile devices. Widgets Involved: Bootstrap Theme - Display - Facebook Action Login Bootstrap Theme - Display - Google Action Login\n\n- Now the labels and placeholder text of category dropdown fields in member search features are based on Text Labels. Widgets Involved: Bootstrap Theme - Footer - Scripts\n\n- The titles of the Signup page using the One-Click Social Login Add-On and the Credit Card Expiration field are now based on Text Labels. Widgets Involved: Bootstrap Theme - Display - Email Action Create Paid Bootstrap Theme - Display - UserName - Paid Form Bootstrap Theme - Form - Credit Card Expiration Field Bootstrap Theme - Form - Upgrade Credit Card Expiration Field\n\n- We fixed an issue that was affecting the Google Sitemap Generator.\n\n- Now the Google Sitemap Generator is available as an Add-On.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000037938",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000037938"
+    }
+  ],
+  "lastmod": "2017-11-24T23:31:05+05:30",
+  "scraped_at": "2026-10-18T13:42:03.956263"
+}

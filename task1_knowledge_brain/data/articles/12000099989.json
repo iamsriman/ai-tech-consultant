@@ -1,0 +1,27 @@
+{
+  "article_id": "12000099989",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099989-how-to-add-member-profile-urls-in-email-templates",
+  "title": "How To Add Member Profile URLs in Email Templates",
+  "category": "Developer Hub",
+  "folder": "Quick FAQ",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Quick FAQ",
+    "How To Add Member Profile URLs in Email Templates"
+  ],
+  "content": "## How To Add Member Profile URLs in Email Templates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000099989\n\nTo add a member's URL to an email in Brilliant Directories, follow these steps:\n\n- Navigate to Emails » Email Templates .\n\n- Select the email template you want to edit or create a new one.\n\n- Use the variables %protocol_website_url%/ %filename% to insert the member's profile URL into the email content.\n\n- Save the changes to the email template.\n\nVariables explained:\n\n- %protocol_website_url% variable adds the website domain: HTTP(s)://www.website.com\n\n- %filename% variable adds the member profile url but only relatively.\n\nJust adding %filename% will add the relative URL for the member profile which means it will not be clickable.\n\nIf you need more information, this article may be helpful: Email Template Variables .",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000099989",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000099989"
+    },
+    {
+      "text": "Email Template Variables",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076757"
+    }
+  ],
+  "lastmod": "2024-12-31T20:09:46+05:30",
+  "scraped_at": "2026-10-18T13:54:03.257996"
+}

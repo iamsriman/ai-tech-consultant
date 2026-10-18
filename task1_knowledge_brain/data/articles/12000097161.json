@@ -1,0 +1,73 @@
+{
+  "article_id": "12000097161",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097161-generating-a-csr-for-an-ssl-certificate-in-cpanel",
+  "title": "Generating a CSR for an SSL certificate in cPanel",
+  "category": "Developer Hub",
+  "folder": "cPanel Dashboard",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "cPanel Dashboard",
+    "Generating a CSR for an SSL certificate in cPanel"
+  ],
+  "content": "## Generating a CSR for an SSL certificate in cPanel\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000097161\n\n\n### Generate a Certificate Signing Request (CSR)\n\n\nA Certificate Signing Request (CSR) is required when purchasing an SSL certificate from a third-party provider. The CSR contains information about the domain and organization requesting the certificate and is used by the SSL provider during the certificate issuance process.\n\n\n### Access the cPanel Dashboard\n\n\nLog in to the website's Admin Area and navigate to Developer Hub > cPanel Dashboard .\n\n\n### Open the SSL/TLS Manager\n\n\nWithin cPanel, locate the SSL/TLS option in the Security section.\n\n\n### Create the CSR\n\n\nClick Generate, View, or Delete SSL Certificate Signing Requests .\n\n\n### Complete the CSR Information\n\n\nComplete the required fields, including the domain name, organization details, and location information.\n\nThe Domains field should include all domains and subdomains that will be secured by the SSL certificate.\n\nFor a wildcard SSL certificate, the domain can be entered as:\n\n*.example.com\n\nAlternatively, individual domains and subdomains can be specified separately:\n\nwww.example.com example.com mail.example.com\n\n\n### Generate the CSR\n\n\nAfter all required information has been entered, click Generate to create the Certificate Signing Request.\n\n\n### Save the CSR and Private Key\n\n\nBoth the CSR and private key should be saved in a secure location. The CSR will be required when purchasing the SSL certificate, while the private key will be required when installing the certificate on the server.\n\nLoss of the private key may prevent the SSL certificate from being installed successfully and could require generating a new CSR.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134441075/original/N5NO8PK8h-J4f5WcwEf_Xs24T-U4gxtzww.png?1699995089",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Generating a CSR for an SSL certificate in cPanel' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134441095/original/YwwRmTOIiY8UMm5_YaeHLJMkTpdaq6Hh_g.png?1699995138",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Generating a CSR for an SSL certificate in cPanel' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134441186/original/QXx5Z4XKOOX85Tka-571NeN-CwGDm3gzvg.png?1699995239",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Generating a CSR for an SSL certificate in cPanel' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134442211/original/76DYpLuDrYrGgxa4Ywyia2i7Bnt2kNsHCw.png?1699996121",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Generating a CSR for an SSL certificate in cPanel' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134442218/original/ySN92LmakzKbia_sbWrVk8hwf__wpX41RA.png?1699996136",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Generating a CSR for an SSL certificate in cPanel' in section 'Developer Hub' / 'cPanel Dashboard'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000097161",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000097161"
+    },
+    {
+      "text": "mail.example.com",
+      "url": "https://mail.example.com"
+    }
+  ],
+  "lastmod": "2026-06-10T04:16:43+05:30",
+  "scraped_at": "2026-10-18T13:53:06.812629"
+}

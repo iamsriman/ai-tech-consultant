@@ -1,0 +1,41 @@
+{
+  "article_id": "12000084176",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084176-connecting-a-site-to-cloudflare",
+  "title": "Connecting a Site to Cloudflare",
+  "category": "Get Started Here",
+  "folder": "Common Questions & Troubleshooting",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Common Questions & Troubleshooting",
+    "Connecting a Site to Cloudflare"
+  ],
+  "content": "## Connecting a Site to Cloudflare\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084176\n\n\n## Connecting a Site to Cloudflare\n\n\nCloudflare can manage a domain's DNS while also providing caching, traffic filtering, and other performance and security services. Two connection paths are available: the guided Domain Manager option, when offered for the website, and the manual Cloudflare setup described below.\n\n\n### Guided Connection in Domain Manager\n\n\nOpen Settings > Domain Manager and start the domain connection flow. When Use a domain from my Cloudflare account appears, the flow can sign in to Cloudflare, select a domain, check it, and prepare the required record.\n\nSee Connect and Manage Cloudflare in Domain Manager for the guided workflow.\n\nSelect the intended Cloudflare domain and choose the main address or a subdomain before preparing the DNS records.\n\n\n### Manual Cloudflare Setup\n\n\n- Create or sign in to a Cloudflare account and add the domain.\n\n- Use Cloudflare's scan to import existing DNS records. Review every imported record before continuing, especially MX, TXT, and CNAME records used by email or other services.\n\n- Select the appropriate Cloudflare plan. The Free plan is sufficient for the basic DNS connection.\n\n- At the domain registrar, replace the current nameservers with the two nameservers assigned by Cloudflare.\n\n- Wait for Cloudflare to confirm that the zone is active.\n\n\n### Add the Website Records\n\n\nOpen Settings > Domain Manager . The Domain area and its connection guide display the exact destination required by the website. Add the root and www records shown by the guide. Record types can differ by provider: Cloudflare can flatten a root CNAME, while some configurations use an ALIAS-compatible root record.\n\nExisting mail records must also remain present. These can include MX records, SPF TXT records, and sender-authentication CNAME records. Open Emails > Sender Authentication in Domain Manager for the website-specific authentication values. Sender-authentication records in Cloudflare must be set to DNS only .\n\nDo not copy sample values from screenshots. Every website can have a different destination and sender-authentication records. Use only the values displayed in its Domain Manager and email provider.\n\n\n### Review Cloudflare Settings\n\n\nFor a connected Domain Manager account, review the Cloudflare tab and its Set recommended defaults action. The panel brings together HTTPS, encryption, security, and page-caching controls. Review any existing custom configuration before applying defaults.\n\nFor manual changes, confirm the website's certificate and redirect behavior before changing Cloudflare encryption or HTTPS settings. Test forms, login, images, and payment pages after changes. See Cloudflare Connection and Settings for the Domain Manager controls.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668506/original/PW2lGVRbP_p6EvsumjH-aWieLKF_QZeYQQ.png?1790182270",
+      "alt": "Select the intended Cloudflare domain and choose the main address or a subdomain before preparing the DNS records.",
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Screenshot in 'Connecting a Site to Cloudflare' (Get Started Here > Common Questions & Troubleshooting): Select the intended Cloudflare domain and choose the main address or a subdomain before preparing the DNS records.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084176",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084176"
+    },
+    {
+      "text": "Connect and Manage Cloudflare in Domain Manager",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109759"
+    },
+    {
+      "text": "Cloudflare Connection and Settings",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109759"
+    }
+  ],
+  "lastmod": "2026-09-28T23:08:15+05:30",
+  "scraped_at": "2026-10-18T13:49:12.812847"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000106211",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106211-09-26-2025-software-updates",
+  "title": "09/26/2025 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "09/26/2025 - Software Updates"
+  ],
+  "content": "## 09/26/2025 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000106211\n\nWe made updates to several default widgets this week. If you customized any of these widgets and want to update them, you can find the latest code in the corresponding default widget. Please remember that if you have a custom version of any of these widgets, the latest updates will not be pushed to your website.\n\n- Fixed an issue that caused the system to change the member profile URL even though the \"Customize Listing URL\" Member Setting was selected when updating member data in the Member Dashboard.\n\n- Updated the display of Number Form Field values on the frontend of sites to properly add separators for thousands and decimal places.\n\n- Fixed an issue that prevented the Detect Visitor Location Add-On from working properly when the \"Enable New Google Maps Places API\" setting was not active in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Updated the \"Froala Markdown\" Advanced Setting to include an option to enable the Markdown feature in the Froala WYSIWYG in the Admin.\n\n- Fixed an issue that caused the system to display an error message when visiting post details pages if the post title contained special characters in some cases.\n\n- Fixed an issue that prevented the system from displaying Froala's \"Edit Link\" menu when editing a link in an Email Template that contained a variable.\n\n- Implemented an update to automatically generate a 301 Redirect when saving a static pages as a Post Search Result page editing a Web Page in the Admin. Also, updated the Search Snippet Preview to display the URL correctly after saving a static page as a Post Search Result page.\n\n- Fixed an issue that prevented Sidebar Search Results modules from being submitted when the \"Enable New Google Maps Places API\" setting was not active in some cases. Widget Involved: Bootstrap Theme - Function - Google Location Suggest\n\n- Created a new \"Category\" search filter field to the Activity Tracker page in the Admin.\n\n- Fixed an issue that prevented the system from displaying the correct amount paid by members after signing up for a biennial subscription and applying a fixed-value coupon code in some cases.\n\n- Fixed an issue that prevented the system from sending \"Upcoming Payment Reminders\" Billing Email Notifications in some cases.\n\n- Updated the default options for the \"States\" dropdown when selecting Latvia as a country.\n\n- The \"Full Screen Page Width\" Web Page Setting is now compatible with the Coming Soon Page.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000106211",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106211"
+    }
+  ],
+  "lastmod": "2025-09-29T22:33:42+05:30",
+  "scraped_at": "2026-10-18T13:56:43.069774"
+}

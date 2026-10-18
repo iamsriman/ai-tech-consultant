@@ -1,0 +1,147 @@
+{
+  "article_id": "12000073931",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073931-global-website-search",
+  "title": "Global Website Search",
+  "category": "Add-On Documentation",
+  "folder": "Add-On Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Add-On Documentation",
+    "Global Website Search"
+  ],
+  "content": "## Global Website Search\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000073931\n\n\n## Overview\n\n\nThe website’s default keyword search allows users find exactly what they’re looking for… However, visitors need to search member listings and different types of posts separately.\n\nGlobal Website Search simplifies keyword searches by presenting all the results of a search, regardless of if the results are member listings or different post types.\n\n```\nHow To Get This Add-On Websites with the VIP Add-Ons Club automatically have this add-on available: Join The VIP Add-Ons Club Purchase Individually: Global Website Search Add-On\n```\n\n\n## Enabling the Add-On\n\n\nInside the Design Settings there are 2 places where this search module can be selected.\n\nGo to Settings > Design Settings:\n\n\n## Header Global Search\n\n\nUnder the General tab open the Header Design:\n\nSelect the Search Type inside Header Design >> Header Search Module and scroll down until the Global Search options show up and select \"Global Website Search\" or \"Global Website Search + Location\":\n\n\n### Front End\n\n\n\n## Homepage Global Search\n\n\nUnder the Homepage tab open the Search Box/ Call to Action:\n\nSelect the Search Type inside the Search Box / Call to Action and scroll down until the Global Search options show up and select \"Global Website Search\" or \"Global Website Search + Location\":\n\nThis will allow the website users to search for a specific keyword and it will show results from all of the available features.\n\n\n### Front End\n\n\nOnce the admin either chooses to add this to the homepage or to the header search this will be added to the HEAD of the site automatically:\n\n<!-- Google Sitelinks Search Box --> <script type=\"application/ld+json\"> { \"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"url\": \"addonsdocumentation.directoryup.com\", \"potentialAction\": { \"@type\": \"SearchAction\", \"target\": \"addonsdocumentation.directoryup.com/sitesearch/?q={search_term_string}\", \"query-input\": \"required name=search_term_string\" } } This will allow Google to use a search box within the search results. Here is an example search result for \"Pinterest\" on Google that returns a sitelinks search box for the Pinterest website:\n\n\n## Global Website Search Sidebar\n\n\nAlso, adding this search type will change the sidebar that is on the search results pages so it will also use a Global Website search type. The admin will be able to edit this sidebar without any problems:\n\nTo learn more about sidebar, please follow this article: Toolbox » Sidebar Manager\n\n\n## Global Website Search URL\n\n\nThe admin has access to edit the default URL of this search result by going to Content - SEO Templates and editing the Global Website Search.\n\nThe admin will also be allowed to limit which post types will show up in the Global Website Search Results:\n\nWhen this setting is set to no, it will not show any results within the Global Website Search Results:\n\nAll feature posts within Content - Edit Post Settings have this option giving the admin full control of what will display.\n\n\n## Pagination and Result Limit Settings\n\n\nThe Global Website Search add-on search results page displays only the first 10 results for each post type, without pagination. There are no other settings to control this. However, below each post type’s 10 results, a button links to the full results page, where users can view the complete list of results with pagination for easy browsing. This setup ensures that while the initial global search page remains streamlined, users can still access and navigate through all results for each post type if they wish.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091588141/original/pW1I22mUCQSSJeClB_eQt3bHGe0iOuvI2w.png?1618929904",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091588586/original/jXNCkkK-64RenEmhARwiTxxptG_lyEMO8A.png?1618930273",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091588801/original/UPJcvuud3WQYatqBBpyc43vS_Q7ElrVMrA.png?1618930488",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091588969/original/mgCgpIYYivFsg3cn5TcFaXRvi5snYQ1BVQ.png?1618930641",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091590036/original/-ecf8tI8HpLHDCmBm0xEEQDgAQstJpUveQ.png?1618931488",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091590068/original/HBR_jE3SGi7HkC0yoAH-9sPeoAd5SXXa7g.png?1618931531",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091590254/original/gnaejotZfGUKN1JGyvuAi6BrX2-4KOsi_w.png?1618931661",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091591264/original/qj7_GEmLJjs3U977dXf06cj05mA7gI9A1A.png?1618932593",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12081931085/original/e-j7o0LtAud3nPXuiN4Gq3TZpFJU0c_R9Q.gif?1599082643",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12082409004/original/58xTZFLYKxeYqWPUbE_czL-hCNKlcZo0iw.gif?1600147062",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087617464/original/bp1RrEMVu8-MHm0kJ2bRfN9z5hspPipBDg.gif?1611010520",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12087617547/original/1YynfOH0785r3jqagxUWM4f3uJDLJLbsLw.png?1611010654",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Global Website Search' in section 'Add-On Documentation' / 'Add-On Documentation'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000073931",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000073931"
+    },
+    {
+      "text": "",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Join The VIP Add-Ons Club",
+      "url": "https://www.brilliantdirectories.com/vip-add-ons-club"
+    },
+    {
+      "text": "Global Website Search Add-On",
+      "url": "https://www.brilliantdirectories.com/global-website-search"
+    },
+    {
+      "text": "Toolbox » Sidebar Manager",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/5000673365-toolbox-%C2%BB-sidebar-manager"
+    }
+  ],
+  "lastmod": "2026-08-28T22:00:11+05:30",
+  "scraped_at": "2026-10-18T13:47:03.562148"
+}

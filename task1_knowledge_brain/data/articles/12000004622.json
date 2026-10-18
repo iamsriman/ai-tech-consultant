@@ -1,0 +1,114 @@
+{
+  "article_id": "12000004622",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004622-emails-send-newsletter-new-email-newsletter",
+  "title": "Emails » Send Newsletter » New Email Newsletter",
+  "category": "Emails",
+  "folder": "Send Newsletter",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Emails",
+    "Send Newsletter",
+    "Emails » Send Newsletter » New Email Newsletter"
+  ],
+  "content": "## Emails » Send Newsletter » New Email Newsletter\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000004622\n\nSmart Lists Emails >> Newsletter OverviewThis article explains how to create, edit, preview, schedule, and send a new email newsletter campaign from the admin area.\n\nEmail newsletters can be created from the Emails >> Send Newsletter section of the admin.\n\n\n## Where to Create a New Newsletter Campaign\n\n\n- Go to Emails >> Send Newsletter .\n\n- Click the New Email Newsletter button.\n\nA popup will open where the newsletter campaign can be named and a starting option can be selected.\n\nFor more information about these options, please see the following article:\n\n- How to Create a Newsletter Template\n\n\n## Edit the Newsletter Draft\n\n\nAfter the newsletter is named and the starting option is selected, the newsletter will open in draft mode.\n\nThe newsletter editor includes four main sections:\n\n- Edit Email\n\n- Preview Email\n\n- Select Recipients\n\n- Schedule Email\n\n\n## Edit Email\n\n\nThe Edit Email section is where the main newsletter details and content are managed.\n\nThe following fields can be edited:\n\n- From Name: The name recipients will see when the email arrives.\n\n- From Address: The email address recipients will see when the email arrives.\n\n- Template Subject Line: The subject line of the newsletter.\n\n- Template Content: The main body content of the newsletter.\n\n\n### Sidebar Settings\n\n\nThe sidebar includes additional newsletter settings and content tools.\n\n- Include Default Template w/Logo: Controls whether the email template logo from Brand Images is included in the newsletter.\n\n- Include Unsubscribe Link : Controls whether an unsubscribe link is included in the newsletter.\n\n- Premium Content Blocks : Allows content blocks to be dragged and dropped into the newsletter content.\n\n- Email Variables : Displays available variables that can be used to personalize the newsletter with member details, website information, URLs, company names, and other dynamic values.\n\n\n## Preview Email\n\n\nThe Preview Email section allows the newsletter to be reviewed before it is sent. If the newsletter includes member-related variables, such as a member’s first name, an existing member ID can be entered to preview how the dynamic information will display for that member.\n\nThe member ID can also be adjusted using the up and down arrows in the preview area.\n\n\n## Select Recipients\n\n\nThe Select Recipients section controls which members will receive the newsletter.\n\nSmart Lists can be included or excluded to build the final recipient list. The total number of selected recipients will display in this section.\n\n\n### Include and Exclude Smart Lists\n\n\nFor example, if the newsletter should be sent to all members except members located in the United States and members on membership plan ID #3, Smart Lists can be used to create this recipient group.\n\nFor more information about Smart Lists, please see the following article:\n\n- Smart Lists\n\nNote: Same-domain emails are included in newsletters. If certain same-domain emails should be excluded, create a Smart List for those members and add it as an excluded Smart List.\n\n\n## Schedule Email\n\n\nThe Schedule Email section controls when the newsletter campaign will be sent. This section also displays the current monthly email limit for the website.\n\n\n### Send the Newsletter Immediately\n\n\n- Go to the Schedule Email section.\n\n- Select Send Now .\n\n- Click Click to Send Email Now .\n\n- Confirm the send action when prompted.\n\nAfter confirming, the system will begin sending the newsletter campaign within approximately 2 minutes. Campaign statistics will begin to display once the sending process starts.\n\n\n### Schedule the Newsletter for Later\n\n\n- Go to the Schedule Email section.\n\n- Select Schedule for Later .\n\n- Choose the date and time the newsletter should be sent.\n\n- Click Click to Schedule Email .\n\nOnce scheduled, the newsletter campaign will appear under Emails >> Send Newsletter with a Draft status until it is sent.\n\nFor more information about newsletter statuses and campaign statistics, please see the following article:\n\nEmails >> Newsletter Overview\n\n\n## Important Notes\n\n\n- If the daily email sending limit has already been reached, the system will not schedule a new newsletter for a future day because the current day’s sending limit is still being applied.\n\n- If the monthly email sending limit has been reached, the limit can be increased by clicking the Increase Limit Now link in the newsletter scheduling area.\n\n- It is recommended to preview the newsletter and confirm the recipient list before sending or scheduling the campaign.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181471986/original/e9TyAmITk4otYKP8fes-klntr-SToGtXGA.png?1783127967",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Send Newsletter » New Email Newsletter' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472073/original/jETIy2m-FAeJAgXswYPXw5wv1p8HWsBaMQ.png?1783128190",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Send Newsletter » New Email Newsletter' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472153/original/CI-VTh7rhzzAuDy8lDM3cPS-reTjN6Qfzw.png?1783128847",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Send Newsletter » New Email Newsletter' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472152/original/aQ6Al4Gy6Pq7hV9MoggilDBtrip3BZCp6g.png?1783128837",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Send Newsletter » New Email Newsletter' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472167/original/C5BnV1uA7tAYIqzbMHfdXFUT9KZywte5Dg.png?1783129027",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Send Newsletter » New Email Newsletter' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181472175/original/coc0ro4R5OkR9vtw6O0TVsE5WJCu5N7jDw.png?1783129132",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Emails » Send Newsletter » New Email Newsletter' in section 'Emails' / 'Send Newsletter'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000004622",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004622"
+    },
+    {
+      "text": "",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000070238"
+    },
+    {
+      "text": "Smart Lists",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000071871"
+    },
+    {
+      "text": "How to Create a Newsletter Template",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000004623"
+    },
+    {
+      "text": "Include Unsubscribe Link",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000003210"
+    },
+    {
+      "text": "Premium Content Blocks",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000082844"
+    },
+    {
+      "text": "Email Variables",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000076757"
+    },
+    {
+      "text": "Smart Lists",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000036306"
+    },
+    {
+      "text": "Emails >> Newsletter Overview",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000004621"
+    },
+    {
+      "text": "Increase Limit Now",
+      "url": "https://www.brilliantdirectories.com/email-limit-boost"
+    }
+  ],
+  "lastmod": "2026-07-04T07:35:23+05:30",
+  "scraped_at": "2026-10-18T13:39:47.794096"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000091244",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091244-12-02-22-software-updates",
+  "title": "12/02/22 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "12/02/22 - Software Updates"
+  ],
+  "content": "## 12/02/22 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000091244\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We removed the \"Category Pre-Selection\" options when creating or editing lead actions other than the \"Main Action\" in the \"Auto-Match Workflows\", as these settings only apply for the \"Main Action\".\n\n- We fixed an issue which was preventing the system from displaying the Google Maps field when creating a Sub-Account in some cases. Widget Involved: additional_locations_google_maps_module\n\n- We updated the new Domain Manager page in the Admin to improve validations in several places.\n\n- We fixed an issue which was affecting the ability to select the \"Membership Plans This Code Will Work With\" coupon code setting when creating Coupon Codes using the Safari browser in some cases.\n\n- We created two new SEO Template Variables called %%%sub_category_name%%% and %%%sub_sub_category_name%%%. These new variables are usable in SEO Templates related to member search results pages for Sub Categories. Widget Involved: Search - Member - Search Query\n\n- The headings  for all Homepage Sections selectable in the Design Settings are now Text Labels for new sites moving forward. Text Labels Involved: streaming_member_title streaming_blog_title streaming_featured_title streaming_article_title streaming_audio_title streaming_blog_sidebar_title streaming_classified_title streaming_coupon_title streaming_discussion_title streaming_event_title streaming_job_title streaming_photo_title streaming_product_title streaming_propertie_title streaming_review_title streaming_video_title streaming_category_title streaming_subcategory_title streaming_event_calendar_title\n\n- We fixed an issue which was preventing users from selecting the \"Rented\" property status in the Property Search Module after performing a search in some cases. Widget Involved: Bootstrap Theme - Module - Property Search\n\n- We updated the button text when manually matching members in the Admin from \"Set Selected as Pending\" to \"Match Leads\".\n\n- We deprecated the Bootstrap-Theme-Billing2-Bootbox widget.\n\n- We fixed an issue with paid signups which was causing the system to return an error message during the signup process when using Stripe as a payment gateway in some cases.\n\n- We updated the End Date picker field when creating events in order to select an end date automatically after selecting a start date for non-recurring events when the Auto-Recurring Event Add-On is active on a site.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000091244",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000091244"
+    }
+  ],
+  "lastmod": "2022-12-08T02:16:12+05:30",
+  "scraped_at": "2026-10-18T13:50:32.118763"
+}

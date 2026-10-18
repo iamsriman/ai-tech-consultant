@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108121",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108121-api-reference-states",
+  "title": "API Reference - States",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - States"
+  ],
+  "content": "## API Reference - States\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108121\n\n← Back to API Reference | Getting Started States The States table is a global reference list of regions (states, provinces, territories) keyed by country. These records are used throughout the platform for member location fields, search filtering, and geographic data validation. This is a read-only reference table; while CRUD endpoints are available, typical usage is GET operations only to look up valid state/region codes and names. Model name in URL: list_states — DB table: list_states The State Object Field Type Description region_id integer Unique region ID (primary key, read-only) country_id string ISO 3166-1 alpha-2 country code this region belongs to (EG US , CA ); max 4 characters code string Short region code (EG NY , ON ); max 15 characters, unique name string Full region name (EG New York , Ontario ); max 255 characters List States GET /api/v2/list_states/get Returns a paginated list of state/region records. Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/list_states/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"region_id\": \"1\",\n      \"country_id\": \"US\",\n      \"code\": \"AL\",\n      \"name\": \"Alabama\"\n    },\n    {\n      \"region_id\": \"2\",\n      \"country_id\": \"US\",\n      \"code\": \"AK\",\n      \"name\": \"Alaska\"\n    }\n  ],\n  \"total\": \"73\",\n  \"current_page\": 1,\n  \"total_pages\": 3,\n  \"next_page\": \"MipfKjI=\"\n} Retrieve a State Record GET /api/v2/list_states/get/{region_id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/list_states/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"region_id\": \"1\",\n      \"country_id\": \"US\",\n      \"code\": \"AL\",\n      \"name\": \"Alabama\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a State Record POST /api/v2/list_states/create Creates a new state/region record. This endpoint is available but not typically needed as the platform ships with a complete region list. Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/list_states/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"country_id=US\" \\\n  -d \"code=XX\" \\\n  -d \"name=Example Region\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"region_id\": \"74\",\n    \"country_id\": \"US\",\n    \"code\": \"XX\",\n    \"name\": \"Example Region\"\n  }\n} Update a State Record PUT /api/v2/list_states/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/list_states/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"region_id=74\" \\\n  -d \"name=Updated Region Name\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"region_id\": \"74\",\n    \"country_id\": \"US\",\n    \"code\": \"XX\",\n    \"name\": \"Updated Region Name\"\n  }\n} Delete a State Record DELETE /api/v2/list_states/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/list_states/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"region_id=74\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"list_states record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108121",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108121"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:02:10+05:30",
+  "scraped_at": "2026-10-18T13:58:26.662787"
+}

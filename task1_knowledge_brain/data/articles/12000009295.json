@@ -1,0 +1,132 @@
+{
+  "article_id": "12000009295",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009295-embed-conversion-tracking-and-affiliate-tracking-codes-on-sign-up-pages",
+  "title": "Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages",
+  "category": "Toolbox",
+  "folder": "Widget Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Widget Manager",
+    "Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages"
+  ],
+  "content": "## Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000009295\n\nThere are many 3rd party tools that require placing a tracking code on \"success pages\" in order to track sales, sign-ups, conversions, and more. With Brilliant Directories, it is possible to place tracking code widget for the \"success pages\" into each membership plan or in a specific widget that will apply to all membership plans. Membership Plans Method There is a setting on each membership plan where the widget with the code can be placed. It can be found under Finance >> Membership Plans >> find the membership where the code needs to be added and click on Edit . Navigate to the \" Sign-Ups & Upgrades \" tab and scroll down to \" Sign Ups / Upgrade Conversion Tracking Code \" and select the preferred widget: *This allows the activation of an additional Tracking Code Widget that will work alongside the default Bootstrap Theme - Conversion Tracking Codes , which will always remain active. Conversion Tracking Codes Widget and Available Variables to Utilize Navigate Toolbox >> Widget Manager >> Bootstrap Theme - Conversion Tracking Codes An example conversion tracking to add could look like the following: fbq('track', 'Purchase', {currency: \"AUD\", value: <?php echo $conversion_tracking['amount']; ?>}); This code should be added below the following comment within this widget: When adding this code, please make sure to wrap it around the <script> tag, as shown below: <script type=\"text/javascript\">fbq('track', 'Purchase', {currency: \"AUD\", value: <?php echo $conversion_tracking['amount']; ?>});</script> The end result would look like the following: Some common variables that affiliates and other trackers want to be included in the pixel tracking code are the order amount and order or member ID, etc. These are the variables available with Brilliant Directories: COMMON VARIABLES AFFILIATE TRACKERS USE: FIRST PAYMENT AMOUNT = <?php echo $conversion_tracking['amount']; ?> RECURRING PAYMENT AMOUNT = <?php echo $conversion_tracking['recurring_amount']; ?> ORDER ID / MEMBER ID = <?php echo $conversion_tracking['user_id']; ?> COUPON CODE = <?php echo $conversion_tracking['coupon_code']; ?> PRODUCT NAME = <?php echo $conversion_tracking['product_name']; ?> PRODUCT TYPE = <?php echo $conversion_tracking['product_type']; ?> FREE TRIAL = <?php echo $conversion_tracking['free_trial']; ?> FREE TRIAL DAYS = <?php echo $conversion_tracking['free_trial_period']; ?> FIRST BILL DATE = <?php echo $conversion_tracking['first_bill_date']; ?> ADVANCED VARIABLES AFFILIATE TRACKERS USE: $conversion_tracking['invoice']['variable'];    (Invoice Variables from the tblinvoices table) $conversion_tracking['product']['variable'];   (Member Subscription Variables from the tblhosting table) IMPORTANT NOTE: This widget is where the tracking code for affiliate programs, analytics, and more can be placed. This widget only loads on pages after a member sign-ups or upgrades, to track successful sign-ups. Alternative Method: Adding Conversion Tracking to Pop-Up Success Messages If the conversion action does not load a separate success page (e.g., a pop-up message confirms success on the same page), the conversion tracking code can also be placed in the text label that appears after a successful action. This can be done by navigating the Text Label for the post-success message and embedding the tracking code there. For this example, let's add a Google Ads conversion tracking setup for a newsletter subscriber pop-up. To accomplish this, first, navigate Toolbox >> Widget Manager and create a new widget: Name the widget, add the tracking code in the HTML tab, and save the changes: Then copy the PHP shortcode of the widget: Next, place the copied shortcode of the widget to the text label: Alternatively, the code can be inserted directly within the text label. However, we recommend using the widget method for more reliable performance and smoother processing. The tracking code will now trigger each time a user subscribes to the newsletter. This option is especially useful for scenarios where confirmation appears as inline text or a pop-up, rather than a new page. Be sure to use this method as an alternative in any scenario where a separate success page is not available. NOTE : This method may not be optimal and might not work reliably if the script requires a specific loading sequence or is complex. However, it can be effective in many cases. Be sure to thoroughly test before finalizing any updates.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12172003146/original/hvyj3CQ4IKZ90_5tw0MyXRhv2-MYn8p5Kw.png?1765837810",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092494858/original/wTtDMhg7MBUMbnMh0q6yzHril9LgsNRMfQ.png?1620746958",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092495076/original/b5iNZ8d3e5RefpqUbZVyTv9Lg5zH2qvcPw.png?1620747110",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134873513/original/Wh9cG0LnMftBJhJsFj1vunyDOH2VuvR3Dw.png?1700753894",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12134873564/original/5X-4UvwS1p7vyE_8Naoon_8K7NDrZWB9vw.png?1700753967",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092495252/original/6y7JnrT4fa8Gu2IFfxkINBFd0j8HA0C57Q.png?1620747338",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152329472/original/UFP48CR_p0_EjsxgCpQFLKY2QnjcFtgAxQ.png?1731326774",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152329492/original/DnVJyE9Z_2D3EIbfJuY4eSnmfo-LXsPI7g.png?1731326794",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152443548/original/wFMRKK3qxNZmrSqvXkuG3fCE7D0jS8Ne-g.png?1731486478",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152443634/original/xzBLpu0fOeXKbkuP237ccRt-_QMtPerEkw.png?1731486649",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152443779/original/gLrLNOe_fLnnvKUX4bQGjfwdnvVIo0vNBQ.png?1731486835",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12152443725/original/6x6YOw9aG-FB5pOo8jxkfDEmj6xCSvE6sg.png?1731486750",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Embed Conversion Tracking and Affiliate Tracking Codes On Sign Up Pages' in section 'Toolbox' / 'Widget Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000009295",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009295"
+    }
+  ],
+  "lastmod": "2025-12-16T04:01:00+05:30",
+  "scraped_at": "2026-10-18T13:40:11.586728"
+}

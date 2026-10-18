@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109095",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109095-update-expire-date-for-posts-dashboard-installer",
+  "title": "Update Expire Date for Posts - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Update Expire Date for Posts - Dashboard Installer"
+  ],
+  "content": "## Update Expire Date for Posts - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109095\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Update Expire Date for Posts Does\n\n\nThis installer corrects the storage type of a single database column so post group dates are stored consistently. It changes the group_date column on the users_portfolio_groups table to the TIMESTAMP type, nullable with a default of NULL.\n\nThis is a database structure change only. It converts how the date is stored; it does not delete or rewrite the group records themselves.\n\n\n## Why It Appears\n\n\nThe installer inspects the group_date column on users_portfolio_groups and checks its type. If the type is already timestamp , everything is fine and the installer does not appear. If it is any other type, the installer is offered so the column can be converted.\n\n\n## Why It Matters\n\n\nStoring group_date as a proper TIMESTAMP keeps date values in the format the platform expects for post group dates, so date handling behaves consistently. Leaving the column on the older type does not break the current site, but it keeps the column out of step with the expected structure.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the column type needs correcting, Update Expire Date for Posts appears in the list. Click Install .\n\n- After it completes, click Check For Updates again to confirm the entry is gone.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The group_date column is now stored as a TIMESTAMP , and the existing group records are preserved. There is nothing to reconfigure afterward.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109095",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109095"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:49+05:30",
+  "scraped_at": "2026-10-18T13:59:43.794812"
+}

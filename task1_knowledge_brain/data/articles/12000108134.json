@@ -1,0 +1,35 @@
+{
+  "article_id": "12000108134",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108134-api-reference-business-data-tasks",
+  "title": "API Reference - Business Data Tasks",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Business Data Tasks"
+  ],
+  "content": "## API Reference - Business Data Tasks\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108134\n\n← Back to API Reference | Getting Started Business Data Tasks Business Data Tasks represent individual bulk import jobs in the Business Data Import system. Each task defines the search parameters used to fetch business records from an external data source, tracks the overall processing state (geocoding, image imports, user actions), and records start/completion times and total record counts. Individual imported records are tracked in Business Data Logs . Model name in URL: business_data_api_task — DB table: business_data_api_task The Business Data Task Object Field Type Description id integer Unique task ID (primary key, read-only) search_parameters text JSON-encoded object describing the search criteria used for this import job (EG category, location, required fields) cache_file string Filename or path of the cached API response file for this task; max 500 characters api_type string Identifier for the external business data source this task was pulled from; max 500 characters geo_code_status integer Geocoding processing status for all records in this task; 0 = pending, 1 = complete, null = not applicable image_import_status integer Image import processing status for all records in this task; 0 = pending, 1 = complete, null = not applicable user_actions_status integer Overall user action processing status for all records; 0 = pending, 1 = complete, null = not applicable start_date datetime Datetime when this import task began processing complete_date datetime Datetime when this import task finished processing total_records integer Total number of records imported or processed by this task List Business Data Tasks GET /api/v2/business_data_api_task/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/business_data_api_task/get?limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"1\",\n      \"search_parameters\": \"{\\\"category\\\":\\\"Property management company\\\",\\\"location\\\":\\\"Austin, TX\\\"}\",\n      \"cache_file\": \"ea66bf0b769c7b323292a8f0aca52299.bd\",\n      \"api_type\": \"google_places\",\n      \"geo_code_status\": \"1\",\n      \"image_import_status\": \"1\",\n      \"user_actions_status\": \"0\",\n      \"start_date\": \"2024-06-13 17:55:55\",\n      \"complete_date\": \"2024-06-13 16:55:58\",\n      \"total_records\": \"4\"\n    }\n  ],\n  \"total\": \"21\",\n  \"current_page\": 1,\n  \"total_pages\": 5,\n  \"next_page\": \"MipfKjU=\"\n} Retrieve a Business Data Task GET /api/v2/business_data_api_task/get/{id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/business_data_api_task/get/1\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"1\",\n      \"search_parameters\": \"{\\\"category\\\":\\\"Property management company\\\",\\\"location\\\":\\\"Austin, TX\\\"}\",\n      \"cache_file\": \"ea66bf0b769c7b323292a8f0aca52299.bd\",\n      \"api_type\": \"google_places\",\n      \"geo_code_status\": \"1\",\n      \"image_import_status\": \"1\",\n      \"user_actions_status\": \"0\",\n      \"start_date\": \"2024-06-13 17:55:55\",\n      \"complete_date\": \"2024-06-13 16:55:58\",\n      \"total_records\": \"4\"\n    }\n  ],\n  \"total\": \"1\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create a Business Data Task POST /api/v2/business_data_api_task/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/business_data_api_task/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"search_parameters={\\\"category\\\":\\\"Restaurant\\\",\\\"location\\\":\\\"Chicago, IL\\\"}\" \\\n  -d \"cache_file=abc123.bd\" \\\n  -d \"api_type=google_places\" \\\n  -d \"geo_code_status=0\" \\\n  -d \"image_import_status=0\" \\\n  -d \"user_actions_status=0\" \\\n  -d \"total_records=0\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"22\",\n    \"search_parameters\": \"{\\\"category\\\":\\\"Restaurant\\\",\\\"location\\\":\\\"Chicago, IL\\\"}\",\n    \"cache_file\": \"abc123.bd\",\n    \"api_type\": \"google_places\",\n    \"geo_code_status\": \"0\",\n    \"image_import_status\": \"0\",\n    \"user_actions_status\": \"0\",\n    \"start_date\": null,\n    \"complete_date\": null,\n    \"total_records\": \"0\"\n  }\n} Update a Business Data Task PUT /api/v2/business_data_api_task/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/business_data_api_task/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=22\" \\\n  -d \"user_actions_status=1\" \\\n  -d \"total_records=15\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"22\",\n    \"search_parameters\": \"{\\\"category\\\":\\\"Restaurant\\\",\\\"location\\\":\\\"Chicago, IL\\\"}\",\n    \"cache_file\": \"abc123.bd\",\n    \"api_type\": \"google_places\",\n    \"geo_code_status\": \"0\",\n    \"image_import_status\": \"0\",\n    \"user_actions_status\": \"1\",\n    \"start_date\": \"0000-00-00 00:00:00\",\n    \"complete_date\": \"0000-00-00 00:00:00\",\n    \"total_records\": \"15\"\n  }\n} Delete a Business Data Task DELETE /api/v2/business_data_api_task/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/business_data_api_task/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=22\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"business_data_api_task record was deleted\"\n}",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108134",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108134"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    },
+    {
+      "text": "Business Data Logs",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108133"
+    }
+  ],
+  "lastmod": "2026-04-06T05:02:21+05:30",
+  "scraped_at": "2026-10-18T13:58:38.480055"
+}

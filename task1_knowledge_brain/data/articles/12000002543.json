@@ -1,0 +1,42 @@
+{
+  "article_id": "12000002543",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002543-assigning-specific-sub-level-categories-to-all-members-via-an-sql-command",
+  "title": "Assigning Specific Sub-Level Categories To All Members Via An SQL Command",
+  "category": "Developer Hub",
+  "folder": "MYSQL Database",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "MYSQL Database",
+    "Assigning Specific Sub-Level Categories To All Members Via An SQL Command"
+  ],
+  "content": "## Assigning Specific Sub-Level Categories To All Members Via An SQL Command\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000002543\n\nThis article demonstrates how to assign a specific sub-level category to every member in the database using a SQL query. This approach is useful when multiple category trees contain sub-level categories with identical names.\n\n\n## Why This Happens\n\n\nWhen a website contains multiple parent categories with sub-level categories that share the same name, the member import process cannot determine which category tree should be used.\n\nThe example below shows two parent categories that both contain the same sub-level category names.\n\nBecause the import file only stores the sub-level category name, Brilliant Directories matches the first occurrence it finds in the database. This can result in members being assigned to the wrong category.\n\n\n## Import Members Without Services\n\n\nWhen importing members into a category structure like the one above, leave the services column empty.\n\nThe example below illustrates an import file containing duplicate sub-level category names. In this scenario, including the services field may assign members to the incorrect category tree.\n\nAfter the import is complete, run the SQL query below to assign the desired sub-level category to all imported members.\n\nImportant This query assigns the specified sub-level category to every member in the database. Before running it, create a database backup and confirm that the selected service_id is correct.\n\n\n## SQL Query\n\n\nThe example below assigns the sub-level category with a service_id of 135 to every member.\n\n```\nINSERT INTO rel_services (user_id, service_id)\nSELECT user_id, 135\nFROM users_data;\n```\n\n\n## Update the Service ID\n\n\nReplace 135 with the service_id of the desired sub-level category.\n\nThe corresponding IDs can be found in the list_services database table.\n\n\n## Summary\n\n\nWhen multiple parent categories contain sub-level categories with the same name, the import process cannot distinguish between them.\n\nImporting members without the services field and assigning the correct service_id afterward ensures every member is associated with the intended sub-level category.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12001313125/original/blob1454448378147.png?1454448387",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Assigning Specific Sub-Level Categories To All Members Via An SQL Command' in section 'Developer Hub' / 'MYSQL Database'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12001313354/original/blob1454448837176.png?1454448846",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Assigning Specific Sub-Level Categories To All Members Via An SQL Command' in section 'Developer Hub' / 'MYSQL Database'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000002543",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002543"
+    }
+  ],
+  "lastmod": "2026-06-26T01:38:23+05:30",
+  "scraped_at": "2026-10-18T13:39:40.855202"
+}

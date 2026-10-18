@@ -1,0 +1,95 @@
+{
+  "article_id": "12000049030",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049030-how-to-add-custom-content-to-the-homepage",
+  "title": "How to Add Custom Content to the Homepage",
+  "category": "Settings",
+  "folder": "Design Settings",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Settings",
+    "Design Settings",
+    "How to Add Custom Content to the Homepage"
+  ],
+  "content": "## How to Add Custom Content to the Homepage\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000049030\n\nThis article explains how to add custom content sections to the homepage using the homepage design settings.\n\nCustom homepage content sections can be used to display text, images, buttons, forms, widgets, shortcodes, or other custom content on the homepage.\n\n\n## Overview\n\n\nThe homepage includes custom content sections that can be enabled and edited from the Design Settings.\n\nThere are 10 available custom content sections:\n\n- Custom Content 1\n\n- Custom Content 2\n\n- Custom Content 3\n\n- Custom Content 4\n\n- Custom Content 5\n\n- Custom Content 6\n\n- Custom Content 7\n\n- Custom Content 8\n\n- Custom Content 9\n\n- Custom Content 10\n\nEach custom content section can be added to the homepage layout and edited separately.\n\n\n## Common Uses for Custom Homepage Content\n\n\nCustom content sections can be used to add extra content to the homepage without editing the website code.\n\nCommon examples include:\n\n- Welcome text\n\n- Homepage announcements\n\n- Buttons or call-to-action sections\n\n- Images or banners\n\n- Newsletter signup forms\n\n- Custom widgets\n\n- Embedded feeds or scripts\n\n- Featured member sections\n\n- Promotional content\n\n- Additional homepage text for SEO\n\n\n## Step 1: Open the Homepage Design Settings\n\n\n- Go to Settings >> Design Settings .\n\n- Click the Homepage tab.\n\n- Find the Select Content to Display section.\n\n\n## Step 2: Select a Custom Content Section\n\n\nIn the Select Content to Display area, select one of the available custom content sections.\n\nFor example:\n\n- Custom Content 1\n\n- Custom Content 2\n\n- Custom Content 3\n\nThe selected custom content section will be added to the homepage layout.\n\n\n## Step 3: Edit the Custom Content Section\n\n\nAfter selecting the custom content section, click Edit Settings .\n\nThe content editor will open. Use the Froala editor to add or edit the content that should display in this homepage section.\n\nContent can include:\n\n- Text\n\n- Images\n\n- Links\n\n- Buttons\n\n- Tables\n\n- HTML\n\n- Widget shortcodes\n\n- Form shortcodes\n\nFor more information about the editor, see the following article:\n\nEverything About Froala WYSIWYG Text Editor\n\n\n## Step 4: Save the Custom Content\n\n\nAfter the custom content has been added:\n\n- Review the content in the editor.\n\n- Click Save Changes .\n\nThe custom content section will now be saved.\n\n\n## Step 5: View the Homepage\n\n\nAfter saving the changes, visit the homepage on the front end of the website.\n\nConfirm that the custom content section displays in the selected area of the homepage layout.\n\n\n## Add a Widget to a Custom Homepage Section\n\n\nWidgets can be added to custom homepage sections using widget shortcodes.\n\nWidget shortcodes use this format:\n\n```\n[widget=Widget Name Here]\n```\n\nExample:\n\n```\n[widget=Bootstrap Theme - Module - Newsletter Sign Up Form]\n```\n\nTo add a widget to the homepage, paste the widget shortcode into the custom content editor and save the changes.\n\nFor more information, see the following article:\n\nHow to Call a Widget on a Custom Page\n\n\n## Add a Form to a Custom Homepage Section\n\n\nForms can also be added to custom homepage sections using form shortcodes.\n\nForm shortcodes use this format:\n\n```\n[form=form_system_name]\n```\n\nExample:\n\n```\n[form=contact_us]\n```\n\nTo add a form to the homepage, paste the form shortcode into the custom content editor and save the changes.\n\n\n## Editing Custom Content 1 from the Web Page Builder\n\n\nThe homepage can also be edited from the front end using the Frontend Admin Manager Menu.\n\nAny content added to the Homepage web page will display when Custom Content 1 is selected in the homepage content display settings.\n\nThis means Custom Content 1 can be managed through the Homepage web page content area, while the other custom content sections are managed through the homepage design settings.\n\n\n## Important Notes\n\n\n- There are 10 available custom content sections for the homepage.\n\n- Each custom content section can be edited separately.\n\n- Custom content sections can include text, images, buttons, forms, widgets, shortcodes, or HTML.\n\n- Custom Content 1 can also display content added to the Homepage web page.\n\n- After saving changes, view the homepage on the front end to confirm the content displays correctly.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183042919/original/dgRmBBhdnJ5BNtdErJRfYb6CGlefIW_a9A.gif?1785773659",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Content to the Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183043103/original/ik_-8HhX66Iq-R0lPXD64bPBtHltJcLQow.png?1785773871",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Content to the Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183043205/original/2zCpPhNFSJIWM_qhl-r6kEqXytL1_4fppA.png?1785773955",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Content to the Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183043278/original/mcBGk0Xr7U-rCBcR3oM4MM8mF6tnAgJ5_g.png?1785774021",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Content to the Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183044111/original/ztFiv-UYL5-zhPRb0FWAj6xOspSCac5T6g.png?1785774569",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Content to the Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183044119/original/fEWGons3NjgfZ5qkeciLMiIST74Wl_1xlg.png?1785774582",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Content to the Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12183044168/original/WHJY9WBCxgGEkUy-9MkOxektYFiIaU_y1A.png?1785774649",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Custom Content to the Homepage' in section 'Settings' / 'Design Settings'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000049030",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049030"
+    },
+    {
+      "text": "Everything About Froala WYSIWYG Text Editor",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000021649"
+    },
+    {
+      "text": "How to Call a Widget on a Custom Page",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000051582-how-to-call-a-widget-on-a-custom-page"
+    }
+  ],
+  "lastmod": "2026-08-03T22:00:53+05:30",
+  "scraped_at": "2026-10-18T13:43:42.509815"
+}

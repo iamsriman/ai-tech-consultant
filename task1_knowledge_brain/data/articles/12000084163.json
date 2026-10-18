@@ -1,0 +1,23 @@
+{
+  "article_id": "12000084163",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084163-11-26-21-software-updates",
+  "title": "11/26/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "11/26/21 - Software Updates"
+  ],
+  "content": "## 11/26/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000084163\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue with the status of leads in the Member Dashboard which was causing leads to be marked with the status of \"Sold Out\" even when the \"Maximum Accepted Matches\" set for the lead had not yet been reached. Widget Involved: Bootstrap Theme - Account - Leads - New Lead System DataTables\n\n- We updated the logic of the Manage Posts page in the Admin to display \"No Image Available\" text instead of a broken image for Multi-Image post types that do not have an image uploaded.\n\n- Using the \"Pay Now\" action from the Billing section of the Member Dashboard is now being logged in the Activity Tracker.\n\n- We fixed an issue which was preventing the system from respecting the \"Free Trial Additional Options\" Membership Plan setting when the Free Trial Period is enabled and the site had customized the checkout URL in some cases. Widget Involved: Bootstrap Theme - Form - Membership Payment Options\n\n- We fixed an issue which was preventing the Leads Page in the Admin from displaying the Origin Page URL in some cases. Widget Involved: System - SaveForm\n\n- We added additional validation when saving the 'Enable All Location Features for \"Pretty URL\" Search Results Pages (Additional Google Maps API Cost)' Advanced Setting to display an alert message if the \"Referrer Restrictions\" setting is not enabled in the Maps API Console .\n\n- We fixed an issue which was preventing the system from sending the Additional Notification emails after a member received a lead in some cases. Widget Involved: System - SaveForm\n\n- We fixed an issue which was preventing paid members from signing up using a credit card from the United Kingdom in some cases.\n\n- The Billing Address fields on the paid signup form are now marked as mandatory when the \"Use AVS Billing Address Fields\" Advanced Setting is active on a site.\n\n- We fixed an issue which was preventing the Recent Events homepage widget from displaying recurring event posts in some cases. Widget Involved: Bootstrap Theme - Display - Recent Events\n\n- We fixed an issue which was preventing the Google Sitemap Generator from including some category pages in sitemap files in some cases.\n\n- We fixed an issue which was affecting the display of the billing cycle options when a member was upgrading their Membership Plan from the Member Dashboard in some cases. Widget Involved: Bootstrap Theme - Form - Membership Payment Options",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000084163",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000084163"
+    }
+  ],
+  "lastmod": "2021-11-29T21:58:09+05:30",
+  "scraped_at": "2026-10-18T13:49:11.985478"
+}

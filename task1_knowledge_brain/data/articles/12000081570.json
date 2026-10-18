@@ -1,0 +1,23 @@
+{
+  "article_id": "12000081570",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081570-08-13-21-software-updates",
+  "title": "08/13/21 - Software Updates",
+  "category": "Get Started Here",
+  "folder": "Changelog - Software Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Get Started Here",
+    "Changelog - Software Updates",
+    "08/13/21 - Software Updates"
+  ],
+  "content": "## 08/13/21 - Software Updates\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000081570\n\nWe made updates to several Default Widgets this week. If you have customized any of these widgets and would like to update your customized widget, you can find the latest code in the corresponding Default Widget. Please remember that if you have a custom version of any of these widgets, our latest updates have not been pushed to your website.\n\n- We fixed an issue which was preventing the system from correctly saving the \"Select What Displays in the Overview Tab\" setting when editing Membership Plans in the Admin in some cases.\n\n- The Member Database, Web Pages & Posts, Toolbox, Recent Member Logins and Install New Updates modules on the Admin Dashboard are now compatible with Admin Role Permissions.\n\n- We fixed an issue which was preventing the Insta-Load Search Results Add-On from loading results on the Map View in some cases.\n\n- The \"Used\" data in the Usage column when viewing Coupon Codes in the Admin is now a clickable link to see all of the transactions that used the linked Coupon Code on the Transaction History page in the Admin.\n\n- We fixed an issue which was causing the \"Upload CSV File Here\" box on the Import Member page in the Admin to overflow off the page when the import file has a long filename.\n\n- We fixed an issue which was affecting the ability to search by Text Label title on the Text Labels page in the Admin.\n\n- We fixed an issue which was preventing the system from displaying videos marked as favorites in the Member Dashboard area in some cases. Widget Involved: Bootstrap Theme - Account - Favorites Controller\n\n- We added the ability to clone individual form fields when editing forms in the Admin.\n\n- We fixed an issue which was causing the Breadcrumb links on member profile and post search results pages to link to a category URL rather than the URL of the post type or member search results page when the names of those elements were the same. Widget Involved: Bootstrap Theme - Function - Display Breadcrumbs\n\n- We fixed an issue which was preventing the system from displaying the placeholder value for select dropdown fields powered by the Form Manager on the front-end of sites in some cases.\n\n- We fixed an issue which was causing the system to mark the \"Listing Details\" tab in the Member Dashboard as incomplete when there only content to edit is Sub Categories.\n\n- We fixed an issue which was affecting the ability to search members by Counties which have an apostrophe in their name. Widget Involved: Search - Member - Search Query\n\n- We updated the Member Quick Edit form on the Search Members page in the Admin in order to hide the \"Top Level Category\" field in order to support customizations to the content of the profession_id field in the users_data table.\n\n- We fixed an issue which was affecting the ability to display \"Sub Categories\" on search modules when the Ad-Block Detector Add-On is active in some cases.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000081570",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000081570"
+    }
+  ],
+  "lastmod": "2021-08-14T05:56:45+05:30",
+  "scraped_at": "2026-10-18T13:48:51.036724"
+}

@@ -1,0 +1,23 @@
+{
+  "article_id": "12000048956",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048956-important-w-array-update",
+  "title": "Important $w Array Update",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "Important $w Array Update"
+  ],
+  "content": "## Important $w Array Update\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048956\n\nAs of November 1, 2018 , several configuration values previously available in the $w array were moved to the brilliantDirectories::getDatabaseConfiguration() static method to improve security.\n\nAny custom code that references these configuration values should be updated to use the new method.\n\n\n## Affected Configuration Keys\n\n\nThe following keys are no longer available through the $w array:\n\n- website_user\n\n- website_pass\n\n- database_user\n\n- database_pass\n\n- database_host\n\n- database\n\n- database_directory_user\n\n- database_directory_pass\n\n- whmcs_database_host\n\n- whmcs_database_user\n\n- whmcs_database_password\n\n- whmcs_database_name\n\n- whmcs_api_password\n\n- whmcs_api_host\n\n- whmcs_api_username\n\n\n## Updating Existing Code\n\n\nThe brilliantDirectories::getDatabaseConfiguration() method accepts the configuration key as its only parameter and returns the corresponding value.\n\nReplace references to configuration values in the $w array with calls to the new static method.\n\n\n### Example 1\n\n\nReplace either of the following:\n\nCopy $w['website_user']\n\nor\n\nCopy $w[website_user]\n\nwith:\n\nCopy brilliantDirectories::getDatabaseConfiguration('website_user')\n\n\n### Example 2\n\n\nOriginal code:\n\nCopy $membersQuery = mysql($w['database'], \"SELECT\n    *\nFROM\n    `users_data`\");\n\nUpdated code:\n\nCopy $membersQuery = mysql(\n    brilliantDirectories::getDatabaseConfiguration('database'),\n    \"SELECT\n        *\n    FROM\n        `users_data`\"\n);\n\n\n## Summary\n\n\nWhenever custom code needs access to one of the affected configuration values, replace the corresponding $w array reference with a call to (where configuration_key is the name of the desired configuration value)\n\nCopy brilliantDirectories::getDatabaseConfiguration('configuration_key')",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048956",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048956"
+    }
+  ],
+  "lastmod": "2026-07-15T02:40:18+05:30",
+  "scraped_at": "2026-10-18T13:43:41.722532"
+}

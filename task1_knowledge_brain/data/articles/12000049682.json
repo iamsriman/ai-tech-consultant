@@ -1,0 +1,78 @@
+{
+  "article_id": "12000049682",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049682-how-to-remove-the-leads-send-message-links-from-the-website",
+  "title": "How to Remove the Leads/Send Message Links from the Website",
+  "category": "Interactions",
+  "folder": "Member Leads",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Interactions",
+    "Member Leads",
+    "How to Remove the Leads/Send Message Links from the Website"
+  ],
+  "content": "## How to Remove the Leads/Send Message Links from the Website\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000049682\n\nThis guide explains how to disable member-to-member messaging and remove lead generation forms from your website.\n\n\n## Disable the \"Send Message\" Feature:\n\n\nThe first step is to prevent members from receiving messages and leads through their profile pages.\n\nNavigate to Membership Plans:\n\n- Go to Finance → Membership Plans .\n\n- Locate the membership plan you want to edit.\n\n- Click Edit .\n\nDisable the Send Message Form:\n\n- Open the Profile tab.\n\n- Locate the setting Show \"Send Message\" Buttons & Forms .\n\n- Set this option to No .\n\nDo the same on all of the Membership Plans.\n\nThen go to the Profile tab, find \"Make a Connection\" / \"Claim Listing\" Banner Position . Select \" Hide - Do Not Display \" to hide the send message link.\n\nDo the same on all of the Membership Plans.\n\nAfter updating these settings, the messaging forms and buttons will no longer appear on member profile pages.\n\nImportant: Repeat this step for every membership plan that should not allow messaging.\n\n\n## Remove the \"Get Matched\" Page\n\n\nLastly, it is also important to remove the Getmatched Page.\n\nGo to My Content >> Web Page Builder >> Locate the \" Get Matched \" page and click on Delete .\n\nOnce deleted, visitors will no longer be able to access the Get Matched page on the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180056221/original/WGyNQL36ZuohqG-72ZnSp36XtaIjOfzg0g.png?1780930646",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Leads/Send Message Links from the Website' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180056338/original/ZgbbQzdoknKp6uwP1aIIp7Cl57r2QNsO0A.png?1780930689",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Leads/Send Message Links from the Website' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180056482/original/QErxvULcrbSbHJBdLKUE-YNJn_ZudVC5hQ.png?1780930845",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Leads/Send Message Links from the Website' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180056661/original/emtcJkLUzw8tuQVkW7Jpy2YV932nQbfM5g.png?1780930944",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Leads/Send Message Links from the Website' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180056765/original/qbx_UFSqPNqEOQTIPWOOKnxG1h0wT5vlNg.png?1780931004",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Leads/Send Message Links from the Website' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12180056942/original/aiLfolTOTya_a5Wc76fAA75DHAa8VX2GjQ.png?1780931121",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Remove the Leads/Send Message Links from the Website' in section 'Interactions' / 'Member Leads'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000049682",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049682"
+    }
+  ],
+  "lastmod": "2026-06-08T20:47:10+05:30",
+  "scraped_at": "2026-10-18T13:43:49.763894"
+}

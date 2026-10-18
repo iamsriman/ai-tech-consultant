@@ -1,0 +1,167 @@
+{
+  "article_id": "12000078399",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078399-web-page-builder-how-tables-columns-and-rows-behave-on-mobile-devices",
+  "title": "Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices"
+  ],
+  "content": "## Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000078399\n\nThe admin of the site can use tables within Froala editors to add content and style to static web pages on the site.\n\nSometimes, a table can look good on desktop view but when you see it on mobile devices it doesn't. That's why here we are going to explain the behaviors of tables on mobile devices.\n\nFor example, we have this table in the Froala Editor, it has 2 columns and 5 rows:\n\n\n## Desktop view\n\n\n2 columns and each row show up correctly:\n\n\n## Mobile view\n\n\nOne column and rows are merged:\n\nEven though the data is not being displayed in columns on mobile, this is how tables work by default. So in order to show the content correctly on mobile, there are two options:\n\n\n## Option 1\n\n\nCreate a table with one row and two columns, then add all the content inside these 2 rows:\n\nIt will appear like this on mobile devices:\n\nIf needed, ask BD Butler to place the table columns side by side for mobile devices:\n\nor ask BD Butler to create a more polished table design:\n\nNOTE:\n\nMake sure the content has the same number of text lines on the left and right sides to prevent extra white space on mobile.\n\nAlso, set Vertical Align to Top :\n\n\n## Option 2\n\n\nThe second option is to create a table with 2 columns and one row:\n\nClick inside the left column and then click on the \"Insert Table\" button to add 4 new rows:\n\nIt should look like this (See the screenshot below).\n\nPlease do the same with the right column\n\nAdd the content on each row and column:\n\nIt will look like this one mobile:\n\nNOTE: Ensure the text on the left and right columns has the same number of lines to prevent extra blank space on mobile.\n\nAlso, set Vertical Align to Top .\n\nTo learn more about tables, please read this article: Froala Editor - Tables",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973807/original/O0SrOHXUW7t9qe2RgwM6tYFSHF6z2OwjQw.png?1783982741",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974216/original/_WzxBnUOJT-NqPKoz7P5bHQV5ShjrITaew.png?1783983570",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181975038/original/z9MUhVCEe6DxDtzWG_e03vqfP5LeAFayEQ.png?1783984675",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974327/original/ISqVeLY1e5vCgbHSkJASxAbdnNCG9l-uDA.png?1783983660",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974521/original/EsEidO7wkEQIGCbCuc4nKfnrk_VQfU6PoA.png?1783983818",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974589/original/fSN7rU-JFWcsheoSS58S2RITZED2hzt0jQ.png?1783983869",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973896/original/isjG9chYiGJKhpvzZT1lfLStLgICdmtQZg.png?1783982919",
+      "alt": null,
+      "caption": "or ask BD Butler to create a more polished table design:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'. Context: or ask BD Butler to create a more polished table design:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181973991/original/Af8-8ciHk6mkZQ9OkKgyvbz5y0ZCUCCt4Q.png?1783983147",
+      "alt": null,
+      "caption": "or ask BD Butler to create a more polished table design:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'. Context: or ask BD Butler to create a more polished table design:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974719/original/Ij81mHnnB28dJ-V5to0NRvSv2rn0iZd_2g.png?1783984190",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974753/original/eCebgga0yAfxNH7IfrlprdRXyzcC7c3M1A.png?1783984226",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974760/original/2eerVKWekUKsd7POpSYpo9RlbUEv42KwxQ.png?1783984259",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974768/original/PZwkpKAztBih8f19gdTEn1PIN9aFQpgHPw.png?1783984288",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089943191/original/arj0dW1bDbQZcnUdZgwweKYAgyJwhz5AnA.png?1615579442",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974877/original/jfh8JUBrApCOGZQilftcinnLd04DKMPGYQ.png?1783984472",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181974884/original/H2UOKBtcCGA9eCPvvPM2WydAJAG228KUsQ.png?1783984505",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Web Page Builder: How Tables, Columns and Rows Behave on Mobile Devices' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000078399",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078399"
+    },
+    {
+      "text": "BD Butler",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/"
+    },
+    {
+      "text": "Froala Editor - Tables",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000073188"
+    }
+  ],
+  "lastmod": "2026-07-14T04:48:05+05:30",
+  "scraped_at": "2026-10-18T13:48:04.054776"
+}

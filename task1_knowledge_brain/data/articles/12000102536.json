@@ -1,0 +1,37 @@
+{
+  "article_id": "12000102536",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102536-how-to-add-cookie-consent",
+  "title": "How to Add Cookie Consent",
+  "category": "My Content",
+  "folder": "Web Page Builder",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Web Page Builder",
+    "How to Add Cookie Consent"
+  ],
+  "content": "## How to Add Cookie Consent\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000102536\n\nImplementing cookie consent functionality is essential for ensuring compliance with data privacy regulations. This process typically involves integrating a third-party cookie consent solution into a website. Such tools streamline the process by providing pre-built scripts and customizable interfaces to manage user consent.\n\n\n### Select a Cookie Consent Tool\n\n\nChoose a reliable third-party provider that aligns with the website's privacy requirements. Popular options include Cookiebot, OneTrust, and Osano ( click for example ). These tools offer comprehensive features, such as banner customization, consent tracking, and integration support.\n\n\n### Adding Cookie Consent Code in Brilliant Directories\n\n\nTo integrate cookie consent functionality in a Brilliant Directories website, follow these steps:\n\n- Access the Brilliant Directories Admin Dashboard . Be sure to be logged into your admin dashboard.\n\n- Navigate to the Toolbox section and select Widget Manager . Locate the \"Widget Manager\" option within the Toolbox menu to manage the website's widgets.\n\n- Search for the Bootstrap Theme - Cookie Consent Code widget. Use the search bar in the Widget Manager to find the specific widget dedicated to cookie consent.\n\n- Insert the third-party snippet in the HTML editor. Open the widget in the editor and paste the provided cookie consent code snippet into the appropriate section of the HTML.\n\n- Save the changes. Click on Save Changes to finalize and implement the updates on the website.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12153239469/original/HQE2Mp-PKTYpBXUZrbVqOu4y326qIXNoNQ.gif?1732808153",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'How to Add Cookie Consent' in section 'My Content' / 'Web Page Builder'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000102536",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000102536"
+    },
+    {
+      "text": "Osano",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000061838"
+    }
+  ],
+  "lastmod": "2025-01-01T04:36:05+05:30",
+  "scraped_at": "2026-10-18T13:55:19.259148"
+}

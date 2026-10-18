@@ -1,0 +1,110 @@
+{
+  "article_id": "12000076388",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076388-edit-form-settings-email-notifications",
+  "title": "Edit Form Settings » Email Notifications",
+  "category": "Toolbox",
+  "folder": "Form Manager",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Toolbox",
+    "Form Manager",
+    "Edit Form Settings » Email Notifications"
+  ],
+  "content": "## Edit Form Settings » Email Notifications\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000076388\n\nIn this article, we will be going over the Email Notifications settings that can be found in the form settings.\n\nThese settings control what emails are sent out to the Admin and Members/Users when a form on the site is submitted or saved.\n\nInside the Form Manager, EDIT a custom form:\n\nThe option to edit the Email Notifications only appears in custom forms.\n\nSee : How To Customize A Form\n\nWhen the form opens, select \" EDIT FORM SETTINGS \":\n\n\n## User Notifications\n\n\nEmail User After Submission\n\nIf enabled, an email will be sent to the user after submitting the form.\n\nThis will only work if the following field is added to the form, which comes by default in the Contact Us, Coming Soon, and Report This Post (add-on) forms. Variable: inquiry_email\n\n** This field is not necessary for Listing (Contact Details, Additional Details, About) or Post Type (Properties, Articles, Classifieds, etc) forms. The reason is that the member does not need an email notification if they just filled out the form for a post they want to publish. **\n\nThe Admin of the site would be the only one that needs the notification that the form has been filled out. The setting for this is explained below. The Newsletter and Get Matched forms will automatically send out emails to the submitter, this is hardcoded in the system code. The Get Matched form also has its own notification settings:\n\nLeads » Lead Settings » Receiving Direct Leads Settings Lead Settings » Receiving Indirect Leads (Automatic Lead Matching) Leads » Lead Settings » Additional Notifications Settings\n\nEmail Template to Send\n\nIf the Email User After Submission setting is enabled, the template will be sent out and can be chosen in this area.\n\nHow to Edit Email Templates Emails » Email Templates » New Email Template\n\n\n## Admin Notifications\n\n\nEmail Website Admin After Submission\n\nIf enabled, an email will be sent to the email addresses specified.\n\nEmail Template to Send\n\nIf the Email Website Admin After Submission setting is enabled, the template that will be sent out can be chosen in this area.\n\nHow to Edit Email Templates Emails » Email Templates » New Email Template\n\nImportant Note : If the Email Website Admin After Submission setting above is enabled and If no email template is selected in this section, the system will send out the contact-us email template.\n\nEnter Admin Email Addresses to Notify\n\nThis is where the admin can decide which email addresses will receive the Admin Notifications. Up to 5 email addresses can be added to this section. Make sure to click Tab, Enter, Spacebar, or Comma after every entry to insert the value.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12169819389/original/ZNVkHxUPiUSWKIo38h71C71cz5uS8RocxA.png?1761872108",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Email Notifications' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127523521/original/AAmQdphzvppPk0NLTMaD89hb1B7bxhCX0Q.png?1687875253",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Email Notifications' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090917390/original/-3wAFbzXR67fj19jAmHZMCrTITjk6fCyLw.png?1617669449",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Email Notifications' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127525838/original/sUo3lpPCKeOUX1845Xi88XA23dHaQIO1BA.png?1687876976",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Email Notifications' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12090917631/original/UgsYHq9Q1Tfn7HW3Zsp0Q2pDSXcu9-W8eA.png?1617669988",
+      "alt": null,
+      "caption": "** This field is not necessary for Listing (Contact Details, Additional Details, About) or Post Type (Properties, Articles, Classifieds, etc) forms. The reason is that the member does not need an email notification if they just filled out the form for a post they want to publish. **",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Email Notifications' in section 'Toolbox' / 'Form Manager'. Context: ** This field is not necessary for Listing (Contact Details, Additional Details, About) or Post Type (Properties, Articles, Classifieds, etc) forms. The reason is that the member does not need an email notification if they just filled out the form for a post they want to publish. **",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127525959/original/N0DpHRnUDeOm-e5tmbPE_MESWZ--j9bnpg.png?1687877070",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Edit Form Settings » Email Notifications' in section 'Toolbox' / 'Form Manager'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000076388",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000076388"
+    },
+    {
+      "text": "How To Customize A Form",
+      "url": "https://bootstrap.brilliantdirectories.com/support/solutions/articles/12000078290"
+    },
+    {
+      "text": "Leads » Lead Settings » Receiving Direct Leads Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000008054-leads-%C2%BB-lead-settings-%C2%BB-receiving-direct-leads-settings"
+    },
+    {
+      "text": "Lead Settings » Receiving Indirect Leads (Automatic Lead Matching)",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000030821-lead-settings-%C2%BB-receiving-indirect-leads-automatic-lead-matching-"
+    },
+    {
+      "text": "Leads » Lead Settings » Additional Notifications Settings",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000008056-leads-%C2%BB-lead-settings-%C2%BB-additional-notifications-settings"
+    },
+    {
+      "text": "How to Edit Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000003538--how-to-edit-email-templates"
+    },
+    {
+      "text": "Emails » Email Templates » New Email Template",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000045575-emails-%C2%BB-email-templates-%C2%BB-new-email-template"
+    },
+    {
+      "text": "How to Edit Email Templates",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000003538--how-to-edit-email-templates"
+    },
+    {
+      "text": "Emails » Email Templates » New Email Template",
+      "url": "https://bootstrap.brilliantdirectories.com/en/support/solutions/articles/12000045575-emails-%C2%BB-email-templates-%C2%BB-new-email-template"
+    }
+  ],
+  "lastmod": "2025-10-31T06:25:13+05:30",
+  "scraped_at": "2026-10-18T13:47:28.676844"
+}

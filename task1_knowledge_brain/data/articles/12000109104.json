@@ -1,0 +1,23 @@
+{
+  "article_id": "12000109104",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109104-folder-permissions-security-dashboard-installer",
+  "title": "Folder Permissions Security - Dashboard Installer",
+  "category": "Dashboard Overview",
+  "folder": "Install New Updates",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Dashboard Overview",
+    "Install New Updates",
+    "Folder Permissions Security - Dashboard Installer"
+  ],
+  "content": "## Folder Permissions Security - Dashboard Installer\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000109104\n\nThe Install New Updates module on the admin dashboard lists one-time platform installers that still have pending steps on the site. Clicking the green Check For Updates button refreshes the list — an installer only appears when the site actually has something left to install, and it disappears from the list once its steps are complete.\n\n\n## What Folder Permissions Security Does\n\n\nThis installer is a filesystem cleanup, not a database change. It connects to the website's hosting account, scans the folders under the site's /public_html directory (the web root where the files live), and finds any folders whose permissions are not set to the secure standard. It then resets those folders to permission mode 0755 . It only adjusts folder permissions; it does not move, rename, or delete any files or folders, and it does not touch the content.\n\nIn practical terms:\n\n- The installer opens a connection to the hosting account using the site's stored hosting credentials.\n\n- It walks the folders under /public_html and collects every folder that is not already at the correct permission.\n\n- It sets each of those folders to 0755 — the standard secure permission for web directories, where the account owner can read, write, and open the folder, and everyone else can only read and open it.\n\n\n## Why It Appears\n\n\nEach time Check For Updates is clicked, this installer connects to the hosting account and scans /public_html for folders that are not at the secure permission. It appears in the list only when that scan finds at least one folder that still needs adjusting. If every folder is already set correctly, the installer reports that everything is fine and does not offer anything to install.\n\nFolders can drift out of the secure setting for ordinary reasons — files uploaded through certain tools, restores, or migrations can leave folders with looser permissions than the platform standard. Seeing this installer does not mean the site has been tampered with; it means the scan found folders that are not yet locked down to the recommended setting.\n\n\n## Why It Matters\n\n\nFolder permissions control who is allowed to read and change the files inside a directory on the server. Folders left with permissions looser than 0755 can be writable or accessible more broadly than they should be, which is a security weakness. Tightening every folder under the web root to the 0755 standard closes that gap and keeps the site's files under the correct level of protection. It is a security hardening step; it will not change how the website looks or behaves for visitors.\n\n\n## How to Run It\n\n\n- From the admin dashboard, find the Install New Updates module and click Check For Updates .\n\n- If the site has folders that need adjusting, Folder Permissions Security appears in the list. Click Install .\n\n- After it completes, click Check For Updates again — the entry disappears once every folder is at the secure permission.\n\nIf Folder Permissions Security does not appear in the list, the folders are already secured — the module only shows installers with pending steps, so there is nothing to do.\n\n\n## After Running\n\n\nNothing changes visibly on the website. The files, folders, and content are all left exactly where they were; only the permission settings on the affected folders are tightened to 0755 . There is nothing to reconfigure afterward.\n\nThe installer re-scans the folders every time it runs and only adjusts the ones that are still out of compliance, so it is safe to run again. Click Check For Updates after installing, and the entry disappears once the scan finds no remaining folders to fix.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000109104",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109104"
+    }
+  ],
+  "lastmod": "2026-07-08T03:00:31+05:30",
+  "scraped_at": "2026-10-18T13:59:47.973219"
+}

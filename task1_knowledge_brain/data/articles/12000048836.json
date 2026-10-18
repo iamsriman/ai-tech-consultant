@@ -1,0 +1,116 @@
+{
+  "article_id": "12000048836",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048836-finance-membership-plans-overview",
+  "title": "Finance » Membership Plans Overview",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Finance » Membership Plans Overview"
+  ],
+  "content": "## Finance » Membership Plans Overview\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000048836\n\nThis section allows administrators to manage membership plans.\n\nAt the top are the following columns:\n\n\n### 1. Actions Column\n\n\nView the sign-up page (if public), edit the membership plan, and perform additional actions.\n\nNOTE : If a red button appears in this section, members cannot sign up for this membership plan. This setting can be managed in Pricing » Disable Signups for This Product » Yes..  Scroll down to the bottom to access the \"Pricing\" documentation.\n\nHover over the Actions button and choose an action from the dropdown. Actions include:\n\n- Clone Membership Plan.\n\n- Copy Sign Up Link.\n\n- Move members from one membership to another.\n\n- Email Sign Up Link.\n\n- Delete the membership plan.\n\n\n### 2. Plan Details\n\n\nThis section displays key information about each membership plan, including:\n\n- 1. Membership Plan Name: The name of the membership plan (e.g., General User Account ).\n\n- 2. Membership Plan ID: A unique identifier for each membership plan (e.g., Membership Plan ID: 5 ).\n\n- 3. Membership Plan Type: Indicates whether the plan is Free , Paid , or a Claim Listing account.\n\n- 4. Last Updated Date: The most recent date when any changes were made to the plan settings.\n\nThis information helps admins quickly identify and manage their membership plans.\n\n\n### 3. Members\n\n\nThis section displays the number of members assigned to the membership plan. Click it to view member information. This section also displays the total 'Payments Received' for the membership plan.\n\n\n### 4. Post Publishing\n\n\nThis section displays all post types enabled for the membership plan.\n\n\n### 5. Pricing\n\n\nThis section displays lead pricing and available subscription rates, including monthly, quarterly, semiannual, and yearly options.If no lead prices are displayed, the membership plan is free, and leads are available at no cost.\n\n\n### 6. Search Rules\n\n\nThis section shows whether the membership plan is searchable on the website or not.\n\n- Search Visibility.\n\n- The Search Results Priority.\n\n- Category Limit.\n\n- Max. Location Limit.\n\n\n### 7. Search by Keyword\n\n\nThis feature allows admins to quickly locate a specific membership plan by typing a keyword or the Membership Plan ID in the search bar.\n\nUse this tool to find plans efficiently when managing multiple memberships. For example, search by the plan name (“Featured Plan”) or directly by its ID (“2”) to bring it up instantly.\n\n\n## Editing Membership Plans\n\n\nMembership plans can be edited from the Actions section.\n\nThe membership plan settings are divided into five sections:\n\n\n### Documentation for each tab\n\n\nSelect a link below to learn more about the settings in each section\n\n1. Sign Ups & Upgrades\n\n2. Profile Page\n\n3. Member Dashboard\n\n4. Search Visibility\n\n5. Post Publishing\n\n\n## Additional Functionality\n\n\nThere is no need to return to the membership plan’s checkout page. Now, a button next to the search bar opens the live form directly:\n\nA Keyword Search option is available in the top-right corner of the page. It searches across all tabs simultaneously:\n\nFor example, to find the ‘ Articles ’ post type within the membership plan settings, enter ‘ Articles ’ in the search field. The system will display the tab where it is located",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12170355732/original/mBpybJFKY6tcB9x27LU-xCCfUWdLIeA1Pg.png?1762864612",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans Overview' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12126977321/original/FRPd2Ce_G94cvNt4_YHJfXc7-ED0W1iN4A.png?1686845385",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans Overview' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12156920892/original/PBrjjFfL6xai4QIcCcJntEh5KJ5DlCwfoQ.png?1739458379",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans Overview' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12127299345/original/Ohs7Jt4Pug-kRrkiaPg_vw5rTJojLiQoMA.gif?1687432565",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans Overview' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12060107605/original/6k7_1XE3o3WqiEVMiqEgIE7M8XKq9Ocxog.png?1574437353",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans Overview' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131986547/original/xv9oFr_4ijDqb1Aj9cYOXxCCZgAF69VguA.png?1695906840",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans Overview' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12083878945/original/NHc6o9E-q_iD0z0fFYg0PYzQ6GkdfTZUKA.gif?1603208336",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans Overview' in section 'Finance' / 'Membership Plans'.",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131986655/original/EBc64OPvyfURlXt63pUGKLjjxkHTCxHpXg.png?1695906920",
+      "alt": null,
+      "caption": "A Keyword Search option is available in the top-right corner of the page. It searches across all tabs simultaneously:",
+      "is_screenshot": true,
+      "vision_description": "Documentation screenshot for 'Finance » Membership Plans Overview' in section 'Finance' / 'Membership Plans'. Context: A Keyword Search option is available in the top-right corner of the page. It searches across all tabs simultaneously:",
+      "description_source": "alt_or_context",
+      "content_hash": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000048836",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048836"
+    },
+    {
+      "text": "1. Sign Ups & Upgrades",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048891"
+    },
+    {
+      "text": "2. Profile Page",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049272"
+    },
+    {
+      "text": "3. Member Dashboard",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049066"
+    },
+    {
+      "text": "4. Search Visibility",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000049274"
+    },
+    {
+      "text": "5. Post Publishing",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000048893"
+    }
+  ],
+  "lastmod": "2026-06-15T20:15:56+05:30",
+  "scraped_at": "2026-10-18T13:43:39.184914"
+}

@@ -1,0 +1,31 @@
+{
+  "article_id": "12000108139",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108139-api-reference-users-activity-log",
+  "title": "API Reference - Users Activity Log",
+  "category": "Developer Hub",
+  "folder": "Generate API Key - API Documentation",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Generate API Key - API Documentation",
+    "API Reference - Users Activity Log"
+  ],
+  "content": "## API Reference - Users Activity Log\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/12000108139\n\n← Back to API Reference | Getting Started Users Activity Log The Users Activity Log records platform events for individual members, such as logins, profile updates, and other tracked interactions. This is an append-only logging table — records are written automatically by the platform as activity occurs. While the API exposes create, update, and delete endpoints, typical usage is read-only. Model name in URL: users_log — DB table: users_log The Users Activity Log Object Field Type Description id integer Unique log record ID (primary key, read-only) user_id integer ID of the member associated with this activity cookie string Visitor session cookie value at the time of the event activity text Description of the activity (EG Log In , Profile Updated ) type string Activity category (EG Account , Profile ) date string Timestamp of the activity (format: YYYYMMDDHHmmss ) data text Additional structured data associated with the event; may be empty httpr string HTTP referrer URL at the time of the event page string Page path where the activity occurred List Activity Log Records GET /api/v2/users_log/get Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/users_log/get?property=user_id&property_value=42&limit=25\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"101\",\n      \"user_id\": \"42\",\n      \"cookie\": \"\",\n      \"activity\": \"Log In\",\n      \"type\": \"Account\",\n      \"date\": \"20240401120000\",\n      \"data\": \"\",\n      \"httpr\": \"https://www.yourdomain.com/admin/viewMembers.php\",\n      \"page\": \"/login/token/abc123/home\"\n    }\n  ],\n  \"total\": \"58\",\n  \"current_page\": 1,\n  \"total_pages\": 3,\n  \"next_page\": \"MipfKjI1\"\n} Retrieve an Activity Log Record GET /api/v2/users_log/get/{id} Example Request Copy curl -X GET \"https://www.yourdomain.com/api/v2/users_log/get/101\" \\\n  -H \"X-Api-Key: your-api-key-here\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": [\n    {\n      \"id\": \"101\",\n      \"user_id\": \"42\",\n      \"cookie\": \"\",\n      \"activity\": \"Log In\",\n      \"type\": \"Account\",\n      \"date\": \"20240401120000\",\n      \"data\": \"\",\n      \"httpr\": \"https://www.yourdomain.com/admin/viewMembers.php\",\n      \"page\": \"/login/token/abc123/home\"\n    }\n  ],\n  \"total\": \"58\",\n  \"current_page\": 1,\n  \"total_pages\": 1\n} Create an Activity Log Record POST /api/v2/users_log/create Example Request Copy curl -X POST \"https://www.yourdomain.com/api/v2/users_log/create\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"user_id=42\" \\\n  -d \"activity=Log+In\" \\\n  -d \"type=Account\" \\\n  -d \"date=20240401120000\" \\\n  -d \"page=%2Flogin%2Fhome\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"102\",\n    \"user_id\": \"42\",\n    \"cookie\": null,\n    \"activity\": \"Log In\",\n    \"type\": \"Account\",\n    \"date\": \"20240401120000\",\n    \"data\": null,\n    \"httpr\": null,\n    \"page\": \"/login/home\"\n  }\n} Update an Activity Log Record PUT /api/v2/users_log/update Example Request Copy curl -X PUT \"https://www.yourdomain.com/api/v2/users_log/update\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=102\" \\\n  -d \"activity=Profile+Updated\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": {\n    \"id\": \"102\",\n    \"user_id\": \"42\",\n    \"activity\": \"Profile Updated\"\n  }\n} Delete an Activity Log Record DELETE /api/v2/users_log/delete Example Request Copy curl -X DELETE \"https://www.yourdomain.com/api/v2/users_log/delete\" \\\n  -H \"X-Api-Key: your-api-key-here\" \\\n  -d \"id=102\" Example Response Copy {\n  \"status\": \"success\",\n  \"message\": \"users_log record was deleted\"\n} Search Activity Log Records POST /api/v2/users_log/search The search endpoint is not currently available for this model.",
+  "images": [],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/12000108139",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108139"
+    },
+    {
+      "text": "← Back to API Reference",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108045"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000108046"
+    }
+  ],
+  "lastmod": "2026-04-06T05:02:25+05:30",
+  "scraped_at": "2026-10-18T13:58:42.711874"
+}
