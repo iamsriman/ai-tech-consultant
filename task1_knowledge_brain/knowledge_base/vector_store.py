@@ -56,7 +56,15 @@ class BDVectorStore:
         self.persist_directory = Path(persist_directory)
         self.persist_directory.mkdir(parents=True, exist_ok=True)
 
-        self.client = chromadb.PersistentClient(path=str(self.persist_directory))
+        try:
+            self.client = chromadb.PersistentClient(path=str(self.persist_directory))
+        except Exception as e:
+            logger.error(f"Failed to open persistent ChromaDB at {self.persist_directory}: {e}")
+            # Fallback to a fresh temporary directory to keep the app running
+            fallback_dir = self.persist_directory.parent / "chroma_db_fallback"
+            fallback_dir.mkdir(parents=True, exist_ok=True)
+            logger.info(f"Using fallback ChromaDB directory at {fallback_dir}")
+            self.client = chromadb.PersistentClient(path=str(fallback_dir))
         self.collection = self.client.get_or_create_collection(
             name=COLLECTION_NAME,
             metadata={"hnsw:space": "cosine"},

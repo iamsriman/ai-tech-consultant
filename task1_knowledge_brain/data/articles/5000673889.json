@@ -1,0 +1,139 @@
+{
+  "article_id": "5000673889",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673889-signing-up-as-a-member",
+  "title": "Signing Up As A Member",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "Signing Up As A Member"
+  ],
+  "content": "## Signing Up As A Member\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000673889\n\nWhen the Membership Plans have been set up, we recommend performing a few tests to make sure the payment gateway was properly set up prior to launching the website.\n\nThese test purchases can be refunded and they won't impact the website revenue.\n\nBefore starting the test, make sure the site has a payment gateway \"Active\" under Finance » Payment Settings:\n\nIf the site doesn't have an active payment gateway yet, select one from the Supported Payment Gateways .\n\nNote: For new sites launched using a directoryup.com subdomain, test mode payment credentials are already active. Paid signups can be tested without adding a separate payment gateway. Once the site is switched to a real domain, these test credentials will stop working and a live payment gateway will need to be configured.\n\n\n## Test the Billing Module\n\n\n1. Temporarily edit the Membership Plan monthly price to $1. This is not necessary; however, it is a good practice to test purchases when using real credit cards.\n\nTo do this, go to the admin and click on Finance » Membership Plans.\n\n2. Select one of the paid memberships and click Edit.\n\n3. Then, go to the \"Sign Ups & Upgrades\" tab and change the amount of the monthly membership to $1.\n\nSave changes:\n\nNote : Do not select the \"Admin Only\" option for this test, because we will signup as a new member, not as an admin. This option will hide the payment information in the payment form.\n\n4. Click the \"Sign Up Page\" button:\n\n5 . It will redirect to the paid checkout form.\n\nFill out the form and make sure to select the $1 option.\n\n6. Add the credit card information.\n\n\n### Important Notes for This Step:\n\n\n- If the site is using Stripe, the look of the Enter Credit Information fields will vary slightly. See the image above.\n\n- If the site is using PayPal Standard, PayFast, 2Checkout, or any other off-site payment gateway, the credit card fields won't appear in this form. The system will redirect the person to the payment gateway website in order for them to pay.\n\n- If the site is using PayPal Payflow, Authorize.net, or any other on-site payment gateway, the credit card fields will show up in the checkout form.\n\n7 . After clicking 'Create My Profile,' the system will process the payment. A pop-up will appear, click  the \"Click To Continue\" button:\n\nImportant Note : The message shown in the pop-up above will depend on the \" After Sign Up, Set Account Status As\" setting assigned to this membership plan. The above message will display if the \" Active Account \" option is selected:\n\nIf the \" Inactive Account, Requires Email Verification \" option is selected:\n\nThe message below will appear:\n\nIf the \" On Hold, Requires Admin Approval \" option is selected:\n\nThe message below will appear:\n\nAll of this text can be edited under Text Labels directly.\n\n8 . The system will log in the member automatically into the account.\n\n\n## From the Owner's Perspective\n\n\nAfter all the steps above have been completed, a new profile will be created with an 'Active' status in the member's section.\n\nAlso, a transaction will appear in the \"Transaction History\" section of the Finance tab in the Admin area.\n\n\n## Sign Up Errors\n\n\nTo learn what happens when a payment fails during the signup process, read this article: Attempted Sign Up - No Payment Collected\n\nTo learn more information about Membership plans, read the articles below:\n\nSetting up One Time Payments\n\nSetting up Recurring Payments\n\nSetting up Membership Plans",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140002908/original/VXrz3QjrdusaXwvrCZjmXZ_VP-l6HysVUA.png?1710177234",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104120752/original/NUmF4_HQTmLpPk8PvjJHCBQ3Q2HfC1h_FQ.png?1643116633",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104120712/original/TSh66g5bvDiqLs-fSIQae6pUeIyeAyPmxQ.png?1643116565",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089831524/original/FzEj-P1q0-UYh1FptfcJqWlvRCd-mtN-2Q.png?1615394012",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089831773/original/6GcmyyeCvP1i9e78g_K370HOtVNtLgixOg.png?1615394358",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089832134/original/ZInryLSk1et3-Hj9hdjAycZ8w4qnIp05Eg.png?1615394842",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104120285/original/WU-g3TV5810kKqBZLPh89e31zFi1jkbmXg.png?1643116114",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104120338/original/gr0w-PNDYsfppmiyI_viT2l6a2u9pBUzyQ.png?1643116167",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104120394/original/quFGeGTaVQxJe2R-kRvTvqgDmpzfhQUgiQ.png?1643116202",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104120436/original/4eHGp1fXsE5HdVh5sguygkBmAI1MpmMOfQ.png?1643116269",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12104120464/original/CYoXMBXg9SoK5d59284x4BmRTieAgtbZCg.png?1643116308",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089832353/original/bNKWPLQIa_1D8DgDVyHtLC-g8PdrHOyc1w.png?1615395078",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12140003221/original/42dUQYhTlP1DC1fVVf_CRLUl3dLal9Gvrw.png?1710177485",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000673889",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000673889"
+    },
+    {
+      "text": "Supported Payment Gateways",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006843"
+    },
+    {
+      "text": "Text Labels",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000682673"
+    },
+    {
+      "text": "Attempted Sign Up - No Payment Collected",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000013336"
+    },
+    {
+      "text": "Setting up One Time Payments",
+      "url": "https://support.brilliantdirectories.com/solution/articles/12000043478"
+    },
+    {
+      "text": "Setting up Recurring Payments",
+      "url": "https://support.brilliantdirectories.com/solution/articles/12000046485"
+    },
+    {
+      "text": "Setting up Membership Plans",
+      "url": "https://support.brilliantdirectories.com/solution/articles/12000046487"
+    }
+  ],
+  "lastmod": "2026-06-05T01:49:40+05:30",
+  "scraped_at": "2026-10-18T11:20:11.522930"
+}

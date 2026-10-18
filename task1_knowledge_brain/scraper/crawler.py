@@ -17,7 +17,7 @@ from task1_knowledge_brain.multimodal.image_extractor import ArticleData, Articl
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_DATA_DIR = Path("task1_knowledge_brain/data")
+DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 ARTICLES_DIR = DEFAULT_DATA_DIR / "articles"
 
 

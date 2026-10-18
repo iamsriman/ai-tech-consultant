@@ -1,0 +1,80 @@
+{
+  "article_id": "5000681811",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000681811-adding-custom-information-to-your-member-search-results",
+  "title": "Adding Custom Information to your Member Search Results",
+  "category": "My Content",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: My Content",
+    "Additional Tips & Tutorials",
+    "Adding Custom Information to your Member Search Results"
+  ],
+  "content": "## Adding Custom Information to your Member Search Results\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000681811\n\nCustom content can be displayed in member search results based on:\n\n- Whether a user is logged in (is a member)\n\n- The membership level of the member being displayed in the results\n\n- Whether the viewing member is permitted to see additional information about other members (e.g., Premium or higher-level members)\n\nThe following steps outline how to configure search results output for each of these scenarios by editing the search results template code.\n\nCAUTION: The steps below require editing raw PHP code inside a system template field. Incorrect syntax in this area can break the search results page for all site visitors. Saving a backup copy of the existing Page Loop content before making changes is strongly recommended.\n\n\n## Accessing the Search Results Template\n\n\n- Navigate to Content > Edit Post Settings .\n\n- Select Listing , then click Edit .\n\n- On the Listing Feature edit page, go to the Search Results Design section.\n\n- Locate the Page Loop text area. This field contains the template code that controls how each search result is rendered.\n\n- Within the code, locate the <table class=\"bmargin\"> tag (found near line 34 in the default template). Custom code is inserted directly below this tag to control where it appears in the search results.\n\n\n## Scenario 1: Content Based on the Membership Level of the Displayed Member\n\n\nThis method checks the subscription_id value of the member appearing in the search results.\n\n```\n<?php\n          if ($user[subscription_id] == '1') {\n              echo \"CONGRATULATIONS!! You are an awesome gnarly member from Membership Level 1. Cowabunga!\";\n          } else {\n              echo \"This text shows if member is not from membership level 1\";\n          }\n?>\n```\n\nInserted below <table class=\"bmargin\"> , the resulting code appears as:\n\n```\n<table class=\"bmargin\">          \n        <?php\n              if ($user[subscription_id] == '1') {\n                    echo \"CONGRATULATIONS!! You are an awesome gnarly member from Membership Level 1. Cowabunga!\";\n                  } else {\n                    echo \"This text shows if member is not from membership level 1\";\n                  }\n        ?>\n          \n                    <?php if ($user_data[company] != \"\" && $user_data[listing_type] == \"Individual\") { ?>\n                        <tr class=\"hidden-xs\">\n                            <td class=\"bold text-right rpad hidden-xs\"><?php echo $Label[company_label2]?>:</td>\n                            <td><?php echo $user_data[company]?></td>\n                        </tr>\n                    <?php }\n```\n\nAfter saving this, the visual output of the search results will now look like this:\n\n\n## Scenario 2: Content Based on the Membership Level of the Viewing User\n\n\nThis method checks the membership level of the currently logged-in user (the person viewing the page) rather than the member shown in the result. The variable changes from $user[subscription_id] to $_COOKIE[subscription_id] .\n\n```\n<table class=\"bmargin\">\n        <?php\n          <?php\n          if ($_COOKIE[subscription_id] == '1') {\n              echo \"CONGRATULATIONS!! You are an awesome gnarly member from Membership Level 1. Cowabunga!\";\n          } else {\n              echo \"This text shows if member is not from membership level 1\";\n          }\n          ?>\n          <? if ($user_data[company]!=\"\" && $user_data[listing_type]==\"Individual\") { ?>\n              <tr>\n                  <td class=\"bold text-right rpad hidden-xs\"><?=$Label[company_label]?>:</td>\n```\n\nNOTE: The only change from Scenario 1 is the condition — from if ($user[subscription_id] == '1') to if ($_COOKIE[subscription_id] == '1') . This shifts the check from the member displayed in the result to the member currently viewing the site.\n\nThe end result would be something like:\n\n\n## Scenario 3: Content Based on Both the Viewer's and the Displayed Member's Levels\n\n\nThis method combines both checks, displaying different content depending on the combination of the viewer's membership level and the membership level of the member shown in the results.\n\nExample: a Level 1 (Premium) viewer sees additional information about Level 2 members, and even more about Level 3 members.\n\n```\n<?php\n          if ($_COOKIE[subscription_id] == '1' && $user[subscription_id] == '2') { \n              echo \"This text will ONLY show if the member viewing the page is level 1 and the member in the search result is level 2.\";\n          }\n          else if ($_COOKIE[subscription_id] == '1' && $user[subscription_id] == '3') { \n              echo \"This EXTRA text will ONLY show if the member viewing the page is level 1 and the member in the search result is level 3.\";\n          } \n          else {\n              echo \"This text shows if member in results is not 2 or 3\";\n          }\n          ?>\n```\n\nSo if the user viewing the page is NOT a membership level 1, the search results would show like this:\n\nBut if the member viewing the site has a membership level of 1, then it would look like this:\n\n\n## Summary\n\n\nUsing the Page Loop field together with the subscription_id variable, search result content can be conditioned on:\n\n- The membership level of the displayed member — $user[subscription_id]\n\n- The membership level of the viewer — $_COOKIE[subscription_id]\n\n- A combination of both",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184569637/original/qs1epAaQBCiJFZOKyEN7mZhtJJCN5oI69A.jpeg?1788347372",
+      "alt": null,
+      "caption": "Context: Accessing the Search Results Template",
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184569659/original/Ht0nyYmmyruewsQR8bAm2u7539Pzzfpa9A.jpeg?1788347392",
+      "alt": null,
+      "caption": "Context: Accessing the Search Results Template",
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184569673/original/7b5Isz7UPbEnUffBE5wG4_fXANipt9WmnA.png?1788347404",
+      "alt": null,
+      "caption": "Context: Accessing the Search Results Template",
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12184569678/original/9pmt7inMSM7ZO_ipvg_xp-G43ZLNAXN8Rw.png?1788347414",
+      "alt": null,
+      "caption": "Context: Accessing the Search Results Template",
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5040918705/original/Screenshot%20from%202015-10-09%2010-42-42.png?1444409046",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5040920922/original/Screenshot%20from%202015-10-09%2011-01-06.png?1444410076",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5040922533/original/Screenshot%20from%202015-10-09%2011-09-25.png?1444410749",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5040922601/original/Screenshot%20from%202015-10-09%2011-11-46.png?1444410781",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000681811",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000681811"
+    }
+  ],
+  "lastmod": "2026-09-02T16:43:13+05:30",
+  "scraped_at": "2026-10-18T11:37:49.375014"
+}

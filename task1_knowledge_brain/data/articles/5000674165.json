@@ -1,0 +1,70 @@
+{
+  "article_id": "5000674165",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000674165-how-refunds-work",
+  "title": "How Refunds work",
+  "category": "Finance",
+  "folder": "General Billing",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "General Billing",
+    "How Refunds work"
+  ],
+  "content": "## How Refunds work\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000674165\n\nThe billing module allows the Admin to issue a refund for transactions completed through the site. D isclaimer Brilliant Directories does not provide documentation on the various available payment merchants. Please contact the payment merchant to determine whether the account is subject to any of the following limitations: Some payment gateways do not permit refunds. Some payment gateways, such as Authorize.net, require at least 24 hours to pass before a refund can be issued. Some payment gateways do not allow refunds through third-party websites, like the Brilliant Directories admin. Refunds can only be processed if the time frame for a refund is still open.  For example, PayPal allows refunds within 6 months of the transaction. If the payment gateway of a site is changed after transactions have been processed ( example: from PayPal Payflow to Authorize.), refunds for transactions completed through the first payment gateway cannot be processed through the site's Admin area. Refunds for these transactions must be processed directly through the payment gateway account. How to Process a Refund?\n\nGo the admin and navigate to My Members » Search Members:\n\n- Search for the member.\n\n- Click \" Actions\".\n\n- Click \" Payment History\".\n\nThis will open the Transactions tab. To issue the refund, click Actions » \" Refund Payment \":\n\nConfirm the refund by clicking the \"Yes, Continue\" button:\n\nA \"Refund Successful\" pop-up will appear:\n\nThe invoice will appear in the \"Refunded\" tab.\n\n\n## Existing Subscriptions\n\n\nRefunding a payment will NOT stop the active subscription. If it is a recurring subscription, the member will continue to be billed until the subscription is manually canceled.\n\n\n### Cancel Subscriptions\n\n\nHow to cancel subscriptions: How to Cancel Paid Subscriptions",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12105107062/original/Wgr9ExbweToN7Xm9k-J3w48BeGwGDqtfoA.png?1644980169",
+      "alt": null,
+      "caption": "Context: How to Process a Refund?",
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089849734/original/Qit0uqrSlA4B68uaKeLKJmFTYfMJdIjEgg.png?1615425695",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089849752/original/tZ7Mljjy-pxgcBHHo57Wrt5067_q9pq68A.png?1615425725",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089849756/original/4jWvixbNSG5tVMsJet_V3gCIJKNd19XHWQ.png?1615425743",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089849759/original/Eo46XRrKkCAqwK1dmgktyyMpSg5o3VMCfQ.png?1615425784",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12089849762/original/y6cH-7FAx3ORwqbJ2Dw0ojRWDFb_yMHmhQ.png?1615425821",
+      "alt": null,
+      "caption": "Context: Refunding a payment willNOTstop the active subscription. If it is a recurring subscription, the member will continue to be billed until the subscription is manually canceled.",
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000674165",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000674165"
+    },
+    {
+      "text": "How to Cancel Paid Subscriptions",
+      "url": "https://support.brilliantdirectories.com/solution/articles/5000567728"
+    }
+  ],
+  "lastmod": "2026-06-05T02:46:19+05:30",
+  "scraped_at": "2026-10-18T11:20:13.627068"
+}

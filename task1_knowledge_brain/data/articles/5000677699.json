@@ -1,0 +1,38 @@
+{
+  "article_id": "5000677699",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000677699-what-access-do-i-get-with-my-brilliant-directories-license-",
+  "title": "What Access Do I Get With My Brilliant Directories License?",
+  "category": "Developer Hub",
+  "folder": "Additional Tips & Tutorials",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Developer Hub",
+    "Additional Tips & Tutorials",
+    "What Access Do I Get With My Brilliant Directories License?"
+  ],
+  "content": "## What Access Do I Get With My Brilliant Directories License?\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000677699\n\nOne of the most common questions during the pre-sales process is whether Brilliant Directories is a SaaS (Software as a Service) platform or a self-hosted solution.\n\nMany website owners want to know how much control they will have over the functionality, design, and data behind their website. While many SaaS platforms limit access to core functionality and server-level settings, Brilliant Directories provides significantly more flexibility than a traditional SaaS solution.\n\nAlthough Brilliant Directories is delivered as a managed SaaS platform, website owners receive extensive access to their website's data, hosting environment, and customizable functionality.\n\nThis article highlights four key areas where Brilliant Directories provides that flexibility.\n\n\n## 1. Access to the Website Database\n\n\nEvery Brilliant Directories license includes full access to the website's database.\n\nThe database stores website content, member information, custom widgets, design settings, and other data unique to the website. As members interact with the website—such as updating profiles, publishing posts, uploading media, or sending messages—that information is stored within the database.\n\nDatabase access allows developers to:\n\n- Read stored data\n\n- Create custom integrations\n\n- Build APIs\n\n- Insert, update, or delete records\n\n- Interact directly with website data using standard database tools\n\n\n## 2. Access to the cPanel Account\n\n\nEach website includes direct access to its cPanel account.\n\nThis provides access to many of the same hosting tools typically available with traditional self-hosted environments, including:\n\n- Email account management\n\n- DNS Zone Editor (A, CNAME, MX, TXT, SPF, etc.)\n\n- Subdomain creation\n\n- Additional database users\n\n- Website backups\n\n- Other cPanel management tools\n\nThis level of access gives website owners greater control over their hosting configuration while still benefiting from a managed platform.\n\n\n## 3. Access to Website Widgets\n\n\nBrilliant Directories provides access to nearly all of the website's widget code.\n\nBy enabling Show Widgets , administrators can inspect and edit the widgets used throughout the website. For example, editing the Member Results widget allows developers to customize both the appearance and functionality of member search results.\n\nMost widgets support custom development using:\n\n- PHP\n\n- HTML\n\n- CSS\n\n- JavaScript\n\nA small portion of the core software remains protected to ensure platform stability, security, and compatibility across future updates.\n\n\n## 4. Lifetime Software Updates\n\n\nEvery active Brilliant Directories license includes ongoing software and security updates.\n\nNew features, improvements, bug fixes, and security enhancements are continuously released without requiring manual upgrades or plugin maintenance.\n\nThis allows websites to remain current with the latest platform improvements while avoiding the maintenance commonly associated with self-hosted software.",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5042681481/original/blob1445386851116.png?1445390483",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5042682002/original/blob1445387658693.png?1445391290",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000677699",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000677699"
+    }
+  ],
+  "lastmod": "2026-07-15T03:09:00+05:30",
+  "scraped_at": "2026-10-18T11:37:46.787722"
+}

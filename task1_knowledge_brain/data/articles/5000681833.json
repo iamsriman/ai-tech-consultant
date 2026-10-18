@@ -1,0 +1,52 @@
+{
+  "article_id": "5000681833",
+  "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000681833-service-areas-in-australia-city-vs-suburb",
+  "title": "Service Areas in Australia - City vs Suburb",
+  "category": "Finance",
+  "folder": "Membership Plans",
+  "breadcrumbs": [
+    "Solution home",
+    "Section: Finance",
+    "Membership Plans",
+    "Service Areas in Australia - City vs Suburb"
+  ],
+  "content": "## Service Areas in Australia - City vs Suburb\n\n\nLink: https://support.brilliantdirectories.com/support/solutions/articles/5000681833\n\nThe Service Areas functionality of the software, just like all other location-based features of the platform, is powered by Google Maps.\n\nGoogle Maps treats Australian 'suburbs' the same as 'cities' in the rest of the world. Australian \"cities\" (Brisbane, for example), are treated as both a suburb and what they call a \"Colloquial Area\" (IE an unofficial name for a region that contains multiple suburbs).\n\nFor example, if 'Brisbane' is added as a service area, Google Maps treats it as a \"city\":\n\nAnd when searching for \"Banksia Beach\" (a suburb in Brisbane), it will also treat this as a \"city\":\n\nSmaller regions within cities (North Brisbane, for example), are not recognized by Google Maps.\n\nWhen searching for a region like this, Google Maps will simply return results for 'Brisbane' by default:\n\nSince Google Maps treats Australian suburbs and cities this way, the recommended way to allow members to add additional Service Areas is to allow them to add \"suburbs\" (Suggestion: Change to \"(which are referred to as 'city' in both the Brilliant Directories system and Google Maps).\n\nTo allow members to add suburbs as service areas, sset the 'Maximum Number of Locations' to a value greater than 0 and select \"City\" as an option in the \"Location Types Member Can Select\"  in the Membership Plan Settings:",
+  "images": [
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092141260/original/R36wdGrl9G2csQ0GjYOqO2VGsjU0A0MwIQ.png?1620095749",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092141271/original/K2TWbXErlhpUGJ3l2878vZZVWZ8V2Mejcg.png?1620095787",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12092141286/original/GEnxHUXg8qq3rqnc3b5ZoYs-vtWMkX5tpQ.png?1620095843",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    },
+    {
+      "src": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12131882323/original/mqIoZp_1xlojmnCin29EbefWTjYGpX8gqQ.png?1695749590",
+      "alt": null,
+      "caption": null,
+      "is_screenshot": true,
+      "vision_description": null
+    }
+  ],
+  "links": [
+    {
+      "text": "https://support.brilliantdirectories.com/support/solutions/articles/5000681833",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000681833"
+    }
+  ],
+  "lastmod": "2026-06-29T19:11:53+05:30",
+  "scraped_at": "2026-10-18T11:45:54.116637"
+}
