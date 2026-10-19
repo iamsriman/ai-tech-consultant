@@ -1,10 +1,11 @@
-"""Start Task 1, Task 2, and Task 3 together.
+"""Start the unified backend, or the legacy three-port setup on request.
 
-Run from the repository root with ``python run.py``. Existing application data
-and databases are never changed by this launcher.
+Run ``python run.py`` for one FastAPI listener. Use
+``python run.py --legacy-three-services`` only for the old local setup.
+Existing application data and databases are never changed by this launcher.
 """
 from __future__ import annotations
-import argparse, json, socket, subprocess, sys, threading, time
+import argparse, json, os, socket, subprocess, sys, threading, time
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -21,9 +22,10 @@ def stream(name, process):
     if process.stdout:
         for line in process.stdout: print(f"[{name}] {line.rstrip()}", flush=True)
 
-def healthy(port):
+def healthy(port, unified=False):
     try:
-        with urlopen(Request(f"http://127.0.0.1:{port}/api/v1/health"), timeout=2) as response:
+        path = "/api/v1/unified-health" if unified else "/api/v1/health"
+        with urlopen(Request(f"http://127.0.0.1:{port}{path}"), timeout=2) as response:
             data=json.loads(response.read().decode("utf-8")); return response.status == 200 and data.get("status") == "ok"
     except (OSError, URLError, HTTPError, ValueError): return False
 
@@ -35,19 +37,31 @@ def stop(processes):
         except subprocess.TimeoutExpired: process.kill()
 
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument("--health-timeout", type=float, default=60); args=parser.parse_args()
-    blocked=[str(port) for _,_,port in SERVICES if not available(port)]
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--health-timeout", type=float, default=60)
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8000")))
+    parser.add_argument("--legacy-three-services", action="store_true", help="Use the old three-port development setup")
+    args=parser.parse_args()
+    services = SERVICES if args.legacy_three_services else (("unified", "unified_backend:app", args.port),)
+    blocked=[str(port) for _,_,port in services if not available(port)]
     if blocked: print("Cannot start; port(s) already in use: "+", ".join(blocked), file=sys.stderr); return 2
     processes={}
     try:
-        for name,target,port in SERVICES:
-            process=subprocess.Popen([sys.executable,"-m","uvicorn",target,"--host","127.0.0.1","--port",str(port)],cwd=ROOT,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding="utf-8",errors="replace",bufsize=1)
+        for name,target,port in services:
+            child_env = os.environ.copy()
+            if name == "unified":
+                # Keep Task 2/3 HTTP clients on this exact listener even when
+                # a stale TASK1_API_BASE from the legacy setup is present.
+                child_env["PORT"] = str(port)
+            process=subprocess.Popen([sys.executable,"-m","uvicorn",target,"--host","127.0.0.1","--port",str(port)],cwd=ROOT,env=child_env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding="utf-8",errors="replace",bufsize=1)
             processes[name]=process; threading.Thread(target=stream,args=(name,process),daemon=True).start(); print(f"Started {name} on port {port} (pid {process.pid})",flush=True)
         deadline=time.monotonic()+args.health_timeout
-        for name,_,port in SERVICES:
-            while time.monotonic()<deadline and processes[name].poll() is None and not healthy(port): time.sleep(.5)
-            if not healthy(port): raise RuntimeError(f"{name} did not become healthy")
-            print(f"{name} healthy: http://127.0.0.1:{port}/api/v1/health",flush=True)
+        for name,_,port in services:
+            is_unified = name == "unified"
+            while time.monotonic()<deadline and processes[name].poll() is None and not healthy(port, is_unified): time.sleep(.5)
+            if not healthy(port, is_unified): raise RuntimeError(f"{name} did not become healthy")
+            health_path = "/api/v1/unified-health" if is_unified else "/api/v1/health"
+            print(f"{name} healthy: http://127.0.0.1:{port}{health_path}",flush=True)
         print("All services are ready. Press Ctrl+C to stop them.",flush=True)
         while True:
             for name,process in processes.items():

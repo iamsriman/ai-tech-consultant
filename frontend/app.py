@@ -14,8 +14,12 @@ from typing import Any
 
 import streamlit as st
 
-from api_client import ApiClient, BackendError, clients
-from provider_settings import load_settings, model_for, save_settings
+try:  # Support both `streamlit run frontend/app.py` and package-based tests.
+    from .api_client import ApiClient, BackendError, clients
+    from .provider_settings import load_settings, model_for, save_settings
+except ImportError:  # Streamlit executes this file as a script.
+    from api_client import ApiClient, BackendError, clients
+    from provider_settings import load_settings, model_for, save_settings
 
 st.set_page_config(
     page_title="AI Tech Consultant",
@@ -197,18 +201,45 @@ def api_call(client: ApiClient, method: str, path: str, *, service: str = "The s
 
 @st.cache_data(ttl=10, show_spinner=False)
 def fetch_health(targets: tuple) -> dict:
-    """Check all services in parallel so one offline service doesn't slow the page."""
+    """Use one aggregate check per unified backend URL.
+
+    Legacy deployments may still provide a distinct URL per task. In that case
+    each URL is checked once and its ordinary `/health` response is assigned
+    to the task(s) configured for it.
+    """
+    grouped: dict[str, list[str]] = {}
+    for task, url in targets:
+        grouped.setdefault(url, []).append(task)
+
     def check(item: tuple) -> tuple:
-        task, url = item
+        url, tasks = item
         try:
             data = ApiClient(url).health()
             data = data if isinstance(data, dict) else {}
-            return task, {"ok": data.get("status") == "ok", "data": data, "url": url}
+            if any(task in data for task in ("task1", "task2", "task3")):
+                result = {}
+                for task in tasks:
+                    task_data = data.get(task)
+                    result[task] = {
+                        "ok": isinstance(task_data, dict) and task_data.get("status") == "ok",
+                        "data": task_data if isinstance(task_data, dict) else {},
+                        "url": url,
+                        **({} if isinstance(task_data, dict) else {"error": "Task status missing from unified health response"}),
+                    }
+                return result
+            return {
+                task: {"ok": data.get("status") == "ok", "data": data, "url": url}
+                for task in tasks
+            }
         except BackendError as exc:
-            return task, {"ok": False, "data": {}, "url": url, "error": str(exc)}
+            return {
+                task: {"ok": False, "data": {}, "url": url, "error": str(exc)}
+                for task in tasks
+            }
 
-    with ThreadPoolExecutor(max_workers=3) as pool:
-        return dict(pool.map(check, targets))
+    with ThreadPoolExecutor(max_workers=max(1, len(grouped))) as pool:
+        checked = pool.map(check, grouped.items())
+        return {task: info for group in checked for task, info in group.items()}
 
 
 def status_cards(health: dict) -> None:
