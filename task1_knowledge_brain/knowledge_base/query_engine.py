@@ -14,7 +14,8 @@ from typing import Any, Dict, List, Optional
 import httpx
 
 from .retriever import KnowledgeRetriever, RetrievedDocument
-from task1_knowledge_brain.config import anthropic_model, load_project_environment
+from task1_knowledge_brain.config import load_project_environment
+from task1_knowledge_brain.knowledge_base.llm_provider import get_llm_provider
 from task1_knowledge_brain.human_loop.ticket_manager import TicketManager, ExpertTicket
 
 logger = logging.getLogger(__name__)
@@ -82,33 +83,33 @@ class BDQueryEngine:
         self.retriever = retriever or KnowledgeRetriever()
         self.ticket_manager = ticket_manager or TicketManager()
         load_project_environment()
-        self.model_name = model_name or anthropic_model()
+        # Initialize the LLM provider based on environment configuration
+        self.llm_provider = get_llm_provider()
+        # Use the provider's model name for reporting
+        self.model_name = getattr(self.llm_provider, "model_name", "unknown")
         self.min_confidence_threshold = min_confidence_threshold
-        self.api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 
     def _call_claude(self, prompt: str) -> Dict[str, Any]:
-        """Calls Anthropic Claude API via httpx."""
-        url = "https://api.anthropic.com/v1/messages"
-        headers = {
-            "x-api-key": self.api_key,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        }
-        payload = {
-            "model": self.model_name,
-            "max_tokens": 1024,
-            "system": SYSTEM_PROMPT,
-            "messages": [{"role": "user", "content": prompt}],
-        }
-        with httpx.Client(timeout=30.0) as client:
-            resp = client.post(url, headers=headers, json=payload)
-            resp.raise_for_status()
-            data = resp.json()
-            text = "\n".join(block["text"] for block in data.get("content", []) if block.get("type") == "text")
-            if not text:
-                raise ValueError("Anthropic returned no text content")
-            usage = data.get("usage", {})
-            return {"text": text, "input_tokens": usage.get("input_tokens"), "output_tokens": usage.get("output_tokens")}
+        """Call the configured provider through the compatibility hook used by tests."""
+        return self.llm_provider.call(prompt)
+
+    @staticmethod
+    def _generation_error(exc: Exception) -> str:
+        if isinstance(exc, httpx.HTTPStatusError):
+            status = exc.response.status_code if exc.response is not None else None
+            if status == 401:
+                return "Anthropic rejected the API credential (HTTP 401)"
+            if status == 402:
+                return "Anthropic account has insufficient credits or a billing issue"
+            if status == 429:
+                return "Anthropic rate limit reached"
+            if status >= 500:
+                return "Anthropic server error"
+        if isinstance(exc, RuntimeError) and "ANTHROPIC_API_KEY" in str(exc):
+            return "ANTHROPIC_API_KEY is not configured"
+        if isinstance(exc, RuntimeError):
+            return "Anthropic request failed (RuntimeError)"
+        return str(exc)
 
     @staticmethod
     def _terms(text: str) -> set[str]:
@@ -169,6 +170,8 @@ class BDQueryEngine:
 
     @staticmethod
     def _anthropic_failure_message(error: Exception) -> str:
+        if isinstance(error, RuntimeError) and "ANTHROPIC_API_KEY" in str(error):
+            return "ANTHROPIC_API_KEY is not configured"
         if isinstance(error, httpx.TimeoutException):
             return "Anthropic request timed out"
         if isinstance(error, httpx.HTTPStatusError):
@@ -191,6 +194,25 @@ class BDQueryEngine:
                 return "Anthropic account has insufficient credits or a billing issue"
             return f"Anthropic rejected the request (HTTP {response.status_code})"
         return f"Anthropic request failed ({type(error).__name__})"
+
+    @staticmethod
+    def _provider_failure_message(provider: str, error: Exception) -> str:
+        """Return a safe, provider-specific error without exposing secrets."""
+        label = provider.strip().title()
+        if isinstance(error, RuntimeError) and "API_KEY" in str(error):
+            return f"{label} API key is not configured"
+        if isinstance(error, httpx.TimeoutException):
+            return f"{label} request timed out"
+        if isinstance(error, httpx.HTTPStatusError):
+            code = error.response.status_code if error.response is not None else None
+            if code == 401:
+                return f"{label} rejected the API credential (HTTP 401)"
+            if code == 429:
+                return f"{label} rate limit reached"
+            if code >= 500:
+                return f"{label} server error"
+            return f"{label} rejected the request (HTTP {code})"
+        return f"{label} request failed ({type(error).__name__})"
 
     def _deterministic_grounded_answer(
         self,
@@ -242,6 +264,8 @@ class BDQueryEngine:
         question: str,
         top_k: int = 4,
         category_filter: Optional[str] = None,
+        provider_name: Optional[str] = None,
+        model_name: Optional[str] = None,
     ) -> QueryAnswer:
         """
         Queries the knowledge base, answers grounded in documentation,
@@ -305,25 +329,37 @@ class BDQueryEngine:
             f"Please answer the user's question accurately based on the context above."
         )
 
+        # Generate with the configured provider, or a request-scoped override.
+        # The override is intentionally local to this request and does not
+        # mutate the process-wide provider used by other requests.
+        request_provider = self.llm_provider
+        if provider_name:
+            request_provider = get_llm_provider(provider_name, model_name)
         model_used = "deterministic_grounded"
         fallback_used = True
         input_tokens = output_tokens = None
-        generation_error = None if self.api_key else "ANTHROPIC_API_KEY is not configured"
-        if self.api_key:
-            try:
-                model_result = self._call_claude(user_prompt)
-                raw_answer = model_result["text"]
-                input_tokens = model_result.get("input_tokens")
-                output_tokens = model_result.get("output_tokens")
-                model_used = self.model_name
-                fallback_used = False
-            except Exception as e:
-                # Exception text may contain request details; avoid logging secrets.
-                logger.error("Anthropic request failed (%s); using explicitly identified grounded fallback.", type(e).__name__)
+        generation_error = None
+        try:
+            provider_label = getattr(request_provider, "provider_label", "claude")
+            if hasattr(request_provider, "api_key") and not getattr(request_provider, "api_key"):
+                key_name = "ANTHROPIC_API_KEY" if provider_label == "claude" else f"{provider_label.upper()}_API_KEY"
+                raise RuntimeError(f"{key_name} is not configured")
+            # Preserve the compatibility hook used by existing Claude tests.
+            model_result = self._call_claude(user_prompt) if not provider_name else request_provider.call(user_prompt)
+            raw_answer = model_result["text"]
+            input_tokens = model_result.get("input_tokens")
+            output_tokens = model_result.get("output_tokens")
+            model_used = getattr(request_provider, "model_name", "unknown")
+            fallback_used = False
+        except Exception as e:
+            # Record error and fall back to deterministic grounded answer
+            if provider_name and provider_name.lower() == "groq":
+                generation_error = self._provider_failure_message("Groq", e)
+            else:
                 generation_error = self._anthropic_failure_message(e)
-                raw_answer = self._deterministic_grounded_answer(question, docs)
-        else:
             raw_answer = self._deterministic_grounded_answer(question, docs)
+            model_used = "deterministic_grounded"
+            fallback_used = True
 
         # 4. Check if LLM answered "I don't know"
         lower_answer = raw_answer.lower()

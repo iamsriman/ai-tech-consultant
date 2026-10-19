@@ -11,6 +11,8 @@ class QueryRequest(BaseModel):
     query: str = Field(..., description="User or agent natural language question", min_length=3)
     top_k: int = Field(default=4, ge=1, le=10, description="Number of source chunks to retrieve")
     category_filter: Optional[str] = Field(default=None, description="Optional category filter (e.g. 'Emails')")
+    provider: Optional[str] = Field(default=None, description="Optional provider override: claude or groq")
+    model: Optional[str] = Field(default=None, description="Optional model override for the selected provider")
 
     @field_validator("query", mode="before")
     @classmethod
@@ -49,6 +51,8 @@ class QueryResponse(BaseModel):
 
 class SettingsCheckRequest(BaseModel):
     feature_description: str = Field(..., description="Feature or requirement to check against BD native settings")
+    provider: Optional[str] = Field(default=None, description="Optional provider override: claude or groq")
+    model: Optional[str] = Field(default=None, description="Optional model override for the selected provider")
 
 
 class SettingsCheckResponse(BaseModel):

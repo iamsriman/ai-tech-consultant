@@ -55,6 +55,8 @@ def query_knowledge_base(request: QueryRequest):
         question=request.query,
         top_k=request.top_k,
         category_filter=category,
+        provider_name=request.provider,
+        model_name=request.model,
     )
     citations = [
         CitationItem(
@@ -93,6 +95,8 @@ def check_native_settings(request: SettingsCheckRequest):
     res = query_engine.query(
         question=f"Can this be configured in settings: {request.feature_description}",
         top_k=3,
+        provider_name=request.provider,
+        model_name=request.model,
     )
     if res.has_answer:
         top_cit = res.citations[0] if res.citations else None

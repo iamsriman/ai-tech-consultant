@@ -6,6 +6,7 @@ and article deletion for daily sitemap synchronization.
 
 from dataclasses import dataclass
 import logging
+import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 import chromadb
@@ -56,27 +57,31 @@ class BDVectorStore:
     """
     Manages persistent ChromaDB vector storage for Brilliant Directories knowledge base.
     """
+    def __init__(self, db_path: Optional[Path] = None) -> None:
+        """Initialize the vector store.
 
-    def __init__(self, persist_directory: Path = DEFAULT_CHROMA_DIR):
-        self.persist_directory = Path(persist_directory)
-        self.persist_directory.mkdir(parents=True, exist_ok=True)
-        existing_database = (self.persist_directory / "chroma.sqlite3").exists() and (self.persist_directory / "chroma.sqlite3").stat().st_size > 0
+        Args:
+            db_path: Optional path to the ChromaDB directory. If omitted,
+                defaults to the canonical location ``DEFAULT_CHROMA_DIR``.
+        """
+        storage_path = Path(db_path) if db_path else DEFAULT_CHROMA_DIR
+        storage_path.mkdir(parents=True, exist_ok=True)
+        # Chroma 1.x selects its SQLite/Rust persistence backend from the path.
+        # ``chroma_db_impl=duckdb+parquet`` and ``persist_directory`` are the
+        # removed legacy configuration and make current Chroma raise the
+        # deprecated-configuration error.  Keep the canonical path unchanged.
+        self.client = chromadb.PersistentClient(
+            path=storage_path,
+            settings=Settings(anonymized_telemetry=False),
+        )
+        # Retrieve or create collection
+        self.collection = self.client.get_or_create_collection(
+            name=COLLECTION_NAME, metadata={"hnsw:space": "cosine"}
+        )
 
-        # Never silently switch databases: the caller must see initialization
-        # errors rather than receive empty or unrelated retrieval results.
-        self.client = chromadb.PersistentClient(path=str(self.persist_directory))
-        if existing_database:
-            try:
-                self.collection = self.client.get_collection(name=COLLECTION_NAME)
-            except Exception as exc:
-                raise RuntimeError(f"Existing Chroma database at {self.persist_directory} has no usable {COLLECTION_NAME} collection") from exc
-        else:
-            self.collection = self.client.get_or_create_collection(
-                name=COLLECTION_NAME,
-                metadata={"hnsw:space": "cosine"},
-            )
 
-    def add_chunks(self, chunks: List[DocumentChunk], batch_size: int = 100) -> int:
+
+    def add_chunks(self, chunks: List[DocumentChunk], batch_size: int = 1) -> int:
         """
         Adds or updates document chunks in ChromaDB.
         """

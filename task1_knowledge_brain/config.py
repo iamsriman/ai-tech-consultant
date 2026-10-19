@@ -26,3 +26,19 @@ def load_project_environment() -> None:
 
 def anthropic_model() -> str:
     return os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001").strip()
+
+def llm_provider_name() -> str:
+    """Return the configured LLM provider name. Defaults to 'claude'."""
+    return os.environ.get("LLM_PROVIDER", "claude").strip().lower()
+
+def groq_model() -> str:
+    """Return the default Groq model name, e.g., mixtral-8x7b-32768."""
+    return os.environ.get("GROQ_MODEL", "mixtral-8x7b-32768").strip()
+
+def anthropic_api_key() -> str:
+    """Retrieve Anthropic API key from environment without logging it."""
+    return os.environ.get("ANTHROPIC_API_KEY", "").strip()
+
+def groq_api_key() -> str:
+    """Retrieve Groq API key from environment without logging it."""
+    return os.environ.get("GROQ_API_KEY", "").strip()
