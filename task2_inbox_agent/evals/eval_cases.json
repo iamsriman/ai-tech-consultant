@@ -1,0 +1,22 @@
+[
+  {"id":"eval-01","query":"How do I create an email account?","expected":"answerable"},
+  {"id":"eval-02","query":"How do I manage email accounts?","expected":"answerable"},
+  {"id":"eval-03","query":"How do I change a password?","expected":"answerable"},
+  {"id":"eval-04","query":"How do I configure member search?","expected":"answerable"},
+  {"id":"eval-05","query":"How do I update a logo?","expected":"answerable"},
+  {"id":"eval-06","query":"How do I configure payments?","expected":"unanswerable"},
+  {"id":"eval-07","query":"How do I add an admin?","expected":"answerable"},
+  {"id":"eval-08","query":"How do I import members?","expected":"answerable"},
+  {"id":"eval-09","query":"How do I change the theme?","expected":"answerable"},
+  {"id":"eval-10","query":"How do I edit a signup form?","expected":"answerable"},
+  {"id":"eval-11","query":"Can you build a new website?","expected":"human_review"},
+  {"id":"eval-12","query":"Can I get a quote?","expected":"human_review"},
+  {"id":"eval-13","query":"I want a refund.","expected":"human_review"},
+  {"id":"eval-14","query":"I am unhappy with the service.","expected":"human_review"},
+  {"id":"eval-15","query":"Following up on my ticket.","expected":"human_review"},
+  {"id":"eval-16","query":"How do I launch a satellite into orbit?","expected":"unanswerable"},
+  {"id":"eval-17","query":"Does it support quantum teleportation?","expected":"unanswerable"},
+  {"id":"eval-18","query":"Please advise on a legal dispute.","expected":"human_review"},
+  {"id":"eval-19","query":"What is the weather tomorrow?","expected":"unanswerable"},
+  {"id":"eval-20","query":"How do I configure an unsupported spacecraft?","expected":"unanswerable"}
+]
