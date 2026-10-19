@@ -1,0 +1,19 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ChromaDB and generated vector databases
+**/chroma_db/
+**/chroma_db_*/
+**/chroma_probe_*/
+
+# Local runtime state and generated data
+**/data/outbox/
+**/data/streak_state.json
