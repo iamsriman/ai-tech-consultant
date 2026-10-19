@@ -1,0 +1,434 @@
+{
+  "integration-support-001": {
+    "email_id": "integration-support-001",
+    "sender": "integration.customer@example.test",
+    "subject": "How do I create and manage email accounts?",
+    "body": "Please explain how to create and manage email accounts.",
+    "category": "product_support",
+    "original_draft": "Based on the Brilliant Directories documentation for **Emails \u00bb Email Accounts**:\n\n## Emails \u00bb Email Accounts Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363 Email accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly. ## Before starting - Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. - Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them. ## Open the email accounts - In the admin, open Emails . - Click Email Accounts . - Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered. Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2). ## Create and manage mailboxes On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings \u00bb Domain Manager \u00bb Mailboxes and Email Routing . Generic addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice. ## When the previous Email Accounts page appears The previous Manage Email Accounts page still opens in two cases: - The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . - The administrator's role does not include access to the Domain Manager's Mailboxes tab. On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1). ## Additional notes - Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. - To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600)\n\n**Source:** [Emails \u00bb Email Accounts](https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts) (Category: Emails > Email Accounts)\n\nPlease reply if you need further help.",
+    "final_reply": "Based on the documented Email Accounts article, open Emails and choose Email Accounts.",
+    "status": "sent",
+    "created_at": 1792358589.843451,
+    "provider": "groq",
+    "model_used": "mixtral-8x7b-32768",
+    "provider_error": "HTTPStatusError: Client error '400 Bad Request' for url 'https://api.groq.com/openai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "requires_human": false,
+    "knowledge": {
+      "query": "How do I create and manage email accounts?\nPlease explain how to create and manage email accounts.",
+      "answer": "Based on the Brilliant Directories documentation for **Emails \u00bb Email Accounts**:\n\n## Emails \u00bb Email Accounts Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363 Email accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly. ## Before starting - Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. - Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them. ## Open the email accounts - In the admin, open Emails . - Click Email Accounts . - Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered. Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2). ## Create and manage mailboxes On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings \u00bb Domain Manager \u00bb Mailboxes and Email Routing . Generic addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice. ## When the previous Email Accounts page appears The previous Manage Email Accounts page still opens in two cases: - The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . - The administrator's role does not include access to the Domain Manager's Mailboxes tab. On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1). ## Additional notes - Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. - To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600)\n\n**Source:** [Emails \u00bb Email Accounts](https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts) (Category: Emails > Email Accounts)",
+      "has_answer": true,
+      "confidence": 1.0,
+      "citations": [
+        {
+          "article_id": "5000558363",
+          "title": "Emails \u00bb Email Accounts",
+          "category": "Emails",
+          "folder": "Email Accounts",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts",
+          "relevance_score": 0.6242
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600"
+      ],
+      "ticket_id": null,
+      "model_used": "deterministic_grounded",
+      "fallback_used": true,
+      "generation_error": "Anthropic account has insufficient credits or a billing issue"
+    },
+    "human_notes": "integration review",
+    "sent_at": 1792358608.2480962,
+    "streak": 0
+  },
+  "integration-unsupported-001": {
+    "email_id": "integration-unsupported-001",
+    "sender": "integration.customer2@example.test",
+    "subject": "Satellite orbit question",
+    "body": "How do I launch a satellite into Mars orbit?",
+    "category": "product_support",
+    "original_draft": "Thank you for contacting us. We do not have enough verified product information to answer this request. A specialist will review it and follow up with you.",
+    "final_reply": "Thank you for contacting us. We do not have enough verified product information to answer this request. A specialist will review it and follow up with you.",
+    "status": "needs_review",
+    "created_at": 1792358590.311165,
+    "provider": "groq",
+    "model_used": "mixtral-8x7b-32768",
+    "provider_error": null,
+    "requires_human": true,
+    "knowledge": {
+      "query": "Satellite orbit question\nHow do I launch a satellite into Mars orbit?",
+      "answer": "I don't know based on the provided documentation. I have logged a ticket for a human expert to review and provide verified guidance.",
+      "has_answer": false,
+      "confidence": 0.0,
+      "citations": [],
+      "screenshots": [],
+      "ticket_id": "tkt_263760e2",
+      "model_used": "deterministic_grounded",
+      "fallback_used": true,
+      "generation_error": null
+    },
+    "human_notes": ""
+  },
+  "ui_4b7450b231": {
+    "email_id": "ui_4b7450b231",
+    "sender": "customer@example.test",
+    "subject": "Question about my website",
+    "body": "how to add this file or",
+    "category": "product_support",
+    "original_draft": "Based on the Brilliant Directories documentation for **How To Add An ads.txt File**:\n\n## How To Add An ads.txt File Link: https://support.brilliantdirectories.com/support/solutions/articles/12000040190 ## What is an ads.txt file? The use of ads.txt files is an initiative from the Interactive Advertising Bureau Tech Lab (IAB) to improve transparency in advertising. This initiative has been adopted by many of the large advertisement platforms, including Google Adsense. Installing an ads.txt file is as simple as uploading a file named ads.txt to the root of the website containing information provided by the banner / advertisement platform of choice (EG: Google Adsense). For more detailed information about the ads.txt specification, please see this page on the IAB website: https://iabtechlab.com/ads-txt/ ## How to add an ads.txt file - Navigate to Settings \u00bb Design Settings \u00bb Banner Ads \u00bb - Enter Ads.txt content : Add the required ads.txt content for this field and please allow up to 24 hours for Google and other networks to reflect this change. Once the update has been propagated the content will now be accessible at http://www.YourDomain.com/ads.txt\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174858/original/vj3sVFTPu9slJ94U1-fWk3rXYT72XgYZog.png?1629661049)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174862/original/_Mq2GhYzjo5_Vejy7PDApVErq-8XYeV6kA.png?1629661057)\n\n**Source:** [How To Add An ads.txt File](https://support.brilliantdirectories.com/support/solutions/articles/12000040190-how-to-add-an-ads-txt-file) (Category: Settings > Design Settings)\n\nPlease reply if you need further help.",
+    "final_reply": null,
+    "status": "draft",
+    "created_at": 1792364057.4109023,
+    "provider": "groq",
+    "model_used": "mixtral-8x7b-32768",
+    "provider_error": "HTTPStatusError: Client error '400 Bad Request' for url 'https://api.groq.com/openai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "requires_human": false,
+    "knowledge": {
+      "query": "Question about my website\nhow to add this file or",
+      "answer": "Based on the Brilliant Directories documentation for **How To Add An ads.txt File**:\n\n## How To Add An ads.txt File Link: https://support.brilliantdirectories.com/support/solutions/articles/12000040190 ## What is an ads.txt file? The use of ads.txt files is an initiative from the Interactive Advertising Bureau Tech Lab (IAB) to improve transparency in advertising. This initiative has been adopted by many of the large advertisement platforms, including Google Adsense. Installing an ads.txt file is as simple as uploading a file named ads.txt to the root of the website containing information provided by the banner / advertisement platform of choice (EG: Google Adsense). For more detailed information about the ads.txt specification, please see this page on the IAB website: https://iabtechlab.com/ads-txt/ ## How to add an ads.txt file - Navigate to Settings \u00bb Design Settings \u00bb Banner Ads \u00bb - Enter Ads.txt content : Add the required ads.txt content for this field and please allow up to 24 hours for Google and other networks to reflect this change. Once the update has been propagated the content will now be accessible at http://www.YourDomain.com/ads.txt\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174858/original/vj3sVFTPu9slJ94U1-fWk3rXYT72XgYZog.png?1629661049)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174862/original/_Mq2GhYzjo5_Vejy7PDApVErq-8XYeV6kA.png?1629661057)\n\n**Source:** [How To Add An ads.txt File](https://support.brilliantdirectories.com/support/solutions/articles/12000040190-how-to-add-an-ads-txt-file) (Category: Settings > Design Settings)",
+      "has_answer": true,
+      "confidence": 0.75,
+      "citations": [
+        {
+          "article_id": "12000040190",
+          "title": "How To Add An ads.txt File",
+          "category": "Settings",
+          "folder": "Design Settings",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000040190-how-to-add-an-ads-txt-file",
+          "relevance_score": 0.5143
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174858/original/vj3sVFTPu9slJ94U1-fWk3rXYT72XgYZog.png?1629661049",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12097174862/original/_Mq2GhYzjo5_Vejy7PDApVErq-8XYeV6kA.png?1629661057"
+      ],
+      "ticket_id": null,
+      "model_used": "deterministic_grounded",
+      "fallback_used": true,
+      "generation_error": "Anthropic account has insufficient credits or a billing issue"
+    }
+  },
+  "ui_0a2ddf45c5": {
+    "email_id": "ui_0a2ddf45c5",
+    "sender": "customer@example.test",
+    "subject": "Question about my website",
+    "body": "Please explain how to create and manage email accounts.",
+    "category": "product_support",
+    "original_draft": "Based on the Brilliant Directories documentation for **Emails \u00bb Email Accounts**:\n\n## Emails \u00bb Email Accounts Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363 Email accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly. ## Before starting - Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. - Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them. ## Open the email accounts - In the admin, open Emails . - Click Email Accounts . - Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered. Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2). ## Create and manage mailboxes On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings \u00bb Domain Manager \u00bb Mailboxes and Email Routing . Generic addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice. ## When the previous Email Accounts page appears The previous Manage Email Accounts page still opens in two cases: - The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . - The administrator's role does not include access to the Domain Manager's Mailboxes tab. On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1). ## Additional notes - Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. - To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600)\n\n**Source:** [Emails \u00bb Email Accounts](https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts) (Category: Emails > Email Accounts)\n\nPlease reply if you need further help.",
+    "final_reply": null,
+    "status": "draft",
+    "created_at": 1792364069.7132404,
+    "provider": "groq",
+    "model_used": "mixtral-8x7b-32768",
+    "provider_error": "HTTPStatusError: Client error '400 Bad Request' for url 'https://api.groq.com/openai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "requires_human": false,
+    "knowledge": {
+      "query": "Question about my website\nPlease explain how to create and manage email accounts.",
+      "answer": "Based on the Brilliant Directories documentation for **Emails \u00bb Email Accounts**:\n\n## Emails \u00bb Email Accounts Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363 Email accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly. ## Before starting - Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. - Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them. ## Open the email accounts - In the admin, open Emails . - Click Email Accounts . - Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered. Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2). ## Create and manage mailboxes On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings \u00bb Domain Manager \u00bb Mailboxes and Email Routing . Generic addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice. ## When the previous Email Accounts page appears The previous Manage Email Accounts page still opens in two cases: - The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . - The administrator's role does not include access to the Domain Manager's Mailboxes tab. On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1). ## Additional notes - Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. - To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600)\n\n**Source:** [Emails \u00bb Email Accounts](https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts) (Category: Emails > Email Accounts)",
+      "has_answer": true,
+      "confidence": 0.8333,
+      "citations": [
+        {
+          "article_id": "5000558363",
+          "title": "Emails \u00bb Email Accounts",
+          "category": "Emails",
+          "folder": "Email Accounts",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts",
+          "relevance_score": 0.5994
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600"
+      ],
+      "ticket_id": null,
+      "model_used": "deterministic_grounded",
+      "fallback_used": true,
+      "generation_error": "Anthropic account has insufficient credits or a billing issue"
+    }
+  },
+  "ui_2b3d53a520": {
+    "email_id": "ui_2b3d53a520",
+    "sender": "customer@example.test",
+    "subject": "Creating an email account",
+    "body": "Hi, I want to create a support email address for my website. Can you explain how to set it up?",
+    "category": "product_support",
+    "original_draft": "Based on the Brilliant Directories documentation for **Emails \u00bb Email Accounts**:\n\n## Emails \u00bb Email Accounts Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363 Email accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly. ## Before starting - Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. - Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them. ## Open the email accounts - In the admin, open Emails . - Click Email Accounts . - Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered. Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2). ## Create and manage mailboxes On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings \u00bb Domain Manager \u00bb Mailboxes and Email Routing . Generic addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice. ## When the previous Email Accounts page appears The previous Manage Email Accounts page still opens in two cases: - The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . - The administrator's role does not include access to the Domain Manager's Mailboxes tab. On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1). ## Additional notes - Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. - To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600)\n\n**Source:** [Emails \u00bb Email Accounts](https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts) (Category: Emails > Email Accounts)\n\nPlease reply if you need further help.",
+    "final_reply": null,
+    "status": "draft",
+    "created_at": 1792364520.757967,
+    "provider": "groq",
+    "model_used": "mixtral-8x7b-32768",
+    "provider_error": "HTTPStatusError: Client error '400 Bad Request' for url 'https://api.groq.com/openai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "requires_human": false,
+    "knowledge": {
+      "query": "Creating an email account\nHi, I want to create a support email address for my website. Can you explain how to set it up?",
+      "answer": "Based on the Brilliant Directories documentation for **Emails \u00bb Email Accounts**:\n\n## Emails \u00bb Email Accounts Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363 Email accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly. ## Before starting - Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. - Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them. ## Open the email accounts - In the admin, open Emails . - Click Email Accounts . - Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered. Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2). ## Create and manage mailboxes On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings \u00bb Domain Manager \u00bb Mailboxes and Email Routing . Generic addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice. ## When the previous Email Accounts page appears The previous Manage Email Accounts page still opens in two cases: - The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . - The administrator's role does not include access to the Domain Manager's Mailboxes tab. On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1). ## Additional notes - Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. - To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600)\n\n**Source:** [Emails \u00bb Email Accounts](https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts) (Category: Emails > Email Accounts)",
+      "has_answer": true,
+      "confidence": 0.75,
+      "citations": [
+        {
+          "article_id": "5000558363",
+          "title": "Emails \u00bb Email Accounts",
+          "category": "Emails",
+          "folder": "Email Accounts",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts",
+          "relevance_score": 0.6432
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600"
+      ],
+      "ticket_id": null,
+      "model_used": "deterministic_grounded",
+      "fallback_used": true,
+      "generation_error": "Anthropic account has insufficient credits or a billing issue"
+    }
+  },
+  "ui_4dee6661ee": {
+    "email_id": "ui_4dee6661ee",
+    "sender": "customer@example.test",
+    "subject": "equest for a refund",
+    "body": "Hello, I am unhappy with the service and want a full refund immediately. Please confirm that you will refund me today.",
+    "category": "refund_request",
+    "original_draft": "Based on the Brilliant Directories documentation for **How to Cancel a Brilliant Directories Subscription**:\n\nCloses the cancellation flow and keeps the subscription active. - I Still Want to Cancel: Continues to the cancellation confirmation screen. ### Choose When the Cancellation Takes Effect The Cancel Subscription window allows the account owner to choose when the cancellation should take effect. The available cancellation options are: - At the end of the billing cycle: The website stays online until the listed billing date. No future charges are made after the paid billing cycle ends. - Immediately: The website goes offline immediately. Email and all connections stop working immediately. The selected option controls when the cancellation takes effect. ### What Happens When a Subscription Is Canceled The Cancel Subscription window explains what happens when a website subscription is canceled. - The subscription is marked Cancelled and the website will be suspended. - All add-ons and extra resources are canceled alongside the subscription. - After 30 days of suspension, the website is archived for long-term backup storage. - The website subscription can be reactivated within the 30-day window. Review these details carefully before confirming the cancellation request. ### Confirm the Cancellation The cancellation form requires a reason for cancellation and a typed confirmation before the final cancellation button becomes available. - Select when the cancellation should take effect. - Review the details in the What cancellation does section. - Enter the reason for cancellation in the available field. - Type CANCEL in the confirmation field. - Click the final cancellation button. The final confirmation button may show: - Cancel at End of Cycle - Cancel Now The subscription is not canceled until the final cancellation button is clicked. Click Keep Subscription to exit the cancellation flow and keep the subscription active. ## Billing History Tab The Billing History tab displays invoices connected to the account. Invoice records can include: - Invoice date - Description - Website name and Site ID - Status - Amount - View invoice option - Download invoice option ## Search and Filter Billing History The Billing History tab includes tools to search and filter invoice records. Available billing history filters include: - Search invoices: Search billing records by invoice-related details. - All Sites: Filter invoices by website. - All Status: Filter invoices by invoice status. The website filter can be used to view invoices for all websites or a specific website connected to the account. The status filter can include: - All Status - Paid - Past Due - Failed - Refunded ## View Invoice Details The eye icon opens the invoice details window for the selected invoice. - Go to the Billing History tab. - Locate the invoice that needs to be reviewed. - Click the eye icon on the right side of the invoice row. The Invoice Details window can include: - Invoice number - Due date - Description - Status - Payment method - Total due - Download option ## Download an Invoice Invoices can be downloaded from the Billing History tab or from the Invoice Details window. - Go to the Billing History tab. - Locate the invoice that needs to be downloaded. - Click the download icon on the right side of the invoice row. A PDF copy of the invoice will open or download depending on the browser settings.\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963)\n\n**Source:** [How to Cancel a Brilliant Directories Subscription](https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription) (Category: Dashboard Overview > Dashboard Links & Modules)\n\nPlease reply if you need further help.",
+    "final_reply": null,
+    "status": "draft",
+    "created_at": 1792366169.5278428,
+    "provider": "fallback",
+    "model_used": "deterministic_fallback",
+    "provider_error": "HTTPStatusError: Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "requires_human": true,
+    "knowledge": {
+      "query": "equest for a refund\nHello, I am unhappy with the service and want a full refund immediately. Please confirm that you will refund me today.",
+      "answer": "Based on the Brilliant Directories documentation for **How to Cancel a Brilliant Directories Subscription**:\n\nCloses the cancellation flow and keeps the subscription active. - I Still Want to Cancel: Continues to the cancellation confirmation screen. ### Choose When the Cancellation Takes Effect The Cancel Subscription window allows the account owner to choose when the cancellation should take effect. The available cancellation options are: - At the end of the billing cycle: The website stays online until the listed billing date. No future charges are made after the paid billing cycle ends. - Immediately: The website goes offline immediately. Email and all connections stop working immediately. The selected option controls when the cancellation takes effect. ### What Happens When a Subscription Is Canceled The Cancel Subscription window explains what happens when a website subscription is canceled. - The subscription is marked Cancelled and the website will be suspended. - All add-ons and extra resources are canceled alongside the subscription. - After 30 days of suspension, the website is archived for long-term backup storage. - The website subscription can be reactivated within the 30-day window. Review these details carefully before confirming the cancellation request. ### Confirm the Cancellation The cancellation form requires a reason for cancellation and a typed confirmation before the final cancellation button becomes available. - Select when the cancellation should take effect. - Review the details in the What cancellation does section. - Enter the reason for cancellation in the available field. - Type CANCEL in the confirmation field. - Click the final cancellation button. The final confirmation button may show: - Cancel at End of Cycle - Cancel Now The subscription is not canceled until the final cancellation button is clicked. Click Keep Subscription to exit the cancellation flow and keep the subscription active. ## Billing History Tab The Billing History tab displays invoices connected to the account. Invoice records can include: - Invoice date - Description - Website name and Site ID - Status - Amount - View invoice option - Download invoice option ## Search and Filter Billing History The Billing History tab includes tools to search and filter invoice records. Available billing history filters include: - Search invoices: Search billing records by invoice-related details. - All Sites: Filter invoices by website. - All Status: Filter invoices by invoice status. The website filter can be used to view invoices for all websites or a specific website connected to the account. The status filter can include: - All Status - Paid - Past Due - Failed - Refunded ## View Invoice Details The eye icon opens the invoice details window for the selected invoice. - Go to the Billing History tab. - Locate the invoice that needs to be reviewed. - Click the eye icon on the right side of the invoice row. The Invoice Details window can include: - Invoice number - Due date - Description - Status - Payment method - Total due - Download option ## Download an Invoice Invoices can be downloaded from the Billing History tab or from the Invoice Details window. - Go to the Billing History tab. - Locate the invoice that needs to be downloaded. - Click the download icon on the right side of the invoice row. A PDF copy of the invoice will open or download depending on the browser settings.\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963)\n\n**Source:** [How to Cancel a Brilliant Directories Subscription](https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription) (Category: Dashboard Overview > Dashboard Links & Modules)",
+      "has_answer": true,
+      "confidence": 0.4167,
+      "citations": [
+        {
+          "article_id": "12000109071",
+          "title": "How to Cancel a Brilliant Directories Subscription",
+          "category": "Dashboard Overview",
+          "folder": "Dashboard Links & Modules",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription",
+          "relevance_score": 0.3835
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181581018/original/w8Ies3P3Ob2uuTb47EZ5ecXQSKS_6mEd5w.png?1783377031",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/d"
+      ],
+      "ticket_id": null,
+      "model_used": "deterministic_grounded",
+      "fallback_used": true,
+      "generation_error": "Anthropic account has insufficient credits or a billing issue"
+    }
+  },
+  "ui_fd987b950a": {
+    "email_id": "ui_fd987b950a",
+    "sender": "customer@example.test",
+    "subject": "equest for a refund",
+    "body": "Hello, I am unhappy with the service and want a full refund immediately. Please confirm that you will refund me today.",
+    "category": "refund_request",
+    "original_draft": "Based on the Brilliant Directories documentation for **How to Cancel a Brilliant Directories Subscription**:\n\nCloses the cancellation flow and keeps the subscription active. - I Still Want to Cancel: Continues to the cancellation confirmation screen. ### Choose When the Cancellation Takes Effect The Cancel Subscription window allows the account owner to choose when the cancellation should take effect. The available cancellation options are: - At the end of the billing cycle: The website stays online until the listed billing date. No future charges are made after the paid billing cycle ends. - Immediately: The website goes offline immediately. Email and all connections stop working immediately. The selected option controls when the cancellation takes effect. ### What Happens When a Subscription Is Canceled The Cancel Subscription window explains what happens when a website subscription is canceled. - The subscription is marked Cancelled and the website will be suspended. - All add-ons and extra resources are canceled alongside the subscription. - After 30 days of suspension, the website is archived for long-term backup storage. - The website subscription can be reactivated within the 30-day window. Review these details carefully before confirming the cancellation request. ### Confirm the Cancellation The cancellation form requires a reason for cancellation and a typed confirmation before the final cancellation button becomes available. - Select when the cancellation should take effect. - Review the details in the What cancellation does section. - Enter the reason for cancellation in the available field. - Type CANCEL in the confirmation field. - Click the final cancellation button. The final confirmation button may show: - Cancel at End of Cycle - Cancel Now The subscription is not canceled until the final cancellation button is clicked. Click Keep Subscription to exit the cancellation flow and keep the subscription active. ## Billing History Tab The Billing History tab displays invoices connected to the account. Invoice records can include: - Invoice date - Description - Website name and Site ID - Status - Amount - View invoice option - Download invoice option ## Search and Filter Billing History The Billing History tab includes tools to search and filter invoice records. Available billing history filters include: - Search invoices: Search billing records by invoice-related details. - All Sites: Filter invoices by website. - All Status: Filter invoices by invoice status. The website filter can be used to view invoices for all websites or a specific website connected to the account. The status filter can include: - All Status - Paid - Past Due - Failed - Refunded ## View Invoice Details The eye icon opens the invoice details window for the selected invoice. - Go to the Billing History tab. - Locate the invoice that needs to be reviewed. - Click the eye icon on the right side of the invoice row. The Invoice Details window can include: - Invoice number - Due date - Description - Status - Payment method - Total due - Download option ## Download an Invoice Invoices can be downloaded from the Billing History tab or from the Invoice Details window. - Go to the Billing History tab. - Locate the invoice that needs to be downloaded. - Click the download icon on the right side of the invoice row. A PDF copy of the invoice will open or download depending on the browser settings.\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963)\n\n**Source:** [How to Cancel a Brilliant Directories Subscription](https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription) (Category: Dashboard Overview > Dashboard Links & Modules)\n\nPlease reply if you need further help.",
+    "final_reply": null,
+    "status": "draft",
+    "created_at": 1792366181.350163,
+    "provider": "fallback",
+    "model_used": "deterministic_fallback",
+    "provider_error": "HTTPStatusError: Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "requires_human": true,
+    "knowledge": {
+      "query": "equest for a refund\nHello, I am unhappy with the service and want a full refund immediately. Please confirm that you will refund me today.",
+      "answer": "Based on the Brilliant Directories documentation for **How to Cancel a Brilliant Directories Subscription**:\n\nCloses the cancellation flow and keeps the subscription active. - I Still Want to Cancel: Continues to the cancellation confirmation screen. ### Choose When the Cancellation Takes Effect The Cancel Subscription window allows the account owner to choose when the cancellation should take effect. The available cancellation options are: - At the end of the billing cycle: The website stays online until the listed billing date. No future charges are made after the paid billing cycle ends. - Immediately: The website goes offline immediately. Email and all connections stop working immediately. The selected option controls when the cancellation takes effect. ### What Happens When a Subscription Is Canceled The Cancel Subscription window explains what happens when a website subscription is canceled. - The subscription is marked Cancelled and the website will be suspended. - All add-ons and extra resources are canceled alongside the subscription. - After 30 days of suspension, the website is archived for long-term backup storage. - The website subscription can be reactivated within the 30-day window. Review these details carefully before confirming the cancellation request. ### Confirm the Cancellation The cancellation form requires a reason for cancellation and a typed confirmation before the final cancellation button becomes available. - Select when the cancellation should take effect. - Review the details in the What cancellation does section. - Enter the reason for cancellation in the available field. - Type CANCEL in the confirmation field. - Click the final cancellation button. The final confirmation button may show: - Cancel at End of Cycle - Cancel Now The subscription is not canceled until the final cancellation button is clicked. Click Keep Subscription to exit the cancellation flow and keep the subscription active. ## Billing History Tab The Billing History tab displays invoices connected to the account. Invoice records can include: - Invoice date - Description - Website name and Site ID - Status - Amount - View invoice option - Download invoice option ## Search and Filter Billing History The Billing History tab includes tools to search and filter invoice records. Available billing history filters include: - Search invoices: Search billing records by invoice-related details. - All Sites: Filter invoices by website. - All Status: Filter invoices by invoice status. The website filter can be used to view invoices for all websites or a specific website connected to the account. The status filter can include: - All Status - Paid - Past Due - Failed - Refunded ## View Invoice Details The eye icon opens the invoice details window for the selected invoice. - Go to the Billing History tab. - Locate the invoice that needs to be reviewed. - Click the eye icon on the right side of the invoice row. The Invoice Details window can include: - Invoice number - Due date - Description - Status - Payment method - Total due - Download option ## Download an Invoice Invoices can be downloaded from the Billing History tab or from the Invoice Details window. - Go to the Billing History tab. - Locate the invoice that needs to be downloaded. - Click the download icon on the right side of the invoice row. A PDF copy of the invoice will open or download depending on the browser settings.\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963)\n\n**Source:** [How to Cancel a Brilliant Directories Subscription](https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription) (Category: Dashboard Overview > Dashboard Links & Modules)",
+      "has_answer": true,
+      "confidence": 0.4167,
+      "citations": [
+        {
+          "article_id": "12000109071",
+          "title": "How to Cancel a Brilliant Directories Subscription",
+          "category": "Dashboard Overview",
+          "folder": "Dashboard Links & Modules",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription",
+          "relevance_score": 0.3835
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181581018/original/w8Ies3P3Ob2uuTb47EZ5ecXQSKS_6mEd5w.png?1783377031",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/d"
+      ],
+      "ticket_id": null,
+      "model_used": "deterministic_grounded",
+      "fallback_used": true,
+      "generation_error": "Anthropic account has insufficient credits or a billing issue"
+    }
+  },
+  "ui_1ed11c74f2": {
+    "email_id": "ui_1ed11c74f2",
+    "sender": "customer@example.test",
+    "subject": "equest for a refund",
+    "body": "Hello, I am unhappy with the service and want a full refund immediately. Please confirm that you will refund me today.",
+    "category": "refund_request",
+    "original_draft": "Based on the Brilliant Directories documentation for **How to Cancel a Brilliant Directories Subscription**:\n\nCloses the cancellation flow and keeps the subscription active. - I Still Want to Cancel: Continues to the cancellation confirmation screen. ### Choose When the Cancellation Takes Effect The Cancel Subscription window allows the account owner to choose when the cancellation should take effect. The available cancellation options are: - At the end of the billing cycle: The website stays online until the listed billing date. No future charges are made after the paid billing cycle ends. - Immediately: The website goes offline immediately. Email and all connections stop working immediately. The selected option controls when the cancellation takes effect. ### What Happens When a Subscription Is Canceled The Cancel Subscription window explains what happens when a website subscription is canceled. - The subscription is marked Cancelled and the website will be suspended. - All add-ons and extra resources are canceled alongside the subscription. - After 30 days of suspension, the website is archived for long-term backup storage. - The website subscription can be reactivated within the 30-day window. Review these details carefully before confirming the cancellation request. ### Confirm the Cancellation The cancellation form requires a reason for cancellation and a typed confirmation before the final cancellation button becomes available. - Select when the cancellation should take effect. - Review the details in the What cancellation does section. - Enter the reason for cancellation in the available field. - Type CANCEL in the confirmation field. - Click the final cancellation button. The final confirmation button may show: - Cancel at End of Cycle - Cancel Now The subscription is not canceled until the final cancellation button is clicked. Click Keep Subscription to exit the cancellation flow and keep the subscription active. ## Billing History Tab The Billing History tab displays invoices connected to the account. Invoice records can include: - Invoice date - Description - Website name and Site ID - Status - Amount - View invoice option - Download invoice option ## Search and Filter Billing History The Billing History tab includes tools to search and filter invoice records. Available billing history filters include: - Search invoices: Search billing records by invoice-related details. - All Sites: Filter invoices by website. - All Status: Filter invoices by invoice status. The website filter can be used to view invoices for all websites or a specific website connected to the account. The status filter can include: - All Status - Paid - Past Due - Failed - Refunded ## View Invoice Details The eye icon opens the invoice details window for the selected invoice. - Go to the Billing History tab. - Locate the invoice that needs to be reviewed. - Click the eye icon on the right side of the invoice row. The Invoice Details window can include: - Invoice number - Due date - Description - Status - Payment method - Total due - Download option ## Download an Invoice Invoices can be downloaded from the Billing History tab or from the Invoice Details window. - Go to the Billing History tab. - Locate the invoice that needs to be downloaded. - Click the download icon on the right side of the invoice row. A PDF copy of the invoice will open or download depending on the browser settings.\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963)\n\n**Source:** [How to Cancel a Brilliant Directories Subscription](https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription) (Category: Dashboard Overview > Dashboard Links & Modules)\n\nPlease reply if you need further help.",
+    "final_reply": null,
+    "status": "draft",
+    "created_at": 1792366441.1129463,
+    "provider": "fallback",
+    "model_used": "deterministic_fallback",
+    "provider_error": "HTTPStatusError: Client error '400 Bad Request' for url 'https://api.anthropic.com/v1/messages'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400",
+    "requires_human": true,
+    "knowledge": {
+      "query": "equest for a refund\nHello, I am unhappy with the service and want a full refund immediately. Please confirm that you will refund me today.",
+      "answer": "Based on the Brilliant Directories documentation for **How to Cancel a Brilliant Directories Subscription**:\n\nCloses the cancellation flow and keeps the subscription active. - I Still Want to Cancel: Continues to the cancellation confirmation screen. ### Choose When the Cancellation Takes Effect The Cancel Subscription window allows the account owner to choose when the cancellation should take effect. The available cancellation options are: - At the end of the billing cycle: The website stays online until the listed billing date. No future charges are made after the paid billing cycle ends. - Immediately: The website goes offline immediately. Email and all connections stop working immediately. The selected option controls when the cancellation takes effect. ### What Happens When a Subscription Is Canceled The Cancel Subscription window explains what happens when a website subscription is canceled. - The subscription is marked Cancelled and the website will be suspended. - All add-ons and extra resources are canceled alongside the subscription. - After 30 days of suspension, the website is archived for long-term backup storage. - The website subscription can be reactivated within the 30-day window. Review these details carefully before confirming the cancellation request. ### Confirm the Cancellation The cancellation form requires a reason for cancellation and a typed confirmation before the final cancellation button becomes available. - Select when the cancellation should take effect. - Review the details in the What cancellation does section. - Enter the reason for cancellation in the available field. - Type CANCEL in the confirmation field. - Click the final cancellation button. The final confirmation button may show: - Cancel at End of Cycle - Cancel Now The subscription is not canceled until the final cancellation button is clicked. Click Keep Subscription to exit the cancellation flow and keep the subscription active. ## Billing History Tab The Billing History tab displays invoices connected to the account. Invoice records can include: - Invoice date - Description - Website name and Site ID - Status - Amount - View invoice option - Download invoice option ## Search and Filter Billing History The Billing History tab includes tools to search and filter invoice records. Available billing history filters include: - Search invoices: Search billing records by invoice-related details. - All Sites: Filter invoices by website. - All Status: Filter invoices by invoice status. The website filter can be used to view invoices for all websites or a specific website connected to the account. The status filter can include: - All Status - Paid - Past Due - Failed - Refunded ## View Invoice Details The eye icon opens the invoice details window for the selected invoice. - Go to the Billing History tab. - Locate the invoice that needs to be reviewed. - Click the eye icon on the right side of the invoice row. The Invoice Details window can include: - Invoice number - Due date - Description - Status - Payment method - Total due - Download option ## Download an Invoice Invoices can be downloaded from the Billing History tab or from the Invoice Details window. - Go to the Billing History tab. - Locate the invoice that needs to be downloaded. - Click the download icon on the right side of the invoice row. A PDF copy of the invoice will open or download depending on the browser settings.\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963)\n\n**Source:** [How to Cancel a Brilliant Directories Subscription](https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription) (Category: Dashboard Overview > Dashboard Links & Modules)",
+      "has_answer": true,
+      "confidence": 0.4167,
+      "citations": [
+        {
+          "article_id": "12000109071",
+          "title": "How to Cancel a Brilliant Directories Subscription",
+          "category": "Dashboard Overview",
+          "folder": "Dashboard Links & Modules",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription",
+          "relevance_score": 0.3835
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580156/original/nWKmIcUAKoDOcvrQhK03LYGtJoBzPqIb8Q.png?1783375865",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181580976/original/S1unhIhP8mO2vJf8mgAIkyjQEkQi9HL8jg.png?1783376963",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12181581018/original/w8Ies3P3Ob2uuTb47EZ5ecXQSKS_6mEd5w.png?1783377031",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/d"
+      ],
+      "ticket_id": null,
+      "model_used": "deterministic_grounded",
+      "fallback_used": true,
+      "generation_error": "Anthropic account has insufficient credits or a billing issue"
+    }
+  },
+  "ui_289dd911f2": {
+    "email_id": "ui_289dd911f2",
+    "sender": "customer@example.test",
+    "subject": "Classify as Refund/Complaint",
+    "body": "Hey, I need a refund on my last billing cycle. I cancelled my subscription two weeks ago but was charged anyway. Thanks, Sarah.\"",
+    "category": "refund_request",
+    "original_draft": "Subject: Re: Refund Request\n\nHi Sarah,\n\nThank you for reaching out. I\u2019m sorry to hear about the unexpected charge. I\u2019ll forward your request to our billing specialist so they can review the details of your account and the recent cancellation. They will get back to you shortly with next steps.\n\nIf you have any additional information or documentation that might help, please feel free to reply to this email.\n\nThank you for your patience.\n\nBest regards,  \n[Your Name]  \nCustomer Support Team",
+    "final_reply": null,
+    "status": "draft",
+    "created_at": 1792368341.7961237,
+    "provider": "groq",
+    "model_used": "openai/gpt-oss-20b",
+    "provider_error": null,
+    "requires_human": true,
+    "knowledge": {
+      "query": "Classify as Refund/Complaint\nHey, I need a refund on my last billing cycle. I cancelled my subscription two weeks ago but was charged anyway. Thanks, Sarah.\"",
+      "answer": "**Refund**\n\n**Reasoning:**\nThe user explicitly states, \"I need a refund on my last billing cycle,\" and explains that they were charged after cancelling their subscription. While the situation involves a cancellation, the primary request and intent of the message is to recover the money charged, which classifies it as a refund request rather than a general complaint about service quality or a request for information on how to cancel.",
+      "has_answer": true,
+      "confidence": 0.3158,
+      "citations": [
+        {
+          "article_id": "5000567728",
+          "title": "How Do I Cancel Payment Subscriptions - Orders",
+          "category": "Finance",
+          "folder": "General Billing",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000567728-how-do-i-cancel-payment-subscriptions-orders",
+          "relevance_score": 0.5856
+        },
+        {
+          "article_id": "12000109071",
+          "title": "How to Cancel a Brilliant Directories Subscription",
+          "category": "Dashboard Overview",
+          "folder": "Dashboard Links & Modules",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000109071-how-to-cancel-a-brilliant-directories-subscription",
+          "relevance_score": 0.5492
+        },
+        {
+          "article_id": "12000034561",
+          "title": "Cancellations from Member's Perspective",
+          "category": "Finance",
+          "folder": "General Billing",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000034561-cancellations-from-member-s-perspective",
+          "relevance_score": 0.5373
+        },
+        {
+          "article_id": "12000046232",
+          "title": "Finance \u00bb Transaction History",
+          "category": "Finance",
+          "folder": "Transaction History",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000046232-finance-transaction-history",
+          "relevance_score": 0.5268
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415526/original/6ia92V_iAr9stLWFZGKpJ-Igx1mBxwfjjg.png?1791392557",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358465/original/x0KIu3Mkw5nhf779Sj6UtCxpn8jzkX9q1g.png?1791318465",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186367603/original/zoF3RqoBiu3SUDOk8fQn1QIDUS4NpWdcwQ.png?1791330199",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/d"
+      ],
+      "ticket_id": null,
+      "model_used": "qwen/qwen3.8-27b",
+      "fallback_used": false,
+      "generation_error": null
+    }
+  },
+  "ui_64173983bd": {
+    "email_id": "ui_64173983bd",
+    "sender": "customer@example.test",
+    "subject": "New Project Request",
+    "body": "\"Interested in your agency services. Can you build out a highly customized property marketplace directory for us?",
+    "category": "new_project_request",
+    "original_draft": "Subject: Re: New Project Request \u2013 Custom Property Marketplace Directory\n\nHi,\n\nThank you for reaching out. Based on the information available in our documentation, we can definitely help you build a highly customized property marketplace directory. Here\u2019s how we can support you:\n\n1. **Platform Customization**  \n   - The Brilliant Directories platform is designed for extensive customization. You can use our **Marketplace** to obtain free quotes from certified developers for any custom features you need, from small tweaks to full theme overhauls.  \n   - We also offer **Private Phone Training** so your team can manage the directory efficiently.\n\n2. **Membership Structure**  \n   - We recommend structuring your directory with the standard **3 Member Tiers** (Basic, Premium, Elite) to maximize value and visibility.  \n   - Each tier can be tailored with property\u2011specific benefits such as unlimited listings for Premium/Elite members, featured badges, and advanced media uploads.\n\n3. **Geographic Search & Service Areas**  \n   - The **Service Areas / Multi\u2011Location Add\u2011on** allows members to be found in multiple geographic locations.  \n   - Members can select service areas at five levels (Country, State/Province, County, City/Town, Zip/Postal Code), and the search logic ensures they appear in relevant searches across all related levels.\n\n4. **Next Steps**  \n   - Define the specific benefits for each membership tier.  \n   - Implement the Service Areas add\u2011on to support multi\u2011location listings.  \n   - Use the Marketplace to hire a certified developer for any unique custom features.  \n   - Schedule Private Training to get your team up to speed.\n\nIf you\u2019d like to discuss the details further or need assistance setting up the project, please let us know a convenient time for a brief call. We\u2019re happy to walk you through the process and connect you with the right resources.\n\nBest regards,\n\n[Your Name]  \nCustomer Success Team  \nBrilliant Directories  \nsupport@brilliantdirectories.com",
+    "final_reply": null,
+    "status": "draft",
+    "created_at": 1792370211.3267348,
+    "provider": "groq",
+    "model_used": "openai/gpt-oss-20b",
+    "provider_error": null,
+    "requires_human": true,
+    "knowledge": {
+      "query": "New Project Request\n\"Interested in your agency services. Can you build out a highly customized property marketplace directory for us?",
+      "answer": "Based on the documentation provided, here is the information regarding building a customized property marketplace directory:\n\n**1. Platform Capabilities for Customization**\nThe Brilliant Directories platform supports highly customized directory structures. You can leverage the **Marketplace** to obtain free quotes from certified developers for specific customizations, ranging from small changes to total theme makeovers. Additionally, you can book **Private Phone Training** to learn how to manage the directory and increase productivity.\n\n**2. Membership Structure for a Property Marketplace**\nYou can structure your property marketplace using the recommended **3 Member Tiers** to maximize value and visibility:\n\n*   **Basic Tier (Entry-Level):**\n    *   Suitable for new users or free members.\n    *   Features: Public directory listing with limited visibility, basic profile (logo, short bio, contact form), limited posting (e.g., 1 listing), and standard search placement (below paid members).\n    *   *Property Context:* Ideal for individual agents or small listings with limited exposure needs.\n\n*   **Premium Tier (Enhanced Visibility):**\n    *   Suitable for professionals or small businesses.\n    *   Features: Higher search placement, featured listing badge, SEO-friendly custom profile URL, full media uploads (images, video, social links), unlimited listings/events, instant leads, and custom profile layout/branding.\n    *   *Property Context:* Ideal for real estate agencies or property managers who need to showcase multiple properties with rich media and generate leads.\n\n*   **Elite Tier (Top Exposure):**\n    *   Suitable for verified professionals or large organizations.\n    *   Features: Top placement in all search results, Verified/Pro badge, featured placement on homepage/newsletters, unlimited content posting, priority/exclusive leads, analytics dashboard, ad-free profile, custom design, and ability to add team members under one account.\n    *   *Property Context:* Ideal for major real estate firms or property developers requiring maximum visibility, team management, and detailed analytics.\n\n**3. Geographic Search & Service Areas**\nFor a property marketplace, the **Service Areas / Multi-Location Add-on** is critical. It allows members to be found in locations outside their immediate physical address.\n*   **How it works:** Members can select service areas at five levels: Countries, States/Provinces, Counties, Cities/Towns, and Zip Codes/Postcodes.\n*   **Search Logic:**\n    *   If a member selects a **smaller** area (e.g., a specific Zip Code), they appear in searches for that area and all larger areas containing it (e.g., City, County, State, Country).\n    *   If a member selects a **larger** area (e.g., a State), they appear in searches for that state and **all** smaller locations within it (e.g., all cities, counties, and zip codes in that state).\n*   **Radius Searches:** Service areas can also be treated using bounds and radius settings (e.g., appearing in results if within 50 miles of the searched location).\n\n**4. Support & Resources**\n*   **Knowledge Base:** Access detailed documentation on how the software works.\n*   **Technical Support:** Submit a ticket for the fastest response or email support@brilliantdirectories.com.\n*   **Developer Marketplace:** Hire certified developers for advanced customizations.\n\n**Recommendation:**\nTo build your highly customized property marketplace, you should:\n1.  Define your three membership tiers (Basic, Premium, Elite) with property-specific benefits (e.g., unlimited property listings for Premium/Elite).\n2.  Implement the **Service Areas Add-on** to allow real estate agents and property managers to be found in multiple geographic locations.\n3.  Use the **Marketplace** to hire certified developers for any unique custom features not covered by the standard platform.\n4.  Utilize **Private Training** to ensure your team can effectively manage the directory.",
+      "has_answer": true,
+      "confidence": 0.2857,
+      "citations": [
+        {
+          "article_id": "12000106349",
+          "title": "How to Structure and Maximize Value Across 3 Member Tiers",
+          "category": "Finance",
+          "folder": "Membership Plans",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000106349-how-to-structure-and-maximize-value-across-3-member-tiers",
+          "relevance_score": 0.3999
+        },
+        {
+          "article_id": "5000649874",
+          "title": "Where To Get Help & Support",
+          "category": "Get Started Here",
+          "folder": "Using The Support Center",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/5000649874-where-to-get-help-support",
+          "relevance_score": 0.3857
+        },
+        {
+          "article_id": "12000000821",
+          "title": "All About Service areas / Multi Location Add-on",
+          "category": "Add-On Documentation",
+          "folder": "Multi-Location Listing",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000000821-all-about-service-areas-multi-location-add-on",
+          "relevance_score": 0.4107
+        }
+      ],
+      "screenshots": [
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091847806/original/QDOf6rK7sPe26ZoOiWyRlDrFRomrODTrrA.png?1619484381",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5040777085/original/blob1444343549613.png?1444343558",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12091847837/original/v2Mgyo8xgzlP2OILyXtW5z-gMrxDRVkVWw.png?1619484613",
+        "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attac"
+      ],
+      "ticket_id": null,
+      "model_used": "qwen/qwen3.8-27b",
+      "fallback_used": false,
+      "generation_error": null
+    }
+  }
+}

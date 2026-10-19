@@ -1,0 +1,132 @@
+[
+  {
+    "feedback_id": "fb_2fa60bcc9ec4",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792355987.4685838
+  },
+  {
+    "feedback_id": "fb_af15ff738eeb",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792356112.917395
+  },
+  {
+    "feedback_id": "fb_2694a1ee02ce",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792357709.712032
+  },
+  {
+    "feedback_id": "fb_e548bb140bd6",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792357850.5079985
+  },
+  {
+    "feedback_id": "fb_2bc6a99f74ba",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792357886.1712735
+  },
+  {
+    "feedback_id": "fb_4138c9cadea3",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792357955.8650093
+  },
+  {
+    "feedback_id": "fb_59c1809cc06b",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792357967.4375074
+  },
+  {
+    "feedback_id": "fb_3faa863c0923",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792360346.7343955
+  },
+  {
+    "feedback_id": "fb_8683ad56a9cf",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792365778.8609707
+  },
+  {
+    "feedback_id": "fb_f0c680cbaf0d",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792365811.1256254
+  },
+  {
+    "feedback_id": "fb_1722e307adef",
+    "email_id": "integration-support-001",
+    "category": "product_support",
+    "original_draft": "Based on the Brilliant Directories documentation for **Emails » Email Accounts**:\n\n## Emails » Email Accounts Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363 Email accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly. ## Before starting - Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. - Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them. ## Open the email accounts - In the admin, open Emails . - Click Email Accounts . - Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered. Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2). ## Create and manage mailboxes On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings » Domain Manager » Mailboxes and Email Routing . Generic addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice. ## When the previous Email Accounts page appears The previous Manage Email Accounts page still opens in two cases: - The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . - The administrator's role does not include access to the Domain Manager's Mailboxes tab. On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1). ## Additional notes - Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. - To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .\n\n**Helpful Screenshot(s):**\n- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588)\n- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600)\n\n**Source:** [Emails » Email Accounts](https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts) (Category: Emails > Email Accounts)\n\nPlease reply if you need further help.",
+    "final_reply": "Based on the documented Email Accounts article, open Emails and choose Email Accounts.",
+    "diff_summary": "--- ai_draft+++ human_final@@ -1,11 +1 @@-Based on the Brilliant Directories documentation for **Emails » Email Accounts**:\n-\n-## Emails » Email Accounts Link: https://support.brilliantdirectories.com/support/solutions/articles/5000558363 Email accounts (mailboxes) at the website's own domain, such as support@example.com , are created and managed in Settings > Domain Manager > Mailboxes . The Emails > Email Accounts menu item opens that tab directly. ## Before starting - Connect a custom domain to the website. A free directoryup.com address has no mailboxes of its own. - Confirm which provider receives the domain's email. Mailboxes on the website's hosting receive new mail only when the domain's MX records point to them. ## Open the email accounts - In the admin, open Emails . - Click Email Accounts . - Domain Manager opens on the Mailboxes tab, which lists the mailboxes, their storage use, and where the domain's email is delivered. Email Accounts in the Emails menu (1) opens Domain Manager on the Mailboxes tab (2). ## Create and manage mailboxes On the Mailboxes tab, Add a mailbox creates a new mailbox with its password and storage limit. Each mailbox in the list offers Open webmail , Set up for the settings to enter in Outlook, Apple Mail, or a phone, and More for changing the password or storage limit or deleting the mailbox. The full steps are in Settings » Domain Manager » Mailboxes and Email Routing . Generic addresses such as info@ are more often treated as spam by receiving mail systems. Addresses such as support@ , admin@ , or contact@ are usually a better choice. ## When the previous Email Accounts page appears The previous Manage Email Accounts page still opens in two cases: - The website uses a free directoryup.com address. The page explains that a live domain name must be connected before email accounts can be set up, and offers Connect Live Domain . See How to Connect a Domain to a Brilliant Directories Website . - The administrator's role does not include access to the Domain Manager's Mailboxes tab. On a free directoryup.com address, Email Accounts shows the previous page with Connect Live Domain (1). ## Additional notes - Email replies do not have a separate reply-to address. Responses go to the address that sent the original message. - To read a mailbox in the browser, see How To Access Webmail Through the Admin Area .\n-\n-**Helpful Screenshot(s):**\n-- [View UI Screenshot 1](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186415572/original/0_RFHNGWzxRNTrt3i385M8zCmScYPSCYpg.png?1791392588)\n-- [View UI Screenshot 2](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12186358595/original/8ZBIk7xdczVdG2JjzsZeChbSSdKHPbks4Q.png?1791318600)\n-\n-**Source:** [Emails » Email Accounts](https://support.brilliantdirectories.com/support/solutions/articles/5000558363-emails-email-accounts) (Category: Emails > Email Accounts)\n-\n-Please reply if you need further help.+Based on the documented Email Accounts article, open Emails and choose Email Accounts.",
+    "human_notes": "",
+    "timestamp": 1792366445.536563
+  },
+  {
+    "feedback_id": "fb_b4f16050d37e",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792367366.633493
+  },
+  {
+    "feedback_id": "fb_f1f9f7bc6489",
+    "email_id": "e1",
+    "category": "product_support",
+    "original_draft": "Documented reply",
+    "final_reply": "Documented reply",
+    "diff_summary": "",
+    "human_notes": "approved",
+    "timestamp": 1792369924.511472
+  }
+]
