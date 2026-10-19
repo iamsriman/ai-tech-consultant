@@ -119,5 +119,65 @@
     "expert_answer": null,
     "expert_name": null,
     "category": null
+  },
+  "tkt_8c7ee78f": {
+    "ticket_id": "tkt_8c7ee78f",
+    "query": "How do I create and manage email accounts?",
+    "reason": "no_relevant_documentation_found",
+    "status": "pending",
+    "created_at": "2026-10-19T03:02:53.335405",
+    "context_attempted": [],
+    "resolved_at": null,
+    "expert_answer": null,
+    "expert_name": null,
+    "category": null
+  },
+  "tkt_a083003b": {
+    "ticket_id": "tkt_a083003b",
+    "query": "How do I create and manage email accounts?",
+    "reason": "no_relevant_documentation_found",
+    "status": "pending",
+    "created_at": "2026-10-19T03:03:57.209684",
+    "context_attempted": [],
+    "resolved_at": null,
+    "expert_answer": null,
+    "expert_name": null,
+    "category": null
+  },
+  "tkt_badecee6": {
+    "ticket_id": "tkt_badecee6",
+    "query": "How do I add a new membership plan?",
+    "reason": "no_relevant_documentation_found",
+    "status": "pending",
+    "created_at": "2026-10-19T03:04:42.345548",
+    "context_attempted": [],
+    "resolved_at": null,
+    "expert_answer": null,
+    "expert_name": null,
+    "category": null
+  },
+  "tkt_fba9175c": {
+    "ticket_id": "tkt_fba9175c",
+    "query": "How do I launch a satellite into Mars orbit?",
+    "reason": "no_relevant_documentation_found",
+    "status": "pending",
+    "created_at": "2026-10-19T03:09:44.421286",
+    "context_attempted": [],
+    "resolved_at": null,
+    "expert_answer": null,
+    "expert_name": null,
+    "category": null
+  },
+  "tkt_9b160916": {
+    "ticket_id": "tkt_9b160916",
+    "query": "what is rag",
+    "reason": "no_relevant_documentation_found",
+    "status": "pending",
+    "created_at": "2026-10-19T03:44:37.809786",
+    "context_attempted": [],
+    "resolved_at": null,
+    "expert_answer": null,
+    "expert_name": null,
+    "category": null
   }
 }

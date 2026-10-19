@@ -316,8 +316,8 @@
     "body": "Hey, I need a refund on my last billing cycle. I cancelled my subscription two weeks ago but was charged anyway. Thanks, Sarah.\"",
     "category": "refund_request",
     "original_draft": "Subject: Re: Refund Request\n\nHi Sarah,\n\nThank you for reaching out. I\u2019m sorry to hear about the unexpected charge. I\u2019ll forward your request to our billing specialist so they can review the details of your account and the recent cancellation. They will get back to you shortly with next steps.\n\nIf you have any additional information or documentation that might help, please feel free to reply to this email.\n\nThank you for your patience.\n\nBest regards,  \n[Your Name]  \nCustomer Support Team",
-    "final_reply": null,
-    "status": "draft",
+    "final_reply": "Subject: Re: Refund Request\n\nHi Sarah,\n\nThank you for reaching out. I\u2019m sorry to hear about the unexpected charge. I\u2019ll forward your request to our billing specialist so they can review the details of your account and the recent cancellation. They will get back to you shortly with next steps.\n\nIf you have any additional information or documentation that might help, please feel free to reply to this email.\n\nThank you for your patience.\n\nBest regards,  \n[Your Name]  \nCustomer Support Team",
+    "status": "needs_review",
     "created_at": 1792368341.7961237,
     "provider": "groq",
     "model_used": "openai/gpt-oss-20b",
@@ -372,7 +372,8 @@
       "model_used": "qwen/qwen3.8-27b",
       "fallback_used": false,
       "generation_error": null
-    }
+    },
+    "human_notes": ""
   },
   "ui_64173983bd": {
     "email_id": "ui_64173983bd",
