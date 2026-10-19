@@ -1,0 +1,22 @@
+[
+  {"id":"t3-01","text":"We need member search and email accounts.","expected":"scope"},
+  {"id":"t3-02","text":"Build a membership website with an admin dashboard.","expected":"scope"},
+  {"id":"t3-03","text":"We have a problem with manual account management.","expected":"scope"},
+  {"id":"t3-04","text":"We need payment settings and search.","expected":"scope"},
+  {"id":"t3-05","text":"Please migrate our legacy data.","expected":"scope"},
+  {"id":"t3-06","text":"We want a mobile application too.","expected":"scope"},
+  {"id":"t3-07","text":"The deadline is by the end of quarter.","expected":"scope"},
+  {"id":"t3-08","text":"Our budget is $20,000.","expected":"scope"},
+  {"id":"t3-09","text":"We need member search but no roles were discussed.","expected":"clarification"},
+  {"id":"t3-10","text":"We need email functionality and an admin dashboard.","expected":"scope"},
+  {"id":"t3-11","text":"The project should use existing settings where possible.","expected":"scope"},
+  {"id":"t3-12","text":"We need a custom integration.","expected":"scope"},
+  {"id":"t3-13","text":"We want a portal and search.","expected":"scope"},
+  {"id":"t3-14","text":"We need to understand the current issue.","expected":"clarification"},
+  {"id":"t3-15","text":"We want reports and member management.","expected":"scope"},
+  {"id":"t3-16","text":"We need a new deadline and data migration.","expected":"scope"},
+  {"id":"t3-17","previous":"The client wants member search.","text":"The client now requires a custom mobile application.","expected":"change"},
+  {"id":"t3-18","previous":"The client wants member search.","text":"The client now requires data migration.","expected":"change"},
+  {"id":"t3-19","text":"Pricing was not discussed.","expected":"pending"},
+  {"id":"t3-20","text":"Please prepare a proposal for review.","expected":"proposal"}
+]
