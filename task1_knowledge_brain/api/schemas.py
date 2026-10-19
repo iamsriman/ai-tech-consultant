@@ -113,3 +113,5 @@ class HealthResponse(BaseModel):
     pending_tickets_count: int
     resolved_tickets_count: int
     chroma_db_healthy: bool
+    # Additive field: keep the legacy health key while identifying the active backend.
+    vector_store_backend: str = "chroma"

@@ -10,6 +10,12 @@ services:
         sync: false
       - key: GROQ_API_KEY
         sync: false
+      - key: TASK1_VECTOR_BACKEND
+        value: qdrant
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
       - key: LLM_PROVIDER
         value: claude
       - key: ANTHROPIC_MODEL

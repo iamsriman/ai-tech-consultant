@@ -13,6 +13,7 @@ import chromadb
 from chromadb.config import Settings
 
 from .chunker import DocumentChunk
+from task1_knowledge_brain.config import load_project_environment
 
 logger = logging.getLogger(__name__)
 
@@ -64,6 +65,24 @@ class BDVectorStore:
             db_path: Optional path to the ChromaDB directory. If omitted,
                 defaults to the canonical location ``DEFAULT_CHROMA_DIR``.
         """
+        # Load repository settings before choosing a backend. Explicit process
+        # environment values still take precedence over .env.
+        load_project_environment()
+        backend = os.environ.get("TASK1_VECTOR_BACKEND", "chroma").strip().lower()
+        if backend not in {"chroma", "qdrant"}:
+            raise ValueError("TASK1_VECTOR_BACKEND must be either 'chroma' or 'qdrant'.")
+        self.backend_name = backend
+        self._qdrant_store = None
+        if backend == "qdrant":
+            # Qdrant runtime initialization validates an existing collection;
+            # it never creates an empty remote collection as a fallback.
+            from .qdrant_vector_store import QdrantVectorStore
+
+            self._qdrant_store = QdrantVectorStore()
+            self.client = self._qdrant_store.client
+            self.collection = None
+            return
+
         storage_path = Path(db_path) if db_path else DEFAULT_CHROMA_DIR
         storage_path.mkdir(parents=True, exist_ok=True)
         # Chroma 1.x selects its SQLite/Rust persistence backend from the path.
@@ -87,6 +106,9 @@ class BDVectorStore:
         """
         if not chunks:
             return 0
+
+        if self._qdrant_store is not None:
+            return self._qdrant_store.add_chunks(chunks, batch_size=batch_size)
 
         total_added = 0
         for i in range(0, len(chunks), batch_size):
@@ -132,6 +154,13 @@ class BDVectorStore:
         # Ensure n_results does not exceed collection count
         if n_results < 1 or not query_text.strip():
             return []
+        if self._qdrant_store is not None:
+            return self._qdrant_store.query(
+                query_text=query_text,
+                n_results=n_results,
+                category_filter=category_filter,
+                article_id_filter=article_id_filter,
+            )
         count = self.collection.count()
         if count == 0:
             return []
@@ -183,6 +212,8 @@ class BDVectorStore:
         Deletes all chunks belonging to an article ID.
         Used when an article is removed from the documentation sitemap.
         """
+        if self._qdrant_store is not None:
+            return self._qdrant_store.delete_article(article_id)
         try:
             self.collection.delete(where={"article_id": str(article_id)})
             logger.info(f"Deleted chunks for article_id={article_id} from vector store.")
@@ -193,10 +224,30 @@ class BDVectorStore:
 
     def count(self) -> int:
         """Returns total number of chunks stored."""
+        if self._qdrant_store is not None:
+            return self._qdrant_store.count()
         return self.collection.count()
+
+    def get_chunk_ids_for_article(self, article_id: str) -> List[str]:
+        """Return original chunk IDs for an article, independent of backend."""
+        if self._qdrant_store is not None:
+            return self._qdrant_store.get_chunk_ids_for_article(article_id)
+        result = self.collection.get(where={"article_id": str(article_id)}, include=[])
+        return list(result.get("ids", []))
+
+    def delete_chunk_ids(self, chunk_ids: List[str]) -> int:
+        """Delete original chunk IDs, independent of backend."""
+        if not chunk_ids:
+            return 0
+        if self._qdrant_store is not None:
+            return self._qdrant_store.delete_chunk_ids(chunk_ids)
+        self.collection.delete(ids=chunk_ids)
+        return len(chunk_ids)
 
     def reset(self) -> None:
         """Clears all vectors in the collection."""
+        if self._qdrant_store is not None:
+            raise RuntimeError("Reset is disabled for the remote Qdrant backend to protect stored knowledge.")
         self.client.delete_collection(COLLECTION_NAME)
         self.collection = self.client.get_or_create_collection(
             name=COLLECTION_NAME,

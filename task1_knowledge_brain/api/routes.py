@@ -195,4 +195,5 @@ def health_check():
         pending_tickets_count=pending,
         resolved_tickets_count=resolved,
         chroma_db_healthy=db_healthy,
+        vector_store_backend=getattr(vector_store, "backend_name", "chroma"),
     )

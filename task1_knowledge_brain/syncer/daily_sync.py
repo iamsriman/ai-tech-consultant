@@ -110,11 +110,20 @@ class DailySitemapSyncer:
                     raise ValueError("replacement article yielded no indexable chunks")
                 # Commit replacement first; preserve old vectors on any crawl/chunk failure.
                 self.vector_store.add_chunks(chunks)
-                current = self.vector_store.collection.get(where={"article_id": article_id}, include=[])
+                get_ids = getattr(self.vector_store, "get_chunk_ids_for_article", None)
+                if callable(get_ids):
+                    current_ids = get_ids(article_id)
+                else:  # Keep compatibility with older test doubles/adapters.
+                    current = self.vector_store.collection.get(where={"article_id": article_id}, include=[])
+                    current_ids = current.get("ids", [])
                 fresh = {c.chunk_id for c in chunks}
-                stale = [cid for cid in current.get("ids", []) if cid not in fresh]
+                stale = [cid for cid in current_ids if cid not in fresh]
                 if stale:
-                    self.vector_store.collection.delete(ids=stale)
+                    delete_ids = getattr(self.vector_store, "delete_chunk_ids", None)
+                    if callable(delete_ids):
+                        delete_ids(stale)
+                    else:
+                        self.vector_store.collection.delete(ids=stale)
                 (succeeded_add if article_id in additions else succeeded_update).append(article_id)
             except Exception as exc:
                 failed.append(article_id)
@@ -141,7 +150,11 @@ class DailySitemapSyncer:
         for article_id, misses in list(missing.items()):
             if misses >= 2:
                 # Collection deletion uses metadata filter; preserve source files if DB deletion fails.
-                self.vector_store.collection.delete(where={"article_id": article_id})
+                delete_article = getattr(self.vector_store, "delete_article", None)
+                if callable(delete_article):
+                    delete_article(article_id)
+                else:
+                    self.vector_store.collection.delete(where={"article_id": article_id})
                 file_path = self.crawler.articles_dir / f"{article_id}.json"
                 if file_path.exists():
                     file_path.unlink()

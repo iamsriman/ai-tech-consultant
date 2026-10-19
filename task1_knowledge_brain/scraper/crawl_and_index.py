@@ -25,11 +25,20 @@ def index_article(article, store: BDVectorStore, chunker: HierarchyAwareChunker)
         raise ValueError("Article produced no indexable chunks")
     # Upsert replacements first; only then remove obsolete chunk IDs.
     store.add_chunks(chunks)
-    current = store.collection.get(where={"article_id": str(article.article_id)}, include=[])
+    get_ids = getattr(store, "get_chunk_ids_for_article", None)
+    if callable(get_ids):
+        current_ids = get_ids(str(article.article_id))
+    else:
+        current = store.collection.get(where={"article_id": str(article.article_id)}, include=[])
+        current_ids = current.get("ids", [])
     new_ids = {chunk.chunk_id for chunk in chunks}
-    stale_ids = [chunk_id for chunk_id in current.get("ids", []) if chunk_id not in new_ids]
+    stale_ids = [chunk_id for chunk_id in current_ids if chunk_id not in new_ids]
     if stale_ids:
-        store.collection.delete(ids=stale_ids)
+        delete_ids = getattr(store, "delete_chunk_ids", None)
+        if callable(delete_ids):
+            delete_ids(stale_ids)
+        else:
+            store.collection.delete(ids=stale_ids)
     return len(chunks)
 
 

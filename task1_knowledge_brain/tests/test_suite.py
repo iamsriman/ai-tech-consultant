@@ -46,7 +46,8 @@ def all_chunks(chunker, articles):
 @pytest.fixture(scope="module")
 def vector_store(all_chunks, tmp_path_factory):
     store = BDVectorStore(tmp_path_factory.mktemp("kb-store") / "chroma")
-    added = store.add_chunks(all_chunks)
+    # Keep this isolated corpus test practical on CPU-only development machines.
+    added = store.add_chunks(all_chunks, batch_size=64)
     assert added == len(all_chunks), "All chunks should be upserted"
     return store
 
